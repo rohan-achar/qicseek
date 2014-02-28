@@ -21,6 +21,7 @@ stopslist = "a a's	able	about	above	according accordingly	across	actually	after	
 
 
 def LoadTrie():
+    global src
     if "FinalSet" not in os.listdir(os.curdir):
         src = "../" + src
     for item in stopslist:
