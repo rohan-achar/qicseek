@@ -46,4 +46,4 @@ if __name__ == '__main__':
     #DocFetcher.LoadTrie()
     #DocFetcher.docidLoader()
     #main()
-    os.listdir(os.curdir)
+    print(os.listdir(os.curdir))
