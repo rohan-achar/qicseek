@@ -51,7 +51,7 @@ if __name__ == '__main__':
     #    admin.runAsAdmin()
     port = 4444
     if ('PORT' in os.environ):
-        port = os.environ['PORT']
+        port = int(os.environ['PORT'])
     print(sys.argv)
     Thread(target = DataLoader, args=()).start()
     main(port)
