@@ -40,8 +40,8 @@ def main():
         server.socket.close()
 
 if __name__ == '__main__':
-    if not admin.isUserAdmin():
-        admin.runAsAdmin()
-    DocFetcher.LoadTrie()
+    #if not admin.isUserAdmin():
+    #    admin.runAsAdmin()
+    Do1cFetcher.LoadTrie()
     DocFetcher.docidLoader()
     main()
