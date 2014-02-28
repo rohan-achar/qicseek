@@ -3,6 +3,7 @@ from io import open
 from urlparse import urlparse,parse_qs
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
 import os
+import sys
 
 import DocFetcher, admin
 
@@ -31,9 +32,9 @@ class QueryHandler(BaseHTTPRequestHandler):
         except IOError:
             self.send_error(404,'What Shady Shit was tried?')
 
-def main():
+def main(port):
     try:
-        server = HTTPServer(('', 80), QueryHandler)
+        server = HTTPServer(('', port), QueryHandler)
         print 'Loading up Awesome server.'
         server.serve_forever()
     except KeyboardInterrupt:
@@ -43,6 +44,10 @@ def main():
 if __name__ == '__main__':
     #if not admin.isUserAdmin():
     #    admin.runAsAdmin()
-    main()
+    port = 4444
+    if (len(sys.argv) > 1):
+        port = sys.argv[1]
+    print(sys.argv)
+    main(port)
     DocFetcher.LoadTrie()
     DocFetcher.docidLoader()

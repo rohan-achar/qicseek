@@ -1,1 +1,1 @@
-web: python ICSSearch/Server.py
+web: python ICSSearch/Server.py $PORT
