@@ -50,8 +50,8 @@ if __name__ == '__main__':
     #if not admin.isUserAdmin():
     #    admin.runAsAdmin()
     port = 4444
-    if (len(sys.argv) > 1):
-        port = sys.argv[1]
+    if ('PORT' in os.environ):
+        port = os.environ['PORT']
     print(sys.argv)
     Thread(target = DataLoader, args=()).start()
     main(port)
