@@ -11,7 +11,7 @@ from cPickle import *
 
 import Trie
 
-src = "../FinalSet/"
+src = "FinalSet/"
 list_of_bad_files = []
 picklefile = src + "IndexPickle.lime"
 docidfile = src + "DocId.tsv"
@@ -21,6 +21,8 @@ stopslist = "a a's	able	about	above	according accordingly	across	actually	after	
 
 
 def LoadTrie():
+    if "FinalSet" not in os.listdir(os.curdir):
+        src = "../" + src
     for item in stopslist:
         stops[item.strip()] = 1
     

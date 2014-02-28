@@ -43,7 +43,6 @@ def main():
 if __name__ == '__main__':
     #if not admin.isUserAdmin():
     #    admin.runAsAdmin()
-    #DocFetcher.LoadTrie()
-    #DocFetcher.docidLoader()
-    #main()
-    print(os.listdir(os.curdir))
+    DocFetcher.LoadTrie()
+    DocFetcher.docidLoader()
+    main()
