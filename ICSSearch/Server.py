@@ -4,6 +4,7 @@ from urlparse import urlparse,parse_qs
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
 import os
 import sys
+from threading import *
 
 import DocFetcher, admin
 
@@ -32,6 +33,10 @@ class QueryHandler(BaseHTTPRequestHandler):
         except IOError:
             self.send_error(404,'What Shady Shit was tried?')
 
+def DataLoader():
+    DocFetcher.LoadTrie()
+    DocFetcher.docidLoader()
+
 def main(port):
     try:
         server = HTTPServer(('', port), QueryHandler)
@@ -48,6 +53,5 @@ if __name__ == '__main__':
     if (len(sys.argv) > 1):
         port = sys.argv[1]
     print(sys.argv)
+    Thread(target = DataLoader, args=()).start()
     main(port)
-    DocFetcher.LoadTrie()
-    DocFetcher.docidLoader()
