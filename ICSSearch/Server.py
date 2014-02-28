@@ -33,7 +33,7 @@ class QueryHandler(BaseHTTPRequestHandler):
 
 def main():
     try:
-        server = HTTPServer(('', 4444), QueryHandler)
+        server = HTTPServer(('', 80), QueryHandler)
         print 'Loading up Awesome server.'
         server.serve_forever()
     except KeyboardInterrupt:
@@ -43,6 +43,6 @@ def main():
 if __name__ == '__main__':
     #if not admin.isUserAdmin():
     #    admin.runAsAdmin()
+    main()
     DocFetcher.LoadTrie()
     DocFetcher.docidLoader()
-    main()
