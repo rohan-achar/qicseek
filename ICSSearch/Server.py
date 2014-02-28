@@ -2,6 +2,7 @@ import string,cgi,time,urllib,json
 from io import open
 from urlparse import urlparse,parse_qs
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
+import os
 
 import DocFetcher, admin
 
@@ -42,6 +43,7 @@ def main():
 if __name__ == '__main__':
     #if not admin.isUserAdmin():
     #    admin.runAsAdmin()
-    DocFetcher.LoadTrie()
-    DocFetcher.docidLoader()
-    main()
+    #DocFetcher.LoadTrie()
+    #DocFetcher.docidLoader()
+    #main()
+    os.listdir(os.curdir)
