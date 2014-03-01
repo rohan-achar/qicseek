@@ -1,0 +1,24 @@
+.custom-search {
+	margin-top: 20px;
+}
+
+.navbar {
+	position: relative;
+	width: 100%;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+	font-size: 28px;
+}
+
+.search-button {
+	width: 150px;
+	font-weight: bold;
+}
+
+.container .row {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}

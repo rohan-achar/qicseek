@@ -18,6 +18,11 @@ def addToTrie(list_indices, key, object):
     temp = eval(evalstring)
     temp[key] = object
 
+#def GetNearestMatchFromTrie(key):
+#    if key in IndexTrie:
+#        return (True, IndexTrie[key])
+#    else:
+#        return (False, "")
 def GetNearestMatchFromTrie(key):
     key = key + "$"
     i = 0
@@ -35,7 +40,7 @@ def GetNearestMatchFromTrie(key):
                 dict = getFromTrie(list_indices)
                 if (dict == False):
                     return False,
-                possiblematch = dict["#"]
+                possiblematch = key[j] + dict["#"]
             else:
                 return False, key[j:-1], i, j, list_indices, possiblematch, True
         elif possiblematch[i] == key[j]:
@@ -45,12 +50,15 @@ def GetNearestMatchFromTrie(key):
             return False, key[j:-1], i, j, list_indices, possiblematch, False
 
         #d["cat"] : {A} -> d["c"] : {"at" : {A}},{"ot": {B}}
+
+#def AddKeyToTrie(key, value):
+#    IndexTrie[key] = value
 def AddKeyToTrie(key, value):
     
     key = key + "$"
     if (IndexTrie == {}):
         IndexTrie[key[0]] = {}
-        IndexTrie[key[0]]["#"] = key[:-1]
+        IndexTrie[key[0]]["#"] = key[1:-1]
         IndexTrie[key[0]]["$"] = value
         return
     match = GetNearestMatchFromTrie(key[:-1])
@@ -70,20 +78,20 @@ def AddKeyToTrie(key, value):
         if (match[6]):
             if (j<len(key)-1):
                 node = {}
-                node["#"] = key[j:-1]
+                node["#"] = key[j+1:-1]
                 node["$"] = value
                 addToTrie(match[4], key[j], node)
             else:
                 addToTrie(match[4], "$", value)
         else:
             oldnode[possiblematch[i]] = copy.deepcopy(dict)
-            oldnode[possiblematch[i]]["#"] = possiblematch[i:]
-            oldnode["#"] = possiblematch[:i]
+            oldnode[possiblematch[i]]["#"] = possiblematch[i+1:]
+            oldnode["#"] = possiblematch[1:i]
             if j==len(key) -1:
                 oldnode["$"] = value
             else:
                 node = {}
-                node["#"] = key[j:-1]
+                node["#"] = key[j+1:-1]
                 node["$"] = value
                 oldnode[key[j]] = node
             addToTrie(match[4][:-1], possiblematch[0], oldnode)
@@ -91,7 +99,7 @@ def AddKeyToTrie(key, value):
 def GetWholeWord(list_indices):
     if (len(list_indices) == 0):
         return u""
-    return GetWholeWord(list_indices[:-1]) + getFromTrie(list_indices)["#"]
+    return GetWholeWord(list_indices[:-1]) + list_indices[-1] + getFromTrie(list_indices)["#"]
 
 def GetListofWords(list_indices, depth, max_depth):
     # get nearest till depth is max_depth

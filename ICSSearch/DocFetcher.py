@@ -22,8 +22,12 @@ stopslist = "a a's	able	about	above	according accordingly	across	actually	after	
 
 def LoadTrie():
     global src
+    global picklefile
+    global docidfile
     if "FinalSet" not in os.listdir(os.curdir):
         src = "../" + src
+        picklefile = "../" + picklefile
+        docidfile = "../" + docidfile
     for item in stopslist:
         stops[item.strip()] = 1
     
@@ -41,7 +45,7 @@ def LoadTrie():
             count = 1
             for i in jsonData:
                 Trie.AddKeyToTrie(i, jsonData[i])
-        
+                
                 #if (count%10 == 0):
                 #    print("done with ", count, " terms")
                 count += 1
