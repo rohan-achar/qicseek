@@ -38,7 +38,7 @@ def LoadTrie():
     print ("Loading To memory")
     if os.access(picklefile, os.F_OK):
         preservedjar = open(picklefile, "rb")
-        Trie.IndexTrie = load(preservedjar)
+        Trie.IndexTrie = json.load(preservedjar)
         preservedjar.close()
         print ("\nLoad Complete in: ", time.clock() - start)
     else:
@@ -90,7 +90,7 @@ def LoadTrie():
         if (bad_values == []):
             verify = time.clock() - start
             picklejar = open(picklefile, "wb")
-            dump(Trie.IndexTrie, picklejar, 2)
+            json.dump(Trie.IndexTrie, picklejar)
             picklejar.close()
             print ("\nVerified in ", verify, "secs and good to go. (created pickle)")
 
@@ -122,6 +122,7 @@ def conflatedDocids(result):
 
 def rankresult(result):
     return sorted(result, key = lambda x:x[1], reverse = True)
+    #return result
 
 def docidLoader():
     docidreader = open(docidfile, "r")
