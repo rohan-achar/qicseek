@@ -108,20 +108,27 @@ def LoadTrie():
 
 def conflatedDocids(result):
     if (len(result) == 1):
-        return [(i[0], docdict[i[0]][2]) for i in result[0]]
+        return [(i[0], docdict[i[0]][2], int(i[2])) for i in result[0]]
     starting = True
     interset = 0
+    docidtfsum = {}
     for item in result:
+        setlist = []
+        for i in item:
+            setlist.append(i[0])
+            if i[0] not in docidtfsum:
+                docidtfsum[i[0]] = 0
+            docidtfsum[i[0]] += int(i[2])
         if starting:
             starting = False
-            interset = sets.Set([(i[0], docdict[i[0]][2]) for i in item])
+            interset = sets.Set(setlist)
         else:
-            interset = interset.intersection(sets.Set([(i[0], docdict[i[0]][2]) for i in item]))
+            interset = interset.intersection(sets.Set(setlist))
 
-    return list(interset)
+    return [(i, docdict[i][2], docidtfsum[i]) for i in list(interset)]
 
 def rankresult(result):
-    return sorted(result, key = lambda x:x[1], reverse = True)
+    return sorted(sorted(result, key = lambda x:x[1], reverse = True), key = lambda x: x[2], reverse = True)
     #return result
 
 def docidLoader():
