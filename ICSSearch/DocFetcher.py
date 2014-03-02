@@ -38,9 +38,15 @@ def LoadTrie():
     print ("Loading To memory")
     if os.access(picklefile, os.F_OK):
         preservedjar = open(picklefile, "rb")
-        Trie.IndexTrie = json.load(preservedjar)
+        dataDump = json.load(preservedjar)
+        Trie.IndexTrie = dataDump["Index"]
+        for item in dataDump["Hash"]:
+            Trie.FinalMapDict[int(item)] = dataDump["Hash"][item]
+        del dataDump
         preservedjar.close()
         print ("\nLoad Complete in: ", time.clock() - start)
+        #Trie.Duplicates(Trie.IndexTrie)
+        #Trie.Statistics()
     else:
         print ("                          |\r", end = "")
         def LoadIndex(filename):
@@ -60,7 +66,7 @@ def LoadTrie():
             #list_threads.append(Thread(target = LoadIndex, args = (src + file,)))
             #list_threads[-1].start()
             LoadIndex(indexsrc + file)
-        
+        del Trie.IncDict
         #for thread in list_threads:
         #    thread.join()    
 
@@ -90,7 +96,10 @@ def LoadTrie():
         if (bad_values == []):
             verify = time.clock() - start
             picklejar = open(picklefile, "wb")
-            json.dump(Trie.IndexTrie, picklejar)
+            dataDump = {}
+            dataDump["Index"] = Trie.IndexTrie
+            dataDump["Hash"] = Trie.FinalMapDict
+            json.dump(dataDump, picklejar)
             picklejar.close()
             print ("\nVerified in ", verify, "secs and good to go. (created pickle)")
 

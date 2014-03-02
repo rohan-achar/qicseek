@@ -1,5 +1,40 @@
 import copy
 IndexTrie = {} #! -> closest matching node, #->possiblematch, $->node of the document
+IncDict = {}
+FinalMapDict = {}
+IncCountMap = {}
+IncCount = 1
+free_num = []
+
+def GetValue(key):
+    global IncCount
+    v = 0
+    if key in IncDict:
+        IncCountMap[IncDict[key]] += 1
+        return IncDict[key]
+    if (free_num != []):
+        v = free_num.pop()
+    else:
+        v = IncCount
+        IncCount += 1
+    IncDict[key] = v
+    FinalMapDict[v] = key
+    if v not in IncCountMap:
+        IncCountMap[v] = 0
+    IncCountMap[v] += 1
+    return v
+
+def RemoveKey(value):
+    if value in FinalMapDict:
+        key = FinalMapDict[value]
+        IncCountMap[value] -= 1
+        if IncCountMap[value] == 0:
+            free_num.append(value)
+            del IncDict[key]
+            del FinalMapDict[value]
+    elif value not in FinalMapDict:
+        print("Waaaaait")
+            
 
 def getFromTrie(list_indices):
     try:
@@ -40,7 +75,7 @@ def GetNearestMatchFromTrie(key):
                 dict = getFromTrie(list_indices)
                 if (dict == False):
                     return False,
-                possiblematch = key[j] + dict["#"]
+                possiblematch = key[j] + FinalMapDict[dict["#"]]
             else:
                 return False, key[j:-1], i, j, list_indices, possiblematch, True
         elif possiblematch[i] == key[j]:
@@ -58,7 +93,7 @@ def AddKeyToTrie(key, value):
     key = key + "$"
     if (IndexTrie == {}):
         IndexTrie[key[0]] = {}
-        IndexTrie[key[0]]["#"] = key[1:-1]
+        IndexTrie[key[0]]["#"] = GetValue(key[1:-1])
         IndexTrie[key[0]]["$"] = value
         return
     match = GetNearestMatchFromTrie(key[:-1])
@@ -78,20 +113,21 @@ def AddKeyToTrie(key, value):
         if (match[6]):
             if (j<len(key)-1):
                 node = {}
-                node["#"] = key[j+1:-1]
+                node["#"] = GetValue(key[j+1:-1])
                 node["$"] = value
                 addToTrie(match[4], key[j], node)
             else:
                 addToTrie(match[4], "$", value)
         else:
+            RemoveKey(dict["#"])
             oldnode[possiblematch[i]] = copy.deepcopy(dict)
-            oldnode[possiblematch[i]]["#"] = possiblematch[i+1:]
-            oldnode["#"] = possiblematch[1:i]
+            oldnode[possiblematch[i]]["#"] = GetValue(possiblematch[i+1:])
+            oldnode["#"] = GetValue(possiblematch[1:i])
             if j==len(key) -1:
                 oldnode["$"] = value
             else:
                 node = {}
-                node["#"] = key[j+1:-1]
+                node["#"] = GetValue(key[j+1:-1])
                 node["$"] = value
                 oldnode[key[j]] = node
             addToTrie(match[4][:-1], possiblematch[0], oldnode)
@@ -99,7 +135,7 @@ def AddKeyToTrie(key, value):
 def GetWholeWord(list_indices):
     if (len(list_indices) == 0):
         return u""
-    return GetWholeWord(list_indices[:-1]) + list_indices[-1] + getFromTrie(list_indices)["#"]
+    return GetWholeWord(list_indices[:-1]) + list_indices[-1] + FinalMapDict[getFromTrie(list_indices)["#"]]
 
 def GetListofWords(list_indices, depth, max_depth):
     # get nearest till depth is max_depth
@@ -114,3 +150,39 @@ def GetListofWords(list_indices, depth, max_depth):
         if index != "#" and index != "$":
             result.extend(GetListofWords(list_indices + [index], depth + 1, max_depth))
     return result
+
+#compressabilty = {}
+#def Duplicates(dict):
+#    if "#" in dict:
+#        if dict["#"] not in compressabilty:
+#            compressabilty[dict["#"]] = 0
+#        compressabilty[dict["#"]] += 1
+#    for item in dict:
+#        if item != "$" and item != "#":
+#            Duplicates(dict[item])
+
+
+#def Statistics():
+#    result = []
+#    total = 0
+#    totalwc = 0
+#    excess = 0
+#    excesswc = 0
+#    manyletterexcess = 0
+#    manyletterwc = 0
+#    for item in compressabilty:
+#        if compressabilty[item] > 1:
+#            excess += compressabilty[item] - 1
+#            excesswc += compressabilty[item] * len(item)
+#            if len(item) > 2:
+#                manyletterexcess += compressabilty[item] - 1
+#                manyletterwc += compressabilty[item] * len(item)
+#        total += compressabilty[item]
+#        totalwc += compressabilty[item] * len(item)
+#    print("totalwc: ", totalwc)
+#    print("excesswc: ", excesswc)
+#    print("manyletterexcesswc: ", manyletterwc)
+#    print("total: ", total)
+#    print("excess: ", excess)
+#    print("manyletterexcess: ", manyletterexcess)
+#    print("dictlength: ", len(compressabilty))
