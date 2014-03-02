@@ -65,7 +65,7 @@ def DataLoader():
 
 def main(port):
     try:
-        server = HTTPServer(('', 80), QueryHandler)
+        server = HTTPServer(('', port), QueryHandler)
         print 'Loading up Awesome server.'
         server.serve_forever()
     except KeyboardInterrupt:
@@ -75,7 +75,7 @@ def main(port):
 if __name__ == '__main__':
     #if not admin.isUserAdmin():
     #    admin.runAsAdmin()
-    port = 4444
+    port = 80
     if ('PORT' in os.environ):
         port = int(os.environ['PORT'])
     print(sys.argv)
