@@ -27,6 +27,7 @@
   <ItemGroup>
     <Compile Include="admin.py" />
     <Compile Include="DocFetcher.py" />
+    <Compile Include="PageRank.py" />
     <Compile Include="Server.py" />
     <Compile Include="Trie.py" />
   </ItemGroup>

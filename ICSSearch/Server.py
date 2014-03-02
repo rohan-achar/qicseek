@@ -17,12 +17,22 @@ class QueryHandler(BaseHTTPRequestHandler):
             if "as" in queries and queries["as"][0] == "true":
                 #auto suggest part
                 if "q" in queries:
-                    jsonResp = json.dumps(DocFetcher.GetASResult(queries["q"][0]))
-                    hasResp = True
+                    respDict = {}
+                    t = Thread(target = DocFetcher.GetASResult, args= (queries["q"][0], respDict))
+                    t.start()
+                    t.join()
+                    if (t.getName() in respDict):
+                        jsonResp = json.dumps(respDict[t.getName()])
+                        hasResp = True
             elif "q" in queries:
                 #normal query part
-                jsonResp = json.dumps(DocFetcher.GetResult(queries["q"][0]))
-                hasResp = True
+                respDict = {}
+                t = Thread(target = DocFetcher.GetResult, args= (queries["q"][0], respDict))
+                t.start()
+                t.join()
+                if (t.name in respDict):
+                    jsonResp = json.dumps(respDict[t.name])
+                    hasResp = True
             if hasResp:    
                 self.send_response(200)
                 self.send_header('Content-type','application/json')
@@ -60,12 +70,13 @@ class QueryHandler(BaseHTTPRequestHandler):
             self.send_error(404,'What Shady Shit was tried?')
 
 def DataLoader():
-    DocFetcher.LoadTrie()
+    DocFetcher.MassageFilePath()
+    DocFetcher.CreateTrie()
     DocFetcher.docidLoader()
 
 def main(port):
     try:
-        server = HTTPServer(('', 80), QueryHandler)
+        server = HTTPServer(('', port), QueryHandler)
         print 'Loading up Awesome server.'
         server.serve_forever()
     except KeyboardInterrupt:
@@ -75,7 +86,7 @@ def main(port):
 if __name__ == '__main__':
     #if not admin.isUserAdmin():
     #    admin.runAsAdmin()
-    port = 4444
+    port = 89
     if ('PORT' in os.environ):
         port = int(os.environ['PORT'])
     print(sys.argv)

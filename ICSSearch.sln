@@ -5,6 +5,12 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ICSSearch", "ICSSearch\ICSSearch.pyproj", "{B45B1EC7-1146-440F-A85F-1D3520E061D5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FBB401AE-2F4C-44CA-8599-DC13016270F7}"
+	ProjectSection(SolutionItems) = preProject
+		Procfile = Procfile
+		requirements.txt = requirements.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

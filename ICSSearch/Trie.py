@@ -1,6 +1,10 @@
 import copy
-IndexTrie = {} #! -> closest matching node, #->possiblematch, $->node of the document
+import gc
+import json, os
 
+IndexTrie = {} #! -> closest matching node, #->possiblematch, $->node of the document
+triesrc = "../FinalSet/Trie/{}.json"
+charcache = {}
 def getFromTrie(list_indices):
     try:
         evalstring = "IndexTrie"
@@ -23,7 +27,24 @@ def addToTrie(list_indices, key, object):
 #        return (True, IndexTrie[key])
 #    else:
 #        return (False, "")
+def GetTrieFromFile(char):
+    filename = triesrc.format(char)
+    if os.access(filename, os.F_OK):
+        f = open(triesrc.format(char), "r")
+        IndexTrie[char] = json.load(f)
+
+def UnloadTrie():
+    IndexTrie = {}
+    for item in charcache:
+        if charcache[item]:
+            charcache[item] = False
+    #print("collected: ", gc.collect())
+
 def GetNearestMatchFromTrie(key):
+    if key[0] not in charcache or not charcache[key[0]]:
+        GetTrieFromFile(key[0])
+        charcache[key[0]] = True
+    
     key = key + "$"
     i = 0
     j = 0
@@ -95,6 +116,7 @@ def AddKeyToTrie(key, value):
                 node["$"] = value
                 oldnode[key[j]] = node
             addToTrie(match[4][:-1], possiblematch[0], oldnode)
+    #print("Collected: ", gc.collect())
 
 def GetWholeWord(list_indices):
     if (len(list_indices) == 0):
