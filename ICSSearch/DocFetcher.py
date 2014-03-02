@@ -149,12 +149,16 @@ def docidLoader():
 
 def urllist(result):
     urls = {}
-    for item in result[:10]:
-        if item[0] in docdict:
+    count = 0
+    for item in result:
+        if item[0] in docdict and "http://luci.ics.uci.edu/blog/" not in docdict[item[0]][0]:
             d = {}
             d["title"] = ""
             d["url"] = docdict[item[0]][0]
             urls[item[0]] = d
+            count +=1
+        if count == 10:
+            break
     return urls
 
 
