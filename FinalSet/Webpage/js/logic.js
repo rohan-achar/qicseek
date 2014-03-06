@@ -2,6 +2,14 @@ function init() {
 	$('#searchButton').click(function(i,obj){
 		sendSearchRequest();
 	});
+	$(document).keypress(function(e) {
+		if($('#searchText').is(':focus'))
+		{
+	    	if(e.which == 13) {
+	        	sendSearchRequest();
+	    	}
+	    }
+	});
 }
 
 
@@ -48,6 +56,7 @@ function sendSearchRequest() {
 								);
 				resultsContainer.append(resultRow);
 			}
+			$('#searchText').blur();
 		}
 	})
 }
