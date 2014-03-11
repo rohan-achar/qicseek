@@ -62,6 +62,7 @@ class QueryHandler(BaseHTTPRequestHandler):
 def DataLoader():
     DocFetcher.LoadTrie()
     DocFetcher.docidLoader()
+    print("Done")
 
 def main(port):
     try:

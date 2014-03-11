@@ -2,11 +2,11 @@ import json
 import string
 from time import sleep
 import numpy as np
-from scipy import linalg
+from scipy.sparse import linalg
 
-PROJ_FOLDER = "/home/siva/w14_inf225/Assignment 3/"
+PROJ_FOLDER = "../FinalSet/"
 TESTBED_DOC_ID = PROJ_FOLDER+"DocId.tsv"
-INDEX_FOLDER = PROJ_FOLDER+"index_dumps/"
+INDEX_FOLDER = PROJ_FOLDER+"Index/"
 NUM_OF_DOCIDS = 46911 # Ideally read from DocId.tsv
 
 tempDict = {}
@@ -31,7 +31,7 @@ for char in string.ascii_lowercase:
 		if(termId%1000 == 0):
 			print termId
 
-linalg.svd(tdMatrix)
+linalg.svds(tdMatrix)
 
 print(len(tdMatrix))
 
