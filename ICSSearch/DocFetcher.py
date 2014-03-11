@@ -10,10 +10,11 @@ import copy
 
 src = "../FinalSet/"
 list_of_bad_files = []
-picklefile = src + "IndexPickle.lime"
+picklefile = src + "IndexPickle.json"
 docidfile = src + "DocId.tsv"
 pagerankfile = src + "pagerank.tsv"
 docidjson = src + "docIdLoaded.json"
+hashfile = src + "HashFile.json"
 docdict = {}
 stops = {}
 
@@ -23,13 +24,9 @@ def LoadTrie():
     print(len(stops))    
     start = time.clock()
     print ("Loading To memory")
-    if os.access(picklefile, os.F_OK):
-        preservedjar = open(picklefile, "rb")
-        dataDump = json.load(preservedjar)
-        Trie.IndexTrie = copy.copy(dataDump["Index"])
-        for item in dataDump["Hash"]:
-            Trie.FinalMapDict[int(item)] = copy.copy(dataDump["Hash"][item])
-        preservedjar.close()
+    if os.access(picklefile, os.F_OK) and os.access(hashfile, os.F_OK):
+        Trie.IndexTrie = json.load(open(picklefile, "rb"))
+        Trie.FinalMapDict = dict([(int(item), value) for item, value in json.load(open(hashfile, "rb")).items()])
         print ("\nLoad Complete in: ", time.clock() - start)
         #Trie.Duplicates(Trie.IndexTrie)
         #Trie.Statistics()
@@ -81,12 +78,8 @@ def LoadTrie():
             print ("=", sep="", end="")
         if (bad_values == []):
             verify = time.clock() - start
-            picklejar = open(picklefile, "wb")
-            dataDump = {}
-            dataDump["Index"] = Trie.IndexTrie
-            dataDump["Hash"] = Trie.FinalMapDict
-            json.dump(dataDump, picklejar)
-            picklejar.close()
+            json.dump(Trie.IndexTrie, open(picklefile, "wb"))
+            json.dump(Trie.FinalMapDict, open(hashfile, "wb"))
             print ("\nVerified in ", verify, "secs and good to go. (created pickle)")
 
         else:
