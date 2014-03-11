@@ -50,7 +50,7 @@ function sendSearchRequest() {
 				url = searchResults[docId]['url'];
 				urlTitle =  searchResults[docId]['title'].length == 0 ? url : searchResults[docId]['title'];
 				var resultRow = $('<div/>').append(
-											$('<h2/>').append(
+											$('<h4/>').append(
 												$('<a/>').html(urlTitle).attr('href',url).addClass('')
 											)
 								);
