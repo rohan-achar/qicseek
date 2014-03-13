@@ -3,20 +3,20 @@ import math
 import re
 from collections import OrderedDict
 
-PROJ_FOLDER = "/home/siva/w14_inf225/Assignment 3/"
-TESTBED_DOC_ID = PROJ_FOLDER+"FinalSet/DocId.tsv"
+PROJ_FOLDER = "../FinalSet/"
+TESTBED_DOC_ID = PROJ_FOLDER+"DocId.tsv"
 PFQ_FOLDER = PROJ_FOLDER+"Pfq/"
-INDEX_FOLDER = PROJ_FOLDER+"index_dumps/"
+INDEX_FOLDER = PROJ_FOLDER+"Index/"
 
 indexDict = {}
 
-def getFileLines(fileName: str) -> [str]:
+def getFileLines(fileName):
 	tempFile = open(fileName, "r")
 	tempLines = tempFile.readlines()
 	tempFile.close()
 	return tempLines
 
-def deltaEncode(numList: list) -> list:
+def deltaEncode(numList):
 	tempList = []
 	prevItem = 0
 	for n in numList:
@@ -24,7 +24,7 @@ def deltaEncode(numList: list) -> list:
 		prevItem = int(n)
 	return tempList
 
-def mergeIndicesToDict(pfqFileName: str, docId: int):
+def mergeIndicesToDict(pfqFileName, docId):
 	pfqLines = getFileLines(PFQ_FOLDER+pfqFileName+".pfq")
 	for line in pfqLines:
 		lineSplits = line.strip().split(",\t")

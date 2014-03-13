@@ -26,13 +26,20 @@ termId = 0
 for char in string.ascii_lowercase:
 	for key in tempDict[char]:
 		for postId in range(tempDict[char][key][0]):
-			tdMatrix[termId][int(tempDict[char][key][1][postId][0])] = int(tempDict[char][key][1][postId][2]) 
+			tdMatrix[termId][int(tempDict[char][key][1][postId][0])] = float(tempDict[char][key][1][postId][2]) 
 		termId += 1
 		if(termId%1000 == 0):
 			print termId
-
-linalg.svds(tdMatrix)
-
+while True:
+	sleep(100)
+file = open("svd.txt", "w")
+v = 1
+for i in tdMatrix:
+	file.write(str(i)[1:-1] + "\n")
+	if (v%1000 == 0):
+		print(v)
+	v +=1
+file.close()
 print(len(tdMatrix))
 
 		 

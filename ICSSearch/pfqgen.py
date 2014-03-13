@@ -15,7 +15,7 @@ for item in stopslist:
 wnl = nltk.WordNetLemmatizer()
         
 docidextras = json.load(open("../FinalSet/docidtitle.json", "r"))
-didextrascomplete = copy.deepcopy(docidextras)
+didextrascomplete = json.load(open("../FinalSet/docidtitle.json", "r"))
 print("loaded from file")
 mn = 1
 for docid in docidextras:
@@ -44,7 +44,7 @@ for docid in docidextras:
 
 print("loading from file and creating sets done")
 
-weightvalue = {"title": 1024, "a":512, "h1":256, "h2":128, "h3":64, "h4":32, "h5":16, "h6":8, "b":4, "i":2}
+weightvalue = {"title": 512, "a":256, "h1":128, "h2":64, "h3":32, "h4":16, "h5":8, "h6":4, "b":2, "i":1}
 
 
 
@@ -56,13 +56,15 @@ for line in open("../FinalSet/DocId.tsv", "r"):
 
 def  sumTypes(docid, word):
     sum = 0
+    if docid not in docidextras:
+        return 0
     for types in docidextras[docid]:
-        if word.lower() in docidextras[docid][types]:
+        if word.lower() in docidextras[docid][types] and types != "u":
             sum += weightvalue[types]
     return sum
 
 def getExtraLines(docid):
-    if "a" in didextrascomplete[docid]:
+    if docid in didextrascomplete and "a" in didextrascomplete[docid]:
         return " " + " ".join(didextrascomplete[docid]["a"])
     return ""
 

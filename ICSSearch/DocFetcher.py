@@ -139,7 +139,6 @@ def cosineSimilarDocs(indexPostingList):
     for term in queryTermTfDict:
         queryVector[term] = round((1+math.log(queryTermTfDict[term][0],10)) * math.log(len(docdict)/queryTermTfDict[term][1],10),1)
 
-    print(queryVector,'\n',docVectors)
     # Sample vectors
     # queryVector = {'sivabalan': 4.0, 'rohan': 3.7}
     # docVectors = {u'20689': {'rohan': 4.1}, u'41463': {'rohan': 5.4}, u'23940': {'rohan': 4.1}, , u'41456': {'rohan': 5.4}, u'41460': {'sivabalan': 5.9, 'rohan': 5.4}, 
