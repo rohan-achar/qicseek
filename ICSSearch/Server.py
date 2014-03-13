@@ -20,8 +20,11 @@ class QueryHandler(BaseHTTPRequestHandler):
                     jsonResp = json.dumps(DocFetcher.GetASResult(queries["q"][0]))
                     hasResp = True
             elif "q" in queries:
+                rankingType = 'cosine'
+                if "rt" in queries:
+                    rankingType = queries["rt"][0]  
                 #normal query part
-                jsonResp = json.dumps(DocFetcher.GetResult(queries["q"][0]))
+                jsonResp = json.dumps(DocFetcher.GetResult(queries["q"][0],rankingType))
                 hasResp = True
             if hasResp:    
                 self.send_response(200)
@@ -40,6 +43,9 @@ class QueryHandler(BaseHTTPRequestHandler):
                         path = "../FinalSet/Webpage" + parsed.path
                     elif (".css" in parsed.path):
                         contenttype = "text/css"
+                        path = "../FinalSet/Webpage" + parsed.path
+                    elif(".png" in parsed.path):
+                        contenttype = "image/png"
                         path = "../FinalSet/Webpage" + parsed.path
                     else:
                         contenttype = "text/html"

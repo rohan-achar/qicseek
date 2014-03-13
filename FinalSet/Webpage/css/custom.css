@@ -2,14 +2,36 @@
 	margin-top: 20px;
 }
 
+h2 {
+	color: #A8A8A8;
+}
+
+body {
+	background-image: url("../images/bg1.png");
+}
+
+hr {
+	margin: 0px;
+}
+
 .navbar {
 	position: relative;
 	width: 100%;
+	background-color: transparent;
+	border-color: transparent;	
+	background-image: url("../images/nav-bg.png");
+	margin-bottom: 0px;
+	padding-bottom: 15px;
 }
 
-.navbar-brand {
+.navbar .container {
+	margin-top: 15px;
+}
+
+.navbar-header .navbar-brand {
 	padding-top: 25px;
 	font-size: 28px;
+	color: #2EBB2E;
 }
 
 .search-button {
@@ -30,8 +52,12 @@
 	padding-bottom: 2px;
 }
 
+.results-header {
+	color: #A8A8A8;
+}
+
 .container .row {
-	width: 75%;
+	width: 78%;
 	margin-left: auto;
 	margin-right: auto;
 }

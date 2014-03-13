@@ -7,6 +7,7 @@ import nltk
 import sets
 import Trie
 import copy
+import math
 
 src = "../FinalSet/"
 list_of_bad_files = []
@@ -94,29 +95,72 @@ def LoadTrie():
         print("Best lookup: ", timing[-1][1], " ", timing[-1][0], " secs")
         print("Avg lookup: ", avg, " secs")
 
-def conflatedDocids(result):
+def conflatedDocids(result,rankingType): # Ranking based on TF-IDF
     if (len(result) == 1):
-        return [(i[0], docdict[i[0]][2], int(i[2])) for i in result[0]]
-    starting = True
+            return [(i[0], docdict[i[0]][2], int(i[2])) for i in result[0][1]]
     interset = 0
-    docidtfsum = {}
-    for item in result:
-        setlist = []
-        for i in item:
-            setlist.append(i[0])
-            if i[0] not in docidtfsum:
-                docidtfsum[i[0]] = 0
-            docidtfsum[i[0]] += int(i[2])
-        if starting:
-            starting = False
-            interset = sets.Set(setlist)
-        else:
-            interset = interset.intersection(sets.Set(setlist))
+    if(rankingType == 'tf-idf'):
+        starting = True
+        docidtfsum = {}
+        for item in result:
+            setlist = []
+            for i in item[1]:
+                setlist.append(i[0])
+                if i[0] not in docidtfsum:
+                    docidtfsum[i[0]] = 0
+                docidtfsum[i[0]] += int(i[2])
+            if starting:
+                starting = False
+                interset = sets.Set(setlist)
+            else:
+                #interset = interset.intersection(sets.Set(setlist))
+                interset = interset.union(sets.Set(setlist))
+        return [(i, docdict[i][2], docidtfsum[i]) for i in list(interset)]
+    elif(rankingType == 'cosine'):
+        return cosineSimilarDocs(result)
 
-    return [(i, docdict[i][2], docidtfsum[i]) for i in list(interset)]
+def cosineSimilarDocs(indexPostingList):
+    queryVector = {}
+    docVectors = {}
+    queryTermTfDict = {}
+ 
+    for term,posting in indexPostingList:
+        if(term in queryTermTfDict):
+            queryTermTfDict[term][0] += 1
+            continue
+        else:
+            queryTermTfDict[term] = [1,1] #[TF,DF] #DF initialized to 1 to denote query as a doc #TF counts no.of times term occurs within query
+        for doc in posting:
+            queryTermTfDict[term][1] += 1
+            if(doc[0] in docVectors):
+                docVectors[doc[0]][term] = doc[2]
+            else:
+                docVectors[doc[0]] = {term: doc[2]}
+    for term in queryTermTfDict:
+        queryVector[term] = round((1+math.log(queryTermTfDict[term][0],10)) * math.log(len(docdict)/queryTermTfDict[term][1],10),1)
+
+    print(queryVector,'\n',docVectors)
+    # Sample vectors
+    # queryVector = {'sivabalan': 4.0, 'rohan': 3.7}
+    # docVectors = {u'20689': {'rohan': 4.1}, u'41463': {'rohan': 5.4}, u'23940': {'rohan': 4.1}, , u'41456': {'rohan': 5.4}, u'41460': {'sivabalan': 5.9, 'rohan': 5.4}, 
+    # u'41475': {'sivabalan': 5.9, 'rohan': 5.4}, u'41449': {'rohan': 5.4}, u'41464': {'sivabalan': 5.9, 'rohan': 5.4}, u'20464': {'sivabalan': 4.5, 'rohan': 5.4}}
+
+    return [(i, docdict[i][2], calculateCosineSimilarity(queryVector, docVectors[i])) for i in docVectors]
+
+def calculateCosineSimilarity(vector1, vector2):
+    dotProduct = 0
+    euclideanDistProduct = [0,0]
+    for dimension in vector1:
+        euclideanDistProduct[0] += vector1[dimension] ** 2
+        if(dimension in vector2):
+            dotProduct += vector1[dimension] * vector2[dimension]
+            euclideanDistProduct[1] += vector2[dimension] ** 2
+    euclideanDist = (euclideanDistProduct[0] * euclideanDistProduct[1]) ** 0.5
+    return round(dotProduct/euclideanDist,2)
+
 
 def rankresult(result):
-    return sorted(sorted(result, key = lambda x:x[1], reverse = True), key = lambda x: x[2], reverse = True)
+    return sorted(sorted(result, key = lambda x:x[1], reverse = True), key = lambda x:x[2], reverse = True)
     #return result
 
 def docidLoader():
@@ -139,31 +183,34 @@ def docidLoader():
     print(len(docdict))
     
 def urllist(result):
-    urls = {}
+    urls = []
     count = 0
     for item in result:
         if item[0] in docdict and "http://luci.ics.uci.edu/blog/" not in docdict[item[0]][0]:
             d = {}
+            d["docid"] = item[0]
             d["title"] = ""
             d["url"] = docdict[item[0]][0]
-            urls[item[0]] = d
+            d["score"] = item[2]
+            d["pagerank"] = item[1]
+            urls.append(d)
             count +=1
-        if count == 10:
+        if count == 10: # Limit number of results to return
             break
     return urls
 
 
-
-def GetResult(query):
+def GetResult(query,rankingType):
     start = time.clock()
     tokens = nltk.word_tokenize(query)
     result = []
     for token in tokens:
         data = Trie.GetNearestMatchFromTrie(token)
         if (data[0]):
-            result.append(data[1][1])
+            result.append((token,data[1][1]))
+
     if result != []:
-        finalresult = urllist(rankresult(conflatedDocids(result)))
+        finalresult = urllist(rankresult(conflatedDocids(result,rankingType))) # Ranking based on TF-IDF/Cosine similarity
         timetaken = time.clock() - start
         print("Fetched in ", timetaken, " secs")
         return(finalresult)

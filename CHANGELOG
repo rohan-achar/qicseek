@@ -1,0 +1,16 @@
+#############################
+qicseek - v0.1
+
+* Improved auto suggestion
+	* Accept auto suggestion using tab/right arrow
+	* Partial matches improved
+* Ranking type can be sent via AJAX request 
+	* Current Default: Cosine similarity 
+* DocFetcher.py: Fixed order of urllist (changed from dict to list of dicts)
+* DocFetcher.py: Added Cosine similarity functions
+* DocFetcher.py: Union of documents taken to allow for partial matches
+* Improved UI
+* Server.py: Added code to serve PNG images
+
+-- Sivabalan Thirunavukkarasu - Mar 13, 2014 - 05:43
+#############################

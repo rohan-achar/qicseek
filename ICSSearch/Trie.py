@@ -63,19 +63,19 @@ def GetNearestMatchFromTrie(key):
     i = 0
     j = 0
     possiblematch = ""
-    dict = IndexTrie
+    localDict = IndexTrie
     list_indices = []
     while True:
         if i == len(possiblematch):
             i = 0
-            if key[j] in dict:
+            if key[j] in localDict:
                 if key[j] == "$":
-                    return True, dict["$"]
+                    return True, localDict["$"]
                 list_indices.append(key[j])
-                dict = getFromTrie(list_indices)
-                if (dict == False):
+                localDict = getFromTrie(list_indices)
+                if (localDict == False):
                     return False,
-                possiblematch = key[j] + FinalMapDict[dict["#"]]
+                possiblematch = key[j] + FinalMapDict[localDict["#"]]
             else:
                 return False, key[j:-1], i, j, list_indices, possiblematch, True
         elif possiblematch[i] == key[j]:
