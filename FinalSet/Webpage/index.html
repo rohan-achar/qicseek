@@ -37,13 +37,13 @@
         </div>
         <div class="navbar-collapse collapse">
            <div class="custom-search input-group">
-              
-              <input id="searchText" type="text" class="form-control">
+              <input id="searchText" type="text" class="form-control" autocomplete="off">
               <span class="input-group-btn">
                 <button id="searchButton" class="btn btn-success search-button" type="button">Search</button>
               </span>
+              
             </div>
-
+            <div id="autoSuggestDiv"></div>
           <form class="navbar-form navbar-right" role="form">
             
            
@@ -70,6 +70,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery-2.1.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-  
+    <span id='asSizeCheck'></span>
 
 </body></html>
