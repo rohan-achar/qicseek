@@ -22,7 +22,8 @@ class QueryHandler(BaseHTTPRequestHandler):
             elif "q" in queries:
                 rankingType = 'cosine'
                 if "rt" in queries:
-                    rankingType = queries["rt"][0]  
+                    rankingType = queries["rt"][0] 
+                print(rankingType) 
                 #normal query part
                 jsonResp = json.dumps(DocFetcher.GetResult(queries["q"][0],rankingType))
                 hasResp = True

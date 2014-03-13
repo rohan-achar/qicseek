@@ -12,10 +12,10 @@ function init() {
 			asQueryObj = getWordAtPosition(searchQuery,e.target.selectionStart);
 
 		$asObj.hide();
+		resetResults('Press Enter or click Search to find pages from within ICS!');
 
 		if (e.target.value.slice(-1) != ' ' && $.trim(e.target.value) != '' && $.trim($asObj.text()) != asQueryObj.word)
 		{	
-			console.log(asQueryObj.partial_word);
 			if(asQueryObj.partial_word.length >= 3) 
 			{
 				autoSuggest(e.target,asQueryObj);
@@ -44,6 +44,7 @@ function init() {
 	}
 
 	$(document).keydown(function(e) {
+
 		if($('#searchText').is(':focus'))
 		{
 			var keynum;
@@ -56,6 +57,7 @@ function init() {
             { // Netscape/Firefox/Opera					
             	keynum = e.which;
             }
+            
 	    	if(keynum == 13) 
 	    	{ // Enter key is pressed
 	        	sendSearchRequest();
@@ -84,6 +86,34 @@ function init() {
 
     $asObj.click(function(){
 		acceptAutoSuggest();
+	});
+
+	function setSelectStyleOpen($selectObj) {
+		
+		$selectObj.css('border-bottom-left-radius', '0px');
+		$selectObj.css('border-bottom-right-radius', '0px');
+	}
+
+	function setSelectStyleClosed($selectObj) {
+		$selectObj.css('border-bottom-left-radius', $selectObj.css('border-radius'));
+		$selectObj.css('border-bottom-right-radius', $selectObj.css('border-radius'));
+	}
+
+	var rankTypeSelect = $('#rankTypeSelect'),
+		sOpenFlag = false;
+
+	rankTypeSelect.mousedown(function() {
+		setSelectStyleOpen($(this));
+	});
+
+	rankTypeSelect.blur(function() {
+		setSelectStyleClosed($(this));
+	});
+
+	$('body').mouseup(function() {
+		if(sOpenFlag)
+			setSelectStyleClosed(rankTypeSelect);
+		sOpenFlag = true;
 	});
 }
 
@@ -125,7 +155,6 @@ function autoSuggest(inputObj,asWordObj) {
 		asOffset = asWordObj.start > 0 ? asOffset : asOffset - 2; 
 
 		$asObj.css('left',(asFixedLeft+asOffset+1).toString()+'px');
-	console.log(asWordObj.word, asWordObj.partial_word);
 	$.ajax({
 		type: "GET",
 		url: URL,
@@ -134,7 +163,7 @@ function autoSuggest(inputObj,asWordObj) {
 			
 			searchResults = data;
 			
-			console.log(data);
+			//console.log(data);
 			if(data[0] != asWordObj.word)
 			{
 				cleanPartialWord = asWordObj.partial_word.replace(/\W+/g,'');
@@ -153,7 +182,11 @@ function autoSuggest(inputObj,asWordObj) {
 	})
 }
 
-
+function resetResults(msg) {
+	var resultsContainer = $('.container .row');
+	resultsContainer.empty();
+	resultsContainer.append($('<h2/>').html(msg));
+}
 
 function sendSearchRequest() {
 	var queryText = $("#searchText").val(),
@@ -167,7 +200,7 @@ function sendSearchRequest() {
 	$.ajax({
 		type: "GET",
 		url: URL,
-		data: {'q': queryText, 'rt': 'cosine'},
+		data: {'q': queryText, 'rt': $('#rankTypeSelect').val()},
 		success: function(data) {
 			console.log(data);
 			//searchResults = data;
@@ -181,7 +214,7 @@ function sendSearchRequest() {
 			}
 			else
 			{
-				$('.row h2').html('No results found for '+queryText+'.');
+				resetResults('No results found for '+queryText+'.');
 				return;
 			}
 

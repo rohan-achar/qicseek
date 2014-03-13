@@ -14,3 +14,17 @@ qicseek - v0.1
 
 -- Sivabalan Thirunavukkarasu - Mar 13, 2014 - 05:43
 #############################
+qicseek - v0.2
+
+* Cleaning up index
+* Adding pre-built scripts for anchorText, pageRank, indexBuilder
+
+-- Rohan Achar - Mar 13, 2014 - 14:30
+#############################
+qicseek - v0.3
+
+* Updated UI
+* Added search rank type select option
+
+-- Sivabalan Thirunavukkarasu - Mar 13, 2014 - 14:58
+#############################

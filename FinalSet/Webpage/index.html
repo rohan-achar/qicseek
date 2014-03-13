@@ -34,7 +34,16 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand">qICSeek</a>
+          <div class='search-option'>
+            <vr></vr>
+            <label>Ranking :&nbsp;</label>
+            <select id="rankTypeSelect">
+              <option value='cosine'>Cosine similarity</option>
+              <option value='tf-idf'>TF-IDF</option>
+            </select>
+          </div>
         </div>
+        
         <div class="navbar-collapse collapse">
            <div class="custom-search input-group">
               <input id="searchText" type="text" class="form-control" autocomplete="off"></input>
@@ -56,9 +65,7 @@
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-16">
-          <h2>Your results will appear here!</h2>  
-        </div>
+          <h2>Your ICS search results will appear here!</h2>  
       </div>
 
     </div> <!-- /container -->
