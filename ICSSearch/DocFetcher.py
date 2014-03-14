@@ -126,7 +126,7 @@ def conflatedDocids(result,rankingType): # Ranking based on TF-IDF
     elif(rankingType == 'cosine-pg-tf-idf'):
         return cosineSimilarDocs(result, docidtfsum)
     elif(rankingType == 'cosine-position-pg-tf-idf'):
-        return cosineSimilarDocs(result, docidtfsum, True)
+        return cosineSimilarDocs(result, docidtfsum, len(result[0]) == 4)
 
 def cosineSimilarDocs(indexPostingList, docidtfsum, usePositions = False):
     queryVector = {}
