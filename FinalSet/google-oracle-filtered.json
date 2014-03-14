@@ -1,0 +1,121 @@
+{
+    "Crista Lopes": [
+        "http://www.ics.uci.edu/~tdebeauv/",
+        "http://www.ics.uci.edu/~abaquero/coursework.html",
+        "http://mondego.ics.uci.edu/",
+        "http://www.ics.uci.edu/~mkhademi/",
+        "http://www.ics.uci.edu/~lopes/aop/aop-pics.html",
+        "http://www.ics.uci.edu/~redmiles/ics229-WQ06/",
+        "http://www.ics.uci.edu/community/news/articles/view_article?id=326",
+        "http://www.ics.uci.edu/community/news/features/",
+        "http://www.ics.uci.edu/~corps/people.html",
+        "http://www.ics.uci.edu/community/news/notes/"
+    ],
+    "software engineering": [
+        "http://se.ics.uci.edu/",
+        "http://www.ics.uci.edu/~djr/DebraJRichardson/SE4S.html",
+        "http://www.ics.uci.edu/~emilyo/SimSE/se_rules.html",
+        "http://www.ics.uci.edu/ugrad/degrees/degree_se.php",
+        "http://www.ics.uci.edu/prospective/en/degrees/informatics/",
+        "http://www.ics.uci.edu/~emilyo/SimSE/",
+        "http://www.ics.uci.edu/~jajones/Informatics211.html",
+        "http://www.ics.uci.edu/~andre/ics52w2012.html",
+        "http://www.ics.uci.edu/~ziv/ooad/intro_to_se/tsld008.htm",
+        "http://www.ics.uci.edu/~andre/informatics43f2012.html"
+    ],
+    "student affairs": [
+        "http://www.ics.uci.edu/about/search/search_sao.php",
+        "http://www.ics.uci.edu/prospective/en/contact/student-affairs/",
+        "http://www.ics.uci.edu/ugrad/sao/",
+        "http://www.ics.uci.edu/grad/sao/",
+        "http://www.ics.uci.edu/about/visit/",
+        "http://www.ics.uci.edu/ugrad/resources/",
+        "http://www.ics.uci.edu/about/annualreport/2006-07/sao.php",
+        "http://www.ics.uci.edu/ugrad/policies/",
+        "http://www.ics.uci.edu/ugrad/qa/",
+        "http://www.ics.uci.edu/grad/policies/"
+    ],
+    "REST": [
+        "http://www.ics.uci.edu/~fielding/pubs/dissertation/introduction.htm",
+        "http://www.ics.uci.edu/~fielding/pubs/dissertation/abstract.htm",
+        "http://www.ics.uci.edu/~fielding/pubs/dissertation/conclusions.htm",
+        "http://www.ics.uci.edu/~johannab/the-rest.html",
+        "http://www.ics.uci.edu/~fielding/pubs/dissertation/software_arch.htm",
+        "http://asterixdb.ics.uci.edu/documentation/api.html",
+        "http://www.ics.uci.edu/~kay/courses/141/schemenotes.html",
+        "http://www.ics.uci.edu/~kay/courses/141/hw/hw2.html",
+        "http://www.ics.uci.edu/~kay/courses/31/design-recipe.html",
+        "http://www.ics.uci.edu/~eppstein/pix/sunsets/ontheroad-bra.html"
+    ],
+    "machine learning": [
+        "http://cml.ics.uci.edu/",
+        "http://cml.ics.uci.edu/?page=events&subPage=aiml",
+        "http://sli.ics.uci.edu/Classes/2012F-273a",
+        "http://www.ics.uci.edu/~smyth/",
+        "http://www.ics.uci.edu/~welling/classnotes/classnotes.html",
+        "http://www.ics.uci.edu/~welling/publications/publications.html",
+        "http://www.ics.uci.edu/~akoratti/",
+        "http://www.ics.uci.edu/~qliu1/MLcrowd_ICML_workshop/keynotes.html",
+        "http://cml.ics.uci.edu/?page=events&subPage=mlrg"
+    ],
+    "mondego": [
+        "http://mondego.ics.uci.edu/",
+        "http://sdcl.ics.uci.edu/mondego-group/",
+        "http://mondego.ics.uci.edu/datasets/wikipedia-events/files/",
+        "http://www.ics.uci.edu/~djp3/classes/2006_03_30_ICS105/Resources/AnteaterIdol.html",
+        "http://mondego.ics.uci.edu/datasets/",
+        "http://mondego.ics.uci.edu/datasets/wikipedia-events/",
+        "http://mondego.ics.uci.edu/projects/clonedetection/",
+        "http://mondego.ics.uci.edu/icsergen/",
+        "http://www.ics.uci.edu/~lopes/datasets/",
+        "http://www.ics.uci.edu/~lopes/datasets/sourcerer-maven-aug12.html"
+    ],
+    "graduate courses": [
+        "http://www.ics.uci.edu/grad/courses/",
+        "http://www.ics.uci.edu/grad/policies/",
+        "http://www.ics.uci.edu/grad/admissions/",
+        "http://www.ics.uci.edu/grad/degrees/",
+        "http://www.ics.uci.edu/ugrad/qa/",
+        "http://www.ics.uci.edu/grad/sao/",
+        "http://www.ics.uci.edu/ugrad/courses/",
+        "http://www.ics.uci.edu/ugrad/resources/",
+        "http://www.ics.uci.edu/grad/qa/",
+        "http://www.ics.uci.edu/about/search/search_graduate_all.php"
+    ],
+    "security": [
+        "http://www.ics.uci.edu/computing/linux/security.php",
+        "http://www.ics.uci.edu/~goodrich/teach/ics8/",
+        "http://www.ics.uci.edu/~keldefra/manet.htm",
+        "http://www.ics.uci.edu/computing/linux/file-security.php",
+        "http://sconce.ics.uci.edu/",
+        "http://www.ics.uci.edu/~dan/genealogy/Miller/javascrp/ssn.htm",
+        "http://www.ics.uci.edu/~isse/proj268/index.html",
+        "http://www.ics.uci.edu/~ics54/00w/doc/security/",
+        "http://www.ics.uci.edu/~stasio/spring04/ics180.html",
+        "http://www.ics.uci.edu/~kobsa/talks/privsecum/ppframe.htm"
+    ],
+    "information retrieval": [
+        "http://www.ics.uci.edu/~lopes/teaching/cs221W12/",
+        "http://www.ics.uci.edu/~djp3/classes/2014_01_INF141/calendar.html",
+        "http://www.ics.uci.edu/~djp3/classes/2010_01_CS221/assignmentSchedule.html",
+        "http://www.ics.uci.edu/~djp3/classes/2009_01_02_INF141/",
+        "http://www.ics.uci.edu/~djp3/classes/2014_01_INF141/structure.html",
+        "http://www.ics.uci.edu/~djp3/classes/2008_09_26_CS221/calendar.html",
+        "http://www.ics.uci.edu/~djp3/classes/2009_01_02_INF141/calendar.html",
+        "http://www.ics.uci.edu/~djp3/classes/2008_01_01_INF141/",
+        "http://www.ics.uci.edu/~djp3/classes/2014_01_INF141/admin.html",
+        "http://www-db.ics.uci.edu/pages/research/mars/"
+    ],
+    "computer games": [
+        "http://www.ics.uci.edu/prospective/en/degrees/computer-game-science/",
+        "http://cgvw.ics.uci.edu/",
+        "http://www.ics.uci.edu/ugrad/degrees/",
+        "http://cgvw.ics.uci.edu/affiliated-faculty/",
+        "http://cgvw.ics.uci.edu/author/venita/",
+        "http://frost.ics.uci.edu/cs113/",
+        "http://cgvw.ics.uci.edu/la-times-uc-irvine-takes-video-games-to-the-next-level/",
+        "http://cgvw.ics.uci.edu/author/lopes/",
+        "http://cgvw.ics.uci.edu/seminar-series/distinguished-lecture-series/",
+        "http://cgvw.ics.uci.edu/news-events/"
+    ]
+}

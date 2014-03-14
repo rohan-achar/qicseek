@@ -32,7 +32,7 @@ vr {
 }
 
 .search-option select {
-	border-radius: 13px;
+	background-color: #ccc;
 	padding: 5px;
 	padding-right: 5px;
 	outline: 0;
@@ -87,11 +87,36 @@ vr {
 }
 
 .results-header {
-	color: #A8A8A8;
+	color: #666;
+	margin-bottom: 10px;
 }
 
 .container .row {
-	width: 78%;
 	margin-left: 0;
 	margin-right: auto;
+}
+
+#searchResults {
+	padding: 0;
+}
+
+#searchResults label {
+	font-size: 1.2em;
+	margin: 10px 0 5px 0;
+}
+
+#searchMetrics {
+	padding-right: 0px;
+}
+
+#searchMetrics h3 {
+	margin: 0;
+}
+
+#searchMetrics div {
+	padding: 20px;
+	margin-left: 20px;
+	background-color: #cdcdcd;
+	margin-top: 20px;
+	border-radius: 20px;
 }

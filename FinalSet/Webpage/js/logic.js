@@ -88,33 +88,6 @@ function init() {
 		acceptAutoSuggest();
 	});
 
-	function setSelectStyleOpen($selectObj) {
-		
-		$selectObj.css('border-bottom-left-radius', '0px');
-		$selectObj.css('border-bottom-right-radius', '0px');
-	}
-
-	function setSelectStyleClosed($selectObj) {
-		$selectObj.css('border-bottom-left-radius', $selectObj.css('border-radius'));
-		$selectObj.css('border-bottom-right-radius', $selectObj.css('border-radius'));
-	}
-
-	var rankTypeSelect = $('#rankTypeSelect'),
-		sOpenFlag = false;
-
-	rankTypeSelect.mousedown(function() {
-		setSelectStyleOpen($(this));
-	});
-
-	rankTypeSelect.blur(function() {
-		setSelectStyleClosed($(this));
-	});
-
-	$('body').mouseup(function() {
-		if(sOpenFlag)
-			setSelectStyleClosed(rankTypeSelect);
-		sOpenFlag = true;
-	});
 }
 
 function getWordAtPosition(inputString, cPosition) {
@@ -183,19 +156,23 @@ function autoSuggest(inputObj,asWordObj) {
 }
 
 function resetResults(msg) {
-	var resultsContainer = $('.container .row');
+	var resultsContainer = $('#searchResults');
 	resultsContainer.empty();
+	$('#searchMetrics').empty();
 	resultsContainer.append($('<h2/>').html(msg));
 }
 
 function sendSearchRequest() {
 	var queryText = $("#searchText").val(),
-		searchResults = [];
+		searchResults = [],
+		ndcgValues = [];
 
 	$('#autoSuggestDiv').hide();
 	
 	if($.trim(queryText) == '')
 		return;
+
+	var startTime = new Date().getTime();
 
 	$.ajax({
 		type: "GET",
@@ -204,9 +181,10 @@ function sendSearchRequest() {
 		success: function(data) {
 			console.log(data);
 			//searchResults = data;
-			if (data){
+			if(data){
 			    try{
-			        searchResults=data;	        
+			        searchResults = data["results"];
+			        ndcgValues = data["ndcg_values"];	        
 			    }
 			    catch(e){
 			        alert(e); 
@@ -217,15 +195,16 @@ function sendSearchRequest() {
 				resetResults('No results found for '+queryText+'.');
 				return;
 			}
+			var endTime = new Date().getTime();
 
-			resultsContainer = $('.container .row');
+			resultsContainer = $('#searchResults');
 			resultsContainer.empty();
 			var resultRow,
 				urlTitle = '',
 				url = '',
 				resultsHeader = $('<div/>').append(
 									$('<h3/>')
-										.html("Results for "+queryText+": ")
+										.html("Results for <i>"+queryText+"</i> : ")
 										.addClass('results-header')
 								);
 			resultsContainer.append(resultsHeader);
@@ -236,12 +215,29 @@ function sendSearchRequest() {
 				urlTitle =  searchResults[i]['title'].length == 0 ? url : searchResults[i]['title'];
 				
 				var resultRow = $('<div/>').append(
-											$('<h5/>').append(
+											$('<label/>').append(
 												$('<a/>').html(urlTitle).attr('href',url).addClass('')
 											)
 								);
-				resultsContainer.append(resultRow);
+				$(resultRow).hide().appendTo(resultsContainer).fadeIn(i*100);
+				//resultsContainer.append(resultRow);
 			}
+
+			var execTime = (endTime - startTime)/1000,
+				execTimeHTML = "<h4>Retrieval time : "+execTime.toString()+' s</h4>',
+				ndcgHTML = '',
+				headerHTML = '<h3>Search Metrics</h3><br>';
+
+			if(ndcgValues.length > 0)
+			{
+				ndcgHTML = "<h4>NDCG @ 5 : "+ndcgValues[4]+"</h4>";
+			}
+
+			metricsContainer = $('#searchMetrics');
+			metricsContainer.empty();
+			$metricRow = $('<div/>').html(headerHTML+execTimeHTML+ndcgHTML);
+			metricsContainer.append($metricRow);
+
 			$('#searchText').blur();
 		}
 	})
