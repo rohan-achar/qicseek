@@ -1,4 +1,12 @@
 #############################
+qicseek - v0.5
+
+* New ranking functions
+	* Using position within document for reference
+* Syncing scripts
+* changed sort from 2 levels to one level -> log10(tfidf * pr / log10(1 + docdiff) * cosinescore ^ 2) seems to be better. Made that secret sauce.
+
+-- Rohan Achar - Mar 13, 2014 - 22:40#############################
 qicseek - v0.4
 
 * Updating the index with new index
