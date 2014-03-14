@@ -5,8 +5,8 @@ import pygoogle as pyg
 PROJ_FOLDER = "../FinalSet/"
 TESTBED_DOC_ID = PROJ_FOLDER+"DocId.tsv"
 GOOGLE_ORACLE = PROJ_FOLDER+"google-oracle.json" # Ideally this file would be replaced by real time calls to a Google Search API
-GOOGLE_ORACLE_FILTERED = PROJ_FOLDER+"google-oracle-filtered.json"
-MAX_NUM_RESULTS = 10
+GOOGLE_ORACLE_FILTERED = PROJ_FOLDER+"google-oracle-filtered-5.json"
+MAX_NUM_RESULTS = 5
 
 docIdFile = open(TESTBED_DOC_ID,"r")
 docIdMapList = docIdFile.readlines()
@@ -26,8 +26,26 @@ for line in docIdMapList:
 print(len(urlDict))
 
 oracleFile = open(GOOGLE_ORACLE)
-queryTestDict = json.load(oracleFile)
+queryTestDictInitial = json.load(oracleFile)
 oracleFile.close()
+
+queryTestDict = {}
+
+def stripAddSlash(urlText):
+	tempList = [urlText]
+	if(urlText[-1] == "/"):
+		tempList.append(urlText.strip("/"))
+	else:
+		tempList.append(urlText+"/")
+	return tempList
+
+#Conflate Google Results
+for term in queryTestDictInitial:
+	for url in queryTestDictInitial[term]:
+		if term in queryTestDict:
+			queryTestDict[term].extend(stripAddSlash(url))
+		else:
+			queryTestDict[term] = stripAddSlash(url)
 
 oracleFilterDict = {}
 
@@ -35,7 +53,7 @@ for queryTerm in queryTestDict:
 	for url in queryTestDict[queryTerm]:
 		if(url in urlDict):
 			if(queryTerm in oracleFilterDict):
-			 	if len(oracleFilterDict[queryTerm]) < NDCG_DOC_LIMIT:
+			 	if len(oracleFilterDict[queryTerm]) < MAX_NUM_RESULTS:
 					oracleFilterDict[queryTerm].append(url)
 			else:
 				oracleFilterDict[queryTerm] = [url]

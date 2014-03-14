@@ -18,7 +18,11 @@ $('.srg li h3.r a').each(function(i,obj) {
 	{
 		hrefLink = $(obj).attr('href');	
 	}
-	if(hrefLink.substr(0,5) != "https")
+	if(hrefLink.substr(0,5) == "https")
+	{
+		linksList.push(hrefLink.replace('https://','http://'));
+	}
+	else
 	{
 		linksList.push(hrefLink);
 	}

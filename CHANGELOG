@@ -1,4 +1,13 @@
 #############################
+qicseek - v0.7
+
+* Replacing https with http in google results
+* Adding/stripping trailing slash in google results for ndcg
+* NDCG @ 10
+
+-- Sivabalan Thirunavukkarasu - Mar 14, 2014 - 12:06
+
+#############################
 qicseek - v0.6
 
 * Search metrics UI

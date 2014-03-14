@@ -230,7 +230,7 @@ function sendSearchRequest() {
 
 			if(ndcgValues.length > 0)
 			{
-				ndcgHTML = "<h4>NDCG @ 5 : "+ndcgValues[4]+"</h4>";
+				ndcgHTML = "<h4>NDCG @ 10 : "+ndcgValues[ndcgValues.length-1]+"</h4>";
 			}
 
 			metricsContainer = $('#searchMetrics');

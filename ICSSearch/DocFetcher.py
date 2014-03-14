@@ -276,7 +276,8 @@ def resultsList(result):
 
 def GetResult(query,rankingType):
     start = time.clock()
-    tokens = nltk.word_tokenize(query.lower())
+    query = query.strip().lower()
+    tokens = nltk.word_tokenize(query)
     result = []
     for i in range(len(tokens)):
         word = wnl.lemmatize(tokens[i])
@@ -298,7 +299,8 @@ def GetResult(query,rankingType):
 
 def GetASResult(query):
     start = time.clock()
-    tokens = nltk.word_tokenize(query.lower())
+    query = query.strip().lower()
+    tokens = nltk.word_tokenize(query)
     result = [""]
     for token in tokens:
         token = token.lower()
