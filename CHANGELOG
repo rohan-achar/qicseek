@@ -4,8 +4,10 @@ qicseek - v0.6
 * Search metrics UI
 * Search results animation
 * NDCG calculation for preset terms
+* Added favicon
+* Avoiding vcp.ics results
 
--- Sivabalan Thirunavukkarasu - Mar 14, 2014 - 02:20
+-- Sivabalan Thirunavukkarasu - Mar 14, 2014 - 02:58
 
 #############################
 qicseek - v0.5

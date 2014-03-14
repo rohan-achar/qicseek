@@ -36,7 +36,7 @@ class QueryHandler(BaseHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write(jsonResp)
             else:
-                if parsed.path != "" and not "favicon" in parsed.path:
+                if parsed.path != "":
                     self.send_response(200)
                     print(parsed.path)
                     if (parsed.path.endswith(".js")):
@@ -47,6 +47,9 @@ class QueryHandler(BaseHTTPRequestHandler):
                         path = "../FinalSet/Webpage" + parsed.path
                     elif(".png" in parsed.path):
                         contenttype = "image/png"
+                        path = "../FinalSet/Webpage" + parsed.path
+                    elif(".ico" in parsed.path):
+                        contenttype = "image/x-icon"
                         path = "../FinalSet/Webpage" + parsed.path
                     else:
                         contenttype = "text/html"

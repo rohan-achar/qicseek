@@ -259,14 +259,14 @@ def resultsList(result):
     urls = {"results":[],"ndcg_values":[]}
     count = 0
     for item in result:
-        if item[0] in docdict and "http://luci.ics.uci.edu/blog/" not in docdict[item[0]][0]:
+        if item[0] in docdict and "http://vcp.ics.uci.edu" not in docdict[item[0]][0]:
             d = {}
             d["docid"] = item[0]
             d["title"] = ""
             d["url"] = docdict[item[0]][0]
             d["score"] = item[2]
             d["pagerank"] = item[1]
-			d["sortscore"] = math.log10(1 + item[1]) * item[2] *item[2]
+            d["sortscore"] = math.log10(1 + item[1]) * item[2] * item[2]
             urls["results"].append(d)
             count +=1
         if count == MAX_NUM_RESULTS: # Limit number of results to return
