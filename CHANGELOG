@@ -1,10 +1,30 @@
 #############################
+qicseek - v0.6
+
+* Search metrics UI
+* Search results animation
+* NDCG calculation for preset terms
+
+-- Sivabalan Thirunavukkarasu - Mar 14, 2014 - 02:20
+
+#############################
+qicseek - v0.5
+
+* New ranking functions
+	* Using position within document for reference
+* Syncing scripts
+* changed sort from 2 levels to one level -> log10(tfidf * pr / log10(1 + docdiff) * cosinescore ^ 2) seems to be better. Made that secret sauce.
+
+-- Rohan Achar - Mar 13, 2014 - 22:40
+
+#############################
 qicseek - v0.4
 
 * Updating the index with new index
 * Syncing scripts
 
 -- Sivabalan Thirunavukkarasu - Mar 13, 2014 - 14:58
+
 #############################
 qicseek - v0.3
 
@@ -12,6 +32,7 @@ qicseek - v0.3
 * Added search rank type select option
 
 -- Sivabalan Thirunavukkarasu - Mar 13, 2014 - 14:58
+
 #############################
 qicseek - v0.2
 
@@ -19,6 +40,7 @@ qicseek - v0.2
 * Adding pre-built scripts for anchorText, pageRank, indexBuilder
 
 -- Rohan Achar - Mar 13, 2014 - 14:30
+
 #############################
 qicseek - v0.1
 
@@ -34,4 +56,5 @@ qicseek - v0.1
 * Server.py: Added code to serve PNG images
 
 -- Sivabalan Thirunavukkarasu - Mar 13, 2014 - 05:43
+
 #############################

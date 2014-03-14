@@ -36,7 +36,7 @@ def mergeIndicesToDict(pfqFileName, docId):
 				#termFreq,posList = int(lineSplits[1]),[int(i) for i in lineSplits[2].split("|")]
 				#posting = [docId,termFreq,0,posList]
 				termFreq = int(lineSplits[1])
-				posting = [docId,termFreq,0]
+				posting = [docId,termFreq,int(lineSplits[2]),[int(i) for i in lineSplits[3].split("|")]] #lineSplits[2] is weightage based on text type
 				if(term in indexDict):
 					indexDict[term][1].append(posting)
 				else:
@@ -49,7 +49,8 @@ def updateTfIdf():
 		docFreq = len(indexDict[term][1])
 		indexDict[term][0] = docFreq
 		for i in range(docFreq):
-			indexDict[term][1][i][2] = round((1+math.log(indexDict[term][1][i][1],10)) * math.log(N/docFreq,10),1) 
+			# modified tfidf score based on text type weightage for that document.
+			indexDict[term][1][i][2] = round((1+math.log(indexDict[term][1][i][1],10)) * math.log(N/docFreq,10) * (1+math.log(indexDict[term][1][i][2]+1,2)),1) 
 
 docIdFile = open(TESTBED_DOC_ID,"r")
 docIdMapList = docIdFile.readlines()

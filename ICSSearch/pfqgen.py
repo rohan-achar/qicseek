@@ -29,7 +29,7 @@ for docid in docidextras:
             newtokens = []
             emailFlag = False
             for i in range(len(tokens)):
-                tokens[i] = wnl.lemmatize(tokens[i])
+                tokens[i] = wnl.lemmatize(tokens[i].lower())
                 if emailFlag:
                     emailFlag = False
                     continue
@@ -82,7 +82,7 @@ def pfqGen(filenames, id):
         words = {}
         emailFlag = False
         for i in range(len(tokens)):
-            tokens[i] = wnl.lemmatize(tokens[i])
+            tokens[i] = wnl.lemmatize(tokens[i].lower())
             if emailFlag:
                 emailFlag = False
                 continue
@@ -99,11 +99,14 @@ def pfqGen(filenames, id):
         outfile = open(dst + filename + ".pfq", "w", encoding = "utf8")
         dict_list = []
         for word in words:
-            dict_list.append((word, len(words[word]), sumTypes(fileToDocId[filename], word)))
+            dict_list.append((word, len(words[word]), sumTypes(fileToDocId[filename], word), words[word]))
         dict_list.sort(key = lambda x: x[1], reverse = True)
         writestr = ""
         for item in dict_list:
-            writestr += item[0] + ",\t" + str(item[1]) + ",\t" + str(item[2]) + "\n"
+            writestr += item[0] + ",\t" + str(item[1]) + ",\t" + str(item[2]) + ",\t"
+            for word in item[3]:
+                writestr += str(word) + "|"
+            writestr = writestr.rstrip("|") + "\n"
             
         outfile.write(unicode(writestr))
         outfile.close()
