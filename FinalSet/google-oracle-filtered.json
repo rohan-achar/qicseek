@@ -45,7 +45,7 @@
         "http://mondego.ics.uci.edu/datasets/wikipedia-events/",
         "http://mondego.ics.uci.edu/projects/clonedetection/",
         "http://mondego.ics.uci.edu/icsergen/",
-        "http://www.ics.uci.edu/~lopes/datasets/"
+        "http://www.ics.uci.edu/~lopes/datasets/index.html"
     ],
     "machine learning": [
         "http://cml.ics.uci.edu/",
@@ -73,12 +73,12 @@
     ],
     "graduate courses": [
         "http://www.ics.uci.edu/grad/courses/",
-        "http://www.ics.uci.edu/grad",
-        "http://www.ics.uci.edu/grad/admissions/",
+        "http://www.ics.uci.edu/grad/index.php",
+        "http://www.ics.uci.edu/grad/admissions/index.php",
         "http://www.ics.uci.edu/grad/policies/",
         "http://www.ics.uci.edu/",
         "http://www.ics.uci.edu/grad/degrees/degree_cs.php",
-        "http://www.ics.uci.edu/grad/degrees/",
+        "http://www.ics.uci.edu/grad/degrees/index.php",
         "http://www.ics.uci.edu/ugrad/qa/",
         "http://www.ics.uci.edu/grad/degrees/degree_gen.php",
         "http://www.ics.uci.edu/grad/sao/"
@@ -96,7 +96,7 @@
         "http://www.ics.uci.edu/~gts"
     ],
     "information retrieval": [
-        "http://www.ics.uci.edu/~lopes/teaching/cs221W12/",
+        "http://www.ics.uci.edu/~lopes/teaching/cs221W12/index.html",
         "http://www.ics.uci.edu/~djp3/classes/2014_01_INF141/calendar.html",
         "http://www.ics.uci.edu/~djp3/classes/2010_01_CS221/assignmentSchedule.html",
         "http://www.ics.uci.edu/~djp3/classes/2009_01_02_INF141/",
@@ -110,8 +110,8 @@
     "student affairs": [
         "http://www.ics.uci.edu/about/search/search_sao.php",
         "http://www.ics.uci.edu/prospective/en/contact/student-affairs/",
-        "http://www.ics.uci.edu/ugrad/sao/",
-        "http://www.ics.uci.edu/grad/sao/",
+        "http://www.ics.uci.edu/ugrad/sao/index.php",
+        "http://www.ics.uci.edu/grad/sao/index.php",
         "http://www.ics.uci.edu/about/visit/",
         "http://www.ics.uci.edu/ugrad/resources/",
         "http://www.ics.uci.edu/about/annualreport/2005-06/sao.php",

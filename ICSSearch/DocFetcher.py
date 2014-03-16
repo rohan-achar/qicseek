@@ -8,6 +8,7 @@ import sets
 import Trie
 import copy
 import math
+from math import log10
 from sets import Set
 
 src = "../FinalSet/"
@@ -18,6 +19,7 @@ pagerankfile = src + "pagerank.tsv"
 docidjson = src + "docIdLoaded.json"
 hashfile = src + "HashFile.json"
 oraclefile = src + "google-oracle-filtered.json"
+formulafile = src + "secretingredient.txt"
 docdict = {}
 stops = {}
 ndcgDict = {}
@@ -130,7 +132,7 @@ def conflatedDocids(result,rankingType): # Ranking based on TF-IDF
     elif(rankingType == 'cosine-pg-tf-idf'):
         return cosineSimilarDocs(result, docidtfsum)
     elif(rankingType == 'cosine-position-pg-tf-idf'):
-        return cosineSimilarDocs(result, docidtfsum, len(result[0]) == 4)
+        return cosineSimilarDocs(result, docidtfsum, len(result[0][1][0]) == 4)
 
 def cosineSimilarDocs(indexPostingList, docidtfsum, usePositions = False):
     queryVector = {}
@@ -189,8 +191,8 @@ def cosineSimilarDocs(indexPostingList, docidtfsum, usePositions = False):
     # u'41475': {'sivabalan': 5.9, 'rohan': 5.4}, u'41449': {'rohan': 5.4}, u'41464': {'sivabalan': 5.9, 'rohan': 5.4}, u'20464': {'sivabalan': 4.5, 'rohan': 5.4}}
 
     if docidtfsum == {}:
-        return [(i, docdict[i][2] / math.log10(1 + docLeastDiff[i]), calculateCosineSimilarity(queryVector, docVectors[i])) for i in docVectors]
-    return [(i, docdict[i][2] * docidtfsum[i] / math.log10(1 + docLeastDiff[i]), calculateCosineSimilarity(queryVector, docVectors[i])) for i in docVectors]
+        return [(i, docdict[i][2], docLeastDiff[i], calculateCosineSimilarity(queryVector, docVectors[i])) for i in docVectors if len(docVectors[i]) == len(queryVector)]
+    return [(i, docdict[i][2], docidtfsum[i], docLeastDiff[i], calculateCosineSimilarity(queryVector, docVectors[i])) for i in docVectors if len(docVectors[i]) == len(queryVector)]
 
 def calculateCosineSimilarity(vector1, vector2):
     dotProduct = 0
@@ -204,9 +206,48 @@ def calculateCosineSimilarity(vector1, vector2):
     
     return round(dotProduct/euclideanDist,2)
 
+def normalize(result):
+    mean = [0]*(len(result[0])-1)
+    sd = [0]*(len(result[0])-1)
+    for i in range(1,len(result[0])):
+        mean[i-1] = sum([j[i] for j in result])/len(result)
+        sd[i-1] = math.sqrt(sum([(j[i]-mean[i-1])*(j[i]-mean[i-1]) for j in result])/len(result))
+    for i in range(len(result)):
+        newtup = [result[i][0]]
+        for j in range(1, len(result[i])):
+            if sd[j-1] != 0:
+                newtup.append(((result[i][j] - mean[j-1])/sd[j-1]) + 100)
+            else:
+                newtup.append(1)
+        result[i] = tuple(newtup)
+    return result
 
+
+#tf-idf
+def sort2level(x):
+    return x[2]
+#cosine, cosine and position
+def sort4level(x):
+    return x[1]*x[2]
+def sort5level(x):
+    file = open(formulafile, "r")
+    list_of_lines = file.readlines()
+    file.close()
+    for line in list_of_lines:
+        line = line.strip()
+        if line != "" and line[0]!='#':
+            try:
+                num = eval(line)
+                return num
+            except ValueError:
+                print(x)
+
+sortChooser = {3: sort2level, 4: sort4level, 5:sort5level}
 def rankResults(result):
-    return sorted(result, key = lambda x:math.log10(1 + x[1]) * x[2] * x[2], reverse = True)
+    if len(result) > 0:
+        return sorted(result, key = sortChooser[len(result[0])], reverse = True)
+    else:
+        return result
     #return sorted(sorted(result, key = lambda x:x[1], reverse = True), key = lambda x:x[2], reverse = True)
     #return result
 
@@ -266,7 +307,7 @@ def resultsList(result):
             d["url"] = docdict[item[0]][0]
             d["score"] = item[2]
             d["pagerank"] = item[1]
-            d["sortscore"] = math.log10(1 + item[1]) * item[2] * item[2]
+            d["sortscore"] = list(item)
             urls["results"].append(d)
             count +=1
         if count == MAX_NUM_RESULTS: # Limit number of results to return
@@ -286,7 +327,7 @@ def GetResult(query,rankingType):
             result.append((word, data[1][1], i))
 
     if result != []:
-        finalresult = resultsList(rankResults(conflatedDocids(result,rankingType))) # Ranking based on TF-IDF/Cosine similarity
+        finalresult = resultsList(rankResults(normalize(conflatedDocids(result,rankingType)))) # Ranking based on TF-IDF/Cosine similarity
         timetaken = time.clock() - start
         if(query in ndcgDict):
             finalresult = getResultsWithNDCG(finalresult,query)
