@@ -1,4 +1,12 @@
 #############################
+qicseek - v0.9
+
+* Updated formula for awesome NDCG
+* secretingredient.txt for realtime ranking formula modification
+
+-- Sivabalan Thirunavukkarasu - Mar 16, 2014 - 00:15
+
+#############################
 qicseek - v0.8
 
 * Fixes for Firefox browser
