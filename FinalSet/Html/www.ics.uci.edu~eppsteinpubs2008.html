@@ -1,0 +1,303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head>
+<title>David Eppstein - Publications</title>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<h1>David Eppstein - Publications</h1>
+<hr><p>
+<h2>
+2008
+</h2>
+<ul>
+<li><b>Algorithms for media</b>.<br>
+D. Eppstein and
+<a href="http://aris.ss.uci.edu/cogsci/personnel/falmagne/falmagne.html">J.-C.
+Falmagne</a>.<br>
+<a href="http://arxiv.org/abs/cs.DS/0206033">arXiv:cs.DS/0206033</a>.<br>
+<a href="http://hypatia.ss.uci.edu/imbs/workshops/OSDA/">Int.
+Conf. Ordinal and Symbolic Data Analysis</a>, Irvine, 2003.<br>
+<a href="http://dx.doi.org/10.1016/j.dam.2007.05.035"><i>Discrete Applied Mathematics</i> 156(8):1308-1320, 2008</a>.
+<p>
+Falmagne recently introduced the concept of a
+<a href="graph-cube.html">medium</a>, a combinatorial
+object encompassing hyperplane arrangements, topological orderings,
+acyclic orientations, and many other familiar structures. We find
+efficient solutions for several algorithmic problems on media: finding
+short reset sequences, shortest paths, testing whether a medium has a
+closed orientation, and listing the states of a medium given a black-box
+description.
+<p>
+(<a href="http://www.ics.uci.edu/~eppstein/bibs/eppstein.html#Algorithms for media">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Algorithms-for-media.html">Citations</a> --
+<a href="Epp-OSDA-03-talk.pdf">OSDA talk slides</a>)
+<p>
+<li><b>The skip quadtree: a simple dynamic data structure
+for multidimensional data.</b><br>
+D. Eppstein,
+<a href="http://www.ics.uci.edu/~goodrich/">M. T. Goodrich</a>,
+and
+<a href="http://www.ics.uci.edu/~zhengsun/">J. Z. Sun</a>.<br>
+<i>21st ACM Symp. Comp. Geom.,</i> Pisa, 2005, pp. 296-305.<br>
+<a
+href="http://arxiv.org/abs/cs.CG/0507049">arXiv:cs.CG/0507049</a>.<br>
+<i>Int. J. Comp. Geom. &amp; Appl.</i> 18(1-2):131-160, 2008.
+<p>
+We describe a data structure consisting of a sequence of compressed
+quadtrees for successively sparser samples of an input point set, with
+connections between the same squares in successive members of the
+sequence.  Using this structure, we can insert or delete points and
+answer approximate range queries and approximate nearest neighbor
+queries in O(log n) time per operation.
+<p>
+(<a href="EppGooSun-SoCG-05.pdf">SoCG05 talk slides</a> --
+<a href="http://www.ics.uci.edu/~eppstein/bibs/eppstein.html#The skip quadtree: a simple dynamic data structure for multidimensional data">BibTeX</a>)
+<p>
+<li><b>Upright-quad drawing of st-planar learning spaces.</b><br>
+D. Eppstein.<br>
+<a href="http://arxiv.org/abs/cs.CG/0607094">arXiv:cs.CG/0607094</a>.<br>
+14th Int. Symp. Graph Drawing, Karlsruhe, Germany, 2006.<br>
+<a href="http://dx.doi.org/10.1007/978-3-540-70904-6_28"><i>Lecture Notes in
+Comp. Sci.</i> 4372, 2007, pp. 282-293</a>, &copy; Springer-Verlag.<br>
+<a href="http://www.jgaa.info/accepted/2008/Eppstein2008.12.1.pdf"><i>J. Graph Algorithms and Applications</i> 12(1):51-72</a>, 2008 (special
+issue for GD'06).
+<p>
+We consider graph drawing algorithms for learning spaces, a type of
+st-oriented partial cube derived from antimatroids and used to model
+states of knowledge of students. We show how to draw any st-planar
+learning space so all internal faces are convex quadrilaterals with the
+bottom side horizontal and the left side vertical, with one minimal and
+one maximal vertex. Conversely, every such drawing represents an
+$st$-planar learning space.  We also describe connections between these
+graphs and arrangements of translates of a quadrant.
+<p>
+(<a href="Epp-GD-06-talk.pdf">GD'06 talk slides</a>)
+<p>
+<li><b>Recognizing partial cubes in quadratic time</b>.<br>
+D. Eppstein.<br>
+<a href="http://arxiv.org/abs/0705.1025">arXiv:0705.1025</a>.<br>
+<i>19th ACM-SIAM Symp. Discrete Algorithms,</i>
+San Francisco, 2008, pp. 1258-1266.<br>
+<a href="http://jgaa.info/accepted/2011/Eppstein2011.15.2.pdf"><i>J. Graph
+    Algorithms and Applications</i> 15(2): 269-293, 2011</a>.
+<p>
+We show how to test whether a graph is a partial cube, and if so embed
+it isometrically into a <a href="graph-cube.html">hypercube</a>, in time
+O(n<sup>2</sup>), improving previous O(nm)-time solutions; here n is the
+number of vertices and m is the number of edges. The ideas are to use
+bit-parallelism to speed up previous approaches to the embedding step,
+and to verify that the resulting embedding is isometric using an
+all-pairs shortest path algorithm from "<a
+href="p-algmed.html">algorithms for media</a>".
+<p>
+(<a href="Epp-SODA-08.pdf">slides</a>)
+<p>
+<li><b>The Complexity of Bendless Three-Dimensional Orthogonal Graph Drawing</b>.<br>
+D. Eppstein.<br>
+<a href="http://arxiv.org/abs/0709.4087">arXiv:0709.4087</a>.<br>
+<i>Proc. 16th Int. Symp. Graph Drawing</i>, Heraklion, Crete, 2008.<br>
+Lecture Notes in Computer Science 5417, 2009, pp. 78-89.<br>
+<a href="http://dx.doi.org/10.7155/jgaa.00283"><i>J. Graph Algorithms and Applications</i> 17 (1): 35-55, 2013</a>.
+<p>
+Defines a class of orthogonal graph drawings formed by a point set
+in three dimensions for which
+axis-parallel line contains zero or two vertices, with edges connecting pairs
+of points on each nonempty axis-parallel line. Shows that the existence
+of such a drawing can be defined topologically, in terms of certain
+two-dimensional surface embeddings of the same graph. Based on this
+equivalence, describes algorithms, graph-theoretic properties, and
+hardness results for graphs of this type.
+<p>
+(<a href="/~eppstein/0xDE/xyz-Tucson.pdf">Slides from talk at
+U. Arizona, February 2008</a> --
+<a href="Epp-GD-08-xyz.pdf">Slides from GD08</a>)
+)
+<p>
+<li><b>Learning sequences</b>.<br>
+D. Eppstein.<br>
+<a href="http://arxiv.org/abs/0803.4030">arXiv:0803.4030</a>.<br>
+<p>
+How to implement an antimatroid, with applications in computerized education.
+<p>
+<li><b>Principles of Graph Drawing</b>.<br>
+D. Eppstein.<br>
+<a
+href="http://www.ics.uci.edu/~eppstein/pubs/IMBS-graph-drawing-talk.pdf">Talk
+at Inst. for Mathematical Behavioral Sciences</a>, May 2008.<br>
+Talk at Technical University of Eindhoven, September 2008.
+<p>
+<li><b>Approximate Topological Matching of Quadrilateral Meshes</b>.<br>
+D. Eppstein,
+<a href="http://www.ics.uci.edu/~goodrich/">M. T. Goodrich</a>,
+<a href="http://www.cs.mcgill.ca/~ethan/">E. Kim</a>,
+and R. Tamstorf.<br>
+<a href="http://dx.doi.org/10.1109/SMI.2008.4547954"><i>Proc. IEEE
+Int. Conf. Shape Modeling and Applications (SMI 2008)</i>, Stony Brook,
+New York, pp. 83-92</a>.<br>
+<a href="http://dx.doi.org/10.1007/s00371-009-0363-z"><i>The Visual Computer</i> 25(8): 771-783, 2009</a>.
+<p>
+We formalize problems of finding large approximately-matching regions of
+two related but not completely isomorphic quadrilateral meshes, show
+that these problems are NP-complete, and describe a natural greedy
+heuristic that is guaranteed to find good matches when the mismatching
+parts of the meshes are small.
+<p>
+(<a href="http://www.ics.uci.edu/~goodrich/pubs/approx-match.pdf">Preprint</a>)
+<p>
+<li><b>Motorcycle graphs: canonical quad mesh partitioning</b>.<br>
+D. Eppstein,
+<a href="http://www.ics.uci.edu/~goodrich/">M. T. Goodrich</a>,
+<a href="http://www.cs.mcgill.ca/~ethan/">E. Kim</a>,
+and R. Tamstorf.<br>
+<a href="http://www.ics.uci.edu/~goodrich/pubs/geomproc.pdf"><i>Proc. 6th Symp. Geometry Processing</i>, Copenhagen, Denmark, 2008.</a><br>
+<i>Computer Graphics Forum</i> <a
+href="http://dx.doi.org/10.1111/j.1467-8659.2008.01288.x">27(5):1477-1486</a>, 2008.
+<p>
+We use a construction inspired by the motorcycle graphs previously used
+in <a href="geom-ss.html">straight skeleton</a> construction, to partition quadrilateral meshes
+into a small number of structured submeshes. Our construction is
+canonical in that two copies of the same mesh will always be partitioned
+in the same way, and can be used to speed up graph isomorphism
+computations for geometric models in feature animation.
+<p>
+<li><b>Straight skeletons of three-dimensional polyhedra</b>.<br>
+<a href="http://www.cs.technion.ac.il/~barequet/">G. Barequet</a>,
+D. Eppstein,
+<a href="http://www.ics.uci.edu/~goodrich/">M. T. Goodrich</a>, and
+<a href="http://www.cs.technion.ac.il/people/avaxman/">A. Vaxman</a>.<br>
+<a href="http://arxiv.org/abs/0805.0022">arXiv:0805.0022</a>.<br>
+<i>Proc. 16th European Symp. Algorithms</i>, Karlsruhe, Germany,
+2008.<br>
+<a href="http://dx.doi.org/10.1007/978-3-540-87744-8_13"><i>Lecture Notes in Comp. Sci.</i> 5193, 2008, pp. 148-160.</a>
+<p>
+A <a href="geom-ss.html">straight skeleton</a> is defined by the locus of points crossed by the
+edges and vertices of a polyhedron as it undergoes a continuous
+shrinking process in which the faces move inwards at constant speed. We
+resolve some ambiguities in the definition of these shapes, define
+efficient algorithms for polyhedra with axis-parallel faces, show that
+arbitrary polyhedra have strictly more complicated straight skeletons,
+and report on results from an implementation of our algorithm for
+arbitrary polyhedra.
+<p>
+<li><b>Succinct greedy geometric routing using hyperbolic geometry</b>.<br>
+D. Eppstein and
+<a href="http://www.ics.uci.edu/~goodrich/">M. T. Goodrich</a>.<br>
+<a href="http://arxiv.org/abs/0806.0341">arXiv:0806.0341</a>.<br>
+<i>Proc. 16th Int. Symp. Graph Drawing</i>, Heraklion, Crete, 2008<br>
+(under the different title "Succinct greedy graph drawing in the
+hyperbolic plane"),<br>
+Lecture Notes in Computer Science 5417, 2009, pp. 14-25.<br>
+<a href="http://doi.ieeecomputersociety.org/10.1109/TC.2010.257"><i>IEEE Transactions on Computing</i> 60 (11): 1571-1580, 2011</a>.
+<p>
+Greedy drawing is an idea for encoding network routing tables into the
+geometric coordinates of an embedding of the network, but most previous
+work in this area has ignored the space complexity of these encoded tables.
+We refine a method of R. Kleinberg for embedding arbitrary graphs into
+the hyperbolic plane, which uses linearly many bits to represent each
+vertex, and show that only logarithmic bits per point are needed.
+<p>
+<li><b>Isometric diamond subgraphs</b>.<br>
+D. Eppstein.<br>
+<a href="http://arxiv.org/abs/0807.2218">arXiv:0807.2218</a>.<br>
+<i>Proc. 16th Int. Symp. Graph Drawing</i>, Heraklion, Crete, 2008.<br>
+Lecture Notes in Computer Science 5417, 2009, pp. 384-389.<br>
+<p>
+We describe polynomial time algorithms for determining whether an
+undirected graph may be embedded in a distance-preserving way into the
+hexagonal tiling of the plane, the diamond structure in three
+dimensions, or analogous structures in higher dimensions. The graphs
+that may be embedded in this way form an interesting subclass of the
+partial cubes.
+<p>
+(<a href="Epp-GD-08-diamonds.pdf">Slides</a>)
+<p>
+<li><b>Studying (non-planar) road networks through an algorithmic lens</b>.<br>
+D. Eppstein, and
+<a href="http://www.ics.uci.edu/~goodrich/">M. T. Goodrich</a>.<br>
+<a href="http://arxiv.org/abs/0808.3694">arXiv:0808.3694</a>.<br>
+<a href="http://doi.acm.org/10.1145/1463434.1463455"><i>Proc. 16th ACM SIGSPATIAL Int. Conf. Advances in Geographic
+Information Systems (ACM GIS 2008)</i>, Article 16</a> (best paper award).<br>
+Invited talk at INFORMS 2009, San Diego.
+<p>
+We examine US road network data and show that, contrary to the
+assumptions of much past GIS work, these networks are highly nonplanar.
+We introduce a class of "multiscale dispersed" networks that better fit
+the data; these networks are defined by a family of disks of varying
+sizes such that, if a small number of outliers is removed, the remaining
+disks cover each point of the plane a constant number of times.
+As we show, these networks have good graph separators, allowing for
+efficient algorithms for minimum spanning trees, graph Voronoi diagrams,
+and related problems.
+<p>
+<li><b>Self-Overlapping Curves Revisited</b>.<br>
+D. Eppstein and
+E. Mumford.<br>
+<a href="http://arxiv.org/abs/0806.1724">arXiv:0806.1724</a>.<br>
+<a href="http://www.siam.org/proceedings/soda/2009/SODA09_019_eppsteind.pdf"><i>20th ACM-SIAM Symp. Discrete Algorithms,</i>
+New York, 2009, pp. 160-169</a>.<br>
+<p>
+We consider problems of determining when a curve in the plane is the
+projection of a 3d surface with no vertical tangents. Several problems
+of this type are NP-complete, but can be solved in polynomial time if a
+casing of the curve is also given.
+<p>
+(<a href="EppMum-SODA-09-slides.pdf">Elena's SODA talk slides</a>)
+<p>
+<li><b>Linear-time algorithms for geometric graphs with sublinearly many
+crossings</b>.<br>
+D. Eppstein,
+<a href="http://www.ics.uci.edu/~goodrich/">M. T. Goodrich</a>, and
+<a href="http://www.ics.uci.edu/~dstrash/">D. Strash</a>.<br>
+<a href="http://arxiv.org/abs/0812.0893">arXiv:0812.0893</a>.<br>
+<a href="http://www.siam.org/proceedings/soda/2009/SODA09_018_eppsteind.pdf"><i>20th ACM-SIAM Symp. Discrete Algorithms,</i>
+New York, 2009, pp. 150-159</a>.<br>
+<a href="http://dx.doi.org/10.1137/090759112"><i>SIAM J. Computing</i> 39(8): 3814-3829, 2010</a>.
+<p>
+If a connected graph corresponds to a set of points and line segments in
+the plane, in such a way that the number of crossing pairs of line
+segments is sublinear in the size of the graph by an iterated-log
+factor, then we can find the arrangement of the segments in linear
+time. It was previously known how to find the arrangement in linear time
+when the number of crossings is superlinear by an iterated-log factor,
+so the only remaining open case is when the number of crossings is close to the
+size of the graph.
+<p>
+<li><b>Finding large clique minors is hard</b>.<br>
+D. Eppstein.<br>
+<a href="http://arxiv.org/abs/0807.0007">arXiv:0807.0007</a>.<br>
+<a href="http://jgaa.info/accepted/2009/Eppstein2009.13.2.pdf"><i>J. Graph
+Algorithms and Applications</i> 13(2):197-204, 2009</a>.
+<p>
+Proves that it's NP-complete to compute the Hadwiger number of a graph.
+<p>
+<li><b>Dilation, smoothed distance, and minimization diagrams of
+convex functions</b>.<br>
+<a href="http://www.middlebury.edu/~dickerso/">M. Dickerson</a>,
+D. Eppstein, and
+<a href="http://www.ics.uci.edu/~kwortman/">K. Wortman</a>.<br>
+<a href="http://arxiv.org/abs/0812.0607">arXiv:0812.0607</a>.<br>
+<a href="http://dx.doi.org/10.1109/ISVD.2010.12"><i>7th Int. Symp. Voronoi Diagrams in Science and Engineering (ISVD
+2010)</i>, Quebec City, Canada, pp. 13-22</a>.
+<p>
+Investigates Voronoi diagrams for a "smoothed distance" in which the
+distance between two points p and q is inversely weighted by the
+perimeter of triangle opq for a fixed point o, its relation to dilation
+of star networks centered at o, and its generalization to minimization
+diagrams of certain convex functions. When the function to be minimized
+is suitably well-behaved, its level sets form pseudocircles, the
+bisectors of the minimization diagram form pseudoline arrangements, and
+the diagram itself has linear complexity.
+<p>
+</ul>
+
+<hr><p>
+<a href="year.html">Years</a> --
+<a href="/~eppstein/pubs/">Publications</a> --
+<a href="/~eppstein/">David Eppstein</a> --
+<a href="/~theory/">Theory Group</a> --
+<a href="/">Inf. &amp; Comp. Sci.</a> --
+<a href="http://www.uci.edu/">UC Irvine</a>
+<p>
+<small>Semi-automatically <a href="filter.html">filtered</a>
+from a common source file.</small>
+</body></html>
+

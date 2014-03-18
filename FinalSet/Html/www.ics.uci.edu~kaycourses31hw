@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="GENERATOR" CONTENT="Globetrotter 1.1.1" />
+<META HTTP-EQUIV="UPDATED" CONTENT="Tuesday, November 22, 2005 9:30 AM" />
+<TITLE>ICS 31 Assignments</TITLE>
+<META HTTP-EQUIV="X-GLOBETROTTERDATA" CONTENT="33CB8976" />
+<META HTTP-EQUIV="DESCRIPTION" CONTENT="Homework Assignments for Informatics 41, the Informatics Core Course, using How to Design Programs by Felleisen, Findler, Flatt, and Krishnamurthi and Fluency by Snyder, at UC Irvine." />
+<META HTTP-EQUIV="COPYRIGHT" CONTENT="Copyright &#169; 2001-2004 by David G. Kay.  All rights reserved." />
+<link href="http://www.ics.uci.edu/~kay/courses/31/mainstyle.css" rel="stylesheet" type="text/css" />
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<p><FONT size="2"  >ICS 31 &bull; DAVID G. KAY &bull; UC IRVINE &bull; WINTER 2014</FONT></p>
+<p><FONT   SIZE=6><B>Assignments </B></FONT>
+</p>
+<!-- <P><font  >Read this introduction at the beginning of the course, but read it again in a couple of weeks.</font></P>-->
+<P><font  >Here are the lab assignments; the introductory material (which you should re-read every month or so) appears below.</font></P>
+
+<!-- <P>Assignments:</P> -->
+<uL>
+<LI> <a href="http://www.ics.uci.edu/~kay/courses/31/hw/lab1.html">Lab Assignment 1</a>
+ (due on January 10): Setup, Python, IDLE, Checkmate, Python expressions and types.</LI>
+
+  <LI><a href="http://www.ics.uci.edu/~kay/courses/31/hw/lab2.html">Lab Assignment 2</a>
+  (due on January 17): Input and output, simple lists, namedtuples, drawing with tkinter</LI>
+<LI>  
+   <a href="http://www.ics.uci.edu/~kay/courses/31/hw/lab3.html">
+    Lab Assignment 3</a>
+ (due on January 24): Programmer-defined functions, combining data structures, control structures for selection and repetition, drawing with tkinter.</LI>
+<LI>  
+   <a href="http://www.ics.uci.edu/~kay/courses/31/hw/lab4.html">
+    Lab Assignment 4</a>
+ (due on January 31): More on programmer-defined functions,  control structures for selection and repetition, combining data structures, drawing with tkinter.</LI>
+ <LI>  
+   <a href="http://www.ics.uci.edu/~kay/courses/31/hw/lab5.html">
+    Lab Assignment 5</a>
+ (due on February 7): Creating, combining, processing namedtuples, lists, lists of namedtuples, namedtuples containing lists.</LI>
+
+<LI>Stay tuned &hellip; As you're waiting for the next assignment to appear, 
+you can be pretty safe reading ahead in the text (whichever one you're using).
+So long as you don't get stuck too long on any topic before we mention it in class,
+at worst you'll just learn something new that you won't be tested on.
+<!-- note that each week's readings are listed on the <a href="http://www.ics.uci.edu/~kay/courses/31/">course syllabus</a> so you can get started on them when it's convenient for you. --></LI>
+</uL>
+
+
+<P><font  >Each week there will be a lab assignment due on Friday; typically the following week's assignment will also be available on Friday.  Each assignment will have two parts:</font></P>
+<ul>
+  <li><font  >Preparation, which you will do individually over the weekend. These will usually involve some reading and a few short problems to introduce you to a topic and help prepare you to ask questions and work in the lab the following week. </font></li>
+  <li><font  >Lab work, which you will do in pairs and submit electronically at the end of your lab session the following Friday. </font></li>
+</ul>
+<!--
+<p><font  >The first week's lab assignment (Lab Assignment 0) is very short so you can complete it at the first lab session on Friday, September 28.</font></p>
+-->
+<p><FONT  >The lab  assignments will require you to do pair programming:
+  You and a classmate will work together at one computer, following <a href="http://www.ics.uci.edu/~kay/courses/31/pair.html">specific guidelines</a>.  This makes the scheduled lab
+  hours on Monday/Wednesday/Friday particularly valuable as a time when everyone
+  in the class is certain to be available (along with the TA and lab tutors).</FONT></p>
+<P> <FONT  >We encourage you to talk with each other and
+  help each other understand how to do the assignments.  There are some limits,
+  though.  Everyone should read the <A HREF="http://www.ics.uci.edu/~kay/courses/31/collab.html">guidelines for collaboration and independent work</A>.</FONT> (Really; read it. People who ignore it risk serious trouble.)</P>
+<P><font  >Don't expect every answe</font><font  >r to every problem to be immediately obvious. If you find yourself stuck on a problem, take these five steps:  (1) Re-read the problem; (2) follow the <a href="http://www.ics.uci.edu/~kay/courses/31/design-recipe.html">design recipe</a> (which we will describe in class); (3) go back and look at how you (or we) solved similar problems; (4) recheck the explanation in the textbook or lecture notes; and (5) if you've spent three solid minutes thinking about the problem without making any progress, it's time to ask somebody (a classmate, TA, tutor, or Piazza). If you're making progress, if you have an educated guess (not a blind guess) about what to try next, then keep going—we're not saying that every problem can be solved completely in three minutes. But after you've spent three minutes of hard thinking with no progress and no idea of what to do next, more thinking alone isn't likely to help.  We want to minimize your frustration; nobody should be spending hours working on a problem without making progress. If you're stuck,  we (or sometimes your classmates) can often get you past your trouble pretty quickly.  (If you haven't followed the steps above, though—especially reading the problem and following the design recipe—we'll probably just send you back to do them.  You have to do your part, but after that we're happy to step in and do ours.) </font></P>
+
+
+<HR />
+<FONT  ><A HREF="http://www.ics.uci.edu/~kay/">David G. Kay</A>, <a href=mailto:kay@uci.edu>kay@uci.edu</A> </FONT><span><br />
+<font size="2"  >
+<!-- #BeginDate format:fcAm1a -->Saturday, February 1, 2014 5:04 PM<!-- #EndDate -->
+</font></span>
+</BODY>
+</HTML>
+

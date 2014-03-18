@@ -1,0 +1,358 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Script-Type" content="text/javascript">
+<title>ICS 54: Brief Notes on Chapter 12: Networking with TCP/IP</title>
+</head>
+
+<body bgcolor="#F8F8F0">
+<i><a href="http://www.ics.uci.edu/"> UC Irvine,
+Information and Computer Science Department</A></I>
+Winter 2000<br>
+<h2><A HREF="http://www.ics.uci.edu/~ics54/">ICS 54</A>:
+Brief Notes on Chapter 12: Networking with TCP/IP
+</h2>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>References</h2>
+<dl>
+<dt><a href="http://freesoft.org/CIE/">
+  <tt>http://freesoft.org/CIE/</tt></a>
+<dd><i>Connected: An Internet Encyclopedia</i> 
+<dt><a href="http://www.whatis.com/tour.htm"><tt>http://www.whatis.com/tour.htm</tt></a>
+<dd>An overview of the Internet from
+<tt><a href="http://www.whatis.com/">http://www.whatis.com/</a></tt>
+</dl>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>TCP/IP</h2>
+Network hardware allows sending packets of data
+(of limited size) from one computer to another.  
+<p>Higher level protocols
+are needed to solve the following problems:
+<dl>
+<dt>
+<b>Routing.</b>
+<dd>With a complex topology such as the Internet's,
+<BR>
+how do packets efficiently find their way to the appropriate gateways?
+<dt>
+<b>Virtual circuits.</b>
+<dd>Most applications want a continuous, ordered,
+full-duplex communications link, not packets.
+<dt>
+<b>Robustness.</b>
+<dd>Checksums, retransmission, packet ordering, and duplicate removal.
+</dl>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>TCP/IP Key Points</h2>
+<ul>
+<li> Transport hardware independence
+<li> Vendor independence
+<li> Routing packets: Provides for a network of networks.  
+This is done by the Internet Protocol (IP) and
+managed by ICMP (Internet Control Message Protocol).
+<li> Message Transport: Build virtual circuits when needed using
+the Transmission Control Protocol (TCP).
+</ul>
+<p>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>TCP/IP Network Model</h2>
+TCP/IP model of networking has are four layers:
+<dl>
+<dt><b>Link Layer</b><dd>
+Network hardware and device drivers.
+<dt><b>Network Layer</b><dd>
+Does addressing and routing.  IP and ICMP operate here.
+IP layer.
+<dt><b>Transport Layer</b><dd>
+Enables application programs to communicate
+over the network.  TCP and UDP (User Datagram Protocol) operate here.
+<dt><b>Application Layer</b><dd>
+Applications may define their own protocols: HTTP, telnet,
+FTP, SMTP, etc.
+</dl>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>The "Other" Network Model</h2>
+<p>
+Networking classes usually teach the 7 layer ISO Open Systems
+Interconnection (OSI) networking model:
+<OL>
+<li>Physical
+<li>Data Link
+<li>Network
+<li>Transport
+<li>Session
+<li>Presentation
+<li>Application
+</OL>
+<p>
+In addition to the 7 layers, OSI committees specified a set of standard
+protocols which in the 1980's were expected to replace TCP/IP.
+<p>
+When finally implemented, they were found to be inefficient and
+underspecified.  
+<p>
+TCP had by then become established, and the OSI protocols
+have largely fallen by the wayside, though many commercial e-mail systems
+still use the X.400 family of mail protocols.
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>Packets</h2>
+<p>
+Network data is transmitted in <em>packets.</em> 
+<BR>At the hardware level,
+packets are often called <em>frames.</em>
+<p>
+The packet header contains the addresses of where it's coming from and
+where it's going to, checksums to verify data integrity, and other
+protocol-specific information.
+<p>
+The packet's body contains data which may represent a packet of
+another protocol.  
+<p>
+As packets move from the application to the hardware,
+each layer of software adds its own header information, called
+<em>encapsulation.</em>  Upon receipt, of course, each layer removes its
+headers as the packet moves upwards to the application.
+<p>
+This is why it's often called a <em>protocol stack.</em>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>Packet Size</h2>
+<p>
+Packet size may be limited.
+<BR>Most interfaces specify a
+<em>Maximum Transmission Unit</em> (MTU).
+<BR>Ethernet, for example, has an MTU of 1,500 bytes.
+<p>
+Because software at the application and transport layers can't know
+the MTU limit which will be encountered by their packets, it is the
+job of the Internet Protocol (IP) to <I>fragment and reassemble</I>
+packets
+when necessary to make them fit through a selected interface.
+<p>Fragmentation
+may also be necessary when a packet moves through several different media;
+fragmentation of fragments is quite possible.
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>Routing</h2>
+<p>
+<em>Routing</em> allows packets to cross network boundaries on their way
+from system to system.
+<p>
+Whenever the IP layer receives a packet (it doesn't matter if it came
+in from another interface or if it came from application software on this
+machine), IP decides what to do with it. 
+<p>If it's for the current machine,
+IP passes the packet up to the correct transport software above it,
+based on information in the packet header.
+<p>If it's for another machine,
+then IP tries to decide which interface it should use and what hardware
+address should be put on the enclosing packet. 
+<p>If IP can't find a
+suitable place to send the packet, then it is returned with a "network
+unreachable" error.
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>TCP</h2>
+<p>
+All higher level protocols (TCP, UDP) in the Internet use IP to route their
+packets to their destinations.
+<p>
+Sometimes packets are lost or destroyed.
+<p> UDP doesn't address these problems.
+<BR>TCP does.
+<p>
+For reliable communication, checksums must be employed to determine
+if a packet has been corrupted, and a mechanism of acknowledgements,
+timeouts, and retransmissions will be needed.
+<p>
+If there are retransmissions, then duplicates may be received and 
+must be discarded.
+<p>
+If there are multiple routes to a destination, or packets are lost and
+retransmitted, then they may arrive out of sending order.
+<p>
+TCP uses these mechanisms to provide virtual circuit service to applications.
+
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2><tt>rlogin</tt>, <tt>rsh</tt>, <tt>rcp</tt></h2>
+
+These commands allow one to assume on a remote host <tt><i>Rhost</i></tt>
+the rights of the remote user <tt><i>Ruser</i></tt> on that system.
+<p>
+
+All of them depend on <tt>/etc/hosts.equiv</tt> 
+and <tt>~<i>Ruser</i>/.rhosts</tt>
+on <tt><i>Rhost</i></tt>
+<p>
+<tt>/etc/hosts.equiv</tt> lists those systems which are considered
+equivalent to this one in the sense that a valid login as
+<tt><i>Ruser</i></tt> there is considered as proof that the
+person should be allowed to operate as <tt><i>Ruser</i></tt> here.
+<p>
+
+<tt>~Ruser/.rhosts</tt> lists pairs of the form
+"<tt>thatsystem user</tt>" saying that <tt>user@thatsystem</tt> can
+operate on this system with the same rights as <tt>Ruser</tt>
+has on this system.
+<br>If <tt>user</tt> is omitted, its value is understood to be
+<tt>Ruser</tt>.
+
+<dl>
+<dt><tt><b>rlogin</b> [ <b>-l</b> <i>Ruser</i> ] <i>Rhost</i></tt>
+  <dd>Login to <tt><i>Rhost</i></tt> as <tt><i>Ruser</i></tt>
+  <br>If <tt><i>Ruser</i></tt> is omitted the login name used on
+  <tt><i>Rhost</i></tt> is the same as the login name on this system.
+  <br>Suppose that from system S1 you rlogin to S2 and from there
+  to S3:
+  <tt>~CTRL-Z</tt> suspends all your rlogins back to S1;
+  <tt>~~CTRL-Z</tt> suspends only the rlogin from S2 to S3.
+<dt><tt><b>rsh</b> [ <b>-n</b> ] [ <b>-l</b> <i>Ruser</i> ] <i>Rhost</i> <i>command</i></tt>
+<br><tt><b>rsh</b> <i>Rhost</i> [ <b>-n</b> ] [ <b>-l</b> <i>Ruser</i> ] <i>command</i></tt>
+  <dd>On <tt><i>Rhost</i></tt>, acting as <tt><i>Ruser</i></tt>,
+  execute the command <tt><i>command</i></tt>.
+  <br>If <tt><b>-n</b></tt> is specified, <tt><b>rsh</b></tt> takes its
+  input from <tt>/dev/null</tt>.
+<dt><tt><b>rcp</b> [ <b>-p</b> ]  <i>file1  file2</i></tt>
+<br><tt><b>rcp</b> [ <b>-pr</b> ]  <i>file  directory</i></tt>
+<dd>These remote copies act exactly like <tt><b>cp</b></tt> except
+that the form of the file and directory names is a bit different.
+<br>That form is &nbsp;
+<tt>[<i>Ruser</i><b>@</b>]<i>Rhost</i><b>:</b><i>name</i></tt>
+<br>Examples: &nbsp; <tt>you@x.y.edu:InYourHomeDir</tt> &nbsp;&nbsp;
+<tt>x.y.edu:/users/homes/me</tt>
+</dl>
+
+All of these commands present the security problems associated
+with transmitting unencrypted information between systems.
+<p>
+Versions of these commands which used encrypted transmission
+between systems are called <tt>slogin</tt>, <tt>ssh</tt>, and <tt>scp</tt>.
+<p>
+They are often simply considered part of "<tt>ssh</tt>, the secure shell."
+
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>ftp = File Transfer Protocol</h2>
+
+For moving files between systems and remote
+manipulations of files and directories.
+<p>
+When "ASCII" (as opposed to "binary") mode is used,
+it compensates for the differences among systems in
+in how text files are represented (end of line).
+<p>
+Note that password is sent unencrypted.
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>telnet</h2>
+
+<tt><b>telnet</b> <i>host</i> [ <i>port</i> ] </tt>
+<p>
+Interactive access to remote systems and services.
+<p>
+Note that password is sent unencrypted.
+<p>
+Ability to access ports other than the default (23) can be
+very useful.
+
+<pre>
+% telnet www.uci.edu 80
+Trying 128.200.222.100...
+Connected to alpha.cwis.uci.edu.
+Escape character is '^]'.
+HEAD / HTTP/1.0
+
+HTTP/1.1 200 OK
+Date: Mon, 14 Feb 2000 07:00:53 GMT
+Server: Apache/1.3.9 (Unix)
+Last-Modified: Fri, 11 Feb 2000 08:00:08 GMT
+ETag: "733ea-1c26-38a90788"
+Accept-Ranges: bytes
+Content-Length: 7206
+Connection: close
+Content-Type: text/html
+
+Connection closed by foreign host.
+%
+</pre>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>ruptime</h2>
+<pre>
+% uname -a
+SunOS rigel.oac.uci.edu 5.6 Generic_105181-06 sun4u sparc SUNW,Ultra-2
+% ruptime
+eeeweb      down 326+08:17
+mercury       up 42+16:00,     0 users,  load 4.03, 2.16, 1.50
+polaris     down 42+16:36
+rigel         up 42+15:29,    24 users,  load 0.63, 0.62, 0.63
+taurus        up 42+15:31,    20 users,  load 0.72, 0.76, 0.75
+%
+</pre>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2><a href="http://freesoft.org/CIE/Topics/53.htm">ping</a></h2>
+<pre>
+% ping www.uci.edu
+alpha.cwis.uci.edu is alive
+% 
+% ping -s www.uci.edu
+PING alpha.cwis.uci.edu: 56 data bytes
+64 bytes from alpha.cwis.uci.edu (128.200.222.100): icmp_seq=0. time=2. ms
+64 bytes from alpha.cwis.uci.edu (128.200.222.100): icmp_seq=1. time=1. ms
+64 bytes from alpha.cwis.uci.edu (128.200.222.100): icmp_seq=2. time=1. ms
+64 bytes from alpha.cwis.uci.edu (128.200.222.100): icmp_seq=3. time=1. ms
+^C
+----alpha.cwis.uci.edu PING Statistics----
+4 packets transmitted, 4 packets received, 0% packet loss
+round-trip (ms)  min/avg/max = 1/1/2
+% 
+% ping -s www.uci.edu 1016
+PING alpha.cwis.uci.edu: 1016 data bytes
+1024 bytes from alpha.cwis.uci.edu (128.200.222.100): icmp_seq=0. time=6. ms
+1024 bytes from alpha.cwis.uci.edu (128.200.222.100): icmp_seq=1. time=4. ms
+1024 bytes from alpha.cwis.uci.edu (128.200.222.100): icmp_seq=2. time=4. ms
+1024 bytes from alpha.cwis.uci.edu (128.200.222.100): icmp_seq=3. time=4. ms
+^C
+----alpha.cwis.uci.edu PING Statistics----
+4 packets transmitted, 4 packets received, 0% packet loss
+round-trip (ms)  min/avg/max = 4/4/6
+% 
+% ping -s -I 5 www.uci.edu
+PING alpha.cwis.uci.edu: 56 data bytes
+64 bytes from alpha.cwis.uci.edu (128.200.222.100): icmp_seq=0. time=2. ms
+64 bytes from alpha.cwis.uci.edu (128.200.222.100): icmp_seq=1. time=1. ms
+^C
+----alpha.cwis.uci.edu PING Statistics----
+2 packets transmitted, 2 packets received, 0% packet loss
+round-trip (ms)  min/avg/max = 1/1/2
+% 
+</pre>
+
+<hr>
+<a href="http://www.oac.uci.edu/indiv/franklin/tools/feedback?ics54@ics.uci.edu">Comments are welcome.</a>
+<noscript><br><b>JavaScript must be enabled in order for this page
+   to be fully functional.</b></noscript>
+<script language="JavaScript" type="text/javascript">
+<!-- Beginning of JavaScript -
+   document.writeln("<br>This document can be found at &nbsp;<tt>"+
+       document.location+"</tt>");
+// document.writeln("<br><i>Current as of " + document.lastModified+"</i>");
+// - End of JavaScript - -->
+</script>
+   <br><i>Current as of 14 February 2000</i>
+<br><a href="http://validator.w3.org/check?uri=&{document.location};&ss=">HTML
+    4.01 Checked.</a>
+<!-- To show source in validation "...?uri=&{document.location};&ss=" -->
+
+</body>
+</html>
+

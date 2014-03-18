@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Suspending with External Predicates</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Suspending with External Predicates">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5064 HREF="node236.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5062 HREF="node215.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5058 HREF="node234.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5066 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5065 HREF="node236.html"> Profiling Prolog Execution</A>
+<B>Up:</B> <A NAME=tex2html5063 HREF="node215.html"> External Language Interface</A>
+<B> Previous:</B> <A NAME=tex2html5059 HREF="node234.html"> Nondeterministic Externals</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION001960000000000000000> Suspending with External Predicates</A></H1>
+<P>
+<A NAME=externaldelay>&#160;</A>
+As already mentioned earlier, external predicates can also be
+suspended.
+The macro
+<blockquote> <PRE>Mark_Suspending_Variable(var)
+</PRE></blockquote>
+<A NAME=3691>&#160;</A>
+is used to mark a variable which is not instantiated
+and therefore responsible for suspending a call.
+<tt> var</tt> is a pointer to the variable.
+If this macro is used in a normal external predicate which
+itself will delay, it must return to the system
+using the macro
+<blockquote> <PRE>Delay
+</PRE></blockquote>
+<A NAME=3695>&#160;</A>
+<P>
+For example, we could define a predicate
+<b> atomd/1</b> which is like <b> atom/1</b> but
+instead of failing it delays
+if its argument is not instantiated:
+<blockquote> <PRE>p_atomd(v1, t1)
+value               v1;
+type                t1;
+{
+        if (IsRef(t1))
+        {
+                Mark_Suspending_Variable(v1.ptr);
+                Delay;
+        }
+        else
+                Succeed_If(IsAtom(t1));
+}
+</PRE>
+</blockquote><BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

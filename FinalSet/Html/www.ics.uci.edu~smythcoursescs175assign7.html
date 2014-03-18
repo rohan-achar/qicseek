@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta name="GENERATOR"
+ content="Mozilla/4.76 [en] (WinNT; U) [Netscape]">
+  <title>ICS 175: Project in Artificial Intelligence</title>
+</head>
+<body alink="#ff3300" bgcolor="#f3f9fe" link="#cc0000" text="#000000"
+ vlink="#330099">
+<center>
+<h1>Assignment 7: Project Progress Reports</h1>
+</center>
+<center>
+<h1> CS 175: Project in Artificial Intelligence</h1>
+</center>
+<center>
+<h2>Due at 9am Monday November 26th 2007</h2>
+</center>
+<hr>
+<h3>Instructions for Assignment 7: Project Progress Reports</h3>
+The instructions for this assignment are quite simple. You need to (a)
+write a brief report (up to 3 pages) that summarizes your
+progress so far,
+(b) write a MATLAB script that demonstrates your progress so far.&nbsp;<br>
+<h4>
+(a) Project Progress Report</h4>
+Your project progress report should contain the following sections:
+<br>
+<ul>
+  <li><strong>Section 1</strong>: The overall goals of the project (a paragraph, or a
+bulleted list)</li>
+  <li><strong>Section 2</strong>: The intermediate goals you have achieved so far, e.g.,
+(a) setting up your data sets, design, (b) implementation, and testing
+of feature extraction
+code, (c) running classification/detection experiments, and so on. You should
+have about 2 to 5 intermediate goals.&nbsp; For each of the
+intermediate goals write a short subsection (2.1, 2.2, etc) that
+includes:
+<ul>
+  <li> a brief definition of what you have actually done with respect to this
+    goal,e.g., what you have implemented in code for this goal, described
+    by using some text with a high-level pseudocode or flowchart
+    description.&nbsp; You can refer to specific names of your ".m"
+    functions that you include in your submitted code in Part (b). Be sure
+    to indicate which functions you have written and which you obtained from
+    elsewhere.<br>
+  </li>
+</ul>
+  </li>
+  <ul><li>
+      preliminary results if available (e.g., some images with examples of
+      features
+      found, or preliminary classification results). If there are no
+      preliminary results you can demonstrate, explain why. Please use
+      example images to illustrate progress if you can.<br>
+    </li>
+    <li> the status in terms of completion of this goal (e.g., "this code has
+      been written
+      but not fully debugged or tested yet").</li>
+    <li>a list of any difficulties that you have encountered so far or
+      anticipate encountering</li>
+  </ul>
+  <li>&nbsp;<strong>Section 3</strong>: A brief section (a few lines or bulleted list) describing
+what remains
+to be done on the project (coding, testing, documentation, extended
+task, etc) and any difficulties
+that you anticipate in getting the project finished.</li>
+</ul>
+<h4>
+(b) Project Demo Script</h4>
+Write a simple demo script called <b>progress.m</b> that illustrates
+in
+some simple manner the progress you have made so far, e.g.,
+<p>data = load sampleimages
+<br>
+templates = load templates
+<br>
+[features labels] = feature_extract(data, templates);
+<br>
+plot_features(features,labels,feature1, feature2);&nbsp; % function
+to plot the feature values for feature 1 and feature 2 (x-y plot,
+colored
+according to the labels)
+<br>
+OR
+<br>
+display_features(data.images, features)&nbsp; % function that shows
+the original images and also visually displays (somehow) the extracted
+features for each image
+</p>
+<p>This is just a simple example. There are lots of different
+possibilities
+for a sample script, so feel free to be creative! The main thing is
+that
+you illustrate some aspect of the work you have done so far and that
+the
+plots/displays provide an indication of progress.
+</p>
+<p>The scipt should not take any longer than 1 minute to run. (so if it
+involves a learning algorithm you may want to include your learning
+algorithm code in what you hand in, but run it beforehand, save the
+results, and just run the learned classifier in your demo script). The
+script
+need not illustrate all the work you have done so far, but it should
+illustrate at least
+one of the goals that you wrote about in the progress report, e.g., the
+extraction and visual display of some feature of interest.</p>
+<p>Your  script should print comments to the screen to explain what your script is doing and
+  it should put titles, labels, etc., on any plots produced. <br>
+</p>
+<p><b>IMPORTANT NOTE</b>: please make sure that this script runs in a
+stand-alone mode and that it includes all functions needed (that are
+not part of the standard MATLAB package), and all data needed, in a
+single directory. So you need (for example) to include any "support"
+functions you have written and any functions that you are using that
+were written by someone else (e.g., functions that I provided from
+earlier assignments). Be sure to indicate at the top of each function
+whether you wrote it or not. <br>
+</p>
+<hr>
+<h3>What to Turn In</h3>
+<ul>
+  <li>Your project progress report&nbsp; in WORD or PDF format, called progress.doc or progress.pdf, uploaded to EEE Progress Report directory. <br>
+    <br>
+</li>
+  <li>Upload a Zip file with all the code and data needed to run your script to the EEE&nbsp; Progress Report directory. The Zip file should contain a single
+directory with your MATLAB demo script, called progress.m, as well as
+all image and data
+files, and other MATLAB functions, that are needed to run it. Please do
+not upload a Zip file that is greater than 10 Mbytes in size (your
+whole submitted directory should not exceed 10 Mbytes, including data,
+functions, etc, after compression into a Zip file), e.g., just use a
+few images for illustration, rather than uploading the full set. </li>
+</ul>
+</body>
+</html>
+

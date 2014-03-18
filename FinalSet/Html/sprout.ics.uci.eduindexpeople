@@ -1,0 +1,809 @@
+ <!DOCTYPE html
+   PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<link href="/themes/default.css" rel="stylesheet" type="text/css"/>
+		<link href="/themes/alert.css" rel="stylesheet" type="text/css"/>
+		<link href="/themes/alphacube.css" rel="stylesheet" type="text/css"/>        
+ 		<link href="/css/calendar.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="/css/styles.css" type="text/css" media="all" />
+
+        <script type="text/javascript" src="/js/prototype.js"></script>
+        <script type="text/javascript" src="/js/scriptaculous/scriptaculous.js"></script>
+        <script type="text/javascript" src="/js/effects.js"></script>
+        <script type="text/javascript" src="/js/window.js"> </script> 
+        <script type="text/javascript" src="/js/window_effects.js"></script>
+        <script type="text/javascript" src="/js/NewsUpDown.class.js"></script>
+        <script type="text/javascript" src="/js/calendar_us.js"></script>
+    </head>
+    <body>
+	  <div id="wrapper">
+        <div id="banner">
+          <img id="badge" src="/images/uci_seal_2col.png" alt="UCI" />
+		  <ul id="sitetools">
+          			<li>
+			  <a href="/account/login">Login</a>
+			</li>          
+            
+			<li>
+			  <a href="/admin">Admin</a>
+			</li>
+		  </ul>
+        </div>
+		<div id="mainNav">
+          <div>
+		  <ul>
+			<li>
+			  <a href="/index">Home</a>
+			</li>
+			<li>
+			  <a href="/index/project">Projects</a>
+			</li>
+			<li>
+			  <a href="/index/publications">Publications</a>
+			</li>
+			<li>
+			  <a href="/index/people">People</a>
+			</li>
+			<li>
+			  <a href="/index/gallery">Gallery</a>
+			</li>
+            <li style="float:right">
+			<div style="float:right">
+			<form method="get" action="http://www.google.com/search">
+			<table border="0" cellpadding="0">
+			<tr>
+              <td>
+                <div style="width:100%;">
+                <div style=" float:left">
+			    <input type="text"  name="sitesearch" value="sprout.ics.uci.edu" style="visibility:hidden" /> 
+                </div>
+                <div style="float:right">
+			    <input type="text"   name="q" size="10" maxlength="255" value="" />
+			    <input id="ssbutton" type="submit" value="Search" style="font-size:60%; width:45px; height:26px"/>
+                </div>
+                </div>
+			  </td>
+            </tr>
+            </table>
+			</form>
+			</div>
+
+            </li>
+		  </ul>
+          </div>
+		</div>
+<div id="contentWrapper">
+<div id="news">
+   <h2>News</h2>
+   <div class="story">
+       <input type="button" id="up" class="button"></button>
+       <input type="button" id="down" class="button"></button>
+       <script type="text/javascript" src="/js/NewsUpDown.class.js"></script>
+       <script type="text/javascript">
+            new NewsUpDown("up", "down");
+       </script>
+
+   </div>
+	<div id="news_content">
+        <div class="story">
+        <div class="title">Paper Accepted</div>
+        <div class="date">2013-11-21</div>
+        <div class="content">A paper titled: "Authentication Using Pulse-Response Biometrics"
+by  Kasper Rasmussen, Marc Roeschlin, Ivan Martinovic and Gene Tsudik
+was accepted by 2014 Network and Distributed System Security (NDSS) Symposium.</div>
+     </div>
+        <div class="story">
+        <div class="title">Paper Accepted</div>
+        <div class="date">2013-11-20</div>
+        <div class="content">A paper titled: "Two-Factor Authentication Resilient to Server Compromise Using Mix-Bandwidth Devices"
+by Maliheh Shirvanian, Stanislaw Jarecki, Nitesh Saxena and Naveen Nathan
+was accepted by 2014 Network and Distributed System Security (NDSS) Symposium.</div>
+     </div>
+        <div class="story">
+        <div class="title">Paper Accepted</div>
+        <div class="date">2013-11-19</div>
+        <div class="content">A paper titled: "Optimizing Bi-Directional Low-Latency Communication in Named Data Networking"
+by Mishari Almishari, Paolo Gasti, Naveen Nathan and Gene Tsudik
+was accepted for publication by ACM Computer Communication Review.
+</div>
+     </div>
+      </div>
+</div>
+<div id="main">
+  <div class="main_item">
+  <h1>Faculty:</h1>
+  <div class="peopletype">
+
+        <div class="people">
+           <div class="contact">
+                <div class="homepage">
+               		<a href="http://www.ics.uci.edu/~gts"><span class="name">Gene Tsudik</span></a>
+                </div>
+           </div>
+                    <div class="image">
+               <img src="/photos/gene.jpg"  width="80px" height="80px"></img>
+          </div>
+                </div>
+     </div>
+  </div>
+
+   <div class="main_item">
+  <h1>Ph.D. Students:</h1>
+  <div class="peopletype">
+        <div class="people">
+           <div class="contact">
+               <div class="homepage">
+                   <a href="http://ics.uci.edu/~cghali"><span class="name">Cesar Ghali</span></a>
+               </div>
+           </div>
+                    <div class="image">
+               <img src="/photos/cesar_ghali.jpg"  width="80px" height="80px"></img>
+          </div>
+               </div>
+        <div class="people">
+           <div class="contact">
+               <div class="homepage">
+                   <a href="http://christopher-wood.com/"><span class="name">Christopher Wood</span></a>
+               </div>
+           </div>
+                    <div class="image">
+               <img src="/photos/chriswood.png"  width="80px" height="80px"></img>
+          </div>
+               </div>
+        <div class="people">
+           <div class="contact">
+               <div class="homepage">
+                   <a href="http://www.ekin.ca"><span class="name">Ekin Oguz</span></a>
+               </div>
+           </div>
+                    <div class="image">
+               <img src="/photos/ekinoguz.jpg"  width="80px" height="80px"></img>
+          </div>
+               </div>
+        <div class="people">
+           <div class="contact">
+               <div class="homepage">
+                   <a href="http://www.ics.uci.edu/~fabers/"><span class="name">Sky Faber</span></a>
+               </div>
+           </div>
+                    <div class="image">
+               <img src="/photos/sky_sprout.jpg"  width="80px" height="80px"></img>
+          </div>
+               </div>
+        <div class="people">
+           <div class="contact">
+               <div class="homepage">
+                   <a href="http://sprout.ics.uci.edu/admin/manageppl"><span class="name">Tyler Kaczmarek</span></a>
+               </div>
+           </div>
+                    <div class="image">
+               <img src="/photos/2013-10-22 14.02.31.jpg"  width="80px" height="80px"></img>
+          </div>
+               </div>
+     </div>
+  </div>
+  
+  
+  <div class="main_item" id="alumni">
+  <h1>Ph.D. Alumni:</h1>
+  <div class="peopletype">
+        <div class="people">
+           <div class="contact">
+           		<div class="homepage">
+               <a href="http://lsd.ls.fi.upm.es/lsd/Members/claudio%20soriente"><span class="name">Claudio Soriente</span></a>
+               </div>
+<!--                          <div class="email">
+               <a href="mailto:csorient@uci.edu">Email</a>
+               </div>
+            -->
+           </div>
+            <div class="image">
+           <img src="/photos/csorient.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+           		<div class="homepage">
+               <a href="http://www-personal.engin.umd.umich.edu/~dmadma/"><span class="name">Di Ma</span></a>
+               </div>
+<!--                          <div class="email">
+               <a href="mailto:dmadma@umich.edu">Email</a>
+               </div>
+            -->
+           </div>
+            <div class="image">
+           <img src="/photos/dmadma.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+           		<div class="homepage">
+               <a href="http://www.linkedin.com/in/einarmykletun"><span class="name">Einar Mykletun </span></a>
+               </div>
+<!--                          <div class="email">
+               <a href="mailto:enmykletun@gmail.com">Email</a>
+               </div>
+            -->
+           </div>
+            <div class="image">
+           <img src="/photos/enmykletun.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+           		<div class="homepage">
+               <a href="http://www.emilianodc.com/"><span class="name">Emiliano De Cristofaro</span></a>
+               </div>
+<!--                          <div class="email">
+               <a href="mailto:edecrist@uci.edu">Email</a>
+               </div>
+            -->
+           </div>
+            <div class="image">
+           <img src="/photos/foto.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+           		<div class="homepage">
+               <a href="http://www.ersinuzun.com"><span class="name">Ersin Uzun</span></a>
+               </div>
+<!--                          <div class="email">
+               <a href="mailto:euzun@alumni.uci.edu">Email</a>
+               </div>
+            -->
+           </div>
+            <div class="image">
+           <img src="/photos/ersin.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+           		<div class="homepage">
+               <a href="http://msec.ssu.ac.kr/"><span class="name">Jeong Hyun Yi</span></a>
+               </div>
+<!--                          <div class="email">
+               <a href="mailto:jhyi@ssu.ac.kr">Email</a>
+               </div>
+            -->
+           </div>
+            <div class="image">
+           <img src="/photos/jhyi.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+           		<div class="homepage">
+               <a href="http://sconce.ics.uci.edu/jihyek/"><span class="name">Jihye Kim</span></a>
+               </div>
+<!--                          <div class="email">
+               <a href="mailto:jihyek@uci.edu">Email</a>
+               </div>
+            -->
+           </div>
+            <div class="image">
+           <img src="/photos/jihyek.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+           		<div class="homepage">
+               <a href="http://www.ics.uci.edu/~jsolis"><span class="name">John Solis</span></a>
+               </div>
+<!--                          <div class="email">
+               <a href="mailto:jsolis@uci.edu">Email</a>
+               </div>
+            -->
+           </div>
+            <div class="image">
+           <img src="/photos/jsolis.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+           		<div class="homepage">
+               <a href="http://www.ics.uci.edu/~keldefra"><span class="name">Karim El Defrawy</span></a>
+               </div>
+<!--                          <div class="email">
+               <a href="mailto:keldefra@uci.edu">Email</a>
+               </div>
+            -->
+           </div>
+            <div class="image">
+           <img src="/photos/keldefra.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+           		<div class="homepage">
+               <a href="http://www.linkedin.com/pub/maithili-narasimha/1/70b/7b4"><span class="name">Maithili Narasimha</span></a>
+               </div>
+<!--                          <div class="email">
+               <a href="mailto:mnarasimha">Email</a>
+               </div>
+            -->
+           </div>
+            <div class="image">
+           <img src="/photos/mnarasimha.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+           		<div class="homepage">
+               <a href="http://www.ics.uci.edu/~malmisha/"><span class="name">Mishari I. Almishari</span></a>
+               </div>
+<!--                          <div class="email">
+               <a href="mailto:malmisha@ics.uci.edu">Email</a>
+               </div>
+            -->
+           </div>
+            <div class="image">
+           <img src="/photos/mishari.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+           		<div class="homepage">
+               <a href="http://cis.poly.edu/~nsaxena/"><span class="name">Nithesh Saxena </span></a>
+               </div>
+<!--                          <div class="email">
+               <a href="mailto:nsaxena@poly.edu">Email</a>
+               </div>
+            -->
+           </div>
+            <div class="image">
+           <img src="/photos/nsaxena.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+           		<div class="homepage">
+               <a href="http://www.mysmu.edu/faculty/xhding/"><span class="name">Xuhua Ding</span></a>
+               </div>
+<!--                          <div class="email">
+               <a href="mailto:xhding@smu.edu.sg">Email</a>
+               </div>
+            -->
+           </div>
+            <div class="image">
+           <img src="/photos/xhding.gif"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+           		<div class="homepage">
+               <a href="http://www.ics.uci.edu/~yanbinl/"><span class="name">Yanbin Lu</span></a>
+               </div>
+<!--                          <div class="email">
+               <a href="mailto:yanbinl@uci.edu">Email</a>
+               </div>
+            -->
+           </div>
+            <div class="image">
+           <img src="/photos/yanbin.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+     </div>
+  </div>
+
+  <div class="main_item" id="alumni">
+  <h1>Master Alumni:</h1>
+  <div class="peopletype">
+        <div class="people">
+           <div class="contact">
+           		<div class="homepage">
+               <a href="https://www.linkedin.com/pub/audrey-hesse/29/101/a05"><span class="name">Audrey Hesse</span></a>
+               </div>
+<!--            -->
+           </div>
+            <div class="image">
+           <img src="/photos/2d3e42a.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+           		<div class="homepage">
+               <a href="http://www.ics.uci.edu/~nnathan/"><span class="name">Naveen Nathan</span></a>
+               </div>
+<!--                          <div class="email">
+               <a href="mailto:nnathan@uci.edu">Email</a>
+               </div>
+            -->
+           </div>
+            <div class="image">
+           <img src="/photos/naveen_sprout.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+           		<div class="homepage">
+               <a href="http://sites.uci.edu/quan/"><span class="name">Quan Nguyen</span></a>
+               </div>
+<!--                          <div class="email">
+               <a href="mailto:/mail.google.com/mail/?view=cm&fs=1&tf=1&to=quann1@uci.edu">Email</a>
+               </div>
+            -->
+           </div>
+            <div class="image">
+           <img src="/photos/quan.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+           		<div class="homepage">
+               <a href="http://www.cs.stonybrook.edu/~rnithyanand/"><span class="name">Rishab Nithyanand</span></a>
+               </div>
+<!--                          <div class="email">
+               <a href="mailto:rnithyanand@cs.stonybrook.edu">Email</a>
+               </div>
+            -->
+           </div>
+            <div class="image">
+           <img src="/photos/rnithyanand.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+           		<div class="homepage">
+               <a href="http://www.linkedin.com/pub/simon-skaria/5/89b/48a"><span class="name">Simon Skaria</span></a>
+               </div>
+<!--                          <div class="email">
+               <a href="mailto:simon.skaria">Email</a>
+               </div>
+            -->
+           </div>
+            <div class="image">
+           <img src="/photos/simon.skaria.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+     </div>
+  </div>
+
+  <div class="main_item">
+  <h1>Past Visitors:</h1>
+  <div class="peopletype">
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://planete.inrialpes.fr/~ccastel/"><span class="name">Claude Castelluccia</span></a>
+               </div>
+<!--                        <div class="email">
+               <a href="mailto:claude.castelluccia@inria.fr">Email</a>
+               </div>
+             -->
+           </div>
+            <div class="image">
+           <img src="/photos/claude.castelluccia.JPG"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://it.linkedin.com/in/mazzocchi"><span class="name">Daniele Mazzocchi</span></a>
+               </div>
+<!--             -->
+           </div>
+            <div class="image">
+           <img src="/photos/moz-screenshot.png"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://planete.inrialpes.fr/~perito/pub.html"><span class="name">Daniele Perito</span></a>
+               </div>
+<!--                        <div class="email">
+               <a href="mailto:perito@inrialpes.fr">Email</a>
+               </div>
+             -->
+           </div>
+            <div class="image">
+           <img src="/photos/perito.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://filipe.pt/"><span class="name">Filipe Beato</span></a>
+               </div>
+<!--                        <div class="email">
+               <a href="mailto:/mail.google.com/mail/?view=cm&fs=1&tf=1&to=filipe.beato@esat.kuleuven.be">Email</a>
+               </div>
+             -->
+           </div>
+            <div class="image">
+           <img src="/photos/large_filipe.beato.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://wnlab.isti.cnr.it/gabriele/"><span class="name">Gabriele Oligeri</span></a>
+               </div>
+<!--                        <div class="email">
+               <a href="mailto:gabriele.oligeri@isti.cnr.it">Email</a>
+               </div>
+             -->
+           </div>
+            <div class="image">
+           <img src="/photos/gabriele.oligeri.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://www.crysys.hu/~acs/"><span class="name">Gergely Acs</span></a>
+               </div>
+<!--             -->
+           </div>
+            <div class="image">
+           <img src="/photos/IMG_2440.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://disco.informatik.uni-kl.de/content/Ivan_Martinovic"><span class="name">Ivan Martinovic</span></a>
+               </div>
+<!--                        <div class="email">
+               <a href="mailto:martinovic@informatik.uni-kl.de">Email</a>
+               </div>
+             -->
+           </div>
+            <div class="image">
+           <img src="/photos/martinovic.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://www.muni.cz/sci/people/Jaroslav.Sedenka"><span class="name">Jaroslav Sedenka</span></a>
+               </div>
+<!--                        <div class="email">
+               <a href="mailto:sedenka@mail.muni.cz">Email</a>
+               </div>
+             -->
+           </div>
+            <div class="image">
+           <img src="/photos/jaro.jpeg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://joao.girao.org/"><span class="name">Joao Girao</span></a>
+               </div>
+<!--                        <div class="email">
+               <a href="mailto:contact@girao.org">Email</a>
+               </div>
+             -->
+           </div>
+            <div class="image">
+           <img src="/photos/contact.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://www.math.snu.ac.kr/~jhcheon/"><span class="name">Jung-Hee Cheon</span></a>
+               </div>
+<!--                        <div class="email">
+               <a href="mailto:jhcheon@snu.ac.kr">Email</a>
+               </div>
+             -->
+           </div>
+            <div class="image">
+           <img src="/photos/jhcheon.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://www.ics.uci.edu/~kbrasmus/"><span class="name">Kasper Bonne Rasmussen</span></a>
+               </div>
+<!--                        <div class="email">
+               <a href="mailto:kasperr@inf.ethz.ch">Email</a>
+               </div>
+             -->
+           </div>
+            <div class="image">
+           <img src="/photos/kasper_sprout.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://unicorn.pknu.ac.kr/~khrhee/"><span class="name">Kyung Hyune Rhee</span></a>
+               </div>
+<!--                        <div class="email">
+               <a href="mailto:rhee">Email</a>
+               </div>
+             -->
+           </div>
+            <div class="image">
+           <img src="/photos/rhee.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href=""><span class="name">Marc Roeschlin</span></a>
+               </div>
+<!--                        <div class="email">
+               <a href="mailto:marc.roeschlin@uci.edu">Email</a>
+               </div>
+             -->
+           </div>
+            <div class="image">
+           <img src="/photos/402683_3284436546928_626508645_n.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://www.math.unipd.it/~conti/"><span class="name">Mauro Conti</span></a>
+               </div>
+<!--             -->
+           </div>
+            <div class="image">
+           <img src="/photos/MauroConti.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://campus.acm.org/public/vcard/vcard.cfm?handle=steiner"><span class="name">Michael Steiner</span></a>
+               </div>
+<!--                        <div class="email">
+               <a href="mailto:steiner@acm.org">Email</a>
+               </div>
+             -->
+           </div>
+            <div class="image">
+           <img src="/photos/me.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://sprout.ics.uci.edu/gasti.php"><span class="name">Paolo Gasti</span></a>
+               </div>
+<!--                        <div class="email">
+               <a href="mailto:/mail.google.com/mail/?view=cm&fs=1&tf=1&to=pgasti@uci.edu">Email</a>
+               </div>
+             -->
+           </div>
+            <div class="image">
+           <img src="/photos/square.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://it.linkedin.com/pub/rino-raimato/7/492/36a"><span class="name">Rino Raimato</span></a>
+               </div>
+<!--             -->
+           </div>
+            <div class="image">
+           <img src="/photos/rino_raimato.png"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://www.cs.uni-paderborn.de/en/research-group/netsec/staff/ronald.html"><span class="name">Ronald Petrlic</span></a>
+               </div>
+<!--                        <div class="email">
+               <a href="mailto:rpetrlic@uci.edu">Email</a>
+               </div>
+             -->
+           </div>
+            <div class="image">
+           <img src="/photos/ronald_11.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://www.linkedin.com/pub/samad-nasserian/4/938/190"><span class="name">Samad Nasserian</span></a>
+               </div>
+<!--                        <div class="email">
+               <a href="mailto:samad.nasserian">Email</a>
+               </div>
+             -->
+           </div>
+            <div class="image">
+           <img src="/photos/samad.nasserian.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://www.cs.utsa.edu/~shxu/"><span class="name">Shouhuai Xu</span></a>
+               </div>
+<!--                        <div class="email">
+               <a href="mailto:shxu@cs.utsa.edu">Email</a>
+               </div>
+             -->
+           </div>
+            <div class="image">
+           <img src="/photos/shxu.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href=""><span class="name">Shuichiro Ako</span></a>
+               </div>
+<!--                        <div class="email">
+               <a href="mailto:shuichiro.ako">Email</a>
+               </div>
+             -->
+           </div>
+            <div class="image">
+           <img src="/photos/shuichiro.ako.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://www.syssec.ethz.ch/people/capkun"><span class="name">Srdjan Capkun</span></a>
+               </div>
+<!--             -->
+           </div>
+            <div class="image">
+           <img src="/photos/image.jpg"  width="80px" height="80px"></img>
+      </div>
+           </div>
+        <div class="people">
+           <div class="contact">
+            <div class="homepage">
+               <a href="http://www-users.cs.umn.edu/~kyd/"><span class="name">Yongdae Kim</span></a>
+               </div>
+<!--                        <div class="email">
+               <a href="mailto:kyd@cs.umn.edu">Email</a>
+               </div>
+             -->
+           </div>
+            <div class="image">
+           <img src="/photos/yd.JPG"  width="80px" height="80px"></img>
+      </div>
+           </div>
+     </div>
+  </div>
+</div>
+<div id="events">
+
+<ul>
+<h2>Upcoming Events</h2>
+   </ul>
+</div><div id="padding"></div>
+</div>
+
+        <div id="legal">
+        <div class="text" style="float:left">
+        Copyright 2010, sprout.ics.uci.edu
+        </div>
+        <div class="webmaster">
+        <a href="mailto:fabers@uci.edu" class="webmaster">webmaster</a>
+        </div>
+        </div>
+        </div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2960903-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+    </body>
+</html>

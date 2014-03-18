@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252"
+      http-equiv="Content-Type">
+    <title>Lab 2: Assignment</title>
+  </head>
+  <body>
+    <table style="width: 100%; background-color: rgb(102, 204, 204);
+      margin-left: auto; margin-right: auto; height: 58px; text-align:
+      left;" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td>
+            <div style="text-align: center;"> </div>
+            <h1 style=" text-align: center;">Lab 2: Assignment<br>
+            </h1>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    You must <span style="text-decoration: underline;">type</span> your
+    lab assignments and submit them through the EEE Dropbox tool. A
+    dropbox will be set up for each of the four lab assignments. This
+    lab assignment is due Wednesday, Oct. 30 by 5pm. You must include
+    all relevant R code used to answer the questions.<br>
+    <br>
+    <b>In addition to the lab assignment below, if you did not attend
+      discussion, you must do the in-class hands-on simulation <a
+        href="Lab2-Monty-Hall-Wkst.pdf">worksheet</a> and turn it into
+      your TA or the Stats 120A drop-slot in the wall across the hall
+      from DBH 2202.</b><br>
+    <br>
+    <table style=" text-align: left; width: 100%; background-color:
+      rgb(255, 255, 204);" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td style="vertical-align: top;">
+            <div align="center">
+              <h3><b>The Monty Hall Problem</b></h3>
+            </div>
+            Consider again the Monty Hall problem described in this lab.
+            <br>
+            <ol type="a">
+              <li>Write an R <i>function</i> to simulate one play of
+                the Monty Hall game where you <i>do</i> decide to
+                switch doors. The function should return TRUE (or 1) if
+                you win the car and FALSE (or 0) if you do not win the
+                car. Note that we are assuming if Monty has a choice of
+                which door to open, he will choose one of the doors
+                randomly (e.g., if he needs to choose between doors 2
+                and 3, each door has an equal probability of being the
+                one Monty chooses).<br>
+              </li>
+              <li>Use your R function from part a. inside a for loop to
+                simulate 10,000 plays of the game. Calculate the
+                empirical probability on winning the car when using the
+                switching strategy (i.e., in what proportion of the
+                10,000 games did you win the car?) <br>
+              </li>
+              <li>Does your simulation suggest that it is a better
+                strategy to switch doors than to stick with your
+                original choice? Explain.<br>
+              </li>
+            </ol>
+            <h3>Hints</h3>
+            <p><i>Disclaimer: These hints are for the way I envisioned
+                the function, but there are many other correct ways to
+                simulate playing the game.</i><br>
+            </p>
+            <ul>
+              <li>When writing the R function to simulate one play of
+                the game, you can assume without loss of generality that
+                you initially choose door number 1. Then have the
+                function randomly choose one of the three doors to have
+                the car behind it. (That is, instead of thinking that
+                the car, goat and goat are fixed and that you randomly
+                choose a door, view the game as the chosen door is fixed
+                and the car, goat and goat are randomly assigned to the
+                three doors.)<br>
+              </li>
+              <li>You will use a sequence of "if" statements to decide
+                which of doors 2 and 3 Monty opens (assuming you chose
+                door 1).</li>
+              <li>Remember that the logical operator "==" will check if
+                two things are equal and will return a TRUE if they are,
+                and a FALSE if they are not.</li>
+              <li>You will again get plenty of use out of the "sample"
+                function. If you don't remember how to use this
+                function, type "?sample" to open the help file.<br>
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <div style="text-align: center;"> <big> </big>
+      <hr size="2" width="100%"><big><br>
+        <a href="index.html">Lab 2 Index</a></big><br>
+      <br>
+      <hr style="width: 100%; height: 2px;"></div>
+    <br>
+  </body>
+</html>
+

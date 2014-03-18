@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Winter 2009: Informatics 141 : Information Retrieval : Assignment 06</title>
+<link href="../styleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="container">
+  <table>
+    <tr>
+      <td width="30%"><p class=" style7 ">Informatics   141: Information Retrieval: </p>
+        <p class=" style7 ">Assignment 06 </p>
+        <p>Winter 2009 </p>
+        <p class="style6"><a href="http://www.ics.uci.edu/informatics">Department of Informatics</a></p>
+        <p class="style6"><a href="http://www.ics.uci.edu">Donald Bren School of Information and Computer Sciences </a></p>
+        <p class="style6"><a href="http://www.uci.edu">University of California, Irvine </a></p></td>
+      <td><div id="gsfn_list_widget"> <a href="http://getsatisfaction.com/luci" class="widget_title"> Discussions about this class</a>
+  <div id="gsfn_content"><center><img src="../ajax-loader.gif"/></center></div>
+        </div>
+        <script src="http://getsatisfaction.com/luci/widgets/javascripts/db439d8/widgets.js" type="text/javascript"></script>
+        <script src="http://getsatisfaction.com/luci/topics.widget?callback=gsfnTopicsCallback&amp;length=120&amp;limit=10&amp;product=luci_winter_2009_inf_141cs_141&amp;sort=recently_active" type="text/javascript"></script>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class="container"><a href="../index.html">Home</a> | <a href="../admin.html">Administrative Policies </a> | <a href="../structure.html">Course Structure</a> |<a href="../materials.html"> Resources &amp; Materials</a> | <a href="../calendar.html#CurrentWeek">Calendar </a></div>
+<div class="container">
+  <p class="somethingDue">Due 3/2/2009</p>
+</div>
+<div class="container">
+  <ol>
+    <li><span class="style5"><strong>Goals</strong></span><strong>:
+      </strong>
+      <ol>
+        <li>This assignment is
+          designed to:
+          <ol>
+            <li> Teach you how to make a postings list with a distributed MapReduce architecture on a HUGE cluster. </li>
+            <li>Capture the data that you need to calculate ranking scores for assignment 07. </li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><span class="style5"><strong>Administration:</strong></span>
+      <ol>
+        <li>You may work in teams of 1, 2 or 3, no restrictions on membership. </li>
+      </ol>
+    </li>
+    <li><span class="style5"><strong>Write a Java Program To Be Executed by a 38 node Hadoop </strong></span>
+      <strong>cluster</strong>
+      <ol>
+        <li><span class="style5">The input to the system will be a list of &lt;key,value&gt; pairs in a file. </span>
+          <ol>
+            <li>The &quot;key&quot; will be a URL in Wikipedia </li>
+            <li>The &quot;value&quot; will be the document ID of that URL</li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><strong>Write a Java Program To Be Post-Process the results</strong>
+      (optional for this assignment)
+        <ol>
+        <li>This program will calculate the statistics required for the document that you turn in.</li>
+      </ol>
+    </li>
+    <li><strong>How to do this:</strong><ol><li>Look at this class <a href="https://eee.uci.edu/wiki/index.php/INF141_ASS06_01">wiki</a> for help (feel free to edit) </li>
+        <li>Look at Assignment 5 resources if necessary </li>
+      </ol>
+    </li>
+    <li><strong>Test</strong>
+      <ol>
+        <li>With the input on the dfs at /assignment06/input10 </li>
+        <li>Don got this <a href="Assignment06/input10output.txt">output</a>. </li>
+      </ol>
+    </li>
+    <li><span class="style5"><strong>What to turn in:</strong></span>
+      <ol>
+        <li>Submit a postings.txt file in which each line contains postings of a term. All terms should be in lowercase and in the content (not the tags) of the web page.
+          <ol>
+                <li>&lt;term, cf, df&gt; &lt;docid1, tf1&gt; &lt;docid2, tf2&gt;  ....
+                  <ol>
+                    <li>where cf is the collection frequency of the term, df is the document frequency of term (Number of documents containing this term). </li>
+                    <li>tf1 is the term frequency of &quot;term&quot; in document with docid1 and so on.</li>
+                  </ol>
+                </li>
+                <li>Before uploading this file, truncate it and only keep the LAST 1000 lines.</li>
+          </ol>
+        </li>
+            <li>Submit a report.txt file with this content:
+              <ol>
+                <li>Total number of distinct terms.</li>
+                <li>List of top 10 words with lowest document frequency.</li>
+                <li> List of top 10 words with highest document frequency.</li>
+                <li>First Name of member 1 of your team: ...</li>
+                <li>List of (at most 1000) URLs containing first name of member 1 of your team: ...</li>
+              </ol>
+        </li>
+      </ol>
+    </li>
+    <li><strong>Submitting your assignment </strong>              
+      <ol>
+        <li>We are going to use <a href="http://checkmate.ics.uci.edu">checkmate.ics.uci.edu</a> to submit this assignment.        </li>
+      </ol>
+    </li>
+  </ol>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

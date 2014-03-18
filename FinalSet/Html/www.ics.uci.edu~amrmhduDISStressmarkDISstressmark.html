@@ -1,0 +1,56 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+
+<html>
+
+<head>
+
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+   <meta name="GENERATOR" content="Mozilla/4.51 [en] (WinNT; I) [Netscape]">
+
+   <title>DIS Module Selection Menu</title>
+
+<!-- Set the Color of the document -->
+
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<!-- Define the images at the top of the page -->
+
+<center>
+
+<h2>
+
+Data-Intensive Systems Stressmark Suite</h2></center>
+
+We are now working on the Data-Instensive Stressmark Suite to approach the optimal stressmarks which can accurately reflect the behaviors of the Data-Intensive Systems in the real world.
+<br>&nbsp;
+
+<h2>
+Current Work  </h2> 
+<ul>
+
+<li> Part of the <a href= "./sim_aaec_input.xls">simulation results </a>under the AAEC's inputs are given here, which includes both baseline miss rates and the miss rates after optimization. More results will be given soon when new inputs arrive. We will let you know when the new simulation results come out. The <a href = "./sim_env.html"> simulation environment</a> is described here. We will work under this environment throughout our simulation. (Feb 5, 2001) 
+<p> 
+<li>  New inputs have arived from AAEC. Up to now, the new inputs for Pointer, Update, Field, and Transitive_closure Stressmarks are offered but more input will come for Matrix and Neighborhood Stressmarks. You can download these <a href= "./new_input/stress_in1.tar"> inputs </a> now. (Jan 31, 2001) 
+<p>
+ 
+<li> Minor modification has been made to Pointer, Update, Field, and Transitive_closure Stressmarks. The modification involves in the range of random number generator RandInt. In Pointer, Update, and Field Stressmark, field[l] = randInt(0, f-w) should be written as field[l] = randInt(0, f-w-1). In Transitive_Closure stressmark, i = randInt(0, n) and j = randInt(0, n) should be written as i = randInt(0, n-1) and j = randInt(0, n-1). The related <a href= "./tar/updated_stressmark.tar">source code </a> after modification is given here. You may download it or modify them by yourselves. (January 20, 2001)
+ <p> 
+
+<li> Cache optimization for DIS Stressmark Suite is finished. Stream Buffer is employed for most of them. Blocking(Tiling) is used for Transitive-Closure Stressmark. Their effectiveness is shown in <a href="dis_opt.html"> Optimization Statistics </a>. A more complete report incorporated this statistics:<a href="report/stressmark_opt.ps" >Analysis of Memory Access Behavior of DIS Stressmark Suite and Optimization </a>(Dec. 5, 2000, Postscript format).  
+<p>
+<li>The memory behavior of DIS Stressmark has been analyzed in <A HREF="report/stressmark_ana.ps">Analysis of Memory Behavior of DIS Stressmark Suite</A> (Nov. 20, 2000, Postscript format), including memory access pattern and the source of L1/L2 data cache misses. Possible optimization methods have been proposed. We are now doing simulation to verify their effectiveness.  
+<p>
+<li>Matrix Stressmark is optimized by using less temporary vectors and variables in the procedure biConjugateGradient. The <a href="./tar/Matrix/ver2/matrix.c"
+>source code</a>(.c 1.18k) is here. Please check <a href="static.html" >statistics </a>
+for the corresponding miss rates. (October 19, 2000) 
+<p>
+<li> We generated the <a href="static.html" >statistics </a> based on the Example stressmarks provided by the Atlantic Aerospace Electronics Corporation. Please download the complete <a href="./tar/DIS_stress.tar">source code</a> as well as the <a href="./tar/input.tar">inputs </a> we used to generate the statistics if you plan to analyze them. (October 2, 2000)
+<p>
+<li> The complete documentation for all seven stressmarks, including algorithms and sample code is given in  <a href="http://www.aaec.com/projectweb/dis/DIS_Stressmarks_v1_0.pdf">Stressmark Specifications Document Version 1.0 </a>(PDF, 210Kb)
+</ul>
+ 
+
+

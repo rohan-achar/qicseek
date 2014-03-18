@@ -1,0 +1,974 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="sixapart-standard">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="generator" content="Movable Type 3.2" />
+
+   <link rel="stylesheet" href="http://drzaius.ics.uci.edu/blogs/setbang/styles-site.css" type="text/css" />
+   <link rel="alternate" type="application/atom+xml" title="Atom" href="http://drzaius.ics.uci.edu/blogs/setbang/atom.xml" />
+   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://drzaius.ics.uci.edu/blogs/setbang/index.xml" />
+
+   <title>::setbang::: my enthralling life archives</title>
+</head>
+<body>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=683161; 
+var sc_partition=5; 
+var sc_security="b4540abb"; 
+var sc_invisible=1; 
+</script>
+
+<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c6.statcounter.com/counter.php?sc_project=683161&amp;java=0&amp;security=b4540abb&amp;invisible=1" alt="hit counter" border="0"></a> </noscript>
+<!-- End of StatCounter Code -->
+
+<img src="http://www.ics.uci.edu/~johannab/images/background.gif">
+
+<div class="tiny-blocks" id="tiny-blocks">
+<img src="http://www.ics.uci.edu/~johannab/images/tiny-blocks.gif">
+</div>
+
+<a href="http://www.ics.uci.edu/~johannab/about-me.html" id="menu_01"><img src="http://www.ics.uci.edu/~johannab/images/menu_01.gif" width="87" height="19" border=0></a>
+<span id="menu_02"><img src="http://www.ics.uci.edu/~johannab/images/menu_02.gif" width="15" height="19"></span>
+<a href="http://drzaius.ics.uci.edu/blogs/setbang/" id="menu_03"><img src="http://www.ics.uci.edu/~johannab/images/menu_03.gif" width="48" height="19" border=0></a>
+<span id="menu_04"><img src="http://www.ics.uci.edu/~johannab/images/menu_04.gif" width="16" height="19"></span>
+<a href="http://www.ics.uci.edu/~johannab/research.html" id="menu_05"><img src="http://www.ics.uci.edu/~johannab/images/menu_05.gif" width="84" height="19" border=0></a>
+<span id="menu_06"><img src="http://www.ics.uci.edu/~johannab/images/menu_06.gif" width="15" height="19"></span>
+<a href="http://www.ics.uci.edu/~johannab/papers.html" id="menu_07"><img src="http://www.ics.uci.edu/~johannab/images/menu_07.gif" width="68" height="19" border=0></a>
+<span id="menu_08"><img src="http://www.ics.uci.edu/~johannab/images/menu_08.gif" width="16" height="19"></span>
+<a href="http://www.ics.uci.edu/~johannab/the-rest.html" id="menu_09"><img src="http://www.ics.uci.edu/~johannab/images/menu_09.gif" width="76" height="19" border=0></a>
+
+
+<a href="http://www.ics.uci.edu/~johannab/about-me.html" id="menu-green_01"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_01.gif" width="87" height="19" border=0></a>
+
+<a href="http://drzaius.ics.uci.edu/blogs/setbang/" id="menu-green_03"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_03.gif" width="48" height="19" border=0></a>
+<a href="http://www.ics.uci.edu/~johannab/research.html" id="menu-green_05"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_05.gif" width="84" height="19" border=0></a>
+<a href="http://www.ics.uci.edu/~johannab/papers.html" id="menu-green_07"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_07.gif" width="68" height="19" border=0></a>
+<a href="http://www.ics.uci.edu/~johannab/the-rest.html" id="menu-green_09"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_09.gif" width="76" height="19" border=0></a>
+
+<div class="sidebar">
+<div class="search">
+<br>
+<form method="get" action="http://drzaius.ics.uci.edu/mt/mt-search.cgi">
+<input type="hidden" name="IncludeBlogs" value="2" />
+<input id="search" name="search" size="20"/><br />
+<input type="submit" value="search me" />
+</form>
+</div>
+
+<p>&nbsp;</p>
+
+<div class="archive">
+<h3 class="content"><a href="http://drzaius.ics.uci.edu/blogs/setbang/archives.html">archives</a></h3>
+<ul>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2008/11/">November 2008</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2008/07/">July 2008</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2008/01/">January 2008</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2007/06/">June 2007</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2007/05/">May 2007</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2007/04/">April 2007</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/10/">October 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/09/">September 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/07/">July 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/06/">June 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/05/">May 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/04/">April 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/">November 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/10/">October 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/08/">August 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/">July 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/06/">June 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/">May 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/04/">April 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/03/">March 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/">February 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/01/">January 2005</a></li>
+
+</ul>
+</div>
+
+<p>&nbsp;</p>
+
+<div class="categories">
+<h3 class="content">categories</h3>
+<ul class="module-list">
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/aesthetics_art/" title="">aesthetics & art</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/gadgets/" title="">gadgets</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/interfaces_installations/" title="">interfaces & installations</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/lit_poetry/" title="">lit & poetry</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/music/" title="">music</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/my_enthralling_life/" title="">my enthralling life</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/noteworthy_nontech/" title="">noteworthy: nontech</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/noteworthy_tech/" title="">noteworthy: tech</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/wearble_tech/" title="">wearble tech</a>
+
+
+
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<span class="main">
+
+
+   <div id="container">
+      <div id="container-inner" class="pkg">
+
+
+         <div id="pagebody">
+            <div id="pagebody-inner" class="pkg">
+               <div id="alpha">
+                  <div id="alpha-inner" class="pkg">
+                     
+                             
+                                          
+
+                     <h3 class="content">November 03, 2008</h3>
+                     <a id="a000483"></a>
+                     <div class="content" id="entry-483">
+                        <h3 class="content">a man is writing my blog</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>... according to the <a href="http://www.genderanalyzer.com/?url=drzaius.ics.uci.edu%2Fblogs%2Fsetbang">genderanalyzer</a>. how did he get my login info? ;]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 06:55 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2008/11/a_man_is_writing_my_blog.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2008/11/a_man_is_writing_my_blog.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">January 08, 2008</h3>
+                     <a id="a000481"></a>
+                     <div class="content" id="entry-481">
+                        <h3 class="content">back?</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>well i wouldn't say i'm back exactly because i always do and it's always a lie. but anyway, i've been updating my website recently in case you were curious. i've added some new recently accepted <a href="http://www.ics.uci.edu/~johannab/papers.html">papers</a>, i've finally done a good subpage for <a href="http://www.ics.uci.edu/~johannab/nimio.html">nimio</a> (you were missing nimio weren't you?), and i added information about my new project  <a href="http://www.ics.uci.edu/~johannab/research.html">SeeShell</a>. hopefully i will get around to putting up my cv and design portfolio soon.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 06:59 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2008/01/back.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2008/01/back.html#comments">Comments (1)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">June 11, 2007</h3>
+                     <a id="a000480"></a>
+                     <div class="content" id="entry-480">
+                        <h3 class="content">undersound in the french blogs</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>someone tell me what <a href="http://blog.bloxx.fr/index.php?2006/10/27/38-undersound-et-ses-3-droles-de-filles">they are saying about undersound</a>... and us!</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 05:23 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2007/06/undersound_in_the_french_blogs.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2007/06/undersound_in_the_french_blogs.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000479"></a>
+                     <div class="content" id="entry-479">
+                        <h3 class="content">uk visa application</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="how-many-friends.png" src="http://drzaius.ics.uci.edu/blogs/setbang/how-many-friends.png" width="465" height="287" /></p>
+
+<p>i'm trying to figure out getting a visa to the uk and it's blowing my mind. or at least the stupid forms are. apparently i am allowed a maximum of 4 friends. i bet you are wondering if you made the cut ;]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 05:19 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2007/06/uk_visa_application.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2007/06/uk_visa_application.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 27, 2007</h3>
+                     <a id="a000450"></a>
+                     <div class="content" id="entry-450">
+                        <h3 class="content">nimio, famous in japan</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>i recently found nimio feature on two japanese blogs, <a href="http://www.yasuhisa.com/could/entries/001063.php">here</a> and <a href="http://www.hc.ic.i.u-tokyo.ac.jp/~masaki/pukiwiki-1.4.7_notb/index.php?TMP">here</a>. i hope whatever they have to say is nice - anyone care to translate? :]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 05:08 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2007/05/nimio_famous_in_japan.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2007/05/nimio_famous_in_japan.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 14, 2007</h3>
+                     <a id="a000443"></a>
+                     <div class="content" id="entry-443">
+                        <h3 class="content">sxsw panel ratings</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>I didn't post this earlier but the <a href="http://2007.sxsw.com/blogs/ia.php/2007/04/24/the_sxsw_report_card_2007_panel_ratings">ratings</a> are up for the sxsw panel, <a href="http://2007.sxsw.com/interactive/programming/panels/?action=show&id=IAP060218">sex and computational technology</a>, i was on. we scored a 4.62/5 and were the 12th highest rated panel [out of about 100]. woot!</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 03:55 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2007/05/sxsw_panel_ratings.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2007/05/sxsw_panel_ratings.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">October 13, 2006</h3>
+                     <a id="a000332"></a>
+                     <div class="content" id="entry-332">
+                        <h3 class="content">life status</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>i keep hiding from my blog these days.  i guess i need to get a bit more regular don't i.  lately i've been working on loads of papers and projects and so on.  the biggest one of late has been <a href="www.undersound.org">undersound</a>.  a collaboration with karma and our friend karen.  it's a novel sort of music distribution system for the london underground.  it's definitely much more than that so you need to check out the webpage. </p>
+
+<p>in other news laurence really wants you to check out his <a href="http://www.emoware.org/buy-malarone.asp">malarone tablets</a>.  *tries not to snicker*</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 03:02 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2006/10/life_status.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/10/life_status.html#comments">Comments (1)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">September 08, 2006</h3>
+                     <a id="a000330"></a>
+                     <div class="content" id="entry-330">
+                        <h3 class="content">what's news</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>well i always promise i'll post regularly but clearly i've been lying to you.  after my last post my life picked up it's pace [if that's possible].  i've been in london doing a study of the underground there for intel.  the project is called <a href="http://www.ics.uci.edu/~johannab/aesthetic-journeys.html">aesthetic journeys</a> and you'll be able to hear all about it soon.  i ran around london riding the tube in the heat wave, taking photos, being stopped by police, following newspapers, and interviewing all sorts of folks.  i was there about 6 weeks and returned to the states for all of 4 days in the middle of that [owing to a bunch of cancelled flights.  boo, delta, boo].  now i am in portland for another few days whereupon i will fly down to the bay area and try to pick up my car which is still unwell.  he's in the hands of aaron at advanced audi having his engine rebuilt.  with any luck one day [hopefully september 14th] pablo will ride again and he will take me all the way back down to LA.  wee a 7 hour drive.  again.  and when i say again it is because on labor day weekend meta and i did the trek in her car, but all the way from portland down to LA.  it was an eventful time and we pick up sled in SF on the way.  when we got back to long beach we spent most of the time cleaning and fixing things up and had to deal with a mini-moth infestation in our cabinets.  ew.  but that's all behind us now.  i'm heading back down there in less than a week for all sorts of fun.  karma, karen and i are running a workshop on the 15th called <a href="http://www.inbetweeness.org/betwixt">betwixt</a> and then we are all attending meta and ken's workshop on exurban noir the next two days.  then ubicomp 2006 fun begins and karma, karen and i present our poster on our new project <a href="http://www.undersound.org/">undersound</a>.  wohoo.  i'll keep you posted on how it goes.  honest ;]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 07:10 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2006/09/whats_news.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/09/whats_news.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">July 05, 2006</h3>
+                     <a id="a000328"></a>
+                     <div class="content" id="entry-328">
+                        <h3 class="content">down in the desert</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>so everytime i tell you that i will be blogging consistently from now on something goes awry.  but ahh what good stories do my adventure makes.  this summer im up at intel research in hillsboro working with the people and practices research group.  i began the trek up to hillsboro [oregon] from long beach accompanied by karma in my trusty gti.  just north of LA i got rear-ended.  not too badly, a bit of scratched paint, by a guy with CALIFORNIA tattooed across his chest.  rock on.  then we hung out in SF for a few days hosted by the sweet sir beckmann.</p>
+
+<p>then the adventure really begins.  a few hundred miles north [and still 400 miles south] of our destination the power to my car cuts and i quickly pull over.  after it fails to turn over i called AAA seeking some aid.  so there we are, in red bluff, california, in 115 degree heat, waiting for a tow truck.  we were informed that we were high priority because we were in a "dangerous area".  high priority turns out to be an hour and a half.  so since it was saturday after 5 there was no mechanics open.  we got towed to the nearest one and for the first time in my life i was really happy to see a starbucks.  air conditioning is sometimes a good thing.  looking a bit worse for wear the woman behind the counter inquired about our situation - i explained that i was in need of a mechanic post haste and she sympathetically told me "i had a really great mechanic, but he died."  ahem. </p>
+
+<p>in the meantime, meta was also roadtripping up to oregon so we got her on the horn and she turned around to pick our sorry selves up.  loading up her car we trucked the remaining 400 miles up [crashing for a few brief hours in a hotel].  after tons of phone calls with the mechanic it turned out that my timing belt had snapped.  although the guy seems nice, i'm a bit afraid he's not up to the task of dismantling my german engine [is there some pun there? heh]. it seems that my belt is supposed to be changed at 105k, my car currently just hit 80k and was about to go in for inspection, but out of the goodness of VW's heart the belt often randomly snaps prematurely causing all kinds of damage to valves, pistons, cylinders, and my psyche.  brooke & devon [my lovely new housemates] and meta have offered to try and help me do a tag team operation to bring the car back up here so i can deal with it in a more reasonable fashion.  what would i do without my support network :]</p>
+
+<p>p.s. work at intel rocks so far and i'll be back to keeping you up to date.  </p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 11:35 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2006/07/down_in_the_desert.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/07/down_in_the_desert.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">June 07, 2006</h3>
+                     <a id="a000320"></a>
+                     <div class="content" id="entry-320">
+                        <h3 class="content">hideo wakamatsu</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="hideo_wakamatsu.jpg" src="http://drzaius.ics.uci.edu/blogs/setbang/hideo_wakamatsu.jpg" width="201" height="200" /> <img alt="hideo_wakamatsu_cartoon.jpg" src="http://drzaius.ics.uci.edu/blogs/setbang/hideo_wakamatsu_cartoon.jpg" width="250" height="200" /></p>
+
+<p><br />
+so i was chatting with <a href="http://www.emoware.org">laurence</a> today who says that i don't ever tell him what i'm doing.  so on a personal note: today i went up to LA to do some pre-internship-travel shopping.  for those of you who don't know i will be interning with intel up in portland this summer but also doing fieldwork for them in london.  that means i get to do the 11 hour flight even more often than usual! yay!  so i decided that since i'm not technically "backpacking" for these trips, i ought to buy something that's not a backpack.  well i already got a super cute carry-on sized piece from this designer and so i decided to complete the set and get the big one.  i love the design of this luggage by <a href="http://www.hideostore.com/">hideo wakamatsu</a>.  it's super sleek, very quiet, and it seems more or less sturdy.  and okay, yes, fine, i admit it: it's also metrosexual. </p>
+
+<p>incidentally the cartoon i found from googling for the designers name and appears to be from someone's <a href="http://psi.main.jp/diary/2004_11.html">comic blog</a>. </p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 09:18 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2006/06/hideo_wakamatsu.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/06/hideo_wakamatsu.html#comments">Comments (1)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">June 01, 2006</h3>
+                     <a id="a000308"></a>
+                     <div class="content" id="entry-308">
+                        <h3 class="content">days away</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="goldie_hawn.jpg" src="http://drzaius.ics.uci.edu/blogs/setbang/goldie_hawn.jpg" width="96" height="128" /></p>
+
+<p>i have been away in italy attending <a href="http://www.google.com/search?hl=en&q=avi+2006&btnG=Google+Search">AVI</a>, a conference on advanced visual interfaces.  i was there to present at a workshop on <a href="http://www.informatics.manchester.ac.uk/~antonella/gender/">gender and interaction</a>. the workshop was pretty interesting with people from all sorts of backgrounds.  the conference itself was a bit more "traditional hci" but i did get a chance to meet up and chat with friends, bumping into people randomly on the streets of venice.  afterwards i got a chance to hang out with the karmafamily and get a bit of sun :]</p>
+
+<p>on another note according to <a href="http://www.myheritage.com">myheritage.com</a> [a pretty interesting and addictive site, check it out] the celebrity who looks most like me is goldie hawn.  okay, i can buy that more or less but a few people down on the list is omar sharif, which... well, i leave it up to you to judge that ;]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:50 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2006/06/days_away.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/06/days_away.html#comments">Comments (2)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">April 20, 2006</h3>
+                     <a id="a000270"></a>
+                     <div class="content" id="entry-270">
+                        <h3 class="content">rfid software provider<br>[supply insight] + my dad</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>my <a href="http://biz.yahoo.com/prnews/060419/sfw089.html?.v=48">daddy is in the news</a>. he is the new CEO of a company  called <a href="http://www.supplyinsight.com/">supply insight</a> which developed a distributed RFID framework.  yay :]</p>
+                                                            <p class="entry-more-link">
+                                 <a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/04/rfid_software_provider_supply.html#more">Continue reading "rfid software provider<br>[supply insight] + my dad" &raquo;</a>
+                              </p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:24 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2006/04/rfid_software_provider_supply.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/04/rfid_software_provider_supply.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">October 14, 2005</h3>
+                     <a id="a000225"></a>
+                     <div class="content" id="entry-225">
+                        <h3 class="content">belmont shore or bust</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://static.flickr.com/25/52001271_90c2088427.jpg"></p>
+
+<p>i know you'd rather hear about something not related to me, but i will have to disappoint.  i recently moved into <a href="http://www.flickr.com/photos/40035344@N00/52001271/">my new place</a> in long beach and it is, my friend, teh dopest.  im living with <a href="http://metamanda.com/blog/">meta</a> and <a href="http://www.ungrok.org/blog/">sled</a> in the top half of a two family house.  one block from 2nd street [the coolest street in town] and two blocks from the beach [yes, the beach].  i finally [after living in cali for what is technically 9 months] bought some furniture and am trying to make this state my home.  at least for the time being :] so, there you have it.  roxy settles down.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:25 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/10/belmont_shore_or_bust.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/10/belmont_shore_or_bust.html#comments">Comments (2)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">October 11, 2005</h3>
+                     <a id="a000223"></a>
+                     <div class="content" id="entry-223">
+                        <h3 class="content">i'm sorry</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><style type="text/css"><br />
+.flickr-photo { border: solid 2px #000000; }<br />
+.flickr-yourcomment { }<br />
+.flickr-frame { text-align: left; padding: 3px; }<br />
+.flickr-caption { font-size: 0.8em; margin-top: 0px; }<br />
+</style></p>
+
+<div class="flickr-frame">
+	<a href="http://www.flickr.com/photos/40035344@N00/51492557/" title="photo sharing"><img src="http://static.flickr.com/24/51492557_c22a2ed4ef.jpg" class="flickr-photo" alt="" /></a>
+<br />
+	<span class="flickr-caption"><a href="http://www.flickr.com/photos/40035344@N00/51492557/">creperie</a>, originally uploaded by <a href="http://www.flickr.com/people/40035344@N00/">deadroxy</a>.</span>
+</div>
+				
+<p class="flickr-yourcomment">
+	it's a long story. but i'm finally back in cali.
+
+<p>as a brief recap: i have bounced across the globe and back.  i left boston on september 1st, almost missing my flight because an mbta bus had exploded into flames on the mass pike grinding the whole of boston to a halt.  first stop: scotland.  i did a whirlwind tour of the highlands [sandend, inverness, thurso, orkney, black isle] and drove on the wrong side of the road.</p>
+
+<p>then i was in london for a night, and off to tokyo for <a href="http://ubicomp.org/ubicomp2005/">ubicomp 2005</a> where i participated in the <a href="http://www.urban-atmospheres.net/UbiComp2005/">metapolis and urban life</a> workshop, which was, in fact, awesome.  after tokyo back to london for a few days then to paris for <a href="http://insitu.lri.fr/ecscw/">ecscw 2005</a> where we demoed* nimio!  then due to typical life complications i got stuck in london for a while which was actually fantastically relaxing and needed because i was fairly ill by that point.  then back to boston for a quick and crazy birthday.</p>
+
+<p>and now, boof. new home in long beach.</p>
+
+<p>so as you can see i've uploaded a bunch of photos from the trip to my <a href="http://www.flickr.com/photos/40035344@N00/">flickr</a> account for your viewing pleasure.  most of you know the stories more or less, but for those of you who don't, these pictures go way beyond the few cracked out words i have to offer.</p>
+
+<p>i'll be taking my phase ii [qualifying exam] next week so don't expect to much from me.  but you [unless you are my advisor] never really did anyway, did you? ;]</p>
+
+<p><br />
+*where demo indicates frantically finished assembling only minutes before showtime and managing to pull it off successfully nonetheless.<br />
+</p></p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:06 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/10/im_sorry.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/10/im_sorry.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">August 17, 2005</h3>
+                     <a id="a000219"></a>
+                     <div class="content" id="entry-219">
+                        <h3 class="content">dominating google</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>i'm #3 for <a href="http://www.google.com/search?hl=en&lr=&q=up%20up%20down%20down%20left%20right%20left%20right%20B%20A%20B%20select%20start">up up down down left right left right B A B select start</a>. that's old. skool.</p>
+
+<p>and #5 for <a href="http://www.google.com/search?sourceid=navclient&ie=UTF-8&rls=GGLD,GGLD:2005-23,GGLD:en&q=roxy%20hacker%20sexy">roxy hacker sexy</a>.  need i say more? ;]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 05:42 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/08/dominating_google.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/08/dominating_google.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">August 13, 2005</h3>
+                     <a id="a000204"></a>
+                     <div class="content" id="entry-204">
+                        <h3 class="content">off the hook</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="s2005-FAL.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/s2005-FAL.jpg" width="250" height="218" /></p>
+
+<p>so i've been away from the blog lately because i've been busy ordering my messy life.  i went back to socal at the end of july to go apartment hunting with <a href="http://www.ungrok.org/blog/">sled</a> for a place in long beach.  after a stressful week, he, <a href="http://www.metamanda.com/blog/">meta</a>, and i finally have a place to live in <a href="http://maps.google.com/maps?q=90803&t=k&hl=en">belmont shore</a>.  it's a cute little house two blocks to the beach and one block to 2nd street which is more urban than orange county could ever dream of. rock.</p>
+
+<p>after that, i went up to <a href="http://www.siggraph.org/s2005/">siggraph</a> in la to help my friends from the <a href="http://www.viktoria.se/fal">future applications lab</a> run their <a href="http://www.siggraph.org/s2005/main.php?f=conference&p=etech&s=etech2">ubiquitous graphics</a> demo.  but contrary to a certain advisor's beliefs, i am more than just a booth bunny, damnit! i can make coffee too! [man, i'm awful...]</p>
+
+<p>now i am back in boston trying to finish up nimio for it's <a href="http://insitu.lri.fr/ecscw/posters-demos.html#demos">ecscw 2005 demo</a>.  i'm not nervous at all.  i swear.  we have like, DAYS left...</p>
+
+<p>in fact i'll be travelling quite a bit in september:<br />
+sept 1 - 7: off to the high high highlands of scotland to visit the sheeps.<br />
+sept 8 - 15: tokyo for the <a href="http://www.urban-atmospheres.net/Ubicomp2005/">metapolis and urban life</a> workshop at <a href="http://ubicomp.org/ubicomp2005/">ubicomp</a>.<br />
+sept 17 - 22: paris to demo nimio at <a href="http://insitu.lri.fr/ecscw/">ecscw</a>.<br />
+sept 23 - 24: amsterdam for <a href="http://culturebase.org/home/struppek/Homepage/urbanscreens.html">urban screens</a>.</p>
+
+<p>phew.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:47 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/08/off_the_hook.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/08/off_the_hook.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">July 11, 2005</h3>
+                     <a id="a000191"></a>
+                     <div class="content" id="entry-191">
+                        <h3 class="content">how awesome.</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>i am <i>number one in the world</i> for <a href="http://www.google.com/search?hl=en&lr=&q=making%20love%20french%20style">making love french style</a>.  just keep that in mind.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:12 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/how_awesome.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/how_awesome.html#comments">Comments (1)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 23, 2005</h3>
+                     <a id="a000164"></a>
+                     <div class="content" id="entry-164">
+                        <h3 class="content">embracing the golden state</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>for those of you who don't know [shame on you], i have decided to stay at UCI to finish my PhD.  i had to fill out a form online proving that i was a resident; they wanted to know about where i'd been earning my money, filing my taxes, getting my education and so on.  but then, they took away my last shred of east coast dignity and made me assert the following:<blockquote>I have considered California to be my permanent home.</blockquote>i feel so dirty. somebody hold me.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 07:12 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/embracing_the_golden_state.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/embracing_the_golden_state.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 06, 2005</h3>
+                     <a id="a000138"></a>
+                     <div class="content" id="entry-138">
+                        <h3 class="content">spring showers</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/rainandthunder-irvine.jpg" width="265" height="130"></p>
+
+<p>in a county that has no seasons, except under cover of night, we are having a proper spring thunderstorm.  booming and rain, albeit at 2:40am.  still, we should be proud of orange county for trying.  thunderstorms and downpours are particular moving to me as some of you may know *grin*, and so let us celebrate!</p>
+
+<p>[graffic brought to you by my new weather-displaying desktop widget.  os x 10.4, w00t]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:43 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/spring_showers.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/spring_showers.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 05, 2005</h3>
+                     <a id="a000135"></a>
+                     <div class="content" id="entry-135">
+                        <h3 class="content">seeking setbang</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>so i've finally gotten round to properly tracking all the traffic on my various websites [i'm waaaaatching you]. but i've recently gotten the following amazing hits on search engines:<ul><li>from finland: <a href="http://www.google.fi/search?hl=fi&q=d%26d%20%2Bporn&btnG=Google-haku&meta=">d&d +porn</a>. i rank 3rd.<br />
+<li>from michigan: <a href="http://www.google.com/search?q=mature%20nude%20women%20in%20connecticut&hl=en&lr=&ie=UTF-8&start=70&sa=N">mature nude women in connecticut</a>. sadly, only 75th.<br />
+<li>from new jersey: <a href="http://www.google.com/search?client=safari&rls=en&q=calit2%20blog&ie=UTF-8&oe=UTF-8">calit2 blog</a>.  number 1.  rock on.</ul></p>
+
+<p>the first two can be attributed to trackbak spam [which has now been eliminated], and the third to my awesomeness ;]</p>
+
+<p>"mature nude women"??? i mean... *sigh*</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 04:31 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/seeking_setbang.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/seeking_setbang.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 03, 2005</h3>
+                     <a id="a000133"></a>
+                     <div class="content" id="entry-133">
+                        <h3 class="content">young's double chocolate stout, comin' attcha</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/doublechoc.jpg" width="101" height="300"></p>
+
+<p>i'm drinking a bottle of <a href="http://www.youngs.co.uk/ProductPage.aspx?pageID=11&&productID=6">young's double chocolate stout</a>, and it's amazingly tasty.  for all of you who think you hate guinness, give this a try.  and for those of you who love guinness, why aren't you drinking one right now?</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 09:22 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/youngs_double_chocolate_stout.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/youngs_double_chocolate_stout.html#comments">Comments (1)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">April 25, 2005</h3>
+                     <a id="a000120"></a>
+                     <div class="content" id="entry-120">
+                        <h3 class="content">calit2 science/technology graduate student conference</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/sts-talk.jpg" width="275" height="226"></p>
+
+<p>during that hellish time [see <a href="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/2005/04/the_life_and_ti.html">previous post</a>], i did manage to present at the in-house conference that was happening at uci.  and now, for all of you who weren't there, you can <a href="http://www.calit2.net/articles/article.php?id=493">experience the magic</a> of my rivetting talk, which was on my "information stuff."</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 05:15 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/04/calit2_sciencetechnology_gradu.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/04/calit2_sciencetechnology_gradu.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000119"></a>
+                     <div class="content" id="entry-119">
+                        <h3 class="content">ecscw demo proposal</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>though it seems that everyone has already heard this, our demo proposal to <a href="http://insitu.lri.fr/ecscw/">ecscw</a> was accepted! yay.  that means i'm off to paris on september 18th.  if you want to <a href="http://www.ics.uci.edu/~johannab/papers/Brewer, Williams, Dourish - Nimio - ECSCW Demo.pdf">read a copy of it</a>, go ahead, but be warned it is not the camera ready version.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 04:52 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/04/ecscw_demo_proposal.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/04/ecscw_demo_proposal.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">April 24, 2005</h3>
+                     <a id="a000116"></a>
+                     <div class="content" id="entry-116">
+                        <h3 class="content">blissed out?</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/afteryoga.jpg" width="198" height="201"></p>
+
+<p>today after 2 long months, i finally hit the mat and did some yoga.  damn did that feel good.  i'm not sure why i even stopped, but "too much work" seems completely preposterous.  there is something about putting your forehead to the floor that makes everything alright. </p>
+
+<p>then i went to <a href="http://flickr.com/photos/ungrok/10608657/">cook</a> some dinner with meta and sled.  caprese, eggplant parmesan, wine... bliss.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:02 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/04/blissed_out.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/04/blissed_out.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">April 23, 2005</h3>
+                     <a id="a000115"></a>
+                     <div class="content" id="entry-115">
+                        <h3 class="content">good friends and good parking meters</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><a href="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/parkingmeter-sandiego.html" onclick="window.open('http://drzaius.ics.uci.edu/mt3.14/johannab/archives/parkingmeter-sandiego.html','popup','width=640,height=480,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><br />
+<img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/parkingmeter-sandiego.jpg" width="160" height="120"></a></p>
+
+<p>two travelling greeks stopped by orange county on their whirlwind tour around the west coast during my dark age [time spent sans computer].  they were a breath of fresh urban air, and we took our bad selves down to san diego for a day.  we went to a coffee shop you could smoke in, walked in pedestrian areas, went to little italy [which was a bit more mexican than italian, but still, the restaurant we ate in was perfect good ole fashioned italian-american], and walked back along the water front.  most importantly tho, seconds are not displayed ;]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:54 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/04/good_friends_and_good_parking.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/04/good_friends_and_good_parking.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000114"></a>
+                     <div class="content" id="entry-114">
+                        <h3 class="content">moments before the crash</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/metanscott-at-alta.jpg" width="158" height="211"></p>
+
+<p>meta, sled and i were sitting in alta cafe.  one of the best cafes for miles around.  sitting there with our three powerbooks, we had just been explaining to a man sitting next to us who had asked, just why apple was so good.  oh, it hurts, it does.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:48 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/04/moments_before_the_crash.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/04/moments_before_the_crash.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000113"></a>
+                     <div class="content" id="entry-113">
+                        <h3 class="content">the life and times</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>i have been less than entertaining, i know, but for good reason. and now boys and girls, i will tell you my story.  once long ago in a kingdom far far away, a kingdom called boston, i was writing a very important paper.  we managed to finish that paper, entitled "a handle on what's going on: combining tangible interfaces and ambient display for distributed groups" and submit it to <a href="http://www.acm.org/uist/">uist</a>. then i said goodbye to my dear friends of boston, and this is when the pain begins...</p>
+
+<p>i arrived at logan [airport] a little bit rushed, a little bit late, and went to the wrong ticket counter.  although you might think that ATA has something to do with american airlines, it, in fact, does not.  so there i was rushed, late, and at the wrong ticket counter.  eventually i found my way to the right one, but when the woman was tagging my bag [and you know how i hate to check luggage] she only tagged it through to chicago.  i was on my way to portland for a conference.  so we had the following conversation:</p>
+
+<p>me: you only checked my bag through to chicago.<br />
+her: i know.<br />
+me: but i am going to portland.<br />
+her: i know.<br />
+me: but i want my bag to go to portland.<br />
+her: you are switching airlines, we do the baggage transfer by hand.<br />
+me: but how will they know where to transfer it to?<br />
+her: &lt;puts a generic tag on the bag that says "transfer to southwest"&gt; there.<br />
+me: but...<br />
+her: &lt;indifference&gt;</p>
+
+<p>faced with this i had no choice but to get on my soon-to-depart plane.  when i arrived in chicago, i left the terminal to go find my baggage.  but for some reason, it wasn't on the baggage carousel.  okay, fine, so then it was checked through, i think to myself, i shouldn't have been so judgmental at the ticket counter.  regardless, the woman at the baggage claim office says they will keep an eye out for the bag.  as i am reentering the terminal, i get selected out for "special screening."  bummer.  so after all of my baggage is rifled through, and i am thoroughly patted down and deemed safe, i get back to the terminal, and on a plane to portland.</p>
+
+<p>surprise surprise, my bag is not in portland.  when i go to baggage claim there, the woman laughs when i tell her the person in boston told me they transfer them by hand.  this is not helping.  she assures me they will find the bag and have it at the hotel tomorrow afternoon.  i can live with that.</p>
+
+<p>the next morning i wake up, borrow a tshirt from amanda [didn't people think we were alike enough already?], and go to the conference and present my workshop paper a little less fresh than i'd prefer.  i get back to the hotel anticipating my bag, instead, i got a whole lotta nuthin'.  i called the baggage claim people and they told me the bag had been found in chicago and sent out.  but it never arrived in portland.  great.</p>
+
+<p>the next day, still no bag.  so i go out, in yesterday's yesterday's clothes, to buy some underwear and a clean shirt.  fantastic.  but at least i feel cleaner by the time i get back and change.  once again no bag all day, and when i get back home that night, i am told that they found the bag in phoenix in a "pile of NCAA luggage." what. ever.  finally the bag arrives late at night and i have clothes for the next morning.  if i had known i wouldn't have them, i wouldn't have bothered packing them.</p>
+
+<p>saw lots of friends at the conferences, made a bunch of new ones, went out every night, blah blah blah, cut to the morning we are leaving.  because i flew from boston, i am on a different flight back than everyone else to orange county.  as i am going into the terminal i get "special screened" once again.  now, it is printing out on my boarding passes to special screen me.  what did i do wrong, america?  so, after they really take apart all my stuff and give me the 3rd degree, they find my tiny swiss army knife in one of my bags.  bear in mind that i have carried this knife with me on every flight i've taken in the past 4 years.  no one has ever said a thing, so i figured it was fine.  but okay, i can live with that.  so i have to leave the terminal and check the knife in another bag in order to keep it.  i put it in my messenger bag and drop it off at the baggage check in.  i come back through security and they have to screen me AGAIN.  cause clearly while i was gone for 5 minutes i picked up a couple of guns or whatever.  argh.  fine fine fine.  it's on my boarding pass to be screened.  they are doing their jobs and i understand.</p>
+
+<p>but guess what, when i get back to orange county, my MESSENGER BAG IS NOT THERE.  why? please. tell me. why?  so finally i go home. trying to cope with all this crap,  i am unpacking the luggage that i do have when i realize STUFF HAS BEEN STOLEN FROM IT.  then i get a call saying my bag was found in san diego and was on its way back to orange county.  i go to the airport that evening to pick it up.  when i get there i inform the baggage claim dude that things have been taken from my luggage. we have the following conversation:</p>
+
+<p>me: some stuff was taken from my luggage.<br />
+him: the TSA left you a note then, that something was seized.<br />
+me: it wasn't dangerous.<br />
+him: well it was if they seized it.<br />
+me: no, they took most of a set of acrylic juggling balls, and a bunch of dvds.<br />
+him: there must have been a note.<br />
+me: there was no note.<br />
+him: &lt;getting uncomfortable&gt; maybe they were misplaced while they were searching the bag.  but they have to leave a note...</p>
+
+<p>so yes, someone stole things from my bag, and i have to write a letter to someone in texas or some crap.  i was about to start handling that when... i was sitting in a coffee shop with amanda and scott, working on my presentation for the in house conference at calit2 [the building where i work at uci].  when suddenly my computer just freezes.  i reboot, my hard drive makes a pleasant grinding noise.  and poof, that's all.  my brand new powerbook's hard drive ate it.  hard core.   meanwhile my desktop is still damaged from when it was shipped here, and i haven't gotten the reimbursement from the postal insurance [it has bee 4 months now...].  so there i am, ms. computer science, with no computer.</p>
+
+<p>my presentation and paper lost, my spirits defeated, i go home and decide, i will do the lowest-tech thing possible.  i will read a book.  not a book for work, just a book.  the blind assassin, to be exact.  so i am sitting in bed, with my trusty, relatively new, lifetime waranteed maglite, reading my book, when, suddenly, my maglite breaks.  the world, it seems, is trying to tell me something.  roxy, it's time to move to a deserted island.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:43 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/04/the_life_and_times.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/04/the_life_and_times.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">March 17, 2005</h3>
+                     <a id="a000111"></a>
+                     <div class="content" id="entry-111">
+                        <h3 class="content">off the radar and back again</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/nimio1.jpg" width="200" height="186"> <img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/nimio2.jpg" width="248" height="186"></p>
+
+<p><br />
+life got hectic.  oh yes it did.  but amanda and i have completed our demo proposal for <a href="http://insitu.lri.fr/ecscw/">ecscw</a> [european conference on computer-supported cooperative work].  it concerns our toy [currently under development] nimio.  isn't that the coolest name ever? ;]  nimio is latin for "much" or "far" or "totally awesome".</p>
+
+<p>so i have been holed up trying to get some nimio prototypes manufactured.  i sustained chemical burns [w00t] but finally amanda and i got the plastics in order.  after a total disaster which "contaminated" all our previous work, i "ripped into go mode" and stayed in the workshop/garage for a week powered by fury with the end result being our beautiful prototypes.</p>
+
+<p>the fun does not end there.  amanda and i are submitting a full paper to <a href="http://www.acm.org/uist/index.html">uist</a> if we can swing it by april 1st.  meanwhile [in the next two weeks that is] we have to finish all of the implementation on the berkeley motes [the guts of nimio].  oh did i mention i am also submitting a paper to an in-house conference?  this one is all about "information stuff", and how the modern rhetoric concerning information is more important than you think.  it should keep you up nights.  finally i have to finish my presentation for the <a href="http://www.chi2005.org/">chi</a> workshop on <a href="http://www.vs.inf.ethz.ch/events/ubisoc2005/">social factors in ubiquitous computing</a> that i'm participating in.  also effectively to be completed by april 1st.  life, my friends, is awesome.</p>
+
+<p>to add a little spice to my clearly mundane existence i will be going back to the east coast in a week.  so brace yourselves, because here i come.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:19 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/03/off_the_radar_and_back_again.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/03/off_the_radar_and_back_again.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">February 04, 2005</h3>
+                     <a id="a000090"></a>
+                     <div class="content" id="entry-90">
+                        <h3 class="content">chi 2005</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><a href="http://www.inf.ethz.ch/personal/coroama/">vlad</a> asked me to submit something to his <a href="http://www.chi2005.org/">chi 2005</a> workshop <a href="http://www.vs.inf.ethz.ch/events/ubisoc2005/">ubisoc</a> on social implications of ubiquitous computing.  i did just that, and my <a href="http://www.ics.uci.edu/~johannab/papers/JohannaBrewer-CHI2005-UbiSoc-Paper.pdf">paper</a> was accepted.  i will be off to portland then at the beginning of april along with pretty much everyone else from my department.  we will bring the funk.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:58 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/chi_2005.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/chi_2005.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000089"></a>
+                     <div class="content" id="entry-89">
+                        <h3 class="content">our great [count them, 50] states</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>so i was in trader joe's a few days ago buying myself some food and a bottle of wine.  of course i got carded, and i hand over my connecticut driver's license to the guy behind the register.  he was nice, american [or rather, californian], about my age.  he takes alook at it and says, "hmm, connecticut.  massachusetts is in connecticut right?  my parents are thinking of moving there."</p>
+
+<p>the last time i checked, we had 50 non-intersecting states.  i leave it as an exercise to the reader to imagine how i fielded that one.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:53 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/our_great_count_them_50_states.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/our_great_count_them_50_states.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">January 30, 2005</h3>
+                     <a id="a000088"></a>
+                     <div class="content" id="entry-88">
+                        <h3 class="content">what's wrong with this picture?</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/bmw-phd.jpg"></p>
+
+<p>search deep down inside for the answer to this one...</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:20 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/01/whats_wrong_with_this_picture.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/01/whats_wrong_with_this_picture.html#comments">Comments (2)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">January 29, 2005</h3>
+                     <a id="a000086"></a>
+                     <div class="content" id="entry-86">
+                        <h3 class="content">freak upon freaky</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>some of my fellow uci'ers and i have decided to go see the <a href="http://www.bodyworlds.com/en/pages/home.asp">body worlds 2</a> exhibit.  as if living in the o.c. isn't scary enough.  for those of you not in the know, body worlds is a science exhibition of "plastinated" humans.  or ex-humans more accurately.  somewhat of a scientific wonder, but i'm not sure if i can stomach it.  we will see.  in any case, i was reading the info about it and found this:<br />
+<blockquote><b>Why aren't there more women plastinates in the exhibits?</b></p>
+
+<p>Sensitive to perceived community concerns, Dr. von Hagens did not want to appear voyeuristic in revealing too many female bodies. He sees himself in the tradition of Renaissance anatomists, whose works traditionally included far more masculine than feminine bodies, since all but the reproductive systems are essentially the same. The musculature of male bodies is generally more pronounced and illustrates more aspects of the muscle system.</blockquote></p>
+
+<p>although technology has advanced, apparently our view of the female body hasn't.  win some. lose some.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:12 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/01/freak_upon_freaky.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/01/freak_upon_freaky.html#comments">Comments (1)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">January 21, 2005</h3>
+                     <a id="a000082"></a>
+                     <div class="content" id="entry-82">
+                        <h3 class="content">living behind the orange curtain</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>let's get down to it.  i hit orange county january 3rd.  what have i been up to since then?  wouldn't you like to know...</p>
+
+<p>actually i've been insanely busy getting a place to live, a car drive, and a food to eat.  just the one food.  but now that the dust has cleared i'm here to give my ongoing report of life here in the o.c.  because it has been requested: first a few photos of my surroundings:</p>
+
+<p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/IMG_1278.jpg"><br />
+so i found a place to live and finally parked my suitcases there on january 5th.</p>
+
+<p><br />
+<img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/IMG_1311.jpg"><br />
+then i unpacked them into my closet [ooh. ahh.]</p>
+
+<p><br />
+<img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/IMG_1276.jpg"><br />
+then i went to ikea and bought a mattress.  in my infinite foresight i took my sleeping bag on the plane with me.  this was possibly the wisest decision i made with regards to packing as my boxes of linens did not arrive until january 13th.  we won't talk about that anymore.</p>
+
+<p><br />
+<img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/IMG_1284.jpg"><br />
+i also packed mr. bunny & mr. bear.  completely essential.  once again, newt has his eye on you ;]</p>
+
+<p><br />
+so as you already know i'm working at uc irvine doing a project for the brand new <a href="http://www.calit2.net/">cal-it(2)</a> building.  unfortunately this building isn't precisely open yet so me and the other newbie [charlotte, post-doc/officemate/partner in petty crimes] are working in the CST2 aka the trailer.  that's right baby, we are trailer trash :]</p>
+
+<p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/IMG_1342.jpg"></p>
+
+<p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/IMG_1338.jpg"></p>
+
+<p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/IMG_1328.jpg"></p>
+
+<p><br />
+besides charlotte and i, the "basement floor" of the trailer also serves as the on-campus housing facility for several bunnies.</p>
+
+<p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/IMG_1320.jpg"><br />
+this bunny is pursuing a degree in law.</p>
+
+<p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/IMG_1344.jpg"><br />
+this bunny is supposedly pursuing a phd in chemisty, but honestly, i haven't seen him doing a whole lot of work.</p>
+
+<p><br />
+finally i got a car.  vrmmm vrmmm.  my car waits in the parking lot while i am hard at work.  <br />
+<img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/IMG_1348.jpg"></p>
+
+<p><br />
+i promise the next post will be more rivetting ;]<br />
+</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:34 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/01/living_behind_the_orange_curta.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/01/living_behind_the_orange_curta.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</span>
+
+
+
+</body>
+</html>
+

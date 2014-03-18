@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Querying Programs</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Querying Programs">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html2781 HREF="node44.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html2779 HREF="node39.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html2773 HREF="node42.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html2783 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html2782 HREF="node44.html"> Syntax errors</A>
+<B>Up:</B> <A NAME=tex2html2780 HREF="node39.html"> Interaction with the </A>
+<B> Previous:</B> <A NAME=tex2html2774 HREF="node42.html"> Entering Programs from </A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION00444000000000000000> Querying Programs</A></H2>
+<P>
+Once a set of clauses has been compiled into the database,
+<A NAME=512>&#160;</A> it may be queried in the usual Prolog manner.
+<A NAME=513>&#160;</A>
+If there are no uninstantiated variables in the query, the system
+replies 'yes' or 'no' and prompts for another query, for example:
+<blockquote> <PRE>[eclipse 1]: father(jacob, joseph).
+yes.
+[eclipse 2]:
+</PRE>
+</blockquote>
+If there are uninstantiated variables in the query,
+the system will attempt to find an instantiation of them which will
+satisfy the query, and if successful it will
+display one such instantiation. 
+<A NAME=516>&#160;</A>
+It will then wait for a further instruction: either a <code>&lt;CR&gt;</code>
+(``newline'' or ``return'') or a semi-colon '<b> ;</b>'. 
+A return will end the query successfully.
+A semi-colon will initiate backtracking 
+<A NAME=518>&#160;</A> 
+in an attempt to find another solution to the query.
+Note that it is not necessary to type a new line after the semicolon
+--- one keystroke is enough.
+When the top level loop can detect
+that there are no further solutions, it does not wait for the semicolon
+or newline, but it displays directly the next prompt.
+For example in a query on
+a family database:
+<blockquote> <PRE>[eclipse 2]: father(X, Y).
+X = abraham
+Y = isaac   More? (;)   (';' typed)
+
+X = isaac
+Y = jacob
+
+yes.
+[eclipse 3]:
+</PRE>
+</blockquote>
+<P>
+Queries may be extended over more than one line. When this is done the prompt
+changes to a tabulation character, ie. the input is indented to
+indicate that the query is not yet completed.
+The fullstop marks the end of the input.
+<P>
+
+<BR> <HR><A NAME=tex2html2781 HREF="node44.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html2779 HREF="node39.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html2773 HREF="node42.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html2783 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html2782 HREF="node44.html"> Syntax errors</A>
+<B>Up:</B> <A NAME=tex2html2780 HREF="node39.html"> Interaction with the </A>
+<B> Previous:</B> <A NAME=tex2html2774 HREF="node42.html"> Entering Programs from </A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

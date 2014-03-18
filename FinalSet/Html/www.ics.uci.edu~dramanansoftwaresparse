@@ -1,0 +1,70 @@
+
+<html>
+<head>
+<title>Histograms of Sparse Codes for Object Detection</title>
+</head>
+<style type="text/css">
+#container
+{
+	width : 850px;
+	padding : 0px;
+	margin : 25px;
+	background-color : #fff;
+	font-family : Ariel;
+}
+A:link {text-decoration: none}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+A:hover {text-decoration: underline}
+tr {border:0px}
+img.pub {height:120px;border:0px}
+p.link {font-weight:bold;font-size:small;text-align:center;white-space:pre}
+table.pub {width: 800px; border=0}
+td.pic {text-align: right; vertical-align:top}
+td.pub {width: 600px; vertical-align:bottom}
+span.h2 {font-size:x-large; font-weight:bold}
+span.h3 {font-size:large; font-weight:bold}
+span.h3red {font-size:large; color:red}
+span.h4 {font-style:italic; font-weight:bold} 
+</style>
+<body bgcolor=white>
+<div id="container">
+<h1> Histograms of Sparse Codes for Object Detection
+<center><img width="600" src="splash.jpg"></center>
+<table border="0" width="800" cellpadding="5">
+<tr>
+<td> <a href="../../papers/hsc.pdf"><img src="../../papers/hsc_cover.gif"></a>
+<td>
+<p>
+Object detection has seen huge progress in recent years, much thanks to the heavily-engineered Histograms of Oriented Gradients (HOG) features. Can we go beyond gradients and do better than HOG? We provide an affirmative answer by proposing and investigating a sparse representation for object detection, <i>Histograms of Sparse Codes</i> (HSC). We compute sparse codes with dictionaries learned from data using K-SVD, and aggregate per-pixel sparse codes to form local histograms.  We intentionally keep true to the sliding window framework (with mixtures and parts) and only change the underlying features. To keep training (and testing) efficient, we apply dimension reduction by computing SVD on learned models, and adopt supervised training where latent positions of roots and parts are given externally e.g. from a HOG-based detector. By learning and using local representations that are much more expressive than gradients, we demonstrate large improvements over the state of the art on the PASCAL benchmark for both root-only and part-based models.
+<br>
+<br>
+<p> X. Ren, D. Ramanan.<b>"Histograms of Sparse Codes for Object Detection"</b> <i>Computer Vision and Pattern Recognition</i> (CVPR), Portland, OR, June 2013.
+</table>
+
+<h3>Downloads</h3> 
+ 
+<table style="text-align: left"> 
+<tbody><tr><th>Filename</th><th>Description</th><th align="right">Size</th>
+<tr> 
+  <td><a href="readme.txt">README</a>
+  <td>Description of contents.
+  <td>2KB
+<tr>
+  <td><a href="cvpr13_detection_final.zip">cvpr13_detection_final.zip</a>
+  <td>Core HSC code
+  <td>22MB
+<tr>
+  <td><a href="INRIA.zip">INRIA.zip</a>
+  <td>INRIA person dataset in jpeg format.
+  <td>298MB
+<tr>
+  <td><A href="PASCAL.zip">PASCAL.zip</a>
+  <td>Pretrained PASCAL2007 model and results.
+  <td>242MB
+</table>
+
+</div>
+</body>
+</html>
+

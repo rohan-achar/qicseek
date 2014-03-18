@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="description" content="Calculate Cosine Similarity Score Assignment 05 Input Query Posting List Output List of 10 top ranked documents  Calculate Cosine Similarity Score Assignment 05 Remember what this is about A query as a vector A corpus as a term-document matrix Where each document is a column in the matrix  Calculate Cosine Similarity Score Assignment 05 We are not going to calculate the similarity score of a query with every document That would be inefficient. Many scores are zero. We are not going to actually create a term-document matrix The posting list has all the information that we need to calculate the similarity scores  Calculate Cosine Similarity Score Assignment 05 We are going to calculate the cosine similarity score, but in a clever way. Here are some constants you will need in your posting list: The number of documents in the posting list (aka corpus). Figure this out when creating the corpus  The document frequency of a term This should be the number of items in a row of the posting list.  (each term has its own row) The term frequency of a term in a document. Different for every term document pair.  Calculate Cosine Similarity Score Assignment 05 Steps Get a query from the user Convert it to TF-IDF scores  Calculate Cosine Similarity Score Assignment 05 “UCI Informatics Professors” 3 terms {“UCI”, “Informatics”, “Professors”} 3 TF-IDF scores Size of the corpus comes from the posting list The document frequency of “UCI” comes from the number of entries in the posting list for “UCI” The term frequency is 1  Calculate Cosine Similarity Score Assignment 05 Steps Get a query from the user Convert it to TF-IDF scores Use your binary posting list to create accumulator scores for the documents with the query words For each term in the query Get the posting list for the term Scores[d] += TF-IDF(term,query) * TF-IDF(term, document)  Calculate Cosine Similarity Score At the end of this we will have the data structure Scores Which for “UCI Informatics Professors” required looking up 3 posting lists Optionally the scores may be normalized so we have a mathematically meaningful comparison. Create a new data-structure like Scores called Magnitude For each term in the entire posting list For each document represented in Scores Magnitude[document] += TF-IDF(term, document)^2 Assignment 05  Calculate Cosine Similarity Score Now we have Scores and Magnitude Now we calculate the highest rankings  For each document in Scores Double x = Scores[document]/sqrt(Magnitude[document]) Assignment 05  Calculate Cosine Similarity Score Assignment 05 Evaluation in IR Introduction to Information Retrieval CS 221 Donald J. Patterson Content adapted from Hinrich Schütze http://www.informationretrieval.org  Outline Evaluation in IR Intro to Evaluation Standard Test Collections Evaluation of Unranked Retrieval Evaluation of Ranked Retrieval Assessing relevance Broader perspectives Result Snippets  Intro to Evaluation Evaluation in IR There are many implementation decisions to be made in an IR system Crawler Depth-first or breadth-first? Indexer Use zones? Which zones? Use stemming? Use multi-word phrases?  Which ones?  Intro to Evaluation Evaluation in IR There are many implementation decisions to be made in an IR system Query Ranked Results? PageRank? Which formula do we use in the TF-IDF Matrix? Should we use Latent Semantic Indexing? How many dimensions should we reduce?  Intro to Evaluation Evaluation in IR There are many implementation decisions to be made in an IR system Results How many do we show? Do we show summaries? Do we group them into categories? Do we personalize the rankings? Do we display graphically?  Intro to Evaluation Evaluation in IR How can we evaluate whether we made good decisions or not? Measure them  Measures for a search engine	 Evaluation in IR How fast does it index? Number of documents per hour Average document size How fast does it search Latency as a function of index size Expressiveness of query language Ability to express complex information needs Speed on complex queries  Measures for a search engine	 Evaluation in IR We can measure all of these things: We can quantify size and speed We can make this precise What about user happiness? What is this? Speed of response/size of index are factors But fast, useless answers won’t make a user happy Need to quantify user happiness also.  Measuring user happiness Evaluation in IR Issue: Who is the user we are trying to make happy? It depends.  Measuring stakeholder happiness Evaluation in IR Issue: Who is the user we are trying to make happy? Search engine: The user finds what they want. Measure whether or not they come back.  Measuring stakeholder happiness Evaluation in IR Issue: Who is the user we are trying to make happy? eCommerce Site User finds what they want Are we interested in the happiness of the site? Are we interested in the happiness of the customer? Measure the $$ of sales per user Measure number of transactions per user Measure time to purchase Measure conversion rate ( lookers -&gt; buyers)  Measuring stakeholder happiness Evaluation in IR Issue: Who is the user we are trying to make happy? Enterprise site  Are the users “productive”? Measure time savings when using site Measure “things accomplished” careful about confounding factors Measure how much a user utilizes the site’s features  Measuring stakeholder happiness Evaluation in IR Can we measure happiness? Do we want to measure happiness? What are some proxies for happiness? Relevance of search results How do we measure relevance?  Measuring Relevance Instead Evaluation in IR What do we need to measure relevance? A document collection, a test corpus A set of queries, benchmark queries A set of answers, a gold standard i.e., Document, d, {is, is not} relevant to query q Alternatives to binary exist, but atypical Cross-validation methodology Parameter tuning  Information need Evaluation in IR Remember the user has an information need not a query Relevance is assessed in relation to the information need, not the query e.g., I am looking for information on whether drinking red wine is more effective than eating chocolate at reducing risk of heart attacks Query: red wine heart attack effective chocolate risk Does the document address the need, not the query  Relevance benchmarks Evaluation in IR TREC - National Institute of Standards and Testing (NIST) has run a large IR test bed for many years Reuters and other benchmark document collections Retrieval tasks which are specified sometimes as queries Human experts mark, for each query and for each document Relevant or Irrelevant  Unranked retrieval Evaluation in IR Precision: Fraction of retrieved documents that are relevant Recall: Fraction of relevant documents that are retrieved  Unranked retrieval Evaluation in IR Precision: Fraction of retrieved documents that are relevant Recall: Fraction of relevant documents that are retrieved  Unranked retrieval Evaluation in IR Precision: Fraction of retrieved documents that are relevant Recall: Fraction of relevant documents that are retrieved ? ?  Unranked retrieval - Accuracy Evaluation in IR The difficulty with measuring “accuracy” In one sense accuracy is how many judgments you make correctly  Exercise Evaluation in IR Documents A - F, Query q       If my system returns A,C,D,E to query q.... How many TP, TN, FP, FN do I have?  Exercise Evaluation in IR  Exercise Evaluation in IR  Exercise Evaluation in IR What is our precision?   What is our recall?   What is our accuracy?  Exercise Evaluation in IR If my system returns A,C,D,E to query q....     What do I want Precision to be?  Exercise Evaluation in IR If my system returns A,C,D,E to query q....     What do I want Recall to be?  Exercise Evaluation in IR If my system returns A,C,D,E to query q....     What do I want Accuracy to be?  Unranked retrieval - Accuracy Evaluation in IR Welcome to my search engine I guarantee a 99.9999% accuracy. Bring on the venture capital   Unranked retrieval - Accuracy Evaluation in IR Most people want to find something and can tolerate some junk"/>
+    <title></title>
+    <script type="text/javascript" language="javascript">
+//      <![CDATA[
+            var images = new Array (39);
+            images[0] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.001.png";
+            images[1] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.002.png";
+            images[2] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.003.png";
+            images[3] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.004.png";
+            images[4] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.005.png";
+            images[5] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.006.png";
+            images[6] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.007.png";
+            images[7] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.008.png";
+            images[8] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.009.png";
+            images[9] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.010.png";
+            images[10] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.011.png";
+            images[11] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.012.png";
+            images[12] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.013.png";
+            images[13] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.014.png";
+            images[14] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.015.png";
+            images[15] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.016.png";
+            images[16] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.017.png";
+            images[17] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.018.png";
+            images[18] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.019.png";
+            images[19] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.020.png";
+            images[20] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.021.png";
+            images[21] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.022.png";
+            images[22] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.023.png";
+            images[23] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.024.png";
+            images[24] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.025.png";
+            images[25] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.026.png";
+            images[26] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.027.png";
+            images[27] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.028.png";
+            images[28] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.029.png";
+            images[29] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.030.png";
+            images[30] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.031.png";
+            images[31] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.032.png";
+            images[32] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.033.png";
+            images[33] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.034.png";
+            images[34] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.035.png";
+            images[35] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.036.png";
+            images[36] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.037.png";
+            images[37] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.038.png";
+            images[38] = "Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.039.png";
+            var index = 0;
+            function WindowLoaded(evt)
+            {
+                document.body.onselectstart = function () { return false; };
+            }
+            function Step(i)
+            {
+                GoTo(index + i)
+            }
+            function GoTo(newIndex)
+            {
+                if(newIndex >= 0 && newIndex < images.length)
+                {
+                    index = newIndex;
+                    document.Slideshow.src = images[index];
+                }
+            }
+//      ]]>
+    </script>
+</head>
+<body bgcolor="black" onload='WindowLoaded(event);'>
+    <p align="center">
+        <br/>
+        <br/>
+        <img name="Slideshow" alt="" src="Lecture14_01_Slides_CS221_files/Lecture14_01_Slides_CS221.001.png" onclick="Step(1)"/>
+        <br/>
+        <br/>
+        <input type="image" src="Lecture14_01_Slides_CS221_files/home.png" onclick="GoTo(0)"/>
+        &nbsp;&nbsp;&nbsp;
+        <input type="image" src="Lecture14_01_Slides_CS221_files/prev.png" onclick="Step(-1)"/>
+        <input type="image" src="Lecture14_01_Slides_CS221_files/next.png" onclick="Step(1)"/>
+    </p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

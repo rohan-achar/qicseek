@@ -1,0 +1,250 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<title>UBICOMP 290: Patterson : Recent Research in Ubiquitous Computing</title>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="MSHTML 6.00.2900.2722" name=GENERATOR>
+<link href="styleSheet.css" rel="stylesheet" type="text/css" media="all">
+<style type="text/css">
+<!--
+
+.style10 {color: #976C6D}
+.style11 {color: #FF0000}
+-->
+        </style>
+</head>
+<body>
+<h2 align="center">UBICOMP 290 (ICS 290) Winter 2007 </h2>
+<h2 align="center"> Recent Research in Ubiquitous Computing</h2>
+<div class="box">
+  <p class="style7">This reading group will review recent literature in the Ubiquitous, Pervasive, CHI and other  related communities. The emphasis will be on developing
+    a familiarity with trends and directions being developed by active
+    researchers.  This is a lunch friendly, PowerPoint unfriendy meeting. This is also a forum for students to present practice talks and get feedback as the need arises (PP allowed in that case). On the weeks when papers are presented, they are presented by attenders. This
+    class is being moderated by <a href="http://www.ics.uci.edu/~djp3/">Asst. Prof. Don Patterson</a> </p>
+  <p class="style7">This quarter we will be looking at papers from UBICOMP 2006, held in perfect, sublime Orange County. </p>
+  <p class="style7">The class meets <span class="style11">Tuesdays from 11:30am to 12:30pm</span> in
+    ICS 136. </p>
+  <p class="style7">The course code is 37358.  If you are a student please register, although if that's a problem don't let it prevent you from coming anyway</p>
+  <p class="style7">Last quarter's web page is <a href="http://www.ics.uci.edu/~djp3/classes/2006_03_30_ICS290/index.html">here</a>. </p>
+</div>
+<h3 align="center" class="style7">Reading Schedule</h3>
+<TABLE border="1" align="center" style="BORDER-COLLAPSE: collapse; TEXT-ALIGN: center; background-color: #FFFFFF; color: #68737E;">
+  <TBODY>
+    <TR	 style="BORDER-TOP: black 1px solid">
+      <TH colSpan=2><span class="style10">Week</span></TH>
+      <TH><span class="style10">Paper</span></TH>
+      <TH><span class="style10">Source</span></TH>
+      <TH><span class="style10">Lead Discusser</span></TH>
+      <TH><span class="style10">Comments</span></TH>
+    </TR>
+    <TR bgcolor="#CCCCCC"  style="BORDER-TOP: black 1px solid">
+      <TD><span class="style9">1</span></TD>
+      <TD><span class="style9">1/9/2007</span></TD>
+     <TD style="COLOR: green; TEXT-ALIGN: center"><span class="style9">Organization Meeting </span></TD>
+      <TD><a href="http://www.springerlink.com/content/978-3-540-39634-5/">UBICOMP 2006 </a></TD>
+      <TD><span class="style7"><a href="http://www.ics.uci.edu/~djp3/">Don</a></span></TD>
+      <TD><a href="paperChoosing/index.html">Paper Selection Page </a></TD>
+    </TR>
+    <TR bgcolor="#CCCCCC" style="BORDER-TOP: black 1px solid">
+      <TD><span class="style9">2</span></TD>
+      <TD><span class="style9">1/16/2007</span></TD>
+      <TD style="COLOR: green; TEXT-ALIGN: center">UBICOMP and the Future </TD>
+      <TD><a href="http://www.springerlink.com/content/978-3-540-39634-5/">UBICOMP 2006 </a></TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD bgcolor="#EEEEEE">&nbsp;</TD>
+      <TD bgcolor="#EEEEEE">&nbsp;</TD>
+      <TD bgcolor="#EEEEEE"><span style="TEXT-ALIGN: center"><a name="Rogers06" href="#">Yvonne Rogers</a>: <br/>
+          <b>Moving on from Weiser's Vision of Calm Computing: Engaging UbiComp Experiences. </b>404-421<br/>
+      <a href="http://dx.doi.org/10.1007/11853565_24"><i>Electronic Edition</i></a> (link) <font size="-3"><a href="http://dblp.uni-trier.de/rec/bibtex/conf/huc/Rogers06">BibTeX</a></font></span></TD>
+      <TD bgcolor="#EEEEEE">&nbsp;</TD>
+      <TD bgcolor="#EEEEEE">Eric</TD>
+      <TD bgcolor="#EEEEEE" class="style7">&nbsp;</TD>
+    </TR>
+    <TR bgcolor="#CCCCCC" style="BORDER-TOP: black 1px solid">
+      <TD><span class="style9">3</span></TD>
+      <TD><span class="style9">1/23/2007</span></TD>
+      <TD style="TEXT-ALIGN: center"><span style="COLOR: green; TEXT-ALIGN: center">UBICOMP and Spirituality </span></TD>
+      <TD><a href="http://www.springerlink.com/content/978-3-540-39634-5/">UBICOMP 2006 </a></TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD bgcolor="#EEEEEE">&nbsp;</TD>
+      <TD bgcolor="#EEEEEE">&nbsp;</TD>
+      <TD bgcolor="#EEEEEE"><span style=" TEXT-ALIGN: center"><a name="Bell06" href="#">Genevieve Bell</a>: <br/>
+          <b><i>No More SMS from Jesus: </i> Ubicomp, Religion and Techno-spiritual Practices. </b>141-158<br/>
+      <a href="http://dx.doi.org/10.1007/11853565_9"><i>Electronic Edition</i></a> (link) <font size="-3"><a href="http://dblp.uni-trier.de/rec/bibtex/conf/huc/Bell06">BibTeX</a></font></span></TD>
+      <TD bgcolor="#EEEEEE">&nbsp;</TD>
+      <TD bgcolor="#EEEEEE">Amy</TD>
+      <TD bgcolor="#EEEEEE">&nbsp;</TD>
+    </TR>
+    <TR bgcolor="#CCCCCC"  style="BORDER-TOP: black 1px solid">
+      <TD><span class="style9">4</span></TD>
+      <TD><span class="style9">1/30/2007</span></TD>
+      <TD><p><span style="TEXT-ALIGN: center"><span style="COLOR: green; TEXT-ALIGN: center"><a name="Current"></a>UBICOMP and Behavior Modification </span></span></p></TD>
+      <TD><a href="http://www.springerlink.com/content/978-3-540-39634-5/">UBICOMP 2006 </a></TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD><a name="NawynIL06" href="#">Jason Nawyn</a>, <a href="#">Stephen S.  Intille</a>, <a href="#">Kent Larson</a>: <br/>
+        <b>Embedding Behavior Modification Strategies into a Consumer Electronic Device: A Case Study. </b>297-314<br/>
+      <a href="http://dx.doi.org/10.1007/11853565_18"><i>Electronic Edition</i></a> (link) <font size="-3"><a href="http://dblp.uni-trier.de/rec/bibtex/conf/huc/NawynIL06">BibTeX</a></font></TD>
+      <TD>&nbsp;</TD>
+      <TD>Daniel</TD>
+      <TD>&nbsp;</TD>
+    </TR>
+    <TR>
+      <TD></TD>
+      <TD></TD>
+      <TD><a name="LinMLDS06" href="#">James J. Lin</a>, <a href="#">Lena Mamykina</a>, <a href="#">Silvia Lindtner</a>, <a href="#">Gregory Delajoux</a>, <a href="#">Henry B. Strub</a>: <br/>
+        <b>Fish'n'Steps: Encouraging Physical Activity with an Interactive Computer Game. </b>261-278<br/>
+      <a href="http://dx.doi.org/10.1007/11853565_16"><i>Electronic Edition</i></a> (link) <font size="-3"><a href="http://dblp.uni-trier.de/rec/bibtex/conf/huc/LinMLDS06">BibTeX</a></font></TD>
+      <TD>&nbsp;</TD>
+      <TD>David</TD>
+      <TD>&nbsp;</TD>
+    </TR>
+    <TR bgcolor="#CCCCCC"  style="BORDER-TOP: black 1px solid">
+      <TD><span class="style9">5</span></TD>
+      <TD><span class="style9">2/6/2007</span></TD>
+      <TD style="COLOR: green; TEXT-ALIGN: center">UBICOMP and the City </TD>
+      <TD><a href="http://www.springerlink.com/content/978-3-540-39634-5/">UBICOMP 2006 </a></TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD><span style=" TEXT-ALIGN: center"><a name="ONeillKKSPFJ06" href="#">Eamonn O'Neill</a>, <a href="#">Vassilis Kostakos</a>, <a href="#">Tim Kindberg</a>, <a href="#">Ava Fatah gen. Schieck</a>, <a href="#">Alan Penn</a>, <a href="#">Danae Stanton Fraser</a>, <a href="#">Tim Jones</a>: <br/>
+          <b>Instrumenting the City: Developing Methods for Observing and Understanding the Digital Cityscape. </b>315-332<br/>
+      <a href="http://dx.doi.org/10.1007/11853565_19"><i>Electronic Edition</i></a> (link) <font size="-3"><a href="http://dblp.uni-trier.de/rec/bibtex/conf/huc/ONeillKKSPFJ06">BibTeX</a></font></span></TD>
+      <TD>&nbsp;</TD>
+      <TD>Sharon</TD>
+      <TD>&nbsp;</TD>
+    </TR>
+    <TR bgcolor="#CCCCCC" style="BORDER-TOP: black 1px solid">
+      <TD><span class="style9">6</span></TD>
+      <TD><span class="style9">2/13/2007</span></TD>
+      <TD style="COLOR: green; TEXT-ALIGN: center">UBICOMP and the Suburbs </TD>
+      <TD><a href="http://www.springerlink.com/content/978-3-540-39634-5/">UBICOMP 2006 </a></TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD><span style=" TEXT-ALIGN: center"><a name="KrummH06" href="#">John Krumm</a>, <a href="#">Eric Horvitz</a>: <br/>
+          <b>Predestination: Inferring Destinations from Partial Trajectories. </b>243-260<br/>
+      <a href="http://dx.doi.org/10.1007/11853565_15"><i>Electronic Edition</i></a> (link) <font size="-3"><a href="http://dblp.uni-trier.de/rec/bibtex/conf/huc/KrummH06">BibTeX</a></font></span></TD>
+      <TD>&nbsp;</TD>
+      <TD>Nick</TD>
+      <TD>&nbsp;</TD>
+    </TR>
+    <TR bgcolor="#CCCCCC" style="BORDER-TOP: black 1px solid">
+      <TD><span class="style9">7</span></TD>
+      <TD><span class="style9">2/20/2007</span></TD>
+      <TD style="COLOR: green; TEXT-ALIGN: center">UBICOMP and the Woods </TD>
+      <TD><a href="http://www.springerlink.com/content/978-3-540-39634-5/">UBICOMP 2006 </a></TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD><span style=" TEXT-ALIGN: center"><a name="AxupVMC06" href="#">Jeff Axup</a>, <a href="#">Stephen Viller</a>, <a href="#">Ian MacColl</a>, <a href="#">Roslyn Cooper</a>: <br/>
+          <b>Lo-Fi Matchmaking: A Study of Social Pairing for Backpackers. </b>351-368<br/>
+      <a href="http://dx.doi.org/10.1007/11853565_21"><i>Electronic Edition</i></a> (link) <font size="-3"><a href="http://dblp.uni-trier.de/rec/bibtex/conf/huc/AxupVMC06">BibTeX</a></font></span></TD>
+      <TD>&nbsp;</TD>
+      <TD>Eric</TD>
+      <TD></TD>
+    </TR>
+    <TR bgcolor="#CCCCCC"  style="BORDER-TOP: black 1px solid">
+      <TD><span class="style9">8</span></TD>
+      <TD><span class="style9">2/27/2007</span></TD>
+      <TD style="COLOR: green; TEXT-ALIGN: center">UBICOMP and Place </TD>
+      <TD><a href="http://www.springerlink.com/content/978-3-540-39634-5/">UBICOMP 2006 </a></TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD><span style="TEXT-ALIGN: center"><a name="FroehlichCSP06" href="#">Jon Froehlich</a>, <a href="#">Mike Y. Chen</a>, <a href="#">Ian E. Smith</a>, <a href="#">Fred Potter</a>: <br/>
+          <b>Voting with Your Feet: An Investigative Study of the Relationship Between Place Visit Behavior and Preference. </b>333-350<br/>
+          <a href="http://dx.doi.org/10.1007/11853565_20"><i>Electronic Edition</i></a> (link) <font size="-3"><a href="http://dblp.uni-trier.de/rec/bibtex/conf/huc/FroehlichCSP06">BibTeX</a></font></span></TD>
+      <TD>&nbsp;</TD>
+      <TD>Tosin</TD>
+      <TD></TD>
+    </TR>
+    <TR bgcolor="#CCCCCC"  style="BORDER-TOP: black 1px solid">
+      <TD><span class="style9">9</span></TD>
+      <TD><span class="style9">3/6/3007</span></TD>
+      <TD style="COLOR: green; TEXT-ALIGN: center">UBICOMP and Privacy </TD>
+      <TD><a href="http://www.springerlink.com/content/978-3-540-39634-5/">UBICOMP 2006 </a></TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD><span style=" TEXT-ALIGN: center"><a name="FriedmanSKCS06" href="#">Batya Friedman</a>, <a href="#">Ian E. Smith</a>, <a href="#">Peter H. Kahn</a>, <a href="#">Sunny Consolvo</a>, <a href="#">Jaina Selawski</a>: <br/>
+          <b>Development of a Privacy Addendum for Open Source Licenses: Value Sensitive Design in Industry. </b>194-211<br/>
+          <a href="http://dx.doi.org/10.1007/11853565_12"><i>Electronic Edition</i></a> (link) <font size="-3"><a href="http://dblp.uni-trier.de/rec/bibtex/conf/huc/FriedmanSKCS06">BibTeX</a></font></span></TD>
+      <TD>&nbsp;</TD>
+      <TD>Nick</TD>
+      <TD></TD>
+    </TR>
+    <TR bgcolor="#CCCCCC" style="BORDER-TOP: black 1px solid">
+      <TD><span class="style9">10</span></TD>
+      <TD><span class="style9">3/13/2007</span></TD>
+      <TD style="COLOR: green; TEXT-ALIGN: center">UBICOMP and Accessibility </TD>
+      <TD><a href="http://www.springerlink.com/content/978-3-540-39634-5/">UBICOMP 2006 </a></TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD class="style9"><span style="COLOR:green; TEXT-ALIGN: center"><a name="MatthewsCPFM06" href="#">Tara Matthews</a>, <a href="#">Scott Carter</a>, <a href="#">Carol Pai</a>, <a href="#">Janette Fong</a>, <a href="#">Jennifer Mankoff</a>: <br/>
+          <b>Scribe4Me: Evaluating a Mobile Sound Transcription Tool for the Deaf. </b>159-176<br/>
+      <a href="http://dx.doi.org/10.1007/11853565_10"><i>Electronic Edition</i></a> (link) <font size="-3"><a href="http://dblp.uni-trier.de/rec/bibtex/conf/huc/MatthewsCPFM06">BibTeX</a></font></span></TD>
+      <TD>&nbsp;</TD>
+      <TD>Daniel</TD>
+      <TD></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<div class="box">
+  <p class="style7">Confirmed attendance:</p>
+  <p class="style7">Eric B., David N. , Don P. , Daniel M. , Sharon D. </p>
+</div>
+<HR>
+<ADDRESS>
+<a href="http://luci.ics.uci.edu/">LUCI</a>
+</ADDRESS>
+<ADDRESS>
+<A href="http://www.ics.uci.edu/">Information and Computer 
+Science</A><BR>
+<A href="http://www.uci.edu/">University of California, 
+Irvine</A><BR>
+Irvine, CA 92697-3425
+</ADDRESS>
+<p> <a href="http://validator.w3.org/check?uri=referer"><img
+        src="http://www.w3.org/Icons/valid-html401"
+        alt="Valid HTML 4.01 Transitional" height="31" width="88"></a> </p>
+</BODY>
+</HTML>
+

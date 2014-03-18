@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Spring 2007: CS 221 Information Retrieval</title>
+<link href="styleSheet.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+
+-->
+</style>
+</head>
+<body>
+<p class="style2 style6 style7">Computer Science  221: Assignment #05 </p>
+<p class="style6">Spring 2007</p>
+<p class="style6"><a href="http://www.ics.uci.edu/informatics">Department of Informatics</a></p>
+<p class="style6"><a href="http://www.ics.uci.edu">Donald Bren School of Information and Computer Sciences </a></p>
+<p class="style6"><a href="http://www.uci.edu">University of California, Irvine </a></p>
+<div class="container"> <a href="index.html">Home</a> | <a href="admin.html">Administrative Policies </a> | <a href="structure.html">Course Structure</a> |<a href="materials.html"> Materials</a> | <a href="assignmentSchedule.html#CurrentWeek">Assignment Schedule </a>| <a href="faq.html">FAQ</a> </div>
+<div class="container">
+  <p class="style11">&nbsp;</p>
+  <p>The
+    goal of this project is to implement a particle filter (Monte Carlo Recursive Bayesian Network Solver) to solve the robot localization problem </p>
+  <ul><li>This is an individual project. Your work should be done on your own. </p>
+      <ul>
+        <li>You can do this project in any language/environment that you want.</li>
+        <li>The deliverable is an animation of the particle filter working. </li>
+        <li>This assignment is now extra credit/optional. </li>
+      </ul>
+    </ul>
+  <ol>
+    <li>Download a map of the environment
+      (an office building)
+      <ol>
+        <li>Map in bmp format: <a href="Assignment05/map.bmp">here</a>. </li>
+      </ol>
+    </li>
+    <li>Download the observation data
+      <ol>
+        <li>Located <a href="Assignment05/fr079-sm.log">here</a>.  </li>
+        <li>The main reason why this is an extra credit assignment is because I ran out of time to figure out the format of the observation file. It is mostly obvious, but there are some orientation issues that aren't clear.</li>
+        <li>All of this data comes from <a href="http://radish.sourceforge.net/">RADISH</a> if that helps at all. In particular this data is from <a href="http://cres.usc.edu/radishrepository/view-one.php?name=fr079">freiburg</a>. </li>
+      </ol>
+    </li>
+    <li>Write code
+    <ol>
+      <li>Write code to load the map image into an occupancy grid.
+        <ol>
+          <li>An occupancy grid is a 2-D array that has a number from 0.0 to 1.0 indicating the probability that there is an obstruction in the location which is represented by that grid cell. Basically a grayscale bitmap. </li>
+          <li>For example, a 10m by 10m room which is divided into 20 cells on each side would become an array with 400 elements in it. Each element would be a probability that there is an obstruction in the .5m by .5m cell represented by an entry in the array.</li>
+          <li>The image above has 5 cm x 5 cm cells. </li>
+        </ol>
+      </li>
+      <li>Write a function which returns the distance to a wall:
+        <ol>
+          <li>float scanDistance(map,x,y,theta);</li>
+          <li>to do this you have to orient the map and the theta.
+            <ol>
+              <li>I used postive y to be up in the bitmapped image.</li>
+              <li>I used positive x to be right in the bitmapped image.</li>
+              <li>I used 0 degrees to be north/up, 90 degrees to be east/right.</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li>Write a sensor model which uses the scanDistance function
+        <ol>
+          <li>float sensorModel(x,y,theta, map, list of scans)
+            <ol>
+              <li>This function takes a position, map and list of scans and returns a number from 0.0-1.0 indicating the probability that this list of scans could be generate with this pose (x,y,theta).</li>
+              <li>You could do this by calculating the probability of each individual scan and multiplying them together.</li>
+              <li>The probability of each individual scan could be a gaussian with a mean given by &quot;scanDistance&quot;</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li>Write a motion model which given a position and an estimated motion returns a new position
+        <ol>
+          <li>(x,y,t) motionModel(x,y,t,dx,dy,dt)
+            <ol>
+              <li>This would simple be adding if dx, and dy weren't estimates. So instead of adding, this should return a randomly generated new pose (x,y,theta) which is &quot;close&quot; to (x+dx, y+dy,t+dt). I don't know the real error parameters of the robot so you'll have to guess here as to what form &quot;random&quot; takes. (gaussian?) </li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li>Write a class/object/data structure which represents the state (aka a particle)
+        <ol>
+          <li>A state is a robot's pose (x,y,theta)   and the particle's weight. </li>
+        </ol>
+      </li>
+      <li>Write a function that visualizes the current probability distribution
+        <ol>
+          <li>Displays the map and overlays the collection of particles.</li>
+        </ol>
+      </li>
+    </ol></li>
+  
+    <li>Put it all together    </li>
+    <ol>
+      <ol>
+        <li>Generate a collection of particles randomly.</li>
+        <li>Loop Forever
+          <ol>
+            <li>Visualize the state</li>
+            <li>Get all the new ODOM (odometry) observations up to the next LASER observation
+              <ol>
+                  <li>Combine them into one odometry observation </li>
+              </ol>
+            </li>
+            <li>Move your particles, using your motion model and the combined odometry observation. </li>
+            <li>Get a new LASER observation            </li>
+            <li>Reweight all your recently moved particles using the sensor model    and the LASER observation</li>
+            <li>Resample with replacement the particles to create a new particle set based on the weights after the LASER observation.</li>
+          </ol>
+        </li>
+      </ol>
+    </ol>
+    <li>Capture a sequence of still frames. Combine them into an animation. Turn the animation into Don with any necessary explanation. (djp3@ics.uci.edu). </li>
+  </ol>
+</div>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

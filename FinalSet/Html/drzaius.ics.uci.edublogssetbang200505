@@ -1,0 +1,1524 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="sixapart-standard">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="generator" content="Movable Type 3.2" />
+
+   <link rel="stylesheet" href="http://drzaius.ics.uci.edu/blogs/setbang/styles-site.css" type="text/css" />
+   <link rel="alternate" type="application/atom+xml" title="Atom" href="http://drzaius.ics.uci.edu/blogs/setbang/atom.xml" />
+   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://drzaius.ics.uci.edu/blogs/setbang/index.xml" />
+
+   <title>::setbang::: May 2005 Archives</title>
+
+   <link rel="start" href="http://drzaius.ics.uci.edu/blogs/setbang/" title="Home" />
+   <link rel="prev" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/04/" title="April 2005" />
+   <link rel="next" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/06/" title="June 2005" />
+</head>
+<body>
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=683161; 
+var sc_partition=5; 
+var sc_security="b4540abb"; 
+var sc_invisible=1; 
+</script>
+
+<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c6.statcounter.com/counter.php?sc_project=683161&amp;java=0&amp;security=b4540abb&amp;invisible=1" alt="hit counter" border="0"></a> </noscript>
+<!-- End of StatCounter Code -->
+
+<img src="http://www.ics.uci.edu/~johannab/images/background.gif">
+
+<div class="tiny-blocks" id="tiny-blocks">
+<img src="http://www.ics.uci.edu/~johannab/images/tiny-blocks.gif">
+</div>
+
+<a href="http://www.ics.uci.edu/~johannab/about-me.html" id="menu_01"><img src="http://www.ics.uci.edu/~johannab/images/menu_01.gif" width="87" height="19" border=0></a>
+<span id="menu_02"><img src="http://www.ics.uci.edu/~johannab/images/menu_02.gif" width="15" height="19"></span>
+<a href="http://drzaius.ics.uci.edu/blogs/setbang/" id="menu_03"><img src="http://www.ics.uci.edu/~johannab/images/menu_03.gif" width="48" height="19" border=0></a>
+<span id="menu_04"><img src="http://www.ics.uci.edu/~johannab/images/menu_04.gif" width="16" height="19"></span>
+<a href="http://www.ics.uci.edu/~johannab/research.html" id="menu_05"><img src="http://www.ics.uci.edu/~johannab/images/menu_05.gif" width="84" height="19" border=0></a>
+<span id="menu_06"><img src="http://www.ics.uci.edu/~johannab/images/menu_06.gif" width="15" height="19"></span>
+<a href="http://www.ics.uci.edu/~johannab/papers.html" id="menu_07"><img src="http://www.ics.uci.edu/~johannab/images/menu_07.gif" width="68" height="19" border=0></a>
+<span id="menu_08"><img src="http://www.ics.uci.edu/~johannab/images/menu_08.gif" width="16" height="19"></span>
+<a href="http://www.ics.uci.edu/~johannab/the-rest.html" id="menu_09"><img src="http://www.ics.uci.edu/~johannab/images/menu_09.gif" width="76" height="19" border=0></a>
+
+
+<a href="http://www.ics.uci.edu/~johannab/about-me.html" id="menu-green_01"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_01.gif" width="87" height="19" border=0></a>
+
+<a href="http://drzaius.ics.uci.edu/blogs/setbang/" id="menu-green_03"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_03.gif" width="48" height="19" border=0></a>
+<a href="http://www.ics.uci.edu/~johannab/research.html" id="menu-green_05"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_05.gif" width="84" height="19" border=0></a>
+<a href="http://www.ics.uci.edu/~johannab/papers.html" id="menu-green_07"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_07.gif" width="68" height="19" border=0></a>
+<a href="http://www.ics.uci.edu/~johannab/the-rest.html" id="menu-green_09"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_09.gif" width="76" height="19" border=0></a>
+
+<div class="sidebar">
+<div class="search">
+<br>
+<form method="get" action="http://drzaius.ics.uci.edu/mt/mt-search.cgi">
+<input type="hidden" name="IncludeBlogs" value="2" />
+<input id="search" name="search" size="20"/><br />
+<input type="submit" value="search me" />
+</form>
+</div>
+
+<p>&nbsp;</p>
+
+<div class="archive">
+<h3 class="content"><a href="http://drzaius.ics.uci.edu/blogs/setbang/archives.html">archives</a></h3>
+<ul>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2008/01/">January 2008</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2007/06/">June 2007</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2007/05/">May 2007</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2007/04/">April 2007</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/10/">October 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/09/">September 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/07/">July 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/06/">June 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/05/">May 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/04/">April 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/">November 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/10/">October 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/08/">August 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/">July 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/06/">June 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/">May 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/04/">April 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/03/">March 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/">February 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/01/">January 2005</a></li>
+
+</ul>
+</div>
+
+<p>&nbsp;</p>
+
+<div class="categories">
+<h3 class="content">categories</h3>
+<ul class="module-list">
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/aesthetics_art/" title="">aesthetics & art</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/gadgets/" title="">gadgets</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/interfaces_installations/" title="">interfaces & installations</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/lit_poetry/" title="">lit & poetry</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/music/" title="">music</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/my_enthralling_life/" title="">my enthralling life</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/noteworthy_nontech/" title="">noteworthy: nontech</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/noteworthy_tech/" title="">noteworthy: tech</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/wearble_tech/" title="">wearble tech</a>
+
+
+
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<span class="main">
+
+   <div id="container">
+      <div id="container-inner" class="pkg">
+
+
+         <div id="pagebody">
+            <div id="pagebody-inner" class="pkg">
+               <div id="alpha">
+                  <div id="alpha-inner" class="pkg">
+                     
+                     <p class="content">
+                        <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/04/">&laquo; April 2005</a> |
+                        <a href="http://drzaius.ics.uci.edu/blogs/setbang/">Main</a>
+                        | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/06/">June 2005 &raquo;</a>
+                     </p>
+                     
+                                          
+
+                     <h3 class="content">May 31, 2005</h3>
+                     <a id="a000173"></a>
+                     <div class="content" id="entry-173">
+                        <h3 class="content">pope benedict is up in your gametes</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>pope benedict is getting behind a boycott of a referendum to discuss medically assisted fertility.<blockquote>The referendum seeks to overturn key provisions in a law passed here last year that is the most restrictive on medically assisted fertility in Europe. The current law bans donations of sperm and eggs, defines life as beginning at conception, and allows fertility treatment only to married heterosexual couples.</blockquote>the article then drags in the hot-button terri schiavo case, as if there really is some comparison.  apparently the church believes in the right to life... er, unless of course you are a single mother, or a gay couple.  or what if your husband put his sperm in the bank and then died?  what then benedict?</p>
+
+<p>[thanks <a href="http://www.nytimes.com/2005/05/31/international/europe/31italy.html?ex=1275192000&en=43345a75d97f4f7a&ei=5088&partner=rssnyt&emc=rss">new york times</a>]</p>
+                                                            <p>May 31, 2005<br />
+In Political Step, Pope Confronts Law on Fertility<br />
+By IAN FISHER and ELISABETTA POVOLEDO</p>
+
+<p>ROME, May 30 - Pope Benedict XVI waded gingerly into Italian politics on Monday for his first time, endorsing a call by Italian bishops for a boycott of a contentious referendum on medically assisted fertility.</p>
+
+<p>The referendum seeks to overturn key provisions in a law passed here last year that is the most restrictive on medically assisted fertility in Europe. The current law bans donations of sperm and eggs, defines life as beginning at conception, and allows fertility treatment only to married heterosexual couples.</p>
+
+<p>The effort to roll back many of those provisions is shaping up as an important battleground for the Roman Catholic Church, energized by a new pope with strong views on social issues. The Radical Party gathered more than a million signatures to force the referendum. Since then, the fight has raged for weeks in pulpits and in the press, with posters in the streets, advertisements on television and pamphlets in churches.</p>
+
+<p>In his comments on Monday, Benedict raised the temperature a decisive degree by backing the strategy of Italian bishops, who have encouraged Italians to shun the referendum on June 12-13 in the hope of keeping the turnout under 50 percent, which would in effect preserve the law.</p>
+
+<p>Many in Italy, which is overwhelmingly Catholic, support the law and the church's engagement to protect it. But others worry that the church is making a disturbing intrusion into politics.</p>
+
+<p>"You are committed to illuminate the choice of Catholics and of all citizens in the imminent referendum on assisted procreation," the pope told Italian bishops at a conference at the Vatican.</p>
+
+<p>While Benedict did not address the referendum in detail, his willingness to step into the fray seemed to show that he would continue the activist stance of his predecessor, John Paul II, on issues important to the church.</p>
+
+<p>As Cardinal Joseph Ratzinger and in his six weeks as pope, he has spoken often about the church's strong advocacy of preserving human life, particularly the unborn, and about the need for the church to take a more muscular stance against secularism. Those issues are central to the referendum.</p>
+
+<p>"The question is tied very much to what happened in Spain, which was seen as another moment of this challenge," said Sandro Magister, an expert on the Vatican who is generally supportive of Benedict.</p>
+
+<p>He referred to a recent bill in Spain allowing gay marriage that Catholics have loudly protested. Earlier this month, Benedict wrote a letter to Spanish bishops saying, "The transmission of the faith and religious practices cannot remain confined to the purely private sphere."</p>
+
+<p>Mr. Magister, who writes for the weekly L'Espresso, also noted the church's rallying in defense of Terri Schiavo, the brain-damaged Florida woman who died in March after her husband won a long battle to detach her feeding tube. "The fact that these battles are fought over real-life cases shows the centrality of these themes, and on these themes the church hierarchy has decided to energetically commit itself to reawaken the church," he said.</p>
+
+<p>In Italy, the church and activist Catholics sense a good chance to win the referendum fight, saying they feel invigorated in a way that was not the case when intensive church lobbying failed to prevent divorce and abortion from becoming legal here in the 1970's and 80's.</p>
+
+<p>The reasons seem some complex combination: the global attention and momentum generated by the papal transition, the willingness of Catholics here and elsewhere to speak out on issues like the Schiavo case, and a sense that religion in general and Catholics in particular are under siege and that the faithful need to take a strong stand.</p>
+
+<p>"The debate has been reawakened," said Luisa Santolini, a member of the executive board of Science and Life, an umbrella organization for groups that want to keep in place Italy's new and restrictive fertility law. "What's happened now is that the Roman Catholic world is united."</p>
+
+<p>While Ms. Santolini and church supporters deny it, opponents say the church is aiming at something more fundamental: repealing Italy's abortion law, which was the subject of a hard-fought referendum in 1981. A key section of the new fertility law defines life as beginning at conception - an idea that opponents say opens the door, by definition, to repealing the abortion law.</p>
+
+<p>"If an embryo is already a human being, then of course you cannot commit abortion," said Giovanni Sartori, a retired Columbia University professor and a political columnist in Italy. "So it's the beginning of a long fight."</p>
+
+<p>At a minimum, the fight over the referendum has tied politics here into an exquisitely baroque knot. Many top politicians are avoiding a firm stand, for fear of angering the many voters guided by the church or the generally secular but often disengaged public.</p>
+
+<p>The foreign minister, Gianfranco Fini, is an exception. He has advocated repealing parts of the law, prompting an open rebellion in his own party.</p>
+
+<p>As is often the case here, the issues, strategies and processes are all complicated. But the starting point is the law on medically assisted fertility passed early last year, under heavy lobbying from the Vatican and Pope John Paul II.</p>
+
+<p>To combat the law - which opponents say has sent a stream of couples to fertility clinics elsewhere - the referendum would repeal crucial sections: those that define life as beginning at conception, ban donated sperm and eggs and surrogate parenthood, prohibit all research involving human embryos, and require for couples seeking in vitro fertilization that no more than three eggs may be fertilized at a time and that they must be implanted in the uterus together.</p>
+
+<p>Church officials, starting with Cardinal Camillo Ruini, the vicar of Rome and a close aide to Benedict, are urging Italians to boycott the referendum because any referendum that does not attract 50 percent of voters automatically fails. Therefore, critics argue, the referendum will be decided less on a discussion of the issues than on a legal quirk.</p>
+
+<p>Several polls show that Italian voters largely support repealing the sections in question, but also that less than 50 percent will vote.</p>
+
+<p>"How can you say this is the great threat of the 21st century, it's a question of life and death - and then tell people to go to the beach?" asked Daniele Capezzone, secretary general of the Radical Party.</p>
+
+<p>The church and its supporters disagree: The church, they say, has a right to try to influence laws, and to win the fight. "Abstention is a strategy, not an escape route," said Bishop Giuseppe Anfossi of Aosta, in northwest Italy, who has been urging people not to vote in the referendum.</p>
+
+<p>But the referendum has stirred up many conflicting emotions, even among committed Catholics.</p>
+
+<p>A bank employee in Milan who says he is a churchgoer estimates that he and his partner have spent $20,000 trying to get her pregnant after a tumor left him sterile. The man, who asked that only his first name, Paolo, be used, said they had been forced to go to Greece, spending about $3,750 plus expenses, because the Italian law bans both the use of donated sperm and fertility treatments for unmarried couples.</p>
+
+<p>While he said he supported parts of the law, he has been disturbed by what he sees as excessive pressure from the church.</p>
+
+<p>"I was at a confirmation Mass recently, and at the end the priest urged people to abstain from the vote, and outside there were people handing out pamphlets," he said. "It's very invasive, it's become very political. Even though I'm Catholic, I've become very angry with the church. I think it's important to give people a choice."</p>
+
+<p>The risk for the church, some experts say, is that it could appear even less relevant, for all the effort it is expending, if the referendum passes. But Mr. Magister, the writer on the Vatican, said the church would probably see the fight as an important stand at a vital time.</p>
+
+<p>"Should they lose, it won't be a drama because they have already billed this as a battle that will take a century to fight, and it won't end here," he said. "The capital importance of the referendum is that it's a small skirmish in a battle that's continuing."</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:32 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/pope_benedict_is_up_in_your_ga.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/pope_benedict_is_up_in_your_ga.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000172"></a>
+                     <div class="content" id="entry-172">
+                        <h3 class="content">link roundup</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>i've been slow with blogging lately cause of the mad rush with my project.  so here are a few links:<ul><li><a href="http://www.papierpixel.de/indexeng.html">paper pixels</a>: punchcards for light display.<br />
+<li><a href="http://jee.manme.org.uk/gori/intro.php">GORI.node garden</a>: tangible social/privitized networking.<br />
+<li><a href="http://www.sensacell.com/">sensacell</a>light emitting sensing modules.<br />
+<li><a href="http://www.physorg.com/news4158.html>panasonic's tiny low-power bi-directional wireless module</a>: coin-sized wifi fun.<br />
+<li><a href="http://www.cyberniklas.de/objekte/grafikdemo.htm">grafikdemo</a>: real spinning teapot jammed into an old commodore.<br />
+<li><a href="http://www.siberart.com/home%20pages/home.html">the untitled project</a>: photos with all textual traces removed<br />
+<li><a href="http://www.index2005.dk/Members/shisyku/bodyObject#">project unplugged</a>: solar cell silkscreened onto transparent organza.</ul></p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:51 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/link_roundup.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/link_roundup.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000171"></a>
+                     <div class="content" id="entry-171">
+                        <h3 class="content">ambient dashboard widgets?</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>there has been a bunch of talk on the interweb about designing ambient display widgets for the mac os x dashboard. the <a href="http://stephan.com/widgets/locket/">locket</a> displays the online status of a single buddy on iChat, open if your buddy is online, closed otherwise.  clicking the locket starts up a conversation.  <a href="http://www.heyotwell.com/heyblog/archives/2005/05/pileup_a_trashy_1.html">pileup</a> is a visualization of how much trash is rotting away in your trash can, each file is represented by a photo of some refuse, displaying a maximum of 10 pieces.  <a href="http://stephan.com/widgets/flores/">flores</a> is a vase with up to four flowers, each one indicating a new message in the inbox of your gmail or apple mail.  finally <a href="http://www.anti-mega.com/antimega/archives/001218.html">anti-mega</a> has has set about trying to copy some physical ambient displays, including the ambient dashboard, and web are you.</p>
+
+<p>great.  just a few things...</p>
+
+<p>first, aren't we trying to get computation <i>off</i> the desktop?  there is the argument that the dashboard and cocoa provide a quick way to get your ambient display up and running and then you can throw it on that spare powerbook you have [btw, since you aren't using that...do you think you might loan it to me? thanks].  okay fine, that is useful for prototyping, but does not an ambient display make.  second, the amount of email in my inbox, the online status of my friend and the number of things in my trashcan are already [surprise!] displayed on my desktop!  hitting F12 everytime i want to get a little ambient display action seems a bit... wrong.  although these widgets are kinda cool, and there's some benefits to be had, i think people are missing the mark on what an ambient display really is.  bummer.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:28 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/ambient_dashboard_widgets.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/ambient_dashboard_widgets.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000170"></a>
+                     <div class="content" id="entry-170">
+                        <h3 class="content">dream recorder</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="dreamrecorder.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/dreamrecorder.jpg" width="280" height="213" /></p>
+
+<p>the <a href=http://a.parsons.edu/~maria/blogs/wireless/2005/05/dream-recorder_27.html">dream recorder</a> by maria paula villamil.  it is an emotion-responsive <br />
+system comprised of a glove with embedded sensors that monitor both the heart and sweat glands. designed to be worn during sleep [can i fill it with cream to get oh so perfect skin while i'm at it?], the glove captures "hypnograms", 3D drawings the user can use to interpret his/her dreams.  it even features a nightmare alert, which apparently along with the hypnograms are set for improvement.  so basically if i used this [that is, if i could fall asleep] i would either be woken up or get some freakish art in the morning.</p>
+
+<p>but it would be cool to see it paired up with the <a href="http://people.interaction-ivrea.it/j.tichenor/stuffer/dreamementos/dreamkeeper01.html">dream keeper</a> which makes tangible representations of your dreams.</p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/005819.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:01 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/dream_recorder.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/dream_recorder.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 30, 2005</h3>
+                     <a id="a000169"></a>
+                     <div class="content" id="entry-169">
+                        <h3 class="content">lumiloop</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="lumiloop.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/lumiloop.jpg" width="249" height="279" /></p>
+
+<p><a href="http://www.mintymonkey.com/lumiloop_p1.html">lumiloop</a> is a bracelet from <a href="http://www.mintymonkey.com/">elise co</a> and  <a href="http://acg.media.mit.edu/people/nik/">nikita pashenkov</a>.<blockquote>Lumiloop is a modular system of program and display panels that can be chained together to form a reactive bracelet. Each display module features a small 8x8 LED matrix, dynamically driven by an interchangeable program module. The program modules holds different display programs and include varying sensors for the bracelet to respond to. A program module with an accelerometer interprets gestural motions of the wrist and generates illuminated patterns in response.</blockquote></p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/005750.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 11:46 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/lumiloop.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/lumiloop.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000168"></a>
+                     <div class="content" id="entry-168">
+                        <h3 class="content">infotropism</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="infotropism.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/infotropism.jpg" width="240" height="280" /></p>
+
+<p><a href="http://www.maffee.com/projects/infotropism/infotropism.htm">infotropism</a> is a project which was presented at DIS 2004.  the system uses the properties of phototropism to turn a plant into a living display.  lights are wired to a recycling bin and a trash bin on either side of the plant.  every time something is placed in a bin, the corresponding lamp emits a burst of light.  thus, the plant acts as a display of human consumption patterns.  pretty cool huh?</p>
+
+<p>[thanks <a href="http://infosthetics.com/archives/2005/05/infotropism.html">information aesthetics</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 11:34 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/infotropism.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/infotropism.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 26, 2005</h3>
+                     <a id="a000167"></a>
+                     <div class="content" id="entry-167">
+                        <h3 class="content">romance novel covers remixed</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="cover_laughing.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/cover_laughing.jpg" width="250" height="400" /> <img alt="cover_lesbian.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/cover_lesbian.jpg" width="250" height="400" /></p>
+
+<p><img alt="cover_spaceship.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/cover_spaceship.jpg" width="250" height="400" /> <img alt="cover_kangaroo.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/cover_kangaroo.jpg" width="250" height="400" /></p>
+
+<p><br />
+these are so funny they speak for themselves.  check out more <a href="http://www.worldoflongmire.com/features/romance_novels/readers_covers.htm">here</a>.</p>
+
+<p>[thanks <a href="http://www.boingboing.net/2005/05/25/romance_novel_cover_.html">boing boing</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 11:35 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/romance_novel_covers_remixed.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/romance_novel_covers_remixed.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000166"></a>
+                     <div class="content" id="entry-166">
+                        <h3 class="content">iMuffs...</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/imuffs.png" width="250" height="143"></p>
+
+<p>finally some musical muffs you can wear on your ears! or something.  i s**t you not, the iMuffs are a new bluetooth headphone designed to shame any socially awkward person who is clueless enough to buy them.  please, don't make me explain again...</p>
+
+<p>[thanks <a href="http://www.gizmodo.com/gadgets/wireless/bluetooth/imuffs-bluetooth-earphones-104955.php">gizmodo</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 11:28 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/imuffs.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/imuffs.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000165"></a>
+                     <div class="content" id="entry-165">
+                        <h3 class="content">brand new tatanka</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/tatanka.jpg" width="200" height="149"></p>
+
+<p>a baby white bison was recently born in british columbia [canada].  he was born on a bison ranch and according to the <a href="http://vancouver.cbc.ca/regional/servlet/View?filename=bc_bison20050524">story</a>:<blockquote>"This guy is a little different. He won't be going into bison burgers."</blockquote>well that's completely gross, but anyway.  white bison are pretty rare, and are a sacred symbol among my peeps [native americans, that is] who call them "tatanka".</p>
+
+<p>[thanks <a href="http://www.boingboing.net/2005/05/25/white_bison_born_in_.html">boing boing</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 09:12 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/brand_new_tatanka.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/brand_new_tatanka.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 23, 2005</h3>
+                     <a id="a000164"></a>
+                     <div class="content" id="entry-164">
+                        <h3 class="content">embracing the golden state</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>for those of you who don't know [shame on you], i have decided to stay at UCI to finish my PhD.  i had to fill out a form online proving that i was a resident; they wanted to know about where i'd been earning my money, filing my taxes, getting my education and so on.  but then, they took away my last shred of east coast dignity and made me assert the following:<blockquote>I have considered California to be my permanent home.</blockquote>i feel so dirty. somebody hold me.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 07:12 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/embracing_the_golden_state.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/embracing_the_golden_state.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 17, 2005</h3>
+                     <a id="a000163"></a>
+                     <div class="content" id="entry-163">
+                        <h3 class="content">tele-pet your chicken</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/haptic_chicken.jpg" width="200" height="150"> <img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/haptic_chicken2.jpg" width="200" height="150"></p>
+
+<p>have you ever felt that longing of not being able to connect with your chicken while on vacation?  me too.  apparently it's not just us, the <a href="http://www.mixedrealitylab.org/">mixed reality lab</a> at the national university of singapore has faced similar pains.</p>
+
+<p>on your desk sits a replica of your beloved, mimicing his or her actions when it is turned on.  tactile sensors in the doll allow your touch to be communicated via RF and then the internet to a <i>haptic jacket that your remote chicken is wearing</i>.<blockquote>"This is the first human-poultry interaction system ever developed," said professor Adrian David Cheok, the leader of the team, who has been developing the technology for nearly two years.</p>
+
+<p>"We understand the perceived eccentricity of developing a system for humans to interact with poultry remotely, but this work has a much wider significance," he added.</blockquote>but there are some more serious applica... oh i give up: BWAHAHAHAHAHA.</p>
+
+<p>[thanks <a href="http://www.wired.com/news/technology/0,1282,67513,00.html">wired</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:24 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/telepet_your_chicken.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/telepet_your_chicken.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 16, 2005</h3>
+                     <a id="a000162"></a>
+                     <div class="content" id="entry-162">
+                        <h3 class="content">the WEF gives the lowdown on the "gender gap"</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>the <a href="http://news.bbc.co.uk/1/hi/business/4550789.stm">bbc reports</a> that the world economic forum has done a survey of the "gender gap" in various nations. the five criteria were: economic participation, economic opportunity, political empowerment, educational attainment, and health and well-being.  not so surprisingly the u.s. left something to be desired, coming in a poor 17th.  let freedom ring! [er...sort of]. the scandinavian countries topped the list, followed by non-american english speaking nations, germany, france, the netherlands, and the baltic republics.  greece and italy are the worst EU countries, sorry ladies, at least you can work on your tans...  check out the full report <a href="http://news.bbc.co.uk/1/shared/bsp/hi/pdfs/16_05_05_gender_gap.pdf">here</a>.</p>
+
+<p>[thanks <a href="http://cs-people.bu.edu/inki/">inki</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 10:14 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/the_wef_gives_the_lowdown_on_t.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/the_wef_gives_the_lowdown_on_t.html#comments">Comments (2)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000161"></a>
+                     <div class="content" id="entry-161">
+                        <h3 class="content">sparks</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/sparks.jpg" width="180" height="272"></p>
+
+<p><a href="http://tangible.media.mit.edu/papers/Sparks_CHI05.php">sparks</a> is an ambient social networking/communication interface from mit's media lab.  apparently it was at chi 2005 as a poster, but of course i managed to miss it.<blockquote>Sparks uses light to facilitate salient conversations by linking strangers with similar interests together in scenarios where the participants likely have many common interests, but little knowledge of those shared interest.</p>
+
+<p>Before entering the Sparks environment, each user pre–selects a number of interests from a pool of keywords that cover a wide variety of areas.  This selection represents the public face that the user wishes to present to others.  Within the environment, Sparks projects the keywords in an aura around the user. </p>
+
+<p>To help guide distant users with similar interests together, the common descriptors on their respective auras are connected by illuminated paths. Users can also interact with the paths by sending pulses along them to signal others with a shared interest. To send a pulse, users simply tap the interest projected within their aura.  When the pulse reaches the recipient, a glow appears on the corresponding word.</blockquote>it is a little bit of a pain to have to register one's interests manually, but you have to start somewhere.  it is a really appropriately designed interface [i.e. site-specific].  they propose using it at a conference and i think that's spot on.</p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/005716.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 08:05 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/sparks.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/sparks.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000160"></a>
+                     <div class="content" id="entry-160">
+                        <h3 class="content">grad hat mod</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/grad-hat.jpg" width="185" height="139"></p>
+
+<p><a href="http://filebox.vt.edu/users/akemp/Portfolio/had/">this kid</a> modded out his graduation cap.  check out the <a href="http://filebox.vt.edu/users/akemp/Portfolio/had/AV/HatSpin.MPG">video</a>. hah.</p>
+
+<p>[thanks <a href="http://www.gizmodo.com/gadgets/gadgets/clothing/diy-spinning-mortarboard-103618.php">gizmodo</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 07:54 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/grad_hat_mod.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/grad_hat_mod.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000159"></a>
+                     <div class="content" id="entry-159">
+                        <h3 class="content">LED table</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/led_table.jpg" width="350" height="160"></p>
+
+<p><a href="http://www.ingo-maurer.com/">ingo maurer</a> designed this really flash LED table:<blockquote>278 white LEDs per table top, emitting light on both sides. 230/125 volts, 48 volts DC. Invisible Live Parts. There are tiny transparent wires embedded between the 2 sheets of glass, connecting the LEDs. The lights can be dimmed and even turned off if you suddenly want your LED table to look like a regular glass table again.</blockquote>so who wants to buy me one of these and let me augment it into a really hot interface?  anyone?</p>
+
+<p>[thanks <a href="http://www.engadget.com/entry/1234000223043454/">engadget</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 07:38 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/led_table.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/led_table.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000158"></a>
+                     <div class="content" id="entry-158">
+                        <h3 class="content">bright handle</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/brighthandle.jpg" width="340" height="71"></p>
+
+<p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/brighthandle2.jpg" width="340" height="371"></p>
+
+<p><i><a href="http://brighthandle.com/">Brighthandle</a> is committed to bring change to the handle industry.</i> that's both hilarious and true.  check out this new handle from some swedish designers [yes yes, swedish design rules, but we all knew <i>that</i> didn't we?].  it glows red when the door is locked and green when it's not.  simple, but a really good example of a properly augmented environment.</p>
+
+<p>[thanks <a href="http://www.engadget.com/entry/1234000860043398/">engadget</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 07:06 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/bright_handle.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/bright_handle.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000157"></a>
+                     <div class="content" id="entry-157">
+                        <h3 class="content">monday music: girl nobody</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/girlnobody.jpg" width="400" height="300"></p>
+
+<p><a href="http://www.girlnobody.com/">girl nobody</a> hails from the 51st state, canada [that was meant to be bitterly ironic. laugh with me], more specifically, from vancouver.  they're sporting a sort of wistful electro-pop sound, thanks in great part to the voice of the lead singer marta jaciubek and of course to the theremin, moog and ring modulator they've got going.  i first heard of them when i saw marta doing a bit part on tv, and after some googling i ended up buying their album [yes, actually purchasing!].  they tour around canada and have even played some shows in england, but chances are you haven't heard of them yet.  now you have, and so there's no excuses. check out these tracks from their debut album "the future isn't what it used to be".<ul><li>girl nobody: aliens <a href="http://www.ics.uci.edu/~johannab/monday.music/Girl%20Nobody%20-%20Aliens.mp3">[mp3]</a><br />
+<li>girl nobody: careful what you say <a href="http://www.ics.uci.edu/~johannab/monday.music/Girl%20Nobody%20-%20Careful%20What%20You%20Say.mp3">[mp3]</a><br />
+<li>girl nobody: smile and beware <a href="http://www.ics.uci.edu/~johannab/monday.music/Girl%20Nobody%20-%20Smile%20and%20Beware.mp3">[mp3]</a><br />
+<li>girl nobody: why am i alone? [delikate impostor remix] <a href="http://www.ics.uci.edu/~johannab/monday.music/Girl%20Nobody%20-%20Why%20Am%20I%20Alone%20(Delikate%20Impostor%20Remix).mp3">[mp3]</a></ul></p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:47 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/monday_music_girl_nobody.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/monday_music_girl_nobody.html#comments">Comments (1)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 12, 2005</h3>
+                     <a id="a000156"></a>
+                     <div class="content" id="entry-156">
+                        <h3 class="content">rob seward's games</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/tag.gif" width="71" height="123"></p>
+
+<p><a href="http://robseward.com/">rob seward</a> has posted two games [or game prototypes] to his blog.  the first game, <a href="http://stage.itp.nyu.edu/~rus200/blog/archives/2005/05/tag_documentati_1.html#more">TAG!</a> is:<blockquote>a game played via custom wireless consoles. The game logic is just like the children’s game. Here, however, each person is represented by a dot on screen, you are green and your enemies are red, and whoever is “it” is blinking.</p>
+
+<p>The electronic components are very inexpensive. Of particular interest is the screen, which is a bi-color 5x7 LED matrix (normally used for alphanumeric display), which costs only a few dollars. This project started as an exploration of the interactive possibilities of these small screens. Currently we have allowed for three players, but the project could be scaled to more.</p>
+
+<p>This game has many possible applications. In this version, we imagine the consoles being integrated into chairs in the waiting rooms of a children’s hospital. They would invite casual human-human interaction in a space where it might not otherwise exist.</blockquote>and the second <a href="http://stage.itp.nyu.edu/~rus200/blog/archives/2005/02/boo_game_docume.html">BOO!</a> is a game where:<blockquote>The object is to get the fastest time possible when responding to a “Boo” sent by your opponent. When you are on defense, a light (triggered by the button on your opponent’s console) will light up and you must press your button as soon as you can. Then you are on offense and when you press your button your opponent’s Boo light lights and he has to respond. Then response times are compared and the round’s winner is determined. After 5 rounds have been played, the game is over. The game is played on two identical consoles connected via the internet.</blockquote>as you know i believe that for a human-to-human interface to really work it needs to be flexible enough to allow people to interact "through" the technology, and i think light-weighht games [and of course, toys] have huge potential for this.  nice work.</p>
+
+<p>[thanks <a href="http://www.collisiondetection.net/mt/archives/2005/05/i_love_minimali.html#001218">collision detection</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 07:28 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/rob_sewards_games.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/rob_sewards_games.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000155"></a>
+                     <div class="content" id="entry-155">
+                        <h3 class="content">omnivisu</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/omnivisu1.jpg" width="200" height="133"> <img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/omnivisu2.jpg" width="177" height="133"> <img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/omnivisu3.jpg" width="182" height="133"></p>
+
+<p><a href="http://www.designberuehrtherz.de/projects.php?stud=22&proj=3&img=1&lang=en">omnivisu</a>  [see also <a href="http://www.digital.udk-berlin.de/~willy/portfolio/website/projects.php?cat=2&proj=5&img=0&lang=en">here</a>] is an installation by willy sengewald and richard the that ran at the s/u station warschauer str. in berlin.<blockquote>A kind of street–art that anybody can influence and use playfully. While one is looking into a showcase, his eyes are seen on the big video projection area at the tower. The »big brother« gets a face with the mood of the user.</blockquote>but what's up with those bales of hay in the middle photo?</p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/005669.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 03:12 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/omnivisu.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/omnivisu.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000154"></a>
+                     <div class="content" id="entry-154">
+                        <h3 class="content">war of monstars</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/KoadznVsOgi.jpg" width="394" height="250"></p>
+
+<p>i'll be honest, i am not cool enough to have any idea what this is really, but it's too awesome to pass up.  apparently it is from the <a href="http://koadzn.free.fr/warz.html">war of monstars</a>, in which koadzn [seen at the left, breathing some fire] is battling it out with scythe-wielding ogi.  koadzn [the illustrator, not the monster] throws down the gauntlet [i.e. draws something], to challenge one of 80 illustrators, and the kaiju begins!</p>
+
+<p>[thanks <a href="http://www.coolhunting.com/archives/2005/05/war_of_monsters.php?rss">cool hunting</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:50 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/war_of_monstars.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/war_of_monstars.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000153"></a>
+                     <div class="content" id="entry-153">
+                        <h3 class="content">nike: stand up you passive consumers!</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/nike-billboard.jpg" width="169" height="250"></p>
+
+<p>nike has put up a ginormous/hugantic interactive billboard in times square [nyc, yo].  interactive how you ask?  using SMS [to an actual number, not a code] you can design, and subsequently buy, a pair of shoes for all the world to see. customizing products is not new, but perhaps when it gets combined with public performance there will be more pressure [ahem: incentive] to buy, "hey didn't i see those shoes in times square??? when they were 23 stories high? you are so cool!"  </p>
+
+<p>according to the <a href="http://infosthetics.com/archives/2005/05/nike_interactiv.html">ny post</a>:<blockquote> A customer can take a basic pair of shoes and dress them up, choosing among hundreds of colors and adding embroidered words. Nike does maintain some control, though; customers can't remove the "swoosh" or get cute by printing "Reebok" or "Swtshop" on the shoes.</blockquote>heh.</p>
+
+<p>[thanks <a href="http://infosthetics.com/archives/2005/05/nike_interactiv.html">information aesthetics</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:23 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/nike_stand_up_you_passive_cons.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/nike_stand_up_you_passive_cons.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 11, 2005</h3>
+                     <a id="a000152"></a>
+                     <div class="content" id="entry-152">
+                        <h3 class="content">iNun shuffle?</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/nunpod.jpg" width="400" height="390"></p>
+
+<p>apparently spotted at the prat show 2005.  now you can pray the rosary <i>and</i> bring the funk.</p>
+
+<p>[thanks <a href="http://www.gizmodo.com/gadgets/portable-media/ipod/ipod-shuffle-crucifix-103055.php">gizmodo</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:12 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/inun_shuffle.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/inun_shuffle.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 09, 2005</h3>
+                     <a id="a000151"></a>
+                     <div class="content" id="entry-151">
+                        <h3 class="content">monday music: carmen consoli</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/carmen.jpg" width="288" height="290"></p>
+
+<p>i first heard of carmen consoli when she released the single "l'ultimo bacio" which coincided with the movie of the same title.  in any case, i liked the little that i heard, but never got round to really getting into her.  but recently i aquired all her albums and sat down for a marathon listen.  because you are too busy for marathons, you can check out the following tracks. do you see how much i love you?</p>
+
+<ul><li>carmen consoli: amado mio <a href="http://www.ics.uci.edu/~johannab/monday.music/Carmen%20Consoli%20-%20Amado%20Mio.mp3">[mp3]</a>
+<li>carmen consoli: in bianco e nero <a href="http://www.ics.uci.edu/~johannab/monday.music/Carmen%20Consoli%20-%20In%20Bianco%20E%20Nero.mp3">[mp3]</a>
+<li>carmen consoli: l'ultimo bacio <a href="http://www.ics.uci.edu/~johannab/monday.music/Carmen%20Consoli%20-%20L'%20Ultimo%20Bacio.mp3">[mp3]</a>
+<li>carmen consoli: orfeo <a href="http://www.ics.uci.edu/~johannab/monday.music/Carmen%20Consoli%20-%20Orfeo.mp3">[mp3]</a>
+<li>carmen consoli: quello che sento <a href="http://www.ics.uci.edu/~johannab/monday.music/Carmen%20Consoli%20-%20Quello%20Che%20Sento.mp3">[mp3]</a>
+<li>carmen consoli: wedding day <a href="http://www.ics.uci.edu/~johannab/monday.music/Carmen%20Consoli%20-%20Wedding%20Day.mp3">[mp3]</a></ul>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 06:44 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/monday_music_carmen_consoli.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/monday_music_carmen_consoli.html#comments">Comments (1)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000150"></a>
+                     <div class="content" id="entry-150">
+                        <h3 class="content">sky ear</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/skyear.jpg" width="220" height="141"></p>
+
+<p><a href="http://www.haque.co.uk/skyear.php">sky ear</a> was last launched september 15, 2004, but i managed not to hear about it til now.<blockquote>Sky Ear is a non-rigid carbon-fibre "cloud", embedded with one thousand glowing helium balloons and several dozen mobile phones. The balloons contain miniature sensor circuits that respond to electromagnetic fields, particularly those of mobile phones. When activated, the sensor circuits co-ordinate to cause ultra-bright coloured LEDs to illuminate. The 30m cloud glows and flickers brightly as it floats across the sky.</p>
+
+<p>As people using phones at ground-level call into the cloud (flying up to 100m above them) they are able to listen to distant natural electromagnetic sounds of the sky (including whistlers and spherics). Their mobile phone calls change the local hertzian topography; these disturbances in the electromagnetic fields inside the cloud alter the glow patterns of that part of the balloon cloud. Feedback within the sensor network creates ripples of light reminiscent of rumbling thunder and flashes of lightning.</blockquote>in the future these autonomous clouds will roam the sky!</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 05:57 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/sky_ear.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/sky_ear.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000149"></a>
+                     <div class="content" id="entry-149">
+                        <h3 class="content">a wireless color-shifting abstract decoration</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/hacked-orb.jpg" width="400" height="98"></p>
+
+<p>this is the best <a href="http://students.washington.edu/natetrue/wlcolor/wlcolor.html">spring break project</a> i've seen in ages. it's a haxxored version of the ambient orb, and has the information about color blending LEDs i've been looking for.</p>
+
+<p>[thanks <a href="http://www.hackaday.com/entry/1234000497041979/">hackaday</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 05:44 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/a_wireless_colorshifting_abstr.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/a_wireless_colorshifting_abstr.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000148"></a>
+                     <div class="content" id="entry-148">
+                        <h3 class="content">networked objects</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/networked-objects.jpg" width="400" height="200"></p>
+
+<p><a href="http://stage.itp.tsoa.nyu.edu/%7Emm1751/mt/04_networked/">two interfaces</a> from nyu's itp program. web are you? [on the left] is a 4-state indicator of emotion. the <a href="http://stage.itp.nyu.edu/~df785/netobjects/flowers/index.html">networked flowers</a> [on right] are described as:<blockquote>You give the Flower Bouquet to someone closely related to you, and from a remote place it's possible to have it display different light patterns by login onto a web page or a cell phone and sending the chosen pattern.</blockquote>now it is not that these distance-bridging interfaces are brand-spankin' new in concept, but i have to say that the execution on these is great. they are so good looking, and aesthetics <i>count</i>.</p>
+
+<p><br />
+[thanks <a href="http://infosthetics.com/archives/2005/05/networked_emoti.html">information aesthetics</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 05:20 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/networked_objects.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/networked_objects.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000147"></a>
+                     <div class="content" id="entry-147">
+                        <h3 class="content">usb bracelet</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/usb-bracelet.jpg" width="236" height="166"></p>
+
+<p>way funner than a usb key fob is the usb bracelet by <a href="http://www.michael-young.com/">michael young</a>. buy me one?</p>
+
+<p>[thanks <a href="http://www.gizmodo.com/gadgets/peripherals/input/michael-young-usb-bracelet-102731.php">gizmodo</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 05:13 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/usb_bracelet.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/usb_bracelet.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000146"></a>
+                     <div class="content" id="entry-146">
+                        <h3 class="content">chronicles of narnia trailer</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>the first chronicles of narnia <a href="http://progressive.stream.aol.com/aol/us/moviefone/movies/2005/chroniclesofnarniathelionthewitchandthewardrobethe_019417/chroniclesofnarniathelionthewitchandthewardrobethe_trlr_01_high_dl.mov">trailer</a> is now up.  i still love the old bbc version, but this looks promising.</p>
+
+<p>aslan is on the move.</p>
+
+<p>[thanks <a href="http://slashdot.org/article.pl?sid=05/05/08/1539229&from=rss">/.</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 05:02 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/chronicles_of_narnia_trailer.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/chronicles_of_narnia_trailer.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000145"></a>
+                     <div class="content" id="entry-145">
+                        <h3 class="content">python challenge</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>take the <a href="http://www.pythonchallenge.com/pc/index.htm">python challenge</a>! no, not wrestling with a dangerous reptile.  solving riddles using python scripts.  it's brilliant, seriously.</p>
+
+<p>[thanks <a href="http://www.memepool.com/">meme pool</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 04:58 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/python_challenge.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/python_challenge.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 08, 2005</h3>
+                     <a id="a000144"></a>
+                     <div class="content" id="entry-144">
+                        <h3 class="content">the onion: improving amtrak</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/improving_amtrak.jpg" width="418" height="430"></p>
+
+<p>i love <a href="http://www.theonion.com">the onion</a>, which is, for those who don't know, a satirical newspaper.  this "infographic" is incredible, and apropos to my life in the o.c. where public transportation is negligible: because making the trains run on time is the first step on the road to facism!</p>
+
+<p>[thanks <a href="http://www.theonion.com/infograph/index.php?issue=4118">the onion</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 07:10 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/the_onion_improving_amtrak.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/the_onion_improving_amtrak.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000143"></a>
+                     <div class="content" id="entry-143">
+                        <h3 class="content">sonicforms: going open source</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/sonicforms.jpg" width="200" height="232"></p>
+
+<p>i will not make a speech about how great open source is, but suffice it to say, i love it.  the new <a href="http://www.sonicforms.org/">sonicforms</a> project by <a href="http://www.chrisoshea.org/">chris o'shea</a> is spot on:<blockquote>an open source research platform for developing tangible interfaces for audio visual environments. The aim of the project is to improve this area of musical interaction by creating a community knowledge base and open tools for production. By decentralising the technology and providing an easier entry point, artists and musicians can focus on creating engaging works, rather than starting from the ground up.</blockquote>open source <i>and</i> cool looking, what more can you want?</p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/005636.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:34 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/sonicforms_going_open_source.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/sonicforms_going_open_source.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000142"></a>
+                     <div class="content" id="entry-142">
+                        <h3 class="content">jim campbell</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/campbell-busstop.jpg" width="269" height="200"> <img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/campbell-library.jpg" width="274" height="200"></p>
+
+<p>recently heard of <a href="http://www.jimcampbell.tv/">jim campbell</a>.  his work is on exhibition at the <a href="http://www.brycewolkowitz.com/">bryce wolkowitz gallery</a> in nyc. he describes the technical details of "library" [still shown at right] as:<blockquote>Library is composed of a high-resolution photogravure of the New York Public Library, printed on rice paper and placed in a Plexiglas frame suspended in front of an L.E.D. surface containing a 25-minute video chip loop of low-resolution moving images. Indistinct images of birds and people appear to move in and out of the library and across the facade. Library is first in a new series of works in which the artist is exploring photogravure prints combined with low-resolution moving images.</blockquote>really innovative and eerie. these types of shadows would be great as an interface as well, a la the <a href="http://web.media.mit.edu/~kkarahal/thesis/projects/telemurals.html">telemurals</a> project by <a href="http://web.media.mit.edu/~kkarahal/">karrie karahalios</a>.</p>
+
+<p>[thanks <a href="http://www.coolhunting.com/archives/2005/05/jim_campbell_1.php?rss">cool hunting</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:17 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/jim_campbell.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/jim_campbell.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 07, 2005</h3>
+                     <a id="a000141"></a>
+                     <div class="content" id="entry-141">
+                        <h3 class="content">sensity</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/sensity-diagram.jpg" width="247" height="200"> <img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/sensity-concept.jpg" width="305" height="200"></p>
+
+<p>so i've seen a few posts about <a href="http://www.stanza.co.uk/sensity/index.html#Concepts">sensity</a>. the photo is flash, and that little diagram is well cute, but as far as i can tell, none of this project is real yet.  it aims to be a massive sensornet [apparently based on MICA2 motes] that gathers data about a city which is then used to display the emotional state of the city.  a goal many people have in mind, including me, natch.</p>
+
+<p>i enjoyed the following quotes:<blockquote>"The sense city is a city of, accumulated incidents of love, abuse and death."<br>"This includes pollution data recorded via sensors in the street, to create audio acoustic files expressing the pain and suffering of the air as it pollutes."</blockquote>so this unborn project is part of a larger initiative called <a href="http://www.soundtoys.net/">soundtoys</a> that UK artist <a href="http://www.stanza.co.uk/">stanza</a> is overseeing:<blockquote>The site is intended to provide a meeting point for this growing community of artists and users, and in addition to the exhibition of audio visual projects, the site contains areas for artists interviews, links to resources, and texts by contributing writers where serious issues around interactive arts, audio visual syhthesis, generative art, and a history of interactivity are discussed.</blockquote>anyway, cute photos :]</p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/005619.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 03:49 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/sensity.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/sensity.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000140"></a>
+                     <div class="content" id="entry-140">
+                        <h3 class="content">microsoft: gets out, gets back in, is hassled a bit, gets out again, stays out[?]</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>today microsoft announced that they will once again officially back a gay rights bill in washington state.  [full text after the jump]. having previously withdrawn their support, 1,500+ members of the company signed a petition asking microsoft to get behind the bill once again.  thankfully, they did.  several members of the antioch bible church in redmond were dismayed [bummer, dudes].  the reverend of said church, ken hutcherson, had met twice with microsoft officials regarding the bill.  a member of his congregation, and a microsoft employ said:<blockquote>"I feel that it was wrong for the company to say that they will be supporting issues such as this. Businesses should not actually be publicly taking a stance on that, regardless of their internal policies."</blockquote>clearly the church should take a stance, petition the businesses, but then claim the companies should not take a side.  well, unless it's their side.</p>
+
+<p>[thanks <a href="http://www.nytimes.com/2005/05/07/national/07gay.html?ex=1273118400&en=bc32a9bf41c9a033&ei=5088&partner=rssnyt&emc=rss">new york times</a>]</p>
+                                                            <p>In a Reverse, Microsoft Says It Supports Gay Rights Bill<br />
+May 7, 2005<br />
+By SARAH KERSHAW</p>
+
+<p>Microsoft, faced with unrelenting criticism from employees and gay rights groups over its decision to abandon support of a gay rights bill in Washington state, reversed course again yesterday and announced that it was now in support of the bill.</p>
+
+<p>Steve Ballmer, the company's chief executive, announced the reversal in an e-mail message sent to 35,000 employees in the United States. "After looking at the question from all sides, I've concluded that diversity in the workplace is such an important issue for our business that it should be included in our legislative agenda," Mr. Ballmer said.</p>
+
+<p>He added: "I respect that there will be different viewpoints. But as C.E.O., I am doing what I believe is right for our company as a whole."</p>
+
+<p>Long known for its internal policies protecting gay employees from discrimination and offering them benefits, Microsoft sparked an uproar when officials decided to take a "neutral" stance on the antidiscrimination bill this year, after having supported it the two previous years.</p>
+
+<p>Critics, including employees who said they were told that Microsoft would back the bill, said the decision to withdraw support had been made under pressure from a local evangelical preacher who threatened to boycott the company if it supported the legislation this year. Company officials have disputed the accusation.</p>
+
+<p>The bill, which would have extended protections against discrimination in employment, housing and other areas to gay men and lesbians, failed by one vote on April 21. But it is automatically up for a new vote next year because bills introduced in the Washington Legislature are active for two years even if they are voted down the first time.</p>
+
+<p>After the defeat, Mr. Ballmer sent an e-mail message to company employees, defending the decision to withdraw support. In that note, Mr. Ballmer said that he and Microsoft's founder, Bill Gates, personally supported the measure but felt the company needed to focus its legislative efforts on measures that had a more direct connection to their business.</p>
+
+<p>In yesterday's message Mr. Ballmer suggested that employees' responses had helped persuade Microsoft officials to renew their backing of the measure. More than 1,500 employees signed an internal petition demanding that the company support the bill, and scores wrote in protest to Mr. Ballmer and Mr. Gates.</p>
+
+<p>A Microsoft executive, speaking on condition of anonymity, said that senior company officials met after Microsoft's widely publicized turnaround on the bill prompted an uproar, and that they had decided to change the company's stance because of pressure from employees.</p>
+
+<p>"This issue got attention at the highest levels of the company in a way it didn't before," said the executive, who did not attend the meeting but was briefed on it. "It was a rocky path, but we got to the right place."</p>
+
+<p>Some lawmakers had said that Microsoft, based in Redmond, Wash., could have lent crucial backing to the legislation through influence on lawmakers representing Redmond and the suburbs outside Seattle.</p>
+
+<p>In explaining why the company had not supported the bill this year, Mr. Ballmer and other Microsoft officials had said over the last two weeks that they were re-examining their legislative priorities and debating when and whether to become involved in public policy debates.</p>
+
+<p>Gay rights groups said they were contacted by Microsoft officials before Mr. Ballmer's statement was publicly released. They applauded the decision.</p>
+
+<p>"We're very happy," said Joe Solmonese, president of the Human Rights Campaign, a national gay advocacy group.</p>
+
+<p>Mr. Solmonese met recently with several Microsoft employees after he learned of the earlier decision not to back the bill, which was first disclosed by The Stranger, an alternative weekly newspaper in Seattle.</p>
+
+<p>The Microsoft officials, Mr. Solmonese said, "took it very seriously."</p>
+
+<p>"They said that there had been a huge outpouring of concern via e-mail, both internally and externally," he said.</p>
+
+<p>Ed Murray, an openly gay state legislator from Seattle and a sponsor of the bill, said of the company's reversal: "I think it's important. It sent a message that this issue is not simply a so-called social issue or cultural war issue, but it's an issue that is good for business, and it's an issue that business considers important."</p>
+
+<p>But the company's decision disappointed others, including Microsoft employees who belong to the Antioch Bible Church in Redmond. The church is led by the Rev. Ken Hutcherson, who met with Microsoft officials twice about the bill and claimed to have persuaded them to change their position on it.</p>
+
+<p>"I feel that it's been kind of a stressful day," said a Microsoft employee who is a member of the church and who spoke on condition of anonymity. "I feel that it was wrong for the company to say that they will be supporting issues such as this. Businesses should not actually be publicly taking a stance on that, regardless of their internal policies."</p>
+
+<p>The employee, who has worked at Microsoft for four years, said the company should "stay out of it" when it comes to the debate over gay rights.</p>
+
+<p>Dr. Hutcherson, whose church offices are near Microsoft's headquarters, said earlier that he believed his boycott threat had persuaded Microsoft not to support the bill. He did not respond to messages left yesterday on his cellphone and at his office.</p>
+
+<p>Steve Lohr contributed reporting for this article.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 03:30 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/microsoft_gets_out_gets_back_i.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/microsoft_gets_out_gets_back_i.html#comments">Comments (1)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000139"></a>
+                     <div class="content" id="entry-139">
+                        <h3 class="content">real id: something fishy</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>i have been known to speak at length about the fact that our rights [tech-oriented and otherwise] are slowly slipping away.  and you have been known to ask for examples.  well here is one that you cannot brush under the carpet: the real id act. [check out the full story from CNET news.com after the jump].</p>
+
+<p>let us not be fooled.  the real id card amounts to a national id, and by being machine readable, the makings of a national database.  now, although social security numbers are supposed to be a sort of private identifier between you and your government, everyone and their mother sees fit to demand your SSID for all sorts of things [buying a credit card, a cellphone, etc.].  now, do we really think it will be any different with our real ids? no. so when the guy at the package store asks you for some id, uncle sam will know you've been knocking back a few on a wednesday night.  these types of tracking technologies are not new, and there exists plenty of research regarding the cost/benefit analysis of getting a discount grocery store card and the like.  but what is the perceived benefit in this case?  of course the rhetoric goes something like:<blockquote>It will "hamper the ability of terrorist and criminal aliens to move freely throughout our society by requiring that all states require proof of lawful presence in the U.S. for their drivers' licenses to be accepted as identification for federal purposes such as boarding a commercial airplane, entering a federal building, or a nuclear power plant," Rep. F. James Sensenbrenner, a Wisconsin Republican, said during the debate Thursday.</blockquote>but it will also hinder our movement, significantly!  and last time i checked i did not need my driver's license to start my car [hmm...come to think of it, let's implant an RFID reader into the cars and not allow them to start without a real id, yeah, that will keep terrorists from driving and make sure that no fatalities occur when you are rushing an injured person to the hospital and you forget grab your wallet. or even better let's just implant the real id's right into our bodies to make sure that there are no shady-blackmarket-minorityreport type killings and harvestings].  seriously though, a national id imposed in a climate of fear is not the solution to our nations security problems.  its just a rusty nail in a gushing wound.</p>
+
+<p>[thanks <a href="http://news.com.com/FAQ+How+Real+ID+will+affect+you/2100-1028_3-5697111.html">CNET news.com</a>]</p>
+                                                            <p>FAQ: How Real ID will affect you</p>
+
+<p>Declan McCullagh, Staff Writer, CNET News.com<br />
+Published: May 6, 2005</p>
+
+<p>What's all the fuss with the Real ID Act about?<br />
+President Bush is expected to sign an $82 billion military spending bill soon that will, in part, create electronically readable, federally approved ID cards for Americans. The House of Representatives overwhelmingly approved the package--which includes the Real ID Act--on Thursday.</p>
+
+<p>What does that mean for me?<br />
+Starting three years from now, if you live or work in the United States, you'll need a federally approved ID card to travel on an airplane, open a bank account, collect Social Security payments, or take advantage of nearly any government service. Practically speaking, your driver's license likely will have to be reissued to meet federal standards.</p>
+
+<p>The Real ID Act hands the Department of Homeland Security the power to set these standards and determine whether state drivers' licenses and other ID cards pass muster. Only ID cards approved by Homeland Security can be accepted "for any official purpose" by the feds.</p>
+
+<p>How will I get one of these new ID cards?<br />
+You'll still get one through your state motor vehicle agency, and it will likely take the place of your drivers' license. But the identification process will be more rigorous.</p>
+
+<p>For instance, you'll need to bring a "photo identity document," document your birth date and address, and show that your Social Security number is what you had claimed it to be. U.S. citizens will have to prove that status, and foreigners will have to show a valid visa.</p>
+
+<p>State DMVs will have to verify that these identity documents are legitimate, digitize them and store them permanently. In addition, Social Security numbers must be verified with the Social Security Administration.</p>
+
+<p>What's going to be stored on this ID card?<br />
+At a minimum: name, birth date, sex, ID number, a digital photograph, address, and a "common machine-readable technology" that Homeland Security will decide on. The card must also sport "physical security features designed to prevent tampering, counterfeiting, or duplication of the document for fraudulent purposes."</p>
+
+<p>Homeland Security is permitted to add additional requirements--such as a fingerprint or retinal scan--on top of those. We won't know for a while what these additional requirements will be.</p>
+
+<p>Why did these ID requirements get attached to an "emergency" military spending bill?<br />
+Because it's difficult for politicians to vote against money that will go to the troops in Iraq and tsunami relief. The funds cover ammunition, weapons, tracked combat vehicles, aircraft, troop housing, death benefits, and so on.</p>
+
+<p>The House already approved a standalone version of the Real ID Act in February, but by a relatively close margin of 261-161. It was expected to run into some trouble in the Senate. Now that it's part of an Iraq spending bill, senators won't want to vote against it.</p>
+
+<p>What's the justification for this legislation anyway?<br />
+Its supporters say that the Real ID Act is necessary to hinder terrorists, and to follow the ID card recommendations that the 9/11 Commission made last year.</p>
+
+<p>It will "hamper the ability of terrorist and criminal aliens to move freely throughout our society by requiring that all states require proof of lawful presence in the U.S. for their drivers' licenses to be accepted as identification for federal purposes such as boarding a commercial airplane, entering a federal building, or a nuclear power plant," Rep. F. James Sensenbrenner, a Wisconsin Republican, said during the debate Thursday.</p>
+
+<p>You said the ID card will be electronically readable. What does that mean?<br />
+The Real ID Act says federally accepted ID cards must be "machine readable," and lets Homeland Security determine the details. That could end up being a magnetic strip, enhanced bar code, or radio frequency identification (RFID) chips.</p>
+
+<p>In the past, Homeland Security has indicated it likes the concept of RFID chips. The State Department is already going to be embedding RFID devices in passports, and Homeland Security wants to issue RFID-outfitted IDs to foreign visitors who enter the country at the Mexican and Canadian borders. The agency plans to start a yearlong test of the technology in July at checkpoints in Arizona, New York and Washington state.</p>
+
+<p>Will state DMVs share this information?<br />
+Yes. In exchange for federal cash, states must agree to link up their databases. Specifically, the Real ID Act says it hopes to "provide electronic access by a state to information contained in the motor vehicle databases of all other states."</p>
+
+<p>Is this legislation a done deal?<br />
+Pretty much. The House of Representatives approved the package on Thursday by a vote of 368-58. Only three of the "nay" votes were Republicans; the rest were Democrats. The Senate is scheduled to vote on it next week and is expected to approve it as well.</p>
+
+<p>White House spokesman Scott McClellan has told reporters "the president supports" the standalone Real ID Act, and the Bush administration has come out with an official endorsement. As far back as July 2002, the Bush administration has been talking about assisting "the states in crafting solutions to curtail the future abuse of drivers' licenses by terrorist organizations."</p>
+
+<p>Who were the three Republicans who voted against it?<br />
+Reps. Howard Coble of North Carolina, John Duncan of Tennessee, and Ron Paul of Texas.</p>
+
+<p>Paul has warned that the Real ID Act "establishes a national ID card" and "gives authority to the Secretary of Homeland Security to unilaterally add requirements as he sees fit."</p>
+
+<p>Is this a national ID card?<br />
+It depends on whom you ask. Barry Steinhardt, director of the American Civil Liberties Union's technology and liberty program, says: "It's going to result in everyone, from the 7-Eleven store to the bank and airlines, demanding to see the ID card. They're going to scan it in. They're going to have all the data on it from the front of the card...It's going to be not just a national ID card but a national database."</p>
+
+<p>At the moment, state driver's licenses aren't easy for bars, banks, airlines and so on to swipe through card readers because they're not uniform; some may have barcodes but no magnetic stripes, for instance, and some may lack both. Steinhardt predicts the federalized IDs will be a gold mine for government agencies and marketers. Also, he notes that the Supreme Court ruled last year that police can demand to see ID from law-abiding U.S. citizens.</p>
+
+<p>Will it be challenged in court?<br />
+Maybe. "We're exploring whether there are any litigation possibilities here," says the ACLU's Steinhardt.</p>
+
+<p>One possible legal argument would challenge any requirement for a photograph on the ID card as a violation of religious freedom. A second would argue that the legislation imposes costs on states without properly reimbursing them.</p>
+
+<p>When does it take effect?<br />
+The Real ID Act takes effect "three years after the date of the enactment" of the legislation. So if the Senate and Bush give it the thumbs-up this month, its effective date would be sometime in May 2008.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:53 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/real_id_something_fishy.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/real_id_something_fishy.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 06, 2005</h3>
+                     <a id="a000138"></a>
+                     <div class="content" id="entry-138">
+                        <h3 class="content">spring showers</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/rainandthunder-irvine.jpg" width="265" height="130"></p>
+
+<p>in a county that has no seasons, except under cover of night, we are having a proper spring thunderstorm.  booming and rain, albeit at 2:40am.  still, we should be proud of orange county for trying.  thunderstorms and downpours are particular moving to me as some of you may know *grin*, and so let us celebrate!</p>
+
+<p>[graffic brought to you by my new weather-displaying desktop widget.  os x 10.4, w00t]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:43 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/spring_showers.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/spring_showers.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000137"></a>
+                     <div class="content" id="entry-137">
+                        <h3 class="content">khronos projector</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/khronos1.jpg" width="304" height="152"> <img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/khronos2.gif" width="202" height="152"></p>
+
+<p>the <a href="http://www.k2.t.u-tokyo.ac.jp/members/alvaro/Khronos/Khronos_Projector.htm">khronos projector</a> is an interactive installation by <a href="http://www.k2.t.u-tokyo.ac.jp/members/alvaro/alvaro-e.html">alvaro cassinelli</a> & <a href="http://www.k2.t.u-tokyo.ac.jp/members/ishikawa/ishikawa-e.html">masatoshi ishikawa</a>. described as:<blockquote>the Khronos Projector is the first Art-Installation enabling the interactive shaping of an arbitrarily complex spatio-temporal cutting surface thanks to a dedicated tangible, "sensual" human-machine interface, and thus giving the user a strong feeling of being actually  sculpting the space-time "substance" with its own hands.</blockquote>check out the videos and stills.  this is a great piece, and it will be at <a href="http://www.siggraph.org/s2005/main.php?f=conference&p=etech&s=etech1&PHPSESSID=f0f7822e647eb6a85558cf8ad5f50207">siggraph 2005</a>.</p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/005628.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:30 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/khronos_projector.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/khronos_projector.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000136"></a>
+                     <div class="content" id="entry-136">
+                        <h3 class="content">be a little gay</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/zakaz.jpg" width="200" height="194"></p>
+
+<p>this would be hilarious if it weren't real.<blockquote>dean h. saxe says:<br />
+I just returned from eastern Europe and wanted to share with you the following poster I found on a brick wall outside the gates of Auschwitz. My wife and I spotted more of these on the road between Auschwitz and Birkenau.</blockquote>apparently it means something along the lines of "gayness forbidden" "healthy, normal family guarantees our future."  if the future i am guaranteed is one with iconography like that i might have to pass...</p>
+
+<p>in the "ironic twist department," the mayor james e. west of spokane, an opponent of gay rights, was recently exercising his gay-mayor rights, getting his freak on at gay.com.  score 1 point for the closeted self-haters! now why a sting operation had to be set up for this, i do not know... [full text after the jump].</p>
+
+<p>[thanks <a href="http://www.boingboing.net/2005/05/05/homophobic_flyer_at_.html">boing boing</a> and <a href="http://www.nytimes.com/2005/05/06/national/06spokane.html?ex=1273032000&en=9e69b710f5f305d5&ei=5088&partner=rssnyt&emc=rss">new york times</a>]</p>
+                                                            <p>The Mayor of Spokane Is Accused of Molesting</p>
+
+<p>By THE ASSOCIATED PRESS<br />
+Published: May 6, 2005</p>
+
+<p>SPOKANE, Wash., May 5 (AP) - Mayor James E. West of Spokane, a Republican opponent of gay rights, was accused in a newspaper on Thursday of molesting two boys decades ago and the paper also says it caught him using the trappings of his office to try to court a young man online.</p>
+
+<p>Mr. West denied the accusations, but acknowledged he "had relations with adult men."</p>
+
+<p>He admitted offering autographed sports memorabilia and a possible City Hall internship to what he thought was an 18-year-old man on the Web site Gay.com. The man was actually a computer expert hired by the newspaper, The Spokesman-Review, as part of a sting operation.</p>
+
+<p>Mr. West, 54, a former Boy Scout leader and Army paratrooper who was married for five years in the 1990's, denied that the online offers constituted abuse of his office, and he said he would serve out the more than three years remaining in his term.</p>
+
+<p>"I am a law-abiding citizen," Mr. West said at a brief news conference.</p>
+
+<p>The Spokesman-Review ran interviews on Thursday with two men who said Mr. West molested them decades ago when they were Boy Scouts and the mayor was a troop leader and sheriff's deputy. Both men have criminal records because of drug problems.</p>
+
+<p>"I categorically deny allegations about incidents that supposedly occurred 24 years ago as alleged by two convicted felons and about which I have no knowledge," Mr. West said.</p>
+
+<p>No criminal investigations are under way because the statute of limitations has run out, according to the sheriff's and police departments.</p>
+
+<p>Mr. West, a conservative, rose to become majority leader of the State Senate during a two-decade legislative career. He consistently opposed efforts to expand civil rights protections for gay men and lesbians and voted for the Defense of Marriage Act, a ban on same-sex marriage, in 1998.</p>
+
+<p>The newspaper had hired a computer expert to create a fictitious identity as an 18-year-old boy to chat with Mr. West, whose online aliases included "RightBi-Guy."</p>
+
+<p>Mr. West would not characterize himself as gay. As for the reason for his online visits to Gay.com, he said, "curiosity, confused, whatever, I don't know."</p>
+
+<p>The molesting accusations came in a deposition for a lawsuit against Spokane County by Robert J. Galliher, 36, of Seattle, and other men who claim they were molested by another sheriff's deputy at the time, David Hahn. Mr. West was not named as a defendant and said he was unaware of the deposition.</p>
+
+<p>In interviews with the newspaper, Mr. Galliher and a second man, Michael G. Grant Jr., 31, said they were introduced to Mr. West by Mr. Hahn in the late 1970's or early 1980's, when the two sheriff's deputies were friends and leaders of a Boy Scout troop. Mr. Hahn committed suicide in 1981 after being accused of molesting boys.</p>
+
+<p>The editor of The Spokesman-Review, Steven A. Smith, said the newspaper felt it was necessary to hire the computer expert because of Mr. West's possible abuse of office and the potential harm to young people.</p>
+
+<p>The expert was hired to corroborate accounts from several individuals who said they had had online relationships with Mr. West, including at least one teenager who said the contact led to consensual sex, the newspaper said.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:54 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/be_a_little_gay.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/be_a_little_gay.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 05, 2005</h3>
+                     <a id="a000135"></a>
+                     <div class="content" id="entry-135">
+                        <h3 class="content">seeking setbang</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>so i've finally gotten round to properly tracking all the traffic on my various websites [i'm waaaaatching you]. but i've recently gotten the following amazing hits on search engines:<ul><li>from finland: <a href="http://www.google.fi/search?hl=fi&q=d%26d%20%2Bporn&btnG=Google-haku&meta=">d&d +porn</a>. i rank 3rd.<br />
+<li>from michigan: <a href="http://www.google.com/search?q=mature%20nude%20women%20in%20connecticut&hl=en&lr=&ie=UTF-8&start=70&sa=N">mature nude women in connecticut</a>. sadly, only 75th.<br />
+<li>from new jersey: <a href="http://www.google.com/search?client=safari&rls=en&q=calit2%20blog&ie=UTF-8&oe=UTF-8">calit2 blog</a>.  number 1.  rock on.</ul></p>
+
+<p>the first two can be attributed to trackbak spam [which has now been eliminated], and the third to my awesomeness ;]</p>
+
+<p>"mature nude women"??? i mean... *sigh*</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 04:31 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/seeking_setbang.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/seeking_setbang.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000134"></a>
+                     <div class="content" id="entry-134">
+                        <h3 class="content">vegetarian dinosaur</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/veggiedinosaur.jpg" width="300" height="123"></p>
+
+<p>in the <a href="http://www.nytimes.com/2005/05/05/science/05dino.html?ex=1272945600&en=f93de825e02d94fe&ei=5088&partner=rssnyt&emc=rss">new york times</a> today there is an article about a dinosaur fossil that is thought to be evidence of a carnivore turning herbivore.  you can check out the full text after the jump. oh, also he is in <a href="http://www.wired.com/news/planet/0,2782,67425,00.html">wired</a>. [note: dinosaur is pictured on the left in photo].</p>
+
+<p>i'm just a dinosaur at heart. roar.</p>
+                                                            <p>By JOHN NOBLE WILFORD<br />
+Published: May 5, 2005</p>
+
+<p>Without government nutrition guidelines, a doctor's advice or some primeval diet fad, entire species of dinosaurs sometimes forsook their predatory, meat-eating lifestyle and evolved into grazing vegetarians. Scientists now think they have found rare evidence of a species undergoing just such a dietary transition 125 million years ago.<br />
+Enlarge This Image<br />
+James I. Kirkland</p>
+
+<p>Dinosaur jaw fragments reveal teeth adapted for plant shredding.</p>
+
+<p>Paleontologists in Utah announced yesterday that they had discovered a new species of dinosaurs in an intermediate stage between carnivore and herbivore, on the way to becoming a committed vegetarian. They could only speculate on the reasons for the change, but noted that it occurred in a time of global warming and the arrival of flowering plants in profusion, a tempting new food source.</p>
+
+<p>Dr. James I. Kirkland, a paleontologist with the Utah Geological Survey, said the new species, named Falcarius utahensis, was uncovered two years ago at a remote dig site near the town of Green River. The animal, about 13 feet long and 4½ feet tall, was a primitive member of the therizinosaur group of feathered dinosaurs.</p>
+
+<p>Under closer examination, Dr. Kirkland said, the Falcarius fossils showed "the beginnings of features we associate with plant-eating dinosaurs." The teeth were not the sharp, bladelike serrated teeth of the typical predator, but smaller and adapted for shredding leaves. "I doubt that this animal could have cut a steak," he said.</p>
+
+<p>Other characteristics of an animal in transition to herbivory included an expansion of the gut to digest the mass of fermenting plants, stouter legs for supporting a bulkier body instead of the slender legs of a fast-running predator, and a lengthening of the neck, perhaps to reach for leaves higher in the trees.</p>
+
+<p>Dr. Scott D. Sampson, chief curator of the Museum of Natural History at the University of Utah, said the new fossils were "amazing documentation of a major dietary shift" and promised to "tell us how this shift happened."</p>
+
+<p>The scientists described and interpreted the findings in interviews and a teleconference from Salt Lake City. A detailed report is being published today in the journal Nature.</p>
+
+<p>Dr. Mark A. Norell, a dinosaur specialist at the American Museum of Natural History who was not involved in the research, said the fossils were well preserved and the teeth appeared to be similar to those of plant-eating dinosaurs. But he questioned how much scientists would be able to learn from the specimen about the change from meat eating to plant eating.</p>
+
+<p>Dr. Sampson said, "Falcarius represents evolution caught in the act, a primitive form that shares much in common with its carnivorous kin, while possessing a variety of features demonstrating that it had embarked on the path toward more advanced plant-eating forms."</p>
+
+<p>Dr. Norell agreed that the new species "is a very important and interesting animal," primarily because it is a rare early example of the therizinosaur group in North America. Falcarius is anatomically more primitive than the better-known therizinosaurs that were prevalent in China about 90 million years ago and had already evolved as plant eaters.</p>
+
+<p>Lindsay E. Zanno, a doctoral student in paleontology at Utah, said Falcarius was "the most primitive known therizinosaur, demonstrating unequivocally that this large-bodied group of bizarre herbivorous dinosaurs" came from predatory carnivores like the swift, fierce Velociraptor. Falcarius and Velociraptor had a common ancestor.</p>
+
+<p>Scientists say all the vegetarian dinosaurs evolved from ancestors that were carnivores. Some 230 million years ago, the first dinosaur was presumably a small-bodied, fleet-footed predator. Then two major groups of dinosaurs, the gigantic species and the smaller duck-billed grazers, evolved as plant eaters.</p>
+
+<p>As for Falcarius, scientists are not sure what it ate, meat or plants or both, and they suspect that the transition extended over several million years.</p>
+
+<p>But with Falcarius, Dr. Sampson said, "we have actual fossil evidence of a major dietary shift, certainly the best example documented among dinosaurs."</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:48 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/vegetarian_dinosaur.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/vegetarian_dinosaur.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 03, 2005</h3>
+                     <a id="a000133"></a>
+                     <div class="content" id="entry-133">
+                        <h3 class="content">young's double chocolate stout, comin' attcha</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/doublechoc.jpg" width="101" height="300"></p>
+
+<p>i'm drinking a bottle of <a href="http://www.youngs.co.uk/ProductPage.aspx?pageID=11&&productID=6">young's double chocolate stout</a>, and it's amazingly tasty.  for all of you who think you hate guinness, give this a try.  and for those of you who love guinness, why aren't you drinking one right now?</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 09:22 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/youngs_double_chocolate_stout.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/youngs_double_chocolate_stout.html#comments">Comments (1)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 02, 2005</h3>
+                     <a id="a000132"></a>
+                     <div class="content" id="entry-132">
+                        <h3 class="content">monday music: annie</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/annie.jpg" width="148" height="225"></p>
+
+<p>i've decided in order to keep you enrapt, i will post some new [or new to you, or possibly old, or boring] music every week.  full albums will be available on request [just email, IM, smoke-signal].</p>
+
+<p>this weeks selection is <a href="http://www.anniemusic.co.uk/">annie</a>, aka anne lilia berge strand, from Norway.  her album, anniemal, will debut in the states in june, and she was recently featured in the <a href="http://www.nytimes.com/2005/05/01/arts/music/01rose.html?">new york times</a>.</p>
+
+<p>download the new stuff or check out the <a href="http://www.ics.uci.edu/~johannab/monday.music/">archive</a>:<ul><li>annie: always too late <a href="http://www.ics.uci.edu/~johannab/monday.music/Annie - Always Too Late.mp3">[mp3]</a><br />
+<li>annie: heartbeat <a href="http://www.ics.uci.edu/~johannab/monday.music/Annie - Heartbeat.mp3">[mp3]</a><br />
+<li>annie: greatest hit <a href="http://www.ics.uci.edu/~johannab/monday.music/Annie - Greatest Hit.mp3">[mp3]</a><br />
+</ul></p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 06:24 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/monday_music_annie.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/monday_music_annie.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">May 01, 2005</h3>
+                     <a id="a000131"></a>
+                     <div class="content" id="entry-131">
+                        <h3 class="content">japanese anti-smoking campaign</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/smoking_manners1.jpg" width="304" height="217"></p>
+
+<p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/smoking_manners2.gif" width="305" height="217"></p>
+
+<p>this <a href="http://www.jti.co.jp/sstyle/manners/ad/change/index.html">japanese anti-smoking campaign</a> is very informative. it is bad manners to smoke because i will hurt the cigarette's feelings?  or because i am meant to feel bad for polluting the rat's sewers? i see.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 05:16 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/japanese_antismoking_campaign.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/japanese_antismoking_campaign.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000130"></a>
+                     <div class="content" id="entry-130">
+                        <h3 class="content">searchscapes</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/searchscapes.gif" width="326" height="222" /></p>
+
+<p><a href="http://www.searchscapes.net/">searchscapes</a> is a neat 3D map of manhattan.<blockquote> The intent of "Searchscapes" is to design a tridimensional map of Manhattan using existing data from the web. The objective is to compare representations of the city’s “physical spaces” and “information spaces”. Taking the metaphor very literally, a specific address is searched on Google (ex: “1 Broadway” + “New York, NY”). Such a search will bring mostly results that correspond to this specific location. The total number of text results is parsed and then plotted on a map of the physical space. The height of the “building” on that location will correspond to the number of results found. More results will correspond to higher “information buildings”. This is an attempt to materialize information: to give it dimension, physicality. Contemporary architecture seems to be driving in the opposite<br />
+direction: becoming more mediated, more ephemeral, “bodiless”. This project is an attempt to give “shape” to the data that we find on the Internet, but not “quantify”.</blockquote>very reminiscent of the <a href="http://xenia.media.mit.edu/~flavia/research.html#city_of_news">city of news</a>, but in fact, based on an actual city, which gets 3 gold stars in my book of site-specific display.</p>
+
+<p>[thanks <a href="http://www.core77.com/corehome/2005/04/searchscapes.html">core77</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 04:29 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/searchscapes.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/searchscapes.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000129"></a>
+                     <div class="content" id="entry-129">
+                        <h3 class="content">mit disco dance floor</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/mit-disco.jpg" width="200" height="135"></p>
+
+<p>forgot to post this earlier, but check out the <a href="http://web.mit.edu/storborg/ddf/index.html">disco floor</a> some kids from mit built in their dorm.  touted as having: 1,536 LEDs, 128 square feet, 4,096 colors, 30 frames/second and 20,000 hand-soldered connections. super cool.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 04:11 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/mit_disco_dance_floor.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/mit_disco_dance_floor.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000128"></a>
+                     <div class="content" id="entry-128">
+                        <h3 class="content">clayton james cubitt photography</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/vellum07.jpg" width="190" height="233"></p>
+
+<p>wow <a href="http://www.claytoncubitt.com/publish/vellum07/">these photos</a> from clayton james cubitt for a vellum magazine spread are gorgeous.  the one above being the only one coming close to PG however.  <a href="http://www.claytoncubitt.com/publish/vellum07/images/B5FT5901_vd.jpg">this being my favorite</a>.  they display some deep emotion [beyond alot of that typical naked-girl, fashion photo bullshit].<blockquote>I'm fascinated with the ability of photography to freeze, and thus control, the uncontrollable. Water. Blood. Smoke. Women. I also derive pleasure from mimicking in-camera effects with CG-effects, and vice versa. In this regard, I might have been influenced by my brief time assisting Alexei Hay, because he's the same. People often assume that the effects in my shoots were done using a high-end 3D modeling program like Maya, when in reality they are usually effects that could be accomplished in a well-equipped color darkroom. The computer just makes their creation faster. And less smelly.</blockquote></p>
+
+<p>[thanks <a href="http://www.boingboing.net/2005/04/13/photography_clayton_.html">boing boing</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 04:02 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/clayton_james_cubitt_photograp.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/clayton_james_cubitt_photograp.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000127"></a>
+                     <div class="content" id="entry-127">
+                        <h3 class="content">white noise | white light</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/whitenoise-whitellight.jpg" width="210" height="158"> <img  src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/whitenosie-whitelilght2.jpg" width="210" height="158"></p>
+
+<p><a href="http://whitenoisewhitelight.com/">white noise | white light</a> is an interactive/tangible light/sound installation which was, apparently, first presented in athens during the olympic games.  seems i missed yet another thing while i was in greece.  in any case, it is now <a href="http://web.mit.edu/arts/announcements/prs/2005/0414_wnwl.html">on display at mit</a> may 2nd through the 7th, so one of you bostonites best go and see it so i can get some vicarious pleasure.<blockquote>Each stalk unit contains its own passive infrared sensor and microprocessor, which uses a software differentiation algorithm to determine whether a body is passing by the stalk. If motion is detected, the white LED illumination grows brighter while the white noise increases in volume. Once motion is no longer detected, the microprocessor smoothly decreases the light and fades the sound to silence. The movement of pedestrians creates an afterglow effect in the form of a flickering wake of white light and white noise, trailing and tracing visitors as they cross the field. Depending on the time of day, number of people, and trajectories of movement, the project is constantly being choreographed by the cumulative interaction of the public. The field becomes an unpredictable aggregation of movement, light and sound.</blockquote>i particularly love that second photo. the girl looks like shes moments away from biting the rod. technology in the real world :]</p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/005569.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 03:36 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/white_noise_white_light.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/white_noise_white_light.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000126"></a>
+                     <div class="content" id="entry-126">
+                        <h3 class="content">manual input sessions</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/manual-input-sessions.jpg" width="200" height="150"></p>
+
+<p>golan levin and zachary lieberman, who also did <a href="http://www.tmema.org/messa/messa.html">messa di voce</a>, designed this really pretty <a href="http://tmema.org/mis/">interface/instrument</a>. it uses both standard overhead projecters as well as digital ones producing, as they call it, hybridized dynamic light.  some vision algorithms analyze the shadows of the performer's hands [or various other objects], and then various graphics are projected on top of those shadows.  it is beautiful and playful, although i can't say that i am a huge fan of the music that gets generated. definitely check out the <a href="http://tmema.org/mis/video.html">video</a> to see what i mean.</p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/005555.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 03:11 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/manual_input_sessions.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/manual_input_sessions.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+</body>
+</span>
+</html>
+

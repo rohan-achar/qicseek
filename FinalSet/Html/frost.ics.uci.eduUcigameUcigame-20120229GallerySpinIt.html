@@ -1,0 +1,145 @@
+<html>
+<head>
+    <title>Ucigame - Gallery - SpinIt</title>
+<link href="../stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<center><h2>Ucigame - Gallery - SpinIt</h2></center>
+
+<h4>
+<a href="../index.html">Home</a> |
+<a href="../getting-started.html">Getting Started</a> |
+<a href="../reference.html">Reference</a> |
+<a href="../java.html">Introduction to Java</a> |
+<a href="../gallery.html">Gallery</a>
+</h4>
+
+<p>
+<table>
+<tr>
+<td width="300" valign="top">
+<applet
+   code="SpinIt.class"
+   codebase="."
+   archive="../ucigame.jar"
+   width="250"
+   height="250"
+   border="0"
+>
+Your browser cannot show Java applets.
+</applet>
+</td>
+<td width=600 valign="top" halign="center">
+SpinIt illustrates the rotation of sprites, and in particular
+how rotating a sprite also moves any sprites pinned to it.
+<br> <br>
+Apologies for the programmer art.
+</td>
+</tr>
+<tr>
+<td colspan=2>
+<br>
+<b>SpinIt.java</b>
+<br>
+<pre>
+import ucigame.*;
+
+public class SpinIt extends Ucigame
+{
+    Sprite tower, ring1, ring2, star1, star2;
+
+    int towerRotation = 0;
+    int ring1Rotation = 0;
+    int ring2Rotation = 0;
+    int star1Rotation = 0;
+    int star2Rotation = 0;
+
+    public void setup()
+    {
+        window.size(250, 250);
+        window.title("Spin It");
+        framerate(20);
+        window.showFPS();
+
+        canvas.background(200);
+
+        Image image = getImage("images/SpinItImages.png", 0);
+        tower = makeSprite(220, 225);
+        tower.addFrame(image, 42, 23);
+        ring1 = makeSprite(55, 55);
+        ring1.addFrame(image, 278, 198);
+        ring2 = makeSprite(55, 55);
+        ring2.addFrame(image, 278, 198);
+        star1 = makeSprite(78, 93);
+        star1.addFrame(image, 305, 73);
+        star1.addFrame(image, 398, 73);
+        star2 = makeSprite(78, 93);
+        star2.addFrame(image, 305, 73);
+        star2.addFrame(image, 398, 73);
+
+        tower.position(20, 20);
+        tower.pin(ring1, 0, 0);
+        tower.pin(ring2, 100, 0);
+        ring1.pin(star1, 10, 0);
+        ring2.pin(star2, 8, 0);
+    }
+
+    public void draw()
+    {
+        canvas.clear();  // draw background
+
+        tower.rotate(towerRotation);
+        ring1.rotate(ring1Rotation);
+        ring2.rotate(ring2Rotation);
+        star1.rotate(star1Rotation);
+        star2.rotate(star2Rotation);
+
+        tower.draw();
+    }
+
+    public void onKeyPress()
+    {
+        // Arrow keys move the tower
+        if (keyboard.isDown(keyboard.UP))
+            tower.nextY(tower.y() - 2);
+        else if (keyboard.isDown(keyboard.DOWN))
+            tower.nextY(tower.y() + 2);
+        if (keyboard.isDown(keyboard.LEFT))
+            tower.nextX(tower.x() - 2);
+        else if (keyboard.isDown(keyboard.RIGHT))
+            tower.nextX(tower.x() + 2);
+        // Q, W, A, S, and Z rotate things
+        if (keyboard.isDown(keyboard.Q))
+            star1Rotation++;
+        if (keyboard.isDown(keyboard.W))
+            star2Rotation++;
+        if (keyboard.isDown(keyboard.A))
+            ring1Rotation++;
+        if (keyboard.isDown(keyboard.S))
+            ring2Rotation++;
+        if (keyboard.isDown(keyboard.Z))
+            towerRotation++;
+        if (keyboard.isDown(keyboard.SPACE))
+        {
+            towerRotation = 0;
+            ring1Rotation = 0;
+            ring2Rotation = 0;
+            star1Rotation = 0;
+            star2Rotation = 0;
+        }
+        if (keyboard.isDown(keyboard.SHIFT))
+            canvas.background(0, 0, 255);
+    }
+}
+</pre>
+</td>
+</tr>
+</table>
+
+<br>
+<br>
+
+</body>
+</html>
+

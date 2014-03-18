@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/search-research-compute-vision-multimedia/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Milkshake, Drunk Researcher, and Problem Solving</title>
+		<link>http://ngs.ics.uci.edu/milkshake-drunk-researcher-and-problem-solving/</link>
+		<comments>http://ngs.ics.uci.edu/milkshake-drunk-researcher-and-problem-solving/#comments</comments>
+		<pubDate>Sun, 25 Jul 2010 12:59:41 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[General Updates]]></category>
+		<category><![CDATA[search research compute-vision multimedia]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1279</guid>
+		<description><![CDATA[Let me paraphrase a famous story in the context of research, with an example from computer vision and multimedia. A drunken multimedia researcher loses the keys to his house and is looking for them under a lamppost. Another researcher comes&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>Let me paraphrase a famous story in the context of research,  with an example from computer vision and multimedia.<br />
+A drunken multimedia researcher loses the keys to his house and is looking for them under a lamppost. Another researcher comes over and asks what heâ€™s doing.<br />
+â€œIâ€™m looking for my keysâ€ he says. &#8220;Let me help you&#8221;, said the new researcher and joined the effort.  Same thing gets repeated multiple times.  Soon there were many researchers looking for keys.  One of them got frustrated and asked: &#8220;where did you lose your keys&#8221;.  The original researcher said: â€œI lost them over thereâ€.<br />
+The new researcher looks puzzled. â€œThen why are you looking for them all the way over here?<br />
+â€œBecause the light is so much better here. We can formulate and solve the search problem much better here.  Over there it is not easy to formulate because you can not see well.â€<br />
+Finding the explanation reasonable, all researchers kept looking for the keys under the lamppost.</p>
+<p>After long rigorous and exhaustive efforts they concluded that the problem of finding lost keys is an unsolvable problem.</p>
+<p>A famous real story is related to the milkshake by McDonald&#8217;s. McDonald&#8217;s  wanted to make their milkshake as a more effective product.  A team of marketing researcher started analyzing standard statistical techniques, to find the taste, thickness, temperature and other basic features of milkshake to find what most people like.  One researcher decided to ignore the features and study why people buy milkshake.  The findings were startling.  People bought milkshake not for taste but for giving them company over long drives without being messy to consume and being a good companion for long periods.</p>
+<p>In content analysis also, one needs to really understand why a particular media source is used &#8212; what need does this really solve.<br />
+But that is not not easy to formalize and not much rigorous research has gone into such illdefined pragmatic problems.  It will be impossible to get your research respected by your community.  It is better to keep working on &#8216;unsolvable&#8217; problems that maybe easy to formulate and have some rigorous tools to apply and experiment with.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/milkshake-drunk-researcher-and-problem-solving/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+	</channel>
+</rss>
+

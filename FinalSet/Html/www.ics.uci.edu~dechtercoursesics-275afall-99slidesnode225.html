@@ -1,0 +1,178 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Type Testing</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Type Testing">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html4958 HREF="node226.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html4956 HREF="node222.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html4950 HREF="node224.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html4960 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html4959 HREF="node226.html"> Unification and Binding</A>
+<B>Up:</B> <A NAME=tex2html4957 HREF="node222.html"> Interface to Externals</A>
+<B> Previous:</B> <A NAME=tex2html4951 HREF="node224.html"> Exit</A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION001943000000000000000> Type Testing</A></H2>
+<P>
+The basic structure of an external predicate is almost always the same:
+first a check is made on the types of the arguments, and the predicate
+either fails or gives an error if the arguments are not of the expected
+type. Then the operation of the predicate continues. <A NAME=tex2html762 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  provides a
+set of macros which make this initial type checking easy.
+All take a single <i> tag</i> as argument.
+The macro <blockquote> <PRE>Error_If_Ref(tag);
+</PRE></blockquote>
+<A NAME=3421>&#160;</A>
+will return control from
+the external predicate with an instantiation fault if its argument
+is a free variable.
+The <tt> Check_</tt> family of
+<A NAME=3423>&#160;</A>
+macros, such as <blockquote> <PRE>Check_Atom(val);
+</PRE></blockquote>
+have the same effect as <tt> Error_If_Ref</tt>, and
+additionally return with a type error if the argument does not have the
+desired type.
+The only exception is <tt> Check_Ref</tt> which raises a type error if its
+argument is not a free variable.
+The <tt> Check_Output</tt> macro family, e.g.
+<blockquote> <PRE>Check_Output_Integer(tag)
+</PRE></blockquote>
+<A NAME=3431>&#160;</A>
+provide a way to test the type of arguments which may be either unbound
+or bound to a term of a certain type.
+They issue a <i> type error</i> if their argument is not a variable
+and it has not the specified type.
+<P>
+All the type testing macros mentioned in this section
+can be applied to arguments of the external
+predicates as well as to other Prolog terms, e.g. to the arguments
+of compound terms.
+In this case, however, their value has first to be <i> dereferenced</i>
+using the <tt> Dereference</tt> macro.
+The <blockquote> <PRE>Dereference(pw)
+</PRE></blockquote>
+<A NAME=3437>&#160;</A>
+<A NAME=3438>&#160;</A>
+macro takes a pointer to Prolog word <tt> pw</tt> and dereferences it,
+so that it points to the real value of the term.
+The arguments of an external predicate are dereferenced before
+the external is called and so they need not be dereferenced explicitly
+(as is the case in some Prolog systems).
+Other Prolog terms must be always
+dereferenced before testing.
+<P>
+Other macros are available which simply test the type of a Prolog term,
+and do not return control from the external. These are the <tt> Is</tt>
+<A NAME=3441>&#160;</A>
+family, which evaluate to true
+if the tag is of the correct type, and to false
+otherwise.
+Thus <tt> IsString(tag)</tt> will return true if <i> tag</i> is of
+type <tt> TSTRG</tt>, for instance; that is, if the Prolog term represented is
+a string.
+<P>
+Another useful type checking macro compares two Prolog terms.
+<blockquote> <PRE>SameType(tag1, tag2);
+</PRE></blockquote> is true if tag1 and tag2 are equal,
+<A NAME=3447>&#160;</A>
+false otherwise.
+<P>
+If the Prolog term represented by a <i> tag</i> is a functor, the <i> value</i>
+is its DID (dictionary identifier) and it
+<A NAME=3450>&#160;</A>
+can be used instead of some more complex structure in any
+place where the atom or functor needs to be referred to.
+Two macros are provided which take these identifiers as
+arguments.
+The macro <blockquote> <PRE>DidName(did);
+</PRE></blockquote> returns a pointer to a
+<A NAME=3453>&#160;</A>
+C string corresponding to the atom or functor (i.e. if the atom is
+<tt> program</tt> the string will be <tt> &quot;program&quot;</tt>).
+<A NAME=3456>&#160;</A>
+A pointer to a proper <A NAME=tex2html773 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  string (as described for the TSTRG tag)
+can be obtained from an atom using the similar macro <tt> DidString()</tt>.
+The macro <blockquote> <PRE>DidArity(did);
+</PRE></blockquote>
+<A NAME=3460>&#160;</A>
+returns the arity of the functor identified by <tt> did</tt>, and zero
+for an atom.
+A DID can be obtained from the name and arity of a functor using
+the macro
+<blockquote> <PRE>Did(Cstring, Arity)
+</PRE></blockquote>
+<A NAME=3464>&#160;</A>
+A DID has the C type <tt> word32</tt>.
+The <tt> Did()</tt> macro either only returns the appropriate DID if this
+functor already exists in the system, or it creates the new functor
+and its DID.
+For example, to obtain the DID of the functor <i> salary/3</i> use
+<blockquote> <PRE>word32     d_salary;
+..
+d_salary = Did(&quot;salary&quot;, 3);
+</PRE></blockquote>
+<P>
+The macro
+<blockquote> <PRE>Get_Name(val, tag, name)
+</PRE></blockquote>
+<A NAME=3472>&#160;</A>
+can be used to obtain the C string associated with an atom
+or a Prolog string and to issue an error if the type
+of the Prolog word is not atom or string.
+After its invocation, <i> name</i> points to the string.
+<P>
+For the predicates that take the input of the form <i> Name/Arity</i>
+the following macro is useful:
+<blockquote> <PRE>Get_Proc_Did(val, tag, did)
+</PRE></blockquote>
+<A NAME=3477>&#160;</A>
+if <i> val</i> and <i> tag</i> specify a compound term of the form <b> Name/Arity</b>,
+<tt> did</tt> is assigned to the DID of the corresponding functor
+otherwise the corresponding error type is raised.
+The arity is checked for being in the range for predicates (0 to
+<tt> max_predicate_arity</tt>), so this macro should be used when predicate
+specifications are to be checked.
+The macro
+<blockquote> <PRE>Get_Functor_Did(val, tag, did)
+</PRE></blockquote>
+<A NAME=3485>&#160;</A>
+is similar, but apart from a term <b> Name/Arity</b> it accepts as well
+an atom and returns its DID. As opposed to the previous one it does
+not check for an arity limit since a limit exists only for predicates,
+not for data structures.
+<P>
+With the macros so far mentioned it is possible to write externals
+for Prolog procedures which simply test the types of their arguments. A
+simple example is the following, which tests if its two
+arguments are successive integers. An instantiation fault occurs if
+either argument is uninstantiated, and a type error if either is not an
+integer.
+<blockquote> <PRE>int
+p_succ_ints(val1, tag1, val2, tag2)
+value val1, val2;
+type  tag1, tag2;
+{
+
+        Check_Integer(tag1);
+        Check_Integer(tag2);
+
+        Succeed_If(val1.nint + 1 == val2.nint);
+}
+</PRE>
+</blockquote><BR> <HR><A NAME=tex2html4958 HREF="node226.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html4956 HREF="node222.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html4950 HREF="node224.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html4960 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html4959 HREF="node226.html"> Unification and Binding</A>
+<B>Up:</B> <A NAME=tex2html4957 HREF="node222.html"> Interface to Externals</A>
+<B> Previous:</B> <A NAME=tex2html4951 HREF="node224.html"> Exit</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <title>Mitch Dempsey - Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+  </head>
+  <body>
+	<table width="50%" border="0" cellpadding="5">
+		<tr>
+	        <td valign="top">
+	            <h1><span id="name">Mitch Dempsey</span></h1>
+	            MS. Student<br>
+	            <a href="http://www.ics.uci.edu/informatics/">Department of Informatics</a><br>
+	            Donald Bren School of Information and Computer Science<br>
+	            University of California, Irvine
+	            
+	            <p>Advisor: <a href="http://www.ics.uci.edu/~andre/">Andr&eacute; van der Hoek</a></p>
+	        </td>
+	        <td width="30%"><!--Img--></td>
+	    </tr>
+	    <tr>
+	    	<td colspan="2" valign="top">
+	    	<h3>Contact</h3>
+<p>Email: mdempsey@ics.uci.edu</p>
+<p>Office: ICS2 110</p>
+
+<!--<h3>Research</h3>
+<p>CONTENT</p>
+
+<h3>Workshop Papers</h3>
+<ul>
+	<li>G. Bortis and A. van der Hoek, <a href="papers/gbortis_kcsd2009.pdf">DesignMinders: A Design Knowledge Collaboration Approach</a>, <em>Third International Workshop on Knowledge Collaboration in Software Development</em>, November 2009</li>
+	<li>G. Bortis and A. van der Hoek, <a href="papers/gbortis_kreuse2009.pdf">DesignMinders: Preserving and Sharing Informal Software Design Knowledge</a>, <em>2009 ICSR Second Workshop on Knowledge Reuse</em>, September 2009</li>
+	<li>G. Bortis and A. van der Hoek, <a href="papers/gbortis_shark2008.pdf">Software Pre-Patterns as Architectural Knowledge</a>, <em>2008 ICSE Workshop on Sharing and Reusing Architectural Knowledge</em>, May 2008.</li>
+</ul>
+
+<h3>Conference Papers</h3>
+<ul>
+	<li>G. Bortis, <a href="papers/gbortis_mirth2008.pdf">Experiences with Mirth: An Open Source Health Care Integration Engine</a>, <em>2008 ICSE Experience Track on Software Engineering in Health Care</em>, May 2008.</li>
+	<li>A. Sarma, G. Bortis, and A. van der Hoek, <a href="/papers/sarma_ase2007.pdf">Towards Supporting Awareness of Indirect Conflicts across Software Configuration Management Workspaces</a>, Twenty-second IEEE/ACM International Conference on Automated Software Engineering, November 2007.</li>
+
+</ul>
+
+<h3>Other Interests</h3>
+<p>I like to <a href="images/bowling.png">travel</a>, explore the <a href="images/hiking.png">outdoors</a>, and use Macs.</p>
+
+
+</td>
+</tr>
+</table>
+	
+-->
+  </body>
+</html>

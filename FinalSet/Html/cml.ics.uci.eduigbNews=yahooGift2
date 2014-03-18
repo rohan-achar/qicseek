@@ -1,0 +1,100 @@
+		<!-- Begin DisplayHeader HTML -->
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+		<html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+			<title>CML :: Center for Machine Learning and Intelligent Systems</title>
+
+			<link href="css/igbweb_template2.css" rel="stylesheet" type="text/css" />
+			<link rel="SHORTCUT ICON" href="/favicon.ico" />
+
+			<noscript>
+			Please enable javascript on your browser.
+			</noscript>
+
+			<script type="text/javascript" src="igbjs/milonic_src.js"></script>
+			<script	type="text/javascript">
+			if(ns4)_d.write("<scr"+"ipt type=text/javascript src=igbjs/mmenuns4.js><\/scr"+"ipt>");
+			  else _d.write("<scr"+"ipt type=text/javascript src=igbjs/mmenudom.js><\/scr"+"ipt>");
+			</script>
+			<!--<script type="text/javascript" src="/igbjs/menu_data.js"></script>-->
+
+		</head>
+		<!-- End DisplayHeader HTML -->
+
+			<!-- Begin Left Nav & Content Area -->
+
+		<body>
+		<!--<div class="mainDiv">-->
+		<table align="center">
+		<tr>
+		<td class="mainDiv" align="center" valign="middle">
+
+		<table cellpadding="0" cellspacing="0">
+			<tr align="left">
+			<td align="center" colspan="2" >
+			<a href="?"><img src="media/banners/center_title_banner.jpg" border=0 /></a>
+			<!--<img src="media/banners/cml_banner.jpg" border="0" alt="Center for Machine Learning and Data Mining" align="middle"/>-->
+			</td>
+			</tr>
+			<!--
+			<tr>
+				<td colspan="2" height="1">
+				</td>
+			</tr>
+			-->
+			<tr valign="top">
+				<td background="media/uci_background.gif" width="147.5">
+				&nbsp;
+			    <script type="text/javascript" src="igbjs/menu_data.js"></script>
+
+
+				<br><br><br><br><br><br><br>
+
+				<!--<table cellpadding=4><tr><td bgcolor=WHITE><a href='http://www.ics.uci.edu/~aimlpage/meetings.html'>2007 AI/ML Weekly Seminar</a></tr></td></table>-->
+
+				</td>
+				<td width="723px" >
+				<div class="contentArea">
+					<!-- <table> -->
+						<!-- <tr> -->
+							<!-- <td> -->
+							  <!--<div style="background: white;">-->
+								<!-- Begin Actual content -->
+								<!--Title-->
+<p class="pageName">Center Receives Yahoo! Gift Funding<!--IGB Technology Licensed to CODA Genomics, Inc. --></p>
+
+<!-- Below is the html -->
+<p>February 2009</p>
+<div>
+  <p align="center"><strong>Center Receives Yahoo! Gift Funding</strong></p>
+  <p>The Center recently received gift funding in the amount of $5000 from <a href='http://research.yahoo.com/'>Yahoo! Research</a> for continued support of the weekly <a href='http://cml.ics.uci.edu/?page=events&subPage=aiml'>Seminar Series</a> in Artificial Intelligence and Machine Learning. The series has been running for over 2 years now with support from Yahoo! and has been a great success with upwards of 40 to 50 students and faculty attending weekly.</p>
+
+
+
+
+</div>
+<!-- Above is the html -->
+  <p>&nbsp;</p><p><a href="?page=about&subPage=news">More CML News...</a></p>
+								<!-- End Actual content -->
+						      <!--</div>-->
+							<!-- </td> -->
+						<!-- </tr> -->
+					<!-- </table> -->
+				<!--</div>  contentArea -->
+			<!--<div class="tagline">-->
+		<p class="footerArea" align="center">&copy; Copyright 2006. <a href="?">Center for Machine Learning and Intelligent Systems</a><br>949.824.9296 tel | 949.824.9813 fax |
+		<a href="mailto:cmlis@ics.uci.edu">cmlis@ics.uci.edu</a></p>		</div> <!-- end content area + footer -->
+		<!-- End Footer -->
+				</td>
+			</tr>
+		</table>
+		<!--</div>--> <!--Whole page main div -->
+		</td>
+		</tr>
+		</table>
+	<!--End body region -->
+	</body>
+	</html>
+	
+

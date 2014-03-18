@@ -1,0 +1,269 @@
+<HTML>
+<head>
+<title> CS 113 / Informatics 125 Syllabus</title>
+</head>
+
+<body  bgcolor="#fffff0">
+<CENTER>
+<h2>
+CS 113 / Informatics 125: Computer Game Development
+</h2>
+
+Winter, 2014 <br>
+T Th 3:30 - 4:50pm, SH 134,
+Course codes: 34100 (CS) and 37070 (Inf)
+</CENTER>
+<P>
+
+<b>Instructor:</b>
+<A HREF="http://www.ics.uci.edu/~frost/">Dan Frost</a>
+	<A HREF="mailto:frost@ics.uci.edu">frost@ics.uci.edu </A> &nbsp;
+	Office: Bren 5058
+	(949) 824-1588 (Why UCI? 1 Luv!)
+	Office hours: TBD, and by appointment
+<BR>
+<b>Teaching assistant:</b>
+Eugenia Gabrielova  &nbsp; eugenia.g <tt>at</tt> uci.edu
+<BR>
+
+<p>
+<b>Goal:</b>
+To learn about the science, art, craft, and industry
+of computer games.
+
+<!--
+<h1>If You Were Not At Class On Thursday</h1>
+
+If you didn't attend lecture on Tuessday, Jan. 7, here is some
+important information:
+<ol>
+<li>You must print out the <a href="TeamForm.pdf">Team Information Form</a> (pdf),
+fill it out, and hand in the page in class on Thursday, Jan. 9.
+<li>If you are not enrolled in CS 113 or Inf 125, go to Student Affairs and ask
+for a Prerequisite Substitution form; bring that to class on Thursday.
+</ol>
+
+<p>
+&nbsp;
+-->
+
+<p><hr><p>
+
+Useful links:
+<ul>
+<li> <a href="TeamForm.pdf">Team Information Form</a>
+<li> <a href="Pitches.html">Design Document drafts and pitches -- schedule and assignments</a>
+<!-- <li> <a href="final-schedule.html">Final presentation schedule and information</a> -->
+<!-- <li> <a href="http://tinyurl.com/LCADMap">Google Map for LCAD</a>
+<li> <a href="http://tinyurl.com/LCADBigBend">Google Map for LCAD</a>
+ -->
+<li> <a href="http://www.lcad.edu/site/game-art/">LCAD Game Art program</a>
+
+<li> Need space on the web?  Consider
+	 <a href="http://www.ics.uci.edu/computing/web/personalpage.php">ICS's web space</a> and
+	 <a href="https://webfiles.uci.edu/xythoswfs/webui">UCI Webfiles</a>
+<li> Ucigame game library: <a href="http://frost.ics.uci.edu/Ucigame/Ucigame-20120229/">
+		current beta version at http://frost.ics.uci.edu/Ucigame/Ucigame-20120229/</a>
+<li> Some PPTs on modeling and rigging:
+		<a href="Modeling1.ppt">#1</a>, <a href="Modeling2.ppt">#2</a>, <a href="Modeling3.ppt">#3</a>.
+<li> <a href="http://imgur.com/usWXmhM">Latency!</a>
+<li> <a href="http://frost.ics.uci.edu/cs113/BaldursGateScript.pdf">A form of AI</a>
+<!--
+<li> Some PPTs on Graphics Processing Units:
+		<a href="GPU1.ppt">#1</a>, <a href="GPU2.ppt">#2</a>, <a href="GPU3.ppt">#3</a>.
+-->
+
+</ul>
+<p><hr><p>
+
+<h3>Ground rules</h3>
+<UL>
+<LI>Your grade will be based mostly
+     on your team's accomplishments, which are primarily the
+     design document, the delivered game, and the final presentation.
+     <!--You will also create a small game individually.-->
+     No quizzes, tests, or final exam.
+     Usually all team members get the same grade for the team game.
+
+<LI> <b>If</b> you add the course after Jan. 9, or if you do not fill out and turn
+in the Team Information Form,
+or if you drop from your team and do not find another team,
+<b>then</b>
+you will not be able to work on a team and the
+best possible grade you can get for the course will be a B.
+</UL>
+
+<p>
+<h3>Important Dates</h3>
+Attendance at lecture period is required on certain days with student or
+guest speakers:
+<ul>
+<li> Tuesday, Jan. 14: team announcements and first team meetings
+<li> Thursday, Jan. 23: brief team meetings with Prof. Frost
+<li> Team Pitches: Tuesday, Feb. 4, Thursday, Feb. 6, Tuesday, Feb. 11
+<!--<li> Tuesday, Nov. 13: Shan Jiang's talk-->
+<!--<li> Tuesday, Nov. 27 and Thursday, Nov. 29: 9th week pitches.-->
+<!--<li> Monday, Wednesday, Friday, and Monday, Oct. 24, 26, 28, and 31: Team pitches-->
+<!--<li> Monday, Wednesday, Monday, Wednesday, Nov. 21, 23, 28, and 30: 9th week status reports-->
+<!--<li> May 27, June 1, June 3: Team status reports-->
+<li><i>More to be listed.</i>
+</ul>
+
+
+<P>
+<h3>Assignments and projects</h3>
+<UL>
+
+<li> First individual assignment, due <b>Thursday, 1/9/2014</b> 3:30pm:
+     Team Information Form.
+
+<li> Second individual assignment, due <b>Sunday, 2/2/2014</b>:
+     Comment on another team's draft design.
+
+<!--
+<li> Third individual assignment: a small game, due <b>Sunday, 10/21/2012</b>.
+	 Submit via <a href="https://eee.uci.edu/myeee/"> the EEE Drop Box</a>.
+	 If you haven't made a game before and are comfortable with Java, a good
+	 choice is to use the
+	 <a href="http://frost.ics.uci.edu/Ucigame/Ucigame-20120229/">Ucigame</a> framework.
+	 You can use any language and/or library; run anything exotic by Prof. Frost first.
+-->
+
+<li> Third individual assignment: six weekly status reports,
+	 due Mondays of sixth through Finals weeks.
+
+<P>
+
+
+<LI> The major part of the course is a project, to be completed by a team.
+The project will be to design and implement substantial portions of
+a computer game.
+The project consists of the following:
+<OL>
+<LI> A statement of team composition.  Name the students on the team,
+     the grade option of each student, the major of each student,
+     the team name, brief descriptions of two ideas you are considering
+     for the team's game, and the time and place your team will meet
+     for three hours every week.
+     If you plan to work with students from <!--LCAD, or anyone--> outside
+     of the class, please mention that as well.
+     Send by email to <i>eugenia.g@uci.edu</i>.
+     <b>Wednesday, 1/15/2014, by noon.</b>
+     Put "CS 113/Inf 125" at the start of the email's subject line.
+<LI> A draft design document for the game.  This should be between
+     20 and 40 pages in length.  It should be on the World Wide Web
+     in HTML or PDF format (or another format that permits scrolling
+     through the entire document).
+     <!-- Google Docs fine, a wiki is not, you lose the order and it's
+          more convenient for the reader to have all in one scrollable doc. -->
+     Due <b>Wednesday, 1/29/2014</b> (by the end of the day).
+     Email the URL of your draft to Prof. Frost.
+     Structure your Design Doc based on
+     <a href="DesignDoc.html">our recommended Design Doc structure</a>.
+<LI> A presentation, or "pitch," of the team's game idea
+     in the fifth or sixth week of the class <b>Tuesday, 2/4/2014</b>,
+     or <b>Thursday, 2/6/2014</b>, or <b>Tuesday, 2/11/2014</b>,
+<LI> A final design document for the game.  This should be about
+     30 to 40 pages in length.  In addition to describing the game,
+     technologies, art, and game play in detail,
+     it should describe the specific responsibilities
+     of each team member.
+     <b>Due Wednesday, 2/12/2014.</b>  This is also on the web,
+     and the URL should be emailed to Prof. Frost.
+<LI> A presentation of the game development status in eighth week - dates and times TBD.
+<LI> A presentation of the game at the end of week 10 or in Finals Week.
+	 <b>To be scheduled; each team will have 30 minutes.</b>
+     Your team's grade will be based
+     on the game as of this presentation.
+<LI> A completion document, which includes an optional users manual,
+     revised design document,
+     individual statements about the course of the project (optional), and a
+     CD with source code, executables, art and
+     music files, a video of the game being played, and at least two screen shots.
+     <b>Due at final presentation.</b>
+<LI> Participation in the CS 113/Informatics 125 Open House, held during
+     the course's Final Exam period, <b>Tuesday, 3/18/2014 4:00-6:00pm</b>.
+</OL>
+
+</ul>
+<P>
+
+<P>
+<h3>Scoring and grading</h3>
+
+Grading will be on a straight scale, based on total points.
+(A+ 97.0 or higher;
+A  93.0 to 96.9;
+A- 90.0 to 92.9;
+B+ 87.0 to 89.9;
+B  83.0 to 86.9;
+B- 80.0 to 82.9; and so on.)
+
+<p>
+
+Each game project will receive a letter grade, e.g.
+A, A-, B+, B (these are by far the most common grades).
+The game project is worth at most 75 points, as follows:
+A+, 73 to 75; A, 71; A-, 68; B+, 65; B, 62; and so on.
+
+<p>
+The game design document (including pitch and 8th
+week status reports) is worth up to 10 points; most teams
+will get 9 (an A).
+
+<p>
+Individual accomplishments are worth up to 15 points:
+
+<blockquote>
+<!--
+3 - Individual game (0: none; 1-2: very partial; 3: nice game; 4: excellent &mdash; extra credit)
+<br>
+-->
+5 - attendance (roll will be taken on six or more dates)
+<br>
+2 - comment on another team's draft design document
+<br>
+2 - attendance at and energy demonstrated in eighth week presentation
+<br>
+6 - six status reports
+</blockquote>
+
+<p>
+
+<HR>
+
+<P>
+<b>Special Accommodations:</b>
+Any student who feels he or she may need an accommodation based on
+the impact of a disability should contact me privately to discuss
+his or her specific needs.
+Also contact the Disability Services
+Center at (949) 824-7494 as soon as possible to ensure that
+such accommodations are implementationed in a timely fashion.
+
+<P>
+
+<HR>
+
+<P>
+
+At the Computer Game Design Conference on May 6, 1998, there
+was a panel on design docs.  Moderator Alex Dunne referenced a real
+design document which was submitted by panelist John Jack, a producer
+at Monolith.  This design doc was from the company's recent computer
+game, "Claw".
+<a href="http://www.ics.uci.edu/~frost/GameDesign/ClawDesignDoc.pdf">
+Claw Design Document</a>.
+
+<p>
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
+&nbsp; <br>
+
+</BODY>
+</HTML>
+
+
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: ACM Multimedia 2009</title>
+	<atom:link href="http://ngs.ics.uci.edu/acm-multimedia-2009/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/acm-multimedia-2009/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Sele</title>
+		<link>http://ngs.ics.uci.edu/acm-multimedia-2009/comment-page-1/#comment-3124</link>
+		<dc:creator><![CDATA[Sele]]></dc:creator>
+		<pubDate>Fri, 23 Oct 2009 13:09:30 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1168#comment-3124</guid>
+		<description><![CDATA[I agree with your article. 
+
+I think this changes are positive and help us to make life easier.]]></description>
+		<content:encoded><![CDATA[<p>I agree with your article. </p>
+<p>I think this changes are positive and help us to make life easier.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Talleres Uvilla</title>
+		<link>http://ngs.ics.uci.edu/acm-multimedia-2009/comment-page-1/#comment-3116</link>
+		<dc:creator><![CDATA[Talleres Uvilla]]></dc:creator>
+		<pubDate>Wed, 21 Oct 2009 21:02:26 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1168#comment-3116</guid>
+		<description><![CDATA[Any video resources about the conference? Multimedia is an interesting subject for me, thank you]]></description>
+		<content:encoded><![CDATA[<p>Any video resources about the conference? Multimedia is an interesting subject for me, thank you</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

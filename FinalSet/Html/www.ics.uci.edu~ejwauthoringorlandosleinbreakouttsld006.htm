@@ -1,0 +1,45 @@
+
+<HTML>
+
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft Internet Assistant for PowerPoint 97">
+ <TITLE>Status codes</TITLE> 
+</HEAD>
+
+<BODY     >
+
+ <H1>Status codes</H1> 
+ <P><UL>
+<LI><H2>409 (Conflict) 
+</H2>
+<UL>
+<LI>where the conflict is not with the state of the resource, but with some other resource
+</UL></UL><UL>
+<LI><H2>207 (Multi-Status)
+</H2>
+<UL>
+<LI>where the method allows multiple elements in a single request, but the client only included a single element
+<LI>where a single reason explains why none of the elements in the request could be satisfied</UL></UL></P>
+<P></P> 
+<P>
+<TABLE>
+  <TD HEIGHT=100 WIDTH=100> <A HREF="tsld005.htm">Previous slide</A> </TD>
+  <TD HEIGHT=100 WIDTH=100> <A HREF="tsld007.htm">Next slide</A> </TD>
+  <TD HEIGHT=100 WIDTH=150> <A HREF="tsld001.htm">Back to first slide</A> </TD>
+  <TD HEIGHT=100 WIDTH=150> <A HREF="sld006.htm">View graphic version</A> </TD>
+</TABLE>
+<BR>
+</P>
+
+ <FONT size=4><STRONG> Notes: </FONT></STRONG>
+  <HR SIZE=3> <P> <UL>
+409: For example, the request tries to position the resource in an ordering before or after a resource that is not in the collection.  So the conflict is with the state of the collection, not with the state of the resource identified by the request-URI.  Or the request might try to position a resource in an unordered collection.
+</UL><UL>
+207: For example, on an ORDERPATCH where only a single change is requested, the behavior should be analogous with PROPPATCH where only a single change to a single property is requested -- must it be a 207? 
+</UL><UL>
+For example, a PROPFIND or PROPPATCH on a dangling direct reference.  Must the response be 207 (Multi-Status), or could it just be a 404 (Not Found)? </UL> </P> 
+
+</Body>
+</HTML>
+

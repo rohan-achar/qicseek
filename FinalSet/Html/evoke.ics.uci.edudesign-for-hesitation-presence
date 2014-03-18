@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<link href='http://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'>
+
+<meta charset="UTF-8">
+
+<title>  Design for Hesitation &amp; Presence</title>
+
+
+<!-- wp_header -->
+<link rel="alternate" type="application/rss+xml" title="EVOKE Lab &raquo; Feed" href="http://evoke.ics.uci.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="EVOKE Lab &raquo; Comments Feed" href="http://evoke.ics.uci.edu/comments/feed/" />
+<link rel='stylesheet' id='themify-shortcodes-css'  href='http://evoke.ics.uci.edu/wp-content/themes/suco/themify/css/shortcodes.css?ver=1.2.8' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-style-css'  href='http://evoke.ics.uci.edu/wp-content/themes/suco/style.css?ver=1.2.8' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-media-queries-css'  href='http://evoke.ics.uci.edu/wp-content/themes/suco/media-queries.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='pretty-photo-css'  href='http://evoke.ics.uci.edu/wp-content/themes/suco/prettyPhoto.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css'  href='http://fonts.googleapis.com/css?family=Rokkitt&#038;v1&#038;ver=3.8.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-content/themes/suco/js/audio-player.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-includes/js/comment-reply.min.js?ver=3.8.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://evoke.ics.uci.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://evoke.ics.uci.edu/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Values in Design 2013 PhD Summer School  |  July 28-August 3' href='http://evoke.ics.uci.edu/values-in-design-2013/' />
+<link rel='next' title='Knowledge Infrastructure Policy: From Shrinking Cities to Sustainable Cities' href='http://evoke.ics.uci.edu/knowledge-infrastructure-policy-from-shrinking-cities-to-sustainable-cities/' />
+<meta name="generator" content="WordPress 3.8.1" />
+<link rel='canonical' href='http://evoke.ics.uci.edu/design-for-hesitation-presence/' />
+<link rel='shortlink' href='http://evoke.ics.uci.edu/?p=403' />
+
+<!-- Open Graph Tags -->
+<meta property="og:site_name" content="EVOKE Lab" />
+<meta property="og:type" content="article" />
+<meta property="og:description" content="This project will enliven everyday life on campus. As with many campuses, the design of public space at UCI has been motivated by values of efficiency (getting cars parked, getting students to classes) and security (keeping it safe) and are seen by many as “sociofugal” --unfriendly and uninspiring -- spaces.  Our challenge is to take ..." />
+<meta property="og:url" content="http://evoke.ics.uci.edu/design-for-hesitation-presence/" />
+<meta property="og:title"  content="Design for Hesitation &amp; Presence" />
+<!-- End Open Graph Tags -->
+<!-- RSS Feed -->
+<link rel="alternate" type="application/rss+xml" title="EVOKE Lab RSS Feed" href="http://evoke.ics.uci.edu/feed/" />
+
+
+<link href="http://evoke.ics.uci.edu/wp-content/themes/suco/skins/gray/style.css" rel="stylesheet" type="text/css" />
+<!-- modules styling -->
+<style type='text/css'>
+#site-logo {
+position: absolute;
+top: 0px;
+left: 0px;
+}
+
+.post-title {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+</style>
+
+
+<!-- media-queries.js -->
+<!--[if lt IE 9]>
+	<script src="http://evoke.ics.uci.edu/wp-content/themes/suco/js/respond.js"></script>
+<![endif]-->
+
+<!-- html5.js -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<meta name="viewport" content="width=100%, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+<!--[if lt IE 9]>
+	<script src="http://s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+	<![endif]-->
+
+<script type="text/javascript">
+	AudioPlayer.setup("http://evoke.ics.uci.edu/wp-content/themes/suco/player.swf", {
+		width: '90%',
+		transparentpagebg: 'yes'
+	});
+</script>
+
+</head>
+
+<body class="single single-post postid-403 single-format-standard skin-gray sidebar1">
+
+<div id="pagewrap">
+
+	<div id="headerwrap">
+
+				<header id="header" class="pagewidth">
+        	        
+			<hgroup>
+									<div id="site-logo"><a href="http://evoke.ics.uci.edu" title="EVOKE Lab"><img src='http://evoke.ics.uci.edu/wp-content/themes/suco/themify/img.php?src=http://evoke.ics.uci.edu/wp-content/uploads/2013/02/evokelogo_color.png&amp;w=200&amp;h=' alt='EVOKE Lab'   width='200'  /></a></div>					
+				<h2 id="site-description"></h2>
+			</hgroup>
+	
+            <div id="main-nav-wrap">
+                <div id="menu-icon" class="mobile-button"></div>
+                <nav>
+                    <ul id="main-nav" class="main-nav"><li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="http://evoke.ics.uci.edu/">Home</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://evoke.ics.uci.edu/people/">People</a></li>
+<li id="menu-item-450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-450"><a href="http://evoke.ics.uci.edu/research/">Research</a>
+<ul class="sub-menu">
+	<li id="menu-item-454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-454"><a href="http://evoke.ics.uci.edu/research/knowledge-infrastructures/">Knowledge Infrastructures</a></li>
+	<li id="menu-item-453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-453"><a href="http://evoke.ics.uci.edu/research/values-in-design/">Values in Design</a></li>
+	<li id="menu-item-451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-451"><a href="http://evoke.ics.uci.edu/research/design-by-youth/">Design by Youth</a></li>
+	<li id="menu-item-452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-452"><a href="http://evoke.ics.uci.edu/research/emerging-configurations/">Emerging Configurations</a></li>
+</ul>
+</li>
+<li id="menu-item-304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-304"><a href="http://evoke.ics.uci.edu/events/">Events</a></li>
+<li id="menu-item-303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303"><a href="http://evoke.ics.uci.edu/blog/">Blog</a></li>
+<li id="menu-item-606" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-606"><a href="http://evoke.ics.uci.edu/contact/">Contact</a></li>
+</ul>                    <!-- /#main-nav --> 
+                </nav>
+			</div>
+            <!-- /#main-nav-wrap -->
+	
+					<div id="searchform-wrap">
+				<div id="search-icon" class="mobile-button"></div>
+				<form method="get" id="searchform" action="http://evoke.ics.uci.edu/">
+	<input type="text" name="s" id="s"  placeholder="Search">
+</form>
+			</div>
+			<!-- /#searchform-wrap -->
+		
+        
+			<div class="social-widget">
+					
+							</div>
+			<!-- /.social-widget -->
+			
+			<div class="header-widget">
+							</div>
+			<!-- /.header-widget -->
+
+					</header>
+		<!-- /#header -->
+        		
+		<div id="nav-bar">
+		</div>
+		<!-- /#nav-bar -->
+		
+	</div>
+	<!-- /.headerwrap -->
+	
+	<div id="body" class="clearfix"> 
+	
+
+<div id="upperwrap">
+		
+	<div class="pagewidth">
+		<h1 class="page-title">Values in Design</h1>
+	</div>
+		
+</div>
+<!-- /#upperwrap -->
+
+	
+	<!-- layout-container -->
+	<div id="layout" class="pagewidth clearfix">
+
+				<!-- content -->
+		<div id="content" class="list-post">
+        				
+			
+<!-- post -->
+<article id="post-403" class="post-403 post type-post status-publish format-standard hentry category-values-in-design post clearfix cat-14">
+		
+	<span class="post-icon"></span><!-- /post-icon -->
+
+	<!-- post-title -->
+								<h1 class="post-title"><a href="http://evoke.ics.uci.edu/design-for-hesitation-presence/">Design for Hesitation &#038; Presence</a></h1>
+						<!-- /post-title -->
+
+	<!-- post-meta -->
+	<p class="post-meta"> 
+					<time datetime="2013-02-25" class="post-date" pubdate>Feb 25, 2013</time>
+		
+						<span class="post-author"><a href="http://evoke.ics.uci.edu/author/cloder/" title="Posts by Courtney Loder" rel="author">Courtney Loder</a></span>
+				<span class="post-category"><a href="http://evoke.ics.uci.edu/category/research/values-in-design/" title="View all posts in Values in Design" rel="category tag">Values in Design</a></span>
+										    
+	</p>
+	<!-- /post-meta -->
+	
+	
+<!-- post-image -->
+<!-- /post-image -->
+
+<!-- post-content -->
+
+	<p>This project will enliven everyday life on campus. As with many campuses, the design of public space at UCI has been motivated by values of efficiency (getting cars parked, getting students to classes) and security (keeping it safe) and are seen by many as “sociofugal” &#8211;unfriendly and uninspiring &#8212; spaces.  Our challenge is to take such a ‘dead’ space (a parking garage, unused open space) on campus and develop a redesign based around the values of hesitation and presence.  By hesitation and presence, we mean creating spaces where people will stop, become aware of the area and people around themselves, and engage in meditation or reflection in ways that take them outside of the constant drive to get to the next class or meeting &#8212; thereby both permitting and encouraging enriched relationships with their physical environments. To get there, we will use ideas and principles from the fields of design, architecture, social ecology and computer science.</p>
+<p>Contact: <a title="Knowledge Infrastructure Policy: From Shrinking Cities to Sustainable Cities" href="mailto:sslota@uci.edu">Steve Slota </a></p>
+
+<!-- /post-content -->	
+		
+    </article>
+<!-- /post -->
+	
+			
+				
+			<!-- post-nav -->
+<div class="post-nav clearfix"> 
+	<span class="prev"><a href="http://evoke.ics.uci.edu/values-in-design-2013/" rel="prev"><span class="arrow">&laquo;</span> Values in Design 2013 PhD Summer School  |  July 28-August 3</a></span>	<span class="next"><a href="http://evoke.ics.uci.edu/knowledge-infrastructure-policy-from-shrinking-cities-to-sustainable-cities/" rel="next"><span class="arrow">&raquo;</span> Knowledge Infrastructure Policy: From Shrinking Cities to Sustainable Cities</a></span></div>
+<!-- /post-nav -->
+	
+							
+
+	
+	
+
+
+		
+						
+            		</div>
+		<!-- /content -->
+        
+
+<aside id="sidebar">
+	
+	
+	</aside>
+<!-- /#sidebar -->
+
+</div>
+<!-- /layout-container -->
+	
+
+		</div>
+	<!-- /body -->
+	
+	<div class="footer-widgetswrap clearfix">
+		<div class="footer-widgets pagewidth clearfix">
+	
+				
+	<div class="footer-widgets clearfix">
+
+								<div class="col3-1 first">
+							</div>
+								<div class="col3-1 ">
+							</div>
+								<div class="col3-1 ">
+							</div>
+		
+	</div>
+	<!-- /.footer-widgets -->
+
+			
+		</div>
+		<!-- /.footer-widgets -->
+	</div>
+	<!-- /.footer-widgetswrap -->
+
+	<div id="footerwrap">
+    
+    			<footer id="footer" class="pagewidth clearfix">
+        				
+			<div id="footer-logo">
+									 <a href="http://evoke.ics.uci.edu/">EVOKE Lab</a>
+							</div>
+			<!-- /footer-logo -->
+	
+				
+			<div class="footer-text clearfix">
+				<div class="one"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</div>
+				<div class="two">Powered by <a href="http://wordpress.org">WordPress</a>  &bull; <a href="http://themify.me">Themify WordPress Themes</a></div>
+			</div>
+			<!-- /.footer-text --> 
+
+					</footer>
+		<!-- /#footer -->
+                
+	</div>
+	<!-- /#footerwrap -->
+	
+</div>
+<!-- /#pagewrap -->
+
+
+<!-- wp_footer -->
+
+
+				
+		<!-- slider -->
+		<script>
+		/////////////////////////////////////////////
+		// Slider	 							
+		/////////////////////////////////////////////
+		jQuery(document).ready(function($){
+			$('#slider').flexslider({
+				animation: "slide",
+				slideshow: true,
+				slideshowSpeed: 4000,
+				animationSpeed: 3000,
+				animationLoop: true, 
+				directionNav: true,
+				prevText: "&laquo;",
+				nextText: "&raquo;",
+				pauseOnHover: true
+			});
+		});
+		</script>
+        <script type='text/javascript' src='http://evoke.ics.uci.edu/wp-content/themes/suco/js/jquery.prettyPhoto.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-content/themes/suco/js/jquery.slider.js?ver=3.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var themifyScript = {"overlayTheme":"pp_default"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-content/themes/suco/js/themify.script.js?ver=3.8.1'></script>
+
+</body>
+</html>

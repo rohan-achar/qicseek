@@ -1,0 +1,68 @@
+<HTML>
+<HEAD>
+  <TITLE>prides2</TITLE>
+  <base href="http://www.ics.uci.edu/~aisi/97_aisics/people/epride/">
+</HEAD>
+
+<BODY TEXT="#000000" BGCOLOR="#8080FF" LINK="#FFFFFF" VLINK="#FF0000" ALINK="#000000" BACKGROUND="images/bluewind_weave.gif">
+<P>
+<!--start hypertext markup language-->
+<!--start head section-->
+<!--places title in title bar and ends title section-->
+<!--end head section-->
+<!--start body section and color, style of background-->
+<!--start paragraph-->
+<!--start insert and width of horizonal ruler section-->
+<!--end horizonal ruler and paragraph sections-->
+<P><HR></P>
+<P ALIGN="CENTER">
+<!--start center and insert image with height,width and alignment end center-->
+<!--centers the image-->
+</P>
+<IMG SRC="images/kidspct.gif" ALIGN="LEFT" WIDTH=100 HEIGHT=100>
+<!--starts the font size section and ends font section-->
+<!--changes text style and quotes on Home-->
+<FONT SIZE=7><P ALIGN="CENTER">The Prides Family "Home" Page</FONT> 
+<!--force line break--></P>
+<!--start and end of JAVA script section and show time and date-->
+<The current time is Thu Jul 03 15:16:30 Pacific Daylight Time 1997>
+<P><HR></P><IMG SRC="images/aniconstr.gif" ALIGN="RIGHT" WIDTH=136 HEIGHT=137>
+<FONT SIZE=5 COLOR="#000000"><B><P>Welcome to the Prides family home page,
+that is. Come on in, stay awhile, and meet the folks.</FONT></B> </P>
+<P><HR></P>
+<FONT SIZE=4><P>What's New with the Pride Family</P>
+</FONT><P>�&nbsp
+<A HREF="http://home.netscape.com/assist/net_sites/starter/nowhere.html">
+Robert Pride</A>,
+aka "Paw-Paw," saw son Roy graduate in June. <BR>
+�&nbsp;<A HREF="http://home.netscape.com/assist/net_sites/starter/nowhere.htm">
+Watched son R.J. make little league all-stars </A>last month. <BR>
+�&nbsp;<A HREF="http://home.netscape.com/assist/net_sites/starter/nowhere.html"
+"Mama" Pride </A>is busy with daughter Robin. <BR>
+�&nbsp;<A HREF="http://home.netscape.com/assist/net_sites/starter/nowhere.html"
+Robert Jr.</A> and
+<A HREF="http://home.netscape.com/assist/net_sites/starter/nowhere.html">
+Nattie Pride</A> are overjoyed by the marriage of their, <BR>
+&nbsp;&nbsp;daughter
+<A HREF="http://home.netscape.com/assist/net_sites/starter/nowhere.html">
+Irene </A>�&nbsp
+<A HREF="http://home.netscape.com/assist/net_sites/starter/nowhere.html">
+Family News <BR>
+</A><I>&nbsp;</I><FONT COLOR="#008080">&nbsp;</FONT>�&nbsp;Resident son
+<A HREF="index.html">Earlroy Pride</A> designed
+this page. </P>
+<P><HR></P>
+<P><BR>
+You can send e-mail to the
+<A HREF="mailto:epride@ics.uci.edu">Pride family</A></P>
+<P><A HREF="http://home.netscape.com/comprod/mirror/index.html">
+<IMG SRC="images/now8.gif" BORDER=0 WIDTH=88 HEIGHT=31></A>
+This page created with Netscape Navigator Gold</P>
+<P><HR></P>
+<FONT SIZE=2><P ALIGN="CENTER">This page last updated on December 31, 2000.
+</P>
+</FONT><P ALIGN="CENTER">&nbsp;<FONT SIZE=1>Copyright &copy; 1996 Netscape
+Communications Corporation. Photo &copy; PhotoDisc, Inc.</P></FONT>
+</BODY>
+</HTML>
+

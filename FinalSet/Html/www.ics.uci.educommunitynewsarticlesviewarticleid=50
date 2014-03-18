@@ -1,0 +1,294 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+                <title></title>
+                
+                
+                <meta content="Thu, 17 Oct 2013 08:28:02 -0380" name="date"/>
+                
+<link href="../../../bin/styles/stylesheet_secondary.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<!-- before breadcrumb_nav include -->
+ <!-- after breadcrumb_nav include -->
+
+<div id="wrapper">
+<script type="text/javascript">
+
+sfHover = function() {
+    var sfEls = document.getElementById("navcontainer").getElementsByTagName("LI");
+    for (var i=0; i<sfEls.length; i++) {
+        sfEls[i].onmouseover=function() {
+            this.className+=" sfhover";
+        }
+        sfEls[i].onmouseout=function() {
+            this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+        }
+    }
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+</script>
+
+    <div id="header" title="Welcome to the Donald Bren School of Information and Computer Sciences @ UC Irvine">
+
+           <a id="bren_link" href="/"></a>
+
+           <a id="uci_link" href="http://www.uci.edu/"></a>
+
+    </div>
+    
+    
+    <div CLASS="newbar"><p style="line-height: 0px; display: none; "></p></div>
+    
+    
+    <div id="navcontainer">
+
+                
+            <ul>
+                
+                <li>
+                
+                    <a href='/about/' title='about'>&raquo; About</a>              
+
+                    <ul>
+                        <li><a href="/about/">&raquo; About the School</a></li>
+                        <li><a href="/about/about_mission.php">&raquo; Bren ICS Mission</a></li>
+                        <li><a href="/about/about_deanmsg.php">&raquo; Dean's welcome</a></li>
+                        <li><a href="/about/bren/">&raquo; About the Bren gift</a></li>
+                        <li><a href="/about/about_factsfigures.php">&raquo; Facts and figures</a></li>
+                        <li><a href="/about/brenhall/index.php">&raquo; Donald Bren Hall</a></li>
+                        <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                        <li><a href="/about/about_contact.php">&raquo; Contact us</a></li>
+                        <LI><A HREF="/about/equity/">&raquo; Equity & diversity</A></LI>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/dept/' title='departments'>&raquo; Departments</a>
+                    <ul>
+                        <li><a href="http://www.cs.uci.edu">&raquo; Computer Science</a></li>
+                        <li><a href="http://www.informatics.uci.edu">&raquo; Informatics</a></li>
+                        <li><a href="http://www.stat.uci.edu">&raquo; Statistics</a></li>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/faculty/area/' title='research'>&raquo; Research</a>              
+                
+
+                
+                
+                
+                    <ul>
+                        <li><a href="/faculty/area/">&raquo; Research areas</a></li>
+                        <li><a href="/faculty/centers/">&raquo; Research centers</a></li>
+                        <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                    </ul>
+                </li>
+                
+                
+                
+                <li>
+                
+                    <a href='#' title='education'>&raquo; Education</a>              
+
+                    <ul>
+                        <li><a href="/grad/">&raquo; Graduate</a>
+                        
+                            <ul>                        
+                            <li><a href="/grad/admissions/index.php">&raquo; Apply</a></li>
+                            <li><a href="/grad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="http://www.reg.uci.edu/registrar/soc/fees.html">&raquo; Tuition and costs</a></li>
+                            <li><a href="/grad/courses/index.php">&raquo; Courses</a></li>
+                            <li><a href="/grad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/faculty/area/index.php">&raquo; Research areas</a></li>
+                            <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                            <li><a href="/grad/policies/index.php">&raquo; Policies &amp; forms</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/grad/phddirectory/index.php">&raquo; Recruit graduate student</a></li> -->
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->                            
+                            <li><a href="/grad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="http://www.housing.uci.edu/prospective/graduate/index.asp">&raquo; Graduate housing</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="/ugrad/">&raquo; Undergraduate</a>
+                        
+                            <ul>                        
+                            <!-- <li><a href="/ugrad/admissions/index.php">&raquo; Apply</a></li>                       
+                            <li><a href="/ugrad/events/index.php">&raquo; Campus visits</a></li>
+                            -->
+                            <li><a href="http://www.ics.uci.edu/~lab/">&raquo; Computer lab information</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/ugrad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="/ugrad/courses/index.php">&raquo; Course listings</a></li>                     
+                            <li><a href="/ugrad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="/ugrad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/ugrad/financial/index.php">&raquo; Financial aid</a></li>                         
+                            <li><a href="http://honors.ics.uci.edu/">&raquo; Honors program</a></li>
+                            <li><a href="http://www.housing.uci.edu/">&raquo; Housing</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Internship program</a></li>                         
+                            <li><a href="/ugrad/policies/index.php">&raquo; Policies</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->
+                            <!-- <li><a href="http://www.dos.uci.edu/orientation/">&raquo; Recently admitted</a></li> -->
+                            <li><a href="http://student-council.ics.uci.edu/">&raquo; Student Council</a></li>
+                            <li><a href="/ugrad/life/index.php">&raquo; Student life</a></li>   
+                            <li><a href="/ugrad/resources/index.php">&raquo; Student resources</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Summer internships</a></li>
+                            <li><a href="https://techjobs.uci.edu/">&raquo; Tech Jobs</a></li>
+                            <li><a href="http://www.ofas.uci.edu/content/costs.aspx?nav=1">&raquo; Tuition and costs</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li><a href="http://www.ics.uci.edu/prospective">&raquo; Prospective undergrad</a></li>
+
+
+                        <li><a href="http://www.parents.uci.edu/">&raquo; UCI parents</a></li>
+                        
+                                                    
+                    </ul>               
+                </li>
+
+    
+                <li>
+                    
+                    <a href='#' title='people'>&raquo; People</a>                      
+                    
+                
+                    <ul>
+                        <li><a href="/faculty/">&raquo; Faculty</a></li>
+                        <li><a href="/about/search/index.php">&raquo; Staff</a></li>
+                        <li><a href="/about/search/search_graduate_all.php">&raquo; Graduate students</a></li>
+                    </ul>   
+                </li>
+                                
+                
+                <li> 
+                
+                    <span id=specialborder><a href='#' title='community'>&raquo; Community</a></span>                    
+                    <ul>
+                        <li><a href="/community/alumni/">&raquo; Alumni</a></li>
+                        <li><a href="/community/friends/">&raquo; Friends</a></li>
+                        <li><a href="http://www.uadv.uci.edu/parents/">&raquo; Parent programs</a></li>
+                        <li><a href="/community/friends/leadershipcouncil/">&raquo; Leadership Council</a></li>
+                        <li><a href="http://www.uadv.uci.edu/DonaldBrenSchoolOfICSAnnualGiving">&raquo; Make a gift</a></li>
+                        <li><a href="/community/news/">&raquo; News</a></li>
+                    </ul>   
+                </li>
+
+                <li>
+                
+                    <a href='/involved/' title='get involved'>&raquo; Get Involved</a>              
+                
+                
+                    <ul>
+                    
+                            <LI><A HREF="/involved/tech_talk">&raquo; Tech talks</A></LI>
+                            <LI><A HREF="/involved/information_session">&raquo; Information sessions</A></LI>
+                            <!--<LI><A HREF="/involved/">&raquo; Join industry panel</A></LI>-->
+                            <LI><A HREF="/involved/project_class">&raquo; Sponsor projects</A></LI>
+                            <LI><A HREF="/involved/leadership_council">&raquo; Leadership Council</A></LI>
+                            <LI><A HREF="/involved/corporate_partner">&raquo; Corporate Partners</A></LI>
+                            <LI><A HREF="/involved/internship">&raquo; Sponsor interns</A></LI>
+                            <LI><A HREF="https://techjobs.uci.edu/">&raquo; Tech Jobs</A></LI>
+                            <!--<LI><A HREF="">&raquo; Support student groups</A></LI>-->
+                            <LI><A HREF="/community/events/butterworth/">&raquo; Butterworth Competition</A></LI>
+                            
+                    </ul>               
+                </li>
+                
+                    
+
+            </ul>
+
+<style type="text/css">@import url("/bin/icssearchstyle/css/icssearch.css");</style>
+<script src="/bin/icssearchstyle/js/icssearch.js" type="text/javascript"></script>
+<script src="/bin/icssearchstyle/js/icssearchform.js" type="text/javascript"></script>
+
+
+
+    </div>
+<!-- before breadcrumb_nav() print -->
+<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/news/">News</a> &gt; <a href="http://www.ics.uci.edu/community/news/articles/">Articles</a>] --><A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/news/">News</a> &gt; <a href="http://www.ics.uci.edu/community/news/articles/">Articles</a></div>
+<!-- after breadcrumb_nav() print -->
+
+<div id="content"><a id="startcontent" name="startcontent"></a>  
+<div id="content_title"></div>
+
+<blockquote>
+<div id="content_text">
+
+<br/>
+
+<!-- inc publications_db -->
+
+ <strong>January 10,  2006</strong><p><i>TIME</i><p><strong>Help! I've Lost My Focus</strong><p><strong>By: Claudia Wallis and Sonja Stept</strong><br><p><i>E-mail and cellphones help us multitask, but they also drive us to distraction. How to take control and get more done</i><p>Spend a few hours with Hollywood producer Jennifer Klein, and you might want to pop a Valium. Or slip her one. From the moment she rises at 7 a.m. in the Sunset Boulevard home she shares with her husband, she's a fidgety, demanding, chattering whirling dervish of a task juggler. Right now Klein, 41, whose credits include Pearl Harbor and Armageddon, has 15 film and TV projects in development--all of them requiring constant nudging and nurture. Her strategy for managing that and several overflowing In boxes: never do just two things at once if you can possibly do four or five.<p>"I'm an obsessive and addicted multitasker and gadget user," Klein cheerily concedes. A typical moment at her office finds Klein reviewing a screenplay by phone with its writers and jotting notes while glancing at an incoming e-mail on her BlackBerry, motioning signals to her assistant and firing off an instant message to a studio exec. "Here's how bad it is," she confesses. "When I'm flying, right before the plane lands, before the seat-belt sign goes on, I get the BlackBerry out and put it in front of me in the seat-back compartment. That way I can turn it on as soon as I land and see that little light flashing."<p>Actually, it gets worse than that for a woman known to do her daily sit-ups during a conference call. "While I'm driving, I've got the cell phone out. I'm drinking a cup of coffee, checking the Palm Pilot for the number and then calling," boasts Klein. Yup, got that all done while stuck in traffic.<p>Like many other modern workers, Klein takes pride in being a master multitasker, zipping through her daily to-do list: "I see the red lights go on or hear the beep, and I love it." But she has noticed some drawbacks and even some side effects: impatience, irritability and (gasp) some inefficiency. "Sometimes when e-mail goes down, I'm actually more productive, because I can concentrate on something," she says. She finds herself angry and snappish when callers make poor use of her endless availability. Although she feels anxious when her In box is empty, she feels no better when it's full: "When I wake up in the morning and have 15 e-mails, I get a nervous stomach."<p>Klein's action- and anxiety-packed work style may be extreme, but she's really only a couple of juggling pins ahead of most of us. By now every modern officeworker--from the mail-room clerk to the CEO--knows that the gadgets designed to lighten our loads also ensnare us. And the dinging digital devices that allow us to connect and communicate so readily also disrupt our work, our thoughts and what little is left of our private lives.<p>What sort of toll is all this disruption and mental channel switching taking on our ability to think clearly, work effectively and function as healthy human beings? Do the devices that make it possible to do so many things at once truly raise our productivity or merely help us spin our wheels faster? Over the past five years, psychologists, efficiency experts and information-technology researchers have begun to explore those questions in detail. They have begun to calculate the pluses, the minuses and the economic costs of the interrupted life--in dollars, productivity and dysfunction. More important, they're exploring what can be done about it--how we can work smarter, live smarter and put our beloved gadgets back in their proper place, with us running them, not the other way around.<p><b>AN EPIDEMIC OF ATTENTION DEFICIT</b><p>DR. EDWARD HALLOWELL, A PSYCHIATRIST in Sudbury, Mass., has seen the fallout of multitasking mania: it walks through his door five days a week. Over the past decade, he says, he has seen a tenfold rise in the number of patients showing up with symptoms that closely resemble those of attention-deficit disorder (ADD), but of a work-induced variety. "They complained that they were more irritable than they wanted to be," he says. "Their productivity was declining. They couldn't get organized. They were making decisions in black-and-white, shoot-from-the-hip ways rather than giving things adequate thought, all because they felt pressured to get things done quickly." But Hallowell, an ADD expert and co-author of several best-selling books on the subject, including 1994's Driven to Distraction, noticed something different about his new cases. Unlike patients with typical ADD, which persists no matter the setting, the new patients felt frantic only in certain situations--mainly in the workplace or, for at-home moms, while managing the home front.<p>In a Harvard Business Review article last January, Hallowell gave the condition a name: attention-deficit trait, or ADT. He explains that ADT takes hold when we get so overloaded with incoming messages and competing tasks that we are unable to prioritize. The result is not only distractibility, impulsiveness and haste but also feelings of guilt and inadequacy. "People think it's their fault that they're falling behind," he says. "They think they have to sleep less and work harder and stay later at the office, which only makes it worse because they're not taking care of their brain by getting enough sleep." How common is this phenomenon? "It's rampant," says Hallowell, who believes that corporate downsizing and job insecurity contribute to the problem. "When I give lectures around the country, there's always instant identification with what I'm saying. People in the audience immediately say, 'Oh, yes, that's me,' or, 'My whole office is like that.'"<p><b>THE HIGH COST OF INTERRUPTIONS</b><p>IT'S NO WONDER SO MANY OF US SUCCUMB to the panicky feeling that we can't keep pace with workplace demands. A series of new studies that examined the modern, multitasking worker show that the constant splintering and diversion of our attention wastes time and money. In a study of 1,000 officeworkers from top managers on down, Basex, an information-technology research firm in New York City, found that interruptions now consume an average of 2.1 hours a day, or 28% of the workday. The two hours of lost productivity included not only unimportant interruptions and distractions but also the recovery time associated with getting back on task, according to a Basex report titled "The Cost of Not Paying Attention," released in September. Estimating an average salary of $21 an hour for "knowledge workers"--those who perform tasks involving information--Basex calculated that workplace interruptions cost the U.S. economy $588 billion a year.<p>In a revealing set of studies, a team led by Gloria Mark and Victor Gonzalez of the University of California at Irvine tracked 36 officeworkers--in this case information-technology workers at an investment firm--and recorded how they spent their time, minute by minute. The researchers found that the employees devoted an average of just 11 minutes to a project before the ping of an e-mail, the ring of the phone or a knock on the cubicle pulled them in another direction. Once they were interrupted, it took, on average, a stunning 25 minutes to return to the original task--if they managed to do so at all that day. The workers in the study were juggling an average of 12 projects apiece--a situation one subject described as "constant, multitasking craziness." The five biggest causes of interruption in descending order, according to Mark: a colleague stopping by, the worker being called away from the desk (or leaving voluntarily), the arrival of new e-mail, the worker switching to another task on the computer and a phone call.<p>Of course, not all interruptions are created equal. Some are related to the job at hand and may be helpful--if not to the individual, then maybe to the team. Some are unrelated but nonetheless welcome: the Basex report found that 62% of workers at all levels said being interrupted by a friend with a nonbusiness-related question was "acceptable" (though the boss might take a different view). Several studies, including one by Mary Czerwinski, a senior researcher at Microsoft, show that interruptions at the beginning and the end of a task are the most detrimental to performance. An interruption when work has just got under way "blows away the goals you've established," says Czerwinski, while a ping or a knock at the end of the process "breaks the train of thought as people are reflecting and preparing for what they'll do next."<p>While the researchers did not look specifically at the quality of the work, a long history of psychological research has proved what one might expect: performance declines--and stress rises--with the number of tasks juggled. Similarly, there's a long-held principle in psychology that maintains that a little stimulation or arousal improves performance but too much causes it to decline. "If you apply that law to multitasking," says Mark, "you would expect that a certain amount of multitasking would increase arousal, perhaps leading to greater efficiency. But too much will produce declining performance."<p>Jonathan Spira, CEO and chief analyst at Basex, suspects that so-called NetGen'ers-- those who grew up IMing, Googling and texting--are less stressed by gadget-abetted multitasking than are older workers. "Younger people may actually be wired a little differently," he says. But, he adds, there's no getting away from the fact that to do your best work on difficult tasks, "sometimes you need to shut everything else out and focus."<p>Some of the world's most creative and productive individuals simply refuse to subject their brains to excess data streams. When a New York Times reporter interviewed several recent winners of MacArthur "genius" grants, a striking number said they kept cell phones and iPods off or away when in transit so that they could use the downtime for thinking. Personal-finance guru Suze Orman, despite an exhausting array of media and entrepreneurial commitments, utterly refuses to check messages, answer her phone or allow anything else to come between her and whatever she's working on. "I do one thing at a time," she says. "I do it well, and then I move on".<p><b>IS IT AN ADDICTION?</b><p>WHAT'S STRIKING TO RESEARCHERS IS HOW few people take even the most basic steps to reduce workplace interruption. In the Basex study, 55% of workers surveyed said they open e-mail immediately or shortly after it arrives, no matter how busy they are. "Most people don't even think about turning off the dinger," says Spira, who turned off the alert sound on his e-mail nine years ago with no regrets. "We can't control ourselves when it comes to limiting technological intrusions."<p>Indeed, there's a compulsive quality to our relationships with digital devices. Hallowell has noticed that when a plane lands nowadays, BlackBerrys light up the way cigarettes once did. "A patient asked me," he says, "whether I thought it was abnormal that her husband brings the BlackBerry to bed and lays it next to them while they make love." Hallowell and his frequent collaborator, Harvard psychiatrist John Ratey, believe that the neurochemistry of addiction may underlie our compulsive use of cell phones, computers and "CrackBerrys." They say that dopamine, a neurotransmitter involved in seeking rewards and stimulation, is doubtless at work. "If we could measure it as we're shifting [attention] from one thing to another," says Ratey, "we would probably find that the brain is pumping out little shots of dopamine to give us a buzz." Psychologists call the increasingly common addiction to Web-based activity "online compulsive disorder." Hallowell has a more descriptive term: screen sucking. "These screens have a magnetism we haven't quite figured out."<p><b>TAKING CONTROL</b><p>CAN THE TECHNOLOGY THAT'S overloading our circuits help address the problems it has created? Czerwinski and her bosses at Microsoft think so. She's helping design an intelligent office-communication system that calculates whether an interrupting e-mail or IM should be transmitted immediately or delayed on the basis of, among other factors, the worker's appointments and projects that day, his past preferences and habits and the organizational-chart relationship between sender and receiver. "Something like this has got to happen sooner or later," says Czerwinski, though she acknowledges that it raises privacy issues. The alternative is to turn off the IMs, phones and e-mail--if management allows it. "I've observed some people who did that, and they were highly productive," says Czerwinski, "but they also missed some very important e-mails. I don't think most people will be willing to do that."<p>Czerwinski has also been helping Microsoft design alternatives to current software products to allow workers to stay on task for longer periods, even as onscreen interruptions arrive. In next-generation systems, which Microsoft's competitors are pursuing as well, interruptions are designed to be less intrusive--nothing flashes, pops up or makes a noise--and the alerts appear on the periphery of a screen that's larger than today's standards so that workers stay centered on their main task. The key, she says, is for an incoming message to provide just enough information for the worker to judge whether to grab it or ignore it until later. "We found that it's more calming to give them subtle alerts that aren't intrusive and which, should you glance at them, let you know whether you need to worry," she says.<p>U.C. Irvine's Mark also thinks improved technology will help, but she points to low-tech solutions as well. Some companies, she notes, give employees DO NOT INTERRUPT screens to put over their cubicles or establish quiet times when it's not permissible to bother a colleague. In some offices, she says, "workers wear colored hats to signify when they do and do not want to be interrupted." Another simple trick, suggests Spira, is to leave more explicit instructions on e-mail "away messages" and answering machines about how and when you prefer to be interrupted.<p>But to truly take control of our productivity, we also have to stop fooling ourselves about our capacities to juggle. We have to resist the "it will only take a second" impulse to read an e-mail, check a stock price or chat with a colleague in the middle of a demanding assignment. At the same time, we have to stop pretending that we are machines that can endlessly process tasks without a break. There's a reason that research shows the No. 1 work interruption is not an electronic signal but rather a human being stopping by. It's the same reason a personal call feels welcome even when you are superbusy. We are social creatures, and to do our best work, we need to set aside time in the workday to connect with others--and also to break free from our checklist and just think.<p>Psychiatrist Hallowell offers some basic solutions to multitasking mania in a book to be published in April, titled CrazyBusy: Overstretched, Overbooked and About to Snap--Strategies for Coping in a World Gone ADD. Among his suggestions: prioritize ruthlessly ("Cultivate the lilies, or the things that fulfill you," he says, "and cut the leeches, those that deplete you"), allot 30 minutes a day for thinking, relaxing or meditating, and get significant doses of what he calls vitamin C--the live connection to other people. "As much as we are connected electronically, we have disconnected interpersonally," he says. Compulsive screen sucking, he suggests, may actually be a symptom of vitamin-C deficiency. To perform your best, maintain your individual creativity and avoid the pitfalls of ADT, he insists, "you want to have some face-to-face moments of closeness." And when you do, turn off that blinking BlackBerry.<p><i>With reporting by With additional reporting by Wendy Cole/Chicago</i><br><TITLE>Help! I've Lost My Focus</TITLE>
+
+</div>
+</blockquote>
+</div>
+<div id="sidebar"><div id="sidebar_title">More community &#187;</div>
+<ul>
+<li><a href="../../alumni/index.php">Alumni</a></li>
+<li><a href="../../friends/index.php">Friends</a></li>
+<li><a href="http://www.parents.uci.edu/">Parents</a></li>
+<li><a href="../../friends/leadershipcouncil/index.php">Leadership Council</a></li>
+<li><a href="../index.php">News</a></li>
+<li><a href="https://ua-web.uadv.uci.edu/eGiving/">Give a gift</a></li>
+</ul>
+<div>
+<div id="sidebar_title">More news and events &#187;</div>
+<ul>
+<li><a href="../press/index.php">Press
+ releases</a></li>
+<a href="http://www.ics.uci.edu/community/news/press/index.php">				</a>
+<li><a href="index.php">In the 
+news</a></li>
+<li><a href="../notes/index.php">Noteworthy
+ achievements</a></li>
+<a href="http://www.ics.uci.edu/community/news/notes/index.php">				</a>
+<li><a href="http://www.youtube.com/UCIBrenICS">Video highlights</a></li>
+<li><a href="../spotlight/index.php">Spotlight</a></li>
+<li><a href="http://calendar.ics.uci.edu/calendar.php">Calendar of 
+events</a></li>
+</ul>
+<!-- -->
+<!-- -->
+<!-- -->
+<!--
+<div id="sidebar_title">Noteworthy archive &#187;</div>
+<ul>
+<li><a href="/ICS/ics/community/news/notes/notes_2009">2009</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2008">2008</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2007">2007</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2006">2006</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2005">2005</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2004">2004</a></li>
+</ul>
+</div>
+--></div></div>
+<div id="footer"><a href="http://www.uci.edu/copyright.php">Copyright Inquiries</a> |
+   <a href="http://www.uci.edu/cgi-bin/phonebook">UCI Directory</a> |
+   <a href="http://intranet.ics.uci.edu/">Intranet</a> |
+   
+   <!-- <a href="http://www.ics.uci.edu/sitemap.php">Site Map</a> | -->
+ 
+  <a href="mailto: i%63%73%77%65%62m%61s%74%65r@%69c%73%2e%75c%69%2eedu">icswebmaster</a> |
+Updated: 
+October 17 2013</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-605898-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

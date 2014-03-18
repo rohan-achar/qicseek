@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Compiling from a File</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Compiling from a File">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html2872 HREF="node52.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html2870 HREF="node49.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html2864 HREF="node50.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html2874 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html2873 HREF="node52.html"> File Queries and </A>
+<B>Up:</B> <A NAME=tex2html2871 HREF="node49.html"> More about compilation</A>
+<B> Previous:</B> <A NAME=tex2html2865 HREF="node50.html"> Optimised Compilation</A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION00452000000000000000> Compiling from a File</A></H2>
+<P>
+<A NAME=compile>&#160;</A>
+The square brackets <b> [...]</b> or compile/1 are also used to
+compile Prolog source from a file.
+If the goal
+<blockquote> <PRE>compile(myfile).
+</PRE>
+</blockquote>
+or the short-hand notation:
+<blockquote> <PRE>[myfile].
+</PRE>
+</blockquote>
+is called, 
+either as a query at the top level or within another goal, the system
+looks for the file <b> myfile</b> or for a file called <b> myfile.pl</b> and
+compiles it into the Prolog database.
+The short-hand notation may also be used to compile several files in sequence
+<blockquote> <PRE>[ file_1, file_2, ...   file_n ]
+</PRE>
+</blockquote>
+The compile/2 predicate may be used to compile a file or list of
+files into a module specified in the second argument.
+<P>
+It is a recommended programming practice to give the Prolog source
+programs the suffix <b> .pl</b>.
+It is not enforced by the system, but it simplifies managing the source
+programs.
+The <b> compile/1</b> predicate automatically adds the suffix to the
+filename, so that it does not need to be specified;
+only if the literal filename can not be found, the system appends
+one of the valid suffixes and tries to find the resulting filename.
+The system's list of valid Prolog suffixes is in the global flag
+<A NAME=581>&#160;</A>
+<b> prolog_suffix</b> and can be examined and modified
+using get_flag/2 and set_flag/2.
+For example, to add the new suffix ``.pro'' use:
+<blockquote> <PRE>get_flag(prolog_suffix, Old), set_flag(prolog_suffix, [&quot;.pro&quot;|Old]).
+</PRE>
+</blockquote><BR> <HR><A NAME=tex2html2872 HREF="node52.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html2870 HREF="node49.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html2864 HREF="node50.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html2874 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html2873 HREF="node52.html"> File Queries and </A>
+<B>Up:</B> <A NAME=tex2html2871 HREF="node49.html"> More about compilation</A>
+<B> Previous:</B> <A NAME=tex2html2865 HREF="node50.html"> Optimised Compilation</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

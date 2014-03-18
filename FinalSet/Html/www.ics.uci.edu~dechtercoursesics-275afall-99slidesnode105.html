@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Defining and modifying the visibility</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Defining and modifying the visibility">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html3518 HREF="node106.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html3516 HREF="node102.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html3510 HREF="node104.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html3520 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html3519 HREF="node106.html"> Tools</A>
+<B>Up:</B> <A NAME=tex2html3517 HREF="node102.html"> Visibility of Predicates</A>
+<B> Previous:</B> <A NAME=tex2html3511 HREF="node104.html"> Access rules for </A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION00863000000000000000> Defining and modifying the visibility</A></H2>
+<P>
+<A NAME=modulepreds>&#160;</A>
+<P>
+There are 5 visibility declaration predicates:
+<P>
+<A NAME=1499>&#160;</A>
+<b> local PredList</b> declares the predicates in <i> PredList</i>
+(maybe not yet defined) as local in the caller module.
+<P>
+<A NAME=1502>&#160;</A>
+<b> export PredList</b> declares the predicates in <i> PredList</i>
+(maybe not yet defined) as exported in the caller module.
+<P>
+<A NAME=1505>&#160;</A>
+<b> global PredList</b> declares the predicates in <i> PredList</i>
+(maybe not yet defined) as global in the caller module.
+<P>
+<A NAME=1508>&#160;</A>
+<A NAME=1509>&#160;</A>
+<b> import PredList from Module</b> declares the predicates in <i>
+PredList</i> to be imported predicates in the caller module. Each of them
+are linked to their corresponding exported predicates (maybe not yet)
+defined in <i> Module</i>.
+<P>
+<A NAME=1513>&#160;</A>
+<b> abolish PredList</b> removes the declaration and the definition of
+the predicates in <i> Predlist</i> declared or defined in the caller
+module. As the visibility declaration predicates act on the caller
+module only, abolishing an imported predicate does not affect the
+exported predicate itself but only the import link.
+<P>
+The predicate visibility may be changed at any time.
+<P>
+With respect to requirement <A HREF="node95.html#clashes"><IMG ALIGN=BOTTOM ALT="gif" SRC="http://www.ecrc.de/eclipse/new_icons//cross_ref_motif.gif"></A>, some visibility changes are
+restricted:  import links (created with import_from/2) must be
+cut down explicitly (with <i> abolish/1</i>) before defining a new
+visibility.  Vice-versa a local, exported or global declaration or
+definition must be abolished before an import link is created with
+<b> import_from/2</b>.
+<P>
+Warnings are raised when redundant declarations occur (e.g. declaring
+twice the same predicate as local).
+<P>
+<BR> <HR><A NAME=tex2html3518 HREF="node106.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html3516 HREF="node102.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html3510 HREF="node104.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html3520 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html3519 HREF="node106.html"> Tools</A>
+<B>Up:</B> <A NAME=tex2html3517 HREF="node102.html"> Visibility of Predicates</A>
+<B> Previous:</B> <A NAME=tex2html3511 HREF="node104.html"> Access rules for </A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

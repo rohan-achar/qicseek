@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="robots" content="noindex"/>
+<meta http-equiv="Cache-Control" content="no-cache"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="Fri, 31 Jan 2014 09:45:55 GMT"/>
+<link rel="stylesheet" type="text/css" href="/gallery2/modules/core/data/gallery.css"/>
+<link rel="stylesheet" type="text/css" href="/gallery2/modules/icons/iconpacks/silk/icons.css"/>
+<link rel="stylesheet" type="text/css" href="/gallery2/themes/matrix/theme.css"/>
+<script type="text/javascript" src="http://vcp.ics.uci.edu/gallery2/main.php?g2_view=core.CombinedJavascript&amp;g2_key=bb359b1d6d1658da96134b8a44934e48"></script>
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+    <title>Gallery User Administration | Virtual Collaboration Portal</title>
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/./sites/vcp.ics.uci.edu/modules/avatar_blocks/avatar_blocks.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/cck/theme/content-module.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/ctools/css/ctools.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/custom/multi_google_cse/multi_google_cse.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/date/date.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/dhtml_menu/dhtml_menu.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/fckeditor/fckeditor.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/filefield/filefield.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/gallery/gallery.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/gallery/gallery_filter.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/og/theme/og.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/tagadelic/tagadelic.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/forum/forum.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/biblio/biblio.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/cck/modules/fieldgroup/fieldgroup.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/views/css/views.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/files/color/garland_newvcp-cb8d0b3a/style.css?p" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/vcp.ics.uci.edu/themes/garland-newvcp/print.css?p" />
+    <script type="text/javascript" src="/misc/jquery.js?p"></script>
+<script type="text/javascript" src="/misc/drupal.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/dhtml_menu/dhtml_menu.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/og/og.js?p"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","dhtmlMenu":{"slide":"slide","siblings":"siblings","relativity":"relativity","clone":"clone","doubleclick":"doubleclick","children":0}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+//--><!]]>
+</script>
+    <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/themes/garland-newvcp/fix-ie.css" />    <![endif]-->
+  </head>
+  <body class="sidebar-left">
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="/" title="Virtual Collaboration Portal"><span>Virtual Collaboration Portal</span></a></h1>        </div>
+
+                  <ul class="links primary-links"><li class="menu-197 first"><a href="/" title="VCP home page">Home</a></li>
+<li class="menu-494"><a href="/og" title="">Groups</a></li>
+<li class="menu-12772 last"><a href="/collaborators">Collaborators</a></li>
+</ul>                                  
+      </div> <!-- /header -->
+
+              <div id="sidebar-left" class="sidebar">
+          <div class="block block-theme"><form action="/index.php?g2_return=%2Findex.php%2Fv%2Fopensim%2Fsos%2FSOS-in-Opensim.mp4.html%3Fq%3Dgallery%26g2_0%3Dgallery&amp;g2_subView=register.UserSelfRegistration&amp;g2_view=core.UserAdmin&amp;q=gallery"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-opzMT6lHbaf-WwOMjJ_Lh0UXVINH6E2zrYnfihTv5ok" value="form-opzMT6lHbaf-WwOMjJ_Lh0UXVINH6E2zrYnfihTv5ok"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+</div>          <div id="block-user-1" class="clear-block block block-user">
+
+  <h2>Navigation</h2>
+
+  <div class="content"><ul class="menu"><li class="expanded first dhtml-menu  collapsed start-collapsed "><a href="/biblio" id="dhtml_menu-5079">Bibliography</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/biblio/authors" id="dhtml_menu-12779">Authors</a></li>
+<li class="leaf last dhtml-menu "><a href="/biblio/keywords" id="dhtml_menu-12792">Keywords</a></li>
+</ul></li>
+<li class="leaf  dhtml-menu "><a href="/readinglist/year" id="dhtml_menu-5761">Reading Lists</a></li>
+<li class="leaf  dhtml-menu "><a href="/weblinks" id="dhtml_menu-3412">Web Links</a></li>
+<li class="leaf  dhtml-menu  active-trail"><a href="/gallery" title="Visit your embedded Gallery2." id="dhtml_menu-3237" class="active">Gallery</a></li>
+<li class="leaf  dhtml-menu "><a href="/tracker" id="dhtml_menu-119">Recent posts</a></li>
+<li class="leaf last dhtml-menu "><a href="/content/acknowledgements" title="Acknowledgements" id="dhtml_menu-11419">Acknowledgements</a></li>
+</ul></div>
+</div>
+<div id="block-user-0" class="clear-block block block-user">
+
+  <h2>User login</h2>
+
+  <div class="content"><form action="/gallery?destination=gallery%3Fg2_return%3D%252Findex.php%252Fv%252Fopensim%252Fsos%252FSOS-in-Opensim.mp4.html%253Fq%253Dgallery%2526g2_0%253Dgallery%26g2_subView%3Dregister.UserSelfRegistration%26g2_view%3Dcore.UserAdmin"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
+<div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-i4-IDwiPlwQDU21Oq0g6lNJMtDXGEMIjHpU_ohrkeNg" value="form-i4-IDwiPlwQDU21Oq0g6lNJMtDXGEMIjHpU_ohrkeNg"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+</div>
+</div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="/">Home</a></div>                              <h2>Gallery User Administration</h2>                                                  <div class="clear-block">
+            
+<div id="gallery">
+<div id="gsHeader">
+<a href="/index.php?q=gallery"><img src="/gallery2/images/galleryLogo_sm.gif"
+width="107" height="48" alt=""/></a>
+</div>
+<div id="gsNavBar" class="gcBorder1">
+<div class="gbSystemLinks">
+<span class="block-core-SystemLink">
+<a href="/index.php?q=gallery&amp;g2_view=core.UserAdmin&amp;g2_subView=register.UserSelfRegistration&amp;g2_return=%2Findex.php%3Fq%3Dgallery%26g2_subView%3Dregister.UserSelfRegistration%26g2_view%3Dcore.UserAdmin%26g2_0%3Dgallery">Register</a>
+</span>
+
+
+
+</div>
+<div class="gbBreadCrumb">
+<div class="block-core-BreadCrumb">
+<a href="/index.php?q=gallery" class="BreadCrumb-1">
+Gallery</a>
+</div>
+</div>
+</div>
+<form action="/index.php?q=gallery" method="post" id="userAdminForm"
+enctype="application/x-www-form-urlencoded">
+<div>
+<input type="hidden" name="g2_return" value="/index.php/v/opensim/sos/SOS-in-Opensim.mp4.html?q=gallery&amp;g2_0=gallery"/>
+<input type="hidden" name="g2_formUrl" value="/index.php?q=gallery&amp;g2_subView=register.UserSelfRegistration&amp;g2_view=core.UserAdmin&amp;g2_0=gallery"/>
+<input type="hidden" name="g2_authToken" value="0c949edeedff"/>
+
+<input type="hidden" name="g2_controller" value="register.UserSelfRegistration"/>
+<input type="hidden" name="g2_form[formName]" value="UserSelfRegistration"/>
+</div>
+<table width="100%" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td id="gsSidebarCol"><div id="gsSidebar" class="gcBorder1">
+<div class="gbBlock">
+<h2> User Options </h2>
+<ul>
+<li class="gbAdminLink gbLink-register_UserSelfRegistration">
+Register
+</li>
+</ul>
+</div>
+</div></td>
+<td>
+<div id="gsContent" class="gcBorder1">
+<div class="gbBlock gcBackground1">
+<h2> Register As New User </h2>
+</div>
+<div class="gbBlock">
+<h4>
+Username
+<span class="giSubtitle"> (required) </span>
+</h4>
+<input type="text" size="32" name="g2_form[userName]" value=""/>
+<h4>
+Full Name
+<span class="giSubtitle"> (required) </span>
+</h4>
+<input type="text" size="32" name="g2_form[fullName]" value=""/>
+<h4>
+Email Address
+<span class="giSubtitle"> (required) </span>
+</h4>
+<input type="text" size="32" name="g2_form[email]" value=""/>
+<h4>
+Password
+<span class="giSubtitle"> (required) </span>
+</h4>
+<input type="password" size="32" name="g2_form[password1]"/>
+<h4>
+Verify Password
+<span class="giSubtitle"> (required) </span>
+</h4>
+<input type="password" size="32" name="g2_form[password2]"/>
+</div>
+<div class="gbBlock">
+<h3>
+Type the letters appearing in the picture.
+</h3>
+<div>
+<img src="/index.php?q=gallery&amp;g2_view=captcha.CaptchaImage" width="100" height="100" alt=""/>
+</div>
+<input type="text" size="12"
+name="g2_form[CaptchaValidationPlugin][word]" value=""/>
+</div><div class="gbBlock gcBackground1">
+<input type="submit" class="inputTypeSubmit"
+name="g2_form[action][create]" value="Register"/>
+<input type="submit" class="inputTypeSubmit"
+name="g2_form[action][cancel]" value="Cancel"/>
+</div></div>
+</td>
+</tr>
+</table>
+</form>
+<div id="gsFooter">
+
+<a href="http://gallery.sourceforge.net"><img src="/gallery2/images/gallery.gif" alt="Powered by Gallery v2.3" title="Powered by Gallery v2.3" style="border-style: none" width="80" height="15"/></a>
+
+
+</div>
+  </div>
+<script type="text/javascript">
+// <![CDATA[
+search_SearchBlock_init('Search the Gallery', 'Please enter a search term.', 'Searching in progress, please wait!');
+// ]]>
+</script>
+
+
+          </div>
+                    <div id="footer"></div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+  <script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/custom/multi_google_cse/multi_google_cse.js?p"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"en"}});
+//--><!]]>
+</script>
+  </body>
+</html>
+

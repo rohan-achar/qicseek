@@ -1,0 +1,282 @@
+<HTML><HEAD>
+<TITLE> Pointers and Memory Allocation
+</TITLE>
+</HEAD><BODY>
+
+<H2> Pointers and Memory Allocation </H2>
+
+When declaring a variable, the type given is the type of any expression
+which looks like the declaration.  Thus, if we have the declarations
+<center>
+<tt>    int a, *b, c[], *(*d[])();</tt>
+</center>
+then, in the code, the expressions
+<tt>a</tt>, <tt>*b</tt>, <tt>c[]</tt> and <tt>*(*d[])()</tt>
+would all evaluate to an integer.&nbsp;
+Encountering the declaration, you might
+have a hard time figuring out that <tt>d</tt> is an
+array of pointers to functions which return integer pointers,
+but you <I>do</I> know what type it will evaluate to
+when used in the context given.&nbsp;
+Thus you know that the statement
+<tt>a = *(*d[5])(x, y)</tt>
+will place an integer in <tt>a</tt>, even if you are not
+sure what happened.&nbsp;
+You could similarly match types by stripping
+off matching levels of indirections:&nbsp;
+<tt>b = (*d[5])(x, y)</tt> would store
+an integer pointer in <tt>b</tt> rather than the value of the integer.
+<P>
+Although the expression given in the declaration is generally the
+<I>correct</I> way to use the variable,
+the relation between pointers and arrays allows for other uses.&nbsp;
+Since an array name is just a pointer, we can actually use the
+expressions <tt>b[]</tt> and <tt>*c</tt> as well.&nbsp;
+(Using the alternate notation is
+often confusing but occasionally more clear.)&nbsp;
+For example, the sixth
+element of an array, declared by either of the two methods mentioned
+above, can be accessed in either of the two following methods:&nbsp;
+<center>
+<tt>    b[5]</tt> &nbsp; or &nbsp; <tt>*(b+5)</tt>
+</center>
+(Recall that the monadic "<tt>*</tt>" operator merely takes the
+value at the right and performs one level of indirection on it.)
+The second method adds 5*(size of the array element type) to the address
+of array, resulting in a pointer to the sixth element, and then the "*"
+causes an indirection on that address, resulting in the value stored
+there.  The subscripted notation is merely shorthand for this.
+<P>
+For a lab, your testing programs might know that the input is restricted
+to 1000 digits, but your multiplier should not know this.&nbsp;
+Thus, you will need to allocate one-dimensional arrays of unpredictable
+size within these functions.&nbsp;
+To do this, use the system library
+function <I>malloc</I> which will give you a specified number of
+contiguous bytes of memory.&nbsp;
+You must first, in your declarations,
+tell the compiler the type of the return value of
+<I>malloc</I> with the
+declaration (along with your variable declarations):&nbsp;
+<center>
+<tt>char *malloc();</tt>
+</center>
+<P>
+Now, let's say you want an array of 10 integers.&nbsp;
+Let <tt>A</tt> be
+an integer pointer (declared <tt>int *A</tt>).&nbsp;
+To get the array, use the command:
+<center>
+<tt>    A = (int *) malloc( 10 * sizeof(int) );</tt>
+</center>
+The <tt>sizeof()</tt> function is expanded by the compiler to be the
+number of bytes in one element of the type given as the argument.&nbsp;
+Thus, if there are 4 bytes in
+an integer, <I>malloc</I> will return 40 bytes
+(beginning on a double-word
+boundary to guarantee proper alignment of multiple-byte objects -- you
+don't need to worry about this).
+<P>
+The <tt>(int *)</tt> preceeding the function call is called a
+<I>cast</I>.
+This changes the
+type of the return of <I>malloc</I>
+(which is a character pointer) into an
+integer pointer so that it may be stored in <tt>A</tt>.&nbsp;
+Often casts only
+affect the compiler's internal representation of what a type is but
+occasionally they generate code to physically modify data, so you should
+almost always use them when mixing things of differing types.
+<P>
+Always make sure, after calling <I>malloc</I>, that you actually got the
+space you requested.&nbsp;
+<I>Malloc</I> will return a null pointer if it could not
+get you the space.&nbsp;
+A null pointer can be represented in your code as a
+zero, or as <tt>NULL</tt>
+if you include the standard I/O file <tt>&lt;stdio.h&gt;</tt>.
+<P>
+Finally, the function <I>free</I> is used to return space to the
+operating system which was allocated by <I>malloc</I>.&nbsp;
+You should give,
+as a parameter, to <I>free</I> exactly the pointer given to you by
+<I>malloc</I>.&nbsp;
+You cannot give back part of an allocation.&nbsp;
+Thus there
+should be exactly as many calls to <I>free</I> as to <I>malloc</I>, and
+they should involve exactly the same blocks of memory.
+<P>
+<H3> Multi-dimensional arrays </H3>
+
+C uses two implementations of arrays, depending on the declaration.
+They are the same for one dimension, but different for more dimensions.
+<P>
+For example, if an array is declared as
+<center>
+<tt>int array[10][20][30];</tt>
+</center>
+than there are exactly 6000 ints of storage allocated, and a reference
+of the form <tt>array[i][j][k]</tt> will be translated to
+<center>
+<tt>*( array + i*20*30 + j*30 + k )</tt>
+</center>
+which calculates the correct offset from the pointer "array", and then
+does an indirection on it.  To pass an array of this type to a
+procedure, you must declare the parameter as
+<center>
+<tt>proc( arg ) int arg[][20][30];</tt>
+</center>
+(You may declare the value of the first dimension, but the compiler
+doesn't care since it is not needed.)
+<P>
+You will probably not be using this kind of array, since you don't have
+constant bounds on the sizes of any of your arrays.
+<P>
+The second type of array is a pointer-vector structure, where each
+dimension is represented by a vector of pointers of objects of the next
+dimension, except the last dimension, which consists of arrays of data.
+This sounds like a mess, but it really isn't:
+<P>
+If a three-dimensional array is declared as
+<center>
+<tt>int ***array;</tt>
+</center>
+(and we will assume for the moment that it has been allocated space
+for a 10*20*30 array), then there is an array of 10 pointers to pointers
+to ints, 10 arrays of 20 pointers to ints, and 6000 ints.&nbsp;
+The 200 elements of the 10 arrays each point to a block of 30 ints,
+and the 10 elements of the one array each point
+to one of the 10 arrays.&nbsp;
+The array variable points to the head of the array with 10 elements.
+<P>
+In short,
+"<tt>array</tt>" points to a pointer to a pointer to an integer,
+"<tt>*array</tt>" points to a pointer to an integer,
+"<tt>**array</tt>" points to an integer, and
+"<tt>***array</tt>" is an integer.
+<P>
+In this case, an access of the form <tt>array[i][j][k]</tt>
+results in an access of the form
+<center>
+<tt>*( *( *(array+i) + j ) + k )</tt>
+</center>
+<P>
+Which means:&nbsp;
+Take a pointer to the main array, add <tt>i</tt> to offset to the
+pointer to the correct second dimension array and indirect to it.&nbsp;
+Now we have a pointer to one of the arrays of 20 pointers,
+and we add <tt>j</tt> to get the offset to the next dimension,
+and we do an indirection on that.&nbsp;
+We now have a pointer to an array of 30 integers,
+so we add <tt>k</tt> to get a pointer to the desired integer,
+do an indirection, and we have the integer.
+<P>
+Passing arrays of this type is simple,
+you declare the parameter the same way, as "<tt>int ***arrayname</tt>".
+<P>
+Now the fun begins:&nbsp; how to allocate memory for a pointer-vector
+array.&nbsp;  We get memory with the function
+<center>
+<tt>char *malloc( nbytes );</tt>
+</center>
+<I>malloc</I> returns a character pointer to a contiguous block of
+<I>nbytes</I> bytes, or a <tt>NULL</tt> pointer
+(<tt>NULL</tt> is defined in the library package
+<tt>&lt;stdio.h&gt;</tt>) if it cannot get the space.
+<P>
+As before, we will assume that the variable is defined as
+<center>
+<tt>int ***array;</tt>
+</center>
+and we want the dimensions to be 10*20*30 (all of the stuff below could
+be done for an arbitrary i,j,k, which is closer to what you need).
+<P>
+First, we need an array of 10 <tt>int **</tt>'s,
+so we use the following:
+<center>
+<tt>array = (int ***) malloc( 10 * sizeof(int **) );</tt>
+</center>
+The <I>sizeof</I> function returns an integer telling how many bytes
+are needed by something of type "<tt>int **</tt>",
+and we need 10 of them.&nbsp;
+The "<tt>(int ***)</tt>" is a cast which changes the pointer type
+from "<tt>char *</tt>" to "<tt>int ***</tt>",
+to keep the types correct.&nbsp;
+Don't forget that, after this
+call to <I>malloc</I>, you should check to see if <tt>array==NULL</tt>.
+<P>
+Note:&nbsp; <I>malloc</I> is asked for 10 <tt>int **</tt>'s
+but its return is a pointer to them,
+so the result is an <tt>int ***</tt>.
+<P>
+Now that we have the 10 pointers, we can get the next level of
+pointers:
+<pre>
+	for ( i = 0 ; i < 10 ; ++i ) {
+	    array[i] = (int **) malloc( 20 * sizeof(int *) );
+	}
+</pre>
+And finally, we can fill in each of these pointers with an array of 30
+integers:
+<pre>
+	for ( i = 0 ; i < 10 ; ++i ) {
+	    for ( j = 0 ; j < 20 ; ++j ) {
+		array[i][j] = (int *) malloc( 30 * sizeof(int) );
+	    }
+	}
+</pre>
+Again, remember that each call to malloc must check the result.&nbsp;
+Also note that we could have put the two steps above together,
+filling each set of 20 pointers as we get them.
+<P>
+It is <I>much</I> more efficient to combine all similar allocations
+and divide up the memory after getting it.&nbsp;
+(It is also <I>much</I> easier to make mistakes.)&nbsp;
+When you've convinced yourself the the following works, you will
+understand C pointers fairly well.
+<P>
+<pre>
+	array = (int ***) malloc( 10 * sizeof(int **) );
+	array[0] = (int **) malloc( 10 * 20 * sizeof( int *) );
+	array[0][0] = (int *) malloc( 10 * 20 * 30 * sizeof(int) );
+	for ( j = 1  ;  j < 20  ;  ++j ) {
+	    array[0][j] = array[0][j-1] + 30;
+	}
+	for ( i = 1  ;  i < 10  ;  ++i ) {
+	    array[i] = array[i-1] + 20;
+	    array[i][0] = array[i-1][20-1] + 30;
+	    for ( j = 1  ;  j < 20  ;  ++j ) {
+		array[i][j] = array[i][j-1] + 30;
+	    }
+	}
+</pre>
+<P>
+This is the method you should use, but you will probably only need two
+dimensional arrays,
+which are far easier once you understand this example.
+<P>
+Space is returned to the system with the command
+<center>
+<tt>free( pointer );</tt>
+</center>
+<P>
+For returning the space to the system, you <I>always</I>
+return exactly what
+you were given, <I>i.e.</I>,
+the exact pointer that <I>malloc</I> gave you.&nbsp;
+You cannot return a portion of an allocation.&nbsp;
+Thus there should be a perfect 
+one-to-one correspondence between calls to <I>malloc</I>
+and calls to <I>free</I>.
+<P>
+<HR>
+<ADDRESS>
+<A HREF="http://www.ics.uci.edu/~dan">
+Dan Hirschberg </A> <BR>
+Computer Science Department<BR>
+University of California, Irvine, CA 92697-3435<BR>
+</ADDRESS>
+<tt>dan (at) ics.uci.edu</tt><br>
+Last modified: Jan 26, 2010
+</BODY></HTML>
+

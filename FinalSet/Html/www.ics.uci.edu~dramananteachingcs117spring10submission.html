@@ -1,0 +1,125 @@
+<html>
+
+<head>
+<title>Submission instructions</title>
+</head>
+<body>
+<p>
+<h1>Project submission guidelines</h1>
+
+
+<h3>Due dates/late policy</h3>
+
+Projects (or equivalenty homeworks) will only be accepted electronically through the EEE dropbox. The dropbox will have a automatic deadline of 12:30 pm on the given due date. <i> No homeworks will be accepted after that time</i>. I know this is a tough requirement, but in return, I'll award extra credit for early-submitted homeworks as described below. If you are working down to the last minute, <b> please </b> make sure something is uploaded 10 minutes prior to the deadline to ensure you won't get zero credit.
+
+
+<h3>Grading</h3>
+
+Each assignment has both programming and written components.  Your
+code will be graded both on clarity and correctness.  
+It is generally more important that your code be clear and
+correct than fast.  Your writeup should 
+be richly illustrated with graphs and images, and your code
+should be well commented and documented.
+
+<h3>Extra-credit</h3>      
+Any homework that is handed in 24 hours early will get 10% extra-credit - e.g., 5 points for a 50-point assignment.
+    
+
+<h3>Homework Submission Instructions</h3>
+
+
+<p> Submit a zip or tar archive containing your code and your writeup into the appropriate directory in the <tt>EEE Dropbox</tt>.  Use the following directory structure:
+      
+<blockquote><tt><pre>
+YourName/code
+YourName/writeup.pdf
+</pre></tt></blockquote>
+
+<p>
+The <tt>code</tt> subdirectory should contain all of your code.  Include
+everything that your code needs to run.  If I hand out code as part of the
+assignment, include that also.
+
+
+<p>
+
+Zip the <tt>YourName</tt>  directory and upload <tt>YourName.zip</tt>
+to the EEE dropbox under the folder for the given project.
+You can create a zip archive of the <tt>YourName</tt> directory in various ways:
+<p>
+
+<ul>
+  <li> Right-click on the folder and select "Create archive".
+  Select either "zip" or "tar.gz" to create the archive, or
+  <li> In a terminal, cd to the directory
+  containing <tt>YourName</tt> and type <tt>zip -r YourName
+  YourName</tt> to create <tt>YourName.zip</tt>
+</ul>
+
+<p>You can list the contents of a zip archive with the command
+<tt>unzip -l YourName</tt>
+
+<h3>Homework Writeup Guidelines</h3>
+
+<p>
+You must submit your writeups as as a single PDF document following
+this <a href="template/index.html">template</a>. PDFs are
+cross-platform formats for encoding documents with text and
+images. Most word processors (MS Word, Open Office, Apple's Pages)
+can export PDFs. <em>I will not accept writeups in any word processing format such as MS Word or Open Office.</em>  
+            
+     
+<p>Some guidelines for your figures:
+
+<ul>
+	
+  <!--
+  <p><li><b>Always show the colorbar for 2D data.</b>  Whether your are
+  showing an image or data in the form of an image, always show the
+  colorbar.  If you are showing an image, this will verify that the
+  color map spans the correct range (usually <tt>[0,1]</tt>).  If
+  you are showing data, then this will show the meaning of the colors.
+  The only exception is when you show RGB images; in that case, the
+  colorbar is meaningless because the colormap is not used.
+	
+  <p><li><b>Use a sensible color map.</b>  There are 3 standard color
+  maps available to you: <tt>gray</tt>, <tt>jet</tt>,
+  and <tt>hsv</tt>.  In the few cases where your data is periodic
+  (such as with angles), then use <tt>colormap hsv</tt>.  Otherwise,
+  use <tt>gray</tt> or <tt>jet</tt>.  Which is appropriate
+  depends on what you are trying to show.  Use the colormap that most
+  effectively communicates your point.
+
+  <p><li><b>Use a proper display range.</b>  If you are showing a
+  grayscale image, make sure that MATLAB does not remap the colors.
+  The <tt>imagesc</tt> command has an optional parameter for this
+  purpose, e.g. <tt>imagesc(im,[0,1])</tt> will make sure the color
+  map spans the range <tt>[0,1]</tt>.  If you are showing data, then
+  allowing <tt>imagesc</tt> to scale the color map to the range of
+  the data is usually appropriate.  If your data is mostly symmetric
+  around zero, then consider using a display range that is symmetric
+  around zero,
+  e.g. <nobr><tt>imagesc(im,[-1,1]*max(abs(im(:))))</tt></nobr>	
+  -->
+
+  <p><li><b>Use imwrite() for saving images.</b>  To directly export
+  an image from Matlab, use the <tt>imwrite</tt> command.  
+
+  <p><li><b> Exporting figures. </b> Sometimes, you will plot lines/shapes over images in a figure window. To export a
+  figure window (containing an images with overlaid markings): Select
+  File > Save As... from the figure window, and export as an image (PNG, TIFF, JPG, etc.).
+  
+  <p><li><b>Use a proper size and aspect ratio for exported
+figures.</b> Use the <tt>axis image</tt> command in MATLAB to make sure that pixels
+are displayed square.  If the image is not too large, ensure that image and screen pixels coincide with the <tt>truesize</tt> command.
+
+  <p><li><b> Make sure images in writeup are properly sized</b>. Large
+images do not belong in your writeup. If you need to show image
+details in a figure, then show another image with a zoomed-in portion of the image.
+
+</ul>
+<hr>
+</body>
+</html>
+

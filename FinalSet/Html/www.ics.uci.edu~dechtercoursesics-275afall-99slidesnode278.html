@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Checking of Loaded Predicates</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Checking of Loaded Predicates">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5617 HREF="node279.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5615 HREF="node277.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5609 HREF="node277.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5619 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5618 HREF="node279.html"> Checking Files</A>
+<B>Up:</B> <A NAME=tex2html5616 HREF="node277.html"> Crossreference Checking</A>
+<B> Previous:</B> <A NAME=tex2html5610 HREF="node277.html"> Crossreference Checking</A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION002241000000000000000> Checking of Loaded Predicates</A></H2>
+<P>
+This library is loaded by
+<PRE>:- lib(check).
+</PRE>
+The global predicate <b> check/0</b> defined in this library
+will make extensive checks of all the Prolog code in the Prolog database
+and it will print warning for the following predicates:
+<P>
+<UL><LI> predicates whose visibility has been declared but that are not defined,
+<LI> predicates that have been declared as a tool (with <b> tool/1</b>)
+but have not been linked to a tool body,
+<LI> predicates whose type (external or b_external) has been declared but
+that are not defined or declared (for the visibility),
+<LI> tool interfaces whose tool body is not defined.
+<LI> predicates that have been referenced (e.g. compiled a call to it)
+but that are not defined and have no declaration of any type,
+<LI> local predicates that are not declared nor referenced (and so probably redundant).
+</UL>
+<P>
+<b> check/1</b> will check a specified module.
+<P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

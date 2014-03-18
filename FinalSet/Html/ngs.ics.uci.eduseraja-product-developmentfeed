@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Seraja Product development</title>
+	<atom:link href="http://ngs.ics.uci.edu/seraja-product-development/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/seraja-product-development/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Outsourced Product Development</title>
+		<link>http://ngs.ics.uci.edu/seraja-product-development/comment-page-1/#comment-1455</link>
+		<dc:creator><![CDATA[Outsourced Product Development]]></dc:creator>
+		<pubDate>Mon, 10 Mar 2008 11:50:20 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=498#comment-1455</guid>
+		<description><![CDATA[I agree with Danny ?]]></description>
+		<content:encoded><![CDATA[<p>I agree with Danny ?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Danny</title>
+		<link>http://ngs.ics.uci.edu/seraja-product-development/comment-page-1/#comment-1391</link>
+		<dc:creator><![CDATA[Danny]]></dc:creator>
+		<pubDate>Fri, 01 Feb 2008 19:52:14 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=498#comment-1391</guid>
+		<description><![CDATA[Yes as you mentioned the product development attitude in India has definitely changed and teams lack passion and involvement]]></description>
+		<content:encoded><![CDATA[<p>Yes as you mentioned the product development attitude in India has definitely changed and teams lack passion and involvement</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

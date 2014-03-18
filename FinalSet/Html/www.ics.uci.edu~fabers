@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><HEAD>
+<TITLE>Sky Faber</TITLE>
+<META name="person" content="Sky Faber">
+<META name="sortname" content="Faber, Sky">
+</HEAD>
+
+<BODY>
+<H2>Sky Faber</H2>
+
+
+<div class="basicInfo">
+<h3> Who am I?</h2>
+<span>
+I am currently pursuing my Ph.D in Security and Privacy under <a href="http://www.ics.uci.edu/~gts">Gene Tsudik</a>.
+</span>
+</div>
+
+<h3> Where to Reach me </h3>
+<UL>
+<LI>Office: ICS-458F</li>
+<LI>E-mail: <span>fabers</span> - uci.edu</li>
+</UL>
+
+<!--<H3>Projects</H3>-->
+
+
+<H3>Other Interests</H3>
+<ul>
+<li><a href="http://en.wikipedia.org/wiki/Learning">this</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Sailing">this</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Rock_Climbing">this</a></li>
+</ul>
+
+<HR>
+<br>
+<ADDRESS>
+<a href="http://www.ics.uci.edu/">
+Information and Computer Science</a><BR>
+<a href="http://www.uci.edu/">University of California, Irvine</a><br>
+Irvine, CA 92697-3425
+
+</ADDRESS>
+Last modified: 10 Apr 2012
+</BODY></HTML>
+

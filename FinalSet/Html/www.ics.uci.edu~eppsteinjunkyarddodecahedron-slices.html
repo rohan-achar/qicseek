@@ -1,0 +1,51 @@
+<HR><PRE>
+<B>From:</B>           Robin Chapman &lt;<A HREF="mailto:rjc@noether.ex.ac.uk">rjc@noether.ex.ac.uk</A>&gt;
+<B>Date:</B>           Fri, 17 Oct 1997 08:01:44 GMT
+<B>Newsgroups:</B>     sci.math.research
+<B>Subject:</B>        Re: Volumes of pieces of dodecahedron.
+</PRE><HR><PRE>
+David Epstein wrote:
+&gt; 
+&gt; Take a regular dodecahedron and set it down on a horizontal surface.
+&gt; Then there are four levels of vertices, one at the bottom face,
+&gt; one the top face, and two levels in between. Now saw through the
+&gt; dodecahedron horizontal at the two interior levels. The dodecahedron
+&gt; is sawn into three pieces, of which the top and bottom piece are
+&gt; congruent. How can one show that the three pieces each have the same
+&gt; volume without doing a long and horrible integration?
+&gt; 
+&gt; Is this a special case of some more general theorem?
+
+Let the dodecahedron have height h and face area A. One can
+decompose it into 12 pentagonal pyramids of base area A and
+height h/2. Then the volume of the dodecahedron is
+12((h/2)A/3) = 2Ah. It suffices to show that the bottom piece
+has volume 2Ah/3. This piece is a frustum of a pentgonal pyramid.
+Its top face has area tau^2 A where tau =(1+sqrt(5))/2.
+(This comes from tau being the ratio of diagonal to side of a
+regular pentagon.) Let h_1 and h_2 be the heights of the bottom
+and central pieces. Then 2h_1 + h_2 = h. We need to determine h_1.
+But the ratio of (h_1 + h_2) to h_1 is the same as the ratio of the
+distance of the vertices A_1 and A_2 from the side A_3 A_4 in the
+regular pentagon A_1 A_2 A_3 A_4 A_5, and is seen to be tau.
+Then we find h_1 = tau^{-2}h and h_2 = tau^{-3}h. (Naturally
+everything is in golden ratio). We can express the frustum in
+question as the "difference" of two pentagonal pyramids. Let d be
+the height of the smaller of these, so that d + h_1 is the height
+of the larger. Then the ratio of d + h_1 to d is the same as the
+ratio of the sidelengths of the bases of the pyramids, i.e., it is
+tau. Thus d = tau^{-1}h and d + h_1 = h. Thus the large pyramid
+has volume (tau^2 A)h/3 and the small one has volume A tau^{-1}h/3.
+Thus the frustum has volume (tau^2-tau^{-1})Ah/3 = 2Ah/3.
+
+Not an integration in sight! I'm sure Euclid could have come up
+with such an argument.
+
+-- 
+Robin Chapman			 	"256 256 256.
+Department of Mathematics		 O hel, ol rite; 256; whot's
+University of Exeter, EX4 4QE, UK	 12 tyms 256? Bugird if I no.
+<A HREF="mailto:rjc@maths.exeter.ac.uk">rjc@maths.exeter.ac.uk</A>             	 2 dificult 2 work out."
+<A HREF="http://www.maths.ex.ac.uk/~rjc/rjc.html">http://www.maths.ex.ac.uk/~rjc/rjc.html</A>	 Iain M. Banks - Feersum Endjinn
+</PRE>
+

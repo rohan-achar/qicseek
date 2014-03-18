@@ -1,0 +1,105 @@
+<HTML>
+<center>
+<H3>CompSci 267 Homework set #6</H3>
+</center>
+<OL>
+<LI> Evaluate and compare two uniform scalar quantizers for encoding
+     a source ranging over the values in the range (-4.0, +4.0).
+     The first is a midrise quantizer defining 8 equal sized intervals.
+     The second is a midtread quantizer defining 7 equal sized intervals.
+   <P>
+     Analyze their expected error, mean square error, and entropy.
+     Do this for each of the following two distributions.
+   <UL>
+   <LI>
+     The first distribution has source values uniform over the full range.
+   <LI>
+     The second distribution has half the values uniform over the full
+     range and the other half expected to be at 0+&epsilon;,
+     where &epsilon; is a very small positive value.
+   </UL>
+<P>
+<LI> Write programs to produce histograms of
+     pixel values (range [0,255]), and
+     pixel-to-pixel differences (range [-255,+255]).
+     Use these programs to determine the histograms for
+     images sinan.img and earth.img (located in directory
+     http://www.ics.uci.edu/~dan/class/267/datasets/images/ )
+     Note that histograms for the Sinan image are in Sayood's book
+     (Figures 10.2 and 10.3).
+     Which image would you expect to compress better using
+     simple delta modulation?  Explain why.
+<P>
+<LI> Let &nbsp;<I>f</I>(<I>x</I>) be a density which is
+     everywhere positive on the interval [<I>a,b</I>].&nbsp;
+     Let <I>D<sub>N</sub></I> be the minimum distortion among all
+     <I>N</I>-level quantizers for <I>f</I>(<I>x</I>).&nbsp;
+     It is known that there is a positive constant <I>C<sub>f</sub></I>
+     such that
+     lim<sub><I>N</I>&rarr;&infin;</sub>(<I>N</I><sup>2</sup><I>D<sub>N</sub></I>&nbsp;)
+     = <I>C<sub>f</sub></I>&nbsp;.&nbsp;
+     Suppose we measure <I>D<sub>N</sub></I>&nbsp; in decibels:
+     <center>
+       [<I>D<sub>N</sub></I>&nbsp;]<sub><I>dB</I></sub> = 10 log<sub>10</sub>
+                  [&sigma;<sup>2</sup> / <I>D<sub>N</sub></I>&nbsp;]
+     </center>
+     What is the approximate difference
+       [<I>D<sub>2N</sub></I>&nbsp;]<sub><I>dB</I></sub> -
+       [<I>D<sub>N</sub></I>&nbsp;]<sub><I>dB</I></sub>
+     for large <I>N</I>?&nbsp;
+     Interpret this result.
+<P>
+<LI> Let &nbsp;<I>f</I>(<I>x</I>) be the density
+<center>
+<I>f</I>(<I>x</I>) = 2<I>x</I>, 0 &le; <I>x</I> &le; 1
+</center>
+  <OL type=a>
+  <LI> Find the exact values for the two quantization interval endpoints
+       <I>y</I><sub>1</sub> and <I>y</I><sub>2</sub> for the optimum
+       3-level quantizer for the density <I>f</I>(<I>x</I>).&nbsp;
+       (Hint: <I>y</I><sub>1</sub>/<I>y</I><sub>2</sub> = (&radic;5 - 1)/2. )
+  <LI> Find the exact values for the three quantization levels
+       <I>L</I><sub>1</sub>, <I>L</I><sub>2</sub>, <I>L</I><sub>3</sub>
+       for the optimum 3-level quantizer.
+  </OL>
+<P>
+<LI> A large image is partitioned into 4&times;4 blocks.
+     Assume that the image is a 6 bit per pixel image,
+     meaning that the pixel values are in [0,63].
+     Suppose that one of the blocks is
+<center>
+<pre>
+20 37 49 60
+11 20 36 57
+26 39 35 45
+ 0 22 27 42
+</pre>
+</center>
+The block truncation coding scheme is used on this block.
+  <OL type=a>
+  <LI> Compute the two quantization levels and the
+       4&times;4 binary matrix that are transmitted to the decoder.
+  <LI> Determine the 4&times;4 block that is reconstructed by the decoder.
+  <LI> Determine the compression rate in bits/pixel.
+  <LI> Compute the SQNR in decibels resulting from the block truncation
+       coding of the particular block above.
+  </OL>
+<P>
+<LI> In an eight bit per pixel image,
+   a variable-rate quantization scheme is used in which
+   half of the pixels are fixed-rate scalar quantized
+   at a rate of two bits per pixel, and the remaining half of the pixels
+   are fixed-rate scalar quantized at a rate of three bits per pixel.
+   Compute the optimum SQNR that results from such a lossy compression system.
+   Model each pixel value as being continuously and uniformly
+   distributed over the interval [0,255].
+   (Of course, the pixel values are really integers,
+    but the calculations will be much easier and you will make
+    very little error by assuming them to be continuously distributed.)
+<P>
+<LI> [Sayood Chapter 13 problem #1 on page 421]
+     Prove that use of an orthogonal transformation matrix
+     maintains distance invariance.
+</OL>
+</HTML>
+

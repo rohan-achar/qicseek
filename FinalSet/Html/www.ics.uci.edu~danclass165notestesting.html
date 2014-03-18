@@ -1,0 +1,98 @@
+<HTML><HEAD>
+<TITLE> Testing and verification
+</TITLE>
+</HEAD><BODY>
+
+<H2> Testing and verification </H2>
+
+<H3> Testing </H3>
+
+You may choose your own format for test input.&nbsp;
+Be sure that you document such decisions:&nbsp;
+your reasons for your choices over others,
+and any significant/relevant side-effects of your choices.&nbsp;
+Efficiency is the primary consideration,
+but ease and clarity of coding should not be overlooked.&nbsp;
+Document and justify all of your decisions.
+<P>
+The main concern is that your algorithms (sorts, multipliers, etc.)
+should be independent of the source of data, timing routines,
+debugging, testing routines, I/O, etc.&nbsp;
+I should be able to take your code for the
+function(s) that perform some job and use your code
+without having your routines waste space copying the input
+(unless the algorithm requires it), waste time performing timing
+operations, or produce annoying debugging or testing printouts.&nbsp;
+All of these tasks should be performed by your testing functions
+before and after calling the lab function, for whatever algorithm
+is being tested.&nbsp;
+Obviously this means that the functions should not be passed anything
+but what they need to do the job they are written for:&nbsp;
+not structures to record testing information or
+switches for testing-related control.&nbsp;
+The set of functions that perform a task may share global data if you
+find it absolutely necessary,
+but should not share any global data with the other portions of your
+lab (I/O, testing, etc.).
+<P>
+It is not sufficient to state that there are no error conditions just
+because your testing functions always generate correct tests.&nbsp;
+Your functions should do something reasonable if the data passed
+to them cannot be processed properly.&nbsp;
+You may even want to have your tester throw some errors at your
+functions to demonstrate their reactions.&nbsp;
+Possible errors include (but are not necessarily limited to)
+having a negative dimension passed as a parameter,
+getting an illegal result during arithmetic calculation
+(such as overflow),
+or being unable to allocate scratch memory needed.&nbsp;
+If you read from a file, you should be able to gracefully handle errors
+related to file access.
+<P>
+The output of your program should not contain lengthy
+"dumps" of all variables evaluated by the various
+functions in your program.&nbsp;
+Instead, your test procedures should call your functions
+and then use a simple (and possibly slower) method of verifying
+the accuracy of your results.&nbsp;
+Thus, the only output (other than statistics) should be
+short indications from the test procedure that your
+inner project procedures are working correctly.&nbsp;
+I should have to check only the correctness of your test
+procedures in order to be convinced of the correctness of your lab.
+
+<H3> Verification </H3>
+
+In the simplest sense, verification means demonstrating that your
+program works.&nbsp;  Verification runs should show that
+subroutines, subparts, and the final product work.&nbsp;
+These runs must show that:
+
+<UL>
+<LI> your program meets the lab specifications
+<LI> your program handles end conditions
+<LI> your program sensibly recovers from user errors
+<LI> any special features you claim to have, actually work
+</UL>
+
+<P>
+Verification runs should include:
+<UL>
+<LI> a description of how the run was generated
+     (compilation, execution commands)
+<LI> an echo of all input
+<LI> a description of what the test is supposed to indicate
+</UL>
+<P>
+
+<HR>
+<ADDRESS>
+<A HREF="http://www.ics.uci.edu/~dan">
+Dan Hirschberg </A> <BR>
+Computer Science Department<BR>
+University of California, Irvine, CA 92697-3435<BR>
+</ADDRESS>
+<tt>dan (at) ics.uci.edu</tt><br>
+Last modified: Mar 22, 1999
+</BODY></HTML>
+

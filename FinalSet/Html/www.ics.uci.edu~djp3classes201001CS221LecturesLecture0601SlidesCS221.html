@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="description" content="Web Crawling Introduction to Information Retrieval CS 221 Donald J. Patterson Content adapted from Hinrich Schütze http://www.informationretrieval.org  URL Frontier Implementation - Mercator  URLs flow from top to bottom Front queues manage priority Back queue manage politeness Each queue is FIFO http://research.microsoft.com/~najork/mercator.pdf  Introduction URL Frontier Robust Crawling DNS Various parts of architecture URL Frontier Index Distributed Indices Connectivity Servers Overview Web Crawling Outline  Indices Why does the crawling architecture exists? To gather information from web pages (aka documents). What information are we collecting? Keywords Mapping documents to a “bags of words” (aka vector space model) Links Where does a document link to? Who links to a document? The index  Indices The index has a list of vector space models  Indices Our index is a 2-D array or Matrix A Column for Each Web Page (or “Document”) A Row For Each Word (or “Term”) ...........   Indices “Term-Document Matrix” Capture Keywords A Column for Each Web Page (or “Document”) A Row For Each Word (or “Term”) ...........   Indices Is really big at a web scale It must be split up into pieces An effect way to split it up is to split up the same way as the crawling Equivalent to taking vertical slices of the T-D Matrix Helps with cache hits during crawl Later we will see that it needs to be rejoined for calculations across all documents The Term-Document Matrix  Indices - Connectivity Server Other part of reason for crawling Supports fast queries on the web graph Which URLS point to a given URL (in-links)? Which URLS does a given URL point to (out-links)? Applications Crawl control Web Graph Analysis  Link Analysis (aka PageRank) Provides input to “quality” for URL frontier Connectivity Server  Indices - Connectivity Server Adjacency Matrix - Conceptual Idea  Indices - Connectivity Server What about Adjacency Lists instead? Set of neighbors of a node Assume each URL represented by an integer i.e. 4 billion web pages need 32 bits per URL Naive implementation requires 64 bits per link 32 bits to 32 bits Connectivity Server in practice  Indices - Connectivity Server What about Adjacency Lists instead? Non-naive approach is to exploit compression Similarity between lists of links Locality (many links go to “nearby” links) Use gap encodings in sorted lists Leverage the distribution of gap values Connectivity Server in practice  Indices - Connectivity Server Current state of the art is Boldi and Vigna http://www2004.org/proceedings/docs/1p595.pdf They are able to reduce a URL to URL edge From 64 bits to an average of 3 bits For a 118 million node web graph How? Connectivity Server in practice  Indices - Connectivity Server Consider a lexicographically ordered list of all URLS, e.g: http://www.ics.uci.edu/computerscience/index.php http://www.ics.uci.edu/dept/index.php http://www.ics.uci.edu/index.php http://www.ics.uci.edu/informatics/index.php http://www.ics.uci.edu/statistics/index.php Connectivity Server in practice  Indices - Connectivity Server Each of these URLs has an adjacency list Main idea: because of templates, the adjacency list of a node is similar to one of the 7 preceding URLs in the lexicographic ordering. So, express adjacency list in terms of a template Connectivity Server in practice  Indices - Connectivity Server Consider these adjacency lists 1, 2, 4, 8, 16, 32, 64 1, 4, 9, 16, 25, 36, 49, 64 1, 2, 3, 5, 6, 13, 21, 34, 55, 89, 144 1, 4, 8, 16, 25, 36, 49, 64 Encode this as row(-2), -URL(9), +URL(8) Very similar to tricks done in assembly code Connectivity Server in practice  Indices - Connectivity Server The web is enormous A naive adjacency matrix would be several billion URLS on a side Overall goal is to keep the adjacency matrix in memory  Webgraph is a set of algorithms and a java implementation for examining the web graph It exploits the power law distribution to compress the adjacency matrix very tightly http://webgraph.dsi.unimi.it/ Connectivity Server in practice summary"/>
+    <title></title>
+    <script type="text/javascript" language="javascript">
+//      <![CDATA[
+            var images = new Array (18);
+            images[0] = "Lecture06_01_Slides_CS221_files/Lecture06_01_Slides_CS221.001.png";
+            images[1] = "Lecture06_01_Slides_CS221_files/Lecture06_01_Slides_CS221.002.png";
+            images[2] = "Lecture06_01_Slides_CS221_files/Lecture06_01_Slides_CS221.003.png";
+            images[3] = "Lecture06_01_Slides_CS221_files/Lecture06_01_Slides_CS221.004.png";
+            images[4] = "Lecture06_01_Slides_CS221_files/Lecture06_01_Slides_CS221.005.png";
+            images[5] = "Lecture06_01_Slides_CS221_files/Lecture06_01_Slides_CS221.006.png";
+            images[6] = "Lecture06_01_Slides_CS221_files/Lecture06_01_Slides_CS221.007.png";
+            images[7] = "Lecture06_01_Slides_CS221_files/Lecture06_01_Slides_CS221.008.png";
+            images[8] = "Lecture06_01_Slides_CS221_files/Lecture06_01_Slides_CS221.009.png";
+            images[9] = "Lecture06_01_Slides_CS221_files/Lecture06_01_Slides_CS221.010.png";
+            images[10] = "Lecture06_01_Slides_CS221_files/Lecture06_01_Slides_CS221.011.png";
+            images[11] = "Lecture06_01_Slides_CS221_files/Lecture06_01_Slides_CS221.012.png";
+            images[12] = "Lecture06_01_Slides_CS221_files/Lecture06_01_Slides_CS221.013.png";
+            images[13] = "Lecture06_01_Slides_CS221_files/Lecture06_01_Slides_CS221.014.png";
+            images[14] = "Lecture06_01_Slides_CS221_files/Lecture06_01_Slides_CS221.015.png";
+            images[15] = "Lecture06_01_Slides_CS221_files/Lecture06_01_Slides_CS221.016.png";
+            images[16] = "Lecture06_01_Slides_CS221_files/Lecture06_01_Slides_CS221.017.png";
+            images[17] = "Lecture06_01_Slides_CS221_files/Lecture06_01_Slides_CS221.018.png";
+            var index = 0;
+            function WindowLoaded(evt)
+            {
+                document.body.onselectstart = function () { return false; };
+            }
+            function Step(i)
+            {
+                GoTo(index + i)
+            }
+            function GoTo(newIndex)
+            {
+                if(newIndex >= 0 && newIndex < images.length)
+                {
+                    index = newIndex;
+                    document.Slideshow.src = images[index];
+                }
+            }
+//      ]]>
+    </script>
+</head>
+<body bgcolor="black" onload='WindowLoaded(event);'>
+    <p align="center">
+        <br/>
+        <br/>
+        <img name="Slideshow" alt="" src="Lecture06_01_Slides_CS221_files/Lecture06_01_Slides_CS221.001.png" onclick="Step(1)"/>
+        <br/>
+        <br/>
+        <input type="image" src="Lecture06_01_Slides_CS221_files/home.png" onclick="GoTo(0)"/>
+        &nbsp;&nbsp;&nbsp;
+        <input type="image" src="Lecture06_01_Slides_CS221_files/prev.png" onclick="Step(-1)"/>
+        <input type="image" src="Lecture06_01_Slides_CS221_files/next.png" onclick="Step(1)"/>
+    </p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

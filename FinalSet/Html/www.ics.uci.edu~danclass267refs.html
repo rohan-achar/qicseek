@@ -1,0 +1,219 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"
+      "http://www.w3.org/TR/REC-html40/loose.dtd">
+<HTML><HEAD>
+<TITLE> CompSci 267: Data Compression
+</TITLE>
+<style>
+<!--
+body { color:#000000; font:14px Arial, helvetica, sans-serif; >
+-->
+</style>
+</HEAD><BODY>
+<H2> References </H2>
+
+<H3> General References </H3>
+
+<UL>
+<LI> T. Bell, J.G. Cleary, and I.H. Witten,
+    <I>Text Compression</I>.
+    Prentice-Hall, Englewood Cliffs, NJ, 1990.
+
+<LI> J.D. Gibson, T. Berger, T. Lookabaugh, D. Lindberg, and R.L. Baker,
+    <I>Digital Compression for Multimedia</I>.
+    Morgan Kaufmann, San Francisco, 1998.
+
+<LI> M. Nelson and J. Gailly,
+    <I>The Data Compression Book</I>, 2nd edition.
+    M &amp; T Books, New York, 1996.
+
+<LI> K. Sayood,
+    <I>Introduction to Data Compression</I>, 2nd ed.
+    Morgan Kaufmann, San Francisco, 2000.
+
+<LI> D. Salomon,
+    <I>Data Compression: The Complete Reference</I>.
+    Springer-Verlag, New York, 1998.
+
+<LI> I.H. Witten, A. Moffat, and T.C. Bell,
+    <I>Managing Gigabytes:
+       Compressing and Indexing Documents and Images</I>, 2nd ed.,
+    Morgan Kaufmann, San Francisco, 1999.
+</UL>
+
+<H3> Focused References </H3>
+
+<OL>
+<LI> Introduction
+  <UL>
+  <LI> [EnglishEntropy]
+    T.M. Cover and R.C. King,
+    "A convergent gambling estimate of the entropy of English,"
+    <I>IEEE Trans. on Info. Theory 24</I> (1978) 413-421.
+  </UL>
+<LI> Coding Techniques
+  <UL>
+  <LI> [Huffman]
+    D.A. Huffman,
+    "A method for construction of minimum-redundancy codes,"
+    <I>Proc. of the IRE 40</I> (1952) 1098-1101.
+  <LI> [Adaptive Huffman]
+    J.S. Vitter,
+    "Design and analysis of dynamic Huffman codes,"
+    <I>J.ACM 34</I> (1987) 825-845.
+  <LI> [LenLim Huff]
+    L.L. Larmore and D.S. Hirschberg,
+   "A fast algorithm for optimal length-limited codes,"
+   <I>Journal ACM 37</I> (1990) 464-473.
+  <LI> [AlphaPartition]
+    D. Chen, Y.-J. Chiang, etal.,
+    "Optimal alphabet partitioning for semi-adaptive coding
+    of sources of unknown sparse distributions,"
+    <I>Proc. Data Compression Conf.</I> (2003) 372-381.
+  <LI> [Tunstall]
+    S. Savari,
+    "Variable-to-fixed length codes and plurally parsable dictionaries,"
+    <I>Proc. Data Compression Conf.</I> (1999) 453-462.
+  <LI> [ArithCoding]
+    I.H. Witten, R.M. Neal, and J.G. Cleary,
+    "Arithmetic coding for data compression,"
+    <I>Comm. ACM 30</I> (1987) 520-540.
+  <LI> [Q-coder]
+    W.B. Pennebaker, J.L. Mitchell, G.G. Langdon, and R.B. Arps,
+    "An overview of the basic principles of the Q-coder adaptive
+    binary arithmetic coder",
+    <I>IBM Journal of Research and Development 32</I> (1988) 771-726.
+  <LI> [Z-coder]
+    L. Bottou, P.G. Howard, and Y. Bengio,
+    "The Z-coder adaptive binary coder,"
+    <I>Proc. Data Compression Conf.</I> (1998) 13-22.
+  <LI> [unequal prefix codes]
+    P. Bradford, M.J. Golin, L.L. Larmore, and W. Rytter,
+    <a href="papers/Bradford.ps">"Optimal prefix-free codes for unequal letter costs:
+     Dynamic programming with the Monge property,"</a>
+    <I>LNCS 1461</I> (1998) 43-54.
+  </UL>
+<LI> Modeling
+  <UL>
+  <LI> [LZ77]
+    J. Ziv and A. Lempel,
+    "A universal algorithm for sequential data compression,"
+    <I>IEEE Trans. on Infor. Theory IT-23</I> (1977) 337-343.
+  <LI> [LZ77 optimality]
+    A.D. Wyner and J. Ziv,
+    "The sliding-window Lempel-Ziv algorithm is asymptotically optimal,"
+    <I>Proc. of the IEEE 82</I> (1994) 872-877.
+  <LI> [LZ78]
+    J. Ziv and A. Lempel,
+    "Compression of individual sequences via variable-rate coding"
+    <I>IEEE Trans. on Infor. Theory IT-24</I> (1978) 530-536.
+  <LI> [LZFG]
+    E.R. Fiala and D.H. Greene,
+    "Data compression with finite windows,"
+    <I>Comm. ACM 32</I> (1989) 490-505.
+  <LI> [LZSS]
+    J.A. Storer and T.G. Szymanski,
+    "Data compression via textual substitution,"
+    <I>Jour. ACM 29</I> (1982) 928-951.
+  <LI> [LZW]
+    T.A. Welch,
+    "A technique for high-performance data compression,"
+    <I>IEEE Computer 17</I> (1984) 8-19.
+  <LI> [PPM]
+    J.G. Cleary and W.J. Teahan, "Unbounded length contexts for PPM,"
+    <I>The Computer Journal 40</I> (1997) 67-75.
+  <LI> [PPM]
+    A. Moffat, "Implementing the PPM data compression scheme,"
+    <I>IEEE Trans. on Comm. COM-38</I> (1990) 1917-1921.
+  <LI> [Symbol Ranking]
+    P. Fenwick,
+    "Symbol ranking text compression with Shannon recodings,"
+    <I>J. of Universal Computer Science 3</I> (1997) 70-85.
+  <LI> [BWT]
+    M. Burrows and D.J. Wheeler,
+    "A block-sorting lossless data compression algorithm,"
+    <I>Digital Systems Research Center rpt. 124</I> (1994).
+  <LI> [BWT]
+    G. Manzini,
+    "An analysis of the Burrows-Wheeler Transform,"
+    <I>Jour. ACM 48</I> (2001) 407-430.
+  </UL>
+<LI> Text Compression Systems
+  <UL>
+  <LI> [CRC]
+     D.V. Sarwate,
+    "Computations of cyclic redundancy checks via table look-up,"
+    <I>CACM 31</I> (1988) 1008-1013.
+  </UL>
+<LI> Image Compression
+  <UL>
+  <LI> [CondlRLE]
+    H. Gharavi,
+    "Conditional run-length and variable-length coding
+     of digital pictures,"
+    <I>IEEE Trans. Commun. 35</I> (1987) 671-677.
+  <LI> [Progressive FELICS]
+    P.G. Howard and J.S. Vitter,
+    "Fast progressive lossless image compression,"
+    <I>Proc. 1994 IST/SPIE Int'l Symp. on Electronic Imaging
+    Science and Technology</I> (1994).
+  <LI> [JPEG-LS]
+    M. Weinberger, G. Seroussi, and G. Sapiro,
+    "LOCO-I: A low complexity, context-based, lossless image compression
+    algorithm," <I>Proc. Data Compression Conf.</I> (1996) 140-149.
+  <LI> [JBIG2]
+      JBIG committee,
+      <a href="papers/jbig2.pdf">"14492 FCD --
+      lossy/lossless coding of bi-level images,"</a>
+      July 16, 1999.
+  <LI> [JPEG2000]
+      ISO/ITU
+      <a href="papers/jpeg2000.pdf">"FCD 15444-1 --
+      JPEG 2000 image coding system,"</a>
+      March 16, 2000.
+  </UL>
+<LI> Lossy Compression
+  <UL>
+  <LI> [Quantization]
+    A. Gersho,
+    "Quantization,"
+    <I>IEEE Communications Magazine 15</I> (Sep 1977).
+  <LI> [ViterbiAlg]
+    G.D. Fiorney, Jr.
+    "The Viterbi algorithm,"
+    <I>Proc. IEEE 61</I> (1973) 268-278.
+  <LI> [TrellisCodes]
+    M. Marcellin and T. Fischer,
+    "Trellis coded quantization of memoryless
+     and Gauss-Markov sources,"
+    <I>IEEE Trans. Commun. 38</I> (1990) 82-93.
+  <LI> [TrellisCodes]
+    M. Marcellin,
+    "On entropy-constrained trellis coded quantization,"
+    <I>IEEE Trans. Commun. 42</I> (1994) 14-16.
+  <LI> [LappedTransform]
+    H. Malvar and D. Staelin,
+    "The LOT: Transform coding without blocking effects,"
+    <I>IEEE Trans. Acoustics, Speech, &amp; Signal Proc. 37</I>
+    (1989) 553-559.
+  </UL>
+<LI> Lossy Image Compression
+  <UL>
+  <LI> V. Bhaskaran and K. Konstantinides,	
+    <I>Image and Video Compression Standards:
+    Algorithms and Architectures</I>,
+    Kluwer Academic Publishers, 1995.
+  <LI> A. Said and W.A. Pearlman,
+      <a href="papers/SPIHT.pdf">"A New Fast and Efficient Image Codec Based on Set
+      Partitioning in Hierarchical Trees,"</a>
+      <I>IEEE Transactions on Circuits and Systems for
+      Video Technology 6</I> (1996) 243-250.
+  </UL>
+<LI> Audio Compression
+</OL>
+</UL>
+
+<P>
+<HR>
+Last modified: Jan 15, 2009
+</BODY></HTML>
+

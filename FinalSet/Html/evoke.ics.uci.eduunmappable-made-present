@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<link href='http://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'>
+
+<meta charset="UTF-8">
+
+<title>  The Unmappable Made Present &#8211; 4pm on April 4th, 2012</title>
+
+
+<!-- wp_header -->
+<link rel="alternate" type="application/rss+xml" title="EVOKE Lab &raquo; Feed" href="http://evoke.ics.uci.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="EVOKE Lab &raquo; Comments Feed" href="http://evoke.ics.uci.edu/comments/feed/" />
+<link rel='stylesheet' id='themify-shortcodes-css'  href='http://evoke.ics.uci.edu/wp-content/themes/suco/themify/css/shortcodes.css?ver=1.2.8' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-style-css'  href='http://evoke.ics.uci.edu/wp-content/themes/suco/style.css?ver=1.2.8' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-media-queries-css'  href='http://evoke.ics.uci.edu/wp-content/themes/suco/media-queries.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='pretty-photo-css'  href='http://evoke.ics.uci.edu/wp-content/themes/suco/prettyPhoto.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css'  href='http://fonts.googleapis.com/css?family=Rokkitt&#038;v1&#038;ver=3.8.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-content/themes/suco/js/audio-player.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-includes/js/comment-reply.min.js?ver=3.8.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://evoke.ics.uci.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://evoke.ics.uci.edu/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Values in Design Workshop &#8211; August 19-26, 2012' href='http://evoke.ics.uci.edu/values-in-design-workshop-2012/' />
+<link rel='next' title='Computer Science as a General Education Requirement?' href='http://evoke.ics.uci.edu/computer-science-as-a-general-education-requirement/' />
+<meta name="generator" content="WordPress 3.8.1" />
+<link rel='canonical' href='http://evoke.ics.uci.edu/unmappable-made-present/' />
+<link rel='shortlink' href='http://evoke.ics.uci.edu/?p=272' />
+
+<!-- Open Graph Tags -->
+<meta property="og:site_name" content="EVOKE Lab" />
+<meta property="og:type" content="article" />
+<meta property="og:description" content="Presentations and  Discussion by David Turnbull and James Leach
+Department of Informatics
+Donald Bren Hall 5011
+4.00-6.00pm
+Wednesday April 4, 2012
+
+
+
+
+The death of the drum. Unique things on the Rai Coast of Papua New Guinea.
+
+James Leach. University of Aberdeen.
+
+Slit-gong drums, made and used as part of affinal exchange relations on the Rai Coast of Papua New Guinea, are ..." />
+<meta property="og:url" content="http://evoke.ics.uci.edu/unmappable-made-present/" />
+<meta property="og:title"  content="The Unmappable Made Present &#8211; 4pm on April 4th, 2012" />
+<!-- End Open Graph Tags -->
+<!-- RSS Feed -->
+<link rel="alternate" type="application/rss+xml" title="EVOKE Lab RSS Feed" href="http://evoke.ics.uci.edu/feed/" />
+
+
+<link href="http://evoke.ics.uci.edu/wp-content/themes/suco/skins/gray/style.css" rel="stylesheet" type="text/css" />
+<!-- modules styling -->
+<style type='text/css'>
+#site-logo {
+position: absolute;
+top: 0px;
+left: 0px;
+}
+
+.post-title {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+</style>
+
+
+<!-- media-queries.js -->
+<!--[if lt IE 9]>
+	<script src="http://evoke.ics.uci.edu/wp-content/themes/suco/js/respond.js"></script>
+<![endif]-->
+
+<!-- html5.js -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<meta name="viewport" content="width=100%, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+<!--[if lt IE 9]>
+	<script src="http://s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+	<![endif]-->
+
+<script type="text/javascript">
+	AudioPlayer.setup("http://evoke.ics.uci.edu/wp-content/themes/suco/player.swf", {
+		width: '90%',
+		transparentpagebg: 'yes'
+	});
+</script>
+
+</head>
+
+<body class="single single-post postid-272 single-format-standard skin-gray sidebar1">
+
+<div id="pagewrap">
+
+	<div id="headerwrap">
+
+				<header id="header" class="pagewidth">
+        	        
+			<hgroup>
+									<div id="site-logo"><a href="http://evoke.ics.uci.edu" title="EVOKE Lab"><img src='http://evoke.ics.uci.edu/wp-content/themes/suco/themify/img.php?src=http://evoke.ics.uci.edu/wp-content/uploads/2013/02/evokelogo_color.png&amp;w=200&amp;h=' alt='EVOKE Lab'   width='200'  /></a></div>					
+				<h2 id="site-description"></h2>
+			</hgroup>
+	
+            <div id="main-nav-wrap">
+                <div id="menu-icon" class="mobile-button"></div>
+                <nav>
+                    <ul id="main-nav" class="main-nav"><li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="http://evoke.ics.uci.edu/">Home</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://evoke.ics.uci.edu/people/">People</a></li>
+<li id="menu-item-450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-450"><a href="http://evoke.ics.uci.edu/research/">Research</a>
+<ul class="sub-menu">
+	<li id="menu-item-454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-454"><a href="http://evoke.ics.uci.edu/research/knowledge-infrastructures/">Knowledge Infrastructures</a></li>
+	<li id="menu-item-453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-453"><a href="http://evoke.ics.uci.edu/research/values-in-design/">Values in Design</a></li>
+	<li id="menu-item-451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-451"><a href="http://evoke.ics.uci.edu/research/design-by-youth/">Design by Youth</a></li>
+	<li id="menu-item-452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-452"><a href="http://evoke.ics.uci.edu/research/emerging-configurations/">Emerging Configurations</a></li>
+</ul>
+</li>
+<li id="menu-item-304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-304"><a href="http://evoke.ics.uci.edu/events/">Events</a></li>
+<li id="menu-item-303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303"><a href="http://evoke.ics.uci.edu/blog/">Blog</a></li>
+<li id="menu-item-606" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-606"><a href="http://evoke.ics.uci.edu/contact/">Contact</a></li>
+</ul>                    <!-- /#main-nav --> 
+                </nav>
+			</div>
+            <!-- /#main-nav-wrap -->
+	
+					<div id="searchform-wrap">
+				<div id="search-icon" class="mobile-button"></div>
+				<form method="get" id="searchform" action="http://evoke.ics.uci.edu/">
+	<input type="text" name="s" id="s"  placeholder="Search">
+</form>
+			</div>
+			<!-- /#searchform-wrap -->
+		
+        
+			<div class="social-widget">
+					
+							</div>
+			<!-- /.social-widget -->
+			
+			<div class="header-widget">
+							</div>
+			<!-- /.header-widget -->
+
+					</header>
+		<!-- /#header -->
+        		
+		<div id="nav-bar">
+		</div>
+		<!-- /#nav-bar -->
+		
+	</div>
+	<!-- /.headerwrap -->
+	
+	<div id="body" class="clearfix"> 
+	
+
+<div id="upperwrap">
+		
+	<div class="pagewidth">
+		<h1 class="page-title">Events</h1>
+	</div>
+		
+</div>
+<!-- /#upperwrap -->
+
+	
+	<!-- layout-container -->
+	<div id="layout" class="pagewidth clearfix">
+
+				<!-- content -->
+		<div id="content" class="list-post">
+        				
+			
+<!-- post -->
+<article id="post-272" class="post-272 post type-post status-publish format-standard hentry category-events post clearfix cat-12">
+		
+	<span class="post-icon"></span><!-- /post-icon -->
+
+	<!-- post-title -->
+								<h1 class="post-title"><a href="http://evoke.ics.uci.edu/unmappable-made-present/">The Unmappable Made Present &#8211; 4pm on April 4th, 2012</a></h1>
+						<!-- /post-title -->
+
+	<!-- post-meta -->
+	<p class="post-meta"> 
+					<time datetime="2012-03-21" class="post-date" pubdate>Mar 21, 2012</time>
+		
+						<span class="post-author"><a href="http://evoke.ics.uci.edu/author/cloder/" title="Posts by Courtney Loder" rel="author">Courtney Loder</a></span>
+				<span class="post-category"><a href="http://evoke.ics.uci.edu/category/events/" title="View all posts in Events" rel="category tag">Events</a></span>
+										    
+	</p>
+	<!-- /post-meta -->
+	
+	
+<!-- post-image -->
+<!-- /post-image -->
+
+<!-- post-content -->
+
+	<h2 style="text-align: center;">Presentations and  Discussion by David Turnbull and James Leach</h2>
+<p align="center"><em>Department of Informatics</em></p>
+<p align="center"><em>Donald Bren Hall 5011</em></p>
+<p align="center"><em>4.00-6.00pm</em></p>
+<p align="center"><em>Wednesday April 4, 2012</em></p>
+<p><a class="thickbox" title="Turnbull_Leach1" href="http://faculty.sites.uci.edu/vid/files/2012/03/Turnbull_Leach1.png" rel="same-post-338"><img class="alignleft  wp-image-339" alt="" src="http://faculty.sites.uci.edu/vid/files/2012/03/Turnbull_Leach1.png" width="214" height="319" /></a></p>
+<p><a class="thickbox" title="TurnbullLeach2" href="http://faculty.sites.uci.edu/vid/files/2012/03/TurnbullLeach2.png" rel="same-post-338"><img class=" wp-image-340 alignleft" alt="" src="http://faculty.sites.uci.edu/vid/files/2012/03/TurnbullLeach2.png" width="250" height="319" /></a></p>
+<p><strong>The death of the drum. Unique things on the Rai Coast of Papua New Guinea.</strong></p>
+<p><em>James Leach. University of Aberdeen.</em></p>
+<p>Slit-gong drums, made and used as part of affinal exchange relations on the Rai Coast of Papua New Guinea, are said to have a ’voice’ and thus carry gravitas; they demand respect as a kind of person. Further, they are so closely tied to the person and position of their owners that they are said to be <em>their </em>voice. These slit-gongs cannot be extracted from the kin formations in which they came into being, and in which they have their on-going effect. However, in 2010, in an unprecedented event, a large slit-gong made for and used by a local Community School was attacked during a dispute. I examine the notion of irreplaceability framed against the notion of generic objects, and allude to the different political economies in which each rendition of things makes sense. The paper explores what the attack implies about the changing status of slit-gongs, and of on-going transformations in how things and persons are linked on the Rai Coast. I conclude with the proposition that Rai Coast slit-gongs are specific and unique things because of the ‘relational’ position they sustain. In this they have a temporal rather than essential uniqueness.</p>
+<p>James Leach is Professor of Anthropology at the University of Aberdeen. Published works include <em>Creative Land: Place and Procreation on the Rai Coast of Papua New Guinea (</em>2003 Berghahn), <em>Reite Plants: An Ethnobotanical Study in Tok Pisin and English (</em>2010, ANU EPress, with Porer Nombo), and <em>Recognising and Translating Knowledge, 2012 Anthropological Forum Special Issue, ed with R. Davis)</em>.</p>
+<p><a class="thickbox" title="TurnbullLeach3" href="http://faculty.sites.uci.edu/vid/files/2012/03/TurnbullLeach31.png" rel="same-post-338"><img class="alignleft size-medium wp-image-343" alt="" src="http://faculty.sites.uci.edu/vid/files/2012/03/TurnbullLeach31-300x224.png" width="300" height="224" /></a><a class="thickbox" title="TurnbullLeach4" href="http://faculty.sites.uci.edu/vid/files/2012/03/TurnbullLeach41.png" rel="same-post-338"><img class="alignleft size-medium wp-image-344" alt="" src="http://faculty.sites.uci.edu/vid/files/2012/03/TurnbullLeach41-300x228.png" width="300" height="228" /></a></p>
+<p><strong>Mapping Dark Matter, The Venetian Paradox, and Performative Cartography: Pursuing The Liminal Boundary Between the Mappable and the Unmappable</strong></p>
+<p><strong><em>            </em></strong><em>David Turnbull, University of Melbourne</em><em> </em></p>
+<p>The question of where and how the boundary between the mappable and the unmappable moves is brought on by the recent announcement of  ‘The Map of Dark Matter’ and its parallels with the ‘Venetian Paradox’. The dark matter map, in bringing into visibility and knowability that which was previously by definition invisible, seems to have forced a reconfiguration of thought and knowledge very like that brought about in Venice with the publication of Luca Paciolo’s  mathematical encyclopedia Summa de Arithmetica, Geometria, Proportioni et Proportionalità, in 1494. This famous work was the first to give formal protocols to double entry bookkeeping and linear perspective, both of which are dependent on the previously unthinkable, contradictory, and paradoxical– zero, that which was both something and nothing. These reconfigurations occurred in Venice, a site which itself is at the liminal boundary, being miraculously self-constructed on the land and in the water, mapping itself into existence out of nothing. The paper explores the ways in which performative cartography can illuminate these early shapings of the forms of knowledge, objectivity, value and place that came to underpin capitalism, science and modernity, and the transformations brought about by ‘cosmopaleontology’, the map of dark matter, and the current problems besetting the Venetian lagoon.</p>
+<p>David Turnbull is a Senior Research Fellow at the Victorian Eco-Innovation Lab (VEIL) in the Architecture Faculty at Melbourne University.  Published work include <em>Masons, Tricksters and Cartographers: Comparative Studies in the Sociology of Scientific and Indigenous Knowledge</em>, 1<sup>st</sup> ed. Harwood Academic Publishers, Amsterdam, 2000, 2<sup>nd</sup> ed. Routledge, London, 2003 and<em> ‘Trails and Tales: Multiple Stories of Human Movement and Modernity’</em>, in Arctic Geopolitics and Autonomy, Arctic Perspective Cahier Series No. 2, edited by M. T. Bravo and N. Triscott. Ostfildern: Hatje Cantz, 2010, 71-87.</p>
+<p align="center"><em><br />
+</em></p>
+
+<!-- /post-content -->	
+		
+    </article>
+<!-- /post -->
+	
+			
+				
+			<!-- post-nav -->
+<div class="post-nav clearfix"> 
+	<span class="prev"><a href="http://evoke.ics.uci.edu/values-in-design-workshop-2012/" rel="prev"><span class="arrow">&laquo;</span> Values in Design Workshop &#8211; August 19-26, 2012</a></span>	<span class="next"><a href="http://evoke.ics.uci.edu/computer-science-as-a-general-education-requirement/" rel="next"><span class="arrow">&raquo;</span> Computer Science as a General Education Requirement?</a></span></div>
+<!-- /post-nav -->
+	
+							
+
+	
+	
+
+
+		
+						
+            		</div>
+		<!-- /content -->
+        
+
+<aside id="sidebar">
+	
+	
+	</aside>
+<!-- /#sidebar -->
+
+</div>
+<!-- /layout-container -->
+	
+
+		</div>
+	<!-- /body -->
+	
+	<div class="footer-widgetswrap clearfix">
+		<div class="footer-widgets pagewidth clearfix">
+	
+				
+	<div class="footer-widgets clearfix">
+
+								<div class="col3-1 first">
+							</div>
+								<div class="col3-1 ">
+							</div>
+								<div class="col3-1 ">
+							</div>
+		
+	</div>
+	<!-- /.footer-widgets -->
+
+			
+		</div>
+		<!-- /.footer-widgets -->
+	</div>
+	<!-- /.footer-widgetswrap -->
+
+	<div id="footerwrap">
+    
+    			<footer id="footer" class="pagewidth clearfix">
+        				
+			<div id="footer-logo">
+									 <a href="http://evoke.ics.uci.edu/">EVOKE Lab</a>
+							</div>
+			<!-- /footer-logo -->
+	
+				
+			<div class="footer-text clearfix">
+				<div class="one"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</div>
+				<div class="two">Powered by <a href="http://wordpress.org">WordPress</a>  &bull; <a href="http://themify.me">Themify WordPress Themes</a></div>
+			</div>
+			<!-- /.footer-text --> 
+
+					</footer>
+		<!-- /#footer -->
+                
+	</div>
+	<!-- /#footerwrap -->
+	
+</div>
+<!-- /#pagewrap -->
+
+
+<!-- wp_footer -->
+
+
+				
+		<!-- slider -->
+		<script>
+		/////////////////////////////////////////////
+		// Slider	 							
+		/////////////////////////////////////////////
+		jQuery(document).ready(function($){
+			$('#slider').flexslider({
+				animation: "slide",
+				slideshow: true,
+				slideshowSpeed: 4000,
+				animationSpeed: 3000,
+				animationLoop: true, 
+				directionNav: true,
+				prevText: "&laquo;",
+				nextText: "&raquo;",
+				pauseOnHover: true
+			});
+		});
+		</script>
+        <script type='text/javascript' src='http://evoke.ics.uci.edu/wp-content/themes/suco/js/jquery.prettyPhoto.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-content/themes/suco/js/jquery.slider.js?ver=3.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var themifyScript = {"overlayTheme":"pp_default"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-content/themes/suco/js/themify.script.js?ver=3.8.1'></script>
+
+</body>
+</html>

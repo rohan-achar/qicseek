@@ -1,0 +1,201 @@
+		<!-- Begin DisplayHeader HTML -->
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+		<html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+			<title>CML :: Center for Machine Learning and Intelligent Systems</title>
+
+			<link href="css/igbweb_template2.css" rel="stylesheet" type="text/css" />
+			<link rel="SHORTCUT ICON" href="/favicon.ico" />
+
+			<noscript>
+			Please enable javascript on your browser.
+			</noscript>
+
+			<script type="text/javascript" src="igbjs/milonic_src.js"></script>
+			<script	type="text/javascript">
+			if(ns4)_d.write("<scr"+"ipt type=text/javascript src=igbjs/mmenuns4.js><\/scr"+"ipt>");
+			  else _d.write("<scr"+"ipt type=text/javascript src=igbjs/mmenudom.js><\/scr"+"ipt>");
+			</script>
+			<!--<script type="text/javascript" src="/igbjs/menu_data.js"></script>-->
+
+		</head>
+		<!-- End DisplayHeader HTML -->
+
+			<!-- Begin Left Nav & Content Area -->
+
+		<body>
+		<!--<div class="mainDiv">-->
+		<table align="center">
+		<tr>
+		<td class="mainDiv" align="center" valign="middle">
+
+		<table cellpadding="0" cellspacing="0">
+			<tr align="left">
+			<td align="center" colspan="2" >
+			<a href="?"><img src="media/banners/center_title_banner.jpg" border=0 /></a>
+			<!--<img src="media/banners/cml_banner.jpg" border="0" alt="Center for Machine Learning and Data Mining" align="middle"/>-->
+			</td>
+			</tr>
+			<!--
+			<tr>
+				<td colspan="2" height="1">
+				</td>
+			</tr>
+			-->
+			<tr valign="top">
+				<td background="media/uci_background.gif" width="147.5">
+				&nbsp;
+			    <script type="text/javascript" src="igbjs/menu_data.js"></script>
+
+
+				<br><br><br><br><br><br><br>
+
+				<!--<table cellpadding=4><tr><td bgcolor=WHITE><a href='http://www.ics.uci.edu/~aimlpage/meetings.html'>2007 AI/ML Weekly Seminar</a></tr></td></table>-->
+
+				</td>
+				<td width="723px" >
+				<div class="contentArea">
+					<!-- <table> -->
+						<!-- <tr> -->
+							<!-- <td> -->
+							  <!--<div style="background: white;">-->
+								<!-- Begin Actual content -->
+								
+<!-- Below is the html -->
+
+<p class="pageName">Distinguished Speaker Schedule</p>
+
+<!-- DO NOT EDIT script for menu -->
+<!--<table width="100%">
+<td align="left" valign="top">
+<script>
+//Header
+with(DSSStyle=new mm_style()){
+bordercolor="#cccccc";
+borderstyle="solid";
+borderwidth=1;
+fontfamily="verdana,helvetica";
+fontsize="1em";
+fontstyle="normal";
+fontweight="normal";
+headerbgcolor="#003399";
+headercolor="#FFFF33";
+offbgcolor="#ececec";
+offcolor="blue";
+onbgcolor="blue";
+oncolor="white";
+padding=2;
+}
+
+with(DSSMenu=new menuname("DSS Menu")){
+style=DSSStyle;
+//top=220;
+//left=225;
+alwaysvisible=1;
+orientation="horizontal";
+position="relative";
+
+aI("status=Distinguished Speaker Series Schedule;text=Schedule :: ;url=?page=events&subPage=dss_schedule;");
+aI("status=Distinguished Speaker Series Speakers;text=Speakers :: ;url=?page=events&subPage=dss_speakers;");
+aI("status=Distinguished Speaker Series Abstracts;text=Abstracts;url=?page=events&subPage=dss_abstracts;");
+}
+drawMenus();
+
+</script>
+</td>
+</table>
+</p>
+-->
+<!-- end of script for menu -->
+
+<table>
+<tr>
+  <td valign = top width=450>
+  <strong><a name="top" id="top"></a>2010-2011 Distinguished Speaker Series</strong><br><br>
+
+          The Center for Machine Learning and Intelligent Systems is
+		  very pleased to announce its Distinguished Speaker series for the
+		  academic year 2010-2011. This year's series will bring a set
+		  of internationally-known researchers to UC Irvine, speaking on
+		  a broad set of topics ranging from machine learning,
+		  statistical prediction, and analysis of text, network, and Web data.<br><br>
+
+		  Support for this series from Experian, Yahoo!, and the Institute of Genomics and Bioinformatics is gratefully acknowledged.<br><br>
+
+		  <!--<a href="media/CML_SpeakerSeries_0800.pdf">Download Speaker Schedule [PDF]</a>
+		  <br><br> -->
+
+          Attendance is free.  We request that you RSVP by emailing <a href="mailto:ckennedy@ics.uci.edu">ckennedy@ics.uci.edu</a>.
+
+   </td>
+   <td><img src="media/speakers/series.gif" / hspace = 20></td>
+ </tr>
+ </table>
+
+<br>
+
+<table cellpadding=5 border=1>
+  <tr>
+     <td valign=top><b>Friday Oct 29, 2010</b><br>Bren Hall 6011<br>11:00 am</td>
+     <td valign=top><img src="media/speakers/boyd.jpg" align=left height=70 vspace=3 hspace=10/>
+         <a href="http://www.stanford.edu/~boyd/"><b>Professor Stephen Boyd</b></a><br>Departments of Electrical Engineering, Management Science and Engineering, <br>Stanford University<br><br><br>
+         <i>"Real-Time Embedded Convex Optimization"</i> <br /><br /><b>Abstract</b><br />
+         This talk concerns the use of convex optimization, embedded as part of a larger system that executes automatically with newly arriving data or changing conditions, in areas such as automatic control, signal processing, real-time estimation, real-time resource allocation and decision making, and fast automated trading. Such systems are already in use in applications such as model predictive control or supply chain optimization, with sample times measured in minutes (or longer); our focus is on systems with much faster dynamics, with execution times measured in milliseconds or microseconds for small and medium size problems. We describe a preliminary implementation of an automatic code generation system, which scans a description of the problem family and performs much of the analysis and optimization of the algorithm, such as choosing variable orderings used with sparse factorizations, at code generation time; compiling the generated source code yields an extremely efficient custom solver for the problem family.
+         </td>
+  </tr>
+
+  <tr>
+       <td valign=top><b>Thursday Jan 20, 2011</b><br>Bren Hall 6011<br>11:00 am</td>
+       <td valign=top><img src="media/speakers/itti.jpg" align=left height=70 vspace=3 hspace=10/>
+           <a href="http://ilab.usc.edu/itti/"><b>Professor Laurent Itti</b></a><br>
+           Departments of Computer Science, Psychology, and Neuroscience Graduate Program, USC<br><br><br>
+           <i>"Bayesian modeling of bottom-up and top-down visual attention in natural environments"</i> <br /><br /><b>Abstract</b><br />
+           Recent years have witnessed tremendous advances in endowing machines with autonomous reasoning and decision-making capabilities. This has given rise to highly intelligent and cognitively capable machines, which in some cases approach or exceed human abilities. However, one aspect in which robots and other artificially intelligent entities are still lacking compared to their biological counterparts is in their sensory and motor interaction with the real world, including: rapidly finding and identifying objects that may be surprising or of particular interest in cluttered scenes, building cognitive representations of scenes, and physically interacting with these scenes. I will review a number of exciting new algorithms which draw inspiration from biology to attempt to bridge the gap between artificial and natural visual systems. Specifically, I will describe several neural-network architectures which can compute surprise, bottom-up visual salience, and top-down task relevance in the form of topographical maps that can guide attention. I will review recent electrophysiological, neuroimaging, and psychophysics evidence supporting the architectures. I will then describe examples of successful robotics and machine vision systems which have used such architectures and have demonstrated strong performance at object detection in cluttered scenes, scene parsing, robot localization in outdoor natural environments, and accurate prediction of where humans look when searching for particular items in complex scenery.
+           </td>
+  </tr>
+
+  <tr>
+       <td valign=top><b>Friday Feb 25, 2011</b><br>Bren Hall 6011<br>11:00 am</td>
+       <td valign=top><img src="media/speakers/gilbert.jpg" align=left vspace=3 height=70 hspace=10/>
+           <a href="http://www.cs.ucsb.edu/~gilbert/"><b>Professor John Gilbert</b></a>
+           <br>Department of Computer Science, UCSB<br><br><br><br>
+           <i>Challenges in High-Performance Combinatorial Scientific Computing</i> <br /><br /><b>Abstract</b><br />
+           Computation on large combinatorial structures -- graphs, strings, partial orders, etc. -- has become fundamental in many areas of data analysis and scientific modeling.  Subjects as diverse as computational biology, data mining, and relationship analysis are highly influenced by discrete methods.  However, the field of high-performance combinatorial computing, unlike that of numerical supercomputing, is in its infancy.<br><br>
+           In this talk I will survey some of the history of combinatorial scientific computing.  I will discuss a number of emerging challenges in the areas of tools and technologies, drawing examples from various applications; and I will highlight our group's work on algebraic tools for high-performance computation on large graphs and networks.
+           </td>
+  </tr>
+
+</table>
+
+<br>Talks on Fridays are co-hosted with the Department of Computer Science.
+<br>
+<br>
+View past distinguished speaker series: <a href="?page=events&subPage=dss_schedule_0910">09-10</a>, <a href="?page=events&subPage=dss_schedule_0809">08-09</a>, <a href="?page=events&subPage=dss_schedule_0708">07-08</a>, <a href="?page=events&subPage=dss_schedule_0607">06-07</a>.
+
+
+
+<!-- Above is the html -->
+
+								<!-- End Actual content -->
+						      <!--</div>-->
+							<!-- </td> -->
+						<!-- </tr> -->
+					<!-- </table> -->
+				<!--</div>  contentArea -->
+			<!--<div class="tagline">-->
+		<p class="footerArea" align="center">&copy; Copyright 2006. <a href="?">Center for Machine Learning and Intelligent Systems</a><br>949.824.9296 tel | 949.824.9813 fax |
+		<a href="mailto:cmlis@ics.uci.edu">cmlis@ics.uci.edu</a></p>		</div> <!-- end content area + footer -->
+		<!-- End Footer -->
+				</td>
+			</tr>
+		</table>
+		<!--</div>--> <!--Whole page main div -->
+		</td>
+		</tr>
+		</table>
+	<!--End body region -->
+	</body>
+	</html>
+	
+

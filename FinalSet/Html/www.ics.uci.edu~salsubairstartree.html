@@ -1,0 +1,59 @@
+<HTML><HEAD>
+<TITLE>Efficient and Lightweight In-Memory Implementation of R*-Tree</TITLE>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24204348-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</HEAD><BODY>
+<H2>Efficient and Lightweight In-Memory Implementation of R*-Tree</H2>
+
+<table class="image">
+<tr><td><a href="R*-tree" title="R*-tree"><img src="./imgs/rstartree.JPG" height="50%"></a></td></tr>
+<tr><td> <font size="-1"> <a href="http://en.wikipedia.org/wiki/File:RTree_2D.svg">File:"RTree 2D.svg." Wikipedia, the Free Encyclopedia. Web. 25 June 2011.</a></font></td></tr>
+</table>
+
+<hr>
+
+This package provides an efficient and lightweight in-memory C++ implementation of the R*-tree [1]. Initially, the code has been developed by our group to be used in their experiments. The following papers has benefited from the package:
+ 
+<UL>
+<LI>Supporting Location-Based Approximate-Keyword Queries, Sattam Alsubaiee, Alexander Behm, and Chen Li, ACM SIGSPATIAL GIS 2010.
+<LI>Location-Based Instant Search, Shengyue Ji and Chen Li, SSDBM 2011.  
+</UL>
+
+The package works with 2D objects and supports the following operations:
+<UL>
+<LI>Insert objects
+<LI>Delete objects
+<LI>Range search
+<LI>Nearest neighbor search 
+</UL>
+
+<H3>Main contributors</H3>
+<UL>
+<LI><a href="http://www.ics.uci.edu/~salsubai">Sattam Alsubaiee</a>, PhD student
+<LI><a href="http://www.ics.uci.edu/~chenli">Chen Li</a>, Faculty
+</UL> 
+
+<H3>Download source code</H3>
+<UL>
+<LI><a href="./src/rstartree.tar.gz">rstartree.tar.gz</a>
+</UL>
+
+<H3>Acknowledgement</H3>
+We thank Shengyue Ji for writing the R*-tree storage manager.
+ 
+<H3>References</H3>
+[1] Norbert Beckmann, Hans-Peter Kriegel, Ralf Schneider, Bernhard Seeger: 'The R*-tree: An Efficient and Robust Access Method for Points and Rectangles', Proceedings of the ACM SIGMOD, 1990
+
+</BODY></HTML>
+

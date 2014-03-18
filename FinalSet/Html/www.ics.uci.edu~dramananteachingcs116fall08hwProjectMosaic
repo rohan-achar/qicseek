@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>HW4: </title>
+  </head>
+  <body>
+    <h1>HW4: Homography mosaics </h1>
+    <h3> Due Nov 20 in EEE DropBox at 11:59 pm </h3>
+    <hr>
+
+<h2>HW4: Homography mosaics</h2>
+
+
+<a href="window.png"> <img width=500 src="window.png"> </a>
+<font size="-1"><br>
+Mosaic of 4 images aligned with homographies
+</font>
+<br>
+
+<p>
+In this assignment, again prepared by the fearless <a href="http://vision.bc.edu/~dmartin/"> David Martin<a/>, you extend the field of view of a camera by forming a mosaic from multiple photographs. 
+
+When images are taken with same optical center, they can be aligned with a homography transformation. To estimate the homography, you'll need 4 pairs of corresponding points in the overlap region. You'll mark these points manually. We discussed in class some methods for finding them automatically.
+
+The following directory contains the source images for alignment, along with skeleton code:
+
+<ul>
+<li><a href="downloads">Downloads</a>
+</ul>
+
+<h4>Programming: [20 points]</h4>
+
+<p>
+The first image in each example provided is the central image.  It's
+simplest to construct a mosaic from a central image and a set of
+peripheral images, since we then need to find just one homography for
+each peripheral image.  Use the <tt>cpselect</tt> and <tt>cpcorr</tt>
+
+functions to manually select and refine at least 4 pairs of
+corresponding points in each overlap region between the central and
+peripheral images.  These points should be located on high contrast
+corners.
+
+<p>
+Next, compute the homography using linear least squares for each set
+of correspondences to provide the mapping from points in the central
+images and points in the peripheral images.  You'll probably want 
+to write two functions such as:
+
+<blockquote><tt><pre>
+function [H] = computeHomography(x1,y1,x2,y2)
+function [x2,y2] = applyHomography(H,x1,y1)
+</pre></tt></blockquote>
+
+<p>
+Note that the inverse mapping is given simply by <tt>inv(H)</tt>.
+
+<p>
+Use the central image's coordinate system for the final mosaic.  You
+need to figure out the min and max pixel coordinates when the peripheral
+images are mapped into the central image's coordinate system.  Simply
+apply your homographies to the peripheral images' corner points to find
+the extent of the final mosaic.
+
+<p>
+Now generate a <tt>meshgrid</tt> of points to cover the mosaic, send
+these points through each homography in turn, and use
+
+<tt>interp2</tt> to extract pixel values from the source images.  For
+each input image, this produces an image the size of the final mosaic;
+pixels that are outside the source image are set to <tt>NaN</tt>.
+
+<p>
+Finally, assemble the mosaic from the remapped source images.  Use
+<tt>isnan(I)</tt> to get a mask for each one that tells you which pixels
+are valid and which are invalid.  For Part I, you may simply take a
+pixel from any valid image.
+
+<h4>Writeup: [10 points]</h4>
+
+<ol>
+
+<p><li> Show the resulting mosaic for one of the provided examples.  Show
+also the remapped source images before they are blended into the final 
+mosaic.
+
+
+<p><li> Show two mosaics of your own creation, each with at least 3 
+source images.  Show
+also the remapped source images before they are blended into the final 
+mosaic.
+
+</ol>
+
+<h4>Matlab Tips</h4>
+
+<ol>
+
+<p><li> Don't forget the <tt>hold on</tt> command if you want to 
+plot one thing on top of another.
+
+<p><li> Running <tt>cpselect</tt> is a pain.  Don't do it more than
+once for any pair of images!  You can use the <tt>save</tt> and
+
+<tt>load</tt> functions to save and restore variables from your
+matlab workspace.
+
+<p><li> Do no use the full size images.  Resize them down so that your
+debugging goes fast.  For your final results, 25% size is sufficient.
+
+<p><li> You can treat the central image as just another source image
+by using <tt>eye(3)</tt> as its homography.
+
+<p><li> Use <tt>'linear'</tt> interpolation with <tt>interp2</tt>; 
+it's fast and looks good.  Just make sure you don't use nearest neighbor
+interpolation, which looks terrible and may be the default.
+
+
+</ol>
+
+<h4>Extra-credit</h4>
+    As detailed in the <a href="../../hw_guide.html"> guidelines</a>, any project handed by 11:59 pm on the previous day (Nov 19th), will recieve 10% (3 points) extra credit.
+
+</p></div></center>
+</body></html>

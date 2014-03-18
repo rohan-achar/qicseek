@@ -1,0 +1,252 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Script-Type" content="text/javascript">
+<title>ICS 54: Shell Programming I</title>
+</head>
+
+<body bgcolor="#F8F8F0">
+<i><a href="http://www.ics.uci.edu/"> UC Irvine,
+Information and Computer Science Department</A></I>
+Winter 2000<br>
+<h2><A HREF="http://www.ics.uci.edu/~ics54/">ICS 54</A>:
+Shell Programming I: Brief notes for Chapter 15
+</h2>
+
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>Introduction to Shell Programming</h2>
+
+We move from considering UNIX shells as an interactive tools
+to their capablities as a
+scripting (interpreted programming) languages.
+<p>
+For this aspect of UNIX shells, we switch our focus from
+the C shell, 
+<a href="http://docs.sun.com/ab2/coll.40.5/REFMAN1/@Ab2PageView/idmatch(CSH-1)"><tt>csh</tt></a>,
+to the Bourne shell,
+<a href="http://docs.sun.com/ab2/coll.40.5/REFMAN1/@Ab2PageView/idmatch(SH-1)"><tt>sh</tt></a>.
+<p>
+Shell programming is easy. 
+<ul>
+<li>Put the commands you want to execute into a file.
+<li>Make the file executable.
+<li>Use the file's name as a command.
+</ul>
+
+<h3>Example:</h3>
+<pre>
+% cat > dated.list << EOD
+# Comments are nice.  This is one
+date   # and so is the rest of this line
+pwd
+ls -l 
+EOD
+% chmod +x dated.list
+./dated.list
+</pre>
+
+<h3>Notes</h3>
+<ul>
+<li>This assumes we want to use the Bourne shell.
+<br>To use any other shell, make the first line of the file
+<br>&nbsp;&nbsp;&nbsp;<tt><b>#!<i>full path name of
+  shell and options</i></b></tt>
+<br>Examples:
+<br>&nbsp;&nbsp;&nbsp;<tt><b>#!/usr/bin/csh -f</b></tt>
+<br>&nbsp;&nbsp;&nbsp;<tt><b>#!/usr/bin/sh</b></tt>
+<li>It's standard practice and a <b>very good idea</b> to
+<b>always</b> always have the first line indicate the shell.
+<br>&nbsp;&nbsp;&nbsp;<tt><b>#!/usr/bin/sh</b></tt>
+<li>We could have skipped step 2 above (making the file executable)
+and explicitly told the shell to start a new shell to run
+the commands in the file:
+<br>&nbsp;&nbsp;&nbsp;<tt>sh&nbsp;dated.list</tt>
+<li>To run short sequences of commands in their own subshell,
+use parentheses.  Example:
+<br>&nbsp;&nbsp;&nbsp;<tt>(date; pwd; ls -l) > my.listing </tt>
+<li>The Bourne shell also uses "<tt><b>{<i>...</i>}</b></tt>"
+for grouping commands in the current shell.
+<li>For the Bourne shell, "<tt><b>.</b></tt>" (that's right, just
+dot) is equivalent to the C shell's "<tt>source</tt>"
+<li>A superb and very important collection of shell programs
+can be found at <tt><b>/etc/rc?.d</b></tt>
+<li>After a bit of UNIX System Administration, you will not only
+appreciate these individually, but find special meaning in
+<br>&nbsp;&nbsp;&nbsp;<tt>ls -i /etc/rc?.d/* | sort +n </tt>
+</ul>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>Shell Variables, Revisited</h2>
+<b>For the Bourne shell (and its immediate relatives)</b>
+
+<dl>
+<dt><tt>somename<b>=</b>somev</tt>
+  <dd>Defines the variable <tt>somename</tt> to have the value
+<tt>somev</tt>
+<dt><tt><b>$</b>somename</tt>
+  <dd>Replace by value of the variable <tt>somename</tt>:
+<dt><tt><b>${</b>somename<b>:-</b>somev<b>}</b></tt>
+  <dd>Replace by value of the variable <tt>somename</tt> if it is
+   set; otherwise, use <tt>somev</tt>
+<dt><tt><b>${</b>somename<b>:=</b>somev<b>}</b></tt>
+  <dd>Replace by value of the variable <tt>somename</tt> if it is
+   set; otherwise, set it to <tt>somev</tt> and then use that value.
+<dt><tt><b>${</b>somename<b>:?</b>message<b>}</b></tt>
+  <dd>Continue of the value of the variable <tt>somename</tt> is set;
+   otherwise, send (the string) <tt>message</tt> to standard error,
+   and stop the execution of the shell, returning a value of
+   false (1) to the parent process.  If <tt>message</tt> is the
+   empty string (i.e., <tt><b>${</b>somename<b>:}</b></tt>),
+   use a standard default error message string.
+</dl>
+
+<h3>Example:</h3>
+<pre>
+#!/bin/sh -x   # Show lines as they are executed
+# echo.vars -- Basic sh variables
+echo "Inititally, X=\"$X\" and Y=\"$Y\""
+X=Alpha
+echo "X=\"$X\""
+echo '${Y:-"Beta"}'=${Y:-"Beta"}
+echo "Y=\"$Y\""
+echo '${Y:="Gamma"}'=${Y:="Gamma"}
+echo "Y=\"$Y\""
+</pre>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>Shell Script Parameters</h2>
+
+If <tt>cmd</tt> is a shell script and one executes the command
+<br>&nbsp;&nbsp;<tt><b>cmd&nbsp;a1&nbsp;a2&nbsp;a3&nbsp;<i>...</i>&nbsp;a9</b></tt>
+<br>then, within the script defining <tt>cmd</tt>,
+<table>
+<tr><td><tt><b>$0</b></tt></td><td>Refers to <tt><b>cmd</b></tt></td></tr>
+<tr><td><tt><b>$1</b></tt></td><td>Refers to <tt><b>a1</b></tt></td></tr>
+<tr><td><tt><b>$2</b></tt></td><td>Refers to <tt><b>a2</b></tt></td></tr>
+<tr><td><tt><b>$3</b></tt></td><td>Refers to <tt><b>a3</b></tt></td></tr>
+<tr><td><tt><b><i>...</i></b></tt></td><td><tt><b><i>...</i></b></tt></td></tr>
+<tr><td><tt><b>$9</b></tt></td><td>Refers to <tt><b>a9</b></tt></td></tr>
+</table>
+<h3>Examples:</h3>
+<pre>
+#!/bin/sh
+# SN = Switch the Names of 2 files
+mv $1 0funnyname.$$
+mv $2 $1
+mv 0funnyname.$$ $2
+
+########################################################
+
+#!/bin/sh
+# echo.args -- sh script echoing its arguments
+echo "\n$0 reporting that it has \$# = $# argument(s)"
+echo "Arguments (\$*) = $* ====="
+shift
+echo "After a shift, arguments (\$*) = $* ====="
+echo "This has PID (\$\$) = $$\n"
+
+##### Sample Run:
+  % ./echo.args this is nice
+
+  ./echo.args reporting that it has $# = 3 argument(s)
+  Arguments ($*) = one two three =====
+  After a shift, arguments ($*) = two three =====
+  This has PID ($$) = 9596
+
+  %
+</pre>
+
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>Shell Output and Input</h2>
+
+<dl>
+<dt><tt><b><a
+href="http://docs.sun.com/ab2/coll.40.5/REFMAN1/@Ab2PageView/idmatch(ECHO-1)">echo</a></b>
+&nbsp;<i>string</i></tt>
+<dd>The basic output mechanism: Echo/print <tt><i>string</i></tt>.
+<br>Special <i>escape</i> sequences in <tt><i>string</i></tt>
+have special meanings, such as <tt><b>\c</b></tt> for do not end this line
+and <tt><b>\n</b></tt> for start a newline.
+<dt><tt><b><a
+href="http://docs.sun.com/ab2/coll.40.5/REFMAN1/@Ab2PageView/idmatch(READ-1)">read</a></b>
+&nbsp;<i>vars</i></tt>
+<dd>The basic input mechanism: Read user input into <tt><i>var</i></tt>
+<dt><tt><b><a
+href="http://docs.sun.com/ab2/coll.40.5/REFMAN1/@Ab2PageView/idmatch(SET-1)">set</a></b>
+&nbsp;<i>string</i></tt>
+<dd>Set the arguments <tt><b>$1</b></tt>, 
+<tt><b>$2</b></tt>,
+<tt><b>$3</b></tt>, ..., etc.
+from <tt><i>string</i></tt>.
+</dl>
+
+<h3>Examples:</h3>
+<pre>
+#!/bin/sh
+# read.set -- read in new arguments
+echo "$# arguments = $* ==="
+echo "New arguments please: \c"
+read in
+echo "Input = $in ==="
+set $in
+echo "$# new argument(s) = $* ==="
+
+##### Sample Run:
+  % ./read.set what will happen
+  3 arguments = what will happen ===
+  New arguments please: let us see    what will happen
+  Input = let us see    what will happen ===
+  6 new argument(s) = let us see what will happen ===
+
+########################################################
+
+#!/bin/sh
+# read2in -- read 2 variables
+echo "Input please: \c"
+read in1 in2
+echo "Input1 = $in1 ===\nInput2 = $in2 ==="
+
+##### Sample Run:
+  % ./read2in
+  Input please: what do you want
+  Input1 = what ===
+  Input2 = do you want ===
+</pre>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>Debugging</h2>
+
+The <tt><b>-x</b></tt> option to
+<tt><b><a
+href="http://docs.sun.com/ab2/coll.40.5/REFMAN1/@Ab2PageView/idmatch(SH-1)">sh</a></b></tt>
+causes it to
+print commands and their arguments as they are executed.
+<p>Use
+<br>&nbsp;&nbsp;&nbsp;<tt><b>#!/usr/bin/sh -x</b></tt>
+<br>or
+<br>&nbsp;&nbsp;&nbsp;<tt><b>sh&nbsp;-x</b>
+&nbsp;<i>command arguments</i></tt>
+
+
+<hr>
+<a href="http://www.oac.uci.edu/indiv/franklin/tools/feedback?ics54@ics.uci.edu">Comments are welcome.</a>
+<noscript><br><b>JavaScript must be enabled in order for this page
+   to be fully functional.</b></noscript>
+<script language="JavaScript" type="text/javascript">
+<!-- Beginning of JavaScript -
+   document.writeln("<br>This document can be found at &nbsp;<tt>"+
+       document.location+"</tt>");
+// document.writeln("<br><i>Current as of " + document.lastModified+"</i>");
+// - End of JavaScript - -->
+</script>
+   <br><i>Current as of 31 January 2000</i>
+<br><a href="http://validator.w3.org/check?uri=&{document.location};&ss=">HTML
+    4.01 Checked.</a>
+<!-- To show source in validation "...?uri=&{document.location};&ss=" -->
+
+</body>
+</html>
+

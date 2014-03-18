@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="description" content="Web Search Basics Introduction to Information Retrieval CS 221 Donald J. Patterson Content adapted from Hinrich Schütze http://www.informationretrieval.org  Introduction Classic Information Retrieval Web IR Sponsored Search Web Search Basics Size of the Web Web Users Spam Overview Overview  Classic IR assumptions Corpus: Fixed document collection Goal: Retrieve information content relevant to information need Classic Information Retrieval  Classic IR Goal Classic “Relevance” For each query, Q, and stored document, D, in a corpus there exists a relevance score: R(Q,D) R(Q,D) is averaged over users, U, and contexts, C Maximize R(Q,D) instead of R(Q,D,U,C) Context is ignored Individuals are ignored Corpus is static Classic Information Retrieval  Introduction Classic Information Retrieval Web IR Sponsored Search Web Search Basics Size of the Web Web Users Spam Overview Overview  Web IR: Differences from traditional IR On the web, search and ads are intricately connected The web is huge The web is a rapidly changing collection. There is spam on the web Adversarial IR  Huge difference from traditional IR One interface for hugely divergent needs Queries, Maps, Stocks, Weather, Calculations Web Information Retrieval  History Early keyword-based engines (1995-1997) Altavista, Excite, Infoseek, Inktomi Paid placement ranking Goto.com -&gt; Overture.com -&gt; Yahoo! Results based on auction for keyword placement Web Information Retrieval   History (1998+) Link-based ranking pioneered by Google Links added the idea of “authoritativeness” to “relevance” Blew away all early engines save Inktomi Great user experience looking for a business model Meanwhile Goto/Overture’s annual revenues were nearing $1 billion Web Information Retrieval  History Result Google: Added paid placement ads on the side Differentiated from search results Yahoo! built a similar architecture Buys Overture for paid placement Buys Inktomi for search Web Information Retrieval  History 2004 Microsoft begins in house development of a search engine Web Information Retrieval  History 2004 Microsoft begins in house development of a search engine called Live May 28, 2009 Microsoft rebrands Live Search to Bing! Search Engine wars intensify New innovations appears at every turn Web Information Retrieval  History Internationally Chinese search engine Baidu “owns” Chinese search Launched around 2000, specializes in Chinese content Web Information Retrieval  Today (1/7/2010) Web Information Retrieval 1. google.com 2. facebook.com 3. youtube.com 4. yahoo.com 5. live.com 6. wikipedia.org 7. blogger.com 8. baidu.com 9. msn.com 10. yahoo.co.jp 13. twitter.com 15. google.cn 22. bing.com 29. google.co.jp 56. ask.com 64. cnn.com   Introduction Classic Information Retrieval Web IR Sponsored Search Web Search Basics Size of the Web Web Users Spam Overview Overview  Sponsored Search  Algorithmic Results  Ads vs. Search Results Google maintains that ads (based on vendors bidding for search queries) do not affect vendors ranking in search results Sponsored Search    Ranking of ads Other search engines (Yahoo!, MSN) have made similar statements on occasion Any of them can change at any time Facebook is recently settled a class action lawsuit over testing the waters with “Beacon” social ads We will ignore the possibility of paid placement ads being interspersed in search results. Sponsored Search  Ranking of ads Goto model: Rank according to how much advertiser pays Current model: Balance auction price and relevance Irrelevant ads (few click-throughs) Decrease opportunities for relevant ads Harm the user experience Idea: Well-targeted advertising is good for everyone Sponsored Search  Sponsored Search Paying for advertisements - terms CPM “Cost Per Mil” Pay for 1000 eyeballs Important for branding campaigns CPC “Cost per Click” Pay for clicking on ads Important for sales campaigns  Introduction Classic Information Retrieval Web IR Sponsored Search Web Search Basics Size of the Web Web Users Spam Overview Overview  Web Search Basics The Web Corpus No design/coordination Distributed content creation, linking “Democratization of publishing” Content includes truth, lies, contradictions, etc. Unstructured Data (text, html) Semi-Structured (XML, annotated photos) Structured (Databases) Scale is much larger than previous text corpora  Web Search Basics The Web Corpus Growth - slowing from “doubling every few months”, but still expanding  Web Search Basics Dynamic Content Content can by dynamically generated There is no static html version Flight status information, evite responses Assembled on request (“?” in URL is a clue)  Web Search Basics Dynamic Content Most (truly) dynamic content is ignored by web spiders Too much to index Static information is more important for search Spider Traps look dynamic Actually a lot of “static” content is assembled on the fly also ASP, PHP, JSP, ads, etc....  Web Search Basics The Web as a graph Web pages are nodes Hyperlinks are directed edges  Web Search Basics Characteristics of the web Significant Duplication 30%-40% is some studies [Brod97, Shiv99] www.copyscape.com High linkage  more than 8 links per page on average Spam Billions of pages of it.  Web Search Basics  How big is the web? What is measured? Number of hosts Number of “static” html pages Number of hosts - netcraft survey http://news.netcraft.com/archives/web_server_survey.html Monthly report on hosts and servers Number of pages Lots of estimates which warrant further discussion Size of the Web  How big is the web? Netcraft Web Server Survey Size of the Web  Rate of change [Cho00] 720k pages from 270 popular sites sample daily for 5 months in 1999 40% changed weekly, 23% daily [Fett02] Massive study: 151M pages checked over a few months Significant changes 7% weekly Any change 25% weekly Size of the Web  Rate of change [Ntul04] 154 large sites recrawled from scratch weekly 8% had new pages ever week 8% die 5% new content 25% new links per week Size of the Web  Rate of change Fetterly et al. study in 2002 150 million pages over 11 weekly crawls Bucketed into 85 groups according to amount of change Size of the Web  Web Evolution The nature of the web is change Not much work on studying web evolution Exception is Fetterly et. al, 2003 Some effort has been made to extrapolate from small samples using fractal models [Dill et. al. 2001] Size of the Web"/>
+    <title></title>
+    <script type="text/javascript" language="javascript">
+//      <![CDATA[
+            var images = new Array (34);
+            images[0] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.001.png";
+            images[1] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.002.png";
+            images[2] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.003.png";
+            images[3] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.004.png";
+            images[4] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.005.png";
+            images[5] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.006.png";
+            images[6] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.007.png";
+            images[7] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.008.png";
+            images[8] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.009.png";
+            images[9] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.010.png";
+            images[10] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.011.png";
+            images[11] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.012.png";
+            images[12] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.013.png";
+            images[13] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.014.png";
+            images[14] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.015.png";
+            images[15] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.016.png";
+            images[16] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.017.png";
+            images[17] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.018.png";
+            images[18] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.019.png";
+            images[19] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.020.png";
+            images[20] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.021.png";
+            images[21] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.022.png";
+            images[22] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.023.png";
+            images[23] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.024.png";
+            images[24] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.025.png";
+            images[25] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.026.png";
+            images[26] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.027.png";
+            images[27] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.028.png";
+            images[28] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.029.png";
+            images[29] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.030.png";
+            images[30] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.031.png";
+            images[31] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.032.png";
+            images[32] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.033.png";
+            images[33] = "Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.034.png";
+            var index = 0;
+            function WindowLoaded(evt)
+            {
+                document.body.onselectstart = function () { return false; };
+            }
+            function Step(i)
+            {
+                GoTo(index + i)
+            }
+            function GoTo(newIndex)
+            {
+                if(newIndex >= 0 && newIndex < images.length)
+                {
+                    index = newIndex;
+                    document.Slideshow.src = images[index];
+                }
+            }
+//      ]]>
+    </script>
+</head>
+<body bgcolor="black" onload='WindowLoaded(event);'>
+    <p align="center">
+        <br/>
+        <br/>
+        <img name="Slideshow" alt="" src="Lecture02_Slides_CS221_files/Lecture02_Slides_CS221.001.png" onclick="Step(1)"/>
+        <br/>
+        <br/>
+        <input type="image" src="Lecture02_Slides_CS221_files/home.png" onclick="GoTo(0)"/>
+        &nbsp;&nbsp;&nbsp;
+        <input type="image" src="Lecture02_Slides_CS221_files/prev.png" onclick="Step(-1)"/>
+        <input type="image" src="Lecture02_Slides_CS221_files/next.png" onclick="Step(1)"/>
+    </p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

@@ -1,0 +1,296 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+                <title></title>
+                
+                
+                <meta content="Thu, 17 Oct 2013 08:28:02 -0380" name="date"/>
+                
+<link href="../../../bin/styles/stylesheet_secondary.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<!-- before breadcrumb_nav include -->
+ <!-- after breadcrumb_nav include -->
+
+<div id="wrapper">
+<script type="text/javascript">
+
+sfHover = function() {
+    var sfEls = document.getElementById("navcontainer").getElementsByTagName("LI");
+    for (var i=0; i<sfEls.length; i++) {
+        sfEls[i].onmouseover=function() {
+            this.className+=" sfhover";
+        }
+        sfEls[i].onmouseout=function() {
+            this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+        }
+    }
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+</script>
+
+    <div id="header" title="Welcome to the Donald Bren School of Information and Computer Sciences @ UC Irvine">
+
+           <a id="bren_link" href="/"></a>
+
+           <a id="uci_link" href="http://www.uci.edu/"></a>
+
+    </div>
+    
+    
+    <div CLASS="newbar"><p style="line-height: 0px; display: none; "></p></div>
+    
+    
+    <div id="navcontainer">
+
+                
+            <ul>
+                
+                <li>
+                
+                    <a href='/about/' title='about'>&raquo; About</a>              
+
+                    <ul>
+                        <li><a href="/about/">&raquo; About the School</a></li>
+                        <li><a href="/about/about_mission.php">&raquo; Bren ICS Mission</a></li>
+                        <li><a href="/about/about_deanmsg.php">&raquo; Dean's welcome</a></li>
+                        <li><a href="/about/bren/">&raquo; About the Bren gift</a></li>
+                        <li><a href="/about/about_factsfigures.php">&raquo; Facts and figures</a></li>
+                        <li><a href="/about/brenhall/index.php">&raquo; Donald Bren Hall</a></li>
+                        <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                        <li><a href="/about/about_contact.php">&raquo; Contact us</a></li>
+                        <LI><A HREF="/about/equity/">&raquo; Equity & diversity</A></LI>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/dept/' title='departments'>&raquo; Departments</a>
+                    <ul>
+                        <li><a href="http://www.cs.uci.edu">&raquo; Computer Science</a></li>
+                        <li><a href="http://www.informatics.uci.edu">&raquo; Informatics</a></li>
+                        <li><a href="http://www.stat.uci.edu">&raquo; Statistics</a></li>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/faculty/area/' title='research'>&raquo; Research</a>              
+                
+
+                
+                
+                
+                    <ul>
+                        <li><a href="/faculty/area/">&raquo; Research areas</a></li>
+                        <li><a href="/faculty/centers/">&raquo; Research centers</a></li>
+                        <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                    </ul>
+                </li>
+                
+                
+                
+                <li>
+                
+                    <a href='#' title='education'>&raquo; Education</a>              
+
+                    <ul>
+                        <li><a href="/grad/">&raquo; Graduate</a>
+                        
+                            <ul>                        
+                            <li><a href="/grad/admissions/index.php">&raquo; Apply</a></li>
+                            <li><a href="/grad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="http://www.reg.uci.edu/registrar/soc/fees.html">&raquo; Tuition and costs</a></li>
+                            <li><a href="/grad/courses/index.php">&raquo; Courses</a></li>
+                            <li><a href="/grad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/faculty/area/index.php">&raquo; Research areas</a></li>
+                            <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                            <li><a href="/grad/policies/index.php">&raquo; Policies &amp; forms</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/grad/phddirectory/index.php">&raquo; Recruit graduate student</a></li> -->
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->                            
+                            <li><a href="/grad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="http://www.housing.uci.edu/prospective/graduate/index.asp">&raquo; Graduate housing</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="/ugrad/">&raquo; Undergraduate</a>
+                        
+                            <ul>                        
+                            <!-- <li><a href="/ugrad/admissions/index.php">&raquo; Apply</a></li>                       
+                            <li><a href="/ugrad/events/index.php">&raquo; Campus visits</a></li>
+                            -->
+                            <li><a href="http://www.ics.uci.edu/~lab/">&raquo; Computer lab information</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/ugrad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="/ugrad/courses/index.php">&raquo; Course listings</a></li>                     
+                            <li><a href="/ugrad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="/ugrad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/ugrad/financial/index.php">&raquo; Financial aid</a></li>                         
+                            <li><a href="http://honors.ics.uci.edu/">&raquo; Honors program</a></li>
+                            <li><a href="http://www.housing.uci.edu/">&raquo; Housing</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Internship program</a></li>                         
+                            <li><a href="/ugrad/policies/index.php">&raquo; Policies</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->
+                            <!-- <li><a href="http://www.dos.uci.edu/orientation/">&raquo; Recently admitted</a></li> -->
+                            <li><a href="http://student-council.ics.uci.edu/">&raquo; Student Council</a></li>
+                            <li><a href="/ugrad/life/index.php">&raquo; Student life</a></li>   
+                            <li><a href="/ugrad/resources/index.php">&raquo; Student resources</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Summer internships</a></li>
+                            <li><a href="https://techjobs.uci.edu/">&raquo; Tech Jobs</a></li>
+                            <li><a href="http://www.ofas.uci.edu/content/costs.aspx?nav=1">&raquo; Tuition and costs</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li><a href="http://www.ics.uci.edu/prospective">&raquo; Prospective undergrad</a></li>
+
+
+                        <li><a href="http://www.parents.uci.edu/">&raquo; UCI parents</a></li>
+                        
+                                                    
+                    </ul>               
+                </li>
+
+    
+                <li>
+                    
+                    <a href='#' title='people'>&raquo; People</a>                      
+                    
+                
+                    <ul>
+                        <li><a href="/faculty/">&raquo; Faculty</a></li>
+                        <li><a href="/about/search/index.php">&raquo; Staff</a></li>
+                        <li><a href="/about/search/search_graduate_all.php">&raquo; Graduate students</a></li>
+                    </ul>   
+                </li>
+                                
+                
+                <li> 
+                
+                    <span id=specialborder><a href='#' title='community'>&raquo; Community</a></span>                    
+                    <ul>
+                        <li><a href="/community/alumni/">&raquo; Alumni</a></li>
+                        <li><a href="/community/friends/">&raquo; Friends</a></li>
+                        <li><a href="http://www.uadv.uci.edu/parents/">&raquo; Parent programs</a></li>
+                        <li><a href="/community/friends/leadershipcouncil/">&raquo; Leadership Council</a></li>
+                        <li><a href="http://www.uadv.uci.edu/DonaldBrenSchoolOfICSAnnualGiving">&raquo; Make a gift</a></li>
+                        <li><a href="/community/news/">&raquo; News</a></li>
+                    </ul>   
+                </li>
+
+                <li>
+                
+                    <a href='/involved/' title='get involved'>&raquo; Get Involved</a>              
+                
+                
+                    <ul>
+                    
+                            <LI><A HREF="/involved/tech_talk">&raquo; Tech talks</A></LI>
+                            <LI><A HREF="/involved/information_session">&raquo; Information sessions</A></LI>
+                            <!--<LI><A HREF="/involved/">&raquo; Join industry panel</A></LI>-->
+                            <LI><A HREF="/involved/project_class">&raquo; Sponsor projects</A></LI>
+                            <LI><A HREF="/involved/leadership_council">&raquo; Leadership Council</A></LI>
+                            <LI><A HREF="/involved/corporate_partner">&raquo; Corporate Partners</A></LI>
+                            <LI><A HREF="/involved/internship">&raquo; Sponsor interns</A></LI>
+                            <LI><A HREF="https://techjobs.uci.edu/">&raquo; Tech Jobs</A></LI>
+                            <!--<LI><A HREF="">&raquo; Support student groups</A></LI>-->
+                            <LI><A HREF="/community/events/butterworth/">&raquo; Butterworth Competition</A></LI>
+                            
+                    </ul>               
+                </li>
+                
+                    
+
+            </ul>
+
+<style type="text/css">@import url("/bin/icssearchstyle/css/icssearch.css");</style>
+<script src="/bin/icssearchstyle/js/icssearch.js" type="text/javascript"></script>
+<script src="/bin/icssearchstyle/js/icssearchform.js" type="text/javascript"></script>
+
+
+
+    </div>
+<!-- before breadcrumb_nav() print -->
+<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/news/">News</a> &gt; <a href="http://www.ics.uci.edu/community/news/articles/">Articles</a>] --><A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/news/">News</a> &gt; <a href="http://www.ics.uci.edu/community/news/articles/">Articles</a></div>
+<!-- after breadcrumb_nav() print -->
+
+<div id="content"><a id="startcontent" name="startcontent"></a>  
+<div id="content_title"></div>
+
+<blockquote>
+<div id="content_text">
+
+<br/>
+
+<!-- inc publications_db -->
+
+ <strong>April 24,  2006</strong><p><i>Orange County Business Journal</i><p><strong>D-Link Leader Pushes Gear for Wireless Home</strong><p><strong>By: Brian Womack</strong><br><p>When Steven Joe goes home from work he doesn't just hit the couch and watch some ESPN.<p>Joe, who leads Taiwanese company D-Link Corp. in North America, sits down at his desk in front of two desktops and one laptop, fires them up and gets to work.<p>Sometimes he plays an online video game. Anything less than three computers going at once isn't enough to keep up with Joe's active mind.<p>"It's never fast enough," said Joe, who talks quickly and has more energy than most people around him.<p>His active nature fits the home and business networking gear market, where advances in technology can quickly make products obsolete.<p>D-Link, whose North American unit is in Fountain Valley, makes routers and equipment to connect devices via a wireless network. The company has an estimated 260 workers in Orange County.
+	
+D-Link puts emphasis on its engineering. Its North American unit, which posted more than $400 million in sales last year, is looking to be the next major player for the "digital home," which promises to connect the Internet, television, radio, video game consoles and other electronics. D-Link also is expanding its business networking unit.<p>D-Link's biggest competitor for consumer and small-business sales is just down the road in Irvine: Cisco-Linksys LLC, a unit of Cisco Systems Inc. D-Link competes with parent Cisco for router sales to larger businesses.<p>Both Cisco and Linksys are No. 1 sellers in several key networking markets, such as wireless routers, according to analysts.<p>D-Link tends to do well with small businesses.<p>"Cisco is always going to be the 800-pound gorilla," Joe said.<p>It&rsquo;s OK that D-Link trails Cisco, he said.<p>"What&rsquo;s wrong with being No. 2?" he said.<p>Cisco became a networking powerhouse as one of the most acquisitive technology companies during the 1990s. It bought Linksys in 2003 for $500 million. And it's been loading up on acquisitions to help the unit since.<p>D-Link shies away from acquisitions, Joe said. The company would rather build the technology from the ground up, in-house. It's always done it that way, and it's worked so far, he said.<p>D-Link has put together sales growth of more than 10% a year since the 1980s, Joe said.<p>D-Link counts on the Fountain Valley-based operation to lead on product advances, he said.<p>Last year, D-Link's parent posted $1 billion in revenue&mdash;the first time it's been above the billion-dollar mark. North American sales of $358 million were up about 12% from the prior year.<p>Asia and South America produced D-Link's fastest-growth in the fourth quarter, up 27%. China, India and Brazil spurred those gains, Joe said.<p>Consumers make up the bulk of sales in North America, while businesses account for the majority of revenue in Asia. Europe, which recorded lower sales growth than North America&rsquo;s 18% gain in the fourth quarter, is about evenly split between business and consumer sales.<p><b>Consumerism</b><p>Consumer sales make up more than half of D-Link's overall sales.<p>The company has been boosting its lineup of products that link everything from TVs to stereos to Web-based phones to computers.<p>Electronics and network device makers expect home gear to eventually produce billions of dollars in sales, with movies, TV shows and music beamed from one device to another.<p>Yet most people still think of home networking as little more than a way to connect computers and printers to the Internet.<p>Companies wonder what it'll take to get the digital home concept from the lab to the neighborhood.<p>Any electronics or tech gear maker has a shot at it, said Jonathan Gaw, an analyst with IDC Research Inc. in Framingham, Mass.<p>But it will take some kind of "iPod moment," where a company figures out how to make a technology simple and easy to understand for the masses, he said.<p>It could be D-Link, Linksys or Japan's Sony Corp., Gaw said.<p>A big driver for wireless in the home: the next-generation wireless connection standard that manufacturers agreed on earlier this year&mdash;802.11n.<p>D-Link already has announced its first routers and laptop computer adapters based on 802.11n. The gear is set to be available this month, a year before the standard is finalized.<p>Linksys said it won&rsquo;t announce new products until it also can sell them.<p>The last time wireless networking standards were upgraded, D-Link moved a bit slower, Joe said.<p>"The goal really is to be competitive," he said.<p>D-Link has been rounding out its product lines for other consumer products.<p>The company was the first to announce a flip-phone last month that works over a wireless Internet network. Callers wouldn't be charged by their cell phone companies. Instead, they would tap their wireless network account.<p>And earlier this year D-Link launched a security device for home networks.<p>The gear allows parents to block Web sites they don't want their kids to see before the sites are transmitted to the computer. Normally it's software inside a computer that blocks unwanted Web sites.<p><b>Business Sales</b><p>The company has been trying to translate its consumer gains to the business market in North America.<p>Three years ago, D-Link increased its recruitment of resellers who sell its gear to mainly small and midsize businesses in North America. The effort paid off, with D-Link tripling the number of resellers offering its products to about 6,000.<p>In North America, about 30% of sales come from business customers-up from about 25% a few years ago. D-Link sells routers, Web phones and security devices, among other gear to businesses.<p>Joe said D-Link's switches are similar to Cisco's, but cost less. And its Web phones, which it makes with partners such as Holmdel, N.J.-based Vonage Holdings Corp., are popular with businesses.<br><TITLE>D-Link Leader Pushes Gear for Wireless Home</TITLE>
+
+</div>
+</blockquote>
+</div>
+<div id="sidebar"><div id="sidebar_title">More community &#187;</div>
+<ul>
+<li><a href="../../alumni/index.php">Alumni</a></li>
+<li><a href="../../friends/index.php">Friends</a></li>
+<li><a href="http://www.parents.uci.edu/">Parents</a></li>
+<li><a href="../../friends/leadershipcouncil/index.php">Leadership Council</a></li>
+<li><a href="../index.php">News</a></li>
+<li><a href="https://ua-web.uadv.uci.edu/eGiving/">Give a gift</a></li>
+</ul>
+<div>
+<div id="sidebar_title">More news and events &#187;</div>
+<ul>
+<li><a href="../press/index.php">Press
+ releases</a></li>
+<a href="http://www.ics.uci.edu/community/news/press/index.php">				</a>
+<li><a href="index.php">In the 
+news</a></li>
+<li><a href="../notes/index.php">Noteworthy
+ achievements</a></li>
+<a href="http://www.ics.uci.edu/community/news/notes/index.php">				</a>
+<li><a href="http://www.youtube.com/UCIBrenICS">Video highlights</a></li>
+<li><a href="../spotlight/index.php">Spotlight</a></li>
+<li><a href="http://calendar.ics.uci.edu/calendar.php">Calendar of 
+events</a></li>
+</ul>
+<!-- -->
+<!-- -->
+<!-- -->
+<!--
+<div id="sidebar_title">Noteworthy archive &#187;</div>
+<ul>
+<li><a href="/ICS/ics/community/news/notes/notes_2009">2009</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2008">2008</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2007">2007</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2006">2006</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2005">2005</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2004">2004</a></li>
+</ul>
+</div>
+--></div></div>
+<div id="footer"><a href="http://www.uci.edu/copyright.php">Copyright Inquiries</a> |
+   <a href="http://www.uci.edu/cgi-bin/phonebook">UCI Directory</a> |
+   <a href="http://intranet.ics.uci.edu/">Intranet</a> |
+   
+   <!-- <a href="http://www.ics.uci.edu/sitemap.php">Site Map</a> | -->
+ 
+  <a href="mailto: i%63%73%77%65%62m%61s%74%65r@%69c%73%2e%75c%69%2eedu">icswebmaster</a> |
+Updated: 
+October 17 2013</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-605898-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

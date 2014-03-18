@@ -1,0 +1,7 @@
+/* $Id$ */
+#multi-google-cse-searchbox-form div, #multi-google-cse-searchbox-form input { margin: 0; display: inline; }
+#multi-google-cse-results-searchbox-form div, #multi-google-cse-results-searchbox-form input { margin: 0; display: inline; }
+#multi-google-cse-searchbox-form .form-radios div { display: block; }
+#multi-google-cse-results-searchbox-form .form-radios div { display: block; }
+#multi-google-cse-results-gadget a { margin-left: 2em; }
+

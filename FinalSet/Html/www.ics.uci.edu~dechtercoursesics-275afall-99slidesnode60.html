@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Name clashes with global  ECLiPSe
+  builtins</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Name clashes with global  ECLiPSe
+  builtins">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html2972 HREF="node61.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html2970 HREF="node58.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html2966 HREF="node59.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html2974 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html2973 HREF="node61.html"> Porting Programs to </A>
+<B>Up:</B> <A NAME=tex2html2971 HREF="node58.html"> Using the compatibility </A>
+<B> Previous:</B> <A NAME=tex2html2967 HREF="node59.html"> Compiler versus Interpreter</A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION00512000000000000000> Name clashes with global  ECLiPSe
+  builtins</A></H2>
+<P>
+Suppose you want to define a predicate named date/1, which conflicts
+with the <A NAME=tex2html228 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  builtin called <b> date/1</b>.
+In this case the compiler will produce one of the following messages
+<PRE>warning: redefining a system predicate in date / 1
+*** trying to redefine a procedure with another type: date / 1
+</PRE>
+depending on whether the definition or a call to the predicate
+was encountered first by the compiler.
+Both can be avoided by declaring the predicate as <b> local</b>.
+This declaration must be given before the first call to the predicate:
+<PRE>:- local date/1.
+p(Y) :- date(Y).
+date(1999).
+</PRE>
+Note that the <b> date/1</b> builtin is now hidden by your own definition,
+but only in the module where you have redefined it<A NAME=tex2html229 HREF="footnode.html#841"><IMG ALIGN=BOTTOM ALT="gif" SRC="http://www.ecrc.de/eclipse/new_icons//foot_motif.gif"></A>.
+In all other modules, the builtin is still visible.
+<P>
+The same holds for the redefinition of protected predicates,
+see also section <A HREF="node56.html#redefbip"><IMG ALIGN=BOTTOM ALT="gif" SRC="http://www.ecrc.de/eclipse/new_icons//cross_ref_motif.gif"></A>
+and appendix <A HREF="node318.html#chapprotected"><IMG ALIGN=BOTTOM ALT="gif" SRC="http://www.ecrc.de/eclipse/new_icons//cross_ref_motif.gif"></A>.
+<P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

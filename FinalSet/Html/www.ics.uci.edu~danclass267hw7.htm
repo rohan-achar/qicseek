@@ -1,0 +1,62 @@
+<HTML>
+<center>
+<H3>CompSci 267 Homework set #7</H3>
+</center>
+
+<!--
+Do only TWO of the following.
+-->
+<OL>
+<LI>
+     Given a discrete distribution on <I>n</I> points and a desired
+     number of quantization levels <I>M</I>,
+     find the optimum quantization points in time
+     <I>O</I>(<I>nM</I>&nbsp;log&nbsp;<I>n</I>)
+     [or at least faster than
+     <I>O</I>(<I>n</I><sup>3</sup>&nbsp;log&nbsp;<I>M</I>)]
+     using dynamic programming.
+<BR> Hint: A perhaps useful reference is
+     <BR>P. Brucker, ``On the complexity of clustering,''
+     in <I>Optimization and Operations Research</I>
+     (R. Henn, B. Korte, W. Oletti, eds.),
+     Springer Verlag, Berlin, Heidelberg, New York (1977), pp. 45-54.
+<P>
+<LI> What is "dithering" and why is it relevant for scalar quantization?
+<P>
+<LI> Consider a 2-state trellis which operates at a rate of one bit
+     per sample, used for encoding uniformly distributed samples
+     in the interval [0,1].  Each stage of this trellis has the
+     following four edges (<I>A, B</I>) = (<I>value, code</I>)
+     to the next stage, where <I>A</I> and <I>B</I> are states
+     in the current and next stages,
+     <I>value</I> is a quantized value, and <I>code</I>
+     is the bit emitted to indicate the branch taken:
+    <UL>
+     <LI> (0,0) = (<I>x</I>, 0)
+     <LI> (0,1) = (<I>x</I>+0.5, 1)
+     <LI> (1,0) = (0.5<I>-x</I>, 0)
+     <LI> (1,1) = (1<I>-x</I>, 1)
+    </UL>
+     and <I>x</I> is given to be in the range [0, 0.25].
+  <P>
+     Now consider an <I>n</I>-stage trellis code obtained by
+     replicating the above stage.
+  <P>
+    <OL type=a>
+     <LI> Let <I>x</I> = 0.1 and <I>n</I> = 10.
+          Write a simulator that generates a sufficient number of
+          <I>n</I>-vectors of random samples from [0,1],
+          determines the optimum trellis code for each,
+          and calculates the average SQNR in decibels.
+     <LI> Vary <I>x</I> and determine the optimum value of <I>x</I>
+          so as to maximize the average SQNR.
+     <LI> Vary <I>n</I> to determine approximately the asymptotic
+          optimal value of <I>x</I> and the corresponding average SQNR
+          for an arbitrarily large trellis.
+     <LI> Determine the optimum <I>x</I> and the corresponding
+          average SQNR when using an on-line (as opposed to a Viterbi)
+          branch selection and compare the results.
+    </OL>
+</OL>
+</HTML>
+

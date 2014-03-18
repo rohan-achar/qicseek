@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/mchron/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>LifeLog made easy</title>
+		<link>http://ngs.ics.uci.edu/lifelog-made-easy/</link>
+		<comments>http://ngs.ics.uci.edu/lifelog-made-easy/#comments</comments>
+		<pubDate>Mon, 30 Aug 2010 07:05:44 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[LifeLog]]></category>
+		<category><![CDATA[mChron]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1291</guid>
+		<description><![CDATA[A few years ago, lots of activity started in logging one&#8217;s lifeusing all kind of electronic devices. A DARPA project with the name LifeLog was launched but was later cancelled due to privacy issues. But many other efforts started at&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>A few years ago, lots of activity started in logging one&#8217;s lifeusing all kind of electronic devices.  A DARPA project with the name LifeLog was launched but was later cancelled due to privacy issues.  But many other efforts started at that time including (possibly the best known) MyLifeBits and others.  The whole concept is very appealing: one can record all activities and then review, analyze, and re-experience for different purposes.  The challenges ranged from collecting information to storing and organizing that information and finally using it.  Luckily, one after the other most challenges have become easier, if not solved, due to enormous progress in technology.  Now it is possible to easily implement a version of LifeLog for making it useful as well as enjoyable.</p>
+<p>The most important progress made in making LifeLog a reality is in the form of smartphones.  These devices are now equipped with more sensors than one could imagine just a few years ago.  Moreover, these devices can store all kind of information about a person, their activities, their communications, and their experiences.  They also have enough processing power to analyze and organize all this information and present to you for reflecting and re-experiencing it.  Many applications addressing one aspect of LifeLog have been introduced but these are currently not as usueful as they could be due to their limited scope.  By develoing applications that could address activities, communications, and experiences of an individual, one could create an application that may be very enjoyable and useful.</p>
+<p>Due to my long term interest in this area &#8212; I called it eChronicles in 2004 &#8212; I am very interested in seeing such a product in action.  In fact, some of my friends are helping me to realize this dream &#8212; so it is very possible that soon, very soon, I may be able to share with you my long term vision in terms of a product vision with you right here.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/lifelog-made-easy/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>
+

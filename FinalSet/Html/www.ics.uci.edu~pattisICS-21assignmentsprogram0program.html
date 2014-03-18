@@ -1,0 +1,399 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+  <title>Program 0</title>
+</head>
+
+<body BGCOLOR="white">
+
+<center>
+<h1>Program 0</h1>
+<h1>Computing Infrastructure</h1>
+<p>
+<h2>Introduction to Computer Science I<br>
+ICS-21<br>
+</h2>
+<p>
+</center>
+
+
+<!-- Introduction -->
+
+<a name="Introduction">
+<hr align="left" width="33%">
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>Introduction</b></td>
+<td width ="80%">
+This first "programming" assignment is not a "programming" assignment at all;
+  it is designed to ensure that you know the fundamentals of using the
+  computing infrastructure for this course, both on your own machine (if you 
+  have one) and the computers in our labs.
+Primarily it concerns starting to learn to use the Eclipse Integrated
+  Development Environment (IDE) for Java, which is available on both the
+  Microsoft Windows and Mac Operating System.
+Knowing how to use these tools is a first important first step towards being
+  able to learn how to program well.
+<p>
+Subsequent programming assignments will have much less of a cookbook flavor;
+  instead, they will focus on designing, writing, and debugging programs in
+  Java from the specifications that I supply.
+But, these assignments will assume that you are already an experienced
+  Windows/Mac OS and Eclipse user, who knows all the tools and skills
+  covered in this assignment, and can easily apply them when writing
+  his/her own actual programs.
+<p>
+So, treat this assignment very seriously: you will not want to still be
+  learning this material at the same time that you are writing your early
+  programs.
+Now is the time to begin mastering these important tools and skills.
+<p>
+Finally, read and follow these instructions <b>carefully</b>.
+It would be an excellent idea to print a copy of this web page, read through
+  it, and highlight any details that you think are important (and might
+  forget as you are working on the assignment) or that you are confused about.
+Some students lose points for failing to follow directions properly; this is
+  a problem that gets worse during the quarter, so starting out by doing the
+  "right thing" in this assignment is an excellent idea.
+If you have any questions about these instructions, for example, if you
+  think they are in error, or just confusing, please contact me.
+Do it directly by sending email to me, or for issues of concern to everyone
+  in the class, by sending email to the class discussion list; often you can
+  do both in the same email, making it trivial for me to reply directly to you
+  while answering your discussion email (going to the rest of the class) at
+  the same time.
+<p>
+Carefully read the last two sections, on <b>Extra Credit</b> and <b>Time
+  Management</b>.
+These important sections are relevant to all programming assignments, but
+  appear only in this one.
+</td>
+</tbody>
+</table>
+
+
+<!-- Questionnaire -->
+
+<a name="Questionnaire">
+<hr align="left" width="33%">
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>Part 1:<br>Questionnaire</b></td>
+<td width ="80%">
+Download a copy of the course <a href="questionnaire.doc">Questionnaire</a>,
+ which is a Microsoft Word file.
+Read and edit this questionnaire (in Microsoft Word), filling in the answers to
+  all its questions.
+Note that the questions on the first page are about you, your experience, 
+  your goals, and your expectations; the questions on the second page require
+  you to practice navigating the course web site, to find useful information
+  about this course.
+After you have filled-in this questionnaire, submit it using the
+  <b>Homework Dropff</b> link on the course web page.
+</td>
+</tbody>
+</table>
+
+
+
+<!-- Eclipse -->
+
+<a name="Eclipse">
+<hr align="left" width="33%">
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>Part 2:<br>Using the Eclipse IDE</b></td>
+<td width ="80%">
+Read through
+ <a href="../../../common/handouts/OS+IDE/index.html" target="_top">
+ Windows Operating System & Eclipse IDE</a>
+  web page (which is also accessible on the
+ <a href="../../handouts.html" target="_top">Handouts</a>
+ web page).
+It includes all the information that you initially need to know about using
+  the Eclipse IDE.
+This includes
+<ul>
+  <li>Downloading programming projects from the web (and unzipping them)
+  <li>Starting Eclipse
+  <li>Creating Projects: new ones from scratch and previously existing ones
+  <li>Editing Java files
+  <li>Compiling programs, correcting syntax errors, and running programs
+  <li>Uploading/downloading projects from ICS Lab accounts (and/or USB memory)
+<!--
+  <li>Zipping files
+-->
+  <li>Submitting programming assignmnments through <b>Checkmate</b>
+        homework dropoff system
+</ul>
+When you have finished reading and following the instructions in this document,
+  perform the tasks shown below, culminating in successfully dropping off two
+  very simple working Java programs.
+If you have any questions, feel free to ask for help from me, any 
+  staff member, or other students at UCI.
+Please cross the "question answering threshold" quickly; get into the habit of
+   being able to ask us questions, especially in lab.
+<p>
+To do this assignment, you must have already downloaded and installed Java
+  and the Eclipse IDE on your own computer (or be using one of the UCI
+  Lab machines, where it has already been downloaded/installed).
+<p>
+In the <b>first part</b>, you will start a new project and write a trivial
+  program.
+<ul>
+<li>In Eclipse, create a new Java project and a new class in it (in the
+      anonymous package), both named <b>Test1</b>.
+    When creating that class, specify (via a checkbox) inclusion of a
+      <b>public static void main(String[] args)</b> method (otherwise you will
+      have to type in this code yourself).
+<li>First, delete the comment (lines 4-6) and instead put a comment on line
+      1 with your name. My comment would appear as
+    <b><pre>//Richard Pattis</pre></b>
+<li>Replace the body of that method, by replacing the line <br>
+      <tt>// TODO Auto-generated method stub</tt><br>
+       comment by the single statement
+      <b><pre>System.out.println("Java program test scceeded!");</pre></b>
+<li>Run (compile and execute) this program to ensure that it produces the
+      correct output in the Console.
+    You might need to edit it if you incorrectly typed the line above; in
+      fact, if you know a bit of Java, now is a great time to experiment
+      with introducing, recompiling, and fixing small syntax errors -by seeing
+      how the Eclipsed IDE reports and helps correct them.
+<li>Close this project; in fact, go ahead and delete this project from the
+      the workbench, but ensure the <b>Delete project contents on disk (cannot
+      be undone)</b> button is <b>NOT</b> checked.
+<li>Move the project folder from the workspace onto your desktop.
+<li>Copy this project folder (including its contents) onto your ICS Lab
+      space and/or USB memory (always do this to save your work, even if you
+      are using your own computer; you can optionally zip it first).
+<li>Delete this project folder, empty the recycle bin, and log off your
+      computer.
+<li>Log back on to the computer; download the project folder that you just
+      uploaded onto the desktop put it in some folder
+      (not the <b>workspace</b>), to ensure that you saved it correctly
+      (unzip it first, if  necessary).
+   You should be able to create a Java project and specify this project file
+     as the existing source from which to create the project.
+   Ensure that it still compiles and executes correctly.
+</ul>
+<p>
+If you have any problems, please ask for help during the lab.
+After you are finished, repeat these steps a few times, until you can do them
+  from memory.
+This programming assignment is very cookbook, but by the end you should
+  have mastered the steps needed in creating and manipulating projects with
+  Eclipse -something you will do over and over again during the quarter.
+<p>
+After you have finished, submit the file you created, <b>Test1.java</b>,
+  using the <b>Homework Dropff</b> link.
+<p>
+In the <b>second part</b>, you will download a project and use it in the
+  Eclipse IDE.
+<ul>
+<li>Download the <a href="Collatz.zip">Collatz</a> project folder and unzip it
+      to a folder on your desktop.
+    It should contain only one file, named <b>Collatz.java</b>.
+<li>In Eclipse, create a new Java project named Collatz, click the
+      <b>Create project from existing source</b> radio button, and then
+      browse to specify the Collatz folder as the existing source from which
+      to create the project.
+<li>Edit the <b>Collatz.java</b> file.
+    Diclose and read the comments at the top of the <b>Collatz.java</b>
+      file to understand what this program does.
+<li>Try to run the program as an application.
+    Eclipse will indicate four syntax errors; ensure that you see the error
+      messages in the <b>Problems</b> tab, on the bottom window: disclose
+      these four errors.
+    <b>Note</b>: If an error involves the <b>Prompt.forInt</b> method, it means
+      that you did not correctly follow the instructions at the end of the
+      Installing Java and Eclipse document for installing the class library;
+      redo those steps.
+<li>Fix these three errors as follows
+    (you are not expected to understand these errors yet).
+    Be careful! 
+    The descriptions of the errors aren't great: two specify a way to fix a
+      problem, but NOT THE RIGHT WAY for this code.
+    We cannot just blindly follow these suggestions.
+<ol>
+<li>In the expression statement on line 67
+      (do you have the line numbers turned on in Eclipse? if not turn them on),
+      put a <tt>+</tt> after the last <b>String</b> in quotes, and before the
+      identifier <b>testNumber</b>.
+<li>In the expression statement on line 75, put a
+      <tt>;</tt> (semicolon) after the <tt>++</tt> operator.
+<li>In the expression statement on line 76, replace
+      the <tt>=</tt> operator by the <tt>==</tt> operator (no spaces
+      between the two equal signs).
+<li>In the expression statement on line 77, replace
+      the identifier <tt>testnumber</tt> by the identifier <tt>testNumber</tt>
+      (notice the capital <b>N</b>).
+</ol>
+<li>After fixing the errors, save the program and try to run the program again.
+    When prompted for a number, enter 7, which ultimately requires 17 cycles to
+      be reduced to 1.
+<li>Close this project; in fact, go ahead and delete this project from the
+      the workbench, but ensure the <b>Do not delete contents</b> button is
+      checked.
+<li>The <b>Collatz.java</b> file in the Collatz project folder you used to
+      create this project should be updated with the fixes that you entered.
+<li>Copy this project folder (including its contents) onto your ICS Lab
+      space and/or USB memory (always do this to save your work, even if you
+      are using your own computer; you can optionally zip it first).
+<li>Delete this project folder, empty the recycle bin, and log off your
+      computer.
+<li>Log back on to the computer; download the project folder that you just
+      uploaded onto the desktop put it in some folder
+      (not the <b>workspace</b>), to ensure that you saved it correctly
+      (unzip it first, if  necessary).
+   You should be able to create a Java project and specify this project file
+     as the existing source from which to create the project.
+   Ensure that it still compiles and executes correctly.
+</ul>
+If you have any problems, please ask for help during the lab.
+After you are finished, repeat these steps a few times, until you can do them
+  from memory.
+This programming assignment is very cookbook, but by the end you should
+  have mastered the steps needed in creating and manipulating projects with
+  Eclipse -something you will do over and over again during the quarter.
+<p>
+After you have finished, submit the corrected file you modified
+  <b>Collatz.java</b>, using the <b>Homework Dropff</b> link.
+<p>
+
+<h3>Bottom Line</h3>
+You will be writing many programming assignments during the quarter, requiring
+  you to create new projects or modify existing ones.
+You should be able to manipulate both kinds of projects easily in Eclipse.
+<p>
+Also, whenever you want to write a small program to test out your understanding
+  of Java, you should have a very low threshold to quickly creating a project
+  and writing the experimental code that you want to test.
+</td>
+</tbody>
+</table>
+
+
+<!-- Extra Credit -->
+
+<a name="ExtraCredit">
+<hr align="left" width="33%">
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>Extra Credit</b></td>
+<td width ="80%">
+Programming assignments must be turned in on time: you can get partial credit
+  for a partially completed assignment, but it must be turned in on time; I
+  will accept no late homework unless you have an official excuse pre-arranged
+  with me (and even then you should turn in whatever work you have completed
+  by the due date/time).
+In fact, there is another incentive to finish not only on time, but to
+  <b>finish early</b>.
+<p>
+In all programming assignments, if you turn in everything at least 24 hours
+  before it is officialy due, you will receive 1 point of extra credit.
+If you turn it in 48 hours (or earlier), you will receive 2 points of extra
+  credit.
+(There is no more extra credit for early turn-ins; I recommend NOT turning it
+  in more than 48 hours early.)
+This is equivalent to a half a grade improvement (e.g., C+ to B, or B to B+,
+  or B+ to A) on a 40 point assignment.
+In previous quarter, over 50% of the students completed their assignments
+  early and received some amount of extra credit; it adds up.
+<p>
+There are two main advantages to planning on finishing early.
+First, if you run into a major problem, you will have extra time to solve it
+  before the actual due date: and even experienced programmers frequently run
+  into such problems.
+Yes, this means you!
+Second, and more importantly, if you are racing to finish before a deadline,
+  stress levels can go through the roof, and you become less interested in
+  learning the material (and the whole purpose of these programming assignments
+  is to learn the material) and more interested in just getting it finished.
+If you do not learn the material, you will be at a major disadvantage for all
+  subsequent programming assignments and tests, because of the cumulative
+  nature of the material in this course.
+Therefore, plan to finish <b>every</b> assignment by Monday or Tuesday evening.
+<p>
+Programming assignments sometimes also include an extra credit section worth
+  1-2 points.
+These are designed for students who finish early and want to continue exploring
+  programming within the context of the assignment.
+The points are to acknowledge, in a small way, their extra effort.
+<p>
+This assignment has no special extra-credit section.
+You can get extra credit on it only for an early dropoff.
+</td>
+</tbody>
+</table>
+
+
+<!-- Time Management -->
+
+<a name="TimeManagement">
+<hr align="left" width="33%">
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>Time Management</b></td>
+<td width ="80%">
+One of the hardest parts of being in college is learning how to manage your
+  time.
+Time management is especially important in programming courses (and in the real
+  world, when you are working on complicated projects with hard deadlines).
+The difference between good and bad time management can have a profound impact
+  on how much you learn in this course, how well you perform in it, and how
+  much effort you actually need to expend to do well.
+<p>
+I will try to divide most programming assignments into a series of smaller
+  tasks, each that can serve as a milestone; when solved in sequence, these
+  tasks will complete the entire assignment.
+When we start writing programs, we will discuss such a <b>divide and
+  conquer</b> method more formally, calling it <b>iterative enhancement</b>.
+<p>
+Generally, it is best to spread out the work on a week-long assignment.
+Most assignemnts become available on Thursday morning; I recommend reading the
+  assignment during lab (the day it is discussed in lab) so that if you
+  are unsure about any parts of it, you can ask relevant questions about them
+  in lab; this reading includes running the executable files included with
+  each assignment, to see how the program should behave (including its input
+  and output -which you must match).
+You should start working on it during lab, and should plan to complete at
+  least half the programming assignment over the weekend.
+You should finish it early the following the week: if not by Monday, you can
+  use the lab on Tuesday to get finish it, asking questions of the starff
+  during the lab.
+<p>
+Some students look at an assignment and think that it is best done in one
+  sitting.
+If you can do so, great; but, if you plan to work this way, do the one sitting
+  over the weekend, not Wednesday night!
+In this way, if you are wrong about the amount of time that it will take, you
+  will still have adequate time to complete the assignment.
+By meeting these time goals, you will both maximize what you learn and minimize
+  your anxiety and the time that it takes for you to do the learning.
+<p>
+Remember that assignments must be turned in on time: you can get partial credit
+  for a partially completed assignment, but it must be turned in on time; I
+  will accept no late homework unless you have an official excuse pre-arranged
+  with me (and even then you should turn in whatever work you have completed
+  by the due date/time).
+<p>
+Finally, if you find yourself falling behind, seek help immediately (from me,
+  the TA, the Lab Tutor, or even other students in the course -when
+  appropriate).
+When the real programs start, we will discuss what kind of help you can get
+  legitimately, and what kind of help constitutes cheating.
+</td>
+</tbody>
+</table>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Bangalore and Hyderabad</title>
+	<atom:link href="http://ngs.ics.uci.edu/bangalore-and-hyderabad/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/bangalore-and-hyderabad/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Samantha</title>
+		<link>http://ngs.ics.uci.edu/bangalore-and-hyderabad/comment-page-1/#comment-371</link>
+		<dc:creator><![CDATA[Samantha]]></dc:creator>
+		<pubDate>Fri, 23 Dec 2005 07:41:55 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=412#comment-371</guid>
+		<description><![CDATA[Hi Mr. Ramesh,
+
+I totally agree with you. You can also look at this blog by somebody in Bangalore about the worsening infrastructure. The guy had all points right about his views on Bangalore and hit the nail straight on its head.
+
+http://iamjunk.rediffblogs.com/
+
+Tnx,
+Samantha]]></description>
+		<content:encoded><![CDATA[<p>Hi Mr. Ramesh,</p>
+<p>I totally agree with you. You can also look at this blog by somebody in Bangalore about the worsening infrastructure. The guy had all points right about his views on Bangalore and hit the nail straight on its head.</p>
+<p><a href="http://iamjunk.rediffblogs.com/" rel="nofollow">http://iamjunk.rediffblogs.com/</a></p>
+<p>Tnx,<br />
+Samantha</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

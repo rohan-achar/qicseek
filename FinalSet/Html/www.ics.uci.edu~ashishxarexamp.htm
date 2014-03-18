@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<p><strong>Writing your own application: A walk-through example </strong></p>
+<p>Let us now lead you through writing your own extraction application. Each appliation or extraction task requires specifications, and a XAR user must know how to write such specifications.. We describe this process with a complete walk-through example. </p>
+<p>Take the domain of new stories that are related to venture funding and venture investments for start-up or small companies. Say we are interested in mentions of events or occurences of a company having received funding or investment from an investor(s) or investment fund(s). The specific details that we are interested in are (i) The name of the company that has received funding or investment (ii) The date of such investment announcement (iii) The amount received in funding and (iv) The investor(s) that provided the investment. </p>
+<p>For instance, from a text segment such as:</p>
+<p>&quot;
+
+
+February 19, 2007 PALO ALTO. Dash Navigation announced that it has secured $25 million in Series B funding, positioning the company for the national consumer launch of its Internet-connected automotive GPS device this fall. The round was led by Crescendo Ventures with new investors Artis Capital, ZenShin Capital Partners and Gold Hill Capital as well as additional participation from existing investors Kleiner Perkins Caufield &amp; Byers, Sequoia Capital and Skymoon Ventures. &quot;</p>
+<p>The details of interest are (i) Dash navigation (ii) February 19, 2007 (iii) $25 million (iv) Crescendo Ventures, Artis Capital, ZenShin Capital Partners, Gold Hill Capital Partners</p>
+<p>A corpus of such news stories is provided in the directory &quot;examples/data/vc&quot;. We have already illustrated how you can create a databank of features extracted from the corpus in question. A databank, called 'vcdb1' is already provided. </p>
+<p>To use XAR for extraction of such information (in any domain) the user needs to provide 4 key specifications. These are 1) A <em>schema</em>, describing the details of the information to be extracted, 2) An (optional) set of <em>constraints</em> that the extracted data must satisfy, and 3) A set of <em>extraction rules</em>, and 4) A listing of common <em>&quot;patterns</em>&quot; of interest (we elaborate on this shortly) </p>
+<p>We step through these in the context of the above example and domain.</p>
+<p><strong>1) Schema</strong></p>
+<p>Let us give your domain a name and call it the &quot;venture&quot; domain. Create a file corresponding to the schema for the domain called &quot;ventureschema.txt&quot;. (Use the convention &lt;domainname&gt;schema.txt) </p>
+<p>This file should contain the statement:</p>
+<p>create event vfunding (company : organization, when : date, amount : money, investors : organization MV) </p>
+<p>The is akin to an SQL &quot;create&quot; statement where we have specified the various &quot;attributes&quot; to be extracted. For each attribute we have provided the type(s), also note that investors can be multi-valued. </p>
+<p>The BNF specification for this &quot;create&quot; statement, permissible types etc. are provided here. </p>
+<p><strong>2) Patterns</strong></p>
+<p>Let us now look at the dataset to see what heuristics we can use to craft some rules for extraction. Many of the reports have sentences of the form &quot;......&lt;X company &gt; has raised &lt;Y amount&gt; in ...&quot;, or &quot;...&lt;X company&gt; ... announced ... has secured &lt;Y amount&gt; for ...&quot;</p>
+<p>The phrases &quot;has raised&quot;, &quot;has secured&quot; etc. seem good indicators of a sentence (set of sentences) reporting an occurence of a venture investment. We now specify that we want to explicitly highlight any such phrases in the text. Create a new file called &quot;venturepatterns.txt&quot; (again following the convention &lt;domainname&gt;patterns.txt) and specify the following:</p>
+<p>&quot;(has raised)&quot; &quot;TOKRAISED&quot;</p>
+<p>&quot;(has secured)&quot; &quot;TOKRAISED&quot;</p>
+<p>This specifies that the above two phrases are to be flagged with the marker &quot;TOKRAISED&quot; anywhere they occur in the data. </p>
+<p>The details of the regular expression format are provided here. </p>
+<p><strong>3) Extraction Rules</strong></p>
+<p>Let us first distill some heursitics for extracting the required details. Examining some of the documents, reasonable set of heuristics seems to be:</p>
+<p>(i) Any  organization before the 'TOKRAISED' phrase in a sentence, is likely the company (that has received funding).</p>
+<p>(ii) Any (monetary) amount immediately after the 'TOKRAISED' phrase is likely the amount invested.</p>
+<p>(iii) The first date mentioned in the document, is likely the investment (announcement) date.</p>
+<p>(iv) Any organizations mentioned after the 'TOKRAISED' phrase (in the same sentence or sentence immediately following) are likely the investors.</p>
+<p>These rules are by no means perfect, but  reasonable. </p>
+<p>Create another file called &quot;venturerules.txt&quot;. There specify the following rules:</p>
+<p>company(X) :- 0.8 tokraised(R), before(X,R), insamesentence(X,R).</p>
+<p>amount(X) :- 1.0 tokraised(R), immafter(X,R).</p>
+<p>investor(X) :- 0.8 tokraised(R), after(X,R), neighborsentence(X,R,2)</p>
+<p>The details of the prdicates provided by the system and the logic based rule language are provided here. </p>
+<p><strong>4) Constraints</strong></p>
+<p>Finally let us look at any constraints that we can specify about the data. These help in making the extraction more accurate and eliminating errors. In this domain there are two such constraints that come to mind, namely (i) It is unlikely that the investment amount is greater than $30 million, and (ii) The total investment is greater than the current investment</p>
+<p>Domain</p>
+<p>check amount &lt; 30 </p>
+<p>Tuple</p>
+<p>check amount &lt; total</p>
+<p>At the end of this point you have four specifications, ventureschema.txt, venturepatterns.txt, venturerules.txt, and ventureconstraints.txt </p>
+<p>You may now run this to extract data, exactly as we did in the pre-assembled application earlier. </p>
+</body>
+</html>
+

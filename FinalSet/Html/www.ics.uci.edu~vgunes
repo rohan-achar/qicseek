@@ -1,0 +1,60 @@
+<! Bir web page serbest calismasi daha>
+<!DOCTYPE html>
+<html>
+
+<img src="template3_.png" width="1333" height="222" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:vsony -->
+<area shape="rect" coords="356,106,487,150" href="index.htm" />
+<area shape="rect" coords="609,108,745,151" href="research.htm" />
+<area shape="rect" coords="871,106,998,149" href="courses.htm" />
+<area shape="rect" coords="1120,110,1247,150" href="contact.htm" />
+</map>
+
+<body>
+<img src="template4_.png" width="250" height="550" align="left" border="0" usemap="#map1" />
+
+<map name="map1">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:vsony -->
+<area shape="rect" coords="20,35,213,96" href="http://cyberphysicalsystems.org/" />
+<area shape="rect" coords="22,129,212,192" href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=01463104" />
+<area shape="rect" coords="21,335,230,416" href="http://www.ics.uci.edu" />
+<area shape="rect" coords="17,433,111,531" href="http://cecs.uci.edu" />
+<area shape="rect" coords="132,435,227,527" href="http://www.uci.edu" />
+</map>
+
+<img src="padding.png" width="50" height="550" align="left" border="0" />
+<br>
+<br>
+
+<p style="text-indent: 5em;"> I am a PhD Candidate at ICS UCI. My research area is Embedded Systems. My research focus is on Cyber-Physical Systems and Multi-Processor SoC Architectures. </p>
+
+<h3> Work </h3>
+Position : Graduate Student Researcher at <A HREF="http://cecs.uci.edu">CECS</A> <br>
+Place &nbsp;&nbsp;&nbsp;&nbsp;: Embedded Software Lab <br>
+
+<h3> Education </h3>
+<ul style="margin-left:18em; text-indent:1em;">
+<li> PhD in Computer Science (2014 expected) at <A HREF="http://www.uci.edu">University of California</A>, Irvine<br>
+<li> M.S in Computer Science (2010) at University of California, Irvine <br>
+<li> B.S in Electronics (2006) at <A HREF="http://gazi.edu.tr/?language=en_US">Gazi University</A>, Ankara <br>  
+</ul>
+
+<h3> Research Interests </h3>
+<ul style="margin-left:18em; text-indent:1em;">
+<li> Multi-Processor SoC Architectures (MPSoC) <br>
+<li>Cyber-Physical Systems (CPS) <br>
+<li>Internet of Things (IoT) <br>
+</ul>
+
+</body>
+</html>

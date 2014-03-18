@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/prediction-machines/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>From Calendars to Chronicles: 1</title>
+		<link>http://ngs.ics.uci.edu/from-calendars-to-chronicles-1/</link>
+		<comments>http://ngs.ics.uci.edu/from-calendars-to-chronicles-1/#comments</comments>
+		<pubDate>Mon, 15 Jul 2013 21:16:43 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[Calendar]]></category>
+		<category><![CDATA[Chronicle]]></category>
+		<category><![CDATA[Prediction Machines]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1509</guid>
+		<description><![CDATA[Due to some intriguing research issues, I started thinking about our approach to organizing, managing, and learning from timeline. This is resulting in some interesting intellectual journeys. In a series of posts, I will articulate my current thoughts and after&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>Due to some intriguing research issues, I started thinking about our approach to organizing, managing, and learning from timeline.  This is resulting in some interesting intellectual journeys.  In a series of posts, I will articulate my current thoughts and after some time based on my findings and feedback from you and other friends, I will create a white paper and share with you here.  </p>
+<p>We are all familiar with calendars and with chronicles.  We use both.  Calendars to us represent plans and future.  Chronicles are about history and hence about past events.  We live in present.  Calendars are future and chronicles are past.  So chronicles and calendars are disjoint, they really have no overlap.  In fact even conceptually they are â€˜disjointâ€™.  Calendars represent intent and plans for events, whereas chronicles represent what events really happened.</p>
+<p>Original calendars were designed for people to plan based on periodic natural events.  Two types of calendars evolved from observation of cycles associated with moon (Lunar calendars) and sun (Solar calendars).  Major festivals became landmarks on calendars and were used to plan relative events in society and also in individual life.  When to go looking for particular agricultural products or for fishing became part of these calendars.  For structuring observations, such as when seasons change to when do you feel sleepy, these calendars were divided into different granularities such as year, month, day, hours, minutes, and seconds.  These granularities were designed for humans and hence were such that people can appreciate and use these.</p>
+<p>Calendars slowly evolved to become reminder mechanisms.  Calendars were used to mark the moments when particular action should be taken.  Calendars also became coordination device so more than one people could coordinate their activities.  Calendars were prepared at many levels such as an individual person, a group, an organization, country, or ethnic groups or organizations spread across the globe.  All important events of interest to a person or an organization are marked in their respective calendars.</p>
+<p>Future is of great interest to most humans, if not all.  People are anxious about their future and strive for some hints about their future.  The great popularity of Astrology in many different forms is a clear indicator of this. Past is important to predict future.  One can model past for predicting future.  Most scientific discipline, and early empirical approaches due to lack of data storage and analytical techniques, are usually concerned with modeling observations from the past to be able to predict the future.</p>
+<p>Early chronicles are reports on events that took place at similar level on the structured time line.   Their goal is to save data related to events that could be used in modeling the past.  <strong> (Nature of chronicles coming soon.)</strong></p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/from-calendars-to-chronicles-1/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>
+

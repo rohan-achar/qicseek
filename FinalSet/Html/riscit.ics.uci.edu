@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  		<title>RiSCIT: The Center for Research in Sustainability, Collapse-Preparedness and Information Technology</title>
+
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"/>
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+		<![endif]-->
+
+		<link rel="stylesheet" type="text/css" href="assets/css/styles.css"/>
+
+		<link rel="stylesheet" type="text/css" href="assets/css/carousel.css"/>
+
+		<link rel="stylesheet" type="text/css" href="assets/css/events.css"/>
+
+
+	</head>
+
+	<body>
+		<header class="navbar navbar-default" role="banner" style="background-color:rgba(255,255,255,0.7)">
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">RiSCIT</a>
+				</div>
+				<nav class="collapse navbar-collapse" role="navigation" style="color:rgb(255,255,255)">
+					<ul class="nav navbar-nav">
+						<li><a href="#events">Events</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#people">People</a></li>
+						<!--<li><a href="#partners">Partners</a></li>-->
+						<!--<li><a href="http://www.collapseomatic.com/">Blog</a></li>-->
+						<!--<li><a href="mailto:wmt@uci.edu">Contact</a></li>-->
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="http://luci.ics.uci.edu">LUCI</a>
+						</li>
+						<li>
+							<a href="http://www.ics.uci.edu/~wmt/socialCodeGroup/projects.html">Social Code</a>
+						</li>
+						<li>
+							<a href="http://techdec.org">TechDec</a>
+						</li>
+						<li>
+							<a href="http://www.informatics.uci.edu"></a>
+						</li>
+						<!--
+						<li>
+							<a href="http://www.ics.uci.edu">ICS</a>
+						</li>
+						-->
+						<!--
+						<li>
+							<a href="http://www.uci.edu">UCI</a>
+						</li>
+						-->
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-12">
+					<div class="page-title text-center">
+						<img src="assets/images/riscit-title.png"/>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<p class="page-tagline">The Center for Research in Sustainability, <br />Collapse-Preparedness &amp; Information Technology</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="page-intro">
+						<h2>Meeting Needs with Reduced Resources</h2>
+						<p>In his keynote address at a 2012 NSF-funded National Academies symposium, John Holdren, head of the US Office of Science and Technology Policy and chief science advisor to the nation, spoke at length about climate change, and described a need for both mitigation, the reduction of the magnitude of change, and adaptation, the mobilization of responses to change. Holdren advocated for the development of technology that focuses on "meeting human needs [and] wants at lower cost with reduced use of material resources [and] reduced environmental impact." The Center for Research on Sustainability, Collapse-Preparedness &amp; Information Technology (RiSCIT) seeks to engage with this challenge, in part due to the potential for "greening through IT", that is, making civilizations more environmentally sustainable via IT interventions and in part as means of preparing for civilizational collapse. The goal of the RiSCIT center is to provide a central focus for research on the role of informatics and computing in supporting the transition to sustainability and addressing the potential to prepare for civilization-scale collapse.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					<div class="support">
+						<i class="icon road"></i>
+						<h3>Research</h3>
+						<p>Our members engage in cutting edge research on topics relating to sustainability and collapse.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="support">
+						<i class="icon leaf"></i>
+						<h3>Teaching</h3>
+						<p>We teach courses and supervise independent study students related to the center's research focuses.</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="support">
+						<i class="icon house"></i>
+						<h3>Living</h3>
+						<p>We compost, vermicompost, grow food, mine bitcoin, travel less, and generally try to "walk the walk".</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container big-bar">
+			<div class="row text-center">
+				<div class="col-md-12">
+					<div class="events">
+						<h2><a name="events">Events</a></h2>
+						<div class="tainter">
+							<div class="row">
+								<div class="col-md-4">
+									<img src="events/tainter/tainter_joseph.jpg" alt="Joseph Tainter"/>
+								</div>
+								<div class="col-md-4">
+									<h2>RiSCIT is pleased to announce that anthropologist, historian and author Joseph Tainter will be speaking at 3pm on February 14th, 2014 in DBH 6011.<br/>  <a href = "events/tainter/tainter.html">Details here.</a></h2>
+								</div>
+								<div class="col-md-4">
+									<img src="events/tainter/collapse.jpg" alt="The Collapse of Complex Societies"/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="projectCarouselWrapper projects">
+			<h2><a name="projects">Projects</a></h2>
+			<!-- root -->
+			<a class="project-carousel-control left" href="#" data-jcarouselcontrol="true">&lsaquo;</a>
+			<div class="projectCarouselRoot">
+				<!-- list -->
+          		<div class="projectCarouselList">
+					<!-- item -->
+					<div class="projectCarouselItem">
+              			<div class="project">
+							<a href = "http://ceur-ws.org/Vol-995/paper7.pdf"><img src="assets/images/PGC.jpg" alt="" />
+								<h3>Plant Guild Composer</h3>
+							</a>
+						</div>
+					</div>
+					<div class="projectCarouselItem">
+						<div class="project">
+							<a href = "http://isr.uci.edu/content/information-and-communication-technology-transition-town-movement"><img src="assets/images/transitionTowns.jpg" alt="" />
+								<h3>Transition Towns</h3>
+							</a>
+						</div>
+					</div>
+					<div class="projectCarouselItem">
+						<div class="project">
+							<a href = "http://www.se4s.org"><img src="assets/images/ex-lg-2.jpg" alt="" />
+								<h3>SE 4 Sustainability</h3>
+							</a>
+						</div>
+					</div>
+					<div class="projectCarouselItem">
+						<div class="project">
+							<a href = "http://www.djp3.net/codexcaelestis/?p=113"><img src="assets/images/ex-lg-1.jpg" alt="" />
+								<h3>Bitcoin</h3>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="project-carousel-control right" href="#" data-jcarouselcontrol="true">&rsaquo;</a>
+		</div><!-- Projects Carousel -->
+
+		<div class="peopleCarouselWrapper people">
+			<h2><a name="people">People</a></h2>
+			<!-- root -->
+			<a class="people-carousel-control left" href="#" data-jcarouselcontrol="true">&lsaquo;</a>
+			<div class="peopleCarouselRoot">
+				<!-- list -->
+          		<div class="peopleCarouselList">
+					<!-- item -->
+					<div class="peopleCarouselItem">
+						<div class="person">
+							<a href = "http://www.ics.uci.edu/~djr">
+            					<img src="assets/images/richardson.jpg" alt="" />
+								<h3><strong>Debra</strong> Richardson</h3>
+							</a>
+						</div>
+					</div>
+					<div class="peopleCarouselItem">
+              			<div class="person">
+							<a href = "http://www.ics.uci.edu/~wmt">
+            					<img src="assets/images/tomlinson.jpg" alt="" />
+								<h3><strong>Bill</strong> Tomlinson</h3>
+							</a>
+						</div>
+					</div>
+					<div class="peopleCarouselItem">
+						<div class="person">
+            				<a href = "http://www.ics.uci.edu/~djp3">
+								<img src="assets/images/patterson.jpg" alt="" />
+								<h3><strong>Don</strong> Patterson</h3>
+							</a>
+						</div>
+					</div>
+					<div class="peopleCarouselItem">
+						<div class="person">
+            				<a href = "http://www.ics.uci.edu/~nardi">
+		    					<img src="assets/images/nardi.jpg" alt="" />
+								<h3><strong>Bonnie</strong> Nardi</h3>
+							</a>
+						</div>
+					</div>
+					<div class="peopleCarouselItem">
+						<div class="person">
+            				<a href = "http://www.ics.uci.edu/~jpd">
+								<img src="assets/images/dourish.jpg" alt="" />
+								<h3><strong>Paul</strong> Dourish</h3>
+							</a>
+						</div>
+					</div>
+					<div class="peopleCarouselItem">
+						<div class="person">
+            				<a href = "http://www.ics.uci.edu/~eli">
+		    					<img src="assets/images/bozorgzadeh.jpg" alt="" />
+								<h3><strong>Eli</strong> Bozorgzadeh</h3>
+							</a>
+						</div>
+					</div>
+					<div class="peopleCarouselItem">
+						<div class="person">
+            				<a href = "http://www.ics.uci.edu/~gbowker">
+		    					<img src="assets/images/bowker.jpg" alt="" />
+								<h3><strong>Geof</strong> Bowker</h3>
+							</a>
+						</div>
+					</div>
+					<div class="peopleCarouselItem">
+						<div class="person">
+                			<a href = "http://emj.ics.uci.edu">
+								<img src="assets/images/mjolsness.jpg" alt="" />
+								<h3><strong>Eric</strong> Mjolsness</h3>
+							</a>
+						</div>
+					</div>
+					<div class="peopleCarouselItem">
+						<div class="person">
+                			<a href = "http://www.ics.uci.edu/~nalini">
+								<img src="assets/images/nalini.jpg" alt="" />
+								<h3><strong>Nalini</strong> Venkatasubramanian</h3>
+							</a>
+						</div>
+					</div>
+					<div class="peopleCarouselItem">
+						<div class="person">
+							<a href = "http://www.ics.uci.edu/~smyth">
+								<img src="assets/images/padhraic.jpg" alt="" />
+								<h3><strong>Padhraic </strong> Smyth</h3>
+            				</a>
+						</div>
+					</div>
+					<div class="peopleCarouselItem">
+						<div class="person">
+                			<a href = "http://www.ics.uci.edu/~wscacchi">
+								<img src="assets/images/scacchi.jpg" alt="" />
+								<h3><strong>Walt</strong> Scacchi</h3>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="people-carousel-control right" href="#" data-jcarouselcontrol="true">&rsaquo;</a>
+		</div><!-- People Carousel -->
+
+
+	<div class="email-signup">
+		<div class="container">
+		<!--
+			<form>
+				<label>Sign-up for our free newsletter for all of our updates at RISCIT</label>
+				<input type="text" name="email" value="" class="email-field" placeholder="email address" />
+				<input type="submit" name="submit" value="Submit" class="submit" />
+			</form>
+		-->
+		</div>
+	</div>
+
+<!--
+  <div class="container-fluid partners">
+-    <div class="container">
+-      <h2>Our Partners</h2>
+-      <div class="row">
+-        <div class="partner">
+-          <img src="assets/images/marquette.png">
+-        </div>
+-        <div class="partner">
+-          <img src="assets/images/microsoft.png">
+-        </div>
+-        <div class="partner">
+-          <img src="assets/images/auburn.png">
+-        </div>
+-        <div class="partner">
+-          <img src="assets/images/ibm.png">
+-        </div>
+-        <div class="partner">
+-          <img src="assets/images/howard.png">
+-        </div>
+-      </div>
+-    </div>
+-  </div>
+
+  <div class="container-fluid fat-footer">
+    <div class="container">
+      <div class="row">
+        <div class="span6 want-more">
+          <h3>Want more?</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non.</p>
+          <ul class="unstyled social-links clearfix">
+            <li><a href="#"><i class="icon facebook"></i></a></li>
+            <li><a href="#"><i class="icon twitter"></i></a></li>
+            <li><a href="#"><i class="icon pintrest"></i></a></li>
+            <li><a href="#"><i class="icon vimeo"></i></a></li>
+            <li><a href="#"><i class="icon behance"></i></a></li>
+          </ul>
+        </div>
+        <div class="span2">&nbsp;</div>
+        <div class="span4">
+          <div class="fat-footer-sidebar">
+            <h3>Download Sitemap</h3>
+            <ul class="unstyled sitemap">
+              <li>Lorem ipsum dolor sit amet</li>
+              <li>consectetur adipisicing elit, sed do eiusmod</li>
+              <li>tempor incididunt ut labore et</li>
+              <li>Lorem ipsum dolor sit amet</li>
+              <li>consectetur adipisicing elit, sed do eiusmod</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  -->
+
+
+		<div class="footer">
+			<div class="container">
+				<nav class="footer-nav">
+					<!--
+					<ul class="unstyled">
+						<li><a href="#">Project</a></li>
+						<li><a href="#">People</a></li>
+						<li><a href="#">Partners</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+					-->
+				</nav>
+			</div>
+		</div>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+  
+		<script type="text/javascript" src="assets/js/jquery.jcarousel.min.js"></script>
+
+		<script type="text/javascript">
+  	$(function() {
+    	$('.projectCarouselRoot').jcarousel({
+			list: '.projectCarouselList',
+			items: '.projectCarouselItem',
+			animation: 'slow',
+			wrap: 'circular',
+			vertical: false,
+    	}).jcarouselAutoscroll({
+        	interval: 3000,
+        	target: '+=1',
+        	autostart: true
+		});
+        $('.projectCarouselWrapper > .left')
+            .on('jcarouselcontrol:active', function() {
+                $(this).removeClass('inactive');
+            })
+            .on('jcarouselcontrol:inactive', function() {
+                $(this).addClass('inactive');
+            })
+            .jcarouselControl({
+                target: '-=1'
+            });
+
+        $('.projectCarouselWrapper > .right')
+            .on('jcarouselcontrol:active', function() {
+                $(this).removeClass('inactive');
+            })
+            .on('jcarouselcontrol:inactive', function() {
+                $(this).addClass('inactive');
+            })
+            .jcarouselControl({
+                target: '+=1'
+            });
+
+
+    	$('.peopleCarouselRoot').jcarousel({
+			list: '.peopleCarouselList',
+			items: '.peopleCarouselItem',
+			animation: 'slow',
+			wrap: 'circular',
+			vertical: false,
+    	}).jcarouselAutoscroll({
+        	interval: 3000,
+        	target: '+=1',
+        	autostart: true
+		});
+        $('.peopleCarouselWrapper > .left')
+            .on('jcarouselcontrol:active', function() {
+                $(this).removeClass('inactive');
+            })
+            .on('jcarouselcontrol:inactive', function() {
+                $(this).addClass('inactive');
+            })
+            .jcarouselControl({
+                target: '-=1'
+            });
+
+        $('.peopleCarouselWrapper > .right')
+            .on('jcarouselcontrol:active', function() {
+                $(this).removeClass('inactive');
+            })
+            .on('jcarouselcontrol:inactive', function() {
+                $(this).addClass('inactive');
+            })
+            .jcarouselControl({
+                target: '+=1'
+            });
+
+	});
+		</script>
+		<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-28095447-1']);
+  _gaq.push(['_setDomainName', 'ics.uci.edu']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+		</script>
+	</body>
+</html>
+

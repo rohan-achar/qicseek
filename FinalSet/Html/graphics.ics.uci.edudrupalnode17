@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Empty Non Photo Render | iGravi: Interactive Graphics & Visualization</title>
+  
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+    
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/drupal/misc/favicon.ico" type="image/x-icon" />
+ 
+
+  <link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/fckeditor/fckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/panels/css/panels.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/layout.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/graphics.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/typography.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/links.css?s" />
+  
+  <!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="/drupal/sites/all/themes/marinelli/iestyles/ie6.css" />
+<![endif]-->
+
+  <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="/drupal/sites/all/themes/marinelli/iestyles/ie7.css" />
+<![endif]-->
+  
+  
+  <script type="text/javascript" src="/drupal/misc/jquery.js?s"></script>
+<script type="text/javascript" src="/drupal/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/drupal/sites/all/modules/panels/js/panels.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/drupal/" });
+//--><!]]>
+</script>
+</head>
+
+
+<body>
+  <div id="utilities">
+    
+    <div id="plinks">     
+             <ul class="links primary-links"><li class="menu-206 first"><a href="/drupal/front">Home</a></li>
+<li class="menu-209 active-trail"><a href="/drupal/node/4" title="Projects">Projects</a></li>
+<li class="menu-194"><a href="/drupal/node/2" title="Publications">Publications</a></li>
+<li class="menu-210"><a href="/drupal/node/8" title="People">People</a></li>
+<li class="menu-178 last"><a href="/drupal/node/1" title="Login">Login</a></li>
+</ul>     
+               </div>          </div>
+
+
+<div id="page">
+
+  <div id="header">
+
+ 
+   <p class="sitetitle">
+	      <a href="/drupal/" title="Home">
+	        iGravi: Interactive Graphics &amp; Visualization	      </a>
+	    </p>	
+ 
+ 	  	  
+ <p class="slogan">Shine light on truth.</p>
+
+  </div>
+
+ 
+         
+       
+   
+
+  <div class="wrapper"><!--wrapper:defines whole content margins-->
+  
+  
+   <div id="primary" class="long">               <div class="singlepage">
+	   
+	  
+            
+		 		 
+                            <div class="drdot">
+<hr />
+</div>
+         
+          
+ 
+ 
+ 
+ 
+  <div class="node">
+ 	           
+
+        
+		        
+    <div class="content">
+	
+	
+	<h2><img height="189" align="left" width="200" class="thumbnailimg" src="http://graphics.ics.uci.edu/drupal/img/charcoalindex.jpg" alt="Sample Image" /></h2>
+<h2><strong>Non-Photo Realistic Rendering</strong></h2>
+<p align="justify"><span class="left"><b>Overview:</b> We present simple rendering techniques implemented using traditional graphics hardware to achieve the effects of charcoal drawing. The effects include characteristics of charcoal drawings like broad grainy strokes and smooth tonal variations that are achieved by smudging the charcoal by hand. Further, we also generate the closure effect that is used by artists at times to avoid hard silhouette edges. All these effects are achieved using contrast enhancement operators on textures and/or colors of the 3D model.</span></p>
+<p>Publications:</p>
+<table bordercolor="#FFFFFF" border="1" width="100%">
+    
+        <tr>
+            <td><img height="120" width="240" class="thumbnailimg" alt="" src="http://graphics.ics.uci.edu/drupal/img/2002d.jpg" /></td>
+            <td><strong>Hardware Accelerated Real Time Charcoal Rendering</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/">Aditi Majumder</a>, <a href="http://www.ics.uci.edu/~gopi/">M. Gopi</a> <br />
+            <em>Symposium of Non-Photorealistic Amination and Rendering, 2002</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/NPAR02.pdf">paper</a> <a href="http://graphics.ics.uci.edu/upload/egrw01.mpg">video</a></td>
+        </tr>
+    
+</table>
+<p>Project Members: M. Gopi, Aditi Majumder</p>
+<p>Funding:</p></div>
+    
+    
+                
+        
+    
+            
+    
+  </div>
+      </div>
+
+    </div>
+
+
+   
+   
+   
+        	<!-- left -->
+        
+   	<!-- right -->
+        
+
+
+ <div class="clear"></div>
+
+  </div>
+</div>
+<!-- Close Page -->
+<div id="footer">
+
+
+   <a href="http://drupal.org"><img src="/drupal/misc/powered-blue-80x15.png" alt="Powered by Drupal, an open source content management system" title="Powered by Drupal, an open source content management system" width="80" height="15" /></a><p>Donald Bren School of Information and Computer Science<br />
+University of California, Irvine - Irvine, CA 92697</p></div>
+</body>
+</html>

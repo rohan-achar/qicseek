@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  <title>Visualizing Progressive Discovery</title>
+  <style>
+    body {
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden;
+    }
+    #container {
+      position: absolute;
+      bottom:0px;
+      margin-left:25px;
+      margin-right: 25px;
+    }
+    #rightpanel{
+      width: 350;
+   }
+  </style>
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"></link>
+  </head>
+  <body>
+    <div id="container"></div>
+    <canvas id="arbcanvas"></canvas>
+    <div id="rightpanel">
+      <div id="controlpanel"></div>
+      <div id="sspanel"></div>
+      <div id="sourcetrace"></div>
+    </div>
+
+    <!-- deps -->
+    <script src="js/jquery-1.9.0.min.js"></script>
+    <script src="js/arbor-v0.92/lib/arbor.js"></script>
+    <script src="js/kineticjs/kinetic-v4.4.2.min.js"></script>
+
+    <!--cycle js deps-->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.cycle.all.min.js"></script>
+
+    <script src="simpledata.js"></script>
+    <script src="init.js"></script>
+    <!-- <script src="data.js"></script> -->
+    <script src="kin.js"></script>
+    <script src="arb.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
+

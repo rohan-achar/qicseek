@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+  <head>
+    <title>August, 1998 WEBDAV Working Group Meeting, Chicago IETF</title>
+  </head>
+
+  <body>
+<CENTER>    
+<h2>IETF WEBDAV Working Group Meeting</h2>
+<h3>Chicago IETF, Chicago, IL USA</h3>
+<h3>August 27, 1998</h3>      
+
+</center>
+<P>A meeting of the <A HREF="http://www.ics.uci.edu/pub/ietf/webdav/">WEBDAV
+Working Group</A> was held August 27, 1998 at the 42nd IETF meeting,
+held in the Sheraton Towers Hotel, Chicago, Illinois, USA.</P>
+
+<h3>Meeting Information</h3>
+
+<DL COMPACT>
+<DT><IMG SRC="../rd_tri.gif" ALT="==&gt;">
+<A HREF="agenda.html">Agenda</A>
+
+<DT><IMG SRC="../rd_tri.gif" ALT="==&gt;">
+<A HREF="overview.html">Meeting Overview</A>
+
+<DT><IMG SRC="../rd_tri.gif" ALT="==&gt;">
+<A HREF="chi_minutes.txt">Minutes</A>
+
+</DL>
+
+<h3>Slides shown at the meeting:</h3>
+
+<DT><IMG SRC="../rd_tri.gif" ALT="==&gt;">
+<A HREF="ietf42acr.html">
+Jim Davis, WebDAV Advanced Collection Requirements and Protocol</A>
+
+<DT><IMG SRC="../rd_tri.gif" ALT="==&gt;">
+<A HREF="access_control/">
+Lisa Lippert, Access Control Goals</A>
+
+<DT><IMG SRC="../rd_tri.gif" ALT="==&gt;">
+<A HREF="versioning/">
+Chris Kaler, Report on the Versioning and Variant Authoring Design
+Team Meeting</A>
+
+</DL>
+
+
+<hr>      
+<ADDRESS>
+<A HREF="http://www.uci.edu/">
+University of California, Irvine</A><BR>
+<A HREF="http://www.ics.uci.edu/~ejw/">
+Jim Whitehead &lt;ejw@ics.uci.edu&gt;</A><BR>
+<A HREF="http://www.ics.uci.edu/">
+Department of Information and Computer Science</A><BR>
+247 ICS2 #3425<BR>
+<A HREF="http://www.irvineco.com/">
+Irvine</A>, CA  92697-3425<BR>
+</ADDRESS>
+<P>
+Last modified: August 31, 1998
+</P>	
+  </body>
+</html>
+

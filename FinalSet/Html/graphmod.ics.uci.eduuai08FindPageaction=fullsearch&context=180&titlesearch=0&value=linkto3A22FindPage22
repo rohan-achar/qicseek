@@ -1,0 +1,243 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="noindex,nofollow">
+
+<title>Full Text Search: "linkto:"FindPage"" - UAI '08 Workshop: Probabilistic Reasoning Systems</title>
+<script type="text/javascript" src="/moin_static163/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static163/modern/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static163/modern/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static163/modern/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static163/modern/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static163/modern/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="UAI '08 Workshop: Probabilistic Reasoning Systems: FindPage" href="/uai08/FindPage?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=FindPage&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/uai08/FrontPage">
+<link rel="Alternate" title="Wiki Markup" href="/uai08/FindPage?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/uai08/FindPage?action=print">
+<link rel="Search" href="/uai08/FindPage">
+<link rel="Index" href="/uai08/TitleIndex">
+<link rel="Glossary" href="/uai08/WordIndex">
+<link rel="Help" href="/uai08/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+<div id="logo"><a href="/uai08/FrontPage"><img src="/moin_static163/uai08/uaihead.png" alt="UAI 08 Logo"></a></div>
+
+<form id="searchform" method="get" action="/uai08/FindPage">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="linkto:&quot;FindPage&quot;" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<ul id="username"><li><a href="/uai08/FindPage?action=login" id="login" rel="nofollow">Login</a></li></ul>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li>Full Text Search: "linkto:"FindPage""</li>
+</ul>
+
+</div>
+
+
+<ul id="navibar">
+<li class="wikilink"><a href="/uai08/FrontPage">FrontPage</a></li><li class="wikilink"><a href="/uai08/RecentChanges">RecentChanges</a></li><li class="wikilink current"><a href="/uai08/FindPage">FindPage</a></li><li class="wikilink"><a href="/uai08/HelpContents">HelpContents</a></li>
+</ul>
+
+<div id="pageline"><hr style="display:none;"></div>
+
+<ul class="editbar"><li><span class="disabled">Immutable Page</span></li><li class="toggleCommentsButton" style="display:none;"><a href="#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="/uai08/FindPage?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="/uai08/FindPage?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="/uai08/FindPage">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="RenderAsDocbook">Render as Docbook</option>
+<option value="show" disabled class="disabled">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Subscribe User</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="PackagePages">Package Pages</option>
+<option value="SyncPages">Sync Pages</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="Save">Save</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<p class="searchstats">Results <strong>1 - 10</strong> of  <strong>10</strong> results out of about 1364 pages. (<strong>1.64</strong> seconds)<div class="searchresults">
+<dl><dt><a href="/uai08/HelpOnMacros?highlight=%28%28FindPage%29%29">HelpOnMacros</a><span class="info"> . . . 4 matches</span></dt><dd>...n: 10px; vertical-align: top;"&gt; create an advanced search dialogue on the page || See <strong>FindPage</strong> ||
+||||||{{{&lt;&lt;TitleSearch&gt;&gt;}}} ||
+||&lt;5%&gt;&lt;&lt;BR&gt;&gt;||&lt;75% style="margin: 10px; vertical-al...<br>
+</dd><p class="searchhitinfobar">12.9k - rev: 1 (current) last modified: 0<dt><a href="/uai08/WikiCourse/02%20Finding%20information?highlight=%28%28FindPage%29%29">WikiCourse/02 Finding information</a><span class="info"> . . . 2 matches</span></dt><dd>...ull-text search, type in the search keywords and click on '''text'''.
+ * Menu item '''<strong>FindPage</strong>'''
+  * Includes indexes of all pages sorted by page names and words in the page name....<br>
+</dd><p class="searchhitinfobar">1.3k - rev: 1 (current) last modified: 0<dt><a href="/uai08/HelpOnXapian?highlight=%28%28FindPage%29%29">HelpOnXapian</a><span class="info"> . . . 2 matches</span></dt><dd>...lows users to search in older revisions of pages if enabled in the search dialogue on <strong>FindPage</strong>.
+  /!\ You need to rebuild your index if you change this option. Also check the size ...<br>
+</dd><p class="searchhitinfobar">4.5k - rev: 1 (current) last modified: 0<dt><a href="/uai08/WikiHomePage?highlight=%28%28FindPage%29%29">WikiHomePage</a><span class="info"> . . . 1 match</span></dt><dd>...iki user name (modern theme see top of screen), just click that link
+ * or click on ''<strong>FindPage</strong>'' (here or the tab within the navigation bar at the top of the wiki page).  At the bo...<br>
+</dd><p class="searchhitinfobar">1.8k - rev: 1 (current) last modified: 0<dt><a href="/uai08/WikiCourse/BasicIntroduction/060_How_do_I_navigate%3F?highlight=%28%28FindPage%29%29">WikiCourse/BasicIntroduction/060_How_do_I_navigate?</a><span class="info"> . . . 1 match</span></dt><dd>...ged recently?
+    * SiteNavigation: A list of the different indices of the Wiki
+    * <strong>FindPage</strong>: Searching the Wiki by various methods
+    * TitleIndex: A list of all pages in the W...<br>
+</dd><p class="searchhitinfobar">0.9k - rev: 1 (current) last modified: 0<dt><a href="/uai08/SystemPagesInEnglishGroup?highlight=%28%28FindPage%29%29">SystemPagesInEnglishGroup</a><span class="info"> . . . 1 match</span></dt><dd>... pages:
+ * FrontPage
+ * RecentChanges
+ * TitleIndex
+ * WordIndex
+ * SiteNavigation
+ * <strong>FindPage</strong>
+ * UserPreferences
+ * MissingPage
+ * MissingHomePage
+ * AbandonedPages
+ * OrphanedPag...<br>
+</dd><p class="searchhitinfobar">5.6k - rev: 1 (current) last modified: 0<dt><a href="/uai08/SiteNavigation?highlight=%28%28FindPage%29%29">SiteNavigation</a><span class="info"> . . . 1 match</span></dt><dd>...lowing MeatBall:IndexingScheme''''''s:
+ * RecentChanges
+ * TitleIndex
+ * WordIndex
+ * <strong>FindPage</strong>
+ * WantedPages
+ * OrphanedPages
+ * AbandonedPages
+ * RandomPage
+ * PageSize
+ * PageHi...<br>
+</dd><p class="searchhitinfobar">1.0k - rev: 1 (current) last modified: 0<dt><a href="/uai08/HelpOnNavigation?highlight=%28%28FindPage%29%29">HelpOnNavigation</a><span class="info"> . . . 1 match</span></dt><dd>... tabs:
+
+ * RecentChanges, links to a page to show recent modifications of the wiki
+ * <strong>FindPage</strong>, links to a page offering search and index functions
+ * HelpContents, links to main h...<br>
+</dd><p class="searchhitinfobar">4.3k - rev: 1 (current) last modified: 0<dt><a href="/uai08/HelpMiscellaneous/FrequentlyAskedQuestions?highlight=%28%28FindPage%29%29">HelpMiscellaneous/FrequentlyAskedQuestions</a><span class="info"> . . . 1 match</span></dt><dd>...search and/or scan the wiki than you can "shake a stick at":
+ * Use the search box or <strong>FindPage</strong>, where you can search by keyword in title, by full text, with normal words or wildcar...<br>
+</dd><p class="searchhitinfobar">15.8k - rev: 1 (current) last modified: 0<dt><a href="/uai08/HelpForBeginners?highlight=%28%28FindPage%29%29">HelpForBeginners</a><span class="info"> . . . 1 match</span></dt><dd>...nts to explore a wiki are
+ * RecentChanges: see where people are currently working
+ * <strong>FindPage</strong>: search or browse the database in various ways
+ * TitleIndex: a list of all pages in ...<br>
+</dd><p class="searchhitinfobar">2.1k - rev: 1 (current) last modified: 0</dl>
+</div><span class="anchor" id="bottom"></span></div>
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul class="editbar"><li><span class="disabled">Immutable Page</span></li><li class="toggleCommentsButton" style="display:none;"><a href="#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="/uai08/FindPage?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="/uai08/FindPage?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="/uai08/FindPage">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="RenderAsDocbook">Render as Docbook</option>
+<option value="show" disabled class="disabled">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Subscribe User</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="PackagePages">Package Pages</option>
+<option value="SyncPages">Sync Pages</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="Save">Save</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+
+

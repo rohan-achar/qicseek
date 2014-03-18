@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: $100 laptop from OLPC</title>
+	<atom:link href="http://ngs.ics.uci.edu/100-laptop-from-olpc/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/100-laptop-from-olpc/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Mohan</title>
+		<link>http://ngs.ics.uci.edu/100-laptop-from-olpc/comment-page-1/#comment-450</link>
+		<dc:creator><![CDATA[Mohan]]></dc:creator>
+		<pubDate>Fri, 26 May 2006 02:37:24 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=534#comment-450</guid>
+		<description><![CDATA[You are absolutely right. Actually, the mid-day meal scheme
+(http://en.wikipedia.org/wiki/Mid-day_meals) has done a lot more for education (lowering drop-out rates and improving the nutrition level of children so as to benefit from schooling)  than any other scheme in India. Higher retention rates have led to higher female literacy ratio which has in turm helped temper the population growth.]]></description>
+		<content:encoded><![CDATA[<p>You are absolutely right. Actually, the mid-day meal scheme<br />
+(<a href="http://en.wikipedia.org/wiki/Mid-day_meals" rel="nofollow">http://en.wikipedia.org/wiki/Mid-day_meals</a>) has done a lot more for education (lowering drop-out rates and improving the nutrition level of children so as to benefit from schooling)  than any other scheme in India. Higher retention rates have led to higher female literacy ratio which has in turm helped temper the population growth.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

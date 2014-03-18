@@ -1,0 +1,1577 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<!-- #BeginTemplate "/Templates/index.dwt" -->
+<meta name="description" content="A research project investigating the social and technical issues surrounding the success of geographically distributed science and engineering collaborations." />
+<meta name="keywords" content="scientific collaboration, collaboratories, collaboratory, University of California, Irvine, School of Information, social-technical" />
+<meta name="language" content="English" />
+<meta name="author" content="Dan Cooney" />
+<meta name="programmer" content="Greg Peters" />
+<META content=ALL name=robots>
+<META content="15 days" name=revisit-after>
+<META content=emilyo@uci.edu name=reply-to>
+<META content="Living Document" name=document-class>
+<META content="Copyrighted Work" name=document-rights>
+<META content="Web Page" name=document-type>
+<META content="Safe for Kids" name=document-rating>
+<META content=Global name=document-distribution>
+<META content=Static name=document-state>
+<META content=no-cache name=cache-control>
+<META http-equiv=Content-Language content=EN-US>
+<META content="Dan Cooney" name=Publisher>
+
+<link REL="ICON" HREF="/soc.ico" TYPE="image/x-icon">
+<link REL="SHORTCUT ICON" HREF="/soc.ico" TYPE="image/x-icon">
+
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1"><!-- #BeginEditable "doctitle" --><!-- #EndEditable -->
+<SCRIPT type=text/javascript>
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</SCRIPT>
+<LINK href="/styles/SOC.css" 
+type=text/css rel=stylesheet><!--Main content begins -->
+<META content="MSHTML 5.50.4913.1100" name=GENERATOR></HEAD>
+<!-- #LOOP-START:header -->
+<BODY text=#000000 vLink=#333399 aLink=#ff9900 link=#333399 bgColor=#ffffff 
+leftMargin=2 topMargin=2 marginheight="2" marginwidth="2">
+<TABLE height=117 cellSpacing=0 cellPadding=0 width="100%" align=center 
+border=0>
+  <TR>
+    <TD vAlign=top align=left>
+      <TABLE cellSpacing=0 cellPadding=0 width=100% align=left 
+      border=0 name="Header">
+        <TR>
+          <TD vAlign=bottom align=left background=""
+          rowSpan=3 height=103 width=145><A 
+            href="/"><IMG 
+            height=103 alt="Science of Collaboratories logo - link" 
+            src="/images/LOGOSMALLER.gif" 
+            width=145 align=bottom border=0 name=SOCLogo></A></TD>
+          <TD height=40 valign="top">
+            <DIV ALIGN="RIGHT" CLASS="admin_login"><A HREF="/index.php?SOCSiteMap">Site Map</A>&nbsp;-&nbsp;<A HREF="/datateam/index.php">Login</A></DIV><BR>
+            <SCRIPT src="/libs/exmplmenu_var.js" type=text/javascript></SCRIPT>
+            <SCRIPT src="/libs/menu_com.js" type=text/javascript></SCRIPT>
+            <NOSCRIPT>Your browser does not support script</NOSCRIPT></TD></TR>
+        <TR>
+          <TD vAlign=top align=left width=100% bgColor=#660033 height=15>
+            &nbsp;
+          </TD></TR>
+        <TR>
+         <TD width=100% bgColor=#660033 height=15>&nbsp;</TD></TR>
+</table>
+      </TD>
+    <TD vAlign=top width=60 height=100>&nbsp;</TD>
+   </TR>
+        <TR>
+          <TD vAlign=top align=left height=20><IMG height=20 
+            alt="An alliance to advance the understanding of collaboratories" 
+            src="/images/SOCATextNew.gif" 
+            width=527 border=0 name=SOCATextNew>
+          </TD>
+         </TR>
+</TABLE>
+<!-- #LOOP-END:header -->
+<TABLE cellSpacing=0 cellPadding=0 width=100% align=left border=0 
+name="Main Body Table">
+  <TR>
+    <TD vAlign=top colspan=4 align=left bgColor=#660033 height=12><IMG 
+      height=12 alt="Science of Collaboratories" 
+      src="/images/RoundedRed.gif" 
+      align=top border=0 name=Header_r9_c1><BR></TD>
+    <TD vAlign=top align=left bgColor=#660033 height=12>&nbsp; </TD>
+    <TD width=60 bgColor=#ffffff>&nbsp;</TD></TR>
+  <TR>
+    <TD width=20 bgColor=#660033></TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD colspan=2 align=left bgColor=#ffffff>
+<!-- This is where we will add the content -->
+      
+<script language="JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  brWin = window.open(theURL,winName,features);
+  brWin.focus();
+}
+//-->
+</script>
+<table width="100%" border="0">
+  <tbody>
+     <tr>
+    <td align="right"><p class="backnav"><a href="colisting.php">Return to the list of Collaboratory 
+Projects</a></p></td>
+    <td width="1%">&nbsp;</td>
+  </tr>
+    <tr>
+     <td align="right">&nbsp;</td>
+     <td width="1%">&nbsp;</td>
+   </tr>
+     
+  </tbody> 
+</table>
+<table width="100%" border="0">
+    <tbody>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccffff">     
+         
+      <p class="fieldname">Name of Collaboratory :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%"><p class="collabname">Biobanking and Biomolecular Research Infrastructure (BBMRI)</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">URL          :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%"><a href="http://www.bbmri.eu/">http://www.bbmri.eu/</a></td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">Collaboratory Status
+:</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+    <TD width="66%">
+    <TABLE BORDER="0" cellspacing="0" cellpadding="0">
+    <TR>
+      <td width="24%" align="left" bgcolor="#FFFFFF">In Development
+      </td>
+      <TD width="1%">&nbsp;</TD>
+      <td width="20%" align="left" bgcolor="#FFFFFF"> 
+        <b>Start Date :</b> 
+          2008
+      </td>
+      <td width="20%"> 
+        <b>End Date :</b> 
+          
+      </td>
+	  <td width="35%"> 
+        <b>Info Last Updated :</b> 
+          Mon, Nov 1 2010 12:00am PDT
+      </td>
+    </tr>
+    </table>
+    </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccffff">     
+         
+      <p class="fieldname">Primary Collaboratory Function :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">Community Infrastructure Development</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccffff">     
+         
+      <p class="fieldname">Secondary Collaboratory Functions :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">Community Data Systems, Distributed Research Center</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">Domain(s)         
+:</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">BIOLOGICAL/AGRICULTURAL SCIENCES >Biological Sciences >Biomedical Sciences, BIOLOGICAL/AGRICULTURAL SCIENCES >Biological Sciences >Biological Sciences, General</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+   <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" bgcolor="#ccffff" align="right" valign="top">     
+         
+      <p class="fieldname">Brief          Description 
+of the Collaboratory :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">               
+      <p>Goals of BBMRI<BR>
+The preparatory phase aims to provide the basis for the actual operational biobanking infrastructure and plans to provide a strategy and structure for:<BR>
+•	a pan-European inventory of major European biobanks <BR>
+•	complementation of existing resources and technologies <BR>
+•	establishment of clear access rules <BR>
+•	facilitation of transnational combination and exchange of biological materials and data <BR>
+•	ensuring coordinated development of resources and technologies <BR>
+•	reducing the fragmentation of the scientific community <BR>
+•	embedding activities into European scientific, ethical, legal and societal <BR>
+<BR>
+Preparatory Phase of BBMRI <BR>
+During the preparatory phase (February 2008- April 2010) the FP7 funded pan-European Biobanking and Biomolecular Resources Research Infrastructure (BBMRI) project comprises 51 participants and more than 200 associated organisations.<BR>
+Participating Members<BR>
+Participants: 51<BR>
+Thereof: 30 Scientific Partners and 24 Funding Organisations (ministries, research councils)<BR>
+Associated Organisations: >200<BR>
+Budgetary information <BR>
+Preparatory cost: 5 M€<BR>
+Funded by: FP 7 framework programme grant<BR>
+Grant Agreement Nr: 212111<BR>
+Construction cost: approx. 170 M€<BR>
+to be further determined in the preparatory phase <BR>
+Operation cost (total): approx. 15 M€/year<BR>
+Timetable until operation<BR>
+Preparatory phase: 27 months (February 1st 2008 – April 30th 2010)<BR>
+Construction phase: 12 months for core network / 36 months for fully established infrastructure<BR>
+Operation: 20 - 30 years<BR>
+<BR>
+BBMRI will be implemented under the ERIC (European Research Infrastructure Consortium) legal entity. BBMRI-ERIC foresees headquarters (central coordination) in Graz, Austria, responsible for coordination of the activities of National Nodes established in participating countries. BBMRI is in the process of submitting its application to the European Commission for a legal status under the ERIC regulation, with an expected start date at the end of 2011.<BR>
+<BR>
+When the preparatory phase of BBMRI came to its end on January 31, 2011, also the Governance and Management Structures which were based on the Grant Agreement came to end. In its final teleconference on Jan 25, 2011, the BBMRI Steering Committee agreed that the current Steering Committee will continue to function as an interim governing body of BBMRI until the Memorandum of Understanding (MoU) for the BBMRI-ERIC application is signed by the interested Member States. As BBMRI-ERIC will be an organization of Member States, Associated States, third countries and intergovernmental organizations, current biobanks that are partners or associated organizations of BBMRI and wish to become members of BBMRI-ERIC need to contact their ministries and encourage them to seek membership under the new legal entity. <BR>
+<BR>
+They have national hubs in:<BR>
+Sweden<BR>
+www.bbmri.se<BR>
+<BR>
+Finland<BR>
+http://www.bbmri.fi/fi<BR>
+<BR>
+BBMRI Nordic: A collaborative network between National Biobanking Infrastructures in the Nordic Countries<BR>
+http://www.bbmri.se/en/About-BBMRIse/BBMRI-Nordic/<BR>
+ <BR>
+The Netherlands<BR>
+www.bbmri.nl<BR>
+<BR>
+Italy<BR>
+http://www.bbmri-eric.it/<BR>
+<BR>
+They are organized around seven work packages:<BR>
+1. Management and coordination<BR>
+2. Population-based biobanks<BR>
+3. Disease-oriented biobanks<BR>
+4. Biomolecular tools and resources<BR>
+5. Database harmonization and IT-infrastructure<BR>
+6. Ethical, legal, and societal issues<BR>
+7. Funding and financing<BR>
+<BR>
+They also have a Scientific and Ethical Advisory Board.</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%" height="20">&nbsp;</td>
+      <td width="31%" bgcolor="#ccff66" bordercolor="#CCCCCC"
+ align="right" valign="top" height="20">               
+      <p class="fieldname">Access          to 
+Instruments :</p>
+      </td>
+      <td width="1%" height="20">&nbsp;</td>
+      <td width="66%" height="20"></td>
+      <td width="1%" height="20">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" bgcolor="#ccff66" bordercolor="#CCCCCC"
+ align="right" valign="top">               
+      <p class="fieldname">Access          to 
+Information Resources :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">BBMRI documents shall as far as possible to be open to public.<BR>
+Draft documents will be available on the website in member area only.</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" bgcolor="#ccff66" bordercolor="#CCCCCC"
+ align="right" valign="top">               
+      <p class="fieldname">Access          to 
+People as Resources :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">    BBMRI members represent the key providers of resources and technologies. Members are leaders in the field and drivers of innovation and scientific excellence. Membership is non-exclusive so that members link BBMRI to other national, European (e.g., other FP7 programs) and global initiatives (e.g., the emerging OECD global network of Biological Resource Centres or WHO programmes).<BR>
+    Associated partners and subcontractors provide certain resources (services, data, samples, materials) to BBMRI. An associated partner, for instance, a hospital or research institute which provides biological samples and data, may be either reimbursed or compensated for its contribution by being granted free access to resources and technologies of the BBMRI. Associated partners may also be ministries, governments, research councils, and funding agencies from interested countries whether or not they currently support biobank or biomolecular resource infrastructure projects<BR>
+    Users may come from different fields of academia and industry. Access will be provided in the context of specific research projects and on the basis of secured funding. Incentives may be provided for EU Member States and for industry to enter into general user agreements. Those wishing to join BBMRI must submit an expression of interest, available on their Website.<BR>
+    This structure provides great flexibility so that new members and partners can be connected at any time and so that it can be adapted to emerging needs in biomedical research. The IT infrastructure which employs federated database architecture and grid computing technology will integrate the complex network of hubs, members and partners. Hubs will be coordinated and directed by an executive management, which is supported by a governance council as well as by a high-calibre advisory board and receives input from the stakeholder forum to guarantee clear responsibilities as well as open and transparent decision-finding processes.<BR>
+</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top">
+        <p class="fieldname">Funding Agency 
+or Sponsor :</p></td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+
+<TD width="100%"><I><font size="1" color="gray">European Commission</font></I></td>
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+<TD><IMG SRC="/images/spacer.gif" width="10" height="10"></td>
+
+
+<TD width="100%">FP7 Framework Program (European Commission)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+</table>
+</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <TR> 
+      <td width="1">&nbsp;</td>
+      <td valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+        <table width="100%" border="0">
+          <tr> 
+            <td width="13%">&nbsp;</td>
+            <td width="49%"> 
+              <table width="100%" border="1" bordercolor="#CCFFFF">
+                <tr> 
+                  <td> 
+                    <p> <font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Notes on Funding Agencies/Sponsors:<br>
+                      The FP7 Framework Program funded the preparatory phase, but it is not specified who is funding subsequent work.
+                    </font></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+      <TD width="4">&nbsp;</TD>
+    </TR>
+
+    <TR> 
+      <td width="1">&nbsp;</td>
+      <td valign=top align=right colspan="3" bgcolor="#CCFFFF"> 
+        <div align="left"><font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Organizations with Funded Participants:</font></div>
+      </td>
+      <TD width="4">&nbsp;</TD>
+    </TR>
+
+    <TR> 
+      <td height=1 width="1"></td>
+      <td height=1 valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+       
+        <table width="100%" border="0">
+          <tr bgcolor="#FFFFFF"> 
+            <td width="49%"><b><font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Organization name:</font></b></td>
+            <td width="13%"> 
+              <div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Approx # of participants:</font></b></div>
+            </td>
+            <td width="38%"><b><font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Description of organization's role(s):</font></b></td>
+          </tr>
+
+
+
+
+          <tr bgcolor="" valign="top"> 
+            <td width="49%">Alleanza contro il cancro</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Babraham Bioscience Technologies</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Biomedical Research Foundation of the Academy of Athens</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">British Medical Research Council (MRC)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Bundesministerium für Wissenschaft und Forschung</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Cardiff University</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Comitato Nazionale per la Biosicurezza, le Biotecnologie e le Scienze della Vita, Istituto Superiore di Sanita </td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">deCODE genetics</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Dutch Federation of University Medical Centers</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Erasmus Medical Center</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">European Molecular Biology Laboratory (EMBL)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Féderation Hospitalière de France</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Federal Ministry of Education and Research (BMBF)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Fondazione Telethon</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Fraunhofer Institute for Biomedical Engineering (IBMT)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Fundación para el desarrollo de la investigación en Genómica y Proteómica</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Health Research Board - Ireland (HRB)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Hellenic Republic Ministry of Development</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Helmholtz Association</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Helmholtz Zentrum München - German Research Center for Environmental Health</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Icelandic Centre for Research</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Inserm</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Institut Mérieux </td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Institut National du Cancer</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Institute de Salud Carlos III (ISCIII)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Institute for Biomedical Technologies</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">International Agency for Research on Cancer</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">International Prevention Research Institute (IPRI)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Irish Platform for Patients' Organisations, Science & Industry</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Istituto Nazionale per la Ricerca sul Cancro</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Karolinska Institutet </td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Legal Pathways b.v.</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Leiden University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Leiden University Medical Center (LUMC)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Life Science Governance Institute</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Max Planck Institute for Molecular Genetics</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Medical University of Graz</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Ministry of Education and Research (Estonia)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Ministry of Education, Culture and Science (Netherlands)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">National Public Health Institute of Finland (NPHI)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Participant 
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Netherlands Organisation for Health Research and Development (ZonMw)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Norwegian Institute of Public Health</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Norwegian University of Science and Technology </td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Semmelweis University</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant 
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">UK Biobank</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Universität Klagenfurt </td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Groningen</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Malta</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Manchester</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Salamanca</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Tartu</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Turku</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Uppsala University - Uppsala universitet</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">VITRO Ltd.</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Participant
+            </td>
+          </tr>
+
+
+
+</table>
+
+      </td>
+      <td height=1 width="4"></td>
+    </TR>
+
+    <TR> 
+      <td height=1 width="1"></td>
+      <td height=1 valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+       
+      </td>
+      <TD height=1 width="4"></TD>
+    </TR>
+
+    <TR> 
+      <td height=1 width="1"></td>
+      <td height=1 valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+       
+      </td>
+      <TD height=1 width="4"></TD>
+    </TR>
+    <TR> 
+      <td width="1">&nbsp;</td>
+      <td valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+        <table width="100%" border="0">
+          <tr bgcolor=""> 
+            <td width="49%" align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>TOTAL 
+              PARTICIPANTS: </b></font></td>
+            <td width="13%"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                243
+                </font></div>
+              </font></td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td width="49%" bgcolor="#CCFFFF"> 
+              <table width="100%" border="1" bgcolor="#CCFFFF">
+                <tr bgcolor="white"> 
+                  <td> 
+                    <p> <font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Notes on Participants/Organizations:<br>
+                      "Participants" are co-applicants of the project and full members. They have an official vote on formal issues in the Governance Council.<BR>
+<BR>
+Associated Organisations are biobanks (which fulfil certain quality criteria regarding the size of the biobank, specific assets, and secured funding) or experts in the field of biobanking (e.g. ELSI experts, patient groups). Associated Organisations do not have an official vote on formal issues but their input and active involvement in the project ensures that the solutions developed will be suitable for future integration of biobanks into the BBMRI structure.<BR>
+<BR>
+Also listed as a participant is Irish Clinical Research Infrastructure Network (a collaboratory).<BR>
+<BR>
+Also listed as associated organizations are the following collaboratories:<BR>
+<BR>
+1. The consortium of Biological Resource Centres (BRC) and Tumour cell and tissue banks of the Marseilles metropolitan area" (which seems to have been a collaboratory in the early 2000s, but I cannot find anything about it) (Disease-focused biobank – tumour tissue (C.Chabannon)).<BR>
+<BR>
+2. EuroBioBank (Rare disease biobank network (F. Bignami); D. Horn).<BR>
+<BR>
+3. German Competence Network for HIV/AIDS (Sera collection (N. Brockmeyer)).<BR>
+<BR>
+4. BrainNet Europe (Consortium of 18 European brain banks (H.A. Kretzschmar)).<BR>
+<BR>
+5. German Dementia Competence Network (Population-based & disease-focused biobank – cognitive disorders, DNA, blood (W. Maier)).<BR>
+<BR>
+6. German Competence Network for Heart Failure (Disease-focused biobank - CVD blood(C. Özcelik)).<BR>
+<BR>
+7. Telematikplattform Medizinischer Forschungsnetze (ELSI, Quality, Harmonisation, Standardization of Biobanks (S. Semler)).<BR>
+<BR>
+8. Danubian BioBank Consortium (Population-based & disease focused biobank – metabolic diseases (G. Schmitz)).<BR>
+<BR>
+9. National Genome Research Network (Biobank Quality Management (S. Wiemann)).<BR>
+<BR>
+10. Alliance of German Cryobanks (Network of Biobank Cryo Technology (H. Zimmermann)).<BR>
+<BR>
+11. Cooperative Health Research in the Region of Augsburg (Population-based biobank – blood, DNA (H.E. Wichmann)).<BR>
+<BR>
+12. Telethon Genetic Biobank Network (Coordination of seven Italian biobanks (F. D. Bricarelli)).<BR>
+<BR>
+13. Uppsala Biobank (Anna Beskow).<BR>
+<BR>
+14. Biobank Suisse (Network of disease-oriented research biobanks (D. Simeon-Dubach)).<BR>
+<BR>
+15. Confederation of Cancer Biobanks (Disease oriented biobanks, cancer specific (C.Magee, A.Carter)).<BR>
+<BR>
+16. LifeLines (Population based of northern provinces (S. Poppema)).<BR>
+<BR>
+17. National Cancer Research Institute (Consortium of institutions: development, management & use of cancer biobanks (J. Cope)).<BR>
+<BR>
+18. UK Stem Cell Bank (Cell Culture Collections (G. Stacey)).
+                    </font></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td width="13%">&nbsp;</td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td width="49%">&nbsp;</td>
+            <td width="13%">&nbsp;</td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+      <TD width="4">&nbsp;</TD>
+    </TR>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      
+    <td width="31%" bgcolor="#FFFFFF" bordercolor="#CCCCCC"
+ align="right" valign="top"> 
+      <p class="fieldname">Communications Technology 
+        Used :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      
+    <td width="66%"></td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      
+    <td width="31%" bgcolor="#FFFFFF" bordercolor="#CCCCCC"
+ align="right" valign="top"> 
+      <p class="fieldname">Technical 
+        Capabilities :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      
+    <td width="66%">
+        
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+  <tr>
+    <td width="1%">&nbsp;</td>
+    <td align="right" valign="top" width="31%">Key Articles : </td>
+    <td width="1%">&nbsp;</td>
+      <td width="66%" valign="top">
+        
+      </td>
+    <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">Project-reported performance data
+:</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%"></td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+   
+     
+
+
+  </tbody>
+</table>
+
+    </TD>
+    <TD width=60>&nbsp;</TD></TR>
+<TR>
+    <TD vAlign=top align=middle width=20 bgColor=#660033>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top colspan=2 align=right bgColor=#ffffff height=12>&nbsp;</TD>
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=bottom colspan=4 align=left width=145 bgColor=#660033 height=12><IMG 
+      height=12 
+      src="/images/RoundedBottom.gif" 
+      width=145 align=bottom></TD>
+    <TD vAlign=top align=right bgColor=#660033 height=12><FONT 
+      color=#ffffff>
+      &nbsp;</FONT><SPAN class=SmallText><FONT 
+      color=#ffffff>&nbsp; </FONT></SPAN></TD><!-- HERE -->
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=top align=middle width=20>&nbsp;</TD>
+    <TD colspan=4 vAlign=top align=middle bgColor=#ffffff
+      height=6><SPAN class="footernavbar"><A 
+      href="/">Home</A> | <A 
+      href="/AboutSOC/index.php">About 
+      SOC</A> | <A 
+      href="/Workshops/index.php">Workshops</A> | <A 
+      href="/Resources/index.php?findings">Resources</A> 
+      | <A 
+      href="/NewsEvents/index.php">News 
+      &amp; Events</A></SPAN></TD>
+    <TD width=60 bgColor=#ffffff height=6>&nbsp;</TD></TR>
+<!-- #LOOP-START:footer -->
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <HR align=center width=80%>
+    </TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5></TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <TABLE cellSpacing=0 cellPadding=0 width="95%" align=left border=0 
+      name="Footer">
+        <TR>
+          <TD vAlign=top align=middle width=172 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.uci.edu/"><IMG height=70 
+            alt="University of California, Irvine Logo" 
+            src="/images/logo_uci.jpg" 
+            width=62 border=0 name=UCI_Logo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.uci.edu/">University of California, Irvine<BR></A></P></TD>
+          <TD align=middle>
+            <P class="copyright">This material is based upon work supported by 
+            the <A target=_blank href="http://www.itr.nsf.gov/">National Science 
+            Foundation</A> under Grant No. IIS 0085951. Any opinions, findings, 
+            and conclusions or recommendations expressed in this material are 
+            those of the author(s) and do not necessarily reflect the views of 
+            the National Science Foundation. <BR><A target=_blank 
+            href="http://www.itr.nsf.gov/"><IMG height=42 
+            alt="National Science Foundation Logo" 
+            src="/images/nsf.gif" width=42 
+            border=0 name=NSF_Logo></A></P></TD>
+          <TD vAlign=top align=middle width=127 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.ics.uci.edu/"><IMG height=70 
+            alt="School of Information Logo" 
+            src="/images/logo_uci.jpg" 
+            width=62 border=0 name=SILogo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.ics.uci.edu/">School of Information</A>
+            <A href="http://www.ics.uci.edu/">University of 
+            Michigan</A></P></TD></TR>
+        <TR>
+          <TD align=middle>&nbsp;</TD></TR>
+        <TR>
+          <TD>
+            <P align=center class="copyright">&reg; 2010-2011
+            University of 
+            California, Irvine. Please send questions and comments to <A 
+            href="mailto:emilyo@uci.edu">SOC 
+        webmaster</A>.</P></TD></TR></TABLE></TD></TR>
+  <TR>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=95>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0>&nbsp; </TD>
+    <TD width=60 bgColor="white" height=0>&nbsp;</TD></TR>
+</TABLE>
+<!-- #LOOP-END:footer -->
+<P>&nbsp;</P>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-987955-53']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</BODY><!-- #EndTemplate --></HTML>
+

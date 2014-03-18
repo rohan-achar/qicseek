@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Current Known Restrictions and Bugs</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Current Known Restrictions and Bugs">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html6086 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html6084 HREF="umsroot.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html6078 HREF="node319.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html6088 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html6087 HREF="node321.html">Index</A>
+<B>Up:</B> <A NAME=tex2html6085 HREF="umsroot.html">No Title</A>
+<B> Previous:</B> <A NAME=tex2html6079 HREF="node319.html"> Global Flags</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION002600000000000000000> Current Known Restrictions and Bugs</A></H1>
+<P>
+<A NAME=chapbugs>&#160;</A>
+<P>
+<OL><LI> The maximum arity of external predicates in the current implementation
+of <A NAME=tex2html1578 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  is 16.
+<P>
+<LI> The maximum arity of a procedure in <A NAME=tex2html1579 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  is 255.
+The arity of compound terms is unlimited.
+<P>
+<LI> When the occur check is disabled and cyclical structures
+are created, e.g.
+in such situations as the unification of
+<i> X</i> and <i> g(X)</i> in
+<PRE>X = g(X)
+</PRE>
+which will result in a cyclic structure:
+<PRE> X = g(g(g(g(g(...
+</PRE>
+<A NAME=tex2html1580 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  is not able to copy such terms to the heap
+and so
+it is the programmer's
+responsibility to ensure that the cyclical terms are avoided in
+<UL><LI> Values of arrays and global variables.
+<P>
+<LI> Asserted and recorded terms.
+</UL>
+<P>
+<LI> When a stream is opened to the terminal in update mode, any output
+will discard nonconsumed input data.
+In files opened in update mode the null character is ignored by the
+parser.
+<P>
+</OL>
+<P>
+As far as the functionality restrictions are concerned, <A NAME=tex2html1581 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+<P>
+actually does not make all its features available to the user,
+mainly to prevent an explosion of the number of built-in predicates,
+and also not to support the use of some techniques
+(e.g. destructive assignment in Prolog).
+<A NAME=tex2html1582 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  contains a number of predicates which are exported from the
+module <tt> sepia_kernel</tt> and not documented,
+but which can be exploited by the users if necessary.
+<P>
+<BR> <HR><A NAME=tex2html6086 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html6084 HREF="umsroot.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html6078 HREF="node319.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html6088 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html6087 HREF="node321.html">Index</A>
+<B>Up:</B> <A NAME=tex2html6085 HREF="umsroot.html">No Title</A>
+<B> Previous:</B> <A NAME=tex2html6079 HREF="node319.html"> Global Flags</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

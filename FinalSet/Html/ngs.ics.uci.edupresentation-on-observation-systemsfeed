@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Presentation on Observation Systems</title>
+	<atom:link href="http://ngs.ics.uci.edu/presentation-on-observation-systems/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/presentation-on-observation-systems/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Pravesh Biyani</title>
+		<link>http://ngs.ics.uci.edu/presentation-on-observation-systems/comment-page-1/#comment-260</link>
+		<dc:creator><![CDATA[Pravesh Biyani]]></dc:creator>
+		<pubDate>Sat, 03 Sep 2005 12:10:33 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=294#comment-260</guid>
+		<description><![CDATA[Hi Sir
+
+Nice ideas about ObSys and very interesting presentation.
+
+--
+Pravesh]]></description>
+		<content:encoded><![CDATA[<p>Hi Sir</p>
+<p>Nice ideas about ObSys and very interesting presentation.</p>
+<p>&#8211;<br />
+Pravesh</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

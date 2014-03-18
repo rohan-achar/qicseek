@@ -1,0 +1,475 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Donald Bren School of Information and Computer Sciences @ University of California, Irvine</title>
+<meta content="atJc4T0DS30kboHJm4YPyyn4g6vFgIwPIMbHA2INHQg=" name="verify-v1"/>
+<meta content="wnU2T3dZ2vgHjWiqXzsFBY7tYlNvmisuJ5s9TWfQEvM=" name="verify-v1"/><link href="bin/styles/stylesheet_index.css" rel="stylesheet" type="text/css"/><!--[if IE]>
+        <link rel="stylesheet" type="text/css" href="/bin/styles/all-ie-only.css" />
+<![endif]-->
+
+
+<meta content="Thu, 06 Feb 2014 09:37:43 -0320" name="date"/>
+
+</head>
+<body>
+
+<script language="JavaScript" type="text/javascript">
+<!-- 
+function clear_textbox()
+{
+if (document.searchform.q.value == "Search ICS")
+document.searchform.q.value = "";
+} 
+-->
+</script>
+<h1 class="ahem">This site will look much better in a browser that supports <a href="http://www.webstandards.org/upgrade/" title="Download a browser that complies with Web standards.">web standards</a>, but it is accessible to any browser or Internet device.</h1>
+<div id="wrapper"><script type="text/javascript">
+
+sfHover = function() {
+    var sfEls = document.getElementById("navcontainer").getElementsByTagName("LI");
+    for (var i=0; i<sfEls.length; i++) {
+        sfEls[i].onmouseover=function() {
+            this.className+=" sfhover";
+        }
+        sfEls[i].onmouseout=function() {
+            this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+        }
+    }
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+</script>
+
+    <div id="header" title="Welcome to the Donald Bren School of Information and Computer Sciences @ UC Irvine">
+
+           <a id="bren_link" href="/"></a>
+
+           <a id="uci_link" href="http://www.uci.edu/"></a>
+
+    </div>
+    
+    
+    <div CLASS="newbar"><p style="line-height: 0px; display: none; "></p></div>
+    
+    
+    <div id="navcontainer">
+
+                
+            <ul>
+                
+                <li>
+                
+                    <a href='/about/' title='about'>&raquo; About</a>              
+
+                    <ul>
+                        <li><a href="/about/">&raquo; About the School</a></li>
+                        <li><a href="/about/about_mission.php">&raquo; Bren ICS Mission</a></li>
+                        <li><a href="/about/about_deanmsg.php">&raquo; Dean's welcome</a></li>
+                        <li><a href="/about/bren/">&raquo; About the Bren gift</a></li>
+                        <li><a href="/about/about_factsfigures.php">&raquo; Facts and figures</a></li>
+                        <li><a href="/about/brenhall/index.php">&raquo; Donald Bren Hall</a></li>
+                        <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                        <li><a href="/about/about_contact.php">&raquo; Contact us</a></li>
+                        <LI><A HREF="/about/equity/">&raquo; Equity & diversity</A></LI>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/dept/' title='departments'>&raquo; Departments</a>
+                    <ul>
+                        <li><a href="http://www.cs.uci.edu">&raquo; Computer Science</a></li>
+                        <li><a href="http://www.informatics.uci.edu">&raquo; Informatics</a></li>
+                        <li><a href="http://www.stat.uci.edu">&raquo; Statistics</a></li>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/faculty/area/' title='research'>&raquo; Research</a>              
+                
+
+                
+                
+                
+                    <ul>
+                        <li><a href="/faculty/area/">&raquo; Research areas</a></li>
+                        <li><a href="/faculty/centers/">&raquo; Research centers</a></li>
+                        <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                    </ul>
+                </li>
+                
+                
+                
+                <li>
+                
+                    <a href='#' title='education'>&raquo; Education</a>              
+
+                    <ul>
+                        <li><a href="/grad/">&raquo; Graduate</a>
+                        
+                            <ul>                        
+                            <li><a href="/grad/admissions/index.php">&raquo; Apply</a></li>
+                            <li><a href="/grad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="http://www.reg.uci.edu/registrar/soc/fees.html">&raquo; Tuition and costs</a></li>
+                            <li><a href="/grad/courses/index.php">&raquo; Courses</a></li>
+                            <li><a href="/grad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/faculty/area/index.php">&raquo; Research areas</a></li>
+                            <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                            <li><a href="/grad/policies/index.php">&raquo; Policies &amp; forms</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/grad/phddirectory/index.php">&raquo; Recruit graduate student</a></li> -->
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->                            
+                            <li><a href="/grad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="http://www.housing.uci.edu/prospective/graduate/index.asp">&raquo; Graduate housing</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="/ugrad/">&raquo; Undergraduate</a>
+                        
+                            <ul>                        
+                            <!-- <li><a href="/ugrad/admissions/index.php">&raquo; Apply</a></li>                       
+                            <li><a href="/ugrad/events/index.php">&raquo; Campus visits</a></li>
+                            -->
+                            <li><a href="http://www.ics.uci.edu/~lab/">&raquo; Computer lab information</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/ugrad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="/ugrad/courses/index.php">&raquo; Course listings</a></li>                     
+                            <li><a href="/ugrad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="/ugrad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/ugrad/financial/index.php">&raquo; Financial aid</a></li>                         
+                            <li><a href="http://honors.ics.uci.edu/">&raquo; Honors program</a></li>
+                            <li><a href="http://www.housing.uci.edu/">&raquo; Housing</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Internship program</a></li>                         
+                            <li><a href="/ugrad/policies/index.php">&raquo; Policies</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->
+                            <!-- <li><a href="http://www.dos.uci.edu/orientation/">&raquo; Recently admitted</a></li> -->
+                            <li><a href="http://student-council.ics.uci.edu/">&raquo; Student Council</a></li>
+                            <li><a href="/ugrad/life/index.php">&raquo; Student life</a></li>   
+                            <li><a href="/ugrad/resources/index.php">&raquo; Student resources</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Summer internships</a></li>
+                            <li><a href="https://techjobs.uci.edu/">&raquo; Tech Jobs</a></li>
+                            <li><a href="http://www.ofas.uci.edu/content/costs.aspx?nav=1">&raquo; Tuition and costs</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li><a href="http://www.ics.uci.edu/prospective">&raquo; Prospective undergrad</a></li>
+
+
+                        <li><a href="http://www.parents.uci.edu/">&raquo; UCI parents</a></li>
+                        
+                                                    
+                    </ul>               
+                </li>
+
+    
+                <li>
+                    
+                    <a href='#' title='people'>&raquo; People</a>                      
+                    
+                
+                    <ul>
+                        <li><a href="/faculty/">&raquo; Faculty</a></li>
+                        <li><a href="/about/search/index.php">&raquo; Staff</a></li>
+                        <li><a href="/about/search/search_graduate_all.php">&raquo; Graduate students</a></li>
+                    </ul>   
+                </li>
+                                
+                
+                <li> 
+                
+                    <a href='#' title='community'>&raquo; Community</a>                    
+                    <ul>
+                        <li><a href="/community/alumni/">&raquo; Alumni</a></li>
+                        <li><a href="/community/friends/">&raquo; Friends</a></li>
+                        <li><a href="http://www.uadv.uci.edu/parents/">&raquo; Parent programs</a></li>
+                        <li><a href="/community/friends/leadershipcouncil/">&raquo; Leadership Council</a></li>
+                        <li><a href="http://www.uadv.uci.edu/DonaldBrenSchoolOfICSAnnualGiving">&raquo; Make a gift</a></li>
+                        <li><a href="/community/news/">&raquo; News</a></li>
+                    </ul>   
+                </li>
+
+                <li>
+                
+                    <a href='/involved/' title='get involved'>&raquo; Get Involved</a>              
+                
+                
+                    <ul>
+                    
+                            <LI><A HREF="/involved/tech_talk">&raquo; Tech talks</A></LI>
+                            <LI><A HREF="/involved/information_session">&raquo; Information sessions</A></LI>
+                            <!--<LI><A HREF="/involved/">&raquo; Join industry panel</A></LI>-->
+                            <LI><A HREF="/involved/project_class">&raquo; Sponsor projects</A></LI>
+                            <LI><A HREF="/involved/leadership_council">&raquo; Leadership Council</A></LI>
+                            <LI><A HREF="/involved/corporate_partner">&raquo; Corporate Partners</A></LI>
+                            <LI><A HREF="/involved/internship">&raquo; Sponsor interns</A></LI>
+                            <LI><A HREF="https://techjobs.uci.edu/">&raquo; Tech Jobs</A></LI>
+                            <!--<LI><A HREF="">&raquo; Support student groups</A></LI>-->
+                            <LI><A HREF="/community/events/butterworth/">&raquo; Butterworth Competition</A></LI>
+                            
+                    </ul>               
+                </li>
+                
+                    
+
+            </ul>
+
+<style type="text/css">@import url("/bin/icssearchstyle/css/icssearch.css");</style>
+<script src="/bin/icssearchstyle/js/icssearch.js" type="text/javascript"></script>
+<script src="/bin/icssearchstyle/js/icssearchform.js" type="text/javascript"></script>
+
+
+
+    </div><div id="mainbox">
+<div align="center">
+<div class="slideshow" id="flavor_1">
+<div class="slide_inner"><a class="photo_link" href="http://www.ics.uci.edu/community/news/spotlight/spotlight_butterworth_2012.php"></a> 
+<div class="feature-content">
+<h2>And the winner isÃ¢&#128;Â¦</h2>
+<p>The Butterworth Product Development Competition grand prize goes to Team Portfelo, pictured here with judge Kevin Kinsey, Dean Hal Stern and mentor Tony Crisp. <a href="http://www.ics.uci.edu/community/news/spotlight/spotlight_butterworth_2012.php">more</a></p>
+</div>
+</div>
+</div>
+<link href="/bin/styles/agile_carousel.css" rel="stylesheet" type="text/css"/>
+<script src="/bin/js/jquery.v1.6.2.min.js"></script>
+<script src="/bin/js/agile_carousel.a1.1.min.js"></script>
+<script>
+
+   jQuery.noConflict();  
+
+   jQuery.getJSON("/bin/inc/agile_carousel_json_generator.php", function(data) {
+        jQuery(document).ready(function(){
+            jQuery("#flavor_1").agile_carousel({
+                carousel_data: data,
+                carousel_outer_height: 340,
+                carousel_height: 340,
+                slide_height: 340,
+                carousel_outer_width: 760,
+                slide_width: 760,
+                transition_time: 900,
+                timer: 10000,
+                continuous_scrolling: true,
+
+                transition_type: "fade",
+
+                control_set_1: "numbered_buttons",
+                NOTno_control_set: "hover_previous_button,hover_next_button"
+            });
+        });
+    });
+
+</script></div>
+</div>
+<div id="wrapper_bottom">
+<div id="bar">
+<p style="line-height: 0px;"></p>
+</div>
+<div class="righttable" id="latest_news">
+<h3>Latest News</h3>
+<div id="new_news_list"><ul style="display: inline-block;">
+<!-- -->
+<li><a href="http://www.ics.uci.edu/community/news/notes/index#winter_2014_gary_and_judith_olson_receive_nsf_grant_for_distributed_work_study">Gary and Judith Olson receive NSF grant for distributed-work study</a></li>
+<!-- -->
+<li><a href="http://www.ics.uci.edu/community/news/notes/index#winter_2014_carey_li_asterixdb">Carey and Li receive $1.1 million in funding for AsterixDB research</a></li>
+<!-- -->
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=330">Fast Company: &#8220;Are Microsoft's New Offshore Data Centers Really NSA-Proof?&#8221; (Ph.D. student Bart Knijnenburg quoted)</a></li>
+<!-- -->
+<li><a href="http://www.ics.uci.edu/community/news/notes/index#winter_2014_sadowski_zeller_sbv_improver_competition">ICS grad students take second place in sbv IMPROVER competition</a></li>
+<!-- -->
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=328">OC Register: &#8220;Toddlers &amp; Tablets&#8221; (Ito quoted)</a></li>
+<!-- -->
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=327">The Economist: Hardware startups in Shenzhen, China (Silvia Lindtner quoted)</a></li>
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- -->
+<!--
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=329">Pittsburgh Post-Gazette: &#8220;College football fans just might miss the BCS&#8221; (Stern quoted)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=326">OC Register: &#8220;When conferences go virtual&#8221; by Crista Lopes</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/notes/index#winter_2014_judith_and_gary_olson_release_new_book_on_distributed_collaborations">Judith and Gary Olson release new book on distributed collaborations</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=325">OC Register: &#8220;Students design health-related apps&#8221; (Med AppJam 2013)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=323">Fast Company: &#8220;Want to get girls and minorities into coding? Stop making computer science an elective&#8221; (Richardson quoted)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=322">OC Register: &#8220;Technology training key to innovation&#8221; (Richardson commentary)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=321">ACM Press Room: &#8220;ACM Names Fellows for Computing Advances&#8221; (Dechter and Smyth mentioned)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=320">National Telemedicine Journal: &#8220;2013 Med AppJam at UCI&#8221;</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/notes/index#fall_2013_access_features_regans_article_on_vehicular_communication_networks">ACCESS features Regan&#8217;s article on vehicular communication networks</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=318">UC Irvine News: &#8220;UCI team wins a slot in international computer programming contest&#8221;</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=319">The Economist: &#8220;Made in China&#8221; (Postdoc Silvia Lindtner mentioned)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/press/view_press?id=138">UC Irvine professors honored by ACM for transforming science and society</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=317">OC Register: &#8220;Programmed for success&#8221; (AppJam+ featured)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/press/view_press?id=137">AppJam+ is back to inspire young computer scientists</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/press/view_press?id=136">Tech and medical students team up for UC Irvine's Med AppJam II</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=314">Southern California Public Radio: &#8220;Graduate students: underpaid, unsung backbone of University of California&#8221; (Stern quoted)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=315">The Wall Street Journal: &#8220;The Toll of Office Disruptions&#8221; (Mark research cited)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/notes/index.php#fall_2013_lindtner_and_hertz_get_nsf_grant_to_research_maker_movement">Lindtner and Hertz get NSF grant to research maker movement</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=312">Gizmodo: &#8220;I Stop Breathing When I Type and You Probably Do, Too&#8221; (Mark research cited)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=313">Forbes: &#8220;Five Steps to Conquering the Daily Email Deluge&#8221; (Mazmanian research cited)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=311">Reader's Digest: &#8220;Coping with Death on Facebook&#8221; (Brubaker quoted)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=310">OC Register: &#8220;Human-Centric Look at Design Work&#8221; (van der Hoek quoted)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/notes/index.php#fall_2013_bowker_and_team_receive_earthcube_award_from_nsf">Bowker and team receive EarthCube award from NSF</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=309">Edutopia: &#8220;Mimi Ito on Learning in Social Media Spaces&#8221;</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=308">Coast Magazine: &#8220;The Revolution Will Be Virtual-ized&#8221; (IVECG featured)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=306">OC Register: &#8220;Virtual Reality: Not Just a Game&#8221; (Scacchi quoted)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=305">Digital Shift: &#8220;Libraries Play A Central Role in Connected Learning&#8221; (Ito quoted)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=304">OC Register: &#8220;Computing a brighter future&#8221;</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=303">OC Register: &#8220;Google guys strike gold&#8221; (Bren School Google Ph.D. fellows featured)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/notes/index#fall_2013_bannister_wins_best_presentation_award">Bannister wins best presentation award at 21st International Symposium on Graph Drawing</a>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=301">Center for Digital Ethics Policy: &#8220;RIP Trolling&#8221; (Ph.D. student Brubaker quoted)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/notes/index#fall_2013_tsudik_to_co-chair_seminar_keynote_two_conferences">Tsudik to co-chair seminar, keynote two conferences</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=300">Boston.com: &#8220;I [heart] the emoji revolution&#8221; (Ito quoted)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=299">Network World: &#8220;Top 20 colleges for computer science majors, based on earning potential&#8221; (UCI ranked No. 4)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=298">New University: &#8220;UCI's Apps for Autism Therapy&#8221; (Hayes quoted)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/notes/index#fall_2013_van_der_hoek_co-edits_book_on_software_designers">van der Hoek co-edits book on software designers</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=297">OC Register: &#8220;Video games now created as you play them&#8221; (Scacchi quoted)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=296">Los Angeles Times: &#8220;How a demon iPad stole my summer vacation&#8221; (Mark research cited)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=294">OC Register: &#8220;UC Irvine camp teaches middle school girls to code&#8221; (Richardson quoted)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=292">New York Magazine: &#8220;How E-mail Is Swallowing Our Lives&#8221; (Mark research cited)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=293">On the Importance of Ethnography in Education: an interview with Mizuko 'Mimi' Ito</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=290">OC Register: &#8220;Something to Build On&#8221; (Van der Hoek quoted)</a></li>
+<li><a href="http://www.ics.uci.edu/community/news/articles/view_article?id=291">NPR: &#8220;Tiny tech puts satellites in hands of homebrew designers&#8221; (Amanda Williams PhD '09 quoted)</a></li>
+<li><a href="/community/news/notes/index#summer_2013_tsudik_delivers_keynote_at_ieee_trustcom-13">Tsudik delivers keynote at IEEE TrustCom-13</a></li>
+<li><a href="/community/news/articles/view_article?id=289">OC Register: &#8220;Technology with a Conscience&#8221; by Chen Li</a></li>
+<li><a href="/community/news/notes/index#summer_2013_baldi_selected_as_iscb_fellow">Baldi selected as ISCB Fellow</a></li>
+<li><a href="/community/news/notes/index#summer_2013_smyth_serves_as_program_chair_for_uai_2013">Smyth serves as program chair for UAI 2013</a></li>
+<li><a href="/community/news/articles/view_article?id=287">OC Register &#8220;For O.C., immigration is a big tech issue&#8221; (Nazia Chorwadwala M.S. '10 mentioned)</a></li>
+<li><a href="/community/news/notes/index#summer_2013_tomlinsons_work_contributes_to_ucis_stars_gold_rating">Tomlinson's work contributes to UCI's STARS gold rating</a></li>
+<li><a href="/community/news/articles/view_article?id=285">Salon.com &#8220;The Internet's destroying work&#8221; (Lilly Irani Ph.D. '13 mentioned)</a></li>
+<li><a href="/community/news/notes/index#summer_2013_brock_awarded_data_science_for_social_good_fellowship">Brock awarded Data Science for Social Good fellowship</a></li>
+<li><a href="/community/news/articles/view_article?id=284">OC Register &#8220;Learning through gaming&#8221; (Ito quoted)</a></li>
+<li><a href="/community/news/articles/view_article?id=285">Salon.com &#8220;The Internet's destroying work&#8221; (Lilly Irani cited)</a></li>
+<li><a href="/community/news/notes/index#summer_2013_mazmanian_receives_early_career_faculty_award_from_intel">Mazmanian receives early career faculty award from Intel</a></li>
+<li><a href="/ICS/ics/community/news/index">more news</a> <a href="/ICS/ics/community/news/rss/index"><img alt="RSS Feed" src="/ICS/ics/bin/img/graphics/feed-icon-14x14.png" border="0" /></a></li>
+-->
+
+</ul></div>
+</div>
+<div class="righttable" id="upcoming_events">
+<h3>Upcoming Events</h3>
+  <div id="eventDetails"></div>
+  <script language="JavaScript" src="http://calendar.ics.uci.edu/javascripts.js"></script>
+
+  <div id="generalBox">
+
+     
+        <DIV CLASS='calendar_event'>
+
+	<div align="left" style="font-size:8pt; font-weight:bold;">6 Feb 2014 (Thu)</div>
+		<table width="100%" border="0" cellspacing="1" cellpadding="1" style="border:0px; ">
+	 <tr>
+	  
+	  
+	  <td valign="top" align="center"><a onMouseOver="javascript:eventDetailsBox('<b>Time:</b>&nbsp;4:00&nbsp;PM-5:00&nbsp;PM<br /><b>Title:</b>&nbsp;UCI STATISTICS SEMINAR - WENG KEE WONG<br /><b>Location:</b>&nbsp;6011 Bren Hall   <br /><b>Contact:</b>&nbsp;Lisa Stieler<br /><b>Email:</b>&nbsp;<a href=&quot;mailto:lstieler@ics.uci.edu&quot;>lstieler@ics.uci.edu</a><br /><b>Description:</b><br />University of California, Irvine Statistics Seminar   Using Animal Instincts to Find Efficient Experimental...');" onMouseOut="javascript:hideEventDetailsBox();" style="font-family:Tahoma;font-size:10px;Green" href="javascript:popUp('http://calendar.ics.uci.edu/event.php?calendar=1&category=&event=1254&date=2014-02-06','520','520');">4:00&nbsp;PM-5:00&nbsp;PM<br />UCI STATISTICS SEMINAR - WENG KEE WONG<br /></a></td>
+	 </tr>
+	</table>
+       
+        </DIV>
+
+        <DIV CLASS='calendar_event'>
+
+	<div align="left" style="font-size:8pt; font-weight:bold;">7 Feb 2014 (Fri)</div>
+		<table width="100%" border="0" cellspacing="1" cellpadding="1" style="border:0px; ">
+	 <tr>
+	  
+	  
+	  <td valign="top" align="center"><a onMouseOver="javascript:eventDetailsBox('<b>Time:</b>&nbsp;1:00&nbsp;PM-2:00&nbsp;PM<br /><b>Title:</b>&nbsp;IGB Seminar - Joachim M. Buhmann<br /><b>Location:</b>&nbsp;DBH 4011  <br /><b>Description:</b><br />NSTITUTE for GENOMICS and BIOINFORMATICS http://www.igb.uci.edu/   &nbsp;  2013-2014 Seminar Series Joachim...');" onMouseOut="javascript:hideEventDetailsBox();" style="font-family:Tahoma;font-size:10px;Green" href="javascript:popUp('http://calendar.ics.uci.edu/event.php?calendar=1&category=&event=1252&date=2014-02-07','520','520');">1:00&nbsp;PM-2:00&nbsp;PM<br />IGB Seminar - Joachim M. Buhmann<br /></a></td>
+	 </tr>
+	</table>
+       
+        </DIV>
+
+        <DIV CLASS='calendar_event'>
+
+	<div align="left" style="font-size:8pt; font-weight:bold;">7 Feb 2014 (Fri)</div>
+		<table width="100%" border="0" cellspacing="1" cellpadding="1" style="border:0px; ">
+	 <tr>
+	  
+	  
+	  <td valign="top" align="center"><a onMouseOver="javascript:eventDetailsBox('<b>Time:</b>&nbsp;3:00&nbsp;PM-5:00&nbsp;PM<br /><b>Title:</b>&nbsp;FRIDAY INFORMATICS SEMINAR - Professor Manju Ahuja-CIS Department at the College of Business, University of Louisville, Kentucky<br /><b>Location:</b>&nbsp;6011 Donald Bren Hall  <br /><b>Contact:</b>&nbsp;Adriana Avina<br /><b>Email:</b>&nbsp;<a href=&quot;mailto:atavina@.uci.edu&quot;>atavina@.uci.edu</a><br /><b>Description:</b><br />Professor Manju Ahuja Professor and University Scholar  CIS Department at the College of Business, University...');" onMouseOut="javascript:hideEventDetailsBox();" style="font-family:Tahoma;font-size:10px;Green" href="javascript:popUp('http://calendar.ics.uci.edu/event.php?calendar=1&category=&event=1237&date=2014-02-07','520','520');">3:00&nbsp;PM-5:00&nbsp;PM<br />FRIDAY INFORMATICS SEMINAR - Professor Manju Ahuja-CIS Department at the College of Business, University of Louisville, Kentucky<br /></a></td>
+	 </tr>
+	</table>
+       
+        </DIV>
+
+       
+     <a href="http://calendar.ics.uci.edu/calendar.php?calendar=1"> view calendar</a>
+     <a href="http://calendar.ics.uci.edu/rss/BrenSchoolofICSPublicCalendar.rss"><img
+src="http://www.ics.uci.edu/bin/img/graphics/feed-icon-14x14.png" alt="RSS Feed" border="0"></a></td>
+  
+  </div>
+
+<!-- edited 'queue_ics.php' on ~bossdate/htdocs -->
+<br/>
+
+
+
+</div>
+<div class="righttable" id="spotlight">
+<h3>Spotlight</h3>
+<br/>
+<div style="float: right; margin: 0 0 1em 1em;">
+<a href="http://www.ics.uci.edu/community/news/articles/view_article?id=332"><img alt="Michael Conley" border="0" src="bin/img/photos/spotlight/MichaelConley-thumb.jpg" style="height: 90px; width: 70px; border: 0;"/></a>
+</div>
+<a href="http://www.ics.uci.edu/community/news/articles/view_article?id=332">New king and queen take their thrones</a>
+<p>
+This OC Register profile details how homecoming king Michael Conley, a 21-year-old computer game science major, participated in a series of competitions that measured his talent, improvisational skills, UCI campus knowledge and physical ability throughout the week leading up to the Homecoming game on Jan. 25. He also created and starred in a YouTube campaign video that featured a musical parody of the Disney song &#8220;I Just Can&#8217;t Wait to be King&#8221; featured in the movie &#8220;The Lion King.&#8221;</p></div>
+</div>
+<div id="bar" style="margin-top: 0.5em; margin-bottom: 0.5em;">
+<p style="line-height: 0px;"></p>
+</div>
+<div id="links_bottom"><div style="float: left; margin-right: 1em; margin-left: 1em; border: 0px dotted grey;">
+   <form name="quicklinksform">
+   <span style="color: #66aa66; font-weight: bold;">Quick Links </span>
+      <select name="linkselect" onchange="location.href=quicklinksform.linkselect.options[selectedIndex].value">
+         <option value="#"> - select a page - </option>
+         <option value="/computing/index.php">Computing support</option>
+         <option value="http://www.cs.uci.edu/research/seminarseries/">CS Seminar Series</option>
+         <option value="/employment/">Employment</option>
+         <option value="/about/facilities/index.php">Facilities</option>
+         <option value="/about/search/index.php">Find faculty and staff</option>
+         <option value="/supportICS">Giving to the Bren School</option>
+         <option value="/grad/degrees/index.php">Graduate degrees</option>
+         <option value="/about/kfflab/index.php">Kay Family Foundation Lab</option>
+         <option value="/community/friends/proj125/index.php">Project ICS </option>
+         <option value="/prospective">Prospective undergraduates</option>
+         <option value="/about/about_safety.php">Safety procedures </option>
+         <option value="/ugrad/degrees/index.php">Undergraduate degrees</option>
+      </select>
+      </form>
+</div>
+<div id="socmed_icons" style="float: right;">
+<div style="float: left; width: 86px; margin-right: 120px; border: 0px dotted grey;">
+      <a href="https://techjobs.uci.edu/"><img alt="Tech Jobs" id="Tech Jobs" src="bin/img/logos/tech_jobs_logo_84x32.png" style="width: 84; height: 32px; float: none;"/></a>
+   </div>
+<a href="http://youtube.com/UCIBrenICS">
+         <img alt="YouTube" border="0" class="icon32" src="bin/img/logos/youtube.png"/></a>
+      <a href="http://flickr.com/BrenSchool">
+         <img alt="Flickr" border="0" class="icon32" src="bin/img/logos/flickr.png"/></a>
+      <a href="http://twitter.com/UCIbrenICS">
+         <img alt="Twitter" border="0" class="icon32" src="bin/img/logos/twitter.png"/></a>
+      <a href="http://facebook.com/UCIBrenICS">
+         <img alt="Facebook" border="0" class="icon32" src="bin/img/logos/facebook.png"/></a>
+</div>
+<div style="clear: both;"></div></div>
+<div id="footer"><a href="http://www.uci.edu/copyright.php">Copyright Inquiries</a> |
+   <a href="http://www.uci.edu/cgi-bin/phonebook">UCI Directory</a> |
+   <a href="http://intranet.ics.uci.edu/">Intranet</a> |
+   
+   <!-- <a href="http://www.ics.uci.edu/sitemap.php">Site Map</a> | -->
+ 
+  <a href="mailto: i%63%73%77%65%62m%61s%74%65r@%69c%73%2e%75c%69%2eedu">icswebmaster</a> |
+Updated: 
+February 06 2014</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-605898-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

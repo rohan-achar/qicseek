@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/objective/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Objective Self</title>
+		<link>http://ngs.ics.uci.edu/objective-self/</link>
+		<comments>http://ngs.ics.uci.edu/objective-self/#comments</comments>
+		<pubDate>Sun, 28 Oct 2012 01:15:20 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[General Updates]]></category>
+		<category><![CDATA[objective]]></category>
+		<category><![CDATA[quantified self]]></category>
+		<category><![CDATA[subjective]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1457</guid>
+		<description><![CDATA[There was a time, not really long ago, when all information about a person was very subjective. Even self opinions were subjective and other people&#8217;s opinion were always way out there. But that was before the information technology revolution. The&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>There was a time, not really long ago, when all information about a person was very subjective.  Even self opinions were subjective and other people&#8217;s opinion were always way out there.  But that was before the information technology revolution.  The info tech revolution started changing things.  And the last few years have been nothing but revolutionary in this area.  Now we have seen a revolution that allows capturing information about &#8216;self&#8217; from many sources &#8212; sometimes I feel too many sources.  Granted some of them are still subjective like when my wife criticizes me, but many of them are becoming very objective like ehen my Nike FuelBand says that I had a wonderful day.<br />
+What we are seeing is a major trend:</p>
+<p><strong>Subjective Self:</strong> All self as well as others opinions were totally subjective.</p>
+<p><strong>Aggregated but still subjective self:</strong> When we aggregate subjective information to get some objectivity in it.</p>
+<p><strong>Quantified Self:</strong>  People start collecting information about self using sensors.  Usually sensors don&#8217;t lie, they give fairly objective information.  But people are just collecting data for some aspects of their life.</p>
+<p><strong>Objective Self: </strong> When people will collect objective information from several sources and use it for their benefit and interactions in society.</p>
+<p>I am very excites about this,  But this may end my self deception.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/objective-self/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

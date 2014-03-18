@@ -1,0 +1,191 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head>
+<title>David Eppstein - Publications</title>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<h1>David Eppstein - Publications</h1>
+<hr><p>
+<h2>
+Geometric clustering
+</h2>
+<ul>
+<li><b>Finding minimum area <i>k</i>-gons</b>.<br>
+D. Eppstein, 
+<a href="http://www.cs.ruu.nl/people/markov/">
+M. Overmars</a>,
+<a href="http://page.mi.fu-berlin.de/rote/">G. Rote</a>, and 
+<a href="http://www.opt.math.tu-graz.ac.at/woe/">
+G. Woeginger</a>.<br>
+<a href="EppOveRot-DCG-92.pdf"><i>Disc. Comp. Geom.</i> 7(1):45-58, 1992</a>.
+<p>
+Uses dynamic programming to choose sets of <i>k</i>
+points optimizing various criteria on the quality of their convex hull
+(in particular area).  The time complexity (cubic in <i>n</i>)
+was later improved to quadratic in
+my paper
+"<a href="p-kgon.html">New algorithms for minimum area <i>k</i>-gons</a>",
+which however continues to use the same dynamic program as a subroutine.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Finding minimum area $k$-gons">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Finding-minimum-area-k-gons.html">Citations</a> --
+<a href="http://citeseer.ist.psu.edu/eppstein92finding.html">CiteSeer</a> --
+<a href="http://portal.acm.org/citation.cfm?id=149124">ACM DL</a>)
+<p>
+<li><b>Dynamic three-dimensional linear programming</b>.<br>
+D. Eppstein.<br>
+<a href="Epp-TR-91-53.pdf">Tech. Rep. 91-53</a>, ICS, UCI, 1991.<br>
+<i>32nd IEEE Symp. Foundations of Comp. Sci.,</i>
+San Juan, Puerto Rico, 1991, pp. 488-494.<br>
+<i>ORSA J. Computing</i> 4:360-368, 1992
+(special issue on computational geometry).
+<p>
+Uses Dobkin-Kirkpatrick hierarchies to perform
+<a href="geom-lp.html">linear programming</a>
+queries in the intersection of several convex polyhedra.
+By maintaining a collection of halfspaces as several subsets,
+represented by polyhedra, this leads to algorithms for a dynamic
+linear program in which updates change the set of constraints.
+The fully dynamic results have largely been subsumed
+by Agarwal and Matou&#353;ek, but this paper also includes
+polylog time results for semi-online problems,
+and uses them to give a fast randomized algorithm for the planar
+2-center problem (later improved by various authors, most recently
+in "<a href="p-2c.html">Faster Construction of Planar Two-Centers</a>",
+which re-uses the data structures described here).
+<p>(<a href="/~eppstein/bibs/eppstein.html#Dynamic three-dimensional linear programming">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Dynamic-three-dimensional-linear-programming.html">Citations</a> --
+<a href="http://citeseer.ist.psu.edu/eppstein92dynamic.html">CiteSeer</a> --
+<a href="http://portal.acm.org/citation.cfm?id=123359">ACM DL</a>)
+<p>
+<li><b>New algorithms for minimum area <i>k</i>-gons</b>.<br>
+D. Eppstein.<br>
+<a href="Epp-TR-91-59.pdf">Tech. Rep. 91-59</a>, ICS, UCI, 1991.<br>
+<a href="http://portal.acm.org/citation.cfm?id=139422"><i>3rd ACM-SIAM Symp. Discrete Algorithms,</i> Orlando, 1992, pp. 83-86.</a>
+<p>
+Shows that the minimum area polygon containing <i>k</i> of <i>n</i>
+points must be near a line determined by two points,
+and uses this observation to find the polygon quickly.
+Merged with
+"<a href="p-inn.html">Iterated nearest neighbors and finding minimal
+polytopes</a>" in the journal version.
+<p>(<a href="/~eppstein/bibs/eppstein.html#New algorithms for minimum area $k$-gons">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/New-algorithms-for-minimum-area-k-gons.html">Citations</a>)
+<p>
+<li><b>New algorithms for minimum measure simplices and one-dimensional
+weighted Voronoi diagrams</b>.<br>
+D. Eppstein and 
+<a href="http://compgeom.cs.uiuc.edu/~jeffe/">
+J. Erickson</a>.<br>
+<a href="tr.html">Tech. Rep. 92-55</a>, ICS, UCI, 1992.
+<p>
+Looks at space complexity of finding minimum simplices -- solves the problem in
+O(<i>n</i><sup>2</sup>) space and O(<i>n<sup>d</sup></i>) time
+(matching the best known time bounds)
+or in linear space at the expense of an additional log in time.
+Also finds one-dimensional multiplicatively weighted Voronoi diagrams in
+linear time for sorted inputs (O(<i>n</i> log <i>n</i>) was known).
+<p>(<a href="/~eppstein/bibs/eppstein.html#New algorithms for minimum measure simplices and one-dimensional weighted Voronoi diagrams">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/New-algorithms-for-minimum-measure-simplices-and-one-dimensional-weighted-Voronoi-diagrams.html">Citations</a> --
+<a href="http://compgeom.cs.uiuc.edu/~jeffe/pubs/simplex.html">Jeff's pub list entry</a>)
+<p>
+<li><b>Iterated nearest neighbors and finding minimal polytopes</b>.<br>
+D. Eppstein and 
+<a href="http://compgeom.cs.uiuc.edu/~jeffe/">J. Erickson</a>.<br>
+Tech. Rep. 92-71, ICS, UCI, 1992.<br>
+<a href="http://portal.acm.org/citation.cfm?id=313612">
+<i>4th ACM-SIAM Symp. Discrete Algorithms,</i> Austin, 1993, pp. 64-73</a>.<br>
+<a href="http://compgeom.cs.uiuc.edu/~jeffe/pubs/pdf/small.pdf"><i>Disc. Comp. Geom.</i> 11:321-350, 1994</a>.
+<p>
+Showed that for various optimization criteria, the
+optimal polygon containing <i>k</i> of <i>n</i>
+points must be near one of the points, hence one can transform
+time bounds involving several factors of <i>n</i>
+to bounds linear in <i>n</i> but polynomial in <i>k.</i>
+Used as a subroutine are data structures for finding several
+<a href="geom-nn.html">nearest neighbors</a> in rectilinear metric spaces, and
+algorithms for finding the
+<a href="geom-deep.html">deepest point in an arrangement</a> of cubes or
+spheres.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Iterated nearest neighbors and finding minimal polytopes">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Iterated-nearest-neighbors-and-finding-minimal-polytopes.html">Citations</a> --
+<a href="http://compgeom.cs.uiuc.edu/~jeffe/pubs/small.html">Jeff's pub list entry</a> --
+<a href="http://citeseer.ist.psu.edu/erickson94iterated.html">CiteSeer</a>)
+<p>
+<li><b>Parallel construction of quadtrees and quality triangulations</b>.<br>
+<a href="http://www.parc.xerox.com/csl/members/bern/">M. Bern</a>,
+D. Eppstein, and 
+<a href="http://www-sal.cs.uiuc.edu/~steng/">S.-H. Teng</a>.<br>
+<a href="BerEppTen-WADS-93.pdf"><i>3rd Worksh. Algorithms and Data
+Structures,</i> Montreal, 1993.</a><br>
+<a href="http://www.springer.de/cgi-bin/bag_generate.pl?ISBN=3-540-57155-8"><i>Lecture Notes in
+Comp. Sci.</i> 709</a>, 1993, pp. 188-199, &copy; Springer-Verlag.<br>
+Tech. Rep. 614, MIT Lab. for Comp. Sci., 1994.<br>
+<a href="BerEppTen-IJCGA-99.pdf"><i>Int. J. Comp. Geom. &amp; Appl.</i>
+9(6):517-532, 1999.</a>
+<p>
+A parallelization of the quadtree constructions in
+"<a href="p-pgood.html">Provably good mesh generation</a>",
+in an integer model of computation, based on a technique of
+sorting the input points using values formed by shuffling the binary
+representations of the coordinates.
+A side-effect is an efficient construction for the "fair split tree"
+hierarchical clustering method used by Callahan and Kosaraju for various
+nearest neighbor problems.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Parallel construction of quadtrees and quality triangulations">BibTeX</a> --
+<a href="http://www.CiteSeer.com/eppstein93parallel.html">CiteSeer</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Parallel-construction-of-quadtrees-and-quality-triangulations.html">Citations</a> --
+<a href="http://portal.acm.org/citation.cfm?id=672684">ACM DL</a>)
+<p>
+<li><b>Faster geometric <i>k</i>-point MST approximation</b>.<br>
+D. Eppstein.<br>
+<a href="Epp-TR-95-13.pdf">Tech. Rep. 95-13</a>, ICS, UCI, 1995.<br>
+<i>Comp. Geom. Theory &amp; Applications</i> 8:231-240, 1997.
+<p>
+Various authors have looked at a variant of geometric clustering
+in which one must select <i>k</i> points that can be connected by a
+small
+<a href="mst.html">spanning tree</a>.  The problem is NP-complete (for
+variable <i>k</i>);
+good approximations are known based on dynamic programming techniques
+but the time dependence on <i>n</i> is high.  This paper describes
+a faster approximation algorithm based on dynamic programming in
+quadtrees, and a general technique
+based on that in "<a href="p-inn.html">Iterated nearest neighbors</a>"
+for reducing the dependence
+on <i>n</i> in any approximation algorithm.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Faster geometric $k$-point MST approximation">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Faster-geometric-k-point-MST-approximation.html">Citations</a> --
+<a href="http://citeseer.ist.psu.edu/eppstein95faster.html">CiteSeer</a> --
+<a href="http://portal.acm.org/citation.cfm?id=264740">ACM DL</a>)
+<p>
+<li><b>Faster construction of planar two-centers</b>.<br>
+D. Eppstein.<br>
+<a href="Epp-TR-96-12.pdf">Tech. Rep. 96-12</a>, ICS, UCI, 1996.<br>
+<a href="http://portal.acm.org/citation.cfm?id=314198">
+<i>8th ACM-SIAM Symp. Discrete Algorithms,</i> New Orleans, 1997, pp. 131-138</a>.
+<p>
+Improving on a recent breakthrough of Sharir,
+we use data structures from
+"<a href="p-3lp.html">Dynamic three-dimensional linear programming</a>"
+to find two circular disks of minimum radius covering a set
+of points in the Euclidean plane, in randomized expected time
+O(<i>n</i> log<sup>2</sup> <i>n</i>).
+<p>(<a href="/~eppstein/bibs/eppstein.html#Faster construction of planar two-centers">BibTeX</a> --
+<a href="Epp-SODA-97.pdf">SODA paper</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Faster-construction-of-planar-two-centers.html">Citations</a> --
+<a href="p-2c-slides.pdf">DREI and SODA talk slides</a> --
+<a href="http://citeseer.ist.psu.edu/eppstein97faster.html">CiteSeer</a>)
+<p>
+</ul>
+
+<hr><p>
+<a href="geom.html">Geometry</a> --
+<a href="/~eppstein/pubs/">Publications</a> --
+<a href="/~eppstein/">David Eppstein</a> --
+<a href="/~theory/">Theory Group</a> --
+<a href="/">Inf. &amp; Comp. Sci.</a> --
+<a href="http://www.uci.edu/">UC Irvine</a>
+<p>
+<small>Semi-automatically <a href="filter.html">filtered</a>
+from a common source file.</small>
+</body></html>
+

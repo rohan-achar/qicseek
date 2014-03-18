@@ -1,0 +1,1129 @@
+ <!DOCTYPE html
+   PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<link href="/themes/default.css" rel="stylesheet" type="text/css"/>
+		<link href="/themes/alert.css" rel="stylesheet" type="text/css"/>
+		<link href="/themes/alphacube.css" rel="stylesheet" type="text/css"/>        
+ 		<link href="/css/calendar.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="/css/styles.css" type="text/css" media="all" />
+
+        <script type="text/javascript" src="/js/prototype.js"></script>
+        <script type="text/javascript" src="/js/scriptaculous/scriptaculous.js"></script>
+        <script type="text/javascript" src="/js/effects.js"></script>
+        <script type="text/javascript" src="/js/window.js"> </script> 
+        <script type="text/javascript" src="/js/window_effects.js"></script>
+        <script type="text/javascript" src="/js/NewsUpDown.class.js"></script>
+        <script type="text/javascript" src="/js/calendar_us.js"></script>
+    </head>
+    <body>
+	  <div id="wrapper">
+        <div id="banner">
+          <img id="badge" src="/images/uci_seal_2col.png" alt="UCI" />
+		  <ul id="sitetools">
+          			<li>
+			  <a href="/account/login">Login</a>
+			</li>          
+            
+			<li>
+			  <a href="/admin">Admin</a>
+			</li>
+		  </ul>
+        </div>
+		<div id="mainNav">
+          <div>
+		  <ul>
+			<li>
+			  <a href="/index">Home</a>
+			</li>
+			<li>
+			  <a href="/index/project">Projects</a>
+			</li>
+			<li>
+			  <a href="/index/publications">Publications</a>
+			</li>
+			<li>
+			  <a href="/index/people">People</a>
+			</li>
+			<li>
+			  <a href="/index/gallery">Gallery</a>
+			</li>
+            <li style="float:right">
+			<div style="float:right">
+			<form method="get" action="http://www.google.com/search">
+			<table border="0" cellpadding="0">
+			<tr>
+              <td>
+                <div style="width:100%;">
+                <div style=" float:left">
+			    <input type="text"  name="sitesearch" value="sprout.ics.uci.edu" style="visibility:hidden" /> 
+                </div>
+                <div style="float:right">
+			    <input type="text"   name="q" size="10" maxlength="255" value="" />
+			    <input id="ssbutton" type="submit" value="Search" style="font-size:60%; width:45px; height:26px"/>
+                </div>
+                </div>
+			  </td>
+            </tr>
+            </table>
+			</form>
+			</div>
+
+            </li>
+		  </ul>
+          </div>
+		</div>
+<div id="contentWrapper">
+<div id="news">
+   <h2>News</h2>
+   <div class="story">
+       <input type="button" id="up" class="button"></button>
+       <input type="button" id="down" class="button"></button>
+       <script type="text/javascript" src="/js/NewsUpDown.class.js"></script>
+       <script type="text/javascript">
+            new NewsUpDown("up", "down");
+       </script>
+
+   </div>
+	<div id="news_content">
+        <div class="story">
+        <div class="title">Paper Accepted</div>
+        <div class="date">2013-11-21</div>
+        <div class="content">A paper titled: "Authentication Using Pulse-Response Biometrics"
+by  Kasper Rasmussen, Marc Roeschlin, Ivan Martinovic and Gene Tsudik
+was accepted by 2014 Network and Distributed System Security (NDSS) Symposium.</div>
+     </div>
+        <div class="story">
+        <div class="title">Paper Accepted</div>
+        <div class="date">2013-11-20</div>
+        <div class="content">A paper titled: "Two-Factor Authentication Resilient to Server Compromise Using Mix-Bandwidth Devices"
+by Maliheh Shirvanian, Stanislaw Jarecki, Nitesh Saxena and Naveen Nathan
+was accepted by 2014 Network and Distributed System Security (NDSS) Symposium.</div>
+     </div>
+        <div class="story">
+        <div class="title">Paper Accepted</div>
+        <div class="date">2013-11-19</div>
+        <div class="content">A paper titled: "Optimizing Bi-Directional Low-Latency Communication in Named Data Networking"
+by Mishari Almishari, Paolo Gasti, Naveen Nathan and Gene Tsudik
+was accepted for publication by ACM Computer Communication Review.
+</div>
+     </div>
+      </div>
+</div><div id="main">
+<h1>Publications:</h1>
+
+      <div class = "pubyear">
+   <h2>2013</h2>
+   
+      <div class = "pub">
+        <span class="authors">G. Acs, M. Conti, P. Gasti, C. Ghali, G. Tsudik,</span><br>
+        
+        <a href="/papers/ICDCS2013837.pdf"><span class="title">"Cache Privacy in Named-Data Networking,"</span></a> <br>
+                <span class="howpublished">
+            the 33rd International Conference on Distributed Computing Systems (ICDCS),
+        </span>
+                <span class="location">
+            Philadelphia, PA,
+        </span>
+                        <span class="month">
+            July,
+        </span>
+                        <span class="year">
+            2013.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Cache Privacy in Named-Data Networking','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">P. Gasti, G. Tsudik, E. Uzun, L. Zhang,</span><br>
+        
+        <a href="/papers/1208.0952v2"><span class="title">"DoS and DDoS in Named-Data Networking,"</span></a> <br>
+                <span class="howpublished">
+            The 22nd International Conference on Computer Communications and Networks (ICCCN),
+        </span>
+                                <span class="year">
+            2013.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=DoS and DDoS in Named-Data Networking','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">J. Burke, P. Gasti, N. Nathan, G. Tsudik,</span><br>
+        
+        <a href="/papers/nomen13.pdf"><span class="title">"Securing Instrumented Environments over Content-Centric Networking: the Case of Lighting Control,"</span></a> <br>
+                <span class="howpublished">
+            2nd IEEE International Workshop on Emerging Design Choices in Name-Oriented Networking (NOMEN),
+        </span>
+                        <span class="month">
+            March,
+        </span>
+                        <span class="year">
+            2013.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Securing Instrumented Environments over Content-Centric Networking: the Case of Lighting Control','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      </div>
+      <div class = "pubyear">
+   <h2>2012</h2>
+   
+      <div class = "pub">
+        <span class="authors">M. Almishari, G. Tsudik,</span><br>
+        
+        <a href="/papers/esorics12_1.pdf"><span class="title">"Exploring Linkability in User Reviews ,"</span></a> <br>
+                <span class="howpublished">
+            17th European Symposium on Research in Computer Security (ESORICS),
+        </span>
+                <span class="location">
+            Pisa, Italy,
+        </span>
+                        <span class="month">
+            September,
+        </span>
+                        <span class="year">
+            2012.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Exploring Linkability in User Reviews ','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">E. De Cristofaro, S. Faber, P. Gasti, G. Tsudik,</span><br>
+        
+        <a href="/papers/WPES12_1.pdf"><span class="title">"GenoDroid: Are Privacy-Preserving
+Genomic Tests Ready for Prime Time?,"</span></a> <br>
+                <span class="howpublished">
+            Workshop on Privacy in the Electronic Society (WPES),
+        </span>
+                <span class="location">
+            Raleigh, USA,
+        </span>
+                        <span class="month">
+            October,
+        </span>
+                        <span class="year">
+            2012.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=GenoDroid: Are Privacy-Preserving
+Genomic Tests Ready for Prime Time?','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">M. Almishari, E. De Cristofaro, K. Eldefrawy, G. Tsudik,</span><br>
+        
+        <a href="/papers/ISJN12_1.pdf"><span class="title">"Harvesting SSL Certificate Data to Identify Web-Fraud,"</span></a> <br>
+                <span class="howpublished">
+            International Journal of Network Security,
+        </span>
+                <span class="volume">
+            vol.14,
+        </span>   
+                        <span class="issue">
+            no. 6,
+        </span>
+                
+                                <span class="year">
+            2012.
+        </span>
+                
+                <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Harvesting SSL Certificate Data to Identify Web-Fraud','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">E. De Cristofaro and R. Di Pietro,</span><br>
+        
+        <a href="/papers/"><span class="title">"Preserving Query Privacy in Urban Sensing Systems,"</span></a> <br>
+                <span class="howpublished">
+            13th International Conference on Distributed Computing and Networking (ICDCN),
+        </span>
+                        <span class="month">
+            January,
+        </span>
+                        <span class="year">
+            2012.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Preserving Query Privacy in Urban Sensing Systems','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      </div>
+      <div class = "pubyear">
+   <h2>2011</h2>
+   
+      <div class = "pub">
+        <span class="authors">G. Ateniese, E. De Cristofaro, G. Tsudik,</span><br>
+        
+        <a href="/papers/shipsi-eprint-4.pdf"><span class="title">"(If) Size Matters: Size-Hiding Private Set Intersection,"</span></a> <br>
+                <span class="howpublished">
+            14th IACR International Conference on Practice and Theory of Public Key Cryptography (PKC),
+        </span>
+                        <span class="month">
+            March,
+        </span>
+                        <span class="year">
+            2011.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=(If) Size Matters: Size-Hiding Private Set Intersection','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">P. Baldi, R. Baronio, E. De Cristofaro, P. Gasti, G. Tsudik,</span><br>
+        
+        <a href="/papers/"><span class="title">"Countering GATTACA: Secure and Efficient Testing of Fully-Sequenced Human Genoms,"</span></a> <br>
+                <span class="howpublished">
+            18th ACM Conference on Computer and Communications Security (CCS),
+        </span>
+                        <span class="month">
+            October,
+        </span>
+                        <span class="year">
+            2011.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Countering GATTACA: Secure and Efficient Testing of Fully-Sequenced Human Genoms','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">E. De Cristofaro, Y. Lu, and G. Tsudik,</span><br>
+        
+        <a href="/papers/"><span class="title">"Efficient Techniques for Privacy-Preserving Sharing of Sensitive Information,"</span></a> <br>
+                <span class="howpublished">
+            4th International Conference on Trust and Trustworthy Computing (TRUST),
+        </span>
+                        <span class="month">
+            June,
+        </span>
+                        <span class="year">
+            2011.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Efficient Techniques for Privacy-Preserving Sharing of Sensitive Information','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">Y. Lu and G. Tsudik,</span><br>
+        
+        <a href="/papers/ifiptm2011_lu.pdf"><span class="title">"Enhancing Data Privacy in the Cloud,"</span></a> <br>
+                <span class="howpublished">
+            5th IFIP WG 11.11 International Conference on Trust Management (IFIPTM),
+        </span>
+                        <span class="month">
+            June,
+        </span>
+                        <span class="year">
+            2011.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Enhancing Data Privacy in the Cloud','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">C. Castelluccia, E. De Cristofaro, A. Francillon, M.A. Kafaar,</span><br>
+        
+        <a href="/papers/"><span class="title">"EphPub: Toward Robust Ephemeral Publishing,"</span></a> <br>
+                <span class="howpublished">
+            19th IEEE International Conference on Network Protocols (ICNP),
+        </span>
+                        <span class="month">
+            October,
+        </span>
+                        <span class="year">
+            2011.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=EphPub: Toward Robust Ephemeral Publishing','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">E. Uzun, N. Saxena and A. Kumar,</span><br>
+        
+        <a href="/papers/"><span class="title">"Pairing Devices for Social Interactions: A Comparative Usability Evaluation,"</span></a> <br>
+                <span class="howpublished">
+            ACM CHI Conference on Human Factors in Computing Systems (CHI),
+        </span>
+                        <span class="month">
+            May,
+        </span>
+                        <span class="year">
+            2011.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Pairing Devices for Social Interactions: A Comparative Usability Evaluation','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">E. De Cristofaro and C. Soriente,</span><br>
+        
+        <a href="/papers/"><span class="title">"PEPSI: Privacy-Enhanced Participatory Sensing Infrastructure,"</span></a> <br>
+                <span class="howpublished">
+            4th ACM Conference on Wireless Network Security (WiSec),
+        </span>
+                        <span class="month">
+            June,
+        </span>
+                        <span class="year">
+            2011.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=PEPSI: Privacy-Enhanced Participatory Sensing Infrastructure','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">E. De Cristofaro, M. Manulis, B. Poettering,</span><br>
+        
+        <a href="/papers/"><span class="title">"Private Discovery of Common Social Contacts,"</span></a> <br>
+                <span class="howpublished">
+            9th International Conference on Applied Cryptography and Network Security (ACNS) ,
+        </span>
+                        <span class="month">
+            June,
+        </span>
+                        <span class="year">
+            2011.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Private Discovery of Common Social Contacts','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">E. De Cristofaro, A. Durussel, I. Aad,</span><br>
+        
+        <a href="/papers/reclaiming-eprint.pdf"><span class="title">"Reclaiming Privacy for Smartphone Applications,"</span></a> <br>
+                <span class="howpublished">
+            9th IEEE International Conference on Pervasive Computing and Communications (PerCom),
+        </span>
+                        <span class="month">
+            March,
+        </span>
+                        <span class="year">
+            2011.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Reclaiming Privacy for Smartphone Applications','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">A. Kobsa, R. Nithyanand, G. Tsudik, E. Uzun,</span><br>
+        
+        <a href="/papers/"><span class="title">"Usability of Display - Equipped RFID Tags for Security Purposes,"</span></a> <br>
+                <span class="howpublished">
+            16th European Symposium on Research in Computer Security (ESORICS),
+        </span>
+                <span class="location">
+            Leuven, Belgium,
+        </span>
+                        <span class="month">
+            September,
+        </span>
+                        <span class="year">
+            2011.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Usability of Display - Equipped RFID Tags for Security Purposes','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      </div>
+      <div class = "pubyear">
+   <h2>2010</h2>
+   
+      <div class = "pub">
+        <span class="authors">R. Nithyanand, N. Saxena, G. Tsudik, E. Uzun,</span><br>
+        
+        <a href="/papers/group.pdf"><span class="title">"Groupthink: On the Usability of Secure Group Association of Wireless Devices,"</span></a> <br>
+                <span class="howpublished">
+            12th ACM International Conference on Ubiquitous Computing (Ubicomp),
+        </span>
+                        <span class="month">
+            September,
+        </span>
+                        <span class="year">
+            2010.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Groupthink: On the Usability of Secure Group Association of Wireless Devices','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">D. Ma, G. Tsudik,</span><br>
+        
+        <a href="/papers/irres-final.pdf"><span class="title">"IRRES: Intrusion Resilient Remote Email Storage
+,"</span></a> <br>
+                <span class="howpublished">
+            First ICDCS Workshop on Security and Privacy in Cloud Computing (SPCC),
+        </span>
+                <span class="location">
+            Genoa, Italy,
+        </span>
+                        <span class="month">
+            July,
+        </span>
+                        <span class="year">
+            2010.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=IRRES: Intrusion Resilient Remote Email Storage
+','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">E. De Cristofaro, J. Kim, G. Tsudik.,</span><br>
+        
+        <a href="/papers/mal-psi-eprint.pdf"><span class="title">"Linear-Complexity Private Set Intersection Protocols Secure in Malicious Model.,"</span></a> <br>
+                <span class="howpublished">
+            The 16th Annual International Conference on the Theory and Application of Cryptology and Information Security (Asiacrypt),
+        </span>
+                                <span class="year">
+            2010.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Linear-Complexity Private Set Intersection Protocols Secure in Malicious Model.','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">C. Catellucia, K. E. Defrawy and G. Tsudik,</span><br>
+        
+        <a href="/papers/karim-wireless-net-code-ll-enc.pdf"><span class="title">"Link-Layer Encryption Effect on the Capacity of Network Coding in Wireless Networks,"</span></a> <br>
+                <span class="howpublished">
+             IEEE INFOCOM Work in Progress (WiP),
+        </span>
+                <span class="location">
+            San Diego,
+        </span>
+                                <span class="year">
+            2010.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Link-Layer Encryption Effect on the Capacity of Network Coding in Wireless Networks','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">E. De Cristofaro, G.Tsudik.,</span><br>
+        
+        <a href="/papers/491.pdf"><span class="title">"Practical Private Set Intersection Protocols with Linear Complexity.,"</span></a> <br>
+                <span class="howpublished">
+            Financial Cryptography,
+        </span>
+                                <span class="year">
+            2010.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Practical Private Set Intersection Protocols with Linear Complexity.','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">C. Castelluccia, E. De Cristofaro, D. Perito.,</span><br>
+        
+        <a href="/papers/PETS10.pdf"><span class="title">"Private Information Disclosure from Web Searches.,"</span></a> <br>
+                <span class="howpublished">
+            The 10th Privacy Enhancing Technologies Symposium (PETS),
+        </span>
+                                <span class="year">
+            2010.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Private Information Disclosure from Web Searches.','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">R. Nithyanand, G. Tsudik, E. Uzun,</span><br>
+        
+        <a href="/papers/esorics10.pdf"><span class="title">"Readers Behaving Badly: Reader Revocation in PKI-Based RFID Systems,"</span></a> <br>
+                <span class="howpublished">
+            15th European Symposium on Research in Computer Security (ESORICS) ,
+        </span>
+                        <span class="month">
+            September,
+        </span>
+                        <span class="year">
+            2010.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Readers Behaving Badly: Reader Revocation in PKI-Based RFID Systems','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">M. Wilhelm, I. Martinovic, E. Uzun, J. B. Schmitt,</span><br>
+        
+        <a href="/papers/"><span class="title">"SUDOKU: Secure and Usable Deployment of Keys on Wireless Sensors,"</span></a> <br>
+                <span class="howpublished">
+            Sixth Workshop on Secure Network Protocols (NPSEC),
+        </span>
+                        <span class="month">
+            October,
+        </span>
+                        <span class="year">
+            2010.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=SUDOKU: Secure and Usable Deployment of Keys on Wireless Sensors','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">Y. Lu and G. Tsudik,</span><br>
+        
+        <a href="/papers/PID1038848.pdf"><span class="title">"Towards Plugging Privacy Leaks in the Domain Name System,"</span></a> <br>
+                <span class="howpublished">
+            IEEE International Conference on Peer-to-Peer Computing (P2P),
+        </span>
+                                <span class="year">
+            2010.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Towards Plugging Privacy Leaks in the Domain Name System','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">D. Ma and G. Tsudik,</span><br>
+        
+        <a href="/papers/ewgwn-final.pdf"><span class="title">"Security and Privacy in Emerging Wireless Networks,"</span></a> <br>
+                <span class="howpublished">
+            IEEE Wireless Communications,
+        </span>
+                <span class="volume">
+            vol.17,
+        </span>   
+                        <span class="issue">
+            no. 5,
+        </span>
+                
+                <span class="page">
+            pp. 2-11,
+        </span>
+                        <span class="month">
+            October,
+        </span>
+                        <span class="year">
+            2010.
+        </span>
+                
+                <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=JOUR&title=Security and Privacy in Emerging Wireless Networks','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">E. De Cristofaro, J.Kim.,</span><br>
+        
+        <a href="/papers/SomeLikeItPrivate.pdf"><span class="title">"Some like it private. Sharing Confidential Information based on Oblivious Authorization.,"</span></a> <br>
+                <span class="howpublished">
+            IEEE Security and Privacy,
+        </span>
+                <span class="volume">
+            vol.8,
+        </span>   
+                        <span class="issue">
+            no. 4,
+        </span>
+                
+                                <span class="year">
+            2010.
+        </span>
+                
+                <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=JOUR&title=Some like it private. Sharing Confidential Information based on Oblivious Authorization.','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      </div>
+      <div class = "pubyear">
+   <h2>2009</h2>
+   
+      <div class = "pub">
+        <span class="authors">A. Kumar, N. Saxena, G. Tsudik, E. Uzun,</span><br>
+        
+        <a href="/papers/"><span class="title">"Caveat Emptor: A Comparative Study of Secure Device Pairing Methods.,"</span></a> <br>
+                <span class="howpublished">
+            7th Annual IEEE International Conference on Pervasive Computing and Communications (PerCom),
+        </span>
+                                <span class="year">
+            2009.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Caveat Emptor: A Comparative Study of Secure Device Pairing Methods.','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">E.De Cristofaro, J.M.Bohli, D.Westhoff.,</span><br>
+        
+        <a href="/papers/0901.1095v1.pdf"><span class="title">"FAIR: Fuzzy-based Aggregation providing In-network Resilience for real-time Sensor Networks.,"</span></a> <br>
+                <span class="howpublished">
+            The Second ACM Conference on Wireless Network Security (WISEC),
+        </span>
+                                <span class="year">
+            2009.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=FAIR: Fuzzy-based Aggregation providing In-network Resilience for real-time Sensor Networks.','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">M. Cagalj, A. Kumar, N. Saxena, E. Uzun,</span><br>
+        
+        <a href="/papers/cans09.pdf"><span class="title">"On the Usability of Wireless Device Authentication Based on Distance Bounding,"</span></a> <br>
+                <span class="howpublished">
+            The 8th International Conference on Cryptology And Network Security (CANS),
+        </span>
+                                <span class="year">
+            2009.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=On the Usability of Wireless Device Authentication Based on Distance Bounding','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">E. De Cristofaro, S. Jarecki, J. Kim, G. Tsudik.,</span><br>
+        
+        <a href="/papers/PETS09.pdf"><span class="title">"Privacy-preserving Policy-based Information Transfer.,"</span></a> <br>
+                <span class="howpublished">
+            The 9th Privacy Enhancing Technologies Symposium (PETS),
+        </span>
+                                <span class="year">
+            2009.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Privacy-preserving Policy-based Information Transfer.','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">E. De Cristofaro, X. Ding, G. Tsudik. ,</span><br>
+        
+        <a href="/papers/0905.2158v1.pdf"><span class="title">"Privacy-Preserving Querying in Sensor Networks.,"</span></a> <br>
+                <span class="howpublished">
+            The 18th International Conference on Computer Communications and Networks (ICCCN),
+        </span>
+                                <span class="year">
+            2009.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Privacy-Preserving Querying in Sensor Networks.','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">A. Kobsa, R. Sonawalla, G. Tsudik, E. Uzun, Y. Wang,</span><br>
+        
+        <a href="/papers/soups09.pdf"><span class="title">"Serial Hook-Ups: A Comparative Usability Study of Secure Device Pairing Methods,"</span></a> <br>
+                <span class="howpublished">
+            The Fifth Symposium on Usable Privacy and Security (SOUPS),
+        </span>
+                                <span class="year">
+            2009.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Serial Hook-Ups: A Comparative Usability Study of Secure Device Pairing Methods','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">A. Kumar, N. Saxena, G. Tsudik, E. Uzun.,</span><br>
+        
+        <a href="/papers/"><span class="title">"A comparative study of secure device pairing methods.,"</span></a> <br>
+                <span class="howpublished">
+            The Pervasive and Mobile Computing Journal (PMC),
+        </span>
+                <span class="volume">
+            vol.5,
+        </span>   
+                        <span class="issue">
+            no. 6,
+        </span>
+                
+                                <span class="year">
+            2009.
+        </span>
+                
+                <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=JOUR&title=A comparative study of secure device pairing methods.','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">D. Ma and G. Tsudik,</span><br>
+        
+        <a href="/papers/seclogj-final.pdf"><span class="title">"A new approach to secure logging,"</span></a> <br>
+                <span class="howpublished">
+            ACM Trans. on Storage,
+        </span>
+                <span class="volume">
+            vol.5,
+        </span>   
+                        <span class="issue">
+            no. 1,
+        </span>
+                
+                <span class="page">
+            pp. 2:1-2:21,
+        </span>
+                        <span class="month">
+            March,
+        </span>
+                        <span class="year">
+            2009.
+        </span>
+                
+                <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=JOUR&title=A new approach to secure logging','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">D. Ma, C. Soriente and G. Tsudik,</span><br>
+        
+        <a href="/papers/uwsnsec_netmag_final.pdf"><span class="title">"New adversary and new threats in unattended sensor networks,"</span></a> <br>
+                <span class="howpublished">
+            IEEE Network,
+        </span>
+                <span class="volume">
+            vol.23,
+        </span>   
+                        <span class="issue">
+            no. 2,
+        </span>
+                
+                <span class="page">
+            pp. 43-48,
+        </span>
+                        <span class="month">
+            March,
+        </span>
+                        <span class="year">
+            2009.
+        </span>
+                
+                <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=JOUR&title=New adversary and new threats in unattended sensor networks','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">C. Soriente, G. Tsudik, E. Uzun,</span><br>
+        
+        <a href="/papers/IJSN-Soriente.pdf"><span class="title">"Secure Pairing of Interface constrained Devices,"</span></a> <br>
+                <span class="howpublished">
+            International Journal on Security and Networks,
+        </span>
+                <span class="volume">
+            vol.4,
+        </span>   
+                        <span class="issue">
+            no. 1,
+        </span>
+                
+                                <span class="year">
+            2009.
+        </span>
+                
+                <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=JOUR&title=Secure Pairing of Interface constrained Devices','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">M. T. Goodrich, M. Sirivianos, J. Solis, C. Soriente, G. Tsudik, E. Uzun,</span><br>
+        
+        <a href="/papers/"><span class="title">"Using Audio in Secure Device Pairing,"</span></a> <br>
+                <span class="howpublished">
+            International Journal on Security and Networks,
+        </span>
+                <span class="volume">
+            vol.4,
+        </span>   
+                        <span class="issue">
+            no. 1,
+        </span>
+                
+                                <span class="year">
+            2009.
+        </span>
+                
+                <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=JOUR&title=Using Audio in Secure Device Pairing','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      </div>
+      <div class = "pubyear">
+   <h2>2008</h2>
+   
+      <div class = "pub">
+        <span class="authors">C. Blundo, E. De Cristofaro, C. Galdi, G. Persiano.,</span><br>
+        
+        <a href="/papers/"><span class="title">"A Distributed Implementation of the Certified Information Access Service.,"</span></a> <br>
+                <span class="howpublished">
+            European Symposium on Research in Computer Security (ESORICS),
+        </span>
+                                <span class="year">
+            2008.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=A Distributed Implementation of the Certified Information Access Service.','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">D. Ma and G. Tsudik,</span><br>
+        
+        <a href="/papers/new_approach_logging.pdf"><span class="title">"A New Approach to secure logging,"</span></a> <br>
+                <span class="howpublished">
+            22nd Annual IFIP WG 11.3 Working Conference on Data and Applications Security (DBSEC),
+        </span>
+                                <span class="year">
+            2008.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=A New Approach to secure logging','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">C.Castelluccia and C. Soriente,</span><br>
+        
+        <a href="/papers/abba.pdf"><span class="title">"ABBA: A Balls and Bins Approach to Secure Aggregation in WSNs,"</span></a> <br>
+                <span class="howpublished">
+            6th International Symposium on Modeling and Optimization in Mobile, Ad Hoc, and Wireless Networks (WiOpt),
+        </span>
+                                <span class="year">
+            2008.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=ABBA: A Balls and Bins Approach to Secure Aggregation in WSNs','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">R. Di Pietro, L.V. Mancini, A. Spognardi, C. Soriente and G. Tsudik,</span><br>
+        
+        <a href="/papers/catch_me.pdf"><span class="title">"Catch Me (If You Can): Data Survival in Unattended Sensor Networks,"</span></a> <br>
+                <span class="howpublished">
+            6th Annual IEEE International Conference on Pervasive Computing and Communications (PerCom),
+        </span>
+                                <span class="year">
+            2008.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Catch Me (If You Can): Data Survival in Unattended Sensor Networks','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">D. Ma and G. Tsudik,</span><br>
+        
+        <a href="/papers/dish-final.pdf"><span class="title">"DISH: Distributed self-healing (in unattended sensor networks),"</span></a> <br>
+                <span class="howpublished">
+            10th International Symposium on Stabilization, Safety, and Security of Distributed Systems (SSS'08),
+        </span>
+                <span class="location">
+            Detroit,
+        </span>
+                        <span class="month">
+            November,
+        </span>
+                        <span class="year">
+            2008.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=DISH: Distributed self-healing (in unattended sensor networks)','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">C.Soriente, G. Tsudik and E. Uzun,</span><br>
+        
+        <a href="/papers/hapadep.pdf"><span class="title">"HAPADEP: Human-Assisted Pure Audio Device Pairing,"</span></a> <br>
+                <span class="howpublished">
+            11th International Information Security Conference (ISC),
+        </span>
+                                <span class="year">
+            2008.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=HAPADEP: Human-Assisted Pure Audio Device Pairing','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">R. Di Pietro, D. Ma, C. Soriente and G. Tsudik,</span><br>
+        
+        <a href="/papers/posh_srds08.pdf"><span class="title">"POSH: Proactive co-Operative Self-Healing in Unattended Wireless Sensor Networks,"</span></a> <br>
+                <span class="howpublished">
+            27th IEEE International Symposium on Reliable Distributed Systems (SRDS),
+        </span>
+                                <span class="year">
+            2008.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=POSH: Proactive co-Operative Self-Healing in Unattended Wireless Sensor Networks','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">D. Ma,</span><br>
+        
+        <a href="/papers/p341-ma.pdf"><span class="title">"Practical Forward Secure Sequential Aggregate Signatures,"</span></a> <br>
+                <span class="howpublished">
+            ACM Symposium on Information, Computer and Communications Security (ASIACCS),
+        </span>
+                                <span class="year">
+            2008.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Practical Forward Secure Sequential Aggregate Signatures','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">K. El Defrawy and G. Tsudik,</span><br>
+        
+        <a href="/papers/prism-icnp08.pdf"><span class="title">"PRISM: Privacy-friendly Routing In Suspicious MANETs (and VANETs),"</span></a> <br>
+                <span class="howpublished">
+            16th IEEE International Conference of Network Protocols (ICNP),
+        </span>
+                        <span class="month">
+            March,
+        </span>
+                        <span class="year">
+            2008.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=PRISM: Privacy-friendly Routing In Suspicious MANETs (and VANETs)','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">G. Ateniese, R. Di Pietro, L.V. Mancini and G. Tsudik,</span><br>
+        
+        <a href="/papers/AtenieseDiPietroSecureComm08.pdf"><span class="title">"Scalable and Efficient Provable Data Possession,"</span></a> <br>
+                <span class="howpublished">
+            4th International Conference on Security and Privacy in Communication Network (SecureComm),,
+        </span>
+                                <span class="year">
+            2008.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Scalable and Efficient Provable Data Possession','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">C. Blundo, E. De Cristofaro, A. Del Sorbo, C. Galdi, G. Persiano.,</span><br>
+        
+        <a href="/papers/"><span class="title">"Validating Orchestration of Web Services with BPEL and Aggregate Signatures.,"</span></a> <br>
+                <span class="howpublished">
+            ECOWS,
+        </span>
+                                <span class="year">
+            2008.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Validating Orchestration of Web Services with BPEL and Aggregate Signatures.','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">N. Saxena, G. Tsudik and J. Yi,</span><br>
+        
+        <a href="/papers/TPDS-2007-09-0306.R1.pdf"><span class="title">"Efficient Node Admission and Certificate-less Secure Communication in Short-Lived MANETs,"</span></a> <br>
+                <span class="howpublished">
+            IEEE Transactions on Parallel and Distributed Systems,
+        </span>
+                        
+                        <span class="month">
+            September,
+        </span>
+                        <span class="year">
+            2008.
+        </span>
+                
+                <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=JOUR&title=Efficient Node Admission and Certificate-less Secure Communication in Short-Lived MANETs','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">M. Narasimha, J. Solis and G. Tsudik,</span><br>
+        
+        <a href="/papers/privacy_revocation.pdf"><span class="title">"Privacy-Preserving Revocation Checking,"</span></a> <br>
+                <span class="howpublished">
+            International Journal of Information Security,
+        </span>
+                        
+                                <span class="year">
+            2008.
+        </span>
+                
+                <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=JOUR&title=Privacy-Preserving Revocation Checking','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      </div>
+      <div class = "pubyear">
+   <h2>2007</h2>
+   
+      <div class = "pub">
+        <span class="authors">E. De Cristofaro,</span><br>
+        
+        <a href="/papers/"><span class="title">"A Secure and Privacy-Protecting Aggregation Scheme for Sensor Networks.,"</span></a> <br>
+                <span class="howpublished">
+            WoWMoM'07,
+        </span>
+                                <span class="year">
+            2007.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=A Secure and Privacy-Protecting Aggregation Scheme for Sensor Networks.','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">K. El Defrawy and G. Tsudik,</span><br>
+        
+        <a href="/papers/alarm07.pdf"><span class="title">"ALARM: Anonymous Location-Aided Routing in Suspicious MANETs,"</span></a> <br>
+                <span class="howpublished">
+            15th IEEE International Conference of Network Protocols (ICNP),
+        </span>
+                                <span class="year">
+            2007.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=ALARM: Anonymous Location-Aided Routing in Suspicious MANETs','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">C. Soriente, G. Tsudik and Ersin Uzun,</span><br>
+        
+        <a href="/papers/iwssi2007-01.pdf"><span class="title">"BEDA: Button Enabled Device Pairing,"</span></a> <br>
+                <span class="howpublished">
+            International Workshop on Security for Spontaneous Interaction (IWSSI),
+        </span>
+                                <span class="year">
+            2007.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=BEDA: Button Enabled Device Pairing','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">D. Ma and G. Tsudik,</span><br>
+        
+        <a href="/papers/mt07.pdf"><span class="title">"Forward-Secure Sequential Aggregate Authentication,"</span></a> <br>
+                <span class="howpublished">
+            IEEE Symposium on Security and Privacy (S&P),
+        </span>
+                                <span class="year">
+            2007.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Forward-Secure Sequential Aggregate Authentication','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">S. Jarecki, J. Kim and G. Tsudik,</span><br>
+        
+        <a href="/papers/group_secret_handshakes.pdf"><span class="title">"Group Secret Handshakes Or Affiliation-Hiding Authenticated Group Key Agreement,"</span></a> <br>
+                <span class="howpublished">
+            RSA Conference - Cryptographers' Track,
+        </span>
+                                <span class="year">
+            2007.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Group Secret Handshakes Or Affiliation-Hiding Authenticated Group Key Agreement','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">K. El Defrawy, M. El Zarki and G. Tsudik,</span><br>
+        
+        <a href="/papers/ezt07.pdf"><span class="title">"Incentive-Based Cooperative and Secure Inter-Personal Networking,"</span></a> <br>
+                <span class="howpublished">
+            1st International Workshop on Mobile Opportunistic Networking (MobiOpp),
+        </span>
+                                <span class="year">
+            2007.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Incentive-Based Cooperative and Secure Inter-Personal Networking','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">D. Ma,</span><br>
+        
+        <a href="/papers/secure_feedback_service.pdf"><span class="title">"Secure Feedback Service in Wireless Sensor Networks ,"</span></a> <br>
+                <span class="howpublished">
+            3rd Information Security Practice and Experience Conference (ISPEC),
+        </span>
+                                <span class="year">
+            2007.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Secure Feedback Service in Wireless Sensor Networks ','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">N. Saxena, G. Tsudik and J. Yi,</span><br>
+        
+        <a href="/papers/sty07.pdf"><span class="title">"Threshold Cryptography in P2P and MANETs: the Case of Access Control,"</span></a> <br>
+                <span class="howpublished">
+            Computer Networks,
+        </span>
+                <span class="volume">
+            vol.51,
+        </span>   
+                        <span class="issue">
+            no. 13,
+        </span>
+                
+                <span class="page">
+            pp. 3632-3649,
+        </span>
+                        <span class="month">
+            August,
+        </span>
+                        <span class="year">
+            2007.
+        </span>
+                
+                <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Threshold Cryptography in P2P and MANETs: the Case of Access Control','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">E. Uzun, K. Karvonen and N. Asokan,</span><br>
+        
+        <a href="/papers/usability_analysis_method.pdf"><span class="title">"Usability Analysis of Secure Pairing Methods,"</span></a> <br>
+                <span class="howpublished">
+            1st International Workshop on Usable Security (USEC),
+        </span>
+                                <span class="year">
+            2007.
+        </span>
+                        <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=CONF&title=Usability Analysis of Secure Pairing Methods','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">Kari Kostiainen and Ersin Uzun and N. Asokan and Philip Ginzboorg,</span><br>
+        
+        <a href="/papers/framework_usability_ex_abs.pdf"><span class="title">"Framework for Comparative Usability of Distributed Applications,"</span></a> <br>
+                <span class="howpublished">
+            Nokia Research Center Technical Report NRC-TR,
+        </span>
+                        
+                                <span class="year">
+            2007.
+        </span>
+                
+                <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=JOUR&title=Framework for Comparative Usability of Distributed Applications','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      <div class = "pub">
+        <span class="authors">E. Uzun, K. Karvonen and N. Asokan,</span><br>
+        
+        <a href="/papers/usability_analysis_method.pdf"><span class="title">"Usability Analysis of Secure Pairing Methods,"</span></a> <br>
+                <span class="howpublished">
+            Nokia Research Center Technical Report NRC-TR-2007-002,
+        </span>
+                        
+                                <span class="year">
+            2007.
+        </span>
+                
+                <div class="bibtex" onclick="window.open('http://sprout.ics.uci.edu/index/bibtex?type=JOUR&title=Usability Analysis of Secure Pairing Methods','BibTex','width=800,height=100,top=100,left=100,scrollbars=Yes,resizable=yes');", href="">Bibtex</div>
+   </div>
+      </div>
+   
+</div>
+<div id="events">
+
+<ul>
+<h2>Upcoming Events</h2>
+   </ul>
+</div><div id="padding"></div>
+</div>
+
+        <div id="legal">
+        <div class="text" style="float:left">
+        Copyright 2010, sprout.ics.uci.edu
+        </div>
+        <div class="webmaster">
+        <a href="mailto:fabers@uci.edu" class="webmaster">webmaster</a>
+        </div>
+        </div>
+        </div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2960903-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+    </body>
+</html>

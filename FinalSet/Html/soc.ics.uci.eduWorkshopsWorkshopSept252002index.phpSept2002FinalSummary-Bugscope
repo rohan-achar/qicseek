@@ -1,0 +1,300 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Workshops : Comparative
+        Investigation : Final Summary : Bugscope</TITLE>
+<!-- #BeginTemplate "/Templates/index.dwt" -->
+<meta name="description" content="A research project investigating the social and technical issues surrounding the success of geographically distributed science and engineering collaborations." />
+<meta name="keywords" content="scientific collaboration, collaboratories, collaboratory, University of Michigan, School of Information, social-technical" />
+<meta name="language" content="English" />
+<meta name="author" content="Dan Cooney" />
+<meta name="programmer" content="Greg Peters" />
+<META content=ALL name=robots>
+<META content="15 days" name=revisit-after>
+<META content=SOC-website@umich.edu name=reply-to>
+<META content="Living Document" name=document-class>
+<META content="Copyrighted Work" name=document-rights>
+<META content="Web Page" name=document-type>
+<META content="Safe for Kids" name=document-rating>
+<META content=Global name=document-distribution>
+<META content=Static name=document-state>
+<META content=no-cache name=cache-control>
+<META http-equiv=Content-Language content=EN-US>
+<META content="Dan Cooney" name=Publisher>
+
+<link REL="ICON" HREF="/soc.ico" TYPE="image/x-icon">
+<link REL="SHORTCUT ICON" HREF="/soc.ico" TYPE="image/x-icon">
+
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1"><!-- #BeginEditable "doctitle" --><!-- #EndEditable -->
+<SCRIPT type=text/javascript>
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</SCRIPT>
+<LINK href="/styles/SOC.css" 
+type=text/css rel=stylesheet><!--Main content begins -->
+<META content="MSHTML 5.50.4913.1100" name=GENERATOR></HEAD>
+<!-- #LOOP-START:header -->
+<BODY text=#000000 vLink=#333399 aLink=#ff9900 link=#333399 bgColor=#ffffff 
+leftMargin=2 topMargin=2 marginheight="2" marginwidth="2">
+<TABLE height=117 cellSpacing=0 cellPadding=0 width="100%" align=center 
+border=0>
+  <TR>
+    <TD vAlign=top align=left>
+      <TABLE cellSpacing=0 cellPadding=0 width=100% align=left 
+      border=0 name="Header">
+        <TR>
+          <TD vAlign=bottom align=left background=""
+          rowSpan=3 height=103 width=145><A 
+            href="/"><IMG 
+            height=103 alt="Science of Collaboratories logo - link" 
+            src="/images/LOGOSMALLER.gif" 
+            width=145 align=bottom border=0 name=SOCLogo></A></TD>
+          <TD height=40 valign="top">
+            <DIV ALIGN="RIGHT" CLASS="admin_login"><A HREF="/index.php?SOCSiteMap">Site Map</A>&nbsp;-&nbsp;<A HREF="/datateam/index.php">Login</A></DIV><BR>
+            <SCRIPT src="/libs/exmplmenu_var.js" type=text/javascript></SCRIPT>
+            <SCRIPT src="/libs/menu_com.js" type=text/javascript></SCRIPT>
+            <NOSCRIPT>Your browser does not support script</NOSCRIPT></TD></TR>
+        <TR>
+          <TD vAlign=top align=left width=100% bgColor=#660033 height=15>
+            &nbsp;
+          </TD></TR>
+        <TR>
+         <TD width=100% bgColor=#660033 height=15>&nbsp;</TD></TR>
+</table>
+      </TD>
+    <TD vAlign=top width=60 height=100>&nbsp;</TD>
+   </TR>
+        <TR>
+          <TD vAlign=top align=left height=20><IMG height=20 
+            alt="An alliance to advance the understanding of collaboratories" 
+            src="/images/SOCATextNew.gif" 
+            width=527 border=0 name=SOCATextNew>
+          </TD>
+         </TR>
+</TABLE>
+<!-- #LOOP-END:header -->
+<TABLE cellSpacing=0 cellPadding=0 width=100% align=left border=0 
+name="Main Body Table">
+  <TR>
+    <TD vAlign=top colspan=4 align=left bgColor=#660033 height=12><IMG 
+      height=12 alt="Science of Collaboratories" 
+      src="/images/RoundedRed.gif" 
+      align=top border=0 name=Header_r9_c1><BR></TD>
+    <TD vAlign=top align=left bgColor=#660033 height=12>&nbsp; </TD>
+    <TD width=60 bgColor=#ffffff>&nbsp;</TD></TR>
+  <TR>
+    <TD width=20 bgColor=#660033></TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD colspan=2 align=left bgColor=#ffffff>
+<!-- This is where we will add the content -->
+
+<table width="100%" border="0">
+  <tr>
+    <td width="1%">&nbsp;</td>
+    <td>
+      <div class="PageTitle">Workshops : Comparative
+        Investigation : Final Summary : Bugscope</div>
+      <br><div class="workshop_navbar"><a href="index.php">Workshop Description</a>
+        | <a href="index.php?Sept2002Agenda">Agenda and Presentations</a> | <a href="index.php?Sept2002Participants">Participants</a> | <a href="index.php?Sept2002FinalSummary"><b>Final Summary</b></a></div>
+    </td>
+    <td width="1%">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%" border="0">
+  <tr>
+  <td width="1%">&nbsp;</td>
+  <td>
+<div class="PageSubTitle">Bugscope</div>
+<br>
+<b>Presenter:</b> Nathan Bos<br>
+<b>Participants:</b> Umesh Thakkar, Daniel Weber<br>
+<b>Discussants:</b> Jonathan Cummings, Atul Prakash
+<br>
+<br>
+Buscope is a project to make the electron microscope at the Beckman Institute available to K-12 classes via the Web.  Student groups send in insect samples, then access the instrument remotely at scheduled session times.
+</p>
+<p>Bugscope followed on the heels of Chickscope, which was Beckman's first foray into this area. Chickscope was very popular with K-12 classes, but demanded too much personnel and resources at Beckman to be an ongoing concern.  (One estimate puts the cost at $5,000 per class).
+</p>
+<p>Bugscope uses a different model, and has proved to be popular and sustainable.  It can be scheduled into 2-hour blocks of unused instrument time. The sessions themselves require minimal staff time.  Student helpers can run the online sessions and do most of the sample preparation.  The project director can handle awarding and scheduling of sessions through online forms.
+</p>
+<p>Bugscope uses the IRMA software that was developed at Beckman.  Both a Java and a Browser version are available.
+</p>
+<p><i>Success measures</i><br>
+Bugscope has conducted 82 online sessions since March 1999.  Survey of users show it has good ratings for software usability, and teachers rate it as useful.
+</p>
+<p class="subhead">Discussants
+</p>
+<p><b>Jonathan Cummings</b><br>
+Interesting questions to ask about Bugscope:
+<p>
+<ul>
+<li>Which stakeholders have the most to gain (or lose) from the Bugscope collaboratory?
+<ul><li>Stakeholders: K-12 students, K-12 teachers, General public, Beckman Institute, Scientific researchers, Scientific fields, Software developers...</ul>
+<li>Issues of Scope: Is this model scalable?  How would scaling put new demands on:
+<ul><li>Instruments?
+<li>Instrument operators?
+<li>Internet software?
+<li>K-12 classrooms?
+<li>Curriculum support?
+<li>Student helpers?</ul></ul>
+<p>
+<b>Atul Prakash</b><br>
+This is clearly a successful educational outreach project. But at this scale, these aren't Computer Science CSCW questions because the technologies being used (chatroom, etc.) are mature.  There are no compelling design questions involved in enabling shared instruments.
+</p>
+<p>There would be a set of interesting CSCW question if this project were to be scaled up including:<ul>
+<li>How to accommodate large numbers of users?
+<li>How to coordinate access across multiple instruments?
+<li>How to enable 'open' access?
+<li>How to enable user-to-user collaboration with back-and-forth communication?
+<li>How to allow contribution of "Software Instruments", e.g. model?
+<li>How to handle IP or security/privacy issues?
+(see <a href="http://www.scienceofcollaboratories.org/WorkshopStuff/Sept2002/4-prakash.ppt">slides</a> for more details)</ul>
+
+<p class="subhead">Discussion:</p>
+<p>
+Q: For the people on the project, what are the prospects for scalability?
+A: This is a very interesting question.  We recently got an award from NASA to make this a research-grade tool for NASA scientists' remote use. The limiting resources on scalability are:
+<li>Time during sessions to reposition scope
+<li>Time for setup between sessions (~1 hour)
+<li>Working on purchasing more scopes
+</p>
+<p>Q: Would it be possible to pre-scan and then simulate the session, with different resolutions, etc.
+A: That is on our to-do list (creating simulations to supplement or replace live sessions).  We would like to sample the entire stage and stitch the graphics together.  This would also allow users to 'zoom out' further than is possible with the microscope, which helps users stay oriented.  Would also allow us to simulate this ahead of time so teacher or researcher can prepare for the session, and focus on important parts.
+</p>
+<p>Q: You mentioned an entomologist who was an ad-hoc advisor.  Is this an important limiting factor (on scalability)?
+A: Yes, that's an important part of the project (classes can ask questions during the session), and staff can do some research to answer question.
+</p>
+<p>Q: Would it be possible to foster more collaboration between classes?
+A: From SOC staff: The web archives of Bugscope sessions go a long way toward supporting this.  The logistical problem of cross-classroom collaboration is usually because of incompatible schedules.  So (with the archives) if a class comes up with a nice set of images they can be shared asynchronously.
+</p>
+<p>Q: Are the archives used?
+A:  Not known.  The log files would need to be analyzed
+A2: Classes can also log in as observers on other class' sessions.  But this hasn't happened very much.  Teachers are very busy and curriculums are crowded.
+</p>
+<p>Q: Would like to know more about collaboration within the classroom, and collaboration between students and operators.  Would like to ask, how much do students deviate from presets?
+A:  Classes vary-some just bounce from preset view to preset view.  We have looked for a predictive variable for this without success.  Usually we set the presets so that some interesting things are hidden-they need to go to a preset, but then zoom in to see it, and some classes miss these, even when we make suggestions.  Others schools do a lot of exploration. And have also had cases where they totally ignore us, and go off and do something cool on their own. Bugscope staff are very interested in this question of when they might 'go outside the box' in their inquiry.
+</p>
+<p>Q: In other examples (e.g. Keck) it's very clear where the advantage is.  But I don't see things like <a href="http://www.scienceofcollaboratories.org/Resources/collab.php?174">Keck</a> scaling up.   Instead there are things like the <a href="http://www.sdss.org/">Sloan Digital Sky Survey</a>, where you capture a larger dataset. So this might be the kind of thing that is scalable.
+Comment: Simulations might prove useful, but there's also some value in having (customized) specimens.
+</p>
+<p>Comment:  One Sky Many Voices is an example of a project that is having cross-classroom collaboration, but that's because they're getting a lot of NSF money to support it.  There are no pressures within the educational system for collaboration across classes.
+One aspect of Bugscope that we may be under-emphasizing is the access to remote expertise. Chatting with experts may be very useful.  Could also imagine system for classes to send in questions (asynchronously) for consultation.
+
+
+</p>
+<p class="backlink">back to the <a href="index.php?Sept2002FinalSummary">Final Summary</a></p>
+
+     </td>
+  <td width="1%">&nbsp;</td>
+  </tr>
+</table>
+
+    </TD>
+    <TD width=60>&nbsp;</TD></TR>
+<TR>
+    <TD vAlign=top align=middle width=20 bgColor=#660033>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top colspan=2 align=right bgColor=#ffffff height=12>&nbsp;</TD>
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=bottom colspan=4 align=left width=145 bgColor=#660033 height=12><IMG 
+      height=12 
+      src="/images/RoundedBottom.gif" 
+      width=145 align=bottom></TD>
+    <TD vAlign=top align=right bgColor=#660033 height=12><FONT 
+      color=#ffffff>
+      &nbsp;</FONT><SPAN class=SmallText><FONT 
+      color=#ffffff>&nbsp; </FONT></SPAN></TD><!-- HERE -->
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=top align=middle width=20>&nbsp;</TD>
+    <TD colspan=4 vAlign=top align=middle bgColor=#ffffff
+      height=6><SPAN class="footernavbar"><A 
+      href="/">Home</A> | <A 
+      href="/AboutSOC/index.php">About 
+      SOC</A> | <A 
+      href="/Workshops/index.php">Workshops</A> | <A 
+      href="/Resources/index.php?findings">Resources</A> 
+      | <A 
+      href="/NewsEvents/index.php">News 
+      &amp; Events</A></SPAN></TD>
+    <TD width=60 bgColor=#ffffff height=6>&nbsp;</TD></TR>
+<!-- #LOOP-START:footer -->
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <HR align=center width=80%>
+    </TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5></TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <TABLE cellSpacing=0 cellPadding=0 width="95%" align=left border=0 
+      name="Footer">
+        <TR>
+          <TD vAlign=top align=middle width=172 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.umich.edu/"><IMG height=62 
+            alt="University of Michigan Logo" 
+            src="/images/logo_um.jpg" 
+            width=62 border=0 name=UMICH_Logo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.umich.edu/">University of Michigan<BR></A></P></TD>
+          <TD align=middle>
+            <P class="copyright">This material is based upon work supported by 
+            the <A target=_blank href="http://www.itr.nsf.gov/">National Science 
+            Foundation</A> under Grant No. IIS 0085951. Any opinions, findings, 
+            and conclusions or recommendations expressed in this material are 
+            those of the author(s) and do not necessarily reflect the views of 
+            the National Science Foundation. <BR><A target=_blank 
+            href="http://www.itr.nsf.gov/"><IMG height=42 
+            alt="National Science Foundation Logo" 
+            src="/images/nsf.gif" width=42 
+            border=0 name=NSF_Logo></A></P></TD>
+          <TD vAlign=top align=middle width=127 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.si.umich.edu/"><IMG height=54 
+            alt="School of Information Logo" 
+            src="/images/SISwirl.jpg" 
+            width=62 border=0 name=SILogo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.si.umich.edu/">School of Information</A>
+            <A href="http://www.si.umich.edu/">University of 
+            Michigan</A></P></TD></TR>
+        <TR>
+          <TD align=middle>&nbsp;</TD></TR>
+        <TR>
+          <TD>
+            <P align=center class="copyright">� 2004
+            Regents of the University of 
+            Michigan. Please send questions and comments to <A 
+            href="mailto:asz@umich.edu">SOC 
+        webmaster</A>.</P></TD></TR></TABLE></TD></TR>
+  <TR>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=95>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0>&nbsp; </TD>
+    <TD width=60 bgColor="white" height=0>&nbsp;</TD></TR>
+</TABLE>
+<!-- #LOOP-END:footer -->
+<P>&nbsp;</P>
+<P><BR></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><BR></P>
+<P><BR></P>
+<P>&nbsp;</P>
+<P><BR></P></BODY><!-- #EndTemplate --></HTML>
+

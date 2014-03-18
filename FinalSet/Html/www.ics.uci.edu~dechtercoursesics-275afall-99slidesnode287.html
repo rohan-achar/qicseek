@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Conditional Compilation</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Conditional Compilation">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5714 HREF="node288.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5712 HREF="node268.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5706 HREF="node286.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5716 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5715 HREF="node288.html"> C-Prolog Compatibility Package</A>
+<B>Up:</B> <A NAME=tex2html5713 HREF="node268.html"> Libraries</A>
+<B> Previous:</B> <A NAME=tex2html5707 HREF="node286.html"> Perfmeter</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION002280000000000000000> Conditional Compilation</A></H1>
+<P>
+<A NAME=chapifdef>&#160;</A>
+<A NAME=6666>&#160;</A>
+<P>
+This library, when loaded with
+<blockquote> <PRE>:- lib(ifdef).
+</PRE>
+</blockquote>
+makes it possible to use primitives for conditional compilation
+in Prolog source files.
+After loading the library, the predicate <b> ifdef/1</b>
+<A NAME=6670>&#160;</A>
+becomes global.
+<P>
+The compiler will then recognise conditional compilation directives
+which have the form
+<blockquote> <PRE>:- ifdef Condition1.
+&lt;compile if Condition1 is true&gt;
+:- elseif Condition2.
+&lt;compile if Condition2 is true&gt;
+..
+:- else.                % or :- else(Goal), Goal is ignored
+&lt;compile if none of the above conditions holds&gt;
+:- endif.               % or :- endif(Goal), Goal is ignored
+</PRE>
+</blockquote>
+The <b> elseif</b> and <b> else</b> parts can be omitted.
+<P>
+Note that this mechanism is implemented using the predicate
+<b> compile_term/1</b> and so all procedures that are conditionally
+compiled have no associated source file, and so
+<blockquote> <PRE>get_flag(Proc, source_file, File).
+</PRE>
+</blockquote>
+will fail.
+Note also that if several streams are opened to the file being
+compiled, the result of the compilation may not be correct.
+<P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

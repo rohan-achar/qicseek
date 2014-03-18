@@ -1,0 +1,2146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252"
+      http-equiv="Content-Type">
+    <title>Statistics 120A/Mathematics 131A - Fall 2013</title>
+    <meta content="Stacey Hancock" name="author">
+    <meta content="Introduction to Probability and Statistics"
+      name="description">
+  </head>
+  <body alink="#EE0000" bgcolor="lightblue" link="#0000EE"
+    text="#000000" vlink="#551A8B">
+    <h1 align="center">Stat 120A/Math 131A: <br>
+    </h1>
+    <h1 align="center">Introduction to Probability and Statistics</h1>
+    <h1 align="center">Fall 2013 <br>
+    </h1>
+    <h2 align="center"><a href="http://www.stat.uci.edu/">Department of
+        Statistics</a></h2>
+    <h2 align="center">University of California, Irvine</h2>
+    <hr size="2" width="100%">
+    <h3>Jump to...<br>
+    </h3>
+    <ul>
+      <li><a href="#Course_Syllabus">Course Syllabus</a><br>
+      </li>
+      <li><a href="#Class_Locations_and_Times">Class Locations and Times</a></li>
+      <li><a href="#Instructor_and_Teaching_Assistant_Office">Instructor
+          and Teaching Assistant Office Hours</a></li>
+      <li><a href="#R_Commander">R Resources</a></li>
+      <li><a href="#Multivariate_Calculus_Review_Resources">Multivariate
+          Calculus Review Resources</a><br>
+      </li>
+      <li><a href="#Data_Sets">Data Sets Used in Class and on Homework</a><br>
+      </li>
+      <li><a href="#Class_Calendar">Class Calendar</a>: Material
+        covered, lab and homework assignments by day</li>
+      <li><a href="#Lab_Solutions">Lab Solutions</a></li>
+      <li><a href="#Midterm_Exam_Solutions">Midterm Exam Solutions</a><br>
+      </li>
+    </ul>
+    <h3><font color="#cc0000">ANNOUNCEMENTS</font></h3>
+    <font color="#cc0000"><b><a href="Grade_Dispute_Form.doc">GRADE
+          DISPUTE REQUEST FORM</a><font color="#000000"> (<a
+            href="Grade_Dispute_Form.pdf">pdf</a>):</font> </b><font
+        color="#000000">If you would like to submit a request for a
+        grade dispute on any of the homeworks or midterm exams, download
+        and fill out this form (read the directions carefully!), then
+        turn it in to Prof. Hancock along with the homeworks and/or
+        midterms that you are contesting any time between the dates of </font><b><font
+          color="#000000"><u>Monday, Nov. 25 to Monday, Dec. 9 at 5pm</u>.</font></b></font><br>
+    <br>
+    <img alt="" src="3797.gif" height="18" width="18"><b><i>Please post
+        any questions about homeworks, course material, lectures,
+        discussions, etc. on our course message board:</i></b> <a
+      href="https://eee.uci.edu/boards/f13/stats120A">https://eee.uci.edu/boards/f13/stats120A</a>
+    rather than emailing your instructor or TA. (You will have to log in
+    to EEE to view the message board). <br>
+    <br>
+    <hr size="2" width="100%">
+    <h2><a name="Course_Syllabus"></a>Course Syllabus<br>
+    </h2>
+    Download the course syllabus <a href="Stat120A-F13-Syllabus.pdf">here</a>.<br>
+    <br>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    DeGroot and Schervich <a
+      href="http://www.stat.cmu.edu/%7Emark/degroot/index.html">webpage</a>,
+    with links to errors in the textbook.<br>
+    <br>
+    <h2><a name="Class_Locations_and_Times"></a>Class Locations and
+      Times</h2>
+    <table border="1" cellpadding="2" cellspacing="2" width="800">
+      <tbody>
+        <tr>
+          <td align="center" valign="top" width="300"><font
+              color="#993300"><b>Lecture A</b></font><br>
+            Mon, Wed, Fri 3:00-3:50pm<br>
+            <a href="http://www.classrooms.uci.edu/GAC/ICS174.html">Information
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              &amp; Computer Science (ICS) 174</a><br>
+            Prof. Stacey Hancock<br>
+            <br>
+          </td>
+          <td valign="top">
+            <table border="1" cellpadding="2" cellspacing="2"
+              width="100%">
+              <tbody>
+                <tr>
+                  <td bgcolor="#00cccc" valign="top" width="250"><b>Discussion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      Section</b><br>
+                  </td>
+                  <td bgcolor="#00cccc" valign="top"><b>Teaching
+                      Assistant</b><br>
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="top" width="250">1: Thurs 2:00-2:50pm, <a
+href="http://www.classrooms.uci.edu/GAC/ICF102.html">ICF 102</a><br>
+                  </td>
+                  <td valign="top">Zhe (Windie) Yu<br>
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="top" width="250">2: Thurs 3:00-3:50am, <a
+href="http://www.classrooms.uci.edu/GAC/ICF102.html">ICF 102</a><br>
+                  </td>
+                  <td valign="top">Zhe (Windie) Yu </td>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p><br>
+    </p>
+    <h2><a name="Instructor_and_Teaching_Assistant_Office"></a>Instructor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      and Teaching Assistant Office Hours</h2>
+    <table border="1" cellpadding="2" cellspacing="2" width="950">
+      <tbody>
+        <tr>
+          <td valign="top"><b>Instructor</b><br>
+          </td>
+          <td colspan="1" rowspan="1" align="center" valign="top"><b>Teaching
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              Assistant</b><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top" width="200"><a
+              href="http://www.ics.uci.edu/%7Estaceyah/">Professor
+              Stacey Hancock</a><br>
+          </td>
+          <td valign="top" width="200">Zhe (Windie) Yu<br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">2204 Donald Bren Hall<br>
+          </td>
+          <td valign="top">Office Hours: DBH 2013<br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">(949)
+            <meta http-equiv="content-type" content="text/html;
+              charset=windows-1252">
+            824-9795 </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">staceyah_at_uci.edu<br>
+          </td>
+          <td valign="top">zhey_at_uci.edu<br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Mon 11am-12:30pm (Stats 7 given preference)<br>
+            Wed 11am-12:30pm (Stats 7 given preference)<br>
+            Thurs 10-11:30am (Stats 120A given preference)<br>
+            <i>or by appointment</i><br>
+          </td>
+          <td valign="top">Tue 3:30-4:15pm<br>
+            Wed 11:15am-12:30pm<br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <h2><a name="R_Commander"></a>R Resources</h2>
+    <p>
+      <meta http-equiv="content-type" content="text/html;
+        charset=windows-1252">
+    </p>
+    <h4><a href="labs/instructions.html">How to write and turn in a lab
+        assignment!</a><br>
+    </h4>
+    <h4>Installing R and Getting Started</h4>
+    <ul>
+      <li> <a
+          href="http://www.ics.uci.edu/%7Elab/students/acct_activate.php">How
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          to get an account to use the ICS Labs</a></li>
+      <li> <a
+          href="http://www.ics.uci.edu/%7Elab/lab_schedule/index.php">ICS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          Lab Hours</a></li>
+      <li> <a href="http://www.r-project.org/">The R Project Homepage</a></li>
+      <li><a
+          href="http://cran.r-project.org/bin/windows/base/rw-FAQ.html">R
+          for Windows FAQ</a></li>
+      <li><a
+          href="http://cran.r-project.org/bin/macosx/RMacOSX-FAQ.html">R
+          for Mac FAQ</a><br>
+      </li>
+    </ul>
+    <h4>Quick R References</h4>
+    <ul>
+      <li><a href="http://people.reed.edu/%7Ejones/141/RRef.html">Jones'
+          R Reference Page</a></li>
+      <li><a
+          href="http://www.cran.r-project.org/doc/contrib/Short-refcard.pdf">Short's
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          R Reference Card</a><br>
+      </li>
+    </ul>
+    <h4>Online R Tutorials and Documentation</h4>
+    <ul>
+      <li><a href="http://cran.r-project.org/doc/FAQ/R-FAQ.html">R FAQ</a></li>
+      <li><a href="http://rwiki.sciviews.org/doku.php">R Wiki</a></li>
+      <li><a
+          href="http://cran.r-project.org/doc/manuals/r-release/R-intro.pdf">An
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          Introduction to R</a></li>
+      <li><a
+          href="http://www.cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf">Verzani's
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          SimpleR Notes</a><br>
+      </li>
+    </ul>
+    <p><b>Even more R webpages recommended by students who have learned
+        R...<br>
+      </b></p>
+    <ul>
+      <li><a href="https://www.codeschool.com/courses/try-r">Codeschool
+          Free Online R Course</a><br>
+      </li>
+      <li><a href="http://www.statmethods.net/">Quick-R Tutorials</a></li>
+      <li><a
+href="https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#r">Free
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          R Programming Manuals</a></li>
+      <li><a
+          href="http://www.quora.com/R-software/What-is-the-best-way-to-learn-R">What
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          is the best way to learn R?</a><br>
+      </li>
+    </ul>
+    <p><b>Books on R</b><br>
+      Two popular introductory books on R are:<br>
+    </p>
+    <ul>
+      <li><a
+          href="http://link.springer.com/book/10.1007/978-0-387-93837-0/page/1"><span
+            style="font-style: italic;">A Beginner's Guide to R</span></a>
+        by Alain F. Zuur, Elena N. Ieno, and Erik Meesters; Springer,
+        2009.</li>
+      <li><a
+          href="http://link.springer.com/book/10.1007/978-0-387-79054-1/page/1"><span
+            style="font-style: italic;">Introductory Statistics with R</span></a>
+        by Peter Dalgaard; Springer, 2008.</li>
+    </ul>
+    <p>These two books can be downloaded for free if you are on the UCI
+      campus network from <a href="http://link.springer.com/">http://link.springer.com/</a>.
+      There are many other books written on R, and a simple search will
+      produce many results. In particular, Springer has a book series of
+      "Use R" books which you can explore <a
+        href="http://link.springer.com/bookseries/6991">here</a>.<br>
+    </p>
+    <p><b>R Studio</b><br>
+      RStudio is a nice user interface for R, and many of my previous
+      students prefer using RStudio over the basic R. It is still
+      command based, but has some nice features like, e.g., keeps track
+      of your plots, easily shows command history, lists objects in the
+      workspace, etc. You can download RStudio <a
+        href="http://www.rstudio.com/ide/download/">here</a>. You must
+      already have R downloaded and installed on your computer.<br>
+    </p>
+    <p><b>Resources for Programming and Python<br>
+      </b></p>
+    <ul>
+      <li><a href="http://www.codecademy.com/">http://www.codecademy.com/</a></li>
+      <li><a href="https://www.udacity.com/">https://www.udacity.com/</a></li>
+      <li><a href="http://learncodethehardway.org/">http://learncodethehardway.org/</a><br>
+      </li>
+      <li><a
+          href="http://resrc.io/list/10/list-of-free-programming-books/">List
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          of Free Programming Books</a><br>
+      </li>
+      <li><a
+href="https://www.edx.org/course/mit/6-00-1x/introduction-computer-science/1122">Online
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          Course on Introduction to Computer Science and Programming
+          Using Python</a></li>
+      <br>
+    </ul>
+    <h2><a name="Multivariate_Calculus_Review_Resources"></a>Multivariate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Calculus Review Resources</h2>
+    <ul>
+      <li>Video tutorials at <a href="http://patrickjmt.com/">http://patrickjmt.com/</a>.
+        Click on "Calculus". Some recommended tutorials:</li>
+      <ul>
+        <li><a
+href="http://patrickjmt.com/multivariable-calculus-finding-and-sketching-the-domain/">Finding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            and Sketching the Domain of a Multivariable Function</a></li>
+        <li><a
+            href="http://patrickjmt.com/derivatives-finding-partial-derivatives/">Partial
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Derivatives</a></li>
+        <li><a
+href="http://patrickjmt.com/calculating-a-double-integral-basic-idea-and-examples/">Double
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Integrals - Basic Idea and Examples</a></li>
+        <li><a
+href="http://patrickjmt.com/double-integrals-changing-order-of-integration/">Double
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Integrals - Changing Order of Integration</a><br>
+        </li>
+      </ul>
+      <li>Free multivariate calculus textbooks:</li>
+      <ul>
+        <li><a href="http://mecmath.net/index.html">Vector Calculus</a>
+          by Corral - Check out Sections 2.1-2.2 on functions of two or
+          three variables and partial derivatives, and Sections 3.1-3.3
+          on multiple integrals.</li>
+        <li><a
+            href="http://people.math.gatech.edu/%7Ecain/notes/calculus.html">Multivariable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Calculus</a> by Cain &amp; Herod - Check out Section 4.1 on
+          derivatives and Chapter 12 on integration.</li>
+      </ul>
+      <li><a
+href="http://www.amazon.com/Schaums-Outline-Advanced-Calculus-Third/dp/0071623663/ref=sr_1_6?s=books&amp;ie=UTF8&amp;qid=1383525894&amp;sr=1-6&amp;keywords=schaum+calculus">Schaum's
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          Outline of Advanced Calculus</a> also comes highly recommended
+        by both students and faculty.</li>
+    </ul>
+    <p><br>
+    </p>
+    <ul>
+    </ul>
+    <h2><a name="Data_Sets"></a>Data Sets</h2>
+    <p>None yet!<br>
+      <br>
+    </p>
+    <h2><a name="Class_Calendar"></a>Class Calendar</h2>
+    <p>This calendar will be updated after each class. Check back
+      periodically for required reading, homework assignments, lecture
+      slides, and extra references.<br>
+    </p>
+    <table border="1" cellpadding="2" cellspacing="2" width="100%">
+      <tbody>
+        <tr>
+          <td bgcolor="#00cccc" valign="top" width="100"><b>Date</b><b><br>
+            </b></td>
+          <td bgcolor="#00cccc" valign="top" width="400"><b>Material
+              Covered</b><b><br>
+              (Tentative schedule; may be updated after each class)<br>
+            </b></td>
+          <td bgcolor="#00cccc" valign="top" width="100"><b>Date HW Due</b><b><br>
+            </b></td>
+          <td bgcolor="#00cccc" valign="top" width="200"><b>Assignment</b><b><br>
+            </b></td>
+        </tr>
+        <tr>
+          <td valign="top">Fri. Sept. 27<br>
+          </td>
+          <td valign="top">Chapter 1 Sections 1.1-1.4.<br>
+            <a href="lectures/Lec1-Sep27-Slides.pdf">Lecture 1 Slides</a><br>
+            <a href="lectures/Lec1-Sep27-Notes.pdf">Lecture 1 Notes</a><br>
+          </td>
+          <td valign="top">Fri. Oct. 4<br>
+          </td>
+          <td valign="top"><a href="homework/HW1.pdf">Homework #1</a><br>
+            (Updated Sun. Sep. 29 at 8:10pm.)<br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion<br>
+          </td>
+          <td valign="top"><font color="#993300"><b>No discussion
+                sections this week.</b></font></td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Week 1:</b><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Mon. Sep. 30<br>
+          </td>
+          <td valign="top">Finish Lecture 1 Notes; Chapter 1 Sections
+            1.5-1.6.<br>
+            <a href="lectures/Lec2-Sep30-Notes.pdf">Lecture 2 Notes</a><br>
+            <a href="handouts/Proof_Guide.pdf">A Brief Guide to Writing
+              Beautiful Mathematical Proofs</a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Wed. Oct. 2<br>
+          </td>
+          <td valign="top">Finish Lecture 2 Notes.<br>
+            <br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Fri. Oct. 4<br>
+          </td>
+          <td valign="top">Chapter 1 Sections 1.7-1.8.<br>
+            <a href="lectures/Lec3-Oct4-Notes.pdf">Lecture 3 Notes</a><br>
+            <br>
+          </td>
+          <td valign="top">Fri. Oct. 11<br>
+          </td>
+          <td valign="top"><a href="homework/HW2.pdf">Homework #2</a><br>
+            (Updated Sun. Oct. 6 at 10:10pm.)<br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion<br>
+          </td>
+          <td valign="top"><b><font color="#993300">Lab #1</font></b>: <a
+              href="labs/lab1/index.html">Introduction to R</a>.<br>
+            <a href="labs/instructions.html">How to write and turn in a
+              lab assignment!</a><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top">Lab #1 due <i>Sat. Oct. 19 by 11:45pm</i> -
+            <i><b>turn in through EEE Dropbox</b></i>.<br>
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Week 2:</b><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Mon. Oct. 7<br>
+          </td>
+          <td valign="top">Finish Lecture 3 Notes; Chapter 1 Sections
+            1.9-1.10.<br>
+            <a href="lectures/Lec4-Oct7-Notes.pdf">Lecture 4 Notes</a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Wed. Oct. 9<br>
+          </td>
+          <td valign="top">Finish Lecture 4 Notes; Start Chapter 2.<br>
+            <a href="lectures/Lec5-Oct9-Notes.pdf">Lecture 5 Notes</a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Fri. Oct. 11<br>
+          </td>
+          <td valign="top">Finish Lecture 5 Notes; Chapter 2 Sections
+            2.1-2.3.<br>
+            <a href="lectures/Lec6-Oct11-Notes.pdf">Lecture 6 Notes</a><br>
+            <a href="handouts/Bayes_Slawson_Shaughnessy-Baby_Jeff.pdf">Teaching
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              Information Mastery: The Case of Baby Jeff and the
+              Importance of Bayes' Theorem</a>, Slawson &amp;
+            Shaughnessy (2002), <i>Family Medicine</i> 34(2): 140-2.<br>
+            <br>
+          </td>
+          <td valign="top">Fri. Oct. 18<br>
+          </td>
+          <td valign="top"><a href="homework/HW3.pdf">Homework #3</a><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion<br>
+          </td>
+          <td valign="top"><a href="handouts/Combinatorics_Problems.pdf">More
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              practice with combinatorics problems</a> (<a
+              href="handouts/Combinatorics_Problems_Solns.pdf">Solutions</a>).<br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Week 3:</b><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Mon. Oct. 14<br>
+          </td>
+          <td valign="top">Chapter 2 Sections 2.1-2.3.<br>
+            <a href="lectures/Lec7-Oct14-Notes.pdf">Lecture 7 Notes</a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Wed. Oct. 16<br>
+          </td>
+          <td valign="top">Chapter 3 Sections 3.1-3.3.<br>
+            <a href="lectures/Lec8-Oct16-Notes.pdf">Lecture 8 Notes</a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Fri. Oct. 18<br>
+          </td>
+          <td valign="top">Finish Lecture 8 Notes; continue Chapter 3
+            Sections 3.1-3.3.<br>
+            <a href="lectures/Lec9-Oct18-Notes.pdf">Lecture 9 Notes</a><br>
+            <br>
+          </td>
+          <td valign="top">Fri. Oct. 25<br>
+          </td>
+          <td valign="top"><a href="homework/HW4.pdf">Homework #4</a><br>
+            (Updated Tue. Oct. 6 at 10:20pm.)<br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion<br>
+          </td>
+          <td valign="top"><b><font color="#993300">Lab #2</font></b>: <a
+              href="labs/lab2/index.html">The Monty Hall Problem</a>.<br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top">Lab #2 due Wed. Oct. 30 by 5pm - <i><b>turn
+                in Part 1 to your TA, and Part 2 through EEE Dropbox</b></i>.
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Week 4:</b><b><br>
+            </b></td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Mon. Oct. 21<br>
+          </td>
+          <td valign="top">Finish Lecture 9 Notes; Chapter 3 Sections
+            3.4-3.7.<br>
+            <a href="lectures/Lec10-Oct21-Notes.pdf">Lecture 10 Notes</a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Wed. Oct. 23<br>
+          </td>
+          <td valign="top">Finish Lecture 10 Notes.<br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Fri. Oct. 25<br>
+          </td>
+          <td valign="top">Catch up and review.<br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion<br>
+          </td>
+          <td valign="top">Review for Midterm Exam 1.<br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Week 5:</b><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Mon. Oct. 28<br>
+          </td>
+          <td valign="top"><font color="#ff0000"><b>MIDTERM 1</b></font><br>
+            <ul>
+              <li><a href="exams/120A-F13-Mid1_Review.pdf">Exam
+                  information and format, material covered on exam, and
+                  practice problems</a></li>
+              <li><font color="#ff0000"><font color="#3333ff"><a
+                      href="exams/120A-F13-Mid1_Review-Solns.pdf">Practice
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      problem solutions</a></font><b><br>
+                  </b></font></li>
+            </ul>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Wed. Oct. 30<br>
+          </td>
+          <td valign="top">Chapter 3 Sections 3.4-3.7.<br>
+            <a href="lectures/Lec11-Oct30-Notes.pdf">Lecture 11 Notes</a><br>
+            <br>
+          </td>
+          <td valign="top"><i><b>Thurs. Nov. 7<br>
+                by 5pm<br>
+              </b></i> </td>
+          <td valign="top"><a href="homework/HW5.pdf">Homework #5</a><br>
+            (Updated Fri. Nov. 1 at 2:00pm.) </td>
+        </tr>
+        <tr>
+          <td valign="top">Fri. Nov. 1<br>
+          </td>
+          <td valign="top">Chapter 3 Sections 3.4-3.7.<br>
+            <a href="lectures/Lec12-Nov1-Notes.pdf">Lecture 12 Notes</a>
+            (Updated Nov. 5 at 11:45am)<br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion<br>
+          </td>
+          <td valign="top"><font color="#993300"><b>Lab #3</b></font>: <a
+              href="labs/lab3/index.html">Probability Distributions and
+              Graphics in R</a>.<br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top">Lab #3 due Wed. Nov. 13 by 5pm - <i><b>turn
+                in through EEE Dropbox</b></i>. <br>
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Week 6:</b><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Mon. Nov. 4<br>
+          </td>
+          <td valign="top">Chapter 4 Sections 4.1-4.2.<br>
+            <a href="lectures/Lec13-Nov4-Notes.pdf">Lecture 13 Notes</a>
+            (Updated Nov. 6 at 2:30pm)<br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Wed. Nov. 6<br>
+          </td>
+          <td valign="top">Finish Lecture 13 Notes; Chapter 4 Section
+            4.3.<br>
+            <a href="lectures/Lec14-Nov6-Notes.pdf">Lecture 14 Notes</a><br>
+            <br>
+          </td>
+          <td valign="top">Fri. Nov. 15<br>
+          </td>
+          <td valign="top"><a href="homework/HW6.pdf">Homework #6</a><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Fri. Nov. 8<br>
+          </td>
+          <td valign="top">No class - make-up lecture given in this
+            week's discussion.<br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion<br>
+          </td>
+          <td valign="top"><b>Make-up lecture: </b>Chapter 4 Section
+            4.3.<br>
+            <a href="lectures/Lec15-Nov7-Notes.pdf">Lecture 15 Notes</a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Week 7:</b><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Mon. Nov. 11<br>
+          </td>
+          <td valign="top"><b><font color="#993300">Veteran's Day: No
+                class</font></b><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Wed. Nov. 13<br>
+          </td>
+          <td valign="top">Chapter 4 Section 4.4.<br>
+            <a href="lectures/Lec16-Nov13-Notes.pdf">Lecture 16 Notes</a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><font color="#6600cc"><font color="#000000"><br>
+              </font></font> </td>
+        </tr>
+        <tr>
+          <td valign="top">Fri. Nov. 15<br>
+          </td>
+          <td valign="top">Chapter 4 Section 4.6.<br>
+            <a href="lectures/Lec17-Nov15-Notes.pdf">Lecture 17 Notes</a><br>
+            <br>
+          </td>
+          <td valign="top">Fri. Nov. 22<br>
+          </td>
+          <td valign="top"><a href="homework/HW7.pdf">Homework #7</a><br>
+            (Updated Sun. Nov. 17 at 9pm.)<br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion<br>
+          </td>
+          <td valign="top"><font color="#993300"><b>Lab #4</b></font><font
+              color="#993300"><font color="#993300"><font
+                  color="#000000">: </font></font></font><a
+              href="labs/lab4/index.html">Applications of Expected Value</a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top">Lab #4 due Wed. Nov. 27 by 5pm - <i><b>turn
+                in through EEE Dropbox</b></i>. </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Week 8:</b><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Mon. Nov. 18<br>
+          </td>
+          <td valign="top">Finish Lecture 17 Notes; Chapter 4 Section
+            4.7.<br>
+            <a href="lectures/Lec18-Nov18-Notes.pdf">Lecture 18 Notes</a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Wed. Nov. 20<br>
+          </td>
+          <td valign="top">Finish Section 4.7.<br>
+            <a href="lectures/Lec19-Nov20-Notes.pdf">Lecture 19 Notes</a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Fri. Nov. 22<br>
+          </td>
+          <td valign="top"><font color="#ff0000"><font color="#000000">Catch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                up and review for Midterm Exam 2.<br>
+                <br>
+              </font></font></td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion<br>
+          </td>
+          <td valign="top"><font color="#993300"><font color="#000000">Review
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                for Midterm Exam 2.<br>
+                <br>
+              </font></font> </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Week 9:</b><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Mon. Nov. 25<br>
+          </td>
+          <td valign="top"><font color="#ff0000"><b>MIDTERM 2<br>
+              </b></font>
+            <ul>
+              <li><a href="exams/120A-F13-Mid2_Review.pdf">Exam
+                  information and format, material covered on exam, and
+                  practice problems</a><br>
+              </li>
+              <li><a href="exams/120A-F13-Mid2_Review-Solns.pdf">Practice
+
+
+
+
+
+
+
+
+                  problem solutions</a><br>
+              </li>
+            </ul>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Wed. Nov. 27<br>
+          </td>
+          <td valign="top">Chapter 3 Sections 3.8-3.9. Start Ch. 5.<br>
+            <a href="lectures/Lec20-Nov26-Notes.pdf">Lecture 20 Notes</a><br>
+            Probability Distribution Supplement (handed out during
+            lecture)<br>
+            <br>
+          </td>
+          <td valign="top">Fri. Dec. 6<br>
+          </td>
+          <td valign="top"><a href="homework/HW8.pdf">Homework #8</a>
+            (Updated Wed. Dec. 4 at 4:45pm.)<br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Fri. Nov. 29<br>
+          </td>
+          <td valign="top"><font color="#993300"><b>Thanksgiving
+                Holiday: No class</b></font> </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion<br>
+          </td>
+          <td valign="top"><font color="#993300"><b>No discussion
+                sections this week.<br>
+                <br>
+              </b></font></td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Week 10:</b><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Mon. Dec. 2<br>
+          </td>
+          <td valign="top">Chapter 5 Sections 5.1-5.5.<br>
+            <a href="lectures/Lec21-Dec2-Notes.pdf">Lecture 21 Notes</a><br>
+            Practice Identifying Probability Models (handed out during
+            lecture)<br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Wed. Dec. 4<br>
+          </td>
+          <td valign="top">Finish Lecture 21 Notes; Chapter 5 Section
+            5.6.<br>
+            <a href="lectures/Lec22-Dec4-Notes.pdf">Lecture 22 Notes</a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Fri. Dec. 6<br>
+          </td>
+          <td valign="top">Catch up and review for Final Exam.<br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion<br>
+          </td>
+          <td valign="top">Review for final exam.<br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Final Exam:</b><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"> Mon. Dec. 9 4:00-6:00pm in
+            ICS 174<br>
+            <ul>
+              <li><a href="exams/120A-Final-Info.pdf">Information for
+                  the final exam</a><br>
+              </li>
+            </ul>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <ul>
+    </ul>
+    <h2> </h2>
+    <h2><a name="Lab_Solutions"></a>Lab Solutions</h2>
+    <table border="1" cellpadding="2" cellspacing="2" width="600">
+      <tbody>
+        <tr>
+          <td valign="top"><b>Lab</b><b><br>
+            </b></td>
+          <td valign="top"><b>Solutions</b><b><br>
+            </b></td>
+        </tr>
+        <tr>
+          <td valign="top">Lab 1<br>
+          </td>
+          <td valign="top">R Code: <a href="labs/Lab1Solns.R">Lab1Solns.R</a><br>
+            Lab Write-up: <a href="labs/Lab1Solns.docx">Lab1Solns.docx</a><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Lab 2<br>
+          </td>
+          <td valign="top">R Code: <a href="labs/Lab2Solns.R">Lab2Solns.R</a><br>
+            Lab Write-up: <a href="labs/Lab2Solns.docx">Lab2Solns.docx</a><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Lab 3<br>
+          </td>
+          <td valign="top">R Code: <a href="labs/Lab3Solns.R">Lab3Solns.R<br>
+            </a>Lab Write-up: <a href="labs/Lab3Solns.docx">Lab3Solns.docx</a><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Lab 4<br>
+          </td>
+          <td valign="top">R Code: <a href="labs/Lab4Solns.R">Lab4Solns.R</a><br>
+            Lab Write-up: <a href="labs/Lab4Solns.docx">Lab4Solns.docx</a><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p><br>
+    </p>
+    <h2><a name="Midterm_Exam_Solutions"></a> Midterm Exam Solutions</h2>
+    <p><a href="exams/120A-Midterm1-F13-Solns.pdf">Midterm 1 Exam
+        Solutions and Grading Instructions</a> (Versions A and B)<br>
+    </p>
+    <p><a href="exams/120A-Midterm2-F13-Solns.pdf">Midterm 2 Exam
+        Solutions and Grading Instructions</a> (Versions A and B)<br>
+    </p>
+    <p><br>
+    </p>
+    <p> </p>
+    <p> </p>
+  </body>
+</html>
+

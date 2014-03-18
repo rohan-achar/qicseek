@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>EVOKE Lab &#187; Norma Möllers</title>
+	<atom:link href="http://evoke.ics.uci.edu/author/nmollers/feed/" rel="self" type="application/rss+xml" />
+	<link>http://evoke.ics.uci.edu</link>
+	<description></description>
+	<lastBuildDate>Fri, 22 Nov 2013 21:32:34 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>My day as a data dealer</title>
+		<link>http://evoke.ics.uci.edu/my-day-as-a-data-dealer/</link>
+		<comments>http://evoke.ics.uci.edu/my-day-as-a-data-dealer/#comments</comments>
+		<pubDate>Thu, 31 Oct 2013 00:42:13 +0000</pubDate>
+		<dc:creator><![CDATA[Norma Möllers]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">http://evoke.ics.uci.edu/?p=674</guid>
+		<description><![CDATA[A while back I stumbled upon a browser game which in some ways could be considered an attempt to gamify privacy literacy. Gamification in the context of surveillance usually means the exploitation of the pleasures of play in order to collect and sell data, i.e. in fitness or productivity apps. In a somewhat similar vein,(...)]]></description>
+				<content:encoded><![CDATA[<p>A while back I stumbled upon a <a href="http://datadealer.com/play/">browser game</a> which in some ways could be considered an attempt to gamify privacy literacy. Gamification in the context of surveillance usually means the exploitation of the pleasures of play in order to collect and sell data, i.e. in fitness or productivity apps. In a somewhat similar vein, <a href="http://datadealer.com/team">a group of web developers/hacktivists</a> based in Vienna, Austria, set out to make education about privacy issues more interesting and pleasurable (but I suspect they don’t want to sell the players’ data). The media reactions made me curious, so I spent one Sunday afternoon trying to experience the dark pleasures of big data.</p>
+<p>The game’s idea is to enable people to gain a better understanding about what institutions, organizations, and people collect personal data; and why and for what purposes they use it. In order to do so, the players have to embrace the “dark values” of the database (which by the way looks like a hybrid between a vacuum cleaner and a vault, see screenshot) and become mean capitalist data dealers themselves.</p>
+<p><a href="http://evoke.ics.uci.edu/my-day-as-a-data-dealer/screenshot-2013-10-27-22-57-10/" rel="attachment wp-att-680"><img class="alignnone size-full wp-image-680" alt="data dealer screenshot" src="http://evoke.ics.uci.edu/wp-content/uploads/2013/10/Screenshot-2013-10-27-22.57.10.png" width="781" height="568" /></a></p>
+<p>I started out my existence as a data dealer with some cash to bribe nurses and tanning salon clerks into releasing customer profiles; some websites (i.e. an online dating site) which allowed me to manipulate profile data; and about a million profiles which were contained in the vault. The main goal was to collect as many profiles as possible and to become filthy rich in the process. In order to make money, I had to sell the collected profiles to different organizations, i.e. health insurance companies and national security organizations.</p>
+<p>However, these organizations were interested in different data – the security agency required information about political orientation, whereas the health care companies were more interested in weight and diet. The game thus creates an incentive to collect only specific kinds of information, to construct profiles which cater to the needs of corporations and bureaucracies. Thereby, the player understands that information has different value to different organizations, and that the profiles’ “completeness” increases their market value.</p>
+<p>The game is sometimes funny, sometimes really smart, and mostly cynical. For example, when I made too many risky deals with shady sources, I was prompted to invest into an image campaign in order to smooth over protests by “youthful data protection activists”. If the game’s purpose is educational, I wonder if the developers really want people to learn that public opinion is hugely irrelevant. Some other things were missing for me, too. For example, when I imported new profiles into my database, I was informed that new information would be integrated into existing profiles “using complicated mathematical methods”. Again, with the educational purpose in mind, I would have wished for more possibilities to tinker with these “mysterious methods”, in order to think about things like algorithms and data mining. To be fair, this was only the demo version, and the full version will probably (hopefully!) include features allowing for such tinkering.</p>
+<p>Finally, what about the pleasure? Whereas the game really made me smile in the beginning, after a while I caught myself getting into a sort of blind data collection frenzy. But at the end of the day, I still hadn’t arrived at collecting even half of all possible profiles, and I hadn’t made much money, either. Two other things I’ve learnt, thus, are that dealing data gets really boring after a while, and that I’m not a very good information capitalist. Still, I believe that in terms of pleasurable education the game could be a really nice teaching resource to stimulate classroom discussions about some of the implications of big data.</p>
+<div class="post-video"><iframe width="500" height="281" src="http://www.youtube.com/embed/x2eCAgQ1DTo?wmode=transparent?feature=oembed" frameborder="0" allowfullscreen></iframe></div>
+]]></content:encoded>
+			<wfw:commentRss>http://evoke.ics.uci.edu/my-day-as-a-data-dealer/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

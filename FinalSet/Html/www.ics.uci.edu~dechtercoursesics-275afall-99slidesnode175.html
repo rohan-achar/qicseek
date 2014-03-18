@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> The Code Heap</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" The Code Heap">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html4350 HREF="node176.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html4348 HREF="node174.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html4342 HREF="node174.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html4352 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html4351 HREF="node176.html"> The General Heap</A>
+<B>Up:</B> <A NAME=tex2html4349 HREF="node174.html"> Introduction</A>
+<B> Previous:</B> <A NAME=tex2html4343 HREF="node174.html"> Introduction</A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION001511000000000000000> The Code Heap</A></H2>
+<P>
+<A NAME=2715>&#160;</A>
+<A NAME=2716>&#160;</A>
+The code heap is used to store compiled Prolog code and external predicates.
+Consequently its size is increased by the various compile-predicates,
+the assert-family and by load/1.
+<P>
+Space on the code heap is freed when single clauses (retract) or
+whole predicates (abolish) are removed from the system.
+Note that space reclaiming is usually delayed in these cases, since the
+removed code may still be under execution. 
+Erasing a module also reclaims all the memory occupied by the module's
+predicates.
+<P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

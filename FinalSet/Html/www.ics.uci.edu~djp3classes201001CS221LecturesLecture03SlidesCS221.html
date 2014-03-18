@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="description" content="Web Search Basics Introduction to Information Retrieval CS 221 Donald J. Patterson Content adapted from Hinrich Schütze http://www.informationretrieval.org  Introduction Classic Information Retrieval Web IR Sponsored Search Web Search Basics Size of the Web Web Users Spam Overview Overview  User Search Needs in Brod02/RL04  Informational Want to learn about something (~40%/65%) Navigational Want to go to that page (~25%/15%) Transactional Want to do something (~35%/20%) Access a service, download, shop Others? Exploration, social, etc... Web Users  Web Users  Make ill defined queries Short Allegedly in 2009: 3-4 terms (lots of nuance) Average in 2001: 2.54 terms (80% &lt; 3 words) Average in 1998: 2.35 terms (88% &lt; 3 words) [Silv98] Imprecise terms Suboptimal syntax (no operators) Low effort (spelling mistakes) Web Users  Web Users  Wide Variance in Needs Expectations Knowledge Bandwidth Web Users  Web Users  Behavior 85% look over one result screen only 78% of queries are not modified Follow links (“the scent of information”) Web Users  Power law Few popular broad queries Many rare specific queries Web Users  Top queries Most are related to sex 2008 Who What How (Google)        http://www.google.com/intl/en/press/zeitgeist2008/mind.html Web Users  Top queries Live demo - WARNING this is not very safe.... “Is it safe to” “Is it legal to” “why does” “why doesn’t “why is there” “why isn’t” “americans are”  Web Users  How far do people look for results? Web Users  True Example * Web Users “To Google or to GoTo” Business Week Online 9/28/2001  How do users evaluate search engines? Quality of pages Classic IR relevance Also important: Trust Duplicate elimination Readability Fast Access No pop-ups Web Users  How do users evaluate search engines? Precision is more important than recall Precision: How precise is a portal in locating relevant results? Recall How thorough is the coverage of available relevant results? Precision with 1 result, 10 results, 2-3 pages of results. When is recall important? Web Users  How do users evaluate search engines? Recall is sometimes important: Googling for a new doctor Googling a prospective employee Googling your date Web Users  How do users evaluate search engines? Good U/I Simple No Clutter Pre and post processing tools Spell check (“Did you mean ....?”) Suggested alternative searches Links to resources (maps, images, stock quotes) Able to deal with typical behavior e.g., a URL typed into a search box Web Users  Loyalty to a given search engine iProspect Survey 4/2004 Web Users  Introduction Classic Information Retrieval Web IR Sponsored Search Web Search Basics Size of the Web Web Users Helping the User Spam  Overview Overview  True Example * Helping the user “To Google or to GoTo” Business Week Online 9/28/2001  Answering “the need behind the query” The query is often an imprecise indicator of what the user really wants What can we do to get a better handle on the underlying information need? Query language Adjust rank of English results for a Japanese query Use user context In particular geographic context Helping the user  Answering “the need behind the query” Guess what type of information the user wants a web page? a map? a stock price? what else? Correct queries Suggest correct spellings Suggest related searches (google-fu) Helping the user  Examples - language Helping the user  Examples - query spelling Helping the user  Examples - query expansion Helping the user  Query shortcuts Map: “irvine, ca 92614” Calculation: “5+4” Flight Info: “american airlines 715” Stock price: “msft” Unit conversion: “1 dollar in euro” Music: “White Stripes” Helping the user  Query shortcuts taken to the extreme Helping the user  Examples - query shortcuts Helping the user  Examples - query shortcuts Helping the user  Examples - query aggregations Helping the user  Context Context determination Spatial  User Location IP geocoding cell phone localization User input (“make this my home”) Web page location Target Location “SNA” maps to a latitude and longitude Helping the user  Context Query Stream Previous queries have influence Personal Search Your profile and history have influence Explicit You choose to use a vertical search engine Helping the user  Context Implicit Context google.fr is the default in france  User Location and Target Location Helping the user  Context Use Restrict Results / Delete inappropriate results Rerank results based on context Change the content presentation Language etc. Specifying a context is built into some of the search APIs  Helping the user  Context Transfer Move Search Context with the User Helping the user  Introduction Classic Information Retrieval Web IR Sponsored Search Web Search Basics Size of the Web Web Users Helping the User Spam  Overview Overview  The trouble with paid placement (aka ads): It costs money... so instead Search Engine Optimization (“SEO”) define: “Tuning” your web page to rank highly in the search results for select queries Alternative to paying for placement It is marketing.  Getting your content to your audience. Spam  Search Engine Optimization Motives Commercial Political Religious Lobbying Who does this? Internally: webmasters Commercially: companies, consultants Hosting services Spam  Search Engine Optimization Learn more about how to do it online: Web-Master World http://www.webmasterworld.com Search Engine Specific Tricks Discussions about academic papers and results Spam"/>
+    <title></title>
+    <script type="text/javascript" language="javascript">
+//      <![CDATA[
+            var images = new Array (37);
+            images[0] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.001.png";
+            images[1] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.002.png";
+            images[2] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.003.png";
+            images[3] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.004.png";
+            images[4] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.005.png";
+            images[5] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.006.png";
+            images[6] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.007.png";
+            images[7] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.008.png";
+            images[8] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.009.png";
+            images[9] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.010.png";
+            images[10] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.011.png";
+            images[11] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.012.png";
+            images[12] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.013.png";
+            images[13] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.014.png";
+            images[14] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.015.png";
+            images[15] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.016.png";
+            images[16] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.017.png";
+            images[17] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.018.png";
+            images[18] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.019.png";
+            images[19] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.020.png";
+            images[20] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.021.png";
+            images[21] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.022.png";
+            images[22] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.023.png";
+            images[23] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.024.png";
+            images[24] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.025.png";
+            images[25] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.026.png";
+            images[26] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.027.png";
+            images[27] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.028.png";
+            images[28] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.029.png";
+            images[29] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.030.png";
+            images[30] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.031.png";
+            images[31] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.032.png";
+            images[32] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.033.png";
+            images[33] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.034.png";
+            images[34] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.035.png";
+            images[35] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.036.png";
+            images[36] = "Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.037.png";
+            var index = 0;
+            function WindowLoaded(evt)
+            {
+                document.body.onselectstart = function () { return false; };
+            }
+            function Step(i)
+            {
+                GoTo(index + i)
+            }
+            function GoTo(newIndex)
+            {
+                if(newIndex >= 0 && newIndex < images.length)
+                {
+                    index = newIndex;
+                    document.Slideshow.src = images[index];
+                }
+            }
+//      ]]>
+    </script>
+</head>
+<body bgcolor="black" onload='WindowLoaded(event);'>
+    <p align="center">
+        <br/>
+        <br/>
+        <img name="Slideshow" alt="" src="Lecture03_Slides_CS221_files/Lecture03_Slides_CS221.001.png" onclick="Step(1)"/>
+        <br/>
+        <br/>
+        <input type="image" src="Lecture03_Slides_CS221_files/home.png" onclick="GoTo(0)"/>
+        &nbsp;&nbsp;&nbsp;
+        <input type="image" src="Lecture03_Slides_CS221_files/prev.png" onclick="Step(-1)"/>
+        <input type="image" src="Lecture03_Slides_CS221_files/next.png" onclick="Step(1)"/>
+    </p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

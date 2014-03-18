@@ -1,0 +1,910 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=PowerPoint.Slide>
+<meta name=Generator content="Microsoft PowerPoint 10">
+<link id=Main-File rel=Main-File href="../GameLab.htm">
+<link rel=Preview href=preview.wmf>
+<meta name=Robots content=NoIndex>
+<script src=script.js></script><script><!--
+if( !(IsWin("PPTOtl")||IsWin("PPTNav")||IsWin("PPTOtlNav")) )
+{
+	obj = GetObj("Main-File")
+	parent.location.href=obj.href
+}
+var gOtlHiliteClr="#ffffff",gOtlNormalClr="#000000",gOtlActiveClr="#ffff00",gSelected="",gTxtState=false,gChildEntryTable=new Array()
+function Load()
+{
+	if( IsWin("PPTOtl" ) ){ LoadOtl(); parent.gOtlLoaded=true; return }
+	if( g_supportsPPTHTML ) {
+		if( IsWin("PPTNav" ) ){ LoadNav("NavObj",UpdNav); parent.gNavLoaded=true; return }
+		if( IsWin("PPTOtlNav" ) ){ LoadNav("OtlNavObj",UpdOtlNav); parent.gOtlNavLoaded=true; return }
+	}
+}
+function Upd(){ if( IsWin("PPTNav") ) LoadNav("NavObj",UpdNav) }
+function LoadNav( oId,UpdFunc )
+{
+	document.ondragstart=CancelDrag
+	document.onselectstart=CancelDrag
+	document.body.style.margin=2
+	UpdFunc()
+	obj=document.all.item(oId)
+	obj.style.display="block"
+	obj.style.visibility="visible"
+	document.bgColor="threedface"
+	if( parent.frames["PPTNts"] )
+		notesBtn.style.display = ""
+	if( parent.gHasNarration )
+		nb_voiceBorder.style.display = ""
+}
+function LoadOtl()
+{
+	var otl=GetObj("OtlObj")
+	otl.style.display="block"
+	otl.style.visibility="visible"
+	if( gOtlActiveClr == "" ) gOtlActiveClr=document.linkColor
+	if( gOtlHiliteClr == "" ) gOtlHiliteClr=document.fgColor
+	if( gOtlNormalClr == "" )
+		gOtlNormalClr=document.bgColor
+	else
+		document.bgColor=gOtlNormalClr
+	InitArray()
+	if( ObjExists( parent.gCurSld ) ) {
+		ChangeState( parent.gCurSld,gOtlNormalClr,gOtlHiliteClr )
+		gSelected=parent.gCurSld
+	}
+	else gSelected = -1
+	UpdOtl()
+}
+function UpdOtl(){ UpdIdx(parent.gCurSld) }
+function UpdIdx( idx )
+{
+	if( gSelected != idx ) {
+		if( gSelected > 0 )
+			ChangeState( gSelected,gOtlHiliteClr,gOtlNormalClr )
+		if( ObjExists( idx ) ) {
+			gSelected = idx
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+		}
+		else gSelected = -1
+	}
+	if( gTxtState != parent.gOtlTxtExp ) {
+		state = "block"
+		if( !parent.gOtlTxtExp )
+			state="none"
+		for(ii=0; ii<gChildEntryTable.length; ii++) {
+			obj=gChildEntryTable[ii];
+			if( obj.id == null ) continue;
+			if( obj.id.indexOf("PPTC") >= 0 )
+				obj.style.display=state;
+		}
+		gTxtState=parent.gOtlTxtExp
+		if( ObjExists( gSelected ) )
+			ChangeState( gSelected,gOtlNormalClr,gOtlHiliteClr )
+	}
+}
+function InitArray()
+{
+	count=0
+	var list=GetTags(document,"DIV");
+	for(ii=0; ii<list.length; ii++) {
+		obj=list.item(ii)
+		if( obj.id == null ) continue
+		if( obj.id.indexOf("PPTC") >= 0 )
+			gChildEntryTable[count++]=obj
+	}
+}
+function ChangeState( idx,fgColor,bgColor )
+{
+	obj=GetObj("PPTL"+idx)
+	obj.style.color=fgColor
+	obj=GetObj("PPTP"+idx)
+	obj.style.backgroundColor=bgColor
+}
+function ChgClr( o,clr ){ if( o.id != "PPTL"+gSelected ) o.style.color=clr }
+function Over( src ){ ChgClr(GetLink(src),gOtlActiveClr) }
+function Out( src ){ ChgClr(GetLink(src),gOtlHiliteClr) }
+function Follow(src){ window.location.href = GetLink(src).href; }
+function ObjExists( ii ) { obj=GetObj("PPTP"+ii ); return( obj ) }
+function GoToSld( href ){ UpdIdx(parent.GetSldNum(href)); parent.GoToSld( href ) }
+function CancelDrag(){ window.event.cancelBubble=true;window.event.returnValue=false}
+function GetLink(src)
+{
+   if(src.tagName=="A") return src
+   else return GetTags(src,"A").item(0)
+}
+function UpdNav()
+{
+	txt = "<center>";
+	if( parent.GetHrefObj( parent.gCurSld ).mOrigVis == 1 )
+		txt += "Slide " + parent.GetCurSldNum() + " of " + parent.GetNumSlds()
+	else
+		txt += "Hidden Slide"
+	txt += "</center>";
+	nav_text.innerHTML = txt;
+	if( !parent.HasPrevSld() )
+		gBtnArr["nb_prev"].Enabled(0)
+	else
+		gBtnArr["nb_prev"].Enabled(1)
+	if( !parent.HasNextSld() )
+		gBtnArr["nb_next"].Enabled(0)
+	else
+		gBtnArr["nb_next"].Enabled(1)
+	gBtnArr["nb_nts"].SetEnabled()
+	gBtnArr["nb_nts"].SetFlag( parent.gHasNts )
+	gBtnArr["nb_sldshw"].Enabled(1)
+	gBtnArr["nb_voice"].Enabled(1)
+}
+function UpdOtlNav()
+{
+	gBtnArr["nb_otl"].SetEnabled();
+	if( parent.gOtlOpen )
+		gBtnArr["nb_otlTxt"].Enabled( true );
+	else
+		document.all.item("nb_otlTxtBorder").style.visibility = "hidden";
+}
+
+//--></script>
+<style>
+<!--.PTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;
+	padding-left:2px;
+	font-weight:bold;}
+.CTxt
+	{position:relative;
+	width:100%;
+	margin-top:5px;}
+a
+	{color:white;
+	text-decoration:none;}
+ul
+	{color:white;
+	margin-bottom:0px;
+	margin-left:20px;}
+.sldNum
+	{margin-top:5px;
+	color:white;}
+.button
+	{position:absolute;
+	width:32px;
+	height:20px;
+	border-style:solid;
+	border-width:1px;
+	border-color:threedface;}
+-->
+</style>
+</head>
+
+<body onload="Load()" style='margin:2px'>
+
+<div id=NavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="_KPH()" style='display:none;visibility:hidden'>
+<table id="notesBtn" style='position:absolute;display:none;width:70px' align=left cellpadding=0
+ cellspacing=0>
+ <td nowrap>
+ <div id="nb_ntsElem" align=center style='position:relative;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt'><img src="notes_flag.gif"
+ border=0 id="notes_flag" style='display:none'><span
+style='mso-spacerun:yes'>� </span>Notes</div>
+ <div title="Show/Hide Notes" id="nb_nts" style='position:absolute;top:0%;
+ left:0%;width:100%;height:100%'></div>
+ </td>
+</table>
+
+<table style='position:relative;width:70px' align=right cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_sldshwText" title="Full
+Screen Slide Show" align=center style='position:relative;margin-left:20px;padding:3px;
+ font-family:Arial;color:buttontext;font-size:9pt;cursor:default'>Slide
+Show</div>
+ <div id="nb_sldshwBorder" title="Full Screen Slide Show" style='position:absolute;top:0%;left:0%;width:100%;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_sldshw" style='position:relative;left:-254px'></div>
+ </div>
+ </td>
+ <td>
+ <div id="nb_voiceBorder" style='display:none;position:absolute;top:0;left:-40px;
+ width:20px;height:20px'>
+ <div style='position:absolute;clip:rect(0px, 18px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_voice" title="Pause/Play Narration" style='position:
+ relative;left:-290px'></div>
+ </div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td nowrap>
+ <div id="nb_prevBorder" class=button style='left:-30px'>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_prev" title="Previous Slide" style='position:relative;
+ left:0px'></div>
+ </div>
+ <span id="nav_text" style='position:relative;top:3px;width:100px;font-family:
+ Arial;color:buttontext;font-size:9pt'></span>
+ <div id="nb_nextBorder" class=button>
+ <div style='position:absolute;clip:rect(0px, 30px, 18px, 0px)'><img
+ src="buttons.gif" id="nb_next" title="Next Slide" style='position:relative;
+ left:-90px'></div>
+ </div>
+ </td>
+</table>
+</div>
+
+<div id=OtlNavObj onload="Load()" onmouseover="BtnOnOver()"
+onmousedown="BtnOnDown()" onmouseout="BtnOnOut()" onmouseup="BtnOnUp()"
+onkeypress="_KPH()" style='display:none;visibility:hidden'>
+
+<table style='position:relative;width:70px' align=left cellpadding=0 cellspacing=0>
+ <td nowrap><div title="Show/Hide
+Outline" id="nb_otl"
+ style='position:absolute;top:0%;left:0%;width:100%;height:100%;cursor:default'>
+ <div id="nb_otlElem" align=center style='position:relative;padding:3px;font-family:Arial;
+ color:buttontext;font-size:9pt'>Outline</div></div>
+ </td>
+</table>
+
+<table style='position:relative' align=center cellpadding=0 cellspacing=0>
+ <td>
+ <div style='position:absolute;left:-18px;width:24px;height:20px;border-style:
+ solid;border-width:1px;border-color:threedface' id="nb_otlTxtBorder">
+ <div style='position:absolute;clip:rect(0px, 22px, 18px, 0px)'><img
+ src=buttons.gif id="nb_otlTxt" title="Expand/Collapse Outline"
+ style='position:relative;left:-157px'></div>
+ </div>
+ </td>
+</table>
+
+</div>
+
+<div id=OtlObj style='display:none;visibility:hidden;'>
+
+
+<table width="100%" style='font-family:Arial;font-size:9pt'>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>1</font></div>
+  </td>
+  <td width="100%">
+  <div id=PPTP1 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0001.htm');" id=PPTL1>Research Program at
+  the<span style='mso-spacerun:yes'>���� </span>UCI Game Lab</a></font></div>
+  <div id=PPTC1 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Walt Scacchi</li>
+   <li>UCI Game Lab</li>
+   <li>and</li>
+   <li>Institute for Software Research</li>
+   <li>UCIrvine</li>
+   <li>Wscacchi@uci.edu</li>
+   <br>
+   <br>
+   <li>http://www.ics.uci.edu/~wscacchi/Presentations/GameLab</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>2</font></div>
+  </td>
+  <td>
+  <div id=PPTP2 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0002.htm');" id=PPTL2>Overview</a></font></div>
+  <div id=PPTC2 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Research Problems</li>
+   <li>Approach</li>
+   <li>Related efforts</li>
+   <li>Conclusions</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>3</font></div>
+  </td>
+  <td>
+  <div id=PPTP3 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0031.htm');" id=PPTL3>Game World Stats</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>4</font></div>
+  </td>
+  <td>
+  <div id=PPTP4 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0004.htm');" id=PPTL4>Motivation</a></font></div>
+  <div id=PPTC4 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>The Game Grid</li>
+   <ul>
+    <li>a networked, clustered computing environment<span
+        style='mso-spacerun:yes'>�� </span>for researching, developing, playing
+        and<span style='mso-spacerun:yes'>������������� </span>experiencing
+        next generation (and beyond)<span style='mso-spacerun:yes'>��������
+        </span>computer games and game worlds</li>
+    <li>Not just Web services framework and computing grid fabric</li>
+    <li>But a testbed, archive, and venue for new ways<span
+        style='mso-spacerun:yes'>� </span>of developing, deploying, and
+        performing<span style='mso-spacerun:yes'>� </span>game- based synthetic
+        or mixed reality environments<span style='mso-spacerun:yes'>��
+        </span>across a variety of (heterogeneous) platforms</li>
+   </ul>
+   <li>See http://www.calit2.net/meta-game/</li>
+   <br>
+   <br>
+   <ul>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>5</font></div>
+  </td>
+  <td>
+  <div id=PPTP5 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0005.htm');" id=PPTL5>(One) Research problem</a></font></div>
+  <div id=PPTC5 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>What is the best way to rapidly create<span
+       style='mso-spacerun:yes'>�������� </span>networked game worlds and play
+       experience?</li>
+   <ul>
+    <li>�best� =&gt;</li>
+    <ul>
+     <li>faster, better, cheaper</li>
+     <li>open source (e.g., BSD style license)</li>
+     <li>(global) community-based development, contribution and support</li>
+     <li>Fun, enjoyable, intrinsically motivating, disruptive, etc.</li>
+    </ul>
+   </ul>
+   <li>modification, construction, or generation?</li>
+   <ul>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>6</font></div>
+  </td>
+  <td>
+  <div id=PPTP6 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0006.htm');" id=PPTL6>Proposed solutions</a></font></div>
+  <div id=PPTC6 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Modification</li>
+   <ul>
+    <li>Hack existing game content, levels, engine</li>
+    <li>Repurpose content/data from other sources</li>
+   </ul>
+   <li>Generation</li>
+   <ul>
+    <li>Parameter value instantiation</li>
+    <li>Macro expansion</li>
+    <li>Language-directed (game) application generation</li>
+    <li>Meta-environments tailored for (game) domain</li>
+   </ul>
+   <li>Construction</li>
+   <ul>
+    <li>Scripting (UnrealScript vs. c-shell/Perl/Php/�)</li>
+    <li>Custom programming using SDK and other tools</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>7</font></div>
+  </td>
+  <td>
+  <div id=PPTP7 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0007.htm');" id=PPTL7>Proposed solutions:
+  evaluation</a></font></div>
+  <div id=PPTC7 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Modification and construction</li>
+   <ul>
+    <li>Current/legacy (low-level) approach</li>
+    <li>Limited scalability</li>
+    <li>Rehosting, heterogeneity, interoperability are usually difficult and
+        costly</li>
+    <li>Can be open source and community-based</li>
+    <li>Motivating for emerging game developers</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>8</font></div>
+  </td>
+  <td>
+  <div id=PPTP8 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0008.htm');" id=PPTL8>Proposed solutions:
+  evaluation</a></font></div>
+  <div id=PPTC8 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Generation</li>
+   <ul>
+    <li>Alternative (high-level) approach</li>
+    <li>Architectural scalability by design</li>
+    <li>Platform parameterization</li>
+    <li>Can be open source and community-based</li>
+    <li>Faster, better, cheaper vs. current?<span
+        style='mso-spacerun:yes'>����� </span>Fun? Intrinsically motivating?</li>
+   </ul>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>9</font></div>
+  </td>
+  <td>
+  <div id=PPTP9 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0009.htm');" id=PPTL9>Proposed solutions:
+  evaluation</a></font></div>
+  <div id=PPTC9 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Generation</li>
+   <li>Modification</li>
+   <li>Construction</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>10</font></div>
+  </td>
+  <td>
+  <div id=PPTP10 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0010.htm');" id=PPTL10>Approach</a></font></div>
+  <div id=PPTC10 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Investigate the development and use<span style='mso-spacerun:yes'>�
+       </span>of meta-environments for new game<span
+       style='mso-spacerun:yes'>��������� </span>domains</li>
+   <ul>
+    <li>Support generation, modification, and<span
+        style='mso-spacerun:yes'>����� </span>construction techniques and tools</li>
+    <li>Target (non-traditional) game domains<span
+        style='mso-spacerun:yes'>������ </span>relevant to artists, scientists,
+        humanists, software developers, gamers, etc.</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>11</font></div>
+  </td>
+  <td>
+  <div id=PPTP11 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0011.htm');" id=PPTL11>Related R&amp;D efforts</a></font></div>
+  <div id=PPTC11 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>visual and performing arts</li>
+   <ul>
+    <li><span style='mso-spacerun:yes'>�</span>e.g., machinima</li>
+   </ul>
+   <li>science and technology education</li>
+   <ul>
+    <li><span style='mso-spacerun:yes'>�</span>informal education in science
+        museums</li>
+   </ul>
+   <li>humanities and social sciences</li>
+   <ul>
+    <li><span style='mso-spacerun:yes'>�</span>graphic narratives for
+        storytelling</li>
+   </ul>
+   <li>alternative game cultures and venues</li>
+   <ul>
+    <li><span style='mso-spacerun:yes'>�</span>hot rod game machines and GameCon�s</li>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>12</font></div>
+  </td>
+  <td>
+  <div id=PPTP12 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0012.htm');" id=PPTL12>Work in progress</a></font></div>
+  <div id=PPTC12 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>(NSF) Open source software<span style='mso-spacerun:yes'>�������������
+       </span>development practices, processes, and communities</li>
+   <li>(NSF) Open source software quality</li>
+   <li>(NSF) Automating process discovery, modeling and recovery</li>
+   <li>(TBD) Visualizing work practices</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>13</font></div>
+  </td>
+  <td>
+  <div id=PPTP13 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0013.htm');" id=PPTL13>More Game Lab R&amp;D
+  projects</a></font></div>
+  <div id=PPTC13 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>The Game Preserve</li>
+   <li><span style='mso-spacerun:yes'>�</span>Ladera Ranch Digital Art Park</li>
+   <li><span style='mso-spacerun:yes'>�</span>FutureSpace! Aerospace Adventure
+       World</li>
+   <li><span style='mso-spacerun:yes'>�</span>Game Ethnography Bots</li>
+   <li><span style='mso-spacerun:yes'>�</span>ArtCade Machines</li>
+   <li><span style='mso-spacerun:yes'>�</span>ISEA2004 (e.g., FLAN-I-Jam)</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>14</font></div>
+  </td>
+  <td>
+  <div id=PPTP14 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0014.htm');" id=PPTL14>Game Lab research
+  partners (sample)</a></font></div>
+  <div id=PPTC14 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Cal(IT)<sup>2 </sup>at UCSD and UCI</li>
+   <li>Schools of Fine Arts, Engineering, Computer Science, Humanties, GSM,
+       etc.</li>
+   <li>Institute for Software Research</li>
+   <li>Center for Pervasive Communications and<span style='mso-spacerun:yes'>�
+       </span>Computing</li>
+   <li>Visualization &amp; Interactive Systems Group</li>
+   <li>Discovery Science Center (Santa Ana, CA)</li>
+   <br>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>15</font></div>
+  </td>
+  <td>
+  <div id=PPTP15 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0015.htm');" id=PPTL15>Game Grid Environment
+  Collaborators</a></font></div>
+  <div id=PPTC15 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Walt Scacchi, ISR and GSM</li>
+   <li>Magda El Zarki, ICS</li>
+   <li>Dan Frost, ICS</li>
+   <li>Falko Keuster, EE and ICS</li>
+   <li>Antoinette LaFarge, Studio Art</li>
+   <li>Robert Nideffer, Studio Art and ICS</li>
+   <li>Celia Pearce, Cal(IT)<sup>2</sup> NMA</li>
+   <li>Andre van der Hoek, ICS and ISR</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>16</font></div>
+  </td>
+  <td>
+  <div id=PPTP16 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0016.htm');" id=PPTL16>Prior accomplishments</a></font></div>
+  <div id=PPTC16 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>USC System Factory Project (81-91)</li>
+   <ul>
+    <li>Large-scale software engineering</li>
+    <li>Involved 1-2% of all MS and PhD CS students in US (81-89)</li>
+   </ul>
+   <li>USC ATRIUM Laboratory (93-98)</li>
+   <ul>
+    <li>Modeled and reengineered system development and usage processes in
+        telecomm, corporate<span style='mso-spacerun:yes'>����� </span>finance,
+        military procurement, acquisition, film production, and interactive
+        teleradiology</li>
+    <li>Developed process life cycle engineering</li>
+   </ul>
+   <li>in addition to 25 sponsored projects</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>17</font></div>
+  </td>
+  <td>
+  <div id=PPTP17 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0017.htm');" id=PPTL17>Conclusions</a></font></div>
+  <div id=PPTC17 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Jointly conducting R&amp;D in computer game<span
+       style='mso-spacerun:yes'>���� </span>culture and technology</li>
+   <li>Breaking down barriers between art, science, technology, culture through
+       computer games, game environments, and experiences</li>
+   <li>Creating a new generation of informal<span
+       style='mso-spacerun:yes'>����������� </span>learning tools and
+       techniques, together with a global community of developers and users.</li>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>18</font></div>
+  </td>
+  <td>
+  <div id=PPTP18 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0018.htm');" id=PPTL18>References</a></font></div>
+  <div id=PPTC18 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>W. Scacchi, Understanding the requirements for developing open source
+       software systems, IEE Proceedings � Software, 149(1), 24-39, Feb 2002. (pdf)</li>
+   <li>W. Scacchi, Is open source software development faster,<span
+       style='mso-spacerun:yes'>��� </span>better, and cheaper than software
+       engineering? <span style='mso-spacerun:yes'>������������������</span>2<sup>nd</sup>
+       Workshop on Open Source Software Engineering,<span
+       style='mso-spacerun:yes'>����������� </span>Orlando, FL, May 2002. (pdf)</li>
+   <li>A. Karrer and W. Scacchi, Meta-environments for software production, Advances
+       in Software Engineering and Knowledge Engineering , D. Hurley (ed.),
+       Volume 4,&nbsp; 37-70, 1995. (pdf)</li>
+   <br>
+   <br>
+   <br>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>19</font></div>
+  </td>
+  <td>
+  <div id=PPTP19 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0032.htm');" id=PPTL19>The End</a></font></div>
+  <div id=PPTC19 class=CTxt style='display:none'><font size=2>
+  <ul>
+   <li>Questions?</li>
+   <ul>
+    <li>Contact me at Wscacchi@uci.edu or find details at http://www.ics.uci.edu/~wscacchi</li>
+   </ul>
+   <br>
+   <li>Back up slides follow <font face=Wingdings>J</font></li>
+   <ul>
+    <br>
+    <br>
+   </ul>
+  </ul>
+  </font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>20</font></div>
+  </td>
+  <td>
+  <div id=PPTP20 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0020.htm');" id=PPTL20>CERN Quantum Game</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>21</font></div>
+  </td>
+  <td>
+  <div id=PPTP21 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0021.htm');" id=PPTL21>Cartoon Physics</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>22</font></div>
+  </td>
+  <td>
+  <div id=PPTP22 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0022.htm');" id=PPTL22>MEMS mirror</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>23</font></div>
+  </td>
+  <td>
+  <div id=PPTP23 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0023.htm');" id=PPTL23>MEMS-spider</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>24</font></div>
+  </td>
+  <td>
+  <div id=PPTP24 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0024.htm');" id=PPTL24>Sims Intro</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>25</font></div>
+  </td>
+  <td>
+  <div id=PPTP25 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0025.htm');" id=PPTL25>Sims Story(1)</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>26</font></div>
+  </td>
+  <td>
+  <div id=PPTP26 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0026.htm');" id=PPTL26>Sims Story(2)</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>27</font></div>
+  </td>
+  <td>
+  <div id=PPTP27 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0027.htm');" id=PPTL27>Hot rod PCs</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>28</font></div>
+  </td>
+  <td>
+  <div id=PPTP28 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0028.htm');" id=PPTL28>QuakeCon</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>29</font></div>
+  </td>
+  <td>
+  <div id=PPTP29 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0029.htm');" id=PPTL29>QuakeCon Room</a></font></div>
+  </td>
+ </tr>
+ <tr onmouseover="Over(this)" onmouseout="Out(this)" onclick="Follow(this)"
+  style='cursor:hand'>
+  <td align=right valign=top>
+  <div class=sldNum><font size=2>30</font></div>
+  </td>
+  <td>
+  <div id=PPTP30 class=PTxt><font size=2><a
+  href="javascript:GoToSld('slide0030.htm');" id=PPTL30>PC Extreme</a></font></div>
+  </td>
+ </tr>
+</table>
+
+
+
+</div>
+
+<div style='display:none'><a href="v3_document.htm"></a><a href=preview.wmf></a><a
+href="v3_next_active.gif"></a><a href="v3_next_disabled.gif"></a><a
+href="v3_prev_active.gif"></a><a href="v3_prev_disabled.gif"></a><a
+href="v3_outline_collapse.gif"></a><a href="v3_outline_expand.gif"></a><a
+href="v3_space.gif"></a><a href="v3_endshow.htm"></a><a
+href="v3_navigation_bar.htm"></a><a href="v3_outline_navigation_bar.htm"></a><a
+href="v3_outline_collapsed.htm"></a><a href="v3_outline_expanded.htm"></a><a
+href="v3_blank_notes.htm"></a><a href=master03.htm></a><a href=master03.xml></a><a
+href=pres.xml></a><a href=editdata.mso></a><a href="v3_slide0001.htm"></a><a
+href="v3_master03_background.gif"></a><a href="v3_slide0001_image001.gif"></a><a
+href="v3_slide0002.htm"></a><a href="v3_slide0031.htm"></a><a
+href="v3_slide0031_background.gif"></a><a href="v3_slide0004.htm"></a><a
+href="v3_slide0004_image002.gif"></a><a href="v3_slide0005.htm"></a><a
+href="v3_slide0006.htm"></a><a href="v3_slide0007.htm"></a><a
+href="v3_slide0008.htm"></a><a href="v3_slide0009.htm"></a><a
+href="v3_slide0009_image003.gif"></a><a href="v3_slide0009_image004.gif"></a><a
+href="v3_slide0010.htm"></a><a href="v3_slide0011.htm"></a><a
+href="v3_slide0012.htm"></a><a href="v3_slide0013.htm"></a><a
+href="v3_slide0014.htm"></a><a href="v3_slide0015.htm"></a><a
+href="v3_slide0016.htm"></a><a href="v3_slide0017.htm"></a><a
+href="v3_slide0018.htm"></a><a href="v3_slide0032.htm"></a><a
+href="v3_slide0020.htm"></a><a href="v3_slide0020_image005.gif"></a><a
+href="v3_slide0021.htm"></a><a href="v3_slide0021_image006.gif"></a><a
+href="v3_slide0022.htm"></a><a href="v3_slide0022_image007.gif"></a><a
+href="v3_slide0023.htm"></a><a href="v3_slide0023_image008.gif"></a><a
+href="v3_slide0024.htm"></a><a href="v3_slide0024_image009.gif"></a><a
+href="v3_slide0025.htm"></a><a href="v3_slide0025_image010.gif"></a><a
+href="v3_slide0026.htm"></a><a href="v3_slide0026_background.gif"></a><a
+href="v3_slide0026_image011.jpg"></a><a href="v3_slide0027.htm"></a><a
+href="v3_slide0027_image012.gif"></a><a href="v3_slide0028.htm"></a><a
+href="v3_slide0028_image013.gif"></a><a href="v3_slide0029.htm"></a><a
+href="v3_slide0029_image014.gif"></a><a href="v3_slide0030.htm"></a><a
+href="v3_slide0030_image015.gif"></a><a href=slide0001.htm></a><a
+href=slide0002.htm></a><a href=slide0031.htm></a><a
+href="slide0031_image016.png"></a><a href="slide0031_image017.jpg"></a><a
+href="slide0031_image018.png"></a><a href="slide0031_image019.jpg"></a><a
+href=slide0004.htm></a><a href=slide0005.htm></a><a href=slide0006.htm></a><a
+href=slide0007.htm></a><a href=slide0008.htm></a><a href=slide0009.htm></a><a
+href="slide0009_image020.gif"></a><a href=slide0010.htm></a><a
+href=slide0011.htm></a><a href=slide0012.htm></a><a href=slide0013.htm></a><a
+href=slide0014.htm></a><a href=slide0015.htm></a><a href=slide0016.htm></a><a
+href=slide0017.htm></a><a href=slide0018.htm></a><a href=slide0032.htm></a><a
+href=slide0020.htm></a><a href="slide0020_image021.png"></a><a
+href="slide0020_image022.jpg"></a><a href=oledata.mso></a><a
+href=slide0021.htm></a><a href="slide0021_image023.jpg"></a><a
+href="slide0021_image024.jpg"></a><a href=slide0022.htm></a><a
+href="slide0022_image025.png"></a><a href="slide0022_image026.jpg"></a><a
+href=slide0023.htm></a><a href="slide0023_image027.jpg"></a><a
+href=slide0024.htm></a><a href="slide0024_image028.png"></a><a
+href="slide0024_image029.jpg"></a><a href=slide0025.htm></a><a
+href="slide0025_image030.png"></a><a href="slide0025_image031.jpg"></a><a
+href=slide0026.htm></a><a href="slide0026_image032.png"></a><a
+href="slide0026_image033.jpg"></a><a href="slide0026_image034.png"></a><a
+href="slide0026_image035.jpg"></a><a href=slide0027.htm></a><a
+href="slide0027_image036.jpg"></a><a href="slide0027_image037.jpg"></a><a
+href=slide0028.htm></a><a href="slide0028_image038.png"></a><a
+href="slide0028_image039.jpg"></a><a href=slide0029.htm></a><a
+href="slide0029_image040.jpg"></a><a href="slide0029_image041.jpg"></a><a
+href=slide0030.htm></a><a href="slide0030_image042.png"></a><a
+href="slide0030_image043.jpg"></a><a href="master03_stylesheet.css"></a><a
+href=script.js></a><a href="../GameLab.htm"></a><a href=fullscreen.htm></a><a
+href=buttons.gif></a><a href=frame.htm></a><a href=outline.htm></a></div>
+
+</body>
+
+</html>
+

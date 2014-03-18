@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/photosharing/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Photos are more than Fleeting experiences</title>
+		<link>http://ngs.ics.uci.edu/photos-are-more-than-fleeting-experiences/</link>
+		<comments>http://ngs.ics.uci.edu/photos-are-more-than-fleeting-experiences/#comments</comments>
+		<pubDate>Tue, 03 May 2011 06:51:36 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Entrepreneurism]]></category>
+		<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[mobile phone photos]]></category>
+		<category><![CDATA[Photos]]></category>
+		<category><![CDATA[Photosharing]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1328</guid>
+		<description><![CDATA[If one looks at all the emerging photo services that are built using confluence of mobile phone cameras, Internet, and social networks then one may start thinking that photos, and visual memory, is a fleeting experience. From Instagrams of the&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>If one looks at all the emerging photo services that are built using confluence of mobile phone cameras, Internet, and social networks then one may start thinking that photos, and visual memory, is a fleeting experience.  From Instagrams of the world to PicPlz, Path, Color, and many many more systems that emerged in the last several months and even gained significant buzz are implicitly based on an assumption that people believe in &#8216;shoot-share-forget&#8217; about photos.  They will spontaneously shoot a photo because they have their mobile phone camera with them and then share it with one or more people and thats the end of the life of a photo.</p>
+<p>The beauty of the photo, unlike sound, is that it represents exeperience of a moment and many of those moments are considered extremely precious, some are not as precious but are still precious enough for people to reminisce them by using photos.  After the current fad of &#8216;shoot-share-forget&#8217; disappears soon, people will go back to collecting their visual memories which are to be shared but are also to be treasured as ones life&#8217;s pleasent moments.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/photos-are-more-than-fleeting-experiences/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+	</channel>
+</rss>
+

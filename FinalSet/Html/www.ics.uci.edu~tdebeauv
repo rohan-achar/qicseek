@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Thomas Debeauvais - UCI</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="icon" type="image/ico" href="img/input-gaming.png"/>
+
+<!-- These jquery versions are too recent. 
+The usual CDN links do not work as of October 8 2012.
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/jquery-ui.min.js"></script>
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css">
+-->
+
+<script src="jquery-1.8.2.min.js"></script>
+<script src="jquery-ui-1.9.0.custom.min.js"></script>
+<link href="jquery-ui-1.9.0.custom.css" rel="stylesheet" type="text/css">
+
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="projects.js"></script>
+
+
+</head>
+<body>
+
+
+<div id='tabs' class='widget'>
+
+<ul><li><a href="#profile">About</a>
+</li><li><a href="#papers">Projects</a>
+</li><li><a href="#misc">Misc</a>
+</li></ul>
+
+
+<!-- ============== PROFILE ================= -->
+<div id="profile">
+
+<img id='photo' src="img/photo.png" title="Thomas Debeauvais" alt="Photo of Thomas Debeauvais" />
+
+<p>
+My name is Thomas Debeauvais. I'm a PhD student in the Informatics department of <abbr title="University of California, Irvine">UCI</abbr>. My advisor is <a href="http://www.ics.uci.edu/~lopes">Crista Lopes</a>. I plan to graduate sometime in 2015.
+
+I study player behavior in games, with a particular interest on retention, real-money transactions, skill, and content consumption.
+
+Have a look at my <a href="files/debeauvais_resume.pdf">resume</a>, <a class='goto-projects' href="#papers">research projects</a>, <a href="https://github.com/gentimouton">github page</a>, or drop me an email at: tdebeauv (then @uci.edu)
+</p>
+
+</div>
+
+
+<!-- ---------------- PAPERS ------------------------>
+
+<div id='papers'>
+</div>
+
+
+<!-- ---------------- PROJECTS ------------------------>
+
+<div id='misc'>
+
+<ul><li><a href="NGsummaries/NG02.html">Summary of some Netgames 02 papers</a>
+</li><li><a href="NGsummaries/NG03.html">Summary of some Netgames 03 papers</a>
+</li><li><a href="NGsummaries/NG04.html">Summary of some Netgames 04 papers</a>
+</li></ul>
+
+</div>
+
+
+
+</div> <!-- end of tabs -->
+
+
+
+</body>
+</html>
+

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: The Web You Trust</title>
+	<atom:link href="http://ngs.ics.uci.edu/the-web-you-trust/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/the-web-you-trust/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: udaya</title>
+		<link>http://ngs.ics.uci.edu/the-web-you-trust/comment-page-1/#comment-1324</link>
+		<dc:creator><![CDATA[udaya]]></dc:creator>
+		<pubDate>Thu, 03 Jan 2008 00:13:46 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=511#comment-1324</guid>
+		<description><![CDATA[perhaps the simplest way to ease/enable vertical search would be to ask the user himself. like Google&#039;s site: and inurl: tags, one can create a tag common to all search engines, which says t0,t1...tn, where t0 -&gt;tn are topic verticals in increasing degrees of specialisation. to use your terminology, t0 to tn act as steering wheels for the engine per se. 
+
+OR simply say t: tech,web2.0,review and have the search engine read it in order...
+
+with the search engine software already doing the heavy handling during and post crawling, this tag system can help return better results for users and also help reduce load on the servers. 
+
+such a heirarchial tag system can also help search engines thin slice user expectations, a user going in for a higher degree of specialisation is looking for a result that cannot come say from a wiki, a blog or a newspaper post. 
+
+[vice versa, for non casual users, the search engine can return its response heirarchy too and allow users to choose branching trees that lead to areas of interest.]
+
+Such a system will also allow for the development of fine grained semantic heirarchies so that at a later stage a user can simply ask for simple or advanced (levels) and get information at a level appropriate to their needs. 
+
+Given that voice to text systems are rapidly gaining maturity, the same can be applied succesfully to voice based domains too. Imagine applying that to the Event web.
+
+This heirarchy can not only be based on topic, it could be based on historical time too, merely calls for another set of tags, say p for period with values like, now, 2he, 2hl, 2de, 2dl, 22.2.2003 -22.4.2007 and so on. The idea is extensible and as long as it is standardised across search engines and to the W3 specs, it will work fine.
+
+Universalising such a system could prove easier than providing say a form based or image based interface for the end user. On the outset this might look like a retrograde step, but the success of keywords proves two things; one that people trust themselves to choose the information suitable to them, at least for now; next that in addition to looking for the info we need we also love to be diverted, once in a while....
+
+Now that we have the bandwidth and tech to show maps, it should be trivial to show information trees and have users zoom in and out of them. that will make search a more pleasant experience.
+
+Sorry these are rather quick and random thoughts about the front end rather than the back end idea referred to in this post. Oops I need to catch up with facets....
+
+Udaya
+
+PS: And of course help create 3D taglists. Most tag lists today are flat, soon we should be having multi dimensional tag lists that follow tree like approaches that drill progressively deeper in and laterally. Such a multi dimensional tag list call allow the rise of heirarchial semantic clusters and more importantly interlinked trees.]]></description>
+		<content:encoded><![CDATA[<p>perhaps the simplest way to ease/enable vertical search would be to ask the user himself. like Google&#8217;s site: and inurl: tags, one can create a tag common to all search engines, which says t0,t1&#8230;tn, where t0 -&gt;tn are topic verticals in increasing degrees of specialisation. to use your terminology, t0 to tn act as steering wheels for the engine per se. </p>
+<p>OR simply say t: tech,web2.0,review and have the search engine read it in order&#8230;</p>
+<p>with the search engine software already doing the heavy handling during and post crawling, this tag system can help return better results for users and also help reduce load on the servers. </p>
+<p>such a heirarchial tag system can also help search engines thin slice user expectations, a user going in for a higher degree of specialisation is looking for a result that cannot come say from a wiki, a blog or a newspaper post. </p>
+<p>[vice versa, for non casual users, the search engine can return its response heirarchy too and allow users to choose branching trees that lead to areas of interest.]</p>
+<p>Such a system will also allow for the development of fine grained semantic heirarchies so that at a later stage a user can simply ask for simple or advanced (levels) and get information at a level appropriate to their needs. </p>
+<p>Given that voice to text systems are rapidly gaining maturity, the same can be applied succesfully to voice based domains too. Imagine applying that to the Event web.</p>
+<p>This heirarchy can not only be based on topic, it could be based on historical time too, merely calls for another set of tags, say p for period with values like, now, 2he, 2hl, 2de, 2dl, 22.2.2003 -22.4.2007 and so on. The idea is extensible and as long as it is standardised across search engines and to the W3 specs, it will work fine.</p>
+<p>Universalising such a system could prove easier than providing say a form based or image based interface for the end user. On the outset this might look like a retrograde step, but the success of keywords proves two things; one that people trust themselves to choose the information suitable to them, at least for now; next that in addition to looking for the info we need we also love to be diverted, once in a while&#8230;.</p>
+<p>Now that we have the bandwidth and tech to show maps, it should be trivial to show information trees and have users zoom in and out of them. that will make search a more pleasant experience.</p>
+<p>Sorry these are rather quick and random thoughts about the front end rather than the back end idea referred to in this post. Oops I need to catch up with facets&#8230;.</p>
+<p>Udaya</p>
+<p>PS: And of course help create 3D taglists. Most tag lists today are flat, soon we should be having multi dimensional tag lists that follow tree like approaches that drill progressively deeper in and laterally. Such a multi dimensional tag list call allow the rise of heirarchial semantic clusters and more importantly interlinked trees.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

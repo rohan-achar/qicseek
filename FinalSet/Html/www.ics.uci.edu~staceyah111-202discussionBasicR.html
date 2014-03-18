@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252"
+      http-equiv="Content-Type">
+    <title>Basic R Functions</title>
+    <meta content="Stacey Hancock" name="author">
+  </head>
+  <body>
+    <table style="width: 100%; background-color: rgb(102, 204, 204);
+      margin-left: auto; margin-right: auto; height: 58px; text-align:
+      left;" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td>
+            <div style="text-align: center;"> </div>
+            <h1 style=" text-align: center;">Basic R Functions<br>
+            </h1>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <span style="color: rgb(51, 153, 153);"><br>
+      Here are some examples of basic R commands that you will find
+      useful. Try typing them into an R command window (each command
+      followed by RETURN). If you get an error message of the form
+      "Error: Object not found", it may be because you skipped an
+      earlier example which created the object, or because you
+      misspelled the name of the object.</span><br>
+    <hr style="width: 100%; height: 2px;">
+    <h2>Basic Mathematics</h2>
+    <pre>1+1              <br>3-2<br>5*8<br>3^2<br>8/2+6^2<br>sqrt(81)	 # square root function<br>cos(pi)		 # cosine function; pi is a built-in R object<br>log(100)	 # natural log function<br>log(exp(3.2))    # exp(a) raises the constant e to the ath power<br>log(100,10)      # log(a,b) is the log of a base b<br><br>y = 4		 # assignment: creates an object in your workspace named y<br><br>y                # enter the name of an object to see<br>                 #  its contents<br><br>x &lt;- 3		 # the old assignment command: equivalent to =<br>x		 <br></pre>
+    <br>
+    <p> </p>
+    <h2>Getting Help</h2>
+    <pre>help(log)	# the help function<br>?cos		# shortcut for the help function<br></pre>
+    <br>
+    <h2>Creating Data Sets</h2>
+    <pre>n &lt;- 2:5         # integer sequences<br>n<br><br>x &lt;- seq(1,2,.1) # general sequences using the "seq" function;<br>x		 # writes over the previous "x" object<br><br>                 # data entry; the "c" function stands for "combine" <br>z &lt;- c(2.3, 1.2, 4.4, 4.7, -1.2, 6.3)      <br>z<br><br>Z &lt;- runif(6)    # generate 6 random numbers in (0,1)<br>Z                # Note: R is case-sensitive!!<br><br>y &lt;- Z+z         # add two data sets to create a third<br>y<br><br>a &lt;- c("red", "orange", "yellow", "green","blue", "violet")<br>a<br><br>b &lt;- rep(1:2,3)  # repeated values<br>b<br><br>B &lt;- rep(1:2,c(3,3))  # repeated values, take two<br>B<br></pre>
+    <br>
+    <p> </p>
+    <h2>
+      <meta http-equiv="content-type" content="text/html;
+        charset=windows-1252">
+      Built-in Data Sets<br>
+    </h2>
+    <pre>help(data)<br>data()		  # shows you a list of all the built-in data sets<br>data(co2)	  # loads the data set "co2" into your workspace<br>co2		  # print data set<br>help(co2)<br>plot(co2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # plot the time-series<br>plot(co2,col="red")<br></pre>
+    <br>
+    <h2>Data Types<br>
+    </h2>
+    <pre>x = seq(1,2,.2)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # numeric<br><br>w = c("a","a","b","b","c","c") <br>w&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # character data</pre>
+    <pre>b = factor(w)<br>b&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # factor: a coded categorical data set<br><br>X = data.frame(x,b)<br>X&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # data frame: a table of data<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # rows are cases, columns are variables<br><br>check = w=="a"<br>check  		# logical vector of T/F<br>sum(check)	# R treats TRUE as a 1 and FALSE as a 0,<br>		# so summing a logical vector gives the number of TRUE's.<br></pre>
+    <br>
+    <h2>Selecting subsets of data sets</h2>
+    <pre>z[1] 	# case selection by subscript; square brackets always indicate subsets of an object <br>z[2] <br>z[2:5] <br>z[5:2] <br>z[n] <br><br>	# case selection by logical comparison <br>z &gt; 2 <br>z[z &gt; 2] <br>a == "blue"<br>a != "blue" <br>a != "blue" &amp; a != "orange"<br>a != "blue" | a != "orange"<br>&nbsp;<br>	# case selection using another data set of the same size z[a == "blue"]<br>z[a == "blue"]<br>z[a != "blue"]<br><br>X[1,]	# select first row<br>X[,1]	# select first column<br>X[1,2]	# select item in the first row and second column<br>X$b	# select column with the name "b"<br>X[X[,2] == "a",]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # select the rows for which column 2 is "a"<br></pre>
+    <br>
+    <p> </p>
+    <h2>Operations on data sets</h2>
+    <pre>2+z <br>3*z <br>z^2 <br>2+3*z <br>sqrt(z) # Note: the square root of a negative number is <br>	# undefined (NaN: Not a Number) <br><br>sort(z) <br>sort(2+3*z) <br><br>2*a # we can't do arithmetic with all data! <br></pre>
+    <br>
+    <p> </p>
+    <h2>More Useful R functions</h2>
+    <pre>mean(z) <br>median(z) <br>max(z) <br>min(z) <br>range(z) <br>sum(z) <br>length(z)<br><br>ls()			# lists all the objects saved in your workspace<br>options(digits=20)	# set the digits option to display 20 digits<br>options(digits=7)	# (default is 7)<br><br>factorial(20)		# 20!<br>choose(25,5)		# (25!)/(5!(25-5)!)<br></pre>
+    <br>
+  </body>
+</html>
+

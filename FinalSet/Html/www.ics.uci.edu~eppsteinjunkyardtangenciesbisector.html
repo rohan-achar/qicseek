@@ -1,0 +1,86 @@
+<HTML>
+<HEAD><TITLE>Tangencies: Circular Angle Bisectors</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+<DIV ALIGN=CENTER>
+<H1>
+<A HREF="http://www.ics.uci.edu/~eppstein/junkyard/"><IMG
+src="http://www.ics.uci.edu/~eppstein/junkyard/junkyard.gif"
+ALIGN=center WIDTH="545" HEIGHT="45" ALT="The Geometry Junkyard" BORDER=0></A>
+</H1>
+<HR>
+<H1><A HREF="index.html">Tangencies</A>: Circular Angle Bisectors</H1>
+</DIV>
+<P>Given any two crossing circles A and B (blue), there exist two more circles 
+C and D (red) through the two crossing points, that bisect the angles made by A 
+and B at those points.  If any two circles E and F (green) are tangent to 
+each other, with E and F both tangent to both of A and B, then the 
+tangency between E and F lies on one of C or D.  Further, if (say) the 
+tangency lies on C, then C is perpendicular to both E and F.
+
+<P><DIV ALIGN=CENTER>
+<applet code     = "de.cinderella.CindyApplet"
+        archive = "cindyrun.jar"
+        width    = 630
+        height   = 350>
+<param  name=kernelID  value="931025086690">
+<param  name=viewport value="de.cinderella.ports.EuclideanPort">
+<param  name=filename value="bisector.cdy">
+<param  name=polar value= "false">
+<param  name=width value= "630">
+<param  name=height value="350">
+<param  name=doublebuffer value= "true">
+<param  name=mesh value="false">
+<param  name=axes value="false">
+<param  name=snap value="false">
+<param  name=scale value="25.0">
+<param  name=originx value="210">
+<param  name=originy value= "233">
+<param  name=deltafactor value= "0">
+<param  name=pref0 value="cinderella.defaults.background=255,255,255">
+<IMG SRC="bisector.gif" WIDTH=631 HEIGHT=353
+ALT="Circular angle bisectors"><BR>
+<SMALL>If you were running Java, you'd see a nice animation instead of this 
+gif.</SMALL>
+</applet>
+</DIV>
+
+<P>As usual, this can be proven easily by
+<A HREF="inversion.html">inversion</A>: just invert by a 
+circle centered on one of the crossing points of A and B, so that A and B 
+are transformed to two crossing lines, and C and D are transformed to the 
+two angle bisectors of those lines.
+
+<P>Note that the angle bisectors, and their property of containing the 
+tangents of pairs of disks tangent to each other and to A and B, continue 
+to exist even when A and B do not cross, even though in this case there is 
+no longer any angle to bisect.  In this case, the existence of these 
+circles is again seen by inversion, to a configuration in which A and B are 
+concentric. The existence of these bisectors is especially useful for 
+constructing instances of <A HREF="steiner.html">Steiner's porism</A>, 
+rings of tangent circles between two circles, since it gives a point on 
+each successive tangent circle from the previous one.
+
+<P>If we are given any point x on C (or D), we can construct the tangent 
+circles E and F using the <A HREF="four-circles.html">four-circle 
+property</A>: the four circles A, E, the line L through x and the center 
+of C (viewed as an infinite-radius circle), and a circle along the line 
+perpendicular to L through the center of A together form a cycle of four 
+tangent circles, three tangencies of which are known or easily 
+constructed.  The fourth tangency, of A with E, is then the point where 
+the circle through these three tangencies crosses A.  Once we have 
+similarly constructed the tangency of B with E, we have three points on E 
+from which the circle itself is easily found.
+
+<P><HR><P>
+Animation created by <A HREF="http://www.cinderella.de/">Cinderella</A>.<BR>
+From the <A HREF="/~eppstein/junkyard/">Geometry Junkyard</A>,
+computational
+and recreational geometry.<BR>
+<A HREF="http://www.ics.uci.edu/~eppstein/">David Eppstein</A>,
+<A HREF="http://www.ics.uci.edu/~theory/">Theory Group</A>,
+<A HREF="http://www.ics.uci.edu/">ICS</A>,
+<A HREF="http://www.uci.edu/">UC Irvine</A>.<P>
+<SMALL>Last update: Sunday, 04-Jul-1999 21:22:29 PDT.</SMALL>
+</BODY></HTML>
+

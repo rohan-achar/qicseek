@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>CS 221, Information Retrieval, Winter 2009-2010 Department of Informatics, UCI</title>
+<link href="styleSheet.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.style13 {font-size: x-large}
+
+-->
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /></head>
+<body>
+<p class="style2 style6 style7">Computer Science 221: Information Retrieval </p>
+<p class="style6">Winter 2009-2010</p>
+<p class="style6">Department of Informatics</p>
+<p class="style6">Donald Bren School of Information and Computer Sciences </p>
+<div class="container"> <a href="index.html">Home</a> | <a href="admin.html">Administrative Policies </a> | <a href="structure.html">Course Structure</a> |<a href="materials.html"> Materials</a> | <a href="assignmentSchedule.html#CurrentWeek">Assignment Schedule </a></div>
+<div class="container">
+  <p><span class="style7 style13">Assignment 04</span></p>
+  <div class="indentRight, container">
+    <ol>
+      <li><span class="style5">Goals</span><strong>: </strong>
+          <ol>
+            <li>This assignment is
+              designed to:
+              <ol>
+                  <li> Teach you how to make a postings list with a distributed MapReduce architecture on a BIG cluster. </li>
+                  <li>Capture the data that you need to calculate ranking scores for assignment 05. </li>
+              </ol>
+            </li>
+          </ol>
+      </li>
+      <li><span class="style5">Administration<strong>:</strong></span>
+          <ol>
+            <li>You may work in teams of 1, 2 or 3, no restrictions on membership. </li>
+            <li>Mitch will be managing the cluster on Amazon for us. 
+              <ol>
+                <li>This is going to require some instructions on how to upload and run jobs.</li>
+                <li>Some <a href="Assignments/Assignment04/assignment04details.html">details</a>. </li>
+              </ol>
+            </li>
+          </ol>
+      </li>
+      <li><span class="style5">Write a Java Program To Be Executed by a &gt;50 node Hadoop cluster</span>
+          <ol>
+            <li>The input to the system will be a list of &lt;key,value&gt; pairs in a file.
+                <ol>
+                  <li>The &quot;key&quot; will be a URL in Wikipedia </li>
+                  <li>The &quot;value&quot; will be the document ID of that URL</li>
+                </ol>
+            </li>
+            <li>The posting list will be on the distributed file system. </li>
+            <li>There is no guarantee that the URLs are valid. </li>
+          </ol>
+      </li>
+      <li><span class="style5">What to turn in:</span>
+          <ol>
+            <li>Submit a sorted postings.txt file in which each line contains postings of a term:
+              <ol>
+                <li> A term is defined as follows:
+                  <ol>
+                    <li>Don't consider text in the  HTML tags.</li>
+                    <li>Replace all non-ASCII characters with spaces.</li>
+                    <li>Make all the characters lowercase.</li>
+                    <li>All terms are separated by white space.</li>
+                    <li>All punctuation should be removed from the beginning and end of a term, but not from the middle.</li>
+                    <li>No term should be longer than 32 characters. If a term is longer, truncate it to the first 32 characters. </li>
+                    <li>Examples:
+                      <ol>
+                        <li>&quot;However&quot;, &quot;however&quot;, &quot;however,&quot; should all map to &quot;however&quot;</li>
+                        <li>&quot;Dogs&quot;, &quot;dogs&quot;, and &quot;dOgS&quot; should all map to &quot;dogs&quot;</li>
+                        <li>&quot;Dog's&quot;, &quot;dog's&quot;, and &quot;dog'S&quot; should all map to &quot;dog's&quot;</li>
+                        <li>&quot;jack-o-lantern.&quot; should map to &quot;jack-o-lantern&quot;</li>
+                        <li>&quot;他⃞四⃞六⃞40ㅈ20ㅁ&quot; should map to two terms &quot;40&quot; and &quot;20&quot;                        </li>
+                        <li>&quot;1&gt;alphabet&quot; should map to &quot;1&gt;alphabet&quot; (this is dumb, but for uniformity, we'll stick to the format) </li>
+                        <li>&quot;010101010101010--010011101010101actgtgtacgatcgtagctggtagctcgtagcta--010100&quot; should map to &quot;010101010101010--010011101010101&quot;</li>
+                      </ol>
+                    </li>
+                  </ol>
+                </li>
+                <li>The form of the posting list should be:                
+                  <ol>
+                    <li>[term, cf, df] [docid1, tf1] [docid2, tf2]  ....
+                      <ol>
+                        <li>where cf is the collection frequency of the term, df is the document frequency of term                        </li>
+                        <li>tf1 is the term frequency of &quot;term&quot; in document with docid1 and so on.</li>
+                      </ol>
+                    </li>
+                  </ol>
+                </li>
+                <li>Before uploading the posting list, truncate it and only keep the LAST 1000 lines.</li>
+              </ol>
+            </li>
+            <li>Submit a second report  with this content:
+              <ol>
+                  <li>Total number of distinct terms.</li>
+                <li>List of top 10 words with lowest document frequency.</li>
+                <li> List of top 10 words with highest document frequency.</li>
+                <li>First Name of member 1 of your team: ...</li>
+                <li>List of (at most 1000) URLs containing first name of member 1 of your team: ...
+                  <ol>
+                    <li>If there are no pages with your team members name, use &quot;Donald&quot; instead and tell me you did that. </li>
+                  </ol>
+                </li>
+              </ol>
+            </li>
+          </ol>
+      </li>
+      <li><span class="style5">Submitting your assignment  </span>
+        <ol>
+          <li>Turn your report into the dropbox created for this assignment on EEE. </li>
+          <li>Please make two pdf documents
+            <ol>
+              <li>Make the file names:
+                <ol>
+                  <li>&lt;StudentID&gt;-&lt;StudentIID&gt;-Assignment04-Report.pdf</li>
+                  <li>&lt;StudentID&gt;-&lt;StudentIID&gt;-Assignment04-Posting.pdf</li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+          <li>Please include the full names of all of your group members as appropriate in the document </li>
+        </ol>
+      </li>
+    </ol>
+  </div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

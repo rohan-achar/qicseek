@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/should/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>LifeLesson 2: Should should come before Could</title>
+		<link>http://ngs.ics.uci.edu/lifelesson-2-should-should-come-before-could/</link>
+		<comments>http://ngs.ics.uci.edu/lifelesson-2-should-should-come-before-could/#comments</comments>
+		<pubDate>Thu, 21 Jun 2012 06:41:02 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[General Updates]]></category>
+		<category><![CDATA[could bold thinking]]></category>
+		<category><![CDATA[should]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1437</guid>
+		<description><![CDATA[One of the most important thing in life is bold thinking. Many times we build walls around our thoughts and then think within the box created by those walls. I found that we create these walls more often than we&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>One of the most important thing in life is bold thinking.  Many times we build walls around our thoughts and then think within the box created by those walls.  I found that we create these walls more often than we think &#8211; in fact most of the time &#8211; and use all kind of trivial reasons to justify.  This limits our thinking and the results of the thinking are definitely suboptimal, if not useless.</p>
+<p>LifeLesson 2:  When thinking about a problem or an issue, first think about what <strong>should</strong> be done.  Once you have the results of your thinking, then only think what <strong>could</strong> be done with practical constraints.  <strong>Should</strong> is important and should be used in initial thinking.  <strong>Could</strong> should only come after <strong>Should</strong>.</p>
+<p>All new solutions, all innovative approaches start with bold thinking without any constraints.  If something is really important, then even if it is not feasible today, people will make it feasible some day. </p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/lifelesson-2-should-should-come-before-could/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+	</channel>
+</rss>
+

@@ -1,0 +1,721 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<!-- #BeginTemplate "/Templates/index.dwt" -->
+<meta name="description" content="A research project investigating the social and technical issues surrounding the success of geographically distributed science and engineering collaborations." />
+<meta name="keywords" content="scientific collaboration, collaboratories, collaboratory, University of California, Irvine, School of Information, social-technical" />
+<meta name="language" content="English" />
+<meta name="author" content="Dan Cooney" />
+<meta name="programmer" content="Greg Peters" />
+<META content=ALL name=robots>
+<META content="15 days" name=revisit-after>
+<META content=emilyo@uci.edu name=reply-to>
+<META content="Living Document" name=document-class>
+<META content="Copyrighted Work" name=document-rights>
+<META content="Web Page" name=document-type>
+<META content="Safe for Kids" name=document-rating>
+<META content=Global name=document-distribution>
+<META content=Static name=document-state>
+<META content=no-cache name=cache-control>
+<META http-equiv=Content-Language content=EN-US>
+<META content="Dan Cooney" name=Publisher>
+
+<link REL="ICON" HREF="/soc.ico" TYPE="image/x-icon">
+<link REL="SHORTCUT ICON" HREF="/soc.ico" TYPE="image/x-icon">
+
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1"><!-- #BeginEditable "doctitle" --><!-- #EndEditable -->
+<SCRIPT type=text/javascript>
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</SCRIPT>
+<LINK href="/styles/SOC.css" 
+type=text/css rel=stylesheet><!--Main content begins -->
+<META content="MSHTML 5.50.4913.1100" name=GENERATOR></HEAD>
+<!-- #LOOP-START:header -->
+<BODY text=#000000 vLink=#333399 aLink=#ff9900 link=#333399 bgColor=#ffffff 
+leftMargin=2 topMargin=2 marginheight="2" marginwidth="2">
+<TABLE height=117 cellSpacing=0 cellPadding=0 width="100%" align=center 
+border=0>
+  <TR>
+    <TD vAlign=top align=left>
+      <TABLE cellSpacing=0 cellPadding=0 width=100% align=left 
+      border=0 name="Header">
+        <TR>
+          <TD vAlign=bottom align=left background=""
+          rowSpan=3 height=103 width=145><A 
+            href="/"><IMG 
+            height=103 alt="Science of Collaboratories logo - link" 
+            src="/images/LOGOSMALLER.gif" 
+            width=145 align=bottom border=0 name=SOCLogo></A></TD>
+          <TD height=40 valign="top">
+            <DIV ALIGN="RIGHT" CLASS="admin_login"><A HREF="/index.php?SOCSiteMap">Site Map</A>&nbsp;-&nbsp;<A HREF="/datateam/index.php">Login</A></DIV><BR>
+            <SCRIPT src="/libs/exmplmenu_var.js" type=text/javascript></SCRIPT>
+            <SCRIPT src="/libs/menu_com.js" type=text/javascript></SCRIPT>
+            <NOSCRIPT>Your browser does not support script</NOSCRIPT></TD></TR>
+        <TR>
+          <TD vAlign=top align=left width=100% bgColor=#660033 height=15>
+            &nbsp;
+          </TD></TR>
+        <TR>
+         <TD width=100% bgColor=#660033 height=15>&nbsp;</TD></TR>
+</table>
+      </TD>
+    <TD vAlign=top width=60 height=100>&nbsp;</TD>
+   </TR>
+        <TR>
+          <TD vAlign=top align=left height=20><IMG height=20 
+            alt="An alliance to advance the understanding of collaboratories" 
+            src="/images/SOCATextNew.gif" 
+            width=527 border=0 name=SOCATextNew>
+          </TD>
+         </TR>
+</TABLE>
+<!-- #LOOP-END:header -->
+<TABLE cellSpacing=0 cellPadding=0 width=100% align=left border=0 
+name="Main Body Table">
+  <TR>
+    <TD vAlign=top colspan=4 align=left bgColor=#660033 height=12><IMG 
+      height=12 alt="Science of Collaboratories" 
+      src="/images/RoundedRed.gif" 
+      align=top border=0 name=Header_r9_c1><BR></TD>
+    <TD vAlign=top align=left bgColor=#660033 height=12>&nbsp; </TD>
+    <TD width=60 bgColor=#ffffff>&nbsp;</TD></TR>
+  <TR>
+    <TD width=20 bgColor=#660033></TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD colspan=2 align=left bgColor=#ffffff>
+<!-- This is where we will add the content -->
+      
+<script language="JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  brWin = window.open(theURL,winName,features);
+  brWin.focus();
+}
+//-->
+</script>
+<table width="100%" border="0">
+  <tbody>
+     <tr>
+    <td align="right"><p class="backnav"><a href="colisting.php">Return to the list of Collaboratory 
+Projects</a></p></td>
+    <td width="1%">&nbsp;</td>
+  </tr>
+    <tr>
+     <td align="right">&nbsp;</td>
+     <td width="1%">&nbsp;</td>
+   </tr>
+     
+  </tbody> 
+</table>
+<table width="100%" border="0">
+    <tbody>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccffff">     
+         
+      <p class="fieldname">Name of Collaboratory :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%"><p class="collabname">International Research on Permanent Authentic Records in Electronic Systems (InterPARES 2)</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td colspan="3" align="right" valign="top">               
+      <table width="100%" border="0">
+          <tbody>
+           <tr>
+             <td width="5%" valign="middle" align="right">               
+           
+            <p class="fieldname">Logo&nbsp;:</p>
+            </td>
+            <td width="1%">&nbsp;</td>
+            <td width="39%"><img
+ src="getgraphics.php?360">
+             </td>
+            <td width="1%">&nbsp;</td>
+           </tr>
+                 
+        </tbody>       
+      </table>
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">URL          :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%"><a href="http://www.interpares.org/ip2/ip2_index.cfm">http://www.interpares.org/ip2/ip2_index.cfm</a></td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">Collaboratory Status
+:</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+    <TD width="66%">
+    <TABLE BORDER="0" cellspacing="0" cellpadding="0">
+    <TR>
+      <td width="24%" align="left" bgcolor="#FFFFFF">Operational
+      </td>
+      <TD width="1%">&nbsp;</TD>
+      <td width="20%" align="left" bgcolor="#FFFFFF"> 
+        <b>Start Date :</b> 
+          2002
+      </td>
+      <td width="20%"> 
+        <b>End Date :</b> 
+          2006
+      </td>
+	  <td width="35%"> 
+        <b>Info Last Updated :</b> 
+          Tue, Dec 7 2004 4:01am PST
+      </td>
+    </tr>
+    </table>
+    </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccffff">     
+         
+      <p class="fieldname">Primary Collaboratory Function :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">Distributed Research Center</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccffff">     
+         
+      <p class="fieldname">Secondary Collaboratory Functions :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">Virtual Community of Practice</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">Domain(s)         
+:</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">Multi-Domain research on Digital Archives methods</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+   <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" bgcolor="#ccffff" align="right" valign="top">     
+         
+      <p class="fieldname">Brief          Description 
+of the Collaboratory :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">               
+      <p>InterPares2 is a multidisciplinary and international project that aims to develop principles and methods that can ensure the creation and maintenance of accurate and reliable records. It builds upon the work in preservation methodology done in InterPares1 and is largely concerned with the long-term preservation of authentic records in the context of artistic, scientific and government activities in the light of dynamic and interactive computer technology.<BR>
+ <BR>
+The InterPares2 project is organized into national, multi-national, and industry-based research teams. There are research teams in Canada, the United States, Europe (United Kingdom, Ireland, Sweden, France, Italy, and the Netherlands), Australia, and Asia (China and Singapore) as well as a global industry group that includes CENSA (the Collaborative Electronic Notebook Systems Association). <BR>
+<BR>
+Major funding for the project has been provided by Canadaís Social Science and Humanities Research Councilís Multidisciplinary Collaborative Research Initiative (MCRI) programme, and the National Historical Publications and Records Commission and the National Science Foundation of the United States, as well as by other funding agencies and institutions in the countries of the various research teams. In addition to archivists, the research teams include members who are computer scientists, preservation experts, lawyers, and media specialists. It is important to note that with InterPares2, unlike its previous incarnation, the majority of the researchers now tend to be domain knowledge experts rather than archivists or information professionals. <BR>
+<BR>
+Much of the work of the research is carried out through a series of task forces or research units that roughly correspond to 3 domains, 3 focuses, and 4 cross-domains:<BR>
+Domains:<BR>
+- Record creation & maintainence<BR>
+- Authenticity, accuracy & reliability<BR>
+- Methods of appraisal & preservation<BR>
+<BR>
+Focuses:<BR>
+- Artistic activities<BR>
+- Scientific activities<BR>
+- Governmental activities<BR>
+<BR>
+Cross-Domains:<BR>
+- Terminology<BR>
+- Policy<BR>
+- Description<BR>
+- Modeling<BR>
+<BR>
+Much of the research in the project is done in face to face meetings such as the twice yearly International team meetings and the 2 week long Plenary Workshops. This seems to be necessary due to the diverse nature of the project and the interdisciplinary background of the researchers. However, apart from these workshops, the group utilizes tools made available on the InterPares2 website to continue the research work. In addition, there are various incentive issues that need to be addressed, such as research citations and credits, before individuals from different domains are able to collaborate with each other using technology. <BR>
+<BR>
+<BR>
+</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%" height="20">&nbsp;</td>
+      <td width="31%" bgcolor="#ccff66" bordercolor="#CCCCCC"
+ align="right" valign="top" height="20">               
+      <p class="fieldname">Access          to 
+Instruments :</p>
+      </td>
+      <td width="1%" height="20">&nbsp;</td>
+      <td width="66%" height="20">n/a</td>
+      <td width="1%" height="20">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" bgcolor="#ccff66" bordercolor="#CCCCCC"
+ align="right" valign="top">               
+      <p class="fieldname">Access          to 
+Information Resources :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">The goal of the project is to develop a methodology for the long term preservation of electronic records that can be proven to be authentic. In order to achieve this, the project has to redfine what a digital record is in a dynamic and interactive environment. Thus, one of the main goals of the project is to generate research and develop databases that enable the researchers to redefine the field of electronic records.<BR>
+<BR>
+At present the following databases are being developed:<BR>
+- A terminology application was created to bring together several tools necessary to assist researchers, and eventually the public, in using the words and phrases as defined by the Project. Researchers are able submit new terms or phrases, comment on existing ones, propose and comment on definitions, and modify them if required.<BR>
+<BR>
+- A bibliography application was created to centrally locate all<BR>
+bibliographical references used by the Project.  Again, researchers can create bibliographies, add and remove entries, and annotate any entries as they apply to their own research units. <BR>
+<BR>
+- A dissemination database was put together to hold all dissemination information for the project.  Researchers can add future/past dissemination activities, as well as add future conferences that might interest any InterPARES researcher in several different research areas.</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" bgcolor="#ccff66" bordercolor="#CCCCCC"
+ align="right" valign="top">               
+      <p class="fieldname">Access          to 
+People as Resources :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">The primary work of the project is done mainly through face to face meetings between the researchers from various countries. The following meetings are of note to the project:<BR>
+<BR>
+- Twice yearly the international team meets to discuss work in progress and findings and to assign tasks and responsibilities to research units.<BR>
+<BR>
+- Research units also meet for two plenary week-long research workshops to perform research and other activities that require face to face interaction, such as modeling, and to compare and integrate the results of the research activities carried out by the various units in between meetings.</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top">
+        <p class="fieldname">Funding Agency 
+or Sponsor :</p></td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+
+<TD width="100%"><I><font size="1" color="gray">National Archives and Records Administration (NARA)</font></I></td>
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+<TD><IMG SRC="/images/spacer.gif" width="10" height="10"></td>
+
+
+<TD width="100%">National Historical Publications and Records Commission (NHPRC)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Social Sciences and Humanities Research Council of Canada's Multidisciplinary Collaborative Research Initiative (SSHRC-MCRI)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">University of British Columbia</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+</table>
+</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <TR> 
+      <td width="1">&nbsp;</td>
+      <td valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+        <table width="100%" border="0">
+          <tr> 
+            <td width="13%">&nbsp;</td>
+            <td width="49%"> 
+              <table width="100%" border="1" bordercolor="#CCFFFF">
+                <tr> 
+                  <td> 
+                    <p> <font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Notes on Funding Agencies/Sponsors:<br>
+                      Major funding for The InterPARES Project is provided by The Social Sciences and Humanities Research Council of Canadaís Multidisciplinary Collaborative Research Initiative (SSHRC-MCRI), and the National Historical Publications and Records Commission and the National Science Foundation of the United States.<BR>
+Matching funds are provided by The University of British Columbia's Hampton Research Grant, the Vice President Research Development Fund, the Dean of Arts, and the School of Library, Archival and Information Studies. 
+                    </font></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+      <TD width="4">&nbsp;</TD>
+    </TR>
+
+    <TR> 
+      <td height=1 width="1"></td>
+      <td height=1 valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+       
+      </td>
+      <td height=1 width="4"></td>
+    </TR>
+
+    <TR> 
+      <td height=1 width="1"></td>
+      <td height=1 valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+       
+      </td>
+      <TD height=1 width="4"></TD>
+    </TR>
+
+    <TR> 
+      <td height=1 width="1"></td>
+      <td height=1 valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+       
+      </td>
+      <TD height=1 width="4"></TD>
+    </TR>
+    <TR> 
+      <td width="1">&nbsp;</td>
+      <td valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+        <table width="100%" border="0">
+          <tr bgcolor=""> 
+            <td width="49%" align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>TOTAL 
+              PARTICIPANTS: </b></font></td>
+            <td width="13%"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                
+                </font></div>
+              </font></td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td width="49%" bgcolor="#CCFFFF"> 
+              <table width="100%" border="1" bgcolor="#CCFFFF">
+                <tr bgcolor="white"> 
+                  <td> 
+                    <p> <font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Notes on Participants/Organizations:<br>
+                      Being a research project with an international focus, other organizations from around the world have pledged financial resources, contributions in kind, and research talent to the project. <BR>
+<BR>
+<BR>
+Canada<BR>
+Archives of Ontario<BR>
+British Columbia Archives<BR>
+Carleton University<BR>
+Library and Archives of Canada<BR>
+McGill University<BR>
+Nova Scotia Provincial Archives<BR>
+Ryerson University<BR>
+Simon Fraser University<BR>
+The Banff Centre<BR>
+UniversitÈ Laval<BR>
+UniversitÈ de MontrÈal<BR>
+University of Toronto<BR>
+University of Victoria<BR>
+University of Windsor<BR>
+<BR>
+United States<BR>
+Amigos Library Services<BR>
+Arizona State Library, Archives and Public Records<BR>
+Collaborative Electronic Notebook Systems Association (CENSA)<BR>
+Dreamworks SKG<BR>
+Georgia Tech Research Institute<BR>
+Getty Research Institute<BR>
+National Archives and Records Administration<BR>
+New York University<BR>
+San Diego Supercomputer Center<BR>
+Simmons College<BR>
+State University of New York, Albany<BR>
+University of California at Santa Barbara<BR>
+University of California at Los Angeles<BR>
+University of Florida<BR>
+Vassar College<BR>
+WGBH Educational Foundation<BR>
+Yale University<BR>
+<BR>
+Europe<BR>
+Associazione Nazionale Archivistica Italiana, Italy<BR>
+DAVID Project, Stadsarchief Antwerpen, Belgium<BR>
+National Archives of Ireland<BR>
+National Archives of the Netherlands, Netherlands<BR>
+Subdireccion General de los Archivos, Spain<BR>
+State Archives of Porto, Portugal<BR>
+Town of Zaragoza, Spain<BR>
+United Kingdom National Archives<BR>
+<BR>
+University of Leuven, Belgium<BR>
+University of Urbino, Italy<BR>
+<BR>
+Asia<BR>
+Archives College of Renmin, University of China<BR>
+Beijing Municipal Archives, China<BR>
+National Archives of Singapore<BR>
+National Institute of Japanese Literature, Japan<BR>
+State Archives Administration of China, China<BR>
+University of Shizuoka, Japan<BR>
+<BR>
+Australia<BR>
+Edith Cowan University, Perth<BR>
+Monash University, Melbourne<BR>
+State Records Authority of New South Wales, NSW<BR>
+
+                    </font></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td width="13%">&nbsp;</td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td width="49%">&nbsp;</td>
+            <td width="13%">&nbsp;</td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+      <TD width="4">&nbsp;</TD>
+    </TR>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      
+    <td width="31%" bgcolor="#FFFFFF" bordercolor="#CCCCCC"
+ align="right" valign="top"> 
+      <p class="fieldname">Communications Technology 
+        Used :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      
+    <td width="66%">Restricted Access researchers' area contains the following tools for communicating with each other outside of the international team meetings and the plenary workshops:<BR>
+- Unmoderated List Servs where researchers are able to update work.<BR>
+- Worksites where research teams that have researchers located around the world can use a work site to submit the answers to these questions. When any member wants to review the progress of the research, they are able to access it immediately.<BR>
+- subscription based Webconferencing tool which utilizes shared desktops, scheduling online meetings, chat and make online presentations.<BR>
+- survey tool where researchers are able to conduct online surveys to reach a wider audience.</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      
+    <td width="31%" bgcolor="#FFFFFF" bordercolor="#CCCCCC"
+ align="right" valign="top"> 
+      <p class="fieldname">Technical 
+        Capabilities :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      
+    <td width="66%">
+        <B>Management of technical resources</B><BR>
+Security, Access control/login facilities<BR>
+<B>Support for transition between synch and asynch</B><BR>
+Shared calendars<BR>
+<B>Asynchronous object sharing</B><BR>
+Vetted knowledge based of multiple authors, Common file space<BR>
+<B>Asynchronous conversation</B><BR>
+Threaded discussion<BR>
+<B>Synchronous object sharing</B><BR>
+Data conferencing<BR>
+<B>Synchronous conversation</B><BR>
+Audio, Instant messaging/chat
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+  <tr>
+    <td width="1%">&nbsp;</td>
+    <td align="right" valign="top" width="31%">Key Articles : </td>
+    <td width="1%">&nbsp;</td>
+      <td width="66%" valign="top">
+        
+    <p class="biblio">
+
+        Duranti, L. (2005). <A HREF="bibs.php?831">The long-term preservation of accurate and authentic digital data: The INTERPARES project<BR>
+</A> <I>Data Science Journal</I>, 4, 106-118.
+
+
+
+
+
+
+
+
+      </p>
+
+      </td>
+    <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">Project-reported performance data
+:</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">84 active interdisciplinary researchers from 25 countries. The researchers are divided up into teams which can be viewed at the following URL http://www.interpares.org/ip2_summary.htm<BR>
+<BR>
+Project was built on the successes of InterPares1(concluded 2001):<BR>
+- produced conceptual requirements for authenticity, models of the processes of selection and preservation of authentic electronic records<BR>
+- published book "The Long-term Preservation of Authentic Electronic Records: Findings of The InterPARES Project" San Miniato: Archilab, 2004. (can be found online at www.interpares.org/book/index.htm)<BR>
+<BR>
+Still too early for successes of project to be reported. Much of the findings from the project are due this year and 2006.</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+   
+     
+
+
+  </tbody>
+</table>
+
+    </TD>
+    <TD width=60>&nbsp;</TD></TR>
+<TR>
+    <TD vAlign=top align=middle width=20 bgColor=#660033>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top colspan=2 align=right bgColor=#ffffff height=12>&nbsp;</TD>
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=bottom colspan=4 align=left width=145 bgColor=#660033 height=12><IMG 
+      height=12 
+      src="/images/RoundedBottom.gif" 
+      width=145 align=bottom></TD>
+    <TD vAlign=top align=right bgColor=#660033 height=12><FONT 
+      color=#ffffff>
+      &nbsp;</FONT><SPAN class=SmallText><FONT 
+      color=#ffffff>&nbsp; </FONT></SPAN></TD><!-- HERE -->
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=top align=middle width=20>&nbsp;</TD>
+    <TD colspan=4 vAlign=top align=middle bgColor=#ffffff
+      height=6><SPAN class="footernavbar"><A 
+      href="/">Home</A> | <A 
+      href="/AboutSOC/index.php">About 
+      SOC</A> | <A 
+      href="/Workshops/index.php">Workshops</A> | <A 
+      href="/Resources/index.php?findings">Resources</A> 
+      | <A 
+      href="/NewsEvents/index.php">News 
+      &amp; Events</A></SPAN></TD>
+    <TD width=60 bgColor=#ffffff height=6>&nbsp;</TD></TR>
+<!-- #LOOP-START:footer -->
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <HR align=center width=80%>
+    </TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5></TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <TABLE cellSpacing=0 cellPadding=0 width="95%" align=left border=0 
+      name="Footer">
+        <TR>
+          <TD vAlign=top align=middle width=172 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.uci.edu/"><IMG height=70 
+            alt="University of California, Irvine Logo" 
+            src="/images/logo_uci.jpg" 
+            width=62 border=0 name=UCI_Logo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.uci.edu/">University of California, Irvine<BR></A></P></TD>
+          <TD align=middle>
+            <P class="copyright">This material is based upon work supported by 
+            the <A target=_blank href="http://www.itr.nsf.gov/">National Science 
+            Foundation</A> under Grant No. IIS 0085951. Any opinions, findings, 
+            and conclusions or recommendations expressed in this material are 
+            those of the author(s) and do not necessarily reflect the views of 
+            the National Science Foundation. <BR><A target=_blank 
+            href="http://www.itr.nsf.gov/"><IMG height=42 
+            alt="National Science Foundation Logo" 
+            src="/images/nsf.gif" width=42 
+            border=0 name=NSF_Logo></A></P></TD>
+          <TD vAlign=top align=middle width=127 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.ics.uci.edu/"><IMG height=70 
+            alt="School of Information Logo" 
+            src="/images/logo_uci.jpg" 
+            width=62 border=0 name=SILogo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.ics.uci.edu/">School of Information</A>
+            <A href="http://www.ics.uci.edu/">University of 
+            Michigan</A></P></TD></TR>
+        <TR>
+          <TD align=middle>&nbsp;</TD></TR>
+        <TR>
+          <TD>
+            <P align=center class="copyright">&reg; 2010-2011
+            University of 
+            California, Irvine. Please send questions and comments to <A 
+            href="mailto:emilyo@uci.edu">SOC 
+        webmaster</A>.</P></TD></TR></TABLE></TD></TR>
+  <TR>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=95>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0>&nbsp; </TD>
+    <TD width=60 bgColor="white" height=0>&nbsp;</TD></TR>
+</TABLE>
+<!-- #LOOP-END:footer -->
+<P>&nbsp;</P>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-987955-53']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</BODY><!-- #EndTemplate --></HTML>
+

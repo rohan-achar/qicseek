@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Other Modular Items</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Other Modular Items">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html3560 HREF="node110.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html3558 HREF="node95.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html3552 HREF="node108.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html3562 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html3561 HREF="node110.html"> Privacy</A>
+<B>Up:</B> <A NAME=tex2html3559 HREF="node95.html"> Module System</A>
+<B> Previous:</B> <A NAME=tex2html3553 HREF="node108.html"> Libraries</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION00880000000000000000> Other Modular Items</A></H1>
+<P>
+Operators, records, macros, arrays and global variables have only two
+visibility levels: global (visible from all modules that do not define
+a local one) or local (only visible from its definition module).
+<P>
+Operators can be defined globally or locally using global_op/3
+or op/3. A local operator only affects the module where it is
+defined.
+
+<P>
+A local operator always hides a global one.  Moreover, a
+local operator of precedence 0 can be used to hide a global operator
+definition of the same associativity class.  It can be removed (and the
+global one made visible again) with abolish_op/1.
+<P>
+Records are global by default. A local record is declared with
+local_record/1 and then used normally (predicates that access records
+work on the visible record). A local record can be abolished (and
+therefore make a global visible if there is one) with
+abolish_record/1. Please note that erase_all/1 is different to
+<b> abolish_record/1</b> since it only removes all the values recorded
+under a key but does not remove the local declaration of that record
+(i.e. an existing global record is not made visible).
+<P>
+Arrays are global or local depending on whether they are defined with
+make_array/1,2 or make_local_array/1,2. All built-ins that
+access arrays or global variables access the visible one. Any array
+can be removed using erase_array/1.
+<P>
+Macros are local by default, they can be made global
+if the flag <tt> global</tt> is specified in the flag list.
+<P>
+Character classes and syntax options are only local, they cannot
+be made global.
+If two or modules have to share them, they have to be defined
+in a module interface.
+<P>
+Metaterm attributes are accessed by a name which is usually
+the name of a module.
+Attribute names are global, they cannot be made local.
+<P>
+<BR> <HR><A NAME=tex2html3560 HREF="node110.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html3558 HREF="node95.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html3552 HREF="node108.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html3562 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html3561 HREF="node110.html"> Privacy</A>
+<B>Up:</B> <A NAME=tex2html3559 HREF="node95.html"> Module System</A>
+<B> Previous:</B> <A NAME=tex2html3553 HREF="node108.html"> Libraries</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

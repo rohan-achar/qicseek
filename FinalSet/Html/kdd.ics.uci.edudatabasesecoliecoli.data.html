@@ -1,0 +1,208 @@
+<!------------------------------------------------------------------------
+<!  E. coli genes
+<!----------------------------------------------------------------------->
+<HTML>
+<HEAD>
+<TITLE>E. coli genes</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+
+<!------------------------------------------------------------------------
+<!  Title 
+<!----------------------------------------------------------------------->
+<H1>E. coli genes</H1>
+
+<!------------------------------------------------------------------------
+<!  Data Type 
+<!----------------------------------------------------------------------->
+<H2>Data Type</H2>
+relational
+
+<!------------------------------------------------------------------------
+<!  Abstract 
+<!----------------------------------------------------------------------->
+<H2>Abstract</H2>
+<p>
+Data giving characteristics of each ORF (potential gene) in the
+E. coli genome. Sequence, homology (similarity to other genes) and
+structural information, and function (if known) are provided.
+</p>
+
+<!------------------------------------------------------------------------
+<!  Sources 
+<!----------------------------------------------------------------------->
+<H2> Sources</H2>
+<H4> Original Owner and Donor</H4>
+<PRE>
+  <a href="http://users.aber.ac.uk/rdk">Ross D. King</a>
+  Department of Computer Science, 
+  University of Wales Aberystwyth, 
+  SY23 3DB, Wales
+  <a href="mailto:rdk@aber.ac.uk">rdk@aber.ac.uk</a>
+</PRE>
+<B>Date Donated: </B> July 14, 2001
+
+<!------------------------------------------------------------------------
+<!  Data Characteristics
+<!----------------------------------------------------------------------->
+<H2> Data Characteristics</H2>
+<P>
+The data was collected from several sources, including <a href="http://genprotec.mbl.edu/start">GenProtEC</a> and <a href="http://www.expasy.ch/sprot/sprot-top.html">SWISSPROT</a>. Structure prediction was made by <a href="http://www.aber.ac.uk/~phiwww/prof/index.html">PROF</a>. Homology search was provided by <a href="http://www.ncbi.nlm.nih.gov/BLAST/">PSI-BLAST</a>.
+
+<p>
+The data is in Datalog format. Missing values are not explicit, but some 
+genes have more relationships than others. 
+
+
+<H4>Dependencies</H4>
+
+<p>
+E. coli genes (ORFs) are related to each other by the predicate 
+ecoli_to_ecoli(EcoliNumber,E-value,Psi-blast_iteration). 
+They are related to other (SWISSPROT) proteins by the predicate
+e_val(AccNo,E-value).
+All the data for a single gene (ORF) is enclosed between delimiters of 
+the form:
+<pre>
+   begin(model(EcoliNumber)).
+   end(model(EcoliNumber)). 
+</pre>
+
+
+
+<!------------------------------------------------------------------------
+<!  Other Relevant Information 
+<!----------------------------------------------------------------------->
+<H2> Other Relevant Information</H2>
+
+The gene functional classes are in a hierarchy. See 
+<a href="http://genprotec.mbl.edu/start">http://genprotec.mbl.edu/start</a>
+(note: the classes may have changed 
+since original data collection).
+
+
+<!------------------------------------------------------------------------
+<!  Data Format  
+<!----------------------------------------------------------------------->
+<H2>Data Format</H2>
+
+There are two datalog files: ecoli_data.pl and ecoli_functions.pl
+
+<h4>ecoli_functions.pl</h4>
+<p>
+Lists classes and ORF functions. Lines are of the following form:
+<pre>
+   class(5,1,1,'Colicin-related functions').
+   class(5,1,'Laterally acquirred elements').
+   class(5,'Extrachromosomal'). 
+</pre>
+
+<p>
+Arguments are up to 3 numbers (describing class at up to 3
+different levels), followed by a string class description. For
+example:
+<pre>
+   function(ecoli210,7,0,0,'b0217','putative aminopeptidase').
+</pre>
+
+<p>
+Arguments are ORF number, exactly 3 class numbers, gene name (or
+blattner number if no gene name), ORF description.
+
+<h4>ecoli_data.pl</h4>
+<p>
+Data for each ORF (gene) is delimited by 
+<pre>
+   begin(model(ecoliX)).
+   end(model(ecoliX)).
+</pre>
+where X is the ORF number. Other predicates are as follows (examples):
+
+<PRE>
+   ecoli_orf(ecoliX).    % X is ORF number
+   ecoli_mol_wt(176624.1).  % float
+   ecoli_theo_pI(5.81).     %float
+   ecoli_atomic_comp(c,7940).   % {c,h,n,o,s} , int
+   ecoli_aliphatic_index(69.57). % float
+   ecoli_hydro(-0.549).          % float
+   sec_struc(1,c,2).           % int (start), {a,b,c}, int (length)
+   sec_struc_coil(1,2).        % int (start), int (length)
+   sec_struc_beta(1,5).        % int (start), int (length)
+   sec_struc_alpha(1,7).       % int (start), int (length)
+   sequence_length(255).       % int
+   amino_acid_ratio(a,8.9).    % amino_acid_char, float
+   amino_acids(ecoli3013,a,70). % ORF_num, amino_acid_char, int
+   amino_acid_pair_ratio(a,a,9.0). % amino_acid_char, amino_acid_char, float
+   amino_acid_pairs(a,a,7).    % amino_acid_char, amino_acid_char, int
+   ecoli_to_ecoli(1170,1.0e-105,5).  % ORF_num, double (e-value), int (iteration) 
+   e_val(o42893,2.0e-99).  % accession_number, double (e-value)
+   psi_iter(o42893,5).     % accession_number, int (iteration)
+   species(p52494,'candida_albicans__yeast_').  % accession_number, string
+   mol_wt(p52494,104022). % accession_number, int 
+   classification(p52494,candida).  % accession_number, name
+   keyword(p25195,'plasmid').   % accession_number, string
+</PRE>
+
+
+
+<!------------------------------------------------------------------------
+<!  Past Usage 
+<!----------------------------------------------------------------------->
+<H2>Past Usage</H2>
+<p>
+King, R. D., Karwath, A., Clare, A. and Dehaspe, L. (2000)
+Accurate prediction of protein functional class in the M. tuberculosis 
+and E. coli genomes using data mining. Journal of Comparative and 
+Functional Genomics, 17, p283-293.
+</p>
+
+<!------------------------------------------------------------------------
+<!  Acknowledgements 
+<!----------------------------------------------------------------------->
+<H2> Acknowledgements, Copyright Information, and Availability</H2>
+
+<h4>Usage Restrictions</h4>
+<p>
+Copyright 2000 by R. D. King, A. Karwath, A. Clare, L. Dehaspe 
+
+<p>
+There are no restrictions data usage.
+This data is provided "as is" and without any express or implied
+warranties, including, without limitation, the implied warranties of
+merchantibility and fitness for a particular purpose.
+
+
+<h4>Citation Requests</h4>
+<p>
+Please cite King et al. (2000).
+
+<h4>Acknowledgements</h4>
+<p>
+This work was supported by the following grants: G78/6609, BIF08765, GR/L62849 and by PharmaDM, Ambachtenlaan, 54/D, B-3001 Leuven, Belgium
+
+<!------------------------------------------------------------------------
+<!  References and Further Information
+<!----------------------------------------------------------------------->
+<H2> References and Further Information</H2>
+
+<p>
+King, R. and Karwath, A. and Clare, A. and Dehaspe, L. (2001).
+The Utility of Different Representations of Protein Sequence for Predicting Functional Class,
+Bioinformatics, 17(5), pages 445--454.
+
+
+<!------------------------------------------------------------------------
+<!  Signature
+<!----------------------------------------------------------------------->
+<p>
+<hr>
+<ADDRESS>
+<A href="http://kdd.ics.uci.edu/">The UCI KDD Archive</A> <br>
+<a href="http://www.ics.uci.edu/">Information and Computer Science</a> <br>
+<a href="http://www.uci.edu/">University of California, Irvine</a> <br>
+Irvine, CA 92697-3425 <br> 
+</ADDRESS> 
+Last modified: August 7, 2001</BODY>
+</HTML>
+
+

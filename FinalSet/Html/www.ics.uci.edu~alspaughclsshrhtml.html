@@ -1,0 +1,901 @@
+<?xml version='1.1'?>
+<!DOCTYPE html
+     PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN'
+     'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
+<head>
+  <title>XHTML and HTML</title>
+  <meta name='Author' content='Thomas A. Alspaugh'/>
+  <meta name='Description' content="XHTML and HTML"/>
+  <meta http-equiv='content-type' content='text/html; charset=ISO-8859-1'/>
+  <meta http-equiv='Content-Style-Type' content='text/css'/>
+  <link href='../../alspaugh-uci.css' rel='stylesheet' type='text/css'/>
+  <!-- <link href='../alspaugh-uci-cls.css' rel='stylesheet' type='text/css'/> -->
+  <style type='text/css'>
+    @media screen {
+      body     {  background: url("img/bg-html.png") repeat-y;  }
+      #TMain   {  margin-left: 10.00em;  }
+    }
+  </style>
+</head>
+<body>
+
+<div id='TBg'>
+
+<div id='THeader'>
+XHTML and HTML &mdash; a brief introduction
+</div>
+
+<div id='TLinks1' class='Links'> <!-- - - - - - - - - - - - - - - - - - - - -->
+<p>  <a class='sc' href='../../index.html'>Home</a>
+</p>
+<div class='hr'> </div>
+<p>  <a href='index.html'>Foundations home</a>
+</p>
+<div class='hr'> </div>
+<p>
+<a href='set.html'>Sets</a><br/>
+<a href='relation.html'>Relations</a><br/>
+<a href='correspondence.html'>Correspondences</a><br/>
+<a href='orderedSet.html'>Ordered Sets</a><br/>
+<a href='lattice.html'>Lattices</a><br/>
+<a href='graph.html'>Graphs</a><br/>
+<a href='powerset.html'>Powersets</a><br/>
+<a href='binaryString.html'>Binary Strings</a><br/>
+<a href='logicConcepts.html'>Logic</a><br/>
+<a href='allen.html'>AIA</a><br/><!-- -spell AIA -->
+<a href='greek.html'>Greek</a><br/>
+</p>
+<div class='hr'> </div>
+<p>
+<a href='glossaryExternal.html'>Glossary</a><br/>
+<a href='goodAbstract.html'>Abstracts</a><br/>
+<a href='argument.html'>Argument</a><br/>
+<a href='ontology.html'>Glossaries</a><br/>
+<a href='inquiryCycle.html'>Inquiry Cycle</a><br/>
+<a href='hohfeld.html'>Legal Relations</a><br/>
+<a href='goodPresentation.html'>Presentations</a><br/>
+</p>
+<div class='hr'> </div>
+<p>
+<a href='quickStart.html'>Elicitation</a><br/>
+<a href='ontology.html'>Glossaries</a><br/>
+<a href='goal.html'>Goals</a><br/>
+<a href='istar.html'>i*</a><br/>
+<a href='SCR.html'>SCR</a><br/>
+<a href='tracing.html'>Tracing</a><br/>
+</p>
+<div class='hr2'> </div>
+<p>
+<a href='alloy.html'>Alloy</a><br/>
+<a href='msc.html'>MSCs</a><br/>
+<a href='regularExpression.html'>Regular Exprs.</a><br/>
+</p><!-- -spell MSCs Exprs -->
+<div class='hr2'> </div>
+<p>
+<a href='java-designPattern.html'>Design Patterns</a><br/>
+<a href='javadoc.html'>Javadoc</a><br/>
+<a href='java-package.html'>Java Packages</a><br/>
+<a href='java-type.html'>Java Types</a><br/>
+</p>
+<div class='hr2'> </div>
+<p>
+<a href='html.html'>(X)HTML</a><br/>
+<a href='xmlSchema.html'>XML Schemas</a><br/>
+<a href='xslt.html'>XSLT</a><br/>
+</p><!-- -spell XSLT -->
+</div>
+
+
+<!-- No right column -->
+<div id='TMain'><!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+<!--xhtml -y -->
+
+
+<!--spell CSS DOCTYPE DTD HyperText Za blockquote br charset colspan -->
+<!--spell css dfn dl dt dtd href html http img lang li lt monospace namespace -->
+<!--spell nbsp ol Preformatted rowspan src stylesheet td tt ul xhtml xml xmlns -->
+<!--spell UTF basefont param -->
+
+
+<h1>Table of contents</h1>
+
+<div id='ToC'>
+  <h1><a href='#Introduction'>Introduction</a></h1>
+  <h1><a href='#W3CSpecification'>The W3C specification</a></h1>
+  <h2><a href='#StyleSheets'>Style sheets</a></h2>
+  <h2><a href='#Validation'>Validation</a></h2>
+  <h1><a href='#BlockStructure'>Document block structure</a></h1>
+  <h2><a href='#head'>Head</a></h2>
+  <h3><a href='#title'>Title</a></h3>
+  <h3><a href='#meta'>Meta</a></h3>
+  <h3><a href='#link'>Link</a></h3>
+  <h3><a href='#style'>Style</a></h3>
+  <h2><a href='#body'>Body</a></h2>
+  <h3><a href='#hN'>Headings</a></h3>
+  <h3><a href='#p'>Paragraphs</a></h3>
+  <h3><a href='#blockquote'>Block quote</a></h3>
+  <h3><a href='#Lists'>Lists</a></h3>
+  <h4><a href='#ol'>Ordered lists</a></h4>
+  <h4><a href='#ul'>Unordered lists</a></h4>
+  <h4><a href='#dl'>Definition lists</a></h4>
+  <h3><a href='#Tables'>Tables</a></h3>
+  <h3><a href='#img'>Images</a></h3>
+  <h3><a href='#TextBlockStyle'>Text block style and layout</a></h3>
+  <h1><a href='#InlineStructure'>Document inline structure</a></h1>
+  <h2><a href='#a'>Hypertext links</a></h2>
+  <h2><a href='#TextInlineFunction'>Text inline structure</a></h2>
+  <h2><a href='#TextInlineStyle'>Text inline style and layout</a></h2>
+  <h2><a href='#SpecialCharacters'>Special characters and symbols</a></h2>
+  <h1><a href='#UsefulCommonAttributes'>Useful common attributes</a></h1>
+  <h1><a href='#Comments'>Comments</a></h1>
+  <h1><a href='#XHTML'>Making it XHTML</a></h1>
+  <h1><a href='#References'>References</a></h1>
+</div>
+
+
+<h1 id='Introduction'>Introduction</h1>
+
+<p>
+This document is a brief introduction to HTML and XHTML.&nbsp;
+The W3C (World Wide Web Consortium)
+provides specifications of these languages on its
+web site
+[<a href='#HTML4.01'>HTML4.01</a>, <a href='#XHTML1.0'>XHTML1.0</a>].&nbsp;
+Once you are reasonably familiar with the possibilities
+the languages provide,
+these specifications are all you need to understand and write web pages.&nbsp;
+</p>
+
+<p>
+<dfn>HTML</dfn> (Hyper Text Markup Language)
+is the original Web page language.&nbsp;
+<dfn>XHTML</dfn> is an <a href='xmlSchema.html'>XML</a> language
+based on HTML,
+with the exactly the same power but a more regular syntax
+that can be processed by XML tools.&nbsp;
+Both languages are accepted by
+current browsers
+(this page is XHTML).&nbsp;
+If you are just starting to learn,
+you should learn XHTML.&nbsp;
+</p>
+
+<p>
+Both HTML and XHTML are designed to express
+the <em>structure</em> of documents,
+rather than merely their presentation.&nbsp;
+A separate language, CSS (Cascading Style Sheets),
+provides powerful and detailed control of presentation,
+far more than was ever provided by HTML
+[<a href='#CSS1'>CSS1</a>, <a href='#CSS2'>CSS2</a>].&nbsp;
+As the HTML specification states,
+<q>Experience has shown that separating the structure of a document
+from its presentational aspects
+reduces the cost of serving a wide range of platforms, media, etc.,
+and facilitates document revisions.</q>
+</p>
+
+<p>
+(X)HTML elements are divided into
+<a href='#BlockStructure'><dfn>block</dfn> elements</a>
+that are rendered as rectangles of the window,
+usually in a vertical stack;&nbsp;
+and <a href='#InlineStructure'><dfn>inline</dfn> elements</a> that are
+catenated horizontally
+and then broken into lines
+that are rendered as parts of a block.&nbsp;
+</p>
+
+<p>
+You may find it helpful to save this page
+and examine it with a <a href='http://www.jedit.org/'>text editor</a>
+to see how a web page is put together.&nbsp;
+You can experiment with (X)HTML
+by writing your own test pages
+and opening them in a browser to see how they may be presented.&nbsp;
+</p>
+
+
+<h1 id='W3CSpecification'>The W3C specification</h1>
+
+<p>
+The W3C specifications are the definitions of the two languages;&nbsp;
+some tools and browsers (especially those produced by for-profit groups)
+produce or read variations on the definitions,
+but it is to your advantage to stick to the standard.&nbsp;
+</p>
+
+<p>
+The XHTML specification is quite brief,
+and simply explains how to express what HTML expresses
+in an XML syntax.&nbsp;
+</p>
+
+<p>
+The HTML specification contains the meat of both languages.&nbsp;
+Besides the table of contents,
+the specification has an index,
+and useful tables of all the elements and all their attributes.&nbsp;
+The table of contents is on the main page,
+and the tables of elements and attributes and the index
+are accessible through links at the top of each page.&nbsp;
+</p>
+
+
+<h2 id='StyleSheets'>Style sheets</h2>
+
+<p>
+Once you have become reasonably familiar with XHTML and HTML,
+you probably will want to play with how your pages are presented.&nbsp;
+The best way to do this is to learn and use CSS.&nbsp;
+Two versions of CSS have been defined at this writing:&nbsp;
+<a href='#CSS1'>CSS1</a> is much simpler and
+will do most of what you want,
+while <a href='#CSS2'>CSS2</a> is considerably more complex
+and may be postponed until you need something CSS1 won't do.&nbsp;
+</p>
+
+<p>
+You may define a separate style sheet
+and link to it from your web documents
+(that is how this document's style is defined)
+using a <code><a href='#link'>link</a></code>
+element in the document's <code><a href='#head'>head</a></code>;&nbsp;
+or you can include style information
+for a single page
+in a <code><a href='#style'>style</a></code> element in that page's
+<code><a href='#head'>head</a></code>;&nbsp;
+and finally,
+an individual element's presentation can be controlled
+by style information in its <code>style</code> attribute.&nbsp;
+More-local style has higher priority
+(thus the 'cascading' in the CSS name).&nbsp;
+</p>
+
+
+<h2 id='Validation'>Validation</h2>
+
+<p>
+The W3C provides an online validation service
+for web pages and style sheets.&nbsp;
+Click the icons at the bottom right of this page
+to validate this page and its style information;&nbsp;
+you will be taken to URLs where you can also validate
+your own documents,
+whether they are accessible by URL or are local copies on your machine.&nbsp;
+You should take advantage of this service.&nbsp;
+</p>
+
+
+<h1 id='BlockStructure'>Document block structure</h1>
+
+<p>An XHTML document consists of nested <i>elements</i>.&nbsp;
+Each <dfn>element</dfn> consists of
+a <i>start tag</i>, the element's content (if any), and an <i>end tag</i>.&nbsp;
+</p>
+<p id='StartTag'>
+A <dfn>start tag</dfn> consists of
+<code>&lt;</code>,
+the tag's name,
+optionally some attributes and values, and <code>&gt;</code>.&nbsp;
+</p>
+<p id='EndTag'>
+An <dfn>end tag</dfn> consists of <code>&lt;/</code>,
+the tag's name, and <code>&gt;</code>.&nbsp;
+The content can be text, elements, a combination of text and elements,
+or nothing at all.&nbsp;
+</p>
+<p id='EmptyElementTag'>
+An element with no content can be written briefly as
+an <dfn>empty element tag</dfn> consisting of
+<code>&lt;</code>,
+the tag's name,
+optionally some attributes and values, and <code>/&gt;</code>.&nbsp;
+</p>
+
+<p>
+Elements must be <dfn>nested</dfn>:&nbsp;
+you can write
+<code>&lt;dfn&gt;&lt;i&gt;term&lt;/i&gt;&lt;/dfn&gt;</code>
+but not
+<code>&lt;dfn&gt;&lt;i&gt;term&lt;/dfn&gt;&lt;/i&gt;</code>
+</p>
+
+<p>
+Examples:&nbsp;
+start tag <code>&lt;h1 id='example'&gt;</code>, end tag <code>&lt;/h1&gt;</code>,
+empty element tag <code>&lt;h1 id='example' /&gt;</code>.&nbsp;
+</p>
+
+<p>
+The older HTML language differs from XHTML primarily at this level:&nbsp;
+end tags are optional or forbidden for some elements,
+and empty-element tags are not allowed.&nbsp;
+</p>
+
+<div class='figure FR'>
+<img src='img/htmlStructure.png' alt='HTML structure'/>
+<p>Figure 1.&nbsp; Three successively deeper views of an XHTML document</p>
+</div>
+
+<p>
+An HTML document consists of a single <code><dfn>html</dfn></code> element.&nbsp;
+The <code>html</code> element contains
+a <code><a href='#head'>head</a></code> element and
+a <code><a href='#body'>body</a></code> element
+(see Figure 1).&nbsp;
+</p>
+
+<h2 id='head'>Head</h2>
+
+<p>
+The <code><dfn>head</dfn></code> element
+contains general information about the document
+and that controls how the document as a whole is rendered.&nbsp;
+</p>
+
+<h3 id='title'>Title</h3>
+
+<p>
+The <code><dfn>title</dfn></code> element
+contains the document's title.&nbsp;
+This is typically displayed at the top of the browser window.&nbsp;
+</p>
+
+<h3 id='meta'>Meta</h3>
+
+<p>
+The <code><dfn>meta</dfn></code> elements specify
+various kinds of meta-information about the document.&nbsp;
+Each <code>meta</code> element sets the value of a property.&nbsp;
+</p>
+
+<dl>
+  <dt><code>&lt;meta name='</code>NAME<code>'/&gt;</code></dt>
+  <dd>
+    A <code>meta name=</code> sets the property whose NAME is given.&nbsp;
+    Some properties are <code>author</code> (to specify you wrote the page)
+    and <code>description</code> and <code>keywords</code>
+    (to summarize the page for search engines).&nbsp;
+    The value is given by the element's <code>content</code> attribute.&nbsp;
+  </dd>
+
+  <dt><code>&lt;meta http-equiv='</code>NAME<code>'/&gt;</code></dt>
+  <dd>
+    A <code>meta http-equiv=</code> tells
+    an HTTP (HyperText Transfer Protocol) server
+    how to serve the page.&nbsp;
+    Examples:&nbsp;
+    <br/><code>&lt;meta http-equiv='content-type'
+    content='text/html; charset=ISO-8859-1'&gt;</code>
+    states what character set the document uses
+    (this is the standard character set);&nbsp;
+    <br/><code>&lt;meta http-equiv='Content-Style-Type' content='text/css'&gt;</code>
+    states that style information will be in CSS.&nbsp;
+  </dd>
+
+</dl>
+
+
+<h3 id='link'>Link</h3>
+
+<p>
+<code><dfn>link</dfn></code> elements specify
+links to files related to the current document.&nbsp;
+Example:&nbsp;
+<br/><code>&lt;link href='../alspaugh.css' rel='stylesheet'
+type='text/css'/&gt;</code>
+specifies a stylesheet for the current document's presentation.&nbsp;
+</p>
+
+
+<h3 id='style'>Style</h3>
+
+<p>
+A <code><dfn>style</dfn></code> element contains
+style for the document.&nbsp;
+Example:&nbsp;
+</p>
+<pre>
+  &lt;style type='text/css'&gt;
+    p {  margins: 0 0 1ex .5em;  }
+  &lt;/style&gt;
+</pre>
+
+
+<h2 id='body'>Body</h2>
+
+<p>
+The <code><dfn>body</dfn></code> element contains
+what is rendered in the browser window.&nbsp;
+</p>
+
+<h3 id='hN'>Headings</h3>
+
+<p>
+The headings of sections of an XHTML document
+are given as the contents of
+<code><dfn>h1</dfn></code>, <code><dfn>h2</dfn></code>,
+<code><dfn>h3</dfn></code>, <code><dfn>h4</dfn></code>,
+<code><dfn>h5</dfn></code>, and <code><dfn>h6</dfn></code> elements.&nbsp;
+Top level headings are given in <code>h1</code> elements;&nbsp;
+second-level headings
+within the section headed by an <code>h1</code> element
+are given in <code>h2</code> elements;&nbsp;
+and so on.&nbsp;
+</p>
+
+<p>
+The sections themselves follow their headings;&nbsp;
+see Figure 1.&nbsp;
+</p>
+
+<h3 id='p'>Paragraphs</h3>
+
+<p>
+A <code><dfn>p</dfn></code> element contains the text of a paragraph.&nbsp;
+</p>
+
+<p>
+In HTML the end tag of a <code>p</code> element is optional.&nbsp;
+</p>
+
+<h3 id='blockquote'>Block quote</h3>
+
+<p>
+A <code><dfn>blockquote</dfn></code> element contains
+a long quotation of paragraph size.&nbsp;
+(Compare <code><a href='#q'>q</a></code>.)&nbsp;
+</p>
+
+<h3 id='Lists'>Lists</h3>
+
+<h4 id='ol'>Ordered lists</h4>
+
+<p>
+An <code><dfn>ol</dfn></code> element contains
+a list whose items are numbered.&nbsp;
+Each items consists of an <code>li</code> element.&nbsp;
+</p>
+
+<p>
+In HTML the end tag of an <code>li</code> element is optional.&nbsp;
+</p>
+
+<h4 id='ul'>Unordered lists</h4>
+
+<p>
+A <code><dfn>ul</dfn></code> element contains
+a list whose items are not numbered.&nbsp;
+Each items consists of an <code>li</code> element.&nbsp;
+</p>
+
+<p>
+In HTML the end tag of an <code>li</code> element is optional.&nbsp;
+</p>
+
+<h4 id='dl'>Definition lists</h4>
+
+<p>
+A <code><dfn>dl</dfn></code> element contains
+a list whose items are terms and their definitions.&nbsp;
+Each items consists of
+a <code>dt</code> element containing the term,
+followed by a <code>dd</code> element containing its definition.&nbsp;
+</p>
+
+<p>
+In HTML the end tag of a <code>dt</code>
+or <code>dd</code> element is optional.&nbsp;
+</p>
+
+<h3 id='Tables'>Tables</h3>
+
+<p id='table'>
+Tables are organized within a <code>table</code> element.&nbsp;
+Briefly,
+a <code><dfn>table</dfn></code> element
+contains <code>tr</code> elements each of which contains a row of the table,
+and
+each <code><dfn>tr</dfn></code> element contains
+<code>td</code> elements, one for each data cell of the table,
+and possibly <code>th</code> elements for each heading cell.&nbsp;
+Ordinarily each <code>tr</code> element&nbsp;
+contains the same number of <code>th</code> and <code>td</code> elements.&nbsp;
+</p>
+<p id='td'>
+A <code><dfn>td</dfn></code>
+or <code><dfn>th</dfn></code> element for a cell that is to extend over
+more than one column
+is indicated by its <code>colspan</code> attribute,
+for example <code>colspan='2'</code> for a cell spanning two columns.&nbsp;
+Similarly,
+a cell spanning two or more rows
+is indicated by a <code>rowspan</code> attribute.&nbsp;
+For example,
+<code>&lt;td colspan='2' rowspan='3'&gt;</code>
+is a cell covering two columns and three rows.&nbsp;
+In such cases,
+the <code>tr</code> elements for the affected rows
+must contain correspondingly fewer
+<code>td</code> and <code>th</code> elements.&nbsp;
+</p>
+
+<p>
+<code>table</code> and its subelements
+have a variety of attributes and other elements
+for expressing a wide range of tables.&nbsp;
+See the <a href='#HTML4.01'>W3C specification</a> for more details.&nbsp;
+</p>
+
+<h3 id='img'>Images</h3>
+
+<p>
+An <code><dfn>img</dfn></code> element is rendered as an image.&nbsp;
+The image is specified by the element's <code>src</code> attribute,
+whose value is the URL of the image.&nbsp;
+It is recommended that a brief summary of the image
+be given in the element's <code>alt</code> attribute,
+which is shown if the image can't be displayed for some reason.&nbsp;
+</p>
+
+<p>
+In HTML an <code>img</code> element is not allowed to have an end tag.&nbsp;
+</p>
+
+
+<h3 id='TextBlockStyle'>Text block style and layout</h3>
+
+<p>
+These elements have no meaning in terms of the
+structure of the document;&nbsp;
+they merely control its presentation.&nbsp;
+Where appropriate,
+use the functional elements above instead.&nbsp;
+</p>
+
+<dl>
+  <dt id='pre'>Preformatted</dt>
+  <dd>
+    The contents of a <code><dfn>pre</dfn></code> element are
+    rendered in the lines and spacing in which it appears there.&nbsp;
+  </dd>
+</dl>
+
+
+<h1 id='InlineStructure'>Document inline structure</h1>
+
+<h2 id='a'>Hypertext links</h2>
+
+<p>
+A link is expressed using an <code>a</code> (anchor) element.&nbsp;
+The text that if mouse-clicked
+sends a browser to another location
+is the contents of the <code>a</code> element,
+and the destination is given as the <code>href</code>
+attribute of the element.&nbsp;
+</p>
+
+<p>
+The destinations can be entire URLs,
+or can be an element within an (X)HTML page
+(including the page containing the link).&nbsp;
+In order to be a destination,
+an element must have an <code>id</code> attribute
+whose value is a name unique within the page.&nbsp;
+These names must
+match the regular expression
+</p>
+
+<p class='display tt'>
+[A-Za-z][-_.:A-Za-z0-9]*
+</p>
+
+<p>
+Links to a named element
+have an <code>href</code> attribute value consisting of
+the URL, a pound sign #, and the name.&nbsp;
+Links to a named element in the same document
+may omit the URL,
+and be just # followed by the name.&nbsp;
+Finally, a link to the head of the current document
+may simply be the empty string.&nbsp;
+</p>
+
+<p>
+URLs may be the Web address of a page,
+or a local relative pathname
+beginning at the directory containing the current page.&nbsp;
+</p>
+
+<p>
+Example:
+</p>
+<pre>
+  &lt;dl&gt;
+    &lt;dt&gt;HTML&lt;/dt&gt;
+      &lt;dd&gt;The current version is <span style='color:red;'>&lt;a href='#HTML4.01'&gt;</span>HTML4.01<span style='color:red;'>&lt;/a&gt;</span>.&lt;/dd&gt;
+    &lt;dt <span style='color:red;'>id='HTML4.01'</span>&gt;HTML4.01&lt;/dt&gt;
+      &lt;dd&gt;The <span style='color:green;'>&lt;a href='http://www.w3.org/TR/1999/REC-html401-19991224'&gt;</span>HTML 4.01 specification<span style='color:green;'>&lt;/a&gt;</span>.&lt;/dd&gt;
+      There is also a &lt;a <span style='color:blue'>href='../HTML401.html'</span>&gt;local copy&lt;/a&gt;.
+  &lt;/dl&gt;
+</pre>
+
+<h2 id='TextInlineFunction'>Text inline structure</h2>
+
+<p>
+These elements identify the function in the document
+of specific words or phrases.&nbsp;
+Browsers generally render them with appropriate formatting.&nbsp;
+</p>
+
+<dl>
+  <dt id='code'>Code</dt>
+  <dd>
+    A <code><dfn>code</dfn></code> element contains a fragment of program input
+    or programming language code.&nbsp;
+  </dd>
+  <dt id='dfn'>Defining instance</dt>
+  <dd>
+    A <code><dfn>dfn</dfn></code> element contains
+    the defining instance of a term or phrase,
+    the one that is part of the term or phrase's definition.&nbsp;
+  </dd>
+  <dt id='em'>Emphasized</dt>
+  <dd>
+    An <code><dfn>em</dfn></code> element contains
+    a word or phrase that is emphasized.&nbsp;
+  </dd>
+  <dt id='q'>Quotation</dt>
+  <dd>
+    A <code><dfn>q</dfn></code> element contains
+    a short quotation of less-than-paragraph size.&nbsp;
+    (Compare <code><a href='#blockquote'>blockquote</a></code>.)&nbsp;
+  </dd>
+</dl>
+
+
+<h2 id='TextInlineStyle'>Text inline style and layout</h2>
+
+<p>
+These elements have no meaning in terms of the
+structure of the document;&nbsp;
+they merely control its presentation.&nbsp;
+Where appropriate,
+use the functional elements above instead.&nbsp;
+</p>
+
+<dl>
+  <dt id='b'>Bold</dt>
+  <dd>
+    The contents of a <code><dfn>b</dfn></code> element are rendered in boldface.&nbsp;
+  </dd>
+  <dt id='br'>Break</dt>
+  <dd>
+    A <code><dfn>br</dfn></code> empty element
+    (<code>&lt;br/&gt;</code>) causes a line break.&nbsp;
+  </dd>
+  <dt id='i'>Italicized</dt>
+  <dd>
+    The contents of an <code><dfn>i</dfn></code> element are rendered in
+    italics.&nbsp;
+  </dd>
+  <dt id='tt'>Teletype</dt>
+  <dd>
+    The contents of a <code><dfn>tt</dfn></code> element are rendered in
+    a teletype or monospace font.&nbsp;
+  </dd>
+</dl>
+
+
+<h2 id='SpecialCharacters'>Special characters and symbols</h2>
+
+<p>
+(X)HTML provides for a number of special characters and symbols.&nbsp;
+These are written using character entities consisting of
+an ampersand, a code, and a semicolon.&nbsp;
+Each symbol has a mnemonic code and a hex code.&nbsp;
+For example,
+the non-breaking space character
+is written either as <code>&amp;nbsp;</code>
+or <code>&amp;#160;</code>
+and is rendered as a space
+but unlike a normal space, a line break can't take place there.&nbsp;
+Some of the most useful character entities are:
+</p>
+<table>
+<tbody>
+  <tr><th>Mnemonic</th><th>Hex</th><th>Character</th></tr>
+  <tr><td><code>&amp;amp; </code></td><td><code>&amp;#34; </code></td>
+      <td>ampersand &amp;</td></tr>
+  <tr><td><code>&amp;lt;  </code></td><td><code>&amp;#60; </code></td>
+      <td>less-than sign &lt;</td></tr>
+  <tr><td><code>&amp;gt;  </code></td><td><code>&amp;#62; </code></td>
+      <td>greater-than sign &gt;</td></tr>
+  <tr><td><code>&amp;nbsp;</code></td><td><code>&amp;#160;</code></td>
+      <td>non-breaking space</td></tr>
+</tbody>
+</table>
+<p>
+Hundreds of character entities are listed in
+[<a href='#HTML4.01'>HTML4.01</a>].&nbsp;
+</p>
+<p>
+In addition,
+any <a href='http://www.columbia.edu/kermit/utf8-t1.html'>UTF8</a> character
+can be placed in an (X)HTML document
+by enclosing its Numeric Character Reference (decimal number)
+in
+<code>&amp;#</code> and <code>;</code>,
+for example
+<code>&amp;#9732;</code> &#9732;
+and
+<code>&amp;#10087;</code> &#10087;.&nbsp;
+</p>
+
+<h1 id='UsefulCommonAttributes'>Useful common attributes</h1>
+
+<dl>
+  <dt>class</dt>
+    <dd>Classes may be defined in the
+    <code>style</code> section of the <code>head</code>
+    or in separate style files,
+    and may be given for specific formatting.&nbsp;
+    An element's <code>class</code> attribute
+    may name a defined class
+    and inherit its style.&nbsp;
+    </dd>
+  <dt>style</dt>
+    <dd>Each element may be given
+    a <code>style</code> attribute
+    whose value gives specific CSS style information for that element.&nbsp;
+    </dd>
+  <dt>title</dt>
+    <dd>Most browsers show an element's <code>title</code> attribute value
+    when the mouse hovers over the element.&nbsp;
+    </dd>
+</dl>
+
+
+<h1 id='Comments'>Comments</h1>
+
+<p>
+(X)HTML allows <dfn>comments</dfn> enclosed in
+<code>&lt;!--</code> and <code>--&gt;</code>.&nbsp;
+</p>
+
+<p>
+Do not put strings of two or more hyphens inside a comment.&nbsp;
+<i>Unnecessary but interesting technical explanation:</i>&nbsp;
+Because a comment is syntactically
+a markup declaration in <code>&lt;!&nbsp;&gt;</code>
+containing a markup declaration comment within <code>--&nbsp;--</code>,
+strings of two or more hyphens are not allowed within a comment (they end it).&nbsp;
+</p>
+
+<h1 id='XHTML'>Making it XHTML</h1>
+
+<p>
+It's pretty straightforward to make an HTML file be XHTML.&nbsp;
+The W3C's <code>tidy</code> utility will do it for you, if you like.&nbsp;
+If you wish to write XHTML in the first place,
+follow these easy steps:
+</p>
+<ol>
+  <li> Begin your file with an appropriate XML DOCTYPE,
+    such as:&nbsp;
+    <pre>
+&lt;!DOCTYPE html
+    PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN'
+    'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'&gt;
+    </pre>
+  </li>
+
+  <li> Declare the XHTML namespace in the document's html element:&nbsp;
+    <pre>
+&lt;html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'&gt;
+    </pre>
+  </li>
+
+  <li> Make every element name lower-case.&nbsp;
+  </li>
+
+  <li> Give every non-empty element an <a href='#EndTag'>end tag</a>.&nbsp;
+    Write every empty element
+    for which HTML forbids an <a href='#EndTag'>end tag</a>
+    (<code>area base basefont br col frame hr img input link meta param</code>)
+    as
+    an <a href='#EmptyElementTag'>empty-element tag</a>,
+    and give every other empty elements an end tag.&nbsp;
+  </li>
+  <li> Quote the value of every attribute, and
+    if you use one of the attributes for which HTML assumes a default value,
+    give it the value anyway.
+  </li>
+  <li> Use the <code>id</code> attribute
+    rather than the <code>name</code> attribute of any element.&nbsp;
+  </li>
+</ol>
+
+
+<h1 id='References'>References</h1>
+
+<p>
+This document has just touched on the most basic parts of (X)HTML.&nbsp;
+For much more information,
+see the references below.&nbsp;
+</p>
+
+<dl>
+  <dt id='CSS1'>[CSS1]</dt>
+    <dd>
+    W3C.&nbsp;
+    <a href='http://www.w3.org/TR/1999/REC-CSS1-19990111'><i>Cascading
+    Style Sheets, level 1</i></a>, 11 Jan. 1999.&nbsp;
+    </dd>
+  <dt id='CSS2'>[CSS2]</dt>
+    <dd>
+    W3C.&nbsp;
+    <a href='http://www.w3.org/TR/2004/CR-CSS21-20040225'><i>Cascading
+    Style Sheets, level 2</i></a>, 25 February 2004.&nbsp;
+    </dd>
+  <dt id='HTML4.01'>[HTML4.01]</dt>
+    <dd>
+    W3C.&nbsp;
+    <a href='http://www.w3.org/TR/1999/REC-html401-19991224'><i>HTML
+    4.01 Specification</i></a>, 24 Dec. 1999.&nbsp;
+    </dd>
+  <dt id='XHTML1.0'>[XHTML1.0]</dt>
+    <dd>
+    W3C.&nbsp;
+    <a href='http://www.w3.org/TR/2002/REC-xhtml1-20020801'><i>XHTML
+    1.0 The Extensible HyperText Markup Language (Second Edition)</i></a>,
+    26 Jan. 2000, revised 1 Aug. 2002.&nbsp;
+    </dd>
+</dl>
+
+
+<!--xhtml -n -->
+</div>
+
+</div><!-- #TBg -->
+
+<div id='TFooter'>
+<div class='W3C'>
+  <a href='http://validator.w3.org/check?uri=referer'><img class='W3C'
+    src='../../img/valid-xhtml10-blue.png'
+    alt='Valid XHTML 1.0 Strict'/></a>
+  <br/>
+  <a href='http://jigsaw.w3.org/css-validator/check/referer'><img class='W3C'
+    src='../../img/vcss-blue.png'
+    alt='Valid CSS!'/></a>
+</div>
+<div class='timestamp'>2010May16Su21:42</div>
+<div style='padding-top:1px;'>
+<a class='plain' href='./index.html' style='font-variant:small-caps;'
+>Thomas A. Alspaugh</a>
+<span style='padding-left:1em;'><span class='email ss sm'>alspaugh&nbsp;
+    <span class='ss sc sm'>at</span> &middot; ics &middot; uci &middot; edu</span>
+    <!-- -spell alspaugh uci edu --> </span>
+</div>
+</div>
+
+<!-- Google Analytics code -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol)
+  ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+  "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15281497-1");
+pageTracker._trackPageview();
+} catch(err) {}
+</script>
+
+</body>
+</html>
+
+

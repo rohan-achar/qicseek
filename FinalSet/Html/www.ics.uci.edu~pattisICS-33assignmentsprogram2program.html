@@ -1,0 +1,551 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+  <title>Program 2</title>
+</head>
+<body BGCOLOR="white">
+
+<center>
+<h1>Program 2</h1>
+<h1>
+Classes, Overloaded Operators, and Iterators
+</h1>
+<p>
+<h2>ICS-33: Intermediate Programming<br>
+</h2>
+<p>
+</center>
+
+
+<!-- Introduction -->
+
+<a name="Introduction">
+<hr align="left" width="33%">
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>Introduction</b></td>
+<td width ="80%">
+This programming assignment is designed first to ensure that you know how to
+  write a simple (numeric) class that overloads many of the standard Python
+  operators by defining various double-underscore methods.
+It also ensures that you know how to write a class that implements iterators,
+  by defining both the <b>__iter__</b> and <b>__next__</b> methods.
+Finally it ensure that you know how to write iterator decorators by using
+  special generators (similar to functions, but using <b>yield</b> instead of
+  <b>return</b>) in a module.
+<p>
+There are three separate parts to this assignment.
+In the first part you will write a module defining a single, large numeric
+  class that overloads many operators (including those performing arithmetic
+  and relational comparisons).
+In the second part you will write a medium-size class, which defines various
+  methods, including some double-underscore methods and specifically the
+  iterator protocol methods (<b>__iter__</b> and <b>__next__</b>).
+In the third part you will write a module that defines various iterator
+  decorators implemented by generators: each iterator decorator has argument(s)
+  that are iterators and is itself used an iterator.
+<p>
+You should download the 
+  <a href="program2.zip">program2</a> project folder and unzip it to produce
+  an Eclipse project with three modules.
+You will write classes in the first two modules, which can be tested in the
+  standard driver using the batch self-check files I supplied; you will write
+  generators in the third module, which can also be tested by a batch self-check
+  I supplied, but can are tested by a special <b>generatordriver.py</b> module
+  included in this project.
+Eventually you will submit each of the three modules you write separately to
+  Checkmate.
+<p>
+It is recommend that you work on this assignment in pairs, with someone in your
+  lab section.
+Try to find someone who lives near you, with similar programming skills,
+  and work habits/schedule: e.g., talk about whether you prefer to work
+  mornings, nights, or weekends; what kind of commitment you will make to submit
+  program early.
+<!---
+If you believe that it is impossible for you to work with someone, because of
+  some special reason(s), you should send me email stating them and asking for
+  special permission to work alone (which I do grant, but not frequently).
+--->
+<p>
+<b>Only one student should submit all parts of the the assignment</b>, but both
+  student's names should appear in the comments at the top of
+  <b>each submitted .py</b> file.
+It should look something like
+<pre><b>
+# Romeo Montague, Lab 1
+# Juliet Capulet, Lab 1
+# We certify that we worked cooperatively on this programming
+#   assignment, according to the rules for pair programming</b></pre>
+If you do not know what the terms <b>cooperatively</b> and/or
+  <b>rules for pair programming</b> mean, please read about
+  <a href="../../../common/handouts/pairprogramming.html">Pair Programming</a> 
+  before starting this assignment.
+Please turn in each program <b>as you finish it</b>, so that I can accurately
+  assess the progress of the class as a whole during this assignment.
+<p>
+Print this document and carefully read it, marking any parts that contain
+  important detailed information that you find (for review before you turn in
+  the files).
+The code you write should be as compact and elegant as possible, using 
+  appropriate Python idioms.
+</td>
+</tbody>
+</table>
+
+
+<!-- Problem 1 -->
+
+<a name="problem1">
+<hr align="left" width="33%">
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>Problem #1: Rational Class (operators)</b></td>
+<td width ="80%">
+<h3>Problem Summary:</h3>
+Write a class that represents and defines operators for <b>Rational</b>
+      numbers, which are represented by an <b>int</b> numerator and denominator.
+    With this class we can write scripts manipulating this new numeric type,
+      which unlike floats performs exact numeric calculations.
+    For example
+<b><pre>  x = 0
+  for i in irange(1,10): x += 1/10
+  print(x) # prints 0.9999999999999999
+
+  x = Rational(0)
+  for i in irange(1,10): x += Rational(1,10)
+  print(x) # prints 1/1
+
+  print(compute_e(100 ))                 # e ~ 1/0! + 1/1! + 1/2! + ... 1/100!
+  print(compute_e(100).approximate(100)) # if you write approximate: extra credit
+
+(which prints... look for the / as the 10th character on the 3rd line)
+  42997789077987677528011991222420376346635182807847142751317828133465975238
+  70956720660008227544949996496057758175050906671347686438130409774741771022
+  426508339/1581800261761765299689817607733333906622304546853925787603270574
+  49521355920728670523629599959587319129243555798012243658052856289689600000
+  0000000000000000000
+
+  2.718281828459045235360287471352662497757247093699959574966967627724076630
+  3535475945713821785251664274</b></pre>
+<h3>Details</h3>
+<ul>
+<li>Define a class named <b>Rational</b> in a module named <b>rational.py</b>
+<p>
+<li>Write the <b>_gcd</b> (greatest common divisor) algorithm in a class
+      method and call it as needed in the <b>__init__</b> method.
+    The algorithm for compuing the gcd of two positive integers x and y is:
+<b><pre>  while y != 0:
+      x, y = y, x%y</pre></b>
+    Where the result (gcd of the original x and y) is stored as the final value
+      of x after the loop terminates.
+    Eclipse complains about all class methods (those without a <b>self</b>
+      parameter), but ignore that error (and the script should still run if
+      you wrote <b>_gcd</b> correctly).
+    You can also annotate the method with <b>@staticmethod</b> to 
+      stop Eclipse complaining about the error.
+<p>
+<li><b>__init__</b> has two parameters, the numerator then denominator of the
+       rational number being constructed (use default values of <b>0</b> and
+       <b>1</b> respectively, so just as <b>int()</b> is <b>0</b>,
+       <b>Rational()</b> is <b>0/1</b> (this is how it will print with
+       <b>__str__</b> method described below).
+    This method sholuld raise <b>AssertionError</b>(s) if either parameter is
+      not an <b>int</b> or if the denominator is <b>0</b>.
+    All exceptions should be raised in the form <b>Class.method description</b>,
+      where <b>description</b> includes the relevant values underlying the
+     error.
+    <p>
+    Objects in the <b>Rational</b> class are immutable: the methods you will
+       write should never bind any instance variables (except  <b>__init__</b>,
+       which initializes them) but exclusively returns newly constructed
+       <b>Rational</b> objects.
+    I suggest using the instance variables <b>num</b> and <b>denom</b>.
+    <p>
+    The following <b>data invariants</b> should be implemented in
+       <b>__init__</b> for representing rational numbers; you can use these
+       invariants to help simplify the code in the methods you will write.
+    <ol>
+    <li>Zero is always represented by <b>0/1</b>
+    <li>The denominator is always positive; rational numbers are negative or
+           positive based on the sign of their numerator
+    <li>The numerator and denominator are stored in the lowest possible terms:
+          they have no factors in common (use <b>gcd</b> to establish this data
+          invariant).
+    </ol>
+    <p>
+    For example, <b>print(Rational(6,-8))</b> prints <b>-3/4</b> (see
+       <b>__str__</b> below): the numerator is negative and the numerator and
+       denominator have no common factors.
+<p>
+<li><b>__repr__</b> returns a string, which when passed to <b>eval</b> returns
+         a newly constructed rational with the same value (<b>==</b>) to the
+         object <b>__repr__</b> was called on.
+    <b>__repr__(Rational(1,2))</b> returns <b>'Rational(1,2)'</b>.
+<p>
+<li><b>__str__</b> returns a string, with the (signed) numerator and the
+      denominator (always positive) separated by a slash(/); see examples of
+      of printing a <b>Rational</b> above.
+<p>
+<li>Write all the underscore methods needed to ensure the prefix +/- work
+      correctly.
+<p>
+<li>Write all the underscore methods needed to ensure that the add, subtract,
+      multiply, and true-divide (<b>/</b>) operators produce the correct
+      answers when their operands are any combination of <b>Rational</b> and
+      <b>int</b> values.
+    Hint: When mixing types, convert the <b>int</b> to an equivalent
+      <b>Rational</b> and then perform the operation: e.g., <b>5</b>
+      converts to <b>Rational(5,1)</b>.
+    If Python tries to apply an arithmetic operator to a <b>Rational</b> and
+      any other type of value (besides <b>Rational</b> or <b>int</b>) raise the
+      standard
+      <b>TypeError</b> with the standard messsage about unsupported operand
+      types: see what <b>1+'a'</b> produces.
+    Hint: I wrote a class method (and annotationed it as a <b>@staticmethod</b>)
+      to check and raise these kinds of exceptions.
+<p>
+<li>Write the underscore method that allows us to raise a <b>Rational</b> to any
+       <b>int</b> power (positive or negative): e.g.,
+       <b>print(Rational(1,2)**10)</b> prints  <b>1/1024</b> and
+       <b>print(Rational(2,1)**-2)</b> prints <b>1/4</b>.
+<p>
+<li>Write all the underscore methods needed to ensure that we can compare two
+       <b>Rational</b>s with the six standard relational operators, with any
+       combination of <b>Rational</b> and <b>int</b> (as with the arithmetic
+       operators).
+    If Python tries to compare a <b>Rational</b> with any other type of value
+      raise the standard <b>TypeError</b> with the standard messsage about 
+      unorderable types.
+    Hint: I wrote a class method (and annotationed it as a <b>@staticmethod</b>)
+      to check and raise these kinds of exceptions.
+<p>
+<li>Python automatically provides meanings for <b>+=</b>, <b>-=</b>, 
+      <b>*=</b>, <b>/=</b>, and <b>**=</b>; ensure they are correct or rewrite
+      the needed underscore methods.
+<p>
+<li>Ensure that the <b>abs</b> function works on rationals and that the boolean
+      intepretation of a rational is <b>0/1</b> is <b>False</b> and any non-zero
+      value is <b>True</b>.
+<li>Write the <b>__setattr__</b> method so that after the <b>num</b> and
+       <b>denom</b> instances variables are set in <b>__init__</b> trying
+       to change them will raise the <b>NameError</b> exception with an
+       appropriate message about which instance variable was attempted to
+       be changed.
+<p>
+<li><b>Extra credit</b>:
+  <ul>
+    <li>Write a method name <b>approximate</b> that returns a string showing the
+          decimal approximation of the <b>Rational</b> to the specified
+          number of decimal places.
+        So, <b>Rational(1,123).approximate(10)</b> returns <b>'.0081300813'</b>.
+        Hint: deal with the sign of the result, the integer part, and the
+         decimal part separately (my code was 10 lines).
+    <li>Write a class method named <b>best_approximation</b> whose argument
+          an <b>int</b>. 
+        Return a rational number closest to the one this method is called on,
+          subject to the requirement that its numerator and denominator contain
+          no more digits than the integer argument.
+        For example <b>Rational(314159,100000).best_approximation(2)</b> returns
+           <b>22/7</b> (the best approximation of &pi; using 2 digit numbers).
+  </ul>
+<p>
+The <b>Rational</b> class I am asking you to write duplicates the functionality
+  of the <b>Fraction</b> class currently available in Python.
+<b>You may not use the Fraction class, nor the Decimal class in any of your
+   code</b>
+
+
+<h3>Testing</h3>
+The <b>rational.py</b> module includes a script that calls
+  <b>driver.driver()</b>.
+The project folder contains a <b>bsc1.txt</b> file (examine it) to use for
+   batch-self-checking your class.
+These are rigorous but not exhaustive tests.
+Incrementally write and test your class: for example, getting one arithmetic
+  operator working correctly will create a pattern for the others.
+<p>
+Note that when exceptions are raised, they are printed by the driver but the 
+  <b>Command:</b> prompt sometimes appears misplaced.
+<p>
+You can write other code at the bottom of your <b>rational.py</b>
+  module to test the <b>Rational</b> class, or type code into the driver
+  as illustrated below.
+Notice the default for each command is the command previously entered.
+<b><pre>  Driver started
+  Command[!]: from rational import Rational as Rat
+  Command[from rational import Rational as Rat]: x = Rat(1,2)
+  Command[x = Rat(1,3)]: y = Rat(1,3)
+  Command[y = Rat(1,3)]: print(x+y)
+  5/6
+  Command[print(x+y)]: print(-x)
+  -1/2
+  Command[print(-x)]: print(x+2*y)
+  7/6
+  Command[print(x+2*y)]: print(x > y)
+  True
+  Command[print(x > y)]: from Rational import compute_e
+  Command[from Rational import compute_e]: print(compute_e(10))
+  9864101/3628800
+  Command[print(compute_e(10))]: print(x+1.)
+  Traceback (most recent call last):
+    File "C:\Users\Pattis\workspace\courselib\driver.py", line 229, in driver
+    ...
+  TypeError: unsupported operand type(s) for +: 'Rational' and 'float'
+  Command[print(x+1.)]: quit
+  Driver stopped</pre></b>
+</td>
+</tbody>
+</table>
+
+
+<!-- Problem #2 -->
+
+<a name="problem6">
+<hr align="left" width="33%">
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>Problem #2: Bag Class (iterators)</b></td>
+<td width ="80%">
+<h3>Problem Summary:</h3>
+Write a class that represents and defines methods, operators, and iterators
+  for a <b>Bag</b> class.
+Bags are similar to sets, and have similar operations (of which we will
+  implement just the most important) but they can store multiple copies of
+  items.
+Fundamentally, we will store bags as dictionaries (use <b>defaultdict</b>)
+   whose elements are keys and whose values are the number of times the key
+   occurs in the bag.
+<b>You must store Bags using this data type as specified</b>
+<h3>Details</h3>
+<ul>
+<li>Define a class named <b>Bag</b> in a module named <b>bag.py</b>
+<p>
+<li>Define an <b>__init__</b> method that has one parameter, an iterable of
+       values that initalize the bag.
+    Writing <b>Bag()</b> constructs an empty bag.
+    Writing <b>Bag(['d','a','b','d','c','b','d'])</b> construct a bag with
+      one <b>'a'</b>, two <b>'b'</b>s, one <b>'c'</b>, and three <b>'d'</b>s.
+<p>
+<li>Define a <b>__repr__</b> method that returns a string, which when passed to
+       <b>eval</b> returns a newly constructed bag with the same value
+       (<b>==</b>) to the object <b>__repr__</b> was called on.
+    For example, for the <b>Bag</b> in the discussion of <b>__init__</b> the
+        <b>__repr__</b> method would print its result as
+       <b>Bag(['a', 'c', 'b', 'b', 'd', 'd', 'd'])</b>.
+    Bags like sets are not sorted, so these 7 values can appear in any order.
+    We might require that information in the list is sorted, but not all values
+      we might put in a bag may be ordered (and therefore not sortable).
+<p>
+<li>Define a <b>__str__</b> method that returns a string that more compactly
+      shows a bag.
+    For example, for the <b>Bag</b> in the discussion of <b>__init__</b> the
+        <b>__str__</b> method would print its result as
+       <b>Bag(a[1], c[1], b[2], d[3])</b>.
+    Bags like sets are not sorted, so these 7 values can appear in any order.
+<p>
+<li>Define a <b>__len__</b> method that returns the total number of values in
+      the <b>Bag</b>.
+    For example, for the <b>Bag</b> in the discussion of <b>__init__</b> the
+        <b>__len__</b> method would return <b>7</b>.
+<p>
+<li>Define a <b>unique</b> method that returns the number of different (unique)
+       values in the <b>Bag</b>.
+    For example, for the <b>Bag</b> in the discussion of <b>__init__</b> the
+        <b>unique</b> method would return <b>4</b>, because there are four
+        different values in the <b>Bag</b>; contrast this method with
+        <b>__len__</b>.
+<p>      
+<li>Define a <b>__contains__</b> method that returns whether or not its
+      argument is in the <b>Bag</b> (one or more times).
+<p>
+<li>Define a <b>count</b> method that returns the number of times its argument
+      is in the <b>Bag</b>: <b>0</b> if the argument is not in the <b>Bag</b>.
+<p>
+<li>Define an <b>add</b> method that adds its argument to the <b>Bag</b>: if
+      that value is already in the <b>Bag</b>, its count is incremented by
+      <b>1</b>; if it is not already in the <b>Bag</b>, it is added to the
+      <b>Bag</b> with a count of <b>1</b>.
+<p>
+<li><b>remove</b> removes its argument from the <b>Bag</b>: if that value is
+        already in the <b>Bag</b>, its count is decremented by <b>1</b> (and if
+        the count reduces to <b>0</b> it is removed from the <b>dict</b>; if it
+        is not in the <b>Bag</b>, raise a <b>ValueError</b> exception, with an
+        appropriate message that includes the value that could not be removed.
+<p>
+<li>Define <b>__eq__</b>/<b>__ne__</b> methods that return whether one
+      <b>Bag</b> is equal/not equal to another: contains the same values the
+      same number of times.
+    Comparing a <b>Bag</b> for equality to a non-<b>Bag</b> should raise a
+       <b>TypeError</b>.
+    Be careful and ensure that this method does not change either <b>Bag</b>.
+<p>
+<li>Define an <b>__iter__</b> method that that returns an object on which
+      <b>next</b> can be called to produce every value in the <b>Bag</b>: all
+      <b>len</b> of them.
+    For example, for the <b>Bag</b> in the discussion of <b>__init__</b>, 
+      the following code
+<b><pre>  for i in x:
+      print(i,end='')</pre></b>
+would print
+<b><pre>  acbbddd</pre></b>
+    Bags like sets are not sorted, so these 7 values can appear in any order.
+<p>
+Ensure that the iterator produces those values in the <b>Bag</b> at the time
+      the iterator starts executing; so mutating the <b>Bag</b> during
+      iteration will <b>not</b> affect what values it produces.
+<p>
+   Hint: I defined a generator as a class method to do this job.
+</ul>
+I have shown only examples of <b>Bag</b>s storing strings, because they are
+  convenient to write.
+But bags can store any type of data.
+The <b>__repr__</b>, <b>__str__</b>, and <b>__iter__/__next__</b> methods must
+  be written independently: neither should call the other to get things done.
+<p>
+<h3>Testing</h3>
+The <b>bag.py</b> module includes a script that calls <b>driver.driver()</b>.
+The project folder contains a <b>bsc2.txt</b> file (examine it) to use for
+   batch-self-checking your class.
+These are rigorous but not exhaustive tests.
+Incrementally write and test your class; check each method as you write it.
+<p>
+Note that when exceptions are raised, they are printed by the driver but the 
+  <b>Command:</b> prompt sometimes appears misplaced.
+<p>
+You can write other code at the bottom of your <b>bag.py</b> module to test the
+  <b>Bag</b> class, or type code into the driver as illustrated below.
+Notice the default for each command is the command previously entered.
+<b><pre>  Driver started
+  Command[!]: from bag import Bag
+  Command[from bag import Bag]: b = Bag(['d','a','b','d','c','b','d'])
+  Command[b = Bag(['d','a','b','d','c','b','d'])]: print(b)
+  Bag(a[1], b[2], c[1], d[3])
+  Command[len(b)]: print(len(b))
+  7
+  Command[print(len(b))]: print(b.count('d'))
+  3
+  Command[print(b.count('d'))]: quit
+  Driver stopped</pre></b>
+</td>
+</tbody>
+</table>
+
+
+<!-- Problem #3 -->
+
+<a name="problem6">
+<hr align="left" width="33%">
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>Problem #3: Module of Decorators (iterators)</b></td>
+<td width ="80%">
+<h3>Problem Summary:</h3>
+Write the following iterator decorators (iterators that operate on iterators)
+  using Python generators.
+Write each function to be self contained, not calling any other functions or
+  generators and do not use  <b>itertools.py</b> module (or any other module
+  that would trivialize this code); you may also not call the <b>zip</b>
+  function.
+Note that the argument passed to these generators can be anything that we can
+  iterate: that includes strings, lists, tuples, dictionaries, and other
+  generators: so, you cannot compute the <b>len</b> of the parameter because
+  although strings, lists, tuples, and dictionariess have simple to compute
+  lengths, generators don't.
+<ul>
+<li><b>transform</b> takes any iterable and any function whose domain includes
+      all the iterated values: it produces transformed (by the function)
+      values. For example
+<b><pre>  for i in transform('abCdeFg',str.upper):
+      print(i,end='')</pre></b>
+   produces the values <b>'A'</b>, <b>'B'</b>, <b>'C'</b>, <b>'D'</b>,
+     <b>'E'</b>, <b>'F'</b>, and <b>'G'</b>.
+<p>
+<li><b>running_count</b> takes any iterable and any predicate function
+      (taking one argument and returning a <b>bool</b> value): it produces a
+      running count of how many values up to (and including) the one just
+      iterated over, satisfied the predicate. For example
+<b><pre>  for i in count('bananastand', lambda x : x in 'aeiou'): # is vowel
+    print(i,end=' ')</pre></b>
+   produces the values <b>0</b>, <b>1</b>, <b>1</b>, <b>2</b>, <b>2</b>,
+      <b>3</b>, <b>3</b>, <b>3</b>, <b>4</b>, <b>4</b>, and <b>4</b>.
+<p>
+<li><b>n_with_pad</b> takes any iterable, an int <b>n</b> and a <b>pad</b> 
+      (whose default value is <b>None</b>): it produces the first <b>n</b>
+      values from the iterable, padded by <b>pad</b> if there are fewer than
+     <b>n</b> values in the iterable.
+<b><pre>  for i n_with_pad('abcdefg',3):
+    print(i,end=' ')</pre></b>
+   produces the values <b>'a'</b>, <b>'b'</b> and <b>'c'</b>
+<b><pre>  for i n_with_pad('abcdefg',10,'?'):
+    print(i,end=' ')</pre></b>
+   produces the values <b>'a'</b>, <b>'b'</b>, <b>'c'</b>, <b>'d'</b>,
+   <b>'e'</b>, <b>'f'</b>, <b>'g'</b>, <b>'?'</b>, <b>'?'</b> and <b>'?'</b>.
+   Hint: use a <b>for</b> loop with a <b>try/catch</b> and explicit calls to
+   <b>iter</b> and <b>next</b>.
+<p>
+<li><b>sequence</b> takes any number of iterables as parameters: it produces
+     all the values in the first iterable, followed by all in the second, ... ,
+     all values in the last iterable. For example
+<b><pre>  for i in sequence('abcd','ef','ghij'):
+      print(i,end='')</pre></b>
+     produces the values <b>'a'</b>, <b>'b'</b>, <b>'c'</b>, <b>'d'</b>,
+     <b>'e'</b>, <b>'f'</b>, <b>'g'</b>, <b>'h'</b>, <b>'i'</b>, and <b>'j'</b>.
+<p>
+<li><b>alternate</b> takes any number of iterables as parameters: it produces
+     the first value from the first parameter, then the first value from the
+     the second parameter, ..., then the first value from the last parameter;
+     then the second value from the first parameter, then the second value from
+     the the second parameter, ..., then the second value from the last
+     parameter; etc. If an iteratable produces no more values, it disappears
+     from the alternation, and the process continues until there are no more
+     iterables left.
+<b><pre>  for i in alternate('abcde','fg','hijk'):
+      print(i,end='')</pre></b>
+     produces the values <b>'a'</b>, <b>'f'</b>, <b>'h'</b>, <b>'b'</b>,
+     <b>'g'</b>, <b>'i'</b>, <b>'c'</b>, <b>'j'</b>, <b>'d'</b>, <b>k</b>, and
+     <b>'e'</b>.
+   Hint: use a <b>for</b> loop nested in <b>while</b> loop with a
+     <b>try/catch</b> and explicit calls to <b>iter</b> and <b>next</b>, along
+     with a list of still active iteratables.
+<p>
+<li><b>Extra credit</b>:
+  <ul>
+    <li>Write a method name <b>flatten</b> that returns every value nested in
+          any iterable data type (except for string: return strings as
+          themselves, not their individual characters.
+        When iterating through a dictionary, iterated through just its keys.
+        For example
+<b><pre>  for i in flatten([1,2,[3,4,(5,6,7,{'abc':1,'xyz':2}),8,9],10]):
+    print(i,end=' ')</pre></b>
+    Prints as: <b>1 2 3 4 5 6 7 xyz abc 8 9 10</b>
+    <p>
+    Note that this iterator does not control the order that <b>sets</b> or keys
+       of <b>dicts</b> are iterated through (we could if we used <b>sorted</b>),
+        although iteration through lists and tuples is always sequential.
+    Hint: use iteration and recursion and one use of <b>type</b> to check for
+      strings.
+</ul>
+<h3>Testing</h3>
+The <b>generator.py</b> module includes a script that calls
+  <b>driver.driver()</b>.
+The project folder contains a <b>bsc3.txt</b> file (examine it) to use for
+   batch-self-checking your class.
+These are rigorous but not exhaustive tests.
+Incrementally write and test your class; check each function as you write it.
+<p>
+I have also provided the <b>generatordriver.py</b> module, which has the same
+  tests as <b>bsc3.txt</b> but in a form more amenable for debugging these
+  generators.
+</td>
+</td>
+</tbody>
+</table>
+
+</html>
+

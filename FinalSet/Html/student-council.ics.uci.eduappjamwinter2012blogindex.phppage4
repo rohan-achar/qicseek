@@ -1,0 +1,375 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title> AppJam Blog</title>
+<link rel="pingback" href="http://student-council.ics.uci.edu/appjam/winter2012/blog/xmlrpc.php" />
+<style type="text/css" media="screen">
+@import "http://student-council.ics.uci.edu/appjam/winter2012/blog/wp-content/themes/garland/style.css";
+</style>
+<link rel="alternate" type="application/rss+xml" title="AppJam Blog &raquo; Feed" href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/feed/" />
+<link rel="alternate" type="application/rss+xml" title="AppJam Blog &raquo; Comments Feed" href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/comments/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://student-council.ics.uci.edu/appjam/winter2012/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://student-council.ics.uci.edu/appjam/winter2012/blog/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.1" />
+</head>
+
+<body class="sidebars">
+
+<div id="navigation"></div>
+
+<div id="wrapper">
+	<div id="container" class="clear-block">
+
+	<div id="header">
+		<div id="logo-floater">
+			<h1><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/">AppJam Blog</a></h1>
+		</div>
+	
+		<ul class="links primary-links">
+	<li class="page_item page-item-2"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/about/">About / Login</a></li>
+<li class="page_item page-item-400"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/example-post/">Example Post</a></li>
+</ul>
+
+	</div> <!-- /header -->
+
+<div id="sidebar-left" class="sidebar">
+
+<ul class="menu">
+
+<li class="widget widget_pages">
+	<h3>Pages</h3>
+	<ul>
+		<li><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/">Home</a></li>
+		<li class="page_item page-item-2"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/about/">About / Login</a></li>
+<li class="page_item page-item-400"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/example-post/">Example Post</a></li>
+	</ul>
+</li>
+
+<li class="widget widget_categories categories">
+	<h3>Categories</h3>
+	<ul>
+			<li class="cat-item cat-item-17"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team/" title="View all posts filed under 2012-winter-Team1">2012-winter-Team1</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team10/" title="View all posts filed under 2012-winter-Team10">2012-winter-Team10</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team2/" title="View all posts filed under 2012-winter-Team2">2012-winter-Team2</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team3/" title="View all posts filed under 2012-winter-Team3">2012-winter-Team3</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team4/" title="View all posts filed under 2012-winter-Team4">2012-winter-Team4</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team5/" title="View all posts filed under 2012-winter-Team5">2012-winter-Team5</a>
+</li>
+	<li class="cat-item cat-item-22"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team6/" title="View all posts filed under 2012-winter-Team6">2012-winter-Team6</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team7/" title="View all posts filed under 2012-winter-Team7">2012-winter-Team7</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team8/" title="View all posts filed under 2012-winter-Team8">2012-winter-Team8</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team9/" title="View all posts filed under 2012-winter-Team9">2012-winter-Team9</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/globalevent/" title="View all posts filed under GlobalEvent">GlobalEvent</a>
+</li>
+	</ul>
+</li>
+
+</ul>
+
+</div>
+<div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+<!-- begin content -->
+<div class="node">
+
+<div class="post-416 post type-post status-publish format-standard hentry category-2012-winter-team6">
+
+<h2><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5-team-6/" rel="bookmark">Day 5: Team 6</a></h2>
+<span class="submitted">March 3, 2012 &#8212; Team6 </span>
+
+<div class="content">
+<p>Current Status:</p>
+<p>Team members have almost finished their individual tasks despite the huge workload of assignments and midterm exams. However, we still need to put everything together. Besides, there are some features that have been missed from the first design and we think adding them will make the app more useful and accurate.</p>
+<p>Progress today:</p>
+<p>We had a two-hour meeting today, where we reviewed the features of app, checking which parts need extra work. Based on that new tasks have been assigned to members. We plan to meet on Sunday to integrate the code and try a complete demo of our application.</p>
+<p>Challenges:</p>
+<p>Most of challenges have been resolved. However, we came up with a more accurate algorithm for our app and it is required to spend sometimes researching about the feasibility of its implementation.</p>
+</div>
+
+<div class="meta">
+Posted in <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team6/" title="View all posts in 2012-winter-Team6" rel="category tag">2012-winter-Team6</a>.  <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5-team-6/#respond" title="Comment on Day 5: Team 6">Leave a Comment &#187;</a></div>
+
+</div>
+<div class="post-746 post type-post status-publish format-standard hentry category-2012-winter-team2">
+
+<h2><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5-team-2/" rel="bookmark">Day 5: Team 2</a></h2>
+<span class="submitted">March 3, 2012 &#8212; Team2 </span>
+
+<div class="content">
+<p><strong>Current Status:</strong><br />
+Most of the basic features of the app are now finished or almost finished. All that&#8217;s left is to make certain parts of the app connect to the database, for which most of the functionality is there. We should be able to finish most of the necessary features within a few hours tomorrow, after which we&#8217;ll spend time testing the code and refining the features. After that, we will prepare for the presentation. If we have time, we want to try integrating Google Maps into our app.<br />
+<strong><br />
+Progress Today:</strong><br />
+We met today at 11:30am on campus and worked until 10:00pm. We spent a lot of time getting things on the server side to work. We also finished most of the UI for the app. At the end of the day we borrowed a friend&#8217;s phone and tested the app and it worked fine.</p>
+<p><strong>Challenges:</strong><br />
+We had some more problems with bugs. Most of the team had essays that they needed to finish by midnight today, which hampered productivity. We were getting pretty tired by the end of the day because we had been working continuously since early in the morning (for us). We had problems with merging code in Mercurial, which we were able to eventually fix.</p>
+</div>
+
+<div class="meta">
+Posted in <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team2/" title="View all posts in 2012-winter-Team2" rel="category tag">2012-winter-Team2</a>.  <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5-team-2/#respond" title="Comment on Day 5: Team 2">Leave a Comment &#187;</a></div>
+
+</div>
+<div class="post-749 post type-post status-publish format-standard hentry category-2012-winter-team7">
+
+<h2><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5-3/" rel="bookmark">Day 5</a></h2>
+<span class="submitted">March 3, 2012 &#8212; The GBC </span>
+
+<div class="content">
+<p>Our app is making headway. One or two more dedicated days of work and we should be finished with all of our requirements. We hope to test on Sunday and throw together a presentation on Monday. Many of our problems that we have been working on over the week are beginning to be resolved and we finally got our SVN to work smoothly and integrate with Eclipse. Before now, it was just a mess of conflicts that made our computers sad. As we are making our app, we are also keeping design and graphics in mind. Hopefully, when we display our app, we&#8217;ll have an app that works well and is graphically pleasing.</p>
+</div>
+
+<div class="meta">
+Posted in <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team7/" title="View all posts in 2012-winter-Team7" rel="category tag">2012-winter-Team7</a>.  <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5-3/#respond" title="Comment on Day 5">Leave a Comment &#187;</a></div>
+
+</div>
+<div class="post-747 post type-post status-publish format-standard hentry category-2012-winter-team10">
+
+<h2><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team10-day-5/" rel="bookmark">Team10: Day 5</a></h2>
+<span class="submitted">March 2, 2012 &#8212; Team10 </span>
+
+<div class="content">
+<p><strong>Current Project Status:<br />
+</strong>The app is near the end of alpha stages. We almost have all features implemented in their basic form. Flows through the various activities, communicating with our server and database, and updating our UI. Of the proposed original 8 activities we have grown our project to 12 Activities. We had started small to ensure that we will finish, but now that basic features are implemented we are &#8220;shooting for the moon&#8221;! On a side note, Peter Huynh from ICS communications stop by and take pictures of our group while we worked.</p>
+<p><strong>Progress Today:<br />
+</strong><em>Android (Client Side ):<br />
+</em>Today the client team implemented and included 4 more activities to our project. We have now included a login screen, registration screen, wrapper activity for query the serving, and lastly a nice spinning loader activity for the user to know that the App is trying to pair them up with a partner. In term&#8217;s of knowledge progression, we learned how to implement and use the version control software SubVersive in Eclipse.</p>
+<p><em>Server/Database:<br />
+</em>We had multiple servers setup, one for development and one for live. We ran into some problems with code not working the same in both environments. But the server side of the system is now complete.<em></em></p>
+<p>Design/UI:<br />
+Today, we made major headway with the design of the app. We finished editing our splash screen design and it is ready to be synced with the app. The content regarding the app is finished as well, which is a huge relief. We did run into a lot of problems however, since it was our first time using Photoshop. Utilizing the layer system to its fullest was extremely difficult especially to us newbies.</p>
+<p><strong><br />
+Challenges:<br />
+</strong>We decided to change location to one of our apartments. Most of the time when we refer to environment we mean the development environment. However in mobile development the physical environment can also have an influence on development. The apartment we used unfortunately had network coverage problems. Since we needed a data connection to test different components, a lack of data connection was infuriating and it was difficult to trace this down as being our problem.<br />
+At the project’s inception we made the decision to not use a large version control system since we assumed we didn’t need all the features that came with a standard system. However this decision is now proving detrimental now that we are merging code together into a new Subversion instance.</p>
+</div>
+
+<div class="meta">
+Posted in <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team10/" title="View all posts in 2012-winter-Team10" rel="category tag">2012-winter-Team10</a>.  <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team10-day-5/#respond" title="Comment on Team10: Day 5">Leave a Comment &#187;</a></div>
+
+</div>
+<div class="post-723 post type-post status-publish format-standard hentry category-2012-winter-team">
+
+<h2><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5-progress-2/" rel="bookmark">Day 5 : Progress</a></h2>
+<span class="submitted">March 2, 2012 &#8212; Team1 </span>
+
+<div class="content">
+<p>Today was an individual work day. We worked on separate components individually and kept pushing them into the version control system that we have set up. There has been some progress and overall, I think we will be able to make it. Being able to push in the changes and pull all the other team members&#8217; changes was a very fun experience.</p>
+<p>We will be able to continue with the final stage of the project tomorrow as we integrate the web end and the mobile end. It was interesting trying to debug some of the errors we had, because some of the database stuff is new to us all.</p>
+<p>Our plan is to meet during the weekend and finalize the project, and then meet on Monday to finalize the presentation.</p>
+</div>
+
+<div class="meta">
+Posted in <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team/" title="View all posts in 2012-winter-Team1" rel="category tag">2012-winter-Team1</a>.  <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5-progress-2/#respond" title="Comment on Day 5 : Progress">Leave a Comment &#187;</a></div>
+
+</div>
+<div class="post-739 post type-post status-publish format-standard hentry category-2012-winter-team3">
+
+<h2><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-friday/" rel="bookmark">Day 5: Friday</a></h2>
+<span class="submitted">March 2, 2012 &#8212; Team3 </span>
+
+<div class="content">
+<p>Kevin Lee (Leader)<br />
+Quan Nguyen<br />
+Jordan Langford<br />
+Juan Hernandez</p>
+<p>Team Mnemonic</p>
+<p>Platform 2.3.3 Google API</p>
+<p>Patrick Do (Advisor)</p>
+<p>So today we worked mostly on integrating our code and resolving conflicts in the merge. We decided to merge them in each others presence so as to alleviate the problems with conflict resolution, and it really helped out. Unfortunately, some of our code was incompatible as there were some classes that needed to extend others and as such couldn&#8217;t be joined, but this didn&#8217;t stop the freight train that is our perseverance. With hunger on our minds and the touch of the keyboard blistering our fingertips, we chipped away at the work, each member in silence aside from the solemn sound of the keyboard clicks nagging at the silence. We found comfort in the fact that we were able to appease the merging problem by applying a simple change to our UI, a simple change that preserved the inner beauty of the app while still maintaining the modern theme we are inviting. With a stream of code sweeping aside our mental exhaustion, we delegated new work, some to the UI and some to the database, and decided to retreat for all to bask in the radiance of determination on the sea of semicolons.</p>
+</div>
+
+<div class="meta">
+Posted in <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team3/" title="View all posts in 2012-winter-Team3" rel="category tag">2012-winter-Team3</a>.  <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-friday/#respond" title="Comment on Day 5: Friday">Leave a Comment &#187;</a></div>
+
+</div>
+<div class="post-740 post type-post status-publish format-standard hentry category-2012-winter-team9">
+
+<h2><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5-progress/" rel="bookmark">Day 5 Progress</a></h2>
+<span class="submitted">March 2, 2012 &#8212; Team9 </span>
+
+<div class="content">
+<p>Current Project Status:</p>
+<p>The database is mostly finalized with some margin for change. Implementation is well under way.</p>
+<p>Progress Today:</p>
+<p>We continued our discussion on the content and user interface for each activity which led into heavy implementation.  Our group prioritized features and are concentrating heavier on programming the high priority ones. We decided to get as close to a fully functional app as soon as possible while fixing discrepancies as they are encountered.</p>
+<p>Challenges:</p>
+<p>With the deadline fast approaching, we all feel the tension rising. Since we have decided to fix issues as encountered, there is more pressure on people to resolve back-end issues at a faster pace, and more pressure on others to identify front-end defects.</p>
+</div>
+
+<div class="meta">
+Posted in <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team9/" title="View all posts in 2012-winter-Team9" rel="category tag">2012-winter-Team9</a>.  <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5-progress/#respond" title="Comment on Day 5 Progress">Leave a Comment &#187;</a></div>
+
+</div>
+<div class="post-736 post type-post status-publish format-standard hentry category-2012-winter-team4">
+
+<h2><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5-team-4/" rel="bookmark">Day 5: Team 4</a></h2>
+<span class="submitted">March 2, 2012 &#8212; Team4 </span>
+
+<div class="content">
+<p><strong>Current Project Status:<br />
+</strong></p>
+<p>Today, I&#8217;m happy to report, we have made some steady progress.  We are almost finished creating the Activities for the app, though there is still work to be done with the UI itself. We&#8217;ve begun connecting the client-side to the database, which will allow us to begin implementing the actual functionality of our app and finish the UI as we go along.</p>
+<p><strong>Progress Today:</strong></p>
+<p><em>Android (Client Side):</em></p>
+<p>Major progress compared to the past few days. Breakthroughs made at the end of last night made it easy to build more today. Most of the Activities have been created, and several have been implemented.  The primary navigation aspect of our UI is about 90% complete, only needing to add aspects we haven&#8217;t fully decided on yet. Right now our app can be run on an android device and the UI can be navigated, and modified locally, though few or no database connections have yet been established and implemented.</p>
+<p><em>DataBase/Server:</em></p>
+<p>Database is up and running.  Our login/registration is just about complete and connected to the client-side UI. Integration with the client-side code has begun, though slight changes in design may require some minor reworkings of the database structure.</p>
+<p><em>Design:<br />
+</em></p>
+<p>Upon further consideration, our previous design seemed a bit out of scope for this project, as well as a bit broad in terms of overall functionality.  We brainstormed ideas that will make the app simpler while also bringing the purpose of the app into better focus for the user. We have many ideas for our app that we would like to implement after the competition, but are not realistic given our deadline.<br />
+<strong><br />
+Challenges:</strong></p>
+<p>The study room we were planning on using well into the night closed much earlier than we were planning so we had to improvise and relocate.  3/5 members were able to meet when originally planned, but the other 2 were unable to join up until a few hours later.  Fortunately we were all able to get together and really start to bring the project together.  However, the process of trying to combine the different pieces of the project wasn&#8217;t quite as smooth as we had hoped, but we worked on it and everything appears to be functioning correctly. We have high hopes for the weekend and are excited to see what we can accomplish.</p>
+</div>
+
+<div class="meta">
+Posted in <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team4/" title="View all posts in 2012-winter-Team4" rel="category tag">2012-winter-Team4</a>.  <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5-team-4/#respond" title="Comment on Day 5: Team 4">Leave a Comment &#187;</a></div>
+
+</div>
+<div class="post-733 post type-post status-publish format-standard hentry category-2012-winter-team5">
+
+<h2><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5-2/" rel="bookmark">Day 5</a></h2>
+<span class="submitted">March 2, 2012 &#8212; Team5 </span>
+
+<div class="content">
+<p><strong>Current Progress status:</strong></p>
+<p>We are trying to wrap up our work for building activity classes and layout XMLs for the screen. Database is up, so once we get these activity classes working, we will be able to connect the UI with the database.</p>
+<p><strong>Progress Today:</strong></p>
+<p>Due to conflicting schedules, not all of our members were able to meet today. But no worries! Each of us are working hard on our assigned tasks, and we will be able to meet tomorrow to put everything together.</p>
+<p><strong>Challenges:</strong></p>
+<p>Due to midterms and busy schedules, we weren&#8217;t able to meet together and program as a group.  Schedule conflict was definitely one of the challenges we had today. Also, trying to figure out solutions to problems only with a help of websites and tutorials was more difficult than expected.</p>
+</div>
+
+<div class="meta">
+Posted in <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team5/" title="View all posts in 2012-winter-Team5" rel="category tag">2012-winter-Team5</a>.  <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5-2/#respond" title="Comment on Day 5">Leave a Comment &#187;</a></div>
+
+</div>
+<div class="post-727 post type-post status-publish format-standard hentry category-2012-winter-team8">
+
+<h2><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5/" rel="bookmark">Day 5</a></h2>
+<span class="submitted">March 2, 2012 &#8212; Team8 </span>
+
+<div class="content">
+<p><strong>Current Project Status:</strong><br />
+We have a basic program implemented that compiles and works correctly, tested on Android 2.1 device and Android 4.0 device. We haven&#8217;t tested the connectivity with JSON or anything with the PHP server yet, but in terms of GUI we have made a major leap. We continue to search on going from Android to PHP and then sending data from the server to the Android device upon request.</p>
+<p><strong>Progress Today:<br />
+</strong>We met in the Science Library throughout the day with the entire team getting together starting at 3pm. We made some good research on the PHP and Android with HTTP Post. Also from the client, or Android side, some good information and implementation of using HTTP Post to get the data, then converting the stored JSON file and parsing it to fit the Android platform was found. The interface of the application itself was updated based on team collaboration and what would be least cumbersome for all users. A major accomplishment after hours and hours of research and debugging was the ability to draw shapes onto an infinitely “scrolling” canvas. The gradient and shadow effects were also coded. The actual send receiving of the file was further discussed in terms of updating files on the server and then resending to all users. We also looked into and found a solution to identify the identity of the Android device using email address.</p>
+
+		<style type='text/css'>
+			#gallery-1 {
+				margin: auto;
+			}
+			#gallery-1 .gallery-item {
+				float: left;
+				margin-top: 10px;
+				text-align: center;
+				width: 33%;
+			}
+			#gallery-1 img {
+				border: 2px solid #cfcfcf;
+			}
+			#gallery-1 .gallery-caption {
+				margin-left: 0;
+			}
+		</style>
+		<!-- see gallery_shortcode() in wp-includes/media.php -->
+		<div id='gallery-1' class='gallery galleryid-727 gallery-columns-3 gallery-size-thumbnail'><dl class='gallery-item'>
+			<dt class='gallery-icon'>
+				<a href='http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5/imag0274/' title='IMAG0274'><img width="150" height="150" src="http://student-council.ics.uci.edu/appjam/winter2012/blog/wp-content/uploads/2012/03/IMAG0274-150x150.jpg" class="attachment-thumbnail" alt="IMAG0274" title="IMAG0274" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon'>
+				<a href='http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5/imag0276/' title='IMAG0276'><img width="150" height="150" src="http://student-council.ics.uci.edu/appjam/winter2012/blog/wp-content/uploads/2012/03/IMAG0276-150x150.jpg" class="attachment-thumbnail" alt="IMAG0276" title="IMAG0276" /></a>
+			</dt></dl><dl class='gallery-item'>
+			<dt class='gallery-icon'>
+				<a href='http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5/imag0277/' title='IMAG0277'><img width="150" height="150" src="http://student-council.ics.uci.edu/appjam/winter2012/blog/wp-content/uploads/2012/03/IMAG0277-150x150.jpg" class="attachment-thumbnail" alt="IMAG0277" title="IMAG0277" /></a>
+			</dt></dl><br style="clear: both" />
+			<br style='clear: both;' />
+		</div>
+
+<p><strong>Challenges:<br />
+</strong>While we have been researching and reading tutorials we are still trying to implement the JSON format and then actually implement it onto the server and back to the user. This will prove to be a difficult task as client-server things are never easy. The actual GUI is about complete but still needs a little bit of work. The program will deal with connected objects and notifying users of updates so the implementation of notifying users based on Android ID still needs to be researched. We are planning on meeting for the majority of the day on Saturday and hope to make a lot of progress individually as well.</p>
+</div>
+
+<div class="meta">
+Posted in <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team8/" title="View all posts in 2012-winter-Team8" rel="category tag">2012-winter-Team8</a>.  <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5/#respond" title="Comment on Day 5">Leave a Comment &#187;</a></div>
+
+</div>
+
+
+<div class="nextprev">
+<div class="alignleft"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/page/5/" >&laquo; Older posts</a> </div>
+<div class="alignright"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/page/3/" >Newer posts &raquo;</a> </div>
+</div>
+
+</div><!-- end content -->    
+
+<span class="clear"></span>
+<div id="footer">
+<a href="http://wordpress.com/" rel="generator">Get a free blog at WordPress.com</a> Theme: Garland by Stefan Nagtegaal and <a href="http://acko.net/" rel="designer">Steven Wittens</a>.</div>
+</div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+<div id="sidebar-right" class="sidebar">
+
+<ul class="menu">
+
+
+<li class="widget widget_search">
+<form method="get" id="searchform" action="http://student-council.ics.uci.edu/appjam/winter2012/blog/">
+<div><input type="text" value="" name="s" id="s" />
+<input type="submit" id="searchsubmit" value="Search" />
+</div>
+</form>
+</li>
+
+<li id="linkcat-2" class="widget widget_bookmarks linkcat"><h3>Blogroll</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://codex.wordpress.org/">Documentation</a></li>
+<li><a href="http://wordpress.org/extend/plugins/">Plugins</a></li>
+<li><a href="http://wordpress.org/extend/ideas/">Suggest Ideas</a></li>
+<li><a href="http://wordpress.org/support/">Support Forum</a></li>
+<li><a href="http://wordpress.org/extend/themes/">Themes</a></li>
+<li><a href="http://wordpress.org/news/">WordPress Blog</a></li>
+<li><a href="http://planet.wordpress.org/">WordPress Planet</a></li>
+
+	</ul>
+</li>
+
+<li class="widget widget_archives">
+<h3>Archives</h3>
+<ul>
+	<li><a href='http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/2012/03/' title='March 2012'>March 2012</a></li>
+	<li><a href='http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/2012/02/' title='February 2012'>February 2012</a></li>
+	<li><a href='http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/2011/11/' title='November 2011'>November 2011</a></li>
+</ul>
+</li>
+
+<li class="widget widget_meta">
+<h3>Misc</h3>
+<ul>
+<li><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/wp-login.php">Log in</a></li>
+<li><a href="http://wordpress.org/">WordPress.org</a></li>
+<li><a href="http://wordpress.com/">WordPress.com</a></li>
+</ul>
+</li>
+
+</ul>
+</div>
+
+</div> <!-- /container -->
+</div>
+
+
+<!-- /layout -->
+
+
+</body>
+</html>

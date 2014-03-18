@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/feedback/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Social Systems and Big Data</title>
+		<link>http://ngs.ics.uci.edu/social-systems-and-big-data/</link>
+		<comments>http://ngs.ics.uci.edu/social-systems-and-big-data/#comments</comments>
+		<pubDate>Mon, 15 Oct 2012 08:04:20 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Entrepreneurism]]></category>
+		<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[big data]]></category>
+		<category><![CDATA[feedback]]></category>
+		<category><![CDATA[social computing]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1453</guid>
+		<description><![CDATA[Two common buzz words in computing are currently big data and social computing. As with most new technologies, both these terms mean different things to different people. Big data to some people is defined only using the size, to others&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>Two common buzz words in computing are currently big data and social computing.  As with most new technologies, both these terms mean different things to different people.  </p>
+<p>Big data to some people is defined only using the size, to others it has equally important other dimensions such as the variety or heterogeneity of data, speed of generation of new data, and processing requirements.  For every new technology, initially people use it to only extend old applications.  Big data is no different.  Most initial problems are considered related to storage, indexing, search, and visualization.  Much attention is being received by these old problems that definitely become more serious problems as the size and the nature of data changes.  Soon we will see people talking about new problems that are solved by big data and will drive technology development in big data.  Nothing new here, this has happened to almost all revolutionary technologies.  And the same will keep happening in future also.  That is how technology progresses.  After initial incremental applications,  big data will help in solving problems that could not be solved until now.  And that will be the exciting period. </p>
+<p>Social computing started becoming a popular area with increasing popularity of social networks, particularly Facebook and Twitter.  One of the reasons for the rapid emergence of social computing as a discipline is availability of large volumes of social data very rapidly.  Before social networks, collection of social data was an expensive and deliberate effort requiring significant amount of time.  Moreover, data-collection techniques functioned in artificial environments and did not necessary reflect a natural state.  Just a few years ago, nobody could imagine that so many people will be contributing so much personal information, opinions about issues, and information related to happenings in the world from mundane to important.  This allows collection of data that was unimaginable related to social behavior as well as issues.  The effect of social media on News is well recognized.  With the popularity of smart phones and applications, so called Apps, one can see another interesting trend.  One can collect data related to people, activities, and events that nobody could imagine.</p>
+<p>From ancient times, people have been interested in designing social systems.  I believe that now is the right time to combine Big Data and Social Computing to design unique social systems and applications.  In the following, I will present my early thoughts on this topic to get better clarifications, through my articulation and then feedback from you, on this topic.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/social-systems-and-big-data/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

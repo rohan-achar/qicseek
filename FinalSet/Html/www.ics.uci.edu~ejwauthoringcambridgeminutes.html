@@ -1,0 +1,305 @@
+<HTML>
+<HEAD>
+<TITLE>Meeting Minutes, Informal Technical Meeting on WWW Distributed
+      Authoring and Versioning, Cambridge, Mass.</TITLE>
+</HEAD>
+<BODY>
+
+<CENTER>
+<H1>Minutes</H1>
+      
+<H2>Informal Technical Meeting on WWW Distributed Authoring
+and Versioning</H2>
+
+<H3>MIT Faculty Club, Cambridge, Mass.</H3>
+
+<H3>September 16, 1996</H3>
+</CENTER>
+
+
+<P>
+An informal technical meeting on the subject of Distributed Authoring
+and Versioning on the World Wide Web was held on September 16, 1996,
+at the MIT Faculty Club, on the campus of the Massachusetts Institute
+of Technology, Cambridge, Mass.  There were 19 attendees from the
+following organizations: America Online, Apache Group, Dynamic
+Diagrams, Harlequin, Microsoft, Massachusetts Institute of Technology,
+Mortice Kern Systems, Open Group Research Institute, Novell, NTT Palo
+Alto Labs, University of California, Irvine, World Wide Web
+Consortium, and Xerox.  The attendees thank the World Wide Web
+Consortium for graciously supplying the meeting site and food.  Many
+thanks also go to Susan Hardy, W3C, for her help in arranging the
+meeting.
+
+<P>
+These meeting minutes were recorded by Jim Whitehead.  The Chair of
+the Meeting was Jim Whitehead.  These notes were not developed into
+minutes until June, 1997, and were never approved by the attendees of
+the meeting.  Thus, while every effort has been made to ensure these
+notes reflect the activities which took place at this meeting, they
+have not been subject to review, and hence may reflect the bias of the
+recorder.
+
+<P>
+Introductory remarks by Jim Whitehead.
+
+<P>
+Presentation by Yaron Goland on an overview of Microsoft Distributed
+Authoring and Versioning Requirements and draft implementation
+ideas.
+
+<P>
+Described interest in subject. Microsoft is very interested in
+following standards.
+
+<P>
+There are many distributed authoring and versioning tools available
+today -- this is not new.
+
+<P>
+What people want for tomorrow: location independence, and collaboration.
+
+<P>
+Backwards compatibility is very important.  VSS team admits they
+will not be able to give full backward compatibility to people
+with only browsers.  Backawards compatibility leads to URL munging,
+which is not desirable.
+
+<P>
+Need groups of functionality, so if you want versioning, use the
+versioning functionality package of HTTP.
+
+<P>
+Attributes.  Need attributes, they're very powerful.  Need a registry
+for the namespace -- perhaps have per-company (novell.*) registry.
+Can do security, for example.
+
+<P>
+Directory URL.  URL ends with a slash.  Need directory infomation
+in a standard format.  Interactions with other functions needs
+to be discussed -- for example, DELETE should delete the directory,
+and all files &amp; directories below it.
+
+<P>
+File control for URLs - Copy, Delete, Get, Move, Put, Rename.
+Issue of copying from one server to another is tricky, need for
+many.
+
+<P>
+Need for byte ranges and insertions.  Don't want to change whole
+file just for 10 byte insertion.
+
+<P>
+Word and Excel need locking, are &quot;dead in the water&quot;
+without it, and with full [Full|Partial][Read|Write][Lock|Unlock]
+capability. Locks need to be independent of other methods.
+
+<P>
+Checking out a directory -- should this be recursive?  Should
+all operations on directories be recursive?  Attributes could
+be powerful enough to implement check-out -- just store the person
+who has checked out the file into an attribute.
+
+<P>
+Command comments -- the ability to add a string or URL to any
+method.  Can be used for comments for checkin and checkout.
+
+<P>
+Server diff capability. Use VTML for returning a server-generated
+diff between two files.  Want the server to be able to do a diff
+-- for efficiency?
+
+<P>
+Merge - need to be able to specificy how to do this on either
+the client or the server.
+
+<P>
+Search - requirements: wild card and regular expressions.  Don't
+do this through URL munging -- do it with a new method.
+
+<P>
+Version identification -- requirement: URL independent.
+
+<P>
+Access control.  Needs to support group management.  Suggest the
+formation of another group to address access control.  This could
+cause a major interoperability problem.  All our work could be
+for naught if access control is proprietary, but everything else
+is open.
+
+<P>
+Stressed need to make separate specifications so companies can
+pick them up or put them down, depending on whether they need
+them.
+
+<P>
+Del Jensen: Working on server side diff for his product.  What
+about different types?
+
+<P>
+Yaron Goland (YG): Can specify the type you want for the diff
+coming back.
+
+<P>
+Steve Carter: Need to abstract the notion of directory away from
+just a directory.  ODMA as an example.
+
+<P>
+YG: Word supports ODMA.
+
+<P>
+Need to discover where artifacts are.
+
+<P>
+Judith Slein (JS): Need ability to say &quot;Show me everything
+in the X collection.&quot;
+
+<P>
+Henrik Frystyk Nielsen (HN): Why do we need file operations? 
+I don't see a clear need why they are needed.  For the first time
+there's a naming scheme which is finally independent of the filesystem.
+
+<P>
+YG: Users want it to be able to aggregate their information into
+hierarchies.  Can specify these capabilities as a PEP extension.
+
+<P>
+HN: Can simply specify relations between items, and this is used
+to organize information.
+
+<P>
+YG: Users want this ability.  As a result, MS is going to implement
+this capability.
+
+<P>
+Some discussion of interaction between names, versions, and caching.
+
+<P>
+Discussion of retrieving a named version of an entity.  Should
+it be possible to get there directly, or via a history view, then
+to the version itself.
+
+<P>
+Novell also needs direct access to a named version of an entity.
+
+<P>
+------
+
+<P>
+Presentation by Jim Whitehead on Distributed Authoring Requirements.
+
+<P>
+During the presentation, many comments on the requirements were
+made:
+
+<P>
+- change &quot;entity&quot; to &quot;resource&quot; throughout<BR>
+- there is a need to list relationships in addition to creating,
+querying, and deleting them<BR>
+- there is a need for a relationship discovery mechanism<BR>
+- the terminology used to describe locks is inconsistent with
+standard usage, and needs to be made consistent with standard
+lock/transaction semantics<BR>
+- a read lock should have the meaning that only the owner of the
+lock may read the resource<BR>
+- there needs to be a section describing lock combinations<BR>
+- the server makes administrative policies about locks<BR>
+- the section &quot;Notification of Intention to Edit&quot; needs
+to be moved to the versioning requirements document<BR>
+- in partial write, a note needs to be made that updates can be
+small or large, and can extend past the end of the resource<BR>
+- a question was raised whether support for move/rename capability
+across servers would also be supported<BR>
+- there is a need for a new requirement for server difference
+functionality on a per media type basis, since it is cheaper than
+performing two gets, especially for small changes.<BR>
+- interactions with digitial signitures need to be explored<BR>
+- a comparison with the DMA (AIIM) requirements would be worthwhile<BR>
+</P>
+
+<P>
+------
+
+<P>
+Presentation by Jim Whitehead on the Group's Charter
+
+<P>
+Wording changes to the Charter were suggested.
+
+<P>------
+
+<P>
+Presentation by David Durand on Versioning Requirements
+
+<P>
+Discussion of overlapping requirements.  Notification of intention
+to edit --&gt; versioning.  Locking remains in distributed authoring.
+
+<P>
+Discussion of non-change of versions.  Problem is a version could
+be accessed via more than one name.  How to specify the requirement
+without basing it on a name.
+
+<P>
+Discussion of client interoperability.  Jim Whitehead (JW) thought
+that the server should adapt to the clients.  Most others thought
+that a client would adapt to the particular implementation offered
+by a server.
+
+<P>
+Big discussion over backawards compatibility, and whether a version
+should be specified in a URL.  Seemed to be consensus that there
+does need to be support for non-version aware clients.
+
+<P>
+David Long (DL): Discussion of name of all versions of a resource
+vs. name of individual versions sounds a lot like content negotiation.
+
+<P>
+Agreement on &quot;deafult&quot; or &quot;tip&quot;.
+
+<P>
+Agreement on getting to pred/succ//root/default version of a document.
+
+<P>
+Remove timeouts on locks.  Wasn't perceived as very useful.
+
+<P>
+Discussion of delete vs. destroy.  Destroy is a common functionality.
+
+<P>
+Discussion of server diff -- need to get a diff of two objects
+which are large, but which may have a small set of differences.
+
+<P>
+------
+
+<P>
+Discussion of Action Items:
+
+<P>
+Modify Distributed Authoring Requirements based on feedback and
+put it out this week.
+
+<P>
+Revise the scenarios document this week.
+
+<P>
+Revise the Charter based on feedback from the meeting.
+
+<P>
+Revise the Versioning Requirements by two weeks from this Friday.
+
+<P>
+Scenarios of server-server activities should be submitted during
+the week of Sept. 23-28.<BR>
+
+<P><I>*** Meeting Adjourned ***</I>
+
+</BODY>
+
+
+
+</HTML>
+
+

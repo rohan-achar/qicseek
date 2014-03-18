@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Worst Service Experience</title>
+	<atom:link href="http://ngs.ics.uci.edu/worst-service-experience/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/worst-service-experience/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Ramesh</title>
+		<link>http://ngs.ics.uci.edu/worst-service-experience/comment-page-1/#comment-754</link>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+		<pubDate>Wed, 04 Oct 2006 15:00:01 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=622#comment-754</guid>
+		<description><![CDATA[M3.]]></description>
+		<content:encoded><![CDATA[<p>M3.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Nick Pulido</title>
+		<link>http://ngs.ics.uci.edu/worst-service-experience/comment-page-1/#comment-751</link>
+		<dc:creator><![CDATA[Nick Pulido]]></dc:creator>
+		<pubDate>Wed, 04 Oct 2006 00:07:39 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=622#comment-751</guid>
+		<description><![CDATA[I like the human checker. What series BMW do you have?]]></description>
+		<content:encoded><![CDATA[<p>I like the human checker. What series BMW do you have?</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

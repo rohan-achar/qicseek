@@ -1,0 +1,160 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>AbbyKlish - GraphModAlg@UCI</title>
+<script type="text/javascript" src="/moin_static163/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static163/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static163/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static163/rightsidebar/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static163/rightsidebar/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static163/rightsidebar/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="GraphModAlg@UCI: AbbyKlish" href="/group/action/rss_rc/AbbyKlish?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=AbbyKlish&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/group/Main_Page">
+<link rel="Alternate" title="Wiki Markup" href="/group/AbbyKlish?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/group/AbbyKlish?action=print">
+<link rel="Search" href="/group/FindPage">
+<link rel="Index" href="/group/TitleIndex">
+<link rel="Glossary" href="/group/WordIndex">
+<link rel="Help" href="/group/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="/group/AbbyKlish">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="/group/Main_Page"><img src="/moin_static163/common/moinmoin.png" alt="MoinMoin Logo"></a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a class="backlink" href="/group/action/fullsearch/AbbyKlish?action=fullsearch&amp;context=180&amp;value=linkto%3A%22AbbyKlish%22" rel="nofollow" title="Click to do a full-text search for this title">AbbyKlish</a></li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="sidebar">
+<div class="sidepanel">
+<h1>Wiki</h1>
+
+<ul id="navibar">
+<li class="wikilink"><a href="/group/Main_Page">Main_Page</a></li><li class="wikilink"><a href="/group/RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="/group/FindPage">FindPage</a></li><li class="wikilink"><a href="/group/HelpContents">HelpContents</a></li><li class="current"><a href="/group/AbbyKlish">AbbyKlish</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><span class="disabled">Immutable Page</span></li><li class="toggleCommentsButton" style="display:none;"><a href="#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="/group/action/info/AbbyKlish?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="/group/action/AttachFile/AbbyKlish?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="/group/AbbyKlish">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="RenderAsDocbook">Render as Docbook</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Subscribe User</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="PackagePages">Package Pages</option>
+<option value="SyncPages">Sync Pages</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="Save">Save</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="/group/action/login/AbbyKlish?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line874">As is becoming more and more obvious in recent times, with the banking system under nonstop spotlight mainly because of suggestions of mismanagement and straight up fraudulence, bankers appear to have delusions of grandeur or possibly a better than you manner. Bankers, it appears, look down on the rest of mankind, like the ancient gods that toyed with the Greeks in times passed by. The ability or wish to look down on other individuals is thoroughly impossible when you are on the same level as people you wish to look down upon. Being elevated is an benefit if not a necessity, this circumstance can develop, only if you are actually higher. To accomplish that virtue of elevation, the banker has to be, either situated within the celestial heavens or taller than their competitors. <span class="anchor" id="line-2"></span>Appearing taller than one's peers is without doubt the only way a banker may look down on anyone, bankers usually are not renowned for their deity or heavenly position, I am presuming that all bankers venture downwards after they shuffle from this mortal coil called life, I could possibly be wrong however i sincerely doubt it, as I possess great arrogance and a belief in myself that is almost banker like in it's strength. Should The almighty think that your life will be used gazing up in wonder at others endowed with a more significant height than yourself, there is not a thing that even a banker can do about it. This has always been the case, right up until somebody with a smart idea for a financially rewarding journey and a comprehensive disregard for what the all powerful one decreed, decided to invent heel lifts. This place of history has been overlooked by great historians or maybe concealed by those that have a conspiracy theory tendency. <span class="anchor" id="line-3"></span>Lots of individuals empowered with much greater knowledge than me, would have us assume that the invention of electric power or the birth of quantum physics had the greatest impact on man, I refer these significantly greater thinkers to the creation of heel lifts and as supporting evidence I point to the life and vocation of the former French leader, Nicholas Sarkozy. Quantum physics and electricity mixed in gigantic portions could never have propelled our tiny Frenchman to such political heights as running the world's favorite country. Devoid of heel lifts Mr Sarkozy will have remained unheard of and small. Despite having heel lifts Nicky's physical height never compared positively with his political victories. <span class="anchor" id="line-4"></span>Bankers, like Sarkozy are limited, maybe not as clearly limited but the difference is negligible. Bankers require assistance to look down on anybody, envision a banker during his formative school years, I wager these people were neither popular nor mentally or physically desirable. Bankers, exactly like Sarkozy, require assistance with their elevation, enter heel lifts, the product that altered human beings once and for all. I realize I am asking that, you the reader make a giant leap here, undoubtedly quantum physics and electricity sound a great deal more significant and influential than heel lifts, in all likelihood due to the cover up we talked about earlier. Ask yourself this, devoid of [<a class="http" href="http://bestheellifts03.blog.com/">http://bestheellifts03.blog.com/</a> Shoe Lifts Inserts], could the smallest Frenchman in history ever become a world leader? minus the modest heel lift, would the financial crash and burn of 2008 have occurred? I believe that the evidence is compelling. <span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><p class="line874">Barrack Obama is, of course tall as is proved by his basketball talents and distinct height, he is the president of the second most important country on the earth immediately following France, Barrack looks down on absolutely everyone, even Sarkozy, I say that this is thanks to his greater height, Sarkozy and all of the bankers of this planet, can recognize an unjust advantage, this is the main reason they are bankers and Sarkozy is Sarkozy. With out heel lifts, bankers, Sarkozy and any other members of the much marketed new world order would be smaller than you or I and would be struggling to look down on any person except the odd North Korean or two. The world might be a better and safer place and bankers would assume the position in society that God intended for them. <span class="anchor" id="line-7"></span><span class="anchor" id="bottom"></span></div><p id="pageinfo" class="info" lang="en" dir="ltr">AbbyKlish  (last edited 2012-10-13 16:26:00 by <span title="AbbyKlish @ 1-161-151-81.dynamic.hinet.net[1.161.151.81]"><a href="/group/AbbyKlish" title="AbbyKlish @ 1-161-151-81.dynamic.hinet.net[1.161.151.81]">AbbyKlish</a></span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+
+

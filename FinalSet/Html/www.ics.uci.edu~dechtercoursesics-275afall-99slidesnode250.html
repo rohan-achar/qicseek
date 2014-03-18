@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> All Solutions Built-ins</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" All Solutions Built-ins">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5258 HREF="node251.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5256 HREF="node243.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5250 HREF="node249.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5260 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5259 HREF="node251.html"> Arithmetic Built-ins</A>
+<B>Up:</B> <A NAME=tex2html5257 HREF="node243.html"> The Built-in Predicates </A>
+<B> Previous:</B> <A NAME=tex2html5251 HREF="node249.html"> Term Manipulation Built-ins</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION002170000000000000000> All Solutions Built-ins</A></H1>
+<P>
+These predicates yield the sets of solutions to a goal. The underlying
+technique is to find a solution to the problem, record it,
+then force backtracking to find a further solution. This
+process is continued until all solutions are found.
+<P>
+<A NAME=tex2html971 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  All solutions built-in.
+<DL ><DT><b> bagof(?Term, +Goal, ?List)</b>
+<DD> <BR> 
+Succeeds if  List is the (non-empty) list of all instances of  Term such that  Goal is provable.
+<A NAME=4696>&#160;</A>
+<DT><b> coverof(?Term, +Goal, ?List)</b>
+<DD> <BR> 
+Succeeds if  List is the (non-empty) list of all the most general instances of  Term such that  Goal is provable.
+<A NAME=4701>&#160;</A>
+<DT><b> findall(?Term, +Goal, ?List)</b>
+<DD> <BR> 
+List is the (possibly empty) list of all instances of  Term such that  Goal is provable.
+<A NAME=4705>&#160;</A>
+<DT><b> setof(?Term, +Goal, ?List)</b>
+<DD> <BR> 
+Succeeds if  List is the (non-empty) ordered list of all instances of  Term such that  Goal is provable.
+<A NAME=4710>&#160;</A>
+<P>
+ </DL><BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

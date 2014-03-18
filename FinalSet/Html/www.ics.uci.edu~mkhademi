@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Welcome page</title>
+
+<link href="defaultstyle.css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="branding.js"></script>
+<script type="text/JavaScript" src="http://www.colorado.edu/templates/faculty-template/js/curvycorners.js"></script></head>
+<body>
+<div id="container">
+<div id="wrapper"><br />
+<br />
+<div id="nav">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="publication.html">Publication<br /></a></li>
+<li><a href="projects.html">Projects</a></li>
+<li><a href="files/CV-Maryam%20Khademi.pdf">CV</a></li>
+<li><a href="personal.html">Personal</a></li>
+</ul>
+</div>
+<img src="Images/others/esfahan.jpg" style="width: 960px; height: 390px;" alt="" /><br />
+<div id="name">
+<h1><span style="color: white;">Maryam Khademi</span>
+</h1>
+</div>
+<div id="page">
+<div id="content">
+<div id="sidebar"> <img style="width: 187px; height: 239px;" alt="" title="photo" id="fac_photo" src="Images/others/mkh.jpg" align="top" />
+<h3 style="color: black;">Contact</h3>
+<span style="color: black;">&nbsp;&nbsp;&nbsp;
+408 ICS1 Building<br />
+&nbsp;&nbsp;&nbsp; Donald Bren School of <br />
+&nbsp;&nbsp;&nbsp; Information and Computer Sciences
+&nbsp;<br />
+&nbsp;&nbsp;&nbsp; University of California, Irvine<br />
+<span style="color: rgb(8, 80, 188);">&nbsp;&nbsp;&nbsp;
+mkhademi (at) ics (dot) uci (dot) edu</span></span><br />
+</div>
+<div style="text-align: justify;"><font style="font-family: Georgia;" class="ws8" color="#000000" face="Tahoma">I am a PhD candidate at </font><font style="font-family: Georgia;" class="ws8" face="Tahoma"><a href="http://www.ics.uci.edu/" title="">Donald Bren
+School of Information and Computer Sciences</a></font><font style="font-family: Georgia;" class="ws8" color="#000000" face="Tahoma"> at </font><font style="font-family: Georgia;" class="ws8" face="Tahoma"><a href="http://www.uci.edu/" title="">University of
+California, Irvine</a></font><font style="font-family: Georgia;" class="ws8" color="#000000" face="Tahoma">. </font><font style="font-family: Georgia;" class="ws8" color="#000000" face="Tahoma">My research interests
+lie in the area of </font><font style="font-family: Georgia;" class="ws8" color="#000000" face="Tahoma">Natural
+Interactions, Gesture Recognition, </font><font style="font-family: Georgia;" class="ws8" color="#000000" face="Tahoma">Augmented&nbsp;Reality, and Computer
+Vision.</font><br style="font-family: Georgia;" />
+<br style="font-family: Georgia;" />
+<font style="font-family: Georgia;" class="ws8" color="#000000" face="Tahoma">I&nbsp;earned my <span style="font-weight: bold;">BSc</span> degree from </font><font style="font-family: Georgia;" class="ws8" face="Tahoma">Tehran
+University</font><font style="font-family: Georgia;" class="ws8" color="#000000" face="Tahoma"> then
+worked as an R&amp;D Developer for almost a year. Being awarded the
+prestigious </font><font style="font-family: Georgia;" class="ws8" face="Tahoma"><a href="http://www.a-star.edu.sg/" title="">A*STAR</a></font><font style="font-family: Georgia;" class="ws8" color="#000000" face="Tahoma">
+scholarship, I moved to Singapore to pursue&nbsp;<span style="font-weight: bold;">Master</span>'s degree in
+<a href="http://www.ntu.edu.sg/Pages/index.aspx">Nanyang Technological University</a>. Afte submitting my thesis, I was recruited as a <span style="font-weight: bold;">Research Associate</span> and worked&nbsp;at the same university </font><font style="font-family: Georgia;" class="ws8" color="#000000" face="Tahoma">for 1.5 years</font><font style="font-family: Georgia;" class="ws8" color="#000000" face="Tahoma">. In
+Aug 2011, I moved to United States to pursue my PhD. For
+further details on my academic and professional records, please take a
+look at
+my CV</font><span style="font-family: Georgia;">.</span><br />
+<h3 style="color: rgb(8, 80, 188);"><br />
+</h3>
+<h3 style="color: rgb(8, 80, 188);"><br />
+</h3>
+<h3 style="color: rgb(8, 80, 188);"><br />
+</h3>
+<h3 style="color: rgb(8, 80, 188);"><br /></h3><h3 style="color: rgb(8, 80, 188);">Latest News:</h3>
+<table style="text-align: left; background-color: white; height: 490px; width: 930px;" border="0" cellpadding="2" cellspacing="2">
+<tbody>
+<tr><td style="background-color: rgb(204, 204, 204);">
+
+<small>CRA-W Grad Cohort Workshop Travel Award, Santa Clara, USA </small></td><td style="background-color: rgb(204, 204, 204);">Jan 2014</td></tr><tr><td style="background-color: rgb(218, 252, 252);"><small>Our extenteded abstract titled "An Assistive Tabletop Keyboard for Stroke Rehabilitaton" has been accepted to&nbsp;<span style="font-weight: bold;">ITS'13</span> to be held in St. Andrew, United Kingdom. This work was co-authored with <a href="https://sites.google.com/site/hosseinmousaviwebsite/">Hossein Mousavi Hondori</a>.</small></td><td style="background-color: rgb(218, 252, 252);"><small>Aug 2013</small></td></tr><tr><td style="background-color: rgb(204, 204, 204);"><small>Our poster titled "Multi-Perceptive Multi-Layer Interaction on Mobile Device" has been accepted to <span style="font-weight: bold;">UIST'13</span> to be held in St. Andrew, United Kingdom. This work was&nbsp;co-authored with <a href="http://www.ics.uci.edu/%7Emingminf/">Mingming Fan</a> and <a href="https://sites.google.com/site/hosseinmousaviwebsite/">Hossein Mousavi Hondori</a>.</small></td><td style="background-color: rgb(204, 204, 204);"><small>Aug 2013</small></td></tr><tr><td style="background-color: rgb(218, 252, 252);"><small>Our <span style="font-weight: bold;">AHA (American Heart Association) grant</span> got funded. This was in collaboration with our partners in
+          Neurology Department: <a href="https://sites.google.com/site/hosseinmousaviwebsite/">Project Scientist Hossein Mousavi</a> of UCI
+          Neurology (direct collaborator in technical development and
+          writing the grant), Professor Steven C. Cramer of
+          UCI Neurology</small><small>, and&nbsp;Professor Crista Lopes.</small></td><td style="background-color: rgb(218, 252, 252);"><small>July &nbsp;2013</small></td></tr><tr>
+<td style="vertical-align: top; width: 800px; background-color: rgb(204, 204, 204);"><small>Our paper
+titled "Comparing 'Pick and Place' Task in Spatial Augmented Reality
+versus Non-immersive Virtual Reality for Rehabilitation Setting"
+has been accepted
+for presentation at&nbsp;<span style="font-weight: bold;">EMBC'13</span>
+to be held in Osaka, Japan.&nbsp;</small></td>
+<td style="vertical-align: top; background-color: rgb(204, 204, 204); text-align: left;"><small>April&nbsp;2013
+&nbsp; </small></td>
+</tr>
+<tr>
+<td style="background-color: rgb(218, 252, 252);"><small>I
+am awarded
+eScience workshop 2013's <span style="font-weight: bold;">Travel
+Fellowship</span> to&nbsp;Brazil,&nbsp;May 13–15, 2013.
+Thanks to Microsoft Research and FAPESP!</small></td>
+<td style="background-color: rgb(218, 252, 252); text-align: left;"><small>March
+2013</small></td>
+</tr>
+<tr>
+<td style="background-color: rgb(204, 204, 204);"><small>I'll
+be attending <span style="font-weight: bold;">ISMAR2012</span>,
+Nov 5-8, Atlanta.</small></td>
+<td style="vertical-align: top; background-color: rgb(204, 204, 204); text-align: left;"><small>Nov
+2012</small></td>
+</tr>
+<tr>
+<td style="background-color: rgb(218, 252, 252);"><small>Our
+paper titled "<span style="font-style: italic; color: rgb(51, 51, 51);">Monitoring
+Intake Gestures using Sensor Fusion
+(Microsoft Kinect and Inertial Sensors) for Smart Home Tele-Rehab
+Setting</span>" will be presented at <span style="font-weight: bold;">HIC2012</span>,&nbsp;Nov
+7-9, Houston.</small></td>
+<td style="vertical-align: top; background-color: rgb(218, 252, 252); text-align: left;"><small>Nov
+2012</small></td>
+</tr>
+<tr>
+<td style="background-color: rgb(204, 204, 204);"><small>Our
+poster titled "<span style="font-style: italic; color: rgb(51, 51, 51);">Optical
+Illusion in Augmented Reality</span>" has been accepted in
+<span style="font-weight: bold;">VRST2012</span>, Toronto.</small></td>
+<td style="vertical-align: top; background-color: rgb(204, 204, 204); text-align: left;"><small>Oct
+2012</small></td>
+</tr>
+<tr>
+<td style="background-color: rgb(218, 252, 252);"><small>Our
+prototype "<span style="font-style: italic; color: rgb(51, 51, 51);">MusiPad:&nbsp;A
+Multi-touch Force-sensitive Gaming Pad for Finger Rehabilitation and
+Treatment in Stroke and Cerebral Palsy</span>" has been
+demonstrated at the Innovation Contest of <span style="font-weight: bold;">UIST2012</span>, Boston.</small></td>
+<td style="vertical-align: top; background-color: rgb(218, 252, 252); text-align: left;"><small>Oct
+2012</small></td>
+</tr>
+<tr>
+<td style="background-color: rgb(204, 204, 204);"><small>Our
+paper titled "<span style="font-style: italic; color: rgb(51, 51, 51);">A
+Spatial Augmented Reality Rehab
+System for Post-Stroke Hand Rehabilitation</span>" has been
+accepted for oral presentation at 2013 <span style="font-weight: bold;">NextMed/MMVR20</span>, San
+Diego.</small></td>
+<td style="vertical-align: top; background-color: rgb(204, 204, 204); text-align: left;"><small>Sep
+2012</small></td>
+</tr>
+</tbody>
+</table>
+<br />
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+&nbsp;Maryam Khademi © 2013 </div>
+</div>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-40782892-1', 'uci.edu');
+ga('send', 'pageview');
+</script>
+</body></html>

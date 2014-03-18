@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>CS 274A: Main Page</title></head>
+<body style="color: rgb(0, 0, 0); background-color: white;" alink="#000099" link="#000099" vlink="#990099"><div style="text-align: center;">
+</div><center style="font-family: Calibri;">
+
+  <h2><big><font color="#330033"><small> CS 274A: Probabilistic Learning:
+    Theory and Algorithms, Winter 2014</small></font></big></h2><hr style="width: 100%; height: 2px;" />
+</center>
+<ul>
+  <li style="font-family: Calibri;"> <b>Time:</b>&nbsp; Mondays and Wednesdays, 11:00 to 12:20 </li>
+  <li style="font-family: Calibri;"> <b>Location: </b>DBH 1500&nbsp;</li>
+  <li style="font-family: Calibri;"><span style="font-weight: bold;">Course code</span>: 34960</li>
+  <li style="font-family: Calibri;"> <b>Professor: </b><a href="http://www.ics.uci.edu/%7Esmyth">Padhraic
+    Smyth</a></li>
+  <ul><li style="font-family: Calibri;"> <b>Email:</b> smyth at ics.uci.edu<font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><span style="font-family: Calibri;">. Note: for all class-related emails make sure to put [CS274] at the start of the subject line of your email</span></font></font></font></li></ul>
+  <ul><li style="font-family: Calibri;"> <b>Office Hours:</b> 10:00 &nbsp;to 11:30, Tuesdays, DBH 4212&nbsp;<br /></li></ul><li style="font-family: Calibri;"><a href="syllabus.xhtml"><span style="font-weight: bold;">Syllabus</span></a> &nbsp;(dates may shift during the quarter but content will remain broadly the same)</li><li style="font-family: Calibri;"><font style="font-weight: bold;"><a href="background_notes.html">Background Notes</a>:</font><font> notes to accompany lectures, pointers to relevant sections of the text, and background reading</font></li><li style="font-family: Calibri;"><font><a style="font-weight: bold;" href="homeworks.xhtml">Homeworks</a><br /></font></li><font face="Verdana, Arial, Helvetica, sans-serif"><br /><font face="Verdana, Arial, Helvetica, sans-serif"><li><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><small><big><span style="font-weight: bold; font-family: Calibri;">Textbooks </span><span style="font-family: Calibri;">(recommended but not required: you should read the relevant material in at least one of these texts):</span><br style="font-family: Calibri;" /></big></small></font></font><ul><li><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><small><span style="font-weight: normal;"><big><span style="font-family: Calibri;"><span style="font-weight: bold;"></span></span></big></span></small></font></font><a style="font-family: Calibri;" href="http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Brml.Online">Bayesian Reasoning and Machine Learning</a><span style="font-family: Calibri;">, by David Barber, Cambridge University Press (PDF version freely available online).&nbsp;</span></li><li style="font-family: Calibri;"><a href="http://www.cs.ubc.ca/%7Emurphyk/MLbook/index.html">Machine Learning: A Probabilistic Perspective</a>, by Kevin Murphy, MIT Press, 2012.<span style="font-weight: bold;">&nbsp;<br /></span></li></ul></li><li><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><small><big><span style="font-weight: bold; font-family: Calibri;">Other Optional Reference Texts:&nbsp;</span><br style="font-family: Calibri;" /></big></small></font></font><ul><li><small><a href="http://research.microsoft.com/en-us/um/people/cmbishop/prml/index.htm">Pattern Recognition and Machine Learning</a>,
+by Chris Bishop, 2007, Springer. Widely used comprehensive text on
+statistical learning - was the standard text used in machine learning
+classes until the Murphy book appeared in 2012 (which covers more
+recent developments in the field).</small><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><small><span style="font-weight: normal;"><big><span style="font-family: Calibri;"><span style="font-weight: bold;"></span></span></big></span></small></font></font><span style="font-family: Calibri;"></span></li><li><span style="font-family: Calibri;"><a href="http://statweb.stanford.edu/%7Etibs/ElemStatLearn/">Elements of Statistical Learning</a>,
+by Hastie, Tibshirani, and Friedman,&nbsp; Springer, 2009. Excellent
+text on machine learning from a statistical perspective. PDF version
+available freely online. See also <a href="http://www-bcf.usc.edu/%7Egareth/ISL/">An Introduction to Statistical Learning with Applications in R,</a> 2013, which is a more introductory/applied version of the original book, and is also available freely online.</span></li><li><span style="font-weight: normal;"><a style="font-family: Calibri;" href="http://www.stat.cmu.edu/%7Elarry/all-of-statistics/index.html">All of Statistics: A Concise Course in Statistical Inference</a><span style="font-family: Calibri;">, by Larry Wasserman, 2004, Springer. Written as a concise introduction to statistics for computer scientists.<span style="font-weight: bold;">&nbsp;</span></span></span></li><li><span style="font-weight: normal;"><span style="font-family: Calibri;">Note
+that this list is not intended to be exhaustive - there are several
+other excellent texts on machine learning that were published in recent
+years.<span style="font-weight: bold;"><br /></span></span></span></li></ul></font></font><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><small><span style="font-weight: normal;"><big><span style="font-family: Calibri;"><span style="font-weight: bold;"><br /></span></span></big></span></small></font></font></font></li><font face="Verdana, Arial, Helvetica, sans-serif"><li style="font-weight: bold; font-family: Calibri;"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><span style="font-weight: normal;"></span><small><small><span style="font-weight: normal;"><big><big><span style="font-weight: bold; font-family: Calibri;">Course Goals:</span><span style="font-family: Calibri;"> </span></big></big></span></small></small></font></font><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><span style="font-weight: normal;"><span style="font-family: Calibri;">Students will
+develop a comprehensive understanding of probabilistic approaches to
+learning from data. Probabilistic learning is a key component in many
+areas within modern computer science, including artificial
+intelligence, data mining, speech recognition, computer vision,
+bioinformatics, and so forth. The course will provide a tutorial
+introduction to the basic principles of probabilistic modeling and then
+demonstrate the application of these principles to the analysis,
+development,
+and practical use of machine learning algorithms.&nbsp; Topics covered
+will include probabilistic modeling, defining likelihoods, parameter
+estimation using likelihood and Bayesian techniques,&nbsp;probabilistic
+approaches to classification, clustering, and regression,
+and related topics such as model selection and bias/variance tradeoffs.&nbsp;</span></span></font></font><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><small><small><span style="font-weight: normal;"><big><br /></big></span></small></small></font></font></li></font></font></font><font style="font-family: Calibri;" face="Verdana, Arial, Helvetica, sans-serif"><font style="font-family: Calibri;"><li style="font-weight: bold;"><p><span style="font-weight: normal;"><span style="font-weight: bold;">Prerequisites for taking this class:</span> Knowledge of
+basic concepts in probability, multivariate calculus, and linear
+algebra
+are required for this course.&nbsp;<span style="font-weight: bold;">&nbsp;</span></span></p></li></font></font></ul><ul><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><li style="font-weight: bold; font-family: Calibri;"><b style="font-family: Calibri;">Grading Policy</b><span style="font-weight: normal; font-family: Calibri;"></span><span style="font-weight: normal; font-family: Calibri;"><br />Final grades will be based on a combination of
+homeworks and exams: 30% homeworks, 30% midterm, and 40%
+final. Your lowest scoring homework will be dropped and not included in your score. No late homeworks.<br /><br /><span style="font-weight: bold;"> </span></span><span style="font-weight: normal;"></span></li><li style="font-weight: bold; font-family: Calibri;"><b>Academic Honesty&nbsp;</b><br /><font style="font-weight: normal;">Academic
+honesty is taken seriously. For homework problems or programming
+assignments you are allowed to discuss the problems or assignments
+verbally with
+other class members, but under no circumstances can you look at or copy
+anyone else's written solutions or code relating to homework problems
+or programming assignments. All problem solutions and code submitted
+must be material you have personally written during this quarter,
+except
+for any library or utility functions which we supply. Failure to adhere
+to this policy can result in a student receiving a failing grade in the
+class. It is the responsibility of each student to be familiar with
+<a href="http://www.editor.uci.edu/catalogue/appx/appx.2.htm#academic">
+UCI's academic honesty policies</a>.&nbsp;<br /><br /></font></li><li style="font-weight: bold;"><span style="font-family: Calibri;">UCI Catalog Course Description:&nbsp; </span><span style="font-weight: normal; font-family: Calibri;"><br />Probabilistic Learning:
+Theory and Algorithms: A unified probabilistic framework for learning
+algorithms. Classical pattern recognition algorithms, probabilistic
+mixture models, kernel methods, hidden Markov models, among others.
+Multivariate data analysis concepts for classification and clustering.
+Methodologies such as cross-validation and bootstrap. Prerequisites:
+basic calculus and linear algebra. </span><font style="font-family: Calibri;" face="Verdana, Arial, Helvetica, sans-serif">&nbsp; </font><font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><br style="font-family: Calibri;" />
+<br />
+</font>
+</font><p><font face="Verdana, Arial, Helvetica, sans-serif"> </font></p>
+<hr />
+<font face="Verdana, Arial, Helvetica, sans-serif"><font face="Verdana, Arial, Helvetica, sans-serif"><br />
+<br />
+<br />
+</font>
+</font></li><font face="Verdana, Arial, Helvetica, sans-serif"></font></font></font></font></ul></body></html>

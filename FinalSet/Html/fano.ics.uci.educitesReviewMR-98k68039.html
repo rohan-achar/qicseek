@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<title>Mathematical Reviews 98k:68039</title>
+		<link rel="shortcut icon" href="/fano.png" type="image/png" />
+		<link rel="stylesheet" href="/stylesheet.css" type="text/css" />
+	</head>
+
+	<body>
+		<div class="outer">
+			<h1><i>Mathematical Reviews</i> 98k:68039</h1>
+
+			<div class="inner">
+				<p><a href="../Document/Sparsification-A-technique-for-speeding-up-dynamic-graph-algorithms.html">Sparsification &#8212; A technique for speeding up dynamic graph algorithms</a><br />
+				<a href="../Author/David-Eppstein.html">David Eppstein</a>,
+<a href="../Author/Zvi-Galil.html">Zvi Galil</a>,
+<a href="../Author/Giuseppe-F-Italiano.html">Giuseppe F. Italiano</a>,
+and <a href="../Author/Amnon-Nissenzweig.html">Amnon Nissenzweig</a><br />
+				<i><a href="../Location/J-ACM.html">J. ACM</a></i> <a href="../Publication/EppGalIta-JACM-97.html">44(5):669&#8211;696, Sep 1997</a><br />
+				<i><a href="../Location/Mathematical-Reviews.html">Mathematical Reviews</a></i> 98k:68039, 1998<br />
+				Reviewed by <a href="../Author/Peter-B-Gibbons.html">Peter B. Gibbons</a></p>
+
+				<p>This paper makes a major contribution to the study of dynamic graph algorithms that maintain some property of a changing graph more efficiently than recomputation from scratch after each change. Dynamic algorithms can be classified as fully dynamic, where both edge insertions and deletions are allowed, or as partially dynamic where only insertions are allowed. The improved performances for dynamic algorithms are achieved through the use of the new technique of sparsification which, when applicable, can speed up a $T(n,m)$ time bound for a graph $G$ with $n$ vertices and $m$ edges to $T(n,O(n))$, almost the time needed if $G$ were sparse. Sparsification involves partitioning the edges of $G$ into a collection of $O(m/n)$ sparse subgraphs, each with $n$ vertices and $O(n)$ edges. The information relevant for each subgraph can be summarised in an even sparser subgraph, called a sparse certificate. Certificates are merged in pairs, producing larger subgraphs which are made sparse again by computing their certificates. The result is a balanced binary tree in which each node is represented by a sparse certificate. Each update involves $\log (m/n)$ graphs with $O(n)$ edges each, instead of one graph with $m$ edges. A more careful partition into subgraphs causes each update to involve a sequence of graphs with $O(n)$ edges in total. Three variants of the sparsification technique are developed. The first is used in situations where no previous fully dynamic algorithm was known and gives time bounds of $O(n)$ per update. The second variant uses a dynamic data structure to maintain certificates possessing a stability property, thereby transforming time bounds of the form $O(m\sp p)$ into $O(n\sp p)$. In the third variant, deletions are performed as in the first variant, and insertions by using a partially dynamic algorithm. This leads to insertion times often matching those of known partially dynamic algorithms, together with deletion times similar to those of the first variant. Results include the maintenance of minimum spanning forests, graph connectivity, graph 2-edge connectivity and bipartiteness in time $O(n\sp {1/2})$ per change; 3-edge connectivity in time $O(n\sp {2/3})$ per change; 4-edge connectivity in time $O(n\alpha(n))$ per change; $k$-edge connectivity for constant $k$ in time $O(n\log n)$ per change; 2-vertex connectivity and 3-vertex connectivity in time $O(n)$ per change; and 4-vertex connectivity in time $O(n\alpha(n))$ per change. Further results speed up the insertion times to match the bounds of known partially dynamic algorithms. The paper concludes with sections on recent related work and remaining open questions.</p>
+
+				<div class="navbar">
+					[<a href="http://www.ics.uci.edu/~eppstein/pubs/">D. Eppstein publications</a>]
+					[<a href="/cites/">Citation database</a>]
+					[<a href="/cites/Review/">Reviews</a>]
+				</div>
+			</div>
+
+			<div class="credit">
+				<a href="/">Fano</a> Experimental Web Server,
+				<a href="http://www.ics.uci.edu/~eppstein/">D. Eppstein</a>,
+				<a href="http://www.ics.uci.edu/">School of Information &amp; Computer Science</a>,
+				<a href="http://www.uci.edu/">UC Irvine</a>
+			</div>
+
+			<a href="http://store.apple.com/"><img alt="Made on a Mac"
+			 height="31" width="88" src="/mac.png" /></a>
+			<a href="http://validator.w3.org/check/referer"><img alt="Valid XHTML 1.0!"
+			 height="31" width="88" src="/validx.png" /></a>
+		</div>
+	</body>
+</html>
+

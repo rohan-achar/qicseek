@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: What the Web can&#8217;t do.</title>
+	<atom:link href="http://ngs.ics.uci.edu/what-the-web-cant-do/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/what-the-web-cant-do/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: tera RMT</title>
+		<link>http://ngs.ics.uci.edu/what-the-web-cant-do/comment-page-1/#comment-5005</link>
+		<dc:creator><![CDATA[tera RMT]]></dc:creator>
+		<pubDate>Wed, 25 Apr 2012 02:04:35 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1257#comment-5005</guid>
+		<description><![CDATA[This is my first time i stop by here. I found countless entertaining stuff in your blog, especially its discussion. From the tons of comments on your articles, I guess I am not the only just one having all of the leisure here! retain up the good work.]]></description>
+		<content:encoded><![CDATA[<p>This is my first time i stop by here. I found countless entertaining stuff in your blog, especially its discussion. From the tons of comments on your articles, I guess I am not the only just one having all of the leisure here! retain up the good work.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Kaushik Biswas</title>
+		<link>http://ngs.ics.uci.edu/what-the-web-cant-do/comment-page-1/#comment-3672</link>
+		<dc:creator><![CDATA[Kaushik Biswas]]></dc:creator>
+		<pubDate>Thu, 10 Jun 2010 22:40:35 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1257#comment-3672</guid>
+		<description><![CDATA[Ramesh&#039;ji, I wanted to know if it is possible to have a live webcam feed in our blogs with a chat script so that if a visitor wants he can talk live with us instead of commenting on posts? Is it possible, suppose, in the sidebar?]]></description>
+		<content:encoded><![CDATA[<p>Ramesh&#8217;ji, I wanted to know if it is possible to have a live webcam feed in our blogs with a chat script so that if a visitor wants he can talk live with us instead of commenting on posts? Is it possible, suppose, in the sidebar?</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

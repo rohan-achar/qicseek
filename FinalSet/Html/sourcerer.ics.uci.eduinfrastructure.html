@@ -1,0 +1,209 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+<title>Sourcerer Project: Infrastructure</title>
+<link rel="stylesheet" href="css/sourcerer.css" type="text/css" />
+</head>
+
+<body>
+<div id="container">
+<div id="header">
+<div id="a1"></div>
+<div id="a2"></div>
+<div id="a3"></div>
+<div id="a4"></div>
+<div id="a5"></div>
+The Sourcerer Project
+</div>
+<div id="content">
+<div id="main">
+<h1>Core Infrastructure</h1>
+<p>The core infrastructure is a set of Java tools for crawling,
+downloading, processing and indexing open source Java projects.
+It is available on <a href="http://github.com/sourcerer/Sourcerer/">Github</a> under a GNU GPL license.</p>
+
+<p>The following table lists all of the Eclipse projects hosted on Sourcerer's <a href="http://github.com/sourcerer/Sourcerer/">Github</a>
+repository.</p>
+<table cellspacing="0">
+<tr>
+  <th>Path</th>
+	<th class="project">Project</th>
+	<th class="desc">Description</th>
+	<th>Main Class</th>
+</tr>
+<tr class="bga">
+  <td class="fixed path" rowspan="2">$root$/</td>
+	<td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/tree/master/bin">bin</a></td>
+	<td>The ANT build apparatus for all Sourcerer tools.</td>
+	<td></td>
+</tr>
+<tr class="bgb">
+	<td class="fixed bot"><a href="https://github.com/sourcerer/Sourcerer/tree/master/lib">lib</a></td>
+	<td class="bot">The libraries (jar files) used by the Sourcerer tools.</td>
+	<td class="bot"></td>
+</tr>
+<tr class="sub">
+  <td colspan="4">Core Tools</td>
+</tr>
+<tr class="bga">
+  <td class="fixed path" rowspan="2">$root$/<br>&nbsp;&nbsp;infrastructure/<br>&nbsp;&nbsp;&nbsp;&nbsp;tools/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;core/</td>
+  <td class="fixed top"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/tools/core/link-crawler">link-crawler</a></td>
+  <td class="top">Tools for populating a Sourcerer repository from Flossmole and SRDA, and for downloading SVN and CVS repositories.</td>
+  <td class="fixed top"><a href="https://github.com/sourcerer/Sourcerer/blob/master/infrastructure/tools/core/link-crawler/src/edu/uci/ics/sourcerer/tools/link/Main.java">Main</a></td>
+</tr>
+<tr class="bgb">
+  <td class="fixed bot"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/tools/core/repository-manager">repository-manager</a></td>
+  <td class="bot">Library for accessing a Sourcerer repository. For more information on Sourcerer's repository structure, see <a href="repository.html">here</a>.</td>
+  <td class="fixed bot"><a href="https://github.com/sourcerer/Sourcerer/blob/master/infrastructure/tools/core/repository-manager/src/edu/uci/ics/sourcerer/tools/core/repo/Main.java">Main</a></td>  
+</tr>
+<tr class="sub">
+  <td colspan="4">Java Tools</td>
+</tr>
+<tr class="bga">
+  <td class="fixed path" rowspan="11">$root$/<br>&nbsp;&nbsp;infrastructure/<br>&nbsp;&nbsp;&nbsp;&nbsp;tools/<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;java/</td>
+  <td class="fixed top"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/tools/java/component-identifier">component-identifier</a></td>
+  <td class="top">Implementation of Astra. Tools for identifying components (libraries) from jar files and building a structured component (artifact) repository.</td>
+  <td class="fixed top"><a href="https://github.com/sourcerer/Sourcerer/blob/master/infrastructure/tools/java/component-identifier/src/edu/uci/ics/sourcerer/tools/java/component/identifier/Main.java">Main</a></td>
+</tr>
+<tr class="bgb">
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/tools/java/component-utilization">component-utilization</a></td>
+  <td>Tools for computing component utilization metrics.</td>
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/blob/master/infrastructure/tools/java/component-utilization/src/edu/uci/ics/sourcerer/tools/java/component/utilization/Main.java">Main</a></td>
+</tr>
+<tr class="bga">
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/tools/java/database">database</a></td>
+  <td>The database schema used by SourcererDB. The SourcererDB schema can be found <a href="sourcerer-db.html">here</a>.</td>
+  <td></td>
+</tr>
+<tr class="bgb">
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/tools/java/database-importer">database-importer</a></td>
+  <td>Tools for importing the extracted facts into SourcererDB.</td>
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/blob/master/infrastructure/tools/java/database-importer/src/edu/uci/ics/sourcerer/tools/java/db/Main.java">Main</a></td>
+</tr>
+<tr class="bga">
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/tools/java/db-metrics">db-metrics</a></td>
+  <td>Tools for computing metrics using SourcererDB.</td>
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/blob/master/infrastructure/tools/java/db-metrics/src/edu/uci/ics/sourcerer/tools/java/metrics/db/Main.java">Main</a></td>
+</tr>
+<tr class="bgb">
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/tools/java/extractor">extractor</a></td>
+  <td>Headless Eclipse plug-in for building relational models of Java code, both source and bytecode. Alternate ASM-based implementation for bytecode extraction. For more information on the metamodel used by the extractor, see <a href="sourcerer-db.html">here</a>.</td>
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/blob/master/infrastructure/tools/java/extractor/src/edu/uci/ics/sourcerer/tools/java/extractor/Main.java">Main</a></td>
+</tr>
+<tr class="bga">
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/tools/java/file-cloning">file-cloning</a></td>
+  <td>Tools for detecting file-level cloning.</td>
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/blob/master/infrastructure/tools/java/file-cloning/src/edu/uci/ics/sourcerer/tools/java/cloning/Main.java">Main</a></td>
+</tr>
+<tr class="bgb">
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/tools/java/indexer">indexer</a></td>
+  <td>Tools for building a Solr index from SourcererDB.</td>
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/blob/master/infrastructure/tools/java/indexer/src/edu/uci/ics/sourcerer/tools/java/indexer/Main.java">Main</a></td>
+</tr>
+<tr class="bga">
+	<td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/tools/java/model">model</a></td>
+	<td>Java classes for the model elements generated by the Extractor, as well as enums covering the element types.</td>
+	<td></td>
+</tr>
+<tr class="bgb">
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/tools/java/repository-manager">repository-manager</a></td>
+  <td>Tools and library for managing/accessing a Java repository. For more information on Sourcerer's repository structure, see <a href="repository.html">here</a>.</td>
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/blob/master/infrastructure/tools/java/repository-manager/src/edu/uci/ics/sourcerer/tools/java/repo/Main.java">Main</a></td>
+</tr>
+<tr class="bga">
+  <td class="fixed bot"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/tools/java/syntax-highlighter">syntax-highlighter</a></td>
+  <td class="bot">Library for generating HTML highlighted Java code.</td>
+  <td class="fixed bot"></td>
+</tr>
+<tr class="sub">
+  <td colspan="4">Services</td>
+</tr>
+<tr class="bga">
+  <td class="fixed path" rowspan="7">$root$/<br>&nbsp;&nbsp;infrastructure/<br>&nbsp;&nbsp;&nbsp;&nbsp;services/</td>
+  <td class="fixed top"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/services/famix-server">famix-server</a></td>
+  <td class="top">Java servlet for exporting SourcererDB to the FAMIX metamodel.</td>
+  <td class="top"></td>
+</tr>
+<tr class="bgb">
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/services/file-adapter">file-adapter</a></td>
+  <td>Library for accessing files in a managed repository using SourcererDB.</td>
+  <td></td>
+</tr>
+<tr class="bga">
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/services/file-server">file-server</a></td>
+  <td>Java servlet for accessing files in a managed repository using SourcererDB.</td>
+  <td></td>
+</tr>
+<tr class="bgb">
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/services/index-server">index-server</a></td>
+  <td>Solr servlet.</td>
+  <td></td>
+</tr>
+<tr class="bga">
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/services/search-adapter">search-adapter</a></td>
+  <td>Library for querying Solr servlet.</td>
+  <td></td>
+</tr>
+<tr class="bgb">
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/services/slicer">slicer</a></td>
+  <td>Library for performing dependency slicing using SourcererDB.</td>
+  <td></td>
+</tr>
+<tr class="bga">
+  <td class="fixed bot"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/services/slice-server">slice-server</a></td>
+  <td class="bot">Java servlet for generating dependency slices.</td>
+  <td class="bot"></td>
+</tr>
+<tr class="sub">
+  <td colspan="4">Applications</td>
+</tr>
+<tr class="bga">
+  <td class="fixed path" rowspan="2">$root$/<br>&nbsp;&nbsp;infrastructure/<br>&nbsp;&nbsp;&nbsp;&nbsp;apps/</td>
+  <td class="fixed top"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/apps/artifact-repo-browser">artifact-repo-browser</a></td>
+  <td class="top">Java servlet for browsing structured artifact repositories.</td>
+  <td class="top"></td>
+</tr>
+<tr class="bgb">
+  <td class="fixed bot"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/apps/code-browser">code-browser</a></td>
+  <td class="bot">Java servlet for browsing source code.</td>
+  <td class="bot"></td>
+</tr>
+<tr class="sub">
+  <td colspan="4">Utilities</td>
+</tr>
+<tr class="bga">
+  <td class="fixed path" rowspan="3">$root$/<br>&nbsp;&nbsp;infrastructure/</td>
+  <td class="fixed top"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/utils/database-utilities">database-utilities</a></td>
+  <td class="top">Database utilities, primarily a JDBC wrapper.</td>
+  <td></td>
+</tr>
+<tr class="bgb">
+  <td class="fixed"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/utils/servlet-utilities">servlet-utilities</a></td>
+  <td>Servlet utilities.</td>
+  <td></td>
+</tr>
+<tr class="bga">
+  <td class="fixed bot"><a href="https://github.com/sourcerer/Sourcerer/tree/master/infrastructure/utils/utilities">utilities</a></td>
+  <td class="bot">General utilities, such as command line parameter handling.</td>
+  <td class="bot"></td>
+</tr>
+</table>
+</div>
+</div>
+<div id="navbar">
+  <div><a href="index.html">Overview</a></div>
+  <div><a class="sel" href="infrastructure.html">Core Infrastructure</a></div>
+  <div><a href="repository.html">Repository</a></div>
+  <div><a href="sourcerer-db.html">SourcererDB</a></div>
+  <div><a href="services.html">Services</a></div>
+  <div><a href="code-search-engine.html">Code Search Engine</a></div>
+  <!--<div><a href="code-genie.html">CodeGenie</a></div> -->
+  <div><a href="tutorial.html">Tutorial</a></div>
+  <div><a href="people.html">People</a></div>
+  <div><a href="publications.html">Publications</a></div>
+</div>
+</div>
+</body>
+</html>
+

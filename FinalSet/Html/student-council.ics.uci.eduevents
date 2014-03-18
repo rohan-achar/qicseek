@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<!--
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+-->
+    <meta name="format-detection" content="telephone=no">
+    <title>Events</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+<!--
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+-->
+<!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+<![endif]-->
+
+    
+    <meta name="author" content="ICS Student Council">
+    
+    
+    <meta name="generator" content="jekyll">
+    
+
+  </head>
+  <body class="page">
+    <div id="root">
+      <header>
+        <section>
+          <a href="/">
+            <span class="logo"></span>
+          </a>
+        </section>
+        <nav>
+          <ul>
+            <li><a href="/" class="active">Home</a></li>
+            <li><a href="/about/" class="active">About Us</a></li>
+            <li><a href="/join/" class="active">Join Us</a></li>
+          </ul>
+          <ul>
+            <li><a href="/officers/" class="active">Officers</a></li>
+            <li><a href="/events/" class="active">Events</a></li>
+            <li><a href="/calendar/" class="active">Calendar</a></li>
+          </ul>
+          <ul>
+            <li><a href="/contact/" class="active">Contact Us</a></li>
+          </ul>
+        </nav>
+
+      </header>
+      <main>
+<h1 id="toc_0">ICS Student Council&#39;s Upcoming Events!</h1>
+
+<div style="margin: 0 auto; width: 800px;"><iframe src="https://www.google.com/calendar/embed?mode=AGENDA&amp;height=900&amp;wkst=1&amp;bgcolor=%23F7F7F7&amp;src=neuhtv65j43a9fbeudm1611omg%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FLos_Angeles" style="border: none; overflow: hidden;" width="800" height="900"></iframe></div>
+
+      </main>
+      <aside>
+
+      </aside>
+      <footer>
+        <span class="logo"></span>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About Us</a></li>
+            <li><a href="/join/">Join Us</a></li>
+            <li><a href="/officers/">Officers</a></li>
+            <li><a href="/calendar/">Calendar</a></li>
+            <li><a href="/contact/">Contact Us</a></li>
+            <li><a href="/events/">Events</a></li>
+          </ul>
+          <ul>
+            <li><a href="/">App Jams</a></li>
+            <li><a href="/">ICS Day</a></li>
+            <li><a href="/">MobileWorld</a></li>
+            <li><a href="/events/">Reverse Career Fair</a></li>
+          </ul>
+        </nav>
+        <section>
+          <p>Copyright © <time datetime="2013-10-31T23:18:08-07:00">2013</time> <a href="https://github.com/ICSSC" rel="author">ICS Student Council</a>. All rights reserved.</p>
+        </section>
+
+      </footer>
+    </div>
+  </body>
+</html>
+

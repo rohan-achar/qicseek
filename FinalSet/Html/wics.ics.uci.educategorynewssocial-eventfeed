@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Women in Information and Computer Sciences &#187; Social Event</title>
+	<atom:link href="http://wics.ics.uci.edu/category/news/social-event/feed/" rel="self" type="application/rss+xml" />
+	<link>http://wics.ics.uci.edu</link>
+	<description>A student organization at UCI dedicated to helping women succeed in the technological world</description>
+	<lastBuildDate>Thu, 06 Feb 2014 12:38:18 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Movie Night and Boardgames with WICS</title>
+		<link>http://wics.ics.uci.edu/movie-night-and-boardgames-with-wics/</link>
+		<comments>http://wics.ics.uci.edu/movie-night-and-boardgames-with-wics/#comments</comments>
+		<pubDate>Tue, 04 Feb 2014 11:55:39 +0000</pubDate>
+		<dc:creator><![CDATA[Angela Liu]]></dc:creator>
+				<category><![CDATA[Social Event]]></category>
+
+		<guid isPermaLink="false">http://wics.ics.uci.edu/?p=1202</guid>
+		<description><![CDATA[Monday, January 27th, WICS hosted a movie night for over 20 people that came to de-stress from all the midterms they&#8217;ve had/about to have! There was popcorn, pizza, and snacks provided while The Princess Bride was playing. A group of &#8230; <a href="http://wics.ics.uci.edu/movie-night-and-boardgames-with-wics/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://wics.ics.uci.edu/movie-night-and-boardgames-with-wics/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>First WICS Meeting of Winter &#8217;14</title>
+		<link>http://wics.ics.uci.edu/first-wics-meeting-of-winter-14/</link>
+		<comments>http://wics.ics.uci.edu/first-wics-meeting-of-winter-14/#comments</comments>
+		<pubDate>Sun, 12 Jan 2014 02:27:17 +0000</pubDate>
+		<dc:creator><![CDATA[Angela Liu]]></dc:creator>
+				<category><![CDATA[Social Event]]></category>
+		<category><![CDATA[WICS Meeting]]></category>
+
+		<guid isPermaLink="false">http://wics.ics.uci.edu/?p=1132</guid>
+		<description><![CDATA[Thursday, January 10, 2014. Are you tired of going to parties and thinking to yourself, “Uggh, what a sausage fest? Like seriously, enough with the testosterone! Where my ladies at?” FEAR NOT, women in computer science, because on this unassuming &#8230; <a href="http://wics.ics.uci.edu/first-wics-meeting-of-winter-14/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://wics.ics.uci.edu/first-wics-meeting-of-winter-14/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Week 8: Thanksgiving Potluck</title>
+		<link>http://wics.ics.uci.edu/week-8-thanksgiving-potluck/</link>
+		<comments>http://wics.ics.uci.edu/week-8-thanksgiving-potluck/#comments</comments>
+		<pubDate>Sun, 24 Nov 2013 08:24:11 +0000</pubDate>
+		<dc:creator><![CDATA[Angela Liu]]></dc:creator>
+				<category><![CDATA[Social Event]]></category>
+
+		<guid isPermaLink="false">http://wics.ics.uci.edu/?p=1062</guid>
+		<description><![CDATA[Wednesday, November 20th, WICS co-hosted a Potluck with other ICS clubs on campus. The movie of choice: Iron Man 3, was being played on the projector as over 40 attendees came to have some fun and take a break from &#8230; <a href="http://wics.ics.uci.edu/week-8-thanksgiving-potluck/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://wics.ics.uci.edu/week-8-thanksgiving-potluck/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Annual Mentorship Program 2013</title>
+		<link>http://wics.ics.uci.edu/annual-mentorship-program-2013/</link>
+		<comments>http://wics.ics.uci.edu/annual-mentorship-program-2013/#comments</comments>
+		<pubDate>Tue, 01 Oct 2013 04:12:55 +0000</pubDate>
+		<dc:creator><![CDATA[Angela Liu]]></dc:creator>
+				<category><![CDATA[Social Event]]></category>
+		<category><![CDATA[WICS Meeting]]></category>
+
+		<guid isPermaLink="false">http://wics.ics.uci.edu/?p=921</guid>
+		<description><![CDATA[This year&#8217;s Mentorship Program was a huge success! Monday, September 30th, a total of 67 mentees and mentors joined WICS and started the quarter off with the introduction of new WICS officers, future events and goals for this year. Mentees got &#8230; <a href="http://wics.ics.uci.edu/annual-mentorship-program-2013/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://wics.ics.uci.edu/annual-mentorship-program-2013/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>ICS Banquet</title>
+		<link>http://wics.ics.uci.edu/ics-banquet/</link>
+		<comments>http://wics.ics.uci.edu/ics-banquet/#comments</comments>
+		<pubDate>Mon, 10 Jun 2013 08:25:02 +0000</pubDate>
+		<dc:creator><![CDATA[Angela Liu]]></dc:creator>
+				<category><![CDATA[Social Event]]></category>
+
+		<guid isPermaLink="false">http://wics.ics.uci.edu/?p=749</guid>
+		<description><![CDATA[Wednesday, June 5th, WICS hosted their annual ICS Banquet with Debra J. Richardson (WICS club advisor) and all the ICS club (ACM, MAISS, IEEE, VGDC, ICSSC, and DATSpace) officers (old and new) to celebrate the end of a successful school &#8230; <a href="http://wics.ics.uci.edu/ics-banquet/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://wics.ics.uci.edu/ics-banquet/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>WICS Mentorship Program</title>
+		<link>http://wics.ics.uci.edu/wics-mentorship-program/</link>
+		<comments>http://wics.ics.uci.edu/wics-mentorship-program/#comments</comments>
+		<pubDate>Wed, 17 Oct 2012 08:17:56 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Social Event]]></category>
+		<category><![CDATA[WICS Meeting]]></category>
+
+		<guid isPermaLink="false">http://wics.ics.uci.edu/?p=181</guid>
+		<description><![CDATA[We had a fantastic turnout for our Mentorship Program.  We printed out 35 mentee mixer sheets and we ran out!  We had a mixer and &#8216;speeddating&#8217; event so our mentors and mentees could get acquainted and find out who they &#8230; <a href="http://wics.ics.uci.edu/wics-mentorship-program/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://wics.ics.uci.edu/wics-mentorship-program/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

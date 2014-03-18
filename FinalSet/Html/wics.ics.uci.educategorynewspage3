@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<title>News | Women in Information and Computer Sciences | Page 3</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://wics.ics.uci.edu/wp-content/themes/twentyten-wics/style.css" />
+<link rel="pingback" href="http://wics.ics.uci.edu/xmlrpc.php" />
+<link rel="alternate" type="application/rss+xml" title="Women in Information and Computer Sciences &raquo; Feed" href="http://wics.ics.uci.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Women in Information and Computer Sciences &raquo; Comments Feed" href="http://wics.ics.uci.edu/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Women in Information and Computer Sciences &raquo; News Category Feed" href="http://wics.ics.uci.edu/category/news/feed/" />
+<link rel='stylesheet' id='jetpack_likes-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/jetpack/modules/likes/style.css?ver=2.8' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-subscriptions-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/jetpack/modules/subscriptions/subscriptions.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='cptchStylesheet-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/captcha/css/style.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/contact-form-7/includes/css/styles.css?ver=3.7' type='text/css' media='all' />
+<link rel='stylesheet' id='flickr-header-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/flickr-header/header-styles.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='meteor-slides-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/meteor-slides/css/meteor-slides.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='full-calendar-style-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/the-events-calendar/resources/tribe-events-full.min.css?ver=3.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe_events-calendar-style-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/the-events-calendar/resources/tribe-events-theme.min.css?ver=3.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpt-twitter-feed-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/wp-to-twitter/css/twitter-feed.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tipsy-social-icons-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/tipsy-social-icons/css/widget.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='post-ratings-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/post-ratings/post-ratings.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='FooterCredits-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/footer-putter/styles/footer-credits.css?ver=1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='afg_colorbox_css-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/awesome-flickr-gallery-plugin/colorbox/colorbox.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='afg_css-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/awesome-flickr-gallery-plugin/afg.css?ver=3.8.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/jetpack/_inc/postmessage.js?ver=2.8'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/jetpack/_inc/jquery.inview.js?ver=2.8'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/jetpack/_inc/jquery.jetpack-resize.js?ver=2.8'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/tipsy-social-icons/js/widget.min.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/awesome-flickr-gallery-plugin/colorbox/jquery.colorbox-min.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/awesome-flickr-gallery-plugin/colorbox/mycolorbox.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/meteor-slides/js/jquery.cycle.all.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/meteor-slides/js/jquery.metadata.v2.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/meteor-slides/js/jquery.touchwipe.1.1.1.js?ver=3.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var meteorslidessettings = {"meteorslideshowspeed":"2000","meteorslideshowduration":"2000","meteorslideshowheight":"300","meteorslideshowwidth":"940","meteorslideshowtransition":"fade"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/meteor-slides/js/slideshow.js?ver=3.8.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://wics.ics.uci.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://wics.ics.uci.edu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.8.1" />
+<style type="text/css">/* Start writing your custom CSS here */</style><!-- Start Genie WP Favicon -->
+<link rel="shortcut icon" href="http://wics.ics.uci.edu/wp-content/uploads/gwpf_icon/favicon.ico" />
+<link rel="apple-touch-icon" href="http://wics.ics.uci.edu/wp-content/uploads/gwpf_icon/favicon.ico" />
+<!-- End Genie WP Favicon -->
+<style>#container { float: left; margin: 0 -240px 0 0; } #content { margin: 0 280px 0 20px; } #primary, #secondary { float: right; } #secondary { clear: right; } </style><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f1f1f1; background-image: url('http://wics.ics.uci.edu//wp-content/uploads/wics/2013/10/www.momi8_.com_20120918115041286.gif'); background-repeat: repeat; background-position: top left; background-attachment: fixed; }
+</style>
+</head>
+
+<body class="archive paged category category-news category-5 custom-background paged-3 category-paged-3">
+<div id="wrapper" class="hfeed">
+	<div id="header">
+		<div id="masthead">
+			<div id="branding" role="banner">
+								<div id="site-title">
+					<span>
+						<a href="http://wics.ics.uci.edu/" title="Women in Information and Computer Sciences" rel="home">Women in Information and Computer Sciences</a>
+					</span>
+				</div>
+				<div id="site-description">A student organization at UCI dedicated to helping women succeed in the technological world</div>
+			
+					
+		
+	<div id="meteor-slideshow" class="meteor-slides  navboth">
+	
+			
+			
+			<ul class="meteor-nav">
+		
+				<li id="meteor-prev" class="prev"><a href="#prev">Previous</a></li>
+			
+				<li id="meteor-next" class="next"><a href="#next">Next</a></li>
+			
+			</ul><!-- .meteor-nav -->
+		
+			<div id="meteor-buttons" class="meteor-buttons"></div>
+		
+				
+			
+		<div class="meteor-clip">
+	
+				
+			<img style="visibility: hidden;" class="meteor-shim" src="http://wics.ics.uci.edu//wp-content/uploads/wics/2013/10/GHC-header.png" alt="" />
+			<div class="mslide mslide-1">
+				
+										
+					<a href="http://wics.ics.uci.edu/grace-hopper-celebration-2013/" title="Grace Hopper Celebration 2013"><img width="940" height="300" src="http://wics.ics.uci.edu//wp-content/uploads/wics/2013/10/GHC-header.png" class="attachment-featured-slide wp-post-image" alt="GHC header" title="Grace Hopper Celebration 2013" /></a>
+			
+							
+			</div><!-- .mslide -->
+			
+						
+				
+			
+			<div class="mslide mslide-2">
+				
+										
+					<a href="http://wics.ics.uci.edu/project-development/" title="WICS Project Meetings (Fall 2013)"><img width="940" height="300" src="http://wics.ics.uci.edu//wp-content/uploads/wics/2013/11/Project-Meeting-HeaderFall.png" class="attachment-featured-slide wp-post-image" alt="Project Meeting Header(Fall)" title="WICS Project Meetings (Fall 2013)" /></a>
+			
+							
+			</div><!-- .mslide -->
+			
+						
+				
+			
+			<div class="mslide mslide-3">
+				
+										
+					<a href="http://wics.ics.uci.edu/inittogether/" title="initTogether"><img width="940" height="300" src="http://wics.ics.uci.edu//wp-content/uploads/wics/2013/09/cropped-initTogether-e1380104561308.jpg" class="attachment-featured-slide wp-post-image" alt="initTogether header 1" title="initTogether" /></a>
+			
+							
+			</div><!-- .mslide -->
+			
+						
+				
+			
+			<div class="mslide mslide-4">
+				
+										
+					<a href="http://wics.ics.uci.edu/officers/" title="initTogether WICS officers"><img width="940" height="300" src="http://wics.ics.uci.edu//wp-content/uploads/wics/2013/09/InitTogether-3-940x300.jpg" class="attachment-featured-slide wp-post-image" alt="initTogether header 2" title="initTogether WICS officers" /></a>
+			
+							
+			</div><!-- .mslide -->
+			
+						
+				
+			
+			<div class="mslide mslide-5">
+				
+										
+					<a href="http://wics.ics.uci.edu/wics-hosts-a-toy-hacking-workshop-with-dr-garnet-hertz/" title="Toy Hacking Workshop"><img width="940" height="300" src="http://wics.ics.uci.edu//wp-content/uploads/wics/2013/09/Toy-Hacking-Workshop-Collage.png" class="attachment-featured-slide wp-post-image" alt="Toy Hacking Workshop Collage" title="Toy Hacking Workshop" /></a>
+			
+							
+			</div><!-- .mslide -->
+			
+						
+				
+		</div><!-- .meteor-clip -->
+				
+					
+	</div><!-- .meteor-slides -->
+	
+					
+			</div><!-- #branding -->
+
+			<div id="access" role="navigation">
+			  				<div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+								<div class="menu-header"><ul id="menu-main-menu" class="menu"><li id="menu-item-409" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-409"><a href="http://wics.ics.uci.edu">Home</a></li>
+<li id="menu-item-413" class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-has-children menu-item-413"><a href="http://wics.ics.uci.edu/category/news/">WICS News</a>
+<ul class="sub-menu">
+	<li id="menu-item-776" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-776"><a href="http://wics.ics.uci.edu/category/init-together/">init (together)</a></li>
+	<li id="menu-item-1085" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1085"><a href="http://wics.ics.uci.edu/internship-job-postings/">Internship &#038; Job Postings</a></li>
+</ul>
+</li>
+<li id="menu-item-384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-384"><a href="http://wics.ics.uci.edu/join-us/">Join Us!</a>
+<ul class="sub-menu">
+	<li id="menu-item-389" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-389"><a href="http://wics.ics.uci.edu/our-mentorship-program/">Mentorship Program</a></li>
+	<li id="menu-item-887" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-887"><a href="http://wics.ics.uci.edu/project-development/">Project Development</a>
+	<ul class="sub-menu">
+		<li id="menu-item-964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-964"><a href="http://wics.ics.uci.edu/web-development-projects-fall-2013/">Web Development Projects (Fall 2013)</a></li>
+		<li id="menu-item-1188" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1188"><a href="http://wics.ics.uci.edu/android-app-projects-winter-2014/">Android App Projects (Winter 2014)</a></li>
+		<li id="menu-item-935" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-935"><a href="http://wics.ics.uci.edu/powerpoint-slides/">PowerPoint Slides</a></li>
+	</ul>
+</li>
+	<li id="menu-item-388" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-388"><a href="http://wics.ics.uci.edu/apply-to-wics-committee/">Apply to WICS Committee</a></li>
+	<li id="menu-item-390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-390"><a href="http://wics.ics.uci.edu/corporate-sponsorship/">Corporate Sponsorship</a></li>
+</ul>
+</li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-28"><a href="http://wics.ics.uci.edu/about-us/">About WICS</a>
+<ul class="sub-menu">
+	<li id="menu-item-173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-173"><a href="http://wics.ics.uci.edu/officers/">Current Officers</a>
+	<ul class="sub-menu">
+		<li id="menu-item-715" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-715"><a href="http://wics.ics.uci.edu/previous-officers/">Previous Officers</a></li>
+	</ul>
+</li>
+	<li id="menu-item-682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-682"><a href="http://wics.ics.uci.edu/contact/">Contact Us</a></li>
+</ul>
+</li>
+</ul></div>			</div><!-- #access -->
+		</div><!-- #masthead -->
+	</div><!-- #header -->
+
+	<div id="main">
+
+		<div id="container">
+			<div id="content" role="main">
+
+				<h1 class="page-title">Category Archives: <span>News</span></h1>
+				
+	<div id="nav-above" class="navigation">
+		<div class="nav-previous"><a href="http://wics.ics.uci.edu/category/news/page/4/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+		<div class="nav-next"><a href="http://wics.ics.uci.edu/category/news/page/2/" >Newer posts <span class="meta-nav">&rarr;</span></a></div>
+	</div><!-- #nav-above -->
+
+
+
+
+			<div id="post-1067" class="post-1067 post type-post status-publish format-standard hentry category-info-session">
+			<h2 class="entry-title"><a href="http://wics.ics.uci.edu/cia-info-session-with-wics/" rel="bookmark">Week 9: CIA Info Session</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://wics.ics.uci.edu/cia-info-session-with-wics/" title="12:21 am" rel="bookmark"><span class="entry-date">12/01/2013</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://wics.ics.uci.edu/author/asliu1/" title="View all posts by Angela Liu">Angela Liu</a></span>			</div><!-- .entry-meta -->
+
+				<div class="entry-summary">
+				<p>Monday, November 25th, the CIA hosted an info session with WICS. 25 people came and had a chance to hear about multiple job opportunities, benefits, and application processes at the CIA. There were also handouts, free swag, and food at &hellip; <a href="http://wics.ics.uci.edu/cia-info-session-with-wics/">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+			</div><!-- .entry-summary -->
+	
+			<div class="entry-utility">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://wics.ics.uci.edu/category/news/info-session/" title="View all posts in Info Session" rel="category tag">Info Session</a>					</span>
+					<span class="meta-sep">|</span>
+												<span class="comments-link"><a href="http://wics.ics.uci.edu/cia-info-session-with-wics/#respond" title="Comment on Week 9: CIA Info Session">Leave a comment</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-1062" class="post-1062 post type-post status-publish format-standard hentry category-social-event">
+			<h2 class="entry-title"><a href="http://wics.ics.uci.edu/week-8-thanksgiving-potluck/" rel="bookmark">Week 8: Thanksgiving Potluck</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://wics.ics.uci.edu/week-8-thanksgiving-potluck/" title="12:24 am" rel="bookmark"><span class="entry-date">11/24/2013</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://wics.ics.uci.edu/author/asliu1/" title="View all posts by Angela Liu">Angela Liu</a></span>			</div><!-- .entry-meta -->
+
+				<div class="entry-summary">
+				<p>Wednesday, November 20th, WICS co-hosted a Potluck with other ICS clubs on campus. The movie of choice: Iron Man 3, was being played on the projector as over 40 attendees came to have some fun and take a break from &hellip; <a href="http://wics.ics.uci.edu/week-8-thanksgiving-potluck/">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+			</div><!-- .entry-summary -->
+	
+			<div class="entry-utility">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://wics.ics.uci.edu/category/news/social-event/" title="View all posts in Social Event" rel="category tag">Social Event</a>					</span>
+					<span class="meta-sep">|</span>
+												<span class="comments-link"><a href="http://wics.ics.uci.edu/week-8-thanksgiving-potluck/#respond" title="Comment on Week 8: Thanksgiving Potluck">Leave a comment</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+
+			<div id="post-1041" class="post-1041 post type-post status-publish format-standard hentry category-info-session">
+			<h2 class="entry-title"><a href="http://wics.ics.uci.edu/week-6-socal-gas-company/" rel="bookmark">Week 6: Southern California Gas Company Info Session</a></h2>
+
+			<div class="entry-meta">
+				<span class="meta-prep meta-prep-author">Posted on</span> <a href="http://wics.ics.uci.edu/week-6-socal-gas-company/" title="3:08 am" rel="bookmark"><span class="entry-date">11/09/2013</span></a> <span class="meta-sep">by</span> <span class="author vcard"><a class="url fn n" href="http://wics.ics.uci.edu/author/asliu1/" title="View all posts by Angela Liu">Angela Liu</a></span>			</div><!-- .entry-meta -->
+
+				<div class="entry-summary">
+				<p>Monday, November 4th, representatives Tu Bui, Justin Wong, and team lead Annavic Duyongco of the Southern California Gas Company came and talked to WICS. Over 15 people attended and had a chance to learn more about SCGC. SCGC offers many &hellip; <a href="http://wics.ics.uci.edu/week-6-socal-gas-company/">Continue reading <span class="meta-nav">&rarr;</span></a></p>
+			</div><!-- .entry-summary -->
+	
+			<div class="entry-utility">
+									<span class="cat-links">
+						<span class="entry-utility-prep entry-utility-prep-cat-links">Posted in</span> <a href="http://wics.ics.uci.edu/category/news/info-session/" title="View all posts in Info Session" rel="category tag">Info Session</a>					</span>
+					<span class="meta-sep">|</span>
+												<span class="comments-link"><a href="http://wics.ics.uci.edu/week-6-socal-gas-company/#respond" title="Comment on Week 6: Southern California Gas Company Info Session">Leave a comment</a></span>
+							</div><!-- .entry-utility -->
+		</div><!-- #post-## -->
+
+		
+	
+
+				<div id="nav-below" class="navigation">
+					<div class="nav-previous"><a href="http://wics.ics.uci.edu/category/news/page/4/" ><span class="meta-nav">&larr;</span> Older posts</a></div>
+					<div class="nav-next"><a href="http://wics.ics.uci.edu/category/news/page/2/" >Newer posts <span class="meta-nav">&rarr;</span></a></div>
+				</div><!-- #nav-below -->
+
+			</div><!-- #content -->
+		</div><!-- #container -->
+
+
+		<div id="primary" class="widget-area" role="complementary">
+			<ul class="xoxo">
+
+<li id="tribe-events-list-widget-2" class="widget-container tribe-events-list-widget"><h3 class="widget-title">Upcoming Events</h3><ol class="hfeed vcalendar">
+<li class="tribe-events-list-widget-events hentry vevent type-tribe_events post-1182 tribe-clearfix tribe-events-category-workshop tribe-events-venue-1183 tribe-events-organizer-442">
+	
+		
+	<h4 class="entry-title summary">
+			<a href="http://wics.ics.uci.edu/event/computer-expert-badge-brownie-troops-workshop/" rel="bookmark">Computer Expert Badge Brownie Troops Workshop</a>
+	</h4>
+	
+		
+	<!-- Event Time -->
+	
+		
+	<div class="duration">
+		<span class="date-start dtstart">February 9 @ 2:00 pm<span class="value-title" title="2014-02-09PST02:00"></span></span> - <span class="end-time dtend">4:00 pm<span class="value-title" title="2014-02-09PST04:00"></span></span>	</div>
+	
+		
+	<!-- Event Title -->
+</li>
+
+<li class="tribe-events-list-widget-events hentry vevent type-tribe_events post-1181 tribe-clearfix tribe-events-category-social-gathering tribe-events-venue-694 tribe-events-organizer-442">
+	
+		
+	<h4 class="entry-title summary">
+			<a href="http://wics.ics.uci.edu/event/week-6-homework-help/" rel="bookmark">Week 6: WICS Group Study Session</a>
+	</h4>
+	
+		
+	<!-- Event Time -->
+	
+		
+	<div class="duration">
+		<span class="date-start dtstart">February 10 @ 7:00 pm<span class="value-title" title="2014-02-10PST07:00"></span></span> - <span class="end-time dtend">8:30 pm<span class="value-title" title="2014-02-10PST08:30"></span></span>	</div>
+	
+		
+	<!-- Event Title -->
+</li>
+</ol><!-- .hfeed --><p class="tribe-events-widget-link"><a href="http://wics.ics.uci.edu/events/" rel="bookmark">View All Events</a></p></li>		<li id="recent-posts-4" class="widget-container widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+					<li>
+				<a href="http://wics.ics.uci.edu/first-android-app-development-meeting/">First Android App Development Meeting</a>
+							<span class="post-date">02/04/2014</span>
+						</li>
+					<li>
+				<a href="http://wics.ics.uci.edu/movie-night-and-boardgames-with-wics/">Movie Night and Boardgames with WICS</a>
+							<span class="post-date">02/04/2014</span>
+						</li>
+				</ul>
+		</li>			</ul>
+		</div><!-- #primary .widget-area -->
+
+
+		<div id="secondary" class="widget-area" role="complementary">
+			<ul class="xoxo">
+				<li id="categories-2" class="widget-container widget_categories"><h3 class="widget-title">Blog Posts Categories</h3><select name='cat' id='cat' class='postform' >
+	<option value='-1'>Select Category</option>
+	<option class="level-0" value="48">init (together)&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="5" selected="selected">News&nbsp;&nbsp;(35)</option>
+	<option class="level-1" value="13">&nbsp;&nbsp;&nbsp;Info Session&nbsp;&nbsp;(9)</option>
+	<option class="level-1" value="18">&nbsp;&nbsp;&nbsp;Social Event&nbsp;&nbsp;(6)</option>
+	<option class="level-1" value="16">&nbsp;&nbsp;&nbsp;Tour&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="17">&nbsp;&nbsp;&nbsp;WICS Meeting&nbsp;&nbsp;(6)</option>
+	<option class="level-1" value="1">&nbsp;&nbsp;&nbsp;Workshop&nbsp;&nbsp;(9)</option>
+</select>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+	var dropdown = document.getElementById("cat");
+	function onCatChange() {
+		if ( dropdown.options[dropdown.selectedIndex].value > 0 ) {
+			location.href = "http://wics.ics.uci.edu/?cat="+dropdown.options[dropdown.selectedIndex].value;
+		}
+	}
+	dropdown.onchange = onCatChange;
+/* ]]> */
+</script>
+
+</li><li id="text-6" class="widget-container widget_text"><h3 class="widget-title">Follow Us!</h3>			<div class="textwidget"></div>
+		</li><li id="tipsy-social-icons-2" class="widget-container tipsy-social-icons"><div class="tipsy-social-icon-container">
+	<ul class="tipsy-social-icons tooltip-position-above">					<li>
+						<a href="https://www.facebook.com/groups/women.in.ics/" class="fade" target="_blank">
+							<img src="http://wics.ics.uci.edu/wp-content/plugins/wics/tipsy-social-icons/images/32/facebook_32.png" alt="Facebook" class="tipsy-social-icons" />
+						</a>
+					</li>					<li>
+						<a href="http://www.flickr.com/photos/wics-at-uci/" class="fade" target="_blank">
+							<img src="http://wics.ics.uci.edu/wp-content/plugins/wics/tipsy-social-icons/images/32/flickr_32.png" alt="Flickr" class="tipsy-social-icons" />
+						</a>
+					</li>					<li>
+						<a href="http://instagram.com/uciwics" class="fade" target="_blank">
+							<img src="http://wics.ics.uci.edu/wp-content/plugins/wics/tipsy-social-icons/images/32/instagram_32.png" alt="Instagram" class="tipsy-social-icons" />
+						</a>
+					</li>					<li>
+						<a href="https://twitter.com/WicsUCI" class="fade" target="_blank">
+							<img src="http://wics.ics.uci.edu/wp-content/plugins/wics/tipsy-social-icons/images/32/twitter_32.png" alt="Twitter" class="tipsy-social-icons" />
+						</a>
+					</li></ul><!-- /.tipsy-social-icons -->
+<!--
+Licensing For Several Icons:
+If you use these icons, please place an attribution link to komodomedia.com. Social Network Icon Pack by Rogie King is licensed under a Creative Commons Attribution-Share Alike 3.0 Unported License (http://creativecommons.org/licenses/by-nc-sa/3.0/). I claim no right of ownership to the respective company logos and glyphs in each one of these icons.
+-->
+</div><!-- /.tipsy-social-icon-container --></li><li id="text-8" class="widget-container widget_text">			<div class="textwidget"><!-- Hupso Share Buttons - http://www.hupso.com/share/ --><div class="hupso-share-buttons"><a class="hupso_toolbar" href="http://www.hupso.com/share/"><img src="http://static.hupso.com/share/buttons/share-medium.png" style="border:0px; padding-top:5px; float:left;" alt="Share Button"/></a><script type="text/javascript">var hupso_services_t=new Array("Facebook","Twitter","Tumblr","Linkedin","Pinterest","Reddit","Digg","Bebo","StumbleUpon","Google Plus","Sina Weibo","Renren");var hupso_toolbar_size_t="medium";var hupso_twitter_via = "WicsUCI";</script><script type="text/javascript" src="http://static.hupso.com/share/js/share_toolbar.js"></script></div><!-- Hupso Share Buttons --></div>
+		</li>			</ul>
+		</div><!-- #secondary .widget-area -->
+
+	</div><!-- #main -->
+
+	<div id="footer" role="contentinfo">
+		<div id="colophon">
+
+
+
+			<div id="footer-widget-area" role="complementary">
+
+				<div id="first" class="widget-area">
+					<ul class="xoxo">
+						<li id="text-9" class="widget-container widget_text">			<div class="textwidget">Questions or comments? <a title="Contact Us" href="http://wics.ics.uci.edu/contact/">Contact us</a></div>
+		</li>					</ul>
+				</div><!-- #first .widget-area -->
+
+
+
+
+			</div><!-- #footer-widget-area -->
+
+			<div id="site-info">
+				<a href="http://wics.ics.uci.edu/" title="Women in Information and Computer Sciences" rel="home">
+					Women in Information and Computer Sciences				</a>
+			</div><!-- #site-info -->
+
+			<div id="site-generator">
+				<div class="custom-footer"><div id="footer_copyright-3" class="widget widget_footer_copyright"><div class="widget-wrap"><div id="footer-credits" class=" footer-right"><br/><span class="copyright">Copyright &copy; 2014 WICS</span></div><div class="clear"></div><!-- end #footer-credits --></div></div></div><!-- end .custom-footer -->				<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform">Proudly powered by WordPress.</a>
+			</div><!-- #site-generator -->
+
+		</div><!-- #colophon -->
+	</div><!-- #footer -->
+
+</div><!-- #wrapper -->
+
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/contact-form-7/includes/js/jquery.form.min.js?ver=3.48.0-2013.12.28'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/wics.ics.uci.edu\/wp-content\/plugins\/wics\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/contact-form-7/includes/js/scripts.js?ver=3.7'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201406'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var post_ratings = {"blog_url":"http:\/\/wics.ics.uci.edu\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/post-ratings/post-ratings.js?ver=2.4'></script>
+
+	<script src="http://stats.wordpress.com/e-201406.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:2.8',blog:'57484762',post:'0',tz:'-8'});
+	var load_cmc = function(){linktracker_init(57484762,0,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script></body>
+</html>
+

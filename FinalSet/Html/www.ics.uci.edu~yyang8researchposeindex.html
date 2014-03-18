@@ -1,0 +1,170 @@
+<html>
+<head>
+<title>Articulated Human Detection with Flexible Mixtures of Parts - UC Irvine</title>
+<style>
+body
+{
+	font-family : Arial;
+}
+#container
+{
+	width : 900px;
+	margin : 20px auto;
+	background-color : #fff;
+	padding : 20px;
+}
+h1 strong
+{
+	font-size : 40px;
+}
+h1
+{
+	margin : 0;
+	padding : 0;
+	font-size : 30px;
+}
+code
+{
+	border : 1px solid #ccc;
+	display : block;
+	padding : 5px;
+	margin : 10px;
+}
+#demoframe
+{
+	border : 1px solid #ccc;
+	padding: 0px;
+	margin : 0;
+	width : 100%;
+	height: 320px;
+}
+</style>
+<!--<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17813713-3']);
+  _gaq.push(['_setDomainName', '.mit.edu']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>-->
+</head>
+
+
+<body>
+<div id="container">
+
+<h1 style="text-align:center;"><strong>A</strong>rticulated <strong>H</strong>uman <strong>D</strong>etection with <strong>F</strong>lexible <strong>M</strong>ixtures of <strong>P</strong>arts</h1>
+
+<p style="text-align:center;"><a href="http://www.ics.uci.edu/~yyang8">Yi Yang</a> and <a href="http://www.ics.uci.edu/~dramanan">Deva Ramanan</a></p>
+
+<!-- <p style="text-align:center;">Under Construction, Please visit <a href="http://phoenix.ics.uci.edu/software/pose/">here</a></p> -->
+
+<div style="margin-top : 30px;"></div>
+
+<h2>Introduction</h2>
+<p>We describe a method for human pose estimation in static images based on a novel representation of part models. Notably, we do not use articulated limb parts, but rather capture orientation with a mixture of templates for each part. We describe a general, flexible mixture model for capturing contextual co-occurrence relations between parts, augmenting standard spring models that encode spatial relations. We show that such relations can capture notions of local rigidity. When co-occurrence and spatial relations are tree-structured, our model can be efficiently optimized with dynamic programming. We present experimental results on standard benchmarks for pose estimation that indicate our approach is the state-of-the-art system for pose estimation, outperforming past work while being orders of magnitude faster.</p>
+
+<!--<div style="float : right; text-align : center; margin-left : 20px; margin-right: 5px; border : 2px solid black;">
+<img src="pose2011.jpg" style="height : 256px;">
+</div>-->
+
+<div style="text-align : center; padding-top : 0px; padding-bottom : 0px; margin-left : 0px; margin-right: 0px; border : 0px solid black; background-color : #FFF;">
+<img src="figs/splash.jpg" style="height : 300px;">
+</div>
+
+<!-- 
+<h2>Demo</h2>
+<iframe src="http://deepthought.ics.uci.edu:8000/?embed=1" id="demoframe"></iframe> 
+-->
+
+<h2>Download</h2>
+
+<p>The latest copy of our code: <a href="code/pose-v1.3.zip">DOWNLOAD</a></p>
+
+<p>Please read the <a href="code/README">README</a> file for proper installation.</p>
+
+<h2>Publications</h2>
+
+<p>Yi Yang, Deva Ramanan. "<strong>Articulated Pose Estimation with Flexible Mixtures of Parts</strong>". <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Colorado Spring, USA, 2011.</em> <a href="pose2011.pdf">[Paper]</a><a href="pose2011_slides.pptx">[Slides]</a><a href="pose2011_poster.pdf">[Poster]</a><a href="http://techtalks.tv/events/56/44/">[Talk]</a><a href="pose2011.bib">[BibTex]</a> </p>
+
+<h2>Examplar Results</h2>
+
+<center>
+<table align="center" border="0" cellspacing="0" cellpadding="2">
+<tr>
+<td align="center"><img src="figs/PARSE_box_gr/0017" height="201"></td>
+<td align="center"><img src="figs/PARSE_ske_gr/0017" height="201"></td>
+<td align="center"><img src="figs/PARSE_box_gr/0010" height="201"></td>
+<td align="center"><img src="figs/PARSE_ske_gr/0010" height="201"></td>
+<td align="center"><img src="figs/PARSE_box_gr/0125" height="201"></td>
+<td align="center"><img src="figs/PARSE_ske_gr/0125" height="201"></td>
+</tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" cellpadding="2">
+<tr>
+<td align="center"><img src="figs/PARSE_box_gr/0105" height="199"></td>
+<td align="center"><img src="figs/PARSE_ske_gr/0105" height="199"></td>
+<td align="center"><img src="figs/PARSE_box_gr/0133" height="199"></td>
+<td align="center"><img src="figs/PARSE_ske_gr/0133" height="199"></td>
+<td align="center"><img src="figs/PARSE_box_gr/0086" height="199"></td>
+<td align="center"><img src="figs/PARSE_ske_gr/0086" height="199"></td>
+</tr>
+</table>
+
+<table align="center" border="0" cellspacing="0" cellpadding="2">
+<tr>
+<td align="center"><img src="figs/PARSE_box_gr/0037" height="175"></td>
+<td align="center"><img src="figs/PARSE_ske_gr/0037" height="175"></td>
+<td align="center"><img src="figs/PARSE_box_gr/0153" height="175"></td>
+<td align="center"><img src="figs/PARSE_ske_gr/0153" height="175"></td>
+</tr>
+</table>
+</center>
+
+<!-- <br clear="both"> -->
+
+<h2>Related Links</h2>
+<ul>
+<li> <a href="http://www.cs.brown.edu/~pff/latent/">Object Detection with Discriminatively Trained Part Based Models</a></li> 
+<li> <a href="http://www.ics.uci.edu/~xzhu/face/">Face Detection, Pose Estimation and Landmark Localization in the Wild</a></li>
+<li> <a href="http://www.robots.ox.ac.uk/~vgg/data/stickmen/">Buffy Stikckmen for 2D Human Pose Estimation</a></li>
+<li> <a href="http://www.comp.leeds.ac.uk/mat4saj/lsp.html">Leeds Sports Pose Dataset for Human Pose Estimation</a></li>
+</ul>
+
+<!--
+<h2>Update History</h2>
+<center>
+<table style="align:center; border:1px solid black; border-spacing:0px; width:100%">
+<tr>
+<th style="border:1px solid black; width:20%"><strong>Date</strong></th>
+<th style="border:1px solid black; width:80%"><strong>Description</strong></th>
+</tr>
+<tr>
+<td style="border:1px solid black; width:20%">7/21/2012</td>
+<td style="border:1px solid black; width:80%">Hello World</td>
+</tr>
+</table>
+</center>
+
+
+<h2>License</h2>
+<p>Copyright &copy; 2011 Yi Yang and Deva Ramanan</p>
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+<ul>
+<li>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</li>
+</ul>
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+-->
+</div>
+
+</body>
+</html>
+
+

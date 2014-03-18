@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> The Global Stack</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" The Global Stack">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html4394 HREF="node180.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html4392 HREF="node174.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html4386 HREF="node178.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html4396 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html4395 HREF="node180.html"> The Trail Stack</A>
+<B>Up:</B> <A NAME=tex2html4393 HREF="node174.html"> Introduction</A>
+<B> Previous:</B> <A NAME=tex2html4387 HREF="node178.html"> The Control Stack</A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION001515000000000000000> The Global Stack</A></H2>
+<P>
+<A NAME=2760>&#160;</A>
+The Global Stack holds Prolog structures, lists, strings and long numbers.
+So the user's selection of data structures is largely responsible
+for the growth of this stack (cf. <A HREF="node165.html#chapstring"><IMG ALIGN=BOTTOM ALT="gif" SRC="http://www.ecrc.de/eclipse/new_icons//cross_ref_motif.gif"></A>).
+In coroutining mode, delayed goals also consume space on the Global Stack.
+It also stores source variable names for terms which
+were read in with the flag <b> variable_names</b> being <tt> on</tt>.
+When this feature is not needed, it should be turned off
+so that space on the global stack is saved.
+<P>
+The global stack grows while a program creates data structures.
+It is popped only on failure. <A NAME=tex2html599 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  therefore provides a garbage collector
+for the Global Stack which is called when a certain amount
+of new space has been consumed. See section <A HREF="node181.html#gc"><IMG ALIGN=BOTTOM ALT="gif" SRC="http://www.ecrc.de/eclipse/new_icons//cross_ref_motif.gif"></A> for how this process
+can be controlled.
+Note again that unnecessary nondeterminism reduces the amount of garbage
+that can be reclaimed and should therefore be avoided.
+<P>
+
+<P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

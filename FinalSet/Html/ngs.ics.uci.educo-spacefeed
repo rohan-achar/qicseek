@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Co-Space</title>
+	<atom:link href="http://ngs.ics.uci.edu/co-space/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/co-space/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: YeSun</title>
+		<link>http://ngs.ics.uci.edu/co-space/comment-page-1/#comment-2354</link>
+		<dc:creator><![CDATA[YeSun]]></dc:creator>
+		<pubDate>Fri, 08 Aug 2008 20:26:12 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=981#comment-2354</guid>
+		<description><![CDATA[Recently, MPEG decided to develop MPEG-V (V represented the first letter of Virtual). I read the their requirement document and aims of Co-space and MPEG-V are almost same. Interesting...!!!]]></description>
+		<content:encoded><![CDATA[<p>Recently, MPEG decided to develop MPEG-V (V represented the first letter of Virtual). I read the their requirement document and aims of Co-space and MPEG-V are almost same. Interesting&#8230;!!!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Teck Khim Ng</title>
+		<link>http://ngs.ics.uci.edu/co-space/comment-page-1/#comment-2350</link>
+		<dc:creator><![CDATA[Teck Khim Ng]]></dc:creator>
+		<pubDate>Fri, 08 Aug 2008 01:02:35 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=981#comment-2350</guid>
+		<description><![CDATA[With the advances in pervasive computing, we can expect the physical space and the digital space to be seamlessly integrated in the near future.   The physical and digital space co-exist (co-space) and the entire digital space is at your disposal!  
+
+When that happens, it will change the way we live!  -- that&#039;s one reason to be excited about this co-space initiative....]]></description>
+		<content:encoded><![CDATA[<p>With the advances in pervasive computing, we can expect the physical space and the digital space to be seamlessly integrated in the near future.   The physical and digital space co-exist (co-space) and the entire digital space is at your disposal!  </p>
+<p>When that happens, it will change the way we live!  &#8212; that&#8217;s one reason to be excited about this co-space initiative&#8230;.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Co-Space &#124; SL Blogs</title>
+		<link>http://ngs.ics.uci.edu/co-space/comment-page-1/#comment-2346</link>
+		<dc:creator><![CDATA[Co-Space &#124; SL Blogs]]></dc:creator>
+		<pubDate>Wed, 06 Aug 2008 11:27:45 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=981#comment-2346</guid>
+		<description><![CDATA[[...] View original post here: Co-Space [...]]]></description>
+		<content:encoded><![CDATA[<p>[...] View original post here: Co-Space [...]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

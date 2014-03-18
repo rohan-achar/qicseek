@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Empty Camera Filter | iGravi: Interactive Graphics & Visualization</title>
+  
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+    
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/drupal/misc/favicon.ico" type="image/x-icon" />
+ 
+
+  <link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/fckeditor/fckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/panels/css/panels.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/layout.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/graphics.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/typography.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/links.css?s" />
+  
+  <!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="/drupal/sites/all/themes/marinelli/iestyles/ie6.css" />
+<![endif]-->
+
+  <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="/drupal/sites/all/themes/marinelli/iestyles/ie7.css" />
+<![endif]-->
+  
+  
+  <script type="text/javascript" src="/drupal/misc/jquery.js?s"></script>
+<script type="text/javascript" src="/drupal/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/drupal/sites/all/modules/panels/js/panels.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/drupal/" });
+//--><!]]>
+</script>
+</head>
+
+
+<body>
+  <div id="utilities">
+    
+    <div id="plinks">     
+             <ul class="links primary-links"><li class="menu-206 first"><a href="/drupal/front">Home</a></li>
+<li class="menu-209 active-trail"><a href="/drupal/node/4" title="Projects">Projects</a></li>
+<li class="menu-194"><a href="/drupal/node/2" title="Publications">Publications</a></li>
+<li class="menu-210"><a href="/drupal/node/8" title="People">People</a></li>
+<li class="menu-178 last"><a href="/drupal/node/1" title="Login">Login</a></li>
+</ul>     
+               </div>          </div>
+
+
+<div id="page">
+
+  <div id="header">
+
+ 
+   <p class="sitetitle">
+	      <a href="/drupal/" title="Home">
+	        iGravi: Interactive Graphics &amp; Visualization	      </a>
+	    </p>	
+ 
+ 	  	  
+ <p class="slogan">Shine light on truth.</p>
+
+  </div>
+
+ 
+         
+       
+   
+
+  <div class="wrapper"><!--wrapper:defines whole content margins-->
+  
+  
+   <div id="primary" class="long">               <div class="singlepage">
+	   
+	  
+            
+		 		 
+                            <div class="drdot">
+<hr />
+</div>
+         
+          
+ 
+ 
+ 
+ 
+  <div class="node">
+ 	           
+
+        
+		        
+    <div class="content">
+	
+	
+	<h2><img height="189" align="left" width="200" class="thumbnailimg" src="http://graphics.ics.uci.edu/drupal/img/image005.jpg" alt="Sample Image" /></h2>
+<h2><strong>Content-Adaptive User-Controllable Capture and Display</strong></h2>
+<p align="justify"><span class="left"><b>Overview:</b> We have seen a tremendous advancement in the past decade by which very soon we will find cameras and projectors embedded in handheld devices like mobile phones and digital cameras. Most mobile devices nowadays are equipped with cameras. With the current advent of pico projectors, projection-enabled mobile devices are also getting popular. The first pico projector phone went on sale last winter and is available in Korea. Manufactured by Samsung it was show cased at CES in January 2009. In December 2009, AT&amp;T introduced the LG eXpo phone which has a pico projector attachment. Rumor has it that Apple is not far behind with possible offerings in iPhone 5. Nikon is embedding pico projectors in other hand-held devices like digital cameras. With this trend, very soon users would seek greater control over the resources available in a display or a camera. Such resources include color resolution, spatial resolution, spectral resolution and so on. For example, they would want to target resolution at the most important object in the scene during capture or display. Or, they would want to change the spectral sensitivity of the primaries based on the scene illumination condition &ndash; e.g. CMY for dark scenes, RGB for bright scenes and 6-primary for colorful scenes. Thus, we envision content-adaptive user-controllable capture and display devices to be increasingly popular in the future. Already, we have started to see some work in this direction including the first multi-modal camera built at our lab in UCI that offers adaptive spectral sensitivity for optimal signal-to-noise ratio (SNR). There are also recent work on content-adaptive parallax-barrier displays. These allow users much greater user control over the device and hence are much more flexible than before.</span><span class="left"><br />
+</span></p>
+<p align="justify">Publications:</p>
+<table bordercolor="#FFFFFF" border="1" width="100%">
+<tbody>
+<tr>
+<td><img height="126" width="240" class="thumbnailimg" alt="" src="http://www.ics.uci.edu/~bsajadi/images/switchable-th.jpg" /></td>
+<td><strong>Switchable Primaries Using Shiftable Layers of Color Filter Arrays</strong><br />
+            <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration:none">Behzad Sajadi</a>, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration:none">Aditi Majumder</a>, Kazuhiro Hiwada, Ramesh Raskar, Atsuto Maki.<br />
+            <em>ACM Siggraph (ToG), 2011</em><br />
+            <a href="http://graphics.ics.uci.edu/drupal/node/20">web page</a> <a href="http://www.ics.uci.edu/%7Ebsajadi/files/Sajadi-ShiftableCFAs.pdf">paper</a> <a href="http://www.ics.uci.edu/%7Ebsajadi/files/Sajadi-ShiftableCFAs.MP4">video</a></td>
+</tr>
+<tr>
+<td width="31%"><img height="120" width="240" src="http://graphics.ics.uci.edu/drupal/img/1999a.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong> Geometric Stitching for Real-Time Panoramic Image Generation Using Texture Maps</strong><br />
+            <a style="text-decoration:none" href="http://www.ics.uci.edu/~majumder/">Aditi Majumder</a>, <a style="text-decoration:none" href="http://www.ics.uci.edu/~gopi/">M. Gopi</a>, Brent W. Seales, Henry Fuchs<br />
+            <em>ACM Multimedia, 1999</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/MM99.pdf">paper </a></td>
+</tr>
+</tbody>
+</table>
+<p>Project Members: Aditi Majumder, M. Gopi, Behzad Sajadi</p>
+<p>Funding:</p>
+</div>
+    
+    
+                
+        
+    
+            
+    
+  </div>
+      </div>
+
+    </div>
+
+
+   
+   
+   
+        	<!-- left -->
+        
+   	<!-- right -->
+        
+
+
+ <div class="clear"></div>
+
+  </div>
+</div>
+<!-- Close Page -->
+<div id="footer">
+
+
+   <a href="http://drupal.org"><img src="/drupal/misc/powered-blue-80x15.png" alt="Powered by Drupal, an open source content management system" title="Powered by Drupal, an open source content management system" width="80" height="15" /></a><p>Donald Bren School of Information and Computer Science<br />
+University of California, Irvine - Irvine, CA 92697</p></div>
+</body>
+</html>

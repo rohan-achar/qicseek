@@ -1,0 +1,64 @@
+ <script language='JavaScript' src='jquery/collapse_expand_single_items.js'></script>
+<LINK REL="stylesheet" HREF="recruitstyle.css" TYPE="text/css">
+
+            <TITLE>CS Summer Ugrad Internship Program</TITLE>
+
+            <BODY>
+
+            <CENTER>
+            <P>
+            <FONT CLASS=big-title> CS Summer Ugrad Internship Program </FONT>
+            <P>
+
+            <FONT SIZE=+1 COLOR=#FF0000></FONT>
+            <FORM NAME=login ACTION="/apply/index.php" METHOD=post>
+
+
+            <TABLE BORDER=2 BGCOLOR=#FFFFD0><TR><TD>
+
+               <TABLE BORDER=0.1 WIDTH=100% CELLSPACING=0.2 CELLPADDING=10 BGCOLOR=#FFFFC0>
+
+                  <TR>
+                     <TD COLSPAN=2 CLASS=edit-heading>Please log in</TD>
+                  </TR>
+
+                  <TR>
+                     <TD ALIGN=RIGHT><B>Username:</B></TD>
+                     <TD ALIGN=LEFT><INPUT NAME="form_username" TYPE=text SIZE=10></TD>
+                  </TR>
+                  <TR>
+                     <TD ALIGN=RIGHT><B>Password:</B></TD>
+                     <TD ALIGN=LEFT><INPUT NAME="form_password" TYPE=password SIZE=10></TD>
+                  </TR>
+
+                  <TR>
+                     <TD COLSPAN=2 ALIGN=CENTER><INPUT TYPE=submit VALUE="Log in"></TD>
+                  </TR>
+
+               </TABLE>
+
+            </TABLE>
+
+            </FORM>
+
+
+
+            <P>
+               If you have not previously created an account, 
+                  you can do so by going <A HREF="apply.php">here</A>.
+ 
+
+            <P>
+               If you have created an account but have forgotten your username or password, 
+                  you can retrieve it <A HREF='forgotten.php'>here</A>.
+ 
+            <P>
+
+
+
+
+
+            </CENTER>
+
+            </BODY>
+   

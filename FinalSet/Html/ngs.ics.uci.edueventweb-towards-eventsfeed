@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: EventWeb: Towards events</title>
+	<atom:link href="http://ngs.ics.uci.edu/eventweb-towards-events/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/eventweb-towards-events/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Rubikzube</title>
+		<link>http://ngs.ics.uci.edu/eventweb-towards-events/comment-page-1/#comment-512</link>
+		<dc:creator><![CDATA[Rubikzube]]></dc:creator>
+		<pubDate>Sun, 13 Aug 2006 20:07:12 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=583#comment-512</guid>
+		<description><![CDATA[I can see a lot of benefit in organizing unstructured multimedia information around events, but it also opens up a whole can of worms as to what counts as an &quot;event&quot;.  I look forward to the next post.]]></description>
+		<content:encoded><![CDATA[<p>I can see a lot of benefit in organizing unstructured multimedia information around events, but it also opens up a whole can of worms as to what counts as an &#8220;event&#8221;.  I look forward to the next post.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Ramesh</title>
+		<link>http://ngs.ics.uci.edu/eventweb-towards-events/comment-page-1/#comment-508</link>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+		<pubDate>Thu, 10 Aug 2006 23:59:00 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=583#comment-508</guid>
+		<description><![CDATA[Thanks.  Realizing that we need to explain, and communicate better, about what EventWeb is and will be, I started this series of posts that will all be &#039;EventWeb: &#039;.  And the second in this series has already been posted.  More will keep coming.]]></description>
+		<content:encoded><![CDATA[<p>Thanks.  Realizing that we need to explain, and communicate better, about what EventWeb is and will be, I started this series of posts that will all be &#8216;EventWeb: &#8216;.  And the second in this series has already been posted.  More will keep coming.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Makarand Deshpande</title>
+		<link>http://ngs.ics.uci.edu/eventweb-towards-events/comment-page-1/#comment-506</link>
+		<dc:creator><![CDATA[Makarand Deshpande]]></dc:creator>
+		<pubDate>Thu, 10 Aug 2006 15:58:45 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=583#comment-506</guid>
+		<description><![CDATA[Hi,
+
+Came to your site via Webyantra (www.webyantra.net), which has dome a profile of your company SEraja, which is about the event web. Heard this term for the first time, so curious about it. The product looks very good but as the review mentions, better communication is needed about its benefits and capabilities.
+
+rgds
+
+makar]]></description>
+		<content:encoded><![CDATA[<p>Hi,</p>
+<p>Came to your site via Webyantra (www.webyantra.net), which has dome a profile of your company SEraja, which is about the event web. Heard this term for the first time, so curious about it. The product looks very good but as the review mentions, better communication is needed about its benefits and capabilities.</p>
+<p>rgds</p>
+<p>makar</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

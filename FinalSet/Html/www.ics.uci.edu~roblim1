@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Robert Lim</title>
+<link rel="shortcut icon" href="http://www.ics.uci.edu/~roblim1/images/ics.ico">
+</head>
+<!-- <body bgcolor="cbe4f2"> -->
+<body>
+	<h1>Robert Lim</h1>
+	<p><img src="images/roblim1.jpg" title="Robert Lim"><br>
+	  Graduate Student <br>
+	  UC Irvine, Computer Science Division<br>
+	  Area: Systems<br>
+  <br>
+  <a target="_blank" href="http://www.ics.uci.edu"><img src="images/ics.jpg" title="zot zot"></a><br />
+	  Donald Bren School of Information and Computer Sciences<br> 
+	  ICS1, 464B<br />
+      University of California, Irvine <br>
+	  Irvine, CA 92697-3425 <br>
+      <br>
+      <i>roblim1 AT ics.uci.edu</i>
+      <br>
+	  I am a 3rd year graduate student in Computer Science at UC Irvine.  My advisor is Prof. <a target="_blank" href="http://www.ics.uci.edu/~isaac">Issac Scherson</a>. 
+	  I spent five+ fun-filled years at <a target="_blank" href="http://www.foxsports.com">FOX Sports</a> as a Software Developer for graphics production and live sports broadcasts.  My research interests lie in the field of Distributed and Parallel Computing, with a minor emphasis in Machine Learning.
+	  
+      <br />
+      <br />
+</p>
+<b><h3>News:</h3></b>
+<table>
+	<tr>
+		<td valign="top">01/06/2014&nbsp;&nbsp;&nbsp;</td>
+		<td align="left">I am a Reader for CS 152, <a target="_blank" href="https://eee.uci.edu/14w/34230">Computer Systems Architecture</a> for Winter 2014.</td>
+	</tr>
+	<tr>
+		<td valign="top">09/26/2013&nbsp;&nbsp;&nbsp;</td>
+		<td align="left">I am TA'ing ICS 31, <a target="_blank" href="http://www.ics.uci.edu/~kay/courses/31/f13.html">Introduction to Python Programming</a> for Fall 2013.</td>
+	</tr>
+	<tr>
+		<td valign="top">08/17/2012&nbsp;&nbsp;&nbsp;</td>
+		<td align="left">I completed my internship at <a target="_blank" href="http://www.ibm.com">IBM</a>, where my teammates and I designed and developed a systems management solution using gesture tracking and speech recognition for <a target="_blank" href="http://www-03.ibm.com/systems/power/software/virtualization/index.html">PowerVM</a>, IBM's flagship virtualization environment.</td>
+	</tr>
+    <tr>
+    <td valign="top">05/26/2012&nbsp;&nbsp;&nbsp;</td>
+    <td align="left">I am onboard for a summer internship with IBM's <a target="_blank" href="http://www.ibm.com/extremeblue/">Extreme Blue Program</a> in Austin, TX.</td>
+    </tr>
+</table>
+<br />
+<b><h3>Coursework:</h3>
+</b>
+<table width="70%">
+	<tr>
+		<td width="20%" align="right"><b>WINTER 2013&nbsp;&nbsp;&nbsp;</b></td>
+		<td width="15%" align="left">STAT 225</td>
+		<td><a target="_blank" href="https://eee.uci.edu/13w/37925">Bayesian Statistics</a></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	  <td width="15%" align="left">CS 295</td>
+		<td>Seminar in High Performance Architectures</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	  <td width="15%" align="left">CS 298</td>
+		<td>Thesis Supervision</td>
+	</tr>
+    <tr>
+</table>
+<table width="70%">
+	<tr>
+		<td width="20%" align="right"><b>FALL 2012&nbsp;&nbsp;&nbsp;</b></td>
+		<td width="15%" align="left">CS 243</td>
+		<td><a target="_blank" href="https://eee.uci.edu/12f/35300/">High Performance Architectures and their Compilers</a></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	  <td width="15%" align="left">CS 273A</td>
+		<td><a target="_blank" href="http://sli.ics.uci.edu/Classes/2012F-273a">Machine Learning</a></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	  <td width="15%" align="left">INFX 211</td>
+		<td><a target="_blank" href="http://www.ics.uci.edu/~jajones/Informatics211.html">Software Engineering</a></td>
+	</tr>
+</table>
+<table width="70%">
+	<tr>
+		<td width="20%" align="right"><b>SPRING 2012&nbsp;&nbsp;&nbsp;</b></td>
+		<td width="15%" align="left">CS 242</td>
+		<td>Parallel Computing</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	  <td width="15%" align="left">CS 250A</td>
+		<td><a target="_blank" href="http://www.ics.uci.edu/~alexv/250A">Computer Architecture</a></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	  <td width="15%" align="left">CS 245</td>
+		<td><a target="_blank" href="http://www.ics.uci.edu/~givargis/courses/cs245/">Software for Embedded Systems</a></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	  <td width="15%" align="left">CS 200S</td>
+		<td><a target="_blank" href="http://www.cs.uci.edu/research/seminarseries/#spring">Seminar in Computer Science Research</a></td>
+  </tr>
+</table>
+<table width="70%">
+	<tr>
+		<td width="20%" align="right"><b>WINTER 2012&nbsp;&nbsp;&nbsp;</b></td>
+		<td width="15%" align="left">CS 221</td>
+		<td><a target="_blank" href="http://www.ics.uci.edu/~lopes/teaching/cs221W12/">Information Retrieval</a></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	  <td width="15%" align="left">CS 230</td>
+		<td>Distributed Computer Systems</td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	  <td width="15%" align="left">CS 274A</td>
+		<td><a target="_blank" href="http://www.ics.uci.edu/~smyth/courses/cs274/">Probabilistic Learning</a></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	  <td width="15%" align="left">CS 200S</td>
+		<td><a target="_blank" href="http://www.cs.uci.edu/research/seminarseries/#winter">Seminar in Computer Science Research</a></td>
+  </tr>
+</table>
+<table width="70%">
+	<tr>
+		<td width="20%" align="right"><b>FALL 2011&nbsp;&nbsp;&nbsp;</b></td>
+		<td width="15%" align="left">CS 260</td>
+		<td><a target="_blank" href="http://www.ics.uci.edu/~dillenco/compsci260/">Fundamentals of Algorithms</a></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	  <td width="15%" align="left">CS 222</td>
+		<td><a target="_blank" href="https://grape.ics.uci.edu/wiki/asterix/wiki/cs222-2011-fall">Principles of Data Management</a></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	  <td width="15%" align="left">CS 271</td>
+		<td><a target="_blank" href="http://www.ics.uci.edu/~rickl/courses/cs-271/2011-fq-cs271/CS-271-FQ-2011.htm">Artificial Intelligence</a></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+	  <td width="15%" align="left">CS 200S</td>
+		<td><a target="_blank" href="http://www.cs.uci.edu/research/seminarseries/#fall">Seminar in Computer Science Research</a></td>
+  </tr>
+</table>		
+<b><h3>Publications:</h3></b>
+<p> 
+"Computationally Efficient Multiplexing of Performance Events on Hardware Counters," R. Lim, D. Carrillo-Cisneros, W. Alkowaileet and I. Scherson, Submitted to <i>IEEE Computer Architecture Letters</i>, 2014.
+</p>
+<p> 
+"A Model for the Reconstruction Error of Hardware Performance Counter Sampling and its Application to Adaptive Sampling," D. Carrillo-Cisneros, R. Lim, W. Alkowaileet and I. Scherson, Submitted to <i>ACM SIGMETRICS</i>, 2014.
+</p>
+<p> 
+"NUMA-aware Multicore Matrix Multiplication," W. Alkowaileet, D. Carrillo-Cisneros, R. Lim and I. Scherson, Submitted to <i>Parallel Processing Letters</i>, 2013.
+</p>
+<p> 
+"Delay Tolerant Large Media File Delivery Over Public Transportation Systems," S. Kashihara, M. Y. Sanadidi, R. Lim and M. Gerla, Submitted to <i>IFIP Networking</i>, 2011.
+</p>		
+<b><h3>Activities:</h3></b>
+<ul>
+<li>UC Irvine <a target="_blank" href="http://www.ags.uci.edu/">Associated Graduate Students</a></li>
+<ul>
+<li><a target="_blank" href="http://www.ics.uci.edu">ICS</a> Representative, <a target="_blank" href="https://plus.google.com/u/0/communities/108645982202617144827">External Affairs</a> Committee</li>
+</ul>
+<!-- <li><a target="_blank" href="http://www.svanc.org">Sun Valley Area Neighborhood Council</a>, Treasurer, Budget & Finance (chair)</li> -->
+</ul>
+<b><h3>Links:</h3></b>
+<ul>
+<li><a target="_blank" href="https://wiki.ags.uci.edu/index.php?title=Main_Page">UCI GradGuide</a></li>
+<li><a target="_blank" href="https://www.facebook.com/groups/UCIFooBar">UCI Foobar</a></li>
+<!-- <li><a target="_blank" href="http://www.svanc.org">Sun Valley Area Neighborhood Council</a>, Treasurer, Budget & Finance (chair)</li> -->
+</ul>
+<b><h3>Miscellaneous:</h3></b>
+<ul>
+<li><a target="_blank" href="http://www.youtube.com/watch?v=WnzlbyTZsQY">AI vs. AI. Two chatbots talking to each other</a>
+</li>
+</ul>
+<!-- <iframe width="560" height="315" src="http://www.youtube.com/embed/WnzlbyTZsQY" frameborder="0" allowfullscreen></iframe> -->
+<img src="http://www.ics.uci.edu/~roblim1/images/sleep_disorders.jpg" title="Taken from PhDComics.com"/>
+<br />
+<i>Last Modified: 01/15/2014</i>
+<br />
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25976741-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
+
+

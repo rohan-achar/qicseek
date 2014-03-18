@@ -1,0 +1,947 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Publications | iGravi: Interactive Graphics & Visualization</title>
+  
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+    
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/drupal/misc/favicon.ico" type="image/x-icon" />
+ 
+
+  <link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/fckeditor/fckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/panels/css/panels.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/layout.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/graphics.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/typography.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/links.css?s" />
+  
+  <!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="/drupal/sites/all/themes/marinelli/iestyles/ie6.css" />
+<![endif]-->
+
+  <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="/drupal/sites/all/themes/marinelli/iestyles/ie7.css" />
+<![endif]-->
+  
+  
+  <script type="text/javascript" src="/drupal/misc/jquery.js?s"></script>
+<script type="text/javascript" src="/drupal/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/drupal/sites/all/modules/panels/js/panels.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/drupal/" });
+//--><!]]>
+</script>
+</head>
+
+
+<body>
+  <div id="utilities">
+    
+    <div id="plinks">     
+             <ul class="links primary-links"><li class="menu-206 first"><a href="/drupal/front">Home</a></li>
+<li class="menu-209"><a href="/drupal/node/4" title="Projects">Projects</a></li>
+<li class="menu-194 active-trail active"><a href="/drupal/node/2" title="Publications" class="active">Publications</a></li>
+<li class="menu-210"><a href="/drupal/node/8" title="People">People</a></li>
+<li class="menu-178 last"><a href="/drupal/node/1" title="Login">Login</a></li>
+</ul>     
+               </div>          </div>
+
+
+<div id="page">
+
+  <div id="header">
+
+ 
+   <p class="sitetitle">
+	      <a href="/drupal/" title="Home">
+	        iGravi: Interactive Graphics &amp; Visualization	      </a>
+	    </p>	
+ 
+ 	  	  
+ <p class="slogan">Shine light on truth.</p>
+
+  </div>
+
+ 
+         
+       
+   
+
+  <div class="wrapper"><!--wrapper:defines whole content margins-->
+  
+  
+   <div id="primary" class="long">               <div class="singlepage">
+	   
+	  
+            
+		 <h1>Publications</h1>		 
+                            <div class="drdot">
+<hr />
+</div>
+         
+          
+ 
+ 
+ 
+ 
+  <div class="node">
+ 	           
+
+        
+		        
+    <div class="content">
+	
+	
+	<h1>2013</h1>
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2013c.jpg" class="thumbnailimg" alt="" /></td>
+<td><strong>Single-Seek Data Layout for Walkthrough Applications</strong><br />
+            <a href="http://www.ics.uci.edu/~sjiang4/" style="text-decoration: none;">Shan Jiang</a>,&nbsp;<a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, &nbsp;<a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a>.<br />
+            <em>SIBGRAPI, 2013</em><br />
+            <a href="http://www.graphics.ics.uci.edu/drupal/pub/singleseek.pdf">paper</a></td>
+</tr>
+<tr bordercolor="#ffffff">
+<td width="30%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2013a.png" class="thumbnailimg" alt="" /></td>
+<td width="70%"><strong>Self-overlapping Curves: Analysis and Applications</strong><br />
+            <a href="http://www.ics.uci.edu/~umukherj/" style="text-decoration: none;">Uddipan Mukherjee</a><em><br />
+            SIAM Conference on Geometric and Physical Modeling (GD/SPM   13), 2013</em><a href="http://www.graphics.ics.uci.edu/drupal/pub/siam13.pdf"><br />
+            paper</a> <a href="http://www.graphics.ics.uci.edu/drupal/vid/siam.m4v">video</a></td>
+</tr>
+<tr bordercolor="#ffffff">
+<td width="30%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2013b.png" class="thumbnailimg" alt="" /></td>
+<td width="70%"><strong>Puzzhull: Cavity and Protrusion Hierarchy to Fit Conformal Polygons</strong><br />
+            <a href="http://www.ics.uci.edu/~symistry/" style="text-decoration: none;">Shanaz Y. Mistry</a>, Niranjan U N, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>SIAM Conference on Geometric and Physical Modeling (GD/SPM13), 2013</em> <a href="http://www.graphics.ics.uci.edu/drupal/pub/siam13a.pdf"><br />
+            paper</a></td>
+</tr>
+</tbody>
+</table>
+<h1>2012</h1>
+<table width="100%" border="0">
+<tbody>
+<tr bordercolor="#ffffff">
+<td width="30%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2012d.png" alt="" class="thumbnailimg" /></td>
+<td width="70%"><strong>Tweening Boundary Curves of Non-simple Immersions of a Disk</strong><br />
+            <a href="http://www.ics.uci.edu/~umukherj/" style="text-decoration: none;">Uddipan Mukherjee</a>, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><em><br />
+            Indian Conference on Vision, Graphics and Image Processing(ICVGIP), 2012<br />
+            </em><a href="http://www.graphics.ics.uci.edu/drupal/pub/icvgip2012_camera_ready_template.pdf"><br />
+            paper</a></td>
+</tr>
+<tr bordercolor="#ffffff">
+<td width="30%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2012a.jpg" alt="" class="thumbnailimg" /></td>
+<td width="70%"><strong>Using Patterns to Encode Color Information in Dichromats</strong><br />
+            <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Ros&aacute;lia G. Schneider, Manuel Menezes de Oliveira Neto, Ramesh Raskar<br />
+            <em>IEEE Transactions on Visualization and Computer Graphics, 2012</em> <a href="http://www.graphics.ics.uci.edu/drupal/pub/CVD-ColorEnconding.pdf"><br />
+            paper</a> <a href="http://www.graphics.ics.uci.edu/drupal/vid/CVD-ColorEnconding.mp4">video</a></td>
+</tr>
+<tr bordercolor="#ffffff">
+<td width="30%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2012c.jpg" alt="" class="thumbnailimg" /></td>
+<td width="70%"><strong>Edge-Guided Resolution Enhancement in Projectors via Optical Pixel Sharing</strong><br />
+            <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi, </a><a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <em>ACM Transactions on Graphics (SIGGRAPH), 2012</em><br />
+            &nbsp;</td>
+</tr>
+</tbody>
+</table>
+<h1>2011</h1>
+<table width="100%" bordercolor="#ffffff" border="0">
+<tbody>
+<tr bordercolor="#ffffff">
+<td width="30%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2011p.jpg" alt="" class="thumbnailimg" /></td>
+<td width="70%"><b style="mso-bidi-font-weight: normal;">Fast High-Resolution Appearance Editing Using Superimposed Projections</b><br />
+            Dan Aliaga, Yu Hong Yeung, Alvin J. Law, <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <em>ACM Transactions on Graphics, 2011</em> <b><span style="color: red;"><br />
+            </span></b><a href="http://www.graphics.ics.uci.edu/drupal/pub/tog12.pdf">paper</a> <a href="http://www.graphics.ics.uci.edu/drupal/vid/tog12-video.mov">video</a></td>
+</tr>
+<tr bordercolor="#ffffff">
+<td width="30%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2011m.jpg" alt="" class="thumbnailimg" /></td>
+<td width="70%"><b style="mso-bidi-font-weight: normal;">Automated Cell Classification and Visualization for Analyzing Remyelination Therapy</b><br />
+            &nbsp;Koel Das, Monica Siegenthaler, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Hans Keirstead, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>The Visual Computer, 2011</em><a href="http://graphics.ics.uci.edu/drupal/sites/default/files/webform/VAST%20Talk.zip"><br />
+            </a><a href="http://www.ics.uci.edu/~majumder/docs/tvcg-vrstextn11.pdf">paper</a><a href="http://graphics.ics.uci.edu/drupal/sites/default/files/webform/VAST%20Talk.zip">
+<p>            </p></a></td>
+</tr>
+<tr bordercolor="#ffffff">
+<td width="30%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2011n.jpg" alt="" class="thumbnailimg" /></td>
+<td width="70%"><b style="mso-bidi-font-weight: normal;">Auto-Calibration of Multi-Projector CAVE-like Immersive Environments</b><br />
+            <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <em>IEEE Transactions on Visualization and Computer Graphics, 2011</em><a href="http://graphics.ics.uci.edu/drupal/sites/default/files/webform/VAST%20Talk.zip"><br />
+            </a><a href="http://www.ics.uci.edu/~majumder/docs/tvcg-vrstextn11.pdf">paper</a><a href="http://graphics.ics.uci.edu/drupal/sites/default/files/webform/VAST%20Talk.zip">
+<p>            </p></a></td>
+</tr>
+<tr bordercolor="#ffffff">
+<td width="30%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2011l.jpg" alt="" class="thumbnailimg" /></td>
+<td width="70%"><strong>A Visual Navigation System for Querying Neural Stem Cell Imaging Data</strong><br />
+            <a href="http://www.ics.uci.edu/~ikulkarn/" style="text-decoration: none;">Ishwar Kulkarni</a>, <a href="http://www.ics.uci.edu/~symistry/" style="text-decoration: none;">Shanaz Y. Mistry</a>, Brian Cummings, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>IEEE Visual Analytics Science and Technology (VAST), 2011</em><br />
+            <a href="http://graphics.ics.uci.edu/drupal/sites/default/files/webform/paper149.pdf">paper</a> <a href="http://graphics.ics.uci.edu/drupal/sites/default/files/webform/VAST%20Talk.zip">ppt</a></td>
+</tr>
+<tr bordercolor="#ffffff">
+<td width="30%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2011a.jpg" alt="" class="thumbnailimg" /></td>
+<td width="70%"><strong>Adaptive Cell Segmentation and Tracking for Volumetric Confocal Microscopy Images of A Developing Plant Meristem</strong><br />
+            Min Liu, Anirban Chakraborty, Damanpreet Singh, Ram Kishor Yadav, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a>, G. Venugopala Reddy, Amit Roy-Chowdhury<br />
+            <em>Molecular Plant Journal, 2011</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/mplant2011.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/none.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Effcient cell segmentation and tracking of developing plant meristem</strong><br />
+            K. Mkrtchyan, D. Singh, M. Liu, V. Reddy, A. Roy-Chowdhury, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>IEEE International Conference on Image Processing 2011.</em></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2011d.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Immersion and Embedding of Self-Crossing Loops</strong><br />
+            <a href="http://www.ics.uci.edu/~umukherj/" style="text-decoration: none;">Uddipan Mukherjee</a>, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a>, Jarek Rossignac<br />
+            <em>International Symposium on Sketch-Based Interfaces and Modeling</em><em>, 2011</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/camera_ready.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/projectc.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Robust Segmentation and Tracking of Generic Shapes of  Neuro-Stem Cells</strong><br />
+            <a href="http://www.ics.uci.edu/~ikulkarn/" style="text-decoration: none;">Ishwar Kulkarni</a>, <a href="http://www.ics.uci.edu/~umukherj/" style="text-decoration: none;">Uddipan Mukherjee</a>, Chris Sontag, Brian Cummings, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>IEEE Conference on Healthcare Informatics, Imaging, and Systems Biology (HISB)</em><em>, 2011</em></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2011g.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Interactive Multiscale Tensor Reconstruction for Multiresolution Volume Visualization</strong><br />
+            Susanne K. Suter, Jose A. Iglesias Guiti&acute;an, Fabio Marton, Marco Agus, Andreas Elsener, Christoph P.E. Zollikofer,  <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a>, Enrico Gobbetti, Renato Pajarola<br />
+            <em>IEEE Transactions on Visualization and Computer Graphics</em><em>, 2011</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/MultiscaleTensorVis.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2011o.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Perceptually Based Appearance Modification for Compliant Appearance Editing</strong><br />
+            Alwin Law, Daniel Aliaga, <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Zygmunt Pizlo.               <br />
+            <em>Computer Graphics Forum, 2011</em><br />
+            <a href="http://graphics.ics.uci.edu/drupal/node/22">web page</a> <a href="http://www.ics.uci.edu/%7Ebsajadi/files/cgf11.pdf">paper</a></td>
+</tr>
+<tr>
+<td><img width="240" height="126" src="http://www.ics.uci.edu/~bsajadi/images/switchable-th.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Switchable Primaries Using Shiftable Layers of Color Filter Arrays</strong><br />
+            <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Kazuhiro Hiwada, Ramesh Raskar, Atsuto Maki.<br />
+            <em>ACM Siggraph (ToG), 2011</em><br />
+            <a href="http://graphics.ics.uci.edu/drupal/node/20">web page</a> <a href="http://www.ics.uci.edu/%7Ebsajadi/files/Sajadi-ShiftableCFAs.pdf">paper</a> <a href="http://www.ics.uci.edu/%7Ebsajadi/files/Sajadi-ShiftableCFAs.MP4">video</a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://www.ics.uci.edu/~bsajadi/images/dome1-th.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Automatic Registration of Multi-Projector Domes Using a Single Uncalibrated Camera</strong><br />
+            <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <em>Eurographics/IEEE EUROVIS, 2011</em><br />
+            <a href="http://graphics.ics.uci.edu/drupal/node/20">web page</a> <a href="http://www.ics.uci.edu/%7Ebsajadi/files/Sajadi-ShiftableCFAs.pdf">paper</a> <a href="http://www.ics.uci.edu/%7Ebsajadi/files/Sajadi-ShiftableCFAs.MP4">video</a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://www.ics.uci.edu/~bsajadi/images/dataManagement-th.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Data Management for SSDs for Large-Scale Interactive Graphics Applications</strong><br />
+            <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, <a href="http://www.ics.uci.edu/~sjiang4/" style="text-decoration: none;">Shan Jiang</a>, Jae-Pil Heo, Sung-Eui Yoon, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a>.<br />
+            <em>ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games (I3D), 2011</em><br />
+            <a href="http://www.ics.uci.edu/%7Ebsajadi/DataManagement.html">web page</a> <a href="http://www.ics.uci.edu/%7Ebsajadi/files/Sajadi-i3d11.pdf">paper</a> <a href="http://www.ics.uci.edu/%7Ebsajadi/files/Sajadi-I3d11.wmv">video</a> <a href="http://www.ics.uci.edu/%7Ebsajadi/files/Sajadi-I3d11.pptx">presentation</a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://www.ics.uci.edu/~bsajadi/images/piecewise-vertical-th.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Auto-Calibrating Projectors for Tiled Displays on Piecewise Smooth Vertically Extruded Surfaces</strong><br />
+            <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <em>IEEE Transactions on Visualization and Computer Graphics, 2011</em><br />
+            <a href="http://graphics.ics.uci.edu/drupal/node/13">web page</a> <a href="http://www.ics.uci.edu/%7Ebsajadi/files/Sajadi-TVCG11.pdf">paper</a></td>
+</tr>
+<tr bordercolor="#ffffff">
+<td width="30%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2011k.jpg" alt="" class="thumbnailimg" /></td>
+<td width="70%"><strong>Camera Based Video Synchronization for a Federation of Mobile Projectors</strong><br />
+            Kiarash Amiri, Shih-Hsien Yang, Fadi Kurdahi, Magda El-Zarki, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <em>IEEE/ACM Workshop on Projector Camera Systems, 2011</em><br />
+            <a href="http://www.ics.uci.edu/~majumder/docs/procams11.pdf">paper</a> <a href="http://www.ics.uci.edu/~majumder/docs/PROCAMS2011-video.wmv">video</a></td>
+</tr>
+</tbody>
+</table>
+<h1>2010</h1>
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2010n.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>A Scalable Distributed Paradigm for Multi-User Interaction with Tiled Rear Projection Display Walls</strong><br />
+            Pablo Roman, <a href="http://www.ics.uci.edu/~mlazarov/" style="text-decoration: none;">Maxim Lazarov</a>, and <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <em>IEEE Transactions on Visualization and Computer Graphics, 2010</em><br />
+            <a href="http://www.ics.uci.edu/%7Emajumder/docs/VIS10.pdf">paper</a> <a href="http://www.ics.uci.edu/%7Emajumder/docs/Vis10.avi">video</a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2010k.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Projector Placement Planning for High Quality Visualizations on Real World Colored Objects</strong><br />
+            Alvin J. Law, Daniel Aliaga, and <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <em>IEEE Transactions on Visualization and Computer Graphics, 2010<br />
+            </em><a href="/drupal/pub/aliagavis10.pdf">paper</a><em><br />
+            </em></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://www.ics.uci.edu/~bsajadi/images/swept-surface.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Automatic Registration of Multiple Projectors on Swept Surfaces</strong><br />
+            <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <cite>ACM Virtual Reality Software and Technology, 2010<br />
+            </cite><a href="http://graphics.ics.uci.edu/drupal/node/13">web page</a> <a href="http://www.ics.uci.edu/%7Ebsajadi/files/vrst10final.pdf">paper</a> <a href="http://www.ics.uci.edu/%7Ebsajadi/files/vrst10.wmv">video</a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://www.ics.uci.edu/~bsajadi/images/adict-th.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>ADICT: Accurate Direct and Inverse Color Transformation</strong><br />
+            <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, <a href="http://www.ics.uci.edu/~mlazarov/" style="text-decoration: none;">Maxim Lazarov</a>, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <cite>European Conference of Computer Vision (ECCV), 2010</cite><br />
+            <a href="http://graphics.ics.uci.edu/drupal/node/13">web page</a> 		   <a href="http://www.ics.uci.edu/%7Ebsajadi/files/eccv2010final.pdf">paper</a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://www.ics.uci.edu/~bsajadi/images/cylindrical-th.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Auto-Calibration of Cylindrical Multi-Projector Systems</strong><br />
+            <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <cite>IEEE Virtual Reality, 2010</cite> (<b>Best Paper Award</b>)<br />
+            <a href="http://graphics.ics.uci.edu/drupal/node/13">web page</a> 		   <a href="http://www.ics.uci.edu/%7Ebsajadi/files/VR2010.pdf">paper</a> 		   <a href="http://www.ics.uci.edu/%7Ebsajadi/files/VR2010.avi">video</a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://www.ics.uci.edu/~bsajadi/images/pan-and-tilt-th.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Scalable Multi-view Registration for Multi-Projector Displays on Vertically Extruded Surfaces</strong><br />
+            <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <cite>Eurographics/IEEE EUROVIS, 2010</cite><br />
+            <a href="http://graphics.ics.uci.edu/drupal/node/13">web page</a> 		   <a href="http://www.ics.uci.edu/%7Ebsajadi/files/EuroVis2010.pdf">paper</a> 		   <a href="http://www.ics.uci.edu/%7Ebsajadi/files/EuroVis10.ppt">presentation</a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="/drupal/img/2010g.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Feature Oriented Progressive Lossless Mesh Coding</strong><br />
+            Jingliang Peng, Yan Huang, C.-C. Jay Kuo, Ilya Eckstein, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <cite>Pacific Graphics/</cite><cite>Computer Graphics Forum</cite><cite>, 2010</cite><br />
+            <a href="/drupal/pub/PG10.pdf">paper</a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="/drupal/img/2010h.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Automated Analysis of Remyelination Therapy for Spinal Cord Injury</strong><br />
+            Koel Das, Monica Siegenthaler, Aditi Majumder, Hans Keirstead, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <cite> ICVGIP, 2010</cite><br />
+            <a href="/drupal/pub/ICVGIP10.pdf">paper</a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2010a.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Device Independent Representation of Photometric Properties of a Camera</strong><br />
+            <a href="http://www.ics.uci.edu/~mlazarov/" style="text-decoration: none;">Maxim Lazarov</a>, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <em>IEEE/ACM Workshop on Projector-Camera Systems, 2010</em><br />
+            <a href="http://www.ics.uci.edu/~majumder/docs/procam10represent.pdf">paper</a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2010j.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Display Gamut Reshaping for Color Emulation and Balancing</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Robert G. Brown, Hussein S. El-Ghoroury<br />
+            <em>IEEE/ACM Workshop on Projector-Camera Systems, 2010 </em>(<b>Best Paper Award</b>)<br />
+            <a href="http://www.ics.uci.edu/~majumder/docs/procam10-BP.pdf">paper</a></td>
+</tr>
+</tbody>
+</table>
+<h1>2009</h1>
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2009a.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong>A Novel Page-Based Data Structure for Interactive Walkthroughs</strong><br />
+            <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, Yan Huang, Pablo Diaz-Gutierrez, Sung-Eui Yoon, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games (I3D)</em><cite>, 2009</cite><a href="http://graphics.ics.uci.edu/upload/I3D09.pdf"><br />
+            paper</a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2009c.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Data Handling Displays</strong><br />
+            <a href="http://www.ics.uci.edu/~mlazarov/" style="text-decoration: none;">Maxim Lazarov</a>, Hamed Pirsiavash, <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, <a href="http://www.ics.uci.edu/~umukherj/" style="text-decoration: none;">Uddipan Mukherjee</a>, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <em>IEEE/ACM International Workshop on Projector-Camera Systems (Procams)</em><cite>, 2009</cite><br />
+            <a href="http://graphics.ics.uci.edu/upload/ProCams2009.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2009e.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Streaming Surface Sampling Using Gaussian e-nets.</strong><br />
+            Pablo Diaz-Gutierrez, Jonas Bosch, Renato Pajarola, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>The Visual Computer (Computer Graphics International Conference</em><em>), 25(5-7), pp 411-421</em><cite>, 2009</cite><br />
+            <a href="http://graphics.ics.uci.edu/upload/CGI09.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2009ee.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Curvature Aware Fundamental Cycles </strong><br />
+            Pablo Diaz-Gutierrez, <a href="http://www.ics.uci.edu/~eppstein/" style="text-decoration: none;">David Eppstein</a>, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>Computer Graphics Forum (Pacific Graphics)</em><br />
+            <a href="http://graphics.ics.uci.edu/drupal/pub/PG09.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2009h.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong> Shape Isophotic Error Metric Controllable Resampling for Point-sampled Surfaces</strong><br />
+            Yongwei Miao, Pablo Diaz-Gutierrez, Renato Pajarola, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a>, Jieqing Feng<br />
+            <em>IEEE Conference on Shape Modeling and Applications, 2009</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/SMI09.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://www.ics.uci.edu/~bsajadi/images/vertically-extruded-th.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Markerless View-Independent Registration of Multiple Distorted Projectors on Extruded Surfaces Using Uncalibrated Camera</strong><br />
+            <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <cite>IEEE Visualization (TVCG), 2009 </cite><em><strong><cite>(Runner up for Best Paper Award)</cite></strong></em><br />
+            <a href="http://graphics.ics.uci.edu/drupal/node/13">web page</a> 		   <a href="http://www.ics.uci.edu/%7Ebsajadi/files/vis-1096_final.pdf">paper</a> 		   <a href="http://www.ics.uci.edu/%7Ebsajadi/files/Vis-1096.avi">video</a> 		   <a href="http://www.ics.uci.edu/%7Ebsajadi/files/Vis-1096.pptx">presentation</a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://www.ics.uci.edu/~bsajadi/images/gamut-morphing-th.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Color Seamlessness in Multi-Projector Displays Using Constrained Gamut Morphing</strong><br />
+            <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, <a href="http://www.ics.uci.edu/~mlazarov/" style="text-decoration: none;">Maxim Lazarov</a>, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a>, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <cite>IEEE Visualization (TVCG), 2009</cite><br />
+            <a href="http://graphics.ics.uci.edu/drupal/node/13">web page</a> 		   <a href="http://www.ics.uci.edu/%7Ebsajadi/files/vis-1097_final.pdf">paper</a> 		   <a href="http://www.ics.uci.edu/%7Ebsajadi/files/Vis-1097.avi">video</a> 		   <a href="http://www.ics.uci.edu/%7Ebsajadi/files/Vis-1097.pptx">presentation</a>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://www.ics.uci.edu/~bsajadi/images/sid-th.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Maintaining Color Consistency Across Non-Linear Devices</strong><br />
+            <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <cite>International Symposium of Society for Information Display (SID), 2009</cite><br />
+            <a href="http://graphics.ics.uci.edu/drupal/node/13">web page</a> 		   <a href="http://www.ics.uci.edu/%7Ebsajadi/files/P-35.pdf">paper</a> 		   <a href="http://www.ics.uci.edu/%7Ebsajadi/files/SIDPoster.pptx">poster</a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://www.ics.uci.edu/~bsajadi/images/data-handling-th.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Data Handling Displays</strong><br />
+            Maxim Lazarov, Hamed Pirsiavash <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, <a href="http://www.ics.uci.edu/~umukherj/" style="text-decoration: none;">Uddipan Mukherjee</a>, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <cite>IEEE/ACM International Workshop on Projector-Camera Systems (Procams), 2009</cite><br />
+            <a href="http://graphics.ics.uci.edu/drupal/node/13">web page</a> 		   <a href="http://www.ics.uci.edu/%7Ebsajadi/files/ProCams2009.pdf">paper</a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://www.ics.uci.edu/~bsajadi/images/page-based-layout-th.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>A Novel Page-Based Data Structure for Interactive Walkthroughs</strong><br />
+            <a href="http://www.ics.uci.edu/~bsajadi/" style="text-decoration: none;">Behzad Sajadi</a>, Yan Huang, Pablo Diaz-Gutierrez, Sung-Eui Yoon, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <cite>ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games (I3D), 2009</cite><br />
+            <a href="http://www.ics.uci.edu/%7Ebsajadi/DataManagement.html">web page</a> 		   <a href="http://www.ics.uci.edu/%7Ebsajadi/files/I3D09.pdf">paper</a> 		   <a href="http://www.ics.uci.edu/%7Ebsajadi/files/I3D09.wmv">video</a> 		   <a href="http://www.ics.uci.edu/%7Ebsajadi/files/I3D09.ppt">presentation</a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://www.ics.uci.edu/~bsajadi/images/data-handling-th.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Shared Visualization Spaces for Environment to Environment Communication</strong><br />
+            Hamed Pirsiavash, Vivek Singh, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Ramesh Jain<br />
+            <cite>Workshop on Media Arts, Science, and Technology (MAST),Santa Barbara, CA, Jan 2009</cite></td>
+</tr>
+</tbody>
+</table>
+<h1>2008</h1>
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2008a.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong>A Generic Scheme for Progressive Point Cloud Coding</strong><br />
+            Yan Huang, Jingliang Peng, C.-C Jay Kuo, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>IEEE Trans. on Visualization and Computer Graphics, pp 440-453, 14(2), Mar/Apr 2008</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/TVCGYan.pdf">paper </a></td>
+</tr>
+</tbody>
+</table>
+<h1>2007</h1>
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2007h.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong>Perception Based Contrast Enhancement of Images</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Sandra Irani<br />
+            <em>ACM Transactions on Applied Perception, 2007<br />
+            </em><a href="http://graphics.ics.uci.edu/upload/TAP07.pdf">paper </a><em><br />
+            </em></td>
+</tr>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2007b.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong>Registration Techniques for Using Imperfect and Partially Calibrated Devices in Planar Multi-Projector Displays</strong><br />
+            Ezekiel Bhasker, Pinaki Sinha, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <em>IEEE Transactions on Visualization and Computer Graphics, 2007<br />
+            </em><a href="http://graphics.ics.uci.edu/upload/VIS07.pdf">paper</a><em><br />
+            </em></td>
+</tr>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2007c.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong>Gauss Sphere Sampling based Surface Approximation</strong><br />
+            Pablo Diaz-Gutierrez, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>UCI-ICS Technical Report 07-08, 2007</em><em><br />
+            </em><a href="http://graphics.ics.uci.edu/drupal/pub/GaussSamplingTechRep.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2007g.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong>Advances towards high-resolution pack-and-go displays: A survey</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Ezekiel Bhasker, Ray Juang<br />
+            <cite>Journal for the Society of Information Display (JSID), Special Issue for Selected papers from SID Symposium, 16(3), pp. 481-491, 2007</cite></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2009c.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong>Advances Towards Next Generation Flexible Multi-Projector Displays</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Ezekiel Bhasker, Ray Juang<br />
+            <cite>ACM Siggraph Workshop on Emerging Display Technologies, San Diego, August, 2007</cite></td>
+</tr>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2007f.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong>Geometric Modeling and Calibration of Planar Multi-Projector Displays Using Rational Bezier Patches</strong><br />
+            Ezekiel Bhasker, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <em>IEEE CVPR Workshop on Projector Camera Systems, Minneapolis, Minnesota, June 2007<br />
+            </em><a href="http://www.procams.org/procams2007/papers/paper4_Bhasker.pdf">paper</a><em><br />
+            </em></td>
+</tr>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/none.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong>Photometric Self-Calibration of a Projector-Camera System</strong><br />
+            Ray Juang, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <em>IEEE CVPR Workshop on Projector Camera Systems, Minneapolis, Minnesota, June 2007</em><em><br />
+            </em></td>
+</tr>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/none.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong>Self Calibrating Tiled Displays</strong><br />
+            Ezekiel Bhasker, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <em>SID Symposium Digest of Technical Papers, Long Beach, May, 2007</em><em><br />
+            </em></td>
+</tr>
+</tbody>
+</table>
+<h1>2006</h1>
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2006g.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%">
+<p><strong>Asynchronous Distributed Calibration for Scalable Reconfigurable Multi-Projector Displays</strong><br />
+            Ezekiel Bhasker, Pinaki Sinha, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a> <br />
+            <em>IEEE Transactions on Visualization and Computer Graphics, 2006</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/vis06.pdf">paper</a> <a href="http://graphics.ics.uci.edu/upload/vizvideo.mov">video</a></p>
+</td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2006b.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Contrast Enhancement of Images Using Human Contrast Sensitivity</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Sandra Irani<br />
+            <em>Proceedings of Symposium on Applied Perception in Graphics and Visualization, 2006</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/APGV06.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2006c.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong> Single Strips for Fast Interactive Rendering</strong><br />
+            Pablo Diaz-Gutierrez, Anusheel Bhushan, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a>, Renato Pajarola<br />
+            <em>The Visual Computer, 22(6), pp 372 &ndash; 386, June 2006</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/TVC06.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2006d.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Single Triangle Strip and Loop on Manifolds with Boundaries</strong><br />
+            Pablo Diaz-Gutierrez, <a href="http://www.ics.uci.edu/~eppstein/" style="text-decoration: none;">David Eppstein</a>, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>SIBGRAPI, [33%] October 2006</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/Sibgrapi06.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2006e.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Efficient and Prioritized Point Subsampling for CSRBF Compression</strong><br />
+            Masaki Kitago, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>EUROGRAPHICS Symposium on Point Based Graphics, July 2006</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/PBG06Masaki.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2006f.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Octree-Based Progressive Geometry Coding of Point Clouds</strong><br />
+            Yan Huang, Jingliang Peng, C.-C Jay Kuo, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>EUROGRAPHICS Symposium on Point Based Graphics, July 2006</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/PBG06Yan.pdf">paper </a></td>
+</tr>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/none.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong>Mobile Display Via Distributed Networked Projector-Camera Systems</strong><br />
+            Pinaki Sinha, Ezekiel Bhasker, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <em>IEEE CVPR Workshop on Projector Camera Systems, New York, June 2006<br />
+            </em><a href="http://www.procams.org/procams2007/papers/paper4_Bhasker.pdf">to be filled</a><em><br />
+            </em></td>
+</tr>
+</tbody>
+</table>
+<h1>2005</h1>
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2005p.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong>Perceptual Photometric Seamlessness in Tiled Projection-Based Displays</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Rick Stevens <br />
+            <em>ACM Transactions on Graphics, Vol. 24, No. 1, January 2005</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/TOG05.pdf">paper</a> <a href="http://graphics.ics.uci.edu/upload/results.wmv">video</a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2005n.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong> Modeling Color Properties of Tiled Displays</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>Computer Graphics Forum, June 2005</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/CGF05.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2005o.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Camera Based Calibration Techniques for Seamless Multi-Projector Displays</strong><br />
+            Ruigang Yang, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Michael Brown<br />
+            <em>IEEE Transactions on Visualization and Computer Graphics, Vol. 11, No. 2, March-April, 2005</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/TVCG05.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2005d.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong> Contrast Enhancement of Multi-Displays Using Human Contrast Sensitivity</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <em>IEEE International Conference on Computer Vision and Pattern Recognition (CVPR), 2005</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/CVPR05.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2005e.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong> Is Spatial Super-Resolution Possible with Multiple Overlapping Projectors?</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <em>Proceedings of IEEE International Conference on Audio, Speech and Signal Processing (ICASSP), 2005</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/ICASSP05.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2009c.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Camera-Based Vision Techniques to Build Large-Area Multi-Projector Displays</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Michael S. Brown<br />
+            <em>Course Organizer, IEEE International Conference on Computer Vision and Pattern Recognition (CVPR) 2005</em></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2005g.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Quadrilateral and Tetrahedral Mesh Stripification Using 2-Factor Partitioning of the Dual Graph</strong><br />
+            Pablo Diaz-Gutierrez, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>The Visual Computer, 21(8 &ndash; 10), pp 689 &ndash; 697, Sep 2005</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/PG05.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2005h.jpg" alt="" class="thumbnailimg" /></td>
+<td>
+<p><strong> Hierarchyless Simplification, Stripification and Compression of Triangulated Two-Manifolds</strong><br />
+            Pablo Diaz-Gutierrez, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a>, Renato Pajarola<br />
+            <em>Computer Graphics Forum, 24(3), pp 457&ndash;467, Sep 2005.  EUROGRAPHICS 2005 [15%], </em>(<strong>2nd Best Paper Award</strong>)<br />
+            <a href="http://graphics.ics.uci.edu/upload/Euro05.pdf">paper </a></p>
+</td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2005i.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong> Constrained Strip Generation and Management for Efficient Interactive 3D Rendering</strong><br />
+            Pablo Diaz-Gutierrez, Anusheel Bhushan, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a>, Renato Pajarola<br />
+            <em>Computer Graphics Int. Conference, 2005.[32%, Top 5% invited for journal]</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/CGI05.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2005j.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Weighted Strip Generation for Accelerated Rendering</strong><br />
+            Pablo Diaz-Gutierrez, Anusheel Bhushan, Renato Pajarola, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>ACM SIGGRAPH Sym. on Interactive 3D Graphics and Games 2005. [Poster]</em></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2005k.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Sketching Free-form Surfaces Using Network of Curves</strong><br />
+            Koel Das, Pablo Diaz-Gutierrez, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>EUROGRAPHICS Workshop on Sketch Based Interfaces and Modeling, 2005</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/SBIM05.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2005l.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Curvature Minimizing Depth Interpolation for Intuitive and Interactive Space Curve Sketching</strong><br />
+            Gautam Chaudhary, Koel Das, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>Computer Graphics International Conference, 2005. [Poster]</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/CurveSketchTR.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2005m.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Capturing and View-Dependent Rendering of Billboard Models</strong><br />
+            Anusheel Bhushan, Oliver Le, Pablo Diaz-Gutierrez, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>International Symposium on Visual Computing, 2005<br />
+            </em><a href="http://graphics.ics.uci.edu/drupal/pub/ISVC05.pdf">paper</a><em><br />
+            </em></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/none.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Luminance Management for Seamless Multi-Projector Displays</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <em>SID Symposium Digest of Technical Papers, Volume 36, Issue 1, pages 1506-1509, Boston, May 2005</em></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/none.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Greedy Algorithm for Local Contrast Enhancement of Images</strong><br />
+            Kartic Subr, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Sandra Irani<br />
+            <em>International Conference on Image Analysis and Processing (ICIAP), pp 171-179, Cagliari, Italy, September, 2005</em></td>
+</tr>
+</tbody>
+</table>
+<h1>2004</h1>
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2004f.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong>Color Non-Uniformity in Projection Based Displays: Analysis and Solutions</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Rick Stevens<br />
+            <em>IEEE Transactions on Visualization and Computer Graphics, Vol. 10, No. 2, 2004</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/TVCG02.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2009c.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Camera-Based Techniques for Building Large-Area Multi-Projector Displays</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Michael S. Brown<br />
+            <em>Course Organizer, European Conference of Computer Vision (ECCV), 2004</em></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2004c.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Single-Strip Triangulation of Manifolds with Arbitrary Topology</strong><br />
+            <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a>, <a href="http://www.ics.uci.edu/~eppstein/" style="text-decoration: none;">David Eppstein</a><br />
+            <em>Computer Graphics Forum, 23(3), pp 371&ndash;379, 2004.  EUROGRAPHICS 2004 [18%], </em>(<strong>2nd Best Paper Award</strong>)<br />
+            <a href="http://graphics.ics.uci.edu/upload/Euro04.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2004d.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong> Controllable Single-Strip Generation for Triangulated Surfaces</strong><br />
+            <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>Pacific Graphics, pp 61&ndash;69, 2004. [25%]</em><br />
+            <a href="http://graphics.ics.uci.edu/drupal/pub/PG04.pdf">paper </a></td>
+</tr>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2004a.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong>Camera Based Evaluation of Photometric Compensation Methods on Multi-Projector Displays</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <em>Proceedings of IEEE International Conference on Image Processing, pp 3527-3530, Singapore,2004</em></td>
+</tr>
+</tbody>
+</table>
+<h1>2003</h1>
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2003a.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong> Using a Camera to Capture and Correct Spatial Photometric Variation in Multi-Projector Displays</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, David Jones, Matthew McCrory, Michael E. Papka, Rick Stevens<br />
+            <em>IEEE International Workshop on Projector Camera Systems, 2003</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/PROCAM03.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2009c.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Large-Scale Displays for the Masses: Techniques for Building Affordable and Flexible Multi-Projector Displays</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Michael S. Brown<br />
+            <em>Course Organizer, ACM SIGGRAPH, 2003</em></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2003c.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong> Building Large Area Displays</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Michael S. Brown<br />
+            <em>Course Organizer, Eurographics, 2003</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/EG03_course.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2003d.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Silhouette-Opaque Transparency Rendering</strong><br />
+            O. Sen, C. Chemudugunta, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>6th IASTED Conference on Computer Graphics and Imaging, 2003, pp 153&ndash;158.</em><br />
+            <a href="http://graphics.ics.uci.edu/drupal/pub/CGIM03.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/none.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>PixelFlex2: A Comprehensive, Automatic, Casually-Aligned Multi-Projector Display</strong><br />
+            Andrew Raij, Gennette Gill, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Herman Towles, Henry Fuchs<br />
+            <em>IEEE International Workshop on Projector-Camera Systems, 2003</em></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/none.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Photometrically Continuous Imagery in Reconfigurable Large Area Displays</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Rick Stevens<br />
+            <em>3rd Annual High Information Content Display System Symposium, 2003</em></td>
+</tr>
+</tbody>
+</table>
+<h1>2002</h1>
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2002a.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong> LAM: Luminance Attenuation Map for Photometric Uniformity Across Projection Based Displays</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Rick Stevens<br />
+            <em>ACM Virtual Reality Software and Technology, 2002</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/VRST02.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2002b.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Properties of Color Variation Across Multi-Projector Displays</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a><br />
+            <em>SID Eurodisplay, 2002</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/eurodisplay.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/none.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Applying Geometry and Color Correction to Tiled Display Walls (Poster)</strong><br />
+            Justin Binns, Gennette Gill, Mark Hereld, David Jones, Ivan Judson, Ti   Leggett, <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Matthew McCroy, Michael E. Papka, Rick Stevens<br />
+            <em>IEEE Visualization, 2002</em><br />
+            <a href="http://graphics.ics.uci.edu/drupal/pub/Vizposter02.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2002d.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Hardware Accelerated Real Time Charcoal Rendering</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a> <br />
+            <em>Symposium of Non-Photorealistic Amination and Rendering, 2002</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/NPAR02.pdf">paper</a> <a href="http://graphics.ics.uci.edu/upload/egrw01.mpg">video</a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2002e.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong> Fast and Efficient Projection Based Approach for Surface Reconstruction</strong><br />
+            <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a>, S. Krishnan<br />
+            <em>Brazilian Sym. on Computer Graphics and Image Processing, SIBGRAPI 2002</em><br />
+            <a href="http://graphics.ics.uci.edu/drupal/pub/SIBGRAPI02.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2002f.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>On Sampling and Reconstructing Surfaces with Boundaries</strong><br />
+            <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>Canadian Conference on Computational Geometry, 2002, Lethbridge, Canada</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/cccg02.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2002g.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Hardware Accelerated Real Time Charcoal Rendering</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>SIGGRAPH/EUROGRAPHICS Non-Photorealistic Animation and Rendering, 2002, pp 59&ndash;66</em><br />
+            <a href="http://graphics.ics.uci.edu/drupal/pub/npar2002.pdf">paper </a></td>
+</tr>
+</tbody>
+</table>
+<h1>2001</h1>
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2001a.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong>Computer Graphics Optique: Optical Superposition of Projected Computer Graphics</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Greg Welch<br />
+            <em>Eurographics Workshop on Virtual Environment/ Immersive Projection Technology 2001</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/CGO01.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2001b.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong> Theory and Practice of Sampling and Reconstruction of Manifolds with Boundaries</strong><br />
+            <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>Ph.D. Dissertation, Department of Computer Science, University of North Carolina at Chapel Hill, 2001</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/dis.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2001c.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>BOOLE: A Boundary Evaluation System for Boolean Combinations of Sculptured Solids</strong><br />
+            S. Krishnan, D. Manocha, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a>, T. Culver, J. Keyser<br />
+            <em>Int. Journal of Comp. Geometry and Applications, 11(1), pp 105&ndash;144, Feb 2001</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/BOOLE.pdf">paper </a></td>
+</tr>
+</tbody>
+</table>
+<h1>2000</h1>
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2000a.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong>Achieving Color Uniformity Across Multi-Projector Displays</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, Zue He, Herman Towles, Greg Welch<br />
+            <em>IEEE Visualization, 2000</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/VIS00.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/2000b.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Surface Reconstruction based on Lower Dimensional Localized Delaunay Triangulation</strong><br />
+            <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a>, S. Krishnan, C. T. Silva<br />
+            <em>EUROGRAPHICS, 2000</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/Euro00.pdf">paper </a></td>
+</tr>
+</tbody>
+</table>
+<h1>1999</h1>
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/1999a.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong> Geometric Stitching for Real-Time Panoramic Image Generation Using Texture Maps</strong><br />
+            <a href="http://www.ics.uci.edu/~majumder/" style="text-decoration: none;">Aditi Majumder</a>, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a>, Brent W. Seales, Henry Fuchs<br />
+            <em>ACM Multimedia, 1999</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/MM99.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/1999b.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>Simplifying Spline Models</strong><br />
+            <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a>, D. Manocha<br />
+            <em>Comp. Geometry, Theory and Applications, 14, (1-3), pp 67-90, Nov. 1999</em><br />
+            <a href="http://graphics.ics.uci.edu/drupal/pub/CGTA.pdf">paper </a></td>
+</tr>
+</tbody>
+</table>
+<h1>1998</h1>
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/1998b.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong>Rapid Accurate Contact Determination between Spline Models using ShellTrees</strong><br />
+            S. Krishnan, <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a>, M. Lin, D. Manocha, A. Pattekar<br />
+            <em>EUROGRAPHICS 1998</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/Euro98.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/1998b.jpg" alt="" class="thumbnailimg" /></td>
+<td><strong>A Unified Approach for Simplifying Polygonal and Spline Models</strong><br />
+            <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a>, D. Manocha<br />
+            <em>IEEE Visualization 1998, pp 271-278</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/Vis98.pdf">paper </a></td>
+</tr>
+</tbody>
+</table>
+<h1>1997</h1>
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/1997a.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong>Interactive Boundary Computation of Boolean Combinations of Sculptured Solids</strong><br />
+            S.Krishnan, M.Gopi, D.Manocha, M.Mine<br />
+            <em>EUROGRAPHICS 1997</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/Euro97.pdf">paper </a></td>
+</tr>
+</tbody>
+</table>
+<h1>1994</h1>
+<table width="100%" border="0">
+<tbody>
+<tr>
+<td width="31%"><img width="240" height="120" src="http://graphics.ics.uci.edu/drupal/img/none.jpg" alt="" class="thumbnailimg" /></td>
+<td width="69%"><strong>Special Purpose Architectures for B-Splines</strong><br />
+            <a href="http://www.ics.uci.edu/~gopi/" style="text-decoration: none;">M. Gopi</a><br />
+            <em>M.S. Thesis, Supercomputer Education and Research Center, Indian Institute of Science, Bangalore, 1994</em></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+</div>
+    
+    
+                
+        
+    
+            
+    
+  </div>
+      </div>
+
+    </div>
+
+
+   
+   
+   
+        	<!-- left -->
+        
+   	<!-- right -->
+        
+
+
+ <div class="clear"></div>
+
+  </div>
+</div>
+<!-- Close Page -->
+<div id="footer">
+
+
+   <a href="http://drupal.org"><img src="/drupal/misc/powered-blue-80x15.png" alt="Powered by Drupal, an open source content management system" title="Powered by Drupal, an open source content management system" width="80" height="15" /></a><p>Donald Bren School of Information and Computer Science<br />
+University of California, Irvine - Irvine, CA 92697</p></div>
+</body>
+</html>

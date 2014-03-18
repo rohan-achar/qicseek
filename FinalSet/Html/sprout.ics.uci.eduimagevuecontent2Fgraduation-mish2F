@@ -1,0 +1,210 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta name="viewport" content="width=640" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+		<title>Imagevue Gallery graduation-mish</title>
+		<link href="imagevue/css/dtree.css" rel="stylesheet" type="text/css" />
+		<link href="imagevue/css/htmlstyle.css" rel="stylesheet" type="text/css" />
+		<link href="imagevue/css/htmlstyle.css" rel="stylesheet" type="text/css" />
+		<link media="only screen and (max-device-width: 480px)" href="imagevue/css/forIphone.css" type="text/css" rel="stylesheet" />
+				<link href="imagevue/css/forAdmin.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="imagevue/javascript/dtree.js"></script>
+		<script type="text/javascript" src="imagevue/javascript/prototype.js"></script>
+		
+		<!-- lightbox2 http://www.lokeshdhakar.com/projects/lightbox2/ -->
+		<script type='text/javascript' src='imagevue/lightbox/js/scriptaculous.js?load=effects,builder'></script>
+		<script type="text/javascript" src="imagevue/lightbox/js/lightbox.js"></script>
+		<link rel="stylesheet" href="imagevue/lightbox/css/lightbox.css" type="text/css" media="screen" />
+	</head>
+	<body>
+		
+		<!-- #header -->
+		<div id="header">Imagevue Gallery</div>
+		<!-- /header -->
+
+		<!-- #subheader -->
+		<div id="subheader">
+
+			<div id="flashlink">
+				<a href="?p=gallery#/content/graduation-mish/" title="Flash version of this page" target="_blank">Flash version &raquo;</a>
+			</div>
+
+			<div id="menu">
+				<div>
+					<img src="imagevue/images/plus_icon.png" alt="" class="openMenu"/>
+				</div>
+				<!-- JSTREE STARTS HERE -->
+				<div id="hiddenmenu">
+	<script type="text/javascript">
+	//<![CDATA[
+		d = new dTree('d');
+		d.config.inOrder = true;
+																					d.add(0,-1,"<span class='text'><span class='title'>content<\/span><span class='number'>(0)<\/span><\/span>","?content/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(1,0,"<span class='text'><span class='title'>Bay Area  Oct 2004<\/span><span class='number'>(14)<\/span><\/span>","?content/Bay Area  Oct 2004/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(2,0,"<span class='text'><span class='title'>Celebrating Maithili and Niteshs PhD completion   Aug 19 2006<\/span><span class='number'>(23)<\/span><\/span>","?content/Celebrating Maithili and Niteshs PhD completion   Aug 19 2006/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(3,0,"<span class='text'><span class='title'>Claude Castelluccias Farewell Party  July 2005<\/span><span class='number'>(2)<\/span><\/span>","?content/Claude Castelluccias Farewell Party  July 2005/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(4,0,"<span class='text'><span class='title'>Claudio and Di Phd Completion<\/span><span class='number'>(1)<\/span><\/span>","?content/Claudio and Di Phd Completion/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(5,0,"<span class='text'><span class='title'>Farewell BBQ for Jeong H Yi  Sep 2005<\/span><span class='number'>(15)<\/span><\/span>","?content/Farewell BBQ for Jeong H Yi  Sep 2005/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(6,0,"<span class='text'><span class='title'>Fun in Las Vegas<\/span><span class='number'>(7)<\/span><\/span>","?content/Fun in Las Vegas/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(7,0,"<span class='text'><span class='title'>Gabriele farewell dinner  Nov 2009<\/span><span class='number'>(1)<\/span><\/span>","?content/Gabriele farewell dinner  Nov 2009/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(8,0,"<span class='text'><span class='title'>Graduation   Summer 2010<\/span><span class='number'>(2)<\/span><\/span>","?content/Graduation   Summer 2010/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(9,0,"<span class='text'><span class='title'>Having fun at Knotts Scary Farm<\/span><span class='number'>(1)<\/span><\/span>","?content/Having fun at Knotts Scary Farm/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(10,0,"<span class='text'><span class='title'>Ivan farewell<\/span><span class='number'>(7)<\/span><\/span>","?content/Ivan farewell/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(11,0,"<span class='text'><span class='title'>Jeong H Yi PhD defense   Aug 2005<\/span><span class='number'>(5)<\/span><\/span>","?content/Jeong H Yi PhD defense   Aug 2005/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(12,0,"<span class='text'><span class='title'>Jihye Graduation Dinner<\/span><span class='number'>(1)<\/span><\/span>","?content/Jihye Graduation Dinner/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(13,0,"<span class='text'><span class='title'>Sconce BBQ   March 18 2007<\/span><span class='number'>(14)<\/span><\/span>","?content/Sconce BBQ   March 18 2007/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(14,0,"<span class='text'><span class='title'>Summer grill fest  2003<\/span><span class='number'>(23)<\/span><\/span>","?content/Summer grill fest  2003/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(15,0,"<span class='text'><span class='title'>UCI Parking Lot<\/span><span class='number'>(1)<\/span><\/span>","?content/UCI Parking Lot/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(16,0,"<span class='text'><span class='title'>ersin_john_karim_farewell<\/span><span class='number'>(33)<\/span><\/span>","?content/ersin_john_karim_farewell/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(17,0,"<span class='text'><span class='title'>graduation-mish<\/span><span class='number'>(18)<\/span><\/span>","?content/graduation-mish/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																																	d.add(18,0,"<span class='text'><span class='title'>Daniele's farewell dinner, Oct 2009<\/span><span class='number'>(1)<\/span><\/span>","?content/pictures1/","This is another pictures demo folder. These thumbnails have been created with croptobox &lt;b&gt;160x120&lt;/b&gt;","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																	document.write(d);
+		d.s(17);
+	//]]>
+	</script>
+</div>				<!-- JSTREE ENDS HERE -->
+			</div>
+
+			<div class="crumbs">
+								                                  
+					<a class="" href="?content%2F">content</a>&raquo;				                                  
+					<a class="active" href="?content%2Fgraduation-mish%2F">graduation-mish</a>[18]							</div>
+
+			<div class="clrFlt"></div>
+		</div>
+		<!-- /subheader -->
+
+		<div id="content">
+			
+	<div class="currentFolder">
+					<div class="levelUp">
+				<a href="?content%2F">
+					<img src="imagevue/images/folder_parent_128x128.png" alt="Goto parent folder" title="Goto parent folder" /><br />
+					<div align="center" class="textblock">..</div>
+				</a>               
+			</div>
+				<div class="currentFolderTitle">   
+			<h1 class="title">
+				graduation-mish			</h1>
+		   <h2 class="description">
+						   </h2>
+		</div>                 
+	</div>
+	<div id="folders">
+								</div>
+
+	<div id="thumbnails">
+									<a 	
+											href="?content%2Fgraduation-mish%2F20120609-132119-image-451-003.jpg" 
+										title="20120609-132119-image-451-003.jpg "
+					style="width: 20px; height: 20px;">
+					<span style="background: url('imagevue/images/defaultThumb.jpg') center center no-repeat; width: 0px; height: 0px;" ></span>
+				</a>
+												<a 	
+											href="?content%2Fgraduation-mish%2F20120609-132243-image-451-011.jpg" 
+										title="20120609-132243-image-451-011.jpg "
+					style="width: 20px; height: 20px;">
+					<span style="background: url('imagevue/images/defaultThumb.jpg') center center no-repeat; width: 0px; height: 0px;" ></span>
+				</a>
+												<a 	
+											href="?content%2Fgraduation-mish%2F20120609-133059-image-451-024.jpg" 
+										title="20120609-133059-image-451-024.jpg "
+					style="width: 20px; height: 20px;">
+					<span style="background: url('imagevue/images/defaultThumb.jpg') center center no-repeat; width: 0px; height: 0px;" ></span>
+				</a>
+												<a 	
+											href="?content%2Fgraduation-mish%2F20120609-133222-image-451-025.jpg" 
+										title="20120609-133222-image-451-025.jpg "
+					style="width: 20px; height: 20px;">
+					<span style="background: url('imagevue/images/defaultThumb.jpg') center center no-repeat; width: 0px; height: 0px;" ></span>
+				</a>
+												<a 	
+											href="?content%2Fgraduation-mish%2F20120609-134806-image-451-042.jpg" 
+										title="20120609-134806-image-451-042.jpg "
+					style="width: 20px; height: 20px;">
+					<span style="background: url('imagevue/images/defaultThumb.jpg') center center no-repeat; width: 0px; height: 0px;" ></span>
+				</a>
+												<a 	
+											href="?content%2Fgraduation-mish%2F20120609-154555-image-451-055.jpg" 
+										title="20120609-154555-image-451-055.jpg "
+					style="width: 20px; height: 20px;">
+					<span style="background: url('imagevue/images/defaultThumb.jpg') center center no-repeat; width: 0px; height: 0px;" ></span>
+				</a>
+												<a 	
+											href="?content%2Fgraduation-mish%2F20120609-155100-image-451-057.jpg" 
+										title="20120609-155100-image-451-057.jpg "
+					style="width: 20px; height: 20px;">
+					<span style="background: url('imagevue/images/defaultThumb.jpg') center center no-repeat; width: 0px; height: 0px;" ></span>
+				</a>
+												<a 	
+											href="?content%2Fgraduation-mish%2F20120609-164148-image-452-036.jpg" 
+										title="20120609-164148-image-452-036.jpg "
+					style="width: 20px; height: 20px;">
+					<span style="background: url('imagevue/images/defaultThumb.jpg') center center no-repeat; width: 0px; height: 0px;" ></span>
+				</a>
+												<a 	
+											href="?content%2Fgraduation-mish%2F20120609-164210-image-452-037.jpg" 
+										title="20120609-164210-image-452-037.jpg "
+					style="width: 20px; height: 20px;">
+					<span style="background: url('imagevue/images/defaultThumb.jpg') center center no-repeat; width: 0px; height: 0px;" ></span>
+				</a>
+												<a 	
+											href="?content%2Fgraduation-mish%2F20120609-164230-image-452-038.jpg" 
+										title="20120609-164230-image-452-038.jpg "
+					style="width: 20px; height: 20px;">
+					<span style="background: url('imagevue/images/defaultThumb.jpg') center center no-repeat; width: 0px; height: 0px;" ></span>
+				</a>
+												<a 	
+											href="?content%2Fgraduation-mish%2F20120609-170704-image-451-112.jpg" 
+										title="20120609-170704-image-451-112.jpg "
+					style="width: 20px; height: 20px;">
+					<span style="background: url('imagevue/images/defaultThumb.jpg') center center no-repeat; width: 0px; height: 0px;" ></span>
+				</a>
+												<a 	
+											href="?content%2Fgraduation-mish%2F20120609-170704-image-451-113.jpg" 
+										title="20120609-170704-image-451-113.jpg "
+					style="width: 20px; height: 20px;">
+					<span style="background: url('imagevue/images/defaultThumb.jpg') center center no-repeat; width: 0px; height: 0px;" ></span>
+				</a>
+												<a 	
+											href="?content%2Fgraduation-mish%2F20120609-170705-image-451-114.jpg" 
+										title="20120609-170705-image-451-114.jpg "
+					style="width: 20px; height: 20px;">
+					<span style="background: url('imagevue/images/defaultThumb.jpg') center center no-repeat; width: 0px; height: 0px;" ></span>
+				</a>
+												<a 	
+											href="?content%2Fgraduation-mish%2F20120609-170706-image-451-118.jpg" 
+										title="20120609-170706-image-451-118.jpg "
+					style="width: 20px; height: 20px;">
+					<span style="background: url('imagevue/images/defaultThumb.jpg') center center no-repeat; width: 0px; height: 0px;" ></span>
+				</a>
+												<a 	
+											href="?content%2Fgraduation-mish%2F20120609-170707-image-451-119.jpg" 
+										title="20120609-170707-image-451-119.jpg "
+					style="width: 20px; height: 20px;">
+					<span style="background: url('imagevue/images/defaultThumb.jpg') center center no-repeat; width: 0px; height: 0px;" ></span>
+				</a>
+												<a 	
+											href="?content%2Fgraduation-mish%2F20120609-170709-image-451-122.jpg" 
+										title="20120609-170709-image-451-122.jpg "
+					style="width: 20px; height: 20px;">
+					<span style="background: url('imagevue/images/defaultThumb.jpg') center center no-repeat; width: 0px; height: 0px;" ></span>
+				</a>
+												<a 	
+											href="?content%2Fgraduation-mish%2F20120609-170711-image-451-125.jpg" 
+										title="20120609-170711-image-451-125.jpg "
+					style="width: 20px; height: 20px;">
+					<span style="background: url('imagevue/images/defaultThumb.jpg') center center no-repeat; width: 0px; height: 0px;" ></span>
+				</a>
+												<a 	
+											href="?content%2Fgraduation-mish%2F20120609-170720-image-451-131.jpg" 
+										title="20120609-170720-image-451-131.jpg "
+					style="width: 20px; height: 20px;">
+					<span style="background: url('imagevue/images/defaultThumb.jpg') center center no-repeat; width: 0px; height: 0px;" ></span>
+				</a>
+						</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<p>package edu.uci;</p>
+<p>import org.openintents.hardware.SensorManagerSimulator;<br />
+  import org.openintents.provider.Hardware;</p>
+<p>import android.app.Activity;<br />
+  import android.content.Intent;<br />
+  import android.hardware.SensorListener;<br />
+  import android.hardware.SensorManager;<br />
+  import android.os.Bundle;<br />
+  import android.widget.TextView;</p>
+<p>public class testForPodcast extends Activity implements SensorListener{<br />
+    <br />
+  SensorManager mSensorManager;<br />
+  TextView tv;<br />
+  <br />
+  /** Called when the activity is first created. */<br />
+  @Override<br />
+  public void onCreate(Bundle savedInstanceState) {<br />
+  super.onCreate(savedInstanceState);<br />
+  <br />
+  Hardware.mContentResolver= getContentResolver();<br />
+  <br />
+  mSensorManager = (SensorManager) new SensorManagerSimulator( (SensorManager) getSystemService(SENSOR_SERVICE));<br />
+  Intent intent = new Intent(Intent.ACTION_VIEW, Hardware.Preferences.CONTENT_URI);<br />
+  startActivity(intent);<br />
+  <br />
+  SensorManagerSimulator.connectSimulator();<br />
+  <br />
+  registerListener();<br />
+  <br />
+  tv = new TextView(this);<br />
+  tv.setText(&quot;Hello, Android&quot;);<br />
+  setContentView(tv);<br />
+  }<br />
+  <br />
+  @Override<br />
+  protected void onResume() {<br />
+  super.onResume();<br />
+  registerListener();<br />
+  }</p>
+<p> @Override<br />
+  protected void onStop() {<br />
+  super.onStop();<br />
+  }</p>
+<p> <br />
+    <br />
+</p>
+<p> private void registerListener() {<br />
+  mSensorManager.registerListener(this,<br />
+  SensorManager.SENSOR_ACCELEROMETER |<br />
+  SensorManager.SENSOR_MAGNETIC_FIELD |<br />
+  SensorManager.SENSOR_ORIENTATION,<br />
+  SensorManager.SENSOR_DELAY_FASTEST);<br />
+  }<br />
+  <br />
+  <br />
+  float x=0.0f,y=0.0f,z=0.0f;<br />
+  float oCompass=0.0f,oPitch=0.0f,oRoll=0.0f;<br />
+  <br />
+  public void onSensorChanged(int arg0, float[] arg1) {<br />
+  if(arg0 == android.hardware.SensorManager.SENSOR_ACCELEROMETER){<br />
+  x = arg1[0];<br />
+  y = arg1[1];<br />
+  z = arg1[2];<br />
+  }<br />
+  else if(arg0 == android.hardware.SensorManager.SENSOR_ORIENTATION){<br />
+  oCompass = arg1[0];<br />
+  oPitch = arg1[1];<br />
+  oRoll = arg1[2];<br />
+  }<br />
+  tv.setText(&quot;Accelerometer:\n\t(&quot;+x+&quot;,&quot;+y+&quot;,&quot;+z+&quot;)\nOrientation:\n\t(&quot;+oCompass+&quot;,&quot;+oPitch+&quot;,&quot;+oRoll+&quot;)&quot;);<br />
+  <br />
+  }</p>
+<p> public void onAccuracyChanged(int arg0, int arg1) {<br />
+  // TODO Auto-generated method stub<br />
+  <br />
+  }</p>
+<p>}</p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

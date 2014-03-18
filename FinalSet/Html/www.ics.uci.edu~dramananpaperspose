@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Strike a Pose: Tracking People by Finding Stylized Poses</title>
+</head>
+<body bgcolor="#ffffff">
+<!-- ***********************************************************   
+                  PAPER TITLE, ABSTRACT AND BIB INFO
+****************************************************************//-->
+<br>
+<h1 align="center">&nbsp;"Strike a Pose: Tracking People by Finding
+Stylized Poses"</h1>
+<div align="center">
+<!-- <img src="kwanSplash.jpg" alt="kwanSplash"> -->
+<table border="0" width="800" cellpadding="5">
+  <tbody>
+    <tr>
+      <td><a href="../pose_TR.pdf"><img border="0"
+ src="pose_TR_cover.gif"></a></td>
+      <td><!-- *** Paper Abstract ***//--> <font size="2">
+      <p style="margin-top: 0pt; margin-bottom: 0pt;">We develop an
+algorithm for finding and kinematically tracking multiple people in
+long sequences. Our basic assumption is that people tend to take on
+certain canonical poses, even when performing unusual activities like
+throwing a baseball or figure skating. We create a <b>fully automatic</b> system that works in three stages. First, it detects people in lateral walking poses. The system then builds a discriminitive appearance model for each limb from the walking detections; we assume the features that discriminate a person in one frame will discriminate the person in other frames. Finally, the system uses the limb models in a pictorial structure framework, detecting figures in unrestricted poses in both previous and successive frames. We have run our tracker on hundreds of thousands of frames, and present and apply a methodology for evaluating
+tracking on such a large scale. We test our tracker on real sequences
+including a feature-length film, an hour of footage from a public park,
+and various sports sequences. We find that we can quite accurately
+automatically find and track multiple people interacting with each
+other while performing fast and unusual motions. </p>
+      <br>
+      <br>
+      </font><!-- ***Paper Citation//-->
+      <p> Ramanan, D., Forsyth, D. A., Zisserman, A.&nbsp;"<b>Strike a
+Pose: Tracking People by Finding Stylized Poses.</b>" <i>Computer Vision and Pattern Recognition </i>(CVPR), San Diego, CA, June 2005. <a href="../pose_TR.pdf">[pdf]</a></p>
+      <p> Ramanan, D., Forsyth, D. A., Zisserman, A.&nbsp;"<b>
+Tracking People by Learning their Appearance</b>" <i>IEEE Pattern Analysis and Machine Intelligence </i> (PAMI). Jan 2007. <a href="../tracker_journal_draft.pdf">[pdf]</a></p>
+
+<!-- ***Paper Links//-->
+      <p align="center"> 
+<a href="nips_talk.pdf"> Talk Slides</a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="http://www.msri.org/communications/vmath/VMathVideos/VideoInfo/2132/show_video">Talk Video</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="../../code/demo_people.tar"><span style='color:red;text-decoration:none;text-underline:none'>CODE</span></a>
+      </p>
+   </td>
+   </tr>
+  </tbody>
+</table>
+</div>
+<!-- ***********************************************************   
+                  EXAMPLES
+****************************************************************//-->
+<center>
+      <h1><a name="Examples"><b>Examples</b></a> </h1>
+      <p>The following movies are <a href="http://www.divx.com/divx">DIVX</a>
+encoded.</p>
+<br>
+
+<table style="text-align: left; margin-left: auto; margin-right: auto;"
+ cellspacing="2" cellpadding="2">
+  <tbody>
+    <tr>
+      <td style="text-align: center; vertical-align: bottom;"><a
+ href="../../videos/lolaRunSmooth_divx.avi"><img
+ border="0"
+ src="lolaRun.gif"
+ alt="Lola Run Movie"></a></td>
+
+      <td style="width: 200px; text-align: center; vertical-align: bottom;">
+      <a
+ href="../../videos/lolaStopSmooth_divx.avi"><img
+ border="0"
+ src="lolaStop.gif"
+ alt="Lola Stop Movie"></a>
+      </td>
+
+      <td style="width: 200px; text-align: center; vertical-align: bottom;"><a
+ href="../../videos/lolaHardSmooth_divx.avi"><img
+ border="0"
+ src="lolaHard.gif"
+ alt="Lola Hard Movie"></a>
+</td>
+    </tr>
+    <tr>
+      <td style="width: 200px; text-align: center; vertical-align: top;"><a
+ href="../../videos/lolaRunSmooth_divx.avi">'Run
+Lola Run' shot with
+occlusion </a> &nbsp;&nbsp;&nbsp;&nbsp; <br>
+      </td>
+      <td style="width: 200px; text-align: center; vertical-align: top;"><a
+ href="../../videos/lolaStopSmooth_divx.avi">'Run
+Lola Run' shot with
+changing background</a></td>
+      <td style="width: 200px; text-align: center; vertical-align: top;"><span
+ style="text-decoration: underline;"></span><a
+ href="../../videos/lolaHardSmooth_divx.avi">'Run
+Lola Run' shot with fast movement, scale change, and camera motion</a></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<table style="text-align: center; margin-left: auto; margin-right: auto" cellspacing="10" width="570">
+  <tbody>
+    <tr>
+      <td style="text-align: center; vertical-align: bottom;" width="220"><!-- *** Paper Full Movie ***//-->
+      <a href="../../videos/kwanPostSmoothGreen_divx.avi"><img border="0"
+ src="kwanPost.jpg" alt="Kwan Movie"></a>
+      </td>
+      <td style="text-align: center; vertical-align: bottom;" width="337"><!-- *** Paper Full Movie ***//-->
+      <a href="../../videos/baseballSmoothPost_divx.avi"><img border="0"
+ src="baseballPost.jpg" alt="Baseball Movie"></a>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center; vertical-align: top;" width="220"> <a
+ href="../../videos/kwanPostSmoothGreen_divx.avi">Michelle Kwan's 1998
+Olympic Performance (50 MB)</a> <br> </td>
+      <td style="text-align: center; vertical-align: top;" width="337"> <a
+ href="../../videos/baseballSmoothPost_divx.avi">Pitch from 2002 World Series </a> <br> </td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+Back to <a href="../..">home page</a>
+</center>
+</body>
+</html>
+

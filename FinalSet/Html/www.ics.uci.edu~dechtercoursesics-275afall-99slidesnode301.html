@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Syntax differences</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Syntax differences">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5872 HREF="node302.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5870 HREF="node298.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5866 HREF="node300.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5874 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5873 HREF="node302.html"> Scattered</A>
+<B>Up:</B> <A NAME=tex2html5871 HREF="node298.html"> Quintus Prolog Compatibility </A>
+<B> Previous:</B> <A NAME=tex2html5867 HREF="node300.html"> The Quintus compatibility </A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION0022143000000000000000> Syntax differences</A></H2>
+<P>
+<A NAME=qsyntax>&#160;</A>
+The list below describes the syntax differences between <A NAME=tex2html1473 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  and Quintus 
+Prolog.
+The following properties of Quintus Prolog are simulated by the
+compatibility package:
+<UL><LI> A blank is not allowed between the functor and 
+the opening bracket.
+<LI> single (resp. double) quote must be doubled between single (resp. 
+double) quote.
+<LI> The symbol <tt> |</tt>  (bar) is recognised as an alternative
+sign for a disjunction and it acts as an operator.
+<LI> newline is allowed between quotes.
+</UL>
+The following Quintus properties are <i> not</i> simulated:
+<UL><LI> the symbol <code>|</code> is not an atom.
+<LI> a clause can not be ended by end of file.
+<LI> signed numbers: explicitly positive numbers are structures.
+<LI> a real with an exponent must have a floating point.
+<LI> a space is allowed before the decimal point and the exponent sign.
+<LI> the definition of the escape sequence is more extended than in <A NAME=tex2html1474 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+ .
+<LI> <b> spy/1</b> and <b> nospy/1</b> accept as arguments lists,
+rather than comma-separated terms like in <A NAME=tex2html1475 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+ .
+</UL><BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

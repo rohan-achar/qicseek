@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: NYT likes Like</title>
+	<atom:link href="http://ngs.ics.uci.edu/nyt-likes-like/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/nyt-likes-like/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: like</title>
+		<link>http://ngs.ics.uci.edu/nyt-likes-like/comment-page-1/#comment-785</link>
+		<dc:creator><![CDATA[like]]></dc:creator>
+		<pubDate>Mon, 13 Nov 2006 16:16:00 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=658#comment-785</guid>
+		<description><![CDATA[Wow.  This is a serious innovation for the search industry.  I cant tell you how many times I&#039;ve wished I could search for similar things in an image.  I know Like.com isn&#039;t quite there yet, but it&#039;s close.]]></description>
+		<content:encoded><![CDATA[<p>Wow.  This is a serious innovation for the search industry.  I cant tell you how many times I&#8217;ve wished I could search for similar things in an image.  I know Like.com isn&#8217;t quite there yet, but it&#8217;s close.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

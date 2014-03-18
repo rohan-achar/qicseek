@@ -1,0 +1,372 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+                <title></title>
+                
+                
+                <meta content="Thu, 17 Oct 2013 08:28:02 -0380" name="date"/>
+                
+<link href="../../../bin/styles/stylesheet_secondary.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<!-- before breadcrumb_nav include -->
+ <!-- after breadcrumb_nav include -->
+
+<div id="wrapper">
+<script type="text/javascript">
+
+sfHover = function() {
+    var sfEls = document.getElementById("navcontainer").getElementsByTagName("LI");
+    for (var i=0; i<sfEls.length; i++) {
+        sfEls[i].onmouseover=function() {
+            this.className+=" sfhover";
+        }
+        sfEls[i].onmouseout=function() {
+            this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+        }
+    }
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+</script>
+
+    <div id="header" title="Welcome to the Donald Bren School of Information and Computer Sciences @ UC Irvine">
+
+           <a id="bren_link" href="/"></a>
+
+           <a id="uci_link" href="http://www.uci.edu/"></a>
+
+    </div>
+    
+    
+    <div CLASS="newbar"><p style="line-height: 0px; display: none; "></p></div>
+    
+    
+    <div id="navcontainer">
+
+                
+            <ul>
+                
+                <li>
+                
+                    <a href='/about/' title='about'>&raquo; About</a>              
+
+                    <ul>
+                        <li><a href="/about/">&raquo; About the School</a></li>
+                        <li><a href="/about/about_mission.php">&raquo; Bren ICS Mission</a></li>
+                        <li><a href="/about/about_deanmsg.php">&raquo; Dean's welcome</a></li>
+                        <li><a href="/about/bren/">&raquo; About the Bren gift</a></li>
+                        <li><a href="/about/about_factsfigures.php">&raquo; Facts and figures</a></li>
+                        <li><a href="/about/brenhall/index.php">&raquo; Donald Bren Hall</a></li>
+                        <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                        <li><a href="/about/about_contact.php">&raquo; Contact us</a></li>
+                        <LI><A HREF="/about/equity/">&raquo; Equity & diversity</A></LI>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/dept/' title='departments'>&raquo; Departments</a>
+                    <ul>
+                        <li><a href="http://www.cs.uci.edu">&raquo; Computer Science</a></li>
+                        <li><a href="http://www.informatics.uci.edu">&raquo; Informatics</a></li>
+                        <li><a href="http://www.stat.uci.edu">&raquo; Statistics</a></li>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/faculty/area/' title='research'>&raquo; Research</a>              
+                
+
+                
+                
+                
+                    <ul>
+                        <li><a href="/faculty/area/">&raquo; Research areas</a></li>
+                        <li><a href="/faculty/centers/">&raquo; Research centers</a></li>
+                        <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                    </ul>
+                </li>
+                
+                
+                
+                <li>
+                
+                    <a href='#' title='education'>&raquo; Education</a>              
+
+                    <ul>
+                        <li><a href="/grad/">&raquo; Graduate</a>
+                        
+                            <ul>                        
+                            <li><a href="/grad/admissions/index.php">&raquo; Apply</a></li>
+                            <li><a href="/grad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="http://www.reg.uci.edu/registrar/soc/fees.html">&raquo; Tuition and costs</a></li>
+                            <li><a href="/grad/courses/index.php">&raquo; Courses</a></li>
+                            <li><a href="/grad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/faculty/area/index.php">&raquo; Research areas</a></li>
+                            <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                            <li><a href="/grad/policies/index.php">&raquo; Policies &amp; forms</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/grad/phddirectory/index.php">&raquo; Recruit graduate student</a></li> -->
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->                            
+                            <li><a href="/grad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="http://www.housing.uci.edu/prospective/graduate/index.asp">&raquo; Graduate housing</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="/ugrad/">&raquo; Undergraduate</a>
+                        
+                            <ul>                        
+                            <!-- <li><a href="/ugrad/admissions/index.php">&raquo; Apply</a></li>                       
+                            <li><a href="/ugrad/events/index.php">&raquo; Campus visits</a></li>
+                            -->
+                            <li><a href="http://www.ics.uci.edu/~lab/">&raquo; Computer lab information</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/ugrad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="/ugrad/courses/index.php">&raquo; Course listings</a></li>                     
+                            <li><a href="/ugrad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="/ugrad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/ugrad/financial/index.php">&raquo; Financial aid</a></li>                         
+                            <li><a href="http://honors.ics.uci.edu/">&raquo; Honors program</a></li>
+                            <li><a href="http://www.housing.uci.edu/">&raquo; Housing</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Internship program</a></li>                         
+                            <li><a href="/ugrad/policies/index.php">&raquo; Policies</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->
+                            <!-- <li><a href="http://www.dos.uci.edu/orientation/">&raquo; Recently admitted</a></li> -->
+                            <li><a href="http://student-council.ics.uci.edu/">&raquo; Student Council</a></li>
+                            <li><a href="/ugrad/life/index.php">&raquo; Student life</a></li>   
+                            <li><a href="/ugrad/resources/index.php">&raquo; Student resources</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Summer internships</a></li>
+                            <li><a href="https://techjobs.uci.edu/">&raquo; Tech Jobs</a></li>
+                            <li><a href="http://www.ofas.uci.edu/content/costs.aspx?nav=1">&raquo; Tuition and costs</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li><a href="http://www.ics.uci.edu/prospective">&raquo; Prospective undergrad</a></li>
+
+
+                        <li><a href="http://www.parents.uci.edu/">&raquo; UCI parents</a></li>
+                        
+                                                    
+                    </ul>               
+                </li>
+
+    
+                <li>
+                    
+                    <a href='#' title='people'>&raquo; People</a>                      
+                    
+                
+                    <ul>
+                        <li><a href="/faculty/">&raquo; Faculty</a></li>
+                        <li><a href="/about/search/index.php">&raquo; Staff</a></li>
+                        <li><a href="/about/search/search_graduate_all.php">&raquo; Graduate students</a></li>
+                    </ul>   
+                </li>
+                                
+                
+                <li> 
+                
+                    <span id=specialborder><a href='#' title='community'>&raquo; Community</a></span>                    
+                    <ul>
+                        <li><a href="/community/alumni/">&raquo; Alumni</a></li>
+                        <li><a href="/community/friends/">&raquo; Friends</a></li>
+                        <li><a href="http://www.uadv.uci.edu/parents/">&raquo; Parent programs</a></li>
+                        <li><a href="/community/friends/leadershipcouncil/">&raquo; Leadership Council</a></li>
+                        <li><a href="http://www.uadv.uci.edu/DonaldBrenSchoolOfICSAnnualGiving">&raquo; Make a gift</a></li>
+                        <li><a href="/community/news/">&raquo; News</a></li>
+                    </ul>   
+                </li>
+
+                <li>
+                
+                    <a href='/involved/' title='get involved'>&raquo; Get Involved</a>              
+                
+                
+                    <ul>
+                    
+                            <LI><A HREF="/involved/tech_talk">&raquo; Tech talks</A></LI>
+                            <LI><A HREF="/involved/information_session">&raquo; Information sessions</A></LI>
+                            <!--<LI><A HREF="/involved/">&raquo; Join industry panel</A></LI>-->
+                            <LI><A HREF="/involved/project_class">&raquo; Sponsor projects</A></LI>
+                            <LI><A HREF="/involved/leadership_council">&raquo; Leadership Council</A></LI>
+                            <LI><A HREF="/involved/corporate_partner">&raquo; Corporate Partners</A></LI>
+                            <LI><A HREF="/involved/internship">&raquo; Sponsor interns</A></LI>
+                            <LI><A HREF="https://techjobs.uci.edu/">&raquo; Tech Jobs</A></LI>
+                            <!--<LI><A HREF="">&raquo; Support student groups</A></LI>-->
+                            <LI><A HREF="/community/events/butterworth/">&raquo; Butterworth Competition</A></LI>
+                            
+                    </ul>               
+                </li>
+                
+                    
+
+            </ul>
+
+<style type="text/css">@import url("/bin/icssearchstyle/css/icssearch.css");</style>
+<script src="/bin/icssearchstyle/js/icssearch.js" type="text/javascript"></script>
+<script src="/bin/icssearchstyle/js/icssearchform.js" type="text/javascript"></script>
+
+
+
+    </div>
+<!-- before breadcrumb_nav() print -->
+<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/news/">News</a> &gt; <a href="http://www.ics.uci.edu/community/news/articles/">Articles</a>] --><A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/news/">News</a> &gt; <a href="http://www.ics.uci.edu/community/news/articles/">Articles</a></div>
+<!-- after breadcrumb_nav() print -->
+
+<div id="content"><a id="startcontent" name="startcontent"></a>  
+<div id="content_title"></div>
+
+<blockquote>
+<div id="content_text">
+
+<br/>
+
+<!-- inc publications_db -->
+
+ <strong>January 5,  2014</strong><p><i>Pittsburgh Post-Gazette</i><p><strong>College football fans just might miss the BCS</strong><p><strong>By: Mark Dent</strong><br><p>
+<P>
+<I>Read the story below or view it on the 
+<A HREF="http://www.post-gazette.com/sports/2014/01/06/Fans-just-might-miss-the-BCS-New-playoff-system-still-far-from-perfect/stories/201401060098">Pittsburgh Post-Gazette</A> website.</I>
+
+
+
+
+
+
+<p>It's OK as a college football fan to admit you got so mad at the Bowl Championship Series these past 15 years that you cursed furiously at an object so vague and inanimate that it wasn't actually an object, just a series of rules comprising an algorithm.</p>
+
+<p>So many of us did. Utah's attorney general threatened a lawsuit. Congress formed a Playoff PAC. Then-candidate Barack Obama discussed a need to lobby for a college football playoff as part of his 2008 presidential platform, focusing his wrath on the faceless, non-breathing aspect of the system he loathed.</p>
+
+<p>"You know, I'm fed up with these computer rankings," he said in an ESPN interview in 2009.</p>
+	
+
+
+<p>Always the computers. When people thought BCS, they thought computers. And when people thought BCS, they thought of the corruption of a strained, authoritarian government puttering along desperately and arbitrarily as it attempted to maintain control over a system everyone wanted to see gone in favor of a playoff.</p>
+
+<p>After tonight's championship matchup between Auburn and Florida State is played at the Rose Bowl in Pasadena, Calif., the BCS is gone, replaced by a four-team playoff for next year that is almost unanimously regarded as a better alternative.</p>
+
+<p>But the computers are gone, too. College football has handed complete power to 13 humans, known as the College Football Playoff Committee, spearheaded by Bill Hancock, the guy in charge of the BCS for the past four years. The committee members have been charged to use whatever means they believe to be most useful to select the four best teams.</p>
+
+<p>The rest of society thrives using quantitative analysis. Companies comb for big data to best suit their products for consumers. Statistician and writer Nate Silver's election projections were nearly dead-on and upset the establishment. College football, though, is moving away from these practices, writing a neo-romantic script, leading to a question of whether the sport has cast too much blame on quantitative analysis for its past problems and is not emphasizing it enough as the playoff system begins.</p>
+
+<p>"I thought the computers were always put in the position of the fall guys," said <STRONG>Hal Stern</STRONG>, a statistics professor at the University of California-Irvine who, in a 2006 paper, implored all quantitative analysts to disassociate from the BCS because of the system's mismanagement. "If the two polls [writers' and coaches'] disagree with the computers, then it's always the computers' fault."</p>
+
+<p>Five of the people in charge of formulating the six computer rating components of the BCS -- Ken Massey, Jeff Sagarin, Richard Billingsley, Jeff Anderson and Wes Colley -- spoke with the Pittsburgh Post-Gazette. Not wanting to sound bitter, they do have a message: Life might not be as easy without the computers.</p>
+
+<p>"We were never intended to really contribute to the formula, just to be a lightning rod," Massey said. "Anytime something went wrong, they would have someone to blame."</p>
+
+<p>Manipulated math</p>
+
+<p>Sports journalist Dan Wetzel, author of "Death to the BCS," co-written with Jeff Passan and Josh Peter, would prefer a 16-team playoff, but with the conditions set as they are for the new four-team playoff, he would suggest having a computer rating system select the teams. Let one transparent formula grade the four best teams. Let every fan, coach and player know what will lead to a top ranking.</p>
+
+<p>"That obviously has zero traction," Wetzel said. " ... I find the people that run college athletics to not really be into the college part."</p>
+
+<p>The people in charge of the BCS -- and they are now in charge of the College Football Playoff Committee -- weren't just averse to academia. In recent years, they arguably committed atrocities against the concept of mathematics.</p>
+
+<p>The trouble started in 2000 after Roy Kramer, the first BCS director, stepped down. Two years in a row, first with the inclusion of Florida State in the national title game in 2000 and then with Nebraska in 2001, the BCS faced controversy because the human polls had other teams ranked higher.</p>
+
+<p>The public outcry was loud enough that Mike Tranghese, then-director of the BCS and now a member of the College Football Playoff Committee, ordered all the rating systems to remove margin of victory from their formulas. Anderson's, Hester's and Colley's rating systems didn't account for margin of victory. Anderson said he still thinks the change made the BCS better.</p>
+
+<p>Other computer pollsters such as David Rothman and Herman Matthews saw manipulation and withdrew their ratings after Tranghese's decision. Because people didn't trust the computers, the BCS essentially neutered them. Stern, the California-Irvine professor, describes the decision to remove margin of victory as a means for the BCS to "achieve whatever they wanted."</p>
+
+<p>Sagarin, who computes what he considers a superior ranking that includes margin of victory on the USA Today website, said a win-loss method without margin of victory tends to agree with the human polls, which account for two-thirds of a team's overall BCS standing. Sagarin said Kramer wanted computer ratings that would balance out the bias of the polls, and Tranghese's decision countered that purpose.</p>
+
+<p>Fans and the media trusted the polls, not the quantitative analysis. The computers were now programmed to help the BCS avoid controversy.</p>
+
+<p>Despite the top two teams in the final BCS standings matching the top two teams in the polls every year since 2004, the media has continued to make the same, often circular, complaints against the computers, chastising them at times for not including margin of victory.</p>
+
+<p>"The media were the people who caused that to happen," Massey said.</p>
+
+<p>The advantages of computers were rarely discussed, partially because computer rating systems are complicated and unexciting for most. Stern said they lack the built-in biases that, for instance, lead poll voters to believe historical powers like Oklahoma will be better than Baylor. The computer ratings can better account for complicated variables like strength of schedule and better predict and measure the quality of a team that is unheralded in the human polls. In the first week of the BCS standings this season, for instance, the average computer rating of Auburn was No. 7 while the other polls rated it No. 16.</p>
+
+<p>The rating systems had flaws on their own, too, aside from the BCS' mismanagement. Billingsley's formula has been criticized for carrying over a team's end-of-year rating from the previous season into the next season regardless of personnel changes. Colley missed a score while entering his final ratings of 2010, causing LSU to be ranked 10th in the BCS standings and Boise State 11th when it should have been the other way around.</p>
+
+<p>Colley is the only person who releases the formula for his ratings publicly; others don't for proprietary purposes. Transparency has never been the BCS' strong suit.</p>
+
+<p>The confusing new order</p>
+
+<p>The College Football Playoff Committee has revealed little about its plans. It is made up almost entirely of former or current college athletic administrators or coaches, aside from former Secretary of State Condoleezza Rice and retired journalist Steve Wieberg. Hancock, executive director of the College Football Playoff, has promised integrity and transparency -- eventually.</p>
+
+<p>"We will be as transparent as possible," he said in an October teleconference. "That was one of the first steps that our management committee took when they created the playoff, was insisting on transparency. Now, we don't know what that means exactly, but there will be a defined set of procedures that will be made public."</p>
+
+<p>Jeff Long, committee chairman and former Pitt athletic director, said on the teleconference the committee will have a "bunch of data" to digest and analyze. Colley questioned the efficacy of such a practice if there is no clear baseline -- the BCS had six defined computer rating systems -- or whether the committee, which lacks anyone with a background in quantitative analysis, could properly utilize the data they gather.</p>
+
+<p>The lone clear method of the committee is one known well to college football fans: the poll. Each member of the committee will make individual ballots throughout the year -- they will not be released publicly -- to form a single poll of the top 25 teams.</p>
+
+<p>"The idea of ranking your teams alone is ... I don't know," Wetzel said. "I don't even know what to say to those guys anymore. It's like people telling you two plus two is five and slapping each other on the back."</p>
+
+<p>Next season, the College Football Playoff Committee will have no computers to fall back on -- or blame. Sagarin sees the removal of the computer ratings as a move away from fairness. Computers don't cave to politics. Humans do.</p>
+
+<p>"There is going to be huge institutional pressure on that committee not to rock the boat," Sagarin said. "And the boat is the boat that's created by the media."</p>
+
+<p>Done the right way, Sagarin, Stern, Massey, Anderson and the other quantitative analysts say there is a place for computer ratings in college football's newest postseason incarnation, as an option or even as a necessity to prevent too much bias and politics from creeping in. Colley said fans have gotten smarter and more open to data, and less likely to send him emails questioning his ability to evaluate sports and tell him to "go back to playing Magic."</p>
+
+<br><TITLE>College football fans just might miss the BCS</TITLE>
+
+</div>
+</blockquote>
+</div>
+<div id="sidebar"><div id="sidebar_title">More community &#187;</div>
+<ul>
+<li><a href="../../alumni/index.php">Alumni</a></li>
+<li><a href="../../friends/index.php">Friends</a></li>
+<li><a href="http://www.parents.uci.edu/">Parents</a></li>
+<li><a href="../../friends/leadershipcouncil/index.php">Leadership Council</a></li>
+<li><a href="../index.php">News</a></li>
+<li><a href="https://ua-web.uadv.uci.edu/eGiving/">Give a gift</a></li>
+</ul>
+<div>
+<div id="sidebar_title">More news and events &#187;</div>
+<ul>
+<li><a href="../press/index.php">Press
+ releases</a></li>
+<a href="http://www.ics.uci.edu/community/news/press/index.php">				</a>
+<li><a href="index.php">In the 
+news</a></li>
+<li><a href="../notes/index.php">Noteworthy
+ achievements</a></li>
+<a href="http://www.ics.uci.edu/community/news/notes/index.php">				</a>
+<li><a href="http://www.youtube.com/UCIBrenICS">Video highlights</a></li>
+<li><a href="../spotlight/index.php">Spotlight</a></li>
+<li><a href="http://calendar.ics.uci.edu/calendar.php">Calendar of 
+events</a></li>
+</ul>
+<!-- -->
+<!-- -->
+<!-- -->
+<!--
+<div id="sidebar_title">Noteworthy archive &#187;</div>
+<ul>
+<li><a href="/ICS/ics/community/news/notes/notes_2009">2009</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2008">2008</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2007">2007</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2006">2006</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2005">2005</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2004">2004</a></li>
+</ul>
+</div>
+--></div></div>
+<div id="footer"><a href="http://www.uci.edu/copyright.php">Copyright Inquiries</a> |
+   <a href="http://www.uci.edu/cgi-bin/phonebook">UCI Directory</a> |
+   <a href="http://intranet.ics.uci.edu/">Intranet</a> |
+   
+   <!-- <a href="http://www.ics.uci.edu/sitemap.php">Site Map</a> | -->
+ 
+  <a href="mailto: i%63%73%77%65%62m%61s%74%65r@%69c%73%2e%75c%69%2eedu">icswebmaster</a> |
+Updated: 
+October 17 2013</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-605898-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

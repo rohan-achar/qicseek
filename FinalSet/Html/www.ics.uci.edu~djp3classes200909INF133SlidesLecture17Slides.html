@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="description" content="User Interaction: Intro to Multi-Touch Asst. Professor Donald J. Patterson INF 133 Fall 2009  Multi-Touch Approach #1 There are specific multi-touch/gesture events that you can register for: Pinching movements (in or out)  meaning zoom out or zoom in  Rotate: Two fingers moving in opposite semicircles is a gesture meaning rotate.Swipe: Three fingers brushing across the trackpad surface in a common direction.Scroll: Two fingers moving vertically or horizontally is a scroll gesture.  Multi-Touch Approach #1 Advantages: Simple to code OS does all the work Disadvantages No flexibility Limited to supported events  Multi-Touch Approach #1 Examples: Multiple image browsing in Preview Zoom Scale Swipe   Multi-Touch Approach #2 Blob tracking A program receives information about the location/”pressure”/orientation of multiple touches Each touch gets an id to uniquely identify it This is a stream of data continuously updating locations and ids   Multi-Touch Approach #2 Advantages Supports unlimited numbers of touches two hands / multiple people Allows completely new interface design “3-finger pinch” OS does a lot of work to find and report blobs   Multi-Touch Approach #2 Disadvantages The program has to figure out all events itself Was that a pinch? Was that a rotate? Where is the thumb?   Multi-Touch Approach #2 Examples MacMultitouch Demo   Multi-Touch Approach #3 Grayscale input A program receives a stream of images Darker (or lighter) colors indicates pressure or proximity    Multi-Touch Approach #3 Advantages Maximum flexibility Not restricted to “finger touch” paradigm Can recognize a “cup down” event for example    Multi-Touch Approach #3 Disadvantages This is full-fledged computer vision Different technologies generate different quality images Robustly and consistently recognizing events is hard.    Multi-Touch Approach #3 Disadvantages This is full-fledged computer vision Different technologies generate different quality images Robustly and consistently recognizing events is hard.    Multi-Touch Approach #3 Examples iShred http://www.youtube.com/watch?v=eZpnzzKbY2I&amp;feature=player_embedded   How do you choose? How fast do you need to get your application done? #1 is fastest, #3 is slowest Who are your users? #1 is the most familiar to users, #3 requires users to adapt What is your application? #1 is basically point and click extensions #3 supports crazy gaming Are you showcasing multi-touch? or supporting a task?  Our assignment Build a multi-touch Java paint application No OS support  Our assignment Where are we going to get a grayscale input? You can build your own You can use prerecorded video  Our assignment How will we interface to the computer? Use standard camera inputs  Our assignment How will we process it without OS support? We will use Community Core Vision to process the grayscale images   Our assignment How will will our application get information about multi-touch events? Using the TUIO standard and a TUIO library for java  Our assignment How will will I write a multi-touch application? Register for multi-touch events and then respond when you receive them."/>
+    <title></title>
+    <script type="text/javascript" language="javascript">
+//      <![CDATA[
+            var images = new Array (21);
+            images[0] = "Lecture17Slides_files/Lecture17Slides.001.png";
+            images[1] = "Lecture17Slides_files/Lecture17Slides.002.png";
+            images[2] = "Lecture17Slides_files/Lecture17Slides.003.png";
+            images[3] = "Lecture17Slides_files/Lecture17Slides.004.png";
+            images[4] = "Lecture17Slides_files/Lecture17Slides.005.png";
+            images[5] = "Lecture17Slides_files/Lecture17Slides.006.png";
+            images[6] = "Lecture17Slides_files/Lecture17Slides.007.png";
+            images[7] = "Lecture17Slides_files/Lecture17Slides.008.png";
+            images[8] = "Lecture17Slides_files/Lecture17Slides.009.png";
+            images[9] = "Lecture17Slides_files/Lecture17Slides.010.png";
+            images[10] = "Lecture17Slides_files/Lecture17Slides.011.png";
+            images[11] = "Lecture17Slides_files/Lecture17Slides.012.png";
+            images[12] = "Lecture17Slides_files/Lecture17Slides.013.png";
+            images[13] = "Lecture17Slides_files/Lecture17Slides.014.png";
+            images[14] = "Lecture17Slides_files/Lecture17Slides.015.png";
+            images[15] = "Lecture17Slides_files/Lecture17Slides.016.png";
+            images[16] = "Lecture17Slides_files/Lecture17Slides.017.png";
+            images[17] = "Lecture17Slides_files/Lecture17Slides.018.png";
+            images[18] = "Lecture17Slides_files/Lecture17Slides.019.png";
+            images[19] = "Lecture17Slides_files/Lecture17Slides.020.png";
+            images[20] = "Lecture17Slides_files/Lecture17Slides.021.png";
+            var index = 0;
+            function WindowLoaded(evt)
+            {
+                document.body.onselectstart = function () { return false; };
+            }
+            function Step(i)
+            {
+                GoTo(index + i)
+            }
+            function GoTo(newIndex)
+            {
+                if(newIndex >= 0 && newIndex < images.length)
+                {
+                    index = newIndex;
+                    document.Slideshow.src = images[index];
+                }
+            }
+//      ]]>
+    </script>
+</head>
+<body bgcolor="black" onload='WindowLoaded(event);'>
+    <p align="center">
+        <br/>
+        <br/>
+        <img name="Slideshow" alt="" src="Lecture17Slides_files/Lecture17Slides.001.png" onclick="Step(1)"/>
+        <br/>
+        <br/>
+        <input type="image" src="Lecture17Slides_files/home.png" onclick="GoTo(0)"/>
+        &nbsp;&nbsp;&nbsp;
+        <input type="image" src="Lecture17Slides_files/prev.png" onclick="Step(-1)"/>
+        <input type="image" src="Lecture17Slides_files/next.png" onclick="Step(1)"/>
+    </p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

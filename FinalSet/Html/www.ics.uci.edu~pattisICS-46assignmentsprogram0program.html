@@ -1,0 +1,714 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+  <title>Program 0</title>
+</head>
+
+<body BGCOLOR="white">
+
+<center>
+<h1>Program 0</h1>
+<h1>Learning to Use Eclipse/C++, Course Libraries,<br>
+    GoogleTest, and Checkmate</h1>
+<p>
+<h2>ICS-46: Data Structure Implementation and Analysis
+</h2>
+<p>
+</center>
+
+
+<!-- Introduction -->
+
+<a name="Introduction">
+<hr align="left" width="33%">
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>Introduction</b></td>
+<td width ="80%">
+This "programming assignment" is designed to ensure that you know how to
+  use -at least in a cookbook way-
+  <b>Eclipse</b> (for editing, running, and debugging C++ programs, after
+    installing the course library),
+ <b>GoogleTest</b> (and driver programs, for testing and locating errors in
+    code), and <b>Checkmate</b> for submitting programs for grading.
+<p>
+You will start this programming assignment similarly to others this quarter.
+<ul>
+<li>First you will download, unzip an Eclipse Start Project Folder.
+<p>
+<li>Second, you will start Eclipse, create a C++ project (using the downloaded
+      project folder, as the existing source) and then configure the project for
+      use with the <b>courselib</b> and <b>googletestlib</b> libraries (as you
+      will for most programming assignments).
+<p>
+<li>Third, you will use a driver program and GoogleTest to test code that I
+      have provided in the start project folder (and later for code you write).
+<p>
+<li>Fourth, when you have corrected the program, you will submit its
+      <b>.hpp</b> file using the Checkmate submission system.
+</ul>
+For all later assignments, I will not be providing as much code as I do in
+  this assignment, because the focus of this assignment is using tools,
+  not writing code; the focus of the later assignments is writing code
+ using the tools that you are learning in this assignment.
+<b>But</b> that assumes that you learn how to use these tools now.
+There is actually just one error in this code, and this write-up will
+  detail where it is and how to fix it.
+So the purpose of this assignment is not to fix the error, but instead to become
+  familiar with the tools you will use throughout the quarter.
+<p>
+I encourage you to work on this assignment in pairs, with someone in
+  your lab section.
+This quarter you can work in pairs on all the programming assignments.
+Normally, when you work in a pair, <b>only one student should submit the
+  assignment</b>, which should contain both students' names appearing in the
+  comments at the top of each submitted <b>.hpp</b> or <b>.cpp</b> file.
+But for this assignment, I want each student to submit the program using
+  the Checkmate submission system, so I'll know that every student knows how
+  to use it.
+<p>
+You may want to print this document and carefully read it, marking any parts
+  that contain important information (for review before you turn in the file);
+  you might want to save the copy you marked-up.
+This is the first quarter that I am using this document, so please report any
+  problems (even just typos) to me.
+I expect you to read this entire document and perform all the operations it
+  describes...maybe even more than once.
+</td>
+</tbody>
+</table>
+
+
+<!-- Download/Unzip -->
+
+<a name="download">
+<hr align="left" width="33%">
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>Download and Unzip</b></td>
+<td width ="80%">
+Download (onto your desktop) and unzip the following 
+  <a href="program0.zip">Eclipse Start Project Folder</a>.
+Generally if you right-click the <b>.zip</b> file, one of
+  the optionis available will unzip the file: <b>Izarc</b>
+  and <b>WinZip</b> are two common programs, both further
+  specify an <b>Extract [to] Here</b> option.
+If you have any problems ask one of the staff for help.
+<p>
+The resulting unzipped folder has contains a <b>src</b> folder (as
+  all Eclipse/C++ projects do) in which are nested the <b>.hpp</b> and
+  <b>.cpp</b> files for the programming project.
+This project contans five files.
+The <b>src</b> folder contains four files.
+<ul>
+  <li>The <b>linear_array_queue.hpp</b> file implements a queue data type
+       (but with one bug).
+  <li>The <b>driver.cpp</b> and <b>driver_queue.cpp</b> files, which we use
+        to test drive the <b>LinearArrayQueue</b>
+  <li>The <b>test_queue.cpp</b> file which contains a GoogleTest for any
+        implementation of a queue.
+</ul>
+There is also a file named <b>load.txt</b>, outside the <b>src</b> folder,
+  which is used with the <b>l</b> command in the driver.
+</td>
+</tbody>
+</table>
+
+
+
+<!-- Start Eclipse, Create a Project, Install Libraries -->
+
+<a name="eclipse">
+<hr align="left" width="33%">
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>Start Eclipse, Create a C++<br>
+                    Project, and Configure<br>
+                    Eclipse to use the courselib</b></td>
+<td width ="80%">
+Next you need to start Eclipse and create a project using the project folder
+  you just downloaded as the existing source.
+If you have not already installed a <b>courselib</b> project in Eclipse, follow
+  the <b>Courselib Installation</b> instructions at the start of
+  <a href="../../../common/modules46/courselib.html">Courselib Installation</a>.
+Once you have correctly created a <b>courselib</b> project and built it,
+  follow the <b>Creating a Project that Uses the Courselib</b> instructions
+  later in this document for creating a new project and configuring it to use
+  the <b>courselib</b>.
+For uniformity, use the name <b>Program0</b> for your project's name.
+I did these operations from memory in 2 minutes: if it takes you longer
+  than 5 minutes, practice more.
+<p>
+Later in this handout you will be instructed to install/use the
+  <b>googletest</b> library, which is not needed yet.
+For most projects later in the quarter, when you create the project you should
+  immediately configure it to use both libraries.
+<p>
+The <b>LinearArrayQueue</b> files in this project defines almost correct
+  class that implements the behavior of a queue data type: it is a simpler to
+  understand but less efficient version of the <b>ArrayQueue</b> class in the
+  <b>courselib</b>.
+You will be implementing lots of (abstract) data types, like this one, during
+  the quarter.
+A queue is a simple FIFO data type, adhering to the First-in First-out order
+  property.
+Queues enqueue values to their rear and dequeue values from their front, so
+  these are the two "hot spots" that must be efficiently accessed in any data
+  structures that implements a queue.
+
+<p>
+We can implement the queues data type efficiently by using either an array or
+  linked list data structure.
+The queue type implementation in this programming assignment,
+  <b>LinearArrayQueue</b>, declares the required instance variables and needed
+  methods using an array data structure: the front of the queue is always
+  stored at index 0; the rear is stored at a higher index in the array.
+Using a linear array is conceptually simple to understand and program,
+  but it has a slower-than-necessary <b>dequeue</b> operation (when compared
+  with using a circular array data structure used in the <b>ArrayQueue</b>
+  class, which we will discuss later in lecture): it always requires
+  looping through an array.
+When all the necessary libraries are installed, this class compiles and can
+  be tested in the driver and via GoogleTest; but it is incorrect, so it
+  results in a few execution/run-time errors.
+</td>
+</tbody>
+</table>
+
+
+<!-- Run Driver -->
+
+<a name="driver">
+<hr align="left" width="33%">
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>Run the Driver</b></td>
+<td width ="80%">
+Each data type that we will discuss this quarter has a "driver" program that
+  allows us to "drive it": to call (test) each of its methods and observe the
+  results.
+The driver for queues is in the class named <b>DriverQueue</b> stored in the
+  <b>driver_queue.cpp</b> file in the <b>src</b> folder in <b>courselib</b>.
+<p>
+To run this driver program on the <b>LinearArrayQueue</b> I have already done
+  the following (but you will have to do something similar in later projects
+  so carefully observe these changes here).
+<ul>
+  <li>Copy the <b>driver_queue.cpp</b> file from the <b>src</b> folder in
+        <b>courselib</b> to the current project.
+  <li>In the <b>driver_queue.cpp</b> file, change the <b>typedef</b> in line 13
+      from
+        <b><pre>typedef ics::ArrayQueue<std::string> QueueType;</pre></b>
+      to
+        <b><pre>typedef ics::LinearArrayQueue<std::string> QueueType;</pre></b>
+  <li>In the <b>driver.cpp</b> file, ensure the <b>#include</b> on line 1 
+        refers to <b>"driver_queue.cpp"</b> and ensure the definition on
+        line 4 refers to <b>ics::DriverQueue d;</b>
+</ul>
+Again, when a file name appears in your project's <b>src</b> folder and also in
+the <b>courselib</b>'s <b>src</b> folder, the one appearing in the project will
+be the one used.
+<p>
+Because I already made all these changes in the downloaded project folder,
+  just build and run this program: the <b>main</b> in <b>driver.cpp</b>
+  constructs a <b>driver_queue</b> object that tests the
+   <b>LinearArrayQueue</b> implementation of a queue data type.
+<p>
+The program should now start running in the <b>Console</b> tab at the bottom
+  of Eclipse.
+The console window will display the queue being manipulated (now empty)
+ and the following menu of options that you can use to call/test each queue
+ method.
+<!--- </td></tbody></table> --->
+<p>
+<img src="images/rundriverconsole.jpg"></img>
+<p>
+<!--- <table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>&nbsp;</b></td>
+<td width ="80%">
+--->
+Note that this driver tests a queue that stores <b>std::string</b> values.
+You must enter a string to test any Mutator (Command) or Accessor (Query)
+  method.
+Of special note is the <b>it</b> command, which constructs and tests an
+  iterator for this queue: it has its own submenu of options applicable
+  for iterators (which is the same for every data type).
+<p>
+Note that the queue being manipulated prints before the menu using its
+  <b>.str()</b> queury, that starts with the data type (here <b>queue</b>)
+  followed by the enqueued values in brackets.
+Afterwards are all the data members in the implementing class and their values.
+In an <b>LinearArrayQueue</b>...
+<ul>
+  <li>...the <b>length</b> is the length of its array.
+  <li>...the <b>used</b> is the number of array indexes containing value values
+        (always <= <b>length</b>).
+  <li>...the <b>mod_count</b> counts the number of modifications made to the
+        queue since its construction.
+</ul>
+The <b>&lt;</b> command shows just the <b>queue[]</b> part of the <b>.str()</b>
+  command.
+This relationship is true for how <b>&lt;&lt</b> and <b>.str()</b> are
+  related for all classes: the <b>.str()</b> version produces more detailed
+  information that is often used for debugging.
+<p>
+Issue the <b>m</b>, <b>s</b>, and <b>p</b> commands to query the state of
+  the empty queue.
+The driver should show the following.
+<!---</td></tbody></table>--->
+<p>
+<img src="images/rundriverconsolemsp.jpg"></img>
+<p>
+<!---<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>&nbsp;</b></td>
+<td width ="80%">
+--->
+The <b>peek</b> method returns a reference to the queue's first value (which
+  the driver prints); but it cannot work correctly on an empty queue.
+Notice what is printed instead: the thrown exception
+  (<b>EmptyError</b>) and the <b>Class::method</b> that raised the error.
+Thus, the driver just ignores this command and we can continue driving the
+  <b>LinearArrayQueue</b> class.
+<p>
+Next issue the <b>e</b> command and enqueue <b>test1</b> when prompted.
+This method returns the number of values enqueued to the queue
+  (for queues, which can contain duplicate values, it always returns
+  <b>1</b>; for sets, which cannot contain duplicate values, this method
+  may return <b>0</b> if the value is already in the set).
+The queue now prints (before the next menu) as
+<b><pre>queue q = queue[test1]:rear(length=1,used=1,mod_count=1)</pre></b>
+which shows...
+<ul>
+  <li>...the queue now contains the value <b>test1</b> (and the rear of the
+        queue is indicated by <b>:rear</b>: this annotation makes more sense
+        when the queue contains more than one value).
+  <li>...the length of the array holding the queue values has increased to
+        <b>1</b>.
+  <li>...the queue is using <b>1</b> value in the array.
+  <li>...the queue has been mutated <b>1</b> time since being constructed:
+        the previous accessors/queries are not counted.
+</ul>
+<p>
+Next issue the <b>e</b> command again and enqueue <b>test2</b> when prompted.
+The queue now prints (before the next menu) as
+<b><pre>queue q = queue[test1,test2]:rear(length=2,used=2,mod_count=2)</pre></b>
+Order is important in queues: the earlier a value is enqueued, the earlier it
+  appears in the array.
+Notice that both <b>length</b> and <b>used</b> increase to <b>2</b>.
+<p>
+Next issue the <b>e</b> command again and enqueue <b>test3</b> when prompted.
+The queue now prints (before the next menu) as
+<b><pre>queue q = queue[test1,test2,test3]:rear(length=4,used=3,mod_count=3)</pre></b>
+Notice that <b>length</b> increases to <b>4</b> while <b>used</b> increases to
+  <b>3</b>: generally if there is not enough room in an array its length is
+  doubled.
+The driver should show the following.
+<p>
+<!---</td></tbody></table>--->
+<p>
+<img src="images/rundriverconsoleeee.jpg"></img>
+<p>
+<!---<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>&nbsp;</b></td>
+<td width ="80%">
+--->
+Next issue the <b>d</b> command which should dequeue the value at the front of
+  the queue.
+It correctly prints <b>dequeue = test1</b>, but when it prints the queue
+  before the next menu, it appears as
+<b><pre>queue q = queue[test2,test3,test3]:rear(length=4,used=3,mod_count=4)</pre></b>
+This result is <b>incorrect</b> because <b>test3</b> now appears in two
+  different queue/array locations (it was shifted one to the left, but still
+  appears at the end).
+In fact, if you issue the <b>d</b> command again, it prints
+  <b>dequeue = test2</b> but now <b>test3</b> appears in all three positions in
+  the array.
+<p>
+Next issue the <b>x</b> command (whose <b>clear</b> method is <b>void</b> and
+  returns -and the driver prints- no result).
+It will correctly clear the queue, which prints before the next menu as.
+<b><pre>queue q = queue[]:rear(length=4,used=0,mod_count=5)</pre></b>
+<p>
+<!---</td></tbody></table>--->
+<p>
+<img src="images/rundriverconsoledddx.jpg"></img>
+<p>
+<!---<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>&nbsp;</b></td>
+<td width ="80%">
+--->
+So, using this driver, we can call/test all the methods in the
+  <b>LinearArrayQueue</b> class, looking for incorrect behavior.
+<p>
+If we see errors in the output, to help us debug any errors that we find we 
+  can...
+<ul>
+  <li>...add code into the driver to have it print itermediate results.
+  <li>...add code into the <b>LinearArrayClass</b> and rerun the driver.
+  <li>...use the debugger to set breakpoints in our methods and execute/step
+       through the code while observing how it changes its state 
+</ul>
+A later section of this document illustrates using the driver with the debugger.
+For now, continue to explore and experiment with the other commands in this
+ driver, and <b>DO NOT</b> fix the error in <b>delete</b> yet.
+The <b>l</b> command allows quickly enqueuing a series of values read from
+  a file (the default it <b>load.txt</b>, which is included with this project).
+Try the <b>it</b> commands to better understand what we can do with iterators.
+<p>
+If you ever find your program in an <b>infinite loop</b>, you can terminate the
+  program manually by clicking the Red Square on the top of the console
+  window (the leftmost icon).
+Then you can click the X or Xx icons (to the right of the Red Square) to clear
+  the the console.
+<p>
+To rerun the driver, click the right-pointing triangle icon
+  <img src="images/run.jpg"></img>.
+When Eclipse <b>builds</b> a project it compiles all its files.
+When Eclipse <b>runs</b> a project it links these compiled files and the
+  code in configured libraries and runs the single <b>main</b> function it
+  finds (if it finds none or more than one, it will report an error).
+So we can build but not run the <b>courselib</b> project because it is a
+  library and has no <b>main</b> method to run.
+</td>
+</tbody>
+</table>
+
+
+<!-- Run GoogleTest Test -->
+
+<a name="junit">
+<hr align="left" width="33%">
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>Run the GoogleTest<br> Unit Test</b></td>
+<td width ="80%">
+Each data type that we will discuss this quarter also has a GoogleTest test.
+While a driver for a class is code that allows us to manually test its methods
+  and observe their results, a GoogleTest is code that automatically tests the
+  class and report its results.
+It produces output to show clearly which tests passed and which tests failed;
+  and for the failed tests, it produces more detailed information about how the
+  test failed.
+When the code is modified (hopefully corrected), it is very easy to rerun all
+  the tests and observe the changes (hopefully more/all test are passed now)
+  automatically.
+<p>
+To run the GoogleTest program, we must change the <b>program0</b> project as
+  follows.
+<ul>
+  <li>Configure the project for use with the <b>googletestlib</b> library.
+      If you have not already installed a <b>googletestlib</b> in
+        Eclipse, follow the <b>Googlettest Installation</b> instructions at the
+        <a href="../../../common/online.html">Course Software</a> page ("Full"
+        or "Quick for PC").
+      Once you have correctly installed the <b>googletestlib</b>,
+        follow the <b>Creating a Project that Uses the Googletestlib</b>
+        instructions later in the ("Quick for PC") document for creating a new
+        project and configuring it to use the <b>googletestlib</b>.
+      I did these operations from memory in 2 minutes: if it takes you longer
+       than 5 minutes, practice more.
+  <p>
+  <li>Uncomment the <b>main</b> function at the bottom of the
+        <b>test_queue.cpp</b> file (actually uncomment the entire file).
+      Likewise we must comment-out the <b>main</b> function in the
+        <b>driver.cpp</b> file (actually commen-out the entire file).
+      Only one <b>main</b> function can exist in a C++ project, because there
+        can be only one starting point for the program being run.
+</ul>
+Before running this project, examine the code in the <b>test_queue</b> file.
+It consists of 12 separate tests, each which should be readable and
+  understandable if you understand what queues are about.
+Now run the GoogleTest.
+The result is illustrated below.
+Check the bottom of GoogleTest's output first
+It summarizes the number of passed tests and names the failed tests: you can
+  examine these failed tests in more detail, if they are present.
+<!---</td></tbody></table>--->
+<p>
+<img src="images/rungoogletest.jpg"></img>
+<p>
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<!---<tbody>
+<tr valign="top">
+<td width ="20%"><b>&nbsp;</b></td>
+<td width ="80%">
+--->
+<p>
+<h3>Failure Modes</h3>
+<p>
+There are two major failure modes possible in each GoogleTest.
+<ul>
+  <li>An assertion failure in a test means that the code being tested did not
+        meet its requirements.
+      GoogleTest will print useful information about the failure (just what it
+        prints is based on which assertion failed).
+      In the figure above, both the <b>dequeue1</b> and <b>dequeue2</b> tests
+        failed (on lines 138 and 150 respectively).
+  <p>
+  <li>An exception failure in a test means that the code being tested threw an
+       exception.
+      GoogleTest will print information about the exception (although often
+        it just states an unexpected exception was thrown..
+      In the figure above, no unexpected exceptions were thrown.
+  <p>
+</ul>
+In addition, it is also possible that incorrect code will exhibit a failure
+  mode that GoogleTest cannot detect and report: an infinite loop.
+In such a case GoogleTest will stop printing information in the console
+  after starting to run a test.
+If the <b>enqueue</b> test caused an infinite loop, the console might look
+  as follows.
+<!---</td></tbody></table>--->
+<p>
+<img src="images/rungoogletestinfinite.jpg"></img>
+<p>
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<!---<tbody>
+<tr valign="top">
+<td width ="20%"><b>&nbsp;</b></td>
+<td width ="80%">
+--->
+If you ever find your program in an <b>infinite loop</b>, you can terminate the
+  program manually by clicking the Red Square on the top of the console
+  window (the leftmost icon).
+Then you can click the X or Xx icons (to the right of the Red Square) to clear
+  the the console.
+In such a case, you would have to manually stop the program as described above
+  (clicking the Red Square in the Console window).
+In the console with the original test, the Red Square is greyed-out, because
+  the GoogleTest test has already terminated.
+<p>
+You have a choice of either commenting-out the test code (so GoogleTest won't
+  run this test) or keeping the test and immediately debugging the code that is
+  causing it to loop infinitely.
+If you choose the former, remember to uncomment the test code eventually.
+<p>
+<h3>Debugging</h3>
+<p>
+Here is a short but <b>important</b> list of four stategies that we can employ
+  when our code fails, to try to understand the cause of the problem (and then
+  hopefully correct it).
+First, examine the line of code in the test at which the failure was detected
+  (which is printed in the console) and the information it displays related to
+  the failure.
+<ol>
+  <li>Examining the code using the failure information as a guide.
+  <li>Add arbitrary C++ code in the GoogleTest test to print information.
+  <li>Use the debugger to set a breakpoint before the failed assertion, 
+        and then examine relevant state.
+   <li>Use the driver to duplicate/explore the problem manually.
+</ol>
+<p>
+<h3>Tests</h3>
+<p>
+Generally, each public method has its own GoogleTest test, reflecting the
+  semantics (meaning) of what the methods in a class do.
+It is good to be able to read and understand the GoogleTest code (and you will
+  get more experience doing so during the quarter) because it can be useful to
+  add debugging code to it: typically printing the state of variables just
+  before a test/assertion failed.
+Mostly GoogleTest code intersperses calls to the methods of the class being
+  tested with assertions about what the results of those method-calls should
+  be: a test method fails when any assertions in it fail.
+<p>
+The tests are peformed in the order in whicht hey appear.
+I try to arrange my tests from the simple to the more complex.
+Sometimes bugs causing failures in the earlier tests also cause failures in
+  the latter ones.
+So an important debugging strategy is to concentrate on and correct the earlier
+  bugs: at best the later bugs might automatically disappear; at worst it will
+  be easier to understand/correct the later/more complicated bugs after you have
+  understood/corrected the earlier/simpler ones.
+<p>
+Also note that each test is abandoned when the first assertion fails; it 
+  doesn't test subsequent assertions.
+This strategy leads to two interesting consequences
+<ul>
+  <li>The output is not cluttered with multiple failure messages for
+        multiple assertions in each test: instead each test either passes or
+        fails presenting details on only the first failure.
+  <p>
+  <li>Expect that a test might still fail after you make corrections to your
+        code; but the correction should cause a failure later in the test:
+        e.g., an earlier assertion in the test that failed should now pass,
+        even if later assertions (which were not reached because of the earlier
+        failure) now are tested and fail.
+</ul>
+<p>
+<h3>Debugging Examples</h3>
+<p>
+Here we will examine the four strategies for debugging stated above.
+The first failure was on line 138 in the <b>dequeue1</b> test.
+The entire test appears as follows, with its line numbers.
+<b><pre>  130 TEST_F(QueueTest, dequeue1) {
+  131   QueueType q;
+  132   q.enqueue("a");
+  133   q.enqueue("b");
+  134   q.enqueue("c");
+  135   ASSERT_EQ("a",q.dequeue());
+  136   ASSERT_EQ("b",q.dequeue());
+  137   ASSERT_EQ("c",q.dequeue());
+  138   ASSERT_TRUE(q.empty());
+  139   ASSERT_EQ(0, q.size());
+  140 }</pre></b>
+The error states that the queue was expected to be empty but it was not.
+<ol>
+<li>Our first stategy would be just to look at the code in the
+      <b>LinearArrayQueue</b/b> class.
+    We will see that the the <b>empty</b> method returns <b>false</b> when
+      <b>used</b> is not <b>0</b>.
+    <b>used</b> is initialized to <b>0</b>, and if we enqueue three values and
+      then dequeue three values it should return to <b>0</b>.
+    Since the <b>enqueue</b> test worked, we can focuse on the <b>dequeue</b>
+       method to learn why <b>used</b> was not decremented to <b>0</b>.
+<p>
+
+<li>Our second stategy would be to add some code in the <b>dequeue1</b> test to
+      help us understand why the <b>empty</b> method returns <b>false</b>.
+    We could, for example, print the size and even the queue itself (using the
+      more verbose <b>.str()</b> function, using the  following code.
+    <b><pre>std::cout << "in deqeue1: size = " << q.size << , ", queue = " << q.str() << std::endl;</pre></b>
+    I highly recommend putting textual material in these debugging displays, to
+      identify them: as we put more and more debugging displays into a program
+      (which we typically do when debugging) they can become confusing.
+    If we put this code right before the line 138 it would display
+    <b><pre>in deqeue1: size = 3, queue = queue[c,c,c]:rear(length=4,used=3,mod_count=6)</pre></b>
+    The queue is supposed to be empty, but its <b>used</b> is <b>3</b>
+<p>
+
+<li>Our third strategy is to use the debugger to set a breakpoint before the
+      failed assertion, and then examine relevant state.
+    The debugger in Eclipse/C++ operates similarly to the Eclipse/Python.
+    We can set unconditional and conditional breakpoints, single step (into,
+      over, and out of) code, observe the values of global and local variables.
+    Experiment with the debugger until you know how to use it to perform common
+      debugging tasks (like those indicated below).
+    <p>
+    Try these steps.
+    <ul>
+       <li>Set an unconditional breakpoint on line 138; recall that when a line
+             has a breakpoint, execution stops <b>before</b> the line is
+             executed.
+       <li>Launch the debugger by clicking the bug icon 
+             <img src="images/debug.jpg"></img>.
+           When the <b>Confirm Perspective Switch</b> popup window appears,
+             click <b>Yes</b>: it will switch from the <b>C++</b> perpsective
+             to the <b>debug</b> perspective.
+       <li>Click the resume icon <img src="images/resum.jpg"></img> to start
+             execution of the GoogleTest program.
+       <li>The debugger stops the program before executing line 138 and shows
+             the following
+           <p>
+           <img src="images/rundebugging.jpg"></img>.
+           <p>
+       <li>For now, just terminate the debugger and return to the <b>C/C++</b>
+             perspective
+    </ul>
+<p>
+
+<li>Our fourth strategy would be to use the driver to duplicate/explore the
+      problem manually.
+    Actually in our discussion of the driver we saw that when we enqueued
+      three values and dequeued all three, the result was a queue with the
+      last enqueued values stored in all indexes.
+</ol>
+
+In fact, both test failures relate to a single bug: the <b>used</b> variable
+  was not decremented in the <b>dequeue</b> method: I commented-out the code
+  at line 162 of the <b>linear_array_queue.hpp</b> file.
+Remember that sometimes fixing one bug will cause many failed tests to pass.
+<p>
+Restore this line of code (uncomment it) to fix the error.
+Now rerun this GoogleTest test and verify that there are no more failures.
+<p>
+
+Both errors and failures indicate that the code is incorrect and should be
+  fixed.
+Of course, we must be careful because it is possible that an assertion is
+  incorrect: e.g., an assertion asserts the size of the queue is some number
+  but based on the <b>add</b>/<b>remove</b> methods called in the GoogleTest test
+  it should be some other number.
+While you should mostly believe the GoogleTest tests I distribute, there is always
+  the possibility that I have made a mistake.
+If you look closely at a GoogleTest test and don't understand why some failing
+  assertion should be true, please contact me to resolve the problem
+
+</td>
+</tbody>
+</table>
+</td>
+</tbody>
+</table>
+
+
+<!-- Submit via Checkmate -->
+
+<a name="checkmate">
+<hr align="left" width="33%">
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>Submit the Program for Grading via Checkmate</b></td>
+<td width ="80%">
+After you have fixed the code and verified that it works correctly via the
+  Driver and the GoogleTest tester, you should submit the code for grading via
+  <b>Checkmate</b>.
+If you are unfamiliar with this system, read the
+  <a href="../../../common/handouts/checkmate/index.html">
+    Submitting Homework Using Checkmate</a> document.
+</td>
+</tbody>
+</table>
+
+
+<!-- End -->
+
+<a name="end">
+<hr align="left" width="33%">
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>Final Words</b></td>
+<td width ="80%">
+<b>You are responsible for backing up your work frequently</b>.
+<p>
+Whenever you have updated your code (and when you have finished an assignment)
+  you should backup/save the entire project folder on a USB drive.
+Even if you are using your own computer, you should still backup your work.
+Probably it is best to zip the entire project folder (which makes it smaller
+  and also speeds up copying -which depends as much on how many files you
+  copy as on the size of the files).
+If you are on a lab machine, you can also backup/save this zipped project
+  folder on your Unix file space.
+<p>
+If you need to restore a project folder, follow these steps.
+<ol>
+  <li>Unzip the project folder.
+  <li>Delete its <b>.cproject</b> and <b>.project</b> file.
+  <li>Delete its <b>.settings</b> and <b>Debug</b> folders.
+  <li>Recreate the project and configure all its libraries.
+</ol>
+<p>
+Practice doing everything in this lab over and again, until you are familiar
+  with all these skills and can do them without reading the directions.
+You will save yourself much time later in the quarter (when time is really
+  important) if you spend some time now (when things aren't so rushed)
+  mastering this material.
+</table>
+</body>
+</html>
+

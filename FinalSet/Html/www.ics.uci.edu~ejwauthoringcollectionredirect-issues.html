@@ -1,0 +1,1122 @@
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<META NAME="Generator" CONTENT="Microsoft Word 97">
+<TITLE>Redirect References: Last Call Issues</TITLE>
+</HEAD>
+<BODY LINK="#0000ff" VLINK="#800080">
+
+<B><FONT FACE="Arial" SIZE=5><P ALIGN="CENTER">Redirect References: Last Call Issues</P>
+</B></FONT>
+<TABLE BORDER CELLSPACING=1 CELLPADDING=7 WIDTH=590>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>ID</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Source</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Description</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Status</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Disposition</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>1</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Orton</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Entity Bodies for Redirect References:</P>
+<P>Clarify: Are there 2 resources, one that redirects and one that responds with its own entity body?</P>
+<P>Clarify: What is the effect of PUT for a URI that currently maps to a redirect reference?</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Redirect resource MUST NOT have a body. </P>
+<P>See also issue 23.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>1A</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Orton, Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>In the definition of MKRESOURCE, &quot;Body&quot; needs to be defined or else terminology changed.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>We will use MKREF instead of MKRESOURCE.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>2</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Orton</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>List only new status codes for MKRESOURCE.  Don�t discuss previously-defined status codes.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Follow same practice as in binding spec: for existing status codes, describe new circumstances that might cause them.  Make it clear that we are not redefining these codes.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>3</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Orton, Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Saying that responses to MKRESOURCE SHOULD NOT be cached suggests that there are sometimes good reasons to cache responses.  Is this the case?</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Responses to MKREF MUST NOT be cached.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>4</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Orton</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>&quot;Standard data container&quot; needs to be defined in the context of MKRESOURCE</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Not relevant once we switch to MKREF.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>5</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Orton</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Inconsistency about whether a &quot;standard data container&quot; can be created with MKRESOURCE or not.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Not relevant once we switch to MKREF.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>6</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Orton</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Why does the spec talk about relative URIs in DAV:reftarget in MKRESOURCE requests?  Is the server required to resolve the relative URI and store it as absolute?</P>
+<P>Is the server required to keep DAV:reftarget pointing to the target resource as the reference / target move, or is DAV:reftarget a dead property?</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>DAV:reftarget is readonly and present only on redirect references that are also WebDAV resources.</P>
+<P>Add a method for setting the target.  Change definition of Redirect-Ref header so that it has the target as its value (comes back on all 302 responses).</P>
+<P>Server MUST store the target exactly as it is set.  It MUST NOT resolve relatives to absolutes and MUST NOT update if target resource moves.</P>
+<P>See also issue 17, 43, 50, 57.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>7</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Abstract should discuss only redirect references, not bindings. Expand discussion of redirect references.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Abstract will discuss only redirect references.</P>
+<P>See also issue 34.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>8</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Get rid of cross-references to the binding spec: in the abstract, in the introduction, in the definition of Reference Resource</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Cross-references to bindings will be removed.</P>
+<P>See also issue 34.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>9</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Move Notational Conventions after Introduction.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Section will be moved.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>10</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Change the title of 16.4 so that it is not a sentence.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Change to &quot;Revealing Private Locations&quot;.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>11</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Don�t paginate the review draft.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>We will paginate in accordance with IETF rules, but will try to produce a nicely formatted review spec as well.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>12</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>First 3 paragraphs of Introduction are identical to those in binding spec.  Make sure that any changes made there are also incorporated here.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>These paragraphs will change as necessary to make the redirect spec completely independent of the rest of WebDAV.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>13</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Intro, para 4: Change &quot;usually&quot; to &quot;possibly&quot; in the sentence &quot;A redirect reference resource is a resource in one collection whose purpose is to forward requests to another resource (its target), usually in a different collection.&quot;</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Agreed.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>14</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Limit the discussion of bindings to just what is needed to understand the differences from redirect references.  Maybe the paragraph in the Intro that starts &quot;By contrast, a BIND request . . .&quot; is all that is needed.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Get rid of discussion of bindings altogether.</P>
+<P>See also issue 34, 35.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>15</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Don�t define Direct Reference Resource, since direct references are out of scope.  (If you do keep the definition, say explicitly that a direct reference resource is a type of reference resource.)</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Remove definition of Direct Reference Resource.</P>
+<P>See also issue 39.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>16</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 4, para 2: Change &quot;It is also what insures&quot; to &quot;It is also what helps to insure&quot;.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Agreed.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>17</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 4, para 3: Clients should use the Location header, not the DAV:reftarget property, to find the location of the target.</P>
+<P>The purpose of the DAV:reftarget property should be to let the client update its value.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>We need both Location (which is absolute) and target (which may be relative).   </P>
+<P>See also issue 6, 43.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>18</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Need a registration procedure for resource types to insure interoperability.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>We won�t hold up this spec to establish a registration procedure.  We will mention in IANA considerations that as the number of resource types grows the need for a registration procedure increases, but that there is none at this time.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>19</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 4, para 5 and Section 6, para 3 discussions of the Apply-to-Redirect-Ref header make it sound as if we are specifying direct reference behavior.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Change these passages so that the contrast is between applying the method to the redirect reference and responding with a 302.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>20</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 5: Start with &quot;The new MKRESOURCE method&quot; to make it clear that it is being introduced for the first time here.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Say &quot;The MKREF method defined normatively here . . .&quot;</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>21</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Get rid of the binding-dependent language in the last para of Section 5.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Delete all but the first sentence in this paragraph.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>22</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Inconsistency about whether collections can be created with MKRESOURCE.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Not relevant for MKREF.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>23</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 5.1: Get rid of the statement that the body of the resource is empty (PostConditions).  It would be good if the response to GET included a response body that could be shown to a user by a client that doesn�t do automatic redirection.</P>
+<P>There is a related problem in Section 6 on PUT.  It is wrong to assume that what is PUT to a resource is what GET will return.  In Section 6, say &quot;A PUT with Apply-To-RR MAY contain a request body.  The semantics of the request body is out of scope for this specification�&quot;</P>
+<P>Also fix the discussion of example 6.2.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Redirect references cannot have bodies.</P>
+<P>GET with Apply-To-RR MUST fail with 403.</P>
+<P>PUT with Apply-To-RR MUST fail with 403.</P>
+<P>See also issue 1.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>24</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 5.1: Replace the sentence &quot;The properties of the new resource are as specified by the DAV:propertyupdate request body, using PROPPATCH semantics&quot; with the following:</P>
+<P>&quot;The MKRESOURCE request MAY contain a DAV:propertyupdate request body to initialize resource properties.  Herein, the semantics is the same as when sending a MKRESOURCE request without a request body, followed by a PROPPATCH with the DAV:propertyupdate request body.&quot;</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>No longer relevant once we switch to MKREF with no request body.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>25</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Is MKRESOURCE atomic as viewed by a client? Can another client access the new resource�s properties before they have been fully initialized?</P>
+<P>Maybe the MKRESOURCE request should let the client ask for it to be atomic.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>No longer relevant once we switch to MKREF with no request body.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>26</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Change &quot;is not created&quot; to &quot;was not created&quot; in para 4 under Postconditions of MKRESOURCE.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Editor�s discretion</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>27</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 6: Change &quot;non-referencing-aware clients&quot; to &quot;clients not aware of this protocol&quot;.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Editor�s discretion</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>28</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 6: Get rid of the sentence &quot;A reference-aware WebDAV client can act on this response in one of two ways.&quot;  A client can act on the response in any way it wants.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Agreed.</P>
+<P>See also issue 48.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>29</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 6, para 4: Obvious, doesn�t need to be stated.  Maybe note in an example.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Agreed.</P>
+<P>See also issue 48.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>30</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 6, &quot;When Apply-To-RR is used with GET or HEAD�&quot;  Either give a precise list of the headers that MUST be returned, or change MUST to SHOULD with the list of examples.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Delete &quot;along with all HTTP headers that make sense for reference resources (for example, Cache-Control, Age, Etag, Expires, and Last-Modified).&quot;</P>
+<P>See also issue 48.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>31</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 6, para on MKRESOURCE and MKCOL is obvious and doesn�t need to be stated.  Maybe show in an example.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Agreed.</P>
+<P>See also issue 48.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>32</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 6.  Don�t talk about ORDERPATCH, since it hasn�t been specified anywhere.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Agreed.</P>
+<P>See also issue 48.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>33</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Forwarding:</P>
+<P>Replace &quot;forward&quot; with &quot;redirect&quot; throughout.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Use &quot;redirect&quot; for the behavior redirect resources do exhibit.  Use &quot;forward&quot; for the contrasting behavior (passing a method on to the target with no client action needed).  Define these two terms.</P>
+<P>See also issue 40.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>34</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>NoBind:</P>
+<P>Remove all cross-references to the binding spec.  Prefer also removing all mention of bindings.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Agreed.</P>
+<P>See also issues 7, 8, 14.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>35</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>ReallyNoBind:</P>
+<P>Remove paras. 6 and 8 from Intro.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Agreed.</P>
+<P>See also issue 14.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>36</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Servers:</P>
+<P>Replace &quot;server&quot; with &quot;unrelated system&quot; throughout.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Try replacing &quot;server&quot; with &quot;host&quot; in some contexts, rephrasing in passive voice in others.</P>
+<P>See also issue 40.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>37</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Integrity:</P>
+<P>Intro, para 7 &quot;Servers are not required to enforce the integrity of redirect references.&quot;  Integrity is not defined.  Replace with something clearer.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Rewrite to say that the server MUST NOT update the target</P>
+<P>See also issue 6.</P>
+</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>38</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Not Hierarchical:</P>
+<P>The first sentence of the second paragraph of the introduction of the redirect spec asserts that the URIs of WebDAV compliant resources match to collections. The WebDAV standard makes no such requirement. I therefore move that this sentence be stricken.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>State the more general HTTP rationale first (alternative names for the same resource), then introduce the collection hierarchy rationale, which applies only if you are in a WebDAV-compliant space.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>39</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>NoReferenceOrDirectResource:</P>
+<P>Remove the definitions of &quot;Reference&quot; and &quot;Direct Reference Resource.&quot;</P>
+<P>Change the definition of &quot;Redirect Reference Resource&quot; to be:</P>
+<P>Redirect Resource: A resource created to redirect all requests made to it, using 302 (Found), to a defined target resource.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Agreed.</P>
+<P>See also issue 15.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>40</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>4<SUP>th</SUP>2nd:</P>
+<P>Assorted changes to Section 4, para 2 to get rid of the word &quot;forward&quot; and the word &quot;server&quot; and remove comparison with direct references.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>See also issue 33 (forward).</P>
+<P>See also issue 36 (server).</P>
+<P>Remove discussion of direct references.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>41</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>NoWebdav#1:</P>
+<P>Make redirect references independent of the rest of WebDAV.  The creation method for redirect references shouldn�t require an XML request body.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>We will make redirect references independent of the rest of WebDAV.</P>
+<P>MKREF will not have an XML request body.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>42</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>NoWebDAV#2:</P>
+<P>Use a creation method that creates only redirect references.</P>
+<P>The MKRESOURCE method hinders experiment because a user of a server who wishes to add support for the creation of a new resource type can't simply throw in another Apache module and allow it to provide the code for the new resource type. They have to find the code used for MKRESOURCE and change it to support the new resource type. </TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>We will replace MKRESOURCE with MKREF, which creates only redirect reference resources.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>43</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>NoWebDAV#3:</P>
+<P>Get rid of the DAV:reftarget property.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>DAV:reftarget is readonly and is present only for redirect references that are also WebDAV resources.</P>
+<P>We�ll also have a method for setting target; Redirect-Ref header (returned on all 302 responses) will have the target as its value.</P>
+<P>See also issue 6, 17, 50.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>44</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>NoPropsIn207:</P>
+<P>Instead of adding an optional prop XML element to the response element in 207 responses, define a new location XML element and a new refresource XML element.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Open</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Agree to define new XML elements that are not pseudo-properties.</P>
+<P>Disagreement about whether refresource is needed.</P>
+<P>See issue 61.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>45</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Sec4LastPar:</P>
+<P>Suggested replacement text for this paragraph, which briefly introduces Apply-To-Redirect-Ref.</P>
+<P>Includes a note that even with this header, the response may be a 302.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+
+<P>See issue 19 for replacement text.</P>
+
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>Disagree.  Redirect reference will never respond to Apply-To-RR with 302.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>46</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>S5P2S23:</P>
+<P>Remove dependency on bindings from second paragraph of section 5.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Agreed.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>47</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Errors:</P>
+<P>In line with his wish to get rid of the request message body of MKRESOURCE, 207 would not be an appropriate response code. </P>
+<P>The description of 409 might lead someone to believe that you can�t create redirect references outside of WebDAV namespaces.  Suggests a different description.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+
+<P>No longer relevant � MKREF can�t get a 207 response.</P>
+
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>Revise to make it clear that the first condition will only occur in WebDAV-compliant namespaces. </P>
+</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>48</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>S6:</P>
+<P>Replace all of section 6 with just this:</P>
+<P>A redirect resource, upon receiving a request without an Apply-To-Redirect-Ref header, MUST respond with a 302 (Found) response. The 302 (Found) response MUST include a location header identifying the target and a Redirect-Ref header. </P>
+<P>If a redirect resource receives a request with an Apply-To-Redirect-Ref header then the redirect reference resource MUST apply the method to itself rather than blindly returning a 302 (Found) response.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Keep a summary along the lines of Yaron�s proposal (don�t use the word &quot;blindly&quot;).</P>
+<P>Keep the bullets detailing the headers to be returned.</P>
+<P>Delete the rest, including the examples.</P>
+<P>See also issue 28, 29, 30, 31, 32.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>49</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>PUT:</P>
+<P>Remove the last sentence of Example 6.2, which says that PUT replaces the reference with a different resource.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>No longer relevant.  Deleted this example in response to issue 48.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>50</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>BlindRedirect:</P>
+<P>Replace current language explaining the purpose of the Redirect-Ref header with language that simply states that it marks blind 302 responses from redirect resources. (Section 6.3, 11.1)</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Section 6.3 was removed in response to issue 48.</P>
+<P>In 11.1, change the definition of the Redirect-Ref header to have the value of the target (relative URI) as its value.  Then we don�t need a method for retrieving the target�s relative URI.  Presence of the Redirect-Ref header lets the client know that the resource accepts Apply-To-RR header and the new method for updating target.</P>
+<P>Reject Yaron�s suggested language, but make the above changes.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>51</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>S7P1:</P>
+<P>The first sentence of this paragraph says only what�s clear from RFC 2518, so will cause confusion by its presence. Delete it.</P>
+<P>The last sentence of this paragraph lists methods.  That�s a bad idea. Remove it.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Delete entire paragraph.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>52</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>NoRelative:</P>
+<P>Don�t allow relative URIs.  Delete section 9.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Declined.  Some applications need relative URI.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>53</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>S10:</P>
+<P>The behavior described in this section would have a very serious impact on the efficiency of mapping Request-URIs to resources in HTTP request processing.</P>
+<P>Also specify another type of redirect resource that does not behave as in section 10, but instead would &quot;<FONT SIZE=2>expose the behavior we see today in various HTTP servers that allow their users to create 300 resources.</FONT>&quot;  Be sure we know what behavior will be if the redirect location is not an HTTP URL, but, say ftp.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>We won�t define 2 sorts of redirect references here.</P>
+<P>Servers SHOULD respond with 302 as described here, but if they can�t do that, respond with 404 Not Found.</P>
+<P>(It�s hard to modularize the behavior specified � it impacts processing Not Found cases of all methods, so you can�t just add it to an HTTP server in a redirect ref module.)</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>54</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>S10:</P>
+<P>The Note: in section 10 has the same problem pointed out in Bindings.NoSlash and needs to be fixed.  It contradicts RFC 2518 and 2616, which both assume that a URL and the same URL + &quot;/&quot; may map to different resources.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Agreed in mailing list discussions that no change is needed.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>55</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>BeKindToIANA:</P>
+<P>Expand the IANA section to list all methods, headers, XML elements, MIME types, URL schemes, etc., defined by the spec.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Agreed.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>56</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>NotJustHTTP:</P>
+<P>Make it clear in examples and text that the redirection URI could be non-HTTP.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>We agree that it is possible to create redirect references to non-HTTP resources.</P>
+<P>Add example.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>57</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>NoAutoUpdate:</P>
+<P>Add language to forbid servers from automatically updating redirect resources when their targets move.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Agreed.</P>
+<P>See also issue 6.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>58</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Yaron</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>ClientUpdate:</P>
+<P>There needs to be a way to update the target of a redirect reference.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Agreed.</P>
+<P>See also issues 6, 43.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>59</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 7: When a method is being applied to a collection with Depth &gt; 0, let Apply-To-Redirect-Ref contain a list of URIs.  This way you could have it apply to some subset of the redirect references in the collection.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Declined.</P>
+<P>Too complex, no use case for it.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>60</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 7, para 3: Make it clear that these are just examples of client behavior, and are not meant to limit the client�s behavior to these options.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Open</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Agreed to delete this paragraph.</P>
+<P>Continue discussion of what information should be returned with 302 in multistatus.  Just location? Also redirectref?</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>61</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 7: It doesn�t make sense to ask future editors of RFC 2518 to define DAV:location with the semantics it has here.</P>
+<P>RFC 2518 should provide the information in the Location header somehow in multistatus responses, but not by using properties.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Define an XML element for location that is not a pseudo-property.</P>
+<P>We�ll keep the recommendation that RFC 2518 add this for 302 responses.</P>
+<P>See also issue 44.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>62</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 7: It�s too strong to claim that non-referencing clients can�t process 302 responses occurring in Multi-Status responses.  They just have an extra round trip for each 302.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Remove last sentence of the paragraph that recommends changes to RFC 2518.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>63</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 7.1: Is MOVE atomic from the perspective of a client?</P>
+<P>Agrees that there should be no 302s for member redirect references, but finds the rationale dubious.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Remove 7.1.</P>
+<P>Reword 7.2 to avoid concerns with &quot;poses special problems&quot; and &quot;due to atomicity&quot;.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>64</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Perhaps make DAV:location a real property, instead of DAV:reftarget, and require it to be an absolute URI.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Declined. Some applications need relative URI.</P>
+<P>See also issue 52.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>65</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>&quot;In the case of a redirect reference resource, I think the intended meaning of WebDAV is that the resource itself is the internal member to be locked, not the target resource.  In so far, I think, the Apply-To-Redirect-Ref header should implicitly always be set, and a LOCK request for a collection MUST fail if in the hierarchy of collections there is an ordinary redirect reference as internal member.&quot;</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Declined.</P>
+<P>Behavior will be the same for all methods.  No exceptions.  Consistency / simplicity override other considerations.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>66</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>7.3, 7.4: Change &quot;Depth=infinity&quot; to &quot;Depth: infinity&quot;.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Agreed.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>67</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>7.4: The explanation should not contrast displaying the properties of the redirect ref with displaying the properties of its target, but with returning a 302.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Revise as recommended.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>68</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>7.6:</P>
+<P>The LOCK example responds with 207, as does the example in RFC 2518, but section 8.10.4 of RFC 2518 says if the lock cannot be granted to all resources the response MUST be 409 conflict.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>We�ll keep 207 and encourage RFC 2518 to say the same.</P>
+<P>(This inconsistency in RFC 2518 is on the WebDAV issues list.)</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>69</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>7.6:</P>
+<P>Thinks there should not be 424 returned for diary.html because it is not an ancestor of a member that caused the lock to fail.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>No change needed.  The interpretation of &quot;dependency&quot; in the example is correct.  It doesn�t have to do with ancestor relationship, only with what caused operation to fail.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>70</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 9, para 1:</P>
+<P>Maybe say that the resulting absolute URI could be any of a number of URIs, depending on which URI is used in the request to identify the redirect reference.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>No change needed.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>71</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 9:</P>
+<P>Base URI should be the Request-URI or href minus its final segment.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Fix this.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>72</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 10:</P>
+<P>Forbid DAV:reftarget from ending in &quot;/&quot;</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Closed</TD>
+<TD WIDTH="41%" VALIGN="TOP">
+<P>Make the note warn about the possibility of two slashes in a row, recommend against ending target with a slash, since that could result in two slashes in a row.</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>73</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 10:</P>
+<P>Replace the ascii art with Juergen�s suggestion (see his message).</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Open</TD>
+<TD WIDTH="41%" VALIGN="TOP">&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>74</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 11.1:</P>
+<P>&quot;plain HTTP/1.1 redirect&quot; � find some good name for this an use it consistently</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Open</TD>
+<TD WIDTH="41%" VALIGN="TOP">&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>75</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>11.2:</P>
+<P>&quot;If the Apply-To-Redirect-Ref header is used on a request to any other sort of resource besides a redirect reference resource, the server SHOULD ignore it.&quot;</P>
+<P>Don�t need to say this since HTP already says that any header that is not understood should be ignored.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Open</TD>
+<TD WIDTH="41%" VALIGN="TOP">&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>76</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>12.2:</P>
+<P>Make DAV:location a real (live) property, get rid of the DAV:reftarget property</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Open</TD>
+<TD WIDTH="41%" VALIGN="TOP">&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>77</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 16:</P>
+<P>Change &quot;WebDAV applications&quot; to &quot;applications that implement this protocol&quot;.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Open</TD>
+<TD WIDTH="41%" VALIGN="TOP">&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>78</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 16.4:</P>
+<P>Change &quot;directory&quot; to &quot;collection&quot;.</P>
+<P>Not new to this protocol. Holds for any protocol that has hierarchical access paths.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Open</TD>
+<TD WIDTH="41%" VALIGN="TOP">&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>79</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 16.4:</P>
+<P>&quot;In some environments, the owner of a resource might be able to use access control to prevent others from creating references to that resource.&quot;</P>
+<P>That would not be consistent with the concept of redirect references as weak links (e.g. think of moving a resource to a different locationo that is already the target of some redirection reference.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Open</TD>
+<TD WIDTH="41%" VALIGN="TOP">&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>80</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 17:</P>
+<P>Could get rid of a lot of this section, since this protocol extends WebDAV.  Just reference [WebDAV].</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Open</TD>
+<TD WIDTH="41%" VALIGN="TOP">&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>81</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 17:</P>
+<P>Typo &quot;As in [WebDAV}&quot;</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Open</TD>
+<TD WIDTH="41%" VALIGN="TOP">&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>82</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Section 18:</P>
+<P>Just reference [WebDAV] and say this protocol does not introduce any new considerations.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Open</TD>
+<TD WIDTH="41%" VALIGN="TOP">&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>83</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>References:</P>
+<P>Get rid of the reference to the bindings spec.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Open</TD>
+<TD WIDTH="41%" VALIGN="TOP">&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>84</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Reuter</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Appendix 24.1:</P>
+<P>This is not an extension but a replacement for the WebDAV definition of the response element.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Open</TD>
+<TD WIDTH="41%" VALIGN="TOP">&nbsp;</TD>
+</TR>
+<TR><TD WIDTH="6%" VALIGN="TOP">
+<P>85</TD>
+<TD WIDTH="14%" VALIGN="TOP">
+<P>Jim Whitehead</P>
+<P>3/1/2000 teleconf</TD>
+<TD WIDTH="28%" VALIGN="TOP">
+<P>Support creation of other than 302 redirects, especially 301.</TD>
+<TD WIDTH="10%" VALIGN="TOP">
+<P>Open</TD>
+<TD WIDTH="41%" VALIGN="TOP">&nbsp;</TD>
+</TR>
+</TABLE>
+
+
+<P>Joe Orton:</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0188.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0188.html</A> (1, 1A)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0189.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0189.html</A> (4, 5)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0191.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0191.html</A> (2, 3)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0222.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0222.html</A> (6)</P>
+<P>Juergen Reuter:</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0266.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0266.html</A> (7-32)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0316.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0316.html</A> (59-75)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0359.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0359.html</A> (76-84)</P>
+<P>Yaron Goland:</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0284.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0284.html</A> (33)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0285.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0285.html</A> (36)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0286.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0286.html</A> (34)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0287.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0287.html</A> (35)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0288.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0288.html</A> (37)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0289.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0289.html</A> (38)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0290.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0290.html</A> (39)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0291.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0291.html</A> (40)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0292.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0292.html</A> (41)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0293.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0293.html</A> (42)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0294.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0294.html</A> (43)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0295.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0295.html</A> (45)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0296.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0296.html</A> (46)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0297.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0297.html</A> (47)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0298.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0298.html</A> (48)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0299.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0299.html</A> (49)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0300.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0300.html</A> (50)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0301.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0301.html</A> (51)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0302.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0302.html</A> (44)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0303.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0303.html</A> (52)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0304.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0304.html</A> (53,54)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0305.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0305.html</A> (55)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0306.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0306.html</A> (56)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0307.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0307.html</A> (57)</P>
+<P><A HREF="http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0308.html">http://lists.w3.org/Archives/Public/w3c-dist-auth/2000JanMar/0308.html</A> (58)</P></BODY>
+</HTML>
+

@@ -1,0 +1,64 @@
+<head>
+<title>CS 271: Introduction to Artificial Intelligence</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><style type="text/css">
+<!--
+body {
+	background-color: #66CC66;
+}
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:link {
+	color: #CC0000;
+}
+.style1 {font-size: large}
+.style2 {
+	color: rgb(0, 0, 0);
+	background-color: rgb(243, 249, 254);
+}
+-->
+</style></head>
+<body text="#000000" alink="#FF3300" vlink="#33
+0099">
+
+
+
+
+<center>
+  <h1> CS 271: Introduction to Artificial Intelligence </h1>
+  <H1 class="style1">Fall 2007 </p>
+</center>
+<hr>
+<ul>
+<li> When:  Tuesdays and Thursdays, 2:00 to 3:20pm
+<li>Course Code: 35350 
+<li> Where: ICS 243 
+<li> Instructor:    <a href="http://www.ics.uci.edu/~smyth">Professor Padhraic Smyth
+</a>
+<li> Email:        smyth@ics.uci.edu
+ <li> Office Hours: Thursdays, 3:30 to 5pm, BH 4212
+<a href="syllabus.html"></a>
+<li>Required Text: <em><a href="http://aima.cs.berkeley.edu/">Artificial Intelligence: A Modern Approach</a></em>, S. Russell and P. Norvig, 2nd edition, Prentice Hall. 
+<li><a href="schedule.html">Schedule, syllabus, slides, homeworks, background reading</a>, etc 
+<li>Links to <a href="resources.html">online AI resources</a> 
+</ul>
+<hr>
+<h4><strong>COURSE OVERVIEW</strong></h4>
+<p>This course is a broad graduate level introduction to the field of artificial intelligence (AI). Topics covered will include state-based problem solving, heuristic (informed) search, constraint satisfaction algorithms, game playing algorithms, propositional and first-order logic, logical inference algorithms, representations of uncertainty, optimal decision making, Bayesian networks, and basic principles of machine learning, Pointers to real-world applications in areas such as computer vision, speech recognition, robotics, etc., will be used as appropriate to illustrate various concepts. </p>
+<p>Note: this class is intended as a broad introduction to AI for graduate students who have had minimal or no exposure to AI previously. Students who have taken AI courses at the undergraduate level may wish to skip this course and take a more specialized course in AI or machine learning, such as CS 275A (Bayesian networks, Fall 2007) or CS 274A (Probabilistic learning, Winter 2007). <br>
+</p>
+<hr>
+<h4>
+  HOMEWORK, EXAMS, GRADING </h4>
+<p>Weekly homeworks: approximately 35% of your grade </p>
+<p>Midterm: approximately  30% of your grade</p>
+<p>Final exam: approximately 40% of your grade  </p>
+<hr>
+<h4>ACADEMIC HONESTY</h4>
+<p>Academic honesty is taken very seriously. You are allowed (indeed encouraged) to verbally discuss homeworks with other class members, but under no circumstances can you copy any written material from any other person or source. All material handed in must be your own original work. Failure to adhere to this policy can result in a student receiving a failing grade for the assignment or exam or for the class as a whole. Academic dishonesty incidents are reported to the School of Information and Computer Sciences, with a letter in the student's file - serious offences may result in sanctions at the School and University level. Students are expected to be familiar with current <a href="http://www.editor.uci.edu/catalogue/appx/appx.2.htm">UC Irvine Academic Honesty policies</a>. </p>
+<h3><span style="color: rgb(0, 0, 0); background-color: rgb(243, 249, 254);"><a href="http://www.editor.uci.edu/catalogue/appx/appx.2.htm"></a></span></h3> 
+<span class="style2"> </span>
+</body>
+
+
+

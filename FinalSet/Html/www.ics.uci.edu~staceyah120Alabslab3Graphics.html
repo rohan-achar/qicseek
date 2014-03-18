@@ -1,0 +1,261 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252"
+      http-equiv="Content-Type">
+    <title>Lab 3: Graphics and Data Visualization in R</title>
+    <meta content="Stacey Hancock" name="author">
+  </head>
+  <body>
+    <table style="width: 100%; background-color: rgb(102, 204, 204);
+      margin-left: auto; margin-right: auto; height: 58px; text-align:
+      left;" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td>
+            <div style="text-align: center;"> </div>
+            <h1 style="text-align: center;">Lab 3: Graphics and Data
+              Visualization in R<br>
+            </h1>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    We already saw the "curve" R function when looking at the normal
+    distribution on the previous page. In general, the curve function
+    can plot any mathematical function in R (written in terms of a
+    variable "x"). For example:<br>
+    <pre>curve(x^2,0,5)<br></pre>
+    plots the function <i>f</i>(<i>x</i>) = <i>x</i><sup>2</sup> from
+    <i>x</i> = 0 to <i>x</i> = 5. Look at the help file for more
+    information about its arguments:<br>
+    <pre>?curve<br></pre>
+    R offers a wide array of graphics and data visualization options,
+    but we will only explore a few univariate plot types in this lab:<br>
+    <br>
+    <table style="text-align: left; width: 100%; background-color:
+      rgb(255, 204, 51);" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td style="vertical-align: top; font-weight: bold;"
+            width="400">Name of Plot<br>
+          </td>
+          <td style="vertical-align: top; font-weight: bold;"
+            width="200">R Function<br>
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;" width="400"><a
+              href="#Histograms">Histogram</a><br>
+          </td>
+          <td style="vertical-align: top;" width="200">
+            <pre>hist<br></pre>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;" width="400"><a
+              href="#Density_Plots">Density Plot</a><br>
+          </td>
+          <td style="vertical-align: top;" width="200">
+            <pre>density<br></pre>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;" width="400"><a
+              href="#Boxplots">Boxplot</a><br>
+          </td>
+          <td style="vertical-align: top;" width="200">
+            <pre>boxplot<br></pre>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <h2> </h2>
+    <h2><a name="Histograms"></a>Histograms</h2>
+    <p>Histograms are defined in our textbook at the end of Section 3.7,
+      p. 164-166. The generic function for a histogram is "hist." To
+      work with some of these plots, let's read in a built-in R data set
+      on Old Faithful eruptions. (Old Faithful is a geyser in
+      Yellowstone National Park.)<br>
+    </p>
+    <blockquote>
+      <pre>data(faithful)<br></pre>
+    </blockquote>
+    You can look and see what this data set looks like by typing its
+    name:<br>
+    <blockquote>
+      <pre>faithful<br></pre>
+    </blockquote>
+    and you can read a description of the data set by looking at its
+    help file:<br>
+    <blockquote>
+      <pre>?faithful<br></pre>
+    </blockquote>
+    Other R functions useful for data sets are:<br>
+    <blockquote>
+      <pre>dim(faithful)<br>head(faithful)<br>tail(faithful)<br>names(faithful)<br></pre>
+    </blockquote>
+    To look at only one variable in a data set, R uses the "$" as
+    follows:<br>
+    <blockquote>
+      <pre>faithful$eruptions   # Eruption times (in mins)<br>faithful$waiting     # Waiting time to next eruption (in mins)<br></pre>
+    </blockquote>
+    Now, let's create a histogram of the eruption times:<br>
+    <blockquote>
+      <pre>hist(faithful$eruptions)<br></pre>
+    </blockquote>
+    The "hist" function has many arguments that we can change to
+    customize our function:<br>
+    <blockquote>
+      <pre>hist(faithful$eruptions, xlab="Eruption Time (min)", ylab="Frequency",<br>	main="Old Faithful Eruption Times", breaks=20, col="tomato", freq=F)<br></pre>
+    </blockquote>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    When you use the <span style="font-family: monospace;">freq=F</span>
+    argument in <span style="font-family: monospace;">hist()</span>,
+    you are asking for the density histogram, which has total area 1.
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    What did the option&nbsp; <span style="font-family: monospace;">breaks=20</span>
+    tell R to do? Try it with <span style="font-family: monospace;">breaks=5</span>.
+    Now try <span style="font-family: monospace;">breaks=100</span>.
+    Which plot looks best?<br>
+    <br>
+    <h3>Example: Normal Approximation to the Binomial</h3>
+    A binomial random variable X with parameters <span
+      style="font-style: italic;">n</span> and <span style="font-style:
+      italic;">p</span> has mean <span style="font-style: italic;">np</span>
+    and variance <span style="font-style: italic;">np</span>(1-<span
+      style="font-style: italic;">p</span>) (we will derive these in
+    lecture). As the number of trials, <span style="font-style:
+      italic;">n</span>, gets larger, (with <span style="font-style:
+      italic;">p</span> staying constant) the binomial distribution
+    becomes closer to a normal random variable with mean <span
+      style="font-style: italic;">np</span> and variance <span
+      style="font-style: italic;">np</span>(1-<span style="font-style:
+      italic;">p</span>). Try running the following code - read the code
+    carefully and try to figure out what each line is telling R:<br>
+    <pre>add.norm=<br>function(m, s, r, lty=3,lwd=2)<br>{<br>#<br># adds normal density to a histogram or other plot<br># m is mean, s is sd, r is range (optional)<br>#<br>        if(missing(r) || length(r) != 2) r &lt;- c(m - 3 * s, m + 3 * s)<br>        x &lt;- seq(r[1], r[2], length = 200)<br>        y &lt;- dnorm(x, m, s)<br>        lines(x, y, lty=lty,lwd=lwd)<br>}<br><br><br>par(mfrow=c(2,3))<br>hist(rbinom(10000,5,.6),breaks=seq(-.5,5.5,by=1),freq=F,main="n = 5, p = .6")<br>add.norm(5*.6,sqrt(5*.6*(1-.6)))<br>hist(rbinom(10000,10,.6),breaks=seq(-.5,10.5,by=1),freq=F,main="n = 10, p = .6")<br>add.norm(10*.6,sqrt(10*.6*(1-.6)))<br>hist(rbinom(10000,20,.6),breaks=seq(-.5,20.5,by=1),freq=F,main="n = 20, p = .6")<br>add.norm(20*.6,sqrt(20*.6*(1-.6)))<br>hist(rbinom(10000,40,.6),breaks=seq(-.5,40.5,by=1),freq=F,main="n = 40, p = .6")<br>add.norm(40*.6,sqrt(40*.6*(1-.6)))<br>hist(rbinom(10000,80,.6),breaks=seq(-.5,80.5,by=1),freq=F,main="n = 80, p = .6")<br>add.norm(80*.6,sqrt(80*.6*(1-.6)))<br>hist(rbinom(10000,160,.6),breaks=seq(-.5,160.5,by=1),freq=F,main="n = 160, p = .6")<br>add.norm(160*.6,sqrt(160*.6*(1-.6)))<br><br></pre>
+    This result is due to the <span style="font-weight: bold;">Central
+      Limit Theorem</span>, which we will see in the lab assignment and
+    later in the quarter.<br>
+    <br>
+    <h2><a name="Density_Plots"></a>Density Plots</h2>
+    R has several functions for generating smoothed histograms, or
+    density plots. We will focus on the "density" function.<br>
+    <br>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    Basic usage is straightforward:<br>
+    <pre style="margin-left: 40px;">plot(density(faithful$eruptions))</pre>
+    The density function produces a data structure with several
+    components - the first ($x) is the set of points on the x-axis where
+    the density was evaluated; the second ($y) is the height of the
+    density curve at those points.<br>
+    <pre style="margin-left: 40px;">d &lt;- density(faithful$eruptions)<br>names(d)<br>head(d$x)<br>head(d$y)<br></pre>
+    The main issue with density estimates is how much smoothing to do.
+    There is a "bandwidth" parameter (bw) in the density function that
+    determines this.<br>
+    <br>
+    If the bandwidth parameter is too small, you get a punk hair style:<br>
+    <pre style="margin-left: 40px;">plot(density(faithful$eruptions,bw=.01))</pre>
+    If the width parameter is too large, you get a nice smooth curve
+    that looks the same no matter what your data were!
+    <pre style="margin-left: 40px;">plot(density(faithful$eruptions,bw=5))</pre>
+    Try a few different values.<br>
+    <br>
+    It is often useful to combine a density plot and some other plot
+    such as a histogram or dotplot. The "lines" function adds a lineplot
+    to an existing plot:<br>
+    <pre style="margin-left: 40px;">hist(faithful$eruptions,freq=F,xlim=c(1,6),breaks=15)<br>lines(density(faithful$eruptions),lty=2)	# lty = "line type"<br></pre>
+    <br>
+    <h2><a name="Boxplots"></a>Boxplots</h2>
+    A boxplot is a graphical display of a "5-number summary" = minimum,
+    lower quartile, median, upper quartile, and maximum. The edgest of
+    the box are the lower quartile and the upper quartile, with the
+    median drawn as a line in the box. The "whiskers" extend to the
+    minimum and maximum values, unless outliers are present, in which
+    case they get their own points and the whiskers extend to the
+    largest/smallest value not considered an outlier. Try this:<br>
+    <blockquote>
+      <pre>boxplot(faithful$eruptions)<br></pre>
+    </blockquote>
+    Or horizontally,<br>
+    <blockquote>
+      <pre>boxplot(faithful$eruptions, horizontal=TRUE)<br></pre>
+    </blockquote>
+    Again, we can add axes labels, a main title, and color using the
+    same arguments as we saw with the "hist" function:<br>
+    <blockquote>
+      <pre>boxplot(faithful$eruptions,ylab="Eruption Time (min)",<br>	main="Old Faithful Eruptions Times", col="seagreen")<br></pre>
+    </blockquote>
+    To see all the color options R has to offer, type:<br>
+    <blockquote>
+      <pre>colors()<br></pre>
+    </blockquote>
+    <br>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <hr style="width: 100%; height: 2px;">
+    <table style="text-align: left; width: 100%;" border="1"
+      cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td style="vertical-align: top; background-color: rgb(204,
+            204, 255);">
+            <h2><span style="font-weight: bold;">Useful R Commands when
+                Creating Plots</span></h2>
+            If you have a plot window open, R by default will write over
+            that plot when you ask it for another plot. (R Studio,
+            however, will open a new plot window for each plot.) If
+            you'd like to open another plot window, type the following
+            command:<span style="font-weight: bold;"><br>
+              <br>
+              Mac: <br>
+            </span><span style="font-weight: bold;"></span>
+            <pre>quartz()<br></pre>
+            <span style="font-weight: bold;"><br>
+              PC: <br>
+            </span><span style="font-weight: bold;"></span>
+            <pre>x11()<br></pre>
+            <br>
+            You can put more than one plot in a single window. For
+            example, if you wanted a plot window with 2 rows and 3
+            columns (6 plots total), you could use the command:<br>
+            <pre>par(mfrow=c(2,3))<br></pre>
+            The command "par" is short for (graphical) <span
+              style="text-decoration: underline;">par</span>ameters, and
+            "mfrow" stands for <span style="text-decoration:
+              underline;">m</span>ultiple <span style="text-decoration:
+              underline;">f</span>igures (rows). (There is also an
+            argument called <span style="font-family: monospace;">mfcol</span>).
+
+
+
+
+            Look up the help file for <span style="font-family:
+              monospace;">par</span> to explore more graphical options.<br>
+            <br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <hr style="width: 100%; height: 2px;">
+    <div align="center"><big><span style="font-weight: bold;">Previous:</span>
+        <a href="Prob_Distns.html">Probability Distributions in R</a><br>
+        <span style="font-weight: bold;">Next:</span> <a
+          href="Lab3_HW.html">Lab 3 Assignment</a></big><br>
+      <big> </big><br>
+      <big> <a
+          href="file:///Users/Hancock/Documents/Webpage/120A/labs/lab3/index.html">Lab
+
+          3 Index</a></big><br>
+    </div>
+    <hr style="width: 100%; height: 2px;"><br>
+  </body>
+</html>
+

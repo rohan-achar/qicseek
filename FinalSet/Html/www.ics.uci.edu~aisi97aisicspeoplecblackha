@@ -1,0 +1,41 @@
+<HTML>
+<HEAD>
+  <TITLE>Cheryl Blackhawk</TITLE>
+  <!--author-->
+  <BASE HREF="http://www.ics.uci.edu/~aisi/97_aisics/people/cblackha/">
+</HEAD>
+
+<BODY BACKGROUND="images/tan_paper.gif" LINK="#CC0000" VLINK="#660066" ALINK="#660066" TEXT="#333333">
+<!--Choice of specific bacground ie..color and link-->
+<CENTER>
+<!--Center document-->
+<P><H1>Cheryl Blackhawk</H1><P></CENTER>
+<!--Beginning of paragraph, headin of page centered-->
+<CENTER><IMG SRC="images/rule10.gif"></CENTER><P>
+<!--Center graphic rule-->
+<P><H2><CENTER><IMG SRC="images/movf.gif">OTOE/SHOSHONE/PAIUTE<IMG SRC="images/movf.gif"></CENTER></H2><P>
+<!--center tribal names in large bold heading next to largest font-->
+<CENTER><P><IMG SRC="images/rule10.gif"></P></CENTER>
+<!--center graphic rule-->
+<H3><CENTER>Hot Links</CENTER></H3><P>
+<!--center all links in heading 3 bold font-->
+
+<CENTER>
+<TABLE WIDTH=50%>
+<!--center table-->
+<TR><TD>
+<DL><DD><P><IMG SRC="images/bullet2.gif"> <A HREF="Otoe-M.html">Otoe-Missouria</A><BR></P>
+<P><IMG SRC="images/bullet2.gif"> <A HREF="Otoe-M.ps">Otoe-Missouri Postcript</A><BR></P>
+<P><IMG SRC="images/bullet2.gif"> <A HREF="http://www.ics.uci.edu/~aisi/const.html">Shoshone</A><BR></P>
+<P><IMG SRC="images/bullet2.gif"> <A HREF="http://www.ics.uci.edu/~aisi/const.html">Paiute</A><BR></P>
+<P><IMG SRC="images/bullet2.gif"> <A HREF="resume.html">Resume</A><BR></P>
+<P><IMG SRC="images/bullet2.gif"> <A HREF="indian.html">Buffalo Cafe</A><BR></P>
+<!--bullet list of hot links for tribes, resume, interest centered in middle of page-->
+</DD></DL><P>
+</TD></TR>
+</TABLE>
+
+<CENTER><P><IMG SRC="images/rule10.gif"><P></CENTER>
+<CENTER><P>Thank you for interest and there will be more so check back again.<P></CENTER>
+If you have comments or suggestions, email me at <I><A HREF="mailto:cblackha@ics.uci.edu">cblackha@ics.uci.edu</A></I>
+

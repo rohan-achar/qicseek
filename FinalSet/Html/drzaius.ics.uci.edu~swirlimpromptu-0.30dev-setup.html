@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head><title>Impromptu Workspace - Setup developer environment for Impromptu Workspace</title><style type="text/css" media="all">
+          @import url("./style/maven-base.css");
+          
+			    @import url("style/impromptu.css");</style><link rel="stylesheet" href="./style/print.css" type="text/css" media="print"></link><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"></meta></head><body class="composite"><div id="banner"><a href="http://www.isr.uci.edu" id="organizationLogo"><img alt="Institute for Software Research" src="./images/logos/ISR-logo.gif"></img></a><a href="http://www.isr.uci.edu/projects/swirl" id="projectLogo"><img alt="Impromptu Workspace" src="./images/logos/swirl-logo.gif"></img></a><div class="clear"><hr></hr></div></div><div id="breadcrumbs"><div class="xright">
+        
+        <a href="http://drzaius.ics.uci.edu" class="externalLink" title="External Link">Dr Zaius</a>
+      </div><div class="clear"><hr></hr></div></div><div id="leftColumn"><div id="navcolumn"><div id="menuQuick_Links"><h5>Quick Links</h5><ul><li class="none"><a href="download.html">Download</a></li><li class="none"><a href="user-setup.html">User Setup</a></li><li class="none"><a href="userGuide.html">User Guide</a></li><li class="none"><a href="dev-setup.html">Developer Setup</a></li></ul></div><div id="menuProject_Documentation"><h5>Project Documentation</h5><ul><li class="none"><a href="index.html">About Impromptu Workspace</a></li><li class="collapsed"><a href="project-info.html">Project Info</a></li><li class="collapsed"><a href="maven-reports.html">Project Reports</a></li></ul></div><a href="http://maven.apache.org/" title="Built by Maven" id="poweredBy"><img alt="Built by Maven" src="./images/logos/maven-button-1.png"></img></a></div></div><div id="bodyColumn"><div class="contentBox"><div class="section"><a name="Get_necessary_software"></a><h2>Get necessary software</h2><ol>
+				<li>Download and install Ant (version &gt;= 1.6) from <a href="http://ant.apache.org" class="externalLink" title="External Link">here</a></li>
+				<li>Download and install Maven 1.0 from <a href="http://maven.apache.org" class="externalLink" title="External Link">
+					here</a></li>
+				<li>Set system properties: MAVEN_HOME to Maven's home 
+					directory, ANT_HOME to Ant's home directory, JAVA_HOME to 
+					Java's home directory</li>
+				<li>Add MAVEN_HOME\bin,JAVA_HOME\bin, and ANT_HOME\bin to 
+					system path</li>
+			</ol></div><div class="section"><a name="Get_Impromptu_Sources"></a><h2>Get Impromptu Sources</h2><ol>
+				<li>Obtain CVS access to the drzaius.ics.uci.edu server.  Contact Paul Dourish at
+				    <a href="mailto:jpd@ics.uci.edu">jpd@ics.uci.edu</a></li>
+				<li>Select the "CVS Repository Exploring" perspective to connect with
+				    CVS repository on drzaius:
+				    <ul>
+				    	<li> Set Host: drzaius.ics.uci.edu </li>
+				    	<li> Set Repository path: /export/cvs </li>
+				    	<li> Set Athentication to your unix login and password </li>
+				    	<li> Set Connection type to pserver </li>
+				    </ul>
+				</li>
+				<li>Browse the CVS repository to find and open the Impromput project.</li>
+			</ol></div><div class="section"><a name="Set_up_MAVEN_Repository"></a><h2>Set up MAVEN Repository</h2><ol>
+				<li>Create a MAVEN_REPO variable in eclipse build path to reflect the local repository 
+					location.</li>
+				<li>A populated MAVEN repository has been checked into CVS.  It is important
+				    to use the version of Jetty found there as it is a custom build.</li>
+				<li>Open a command prompt and change to the eclipse workspace 
+					directory for impromptu (probably c:\eclipse\workspace\impromptu)and unzip
+					the file repository.zip into your specified MAVEN repository location.</li>
+			</ol></div><div class="section"><a name="Compile_and_Run_Impromptu"></a><h2>Compile and Run Impromptu</h2><ol>
+				<li>Use eclipse to compile the project.</li>
+				<li>Open a command prompt and change to the eclipse workspace 
+					directory for impromptu (probably 
+					c:\eclipse\workspace\impromptu)</li>
+				<li>Change to the target directory, and type
+					Server, Client, Peer to execute the server part, the client
+					part, or the combined peer part. Use "-Dimpromptu.name=name"
+					to choose a different name than your user name.</li>
+			</ol></div></div></div><div class="clear"><hr></hr></div><div id="footer"><div class="xright">� 2005-2006, Institute for Software Research</div><div class="clear"><hr></hr></div></div></body></html>

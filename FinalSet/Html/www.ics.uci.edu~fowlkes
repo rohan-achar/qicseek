@@ -1,0 +1,234 @@
+
+<html>
+  <head>
+    <title>
+    charless c. fowlkes - uc irvine - computer vision 
+    </title>
+    <link rel="icon" href="images/mug.jpg" type="image/jpg">
+    <meta name="keywords" content="charless c. fowlkes homepage computer vision natural image ecological statistics segmentation grouping perceptual organization computational biology gene expression atlas">
+     <link rel="STYLESHEET" href="http://www.ics.uci.edu/~fowlkes/linkage.css" type="text/css">   
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-23283073-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </head>
+  <body bgcolor="#333333" text="#FFFFFF" link="#99CC99" alink="#FFFFFF" vlink="#99CC99">
+    <div class="sidebar">
+      <div class="sidebar2">
+      <br>
+
+<center> <a href="images/seq1c.gif" style="color:#999999"> <img src="images/mug3.jpg" alt="mugshot"></a></center>
+
+<h3>charless c. fowlkes</h3>
+associate professor<br>
+computer science<br>
+uc irvine<br>
+<br>
+fowlkes@ics.uci.edu<br>
+4076 dbh <br>
+949.824.6945<br>
+<br>
+<a href="http://www.uci.edu/">uci</a> : <a href="http://www.ics.uci.edu/computerscience/">cs</a> : <a href="http://vision.ics.uci.edu">vision group</a><br>
+<p></p>
+
+      </div>
+      <div class="sidebar2">
+  <a href="http://www.ics.uci.edu/~fowlkes/">home</a><br>
+  <a href="http://www.ics.uci.edu/~fowlkes/publications.html">publications</a><br>
+  <a href="http://www.ics.uci.edu/~fowlkes/presentations.html">presentations</a><br>
+  <a href="http://www.ics.uci.edu/~fowlkes/software.html">software</a><br>
+<!--  <a href="http://www.ics.uci.edu/~fowlkes/cv.pdf">cv</a><br>-->
+</div>
+
+    </div>
+    <div class="content">
+        <table>
+        <tr>
+        <td width=80%>
+        <br><br>
+        My research is in computational vision, in particular how to combine
+        bottom-up processing, such as image segmentation with top-down
+        information, such as recognition of familiar shapes.  I'm
+        interested in how measuring the predictive power of different visual
+        cues can provide general information-theoretic constraints on human
+        visual processing.  I also work on developing tools for biological
+        image analysis in order to measure morphology and spatial patterns of
+        gene expression in developing animals. 
+        <br><br>
+        <br><br>
+        </td>
+        <td width=20%>
+        <table>
+        <tr><td><center><img width=130px src="vision.jpg"></center></td></tr>
+        <tr><td><img width=200px src="biology.jpg"></td></tr>
+        </table>
+        </tr>
+        </table>
+
+        <h4>news: </h4>
+        <ul>
+        <li> 
+        L. Mander, M. Li, W. Mio, C. Fowlkes, S. Punyasena, "Classification of grass
+        pollen through the quantitative analysis of surface ornamentation and texture",
+        <a href="http://rspb.royalsocietypublishing.org/content/280/1770/20131905.full">Proc. R. Soc. B.</a> 2013 280 (1770) <a href="papers/mlmfp_pollen.pdf">[pdf]</a>
+        <br>
+        <br>
+
+        <li>
+          R. D&iacute;az, S. Hallman, C. Fowlkes, "Detecting Dynamic Objects with Multi-View Background Subtraction",
+          <a href="http://iccv2013.org/">ICCV</a>, Sydney, Austrailia (December 2013).
+          <a href="papers/dhf-iccv13.pdf">[pdf]</a>
+          <br> 
+          <br>
+        <li>
+        NSF award "CAREER: Combinatorial Inference and Learning for Fusing Recognition and Perceptual Grouping"
+        <a href="http://nsf.gov/awardsearch/showAward.do?AwardNumber=1253538">(IIS-1253538)</a>
+        <br>
+        <br>
+        <li> X. Zhu, C. Vondrick, D. Ramanan, C. Fowlkes, "Do we need more training data or better models for object detection?", BMVC, Surrey, UK (Sept. 2012).
+        <a href="papers/zvrf-bmvc12.pdf">[pdf]</a>
+        <br>
+        <br>
+        <li> J. Yarkony, A. Ihler, C. Fowlkes, "Fast Planar Correlation Clustering
+        for Image Segmentation'', ECCV, Firenze, Italy (Oct. 2012).
+        <a href="http://arxiv.org/abs/1208.0378v1">arXiv:1208.0378v1</a>
+        <a href="papers/yif-eccv12-extended.pdf">[extended pdf]</a>
+        <br>
+        <br>
+    
+        more recent pubs <a href="publications.html">here...</a>
+
+        </ul>
+        <br><br>
+        <h4>teaching:</h4>
+        <br>
+        <a href="http://www.ics.uci.edu/~fowlkes/class/cs117/">cs 117 : project in computer vision [w09,f13]</a><br>
+        ics 162 : modeling and world building [f12]<br>
+        cs 116 : computational photography and vision [w10,w11,w13]<br>
+        cs 216 : image understanding [f08,f10,f11,f12]<br>
+        cs 217 : light and geometry in vision [w12,s10]<br>
+        cs 295 : research topics in vision [s09,w10,w11]<br>
+        cs 177 : applications of probability in computer science [s08]<br>
+        </ul>
+        <br><br>
+        <h4>students:</h4>
+        <br>
+        advisees
+        <ul>
+        <li><a href="http://www.ics.uci.edu/~rdiazgar">Ra&uacute;l D&iacute;az</a> (PhD)<br>
+        <li>Golnaz Ghiasi (PhD)<br>
+        <li><a href="http://www.ics.uci.edu/~shallman/">Sam Hallman</a> (PhD)<br>
+        <li>Bailey Kong (PhD)<br>
+        </ul>
+        <br>
+        recent collaborators 
+        <ul>
+        <li><a href="http://www.cecs.uci.edu/~hyeoungho/">Hyeoungho Bae</a> (PhD) <br>
+        <li>Sholeh Forouzan (PhD) <br>
+        <li><a href="http://www.ics.uci.edu/~xzhu/">Xiangxin Zhu</a> (PhD) <br>
+        </ul>
+        <br>
+        past advisees<p>
+        <ul>
+        <li>Shaofei Wang (MS, 2013)<br>
+        <li>Julian Yarkony (PhD,2012) now at UC Santa Barbara<br>
+        <li>Matthew Nease (BS, 2012) now at Edmunds<br>
+        <li>Shu-Chi Hsu (MS, 2012)<br>
+        <li>Yihang Bo (visiting PhD, 2010-2011) now at Institute of Automation, CAS<br> 
+        <li>Ragib Morshed (MS, 2011) now at Adconion <br>
+        <li>Sangeeta Jha  (MS, 2010) now at Intel <br>
+        <li>Tony Tran (MS, 2009) now at Bizo<br>
+        </ul>
+        <br><br>
+        <h4>meetings: </h4>
+        <ul>
+        <li> <a href="http://vision.cse.psu.edu/vlpr2012/vlpr2012.html">USA-Sino Summer School in Vision, Learning, Pattern Recognition: VLPR 2012</a> Fudan Unviersity, Shanghai, China July 2012.
+        <br>
+        <br>
+        <li> <a href="http://vision.ics.uci.edu/pocv2012/index.html">The Eighth IEEE Computer Society Workshop on Perceptual Organization in Computer Vision (POCV 2012)</a>, CVPR 2012, Providence, RI.
+        <br>
+        <br>
+        <li> <a href="http://vision.ics.uci.edu/sccv/">Annual Southern California Computer Vision Meetup</a><br>
+        </ul>
+        <br>
+        <h4>funding:</h4>
+        <br>
+        My research is currently supported by:
+        <ul>
+        <li>National Science Foundation (
+        <a href="http://nsf.gov/awardsearch/showAward.do?AwardNumber=1053036">DBI-1053036</a>,
+        <a href="http://nsf.gov/awardsearch/showAward.do?AwardNumber=1253538">IIS-1253538</a>,
+        <a href="http://nsf.gov/awardsearch/showAward?AWD_ID=1262547">DBI-1262547</a>
+        )
+        <li><a href="http://www.google.com/research/university/">Google Research Award</a>
+        </ul>
+        previously: 
+        <ul>
+        <li><a href="http://www.ucop.edu/labresrfp/">UC Labs Research Program</a>
+        </ul>
+        <!--
+        <br><br>
+        <h4>
+        computational vision:
+        </h4>
+        <br>
+        <table><tr>
+        <td width=70%>
+        <ul>
+          <li>measuring the ecological statistics of perceptual organization:<p>
+          <ul>
+            <li><a href="http://www.ics.uci.edu/~fowlkes/project/estats/index.html">grouping by similarity</a><p>
+            <li><a href="http://www.ics.uci.edu/~fowlkes/project/figureground/index.html">figure-ground organization</a><p>
+          </ul>
+        <li>boundary detection and segmentation: <p>
+          <ul>
+          <li><a href="http://www.ics.uci.edu/~fowlkes/project/boundary/index.html">detecting boundaries in natural images</a><p>
+          <li><a href="http://www.cs.berkeley.edu/projects/vision/grouping/segbench/">
+          the Berkeley Segmentation Dataset and Benchmark (BSDS)</a><p>
+          <li><a href="http://www.cs.berkeley.edu/~fowlkes/BSE/">
+          the Berkeley Segmentation Engine (BSE)</a><br><br>
+          </ul>
+        </ul>
+        </td>
+        <td  width=20% align="right" valign="center">
+        <img src="vision.jpg">
+        </td>
+        </tr></table>
+        <br>
+        <h4>
+        computational biology:
+        </h4>
+        <br>
+        <table><tr>
+        <td width=70%>
+        <ul>
+        <li>
+        computaional analysis of spatial patterns of gene expression in <em>Drosophila</em>:<p>
+        <ul>
+        <li><a href="http://www.ics.uci.edu/~fowlkes/embryo/index.html">constructing a spatio-temporal atlas of gene expression</a><br><br>
+        <li><a href="http://www.ics.uci.edu/~fowlkes/embryo/morphology.html">modeling nuclear movements in blastoderm</a><br><br>
+        <li><a href="http://www.ics.uci.edu/~fowlkes/embryo/expression.html">modeling transcription networks in blastoderm</a><br><br>
+        </ul>
+        </ul>
+        <br><br>
+        </td>
+        <td  width=20% align="right" valign="center">
+        <img src="biology.jpg">
+        </td>
+        </tr></table>
+        -->
+    </div>
+
+  </body>
+</html>
+
+

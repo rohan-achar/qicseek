@@ -1,0 +1,189 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<HTML>
+<HEAD>
+<TITLE>ICS 1C: Quiz 1 Answers</TITLE>
+</HEAD>
+
+
+<BODY>
+<H1>ICS 1C: Quiz 1 Answers</H1>
+Here are some notes on Quiz 1. -- Dan.
+<p>
+General note on scoring: on several questions, a check mark means full credit
+(2 points), a "1" means 1 point, and an "X" means no credit.
+<p>
+You can see a <A HREF="qz1.hist.html">histogram</A> of the scores
+on Quiz 1.
+
+<HR>
+<H1>
+Compare and contrast "As We May Think" and "The Word Wide Web".
+</H1>
+
+<H2>
+Of the concepts and mechanisms V. Bush presents in "As We May Think,"
+state two which are also found in the World Wide Web as described in the 
+article by T. Berners-Lee. et al.
+</H2>
+
+Some good answers would be:
+<UL>
+<LI>Multimedia.
+<LI>Records knowledge - boundless information world.
+<LI>Associatative indexing - concept of hypertext.
+<LI>Dissemination of knowledge.
+<LI>Scaling up - ability to access efficiently large quantities of data.
+<LI>Distributed, non-hierarchical.
+<LI>Computer-assisted collaboration.
+<LI>Easy to use interface, accessible to non-specialists.
+</UL>
+
+<H2>
+State two fundamental characteristics of the World Wide Web as 
+described by T. Berners-Lee et al. which are not present in V. Bush's
+"As We May Think".
+</H2>
+
+How about:
+<UL>
+<LI>Consistent user interface.
+<LI>HTML.
+<LI>HTTP.
+<LI>Existence of a variety of browsers (specific browsers don't count,
+   as they are not fundamental).
+<LI>World-wideness, Internet-based, global network.
+</UL>
+
+Note that I used incomplete sentences in several of my answers.
+This practice, however, was penalized on the quiz.
+
+<HR>
+
+<H1>
+What the heck are "name space," "address space," "hierarchical
+space" and "information space"?
+</H1>
+
+The shared meaning of space here is "range of possibilities."  For instance,
+consider "7-digit phone number space."  This space does not include
+"000-0000," as that is not a valid phone number.  
+Berners-Lee et al. write "The prefix 'http' . . .
+indicates the address space," which means that the possibilities and syntax
+following "http" may be different than what might follow another
+prefix.  Now make sure you completely understand the following very 
+important sentence in the Berners-Lee article, 
+from the top of the middle column on p. 78:
+"The fact that it is easy to address an object anywhere on the Internet
+is essential . . . for the information space to be independent of
+the network and server topology."  (Look up topology if you're not 100%
+clear on its meaning!)  Based on your experience so far, would you
+say that this sentence is correct?
+<p>
+No one got this question right.  My favorite valiant attempt was
+"Space is used in an almost virtual way."  Be prepared for challenging 
+vocabulary questions on future quizzes -- did someone say extensible? 
+idempotent? metainformation? bit-map? wysiwyg? virtual?
+
+<HR>
+
+<H1>
+What did you do in lab?
+</H1>
+
+<H2>
+How do you save a copy of an e-mail into a file in a subdirectory?
+</H2>
+
+The magic word here is "export".
+
+<H2>
+How do you interpret ^G or ^C?  
+</H2>
+
+For full credit, you had to say "hold down the control key and C or G."
+Half credit for writing merely "Control C" or "Control G".
+
+<HR>
+
+<H1>
+Fun with binary numbers.
+</H1>
+
+<H2>
+How many bits do you need to represent 120 or 140 distinct values?
+</H2>
+Each (decimal) digit gives you 10 times as many distinct values.  Thus
+there are 10 x 10 x 10 x 10 x 10 x 10 x 10 possible seven digit phone
+number, minus a few illegal ones such as 000-0000.  Each additional bit 
+(binary digit) gives 2 times as many possibilities:
+<PRE>
+Number   Distinct
+of bits  values     List of those distinct values
+-------  --------   -----------------------------------------------------
+  1         2       0, 1
+  2         4       00, 01, 10, 11
+  3         8       000, 001, 010, 011, 100, 101, 110, 111
+  4        16       0000, 0001, 0010, 0011, 0100, 0101, 0110, 0111, ... 1111
+  5        32       00000, 00001, 00010, 00011, ... 11100, 11101, 11110, 11111
+  6        64       000000, 000001, 000010, 000011, ... 111101, 111110, 111111
+  7       128       0000000, 0000001, 0000010, 0000011, ... 1111110, 1111111
+  8       256       00000000, 00000001, 00000010, ... 11111110, 11111111
+</PRE>
+So, 120 values requires 7 bits (6 won't do), and 7 bits gives 128 distinct
+values.  140 values requires 8 bits (7 won't do), and 8 bits gives 256
+distinct values.
+
+<HR>
+
+<H1>
+Baby, won't you drive my car?
+</H1>
+
+There were two versions of this question.
+Most people correctly know what the units meant, but a lot
+of people messed up on the math.
+<p>
+2 micro-miles in 400 nano-hours is (2/1,000,000)/(400/1,000,000,000) mph,
+or 5 mph, which isn't even worth a kilo-nickel.
+<p>
+On the other hand, 70 milli-miles in 100 micro-hours is
+(70/1,000)/(100/1,000,000) mph, or 700 mph, which is a pretty good deal.
+
+<HR>
+
+<H1>
+Describe "WWW client-waitperson architecture."
+</H1>
+
+Here are a couple of ways of handling the question,
+both of which are much more detailed than I (SDF) would expect student
+answers to be:
+<p>
+    An individual or organization wishing to provide information or
+    services via the Web do so via programs called "servers" which run
+    at all times.  When a person wants to access such information or
+    services, s/he does so by running a "client" program on her/his "own"
+    computer system.  This "client" program requests services from 
+    various "servers" by contacting the server programs on whatever
+    system each server happens to be running.
+<p>
+    In general, a server provides a service to another program called a 
+    "client" which (typically) is receiving commands from a person.
+    A client is a program which asks for service.  Generally it does so
+    because a human being tells it, "Do this or do that" but in order to do
+    this or do that the client program has to contact another program, called
+    a server, which delivers a service to the client program which in turn
+    uses what it gets from the server to meet the request/command issued by
+    the human being.
+<p>
+In both cases, the key fact about a browser is that
+   a browser is a web client.  Based on direct/interactive control
+   by a person wanting to access information/services via the Web,
+   the browser contacts Web servers, makes requests in keeping with
+   the user's commands, and displays the results to the user in
+   an appropriate format.
+
+
+</BODY>
+</HTML>
+

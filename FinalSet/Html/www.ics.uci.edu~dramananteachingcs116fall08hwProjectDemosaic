@@ -1,0 +1,270 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>HW1: Demosaicing</title>
+  </head>
+
+  <body>
+    <h1>HW1: Demosaicing</h1>
+    <h3> Due Oct 9 in EEE DropBox at 11:59 pm </h3>
+    <hr>
+
+    In this assignment (thouroughly prepared by <a href="http://vision.bc.edu/~dmartin/">David Martin</a>), you'll implement many of the processing
+    steps that digital cameras perform to transform raw sensor
+    measurements into nice looking images. These steps are:
+    
+    <ol>
+      <li> Demosaicing
+      <li> White Balancing
+      <li> Gamma Correction
+      <li> Histogram Clipping	
+    </ol>
+
+    The following directory contains raw images from a Canon 20D camera
+    (<tt>*.CR2</tt>) as well as corresponding JPEG images from the camera
+    (<tt>*.JPG</tt>).  The raw images (<tt>*.CR2</tt>) have been converted to 16-bit PGM images (<tt>*.pgm</tt>) using a David Coffin's <tt> dcraw </tt> program (freely available online). PGM images can be read into matlab
+
+ that you can easily load into matlab using <tt>imread</tt> (a useful conversion utility is David Coggin's <tt> dcraw </tt> program):
+
+    <ul>
+      <li><a href="downloads">downloads</a>
+    </ul>
+ 
+ <p>  <b> <span style='color:red;text-decoration:none;text-underline:none'>News:</span></b> The deadline is postponed until October 9. Additionally, I put together a project template in the download section. Unzipping it will produce a <tt>template</tt> directory containing skeleton matlab code, a html writeup, and the input images. Run <tt> hw1_run.m</tt> from Matlab to get started.
+ </p>
+  
+    <h4>Programming [25 points]</h4>
+
+    Write the following 4 functions (each in their own file) 
+    with the following prototypes to perform each of the
+    processing steps, such that the following code should do something
+    sensible:
+    
+    <blockquote><tt><pre>
+I = im2single(imread('IMG_1308.pgm'));
+I = demosaic(I);         % 10 pts
+wp = getWhitePoint(I);   % Not graded
+I = whiteBalance(I,wp);  % 5 pts
+I = clipHistogram(I);    % 5 pts
+I = gammaCorrect(I);     % 5 pts
+figure(1); clf; imshow(I);
+      </pre></tt></blockquote>
+    <ol>
+      
+	<hr>
+	<blockquote><tt><pre>
+function [J] = demosaic(I)
+%demosaic - demosaic a Bayer RG/GB image to an RGB image
+%
+% I: RG/GB mosaic image
+% J: RGB image
+	  </pre></tt></blockquote>
+	
+	<div style="float:right; padding:10px; text-align:right;">
+	  <img style="border:0px; padding:5px;" src="3shotcm_figure1.jpg"><br>
+	  <font size="-1">Bayer RGGB mosaic.</font>
+	  <font size="-2">[<a href="http://www.i-cubeinc.com/pdf/cameras/3shotcm.shtml">Source</a>]</font>
+	</div>
+	<p><li><b>[10 points]</b> <i>Demosaicing:</i>  The raw image has
+	just one value per pixel.  The sensor is covered with a filter
+	array that modifies the sensitivity curve of each pixel.  There
+	are three types of filters:  "red", "green", and "blue", arranged
+	in the following pattern repeated from the top left corner:
+	
+	
+	<blockquote><pre>
+R G . . .
+G B
+.
+.
+.
+	  </pre></blockquote>
+	
+	<p>Your job is to compute the missing color values at each pixel
+	  to produce a full RGB image (3 values per pixel).  For example,
+	  for each "green" pixel, you need to compute "blue" and "red" values.
+	  Do this by interpolating values from adjacent pixels.  Try not to
+	  write any loops for this computation; use the <tt>imfilter</tt> 
+	  function instead.
+
+	<hr>
+	<blockquote><tt><pre>
+function [I] = whiteBalance(I,wp)
+%whiteBalance - white balance an image
+%
+%   I: RGB image
+%   wp: RGB white point vector
+</pre></tt></blockquote>
+
+	<p><li><b>[5 points]</b> <i>White Balancing:</i>  A pixel with all 3
+	RGB components equal has no "color", meaning it is white, gray,
+	or black.  A white object in a raw image, however, will not
+	have equal RGB values since the RGB sensors do not have
+	equal sensitivities.  To white balance an image you need to
+	find the measured RGB values of some white object in the image.
+	(Consider using <tt>getpts</tt> to get the coordinates of a mouse
+	click on a figure window.)
+	These values give you the relative sensitivities of the RGB 
+	sensors; dividing each channel by these values will normalize
+	the channels so that they have equal perceptual "units".
+
+	<hr>
+	<blockquote><tt><pre>
+function [I] = clipHistogram(I,fa,fb)
+%clipHistogram - clip image histogram
+%
+% I: RGB image
+% fa,fb: lower and upper clip fraction, in [0,1]
+%
+% The image values are re-normalized to span [0,1].
+%
+% For example, I = clipHistogram(I,0.001,0.01) clips the
+% bottom 0.1% and top 1% of the pixel values.
+	  </pre></tt></blockquote>
+	
+	<p><li><b>[5 points]</b> <i>Histogram Clipping:</i>  You'll notice that
+	the image looks washed out.  This is because most of the pixel
+	values fall well inside the allowed range of [0,1].  The histogram
+	of pixel values makes this clear:
+	
+	
+	<blockquote><tt><pre>
+x = linspace(0,1,100);
+h = hist(I(:),x); 
+figure; plot(x,h);
+title('pixel value histogram');
+xlabel('pixel value');
+ylabel('pixel count');
+	  </pre></tt></blockquote>
+	
+	<p>
+	  The minimum and maximum display values are arbitrary: We can move them
+	  to focus on the values that are present in the image.  Given a new
+	  range [a,b] where 0 &lt; a &lt; b &lt; 1, we can set all values &lt; a
+	  to a, all values &gt; b to b, and rescale the pixel values so they
+	  fill the range [0,1].  We don't want to lose too much information,
+	  however, so, for example, we may set a and b to exclude only the top
+	  0.1% of values each.
+	  
+	<hr>
+	
+	<blockquote><tt><pre>
+function [I] = gammaCorrect(I,gamma)
+%gammaCorrect - gamma correct the luminance of an RGB image
+%
+% I: RGB image
+% gamma: exponent for gamma correction; 0 < gamma < 1
+	  </pre></tt></blockquote>
+	
+	<p><li><b>[5 points]</b> <i>Gamma Correction:</i> The camera sensor implements
+	some mapping from pixel flux to pixel value.  For the raw images I'm
+	providing you, this function happens to be linear.  This is convenient
+	from an analysis point of view, but computer displays are built assuming
+	that the mapping from pixel value to brightness is nonlinear because
+	our visual perception is senstive to brightness on a log scale rather 
+	than a linear scale.  To reproduce the image faithfully on a computer
+	screen, you need to apply <i>gamma correction</i> to the pixel
+	brightness values.  The trick is to modify the brightness of the
+	pixels without changing their perceived color:
+	
+	<ol>
+	    <p><li> Compute the brightness (grayscale) image using <tt>rgb2gray</tt>.
+	    
+	    <p><li> Compute the ratios of red, green, and blue to brightness.  We want
+	    to keep these ratios the same, since that is what produces the perception
+	    of color.  These color ratios are called <i>chromaticity</i>.
+	    <p><li> Gamma correct the brightness image.
+	    <p><li> Reconstruct the RGB channels from the original ratios and the new
+	    brightness.
+	</ol>	
+    </ol>
+
+    <h4>Matlab Tips</h4>
+    
+    <ol>
+      
+	<p><li> Put each function in its own file using the same name for the
+	file and the function.  Document the function with a 1-line summary,
+	and document each input and output argument.
+	
+	<p><li> Convert your images to floating-point immediately after
+	reading them from a file using <tt>im2single</tt> or 
+	<tt>im2double</tt>.
+	
+	<p><li> Use <tt>imshow</tt> to view a grayscale or RGB <i>image</i>.  If
+	you are viewing <i>data</i>, then always use <tt>imagesc</tt>.  
+	
+	
+	<p><li> When using <tt>imagesc</tt>, always show the colorbar
+	and use a sensible colormap.  You can change
+	the colormap with the <tt>colormap</tt> command.  The <tt>gray</tt>, 
+	<tt>jet</tt>, and <tt>hsv</tt> colormaps are the most useful.
+	
+	<p><li> Use <tt>imwrite</tt> to write an image to a file.  If you want
+	to create an image of a figure window, either use a screen capture
+	utility or use the <tt>print</tt> command.
+	
+	
+	<p><li> Strings use single quotes.  Double quotes are not used in matlab.
+	
+	<p><li> Useful matlab functions for this assignment:
+
+	<tt>
+	<ul>
+	  <li> help (I still need it after several years of using matlab!)
+	  <li> figure, clf, close
+	  <li> imread, imwrite
+	  <li> im2single, im2double, rgb2gray
+	  <li> imshow, imagesc
+	  <li> colorbar, colormap gray, colormap jet
+	    
+	  <li> imfilter
+	  <li> imcrop
+	  <li> getpts
+	  <li> linspace, hist, cumsum, isempty
+	  <li> plot
+	  <li> min, max
+	</ul>
+      </tt>
+	
+    </ol>
+
+    <h4>Writeup [15 points]</h4>
+    
+    <p>
+      Use <tt>IMG_1308</tt> for the writeup; you may use other
+      images in addition for illustration.
+      Since the images are so large, choose an interesting
+      500x500 pixel sub-block for illustrations.  Make sure your
+      writeup includes links to full size images, however. Follow these <a href="../../hw_guide.html"> guidelines</a> for writeup submission.
+      
+    <ol>
+      
+	<p><li><b>[3 points]</b> Show the original raw image in grayscale, in
+	RGB before demosaicing, and in RGB after demosaicing.  Without white
+	balancing and the other things, it won't look great but the colors
+	should look ok.  
+	
+	<p><li><b>[2 points]</b> Show the demosaiced RGB image with and 
+	without white balancing. 
+
+	<p><li><b>[2 points]</b> Show the image before and after histogram
+	clipping.
+	
+	
+	<p><li><b>[2 points]</b> Show the image before and after gamma correction.
+	
+	<p><li><b>[3 points]</b> Show your final result alongside the camera's
+	JPEG output.  What differences remain?
+	
+	<p><li><b>[3 points]</b> Show details of the image where demosaicing
+	has not worked well.  Why does it not work well in those places?
+	What kinds of image structures pose the biggest challenges for
+	demosaicing?
+	
+    </ol>
+    <h4>Extra-credit</h4>
+    As detailed in the guidelines <a href="../../hw_guide.html"> guidelines</a>, any project handed by 11:59 pm on the previous day (Oct 8), will recieve 10% (4 points) extra credit.
+  </body>
+</html>
+

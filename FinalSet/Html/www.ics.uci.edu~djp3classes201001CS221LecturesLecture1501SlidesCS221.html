@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="description" content="Evaluation in IR Introduction to Information Retrieval CS 221 Donald J. Patterson Content adapted from Hinrich Schütze http://www.informationretrieval.org  Exercise Evaluation in IR If my system returns A,C,D,E to query q....     What do I want Accuracy to be?  Unranked retrieval - Accuracy Evaluation in IR Welcome to my search engine I guarantee a 99.9999% accuracy. Bring on the venture capital   Unranked retrieval - Accuracy Evaluation in IR Most people want to find something and can tolerate some junk  Unranked retrieval - ROC curve Evaluation in IR TP  Unranked retrieval - ROC curve Evaluation in IR  0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100 Relevant Irrelevant   Ranked Retrieval Evaluation in IR Precision and Recall are set-based measures They are computed independent of order But, web search return things in lists Lists have order. A better metric of user happiness/relevance is warranted  Ranked Retrieval Evaluation in IR Let’s use our existing metrics and extend them to ranked retrieval In one system we can get many samples We can get the top X results: X= 10, 20, 30, 40, etc... Each one of those sets has a precision and recall value Each of those sets corresponds to a point on the ROC curve.  Ranked Retrieval Evaluation in IR Each of those sets corresponds to a point on the ROC curve.  Ranked Retrieval Evaluation in IR One option is to average the precision scores at discrete points on the ROC curve But which points? We want to evaluate the system, not the corpus So it can’t be based on number of documents returned  Ranked Retrieval - 11 point precision Evaluation in IR Evaluate based on precision at defined recall points Average the precision at 11 points This can be compared across corpora because it isn’t based on corpus size or number of results returned  Ranked Retrieval - Mean Average Precision Evaluation in IR Why just 11 points? Why not average over all points? This is roughly equivalent to measuring the area under the curve.  Ranked Retrieval - Precision at k Evaluation in IR Users don’t care about results past a page or two So area under the curve is too naive. Let’s evaluate precision with k results instead. Highly dependent on number of relevant documents If k is 20 and relevant docs is 8 best score is 8/(8+12) =0.4  Ranked Retrieval - Precision at R Evaluation in IR We know the number of relevant documents, r,  so rather than looking at k results let’s look at the top r results If r is 20 best score is 20/(20) =1.0 best score is always 1.0  Ranked Retrieval - Precision at R Evaluation in IR It turns out that Precision at R is the break-even point When Precision and Recall are equal Do we care about this point for any rational reason?  Critiques of relevance Evaluation in IR Is the relevance of one document independent of another? Is a gold standard possible? Is a gold standard static? Uniform? Binary? Perhaps relevance as a ranking is better. Relevance versus marginal relevance what does another document add?  Refining a deployed system Evaluation in IR Once you have a system, with metrics, how do you consider changing the system to improve the metrics? A common approach is A/B testing. This is done by Google for clients and Amazon for itself and probably many others. The idea: Treat a small number of your users as experiments. Have them use the different system. Evaluate metrics on experimental group.  Evaluation in IR Evaluation in IR Gold standard approach  Online A/B approach Evaluation in IR Requires users an infrastructure to support testing metrics that don’t require a gold standard  Amazon Evaluation in IR  Amazon Evaluation in IR  Google Evaluation in IR  Snippets Evaluation in IR Little bits of text that summarize the page   They function as an implicit tool for users to rank the results on their own (among those visible) The user does the final ranking Users are still biased by presented order though.  Snippets Evaluation in IR The goal of snippet generation is present the most informative bit of a document in light of the query present something which is self-contained i.e., a clause or a sentence present something short enough to fit in output be fast, accurate (where are the snippets stored?) Challenges Multiple occurrences of keyword in document Poor English (or other language) grammar  Snippets Evaluation in IR Snippets can be static A snippet for a web page is precompiled and always the same. Snippets can be dynamic Depends on the query “informatics”  “informatics definition”  Snippets Evaluation in IR Snippets may contain A few sentences from the web page Meta data about the page Author, Date, Title Output of a text-summarization algorithm Advanced technology that attempts to write snippets Images from the document"/>
+    <title></title>
+    <script type="text/javascript" language="javascript">
+//      <![CDATA[
+            var images = new Array (26);
+            images[0] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.001.png";
+            images[1] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.002.png";
+            images[2] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.003.png";
+            images[3] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.004.png";
+            images[4] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.005.png";
+            images[5] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.006.png";
+            images[6] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.007.png";
+            images[7] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.008.png";
+            images[8] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.009.png";
+            images[9] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.010.png";
+            images[10] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.011.png";
+            images[11] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.012.png";
+            images[12] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.013.png";
+            images[13] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.014.png";
+            images[14] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.015.png";
+            images[15] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.016.png";
+            images[16] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.017.png";
+            images[17] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.018.png";
+            images[18] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.019.png";
+            images[19] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.020.png";
+            images[20] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.021.png";
+            images[21] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.022.png";
+            images[22] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.023.png";
+            images[23] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.024.png";
+            images[24] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.025.png";
+            images[25] = "Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.026.png";
+            var index = 0;
+            function WindowLoaded(evt)
+            {
+                document.body.onselectstart = function () { return false; };
+            }
+            function Step(i)
+            {
+                GoTo(index + i)
+            }
+            function GoTo(newIndex)
+            {
+                if(newIndex >= 0 && newIndex < images.length)
+                {
+                    index = newIndex;
+                    document.Slideshow.src = images[index];
+                }
+            }
+//      ]]>
+    </script>
+</head>
+<body bgcolor="black" onload='WindowLoaded(event);'>
+    <p align="center">
+        <br/>
+        <br/>
+        <img name="Slideshow" alt="" src="Lecture15_01_Slides_CS221_files/Lecture15_01_Slides_CS221.001.png" onclick="Step(1)"/>
+        <br/>
+        <br/>
+        <input type="image" src="Lecture15_01_Slides_CS221_files/home.png" onclick="GoTo(0)"/>
+        &nbsp;&nbsp;&nbsp;
+        <input type="image" src="Lecture15_01_Slides_CS221_files/prev.png" onclick="Step(-1)"/>
+        <input type="image" src="Lecture15_01_Slides_CS221_files/next.png" onclick="Step(1)"/>
+    </p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

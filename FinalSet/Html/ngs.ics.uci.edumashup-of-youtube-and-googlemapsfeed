@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: MashUp of YouTube and GoogleMaps</title>
+	<atom:link href="http://ngs.ics.uci.edu/mashup-of-youtube-and-googlemaps/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/mashup-of-youtube-and-googlemaps/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Sylvie</title>
+		<link>http://ngs.ics.uci.edu/mashup-of-youtube-and-googlemaps/comment-page-1/#comment-1255</link>
+		<dc:creator><![CDATA[Sylvie]]></dc:creator>
+		<pubDate>Sat, 13 Oct 2007 09:41:02 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=842#comment-1255</guid>
+		<description><![CDATA[a similar tool exists since March, on top of google maps
+but the videos are selected according to minimum quality / relevance criteria, 
+
+ http://www.VeniVidiWiki.eu 
+(meaning: I came, I saw, .. I share !)
+
+points of interest are classified in 50 categories (capitals, events, natural/cultural places, outdoors activities ...)
+it can show videos from youtube, dailymotion, google video, turnhere ...]]></description>
+		<content:encoded><![CDATA[<p>a similar tool exists since March, on top of google maps<br />
+but the videos are selected according to minimum quality / relevance criteria, </p>
+<p> <a href="http://www.VeniVidiWiki.eu" rel="nofollow">http://www.VeniVidiWiki.eu</a><br />
+(meaning: I came, I saw, .. I share !)</p>
+<p>points of interest are classified in 50 categories (capitals, events, natural/cultural places, outdoors activities &#8230;)<br />
+it can show videos from youtube, dailymotion, google video, turnhere &#8230;</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

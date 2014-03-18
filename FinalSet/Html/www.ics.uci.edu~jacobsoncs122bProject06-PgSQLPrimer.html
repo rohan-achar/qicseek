@@ -1,0 +1,121 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+  <title>PL/pgSQL Primer</title>
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../course.css" type="text/css">
+</head>
+
+<body>
+<div class="title">
+<center>
+<h2>PL/pgSQL Primer</h2>
+</center>
+</div>
+
+<p>The ability to write functions in PL/pgSQL was conferred on the PostgreSQL database server during installation, so any database, including fabflixs, that it hosts should allow PL/pgsql functions. If your PostgreSQL installation is refusing PL /pgSQL functions, you can give the ability to the fabflixs database by connecting to fabflixs and issuing the command </p>
+
+<div align="center"><font class = "codefacesmall">CREATE LANGUAGE plpgsql;</font> </div>
+
+<p> A PL/pqSQL function can be entered directly from the keyboard, but that proess is time-consuming and error-prone; instead, one typically stores the function in a text file, with, in standard practice, the extension SQL. The function is then added to the database by issuing a command to read it in from the SQL file.</p>
+
+<p>To illustrate, here is a procedure that provides a skeleton for adding a  "movie record set":</p>
+
+<pre>
+CREATE OR REPLACE FUNCTION add_movie(
+varchar,      -- title:varchar                ($1)
+integer,      -- year:integer                 ($2)
+varchar,      -- director:varchar             ($3)
+varchar,      -- banner_url:varchar           ($4)
+varchar,      -- trailer_url:varchar          ($5)
+varchar[],    -- genres[]:varchar             ($6)
+varchar[],    -- star__first_name[]:varchar   ($7)
+varchar[],    -- star_last_name[]:varchar     ($8)
+date[],       -- star_dob[]:date              ($9)
+varchar[]     -- star_photo_url[]:varchar     ($10)
+) RETURNS boolean as '
+
+DECLARE
+  operation_success boolean := false ;   
+  number_of_genres integer := 0 ;
+  number_of_actors integer := 0 ;
+  temp varchar ;
+  temp1 varchar ;
+  temp2 varchar ;
+
+BEGIN
+    number_of_genres = array_upper($6, 1) ;   
+    number_of_actors = array_upper($7, 1) ;   
+    RAISE NOTICE ''Adding movie to the database'' ;  
+    RAISE NOTICE ''Movie title is: % '', $1 ; 
+
+    RAISE NOTICE ''The movie will be associated with % genre(s) '', number_of_genres ;  
+    FOR i IN 1..number_of_genres LOOP 
+    temp = $6[i] ; 
+    RAISE NOTICE '' % '', temp ;
+  END LOOP ;
+ 
+  RAISE NOTICE ''The movie will be associated with % star(s) '', number_of_actors ;   
+  FOR i IN 1..number_of_actors LOOP  
+    temp1 = $7[i] ;  
+    temp2 = $8[i] ;  
+    RAISE NOTICE '' % % '', temp1, temp2 ;
+  END LOOP;  
+  RETURN operation_success;
+
+END;
+' LANGUAGE plpgsql;
+</pre>
+
+<p>Note how single quotes within the function body must be escaped, that is, written as two single quotes in a row. If quotes are not escaped, then the first one encountered will prematurely end the function body.</p>
+
+<ul>
+<li><p> Enter and store add_movie into a file called <font class = "codefacesmall">barebonesaddmovie.sql</font></p></li>
+</ul>
+
+<p>To add this stored procedure to the database, </p>
+
+<ul>
+<li><p>Insert the function into the database; if using psql enter, the command is </p>
+
+<center><font class = "codeFaceSmall">\i barebonesaddmovie.sql</font></center>
+
+</p></li>
+</ul>
+
+<p>You can test the stored procedure by invoking it directly from the command
+line:</p>
+
+<font class = "codeFaceSmall">
+<pre>select add_movie(
+'Meet Joe Black', 
+1998, 
+'Martin Brest',
+'http://',
+'http://',
+'{"drama", "romantic"}',
+'{"Brad"}',
+'{"Pitt"}',
+'{"1/1/1965"}',
+'{"http://"}');
+</pre>
+</font>
+
+<p>(Note that this function does not add any records to the database,
+so it always returns <font class = "codeFaceSmall">false</font>.)</p>
+
+<p>Technical Note: RAISE NOTICE sends messages to the console; it does not "pass them through" to any other location, such as the web page or Java program that called the function. So if you want the information contained in the RAISE NOTICE messages in the example to appear "outside" of the PostgreSQL environemnt, you must have the function return that information. One approach is to set a flag to a value that stands for the condition that would cause the notice, and pass that value back to the calling function. That function then uses that value to display messages back to the user in an appropriate time and manner.</p>
+
+<font face="Helvetica" size=2>
+<p>Written by Chen Li, Winter 2005
+<br>Minor revisions made by Norman Jacobson for the Spring 2005 offering of ICS185, May 2005
+<br>Minor revision to reflect postgres 8.1.4 by Norman Jacobson, April 2007
+<br>Minor edits by Norman Jacobson, September 2007 and November 2007
+<br>Minor revisions to reflect PostgreSQL 8.3.4 under Windows, by Norman Jacobson, September 2008
+<br>Minor polishing, by Norman Jacobson, March 2009
+</p>
+</font>
+
+</body> 
+</html>
+

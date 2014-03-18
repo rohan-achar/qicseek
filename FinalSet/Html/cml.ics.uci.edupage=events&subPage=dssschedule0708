@@ -1,0 +1,227 @@
+		<!-- Begin DisplayHeader HTML -->
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+		<html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+			<title>CML :: Center for Machine Learning and Intelligent Systems</title>
+
+			<link href="css/igbweb_template2.css" rel="stylesheet" type="text/css" />
+			<link rel="SHORTCUT ICON" href="/favicon.ico" />
+
+			<noscript>
+			Please enable javascript on your browser.
+			</noscript>
+
+			<script type="text/javascript" src="igbjs/milonic_src.js"></script>
+			<script	type="text/javascript">
+			if(ns4)_d.write("<scr"+"ipt type=text/javascript src=igbjs/mmenuns4.js><\/scr"+"ipt>");
+			  else _d.write("<scr"+"ipt type=text/javascript src=igbjs/mmenudom.js><\/scr"+"ipt>");
+			</script>
+			<!--<script type="text/javascript" src="/igbjs/menu_data.js"></script>-->
+
+		</head>
+		<!-- End DisplayHeader HTML -->
+
+			<!-- Begin Left Nav & Content Area -->
+
+		<body>
+		<!--<div class="mainDiv">-->
+		<table align="center">
+		<tr>
+		<td class="mainDiv" align="center" valign="middle">
+
+		<table cellpadding="0" cellspacing="0">
+			<tr align="left">
+			<td align="center" colspan="2" >
+			<a href="?"><img src="media/banners/center_title_banner.jpg" border=0 /></a>
+			<!--<img src="media/banners/cml_banner.jpg" border="0" alt="Center for Machine Learning and Data Mining" align="middle"/>-->
+			</td>
+			</tr>
+			<!--
+			<tr>
+				<td colspan="2" height="1">
+				</td>
+			</tr>
+			-->
+			<tr valign="top">
+				<td background="media/uci_background.gif" width="147.5">
+				&nbsp;
+			    <script type="text/javascript" src="igbjs/menu_data.js"></script>
+
+
+				<br><br><br><br><br><br><br>
+
+				<!--<table cellpadding=4><tr><td bgcolor=WHITE><a href='http://www.ics.uci.edu/~aimlpage/meetings.html'>2007 AI/ML Weekly Seminar</a></tr></td></table>-->
+
+				</td>
+				<td width="723px" >
+				<div class="contentArea">
+					<!-- <table> -->
+						<!-- <tr> -->
+							<!-- <td> -->
+							  <!--<div style="background: white;">-->
+								<!-- Begin Actual content -->
+								
+<!-- Below is the html -->
+
+<p class="pageName">Distinguished Speaker Schedule</p>
+
+<!-- DO NOT EDIT script for menu -->
+<!--<table width="100%">
+<td align="left" valign="top">
+<script>
+//Header
+with(DSSStyle=new mm_style()){
+bordercolor="#cccccc";
+borderstyle="solid";
+borderwidth=1;
+fontfamily="verdana,helvetica";
+fontsize="1em";
+fontstyle="normal";
+fontweight="normal";
+headerbgcolor="#003399";
+headercolor="#FFFF33";
+offbgcolor="#ececec";
+offcolor="blue";
+onbgcolor="blue";
+oncolor="white";
+padding=2;
+}
+
+with(DSSMenu=new menuname("DSS Menu")){
+style=DSSStyle;
+//top=220;
+//left=225;
+alwaysvisible=1;
+orientation="horizontal";
+position="relative";
+
+aI("status=Distinguished Speaker Series Schedule;text=Schedule :: ;url=?page=events&subPage=dss_schedule;");
+aI("status=Distinguished Speaker Series Speakers;text=Speakers :: ;url=?page=events&subPage=dss_speakers;");
+aI("status=Distinguished Speaker Series Abstracts;text=Abstracts;url=?page=events&subPage=dss_abstracts;");
+}
+drawMenus();
+
+</script>
+</td>
+</table>
+</p>
+-->
+<!-- end of script for menu -->
+
+Note that the details of the current speaker series are found on <a href="?page=events&subPage=dss_schedule">this page</a>.<br><br>
+
+<table>
+<tr>
+  <td valign = top width=450>
+
+  <strong><a name="top" id="top"></a>2007-2008 Series</strong><br><br>
+
+          The Center for Machine Learning and Intelligent Systems, in
+		  partnership with the Institute for Genomics and Bioinformatics, is
+		  very pleased to announce its Distinguished Speaker series for the
+		  academic year 2007-2008. This year's series will bring a set
+		  of internationally-known researchers to UC Irvine, speaking on
+		  a broad set of topics ranging from automated reasoning,
+		  distributed learning algorithms, human and machine learning,
+		  statistical prediction, and analysis of text, network, and Web data.<br><br>
+
+		  <a href="media/CML_SpeakerSeries_0708.pdf">Download Speaker Schedule [PDF]</a>
+		  <br><br>
+
+          Attendance is free.  We request that you RSVP by emailing <a href="mailto:ckennedy@ics.uci.edu">ckennedy@ics.uci.edu</a>.
+
+   </td>
+   <td><img src="media/speakers/series.gif" / hspace = 20></td>
+ </tr>
+ </table>
+
+<br>
+
+<table cellpadding=5 border=1>
+  <tr>
+     <td valign=top><b>Sept 28, 2007</b><br>Bren Hall 6011<br>11:00 am</td>
+     <td valign=top><img src="media/speakers/pearl.jpg" align=left height=70 hspace=10/>
+         <a href="http://bayes.cs.ucla.edu/jp_home.html"><b>Judea Pearl</b></a><br>Professor, Department of Computer Science <br>University of California, Los Angeles<br><br>
+         <i>"The Science of Reasoning with Cause and Effect"</i></td>
+  </tr>
+
+  <tr>
+       <td valign=top><b>Oct 29, 2007</b><br>Calit2 Auditorium<br>11:00 am</td>
+       <td valign=top><img src="media/speakers/heckerman.jpg" align=left height=70 hspace=10/>
+           <a href="http://research.microsoft.com/~heckerman/"><b>David Heckerman</b></a><br>
+           Founder, Machine Learning and Applied Statistics Group<br>Microsoft Research<br><br>
+           <i>"Graphical Models for HIV Vaccine Design"</i></td>
+  </tr>
+
+  <tr>
+       <td valign=top><b>Nov 16, 2007</b><br>Bren Hall 6011<br>11:00 am</td>
+       <td valign=top><img src="media/speakers/jaakkola.gif" align=left height=70 hspace=10/>
+           <a href="http://people.csail.mit.edu/tommi/"><b>Tommi Jaakkola</b></a>
+           <br>Associate Professor, MIT<br>Department of Electrical Engineering and Computer Science<br><br>
+           <i>"Elements of Distributed Inference"</i></td>
+  </tr>
+
+  <tr>
+       <td valign=top><b>Jan 17, 2008</b><br>Calit2 Auditorium<br>11:00 am</td>
+       <td valign=top><img src="media/speakers/griffiths.gif" align=left height=70 hspace=10/>
+           <a href="http://cocosci.berkeley.edu/tom/"><b>Tom Griffiths</b></a><br>
+           Asst. Professor, Department of Psychology and Cognitive Science<br>University of California, Berkeley<br><br>
+           <i>"Human and Machine Learning"</i></td>
+  </tr>
+
+  <tr>
+       <td valign=top><b>Feb 21, 2008</b><br>Calit2 Auditorium<br>11:00 am</td>
+       <td valign=top><img src="media/speakers/mccallum.jpg" align=left height=70 hspace=10/>
+           <a href="http://www.cs.umass.edu/~mccallum/"><b>Andrew McCallum</b></a>
+           <br>Professor, Department of Computer Science <br>University of Massachusetts, Amherst<br><br>
+           <i>"Bayesian Models of Social Networks and Text"</i></td>
+  </tr>
+
+   <tr>
+       <td valign=top><b>Mar 20, 2008</b><br>Calit2 Auditorium<br>11:00 am</td>
+       <td valign=top><img src="media/speakers/hastie.jpg" align=left height=70 hspace=10/>
+           <a href="http://www-stat.stanford.edu/~hastie/"><b>Trevor Hastie</b></a>
+           <br>Professor and Chair, Department of Statistics <br>Stanford University<br><br>
+           <i>"Regularization Paths"</i></td>
+  </tr>
+
+  <tr>
+       <td valign=top><b>Apr 17, 2008</b><br>Calit2 Auditorium<br>11:00 am</td>
+       <td valign=top><img src="media/speakers/raghavan.gif" align=left height=70 hspace=10/>
+           <a href="http://theory.stanford.edu/people/raghavan/"><b>Prabhakar Raghavan</b></a>
+           <br>Stanford University <br>Director of Yahoo! Research Labs<br><br>
+           <i>"New Sciences for a New Web"</i></td>
+  </tr>
+
+</table>
+
+<br>
+View last year's distinguished speaker schedule <a href="?page=events&subPage=dss_schedule_0607">here</a>.
+
+
+
+<!-- Above is the html -->
+
+								<!-- End Actual content -->
+						      <!--</div>-->
+							<!-- </td> -->
+						<!-- </tr> -->
+					<!-- </table> -->
+				<!--</div>  contentArea -->
+			<!--<div class="tagline">-->
+		<p class="footerArea" align="center">&copy; Copyright 2006. <a href="?">Center for Machine Learning and Intelligent Systems</a><br>949.824.9296 tel | 949.824.9813 fax |
+		<a href="mailto:cmlis@ics.uci.edu">cmlis@ics.uci.edu</a></p>		</div> <!-- end content area + footer -->
+		<!-- End Footer -->
+				</td>
+			</tr>
+		</table>
+		<!--</div>--> <!--Whole page main div -->
+		</td>
+		</tr>
+		</table>
+	<!--End body region -->
+	</body>
+	</html>
+	
+

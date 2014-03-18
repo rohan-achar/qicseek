@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/micro-stories/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Extreme Stories: 3</title>
+		<link>http://ngs.ics.uci.edu/extreme-stories-3/</link>
+		<comments>http://ngs.ics.uci.edu/extreme-stories-3/#comments</comments>
+		<pubDate>Wed, 08 Feb 2012 11:52:54 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[experiential data]]></category>
+		<category><![CDATA[micro-stories]]></category>
+		<category><![CDATA[Storytelling]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1388</guid>
+		<description><![CDATA[This emerging form of the story is more data-driven. It will use meta data as well as data intentionally and consciously captured by a person who may be collecting this for personal use, but then may decide to share the&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>This emerging form of the story is more data-driven.  It will use meta data as well as data intentionally and consciously captured by a person who may be collecting this for personal use, but then may decide to share the experience of the event with others.  Obviously, every story is to share your experiences.  That means that the storyteller customizes the experiences to be included in the story based on his/her knowledge of the interests of recipients of the story.</p>
+<p>Even micro-stories should consider the experiences that the storyteller wants to include in the story targeted to specific audience.  Most of these stories are being told using mobile phones.  This is good, because mobile phones are much better experience and even capture devices than any that existed so far.  They collect much information, sometimes too much, for micro-storytelling.  There are already some applications that are going in this direction. Path and Tiny Reviews are two of my current favorites.  One may even consider Instagram to be one such application.</p>
+<p>So far, video has not being used much in such micro stories.  Video will become popular sometimes in very near future.  Even audio, not only speech but also audio of the environments in which events take place, is not currently used much.  This is also likely to become popular.</p>
+<p>Effectively, the current trend suggests that we are using &#8216;low hanging fruits&#8217; in experiential data.  Once we have used these, micro stories will migrate to using more experiential data.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/extreme-stories-3/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Extreme Stories:2</title>
+		<link>http://ngs.ics.uci.edu/extreme-stories2/</link>
+		<comments>http://ngs.ics.uci.edu/extreme-stories2/#comments</comments>
+		<pubDate>Wed, 01 Feb 2012 06:28:07 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[data driven stories]]></category>
+		<category><![CDATA[data revolution]]></category>
+		<category><![CDATA[micro-stories]]></category>
+		<category><![CDATA[Storytelling]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1385</guid>
+		<description><![CDATA[One form of story telling that is evolving rapidly due to the popularity of micro-blogs are micro-stories. First came micro-blogs that made sharing your experience or opinion or activities almost spontaneous using short &#8216;blogs&#8217;. These were still dominated by &#8216;text&#8217;.&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>One form of story telling that is evolving rapidly due to the popularity of micro-blogs are micro-stories.  First came micro-blogs that made sharing your experience or opinion or activities almost spontaneous using short &#8216;blogs&#8217;.  These were still dominated by &#8216;text&#8217;.  The primary form of these stories was still text.  Since technology was evolving very rapidly, mobile phones started becoming a popular client on the internet.  And on mobile phones, some sensors became very common.  And these sensors started changing the nature of the story telling.</p>
+<p>First sensor to revolutionize sharing of experiences in the form of micro-story telling was the camera.  SUddently visual stories started becoming popular.  Photo sharing became a major craze.  One can see rise in number of photos being uploaded to share events.  Rise of Instagram, Path, Tiny Review, erly, and numerous others &#8212; too many to mention &#8212; demonstrated that people like to share visual moments.  Video is not that popular &#8211; but is likely to become more popular as storage and bandwidth become further inexpensive.</p>
+<p>The second sensor to bring a new dimension to story telling is GPS.  Many small companies have started and some major companies tried their hands in micro-story telling using GPS based location of a user.  FourSquare will let you capture your location and share it with your experiences as well as recommendations.  Despite expressed privacy and security concerns, the use of location-based check-in as well as services keeps increasing.</p>
+<p>Here I will not discuss any other sensors &#8212; like the healthcare related one &#8212; but just point out an intriguing trend.  The first stage was micr-blogs, then came in photos, and then was the turn of location.  Experience sharing in these three steps has gone through a remarkable change.  In the first stage, we needed to deliberately type (or should we say tap) about 100 times on the mobile phone screen.  WHen cameras became a mechanism, much information was captured by the camera and only a few &#8212; say 10 &#8212; taps were required to share a story.  With location based stories, one went further because one can include photos also and still needs just a few taps &#8212; say 10 &#8212; to share the story.  So, now we can tell richer stories using an order of magnitude fewer taps.  This is what I call data revolution.  Data revolution results in capturing experiential data using sensors making shared experiences richer while effort involved to share these experiences significantly lesser.  And this trend is an interesting one.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/extreme-stories2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Status Updates are Micro-stories</title>
+		<link>http://ngs.ics.uci.edu/status-updates-are-micro-stories/</link>
+		<comments>http://ngs.ics.uci.edu/status-updates-are-micro-stories/#comments</comments>
+		<pubDate>Fri, 27 Jan 2012 06:50:49 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[micro-stories]]></category>
+		<category><![CDATA[microblogs]]></category>
+		<category><![CDATA[status updates]]></category>
+		<category><![CDATA[Storytelling]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1375</guid>
+		<description><![CDATA[Today I saw this photo in facebook that is being widely circulated &#8212; I saw it on Danny Sullivan&#8217;s updates: And I started thinking &#8212; what is a status update &#8212; or a microblog? In essence a microblog is a&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>Today I saw this photo in facebook that is being widely circulated &#8212; I saw it on Danny Sullivan&#8217;s updates:</p>
+<p><a href="http://ngs.ics.uci.edu/blog/../temp/social-media.jpg"><img src="http://ngs.ics.uci.edu/blog/../temp/social-media-300x169.jpg" alt="" title="social media" width="300" height="169" class="alignnone size-medium wp-image-1376" /></a></p>
+<p>And I started thinking &#8212; what is a status update &#8212; or a microblog?  In essence a microblog is a report/story/narrative related to a micro-event.  The event could be an article I read, a personal event like a party, or a meeting, or something that happened to me.  People like to share their experiences and opinions.  Microblogs became so popular because they gave people a mechanism to spontaneously share their experience or opinion.  Initially this was using text, but soon it started using media like photo, video, location data or something similar.  </p>
+<p>People have always &#8212; and yes I mean ALWAYS &#8212; been in storytelling &#8212; using photos on cave walls to oral stories, to text to photo albums, to movies, and now to multimedia.  And these stories usually spanned over many events and many people.  This required collection of data related to those events and then editing this data for presentation based on the audience.  Since creating stories takes time, usually people do that only for important topics.</p>
+<p>Now if we think about status updates and similar related things as in the above figure, it is clear that people really want to share the experiences of simple events and want to do that spntaneously with least effort &#8212; or using a current popular term &#8211; with no friction.  Status updates and its variants provided early tools for this spontaneous micro-story telling related to an event.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/status-updates-are-micro-stories/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

@@ -1,0 +1,99 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<html>
+<head>
+<title>Raúl Díaz - Personal Homepage</title>
+<style>
+h1 { padding : 0; margin : 0; }
+body { padding : 0; font-family : Arial; font-size : 16px; background-color : #FFFFFF; } /* background-image : url('bg.png');}*/
+#container { width : 900px; margin : 20px auto;  background-color : #fff; padding : 50px; border : 0px solid #ccc; }
+#me { border : 0 solid black; margin-bottom : 0;}
+#sidebar { margin-left : 25px; border : 0 solid black; float : right; margin-bottom : 0;}
+#content { display : block; margin-right : 260px;}
+a { text-decoration : none; }
+a:hover { text-decoration : underline; }
+a:visited { color : blue; }
+a.invisible { color : inherit; text-decoration : inherit; }
+.publogo { margin-right : 10px; height: 100px; width: 100px; float : left; border : 0;}
+.publication { clear : left; padding-bottom : 0px;}
+.publication p { height : 100px; }
+.codelogo { margin-right : 10px; float : left; border : 0;}
+.code { clear : left; padding-bottom : 10px; vertical-align :middle;} 
+.code .download a { display : block; margin : 0 15px; float : left;}
+<!-- #simpsons { margin : 5px auto; text-align : center; color : #B7B7B7; } -->
+<!-- 	#erdos { color : #999; text-align : center; font-size : 12px; } -->
+</style>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-44968472-1']);
+
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body>
+<div id="container">
+<div id="sidebar">
+<img src="images/raul2.jpg">
+<br>
+</div>
+
+<div id="content">
+<h1>Raúl Díaz García</h1> 
+
+<p>e-mail: rdiazgar (at) uci.edu<br>
+   office: 4209 Donald Bren Hall</p>
+
+<p>I'm a third year PhD student at <a href="http://www.uci.edu/">UC Irvine</a>, where I'm advised by professor <a href="http://www.ics.uci.edu/~fowlkes/">Charless Fowlkes</a> at the <a href="http://vision.ics.uci.edu/">Computer Vision group.</a></p>
+
+<p>My research is focused on improving object detection by finding geometric context cues. In particular,
+I investigate how structure from motion and multi-view stereo can help in the world of scene understanding.</p>
+
+<p></p>
+
+<h2>Publications</h2>
+
+<div class="publication">
+<a href="images/mvbs_iccv13.jpg"><img src="images/mvbs_iccv13.jpg" class="publogo"></a>
+<p> R. Díaz*, S. Hallman*, C. Fowlkes, "<strong>Detecting Dynamic Objects with Multi-View Background Subtraction</strong>", <em>ICCV </em>, Sydney, Australia, December 2013. 
+<br>
+<a href="pubs/mvbs_ivvc13.pdf">[paper]</a>
+<a href="pubs/mvbs_ivvc13_sup.pdf">[supplementary material]</a>
+<br>
+<br>
+</p>
+</div>
+
+
+
+<div class="publication">
+<a href="images/mvbs_sunw13.jpg"><img src="images/mvbs_sunw13.jpg" class="publogo"></a>
+<p> R. Díaz*, S. Hallman*, C. Fowlkes, "<strong>Multi-View Background Subtraction for Object Detection</strong>", <em>Scene Understanding Workshop </em>, Portland, OR, June 2013. 
+<br>
+<a href="pubs/mvbs_sunw13.pdf">[abstract]</a>
+<a href="pubs/mvbs_sunw13_poster.pdf">[poster]</a>
+<br>
+<br>
+</p>
+</div>
+
+<div class="publication">
+<p>* shared first author </p>
+</div>
+
+</body>
+
+</html>
+
+
+

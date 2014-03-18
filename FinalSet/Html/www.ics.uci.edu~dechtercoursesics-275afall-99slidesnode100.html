@@ -1,0 +1,131 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> The Module Interface</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" The Module Interface">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html3458 HREF="node101.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html3456 HREF="node99.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html3452 HREF="node99.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html3460 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html3459 HREF="node101.html"> Creating and Erasing </A>
+<B>Up:</B> <A NAME=tex2html3457 HREF="node99.html"> Modules and Source </A>
+<B> Previous:</B> <A NAME=tex2html3453 HREF="node99.html"> Modules and Source </A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION00841000000000000000> The Module Interface</A></H2>
+<P>
+The module interface is a set of goals and procedure definitions
+which are made available to other modules.
+Moreover, the module interface may contain the definition of the syntax
+which is needed to read its body part.
+The notion of the module interface serves several purposes:
+<UL><LI> It specifies which items are to be shared with other modules.
+<P>
+<LI> It makes possible to share modular items that cannot be
+directly exported and imported.
+<P>
+<LI> It specifies the part of the module, which has to be compiled
+and executed even if the module is only processed by source-level
+tools.
+For instance, if the module body contains terms with an associated
+macro, the corresponding macro transformation predicate
+has to be compiled even if the module body is only being read in.
+</UL>
+<P>
+If the module is used by another module via the predicate
+use_module/1, all queries that appear in the module interface
+part will be executed in the other module, except for
+export/1 and global/1 predicates.
+Therefore, declarations of local operators, macros, records etc.
+will be executed in the caller module and these items
+will become available there.
+The macro transformation predicates must be exported to be
+visible in the using module.
+The export/1 queries in the module interface
+are conceptually replaced by <b> import_from/2</b> and thus
+the exported predicates are imported in the caller module.
+
+<P>
+Predicate definitions which appear in the module interface
+will not be repeated when the module is used;
+if they have to be accessible in another module, they
+should be exported instead.
+<P>
+Here is an sample module that can serve as a guideline of which
+declarations to place where:
+<blockquote> 
+<PRE>:- module_interface(mod).
+
+% syntax directives for this and for importing modules
+:- op(300, xfx, &gt;&gt;&gt;).
+:- set_chtab(0'$, lower_case).
+:- define_macro((|)/2, trans_bar/2, []).
+
+% libraries to use here and in the importing modules
+:- use_module(library(cio)).
+
+% predicates to import here and in importing modules
+:- import current_predicate_body/2 from sepia_kernel
+
+% predicates defined globally by this module
+:- global g/1.
+
+% predicates exported from this module
+:- export p/1, t/1, e/1.
+:- export trans_bar/2.      % needed for the macro above
+
+% type declarations for exported tools and externals
+:- tool(t/1).
+:- external(e/1).
+
+% definition of macro transformation predicates
+trans_bar(no_macro_expansion('|'(X,Y)), (X;Y)).
+
+:- begin_module(mod).        % the module body
+
+% syntax directives for this module only
+:- op(300, xfx, &lt;&lt;&lt;).
+
+% predicates to import only here
+:- import setof_body/4 from sepia_kernel.
+
+% special type predicate definitions
+:- tool(t/1, t_body/2).
+:- external(e/1, my_c_function).
+
+% normal predicate definitions
+g(hello).
+p(world).
+</PRE>
+</blockquote>
+<P>
+When calling <b> use_module(mod)</b>, all queries in the interface
+will be executed and the macro transformation correctly defined.
+The module interface may also contains goals not directly related
+to the definition module, like e.g. the <b> import from</b>
+in the above example.
+<P>
+The module body can also contain declaration of local modular items,
+however they remain local in the definition module.
+The definition of the module body starts with the
+begin_module/1 directive and it can be used only
+if the module already exists, either created by <b> create_module/1</b>,
+compile/2 or by defining the module interface.
+There may be several <b> begin_module/1</b> directives for the
+same module. When they are compiled, their contents is <i> added</i>
+to the module body.
+<P>
+<BR> <HR><A NAME=tex2html3458 HREF="node101.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html3456 HREF="node99.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html3452 HREF="node99.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html3460 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html3459 HREF="node101.html"> Creating and Erasing </A>
+<B>Up:</B> <A NAME=tex2html3457 HREF="node99.html"> Modules and Source </A>
+<B> Previous:</B> <A NAME=tex2html3453 HREF="node99.html"> Modules and Source </A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

@@ -1,0 +1,8531 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<!-- #BeginTemplate "/Templates/index.dwt" -->
+<meta name="description" content="A research project investigating the social and technical issues surrounding the success of geographically distributed science and engineering collaborations." />
+<meta name="keywords" content="scientific collaboration, collaboratories, collaboratory, University of California, Irvine, School of Information, social-technical" />
+<meta name="language" content="English" />
+<meta name="author" content="Dan Cooney" />
+<meta name="programmer" content="Greg Peters" />
+<META content=ALL name=robots>
+<META content="15 days" name=revisit-after>
+<META content=emilyo@uci.edu name=reply-to>
+<META content="Living Document" name=document-class>
+<META content="Copyrighted Work" name=document-rights>
+<META content="Web Page" name=document-type>
+<META content="Safe for Kids" name=document-rating>
+<META content=Global name=document-distribution>
+<META content=Static name=document-state>
+<META content=no-cache name=cache-control>
+<META http-equiv=Content-Language content=EN-US>
+<META content="Dan Cooney" name=Publisher>
+
+<link REL="ICON" HREF="/soc.ico" TYPE="image/x-icon">
+<link REL="SHORTCUT ICON" HREF="/soc.ico" TYPE="image/x-icon">
+
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1"><!-- #BeginEditable "doctitle" --><!-- #EndEditable -->
+<SCRIPT type=text/javascript>
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</SCRIPT>
+<LINK href="/styles/SOC.css" 
+type=text/css rel=stylesheet><!--Main content begins -->
+<META content="MSHTML 5.50.4913.1100" name=GENERATOR></HEAD>
+<!-- #LOOP-START:header -->
+<BODY text=#000000 vLink=#333399 aLink=#ff9900 link=#333399 bgColor=#ffffff 
+leftMargin=2 topMargin=2 marginheight="2" marginwidth="2">
+<TABLE height=117 cellSpacing=0 cellPadding=0 width="100%" align=center 
+border=0>
+  <TR>
+    <TD vAlign=top align=left>
+      <TABLE cellSpacing=0 cellPadding=0 width=100% align=left 
+      border=0 name="Header">
+        <TR>
+          <TD vAlign=bottom align=left background=""
+          rowSpan=3 height=103 width=145><A 
+            href="/"><IMG 
+            height=103 alt="Science of Collaboratories logo - link" 
+            src="/images/LOGOSMALLER.gif" 
+            width=145 align=bottom border=0 name=SOCLogo></A></TD>
+          <TD height=40 valign="top">
+            <DIV ALIGN="RIGHT" CLASS="admin_login"><A HREF="/index.php?SOCSiteMap">Site Map</A>&nbsp;-&nbsp;<A HREF="/datateam/index.php">Login</A></DIV><BR>
+            <SCRIPT src="/libs/exmplmenu_var.js" type=text/javascript></SCRIPT>
+            <SCRIPT src="/libs/menu_com.js" type=text/javascript></SCRIPT>
+            <NOSCRIPT>Your browser does not support script</NOSCRIPT></TD></TR>
+        <TR>
+          <TD vAlign=top align=left width=100% bgColor=#660033 height=15>
+            &nbsp;
+          </TD></TR>
+        <TR>
+         <TD width=100% bgColor=#660033 height=15>&nbsp;</TD></TR>
+</table>
+      </TD>
+    <TD vAlign=top width=60 height=100>&nbsp;</TD>
+   </TR>
+        <TR>
+          <TD vAlign=top align=left height=20><IMG height=20 
+            alt="An alliance to advance the understanding of collaboratories" 
+            src="/images/SOCATextNew.gif" 
+            width=527 border=0 name=SOCATextNew>
+          </TD>
+         </TR>
+</TABLE>
+<!-- #LOOP-END:header -->
+<TABLE cellSpacing=0 cellPadding=0 width=100% align=left border=0 
+name="Main Body Table">
+  <TR>
+    <TD vAlign=top colspan=4 align=left bgColor=#660033 height=12><IMG 
+      height=12 alt="Science of Collaboratories" 
+      src="/images/RoundedRed.gif" 
+      align=top border=0 name=Header_r9_c1><BR></TD>
+    <TD vAlign=top align=left bgColor=#660033 height=12>&nbsp; </TD>
+    <TD width=60 bgColor=#ffffff>&nbsp;</TD></TR>
+  <TR>
+    <TD width=20 bgColor=#660033></TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD colspan=2 align=left bgColor=#ffffff>
+<!-- This is where we will add the content -->
+      
+<script language="JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  brWin = window.open(theURL,winName,features);
+  brWin.focus();
+}
+//-->
+</script>
+<table width="100%" border="0">
+  <tbody>
+     <tr>
+    <td align="right"><p class="backnav"><a href="colisting.php">Return to the list of Collaboratory 
+Projects</a></p></td>
+    <td width="1%">&nbsp;</td>
+  </tr>
+    <tr>
+     <td align="right">&nbsp;</td>
+     <td width="1%">&nbsp;</td>
+   </tr>
+     
+  </tbody> 
+</table>
+<table width="100%" border="0">
+    <tbody>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccffff">     
+         
+      <p class="fieldname">Name of Collaboratory :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%"><p class="collabname">Cochrane Collaboration </p>
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td colspan="3" align="right" valign="top">               
+      <table width="100%" border="0">
+          <tbody>
+           <tr>
+             <td width="5%" valign="middle" align="right">               
+           
+            <p class="fieldname">Logo&nbsp;:</p>
+            </td>
+            <td width="1%">&nbsp;</td>
+            <td width="39%"><img
+ src="getgraphics.php?247">
+             </td>
+            <td width="1%">&nbsp;</td>
+           </tr>
+                 
+        </tbody>       
+      </table>
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">URL          :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%"><a href="http://www.cochrane.org/">http://www.cochrane.org/</a></td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">Collaboratory Status
+:</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+    <TD width="66%">
+    <TABLE BORDER="0" cellspacing="0" cellpadding="0">
+    <TR>
+      <td width="24%" align="left" bgcolor="#FFFFFF">Operational
+      </td>
+      <TD width="1%">&nbsp;</TD>
+      <td width="20%" align="left" bgcolor="#FFFFFF"> 
+        <b>Start Date :</b> 
+          1993
+      </td>
+      <td width="20%"> 
+        <b>End Date :</b> 
+          
+      </td>
+	  <td width="35%"> 
+        <b>Info Last Updated :</b> 
+          Tue, Dec 7 2010 3:01pm PST
+      </td>
+    </tr>
+    </table>
+    </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccffff">     
+         
+      <p class="fieldname">Primary Collaboratory Function :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">Community Data Systems</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccffff">     
+         
+      <p class="fieldname">Secondary Collaboratory Functions :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">Virtual Community of Practice, Distributed Research Center</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">Domain(s)         
+:</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">Evidence Based Medicine, Healthcare</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+   <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" bgcolor="#ccffff" align="right" valign="top">     
+         
+      <p class="fieldname">Brief          Description 
+of the Collaboratory :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">               
+      <p>The Cochrane Collaboration, established in 1993, is an international network of people helping healthcare providers, policy makers, patients, their advocates and carers, make well-informed decisions about human health care by preparing, updating and promoting the accessibility of Cochrane Reviews – over 4,500 so far, published online in The Cochrane Library.<BR>
+<BR>
+Cochrane Reviews are both produced by, and are relevant to, everyone interested in the effects of health care. Based on the best available evidence, healthcare providers can decide if they should fund production of a particular drug. Practitioners can find out if an intervention is effective in a specific clinical context. Patients and other healthcare consumers can assess the potential risks and benefits of their treatment.<BR>
+<BR>
+The Cochrane Collaboration’s contributors are a mix of volunteers and paid staff who are affiliated to the organisation through Cochrane entities: healthcare subject-related review groups, thematic networks - called 'fields' -, groups concerned with the methodology of systematic reviews, and regional centres.<BR>
+<BR>
+Their contributors and entities are based all around the world and the majority of their work is carried out online. Each entity is a ‘mini-organisation’ in itself, with its own funding, website and workload. Contributors affiliate themselves to an entity, or in some cases several entities, based on their interests, expertise and/or geographical location.<BR>
+<BR>
+The Collaboration is registered as a charity in the United Kingdom. To tie the organisation together, they have a number of overarching structures, led by the Steering Group, which provides policy and strategic leadership for the organisation. Members of this group are democratically elected from, and by, their contributors. They also have a Secretariat, based in Oxford, UK, which supports the work of the Steering Group and the Collaboration’s entities, led by the Chief Executive Officer of the Collaboration; and an Cochrane Editorial Unit, based in London, UK, which supports Cochrane Review production, led by the Editor in Chief of The Cochrane Library.<BR>
+<BR>
+In addition to their core mission of producing Cochrane Reviews, their contributors are involved in a number of related activities, including advocacy for evidence-based decision-making, providing training in Cochrane Review preparation, developing the methodology for preparing  reviews, and translating them from English into a variety of different languages.<BR>
+<BR>
+They are an independent, not-for-profit organisation, funded by a variety of sources including governments, universities, hospital trusts, charities and personal donations. The Cochrane Collaboration’s funding model reflects the international and dispersed nature of the organisation. While their core income (income paid directly to the Collaboration and used to sustain its information management system, research programmes, website etc) comes principally from the proceeds of The Cochrane Library and other Cochrane products, their entities are supported by national governments, international governmental and non-governmental organisations, universities, hospitals, private foundations, and personal donations. They are not permitted to accept funding from commercial organisations such as pharmaceutical companies. This is to ensure that the conclusions of Cochrane Reviews are not influenced by commercial interests.<BR>
+<BR>
+In January 2011, the World Health Organization (WHO) awarded the Collaboration a seat on the World Health Assembly, allowing them to provide input on WHO health resolutions. <BR>
+<BR>
+There are more than 28,000 people working within The Cochrane Collaboration in over 100 countries (as of June 2010), half of whom are authors of Cochrane Reviews. The number of people has increased by about 20% every year for the last five years. The increase in the number of contributors from low, lower-middle and upper-middle income countries has been even greater, to more than 1000 (9.3%) in 2004 - up by 42% since 2003, and by 248% since 2000. <BR>
+<BR>
+The members of The Cochrane Collaboration are organised into groups, known as 'entities', of which there are five different types: Cochrane Review Groups (prepare, maintain and update Cochrane Reviews), Cochrane Centres (support people in their geographic and linguistic area), Methods Groups (develop the methodology of Cochrane Reviews), Fields (focus on dimensions of health care other than specific health problems, such as the setting of care or the type of intervention), and The Consumer Network (provides information and a forum for networking among consumers and a liaison point for consumer groups around the world.)<BR>
+<BR>
+<BR>
+******PREVIOUS*******<BR>
+<BR>
+The goal of the Cochrane Collaboration, and evidence-based healthcare in general, is to make relevant research available to practitioners in a form that they can use. Cochrane publishes reviews of clinical trials, both published and unpublished, in a standard format. These reviews--which cover topics such as lung cancer, oral health, pregnancy and childbirth, and musculoskeletal injuries--are published and open for comment by users. Some reviews are written by Cochrane staff, others by volunteer contributors. As of 2004 Cochrane had published over 1700 reviews, and had 10,000 active participants. <BR>
+<BR>
+Subscriptions to full Cochrane content is available for a fee through John Wiley & Sons.  This subscription gives access several interactive databases which publish trials, research, and systematic reviews of healthcare interventions.  Several countries have nationwide site licenses to Cochrane databases.  Abstracts can be browsed and searched without a fee. <BR>
+<BR>
+The Cochrane Library is the major product of activity in the organization. It contains the Database of Systematic Reviews-which aggregates protocols and reviews of healthcare interventions where practitioners and researchers share their experiences, studies, and data in a formal and moderated space. Reviews are created and structured (according to clearly defined methods) with a locally developed open-source tool called RevMan. Comment and criticism of published reviews are encouraged.  Volunteer moderators manage the publication and annotation of reviews according to the Cochran 'house rules'. Often, original authors revise or defend their reviews based on comment from other users. All reviews are mandated to be updated every two years. <BR>
+<BR>
+The Cochrane organization holds non-profit status in the UK (where it was founded by Iain Chalmersís Oxford database of Perinatal Trials) and supports several staffed regional centers throughout the world. These centers provide language and region specific coordination and training to Cochrane participants and serve as the main contact point for the general public. In addition to regional centers, several other groups share management and administrative tasks of the collaboration. These groups and their responsibilities are: <BR>
+Collaborative Review: Produce Cochrane Reviews<BR>
+Steering: Monitor performance and set policies and procedures for the organization<BR>
+Methods: provide support in the development of systematic reviews<BR>
+Fields/Networks: identify health issues of importance<BR>
+Consumer: work to ensure involvement of consumers<BR>
+Ombudsmen and Publication Arbitrator: help to negotiate and resolve conflicts in the organization <BR>
+In addition to membership in a group, participants may also contribute as an editor, handsearcher (searching through medical journals for accounts of controlled trials which are not yet indexed in major electronic databases like Medline), or translator. All participation, with the exception of staff at Regional Centers, is voluntary. <BR>
+<BR>
+<BR>
+</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%" height="20">&nbsp;</td>
+      <td width="31%" bgcolor="#ccff66" bordercolor="#CCCCCC"
+ align="right" valign="top" height="20">               
+      <p class="fieldname">Access          to 
+Instruments :</p>
+      </td>
+      <td width="1%" height="20">&nbsp;</td>
+      <td width="66%" height="20">Reviews are written with RevMan software, an open source tool developed by the Nordic Cochrane Center with local grants. Support is fee based. RevMan provides the structure of a review and integrates well with MS Office's export/import capabilities. <BR>
+<BR>
+The Cochrane Library displays and stores comments and criticisms submitted in response to systematic reviews. These comments are moderated and comments must conform with published house rules.<BR>
+<BR>
+</td>
+      <td width="1%" height="20">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" bgcolor="#ccff66" bordercolor="#CCCCCC"
+ align="right" valign="top">               
+      <p class="fieldname">Access          to 
+Information Resources :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">The main output of The Cochrane Collaboration, Cochrane Reviews, is contained in The Cochrane Database of Systematic Reviews, published electronically by John Wiley and Sons as part of The Cochrane Library. The Cochrane Library is a collection of high quality evidence-based healthcare databases, providing instant access to over 2000 full text articles reviewing the effects of healthcare interventions. It is published every three months with new and updated Cochrane Reviews, and is available by subscription, on the Internet and CD-ROM. An increasing number of countries have a national subscription to The Cochrane Library, which allows everyone in those countries to access The Cochrane Library for free. Abstracts of Cochrane Reviews are freely available to everyone on the Internet. The Cochrane Library provides links to MEDLINE abstracts and the ISI Web of Science, and from references in Cochrane Reviews to journal articles cited within them. Besides Cochrane Reviews, The Cochrane Library contains a number of additional databases: Specialist subsets of Cochrane Reviews, Versions of Cochrane Reviews in languages other than English, and Cochrane methodology reviews.<BR>
+<BR>
+<BR>
+<BR>
+*******PREVIOUS*******<BR>
+<BR>
+Cochrane publishes these databases:<BR>
+The Database of Abstracts of Reviews of Effects<BR>
+The Cochrane Central Register of Controlled Trials (CENTRAL)<BR>
+The Cochrane Methodology Register<BR>
+The NHS Economic Evaluation Database<BR>
+Health Technology Assessment Database<BR>
+Cochrane Database of Methodology Reviews (CDMR)<BR>
+<BR>
+Cochrane Libray offers information and study/trial reviews in several languages. Access to the full text database is mandated by subscription. Browsing and searching of abstracts is available for free. Nationwide site agreements have been negotiated with Australia, England, Finland, Ireland, Northern Ireland, Norway, and Wales. <BR>
+</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" bgcolor="#ccff66" bordercolor="#CCCCCC"
+ align="right" valign="top">               
+      <p class="fieldname">Access          to 
+People as Resources :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">They hold annual conferences, known as ‘Colloquia’, which are open to everyone. Colloquia are designed to bring people together in one place to discuss, develop and promote their work, and to shape the organisation’s future direction.<BR>
+<BR>
+<BR>
+****PREVIOUS*****<BR>
+<BR>
+Active communication between groups via moderated email lists, direct email, local region staffed centers, meetings, and regional training workshops (ex. US-2004 Summer Institute on Evidence Based Practice). Once a year, worldwide participants meet for the Cochrane Colloquium. Center directors also have mid-year meetings. 2004 US is April 1-2 in Providence, RI. <BR>
+<BR>
+In addition, there is a directory of contact details for all participants. <BR>
+<BR>
+</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top">
+        <p class="fieldname">Funding Agency 
+or Sponsor :</p></td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Age Related Diseases and Health Trust (ART)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Agency for Healthcare Research and Quality (AHRQ)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Agnes og Poul Friis' Fond</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Albert-Ludwigs-Universität Freiburg</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Alzheimers Association</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">American College of Gastroenterology (ACG)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Assistance Publique, Hôpitaux de Paris</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Australian Department of Health and Aged Care</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Belgium Federal Public Service of Health, Food Chain Safety and Environment</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Blue Shield of California Foundation</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Cabrini Health Australia</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Cabrini Institute</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Canadian Agency for Drugs and Technologies in Health (CADTH)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Canadian Institutes of Health Research (CIHR)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Canadian Ministry of Health</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Centers for Disease Control and Prevention (CDC)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+
+<TD width="100%"><I><font size="1" color="gray">University of Nottingham</font></I></td>
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+<TD><IMG SRC="/images/spacer.gif" width="10" height="10"></td>
+
+
+<TD width="100%">Centre of Evidence Based Dermatology</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Centro Rosarino de Estudios Perinatales (CREP)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Child Cancer Foundation - New Zealand</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Christian Medical College, Vellore</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">CIBER de Epidemiologia y Salud Publica (CIBERESP)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Copenhagen University Hospital - Rigshospitalet</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Department of Health (UK) (DOH)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Department of Health - South Africa</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Deutsche Krebshilfe</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Dutch College of General Practitioners (Nederlands Huisartsen Genootschap) (NHG)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Dutch Health Insurance Council</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+
+<TD width="100%"><I><font size="1" color="gray">Liverpool School of Tropical Medicine (LSTM)</font></I></td>
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+<TD><IMG SRC="/images/spacer.gif" width="10" height="10"></td>
+
+
+<TD width="100%">Effective Healthcare Research Consortium</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Emilia Romagna Health Care Agency</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">European and Developing Countries Clinical Trials Partnership (EDCTP)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">European Centre for Disease Prevention and Control (ECDC)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">European Union (EU)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Federal Ministry of Education and Research (BMBF)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Federal Ministry of Health (Germany)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Federal Ministry of Health - Nigeria</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Finnish Institute of Occupational Health (FIOH)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Foundation of the Carlo Besta Neurological Institute, IRCCS</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">French National Authority for Health / Haute Autorité de santé  (HAS)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Fundacion Sanitas</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Health Canada</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Health Insurance Foundation (Helsefonden)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Health Research Board - Ireland (HRB)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Health Technolgoy Board for Scotland</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Heinrich-Heine University Dusseldorf</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Hong Kong Hospital Authority</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Hospital de la Santa Creu i Sant Pau</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Hospital Galeazzi</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">HRB Centre for Primary Care Research</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">ICICI Centre for Child Health and Nutrition  (ICCHN)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Indian Council of Medical Research</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Inserm</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Institute de Salud Carlos III (ISCIII)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Institute for Quality and Efficiency in Health Care (IQWiG)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Institute for Work and Health - Canada (IWH)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+
+<TD width="100%"><I><font size="1" color="gray">International Health Central American Institute (IHCAI)</font></I></td>
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+<TD><IMG SRC="/images/spacer.gif" width="10" height="10"></td>
+
+
+<TD width="100%">International Health Central American Institute - Costa Rica (IHCAI)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Italian Drug Agency (AIFA)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Joanna Briggs Institute (JBI)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">KiKa Kinderen Kanker Vrij</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Knowledge Translation Canada (KT Canada)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Lausanne University Hospital, Department of Social and Preventive Medicine</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">L’Ecole des Hautes Etudes en Santé Publique</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+
+<TD width="100%"><I><font size="1" color="gray">Leiden University</font></I></td>
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+<TD><IMG SRC="/images/spacer.gif" width="10" height="10"></td>
+
+
+<TD width="100%">Leiden University Medical Center (LUMC)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Loyalis Pension Fund</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">MAPI Institute</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Mario Negri Institute</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">McMaster University</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Michael Smith Foundation for Health Research </td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Milbank Foundation (USA)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Ministère de la Santé et des Sports (France)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Ministry of Health (Italy)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Ministry of Health - Bahrain</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Ministry of Health - Brazil</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Ministry of Health - New Zealand</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Ministry of Health - Spain</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Ministry of Health, Welfare, and Sport - Netherlands</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Ministry of Social Affairs and Health - Finland</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Minnesota Veterans Medical Research and Education Foundation (MNVets)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Monash University</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Multiple Sclerosis Research Australia (MSRA)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">National Center for Complementary and Alternative Medicine (NCCAM)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+
+<TD width="100%"><I><font size="1" color="gray">United States Department of Health and Human Services</font></I></td>
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+<TD><IMG SRC="/images/spacer.gif" width="10" height="10"></td>
+
+
+
+<TD width="100%"><I><font size="1" color="gray">National Institutes of Health (NIH)</font></I></td>
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+<TD><IMG SRC="/images/spacer.gif" width="10" height="10"></td>
+
+<TD><IMG SRC="/images/spacer.gif" width="10" height="10"></td>
+
+
+<TD width="100%">National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+<TD><IMG SRC="/images/spacer.gif" width="10" height="10"></td>
+
+<TD><IMG SRC="/images/spacer.gif" width="10" height="10"></td>
+
+
+<TD width="100%">National Institue of Child Health & Human Development  (NICHD)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+<TD><IMG SRC="/images/spacer.gif" width="10" height="10"></td>
+
+<TD><IMG SRC="/images/spacer.gif" width="10" height="10"></td>
+
+
+<TD width="100%">National Eye Institute</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">National Institute for Clinical Excellence - UK (NICE)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">National Institutes of Health - Italy (ISS)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Netherlands Institute for Health Services Research (NIVEL)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Netherlands Organisation for Health Research and Development (ZonMw)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">New Zealand Guidelines Group (NZGG)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Newcastle University</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Nordic Council of Ministers</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Norwegian Agency for Development Cooperation (Norad)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Norwegian Directorate of Health</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Norwegian Knowledge Centre for the Health Services (NOKC)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Nova Scotia Health Research Foundation (NSHRF)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+
+<TD width="100%"><I><font size="1" color="gray">University of Oxford</font></I></td>
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+<TD><IMG SRC="/images/spacer.gif" width="10" height="10"></td>
+
+
+<TD width="100%">Nuffield Department of Clinical Medicine (Oxford)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Nuffield Foundation</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Ontario Ministry of Health</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Queens University Belfast</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Research Association of Effective Health Assistance (AREAS)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Research Council of Norway</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Royal Dutch Society for Physical Therapy (Koninklijk Nederlands Genootschap Fysiotherapie) (KNGF)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Safe Work Australia</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+
+<TD width="100%"><I><font size="1" color="gray">University of Split</font></I></td>
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+<TD><IMG SRC="/images/spacer.gif" width="10" height="10"></td>
+
+
+<TD width="100%">School of Medicine (University of Split)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+
+<TD width="100%"><I><font size="1" color="gray">University of East Anglia</font></I></td>
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+<TD><IMG SRC="/images/spacer.gif" width="10" height="10"></td>
+
+
+<TD width="100%">School of Medicine, Health Policy and Practice (University of East Anglia)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+
+<TD width="100%"><I><font size="1" color="gray">Chinese University of Hong Kong</font></I></td>
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+<TD><IMG SRC="/images/spacer.gif" width="10" height="10"></td>
+
+
+<TD width="100%">School of Public Health and Primary Care - Chinese University of Hong Kong</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Societa Italiana di Neurologia - Italy (SIN)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">South African Medical Research Council (SAMRC)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Thailand Research Fund (TRF)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">UK Department for International Development (DFID)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">United States Department of Veterans Affairs</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Universidade Federal de São Paulo, Teaching Hospital (UNIFESP)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Université Paris Descartes</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Universitetet I Oslo</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">University of Birmingham</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">University of Cologne</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">University of Milan</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">University of New South Wales (UNSW)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">University of Sydney</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Update Software</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">VicHealth</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Victorian Department of Health</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Voluntary Association for Multiple Sclerosis</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+
+<TD width="100%"><I><font size="1" color="gray">Sichuan University</font></I></td>
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+<TD><IMG SRC="/images/spacer.gif" width="10" height="10"></td>
+
+
+<TD width="100%">West China Hospital, Sichuan University</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">World Health Organization</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+</table>
+</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <TR> 
+      <td width="1">&nbsp;</td>
+      <td valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+        <table width="100%" border="0">
+          <tr> 
+            <td width="13%">&nbsp;</td>
+            <td width="49%"> 
+              <table width="100%" border="1" bordercolor="#CCFFFF">
+                <tr> 
+                  <td> 
+                    <p> <font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Notes on Funding Agencies/Sponsors:<br>
+                      Funding is bottom-up. Individual studies and reviews are funded by their authors, not by Cochrane. Many studies are funded through the NIH, or other national/international health organizations. There are co-publishing agreements with many journals. Any funding from a commercial entity that may pose a conflict of interest (i.e. pharmaceutical or medical device company) must be declared. Cochrane is considering accepting funds from for-profit corporations.  There is intense debate about this. Cochrane awards small grants from a discretionary fund that mainly go toward software development and documentation. The funding agencies listed above have funded local conferences or specific infrastructure building projects. <BR>
+<BR>
+In addition to the funders listed above, there is also:<BR>
+    Bruce and Sue Shepherd<BR>
+    Various anonymous donations<BR>
+    Various stipends and scholarships to fund doctoral students in the Collaboration’s entities
+                    </font></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+      <TD width="4">&nbsp;</TD>
+    </TR>
+
+    <TR> 
+      <td height=1 width="1"></td>
+      <td height=1 valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+       
+      </td>
+      <td height=1 width="4"></td>
+    </TR>
+
+    <TR> 
+      <td width="1">&nbsp;</td>
+      <td valign=top align=right colspan="3" bgcolor="#CCFFFF"> 
+        <div align="left"><font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Organizations with Un-Funded Participants:</font></div>
+      </td>
+      <TD width="4">&nbsp;</TD>
+    </TR>
+
+    <TR> 
+      <td height=1 width="1"></td>
+      <td height=1 valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+       
+        <table width="100%" border="0">
+          <tr bgcolor="#FFFFFF"> 
+            <td width="49%"><b><font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Organization name:</font></b></td>
+            <td width="13%"> 
+              <div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Approx # of participants:</font></b></div>
+            </td>
+            <td width="38%"><b><font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Description of organization's role(s):</font></b></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Amsterdam</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Academic Medical Center (University of Amsterdam)</td>
+            <td width="13%"> 
+              <div align="center">
+                16
+              </div>
+            </td>
+            <td width="38%">
+              Dutch Cochrane Centre; Childrens Cancer Group; Prognosis Methods Group; Screening and Diagnostic Tests Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Bristol</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><I>School of Social and Community Medicine (University of Bristol)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Academic Unit of Psychiatry (Bristol)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Comparing Multiple Interventions Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Tata Memorial Hospital</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Advanced Centre for Treatment, Education and Research in Cancer  (ACTREC)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              South Asian Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Albert-Ludwigs-Universität Freiburg</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Haematological Malignancies Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Institute of Medical Biometry and Medical Informatics (University of Freiburg)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">All India Institute of Medical Sciences (AIIMS)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              South Asian Cochrane Network & Centre Steering Group; Cochrane Acute Respiratory Infections Group and Stroke Group 
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Asociación Cardiovascular Centroccidental</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Adelaide</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">School of Medical Sciences (University of Adelaide)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Drugs and Alcohol Group; Skin Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Australian Research Centre for Health of Women and Babies (ARCH)</td>
+            <td width="13%"> 
+              <div align="center">
+                4
+              </div>
+            </td>
+            <td width="38%">
+              Pregnancy and Childbirth Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Bangor University</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Qualitative Research Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Beijing Medical University (BJMU)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Drugs and Alcohol Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Belgian Centre for Evidence-Based Medicine (CEBAM)</td>
+            <td width="13%"> 
+              <div align="center">
+                23
+              </div>
+            </td>
+            <td width="38%">
+              Belgian Branch of the Dutch Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Beth Israel Deaconess Medical Center</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Skin Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">BMA Medical College and Vajira Hospital</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Thai Cochrane Network of the Australasian Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Bristol University</td>
+            <td width="13%"> 
+              <div align="center">
+                14
+              </div>
+            </td>
+            <td width="38%">
+              Depression, Anxiety and Neurosis Group; Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Bristol Heart Institute</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Non-Randomised Studies Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">British Columbia Cancer Agency (BC Cancer Agency)</td>
+            <td width="13%"> 
+              <div align="center">
+                
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Burnet Institute</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Justice Health Field
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Cabrini Health Australia</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Musculoskeletal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Canadian Agency for Drugs and Technologies in Health (CADTH)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Canadian Cancer Action Network</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Steering Group Consumer Network Representative (Liz Whamond)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Cardiff University</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Consumers and Communication Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Support Unit for Research Evidence (Cardiff) (SURE)</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              Public Health Group; Information Retrieval Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Johns Hopkins University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Johns Hopkins Bloomberg School of Public Health</td>
+            <td width="13%"> 
+              <div align="center">
+                11
+              </div>
+            </td>
+            <td width="38%">
+              US Cochrane Centre; Campbell and Cochrane Economics Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+
+&nbsp;&nbsp;
+<font size="1" color="gray"><I>Department of Epidemiology (Johns Hopkins)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Center for Clinical Trials (Johns Hopkins)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Comparing Multiple Interventions Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of South Florida (USF)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">H. Lee Moffitt Cancer Centre and Research Institute</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Haematological Malignancies Group; Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Center for Evidence Based Medicine and Health Outcomes Research (University of South Florida)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Haematological Malignancies Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Edinburgh</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Consumers and Communication Group; Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><I>College of Medicine and Veterinary Medicine (Edinburgh)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Division of Clinical Neurosciences (Edinburgh)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Stroke Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Center for Population Health Sciences (Edinburgh) (CHS)</td>
+            <td width="13%"> 
+              <div align="center">
+                4
+              </div>
+            </td>
+            <td width="38%">
+              Peripheral Vascular Diseases Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Centers for Disease Control and Prevention (CDC)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Infectious Diseases Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">National Institute of Occupational Safety and Health (NIOSH)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Occupational Safety and Health Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Centre d'Epidémiolgie Clinique Hôpital Hôtel-Dieu</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              French Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Ottawa</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Institute of Population Health (University of Ottawa)</td>
+            <td width="13%"> 
+              <div align="center">
+                14
+              </div>
+            </td>
+            <td width="38%">
+              Steering Group Centre Staff Representative (Mary Ellen Schaafsma); Steering Group Colloquium Policy Advisory Committee Co-Convenor (Jordi Pardo Pardo); Canadian Cochrane Centre; Effective Practice and Organisation of Care Group; Musculoskeletal Group; Campbell and Cochrane Equity Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Ottawa Heart Institute (UOHI)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Musculoskeletal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><I>Faculty of Social Sciences (University of Ottawa)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">School of Psychology (University of Ottawa)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Campbell and Cochrane Equity Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Centre for Global Health (Ottawa)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Information Retrieval Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>La Trobe University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Faculty of Health Sciences (La Trobe University)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Musculoskeletal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><I>Australian Institute for Primary Care & Ageing (La Trobe University)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Centre for Health Communication and Participation (La Trobe University)</td>
+            <td width="13%"> 
+              <div align="center">
+                7
+              </div>
+            </td>
+            <td width="38%">
+              Steering Group Co-ordinating Editor Representative / Funding Arbiter (Sophie Hill); Consumers and Communication Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of York</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Hull York Medical School</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Neonatal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Department of Health Sciences (York)</td>
+            <td width="13%"> 
+              <div align="center">
+                5
+              </div>
+            </td>
+            <td width="38%">
+              Wounds Group; Adverse Effects Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Centre for Reviews and Dissemination (York)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Centre for Health Economics (York)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Campbell and Cochrane Economics Methods Group; Information Retrieval Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Centre for Statistics in Medicine (CSM)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Statistical Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Nottingham</td>
+            <td width="13%"> 
+              <div align="center">
+                6
+              </div>
+            </td>
+            <td width="38%">
+              Schizophrenia Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Centre of Evidence Based Dermatology</td>
+            <td width="13%"> 
+              <div align="center">
+                8
+              </div>
+            </td>
+            <td width="38%">
+              Skin Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Academia Nacional de Medicina de Buenos Aires</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Centro de Investigaciones Epidemiológicas (Academia Nacional de Medicina de Buenos Aires)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Centro Rosarino de Estudios Perinatales (CREP)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Centro Studi GISED</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Skin Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Chiang Mai University</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Thai Cochrane Network of the Australasian Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Children's Hospital at Westmead</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Steering Group TSC Representative (Gail Higgins); Renal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Christian Medical College, Vellore</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              South Asian Cochrane Centre; Cochrane Schizophrenia Group 
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Churchill Hospital</td>
+            <td width="13%"> 
+              <div align="center">
+                4
+              </div>
+            </td>
+            <td width="38%">
+              Pain, Palliative and Supportive Care Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Dundee</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Clinical Practice and Placement Support Unit (University of Dundee)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Oral Health Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Oxford</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Renal Group; Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Nuffield Department of Clinical Medicine (Oxford)</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              Dementia and Cognitive Improvement Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Pain Research Unit (Oxford)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Pain, Palliative and Supportive Care Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Department of Primary Health Care (Oxford)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Tobacco Addiction Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><I>Medical Sciences Division (Oxford)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Department of Clinical Pharmacology (Oxford)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Adverse Effects Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Clinical Trials Services Unit (Oxford)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Haematological Malignancies Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Copenhagen University Hospital - Rigshospitalet</td>
+            <td width="13%"> 
+              <div align="center">
+                13
+              </div>
+            </td>
+            <td width="38%">
+              Nordic Cochrane Centre; Anaesthesia Group; Haematological Malignancies Group; Hepato-Biliary Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Coronel Institute of Occupational Health</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Occupational Safety and Health Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Dalhousie University</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Danube University Krems</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              Austrian Branch of the German Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Delft University of Technology - Technische Universiteit Delft (TU Delft)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Occupational Safety and Health Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Liverpool</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Department of Women's and Children's Health (Liverpool)</td>
+            <td width="13%"> 
+              <div align="center">
+                4
+              </div>
+            </td>
+            <td width="38%">
+              Steering Group ME Representative (Sonja Henderson); Pregnancy and Childbirth Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Institute of Child Health (University of Liverpool)</td>
+            <td width="13%"> 
+              <div align="center">
+                4
+              </div>
+            </td>
+            <td width="38%">
+              Cystic Fibrosis and Genetic Disorders Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Neurosciences Research Unit (University of Liverpool)</td>
+            <td width="13%"> 
+              <div align="center">
+                7
+              </div>
+            </td>
+            <td width="38%">
+              Epilepsy Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Division of Surgery and Oncology (University of Liverpool)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Hepato-Biliary Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Faculty of Medicine (University of Liverpool)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Infectious Diseases Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Department of Biostatistics (Liverpool)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Infectious Diseases Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Manipal University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Department of Biostatistics (Manipal University)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              South Asian Cochrane Centre; Cochrane Acute Respiratory Infections Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Copenhagen - K¯benhavns Universitet</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Department of Biostatistics (University of Copenhagen)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">McMaster University</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Canadian Cochrane Centre; Consumers and Communication Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">McMaster University Medical Center</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              Neonatal Group; Patient Reported Outcomes Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><I>Department of Medicine (McMaster)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Division of Gastroenterology (McMaster)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Upper Gastrointestinal and Pancreatic Diseases Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Department of Clinical Epidemiology and Biostatsticis (McMaster)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Applicability and Recommendations Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of California, San Francisco (UCSF)</td>
+            <td width="13%"> 
+              <div align="center">
+                5
+              </div>
+            </td>
+            <td width="38%">
+              US Cochrane Centre; HIV/AIDS Group; Sexually Transmitted Diseases Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><I>School of Pharmacy (UCSF)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Department of Clinical Pharmacy (UCSF)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Steering Group Panel Member (Lisa Bero)
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>George Mason University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Department of Criminology, Law and Society (George Mason)</td>
+            <td width="13%"> 
+              <div align="center">
+                4
+              </div>
+            </td>
+            <td width="38%">
+              Justice Health Field
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Royal Children's Hospital (RCH)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Prognosis Methods Group; Child Health Field
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Department of Developmental Medicine (Royal Children's Hospital)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Steering Group Field Representative (Katrina Williams)
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>ASL RME</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Department of Epidemiology (ASL RME)</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              Drugs and Alcohol Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Maastricht University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Department of Epidemiology (Maastricht University)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Musculoskeletal Group; Rehabilitation and Related Therapies Field
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Auckland</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Department of Obstetrics and Gynaecology (University of Auckland)</td>
+            <td width="13%"> 
+              <div align="center">
+                10
+              </div>
+            </td>
+            <td width="38%">
+              Steering Group Panel Member (Cindy Farquhar); New Zealand Branch of the Australasian Cochrane Centre; Menstrual Disorders and Subfertility Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Department of General Practice and Primary Health Care (University of Auckland)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Primary Health Care Field
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Washington</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">School of Public Health (University of Washington)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Infectious Diseases Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Department of Health Services (University of Washington)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Patient Reported Outcomes Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Ioannina</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><I>School of Medicine (University of Ioannina)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Department of Hygiene and Epidemiology (Ioannina)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Comparing Multiple Interventions Methods Group; Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Mayo Clinic</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Department of Neurology (Mayo Clinic)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Multiple Sclerosis Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Calabar</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Calabar Teaching Hospital (UCTH)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Renal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Department of Paediatrics (University of Calabar)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Nigerian Branch of the South African Cochrane Centre; Infectious Diseases Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Aga Khan University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><I>Aga Khan University Hospitals (AKUH)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Department of Pediatrics and Child Health (Aga Khan University Hospital)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              South Asian Cochrane Network & Centre Steering Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Vermont (UVM)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Steering Group Co-ordinating Editor Representative (Roger Soll); Neonatal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><I>College of Medicine (University of Vermont)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Department of Psychiatry (University of Vermont)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Tobacco Addiction Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">London School of Hygiene & Tropical Medicine</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              Injuries Group; Adverse Effects Methods Group; Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">International Centre for Eye Health</td>
+            <td width="13%"> 
+              <div align="center">
+                9
+              </div>
+            </td>
+            <td width="38%">
+              Eyes and Vision Group; Heart Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><I>Faculty of Public Health & Policy (London School of Hygiene and Tropical Medicine)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Department of Social and Environmental Health Research (London School of Hygiene and Tropical Medicine)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Campbell and Cochrane Equity Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Dept of Veterans Affairs Medical Center (Minneapolis)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Prostatic Diseases and Urologic Cancers Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Saint George's University of London</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Division of Population Health Sciences and Education (St. George's University of London)</td>
+            <td width="13%"> 
+              <div align="center">
+                5
+              </div>
+            </td>
+            <td width="38%">
+              Airways Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Drug Safety Research Unit (DSRU)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Adverse Effects Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Duke University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Duke University Medical Center</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Pain, Palliative and Supportive Care Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Duke Clinical Research Unit (DCRU)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Pain, Palliative and Supportive Care Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Dutch Institute for Healthcare Improvement CBO</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Dutch Trade Union Federation (FNV)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Occupational Safety and Health Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Erasmus Medical Center</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Steering Group Review Group Representative / Monitoring and Reigstration Committee Co-Convenor (Johannes van der Wouden)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Erasmus University Rotterdam</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Occupational Safety and Health Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Universidade de Lisboa</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Faculdade de Medicina (Universidade de Lisboa)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre; Movement Disorders Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Universidad Central de Venezuela</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Facultad de Medicina (Universidad Central de Venezuela)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Bond University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Faculty of Health Sciences and Medicine (Bond University)</td>
+            <td width="13%"> 
+              <div align="center">
+                5
+              </div>
+            </td>
+            <td width="38%">
+              Acute Respiratory Infections Group; Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>McGill University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Faculty of Medicine (McGill University)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Infectious Diseases Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Calgary</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Hepato-Biliary Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Faculty of Medicine (University of Calgary)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Vaccines Field
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Kelaniya</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Faculty of Medicine (University of Kelaniya)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              South Asian Cochrane Network & Centre Steering Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Alberta</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Faculty of Medicine and Dentistry (University of Alberta)</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              Adverse Effects Methods Group; Child Health Field
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Finnish Institute of Occupational Health (FIOH)</td>
+            <td width="13%"> 
+              <div align="center">
+                8
+              </div>
+            </td>
+            <td width="38%">
+              Occupational Safety and Health Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Finnish Office for Health Technology Assessment (FINOHTA)</td>
+            <td width="13%"> 
+              <div align="center">
+                4
+              </div>
+            </td>
+            <td width="38%">
+              Finnish Branch of the Nordic Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Florida Atlantic University</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Justice Health Field
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Fondo Nacional de Recursos</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Foundation of the Carlo Besta Neurological Institute, IRCCS</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Multiple Sclerosis Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Frederiksberg Hospital</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Musculoskeletal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Fundación Oxalajuj N'oj</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Fundación Panameña de Cooperación Técnica para Proyectos Sociales (FUPACOTEPS)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Fundación Universitaria Sanitas</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">George Institute</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Ghent University</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Pain, Palliative and Supportive Care Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Royal Brisbane and Women's Hospital</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Grantley Stable Neonatal Unit (Royal Brisbane and Women's Hospital)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Monitoring and Registration Committee Co-Convenor (Karen New)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Great Western Hospitals NHS Foundation Trust </td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Skin Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Bergen</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Haukeland University Hospital</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Pain, Palliative and Supportive Care Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Health and Life Sciences University </td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University College London</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Pain, Palliative and Supportive Care Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University College London Medical School</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Hepato-Biliary Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><I>Department of Epidemiology and Public Health (University College London)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Health Behaviour Research Centre (University College London)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Tobacco Addiction Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Aberdeen</td>
+            <td width="13%"> 
+              <div align="center">
+                6
+              </div>
+            </td>
+            <td width="38%">
+              Incontinence Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Health Economics Research Unit (Aberdeen)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Campbell and Cochrane Economics Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Utah</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Health Sciences (University of Utah)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Pain, Palliative and Supportive Care Group; Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Heinrich-Heine University Dusseldorf</td>
+            <td width="13%"> 
+              <div align="center">
+                5
+              </div>
+            </td>
+            <td width="38%">
+              Metabolic and Endocrine Disorders Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Hospital de la Santa Creu i Sant Pau</td>
+            <td width="13%"> 
+              <div align="center">
+                15
+              </div>
+            </td>
+            <td width="38%">
+              Iberoamerican Cochrane Centre; Lung Cancer Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Hospital for Sick Children</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Ear, Nose and Throat Disorders Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Hospital Plató</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Skin Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Imperial College London</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Consumers and Communication Group; Pain, Palliative and Supportive Care Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Independent University, Bangladesh (IUB)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              South Asian Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Institut universitaire de médecine sociale et préventive Lausanne (IUMSP)</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              Swiss Branch of the French Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Tufts University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Tufts University School of Medicine</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Pain, Palliative and Supportive Care Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+
+&nbsp;&nbsp;
+<font size="1" color="gray"><I>Tufts Medical Center</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Institute for Clinical Research and Health Policy Studies (ICRHPS)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Comparing Multiple Interventions Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Lancaster University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Institute for Health Research (Lancaster University)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Pain, Palliative and Supportive Care Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Institute for Quality and Efficiency in Health Care (IQWiG)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Adverse Effects Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Institute for Work and Health - Canada (IWH)</td>
+            <td width="13%"> 
+              <div align="center">
+                18
+              </div>
+            </td>
+            <td width="38%">
+              Back Group; Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Queens University Belfast</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Institute of Child Care Research (Queen's University Belfast)</td>
+            <td width="13%"> 
+              <div align="center">
+                4
+              </div>
+            </td>
+            <td width="38%">
+              Developmental, Psychosocial and Learning Problems Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of London</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><I>Queen Mary and Westfield College (QMW)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">School of Medicine and Dentistry (Queen Mary)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Adverse Effects Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Institute of Education (University of London)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Consumers and Communication Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Newcastle University</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Institute of Health and Society (Newcastle University) (IHS)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Infectious Diseases Group; Campbell and Cochrane Economics Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">King's College, London</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Occupational Safety and Health Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Institute of Psychiatry - King's College London</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Drugs and Alcohol Group; Campbell and Cochrane Economics Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Bern</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Institute of Social & Preventive Medicine (University of Bern) (ISPM)</td>
+            <td width="13%"> 
+              <div align="center">
+                4
+              </div>
+            </td>
+            <td width="38%">
+              Haematological Malignancies Group; Musculoskeletal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Instituto de Efectividad Clínica y Sanitaria (IECS)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Instituto di Fisiologia Clinica, CNR</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Multiple Sclerosis Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Instituto Nacional de Pediatría (Torre de Investigación)  </td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>International Health Central American Institute (IHCAI)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">International Health Central American Institute - El Salvador (IHCAI)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre; Developing Countries Field
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">International Health Central American Institute - Costa Rica (IHCAI)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Liverpool School of Tropical Medicine (LSTM)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">International Health Group (Liverpool School of Tropical Medicine)</td>
+            <td width="13%"> 
+              <div align="center">
+                5
+              </div>
+            </td>
+            <td width="38%">
+              Infectious Diseases Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Joanna Briggs Institute (JBI)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Nursing Care Field
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">John Radcliffe Hospital</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              Ear, Nose and Throat Disorders Group; Multiple Sclerosis Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Johnson and Johnson</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Johnson & Johnson Pharmaceutical Research & Development, LLC</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Prospective Meta-Analysis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Kalasin Hospital</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Thai Cochrane Network of the Australasian Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Karolinska Institutet </td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Multiple Sclerosis Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Khon Kaen Hospital</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Thai Cochrane Network of the Australasian Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Khon Kaen University</td>
+            <td width="13%"> 
+              <div align="center">
+                5
+              </div>
+            </td>
+            <td width="38%">
+              Thai Cochrane Network of the Australasian Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Kleijnen Systematic Reviews</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Khyber Medical University Peshawar</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Lady Reading Hospital Peshawar</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              South Asian Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Lampoon Hospital</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Thai Cochrane Network of the Australasian Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Leeds Partnerships NHS Foundation Trust</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Schizophrenia Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Leiden University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Leiden University Medical Center (LUMC)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Fertility Regulation Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Long Island College Hospital </td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Ear, Nose and Throat Disorders Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Ludwig Maximilians University (University of Munich)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Schizophrenia Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Luton and Dunstable Hospital</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Infectious Diseases Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Makerere University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Makerere University Medical School</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Infectious Diseases Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Manitoba Institute of Child Health (MICH)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Child Health Field
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Mario Negri Institute</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Steering Group Panel Member (Alessandro Liberati)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Mater Mothers' Research Centre</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Pregnancy and Childbirth Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Matrix Knowledge Group</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Campbell and Cochrane Economics Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">MDK Nordhein</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Haematological Malignancies Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Medical Research Council (MRC)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Medical Research Council Biostatistics Unit (MRC BSU)</td>
+            <td width="13%"> 
+              <div align="center">
+                15
+              </div>
+            </td>
+            <td width="38%">
+              Steering Group Methods Group Representative (Julian Higgins); Italian Cochrane Centre; Comparing Multiple Interventions Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Medical Research Council (UK), The Gambia</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Infectious Diseases Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Medical Research Council of South Africa (MRC-SA)</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              HIV/AIDS Group; Sexually Transmitted Diseases Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Melbourne University</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Multiple Sclerosis Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Melbourne School of Population Health</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Public Health Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Tasmania</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Menzies Research Institute</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Musculoskeletal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Ministry of Public Health (Cuba)</td>
+            <td width="13%"> 
+              <div align="center">
+                
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Ministry of Public Health (Thailand)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Thai Cochrane Network of the Australasian Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Monash University</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Steering Group Centre Director Representative / Colloquim Policy Advisory Committee Convenor (Steve McDonald)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">MRC Centre for Neuromuscular Disease</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Neuromuscular Disease Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>British Medical Research Council (MRC)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">MRC Clinical Trials Unit</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Individual Participant Data Meta-analysis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">National Institute for Clinical Excellence - UK (NICE)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Skin Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">National Institute for Health Research</td>
+            <td width="13%"> 
+              <div align="center">
+                12
+              </div>
+            </td>
+            <td width="38%">
+              UK Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">National School of Public Health (Brazil) (ENSP)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Schizophrenia Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Sydney</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Occupational Safety and Health Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Sydney School of Public Health (University of Sydney)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Steering Group Co-Chair / Operations and Finance Committee Convenor (Jonathan Craig); Breast Cancer Group; Renal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Sydney Medical School</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Renal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">NHMRC Clinical Trials Centre (University of Sydney)</td>
+            <td width="13%"> 
+              <div align="center">
+                5
+              </div>
+            </td>
+            <td width="38%">
+              Prospective Meta-Analysis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Norwegian Knowledge Centre for the Health Services (NOKC)</td>
+            <td width="13%"> 
+              <div align="center">
+                11
+              </div>
+            </td>
+            <td width="38%">
+              Norwegian branch of the Nordic Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of East Anglia</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">School of Medicine, Health Policy and Practice (University of East Anglia)</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              Campbell and Cochrane Economics Methods Group; Campbell and Cochrane Economics Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Norwich Medical School (University of East Anglia)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Adverse Effects Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Ottawa Health Research Institute (OHRI)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Steering Group Co-Chair / Information Services Strategy Committee Convenor / Canadian Cochrane Centre Director (Jeremy Grimshaw); Bias Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Oxford Brookes University</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Drugs and Alcohol Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Pacific University</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Pain, Palliative and Supportive Care Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>London School of Economics (LSE)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><I>LSE Health and Social Care</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Personal Social Services Research Unit (London School of Economics) (PSSRU)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Campbell and Cochrane Economics Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Pontificia Universidad Católica de Chile</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Pontificia Universidad Javeriana</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Postgraduate Institute of Medical Education & Research, Chandigarh</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Cochrane Acute Respiratory Infections Group; Renal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Birmingham</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Haematological Malignancies Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">School of Mathematics (University of Birmingham)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><I>School of Health and Population Sciences (Birmingham) (HaPS)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Primary Care Clinical Services (U of Birmingham) (PCCS)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Tobacco Addiction Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Prince of Songkla University</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Thai Cochrane Network of the Australasian Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Princess Alexandra Hospital</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Renal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Princess Margaret Hospital</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Haematological Malignancies Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Rabin Medical Center</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Haematological Malignancies Group; Infectious Diseases Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Radboud University Nijmegen</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Primary Health Care Field
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Western Ontario</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Multiple Sclerosis Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Robarts Research Institute</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Inflammatory Bowel Disease and Functional Bowel Disorders Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Warwick</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Royal College of Nursing Research Institute</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Pain, Palliative and Supportive Care Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Royal Maternity Hospital</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Neonatal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Royal Prince Alfred Hospital</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Neonatal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Royal United Hospital</td>
+            <td width="13%"> 
+              <div align="center">
+                4
+              </div>
+            </td>
+            <td width="38%">
+              Gynaecological Cancer Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Royal Victorian Eye & Ear Hospital</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Ear, Nose and Throat Disorders Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Royal Women's Hospital</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Neonatal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Manchester</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">School of Translational Medicine (University of Manchester)</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              Bone, Joint and Muscle Trauma Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">School of Dentistry (University of Manchester)</td>
+            <td width="13%"> 
+              <div align="center">
+                5
+              </div>
+            </td>
+            <td width="38%">
+              Oral Health Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Universidade de Sao Paolo (USP)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">School of Medicine (Sao Paulo)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Haematological Malignancies Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Split</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">School of Medicine (University of Split)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Croatian Branch of the Italian Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Trinity College Dublin</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">School of Nursing and Midwifery (Trinity College Dublin)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Methodology Review Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Saskatchewan</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">School of Physical Therapy (University of Saskatchewan)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Musculoskeletal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Queensland, Australia</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">School of Population Health (University of Queensland)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Justice Health Field
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Chinese University of Hong Kong</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">School of Public Health and Primary Care - Chinese University of Hong Kong</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Hong Kong Branch of the Chinese Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Servizio Regionale di Riferimento per L'Epidemiologia, SSEpi- SeREMI</td>
+            <td width="13%"> 
+              <div align="center">
+                7
+              </div>
+            </td>
+            <td width="38%">
+              Multiple Sclerosis Group; Vaccines Field
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Sheffield Hallam University</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Singapore Clinical Research Institute (SCRI)</td>
+            <td width="13%"> 
+              <div align="center">
+                10
+              </div>
+            </td>
+            <td width="38%">
+              Singapore Branch of the Australasian Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Sociedad Científica del Paraguay</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">South African Medical Research Council (SAMRC)</td>
+            <td width="13%"> 
+              <div align="center">
+                7
+              </div>
+            </td>
+            <td width="38%">
+              South African Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">St. Andrew's Hospital (Northampton)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Schizophrenia Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">St. Mark's Hospital (Harrow, England)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Incontinence Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Stanford University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Stanford University School of Medicine</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Pain, Palliative and Supportive Care Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Stellenbosch University</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Occupational Safety and Health Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Sydney West Area Health Service (SWAHS)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Teesside University</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Bone, Joint and Muscle Trauma Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">The Nerve Centre, Chennai</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              South Asian Cochrane Network & Centre Steering Group; Cochrane Epilepsy Group 
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Tongji University</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Schizophrenia Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>World Health Organization</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">UNICEF/UNDP/World Bank/WHO Special Program on Research & Training in Tropical Diseases  (TDR)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Infectious Diseases Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Unidad de Cirugia Cardiovascular de Guatemala</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Steering Group Panel Member (Joaquin Barnoya)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Universidad Católica de la Santísima Concepción</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Universidad de La Frontera (UFRO)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Universidad Mayor de San Andrés (UMSA)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Universidad Nacional de Colombia</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Universidad Peruana Cayetano Heredia (UPCH)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Universidad Tecnológica Equinoccial</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Andean Branch of the Iberoamerican Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Universidade Federal de São Paulo, Teaching Hospital (UNIFESP)</td>
+            <td width="13%"> 
+              <div align="center">
+                17
+              </div>
+            </td>
+            <td width="38%">
+              Brazilian Cochrane Centre; Bone, Joint and Muscle Trauma Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Universitair Medisch Centrum Utrecht (UMC Utrecht)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Universitat Pompeu Fabra</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Occupational Safety and Health Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Universit‡ degli Studi di Torino - University of Torino</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Vaccines Field
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">UniversitÈ Libre de Bruxelles (ULB)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Università degli Studi del Piemonte Orientale Amedeo Avogadro</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Drugs and Alcohol Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Università degli studi di Modena e Reggio Emilia</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Multiple Sclerosis Group; Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Université Paris Descartes</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              French Cochrane Centre (Pierre Durieux, Scientific Director); Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Cologne</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University Hospital Cologne</td>
+            <td width="13%"> 
+              <div align="center">
+                8
+              </div>
+            </td>
+            <td width="38%">
+              Haematological Malignancies Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University Hospital Freiburg</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              German Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University Hospitals Bristol NHS</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of British Columbia</td>
+            <td width="13%"> 
+              <div align="center">
+                11
+              </div>
+            </td>
+            <td width="38%">
+              Hypertension Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of California, Los Angeles (UCLA)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Drugs and Alcohol Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Central Florida (UCF)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Ferrara</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Musculoskeletal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Glasgow</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Health Care of Older People Field
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Illinois at Chicago (UIC)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Schizophrenia Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Leeds</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Pain, Palliative and Supportive Care Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Maryland</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Maryland School of Medicine</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Complementary Medicine Field
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Milan</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Hepato-Biliary Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>University of Minnesota</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Minnesota Medical School</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Renal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Nebraska-Lincoln</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Occupational Safety and Health Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of New South Wales (UNSW)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Skin Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Otago</td>
+            <td width="13%"> 
+              <div align="center">
+                5
+              </div>
+            </td>
+            <td width="38%">
+              Bone, Joint and Muscle Trauma Group; Incontinence Group; Renal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Texas M. D. Anderson Cancer Center</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Musculoskeletal Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of the West of England (UWE)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Pain, Palliative and Supportive Care Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">VicHealth</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              Public Health Group
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">VU University Medical Center</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Prognosis Methods Group
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Sichuan University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">West China Hospital, Sichuan University</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Steering Group Consumer Network Representative (Mingming Zhang); Chinese Cochrane Centre
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><I>Yale University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Yale School of Medicine</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Neonatal Group
+            </td>
+          </tr>
+
+
+
+</table>
+
+      </td>
+      <TD height=1 width="4"></TD>
+    </TR>
+
+    <TR> 
+      <td height=1 width="1"></td>
+      <td height=1 valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+       
+      </td>
+      <TD height=1 width="4"></TD>
+    </TR>
+    <TR> 
+      <td width="1">&nbsp;</td>
+      <td valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+        <table width="100%" border="0">
+          <tr bgcolor=""> 
+            <td width="49%" align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>TOTAL 
+              PARTICIPANTS: </b></font></td>
+            <td width="13%"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                28000
+                </font></div>
+              </font></td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td width="49%" bgcolor="#CCFFFF"> 
+              <table width="100%" border="1" bgcolor="#CCFFFF">
+                <tr bgcolor="white"> 
+                  <td> 
+                    <p> <font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Notes on Participants/Organizations:<br>
+                      All participants (except administrative staff at Regional Centers) contribute reviews and time voluntarily--still trying to negotiate academic credit for reviews that appear solely in Cochrane's databases. Numerous other participants than those listed her
+                    </font></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td width="13%">&nbsp;</td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td width="49%">&nbsp;</td>
+            <td width="13%">&nbsp;</td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+      <TD width="4">&nbsp;</TD>
+    </TR>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      
+    <td width="31%" bgcolor="#FFFFFF" bordercolor="#CCCCCC"
+ align="right" valign="top"> 
+      <p class="fieldname">Communications Technology 
+        Used :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      
+    <td width="66%">The Cochrane Library displays and stores comments and criticisms submitted in response to systematic reviews. These comments are moderated and must conform with published house rules.<BR>
+<BR>
+Conference telephone calls are frequent; groups have applied for (ouside) grant money to subsidize cost. Some teleconferencing with NetMeeting happens. Webcams are used more frequently by the Eyes & Vision group. <BR>
+Several moderated email lists are utilized by participants at every level of participation.<BR>
+Electronic, language/region or topic specific newsletters are also available at the web site. <BR>
+<BR>
+</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      
+    <td width="31%" bgcolor="#FFFFFF" bordercolor="#CCCCCC"
+ align="right" valign="top"> 
+      <p class="fieldname">Technical 
+        Capabilities :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      
+    <td width="66%">
+        
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+  <tr>
+    <td width="1%">&nbsp;</td>
+    <td align="right" valign="top" width="31%">Key Articles : </td>
+    <td width="1%">&nbsp;</td>
+      <td width="66%" valign="top">
+        
+    <p class="biblio">
+
+        Dickersin, K.; Eric Manheimer, Susan Wieland, Karen A. Rovinson, Carol LeFebvre, Steve McDonald (2002). <A HREF="bibs.php?760">Development of the Cochrane Collaboration's Central Register of Controlled Clinical Trials</A> <I>Evaluation & The Health Professions</I>, 25, 39-63.
+
+
+
+
+
+
+
+
+      </p>
+
+      </td>
+    <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">Project-reported performance data
+:</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">Cochrane Database of Systematic Reviews contains the full text of more than 1700 complete Cochrane reviews; 1300 protocols for reviews are in progress.<BR>
+Hundreds of newly completed reviews and protocols are added each year.<BR>
+several hundred existing reviews are updated so substantively that they can be considered to be the equivalent of new reviews.<BR>
+The electronic publishing system for the Cochrane Library has just recently moved from a home-grown system to a partnership with John Wiley & Sons. One of the perceived benefits of this partnership will be access to system wide usage statistics. Currently, the entry page of the Cochrane Library at the National Electronic Library of Health in the UK received more than 50,000 hits per month by the middle of 2003. </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+   
+     
+
+
+  </tbody>
+</table>
+
+    </TD>
+    <TD width=60>&nbsp;</TD></TR>
+<TR>
+    <TD vAlign=top align=middle width=20 bgColor=#660033>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top colspan=2 align=right bgColor=#ffffff height=12>&nbsp;</TD>
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=bottom colspan=4 align=left width=145 bgColor=#660033 height=12><IMG 
+      height=12 
+      src="/images/RoundedBottom.gif" 
+      width=145 align=bottom></TD>
+    <TD vAlign=top align=right bgColor=#660033 height=12><FONT 
+      color=#ffffff>
+      &nbsp;</FONT><SPAN class=SmallText><FONT 
+      color=#ffffff>&nbsp; </FONT></SPAN></TD><!-- HERE -->
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=top align=middle width=20>&nbsp;</TD>
+    <TD colspan=4 vAlign=top align=middle bgColor=#ffffff
+      height=6><SPAN class="footernavbar"><A 
+      href="/">Home</A> | <A 
+      href="/AboutSOC/index.php">About 
+      SOC</A> | <A 
+      href="/Workshops/index.php">Workshops</A> | <A 
+      href="/Resources/index.php?findings">Resources</A> 
+      | <A 
+      href="/NewsEvents/index.php">News 
+      &amp; Events</A></SPAN></TD>
+    <TD width=60 bgColor=#ffffff height=6>&nbsp;</TD></TR>
+<!-- #LOOP-START:footer -->
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <HR align=center width=80%>
+    </TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5></TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <TABLE cellSpacing=0 cellPadding=0 width="95%" align=left border=0 
+      name="Footer">
+        <TR>
+          <TD vAlign=top align=middle width=172 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.uci.edu/"><IMG height=70 
+            alt="University of California, Irvine Logo" 
+            src="/images/logo_uci.jpg" 
+            width=62 border=0 name=UCI_Logo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.uci.edu/">University of California, Irvine<BR></A></P></TD>
+          <TD align=middle>
+            <P class="copyright">This material is based upon work supported by 
+            the <A target=_blank href="http://www.itr.nsf.gov/">National Science 
+            Foundation</A> under Grant No. IIS 0085951. Any opinions, findings, 
+            and conclusions or recommendations expressed in this material are 
+            those of the author(s) and do not necessarily reflect the views of 
+            the National Science Foundation. <BR><A target=_blank 
+            href="http://www.itr.nsf.gov/"><IMG height=42 
+            alt="National Science Foundation Logo" 
+            src="/images/nsf.gif" width=42 
+            border=0 name=NSF_Logo></A></P></TD>
+          <TD vAlign=top align=middle width=127 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.ics.uci.edu/"><IMG height=70 
+            alt="School of Information Logo" 
+            src="/images/logo_uci.jpg" 
+            width=62 border=0 name=SILogo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.ics.uci.edu/">School of Information</A>
+            <A href="http://www.ics.uci.edu/">University of 
+            Michigan</A></P></TD></TR>
+        <TR>
+          <TD align=middle>&nbsp;</TD></TR>
+        <TR>
+          <TD>
+            <P align=center class="copyright">&reg; 2010-2011
+            University of 
+            California, Irvine. Please send questions and comments to <A 
+            href="mailto:emilyo@uci.edu">SOC 
+        webmaster</A>.</P></TD></TR></TABLE></TD></TR>
+  <TR>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=95>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0>&nbsp; </TD>
+    <TD width=60 bgColor="white" height=0>&nbsp;</TD></TR>
+</TABLE>
+<!-- #LOOP-END:footer -->
+<P>&nbsp;</P>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-987955-53']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</BODY><!-- #EndTemplate --></HTML>
+

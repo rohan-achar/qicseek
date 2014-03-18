@@ -1,0 +1,104 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   
+      <title>Zvon - RFC 2301 - MIME content-type image/tiff</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body>
+      <table width="100%" class="hangingMenu">
+         <tr>
+            <td style="text-align:right"><a class="naviBlack" target="_top" href="http://www.zvon.org">ZVON</a> &gt; <a class="naviBlack" target="_top" href="http://zvon.org/tmRFC/RFC_share/Output/index.html">RFC Repository</a> &gt; <b>RFC 2301</b></td>
+         </tr>
+      </table>
+      <table class="bar" width="750px" border="0" cellpadding="0" cellspacing="0">
+         <tr>
+            <td class="naviBlue"><a class="naviWhite" target="_top" href="index.html"> Frontpage </a> / <a class="naviWhite" href="longContents.html"> Contents </a></td>
+         </tr>
+      </table>
+      <table class="hangingMenu" border="0" cellpadding="1" cellspacing="0" width="100%">
+         <tr>
+            <td><a class="naviBlack" href="chapter8.html">Prev</a> | <a class="naviBlack" href="chapter10.html">Next</a> | <a class="naviBlack" target="_top" href="http://zvon.org/tmRFC/RFC_share/Output/index.html">RFC index</a> | <a class="naviBlack" target="mainWindow" href="http://zvon.org/tmRFC/RFC_share/PHP/titleSearch.php">RFC search</a></td>
+            <td><a class="naviBlack" target="mainWindow" href="http://zvon.org/tmRFC/RFC_share/PHP/download.php?rfc=2301">Download as zip/tar.gz</a></td>
+         </tr>
+      </table>
+      <h2>9. MIME content-type image/tiff</h2><pre>
+   [<a title="Parsons, G., Rafferty J. and S. Zilles, &#34;Tag Image File Format (TIFF) - image/tiff MIME Sub-type Registration&#34;, RFC 2302, March 1998." href="chapter11.html#TIFF-REG">TIFF-REG</a>] describes the registration of the MIME content-type
+   image/tiff to refer to TIFF encoded image data. When transported by
+   MIME, the TIFF content defined by this document must be encoded
+   within an image/tiff content type. In addition, an optional
+   "application" parameter is defined for image/tiff to identify a
+   particular application's subset of TIFF and TIFF extensions for the
+   encoded image data, if it is known. Typically, this would be used to
+   assist the recipient in dispatching a suitable rendering package to
+   handle the display or processing of the image file.
+</pre><a name="sub1"></a><h3>9.1. Refinement of MIME content-type image/tiff for Facsimile
+            Applications
+      </h3>
+      
+      <pre>
+   Since this document defines facsimile specific profiles of TIFF, it
+   is useful to note an appropriate application parameter for the
+   image/tiff MIME content-type.
+
+   The two values of the image/tiff application parameter as defined for
+   facsimile are shown below, separated by a comma:
+
+       faxbw, faxcolor
+
+   The "faxbw" application parameter is suitable for use by applications
+   that can process one or more TIFF for facsimile profiles or subsets
+   used for the encoding of black and white facsimile data.
+
+   The "faxcolor" application parameter is suitable for use by
+   applications that can process one or more TIFF for facsimile profiles
+   or subsets that can be used for the encoding of black and white, AND
+   color facsimile data.
+
+   Since this document defines several profiles of TIFF for facsimile,
+   the following rules should be followed when setting the application
+   parameter value. For TIFF image data which is encoded for the
+   profiles of TIFF for Facsimile that support black-and-white image
+   data (Profiles S, F or J), applications which use one of these
+   profiles or a subset should set the value of the application
+   parameter to "faxbw". For TIFF image data which is encoded for the
+   defined profiles of TIFF for Facsimile that support color image data
+   (Profiles C, L or M), as well as black-and-white image data,
+   applications which use one of these profiles or a subset should set
+   the value of the application parameter to "faxcolor".
+
+   An example of the use of the image/tiff MIME Content-type with the
+   application parameter set with the value 'faxbw' follows:
+
+       Content-type: image/tiff; application=faxbw
+
+   In this example, use of this parameter value will enable applications
+   to identify the content as being within a profile or subset of TIFF
+   for Facsimile that is suitable for encoding black and white image
+   data, Before attempting to process the image data.
+
+   In a similar respect, an example of the image/tiff MIME Content-type
+   with the application parameter setting suitable for handling a color
+   subset or profile of TIFF for facsimile is shown below:
+
+       Content-type: image/tiff; application=faxcolor
+</pre>
+      <p></p>
+      <table width="100%" class="hangingMenu">
+         <tr>
+            <td style="text-align:right"><a class="naviBlack" target="_top" href="http://www.zvon.org">ZVON</a> &gt; <a class="naviBlack" target="_top" href="http://zvon.org/tmRFC/RFC_share/Output/index.html">RFC Repository</a> &gt; <b>RFC 2301</b></td>
+         </tr>
+      </table>
+      <table class="bar" width="750px" border="0" cellpadding="0" cellspacing="0">
+         <tr>
+            <td class="naviBlue"><a class="naviWhite" target="_top" href="index.html"> Frontpage </a> / <a class="naviWhite" href="longContents.html"> Contents </a></td>
+         </tr>
+      </table>
+      <table class="hangingMenu" border="0" cellpadding="1" cellspacing="0" width="100%">
+         <tr>
+            <td><a class="naviBlack" href="chapter8.html">Prev</a> | <a class="naviBlack" href="chapter10.html">Next</a> | <a class="naviBlack" target="_top" href="http://zvon.org/tmRFC/RFC_share/Output/index.html">RFC index</a> | <a class="naviBlack" target="mainWindow" href="http://zvon.org/tmRFC/RFC_share/PHP/titleSearch.php">RFC search</a></td>
+            <td><a class="naviBlack" target="mainWindow" href="http://zvon.org/tmRFC/RFC_share/PHP/download.php?rfc=2301">Download as zip/tar.gz</a></td>
+         </tr>
+      </table>
+   </body>
+</html>

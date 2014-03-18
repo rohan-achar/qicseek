@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Lab 4: Life Expectancy</title>
+  </head>
+  <body>
+    <table width="500" align="center" border="1" cellpadding="2"
+      cellspacing="2">
+      <tbody>
+        <tr>
+          <th valign="middle" align="center" bgcolor="#ffffcc">
+            <h1>Life Expectancy<br>
+            </h1>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <p align="left"> <br>
+      Demographers work with the distribution of age at death in the
+      form of a "life table", which displays the information in tabular
+      form. Starting with 100,000 live births at year zero, the life
+      table shows the number who are expected to survive to the end of
+      the next year. If you divide that number by 100,000, you have the
+      probability of surviving to the given age. This is also known as
+      the "<font color="#009900"><b>survivor function</b></font>", which
+      is just the <b>complement of the cumulative distribution function</b>
+      for age at death. In other words, if F(x) is the cumulative
+      distribution function (cdf) for age at death (Pr(age of death
+      &lt;= x)), then the survivor function is S(x) = 1-F(x). Similarly,
+      F(x) = 1- S(x). To see the 1997 life tables for US males and
+      females, issue the R command: </p>
+    <pre>Life97 &lt;- read.table("http://people.reed.edu/~jones/141/Life97.dat",
+                      header=TRUE)
+</pre>
+    The <i>read.table()</i> function can be used to read a table of
+    data (for example created by a spreadsheet, and saved as plain text,
+    tab, space, or comma delimited) from your local machine or from a
+    URL as in this example. If comma delimited, use <i>read.table("file",header=TRUE,sep=",")</i>.
+    <hr> Now enter the name of the data.frame to see the life table:
+    <pre>           Life97
+</pre>
+    You can see that in the older age groups, the ratio of females to
+    males becomes increasingly large. It is worth noting that life
+    tables like these are based on historical data and model-based
+    projections. Your mileage may vary!
+    <center>
+      <h4>Computing Life Expectancy from the Life Table</h4>
+    </center>
+    <p> Life97$Male is the data for males, and Life97$Female is the data
+      for females. Alternative equivalent expressions are
+      Life97[,"Male"] and Life97[,"Female"], or Life97[,2] and
+      Life97[,3]. <br>
+    </p>
+    <p> These tables represent the number surviving to a given age. If
+      we divide by 100000, we will have the proportion surviving to a
+      given age. We will work with the distribution for age at death.
+      "Death at or before n" is the complement of the event "survival
+      through age n". </p>
+    <p> To compute the cumulative distribution function for age at death
+      for females use the following R command: </p>
+    <pre>           Fem  = 1 - Life97$Female/100000
+           Male = 1 - Life97$Male/100000
+</pre>
+    Here are commands to plot of the cumulative distribution functions:
+    F(n) = Pr(age at death less than or equal to n). Note the use of
+    'par(mfrow=c(2,1))' to create a window with two rows and one column
+    of plots. Try 'par(mfrow=c(1,2))'.
+    <pre> 
+           par(mfrow=c(2,1))
+           barplot(Fem,names.arg=Life97$age,space=0)
+           title("Females")
+           barplot(Male,names.arg=Life97$age,space=0)
+           title("Males")
+</pre>
+    The probability of death at age n is the difference between F(n) and
+    F(n-1), that is the probability of death at or before age n, minus
+    the probability of death at or before age n-1. In R we can use the
+    following commands to compute the probabilities of death in a given
+    year:
+    <pre>           Pf &lt;- diff(Fem)
+           Pm &lt;- diff(Male)
+</pre>
+    The diff() function computes the differences between successive
+    values in the dataset. The result is the probability of death in
+    year N, for N running from 1 to 119. Here are commands to plot of
+    the cumulative distribution along with the probability density
+    function (histogram) just described for females:
+    <pre>           barplot(Fem,names.arg=Life97$age,space=0)
+           barplot(Pf,names.arg=Life97$age[-1],space=0,col="green")
+</pre>
+    Make sure you understand the relation between these pairs of graphs.
+    <p> Compare the shapes of the density functions (histograms) for
+      male and females. What differences can you see? Can you explain
+      the differences? </p>
+    <p> We are now ready to compute the expected age at death, known
+      more positively as the "life expectancy". The age categories are 1
+      to 119 years, in 1 year intervals. </p>
+    <pre>           age = 1:119
+           sum( age*Pf )
+</pre>
+    In fact, people don't die on their birthday; deaths are distributed
+    throughout the year. If the deaths are roughly evenly distributed
+    within years, then the average age at death in year n would be
+    n-1/2. How much difference does that make?
+    <pre>           age &lt;- (1:119)-1/2
+           sum( age*Pf )
+</pre>
+    <p> </p>
+    <center>
+      <h4> Conditional Life Expectancy</h4>
+    </center>
+    What is the conditional probability of death at age k, given you
+    have survived to age n? Can you see how to compute the conditional
+    probabilites for k=n+1,n+2, n+3,...? Hint: you need to use the
+    definition of conditional probability! You are conditioning on an
+    event of the form "age &gt; n".
+    <pre> 
+    Pr(age &gt; n) = Pr(age = n+1)+ Pr(age=n+2) + ...  
+</pre>
+    For example, the probability of survival past age 50 is
+    <blockquote>
+      <pre>sum(Pf[51:119])
+</pre>
+    </blockquote>
+    It is a bother to have to figure out which categories to sum,
+    especially when the age categories don't exactly match the row
+    numbers of the table. A neat solution is to let <b>R</b> do the
+    selection for you:
+    <blockquote>
+      <pre>sum(Pf[age &gt; 50])
+</pre>
+    </blockquote>
+    To see what <b>R</b> is doing, just print the data,
+    <blockquote>
+      <pre>data.frame(age,Pf)
+</pre>
+    </blockquote>
+    and then compare to the selected subset:
+    <blockquote>
+      <pre>data.frame(age,Pf)[age&gt;50,]
+</pre>
+    </blockquote>
+    <p> The conditional probability of death at age n+1, given death at
+      age greater than n, is </p>
+    <pre> 
+    Pr(age = n+1 | age &gt; n) = Pr(age = n+1 and age &gt; n)/Pr(age &gt; n)
+
+                            = Pr(age = n+1)/Pr(age &gt; n)
+</pre>
+    The intersection of the events "age &gt; n" and "age = n+1" is just
+    the latter event. Thus we can compute the conditional probabilities
+    of death at each age greater than n simply by dividing by their sum.
+    <p> To get the conditional probabilities of death at each age given
+      survival to age 50 for US women, use: </p>
+    <pre> 
+           Pf50 &lt;- Pf[age&gt;50]/sum(Pf[age&gt;50])
+</pre>
+    In other words, Pf50 contains the probability of death at each age
+    past 50, given survival through age 50. This conditional
+    distribution is a perfectly good probability distribution. The
+    probabilities sum to 1:
+    <pre> 
+           sum(Pf50) 
+</pre>
+    We can compute the expected age at death, given survival to age 50,
+    using this conditional distribution. This is known as the
+    conditional life expectancy. The sample space is the set of possible
+    outcomes (51:119), so using the definition of expectation, the
+    conditional life expectancy for a US female surviving to age 50 is
+    <pre>           sum(age[age&gt;50]*Pf50)
+</pre>
+    It is greater than the unconditional expected value - the
+    unconditional life expectancy includes those who die at a younger
+    age. It is not wildly different, though. To see why, look at the
+    probability of survival past age 50:
+    <pre> 
+           sum(Pf[age&gt;50])
+</pre>
+    <br>
+    <hr size="2" width="100%"><i>Material taken from Albyn Jones' Math
+      141 Lab Webpage, Nov. 2013</i><br>
+    <br>
+    <hr style="width: 100%; height: 2px;">
+    <div align="center"><big><span><b>Previous</b>:
+          <a href="Expectation.html"> Expected Values for Discrete
+            Distributions</a> <br>
+          <b>Next</b>:</span> <a href="Lab4_HW.html">Lab 4 Assignment</a></big><br>
+    </div>
+    <div align="center"> <big> </big><br>
+      <big> <a
+          href="file:///Users/Hancock/Documents/Webpage/120A/labs/lab4/index.html">Lab
+
+
+
+          4 Index</a></big><br>
+    </div>
+    <hr style="width: 100%; height: 2px;">
+    <p><br>
+    </p>
+  </body>
+</html>
+

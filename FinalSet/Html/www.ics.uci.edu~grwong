@@ -1,0 +1,52 @@
+<HTML><HEAD>
+<TITLE>Garrett Wong</TITLE>
+<LINK rev="Made" href="mailto:grwong@uci.edu">
+<META name="person" content="Garrett Wong">
+<META name="sortname" content="Wong, Garrett">
+<style>
+h2 {color:#08f;text-shadow:3px 3px 3px 3px #222;}
+h2:hover {color:#48f;}
+</style>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script>
+$(function () {
+  $("h2").css('display', 'none');
+  $("ul").css('display', 'none');
+  $("h2").fadeIn(1000, function () {
+    $("ul").slideDown(1000, function () {
+
+    });
+  });
+});
+
+</script>
+</HEAD><BODY>
+<H2>Garrett Wong</H2>
+
+
+
+
+<UL>
+<LI>Position: Graduate Student, Expected Graduation: 2014
+<LI>Desired Area: Artificial Intelligence</LI>
+<LI>E-mail: <A href="mailto:grwong@uci.edu">grwong@uci.edu</A>
+</UL>
+
+<h2>Projects</h2>
+<ul>
+<li>Website: <a href="http://garrettw.com">Garrett Wong</a></li>
+<li>GVamp Notes: <a href="http://garrettw.com/GVamp">GVamp</a></li>
+</ul>
+
+<h2>Presence</h2>
+<ul>
+<li>Facebook: <a href="http://facebook.com/warchiefgrw">Facebook</a></li>
+<li>Google Plus: TBD</li>
+<li>LinkedIn</li>
+<li>Twitter</li>
+</ul>
+<HR>
+<br>
+
+</BODY></HTML>
+

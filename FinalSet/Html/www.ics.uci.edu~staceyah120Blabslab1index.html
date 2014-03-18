@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252"
+      http-equiv="Content-Type">
+    <title>Stats 120B/Math 131B: R Lab 1</title>
+    <meta content="Stacey Hancock" name="author">
+  </head>
+  <body>
+    <table style="width: 100%; background-color: rgb(102, 204, 204);
+      margin-left: auto; margin-right: auto; height: 58px; text-align:
+      left;" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td>
+            <div style="text-align: center;"> </div>
+            <h1 style=" text-align: center;">Lab 1: Monte Carlo
+              Simulation<br>
+            </h1>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    In this lab, we are going to use the law of large numbers to
+    approximate values of integrals. Recall the law of large numbers
+    (Theorem 6.2.4 in Section 6.2 in our textbook), which states that as
+    the sample size goes to infinity, the sample mean converges to the
+    population mean in probability. Therefore, one method of estimating
+    the expectation <i>E(X)</i> of a random variable <i>X</i> is to
+    generate a large random sample of <i>X</i>'s, and then estimate <i>E</i><i>(X)</i>
+    by the sample mean. For a large enough sample, we can make the
+    sample mean as close to the population mean, <i>E(X)</i>, as we
+    would like, with a large probability.<br>
+    <br>
+    For example, consider an Exponential random variable <i>X</i> with
+    rate 4. (Note that the "rate" parameter, beta, is the reciprocal of
+    <i>E(X)</i>. See the distribution table in the back of our book.) We
+    can generate 10,000 values from this Exponential distribution in R
+    by:<br>
+    <blockquote>
+      <pre>dat = rexp(10000, 4)<br></pre>
+    </blockquote>
+    Now, the mean of this large sample should be close to the true mean
+    of the distribution 0.25:<br>
+    <blockquote>
+      <pre>mean(dat)<br></pre>
+    </blockquote>
+    Run the previous two R commands several times to get a sense of the
+    variability in the sample means. (What is the theoretical standard
+    deviation of the sample mean in this case? <a href="expmean.html">Answer</a>.)<br>
+    <h2> Expectation of a function of a random variable <i>E[g(X)]</i></h2>
+    Recall that the expected value of a function <i>g</i> of a discrete
+    random variable <i>X</i> with probability function <i>f(x)</i> is
+    the sum of <i>g(x)*f(x)</i> over all possible values of <i>x</i>,
+    provided this sum converges absolutely. Similarly, the expected
+    value of a function <i>g</i> of a continuous random variable <i>x</i>
+    with probability density function <i>f</i><i>(x)</i> is the
+    integral of <i>g(x)*f(x)</i> over the support of <i>X</i>,
+    provided this integral exists. (Review Theorem 4.1.1, the "Law of
+    the Unconscious Statistician" on p. 213 of our textbook.) Whether <i>X</i>
+    is discrete or continuous, by the Law of Large numbers, the expected
+    value <i>E[g(X)]</i> can again be approximated by the sample mean
+    of <i>n</i> independent and identically distributed simulated
+    values of <i>g(X).</i><br>
+    <br>
+    The following R command estimates the expected value of the function
+    <i>X<sup>2</sup></i>, <i>E(</i><i><i>X<sup>2</sup></i>)</i>, where
+    <i>X</i> is a Geometric random variable with probability of success
+    0.3. Make sure you understand why this is an estimate of <i>E(</i><i><i>X<sup>2</sup></i>)</i>!<br>
+    <blockquote>
+      <pre>mean(rgeom(10000, 0.3)^2)<br></pre>
+    </blockquote>
+    What is the true (theoretical) value of <i>E(</i><i><i>X<sup>2</sup></i>)</i>
+    for this distribution? (<i>Hint:</i> <i>Var(X) = </i><i>E(</i><i><i>X<sup>2</sup></i>)</i>
+    <i>- E(X)</i><sup>2</sup>.)<br>
+    Compare your output from the above command to your output to the
+    following:<br>
+    <blockquote>
+      <pre>mean(rgeom(10000,0.3))^2<br></pre>
+    </blockquote>
+    What is this quantity estimating? The two values above should differ
+    - why?<br>
+    <h2>Estimating the variance of a random variable through simulation</h2>
+    <p>One function of a random variable of particular interest is <br>
+    </p>
+    <blockquote>
+      <p><i>g(X) = (X - E(X))<sup>2</sup><br>
+        </i></p>
+    </blockquote>
+    <p>since the expectation of<i> g(X) </i>is the variance of<i> X</i>,
+      <i>Var(X)</i>. If <i>E(X)</i> is known, the method described in
+      the previous section can be used directly to approximate <i>Var(X).</i>
+      That is, compute the mean of <i>n</i> independent and identically
+      distributed simulated values of <i>g(X) = (X - E(X))<sup>2</sup></i>
+      (where <i>n</i> is very large). Try it for the above Geometric
+      random variable.<br>
+    </p>
+    <p>If <i>E(X)</i> is unknown, we can replace <i>E(X)</i> by the
+      sample mean and use <i>n</i> - 1 as the divisor instead of <i>n</i>.
+      The resulting quantity is the sample variance, <i>s<sup>2</sup></i>.
+      In R, the sample variance can be computed using the R function
+      "var". For example, the following estimates the variance of a
+      Uniform distribution over the interval (-5, 15):</p>
+    <blockquote>
+      <pre>x = runif(10000, -5, 15)<br>sum( (x-mean(x))^2/(10000-1) )  # or you can do...<br>var(x)</pre>
+    </blockquote>
+    <h2>Monte Carlo Integration</h2>
+    <p>The basic Monte Carlo Integration method estimates an integral of
+      a function <i>g(x)</i> over the interval [0, 1] by generating a
+      large number of independent and identically distributed continuous
+      uniform random variables <i>X<sub>1</sub></i>, <i>X<sub>2</sub></i>,
+      ... , <i>X<sub>n</sub></i> and taking the average of the values <i>g(X<sub>1</sub></i><i>),
+        g(</i><i>X</i><i><sub>2</sub></i><i>),</i> ... , <i>g(X<sub>n</sub></i><i>)</i>.
+      In other words, if we would like to estimate the integral<br>
+      <img alt="A = \int_0^1 g(x)dx" src="Lab1image1.png" width="135"
+        height="66"><br>
+    </p>
+    <p>first generate from a Uniform(0, 1) distribution. Then, since <i>A</i>
+      = <i>E[g(X)]</i>, where <i>X</i> has a Uniform distribution over
+      the interval [0, 1] (why?), an estimate of <i>A</i> is<br>
+      <img alt="\hat{A} = (g(X_1)+\cdots+g(X_n))/n" src="Lab1image2.png"
+        width="199" height="60"><br>
+    </p>
+    <p>By the Law of Large Numbers, this estimate converges to <i>A</i>
+      as the sample size <i>n</i> goes to infinity.<br>
+    </p>
+    <p>For example, we would like to estimate the integral<br>
+      <img alt="\int_0^1 \exp(e^x)dx" src="Lab1image3.png" width="119"
+        height="69"><br>
+    </p>
+    <p>The following R code produces an estimate of this integral (make
+      sure you understand why!).<br>
+    </p>
+    <blockquote>
+      <pre>x = runif(10000)<br>gx = exp(exp(x))<br>estimate = mean(gx)<br>estimate<br></pre>
+    </blockquote>
+    <p>Extensions of the Monte Carlo Integration method can be made to
+      estimate integrals over different intervals, or integrals of
+      functions of more than one variable (which you will explore in the
+      lab assignment). In fact, the term "Monte Carlo" has come to mean
+      any method that makes use of simulating random numbers.<br>
+    </p>
+    <pre>&nbsp;<br></pre>
+    <hr width="100%" size="2"><br>
+    <big style="font-weight: bold;"><a href="Lab1_HW.pdf">Lab 1
+        Assignment </a><br>
+      Turn in your Lab assignment via our EEE Dropbox.<br>
+      Due Fri., Jan. 24 by 5pm.<br>
+    </big><br>
+    <hr style="width: 100%; height: 2px;">
+    <div style="text-align: center;"><a href="../../index.html">Stat
+        120B/Math 131B Course Webpage</a><br>
+    </div>
+  </body>
+</html>
+

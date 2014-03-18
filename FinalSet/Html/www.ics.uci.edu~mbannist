@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type"
+            content="text/html; charset=utf-8" />
+        <title>Michael J. Bannister</title>
+        <link rel="stylesheet" type="text/css" href="scripts/styles.css" />
+        <!-- JsQuery -->
+        <script src="scripts/jquery-1.8.3.min.js"></script>
+        <script src="scripts/show-hide.js"></script>
+        <!-- END: JsQuery -->
+        <!-- START: Load and configure MathJax -->
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({
+                tex2jax: {
+                    inlineMath: [ ['$','$'], ['\\(','\\)'] ],
+                    displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                    processEscapes: true
+                },
+            });
+        </script>
+        <script type="text/javascript"
+            src="scripts/MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        <!-- END: Load and configure MathJax -->
+    </head>
+    
+    <body>
+    	<section id="page">
+            <header>
+                <!-- TITLE --> 
+                <hgroup>
+                    <h1>Michael J. Bannister</h1>
+                    <h3>Graduate Student Researcher</h3>
+                </hgroup>
+                                
+                <!-- NAVIGATION -->
+                <!--
+                <nav class="clear">
+                    <ul>
+                        <li><a href="#research">Research</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#teaching">Teaching</a></li>
+                        <li><a href="#ipe">Ipe</a></li>
+                        <li><a href="#links">Links</a></li>
+                    </ul>
+                </nav>
+                -->
+            </header>
+            
+            <section id="articles">
+                <div class="line"></div>
+                <!-- BIO -->
+                <article>
+                  	<figureLeft>
+                    <img src="files/img/me_bw.jpg" width=250 height=300 />
+                    </figureLeft>
+
+                    <div class="articleBody clear">
+                        <p>I am a third year Ph.D. student in the <a href="http://www.cs.uci.edu">Computer Science department</a> at the <a href="http://www.uci.edu">University of California, Irvine</a>. I am advised by <a href="http://www.ics.uci.edu/~eppstein">David Eppstein</a> in the <a href="http://www.ics.uci.edu/~theory">Center for Algorithms and Theory of Computation</a>. My research interest are in the design and analysis of algorithms, particularly geometric and graph algorithms.</p>
+                        <p></p>
+                        <p><a href="files/pdf/cv.pdf">Curriculum vitae</a></p>
+                        <p>Email: mbannist at uci dot edu</p>
+                        <p>Office: DBH 4219</p>
+                        <!-- <p>CV</p> -->
+                    </div>
+                </article>
+                <!-- RESEARCH -->
+                <article id="research">
+                    <h2>Research</h2>
+                    <div class="line"></div>
+                    <div class="articleBody clear">
+                        <!-- PAPER START -->
+                        <div class=show-hide>
+                        <h4>Small Superpatterns for Dominance Drawing</h4>
+                        <p>We exploit the connection between dominance drawings of directed acyclic graphs and permutations, in both directions, to provide improved bounds on the size of universal point sets for certain types of dominance drawing and on superpatterns for certain natural classes of permutations. In particular we show that there exist universal point sets for dominance drawings of the Hasse diagrams of width-two partial orders of size $O(n^{3/2})$, universal point sets for dominance drawings of $st$-outerplanar graphs of size $O(n\log n)$, and universal point sets for dominance drawings of directed trees of size $O(n)$. We show that $321$-avoiding permutations have superpatterns of size $O(n^{3/2})$, riffle permutations ($321$-, $2143$-, and $2413$-avoiding permutations) have superpatterns of size $O(n)$, and the concatenations of sequences of riffles and their inverses have superpatterns of size $O(n\log n)$. Our analysis includes a calculation of the leading constants in these bounds.</p>
+                        </div>
+                        <p>Joint work with <a href="http://www.ics.uci.edu/~wdevanny">William E. Devanny</a> and <a href="http://www.ics.uci.edu/~eppstein">David Eppstein</a>.<br/>To be presented at  <a href="http://www.siam.org/meetings/analco14">ANALCO 2014</a>. Preprint on <a href="http://arxiv.org/abs/1310.3770">arXiv.</a></p>
+                        <!-- PAPER END -->
+                        <div class=show-hide>
+                        <h4>Fixed Parameter Tractability of Crossing Minimization of Almost-Trees</h4>
+                        <p>We investigate exact crossing minimization for graphs that differ from trees by a small number of additional edges, for several variants of the crossing minimization problem. In particular, we provide fixed parameter tractable algorithms for the $1$-page book crossing number, the $2$-page book crossing number, and the minimum number of crossed edges in $1$-page and $2$-page book drawings.</p>
+                        </div>
+                        <p>Joint work with <a href="http://www.ics.uci.edu/~eppstein">David Eppstein</a> and <a href="http://www.ics.uci.edu/~jsimons">Joe Simons</a>.<br/>Presented at  <a href="http://www.graphdrawing.org/">Graph Drawing 2013</a>. Preprint on <a href="http://arxiv.org/abs/1308.5741">arXiv.</a></p>
+                        <!-- PAPER END -->
+                        <!-- PAPER START -->
+                        <div class=show-hide>
+                        <h4>Superpatterns and Universal Point Sets</h4>
+                        <p>An old open problem in graph drawing asks for the size of a <i>universal point set</i>, a set of points that can be used as vertices for straight-line drawings of all $n$-vertex planar graphs.  We connect this problem to the theory of permutation patterns, where another open problem concerns the size of <i>superpatterns</i>, a permutation that contains all patterns of a given size. We extend this definition to superpatterns for classes of permutations determined by forbidden patterns, and we construct superpatterns for the $213$-avoiding permutations of size $n^2/4+\Theta(n)$, half the size of the best known superpatterns for unconstrained permutations. We use these superpatterns to construct universal point sets of size $n^2/4-\Theta(n)$, half the size of the previous upper bound. We prove that every proper subclass of the $213$-avoiding permutations has superpatterns of size $O(n\log^{O(1)}n)$, and we use this bound to prove that the planar graphs of bounded pathwidth have near-linear universal point sets.</p>
+                        </div>
+                        <p>Joint work with <a>Zhanpeng Cheng</a>, <a href="http://www.ics.uci.edu/~wdevanny">William E. Devanny</a> and <a href="http://www.ics.uci.edu/~eppstein">David Eppstein</a>.<br/>Presented at  <a href="http://www.graphdrawing.org/">Graph Drawing 2013</a>. Preprint on <a href="http://arxiv.org/abs/1308.0403">arXiv.</a></p>
+                        <!-- PAPER END -->
+                        <!-- PAPER START -->
+                        <div class=show-hide>
+                        <h4>Parameterized Complexity of 1-Planarity</h4>
+                        <p>We consider the problem of finding a 1-planar drawing for a general graph, where a 1-planar drawing is a drawing in which each edge participates in at most one crossing. Since this problem is known to be NP-hard we investigate the parameterized complexity of the problem with respect to the vertex cover number, tree-depth, and cyclomatic number. For these parameters we construct fixed-parameter tractable algorithms. However, the problem remains NP-complete for graphs of bounded bandwidth, pathwidth, or treewidth.</p>
+                        </div>
+                        <p>Joint work with <a href="http://www.fmf.uni-lj.si/~cabello/">Sergio Cabello</a> and <a href="http://www.ics.uci.edu/~eppstein">David Eppstein</a>.<br/>Presented at  <a href="http://www.wads.org/">WADS 2013</a>. Preprint on <a href="http://arxiv.org/abs/1304.5591">arXiv.</a></p>
+                        <!-- PAPER END -->
+                        <!-- PAPER START -->
+                        <div class=show-hide>
+                        <h4>Windows into Relational Events</h4>
+                        <p>We consider the problem of analyzing social network data sets in which the edges of the network have timestamps, and we wish to analyze the subgraphs formed from edges in contiguous subintervals of these timestamps. We provide data structures for these problems that use near-linear preprocessing time, linear space, and sublogarithmic query time to handle queries that ask for the number of connected components, number of components that contain cycles, number of vertices whose degree equals or is at most some predetermined value, number of vertices that can be reached from a starting set of vertices by time-increasing paths, and related queries.  </p>
+                        </div>
+                        <p>Joint work with <a href="http://www.ics.uci.edu/~duboisc">Christopher DuBois</a>, <a href="http://www.ics.uci.edu/~eppstein">David Eppstein</a> and <a href="http://www.ics.uci.edu/~smyth">Padhraic Smyth</a>.<br/>Presented at  <a href="http://www.siam.org/meetings/da13/">SODA 2013</a>. <a href="files/pdf/NIPS_2012_Poster.pdf">Poster</a> presented at <a href="http://www.datalab.uci.edu/nips-workshop-2012/">NIPS Workshop 2012</a>.  Preprint on <a href="http://arxiv.org/abs/1209.5791">arXiv.</a></p>
+                        <!-- PAPER END -->
+                        <!-- PAPER START -->
+                        <div class=show-hide>
+                        <h4>Force-Directed Graph Drawing Using Social Gravity and Scaling</h4>
+                        <p>We present techniques for using <i>social gravity</i> as an additional force in force-directed layouts, together with a scaling technique, to produce drawings of trees and forests, as well as more complex social networks. Social gravity assigns mass to vertices in proportion to their network centrality, which allows vertices that are more graph-theoretically central to be visualized in physically central locations. Scaling varies the gravitational force throughout the simulation, and reduces crossings relative to unscaled gravity.</p>
+                        </div>
+                        <p>Joint work with <a href="http://www.ics.uci.edu/~eppstein">David Eppstein</a>, <a href="http://www.ics.uci.edu/~goodrich">Michael T. Goodrich</a> and <a href="http://www.ics.uci.edu/~ltrott">Lowell Trott</a>.<br/>Presented at <a href="http://www.gd2012.org">Graph Drawing 2012</a>. Preprint on <a href="http://arxiv.org/abs/1209.0748">arXiv.</a></p>
+                        <!-- PAPER END -->
+                        <!-- PAPER START -->
+                        <div class="show-hide">
+                        <h4>Randomized Speedup of the Bellman–Ford Algorithm</h4>
+                        <p>We show that by first randomizing the vertices in a directed graph a $2/3$ improvement is had over Yen's improvement of the Bellman-Ford algorithm. This improves the runtime to less than $mn/3 + m$ in the sparse case and $n^3/6$ in the dense case in expectation, and less than $mn/3 + o(mn)$ and $n^3/6 + o(n^3)$ with high probability. The high probability bounds lead to a speed up in negative cycle detection in the sparse case.</p>
+                        </div>
+                        <p>Joint work with <a href="http://www.ics.uci.edu/~eppstein">David Eppstein</a>.<br/>Presented at <a href="http://www.siam.org/meetings/analco12/">ANALCO 2012</a>. Preprint on <a href="http://arxiv.org/abs/1111.5414">arXiv</a>.</p>
+                        <!-- PAPER END -->
+                        <!-- PAPER START -->
+                        <div class=show-hide>
+                        <h4>Inapproximability of Orthogonal Compaction</h4>
+                        <p>We show that several problems of compacting orthogonal graph drawings to use the minimum number of rows, area, length of longest edge or total edge length cannot be approximated to within better than a polynomial factor in polynomial time unless its the case that $\mathsf{P} = \mathsf{NP}$. We also provide a fixed-parameter-tractable algorithm for testing whether a drawing can be compacted to a small number of rows.</p>
+                    </div>
+                    <p>Joint work with <a href="http://www.ics.uci.edu/~eppstein">David Eppstein</a> and <a href="http://www.ics.uci.edu/~jsimons">Joe Simons</a>.<br/>Presented at <a href="http://www.win.tue.nl/GD2011/">Graph Drawing 2011</a>. Full version in the <a href="http://jgaa.info/issues.jsp?volume=16&issue=60">GD 2011 Special Issue</a> of <a href="http://jgaa.info/">JGAA</a>. Preprint on <a href="http://arxiv.org/abs/1108.4705">arXiv.</a></p>
+                    </div>
+                </article>
+                <!-- PROGRAMMING PROJECTS -->
+                <!--
+                <article id="projects">
+                    <h2>Class Projects</h2>
+                    <div class="line"></div>
+                    <div class="articleBody clear">
+                        <h4>Automatic White Balance</h4>
+                        <h4>Automatic Overexposure Corection</h4>
+                        <h4>Connect-K</h4>
+                    </div>
+                </article>
+                -->
+                <!-- TEACHING -->
+                <!--
+                <article id="teaching">
+                    <h2>Teaching</h2>
+                    <div class="line"></div>
+                    <div class="articleBody clear">
+                        <h4>Summer 2011</h4>
+                        <p>CS 141 - Introduction to Programming Languages (TA)</p>
+                    </div>
+                </article>
+                -->
+                <!-- MISC -->
+                <article id="misc">
+                <h2>Miscellaneous</h2>
+                <div class="line"></div>
+                <div class="articleBody clear">
+                    <!--
+                    <h4>IPE OS X Application Bundle</h4>
+                    <p>The <a href="http://sourceforge.net/projects/ipe7/">Ipe extensible drawing editor</a> is drawing tool for producing pdf images to be included in LaTeX documents, created by <a href="http://tclab.kaist.ac.kr/~otfried/">Otfried Cheong</a>. I have compiled a OS X <a href="files/ipe-7.1.3-app-1.tar.bz2">application bundle</a> for use on my laptop. I make no guarantees that this program will work on your computer! Also, this version may be out of date.</p>
+                    -->
+                    <h4>$\LaTeX$ Homework Template</h4>
+                    <p>Over the years I have created this LaTeX <a href="files/hw_template.tex">template</a> for homework submissions.</p>
+                </div>
+                </article>
+                <!-- LINKS -->
+                <!--
+                <article id="links">
+                    <h2>Useful Links</h2>
+                    <div class="line"></div>
+                    <div class="articleBody clear">
+                        <p></p>
+                    </div>
+                </article>
+                -->
+            </section>
+
+            <!-- DATE -->
+            <footer>
+            
+                <p>10/14/13<p>
+            </footer>
+		</section>
+    </body>
+</html>
+

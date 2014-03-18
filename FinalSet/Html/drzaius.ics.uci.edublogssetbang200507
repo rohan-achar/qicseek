@@ -1,0 +1,795 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="sixapart-standard">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="generator" content="Movable Type 3.2" />
+
+   <link rel="stylesheet" href="http://drzaius.ics.uci.edu/blogs/setbang/styles-site.css" type="text/css" />
+   <link rel="alternate" type="application/atom+xml" title="Atom" href="http://drzaius.ics.uci.edu/blogs/setbang/atom.xml" />
+   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://drzaius.ics.uci.edu/blogs/setbang/index.xml" />
+
+   <title>::setbang::: July 2005 Archives</title>
+
+   <link rel="start" href="http://drzaius.ics.uci.edu/blogs/setbang/" title="Home" />
+   <link rel="prev" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/06/" title="June 2005" />
+   <link rel="next" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/08/" title="August 2005" />
+</head>
+<body>
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=683161; 
+var sc_partition=5; 
+var sc_security="b4540abb"; 
+var sc_invisible=1; 
+</script>
+
+<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c6.statcounter.com/counter.php?sc_project=683161&amp;java=0&amp;security=b4540abb&amp;invisible=1" alt="hit counter" border="0"></a> </noscript>
+<!-- End of StatCounter Code -->
+
+<img src="http://www.ics.uci.edu/~johannab/images/background.gif">
+
+<div class="tiny-blocks" id="tiny-blocks">
+<img src="http://www.ics.uci.edu/~johannab/images/tiny-blocks.gif">
+</div>
+
+<a href="http://www.ics.uci.edu/~johannab/about-me.html" id="menu_01"><img src="http://www.ics.uci.edu/~johannab/images/menu_01.gif" width="87" height="19" border=0></a>
+<span id="menu_02"><img src="http://www.ics.uci.edu/~johannab/images/menu_02.gif" width="15" height="19"></span>
+<a href="http://drzaius.ics.uci.edu/blogs/setbang/" id="menu_03"><img src="http://www.ics.uci.edu/~johannab/images/menu_03.gif" width="48" height="19" border=0></a>
+<span id="menu_04"><img src="http://www.ics.uci.edu/~johannab/images/menu_04.gif" width="16" height="19"></span>
+<a href="http://www.ics.uci.edu/~johannab/research.html" id="menu_05"><img src="http://www.ics.uci.edu/~johannab/images/menu_05.gif" width="84" height="19" border=0></a>
+<span id="menu_06"><img src="http://www.ics.uci.edu/~johannab/images/menu_06.gif" width="15" height="19"></span>
+<a href="http://www.ics.uci.edu/~johannab/papers.html" id="menu_07"><img src="http://www.ics.uci.edu/~johannab/images/menu_07.gif" width="68" height="19" border=0></a>
+<span id="menu_08"><img src="http://www.ics.uci.edu/~johannab/images/menu_08.gif" width="16" height="19"></span>
+<a href="http://www.ics.uci.edu/~johannab/the-rest.html" id="menu_09"><img src="http://www.ics.uci.edu/~johannab/images/menu_09.gif" width="76" height="19" border=0></a>
+
+
+<a href="http://www.ics.uci.edu/~johannab/about-me.html" id="menu-green_01"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_01.gif" width="87" height="19" border=0></a>
+
+<a href="http://drzaius.ics.uci.edu/blogs/setbang/" id="menu-green_03"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_03.gif" width="48" height="19" border=0></a>
+<a href="http://www.ics.uci.edu/~johannab/research.html" id="menu-green_05"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_05.gif" width="84" height="19" border=0></a>
+<a href="http://www.ics.uci.edu/~johannab/papers.html" id="menu-green_07"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_07.gif" width="68" height="19" border=0></a>
+<a href="http://www.ics.uci.edu/~johannab/the-rest.html" id="menu-green_09"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_09.gif" width="76" height="19" border=0></a>
+
+<div class="sidebar">
+<div class="search">
+<br>
+<form method="get" action="http://drzaius.ics.uci.edu/mt/mt-search.cgi">
+<input type="hidden" name="IncludeBlogs" value="2" />
+<input id="search" name="search" size="20"/><br />
+<input type="submit" value="search me" />
+</form>
+</div>
+
+<p>&nbsp;</p>
+
+<div class="archive">
+<h3 class="content"><a href="http://drzaius.ics.uci.edu/blogs/setbang/archives.html">archives</a></h3>
+<ul>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2007/04/">April 2007</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/10/">October 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/09/">September 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/07/">July 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/06/">June 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/05/">May 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/04/">April 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/">November 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/10/">October 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/08/">August 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/">July 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/06/">June 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/">May 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/04/">April 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/03/">March 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/">February 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/01/">January 2005</a></li>
+
+</ul>
+</div>
+
+<p>&nbsp;</p>
+
+<div class="categories">
+<h3 class="content">categories</h3>
+<ul class="module-list">
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/aesthetics_art/" title="">aesthetics & art</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/gadgets/" title="">gadgets</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/interfaces_installations/" title="">interfaces & installations</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/lit_poetry/" title="">lit & poetry</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/music/" title="">music</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/my_enthralling_life/" title="">my enthralling life</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/noteworthy_nontech/" title="">noteworthy: nontech</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/noteworthy_tech/" title="">noteworthy: tech</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/wearble_tech/" title="">wearble tech</a>
+
+
+
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<span class="main">
+
+   <div id="container">
+      <div id="container-inner" class="pkg">
+
+
+         <div id="pagebody">
+            <div id="pagebody-inner" class="pkg">
+               <div id="alpha">
+                  <div id="alpha-inner" class="pkg">
+                     
+                     <p class="content">
+                        <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/06/">&laquo; June 2005</a> |
+                        <a href="http://drzaius.ics.uci.edu/blogs/setbang/">Main</a>
+                        | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/08/">August 2005 &raquo;</a>
+                     </p>
+                     
+                                          
+
+                     <h3 class="content">July 22, 2005</h3>
+                     <a id="a000203"></a>
+                     <div class="content" id="entry-203">
+                        <h3 class="content">teastick</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="teastick.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/teastick.jpg" width="400" height="146" /></p>
+
+<p>you may not know it, but i am the worlds largest consumer of tea, accounting for nearly 85% of all annual tea sales.  consequently, i am always on the lookout for new tea baskets.  they need to be large enough to let the leaves fully expand, easy to clean, and totally stylish.  the <a href="http://www.gamilacompany.com/">teastick</a> wins.</p>
+
+<p>[thanks <a href="http://www.gizmodo.com/gadgets/home/teastick-loose-leaves-loosely-joined-113269.php">gizmodo</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:37 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/teastick.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/teastick.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000202"></a>
+                     <div class="content" id="entry-202">
+                        <h3 class="content">portable light</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="portable_light.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/portable_light.jpg" width="150" height="200" /></p>
+
+<p>more on tech for developing countries.  i forgot to post this earlier. the <a href="http://www.tcaup.umich.edu/portablelight/">portable light project</a>:<blockquote>The remarkable energy efficiency of high brightness solid state lighting (HBLEDs) means that a bright digital light of 80 lumens per watt (bright enough to read, work and illuminate areas at night) can be produced by a single miniature diode and powered by small areas of flexible photo-voltaic (solar panels). Portable Light expands the value of miniature solid state electronics by putting digital light into a textile medium to create cost effective, completely portable, off-the-grid light engines that can be deployed at a global scale wherever energy efficient electrical power and illumination are needed.</blockquote></p>
+
+<p>[thanks <a href="http://www.mee.tcd.ie/~moriwaki/personaldebris//index.php?p=319&c=1">personaldebris</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:32 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/portable_light.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/portable_light.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000201"></a>
+                     <div class="content" id="entry-201">
+                        <h3 class="content">muff dock</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="muff_dock.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/muff_dock.jpg" width="250" height="200" /></p>
+
+<p>just stop it.  stop naming products things like <a href="http://muffpod.com/us/muffs/dock_muff.htm">muff dock</a>.  do not have headings in your faq entitled "muff delivery" and "ordering muff." refrain from naming your designs "tarty muff" or "fluffy muff". i won't be held responsible for what i do.  you have been warned.</p>
+
+<p>p.s. is "contact muff" a sport? okay i'm done. honestly.</p>
+
+<p>[thanks <a href="http://www.gizmodo.com/gadgets/portable-media/pink-muff-dock-for-your-ipod-113258.php">gizmodo</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:23 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/muff_dock.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/muff_dock.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000200"></a>
+                     <div class="content" id="entry-200">
+                        <h3 class="content">weather predicting clothes pegs</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="clothes_pegs.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/clothes_pegs.jpg" width="190" height="186" /></p>
+
+<p>these clothes pegs by <a href="http://www.oliver-maccarthy.co.uk/flash/index.html">oliver maccarthy</a> predict the weather and refused to allow themselves to be used if they sense that rain is coming.  smartly enough, when the pegs are removed from the holder, they stop acting so smart.  and so your wash won't get stuck on the line if your pegs couldn't see far enough into the future.  of course, if you have enough money to afford these you can probably afford a dryer and if the maid has to wash the clothes all over again because they've been rained on it's not really your problem is it?  oh wait, you were being ecofriendly.  how selfless of you ;]</p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/006527.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:16 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/weather_predicting_clothes_peg.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/weather_predicting_clothes_peg.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000199"></a>
+                     <div class="content" id="entry-199">
+                        <h3 class="content">bicycle voip</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="bicycle_voip.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/bicycle_voip.jpg" width="250" height="211" /></p>
+
+<p>i am very interested in how technology figures into the big picture of developing nations.  one of the main problems right now is not delivering computers, but find sources of power for those computers.  scientists and designers need to start thinking outside the box of superpower-suburbia to solve problems that they have not often faced themselves.  <a href="http://www.inveneo.org/">inveneo</a>, a non-profit org, has come up with a <a href="http://www.infoworld.com/article/05/07/19/30OPreality_1.html?source=rss&url=http://www.infoworld.com/article/05/07/19/30OPreality_1.html">bicycle powered system</a> to provide voip, email and web browsing.  15 minutes of biking translates to 1 hour of uptime.  a good solution for the overweight gamers you know as well ;]     </p>
+
+<p>[thanks <a href="http://www.makezine.com/blog/archive/2005/07/bicycle_powered.html">make</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:04 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/bicycle_voip.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/bicycle_voip.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000198"></a>
+                     <div class="content" id="entry-198">
+                        <h3 class="content">oyon: fruity walls</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="oyon.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/oyon.jpg" width="240" height="191" /></p>
+
+<p>have a look at oyon, a really nice take on fruit storage by <a href="http://www.michaelbihain.com/">michael bihain</a>.  it's like a big vegetable litebrite.  only... with no light.  heh.</p>
+
+<p>[thanks <a href="http://www.gizmodo.com/gadgets/home/fruitfilled-walls-113553.php">gizmodo</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:59 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/oyon_fruity_walls.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/oyon_fruity_walls.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000197"></a>
+                     <div class="content" id="entry-197">
+                        <h3 class="content">entertainment ratings safety board says more violence less sex</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="GTA.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/GTA.jpg" width="200" height="283" /></p>
+
+<p>the ersb has rescinded its rating for grand theft auto: san andreas and advised retailers to stop selling the game.  now, we all know gta is full of violence and debauchery already.  but what's the problem?  a mod [hot coffee] lets you unlock secret sex scenes which may damage your sensitive hacker mind.  secret weapons which allow you to torture the other characters more violently [is that even possible?], now that, that would be fine.  but sex, <i>sex</i>?!?!?  you ought to be ashamed of yourself.</p>
+
+<p>[thanks <a href="http://games.slashdot.org/article.pl?sid=05/07/20/2059221&tid=10">/.</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:49 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/entertainment_ratings_safety_b.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/entertainment_ratings_safety_b.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000196"></a>
+                     <div class="content" id="entry-196">
+                        <h3 class="content">scigen makes it to orlando</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>although you've probably heard about <a href="http://pdos.csail.mit.edu/scigen/">scigen</a> already [if you are uberleet that is], what you may not know is that they actually went down to orlando to present along side WMSCI.  they randomly generated the slides for their talk and did not give them a once over before presenting.  but isn't that basically what we all do anyway? ahem. my advisor is not reading that... anyway, go and check out the <a href="http://pdos.csail.mit.edu/scigen/#talks">video</a>, it's hilarious. "and in doing so, it prevents the world wide web..."</p>
+
+<p>[thanks <a href="http://www.boingboing.net/2005/07/21/computergenerated_sc.html">boing boing</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:38 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/scigen_makes_it_to_orlando.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/scigen_makes_it_to_orlando.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">July 19, 2005</h3>
+                     <a id="a000195"></a>
+                     <div class="content" id="entry-195">
+                        <h3 class="content">rabbit field</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="rabbit-field.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/rabbit-field.jpg" width="280" height="170" /></p>
+
+<p><a href="http://web.media.mit.edu/~bcd/rabbits/">rabbit field</a> by <a href="http://web.media.mit.edu/~bcd/">ben dalton</a> is:<blockquote>Rabbit Field is an infestation of inflatable rabbit-like forms, filling their display space and inviting tactile interaction. The rabbits cover much of their floor space, and any other available surfaces. Each rabbit is self inflating using a simple computer fan, and can sense its internal pressure state by monitoring its fan speed. If a rabbit is squeezed, and partially deflated, the rabbits around it respond, as if out of empathy, deflating themselves. In this way, a wave of deflation ripples out from the squeezed centre.</blockquote>they are so unbelievably cute and the whole interface is so organic.  i love it.</p>
+
+<p>check out the <a href="http://web.media.mit.edu/~bcd/rabbits/herd.mov">video</a>.</p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/006456.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 05:22 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/rabbit_field.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/rabbit_field.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000194"></a>
+                     <div class="content" id="entry-194">
+                        <h3 class="content">former bush offical to sport ye olde mark of the beast</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>the former health and human services secretary [yeah health, *snort*], tommy thompson, is going to get himself an <a href="http://news.com.com/Former+Bush+official+to+get+RFID+tag/2100-1029_3-5793685.html?part=rss&tag=5793685&subj=news">rfid implant</a>.  way to go tommy!  why would he do such a thing?  because he's on the board of applied digital which owns the makers of said implant, verichip, <i>duh</i>.  tommy plans on becoming a robot and joining the destructocons later this year.</p>
+
+<p>[thanks <a href="http://www.boingboing.net/2005/07/19/former_bush_official.html">boing boing</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 05:11 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/former_bush_offical_to_sport_y.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/former_bush_offical_to_sport_y.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000193"></a>
+                     <div class="content" id="entry-193">
+                        <h3 class="content">low-power wireless module from panasonic</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="panasonic-wireless.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/panasonic-wireless.jpg" width="250" height="146" /></p>
+
+<p>i forgot to blog about this before, but <a href="http://www.physorg.com/news4158.html">panasonic recently released</a> this tiny wireless module which features a radio circuit running on the 400MHz band and a microcomputer on a single CMOS LSI chip that's only 12x16x1.3mm. tinysin!</p>
+
+<p>[thanks <a href="http://www.engadget.com/entry/1234000047043937/">engadget</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 05:06 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/lowpower_wireless_module_from.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/lowpower_wireless_module_from.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000192"></a>
+                     <div class="content" id="entry-192">
+                        <h3 class="content">hansa bathroom fixtures</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="hansa.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/hansa.jpg" width="302" height="112" /></p>
+
+<p>the german company <a href="http://www.hansa.de/de/index.html">hansa</a> has developed these awesome bathroom fixtures.  they are similar to the <a href="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/2005/07/faucet_friend.html">faucet friend</a>, only they are actually for sale.  the fixture uses temperature sensors to activate LEDs which illuminate the water [hey wow, illuminated water actually <i>can</i> be nicely done].  red indicates hot, blue means cold, and pink means warm.  i was having a discussion with someone about how the sliding scale of color between cold and hot doesn't really represent lukewarm in the middle, i've never though of purple as being not-exactly-hot.  red and blue are already established metaphors, so i'd prefer intensity of light being used on top of that.  but hey, it's pretty cool.</p>
+
+<p><br />
+[thank <a href="http://www.boingboing.net/2005/07/13/glowing_temperatures.html">boing boing</a> + <a href="http://infosthetics.com/archives/2005/07/hansacanyon.html">information aesthetics</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 04:49 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/hansa_bathroom_fixtures.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/hansa_bathroom_fixtures.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">July 11, 2005</h3>
+                     <a id="a000191"></a>
+                     <div class="content" id="entry-191">
+                        <h3 class="content">how awesome.</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>i am <i>number one in the world</i> for <a href="http://www.google.com/search?hl=en&lr=&q=making%20love%20french%20style">making love french style</a>.  just keep that in mind.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:12 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/how_awesome.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/how_awesome.html#comments">Comments (1)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000190"></a>
+                     <div class="content" id="entry-190">
+                        <h3 class="content">odoerotica</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>this one is too good to pass up: a study of <a href="http://www.scienceofsmell.com/scienceofsmell/index.cfm?action=completedsexual">Various Aromas Found to Enhance Male Sexual Response</a> found that the winning combo was lavender & pumpkin pie with black licorice & doughnut coming in a close second.  guys, i think i just lost a little respect for you *passes the pie*.</p>
+
+<p>[thanks <a href="http://www.collisiondetection.net/mt/archives/2005/05/according_to_a.html#001230">collision detection</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:35 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/odoerotica.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/odoerotica.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000189"></a>
+                     <div class="content" id="entry-189">
+                        <h3 class="content">faucet friend</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="faucetfriend.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/faucetfriend.jpg" width="166" height="195" /></p>
+
+<p>the <a href="http://www.udeducation.org/teach/student/floyd.asp">faucet friend</a> is a device which slips onto a faucet to give a visual indication of the temperature of the water which is flowing from the tap.  the above is a concept illustration although some functional prototypes have been designed.  this is the kind of simple human-centered technology which i really appreciate.  this might be the first time in years someone has made a useful technological augmentation to a faucet.  bravo.</p>
+
+<p>[thanks <a href="http://infosthetics.com/archives/2005/06/faucet_friend.html">information aesthetics</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:30 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/faucet_friend.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/faucet_friend.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000188"></a>
+                     <div class="content" id="entry-188">
+                        <h3 class="content">133+ j3w3lry</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="cascading_diode_necklace.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/cascading_diode_necklace.jpg" width="200" height="150" /></p>
+
+<p>go get yourself some <a href="http://fractalspin.com/index.php?main_page=index&cPath=2">techy bling</a>.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:26 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/133_j3w3lry.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/133_j3w3lry.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000187"></a>
+                     <div class="content" id="entry-187">
+                        <h3 class="content">origami yoda</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="origamiyoda.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/origamiyoda.jpg" width="139" height="157" /></p>
+
+<p>twisted by the ways of <a href="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/origamiyoda.pdf">origami</a> has yoda become.</p>
+
+<p>[thanks <a href="http://www.boingboing.net/2005/06/11/yoda_origami.html">boing boing</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:22 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/origami_yoda.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/origami_yoda.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000186"></a>
+                     <div class="content" id="entry-186">
+                        <h3 class="content">philips' smart companion</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="smart_companion.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/smart_companion.jpg" width="240" height="205" /></p>
+
+<p>i just like the look on this little robot's face.</p>
+
+<p>the <a href="http://www.research.philips.com/password/archive/23/pw23_smartcompanion.html">smart companion</a> from philips:<blockquote> An electronic device that looks at you, listens and talks to you, and even nods yes to you may seem the stuff of science fiction. The Smart Companion, a new consumer product by Philips Home Dialogue Systems (HDS), is definitely a pioneer in new, uncharted territory. At its heart, however, the Smart Companion embodies traditional ideas about the way we humans communicate.</blockquote>[thanks <a href="http://www.we-make-money-not-art.com/archives/006167.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:19 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/philips_smart_companion.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/philips_smart_companion.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000185"></a>
+                     <div class="content" id="entry-185">
+                        <h3 class="content">pedestrian levitation</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="pedestrian_levitation.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/pedestrian_levitation.jpg" width="280" height="241" /></p>
+
+<p><a href="http://www.pedestrianlevitation.net/">pedestrian levitation</a>  by <a href="http://www.toyfoo.com/">thomas laureyssens</a> is:<blockquote> The creation of the work is based on the movement of pedestrians on a pedestrian crossing in public space. Some pedestrians walk only on the sidewalk and use the pedestrian crossing for crossing the street, other pedestrians freely make shortcuts on the formally imposed trafic situation. Pedestrian Levitation.net is an artwork in public space that reflects on this movement. It visualises the real movement of people, and adds a virtual movement based on the assumption that the mind of people is not subject to gravity or any other physical limitations.</p>
+
+<p>Irregular white triangles are applied on the sidewalk- for the real movement, and up onto a high empty wall for the virtual movement. The work creates a graphical layer above existing architecture that acts as a interface towards movement of thought. The work flows from the pavement up to the wall of a building or buildings. It creates a visual motion: when you walk into the work, your visual senses are pulled to the directions of the triangles.</blockquote>the first installation was done in brussels in april 2005.  i find the works rather breathtaking and a wonderful addition to urban spaces.  this sort of work is not only beautiful, but it helps us to rethink the way humans utilize the space and [hopefully] will push future urban planning into new directions.</p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/006142.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:13 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/pedestrian_levitation.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/pedestrian_levitation.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">July 06, 2005</h3>
+                     <a id="a000184"></a>
+                     <div class="content" id="entry-184">
+                        <h3 class="content">wardriving: now a crime?</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>the hard-hitting <a href="http://www.sptimes.com/2005/07/04/State/Wi_Fi_cloaks_a_new_br.shtml">st. petersburg times</a> [of florida] is reporting that a man was arrested for "illegally accessing" and "hacking into" someone's network [full article after the jump].  while sitting in his vehicle outside the man's house [on public property] he used the network, which was completely open and not encrypted.  the owner of the network admitted he knew how to secure it but hadn't bothered.  now i am sorry, but even if he was downloading pr0n or posting tips to terrorists this is not illegal.  of course ISPs would like to make it be.  but plain and simple that's like saying a neighbor who catches a glimpse of what's on someone's television set while passing by their window is a thief.  we need to get this straight, america.  otherwise i'm gonna go and sue someone for having their wifi access extend onto my private property and claim i'm getting cancer and start wearing a foil hat.  wise up.</p>
+
+<p>[thanks <a href="http://hardware.slashdot.org/article.pl?sid=05/07/06/0217252&tid=193&tid=17">/.</a>]</p>
+                                                            <p> 	<br />
+STATE NEWS: Report: 103 anti-Muslim incidents in Florida in 2004<br />
+	<br />
+	Print story	Reuse or republish 	Subscribe to the Times<br />
+Wi-Fi cloaks a new breed of intruder</p>
+
+<p>    Though wireless mooching is preventable, it often goes undetected.</p>
+
+<p>By ALEX LEARY, Times Staff Writer<br />
+Published July 4, 2005</p>
+
+<p>ST. PETERSBURG - Richard Dinon saw the laptop's muted glow through the rear window of the SUV parked outside his home. He walked closer and noticed a man inside.</p>
+
+<p>Then the man noticed Dinon and snapped his computer shut.</p>
+
+<p>Maybe it's census work, the 28-year-old veterinarian told his girlfriend. An hour later, Dinon left to drive her home. The Chevy Blazer was still there, the man furtively hunched over his computer.</p>
+
+<p>Dinon returned at 11 p.m. and the men repeated their strange dance.</p>
+
+<p>Fifteen minutes later, Dinon called police.</p>
+
+<p>Police say Benjamin Smith III, 41, used his Acer brand laptop to hack into Dinon's wireless Internet network. The April 20 arrest is considered the first of its kind in Tampa Bay and among only a few so far nationwide.</p>
+
+<p>"It's so new statistics are not kept," said Special Agent Bob Breeden, head of the Florida Department of Law Enforcement's computer crime division.</p>
+
+<p>But experts believe there are scores of incidents occurring undetected, sometimes to frightening effect. People have used the cloak of wireless to traffic in child pornography, steal credit card information and send death threats, according to authorities.</p>
+
+<p>For as worrisome as it seems, wireless mooching is easily preventable by turning on encryption or requiring passwords. The problem, security experts say, is many people do not take the time or are unsure how to secure their wireless access from intruders. Dinon knew what to do. "But I never did it because my neighbors are older."</p>
+
+<p>A drive through downtown St. Petersburg shows how porous networks can be. In less than five minutes, a Times reporter with a laptop found 14 wireless access points, six of which were wide open. "I'll guarantee there are tons of people out there who have their wireless network being exploited but have no idea," Breeden said. "And as we see more people utilizing wireless, we'll see more people being victimized."</p>
+
+<p>Prolific Wi-Fi growth</p>
+
+<p>Wireless fidelity, or "Wi-Fi," has enjoyed prolific growth since catching on in 2000. More than 10-million U.S. homes are equipped with routers that transmit high-speed Internet to computers using radio signals. The signals can extend 200 feet or more, giving people like Dinon the ability to use the Web in the back yard of his Crescent Heights home but also reaching the house next door, or the street.</p>
+
+<p>Today someone with a laptop and inexpensive wireless card can surf the Web via Wi-Fi at Starbucks or eat a bagel and send instant messages at Panera Bread. Libraries, hotels, airports and colleges campuses are dotted with Wi-Fi "hotspots." Even entire cities are unplugging.</p>
+
+<p>"The information age is over. The information is out there," said Jim Guerin, technology director for the city of Dunedin, which will soon be the first city in Florida to go completely Wi-Fi. "Now it's the connectivity age. It opens up a whole new area for ethics, legal boundaries and responsibilities. It's a whole new frontier."</p>
+
+<p>There's a dark side to the convenience, though.</p>
+
+<p>The technology has made life easier for high-tech criminals because it provides near anonymity. Each online connection generates an Internet Protocol Address, a unique set of numbers that can be traced back to a house or business.</p>
+
+<p>That's still the case with Wi-Fi but if a criminal taps into a network, his actions would lead to the owner of that network. By the time authorities show up to investigate, the hacker would be gone.</p>
+
+<p>"Anything they do traces back to your house and chances are we're going to knock on your door," Breeden said.</p>
+
+<p>Breeden recalled a case a few years ago in which e-mail containing death threats was sent to a school principal in Tallahassee. The e-mail was traced back to a home, and when investigators arrived, they found a dumbfounded family. The culprit: a neighborhood boy who had set up the family's Wi-Fi network and then tapped into it.</p>
+
+<p>In another Florida case, a man in an apartment complex used a neighbor's Wi-Fi to access bank information and pay for pornography sites.</p>
+
+<p>But he slipped up. The man had sex products sent to his address. "The morning we did a search warrant, we found an antenna hanging out his window so he could get a better signal from his neighbor's network," Breeden said.</p>
+
+<p>Last year, a Michigan man was convicted of using an unsecured Wi-Fi network at a Lowe's home improvement store to steal credit card numbers. The 20-year-old and a friend stumbled across the network while cruising around in a car in search of wireless Internet connections - a practice known as "Wardriving."</p>
+
+<p>(The name has roots in the movie WarGames, in which Matthew Broderick's character uses a computer to call hundreds of phone numbers in search of computer dialups, hence "war dialing.")</p>
+
+<p>A more recent threat to emerge is the "evil twin" attack. A person with a wireless-equipped laptop can show up at, say, a coffee shop or airport and overpower the local Wi-Fi hotspot. The person then eavesdrops on unsuspecting computer users who connect to the bogus network.</p>
+
+<p>At a technology conference in London this spring, hackers set up evil twins that infected other computers with viruses, some that gather information on the user, the Wall Street Journal reported.</p>
+
+<p>Not all encryption is rock solid, either. One of the most common methods called WEP, or Wired Equivalent Privacy, is better than nothing but still can be cracked using a program available on the Web.</p>
+
+<p>"Anybody with an Internet connection and an hour online can learn how to break that," said Guerin, the Dunedin network administrator. Two years ago when the city of Dunedin first considered Wi-Fi, Guerin squashed the idea because of WEP's inadequacy.</p>
+
+<p>Dunedin's network, however, will be protected by the AES encryption standard, used by the Department of Defense. Passwords will be required, and each computer will have to be authenticated by the network. There also will be firewalls. "I'm confident to say our subscribers are at zero risk for that kind of fraud," Guerin said.</p>
+
+<p>Leaving the door open</p>
+
+<p>Not everyone has sinister intentions. Many Wardrivers do it for sport, simply mapping the connections out there. Others see it as part public service, part business opportunity. When they find an unsecured network, they approach a homeowner and for a fee, offer to close the virtual door.</p>
+
+<p>Some Wi-Fi users intentionally leave their networks open or give neighbors passwords to share an Internet connection. There is a line of thought that tapping into the network of a unsuspecting host is harmless provided the use is brief and does not sap the connection, such as downloading large music files. "There is probably some minority of people who hop on and are up to no good. But I don't know there is any sign it's significant," said Mike Godwin of Public Knowledge, a public interest group in Washington, D.C., focused on technology.</p>
+
+<p>"We have to be careful," Godwin said. "There's a lot of stuff that just because it's new triggers social panic. Normally the best thing to do is sit back and relax and let things take their course ... before acting on regulation."</p>
+
+<p>Randy Cohen, who writes "The Ethicist" column in the New York Times Magazine , was swayed by Godwin's thinking. When asked by a Berkeley, Calif., reader if it was okay to hop on a neighbor's Wi-Fi connection, Cohen wrote:</p>
+
+<p>"The person who opened up access to you is unlikely even to know, let alone mind, that you've used it. If he does object, there's easy recourse: nearly all wireless setups offer password protection."</p>
+
+<p>But, Cohen went on to ask, "Do you cheat the service provider?" Internet companies say yes.</p>
+
+<p>"It's no different if I went out and bought a Microsoft program and started sharing it with everyone in my apartment. It's theft," said Kena Lewis, spokeswoman for Bright House Networks in Orlando. "Just because a crime may be undetectable doesn't make it right."</p>
+
+<p>"I'll probably never know'</p>
+
+<p>In a way Dinon was fortunate the man outside his home stuck around since it remains a challenge to catch people in the act. Smith, who police said admitted to using Dinon's Wi-Fi, has been charged with unauthorized access to a computer network, a third-degree felony. A pretrial hearing is set for July 11.</p>
+
+<p>It remains unclear what Smith was using the Wi-Fi for, to surf, play online video games, send e-mail to his grandmother, or something more nefarious. Prosecutors declined to comment, and Smith could not be reached.</p>
+
+<p>"I'm mainly worried about what the guy may have uploaded or downloaded, like kiddie porn," Dinon said. "But I'll probably never know."</p>
+
+<p>--Times staff writer Matthew Waite contributed to this report. Alex Leary can be reached at 727 893-8472 or leary@sptimes.com</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:56 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/wardriving_now_a_crime.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/wardriving_now_a_crime.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">July 05, 2005</h3>
+                     <a id="a000183"></a>
+                     <div class="content" id="entry-183">
+                        <h3 class="content">the latest.</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>THE BLACKEST KETTLE</p>
+
+<p>I am the blackest kettle<br />
+that you hold, boiling,<br />
+pouring for me a cup of tea<br />
+when we have become the grown old.</p>
+
+<p>And in the kitchen where we sit<br />
+our hearts turned out and set aside<br />
+we will cook to fill the table.<br />
+Because the wise dine slowly,</p>
+
+<p>on a terrace weathered with wooden chairs.<br />
+Summer salads, our friends arrive,<br />
+I pass the bread, you pass the wine,<br />
+Each soft and white.</p>
+
+<p>Then nothing will be unspoken.<br />
+I am the linen cloth<br />
+playing with the breeze in the night.<br />
+Gently you laugh and smooth me down.</p>
+
+<p>More worn, your hands<br />
+still make quick work and understand<br />
+the best move to play<br />
+in the future when we are all</p>
+
+<p>part of that perfect machine,<br />
+which smiles long through dinner,<br />
+conversation, cards, and into dawn.<br />
+That never stammers, never fails.</p>
+
+<p>But now I hate to be young.<br />
+I hate to be many things.<br />
+Because when I am a hammer<br />
+even you look like a nail.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 03:22 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/the_latest.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/the_latest.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">July 01, 2005</h3>
+                     <a id="a000182"></a>
+                     <div class="content" id="entry-182">
+                        <h3 class="content">urban link roundup</h3>
+                        <div class="content">
+                           <div class="content">
+                              <ul><li>lighting up the urban landscape: <a href="http://users.dma.ucla.edu/~suku/ringoflights.html">glow positioning system</a> via <a href="http://www.we-make-money-not-art.com/archives/006124.php">we make money not art</a>.
+<li>location sensitive to-do list: <a href="http://www.swjournal.com/articles/2005/05/06/news/news22.txt">place mail</a> via <a href="http://www.engadget.com/entry/1234000747046032/">engadget</a>
+<li>competitive/cooperative wifi: <a href="http://www.coin-operated.com/projects/bumpnet.html">bumpnet</a> via <a href="http://www.we-make-money-not-art.com/archives/006188.php">we make money not art</a>
+<li>history of walls: <a href="http://www.otherthings.com/grafarc/flash/view.htm">graffiti archaeology</a>
+<li>london pollution alerts via sms: <a href="http://www.primidi.com/2005/06/19.html#a1224">yourair</a> via <a href="http://www.engadget.com/entry/1234000130047438/">engadget</a>
+<li>autonomous bins and benches: from <a href="http://www.greyworld.org/contact/index.html">greyworld</a> via <a href="http://www.we-make-money-not-art.com/archives/006154.php">we make money not art</a>
+<li>interactive windows: <a href="http://a.parsons.edu/~steck/thesis/">shiftscape</a> via <a href="http://www.we-make-money-not-art.com/archives/006140.php">we make money not art</a>
+<li>smart surface: <a href="http://www.berlage-institute.nl/03_postgraduate/virtual-gallery-daan.html">4d pixel</a> via <a href="http://www.engadget.com/entry/1234000510047244/">engadget</a></ul>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 06:05 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/urban_link_roundup.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/urban_link_roundup.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+</body>
+</span>
+</html>
+

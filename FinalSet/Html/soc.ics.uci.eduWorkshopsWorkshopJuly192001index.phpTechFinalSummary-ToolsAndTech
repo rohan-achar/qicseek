@@ -1,0 +1,716 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>The Tools and Technologies of Collaboratories: What We 
+                  Are Using Today</TITLE>
+<!-- #BeginTemplate "/Templates/index.dwt" -->
+<meta name="description" content="A research project investigating the social and technical issues surrounding the success of geographically distributed science and engineering collaborations." />
+<meta name="keywords" content="scientific collaboration, collaboratories, collaboratory, University of Michigan, School of Information, social-technical" />
+<meta name="language" content="English" />
+<meta name="author" content="Dan Cooney" />
+<meta name="programmer" content="Greg Peters" />
+<META content=ALL name=robots>
+<META content="15 days" name=revisit-after>
+<META content=SOC-website@umich.edu name=reply-to>
+<META content="Living Document" name=document-class>
+<META content="Copyrighted Work" name=document-rights>
+<META content="Web Page" name=document-type>
+<META content="Safe for Kids" name=document-rating>
+<META content=Global name=document-distribution>
+<META content=Static name=document-state>
+<META content=no-cache name=cache-control>
+<META http-equiv=Content-Language content=EN-US>
+<META content="Dan Cooney" name=Publisher>
+
+<link REL="ICON" HREF="/soc.ico" TYPE="image/x-icon">
+<link REL="SHORTCUT ICON" HREF="/soc.ico" TYPE="image/x-icon">
+
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1"><!-- #BeginEditable "doctitle" --><!-- #EndEditable -->
+<SCRIPT type=text/javascript>
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</SCRIPT>
+<LINK href="/styles/SOC.css" 
+type=text/css rel=stylesheet><!--Main content begins -->
+<META content="MSHTML 5.50.4913.1100" name=GENERATOR></HEAD>
+<!-- #LOOP-START:header -->
+<BODY text=#000000 vLink=#333399 aLink=#ff9900 link=#333399 bgColor=#ffffff 
+leftMargin=2 topMargin=2 marginheight="2" marginwidth="2">
+<TABLE height=117 cellSpacing=0 cellPadding=0 width="100%" align=center 
+border=0>
+  <TR>
+    <TD vAlign=top align=left>
+      <TABLE cellSpacing=0 cellPadding=0 width=100% align=left 
+      border=0 name="Header">
+        <TR>
+          <TD vAlign=bottom align=left background=""
+          rowSpan=3 height=103 width=145><A 
+            href="/"><IMG 
+            height=103 alt="Science of Collaboratories logo - link" 
+            src="/images/LOGOSMALLER.gif" 
+            width=145 align=bottom border=0 name=SOCLogo></A></TD>
+          <TD height=40 valign="top">
+            <DIV ALIGN="RIGHT" CLASS="admin_login"><A HREF="/index.php?SOCSiteMap">Site Map</A>&nbsp;-&nbsp;<A HREF="/datateam/index.php">Login</A></DIV><BR>
+            <SCRIPT src="/libs/exmplmenu_var.js" type=text/javascript></SCRIPT>
+            <SCRIPT src="/libs/menu_com.js" type=text/javascript></SCRIPT>
+            <NOSCRIPT>Your browser does not support script</NOSCRIPT></TD></TR>
+        <TR>
+          <TD vAlign=top align=left width=100% bgColor=#660033 height=15>
+            &nbsp;
+          </TD></TR>
+        <TR>
+         <TD width=100% bgColor=#660033 height=15>&nbsp;</TD></TR>
+</table>
+      </TD>
+    <TD vAlign=top width=60 height=100>&nbsp;</TD>
+   </TR>
+        <TR>
+          <TD vAlign=top align=left height=20><IMG height=20 
+            alt="An alliance to advance the understanding of collaboratories" 
+            src="/images/SOCATextNew.gif" 
+            width=527 border=0 name=SOCATextNew>
+          </TD>
+         </TR>
+</TABLE>
+<!-- #LOOP-END:header -->
+<TABLE cellSpacing=0 cellPadding=0 width=100% align=left border=0 
+name="Main Body Table">
+  <TR>
+    <TD vAlign=top colspan=4 align=left bgColor=#660033 height=12><IMG 
+      height=12 alt="Science of Collaboratories" 
+      src="/images/RoundedRed.gif" 
+      align=top border=0 name=Header_r9_c1><BR></TD>
+    <TD vAlign=top align=left bgColor=#660033 height=12>&nbsp; </TD>
+    <TD width=60 bgColor=#ffffff>&nbsp;</TD></TR>
+  <TR>
+    <TD width=20 bgColor=#660033></TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD colspan=2 align=left bgColor=#ffffff>
+<!-- This is where we will add the content -->
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="355" align="left">
+  <tr> 
+    <td width="9" height="5">&nbsp;</td>
+    <td>
+     <div class="breadcrumb">Workshops : Technical Underpinnings of Collaboration : Final Summary :</div>
+     <div class="PageTitle">The Tools and Technologies of Collaboratories: What We 
+                  Are Using Today</div>
+      <br><div class="workshop_navbar"><a href="index.php">Workshop Description</a>
+      | <a href="index.php?agenda">Agenda</a> 
+      | <a href="index.php?backgroundReadings">Background Readings</a> | <b><a href="index.php?TechFinalSummary">Final 
+      Summary</a></b><a href="index.php?TechFinalSummary"></a></div>
+    </td>
+    <td height="5" width="10">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="9">&nbsp;</td>
+    <td align="left" valign="top"><!-- #BeginEditable "body" --> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="203">
+        <tr> 
+          <td colspan="2" valign="top"> 
+            <p>The first breakout 
+              session focused on surfacing what tools are currently used 
+              and why. The stated goals of this session were to:</span></p>
+            <ul>
+              <li>Compile a list of the tools currently 
+                used in building collaboratories, in order to get a map 
+                of the current tools and technology landscape.</span></li>
+              <li>Shed some light on the current 
+                involvement of the collaboratory community in the development 
+                of the tools they use.</span></li>
+              <li>Build common ground for the following 
+                breakout sessions.</span></li>
+            </ul>
+            <p>Questions raised 
+              to initiate conversation around this topic included:</span></p>
+            <ul>
+              <li>Which tools did you make that weren't 
+                used? Which tools that you didn't make would have been used?</li>
+              <li>Based on your real-world experiences, 
+                what have been the biggest mistakes you have made in choosing 
+                tools and technologies in collaboratories you have built? 
+              </li>
+              <li>What are categories and conceptual frameworks 
+                that you use for organizing and thinking about these issues?</li>
+            </ul>
+            <p>The facilitator 
+              also brought up questions about the role of the collaboratory 
+              community in the development of the tools and technologies 
+              used in the community, such as:</span></p>
+            <ul>
+              <li>What tools and technologies are we 'driving', 
+                or 'spinning off', which are we 'using'?</li>
+              <li>Which specifications or standards are 
+                reaching into our development? What's their relative importance?</li>
+              <li>Would it be valuable to have a 'Collaboratory 
+                Open Source' tool list and what would be on it?</li>
+            </ul>
+            <p>An observation arose that we need to be 
+              aware of the various levels of granularity the group could 
+              focus on. For example, with UARC, should we mention the Java 
+              Applet, or the higher-level framework?</p>
+            <p>Some talked about tools developed in-house 
+              vs. those commercially developed. Developing tools in-house 
+              often allows for the tools to be extended, without breaking 
+              the existing capabilities. On the other hand, in-house efforts 
+              suffer from rarely having the resources to maintain the tool 
+              beyond its initial development, whereas commercial tools are 
+              hopefully externally maintained, and upgraded. Efforts to 
+              be platform neutral rules out a lot of commercial tools that 
+              might already have the desired functionality, but only on 
+              limited platforms. </p>
+            <p>A problem mentioned with commercial tools 
+              is that the company that develops the tool does not necessarily 
+              have the &quot;business interests&quot; of the users in mind 
+              - the business drivers of the company developing a commercial 
+              tool are not those of most collaboratory researchers. This 
+              has been known to result in a company dropping their support 
+              of an aspect of the tool that was key to the operation of 
+              one of the groups using the tool. (For example, in the case 
+              of Internet2 and Microsoft, Microsoft dropped their support 
+              of MPEG2, while Internet2 relied on MPEG2 for some of their 
+              apps.)</p>
+            <p>Discussion of these tools often hit upon 
+              the subject of interoperability between tools. Chat tools 
+              were an example of a functionality implemented with many variations 
+              (AOL/Yahoo/MS instant messengers, Ytalk, MOO, etc.), and getting 
+              them to work together is a significant issue. Habanero was 
+              brought up as a means of getting quick and easy sharing amongst 
+              tools (&quot;collaboratizing applications&quot;), but it does 
+              not necessarily give &quot;deeper sharing&quot; where everyone 
+              is able to work on different parts. Collaboratory tools were 
+              also seen as not generally infrastructure compatible (one 
+              uses Habanaro, one uses Group Kit, etc). And there is a standing 
+              need for means of single security and single sign-on.</p>
+            <p>The workshop participants came together 
+              for a group discussion after the breakout sessions. The group 
+              quickly noted that it was unclear how to appropriately distinguish 
+              between tools and capabilities, and between capabilities and 
+              services.</p>
+            <p>Defining what was meant by the term &quot;collaboratory&quot; 
+              was a topic the participants kept returning to during the 
+              workshop. Points raised included:</p>
+            <ul>
+              <li>Can you have a collaboratory that 
+                is used only by individuals? </span> 
+                <ul>
+                  <li> What if people use a tool, one-at-a-time, 
+                    and then talk about it?</li>
+                </ul>
+              </li>
+              <li>Seems there can be collaboratories 
+                within collaboratories </span> 
+                <ul>
+                  <li>Hierarchies of collaboratories - 
+                    larger groups of collaboratories splitting up into smaller 
+                    collaborative groups</li>
+                </ul>
+              </li>
+              <li>People are often in multiple collaboratories 
+                </span> 
+                <ul>
+                  <li>People can participate in multiple 
+                    roles by way of collaboration. They can be a leader 
+                    in one, an observer in another, and a participant in 
+                    many more.</li>
+                  <li>People drift in and out of groups, 
+                    drifting into clumps that have varying degrees of persistence, 
+                    size, rate of formation and dissolution, etc.</li>
+                </ul>
+              </li>
+              <li>Question of whether the classroom 
+                is a collaboratory </span> 
+                <ul>
+                  <li>Abowd doesn't treat classroom as 
+                    collaboratory, but would when technologies move to meeting 
+                    space</li>
+                  <li>Hardin thinks distance education 
+                    is a collaboratory </li>
+                </ul>
+              </li>
+              <li> The DOE tends to see collaboratory 
+                as access to an instrument (microscope, radar, whatever)</li>
+              <li>What is the collaboratory and 
+                what is the pre-existing community? </span> 
+                <ul>
+                  <li>Is it the job of the collaboratory 
+                    to create a community, or does the collaboratory assume 
+                    a community? </li>
+                  <li>If you make the job also making 
+                    the community, that makes it that much harder</li>
+                </ul>
+              </li>
+            </ul>
+            <p>From this difficulty with defining exactly 
+              what a collaboratory is, arose the observations that the technologies 
+              commonly used in collaboratories were not necessarily serving 
+              a need that was specific to a collaboratory, but were meeting 
+              a more &quot;general human need.&quot; Further, the collaboratory 
+              community was not usually creating new technologies, but instead 
+              finding uses for technologies already out there. There was 
+              the sense that this was a chicken and the egg situation, where 
+              it was uncertain whether the tool was developed and the use 
+              emerged, or if the need gave rise to the tool.</p>
+            <p>Someone proposed that the job of the collaboratory 
+              community might be to create &quot;ease of use&quot; amongst 
+              these tools, and that one of our major roles is &quot;system 
+              integrators.&quot; But there was concern in the group that 
+              there is more to the community's role than system integration. 
+              There was mention that our role was to play steward to the 
+              collaboratories - taking care that all the elements of the 
+              <a href="../../AboutSOC/index.php?Mission">Borromean rings</a> 
+              were given attention. Others said that system builders build 
+              for what we need now, where collaboratory builders are charged 
+              with building what we need in the future - more of a moving 
+              target.</p>
+            <p>Discussion turned to what is &quot;best&quot; 
+              for collaboratories. Should a collaboratory aim to exploit 
+              the tools available on the market? Is there any sub-set, standards, 
+              or specification that this group could agree on? Ideas included:</p>
+            <ul>
+              <li>Seeing the development effort 
+                from collaboratories as a middleware initiative. </span> 
+                <ul>
+                  <li> NSF, DOE initiatives</span></li>
+                </ul>
+              </li>
+              <li>Pushing for NSF funding for some 
+                sort of organization that would take care of needs that 
+                wouldn't be met by commercial entities</span></li>
+              <li>Encouraging a business to develop 
+                robust tools, something that can be hard for a small group 
+                of researchers </span> 
+                <ul>
+                  <li> A &quot;Red Hat&quot;-like 
+                    bundle of collaborative software.</span></li>
+                  <li> An open source collection 
+                    of modules and tools that could be shared and developed.</span></li>
+                  <li> A start-up servicing the 
+                    needs of the collaborative community? </span> 
+                    <ul>
+                      <li>Build a common platform</span></li>
+                      <li>Develop the functionality 
+                              and allow customizable interfaces.</span></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <p> Then there was continued discussion 
+              on whether scientific researchers have significantly different 
+              needs than the business/software development community. And 
+              as the option of reliance on commercial tools resurfaced, 
+              someone offered that commercial tools do 90% of what they 
+              want, but there is no way to add the additional 10%. They 
+              felt this was a long-standing dilemma.</span></p>
+            <p>Tools Being Used 
+              In Collaboratories</span></p>
+            <ul>
+              <li> A lot of client side tools, developed 
+                in-house, being able to extend tools without breaking existing 
+                capabilities.</span></li>
+              <li> Java in UARC, HTML, in SPARC<br>
+                </span></li>
+              <li> More synchronous than asynchronous.</span></li>
+              <li> On the back end, folks are able 
+                to do a lot more with outside tools (Servlets, image processing, 
+                databases). More control on the server.</span></li>
+            </ul>
+            <p>Tools Which Were 
+              Built But Never Used</span></p>
+            <ul>
+              <li> Distributed Meeting Capture System 
+                - A web interface that allowed users to search meetings 
+                they've been at. Required explicit actions (a new skill) 
+                to set anchor/index points, not clear why anyone would want 
+                to review meetings, does work well if someone is explicitly 
+                tasked with creating index points (like a court recorder).</span></li>
+              <li> Federal Emergency Management 
+                system. The tools were only used in emergency situations, 
+                and thus put too taxing a demand on people's recall, so 
+                people fell back on what they knew.</span></li>
+              <li> Usenet - physicists wouldn't 
+                use it because it was too passive and time consuming.</span><br>
+                <br>
+                <a name="listOfTools"></a> </li>
+            </ul>
+            <p>What follows is the list of tools the different 
+              groups generated:</p>
+            <ul>
+              <li>AccessGRID<br>
+              </li>
+              <li>Apache<br>
+              </li>
+              <li>Browser<br>
+              </li>
+              <li>Chat Tools<br>
+              </li>
+              <li>Collaborative Data Viewers<br>
+              </li>
+              <li>Conference Call Servers<br>
+              </li>
+              <li>CourseInfo<br>
+              </li>
+              <li>CourseTools<br>
+              </li>
+              <li>CU-See-Me<br>
+              </li>
+              <li>Custom portal<br>
+              </li>
+              <li>DocShare: file sharing system, back-ended 
+                by DAV<br>
+              </li>
+              <li>EduPers<br>
+              </li>
+              <li>Electronic laboratory notebooks<br>
+              </li>
+              <li>Electronic notebooks<br>
+              </li>
+              <li>First-person shooters<br>
+              </li>
+              <li>GRID <br>
+              </li>
+              <li>GroupKit - Groupware prototyping<br>
+              </li>
+              <li>Habanero<br>
+              </li>
+              <li>Java Shared Data Toolkit (JSDT)<br>
+              </li>
+              <li>Labview <br>
+              </li>
+              <li>Listservs<br>
+              </li>
+              <li>Mbone (Multicast Backbone)<br>
+              </li>
+              <li>MUDs and MOOs<br>
+              </li>
+              <li>Netmeeting<br>
+              </li>
+              <li>Outlook I-calendar<br>
+              </li>
+              <li>Placeware<br>
+              </li>
+              <li>Rear View Mirror<br>
+              </li>
+              <li>SmartBoards/ shared whiteboards<br>
+              </li>
+              <li>Threaded discussion tools<br>
+              </li>
+              <li>Tomcat<br>
+              </li>
+              <li>Video bridges<br>
+              </li>
+              <li>Vitria (workflow)<br>
+              </li>
+              <li>VNC (virtual network computer) - AT&amp;T<br>
+              </li>
+              <li>Web portal<br>
+              </li>
+              <li>WebCT (course management system)<br>
+              </li>
+              <li>WebDAV Protocol<br>
+              </li>
+              <li>WebEx<br>
+              </li>
+              <li>Websphere<br>
+              </li>
+              <li>WorkTools<br>
+              </li>
+              <li>Zope</li>
+            </ul>
+            <p><a href="index.php?TechFinalSummary">(back to 
+              the main summary page)</a></p>
+            <p>Some items mentioned seemed to fit better 
+              into the category of &quot;technology&quot; vs &quot;tool&quot; 
+              as some of the items were the things which the tools were 
+              composed of. Here is a list of the technologies mentioned 
+              during this breakout session:</p>
+            <ul>
+              <li>AccessGrid Hardware<br>
+              </li>
+              <li>Applets<br>
+              </li>
+              <li>Cameras (video cameras, web cameras, 
+                etc.)<br>
+              </li>
+              <li>CAVEs<br>
+              </li>
+              <li>CGIs<br>
+              </li>
+              <li>COM<br>
+              </li>
+              <li>CORBA<br>
+              </li>
+              <li>DAV standard<br>
+              </li>
+              <li>FTP<br>
+              </li>
+              <li>GRID services<br>
+              </li>
+              <li>MS Hailstorm<br>
+              </li>
+              <li>H.323, H.320<br>
+              </li>
+              <li>HTTP<br>
+              </li>
+              <li>Jakarta project<br>
+              </li>
+              <li>Java<br>
+              </li>
+              <li>Java messaging service<br>
+              </li>
+              <li>LDAP<br>
+              </li>
+              <li>MPEG2<br>
+              </li>
+              <li>Perl<br>
+              </li>
+              <li>PHP<br>
+              </li>
+              <li>RDF<br>
+              </li>
+              <li>Servlets<br>
+              </li>
+              <li>SIP<br>
+              </li>
+              <li>SOAP<br>
+              </li>
+              <li>SQL<br>
+              </li>
+              <li>SSL<br>
+              </li>
+              <li>TCP/IP<br>
+              </li>
+              <li>VOIP<br>
+              </li>
+              <li>XML</li>
+            </ul>
+            <p>Still other items mentioned seemed to be 
+              better described as being infrastructure components. Here 
+              is a list of the infrastructure components mentioned during 
+              this breakout session:</p>
+            <ul>
+              <li>Cell phones<br>
+              </li>
+              <li>Conference bridges<br>
+              </li>
+              <li>Databases<br>
+              </li>
+              <li>Directory services<br>
+              </li>
+              <li>Hardware<br>
+              </li>
+              <li>Laptops<br>
+              </li>
+              <li>Networks<br>
+              </li>
+              <li>PCs<br>
+              </li>
+              <li>PDAs<br>
+              </li>
+              <li>Satellites<br>
+              </li>
+              <li>Telephone<br>
+              </li>
+              <li>Web<br>
+              </li>
+              <li>Web servers<br>
+              </li>
+              <li>Wireless networks</li>
+            </ul>
+            <p><a name="Dimensions"></a><br>
+              The participants also listed the various categories that these 
+              tools could be divided amongst, or the dimensions upon which 
+              they vary. Here are the categories/dimensions mentioned during 
+              this breakout session:</span></p>
+            <ul>
+              <li>Always on / session oriented<br>
+              </li>
+              <li>Asynchronous / Synchronous<br>
+              </li>
+              <li>Custom Built Application / Off-The-Shelf<br>
+              </li>
+              <li>Degree of anonymity<br>
+              </li>
+              <li>Degree of configurability<br>
+              </li>
+              <li>Degree of interactivity<br>
+              </li>
+              <li>Degree of domain independence<br>
+              </li>
+              <li>Developer/end-user tools<br>
+              </li>
+              <li>Formality or fidelity of session capture<br>
+              </li>
+              <li>Functional capabilities / Technologies<br>
+              </li>
+              <li>General purpose / special purpose<br>
+              </li>
+              <li>Informal / formal<br>
+              </li>
+              <li>Information sharing / interactive collaboration<br>
+              </li>
+              <li>Level-of-sharing (pixels/events, view/control)<br>
+              </li>
+              <li>Level of security (authentication, access 
+                control, encryption, &#133;)<br>
+              </li>
+              <li>Long-term / short-term<br>
+              </li>
+              <li>Managed/personal<br>
+              </li>
+              <li>Natural, invisible / intrusive<br>
+              </li>
+              <li>One-to-many, many-to-one<br>
+              </li>
+              <li>One-to-one / Large group (measuring 
+                session or community size)<br>
+              </li>
+              <li>Open source / proprietary<br>
+              </li>
+              <li>Person to resource (information, program)/ 
+                person, instrument (facility)<br>
+              </li>
+              <li>Peer-to-peer/server-based<br>
+              </li>
+              <li>Persistence<br>
+              </li>
+              <li>Protocols / standards<br>
+              </li>
+              <li>Public / Private<br>
+              </li>
+              <li>Resource rich (PC) / resource challenged 
+                (pda)<br>
+              </li>
+              <li>Serendipitous / planned<br>
+              </li>
+              <li>Service / Technology<br>
+              </li>
+              <li>Simple&amp;Robust/Feature Rich</li>
+            </ul>
+            <p><a href="index.php?TechFinalSummary">back to 
+              the main summary page</a></p>
+          </td>
+        </tr>
+      </table>
+      <!-- #EndEditable --> </td>
+    <td width="10">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="9">&nbsp;</td>
+    <td> 
+      <p>&nbsp;</p>
+    </td>
+    <td width="10">&nbsp;</td>
+  </tr>
+</table>
+
+    </TD>
+    <TD width=60>&nbsp;</TD></TR>
+<TR>
+    <TD vAlign=top align=middle width=20 bgColor=#660033>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top colspan=2 align=right bgColor=#ffffff height=12>&nbsp;</TD>
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=bottom colspan=4 align=left width=145 bgColor=#660033 height=12><IMG 
+      height=12 
+      src="/images/RoundedBottom.gif" 
+      width=145 align=bottom></TD>
+    <TD vAlign=top align=right bgColor=#660033 height=12><FONT 
+      color=#ffffff>
+      &nbsp;</FONT><SPAN class=SmallText><FONT 
+      color=#ffffff>&nbsp; </FONT></SPAN></TD><!-- HERE -->
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=top align=middle width=20>&nbsp;</TD>
+    <TD colspan=4 vAlign=top align=middle bgColor=#ffffff
+      height=6><SPAN class="footernavbar"><A 
+      href="/">Home</A> | <A 
+      href="/AboutSOC/index.php">About 
+      SOC</A> | <A 
+      href="/Workshops/index.php">Workshops</A> | <A 
+      href="/Resources/index.php?findings">Resources</A> 
+      | <A 
+      href="/NewsEvents/index.php">News 
+      &amp; Events</A></SPAN></TD>
+    <TD width=60 bgColor=#ffffff height=6>&nbsp;</TD></TR>
+<!-- #LOOP-START:footer -->
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <HR align=center width=80%>
+    </TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5></TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <TABLE cellSpacing=0 cellPadding=0 width="95%" align=left border=0 
+      name="Footer">
+        <TR>
+          <TD vAlign=top align=middle width=172 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.umich.edu/"><IMG height=62 
+            alt="University of Michigan Logo" 
+            src="/images/logo_um.jpg" 
+            width=62 border=0 name=UMICH_Logo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.umich.edu/">University of Michigan<BR></A></P></TD>
+          <TD align=middle>
+            <P class="copyright">This material is based upon work supported by 
+            the <A target=_blank href="http://www.itr.nsf.gov/">National Science 
+            Foundation</A> under Grant No. IIS 0085951. Any opinions, findings, 
+            and conclusions or recommendations expressed in this material are 
+            those of the author(s) and do not necessarily reflect the views of 
+            the National Science Foundation. <BR><A target=_blank 
+            href="http://www.itr.nsf.gov/"><IMG height=42 
+            alt="National Science Foundation Logo" 
+            src="/images/nsf.gif" width=42 
+            border=0 name=NSF_Logo></A></P></TD>
+          <TD vAlign=top align=middle width=127 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.si.umich.edu/"><IMG height=54 
+            alt="School of Information Logo" 
+            src="/images/SISwirl.jpg" 
+            width=62 border=0 name=SILogo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.si.umich.edu/">School of Information</A>
+            <A href="http://www.si.umich.edu/">University of 
+            Michigan</A></P></TD></TR>
+        <TR>
+          <TD align=middle>&nbsp;</TD></TR>
+        <TR>
+          <TD>
+            <P align=center class="copyright">� 2004
+            Regents of the University of 
+            Michigan. Please send questions and comments to <A 
+            href="mailto:asz@umich.edu">SOC 
+        webmaster</A>.</P></TD></TR></TABLE></TD></TR>
+  <TR>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=95>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0>&nbsp; </TD>
+    <TD width=60 bgColor="white" height=0>&nbsp;</TD></TR>
+</TABLE>
+<!-- #LOOP-END:footer -->
+<P>&nbsp;</P>
+<P><BR></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><BR></P>
+<P><BR></P>
+<P>&nbsp;</P>
+<P><BR></P></BODY><!-- #EndTemplate --></HTML>
+

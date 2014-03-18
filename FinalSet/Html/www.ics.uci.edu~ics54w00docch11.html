@@ -1,0 +1,260 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Script-Type" content="text/javascript">
+<title>ICS 54: Brief Notes on Chapter 11: Electronic Mail</title>
+</head>
+
+<body bgcolor="#F8F8F0">
+<i><a href="http://www.ics.uci.edu/"> UC Irvine,
+Information and Computer Science Department</A></I>
+Winter 2000<br>
+<h2><A HREF="http://www.ics.uci.edu/~ics54/">ICS 54</A>:
+Brief Notes on Chapter 11: Electronic Mail
+</h2>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>References</h2>
+<dl>
+<dt><a href="http://freesoft.org/CIE/Topics/91.htm">
+  <tt>http://freesoft.org/CIE/Topics/91.htm</tt></a>
+<dd>Section on Mail from <i>Connected: An Internet Encyclopedia</i>, 
+<a href="http://freesoft.org/CIE/"><tt>http://freesoft.org/CIE</tt></a>
+<dt><a href="http://www.whatis.com/emaillis.htm"><tt>http://www.whatis.com/emaillis.htm</tt></a>
+<dd>A tour of e-mail from 
+<tt><a href="http://www.whatis.com/">http://www.whatis.com/</a></tt>,
+one of the best general purpose reference sites.
+<dt><a href="http://www.emailman.com/"><tt>http://www.emailman.com/</tt></a>
+<dd>Some good sections, but not all parts are well populated.
+<dt><a href="http://www.sendmail.org/"><tt>http://www.sendmail.org/</tt></a>
+<dd>Sendmail Page
+<dt><a href="http://www.imap.org/"><tt>http://www.imap.org/</tt></a>
+<dd>The IMAP Connection
+<dt><a href="http://www.garlic.com/~lynn/rfcietff.htm">
+<tt>http://www.garlic.com/~lynn/rfcietff.htm</tt></a>
+<dd>Lynn Wheeler's IETF RFC Index
+</dl>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>Electronic Mail Systems</h2>
+<h3>Principal Functions of an E-Mail System</h3>
+<ul>
+<li>User Interface 
+  <ul><li>Composing and Sending
+  <li>Retrieving and Reading 
+  <li>Managing and Organizing</ul>
+<li>Routing -- Between Systems
+<li>Delivery -- To Mailbox/User within System
+</ul>
+<p>
+
+<h3>Principal Components of an E-Mail System</h3>
+<ul>
+<li>User Agent (UA) = Mail User Agent (MUA)
+  <br>
+<li><a href="http://freesoft.org/CIE/Topics/32.htm">Mail Transport Agent</a> (MTA)
+<li>(Sometimes) Delivery Agent (DA)
+<br>Usually part of a UA or MTA
+</ul>
+<p>
+
+<h3>Examples:</h3>
+<b>User Agents (UA)</b>
+<ul>
+<li>elm
+<li>mail (/bin/mail, /usr/ucb/mail)
+<li>pine
+<li>mh (comp, inc, show, forw)
+<li>mush
+<li>even emacs
+<li>Eudora
+<li>Web browser
+</ul>
+<p>
+<b>(Message) Transport Agent (= MTA)</b>
+<ul>
+<li><a href="http://www.whatis.com/sendmail.htm">sendmail</a>, the workhorse
+of the Internet.
+<li>MMDF
+<li>zmailer
+<li>smail
+</ul>
+<p>
+<b>Delivery Agent</b>
+<ul>
+<li>uux
+<li>spop
+<li>/bin/sh, smrsh
+<li>/bin/mail
+</ul>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>Protocols and Standards</h2>
+
+<b><a href="http://www.m-w.com/cgi-bin/dictionary?protocol">Protocol</a></b>
+= 
+<ul>
+<li>"a code prescribing strict adherence to correct etiquette and
+precedence"
+<li>"a set of conventions governing the treatment and especially the
+formatting of data in an electronic
+communications system."
+<li>"a detailed plan of a scientific or medical experiment, treatment, or
+procedure"
+</ul>
+
+<p>
+<b>IETF</b> = Internet Engineering Task Force, 
+<a href="http://www.ietf.org/"><tt>http://www.ietf.org/</tt></a>
+
+<p>
+<b>RFC</b> = "Request For Comment" 
+(<tt><a href="http://www.rfc-editor.org/">http://www.rfc-editor.org/</a></tt>)
+<br>Not all RFCs are standards, but some are and they are the
+standards on which the Internet is built (<a
+href="http://www.cis.ohio-state.edu/htbin/rfc/rfc2500.html"><tt>ftp://ftp.isi.edu/in-notes/rfc2500.txt</tt></a>)
+
+<p>
+<a href="http://freesoft.org/CIE/Topics/94.htm">SMTP</a> = Simple Mail
+Transport Protocol
+<ul>
+<li><a href="ftp://ftp.isi.edu/in-notes/rfc733.txt">RFC 733</a> 
+  -- First standard for mail messages (1977).
+<li><a href="ftp://ftp.isi.edu/in-notes/rfc821.txt">RFC 821</a>
+  -- SMTP, the protocol (1982).
+<li><a href="ftp://ftp.isi.edu/in-notes/rfc822.txt">RFC 822</a>
+  -- Mail message format (1982).
+<li><a href="ftp://ftp.isi.edu/in-notes/rfc1123.txt">RFC 1123</a>
+  -- Requirements for Internet Hosts, Applications and Programs (1989).
+</ul>
+
+<h3>Example</h3>
+<pre>
+% telnet gremlin.ics.uci.edu 25
+Trying 128.195.1.70...
+Connected to gremlin.ics.uci.edu.
+Escape character is '^]'.
+220 gremlin.ics.uci.edu Server SMTP (Complaints/bugs to:
+Postmaster@ics.uci.edu)
+EXPN ics54
+250 ICS 54 Account &lt;ics54@gremlin.ics.uci.edu&gt;
+QUIT
+221 gremlin.ics.uci.edu says goodbye to igor.ics.uci.edu at Mon Feb 14 19:18:16.
+Connection closed by foreign host.
+%
+</pre>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>POP3: Post Office Protocol -- Version 3 </h2>
+<br>See <a href="ftp://ftp.isi.edu/in-notes/rfc1939.txt">RFC 1939</A>
+<ul>
+<li> Download messages from your mailbox on a mail server to a
+     local system, either keeping them on the server or removing them.
+<li> Can also be used to upload messages to send them.
+<li> Up to you to synchronize local system(s?!) and the remote server.
+<li> It can be confusing if you leave messages on the server after
+     downloading and "taking care" of them.
+<li> Bigger trouble if you download and remove messages from the remote
+     server and then lose the local copies.
+</ul>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>IMAP: Internet Message Access Protocol</h2>
+See <a href="ftp://ftp.isi.edu/in-notes/rfc2060.txt">RFC 2060</A>
+and
+<a href="http://www.imap.org">http://www.imap.org/</A>
+<ul>
+<li> IMAP gives you the functionality of "Web Mail."
+<li> Use local system to manipulate mailboxes and folders on server.
+<li> Keeps messages on the server.
+<li> Local system acts like a (smart) cache.
+<li> From your local system, you read and manage messages on the
+     remote server directly.
+<li> Support for concurrent access to shared mailboxes
+</ul>
+
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>Encodings</h2>
+
+Mail was meant to carry only "text."  Binary information must be "encoded."
+<p>
+<dl>
+<dt><tt><b>uuencode</b> [ <i>source-file</i> ] <i>filename</i></tt>
+<dd>Encode <tt><i>source-file</i></tt> (or standard input) with the
+result going to standard output including <tt><i>filename</i></tt>
+at the start.
+<dt><tt><b>uudecode</b> [ <i>encoded-file</i> ]</tt>
+<dd>Decode <tt><i>encoded-file</i></tt> (or standard input) with the
+result going as specified by the <tt><i>filename</i></tt> included
+at its start.
+<dt><tt><b>mimencode</b> [ <b>-u</b> ] [ <i>source-file</i> ] 
+[ <b>-o</b> <i>outputfile</i> ]</tt>
+<dd>Using "base64" encoding, encode (or decode if the <tt><b>-u</b></tt>
+option is set) <tt><i>source-file</i></tt> (or standard input)
+to produce <tt><i>outputfile</i></tt> (or standard out).
+<br><b>Note:</b> If you want to try this, do so on the EA systems,
+rather than ICS systems.
+</dl>
+
+<h3>Examples:</h3>
+<pre>
+% cat message
+Here is a message
+for you.
+% 
+% uuencode message MyMessage > 2go
+% 
+% cat 2go
+begin 600 MyMessage
+;2&amp;5R92!I&lt;R!A(&amp;UE&lt;W-A9V4*9F]R('EO=2X*
+ 
+end
+% 
+% uudecode 2go
+% 
+% cat MyMessage
+Here is a message
+for you.
+% 
+% cat message | uuencode Amessage | uudecode
+% cat Amessage
+Here is a message
+for you.
+% 
+</pre>
+
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>Multimedia Mail</h2>
+
+<b><a href="http://www.whatis.com/mime.htm">MIME</a></b> =
+Multi-Purpose Internet Mail Extensions
+<br>&nbsp;&nbsp;&nbsp;Label content type and subtype
+
+<p>See <a href="./rfc1700.html#mediaqtypes">"MEDIA TYPES" section of RFC 1700</a> for details or
+<br>
+<a href="http://freesoft.org/CIE/Topics/128.htm">MIME section</a> of
+<a href="http://freesoft.org/CIE/"><i>Connected: An
+Internet Encyclopedia</i></a> for an overview.
+
+<hr>
+<a href="http://www.oac.uci.edu/indiv/franklin/tools/feedback?ics54@ics.uci.edu">Comments are welcome.</a>
+<noscript><br><b>JavaScript must be enabled in order for this page
+   to be fully functional.</b></noscript>
+<script language="JavaScript" type="text/javascript">
+<!-- Beginning of JavaScript -
+   document.writeln("<br>This document can be found at &nbsp;<tt>"+
+       document.location+"</tt>");
+// document.writeln("<br><i>Current as of " + document.lastModified+"</i>");
+// - End of JavaScript - -->
+</script>
+   <br><i>Current as of 14 February 2000</i>
+<br><a href="http://validator.w3.org/check?uri=&{document.location};&ss=">HTML
+    4.01 Checked.</a>
+<!-- To show source in validation "...?uri=&{document.location};&ss=" -->
+
+</body>
+</html>
+

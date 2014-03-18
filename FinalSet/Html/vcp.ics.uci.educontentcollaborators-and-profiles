@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="up" href="/content/vcp-features" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+    <title>Collaborators and Profiles | Virtual Collaboration Portal</title>
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/./sites/vcp.ics.uci.edu/modules/avatar_blocks/avatar_blocks.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/cck/theme/content-module.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/ctools/css/ctools.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/custom/multi_google_cse/multi_google_cse.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/date/date.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/dhtml_menu/dhtml_menu.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/fckeditor/fckeditor.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/filefield/filefield.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/gallery/gallery.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/gallery/gallery_filter.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/og/theme/og.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/tagadelic/tagadelic.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/forum/forum.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/biblio/biblio.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/cck/modules/fieldgroup/fieldgroup.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/views/css/views.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/files/color/garland_newvcp-cb8d0b3a/style.css?p" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/vcp.ics.uci.edu/themes/garland-newvcp/print.css?p" />
+    <script type="text/javascript" src="/misc/jquery.js?p"></script>
+<script type="text/javascript" src="/misc/drupal.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/dhtml_menu/dhtml_menu.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/og/og.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/jquery_media/js/jquery.media.js?p"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","dhtmlMenu":{"slide":"slide","siblings":"siblings","relativity":"relativity","clone":"clone","doubleclick":"doubleclick","children":0}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+if (Drupal.jsEnabled) {
+  $(document).ready(function() {
+    $.fn.media.defaults.flvPlayer = '/sites/vcp/files/player.swf';
+    $.fn.media.defaults.mp3Player = '/sites/vcp/files/player.swf';
+  });  
+}
+
+//--><!]]>
+</script>
+    <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/themes/garland-newvcp/fix-ie.css" />    <![endif]-->
+  </head>
+  <body class="sidebar-left">
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="/" title="Virtual Collaboration Portal"><span>Virtual Collaboration Portal</span></a></h1>        </div>
+
+                  <ul class="links primary-links"><li class="menu-197 first"><a href="/" title="VCP home page">Home</a></li>
+<li class="menu-494"><a href="/og" title="">Groups</a></li>
+<li class="menu-12772 last"><a href="/collaborators">Collaborators</a></li>
+</ul>                                  
+      </div> <!-- /header -->
+
+              <div id="sidebar-left" class="sidebar">
+          <div class="block block-theme"><form action="/content/collaborators-and-profiles"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-AQv3NN7zHDTyik81_CQRV-3_vNX4c82pyW9vvI4-xK8" value="form-AQv3NN7zHDTyik81_CQRV-3_vNX4c82pyW9vvI4-xK8"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+</div>          <div id="block-user-1" class="clear-block block block-user">
+
+  <h2>Navigation</h2>
+
+  <div class="content"><ul class="menu"><li class="expanded first dhtml-menu  collapsed start-collapsed "><a href="/biblio" id="dhtml_menu-5079">Bibliography</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/biblio/authors" id="dhtml_menu-12779">Authors</a></li>
+<li class="leaf last dhtml-menu "><a href="/biblio/keywords" id="dhtml_menu-12792">Keywords</a></li>
+</ul></li>
+<li class="leaf  dhtml-menu "><a href="/readinglist/year" id="dhtml_menu-5761">Reading Lists</a></li>
+<li class="leaf  dhtml-menu "><a href="/weblinks" id="dhtml_menu-3412">Web Links</a></li>
+<li class="leaf  dhtml-menu "><a href="/gallery" title="Visit your embedded Gallery2." id="dhtml_menu-3237">Gallery</a></li>
+<li class="leaf  dhtml-menu "><a href="/tracker" id="dhtml_menu-119">Recent posts</a></li>
+<li class="leaf last dhtml-menu "><a href="/content/acknowledgements" title="Acknowledgements" id="dhtml_menu-11419">Acknowledgements</a></li>
+</ul></div>
+</div>
+<div id="block-user-0" class="clear-block block block-user">
+
+  <h2>User login</h2>
+
+  <div class="content"><form action="/content/collaborators-and-profiles?destination=node%2F487"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
+<div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-rpLN1QSYoYlMlVa4p8QsGW5ErUUOQuOoyeBqeh4hFJo" value="form-rpLN1QSYoYlMlVa4p8QsGW5ErUUOQuOoyeBqeh4hFJo"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+</div>
+</div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="/">Home</a></div>                              <h2>Collaborators and Profiles</h2>                                                  <div class="clear-block">
+            <div id="node-487" class="node">
+
+<div class="picture">
+  </div>
+
+
+      <span class="submitted">Wed, 2009-09-16 14:06 — admin</span>
+  
+  <div class="content clear-block">
+    <p>One of the primary links, <em>Collaborators</em>, brings up a searchable page that lists all collaborators in the system, including their names, images, and affiliations.&nbsp; This page is shown below.&nbsp; Each name and image links to a profile page for that collaborator.</p>
+<p class="rtecenter"><img height="439" width="500" src="/sites/default/files/vcp-snapshots/Collaborators/collaborators.jpg" alt="collaborators" /></p>
+<p>A collaborator&rsquo;s profile is shown in Figure 6. In this example, Kari is viewing Walt&rsquo;s profile page.&nbsp;&nbsp; The profile page shows the collaborator&rsquo;s full name, affiliation, and image.&nbsp; Collaborators can also include a link to their professional or personal website.&nbsp; In addition, all of the groups to which the collaborator is affiliated are listed (see Groups).&nbsp; User Kari has already subscribed to receive notifications of any posts by Walt (see Subscriptions).&nbsp; She can cancel that subscription here.&nbsp; There is also a link to all of Walt&rsquo;s recent blog postings (see Blogs).<br />
+From here a collaborator can also &ldquo;Track&rdquo; all content (see Content) belonging to Walt and view any &ldquo;Web Links&rdquo; (see Web Links) that he has created.</p>
+<p class="rtecenter"><img height="487" width="500" src="/sites/default/files/vcp-snapshots/Collaborators/profile.jpg" alt="" /></p>
+<p class="rteleft">Once a collaborator has logged into portal he or she can access and edit their account by following the &ldquo;My Account&rdquo; navigation link in the left column.&nbsp; A collaborator&rsquo;s view of their own profile is shown in below.&nbsp; Here the user can change their username, email address, password, or upload a new image.&nbsp; They can also follow the &ldquo;Personal Information&rdquo; tab to edit the information visible in their profile.&nbsp; From here they can manage their subscriptions (see Subscriptions), view the notifications received from those subscriptions, and track their own content.</p>
+<p class="rtecenter"><img height="482" width="500" src="/sites/default/files/vcp-snapshots/Collaborators/edit-profile.jpg" alt="" /><br />
+&nbsp;</p>
+  <div id="book-navigation-485" class="book-navigation">
+    
+        <div class="page-links clear-block">
+                    <a href="/content/vcp-features" class="page-up" title="Go to parent page">up</a>
+                </div>
+    
+  </div>
+  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+        </div>
+
+      </div>
+
+</div>
+          </div>
+                    <div id="footer"></div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+  <script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/custom/multi_google_cse/multi_google_cse.js?p"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"en"}});
+//--><!]]>
+</script>
+  </body>
+</html>
+

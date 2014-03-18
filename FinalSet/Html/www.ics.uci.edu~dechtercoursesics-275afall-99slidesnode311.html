@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Numbervars</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Numbervars">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5989 HREF="node312.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5987 HREF="node308.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5981 HREF="node310.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5991 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5990 HREF="node312.html"> Apply</A>
+<B>Up:</B> <A NAME=tex2html5988 HREF="node308.html"> Utility Libraries</A>
+<B> Previous:</B> <A NAME=tex2html5982 HREF="node310.html"> Define</A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION0022183000000000000000> Numbervars</A></H2>
+<P>
+Implements the numbervars(Term, From, To) predicate of C-Prolog.
+<i> Term</i> is any term, <i> From</i> and <i> To</i> are integer numbers.
+All variables in <i> Term</i> are instantiated to terms of the form
+<blockquote> $VAR(N)
+</blockquote>
+where N is an integer number.
+The first encountered variable will be coded by the number <i> From</i>,
+on exit <i> To</i> is instantiated to the next unused number.
+<P>
+This predicate can thus be used to encode nonground term using
+a ground representation.
+Note that metaterms can be used for the same purpose,
+but their use is both more efficient and more general,
+because the variables are not actually instantiated
+and so they can be used again as variables when needed.
+<P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

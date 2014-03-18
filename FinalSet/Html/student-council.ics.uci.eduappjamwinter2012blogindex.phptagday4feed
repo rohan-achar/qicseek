@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>AppJam Blog &#187; day4</title>
+	<atom:link href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/tag/day4/feed/" rel="self" type="application/rss+xml" />
+	<link>http://student-council.ics.uci.edu/appjam/winter2012/blog</link>
+	<description></description>
+	<lastBuildDate>Tue, 06 Mar 2012 19:57:38 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.3.1</generator>
+		<item>
+		<title>Day 4: Team 4</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-4-team-4/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-4-team-4/#comments</comments>
+		<pubDate>Fri, 02 Mar 2012 07:08:13 +0000</pubDate>
+		<dc:creator>Team4</dc:creator>
+				<category><![CDATA[2012-winter-Team4]]></category>
+		<category><![CDATA[day4]]></category>
+		<category><![CDATA[team4]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=674</guid>
+		<description><![CDATA[Current Project Status: Today, most of us (4 out of 5) met up from 6:30pm until exhaustion.  We have assigned responsibilities (design, client side, and back-end) to every person, so we all immediately began our individual work.  The back-end side of our project is only being worked on by one person, but he has been [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Current Project Status:<br />
+</strong></p>
+<p>Today, most of us (4 out of 5) met up from 6:30pm until exhaustion.  We have assigned responsibilities (design, client side, and back-end) to every person, so we all immediately began our individual work.  The back-end side of our project is only being worked on by one person, but he has been able to catch up to the rest of the teams.  Our communication has been excellent, and we have all been comfortable discussing our project in an effective and orderly manner.  We are using a google document to record our status, to-do lists, and design.   We are still in the early stages in our client side, but we have reached a complete and tangible design which we will be implementing in the next few days.  The rush is building, and we are all excited for what is to come as our last few days approach us.</p>
+<p><strong>Progress Today:</strong></p>
+<p><em>Android (Client Side):</em></p>
+<p>We worked through a ton of issues with running SDK on everyone&#8217;s computer.  We finally started making progress on the client side. We have coded a barebones design of our project and have got it to run on our android devices.  The next few days will be when this section will be picking up.</p>
+<p><em>DataBase/Server:</em></p>
+<p>Created and completed a fully functional login/registration screen. We also worked on the validation of the logins. We are preparing our database to handle the kind of data our design will be needing.  We also worked on the android-to-database connection.</p>
+<p><em>Design:<br />
+</em></p>
+<p>The design concept of our project has been completed. We planned out a realistic design of our project&#8211;in regards to time constraints.  We also planned a more detailed and complete design if time permits.   Our design has been documented and we are now in the progress of drawing out each individual screen in order to leave the client side of the project with little questions on the design.<br />
+<strong><br />
+Challenges:</strong></p>
+<p>As with other teams, time availability for our members have been a problem.  Today, only one member could not make it to our meeting.  One of our biggest problems have still been with SDK, and solving technical problems with everyone&#8217;s computers.  We also had trouble with simplifying our project so that our design is realistic with the time constraints that we have.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-4-team-4/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

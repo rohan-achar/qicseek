@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC
+ "-//W3C//DTD XHTML 1.1//EN"
+ "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="course2.css" type="text/css" />
+
+<title>ICS 142 Winter 2004, ILOC Examples</title>
+</head>
+
+<body>
+
+<div class="navbar">
+
+<p>
+ICS 142 Winter 2004 |
+<a href="index.html">News</a> |
+<a href="CourseReference.html">Course Reference</a> |
+<a href="Schedule.html">Schedule</a> |
+<a href="LabManual">Lab Manual</a> |
+<a href="news:ics.142">ics.142 newsgroup</a> |
+<a href="http://www.ics.uci.edu/~thornton/">About Alex</a>
+</p>
+
+<hr />
+
+</div>
+
+<div class="header">
+
+<p>ICS 142 Winter 2004<br />
+   ILOC Examples</p>
+
+</div>
+
+<div class="section">
+
+<hr />
+
+<p class="title">The examples</p>
+
+<p>Here are some of the ILOC examples from the intermediate code generation lecture on Friday, March 12.  Most of these examples will be legal in your Assignment #6, since the condition-code-based approach for conditional branching, using the <b>comp</b> and <b>cbr_*</b> instructions, is not supported in Assignment #6, and since I've used registers with descriptive names like r_result.  Instead, I've made a separate bundle of examples that you can actually use with your Assignment #6, along with the output from my solution:</p>
+
+<ul>
+  <li><a href="Assignment6Examples.zip">Examples for use with Assignment #6</a></li>
+</ul>
+
+<p class="subtitle">Boolean expressions</p>
+
+<p>Suppose, first, that we want to emit intermediate code that implements this boolean expression:</p>
+
+<pre>
+    x < y and z < w
+</pre>
+
+<p>All of the examples for this boolean expression will assume that x, y, z, and w already reside in registers.</p>
+
+<p>One approach for implementing boolean expressions is <i>numerical encoding</i>, which stores the value of each subexpression in a register, then uses logical instructions such as <b>and</b> to compute the value for the entire expression.  Using a condition-code-based approach, the intermediate code would look something like this:</p>
+
+<pre>
+    comp rx, ry => cc1;       // compare x to y, setting condition code
+                              //     register cc1 with the result
+    cbr_LT cc1 -> L1, L2;     // if the last comparison set the "less than"
+                              //     flag in the condition code register
+                              //     (i.e. x < y), branch to L1, else
+                              //     branch to L2
+L1: loadI true => r1;         // if x < y, store true in r1
+    jumpI -> L3;              // skip over the assignment of false into r1
+L2: loadI false => r1;        // if x >= y, store false in r1
+    jumpI -> L3;              // we always have some kind of jump at the end
+                              //     of a basic block, so that blocks can be
+                              //     safely reordered
+L3: comp rz, rw => cc2;       // now we compare z and w
+    cbr_LT cc2 -> L4, L5;     // if z < w, branch to L4, else branch to L5
+L4: loadI true => r2;         // if z < w, store true in r2
+    jumpI -> L6;              // skip over the assignment of false into r2
+L5: loadI false => r2;        // if z >= w, store false in r2
+    jumpI -> L6;
+L6: and r1, r2 => r_result;   // now that r1 and r2 have the results of the
+                              //     two relational comparisons, we can and
+                              //     the results together and store the
+                              //     final result in r_result
+</pre>
+
+<p>The two downsides of this approach are that two conditional branches are always executed, and the storing of values in r1 and r2 are really unnecessary.  With a condition code approach, we can do better by using <i>positional encoding</i>, which uses a position in the code to indicate the value of subexpressions.</p>
+
+<pre>
+    comp rx, ry => cc1;       // compare x to y
+    cbr_LT cc1 -> L1, L2;     // if x < y, branch to L1, else branch to L2
+L1: comp rz, rw => cc2;       // at this point, we know that x < y, so why
+                              //     store a value in r1, when we could just
+                              //     proceed immediately with the next
+                              //     comparison instead?
+    cbr_LT cc2 -> L3, L2;     // if z < w, branch to L3 (which will set the
+                              //     final result to true), else branch to L2
+                              //     (which will set the final result to
+                              //     false)
+L2: loadI false => r_result;  // there are two ways to get here, but in both
+                              //     cases, we know the overall answer should
+                              //     be false
+    jumpI -> L4;
+L3: loadI true => r_result;   // if we get here, we know the overall answer
+                              //     should be true
+    jumpI -> L4;
+L4: ...                       // at this point, r_result contains the result
+                              //     of the entire expression
+</pre>
+
+<p>Given a condition code approach for doing comparisons, this is a great improvement.  Short-circuiting is now taking place, which eliminates one of the conditional branches in the short-circuited case.  Also, the useless loads of immediate true or false into temporary registers are now eliminated as well.</p>
+
+<p>Still, if we had boolean comparison instructions that stored a true/false result in a register instead, the implementation would be greatly simplified if we used numerical encoding:</p>
+
+<pre>
+    cmp_LT rx, ry => r1;      // if x < y, store true in r1, else store false
+                              //     in r1
+    cmp_LT rz, rw => r2;      // if z < w, store true in r2, else store false
+                              //     in r2
+    and r1, r2 => r_result;   // now that the results of both subexpressions
+                              //     are sitting in r1 and r2, we can simply
+                              //     "and" them together and store the
+                              //     result in r_result
+</pre>
+
+<p>This was a dramatic improvement, since no branching was required (which should keep a pipelined machine much happier).  It should be noted that this version is not short-circuited.  In order to implement short-circuiting with this approach, we'd actually have to slow down the code by doing a check of r1's result and conditionally branching based on it, or perhaps going to a positional encoding approach instead.  The moral of this story: short-circuited operations are not always better in the end.</p>
+
+<p class="subtitle">Loops</p>
+
+<p>We also discussed intermediate code generation for loops.  The example loop was this:</p>
+
+<pre>
+    for (int i = 1; i <= 10; ++i)
+        <i>loop body</i>
+</pre>
+
+<p>A good intermediate code pattern for this loop looks like this:</p>
+
+<pre>
+    loadI 1 => ri;            // ri will store the value of i throughout
+                              //     the loop; we'll initialize it to 1
+    loadI 10 => r1;           // since there are comparison instructions
+                              //     in ILOC that take constant operands,
+                              //     we'll need to store the upper bound
+                              //     (10) in a register... a good code
+                              //     generator will get rid of this
+                              //     register if the target machine's
+                              //     instruction set has an instruction
+                              //     that compares a register to an
+                              //     immediate constant
+    cmp_LE ri, r1 => r2;      // compare i to the upper bound for the loop
+                              //     and store the result in r2
+    cbr r2 -> L1, L2;         // if i <= 10, branch to L1 (the loop body),
+                              //     else branch to L2 (beyond the loop)
+L1: <i>loop body</i>                 // the intermediate code for the loop body
+                              //     would appear here
+    addI ri, 1 => ri;         // ++i
+    cmp_LE ri, r1 => r3;      // compare i to the upper bound for the loop
+                              //     and store the result in r3
+    cbr r3 -> L1, L2;         // if i <= 10, branch to L1 (the top of the
+                              //     loop), else branch to L2
+L2: ...                       // at this point, the loop is over
+</pre>
+
+<p>The reasons why this pattern is a good one are:</p>
+
+<ul>
+  <li>The intermediate code for each loop iteration may fit in one basic block.  Of course, the loop body may have control flow and require more than one.  But if the loop body is simple, each loop iteration will consist of one basic block, keeping a pipeline happy, and also enabling local optimization to have an effect on the entire loop, rather than just a piece of it.</li>
+  <li>Separately testing the initial loop condition and subsequent ones allows us to perform separate optimization.  In the case of a loop like this one with constant boundaries, which is not at all uncommon in real programs, would allow us to optimize away the initial comparison.  If it can be proven at compile time that the loop's body will never execute, the entire loop can be optimized away altogether.</li>
+</ul>
+
+</div>
+
+</body>
+</html>
+

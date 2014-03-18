@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Zachary Becker</title>
+  </head>
+  <body>
+    <div>
+      <div style="float:left;padding-right:10px;">
+        <img src="maze.png" />
+      </div>
+      <div style="float:left;">
+        <h1 style="margin-top:0;">Zachary Becker</h1>
+        <p>PhD Student<br />
+           University of Califnora, Irvine<br />
+           Department of Computer Science</p>
+        <p>Office: DBH 4032<br />
+           Email: zbecker at uci dot edu</p>
+      </div>
+    </div>
+  </body>
+</html>
+

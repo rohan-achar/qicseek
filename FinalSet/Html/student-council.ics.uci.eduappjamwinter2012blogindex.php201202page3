@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title> &raquo; 2012 &raquo; February AppJam Blog</title>
+<link rel="pingback" href="http://student-council.ics.uci.edu/appjam/winter2012/blog/xmlrpc.php" />
+<style type="text/css" media="screen">
+@import "http://student-council.ics.uci.edu/appjam/winter2012/blog/wp-content/themes/garland/style.css";
+</style>
+<link rel="alternate" type="application/rss+xml" title="AppJam Blog &raquo; Feed" href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/feed/" />
+<link rel="alternate" type="application/rss+xml" title="AppJam Blog &raquo; Comments Feed" href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/comments/feed/" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://student-council.ics.uci.edu/appjam/winter2012/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://student-council.ics.uci.edu/appjam/winter2012/blog/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.3.1" />
+</head>
+
+<body class="sidebars">
+
+<div id="navigation"></div>
+
+<div id="wrapper">
+	<div id="container" class="clear-block">
+
+	<div id="header">
+		<div id="logo-floater">
+			<h1><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/">AppJam Blog</a></h1>
+		</div>
+	
+		<ul class="links primary-links">
+	<li class="page_item page-item-2"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/about/">About / Login</a></li>
+<li class="page_item page-item-400"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/example-post/">Example Post</a></li>
+</ul>
+
+	</div> <!-- /header -->
+
+<div id="sidebar-left" class="sidebar">
+
+<ul class="menu">
+
+<li class="widget widget_pages">
+	<h3>Pages</h3>
+	<ul>
+		<li><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/">Home</a></li>
+		<li class="page_item page-item-2"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/about/">About / Login</a></li>
+<li class="page_item page-item-400"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/example-post/">Example Post</a></li>
+	</ul>
+</li>
+
+<li class="widget widget_categories categories">
+	<h3>Categories</h3>
+	<ul>
+			<li class="cat-item cat-item-17"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team/" title="View all posts filed under 2012-winter-Team1">2012-winter-Team1</a>
+</li>
+	<li class="cat-item cat-item-26"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team10/" title="View all posts filed under 2012-winter-Team10">2012-winter-Team10</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team2/" title="View all posts filed under 2012-winter-Team2">2012-winter-Team2</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team3/" title="View all posts filed under 2012-winter-Team3">2012-winter-Team3</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team4/" title="View all posts filed under 2012-winter-Team4">2012-winter-Team4</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team5/" title="View all posts filed under 2012-winter-Team5">2012-winter-Team5</a>
+</li>
+	<li class="cat-item cat-item-22"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team6/" title="View all posts filed under 2012-winter-Team6">2012-winter-Team6</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team7/" title="View all posts filed under 2012-winter-Team7">2012-winter-Team7</a>
+</li>
+	<li class="cat-item cat-item-24"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team8/" title="View all posts filed under 2012-winter-Team8">2012-winter-Team8</a>
+</li>
+	<li class="cat-item cat-item-25"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team9/" title="View all posts filed under 2012-winter-Team9">2012-winter-Team9</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/globalevent/" title="View all posts filed under GlobalEvent">GlobalEvent</a>
+</li>
+	</ul>
+</li>
+
+</ul>
+
+</div>
+<div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+<!-- begin content -->
+<div class="node">
+
+<div class="post-539 post type-post status-publish format-standard hentry category-2012-winter-team9">
+
+<h2><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-1-3/" rel="bookmark">Day 1</a></h2>
+<span class="submitted">February 28, 2012 &#8212; Team9 </span>
+
+<div class="content">
+<p>Team Name: Undecided</p>
+<p>Platform: Android</p>
+<p>Members:<br />
+Chistopher Miliotti (Leader)<br />
+Vrishti Gulati<br />
+Lawrence Neill<br />
+Muhammad Zaman<br />
+Ina Liu<br />
+Ashwin Amit</p>
+<p>Advisor: Adam Brenner</p>
+<p>&nbsp;</p>
+<p>Our team all met Monday night and quickly drafted up some ideas we had on design and features.  We also exchanged contact information and decided on when to meet next.  To our luck our schedules work relatively well to meet consistently.  Though, unluckily, we realized that some of the members in the group are in between several projects and midterms this week, which may involve some late nights and/or marginally late blog posts&#8230; (sorry).  By our next meeting, we should all have the development environment set up as well as some understanding on what we need to do.</p>
+</div>
+
+<div class="meta">
+Posted in <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team9/" title="View all posts in 2012-winter-Team9" rel="category tag">2012-winter-Team9</a>.  <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-1-3/#respond" title="Comment on Day 1">Leave a Comment &#187;</a></div>
+
+</div>
+<div class="post-446 post type-post status-publish format-standard hentry category-2012-winter-team8">
+
+<h2><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-1-2/" rel="bookmark">Day 1</a></h2>
+<span class="submitted">February 27, 2012 &#8212; Team8 </span>
+
+<div class="content">
+<p>Team Name: Nappkin</p>
+<p>Vincent Kwok (Leader)<br />
+Qasid Sadiq<br />
+Rebecca De Villez<br />
+Ashish Patel<br />
+Allen Roman<br />
+Edward Wu</p>
+<p>Android Market</p>
+<p>Advisor: Adam Brenner</p>
+</div>
+
+<div class="meta">
+Posted in <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team8/" title="View all posts in 2012-winter-Team8" rel="category tag">2012-winter-Team8</a>.  <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-1-2/#respond" title="Comment on Day 1">Leave a Comment &#187;</a></div>
+
+</div>
+<div class="post-441 post type-post status-publish format-standard hentry category-2012-winter-team10">
+
+<h2><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team-10-day-1/" rel="bookmark">Team 10: Day 1</a></h2>
+<span class="submitted">February 27, 2012 &#8212; Team10 </span>
+
+<div class="content">
+<p>The Team Members’ Names (and indicate who the leader is):<br />
+Tom Huang<br />
+Vance Cagle<br />
+Zaheer Mohiuddin<br />
+Brian Payne<br />
+Dustin Tran (Leader)</p>
+<p>Team Name:<br />
+Socially Awkward Anteaters</p>
+<p>The Platform:<br />
+Android</p>
+<p>The Advisor Name:<br />
+Jaskaran Singh (Jazzy)</p>
+</div>
+
+<div class="meta">
+Posted in <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team10/" title="View all posts in 2012-winter-Team10" rel="category tag">2012-winter-Team10</a>.  <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team-10-day-1/#respond" title="Comment on Team 10: Day 1">Leave a Comment &#187;</a></div>
+
+</div>
+<div class="post-436 post type-post status-publish format-standard hentry category-2012-winter-team5">
+
+<h2><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-1/" rel="bookmark">Day 1 &#8211; Gamify</a></h2>
+<span class="submitted">February 27, 2012 &#8212; Team5 </span>
+
+<div class="content">
+<p><strong>Team name:   </strong>Gamify</p>
+<p><strong>Team members:</strong></p>
+<p>Adithya Gajulapally</p>
+<p>Peter Ladesma</p>
+<p>Kevin Juneja  (Leader)</p>
+<p>Paul Robertshaw</p>
+<p>Hye Rhee Chi</p>
+<p>Hok Him Fung</p>
+<p><strong>Advisor:</strong></p>
+<p>Mat Sprehn</p>
+<p><strong>Mobile Platform:</strong></p>
+<p>Android</p>
+<p><strong>Progress Today:</strong></p>
+<p>So far, we introduced ourselves and brainstormed some ideas for the project. Nothing is set in stone yet, but by tomorrow we will be able to plan, and come up with an idea for the app.</p>
+</div>
+
+<div class="meta">
+Posted in <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team5/" title="View all posts in 2012-winter-Team5" rel="category tag">2012-winter-Team5</a>.  <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-1/#respond" title="Comment on Day 1 &#8211; Gamify">Leave a Comment &#187;</a></div>
+
+</div>
+<div class="post-424 post type-post status-publish format-standard hentry category-2012-winter-team3">
+
+<h2><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-1-team-mnemonic/" rel="bookmark">Day 1:  Team Mnemonic</a></h2>
+<span class="submitted">February 27, 2012 &#8212; Team3 </span>
+
+<div class="content">
+<p>Team Name:   Team Mnemonic</p>
+<p>Team Members:</p>
+<ul>
+<li>Kevin Lee (Team Leader)</li>
+<li>Jordan Langford</li>
+<li>Daryl Alfaro</li>
+<li>Quan Nguyen</li>
+<li>Juan Hernandez</li>
+</ul>
+<p>Platform:  Android</p>
+<p>Team Advisor:  Patrick Do</p>
+</div>
+
+<div class="meta">
+Posted in <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team3/" title="View all posts in 2012-winter-Team3" rel="category tag">2012-winter-Team3</a>.  <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-1-team-mnemonic/#respond" title="Comment on Day 1:  Team Mnemonic">Leave a Comment &#187;</a></div>
+
+</div>
+<div class="post-419 post type-post status-publish format-standard hentry category-2012-winter-team2">
+
+<h2><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/appjam-day-1/" rel="bookmark">AppJam Day 1</a></h2>
+<span class="submitted">February 27, 2012 &#8212; Team2 </span>
+
+<div class="content">
+<p><strong>Team 2</strong><br />
+Team name has not been decided yet.</p>
+<p>Members:<br />
+Matthew Compton, Akshay Kantak, Harish Kumar B Singh, Swapnil Chavan, Donald Kwong</p>
+<p>Team Leader:<br />
+Matthew Compton</p>
+<p>Platform:<br />
+Android</p>
+<p>Advisor:<br />
+Austin Fringer</p>
+<p>Progress Today:<br />
+So far we have come up with two ideas, and are looking into them tonight with plans to meet tomorrow to decide on one.</p>
+</div>
+
+<div class="meta">
+Posted in <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team2/" title="View all posts in 2012-winter-Team2" rel="category tag">2012-winter-Team2</a>.  <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/appjam-day-1/#respond" title="Comment on AppJam Day 1">Leave a Comment &#187;</a></div>
+
+</div>
+<div class="post-417 post type-post status-publish format-standard hentry category-2012-winter-team4">
+
+<h2><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-1-team-awesome-4/" rel="bookmark">Day 1 &#8211; Team &#8220;Awesome&#8221; 4</a></h2>
+<span class="submitted">February 27, 2012 &#8212; Team4 </span>
+
+<div class="content">
+<p><span style="text-decoration: underline">Team Name</span>: Team Awesome</p>
+<p><span style="text-decoration: underline">Team Members</span>:</p>
+<ul>
+<li>Richard Creencia (L)</li>
+<li>Kevin Sison</li>
+<li>Eelin Lin</li>
+<li>Peter Chou</li>
+<li>Lu Gan</li>
+</ul>
+<p><span style="text-decoration: underline">Team Adviser</span>: David Curtis</p>
+<p><span style="text-decoration: underline">Platform</span>: Android</p>
+<p><span style="text-decoration: underline">Progress</span>: So far we have decided on our app&#8217;s primary functionality and design, established meeting times/places throughout the week, and set up a rough development schedule.</p>
+</div>
+
+<div class="meta">
+Posted in <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team4/" title="View all posts in 2012-winter-Team4" rel="category tag">2012-winter-Team4</a>.  <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-1-team-awesome-4/#respond" title="Comment on Day 1 &#8211; Team &#8220;Awesome&#8221; 4">Leave a Comment &#187;</a></div>
+
+</div>
+<div class="post-413 post type-post status-publish format-standard hentry category-2012-winter-team6">
+
+<h2><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-1-team-6-little-green-robots/" rel="bookmark">Day 1 &#8212; Team 6 Little Green Robots</a></h2>
+<span class="submitted">February 27, 2012 &#8212; Team6 </span>
+
+<div class="content">
+<p>Team Name:</p>
+<p>Little Green Robots</p>
+<p>Members:</p>
+<p>Mingming Fan<br />
+Maryam Khademi<br />
+Fernando Aguilar<br />
+Derek Vo<br />
+David Zhang</p>
+<p>Platform:</p>
+<p>Andriod</p>
+<p>Advisor:</p>
+<p>Jaskaran Singh</p>
+<p>Progress:</p>
+<p>Thus far, we are brainstorming ideas for an app and making sure everyone within the group is up to date; with all the programs downloaded, etc. We have not yet decided on who is to be our team leader.</p>
+</div>
+
+<div class="meta">
+Posted in <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team6/" title="View all posts in 2012-winter-Team6" rel="category tag">2012-winter-Team6</a>.  <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-1-team-6-little-green-robots/#respond" title="Comment on Day 1 &#8212; Team 6 Little Green Robots">Leave a Comment &#187;</a></div>
+
+</div>
+<div class="post-408 post type-post status-publish format-standard hentry category-2012-winter-team7">
+
+<h2><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-one-kickoff/" rel="bookmark">Day One: Kickoff</a></h2>
+<span class="submitted">February 27, 2012 &#8212; The GBC </span>
+
+<div class="content">
+<p>We just came back from the Appjam Kickoff and we all introduced ourselves.</p>
+<p>We&#8217;ll be working on the Android platform and our team adviser is Matt.</p>
+<p>The team pretty much goes as follows:</p>
+<p>Phil Ma, Kevin Jonaitis, Kyle Boos, Josh Ferguson, and Doug Ginther.</p>
+<p>Our team name is The GBC, or the Gingerbread Club.</p>
+<p>Currently, we don&#8217;t have a single idea decided upon yet, but the night is still young. Kinda.</p>
+</div>
+
+<div class="meta">
+Posted in <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team7/" title="View all posts in 2012-winter-Team7" rel="category tag">2012-winter-Team7</a>.  <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-one-kickoff/#respond" title="Comment on Day One: Kickoff">Leave a Comment &#187;</a></div>
+
+</div>
+<div class="post-404 post type-post status-publish format-standard hentry category-2012-winter-team">
+
+<h2><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team-emotion-blog-post-1/" rel="bookmark">Team eMotion Blog Post 1</a></h2>
+<span class="submitted">February 27, 2012 &#8212; Team1 </span>
+
+<div class="content">
+<p>&nbsp;</p>
+<p><strong>Members</strong></p>
+<p>(L) Kaushik Shankar</p>
+<p>Tai Do</p>
+<p>Wei Ye Liang</p>
+<p>Kelly Yin</p>
+<p>Minhnhut Vo</p>
+<p><strong>Team Name</strong></p>
+<p>eMotion</p>
+<p><strong>Platform</strong></p>
+<p>Android</p>
+<p><strong>Advisor</strong></p>
+<p>Austin Fringer</p>
+</div>
+
+<div class="meta">
+Posted in <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team/" title="View all posts in 2012-winter-Team1" rel="category tag">2012-winter-Team1</a>.  <a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team-emotion-blog-post-1/#respond" title="Comment on Team eMotion Blog Post 1">Leave a Comment &#187;</a></div>
+
+</div>
+
+
+<div class="nextprev">
+<div class="alignleft"> </div>
+<div class="alignright"><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/2012/02/page/2/" >Newer posts &raquo;</a> </div>
+</div>
+
+</div><!-- end content -->    
+
+<span class="clear"></span>
+<div id="footer">
+<a href="http://wordpress.com/" rel="generator">Get a free blog at WordPress.com</a> Theme: Garland by Stefan Nagtegaal and <a href="http://acko.net/" rel="designer">Steven Wittens</a>.</div>
+</div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+<div id="sidebar-right" class="sidebar">
+
+<ul class="menu">
+
+
+<li class="widget widget_search">
+<form method="get" id="searchform" action="http://student-council.ics.uci.edu/appjam/winter2012/blog/">
+<div><input type="text" value="" name="s" id="s" />
+<input type="submit" id="searchsubmit" value="Search" />
+</div>
+</form>
+</li>
+
+<li id="linkcat-2" class="widget widget_bookmarks linkcat"><h3>Blogroll</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://codex.wordpress.org/">Documentation</a></li>
+<li><a href="http://wordpress.org/extend/plugins/">Plugins</a></li>
+<li><a href="http://wordpress.org/extend/ideas/">Suggest Ideas</a></li>
+<li><a href="http://wordpress.org/support/">Support Forum</a></li>
+<li><a href="http://wordpress.org/extend/themes/">Themes</a></li>
+<li><a href="http://wordpress.org/news/">WordPress Blog</a></li>
+<li><a href="http://planet.wordpress.org/">WordPress Planet</a></li>
+
+	</ul>
+</li>
+
+<li class="widget widget_archives">
+<h3>Archives</h3>
+<ul>
+	<li><a href='http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/2012/03/' title='March 2012'>March 2012</a></li>
+	<li><a href='http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/2012/02/' title='February 2012'>February 2012</a></li>
+	<li><a href='http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/2011/11/' title='November 2011'>November 2011</a></li>
+</ul>
+</li>
+
+<li class="widget widget_meta">
+<h3>Misc</h3>
+<ul>
+<li><a href="http://student-council.ics.uci.edu/appjam/winter2012/blog/wp-login.php">Log in</a></li>
+<li><a href="http://wordpress.org/">WordPress.org</a></li>
+<li><a href="http://wordpress.com/">WordPress.com</a></li>
+</ul>
+</li>
+
+</ul>
+</div>
+
+</div> <!-- /container -->
+</div>
+
+
+<!-- /layout -->
+
+
+</body>
+</html>

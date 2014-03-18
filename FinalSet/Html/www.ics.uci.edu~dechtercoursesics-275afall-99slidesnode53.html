@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Compiling Procedures as Dynamic or Static</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Compiling Procedures as Dynamic or Static">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html2894 HREF="node54.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html2892 HREF="node49.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html2886 HREF="node52.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html2896 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html2895 HREF="node54.html"> Altering Programs</A>
+<B>Up:</B> <A NAME=tex2html2893 HREF="node49.html"> More about compilation</A>
+<B> Previous:</B> <A NAME=tex2html2887 HREF="node52.html"> File Queries and </A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION00454000000000000000> Compiling Procedures as Dynamic or Static</A></H2>
+<P>
+<A NAME=compdynamic>&#160;</A>
+If it is intended that
+a procedure be altered through the use of assert/1 and retract/1,
+<A NAME=608>&#160;</A>
+<A NAME=609>&#160;</A>
+the system should be informed that the procedure will be dynamic,
+since these predicates are
+designed to work on dynamic procedures. 
+If <b> assert/1</b> is applied on a non-existing procedure, an error
+is raised, however the default error handler for this error
+only declares the procedure as dynamic and then makes the assertion.
+<P>
+A procedure is by default static unless it has been specifically declared as
+dynamic.
+Clauses of static procedures must always be consecutive,
+they may not
+be separated in one or more source files or by the user from the top level.
+If the static procedure clauses are not consecutive, each of the
+consecutive parts is taken as a separate procedure which redefines
+the previous occurrence of that procedure, and so only the last one will
+remain.
+However, whenever the compiler encounters nonconsecutive clauses of a static
+procedure in one file, it raises an exception whose default handler
+prints a warning but it continues to compile the rest of the file.
+<P>
+If a procedure is to be dynamic the <A NAME=tex2html197 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  system should be
+given a specific <i> dynamic declaration</i>
+A dynamic declaration takes the form
+<blockquote> <PRE>:- dynamic SpecList.
+</PRE> </blockquote>
+<A NAME=614>&#160;</A>
+The predicate is_dynamic/1 may be used to check if a procedure
+is dynamic:
+<blockquote> <PRE>is_dynamic(Name/Arity).
+</PRE> </blockquote>
+<A NAME=618>&#160;</A>
+When the goal 
+<blockquote> <PRE>compile(Somefile)
+</PRE> </blockquote>
+is executed
+and <tt> Somefile</tt> contains clauses for procedures that have
+already been defined
+in the Prolog database, those procedures are treated in one of two ways:
+If such a procedure is dynamic, its clauses compiled from <tt> Somefile</tt>
+are added to the database (just as would happen if they were asserted),
+and the existing clauses are not affected.
+For example, if the following
+clauses have already been compiled:
+<blockquote> <PRE>:- dynamic city/1.
+
+city(london).
+city(paris).
+</PRE>
+</blockquote>
+and the file <tt> Somefile</tt> contains the
+following Prolog code:
+<blockquote> <PRE>city(munich).
+city(tokyo).
+</PRE>
+</blockquote>
+then compiling <tt> Somefile</tt> will cause adding
+the clauses for <b> city/1</b> to those
+already compiled, as <b> city/1</b> has been declared dynamic.
+Thus the query  <b> city(X</b>) will give:
+<blockquote> <PRE>[eclipse 5]: city(X).
+X = london    More? (;)
+
+X = paris    More? (;)
+
+X = munich    More? (;)
+
+X = tokyo
+yes.
+</PRE>
+</blockquote>
+<P>
+If, however, the compiled procedure is static,
+the new clauses in <tt> Somefile</tt> replace the old procedure.
+Thus, if
+the following clauses have been compiled:
+<blockquote> <PRE>city(london).
+city(paris).
+</PRE>
+</blockquote>
+and the file <tt> Somefile</tt> contains the following Prolog code:
+<blockquote> <PRE>city(munich).
+city(tokyo).
+</PRE>
+</blockquote>
+when <tt> Somefile</tt> is compiled, then the procedure <b> city/1</b> is redefined.
+Thus the query <tt> city(X</tt>) will give:
+<blockquote> <PRE>[eclipse 5]: city(X).
+X = munich    More? (;)
+
+X = tokyo
+yes.
+</PRE>
+</blockquote>
+<P>
+When the dynamic/1 declaration is used on a procedure that is
+already dynamic, which may happen for instance by recompiling a file
+with this declaration inside, the system raises the error 64,
+'procedure already dynamic'.
+The default handler for this error, however, will only erase
+all existing clauses for the specified procedure, so that
+when such a file is recompiled several times during its debugging,
+the system behaves as expected, the existing clauses
+are always replaced.
+The handler for this error can of course be changed if required.
+If it is set to <b> true/0</b>, for instance,
+the <b> dynamic/1</b> declaration is be just silently
+accepted without erasing any clauses and without printing an error message.
+<P>
+<BR> <HR><A NAME=tex2html2894 HREF="node54.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html2892 HREF="node49.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html2886 HREF="node52.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html2896 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html2895 HREF="node54.html"> Altering Programs</A>
+<B>Up:</B> <A NAME=tex2html2893 HREF="node49.html"> More about compilation</A>
+<B> Previous:</B> <A NAME=tex2html2887 HREF="node52.html"> File Queries and </A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

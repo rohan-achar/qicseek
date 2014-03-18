@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='iso-8859-1' ?>
+<rss version='2.0' xmlns:atom='http://www.w3.org/2005/Atom'>
+<channel>
+<title>Bren School of ICS - Latest ics.jobs postings (All)</title>
+<link>http://www.ics.uci.edu/icsjobs/</link>
+
+<atom:link href='http://www.ics.uci.edu/community/icsjobs/icsjobs_all.xml' rel='self' type='application/rss+xml' />
+
+<description>Latest job postings from the employment job board at the University of California, Irvine's Bren School of Information and Computer Sciences.</description>
+<language>en-us</language>
+<copyright>Copyright 2007 Regents of the University of California</copyright>
+<pubDate>Sun, 11 Mar 2012 15:22:01 PDT</pubDate>
+
+
+
+</channel>
+</rss>

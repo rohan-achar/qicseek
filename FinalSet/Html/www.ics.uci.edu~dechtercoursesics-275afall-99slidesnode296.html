@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Parallel Utilities</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Parallel Utilities">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5816 HREF="node297.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5814 HREF="node268.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5808 HREF="node295.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5818 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5817 HREF="node297.html"> Ptags</A>
+<B>Up:</B> <A NAME=tex2html5815 HREF="node268.html"> Libraries</A>
+<B> Previous:</B> <A NAME=tex2html5809 HREF="node295.html"> The Mode Analyser</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION0022120000000000000000> Parallel Utilities</A></H1>
+<P>
+<A NAME=chapparutil>&#160;</A>
+<P>
+This library contains parallel versions of common sequential predicates.
+It is loaded using
+<blockquote> <PRE>:- lib(par_util).
+</PRE>
+</blockquote>
+and it currently contains the following predicates:
+<P>
+<DL ><DT><b> par_member(?Element, +List)</b>
+<DD> <BR>
+<P>
+<A NAME=6923>&#160;</A>
+Parallel version of member/2, i.e. selects elements from the
+given list in parallel. Note that it cannot work backwards and generate
+lists like member/2 can, the list must be a proper list.
+<P>
+<DT><b> par_delete(?Element, ?List, ?Rest)</b>
+<DD> <BR>
+<P>
+<A NAME=6927>&#160;</A>
+Parallel version of delete/3.
+<P>
+<DT><b> par_between(+From, +To, ?I)</b>
+<DD> <BR>
+<P>
+<A NAME=6930>&#160;</A>
+Parallel version of between/3. Generates integers between <i> From</i> and
+<i> To</i> in parallel. See also fork/2, on which it is based.
+<P>
+<DT><b> par_maplist(+Pred, +In, ?Out)</b>
+<DD> <BR>
+<P>
+<A NAME=6936>&#160;</A>
+Parallel version of maplist/3.
+The semantics is not exactly the same as maplist/3: It does not work
+backwards and it does not cope with aliasing between the <i> In</i> and
+the <i> Out</i> list, since it is implemented on top of findall/3.
+There will only be a performance gain if the mapping predicate does
+enough computation to make the overhead pay off.
+<P>
+<DT><b> Goal1 &amp; Goal2</b>
+<DD> <BR>
+<P>
+<A NAME=6943>&#160;</A>
+Parallel AND operator implemented on top of OR-parallelism.
+This will only pay off for sufficiently coarse-grained
+computations in <i> Goal1</i> and <i> Goal2</i>.
+<P>
+ </DL><BR> <HR><A NAME=tex2html5816 HREF="node297.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5814 HREF="node268.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5808 HREF="node295.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5818 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5817 HREF="node297.html"> Ptags</A>
+<B>Up:</B> <A NAME=tex2html5815 HREF="node268.html"> Libraries</A>
+<B> Previous:</B> <A NAME=tex2html5809 HREF="node295.html"> The Mode Analyser</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

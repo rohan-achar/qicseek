@@ -1,0 +1,169 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Operating System Built-Ins</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Operating System Built-Ins">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5412 HREF="node265.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5410 HREF="node243.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5404 HREF="node263.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5414 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5413 HREF="node265.html"> Lists Library Predicates</A>
+<B>Up:</B> <A NAME=tex2html5411 HREF="node243.html"> The Built-in Predicates </A>
+<B> Previous:</B> <A NAME=tex2html5405 HREF="node263.html"> Compiler Directives</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION0021210000000000000000> Operating System Built-Ins</A></H1>
+<P>
+The following UNIX Operating System related predicates exist:
+<P>
+<A NAME=tex2html1214 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  Operating System built-in.
+<DL ><DT><b> alarm(+Clock)</b>
+<DD> <BR> 
+The operating system will send the signal 14 to the <A NAME=tex2html1215 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  system  Clock seconds after the command was entered.
+<A NAME=6112>&#160;</A>
+<DT><b> argc(?Number)</b>
+<DD> <BR> 
+Succeeds if  Number is the number of arguments given on the command line to invoke <A NAME=tex2html1216 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  .
+<A NAME=6115>&#160;</A>
+<DT><b> argv(+N, ?Argument)</b>
+<DD> <BR> 
+Succeeds if the  Nth argument given on the command line when invoking <A NAME=tex2html1217 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  is the string  Argument.
+<A NAME=6119>&#160;</A>
+<DT><b> call_c(+Function, ?Code)</b>
+<DD> <BR> 
+Invoke the C function  Function and unify its return code with  Code.
+<A NAME=6123>&#160;</A>
+<DT><b> cd(+Directory)</b>
+<DD> <BR> 
+ Directory is made the current working directory. Equivalent to  set_flag(cwd, Directory).
+<A NAME=6127>&#160;</A>
+<DT><b> cputime(?Time)</b>
+<DD> <BR> 
+Succeeds if  Time is the elapsed user cpu time in seconds.
+<A NAME=6130>&#160;</A>
+<DT><b> date(?Date)</b>
+<DD> <BR> 
+ Date is bound to the string giving the date and time.
+<A NAME=6133>&#160;</A>
+<DT><b> delete(+File)</b>
+<DD> <BR> 
+The file  File (with absolute or relative pathname) is deleted.
+<A NAME=6136>&#160;</A>
+<DT><b> exec(+Command, ?Streams)</b>
+<DD> <BR> 
+A child process  Command is forked, its standard streams are connected to  Streams and the <A NAME=tex2html1218 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  process waits until it terminates. 
+<A NAME=6140>&#160;</A>
+<DT><b> exec(+Command, ?Streams, ?Pid)</b>
+<DD> <BR> 
+A child process  Command is forked, its standard streams are connected to  Streams and its process ID is  Pid. 
+<A NAME=6145>&#160;</A>
+<DT><b> exec_group(+Command, ?Streams, ?Pid)</b>
+<DD> <BR> 
+A child process  Command is forked in a new process group, its standard streams are connected to  Streams and its process ID is  Pid. 
+<A NAME=6150>&#160;</A>
+<DT><b> exists(+File)</b>
+<DD> <BR> 
+Succeeds if the file  File (with absolute or relative pathname) exists.  File can be a directory.
+<A NAME=6154>&#160;</A>
+<DT><b> exit(+Status)</b>
+<DD> <BR> 
+The Prolog session is ended and the specified status returned to the operating system. 
+<A NAME=6157>&#160;</A>
+<DT><b> get_file_info(+File, ?Attr, ?Value)</b>
+<DD> <BR> 
+Succeeds if the file  File (with absolute or relative pathname) exists and the value of its attribute  Attr unfies with  Value.
+<A NAME=6162>&#160;</A>
+<DT><b> get_timer(+Timer, ?Interval)</b>
+<DD> <BR> 
+Succeed if the specified  Timer is running and sends signals in intervals of  Interval seconds.
+<A NAME=6166>&#160;</A>
+<DT><b> getcwd(?Cwd)</b>
+<DD> <BR> 
+Unifies the current working directory with  Cwd.
+<A NAME=6169>&#160;</A>
+<DT><b> getenv(+EnvVar, ?Value)</b>
+<DD> <BR> 
+Succeeds if the string  EnvVar corresponds to a variable set in the UNIX environment, and it unifies  Value with the string which is the value of that variable.
+<A NAME=6173>&#160;</A>
+<DT><b> halt</b>
+<DD> <BR> 
+The Prolog session is ended (the same as Control-D at the top-level loop).
+<A NAME=6176>&#160;</A>
+<DT><b> kill(+Pid, +Signal)</b>
+<DD> <BR> 
+Send the signal  Signal to the process number  Pid
+<A NAME=6180>&#160;</A>
+<DT><b> pathname(+FilePath, ?Path)</b>
+<DD> <BR> 
+Succeeds if the pathname  FilePath, if stripped of its file name, gives  Path, the path up to the parent directory of the file.
+<A NAME=6184>&#160;</A>
+<DT><b> pathname(+FilePath, ?Path, ?Name)</b>
+<DD> <BR> 
+If  FilePath is a pathname of a file, succeed if  Path is the pathname of its parent directory and  Name is the local file name.
+<A NAME=6189>&#160;</A>
+<DT><b> pause</b>
+<DD> <BR> 
+The <A NAME=tex2html1219 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  session is suspended (the same as  Control-Z at the top-level loop).
+<A NAME=6192>&#160;</A>
+<DT><b> random(?N)</b>
+<DD> <BR> 
+Generates a random integer  N.
+<A NAME=6195>&#160;</A>
+<DT><b> read_directory(+Directory, +Pattern, ?SubdirList, ?FileList)</b>
+<DD> <BR> 
+Unifies  SubdirList with a list of subdirectories and  FileList with a list of matching files in the specified directory.
+<A NAME=6199>&#160;</A>
+<DT><b> rename(+OldName, +NewName)</b>
+<DD> <BR> 
+Renames the file  OldName to  NewName.
+<A NAME=6203>&#160;</A>
+<DT><b> seed(+Seed)</b>
+<DD> <BR> 
+Sets the initial seed  Seed for generating random numbers with  random/1.
+<A NAME=6207>&#160;</A>
+<DT><b> set_timer(+Timer, +Interval)</b>
+<DD> <BR> 
+Start (or stop) the specified  Timer to send signals in intervals of  Interval seconds.
+<A NAME=6211>&#160;</A>
+<DT><b> sh(+ShellCommand)</b>
+<DD> <BR> 
+The string or atom  ShellCommand is passed as a command to the operating system, and the command is executed there (it is a synonym for  system/1).
+<A NAME=6215>&#160;</A>
+<DT><b> sleep(+Seconds)</b>
+<DD> <BR> 
+The execution of <A NAME=tex2html1220 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  is suspended for  Seconds number of seconds.
+<A NAME=6218>&#160;</A>
+<DT><b> suffix(+FileName, ?Suffix)</b>
+<DD> <BR> 
+Succeeds if the string  Suffix is the extension part of the input string  FileName.
+<A NAME=6222>&#160;</A>
+<DT><b> system(+ShellCommand)</b>
+<DD> <BR> 
+The string or atom  ShellCommand is passed as a command to the operating system, and the command is executed there (it is a synonym for  sh/1).
+<A NAME=6226>&#160;</A>
+<DT><b> wait(?Pid, ?Status)</b>
+<DD> <BR> 
+Wait for a child process to terminate and report its process ID and status.
+<A NAME=6229>&#160;</A>
+<P>
+ </DL><BR> <HR><A NAME=tex2html5412 HREF="node265.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5410 HREF="node243.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5404 HREF="node263.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5414 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5413 HREF="node265.html"> Lists Library Predicates</A>
+<B>Up:</B> <A NAME=tex2html5411 HREF="node243.html"> The Built-in Predicates </A>
+<B> Previous:</B> <A NAME=tex2html5405 HREF="node263.html"> Compiler Directives</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

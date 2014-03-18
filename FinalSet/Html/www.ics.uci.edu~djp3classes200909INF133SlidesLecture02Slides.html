@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="description" content="User Interaction: The Human Asst. Professor Donald J. Patterson INF 133 Fall 2009  &quot;...in an information-rich world, the wealth of information means a dearth of something else: a scarcity of whatever it is that information consumes. What information consumes is rather obvious: it consumes the attention of its recipients. Hence a wealth of information creates a poverty of attention and a need to allocate that attention efficiently among the overabundance of information sources that might consume it&quot; (Simon 1971, p. 40-41).  “Designing an object to be simple and clear takes at least twice as long as the usual way.  It requires concentration at the outset on how a clear and simple system would work, followed by the steps required to make it come out that way -- steps which are often much harder and more complex than the ordinary ones.  It also requires relentless pursuit of that simplicity even when obstacles appear which would seem to stand in the way of that simplicity.”  T.H. Nelson, 1977"/>
+    <title></title>
+    <script type="text/javascript" language="javascript">
+//      <![CDATA[
+            var images = new Array (4);
+            images[0] = "Lecture02Slides_files/Lecture02Slides.001.png";
+            images[1] = "Lecture02Slides_files/Lecture02Slides.002.png";
+            images[2] = "Lecture02Slides_files/Lecture02Slides.003.png";
+            images[3] = "Lecture02Slides_files/Lecture02Slides.004.png";
+            var index = 0;
+            function WindowLoaded(evt)
+            {
+                document.body.onselectstart = function () { return false; };
+            }
+            function Step(i)
+            {
+                GoTo(index + i)
+            }
+            function GoTo(newIndex)
+            {
+                if(newIndex >= 0 && newIndex < images.length)
+                {
+                    index = newIndex;
+                    document.Slideshow.src = images[index];
+                }
+            }
+//      ]]>
+    </script>
+</head>
+<body bgcolor="black" onload='WindowLoaded(event);'>
+    <p align="center">
+        <br/>
+        <br/>
+        <img name="Slideshow" alt="" src="Lecture02Slides_files/Lecture02Slides.001.png" onclick="Step(1)"/>
+        <br/>
+        <br/>
+        <input type="image" src="Lecture02Slides_files/home.png" onclick="GoTo(0)"/>
+        &nbsp;&nbsp;&nbsp;
+        <input type="image" src="Lecture02Slides_files/prev.png" onclick="Step(-1)"/>
+        <input type="image" src="Lecture02Slides_files/next.png" onclick="Step(1)"/>
+    </p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

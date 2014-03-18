@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: The White Tiger</title>
+	<atom:link href="http://ngs.ics.uci.edu/the-white-tiger/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/the-white-tiger/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: ahmet</title>
+		<link>http://ngs.ics.uci.edu/the-white-tiger/comment-page-1/#comment-2691</link>
+		<dc:creator><![CDATA[ahmet]]></dc:creator>
+		<pubDate>Tue, 10 Mar 2009 20:43:44 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1065#comment-2691</guid>
+		<description><![CDATA[USA knows well that protectionism is detrimental to its future. In fact USA has been the most open county and has become what it is because of its open policy.]]></description>
+		<content:encoded><![CDATA[<p>USA knows well that protectionism is detrimental to its future. In fact USA has been the most open county and has become what it is because of its open policy.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

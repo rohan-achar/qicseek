@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>Social Life Networks</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+
+<!-- dd menu -->
+<script type="text/javascript">
+<!--
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+// open hidden layer
+function mopen(id)
+{	
+	// cancel close timer
+	mcancelclosetime();
+
+	// close old layer
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+
+	// get new layer and show it
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.visibility = 'visible';
+
+}
+// close showed layer
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+}
+
+// go close timer
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+
+// close layer when click-out
+document.onclick = mclose; 
+// -->
+</script>
+
+</head>
+<body>
+<img src="images/SLNlogo.png" width="300px"></img><br>
+
+<ul id="sddm">
+	<li><a href="Home.html" target="mainFrame">Home</a>
+	</li>
+	<li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">Applications</a>
+		<div id="m2" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="ApplicationFiles/AsthamaAwareness.html" target="mainFrame">Asthama Awareness</a>
+		<a href="ApplicationFiles/FloodShelterAlerts.html" target="mainFrame">Flood Shelter Alerts</a>
+		<a href="Applications.html" target="mainFrame">More...</a>
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">People</a>
+		<div id="m3" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="People.html" target="mainFrame">SLN@UCI</a>
+		<a href="Collaborators.html" target="mainFrame">Collaborators</a>
+		</div>
+	</li>
+	<li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">Resources</a>
+		<div id="m4" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="Resources.html" target="mainFrame">Project Resources</a>
+		<a href="Publications.html" target="mainFrame">Publications</a>
+		</div>
+	</li>
+	<li><a href="Contact.html" target="mainFrame" onmouseover="mopen('m5')" onmouseout="mclosetime()">Contact</a>
+		<div id="m5" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+		<a href="mailto:SocLifeNetworks@gmail.com">E-mail</a>
+		</div>
+	</li>
+</ul>
+<!--<div style="clear:both"></div>-->
+<!--<div style="clear:both"></div>-->
+
+</div>
+</body>
+</html>

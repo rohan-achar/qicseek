@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: German Memories</title>
+	<atom:link href="http://ngs.ics.uci.edu/german-memories/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/german-memories/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Don Lapre Lover</title>
+		<link>http://ngs.ics.uci.edu/german-memories/comment-page-1/#comment-836</link>
+		<dc:creator><![CDATA[Don Lapre Lover]]></dc:creator>
+		<pubDate>Sun, 17 Dec 2006 20:56:23 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=500#comment-836</guid>
+		<description><![CDATA[Time is surely fleeting but we have some uncountable good memories in our minds. That is the  best part.
+
+Don Lapre Lover
+laura@lauraglydaband.com]]></description>
+		<content:encoded><![CDATA[<p>Time is surely fleeting but we have some uncountable good memories in our minds. That is the  best part.</p>
+<p>Don Lapre Lover<br />
+<a href="mailto:laura@lauraglydaband.com">laura@lauraglydaband.com</a></p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

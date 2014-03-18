@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Taxonomy and Folksonomy</title>
+	<atom:link href="http://ngs.ics.uci.edu/taxonomy-and-folksonomy/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/taxonomy-and-folksonomy/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: tera RMT</title>
+		<link>http://ngs.ics.uci.edu/taxonomy-and-folksonomy/comment-page-1/#comment-4978</link>
+		<dc:creator><![CDATA[tera RMT]]></dc:creator>
+		<pubDate>Wed, 18 Apr 2012 05:49:34 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=371#comment-4978</guid>
+		<description><![CDATA[Hello! I just wish to make a huge thumbs up for the terrific advice you have here on this article. I will be returning to your site for more shortly.
+Good write-up, Iâ€™m regular visitor of oneâ€™s website, maintain up the nice operate, and It is going to be a regular visitor for a lengthy time.]]></description>
+		<content:encoded><![CDATA[<p>Hello! I just wish to make a huge thumbs up for the terrific advice you have here on this article. I will be returning to your site for more shortly.<br />
+Good write-up, Iâ€™m regular visitor of oneâ€™s website, maintain up the nice operate, and It is going to be a regular visitor for a lengthy time.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Ramesh Sarukkai</title>
+		<link>http://ngs.ics.uci.edu/taxonomy-and-folksonomy/comment-page-1/#comment-411</link>
+		<dc:creator><![CDATA[Ramesh Sarukkai]]></dc:creator>
+		<pubDate>Wed, 22 Feb 2006 00:21:11 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=371#comment-411</guid>
+		<description><![CDATA[This is an interesting and important debate that Prof. Ramesh Jain brings out. Here are my personal thoughts on this.
+
+One of the goals in media search is to have a large searchable media index that enables consumers to search, discover and consume  media content. It is clear that pure content analysis is still not a viable option for achieving this for millions of videos/images. The main attraction with tagging (social or derived from web pages) is that we have large scale systems with video/image/audio search capabilities with more precision than comparable CBIR systems. Products such as Yahoo! video, Flickr  and image search that millions use on a daily basis. 
+
+That said, tagging/meta-data alone is not the complete long-term solution to the Multi-media information retrieval problem, and there will be continued opportunities/techniques leveraged down the road to combine different sources of information (whether it be from community tagging or content analysis). Even if you look at related areas such as automatic speech recognition or Optical Character Recognition, it is clear that augmenting media specific models with *large amounts of data* from non-media sources to provide context (such as the Wall Street Journal text corpus) greatly boosted the ability to build viable products: A similar trend will ensue for media search, with community tagging being the &quot;baby step&quot; towards helping build large repositories of labeled media.
+
+To answer the original question, &quot;taxonomy or folksonomy&quot;, we look at the emergent trends in search: web directories didn&#039;t live long. Then came the glorious text search. To enable community to add more value to the web content, we now have social search. With billions of documents indexable on the web, a good guess for the future would be convergence on a combination of taxonomy and folksonomy, especially for media content.
+
+-Dr. Ramesh Sarukkai]]></description>
+		<content:encoded><![CDATA[<p>This is an interesting and important debate that Prof. Ramesh Jain brings out. Here are my personal thoughts on this.</p>
+<p>One of the goals in media search is to have a large searchable media index that enables consumers to search, discover and consume  media content. It is clear that pure content analysis is still not a viable option for achieving this for millions of videos/images. The main attraction with tagging (social or derived from web pages) is that we have large scale systems with video/image/audio search capabilities with more precision than comparable CBIR systems. Products such as Yahoo! video, Flickr  and image search that millions use on a daily basis. </p>
+<p>That said, tagging/meta-data alone is not the complete long-term solution to the Multi-media information retrieval problem, and there will be continued opportunities/techniques leveraged down the road to combine different sources of information (whether it be from community tagging or content analysis). Even if you look at related areas such as automatic speech recognition or Optical Character Recognition, it is clear that augmenting media specific models with *large amounts of data* from non-media sources to provide context (such as the Wall Street Journal text corpus) greatly boosted the ability to build viable products: A similar trend will ensue for media search, with community tagging being the &#8220;baby step&#8221; towards helping build large repositories of labeled media.</p>
+<p>To answer the original question, &#8220;taxonomy or folksonomy&#8221;, we look at the emergent trends in search: web directories didn&#8217;t live long. Then came the glorious text search. To enable community to add more value to the web content, we now have social search. With billions of documents indexable on the web, a good guess for the future would be convergence on a combination of taxonomy and folksonomy, especially for media content.</p>
+<p>-Dr. Ramesh Sarukkai</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

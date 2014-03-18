@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>CS 154 Lab 6: Controller, Complete MIPS CPU</title></head>
+<body><c></c><h1>Complete MIPS CPU</h1>
+<h2> Lab 6</h2>
+<p>
+  The objective of this lab assignment is to design and implement a CPU. The
+  CPU consists of the data path, control unit (your design task in this lab),
+  and additional logic needed for PC update and ALU control.</p>
+<p>
+  The controller should work with the data path you implemented in lab 5. Or you can use <a href="image/datapath.svg" target="_blank">this one</a> as reference.
+</p>
+
+<a name="SPEC"><h3>Specification</h3></a>
+<p>
+  In this lab you will complete the design of the MIPS CPU by adding
+  controller unit to lab 5.</p>
+<p>
+  The control unit consists of a Moore state machine (FSM) with registered
+  output and a combination logic that generates "ALU_opcode". Your control
+  unit should correspond to a multi-cycle implementation. In a multi-cycle
+  implementation, each step takes 1 clock cycle. Following figure gives the
+  summary of the steps taken to execute any instruction class:<br>
+  </p><center><img src="./image/steps.gif"></center><br>
+  Note that the empty entries indicate that particular instruction takes
+  fewer than 5 cycles to execute. <b>You also need to implement JAL and I
+  type instructions which are not shown in the above table.</b><p>
+   Please turn in a <b>"bubble diagram"</b> of the FSM.</p>
+
+<p><b>Memory Unit Description:</b></p>
+<p> Memory is byte addressable and has 32 words, where the lower half
+stores the instruction, and the upper half stores the data. Even though
+lw / sw and IF access the memory, there is no possibility of having
+multiple memory requests in the same clock cycle. An example memory is
+shown below:<br>
+  </p><center><img src="./image/memory.gif"></center><br>
+  Please note that the cell immediately under the field "Final code" shows
+  the bit number of each instruction bit.<p>
+  <b>Be careful for memory write instructions. Do not overwrite the instructions.</b></p>
+
+<h3>Design</h3>
+<p>
+  Your task is to first design the controller
+  (<a href="./lab6.zip">control.vhd</a>) and then incorporate it with the
+  data path you built in previous labs to make a CPU.&nbsp;</p><p>Inside
+entity "lab6" you need to connect the controller with your lab5
+datapath. &nbsp;Then, simulate your design using ModelSim. The final
+top-level entity "lab6" will only have 2&nbsp;inputs: clk and reset_N.</p>
+<p>
+  The <a href="./lab6.zip">template VHDL files</a> are provided to you. The
+  interface (that is, ports) is already defined. You need to add code for
+  functionality in these files to make them work.</p><p>Timing
+is very imporant for this lab. The basic idea is to start operation at
+the beginning of each cycle, and commit the result to various registers
+on the rising edge that ends this cycle.&nbsp;</p><p>For example, in
+fetch stage, start memory access in the beginning of each cycle by
+generating a pulse on the MemRead signal, also start calculating PC + 4
+on the ALU at the same time. Both memory operation and ALU calculation
+would have some delay, but the result should be ready by the end of the
+cycle. Therefore, at the end of this cycle, on the rising edge of the
+clock, new PC (PC+4) is committed to the PC register, and new
+instruction is committed to the IR register.</p><p>Another example, in
+decode stage, 2 things happen: register access, branch target
+calculation. So in the beginning of this cycle, we would use rs and rt
+to read the register file. At the same time, we calculate the branch
+target [ PC + Sign_extend(Immediate &amp; "00") ]. Both operations will
+have some delay, but the result should be ready by the end of the
+cycle. So on the rising edge that terminates this cycle, register
+values are committed to RegA and RegB, at the same time branch target
+is committed to ALUOut.</p><p>In order to achieve this, the control
+signals should be stable on the clock edge. Especially the write enable
+signals (PCUpdate, IRWrite, RegWrite). We may need to use "after 1 ns"
+in the signal assignments.</p><h3>Verification</h3>
+<p>
+  To start, use the program segment given above to test your design. Then,
+  develop your own program segment(s) for more rigorous testing. Test your
+  design in a step-by-step fashion, e.g., make sure that your CPU executes
+  the R-format instructions correctly and then addresses the others. The
+  program segment to be used during the demo WILL BE different from the one
+  above).</p>
+<p>You need to test the following:<br>
+</p><ol>
+  <li>Memory access instruction (LW - 5 steps, SW - 4 steps) </li>
+  <li>ALU Computation (I or R type instruction, 4 steps)</li>
+  <li>Branch Equal/Not Equal. (3 steps)</li>
+  <li>Jump. (J, JAL - 3 steps)</li>
+</ol>
+<p>
+  Minimal requirement for this lab is fully functionally correct design i.e.
+  ModelSim project with the test bench showing that your design satisfies
+  all previous requirements:<br>
+   - Correct execution of a given code fragment.<br>
+   - Execution of each instruction in the specified number of steps
+     (defined above). The time interval between two consecutive rising
+     edges is 40 ns.</p>
+
+
+
+<p> Please name your folders and files according to the given <a href="./index.html#submission"><b>SUBMISSION GUIDELINES </b></a>.
+</p>
+</body></html>

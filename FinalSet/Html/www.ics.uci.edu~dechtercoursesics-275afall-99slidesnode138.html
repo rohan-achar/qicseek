@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Opening New Streams</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Opening New Streams">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html3909 HREF="node139.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html3907 HREF="node135.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html3901 HREF="node137.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html3911 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html3910 HREF="node139.html"> Communication with Streams</A>
+<B>Up:</B> <A NAME=tex2html3908 HREF="node135.html"> Input and Output</A>
+<B> Previous:</B> <A NAME=tex2html3902 HREF="node137.html"> System Streams</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION001130000000000000000> Opening New Streams</A></H1>
+<P>
+<A NAME=openstream>&#160;</A>
+A stream is opened for input or output by means of the <b> open/3</b> predicate.
+<A NAME=2083>&#160;</A>
+The goal
+<blockquote> <PRE>open(File, Mode, Stream)
+</PRE></blockquote> opens a communication channel
+with the file specified by <i> File</i>.
+<P>
+<i> File</i> may be an atom or a string, and takes
+the form of a file name in the host machine environment<A NAME=tex2html457 HREF="footnode.html#2296"><IMG ALIGN=BOTTOM ALT="gif" SRC="http://www.ecrc.de/eclipse/new_icons//foot_motif.gif"></A>.
+In the UNIX environment, file names can take several forms:
+<UL><LI> abolute path name, e.g. /usr/peter/prolog/file.pl
+<LI> relative to the current directory, e.g. prolog/file.pl
+<LI> relative to the own home directory, e.g. <IMG  ALIGN=BOTTOM ALT="" SRC="img15.gif">/prolog/file.pl
+<LI> relative to a user's home directory, e.g. <IMG  ALIGN=BOTTOM ALT="" SRC="img16.gif">peter/prolog/file.pl
+<LI> start with an environment variable, e.g. $HOME/prolog/file.pl
+</UL>
+<P>
+<i> Mode</i> is one of the atoms <tt> read</tt>, <tt> write</tt>, <tt> append</tt>,
+<tt> update</tt> or <tt> string</tt>,
+where the stream is to be opened for input, output, output at the
+end of the existing file, both input and output or to a string, respectively.
+Opening a file in <tt> write</tt> mode will create it if it does not exist,
+and erase the previous contents if it does exist.
+Opening a file in <tt> append</tt> mode will keep the current contents
+of the file and start writing at its end.
+The mode <tt> string</tt> specifies a stream to/from a string and
+is described in detail in section <A HREF="node143.html#stringio"><IMG ALIGN=BOTTOM ALT="gif" SRC="http://www.ecrc.de/eclipse/new_icons//cross_ref_motif.gif"></A>.
+<P>
+<i> Stream</i> is a logical stream identifier or an uninstantiated variable.
+The stream identifier may then be used in predicates
+which have a named stream as one of their arguments. For example
+<blockquote> <PRE>open(`foo', update, stream), write(stream, subject)
+</PRE></blockquote>
+will write the atom
+<i> subject</i> to the file `foo'.
+A stream <i> Stream</i> opened by the <b> open/3</b>
+predicate may be subsequently closed by
+the call
+<blockquote> <PRE>close(Stream)
+</PRE></blockquote>
+The predicate
+<blockquote> <PRE>pipe(In, Out)
+</PRE></blockquote>
+opens a pipe, i.e. two streams, <i> In</i> for reading and <i> Out</i>
+for writing, which are connected together using the <i> pipe(2)</i>
+system call.
+This mechanism is normally used to communicate with other processes
+which were forked by the main process, but it can also be used
+to temporarily store some data instead of writing
+it into a file, however for this purpose a string stream is
+more efficient.
+Before any reading is possible, the output
+must be usually flushed with <b> flush/1</b>.
+The term being read from the input end of the pipe
+must be written in a valid Prolog syntax,
+and so it must be terminated by a fullstop.
+An example of its use:
+<blockquote> <PRE>[eclipse 1]: pipe(in, out).
+
+yes.
+[eclipse 2]: write(out, &quot;output_term(args).\n&quot;), flush(out).
+
+yes.
+[eclipse 3]: read(in, X).
+
+X = output_term(args)
+yes.
+</PRE></blockquote>
+If too much data is written into the pipe without reading it,
+<A NAME=tex2html458 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  may be suspended by the operating system.
+<P>
+<BR> <HR><A NAME=tex2html3909 HREF="node139.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html3907 HREF="node135.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html3901 HREF="node137.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html3911 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html3910 HREF="node139.html"> Communication with Streams</A>
+<B>Up:</B> <A NAME=tex2html3908 HREF="node135.html"> Input and Output</A>
+<B> Previous:</B> <A NAME=tex2html3902 HREF="node137.html"> System Streams</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

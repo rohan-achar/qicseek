@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/moments/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Extreme Stories: 10</title>
+		<link>http://ngs.ics.uci.edu/extreme-stories-10/</link>
+		<comments>http://ngs.ics.uci.edu/extreme-stories-10/#comments</comments>
+		<pubDate>Thu, 08 Mar 2012 13:40:55 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[data driven stories]]></category>
+		<category><![CDATA[Moments]]></category>
+		<category><![CDATA[reporting]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1405</guid>
+		<description><![CDATA[Given the status of technology today, it is very easy to capture experiential data, such as photos, for events and even organize them. That means that one can now easily store experiential data and use it to tell stories. This&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>Given the status of technology today, it is very easy to capture experiential data, such as photos, for events and even organize them.  That means that one can now easily store experiential data and use it to tell stories.  This means that now that the stories can have more real data associated with them.  In this respect the art of storytelling is getting closer to reporting.  It may appear that we may lose some important features of stories in this process.  Stories based on captured experiences will definitely be different from those that were based on recreating experiences using only text.  For one thing, stories are becoming more data driven.  Just see popular websites like Facebook â€“ where many stories are being told by posting photos and Albums.  Or look at Pinterest where stories are being told by collecting appropriate pictures from different sources.  For small or micr stories, people are commonly using sites like FourSquare and Path where stories are being told by collecting different data â€“ photos, location, text, and audio &#8211;  about an event.  This shows that people realize that it is more important to describe (and share) more details of the event than just a textual description.  In place of saying that I am on gate 13 at Orange County airport, I can share the map based location, the name of the place (gate 13), and picture of the place  at that moment with almost the same effort (but of course with significantly more bits) as in only text.  And that is the difference that technology is making â€“ particularly smart phones have made.</p>
+<p>This is OK to share micro stories.  But what will happen when you want to tell â€˜realâ€™ stories that unfold over time.  Say you want to share the experience about what happened in 2011, or how your relationship unfolded with Tom, or how dis you build the team and made your dreams real?</p>
+<p>Well stories are made of micro stories.  There is â€˜glueâ€™ needed to put them together, but there are always â€˜momentsâ€™ that are pulled and then glued to make the complete story.  It is quite possible that you may be living those moments and not capture them using your phone, but ultimately all these stories really represent selecting those moments, making them concrete by using appropriate experiential data, and then providing all necessary glue.  Remember a beautiful building is made of raw material that is piled at some stage.  By selecting appropriate components from different piles and putting it together, an architect and a builder convert it to a beautiful and useful place.  A storyteller must select experiential data of all available moments and put it together to tell a story.  Just a collection of data for moments is only as much a story as putting together all photos from the year in random order are story of the year.  Even a simple organization, like putting them in time order, starts becoming more interesting â€“ then putting them on a timeline makes them more interesting.  If we start putting some meta data about each picture, we start providing more components of the story.</p>
+<p>Effectively, technology has given us tools that allow us to collect all this data effortlessly.  We also have tools to store and organize this data so we can easily pull out what we need.  But the problem of selecting appropriate data from relevant moments is a difficult one.  And then rendering it in a compelling order is the art that storytelling is.  Current technology is changing the nature of stories â€“ by making them more data driven â€“ but it is not going to make everybody a Mark Twain or a Steven Spielberg â€“ it is only helping by reducing efforts in collecting experiences that were either not possible to collect or were very difficult and this in turn will result in making stories closer to facts than fiction.  The fiction component will be the â€˜glueâ€™ to make stories more interesting and compelling.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/extreme-stories-10/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Photo Taking Behaviour: Past</title>
+		<link>http://ngs.ics.uci.edu/photo-taking-behaviour-past/</link>
+		<comments>http://ngs.ics.uci.edu/photo-taking-behaviour-past/#comments</comments>
+		<pubDate>Tue, 15 Mar 2011 05:50:32 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Entrepreneurism]]></category>
+		<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[managing photos]]></category>
+		<category><![CDATA[Moments]]></category>
+		<category><![CDATA[Sharing photos]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1319</guid>
+		<description><![CDATA[A few days ago, I came back from a trip to Evanston, Illinois. There I met lots of important and interesting people and took lots of photos. The weekend before that also traveling and was in Tempe for an event&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>A few days ago, I came back from a trip to Evanston, Illinois.  There I met lots of important and interesting people and took lots of photos.  The weekend before that also traveling and was in Tempe for an event on digital culture and took lots of photos at the event and other places.  On my return flight from Chicago, I was reflecting on my own photo taking behavior.  The changes in my behavior are nothing short of astounding.  Maybe I am the only one going though this change â€“ but somehow I feel that I am not the only one, but that the society is going through a very interesting and very rapid transformation in photo taking behavior.  I will describe my behavior over three decades â€“ though the dates donâ€™t exactly coincide with the calendar dates but are close enough for the message.</p>
+<p>In 90s (that is 1990s), I was still living in the 20th century.  I used to take my camera only to very important events and was quite careful in taking photos â€“ subconsciously I believed in Kodak Moments because I knew that I will have to pay to Kodak for each photo twice once when I bought the role and then when I got it developed.  Those were the days, when I was quite careful in deciding which moments are really important to capture and save because they had to be valuable to me in terms of inconvenience of taking my camera with me, money for film and its development, organizing those photos in a form that I could reflect those moments, and share those moments by sending photos.</p>
+<p>In 2000s, I started using my digital camera â€“ went through many generations of cameras from low Mega Pixels to 14 Mega Pixels with increasingly sophisticated features both in my pocket instant cameras to my SLR cameras.  In 2010 it was common for me to carry on all important trips at least a Nikon P6000 and Nikon D80.  The P6000 was always in my bag and was most of the time with me.  In early part of the decade I was still quite conscious of the fact that each photo needed to be transferred to my computer and required lots of memories.  In fact, I even deleted photos that were blurred or duplicate.  I slowly started using multiple photo management software and started kind of dumping my photos because the storage was becoming cheap.  Sharing was a serious issue in the early part of the decade.  I even printed some photos and sent hard copies to people.  In some cases I event sent photos by mid decade.  Towards the end of the decade, I was regularly uploading photos on multiple computers and even some cloud-based services â€“ even became premium user on multiple services.  Even started using Eye-Fi card to automatically transfer photos using Wi-Fi services so I did not have to spend time on transferring photos.  This resulted in a very interesting change.  Earlier I regularly transferred â€˜goodâ€™ photos on Flickr but now I automatically transferred them all to Flickr in addition to my hard disk.  This also meant that all my photos on Flickr became private â€“ did not want to spam people; and I did not have time to go to Flickr and change privacy settings for â€˜goodâ€™ photos.  So,  in a funny but true sense as I started taking more photos, I started sharing fewer photos.</p>
+<p>Some other interesting changes took place because of the arrival of Facebook.  Since many of my friends started sharing photos and many people I wanted to share photos with were on Facebook, I started uploading important photos on Facebook.    I was very motivated to carry both my P6000 and D80 in 2008 and  part of 2009 to all places and important events that I visited â€“ was very motivated to capture lots of moments visually and then share those with my friends and family. </p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/photo-taking-behaviour-past/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

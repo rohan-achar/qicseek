@@ -1,0 +1,75 @@
+<HTML>
+   <!--start document-->
+<head>
+   <!--beginning of head section-->
+   <!--begin title name of html doc-->
+<TITLE>Sherri Johnson</TITLE>
+   <!--end title-->
+   <!--this META tag contains the type of info. I am storing-->
+<meta name="author" content="Sherri Johnson
+<META NAME="description" CONTENT="Sherri Johnson's Home Page">
+<meta name="keywords" content="aisics, sherri johnson, confederated software solutions">
+  <BASE HREF="http://www.ics.uci.edu/~aisi/97_aisics/people/sjohnson/">
+</HEAD>
+   <!--end head section-->
+   <!--beginning of body tag, and
+    color setting for the attributes text, background,and the visited and active links-->
+<BODY BACKGROUND="images/BK3.GIF" TEXT="#000000" BGCOLOR="#C0C0C0" LINK="#660066" VLINK="#990066" ALINK="#800080">
+   <!--beginning of the header tag using the align attribute to center-->
+<IMG SRC="images/aisic003.gif">
+<H1 ALIGN="center"><FONT COLOR="Maroon" FACE="Garamond" SIZE="7">Sherri Johnson</FONT></H1>
+   <!--end header tag-->
+   <!--center paragraph and insert the image source rule02.gif-->
+<CENTER><P><IMG SRC="images/rule02.gif" ></P></CENTER>
+   <!--end center and paragraph tags-->
+   <!--start of a new paragraph-->
+<FONT FACE="Lucida Sans Unicode">
+<CENTER><P>WELCOME!!!</CENTER></P>
+   <!--end paragraph tag-->
+<P><center><IMG SRC="images/rule02.gif" ></center></P>
+   <!--begin header tag and use align attribute to center-->
+<H3 ALIGN=CENTER>Hot Links</H3>
+   <!--end header-->
+   <!--insert image bullet2 then anchor resume-->
+<center><IMG SRC="images/bullet2.gif" > <A HREF="confed_home.html">Business Page</A><BR>
+<IMG SRC="images/bullet2.gif" >&nbsp;&nbsp;&nbsp; <A HREF="resumetable.html">My Resume </A><BR>
+   <!--end anchor and break line-->
+   <!--inserts bullet before anchoring my tribal link-->
+<IMG SRC="images/bullet2.gif" >&nbsp;<A HREF="mytribepg.html">Tribal History</A><BR>
+   <!--end anchor and break line-->
+   <!--inserts the image bullet2.gif before anchoring my 2nd link-->
+<IMG SRC="images/bullet2.gif" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <A HREF="secondlink.html">Travel </A><BR>
+   <!--end anchor and break line-->
+   <!--inserts bullet before my next link-->
+<IMG SRC="images/bullet2.gif" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <A HREF="http://www.ucdavis.edu">UC Davis</A><BR>
+   <!--end anchora and break line-->
+   <!--inserts bullet2 image then anchors a new link to UCI-->
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="images/bullet2.gif" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <A HREF="http://www.uci.edu">UCI</A></CENTER>
+   <!--end link and break-->
+   <!--centers paragraph before inserting image rule02.gif-->
+<p><hr size=4 width="100%"></p>
+   <!--end paragraph and center tags-->
+   <!--new paragraph with text to be displayed following and the 
+    end paragraph syntax at the end-->
+<P><center>Thank you for visiting my web page. Hope to see you again!</P>
+   <!--new paragraph--><!--italic--><!--anchor link to my email address-->
+<P>If you have comments or suggestions, email me at <I><A HREF="mailto:sjohnson@
+ics.uci.edu">sjohnson@ics.uci.edu</center></A></I>
+</font>
+   <!--end anchor--><!--end italic-->
+</P>  <!--end paragraph-->
+   <!--center paragraph - anchor link and insert image with a border thickness of 1-->
+
+   <!--end anchor, paragraph and center tags-->
+   <!--center paragraph with bold on-->
+   <!--end bold, paragraph and center-->
+</BODY>
+   <!--end body-->
+</HTML>
+   <!--end document-->
+
+
+
+

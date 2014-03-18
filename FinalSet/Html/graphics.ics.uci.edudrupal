@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>iGravi: Interactive Graphics & Visualization | Shine light on truth.</title>
+  
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+    
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/drupal/misc/favicon.ico" type="image/x-icon" />
+ 
+
+  <link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/default/files/ctools/css/dbdead02f12aa1580fccadb165c0c5e9.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/fckeditor/fckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/panels/css/panels.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/panels/plugins/layouts/flexible/flexible.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/layout.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/graphics.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/typography.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/links.css?s" />
+  
+  <!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="/drupal/sites/all/themes/marinelli/iestyles/ie6.css" />
+<![endif]-->
+
+  <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="/drupal/sites/all/themes/marinelli/iestyles/ie7.css" />
+<![endif]-->
+  
+  
+  <script type="text/javascript" src="/drupal/misc/jquery.js?s"></script>
+<script type="text/javascript" src="/drupal/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/drupal/sites/all/modules/panels/js/panels.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/drupal/" });
+//--><!]]>
+</script>
+</head>
+
+
+<body>
+  <div id="utilities">
+    
+    <div id="plinks">     
+             <ul class="links primary-links"><li class="menu-206 active-trail first active"><a href="/drupal/front" class="active">Home</a></li>
+<li class="menu-209"><a href="/drupal/node/4" title="Projects">Projects</a></li>
+<li class="menu-194"><a href="/drupal/node/2" title="Publications">Publications</a></li>
+<li class="menu-210"><a href="/drupal/node/8" title="People">People</a></li>
+<li class="menu-178 last"><a href="/drupal/node/1" title="Login">Login</a></li>
+</ul>     
+               </div>          </div>
+
+
+<div id="page">
+
+  <div id="header">
+
+ <h1 class="sitetitle">
+	      <a href="/drupal/" title="Home">
+	        iGravi: Interactive Graphics &amp; Visualization	      </a>
+	    </h1>	    
+  
+ 	  	  
+ <p class="slogan">Shine light on truth.</p>
+
+  </div>
+
+ 
+         
+       
+   
+
+  <div class="wrapper"><!--wrapper:defines whole content margins-->
+  
+  
+   <div id="primary" class="long">               <div class="singlepage">
+	   
+	  
+            
+		 		 
+                            <div class="drdot">
+<hr />
+</div>
+         
+          
+ <div class="panel-flexible panels-flexible-1 clear-block" >
+<div class="panel-flexible-inside panels-flexible-1-inside">
+<div class="panels-flexible-row panels-flexible-row-1-main-row panels-flexible-row-first clear-block">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-1-main-row-inside panels-flexible-row-inside-first clear-block">
+<div class="panels-flexible-region panels-flexible-region-1-left panels-flexible-region-first ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-1-left-inside panels-flexible-region-inside-first">
+<div class="panel-pane pane-views pane-news-list" >
+  
+  
+  
+  <div class="pane-content">
+    <div class="view view-News-list view-id-News_list view-display-id-default view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/drupal/node/58">Paper accepted in GD/SPM13</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">09/03/2013 - 14:49</span>
+  </div>
+  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/drupal/node/57">Uddipan and Gopi&#039;s paper won the sole best paper award at ICVGIP 2012</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">12/21/2012 - 04:09</span>
+  </div>
+  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/drupal/node/56">UCI projection based display is in the logo for IEEE VR 2013</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">09/06/2012 - 15:34</span>
+  </div>
+  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/drupal/node/55">UCI gets unprecedented attention in Siggraph 2012</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">09/06/2012 - 15:32</span>
+  </div>
+  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/drupal/node/53">Paper accepted in Siggraph 2012</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">04/26/2012 - 17:07</span>
+  </div>
+  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/drupal/node/52">Paper accepted in TOG and to be presented in Siggraph 2012</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">04/26/2012 - 16:36</span>
+  </div>
+  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/drupal/node/51">Paper to be presented in IEEE Visualization 2012</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">04/26/2012 - 16:17</span>
+  </div>
+  </div>
+  <div class="views-row views-row-8 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/drupal/node/54">IEEE VR and ACM I3D is hosted by UCI in Orange County</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">03/26/2012 - 17:53</span>
+  </div>
+  </div>
+  <div class="views-row views-row-9 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/drupal/node/46">Prof. Majumder&#039;s research appears in UCI main page feature</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">10/16/2011 - 01:18</span>
+  </div>
+  </div>
+  <div class="views-row views-row-10 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/drupal/node/45">Prof. Majumder becomes nVidia Academic Partner</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">10/16/2011 - 01:17</span>
+  </div>
+  </div>
+  <div class="views-row views-row-11 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/drupal/node/44">Prof. Aditi Majumder and Prof. M. Gopi brings in nVidia grants to make UCI a CUDA Teaching Center</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">10/14/2011 - 02:30</span>
+  </div>
+  </div>
+  <div class="views-row views-row-12 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/drupal/node/41">M. Gopi is the Conference Co-chair of I3D and Aditi Majumder is the General Co-chair of VR</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">09/01/2011 - 03:37</span>
+  </div>
+  </div>
+  <div class="views-row views-row-13 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/drupal/node/39">Majumder Delivers ISVC Keynote</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">12/30/2010 - 14:52</span>
+  </div>
+  </div>
+  <div class="views-row views-row-14 views-row-even">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/drupal/node/38">Majumder receives Best Paper Award at IEEE CVPR Workshop on PROCAMS</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">09/30/2010 - 14:55</span>
+  </div>
+  </div>
+  <div class="views-row views-row-15 views-row-odd">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/drupal/node/37">Majumder and Sajadi win Best Paper award at IEEE Virtual Reality 2010</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">04/30/2010 - 14:52</span>
+  </div>
+  </div>
+  <div class="views-row views-row-16 views-row-even views-row-last">
+      
+  <div class="views-field-title">
+                <span class="field-content"><a href="/drupal/node/36">Majumder, Sajadi receive paper award at IEEE Visualization</a></span>
+  </div>
+  
+  <div class="views-field-created">
+                <span class="field-content">10/30/2009 - 14:49</span>
+  </div>
+  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>   </div>
+
+  
+  </div>
+  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-1-right panels-flexible-region-last ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-1-right-inside panels-flexible-region-inside-last">
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-row panels-flexible-row-1-1 panels-flexible-row-last clear-block ">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-1-1-inside panels-flexible-row-inside-last clear-block">
+  </div>
+</div>
+</div>
+</div>
+      </div>
+
+    </div>
+
+
+   
+   
+   
+        	<!-- left -->
+        
+   	<!-- right -->
+        
+
+
+ <div class="clear"></div>
+
+  </div>
+</div>
+<!-- Close Page -->
+<div id="footer">
+
+
+   <a href="http://drupal.org"><img src="/drupal/misc/powered-blue-80x15.png" alt="Powered by Drupal, an open source content management system" title="Powered by Drupal, an open source content management system" width="80" height="15" /></a><p>Donald Bren School of Information and Computer Science<br />
+University of California, Irvine - Irvine, CA 92697</p></div>
+</body>
+</html>

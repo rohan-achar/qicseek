@@ -1,0 +1,1862 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<title>Gene 4.3 User Guide</title>
+</head>
+<body>
+<h1><img src="images/GeneTree.gif" width="32" height="32" alt="">
+Gene 4.3 User Guide</h1>
+
+<p>Gene is a shareware Macintosh genealogy database management
+program, written by Diana and David Eppstein. (Diana did most of
+the programming, while David contributed to the database design,
+algorithms, and documentation.) Gene stores genealogical
+information in cards representing people, places, pictures, and
+events. You can use Gene to store family data and notes, draw and
+print family trees and pedigree charts, show how different people
+are related, create printed reports and web pages, or browse the
+database by clicking on names in cards and trees.</p>
+
+<p>Gene's clean user interface has drawn critical praise: "The look
+of this prodigiously likable little shareware item should be the
+envy of designers of more expensive software" [David Pogue, <i>
+MacWorld</i> magazine, June 1995, p. 147]. But Gene is also capable
+of handling very complicated databases with thousands of names,
+multiple marriages and divorces, adoptions, illegitimate children,
+and intermarriage between relatives.</p>
+
+<p>This hypertext document provides a guide to using Gene version
+4.3. It includes information on the following topics.</p>
+
+<ul>
+<li><a href="#running">How to run the Gene program and create a new
+database</a></li>
+
+<li><a href="#menus">What each of Gene's menus does</a></li>
+
+<li><a href="#cards">How to enter and view family information in
+cards</a></li>
+
+<li><a href="#trees">How to create and print family trees</a></li>
+
+<li><a href="#pictures">How to add pictures to the database and
+link them to cards</a></li>
+
+<li><a href="#reports">How to create printed reports and web pages
+from your database</a></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h2><a name="running">1. Running Gene</a></h2>
+
+Run Gene by double-clicking on the Gene icon. Gene will ask you
+which database to load by displaying a dialog like the following
+one: 
+
+<p align="center"><img src="images/FileDialog.gif" width="364"
+height="233" alt="File dialog screenshot"></p>
+
+<blockquote><small>Note: the three-dimensional buttons in this
+image were produced by Greg Landweber's shareware software "Aaron";
+the file dialog may appear different on your screen but its general
+features should be similar.</small></blockquote>
+
+<p>From the file dialog, you can select a file to open, or press
+"New" to create a new database. You can also load a file without
+using the file dialog, by double clicking on the file or by
+dragging it onto the Gene icon.</p>
+
+<p>Once Gene loads your file, it will display a
+<a href="#listing cards">list</a> of the people in the database, in which you 
+can find and display individual cards. When you start a new database, Gene 
+will create a new card in which you can start recording information.
+</p>
+
+<p>While working in Gene, you may wish to save your work
+periodically; use the Save or Save as... commands in the File menu.
+Exit Gene by using the Quit command in the File menu. If you quit
+after you change the database, Gene will ask whether to save
+it.</p>
+
+<p>&nbsp;</p>
+
+<h3><a name="menus">1.1. What each of Gene's menus does</a></h3>
+
+Gene provides several menus on the Apple menu bar. 
+
+<ul>
+<li><a href="#file menu">The File menu</a> lists commands for
+opening and closing database files. It also has commands for
+printing and closing windows.</li>
+
+<li><a href="#edit menu">The Edit menu</a> includes the standard
+Macintosh text editing commands. It also includes some special
+commands used when changing card fields.</li>
+
+<li><a href="#card menu">The Cards menu</a> creates new entries in
+the database in the form of cards, removes entries, or lists all
+cards of a given type.</li>
+
+<li><a href="#pictures">The Pictures menu</a> includes commands for
+manipulating pictures, and for creating links from pictures to
+other cards.</li>
+
+<li><a href="#trees">The Trees menu</a> contains commands for
+drawing trees.</li>
+
+<li>The Windows menu lists the cards and other windows currently
+open by Gene, topmost card first. You can switch to another window
+by selecting its name in this menu.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h2><a name="files">2. Reading and Writing Files</a></h2>
+
+You can open any Gene database by double clicking it, dragging it
+onto Gene, running Gene and selecting it in the opening dialog, or
+using the "Open" command. 
+
+<blockquote><small>You can also use Gene to open files created by
+other programs, as long as they are in <a href="TechNotes.html">
+Gene's database format</a> or <a href="#gedcom">GEDCOM format</a>;
+to list such files in Gene's file dialog, uncheck the box labelled
+"Show Only Gene Files" by clicking on it with the
+mouse.</small></blockquote>
+
+<p>&nbsp;</p>
+
+<h3><a name="file menu">2.1. File menu commands</a></h3>
+
+<p>Gene's File menu provides the following commands for
+manipulating files.</p>
+
+<ul>
+<li>The "New" command creates a new Gene database. Gene can only
+have one file open at a time, so if you use this command while you
+are already working on another database, it will close that
+database first.</li>
+
+<li>The "Open" command reads in an existing Gene database. It asks
+for the file name using the same dialog that appears when Gene
+first starts up. Like the "New" command, any database you already
+have open will be closed before Gene loads another file.</li>
+
+<li><a href="#merging">The "Merge" command</a> combines the
+information from two databases, one already in memory and one in a
+file.</li>
+
+<li>The "Save" and "Save as..." commands store your database to a
+file. Whenever you change your database, use these commands to save
+your changes.</li>
+
+<li>The "Revert" command restores the database to the last version
+you saved. Use this command if you make a mistake such as deleting
+a card that would otherwise be difficult to undo.</li>
+
+<li><a href="#reports">The "Report" command</a> creates a report or
+web page in one of various formats from some or all of your
+database.</li>
+
+<li><a href="#gedcom">The "Import" and "Export" commands</a>
+exchange data with other programs using the GEDCOM interchange
+format.</li>
+
+<li>The "Print" command prints the current window (which may be a
+card, report, tree drawing, picture, or list of card names).</li>
+
+<li>The "Quit" command exits Gene after making sure you have saved
+your file.</li>
+
+<li><a href="#prefs">The "Preferences" command</a> tells Gene how
+you want it to act in certain situations.</li>
+</ul>
+
+In previous versions of Gene, this menu also contained a "Summary"
+command, but this has now been merged into <a href="#reports">the
+"Report" command</a>. 
+
+<p>&nbsp;</p>
+
+<h3><a name="prefs">2.2. Preferences</a></h3>
+
+The "Preferences..." command in the File menu allows you to change
+Gene's default behavior. When you use this command, Gene will bring
+up a dialog like the following one: 
+
+<p align="center"><img src="images/PrefDialog.gif" width="423"
+height="269" alt="Preferences dialog screenshot"></p>
+
+<p>Controls for different parts of Gene are contained in <i>
+panels</i> of the dialog; the menu at the top of the dialog
+controls which panel is displayed. The center section of the dialog
+contains the controls for each panel, and the bottom contains a
+description of the panel. Different panels are explained more
+detail elsewhere in this document:</p>
+
+<ul>
+<li><a href="#fileprefs">File preferences</a>. These panels tell
+Gene to show after reading a file, and which of two methods to use
+when saving files.</li>
+
+<li>Window preferences. These panels give the default window size
+and font to use when Gene displays a card or card list.</li>
+
+<li><a href="#treeprefs">Tree preferences</a>. This panel tells
+Gene what settings should appear by default in the <a href=
+"#tdialog">tree drawing dialog</a>.</li>
+
+<li><a href="#dateprefs">Date preferences</a>. These panels tell
+Gene how it should format dates, and how it should interpret dates
+with numeric months such as "8/2/1772".</li>
+
+<li><a href="#completing">Name completion</a>. This panel tells
+Gene whether the tab and escape keys should be used as shortcuts
+for completing abbreviated names, bypassing the more usual
+Macintosh behavior of those keys.</li>
+</ul>
+
+<p>When you are done setting preferences, use the "OK" button to
+save them. If you do not want to make any changes to the current
+preferences, abort the preferences dialog with the "Cancel"
+button.</p>
+
+<p>&nbsp;</p>
+
+<h4><a name="fileprefs">File preferences</a></h4>
+
+The <a href="#prefs">preferences dialog</a> includes two panels
+that control Gene's behavior while reading and writing files. 
+
+<p>The first panel, "Opening Files", tells Gene whether to show a
+status bar while opening the file, and what kind of card to list
+once the file is open. The same controls apply both when Gene is
+reading its own files, and also when it is <a href="#gedcom">
+importing GEDCOM files</a>.</p>
+
+<p>The second panel, "Saving Files", controls which of two methods
+Gene uses to save your file. The method we recommend involves
+creating a temporary file and renaming it. This uses some extra
+disk space while the save command is running, but protects against
+loss of data from system crashes. Gene can instead save directly to
+your original file, which is less safe but uses less disk
+space.</p>
+
+<p>&nbsp;</p>
+
+<h3><a name="merging">2.3. Merging pairs of Gene databases</a></h3>
+
+The "Merge" command in the File menu takes information from two
+Gene databases and merges them into a single file. After reading
+the first file, use Merge to read the second file. The default file
+name after the merge is that of the first file. If two cards in
+both databases have the same name, Gene will assume they refer to
+the same person and the information on the two cards will be
+merged. If both cards have information in the same field, Gene will
+keep only the information from the second card. The text pane of
+the merged card will have the concatenation of the texts from the
+two files. 
+
+<p>The "Merge Cards" command in the Cards menu can be used to clean
+up the results of a "Merge" command. If you have two cards
+representing the same person or place but with different names, use
+the "Merge Cards" command to combine them into a single card. This
+command will bring up a dialog specifying the two cards to use (by
+default, the top two cards). It then moves any links from the card
+marked "From" in the dialog, to the card marked "To", and deletes
+the "From" card. If a checkbox in the dialog is selected, it also
+copies information from the fields of the "From" card before
+deleting it.</p>
+
+<p>Both types of Merge command are somewhat simpleminded and can
+easily destroy information or produce incorrect information, so use
+them with caution; it would be a good idea to make an extra backup
+copy of your Gene database file before you use the Merge commands.
+Neither command is able to merge unnamed cards such as
+marriages.</p>
+
+<p>&nbsp;</p>
+
+<h3><a name="gedcom">2.4. Importing and exporting GEDCOM format
+files</a></h3>
+
+"GEDCOM" is the name of a file format for exchanging genealogy data
+between different programs. Like Gene's own database format, GEDCOM
+is text-based, which makes it easy to send across computer networks
+and between different kinds of computers. Gene supplies two
+commands for dealing with GEDCOM format files: 
+
+<ul>
+<li>The "Export" command creates a GEDCOM file from your
+database.</li>
+
+<li>The "Export Ancestors" command creates a GEDCOM file
+from a subset of the database, formed by the ancestors
+of the person listed in the top card, and of that person's spouse.
+This command is only available when Gene's top window
+is a person card.
+
+<li>The "Import" command reads a GEDCOM file into your
+database.</li>
+</ul>
+
+Not all information used by Gene fits easily into the GEDCOM
+format; for instance GEDCOM files have no good way to store
+pictures, or notes about place names. Therefore it would be best
+not to use the Import or Export commands for everyday reading and
+writing of your own database. However the Import command is useful
+for reading databases sent to you by other people, or created by
+different genealogy programs. The Export command can be used to
+create a file you can send to other people who don't have Gene or
+who don't use the Macintosh. 
+
+<p>When you use the Import command, Gene will ask for the name of a
+GEDCOM file to read. It will then translate the information in the
+file into the fields and notes of Gene cards. We recommend that you
+start a new Gene database before using the Import command, and then
+use the <a href="#merging">Merge command</a> to combine the
+imported data with an existing database, rather than importing the
+GEDCOM file directly into your database.</p>
+
+<blockquote><small>Gene understands most of the <a href= 
+"http://www.tiac.net/users/pmcbride/gedcom/55gctoc.htm">GEDCOM
+standard</a>, but some other genealogy programs export GEDCOM data
+in nonstandard formats. If Gene encounters any information it can't
+understand, it will place it in the <a href="#text">text pane</a>
+of the corresponding card so that you can translate it more
+intelligently by hand. Unlike Gene, GEDCOM does not require that
+each person have a unique name, so Gene's Import command
+automatically adds a number when necessary to the ends of names to
+make them unique. Because GEDCOM names can not be used to identify
+people uniquely, the Import command will create a new card for each
+person in the GEDCOM file, even when Gene already has information
+about people with the same name. This behavior differs from Gene's
+<a href="#merging">Merge command</a>, which combines two files'
+information on the same people.</small></blockquote>
+
+<blockquote><small>Note that some genealogy programs have a subtle
+bug in the way they export GEDCOM files, that can cause Gene some
+trouble when importing the files. GEDCOM files contain information
+in individual and family records; the family records typically
+contain marriage subrecords corresponding to the information stored
+in a <a href="#marriage cards">marriage card</a> in Gene. However
+some programs can only produce GEDCOM marriage subrecords when they
+know a date or place for the marriage; other families are left
+without this information. Gene can not automatically assume that
+every family is married, because one must also use GEDCOM family
+records for children born out of wedlock. However if Gene's Import
+command sees a family with no children, and no marriage
+information, it will create a <a href="#event cards">family event
+card</a> to note this problem so that there is some record that the
+people in the family are connected with each other. It is possible
+that the same programs may lose information about marriages without
+dates and places if they import GEDCOM files produced by
+Gene.</small></blockquote>
+
+<p>&nbsp;</p>
+
+<h3>2.5. What to do when Gene won't read your file</h3>
+
+It is unlikely that you will ever have a problem reading a Gene
+database, but if you do, here are some hints that could help you
+solve the problem. 
+
+<ul>
+<li>Make sure your file is a Gene database. Gene stores files in
+text format, and the dialog of files to open may list other
+text-format files (such as the Gene documentation) but since they
+are not Gene databases they can not be opened by Gene.</li>
+
+<li>If you load or import a very large file, you may get a message
+that Gene is running low on memory, or Gene may misbehave
+unpredictably. Exit Gene, select the Gene application file in the
+Finder, and use the "Get Info" command in the Finder's File menu.
+If the window that opens has a menu labeled "Show: General
+Information" change it to "Show: Memory". Change the "Preferred
+size" in the file information window to a larger number and try
+running Gene again.</li>
+
+<li>If you modified a Gene database using a program other than
+Gene, you might not have used the correct file format. Gene will
+tell you the line number at which it found a problem; open the file
+with a text editor and examine that line. Do not attempt to use
+programs other than Gene to edit your database unless you are sure
+you understand Gene's file format. See the <a href=
+"TechNotes.html">Gene Technical Notes</a> for detailed
+documentation of Gene's file format.</li>
+
+<li>If you have used ResEdit to add new card definitions to the
+file, some definitions may be incorrectly formatted, and Gene will
+complain about being unable to read the definitions. Check your
+definitions and change or remove the invalid ones. The format for
+card definitions is documented in the <a href="TechNotes.html">Gene
+Technical Notes</a>.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h2><a name="cards">3. Cards</a></h2>
+
+All information in Gene is stored in the form of <i>cards</i>.
+Cards for people record each person's name, birthday, and parents.
+There are separate <a href="#card types">card types</a> for places,
+marriages, deaths, and for other kinds of event or information. 
+
+<p>&nbsp;</p>
+
+<h3>3.1. The three panes of a card</h3>
+
+Each card is partitioned into three sections: fields, links, and
+text. 
+
+<ul>
+<li><a href="#fields">The fields</a> contain the information in the
+card itself.</li>
+
+<li><a href="#links">The links</a> form a list of all other cards
+that refer to this card.</li>
+
+<li><a href="#text">The text</a> can be used for notes or other
+unstructured information.</li>
+</ul>
+
+The three sections are each drawn in separate panes of the card,
+one on top of the other. In card types without card names (e.g.
+marriages) no links are possible so only the fields and text are
+drawn. Below, an example of a card is depicted, showing all three
+panes. 
+
+<p align="center"><img src="images/DanielFox.gif" width="412"
+height="324" alt="Card screenshot"></p>
+
+<p>&nbsp;</p>
+
+<h4><a name="fields">Fields</a></h4>
+
+The fields of a card consist of a sequence of lines, each with a
+field name and a box containing structured or unstructured data.
+Different fields structure their data in different ways. On a <a
+href="#person cards">person card</a>, like the one depicted above,
+there are five different kinds of fields: 
+
+<ul>
+<li>The name of the person, which is also used as the <a href= 
+"#names">name</a> of the card.</li>
+
+<li>The birthday, structured as a <a href="#dates">date</a>.</li>
+
+<li>The birthplace and parents. These are <a href="#card links">
+links</a> to other cards. Gene draws a triangle next to these
+fields to indicate that you can <a href="#follow">follow the
+link</a> and view the card on the other end, by clicking on the
+field name.</li>
+
+<li>The sex. This is an <a href="#enum">enumerated type</a>, which
+can take on one of three values: male, female, or blank
+(unknown).</li>
+
+<li>The source (not shown). This is similar to the birthplace and
+parents, in that it links to other cards, but it can link to
+several cards at once, with names separated by semicolons. Clicking
+on the field name opens a pop-up menu in which you can select which
+link to follow.</li>
+</ul>
+
+Some cards have a sixth field type: unstructured <a href=
+"#strings">text</a>. For instance this is used for the cause of
+death on a <a href="#death cards">death card</a>. 
+
+<p>&nbsp;</p>
+
+<h4><a name="links">Links</a></h4>
+
+The links pane of a card lists other cards that are connected to
+this one by their link fields. The list is sorted in chronological
+order so that it forms a time-line of events related to the card.
+Like link fields, entries in the links pane are marked by
+triangles; click on the triangle to <a href="#follow">follow the
+link</a> and view the corresponding card. You can copy and paste
+text from links, but it is not possible to change the link pane by
+editing it; instead you must go to the cards listed there and
+change their link fields. 
+
+<p>&nbsp;</p>
+
+<h4><a name="text">Text</a></h4>
+
+The third pane of each card is a region of text. It can hold
+information about a person or event that does not have the
+structure to be described as cards and fields (such as a copy of an
+obituary notice, or the line in the example card above), to keep
+notes about the progress of genealogical research, or for any other
+purpose. It is not possible to change the font or style of
+characters in the text. Gene automatically wraps lines of text to
+fit the width of the window. You can change the text using the
+standard Macintosh <a href="#edit menu">edit menu</a> features. 
+
+<p>&nbsp;</p>
+
+<h3><a name="card types">3.2. Card types</a></h3>
+
+Gene provides cards of different types for recording different
+kinds of genealogical information. 
+
+<ul>
+<li><a href="#person cards">Person cards</a> record the birth,
+parents, and gender of a person.</li>
+
+<li><a href="#place cards">Place cards</a> record a place name and
+the events occurring at that place.</li>
+
+<li><a href="#adoption cards">Adoption cards</a> document a child's
+adoption by new parents.</li>
+
+<li><a href="#name change">Name Change cards</a> list an
+alternative name for a person.</li>
+
+<li><a href="#death cards">Death cards</a> list the date, place,
+and other particulars of a person's death.</li>
+
+<li><a href="#marriage cards">Marriage cards</a> record the
+spouses&Otilde; names and the date of the wedding.</li>
+
+<li><a href="#divorce cards">Divorce cards</a> are used to mark
+those marriages ending in divorce.</li>
+
+<li><a href="#event cards">Event and Family Event cards</a> are
+used to record events other than those above.</li>
+
+<li><a href="#document cards">Document cards</a> record names of
+books and other information sources.</li>
+
+<li><a href="#citation cards">Citation cards</a> link a person with
+a reference to the person in a document.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h4><a name="person cards">Person cards</a></h4>
+
+Person cards have seven fields: the name, birthday, birthplace,
+mother, father, sex, and source. The name field records the name of
+the person, and is used to refer to the card. The birthday is a
+date, and is used to position the card's line in the link panes of
+other cards. The birthplace links to a card for the place where the
+person was born. The mother and father link the card to cards for
+the person's parents, so that you can click on the field names to
+display those cards; the <a href="#links">link panes</a> of the
+mother and father will therefore include a list of all their
+children ordered by age. The sex field can take three values male,
+female, or blank (unknown); if Gene can, it will fill this field in
+automatically from the roles the person plays in other events. 
+
+<p><a name="source">The source</a> contains one or more <a href= 
+"#document cards">document titles</a> for the sources of
+information used to fill in this person card, such as birth
+certificates, books or other records, or interviews with surviving
+relatives. It is very important to record sources so that you or
+other genealogists can assess the reliability of the information
+you have recorded. If there is more than one source, their titles
+should be separated by semicolons. More detailed source information
+can also be recorded using <a href="#citation cards">citation
+cards</a></p>
+
+<p>&nbsp;</p>
+
+<h4><a name="place cards">Place cards</a></h4>
+
+The only field on a place card is its name. Most of the information
+in a place card will be in its links pane, which forms a time-line
+of births, deaths, marriages, and other events happening at that
+place. As with all other cards, place cards have a <a href="#text">
+text pane</a>, which could be useful for describing the location
+and appearance of the place, giving highlights of local history,
+etc. 
+
+<p>&nbsp;</p>
+
+<h4><a name="adoption cards">Adoption cards</a></h4>
+
+The convention in Gene is that the mother and father on a person's
+card refer to the parents who conceived and gave birth to that
+child. If that child is subsequently adopted, the adoption should
+be recorded separately on an adoption card. This card has fields
+for the parents adopting the child, the adopted child, the date and
+place of adoption, and the <a href="#source">source of
+information</a>. The adoption information will then appear in the
+links pane of the adoptive parents and the adopted child. 
+
+<blockquote><small>Adopted children will be included in <a href= 
+"#descendant trees">descendant trees</a> drawn by Gene, but the
+parents shown in an <a href="#ancestor trees">ancestor tree</a>
+will be the birth parents rather than the adoptive parents. If you
+want to have the mother and father on a person's card refer to the
+person's adopted parents, you can do so, but you will not then be
+able to record the person's birth parents.</small></blockquote>
+
+<p>&nbsp;</p>
+
+<h4><a name="name change">Name Change cards</a></h4>
+
+The name change card documents an alternative name that a person
+has chosen to use, due to marriage or some other reason. The
+primary name, listed in the <a href="#person card">person card</a>,
+should be the person's original birth name. Alternative names
+listed in name change cards will also appear in the <a href= 
+"#listing cards">name list window</a>; links to an alternative name
+will automatically be redirected to the original person card. This
+card has fields for the original name, new name, date of name
+change, reason for changing, and <a href="#source">source of
+information</a>. 
+
+<p>&nbsp;</p>
+
+<h4><a name="death cards">Death cards</a></h4>
+
+If a person dies, that information should be recorded in a death
+card. This card has fields giving the name of the deceased person,
+the date, place, and cause of death, and the <a href="#source">
+source of information</a>. It also has a field for the name of any
+surviving spouse; if you set this field, the death information
+appears on the links pane of the spouse's card, so that you can see
+it in context with any subsequent remarriage of that spouse. 
+
+<p>Even if nothing is known about the date, place, or cause of
+death, you might still want to create a death card, simply to
+record the fact of the person's death. This would be particularly
+useful for family members born recently enough that someone might
+otherwise think they might still be alive.</p>
+
+<p>&nbsp;</p>
+
+<h4><a name="marriage cards">Marriage cards</a></h4>
+
+The connection between a husband and wife should be recorded in a
+marriage card. This card has fields for the names of the married
+husband and wife, the date and place of their wedding, the <a href= 
+"#source">source of information</a>, and the minister or judge who
+married them. This last field is a string rather than a link, since
+usually the minister or judge will not be a family member. Even if
+you do not know the spouse or wedding date, you can make a marriage
+card for one person to show that he or she did not die unmarried. 
+
+<p>If a marriage ends in divorce, this should be recorded in a <a
+href="#divorce cards">divorce card</a>; If one spouse predeceases
+the other, this should be noted in a <a href="#death cards">death
+card</a>. In either case, the information will be listed in the
+spouse's <a href="#links">link pane</a>, so that you can see it in
+context with any subsequent remarriage of that spouse.</p>
+
+<p>Gene does not automatically make marriage cards for the parents
+of a child, since it can't know whether the parents are married.
+However the "Marry Parents" <a href="#templates">template</a>
+provides a convenient way of creating a marriage card for a
+person's parents.</p>
+
+<p>&nbsp;</p>
+
+<h4><a name="divorce cards">Divorce cards</a></h4>
+
+If a marriage ends in divorce, this fact should be recorded in a
+divorce card. Divorce cards have fields to record the husband's
+name, the wife's name, the date of divorce, and the <a href=
+"#source">source of information</a>. Since divorce proceedings
+generally happen over a period of time, the date will typically be
+approximate, and there is no place field. Gene does not check
+whether there is a marriage card with the same husband and wife as
+the divorce card. 
+
+<p>&nbsp;</p>
+
+<h4><a name="event cards">Event and Family Event cards</a></h4>
+
+Event cards can be used to record occurrences not fitting into the
+other predetermined card types. Common life events might include
+baptism, confirmation, bar mitzvah, graduation, engagement, and
+burial, but these cards can also be used for more specialized
+situations such as buying a house or starting a new job. 
+
+<p>Each event has six fields: the person to whom the event occurs,
+the date and place of the event, a brief description of the event,
+a four-letter codeword used when <a href="#gedcom">exporting to a
+GEDCOM file</a>, and the <a href="#source">source of
+information</a>. For the common events listed above, a single word
+such as "Baptized" should suffice in the event description field.
+More than one person can be included in the "Person" field;
+multiple names in this field should be separated by semicolons. For
+a menu of possible codewords, click on the "GEDCOM" field name. A
+description of the meaning of these codewords can be found in the
+<a href="http://www.tiac.net/users/pmcbride/gedcom/55gcappa.htm">
+GEDCOM standard, Appendix A</a>.</p>
+
+<p>The Family Event card differs from the event card in having
+separate links to two people, a husband and wife. It can be used
+for events such as engagements, banns, separations, or anything
+else that happens to a couple rather than to an individual. Gene
+does not check whether there is a marriage card with the same
+husband and wife as the family event card.</p>
+
+<p>&nbsp;</p>
+
+<h4><a name="document cards">Document cards</a></h4>
+
+A document card is used to record the name of a source of
+information, such as a certificate or book, that mentions the
+family you are researching. The document card has fields for the
+title of the document (also used as the name of the card), the date
+the document was published, its author (a string, rather than a
+link), and its publisher. If you wish to record information about
+where the document can be found, or other notes about the document,
+these can go in the text pane of the document card. References
+within the document to a particular member of the family can be
+recorded using a <a href="#citation cards">citation card</a> or
+with the <a href="#source">source fields</a> available on many
+cards. 
+
+<p>&nbsp;</p>
+
+<h4><a name="citation cards">Citation cards</a></h4>
+
+You should use citation cards to record a passage within a document
+that refers to a specific family member. Citation cards have three
+fields: the name of the document containing the citation, the name
+of the person (or people, separated by semicolons) referred to in
+the citation, and a "reference" field which should be used to
+record page numbers or other information used to find the citation
+in the document. If the relevant passage in the document is
+sufficiently short, it may make sense to include it in the text
+pane of the citation card. 
+
+<p>&nbsp;</p>
+
+<h3>3.3. Menus</h3>
+
+<p>&nbsp;</p>
+
+<h4><a name="card menu">The Cards menu</a></h4>
+
+Gene provides a menu in the menu bar, labeled "Cards", that
+provides a variety of commands for adding and removing cards from
+the database or viewing lists of cards. 
+
+<ul>
+<li><a href="#creating cards">The "New Card" and "Templates"
+submenus, and "New of Same Type" command</a> add cards to the
+database.</li>
+
+<li><a href="#deleting cards">The "Delete Card" command</a> removes
+a card from the database.</li>
+
+<li><a href="#listing cards">The "List Cards" submenu and "List
+This Card" command</a> construct lists of the names of all cards
+having a particular card type.</li>
+
+<li><a href="#follow">The "Follow Link" command</a> opens a card
+named in a link field.</li>
+
+<li><a href="#merging">The "Merge Cards" command</a> combines the
+information from two different cards representing the same person
+or place.</li>
+
+<li>The "Find Unlinked" command opens all cards that do not have a
+connection (via a link or a link field) to the rest of the
+database. These cards likely should have been previously deleted or
+indicate some problem area to be cleaned up.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h4><a name="edit menu">The Edit menu</a></h4>
+
+Along with the commands in the Card menu, there are commands for
+manipulating card information in the Edit menu. This menu of course
+contains the standard Macintosh commands for cutting, copying, and
+pasting text, selecting all text, and undoing an edit command. It
+also contains a command for showing the clipboard, useful after <a
+href="#tcopy">using the Copy command on a tree drawing</a>. 
+
+<p>The Edit menu also contains three commands that are specific to
+cards and their fields: Enter, Cancel, and Complete. To make
+changes to a card field, edit it like any other piece of text. Gene
+does not actually store the information you have typed until you
+are done changing it. The signal that you are done is normally that
+you are moving to a different field by clicking the mouse, using
+the return key, or using the arrow keys. The Enter command provides
+a way of telling Gene that you are done editing a field, without
+moving to a different one. Since Gene does not actually store any
+changes until you are done with a field, you can also restore the
+field to the value it had before you started changing it, using the
+Cancel command.</p>
+
+<p><a name="completing">The Complete command</a> provides a way of
+abbreviating names and other information. If you type part of a
+person's or place's name, the Complete command will replace what
+you've typed by the longest match it can find to a name already in
+the database. The completion command can be shorcut using the
+escape key; the tab key also performs completion if it can't
+perform its more normal function of moving to another field.
+Completion of person names works in either last name first or first
+name first ordering (regardless of how the name is actually stored
+in your database), so for instance in a field linking a card to a
+person you could type "Ep" and partially complete the field to
+"Eppstein," then type "Da" and complete it again to "David Arthur
+Eppstein" using only six keystrokes instead of as many as
+twenty.</p>
+
+<p>&nbsp;</p>
+
+<h3><a name="creating cards">3.4. Creating new cards</a></h3>
+
+There are four methods of adding cards to a Gene database, two of
+which involve commands in submenus of the Cards menu. 
+
+<ul>
+<li>To create a new card automatically linked to the currently open
+card, use a command from the <a href="#templates">Templates
+submenu</a>.</li>
+
+<li>To create a new card with a link from the currently open card,
+type the new name into a link field of the card. Gene will bring up
+a dialog asking whether to create the new card, and if so whether
+to open it on the screen.</li>
+
+<li>To create a new card without any automatically filled in
+fields, use a command from the <a href="#new cards">New Cards
+submenu</a>.</li>
+
+<li>To create a new card of the same type as the currently
+displayed card, use the "New of Same Type" command, which functions
+as a shortcut to the New Cards submenu.</li>
+</ul>
+
+In all cases a new card will be added to your database, and Gene
+will open a window displaying the card. If you hold down the option
+key while selecting a command in the Templates or New Cards menu,
+or while using a keyboard shortcut for such a command, Gene will
+close the window for the currently open card and replace it with
+the newly created card. 
+
+<p>&nbsp;</p>
+
+<h4><a name="templates">Creating New Cards from Templates</a></h4>
+
+When you add information to a Gene database, you will likely want
+it to have links to the cards already in the database. The commands
+in the Templates submenu of the Cards menu provide a method of
+automatically creating those links when a card is created. Each
+Template command creates a new card of a certain type, and copies
+information from the fields of the currently open card to those of
+the new card. For instance, the "Marry parents" template copies the
+Mother field of the current person card to the Wife field of a new
+marriage card, and similarly copies the Father field to the Husband
+field. Many templates list keyboard shortcuts next to the command
+name. Certain templates work only for person cards with the Sex
+field non-empty, e.g. for the "Marriage" template Gene needs to
+know whether to link the card as a Husband or as a Wife. 
+
+<p>&nbsp;</p>
+
+<h4><a name="new cards">Creating New Empty Cards</a></h4>
+
+You can create new empty cards using the New Cards submenu of the
+Cards menu. Simply choose a card type from the menu. Gene will
+create a new card of that type, with all fields blank. You should
+then fill in the fields of the card, and in particular the name and
+link fields. As long as the fields and text remain blank, you can
+change your mind and close the window without adding a new record
+to your database. If you add new information to the card, it will
+be added to the database. 
+
+<p>The New of Same Type command acts as a shortcut to the New Cards
+submenu, and creates a new empty card of the same type as the
+currently displayed card or card list. If the topmost window is a
+picture, a new empty picture will be created.</p>
+
+<p>&nbsp;</p>
+
+<h3><a name="deleting cards">3.5. Removing cards from the
+database</a></h3>
+
+If you want to remove a card from the database, open a window for
+that card so that it is the topmost window visible in Gene, and use
+the "Delete Card" command in the Cards menu. Since this action is
+permanent and irrevocable, Gene will bring up a dialog asking you
+whether you really want to delete that card. 
+
+<p>&nbsp;</p>
+
+<h3><a name="follow">3.6. Following Links from Card to
+Card</a></h3>
+
+When you are viewing any card in the Gene database, you can open
+other cards related to it by following <i>links</i>. Many cards
+have <a href="#card links">link fields</a> giving the names of
+other related cards; in addition, a card with a name will have a <a
+href="#links">links pane</a> listing the cards with its name in
+their link fields. All of these links are indicated by small
+triangles in Gene. You can click your mouse on a triangle (or on
+the name of the corresponding field) to open the card on the other
+end of the link. If you hold down the option key while clicking on
+a link, the card you were previously viewing will be replaced by
+the other card; otherwise, the other card will be displayed in a
+new window. Alternately, Gene provides a "Follow Link" command in
+the Cards menu; position the cursor in a link field and use this
+command. 
+
+<p>&nbsp;</p>
+
+<h3><a name="field format">3.7. Adding Information to Card
+Fields</a></h3>
+
+You can change any field of a card by clicking the mouse in a field
+to position the cursor there, typing the new value of the field,
+and pressing the return key (or using Enter from the
+<a href="#edit menu">Edit menu</a>). Return differs from Enter in that it will
+move to the next field. If you make a mistake typing, use Cancel to
+return to the original field value. For certain field types, you
+can use <a href="#completing">Complete</a> (or the tab key) to save
+typing: type enough of the field to specify it unambiguously, and
+tab will fill in the rest. 
+
+<p>The following sections describe the format to use in filling in
+fields of different types.</p>
+
+<p>&nbsp;</p>
+
+<h4><a name="names">Card Names</a></h4>
+
+Certain cards, such as those for people and places, have a field
+designated as the card's name and used in links from other cards.
+You can change the name simply by typing and entering the new name
+in the field; all links will automatically be changed to the new
+name. No two cards of the same type can have the same name. The
+name of the card is used to refer to it in many other parts of
+Gene, so it is important to select it carefully. 
+
+<p>Gene can handle people's names either last name first ("Fox,
+Daniel") or first name first ("Daniel Fox"). These two formats are
+considered equivalent, so you can refer to the same card by either
+ordering, but the first name first order may look better in trees
+and printouts. Names are alphabetized by surname, then by the rest
+of the name, so all cards with surnames of "Fox" would be placed
+together. Since names are used to identify cards, each card must
+have a unique name. However in typical databases, some people will
+have the same names. We recommend that you add a number at the end
+of the name, such as "Daniel Fox (1)", when people have the same
+name, in order to tell them apart. If you try to use the same name
+for two different cards, Gene will ask whether to automatically add
+such numbers for you to make the names unique.</p>
+
+<blockquote><small>If the first name is first, Gene takes the
+surname to be the last word of the name (not counting "Jr.", "Sr.",
+or Roman numerals). If someone has a name involving several words,
+that you wish to write in first name first order, use the
+option-space character instead of the usual kind of space to
+separate the words in the last name. The option-space is sometimes
+known as a "no-break space", and usually looks a little wider than
+a normal space; type it by holding down the option key while you
+press the space bar. For instance, Gene would normally alphabetize
+the name "Peter van Emde Boaz" under "Boaz". To make Gene
+alphabetize this name under "Emde", use an option-space between
+"Emde" and "Boaz" in place of the normal space there. To make Gene
+alphabetize it under "van", use another option-space between "van"
+and "Emde".</small></blockquote>
+
+<p>Gene expects place names to be typed as a list of strings
+separated by commas, in order of greater generality from left to
+right, as "Tisbury, Martha's Vinyard, Massachusetts". Place names
+are alphabetized by the most general name first, so all cards with
+the final string equal to "Massachusetts" would be alphabetized
+together, and within that group all cards with the next string
+equal to "Martha's Vinyard" would be alphabetized together. Gene's
+requirement that names be unique is not such a problem for place
+names as it is for person names, as e.g. the Tisbury above and
+Tisbury, Wiltshire, England obviously have different names.</p>
+
+<p>&nbsp;</p>
+
+<h4><a name="dates">Dates</a></h4>
+
+Dates in Gene are formed by a month, day, and year or year range.
+Any of these fields can be omitted, but it is only possible to have
+a day of the month if the month is known. To represent an unknown
+date, simply leave it blank. The month can either be written by its
+name or by number, and month names can be abbreviated. 
+
+<p>Year numbers should include the century; do not abbreviate the
+year. Years should normally have three or four digits; if you wish
+to refer to a really early year, precede it with some zeros, as
+"007" so Gene can tell that you mean a year number and not a month
+number. You can specify a range of years by separating the start
+and end of the range by a slash or a dash, such as "1995-2001" or
+"1783/1784". You can also abbreviate any such range by including
+only as many digits as are different in the second number, so the
+second range above could be abbreviated "1783/4".</p>
+
+<p>Any date may be preceded by one of three modifier words
+"before", "after", or "circa". These may be abbreviated by the
+characters "&lt;", "&gt;", and "~" respectively. It is also
+possible to include a question mark at the end of any date, to
+indicate that you are unsure of its accuracy.</p>
+
+<p>&nbsp;</p>
+
+<h4><a name="dateprefs">Date preferences</a></h4>
+
+Gene's <a href="#prefs">preferences dialog</a> provides several
+panels controlling the way Gene formats dates in card fields, card
+links, and trees. (Gene does not allow you to change the date
+formats for its databases and for the <a href="#gedcom">Export
+command</a>.) Each of these panels provides menus that let you
+select whether modifiers and months should be abbreviated, how year
+ranges should be indicated, and what punctuation to use between the
+parts of a date. 
+
+<p>The "Date Input" panel controls how Gene interprets numeric
+months. If you write a month and date both as numbers, you must be
+consistent about which order you write them. The usual American
+practice writes the month first, so "8/2/1722" would mean August 2,
+1722. However the European convention is that the same date would
+be interpreted date first, as 8 February 1722. Gene will output
+numeric months consistently with the input ordering selected in
+this panel.</p>
+
+<p>&nbsp;</p>
+
+<h4><a name="card links">Links</a></h4>
+
+You can make a link from one card to another by typing the second
+card's name in the appropriate field of the first card; you can
+then <a href="#follow">follow the link</a> by clicking the mouse on
+the field name or using the "Follow Link" command. Each link field
+has a specified type of card to which it makes links, so you can
+not link the mother field of a person to a place, or the birthplace
+to a person. If the name you type is not in use, Gene will ask
+whether to create a new card. For most links, you need only type
+enough to unambiguously specify a unique card, then press tab or
+use <a href="#completing">"Complete"</a> from the Edit menu; Gene
+will fill in the rest of the name. However, place name completion
+is not currently implemented. 
+
+<p>If you change a link field, the link will point to a different
+card. If instead you want to keep the link to the same card, but
+change that card's name, you must open the window for that card and
+change the name field there. If you change the name of a card, any
+links to it will automatically change to match the new name. If you
+delete a card, any links to it will automatically be made
+blank.</p>
+
+<p>&nbsp;</p>
+
+<h4><a name="enum">Enumerated values</a></h4>
+
+The sex field of a person's card is of a special type that can only
+hold a finite number of different values; in the case of the sex
+field the possible values are male, female, or blank (unknown). The
+sex field is set automatically by Gene whenever a link is made in a
+way that will identify a person's gender (as a mother, husband,
+etc.) but if no such link exists you will need to set the sex by
+hand. To change the sex, simply type the new value or an
+unambiguous abbreviation, or click on the field name to make Gene
+show a pop-up menu of possible values. The sex is used by Gene to
+control how it uses certain <a href="#templates">templates</a> to
+create new cards. 
+
+<p>&nbsp;</p>
+
+<h4><a name="strings">Strings and Numbers</a></h4>
+
+Some cards have a field that can contain a single line of text. For
+instance this sort of field is used in <a href="#death cards">Death
+cards</a> to record the cause of the death. You can put whatever
+information you like in this sort of field. 
+
+<p>It is also possible to have a field that can only contain a
+number. This is not currently used in any of the cards defined in
+Gene, but is available for user-defined card types.</p>
+
+<p>&nbsp;</p>
+
+<h3><a name="listing cards">3.8. Making lists of cards</a></h3>
+
+To list all cards of a given type, select a card type from the List
+Cards submenu in the Cards menu, or use the "List This Card"
+command to list cards of the current card's type. Gene will then
+open a new window displaying an alphabetized list of card names. To
+open a card in the list, click on the triangle icon next to its
+name, or press return after selecting a name (with the mouse or by
+searching). You can scroll the list using the arrow keys. Shifted
+arrow keys scroll a window at a time instead of a line at a time.
+The Print command prints the list. 
+
+<p>You can select and copy text from the names window, but to
+change a name you must open that card and change it there. The
+names window is automatically updated to reflect changes made in
+other windows.</p>
+
+<p>When the active window is a list of card names, you can search
+for a part of any name just by typing that string. Gene will begin
+searching at the current selection point in the window, then wrap
+the search around to the beginning of the window if necessary. If a
+search fails, Gene will beep and the currently selected text will
+remain unchanged. You can search for substrings anywhere in names,
+so for instance "ana" would be found as a match in "Diana
+Eppstein". Upper and lower case letters are treated as equivalent,
+so the same matches would be found for "Ana". If a string in the
+name list window is already selected, each new character you type
+will be added to the end of the selection and Gene will search for
+the new longer string. The tab key searches again for the currently
+selected text. Shift-arrow keys lengthen the selection, and delete
+shortens it.</p>
+
+<p>A list of person cards is automatically displayed by Gene when
+it starts up; the choice of which card to list can be changed in
+the <a href="#prefs">preferences dialog</a>.</p>
+
+<p>&nbsp;</p>
+
+<h2><a name="trees">4. Trees</a></h2>
+
+The Trees menu bar provides commands for drawing trees that show
+the ancestors or descendants of a given person, or the relation
+between a pair of people. Trees can be viewed on the screen, sent
+to a printer or saved as a file. While viewing any tree, you can
+click on a name in a tree to brings up the corresponding card. To
+draw a tree, use one of the following tree-drawing commands in the
+Trees menu: 
+
+<ul>
+<li><a href="#descendant trees">The Descendants command</a> draws a
+tree of the descendants of some person.</li>
+
+<li><a href="#ancestor trees">The Ancestors and Ancestor Grid
+commands</a> draw the ancestors of some person.</li>
+
+<li><a href="#relations">The Relations command</a> depicts the way
+or ways two people are related.</li>
+</ul>
+
+When you use a tree-drawing command, Gene will bring up a dialog
+describing the information it needs, looking like the following
+one: 
+
+<p align="center"><a name="tdialog"><img src=
+"images/TreeDialog.gif" width="432" height="253" alt=
+"Tree dialog screenshot"></a></p>
+
+<p>In most cases you need merely fill out the name of a person and
+press "Ok". If you use a tree-drawing command when a person card is
+already open, you don't even need to do that much; the card's name
+will be filled into the dialog by default. Trees of relations
+require two names; if the other trees are given two names they will
+form a connected pair of trees starting with those names. To
+re-open the dialog used for a previous drawing, use the "Redo Tree"
+command.</p>
+
+<p>We include below the following examples of trees drawn by
+Gene.</p>
+
+<ul>
+<li><a href="#txdesc">A tree of descendants</a>, drawn in the
+horizontal style and including verbose information about births,
+deaths, and marriages.</li>
+
+<li><a href="#txanc">A tree of ancestors</a>, drawn vertically with
+terse birth and death dates.</li>
+
+<li><a href="#txgrid">An "ancestor grid"</a> drawn horizontally
+with names only.</li>
+
+<li>A display of the (multiple) <a href="#txrel">relations</a>
+between a pair of people.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h3><a name="treeprefs">4.1. Tree drawing options</a></h3>
+
+The options available on the <a href="#tdialog">tree dialog</a>
+include the following: 
+
+<ul>
+<li><a href="#twidth">The font and font size to use, and the width
+of the drawing.</a></li>
+
+<li>A menu for the type of tree to be drawn.</li>
+
+<li>Buttons and menus for "horizontal", "vertical", "names only",
+"terse", and "verbose" <a href="#tstyle">drawing styles</a>.</li>
+
+<li>A selection of different <a href="#tfile">output file
+formats</a>.</li>
+</ul>
+
+Some of these options may also be controlled by the Tree Drawing
+panel of the <a href="#prefs">preferences dialog</a>. The
+difference between setting the options in the tree dialog and the
+preferences dialog is that only the preferences dialog settings are
+remembered the next time you run Gene again. 
+
+<p>&nbsp;</p>
+
+<h4><a name="twidth">Font, font size, and width</a></h4>
+
+The tree dialog provides a space in which to select a font with
+which to draw people's names, and a size for that font. The default
+has been selected to be smaller than the font used to display
+cards, so that more information will fit in a single tree drawing.
+The size menu lists a number of standard font sizes; to choose
+another size not on this list, select the "Other..." entry from the
+menu, and enter the desired size in the dialog that results. This
+size will be added to the menu for your continued use. 
+
+<p>The dialog also provides a space for a number limiting the width
+of the tree. The meaning of this number varies according to the
+output format: on-screen drawings and postscript allow pixels,
+inches, or centimeters, while text and plotter output can measure
+only width in numbers of characters. You can convert from one unit
+to another by selecting the new unit in the pull-down menu on the
+dialog. This menu also has commands to set the width to the width
+of the screen (in pixels) or the current printer's page width (in
+inches). The default is to make tree drawings the width of the
+screen.</p>
+
+<p>&nbsp;</p>
+
+<h4><a name="tstyle">Tree drawing styles</a></h4>
+
+The tree dialog includes a menu below the tree drawing type,
+listing options "Names Only", "Terse", and "Verbose". This menu
+allows you to select between different styles of tree drawing. In
+verbose style, the tree will include abbreviated information from
+the cards, detailing the births, deaths, and marriages of the
+people in the tree. In terse style, only birth and death years are
+listed. And in names only style, no dates are shown. The example of
+an <a href="#txgrid">ancestor grid</a> in this file is drawn in
+names only style, the <a href="#txanc">ancestor tree</a> is drawn
+in terse style, and the <a href="#txdesc">descendant tree</a> is
+drawn in verbose style. 
+
+<p>In ancestor trees and grids, you can also choose whether to draw
+the tree vertically (as in the example) or horizontally (similar to
+descendant trees), using another pair of buttons in the tree
+dialog.</p>
+
+<p>&nbsp;</p>
+
+<h3><a name="descendant trees">4.2. Descendant trees</a></h3>
+
+The "Descendants" tree drawing command draws trees of the
+descendants of a specified person (or pair of people). As many
+generations of descendants are included as will fit within the
+specified width. If descendants are omitted their absence will be
+indicated by an ellipsis ("..."). Descendant trees can only be
+drawn horizontally. 
+
+<blockquote><small>If the same descendant appears in multiple
+positions in the tree (because of intermarriage), that person's
+name will appear in each place, but any further descendants in that
+line will be included only once; their absence in other places will
+be marked by ellipses as above. If an adopted child appears in a
+descendant tree drawn in the <a href="#tstyle">"Names Only"
+style</a>, the name of the child will be put in parentheses to
+denote a non-blood relation.</small></blockquote>
+
+<p>Below we show a descendant tree, drawn in the <a href="#tstyle">
+"verbose" style</a>.</p>
+
+<p align="center"><a name="txdesc"><img src="images/DescTree.gif"
+width="451" height="159" alt="Descendant tree screenshot"></a></p>
+
+<p>&nbsp;</p>
+
+<h3><a name="ancestor trees">4.3. Ancestor trees and grids</a></h3>
+
+The "Ancestors" tree drawing command draws trees of the ancestors
+of a specified person. Two styles are available: vertical and
+horizontal. We include an example of the vertical style; horizontal
+trees are similar to descendant trees. 
+
+<p align="center"><a name="txanc"><img src="images/AncTree.gif"
+width="431" height="231" alt="Ancestor tree screenshot"></a></p>
+
+<blockquote><small>As the example shows, vertical trees can merge
+ancestral lines together when the tree involves marriages between
+cousins. A horizontal tree for the same person would list some
+ancestors twice.</small></blockquote>
+
+<p>A different type of ancestor tree drawing, the "Ancestor Grid",
+connects generations alternately left-right and up-down, so that
+ancestors are spread in a grid around their common descendant. The
+horizontal or vertical style determines which direction is used
+first. The tree structure of these drawings is less clear than in
+the "Ancestors" tree but the grid can sometimes fit more names in
+the given space. Unlike the other tree drawings, when the ancestor
+grid runs out of room to add more generations it simply cuts the
+tree off, without adding any ellipses. Below we show a horizontal
+ancestor grid.</p>
+
+<p align="center"><a name="txgrid"><img src="images/AncGrid.gif"
+width="432" height="267" alt="Ancestor grid screenshot"></a></p>
+
+<p>&nbsp;</p>
+
+<h3><a name="relations">4.4. Relation drawings</a></h3>
+
+The "Relations" tree drawing command takes the names of two people
+in the database, and depicts any blood relationship between those
+people as a form of vertical tree (similar to the vertical ancestor
+tree style). If the two specified people are not known to be
+related, Gene will display a message explaining that it could not
+find a relationship. If the two people belong to a highly
+intermarried family, such as the British royal family (shown in the
+example), they may have more relations than will fit in the
+specified width; in this case Gene displays a warning message and
+shows as many relations as will fit, keeping those involving the
+fewest generations. 
+
+<p align="center"><a name="txrel"><img src="images/Relation.gif"
+width="419" height="423" alt="Relation drawing screenshot"></a></p>
+
+<p>&nbsp;</p>
+
+<h3><a name="tformat">4.5. Printing and saving trees</a></h3>
+
+Gene provides several methods for printing the trees it draws, or
+for storing them in files. 
+
+<ul>
+<li><a href="#tprint">The "Print" command</a> sends a tree directly
+to the printer.</li>
+
+<li><a href="#tcopy">The "Copy" command</a> saves the tree so it
+can be pasted into another application.</li>
+
+<li><a href="#tfile">The "Save PICT file" command</a> copies a tree
+you have already written directly to a file, stored in the
+Macintosh PICT format.</li>
+
+<li><a href="#makepict">The "Make Picture Card" command</a> turns a
+tree drawing into a permanent part of your Gene database.</li>
+
+<li><a href="#tfile">Trees can be drawn directly to files</a> by
+selecting the output format in the tree dialog.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h4><a name="tprint">Printing trees</a></h4>
+
+The "Print" command in the <a href="#file menu">File menu</a> sends
+a tree directly from Gene to the printer. When a tree drawing is
+the active window, the Print command will create a printout of the
+drawing. Use "Print Setup" first to change any necessary printer
+parameters such as whether the printout should be in portrait mode
+(taller than it is wide) or landscape mode (wider than it is tall),
+depending on the shape of the tree you are printing. 
+
+<p>You may need to draw your tree with a narrower width than the
+default, in order to get it to fit on a page; <a href="#twidth">the
+"page width" command in the width menu of the tree dialog</a>
+causes the tree to be drawn just wide enough to fit on a page (as
+determined by the printer settings from the last time Page Setup
+was used). If your tree extends over multiple printed pages, Gene
+will slightly overlap the portions of the tree printed on each
+page, to make it easier for you to join the result into one big
+tree.</p>
+
+<p>Some printer drivers have an option for sending their output to
+a file instead of a printer, so it may be possible for you to use
+the Print command to save your tree as a postscript file, portable
+document file, or other format file depending on what printer
+drivers you have installed.</p>
+
+<p>&nbsp;</p>
+
+<h4><a name="tcopy">Copying trees</a></h4>
+
+The "Copy" command in the <a href="#edit menu">Edit menu</a> copies
+trees from Gene to the Macintosh clipboard, so they can be pasted
+into other programs. The tree will be copied as a "Pict" format
+object, which is a Macintosh standard that is understood by most
+word processors and drawing programs. To produce other formats such
+as GIF or JPEG, use a file format conversion utility; or (for JPEG)
+<a href="#makepict">convert the tree into a card</a> and change its
+storage type to JPEG. The "Show Clipboard" command in the Edit menu
+views whatever you have most recently copied. 
+
+<p>&nbsp;</p>
+
+<h4><a name="makepict">Converting trees into picture cards</a></h4>
+
+The "Make Picture Card" command in the Trees menu can be used to
+save a tree drawing permanently as part of your Gene database. It
+converts the tree to a <a href="#pictures">Picture card</a>, and
+automatically creates <a href="#buttons">buttons</a> linking the
+new picture to each of the cards named in the drawing. 
+
+<p>&nbsp;</p>
+
+<h4><a name="tfile">Drawing directly to files</a></h4>
+
+Gene can create files containing tree drawings, in several formats:
+
+
+<ul>
+<li>PICT. This standard Macintosh image format can be created by
+drawing a tree to the screen, then using the "Save PICT file"
+command in the tree drawing menu.</li>
+
+<li>Text. To create tree drawings as text files, select "Text" in
+the output style menu in the tree drawing dialog. This format is
+suitable for electronic transmission or storage on non-Macintosh
+computers. However since all graphics are simulated using text
+characters, it is not very pretty. Width in this format refers to
+the number of characters allowed on a single line; the default
+width is 80 characters.</li>
+
+<li>Hewlett-Packard plotter format. This format can also be
+selected in the output style menu in the tree drawing dialog. As
+with text, width is measured in characters. If you specify a large
+width, the plotter will print your file using small characters, so
+that the tree exactly fits the size of the paper in the
+plotter.</li>
+
+<li>Postscript. This is accepted by most modern printers and can be
+understood by many drawing programs. Gene can not directly output
+postscript files, but you can create them by selecting the
+"Laserwriter" printer driver for your Macintosh, using the <a href= 
+"#tprint">Print command</a> to print your tree, and selecting the
+button in the print dialog marked "Destination: File". This should
+work even if you don't have a laserwriter attached to your
+Macintosh. The "PDFWriter" printer driver from Adobe can similarly
+be used to produce "pdf" files.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h2><a name="pictures">5. Pictures</a></h2>
+
+Along with the textual information stored in cards, a Gene database
+can contain pictures. Pictures can be used to display scanned
+photographs, maps, birth certificates, or any other graphical
+image. Gene also includes a method for creating <a href="#buttons">
+buttons</a> in pictures, so that clicking the mouse on a region of
+the picture will automatically display a specified card. For
+instance, one could place buttons on the faces in a picture,
+connecting it to the corresponding people, or on the place names in
+a map, connecting it to the corresponding place cards. 
+
+<blockquote><small>Gene stores pictures in either of two ways. The
+picture data can be stored directly in your file, or instead the
+database can store an <i>alias</i> to a separate picture file.
+Storing a picture directly may be more convenient in terms of using
+and sharing your data, since you only need to keep track of a
+single file; however if you have many pictures in your database,
+all stored directly, your file may grow very large and unwieldy.
+Therefore Gene also allows you to store pictures in separate files,
+with the database storing only an alias to the file (essentially
+this is just the file name together with some extra information to
+help find the file if you move it to a different location). The <a
+href="#buttons">Edit Picture</a> dialog displays the storage type
+in a menu that can also be used to change this
+type.</small></blockquote>
+
+<blockquote><small>Displaying pictures (stored either way) can
+cause Gene to use large amounts of memory. To avoid running out,
+you may wish to increase the total memory allocated to Gene, by
+using the Macintosh "File-&gt;Get Info" command on the Gene
+application and changing the numbers in the application's
+information window.</small></blockquote>
+
+<p>Gene provides the following commands in the Pictures menu for
+dealing with pictures.</p>
+
+<ul>
+<li><a href="#newpict">The "New Picture" and "Paste From File"
+commands</a> (along with "Paste" in the Edit menu) should be used
+in combination to add new pictures to your database.</li>
+
+<li>The "List Pictures" command creates a list of all names of
+pictures, similar to the lists of cards created by Gene's <a href= 
+"#listing cards">"List Cards" command</a>.</li>
+
+<li><a href="#buttons">The "Edit Picture" command</a> displays a
+dialog that can be used to name a picture, <a href="#pictfmt">
+change the way it is stored</a>, or create buttons linking the
+picture to other cards.</li>
+
+<li>The "Delete Picture" command removes a picture from the
+database.</li>
+
+<li><a href="#pictpanes">The "Show Links" command</a> displays a
+list of any other pictures that have buttons connecting to this
+one.</li>
+
+<li><a href="#pictpanes">The "Show Caption" command</a> allows you
+to include with a picture some text describing its contents.</li>
+
+<li>The "Fit Window" command tells Gene to resize the window a
+picture is displayed in to match the image's size.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h3><a name="pictfmt">5.1. Image formats</a></h3>
+
+To add a picture to a Gene database, you will first need to have
+created an electronic version of the picture with a scanner or
+other hardware and software. Gene requires its pictures to be in
+either of two formats: the Macintosh-standard PICT format, or the
+WWW-standard JPEG format. (GIF format is not supported due to
+restrictive licensing requirements by the owner of the patents on
+its compression routines.) Most drawing and image-manipulation
+software packages allow you to save your image as a PICT file, or
+to use the Copy command in their Edit menu to copy a PICT version
+of the image to the Macintosh clipboard. Gene can handle PICT
+images created by either of these methods. 
+
+<p>JPEG pictures must be stored in a separate file from your
+database; PICT pictures can either be separate or stored as a
+"resource" as part of your database.</p>
+
+<p>Once you have a picture in your database in any one of these
+formats, you can convert it to another format by using the "storage
+type" menu on the <a href="#buttons">"Edit Picture" dialog</a>. If
+appropriate, Gene will ask for a file name to store the converted
+image.</p>
+
+<p>&nbsp;</p>
+
+<h3><a name="newpict">5.2. Creating new pictures</a></h3>
+
+<p>Adding a picture to Gene is a three step process. First you must
+create a place to store the picture, using the "New Picture"
+command. Gene will create a picture card, but will not have any
+image to display for it. Second, use either the "Paste" command (in
+the Edit menu) or the "Paste From File" command (in the Pictures
+menu) to paste an image into the picture you have created. Third,
+after either type of paste command, you should use the <a href= 
+"#buttons">"Edit Picture" command</a> to give your picture a name,
+so that when you close the picture or run Gene at a later time you
+can use the "List Pictures" command to find the picture again.</p>
+
+<p>The Paste command copies an image from the Macintosh clipboard
+to the currently open picture. Most Macintosh programs that create
+or manipulate images will have a Copy command that places an image
+onto the clipboard, from which it can be pasted into Gene. Images
+added to Gene with the Paste command are stored directly in the
+Gene database.</p>
+
+<p>The Paste From File command will put up a dialog asking for a
+file, in PICT or JPEG format, containing an image. Once you specify
+a file, Gene will display that image, and store an alias pointing
+to the file. Once you have pasted a picture this way, you should
+not move or delete the file, since then Gene may be unable to find
+the image stored in it.</p>
+
+<p>&nbsp;</p>
+
+<h3><a name="buttons">5.3. Naming pictures and adding
+buttons</a></h3>
+
+The "Edit Picture" command displays a dialog like the following
+one. 
+
+<p align="center"><img src="images/EditPicture.gif" width="432"
+height="282" alt="Edit pictures dialog screenshot"></p>
+
+<p>The top part of this dialog deals with the picture as a whole.
+Every picture should be given a name, using the space provided
+here; without a name it would be difficult for you to find the
+picture and display it again. The "Done" button tells Gene to stop
+displaying the Edit Picture dialog and return to viewing the
+picture. The "Find Picture" button leaves the dialog displayed, but
+selects the picture itself as the active window.</p>
+
+<p>The larger region in the lower part of the dialog is used to
+create <i>buttons</i>. A button is a rectangular region of the
+picture, having the property that if you click your mouse in it,
+Gene will automatically display some other card or picture. Buttons
+in pictures are therefore similar to links in cards, and in fact
+any buttons connecting a picture to a card will be listed in the
+card's <a href="#links">links pane</a>. However, unlike links,
+buttons can connect pictures to cards of different types, and even
+to other pictures. The only requirement is that the card or picture
+to be displayed must have a name. A picture may have many buttons
+(for instance a scanned image of a group portrait might have a
+separate button on each of the faces in the portrait).</p>
+
+<p>To create a button, open the Edit Picture dialog, use the "Find
+Window" command to go back to the picture's window, and use your
+mouse to select a rectangular region. Gene will create a button
+corresponding to that region and put you back in the Edit Picture
+dialog so you can type the name of the card to be opened by that
+button. By default, Gene makes buttons connecting to person cards;
+to make a button to a different type of card use the "Card Type"
+menu before you can set the card name. To make a link to another
+picture, simply choose "Picture" as the card type. To create a
+button covering most of the picture, without having to select the
+whole picture using your mouse, select the New Button command in
+the Edit Picture dialog.</p>
+
+<blockquote><small>Once you have created a button, Gene will
+display its boundary as a rectangle on the picture. You can change
+the size and shape of the button to fit the desired region of the
+picture either by clicking and dragging the rectangle boundaries in
+the picture, or by changing the numbers controlling the button's
+boundaries in the Edit Picture dialog. If two buttons overlap, only
+the first one of them will be activated by a mouse click in the
+region of overlap; use the "Move To Front" and "Move To End"
+commands in the Edit Picture dialog to control the ordering among
+the buttons.</small></blockquote>
+
+<p>&nbsp;</p>
+
+<h3><a name="pictpanes">5.4. Captions and Links</a></h3>
+
+Pictures in Gene are treated in many ways like cards; in particular
+they have a <a href="#links">links pane</a> and a <a href="#text">
+text pane</a>, just like cards. However by default Gene only
+displays these panes if they are non-empty. Normally, the only
+links shown in a picture's links pane will be buttons in other
+pictures. The text pane of a card is more useful; it can be used to
+record a brief caption describing the contents of the picture, the
+source and date of the picture, or any other information you want.
+To add text to a picture, use the "Show Text" command to make the
+text pane visible, use the mouse to select the text pane, and type
+the text. Once you have added text to a picture, the text pane will
+be displayed by default whenever you open the picture again. To
+hide the text pane leaving more room on the screen for the picture
+itself, use the "Show Text" command again. 
+
+<p>&nbsp;</p>
+
+<h2><a name="reports">6. Reports</a></h2>
+
+The "Report" command in the <a href="#file menu">File menu</a>
+(also available using the Command-R keyboard shortcut) produces
+formatted output describing Gene's database in various ways.
+Reports can be viewed on the screen, printed out, imported into a
+word processor for further editing, or output directly to a
+world-wide web page in HTML format. When you use this command, Gene
+will bring up a dialog asking which type of report to produce and
+where to put the output. 
+
+<p>The following report formats are available:</p>
+
+<ul>
+<li><a href="#anc fam rep">Ancestor Families</a> gives detailed
+information on the ancestors of an individual or couple.</li>
+
+<li><a href="#anc rep">Ancestors</a> lists the names or brief
+summaries of the ancestors of an individual or couple.</li>
+
+<li><a href="#calendar">Calendar</a> shows the database events
+occurring on each day of the year.</li>
+
+<li><a href="#desc fam rep">Descendant Families</a> gives detailed
+information on the descendants of an individual or couple.</li>
+
+<li><a href="#anc rep">Descendants</a> lists the names or brief
+summaries of the descendants of an individual or couple.</li>
+
+<li><a href="#fam rep">Family Group</a> gives detailed information
+on a single family (parent or parents and their children).</li>
+
+<li><a href="#summary rep">File Summary</a> shows how many cards of
+each type are in the database.</li>
+
+<li><a href="#single card rep">Single Card</a> creates a report
+showing the fields, links, and text of the topmost card
+window.</li>
+
+<li><a href="#whole rep">Whole Database</a> makes a listing of all
+the cards in the database, as they would be displayed by Gene.</li>
+</ul>
+
+<p>Each report can be output in any of several different
+styles:</p>
+
+<ul>
+<li>View on Screen produces the report in a window on the computer
+screen. This option can also be used in combination with the Print
+command to print out reports directly from Gene. (MacOS version 7
+is required for this output style to work best. Users of earlier
+system software will see views without some of the detailed
+formatting available in other output styles.)</li>
+
+<li>HTML File and HTML Multiple Files output the reports in a
+format suitable for publication on the world-wide web. They differ
+in that for some formats such as whole file, HTML Multiple Files
+will split the report into many small interlinked web pages, while
+HTML File will produce one large page.</li>
+
+<li>LaTeX produces a file to be input to the LaTeX document
+processing system.</li>
+
+<li>Rich Text produces a file that can be imported by Microsoft
+Word and many other word processing programs.</li>
+
+<li>Simple Text produces the report as a plain text file, suitable
+for emailing or viewing in the SimpleText program.</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<h3><a name="anc fam rep">6.1. Ancestor Families Report</a></h3>
+
+The Ancestor Families report gives detailed information on the
+ancestors of an individual or couple. It begins by displaying a
+dialog like the following one: 
+
+<p align="center"><img src="images/AncFamDlog.gif" width="492"
+height="268" alt="Ancestor families dialog screenshot"></p>
+
+<p>The most important parts of this dialog are the Father and
+Mother fields, the number of generations, and the checkbox "Only
+expand same gender lines", since these are the parts that control
+which families are listed in the report. If only a Father or Mother
+is specified, the report will start with that person's family: any
+spouses or children he or she may have. If both are specified, the
+report will start with only the events and children shared by the
+two specified individuals. The report describes these two people,
+shows the events they have in common, and lists their children.
+Then, it similarly includes the families of the father and mother's
+parents, grandparents, and so on, to the limit of the number of
+generations specified in the report. If no limit is specified, all
+ancestor families will be included. If "Only expand same gender
+lines is checked, only the direct father-to-father or
+mother-to-mother line will be followed, depending on whether the
+Father or Mother fields in the dialog are filled in. (So for
+instance you can trace the male ancestors of a female individual by
+putting the individual's name in the Father field, even though that
+individual is not herself a father.)</p>
+
+<p>The three style menus control the way Gene lists each person
+mentioned in a family. The styles available are the same as those
+in <a href="#trees">tree drawings</a>. However, unlike trees,
+individuals' names are reported in boldface to make them stand out
+from the rest of the information in the report.</p>
+
+<p>Most of the other options on this dialog control various
+formatting options: whether to assign individuals numbers
+(according to the order they are output), include counts of the
+number of children of each child in the family, include names of
+grandparents, and include the text panes of the parent cards.</p>
+
+<p>&nbsp;</p>
+
+<h3><a name="anc rep">6.2. Ancestors Report</a></h3>
+
+<p>The Ancestors report is similar to the Ancestor Families report
+in listing the ancestors of a specified individual or couple.
+However, unlike the Ancestor Families report, the ancestors are
+listed by individual rather than by family, without the notes and
+lists of children included in the Ancestor Families report.
+Numbering of individuals in this report is done according to the
+so-called "Ahnentafel" scheme, in which the father of a person with
+number n has number 2n, and the mother has number 2n+1. If two
+individuals are specified for the start of the report, we instead
+use a modified Ahnentafel numbering scheme in which the father has
+number 2n+1 and the mother has number 2n+2, so that all individuals
+in the report have distinct numbers.</p>
+
+<p>&nbsp;</p>
+
+<h3><a name="calendar">6.3. Calendar Report</a></h3>
+
+<p>This report produces a list of all births, marriages, and deaths
+for which an exact date is listed in the database, broken down by
+month and sorted by which day of the year each event occurred.</p>
+
+<p>&nbsp;</p>
+
+<h3><a name="desc fam rep">6.4. Descendant Families Report</a></h3>
+
+<p>The Descendant Families report gives detailed information on the
+descendants of an individual or couple. It begins by displaying a
+dialog similar to the one used by the <a href="#anc fam rep">
+Ancestor Families</a> report, asking for formatting options and the
+names of one or two individuals to start the report.</p>
+
+<p>If only a Father or Mother is specified, the report will start
+with that person's family: any spouses or children he or she may
+have. If both are specified, the report will start with only the
+events and children shared by the two specified individuals. The
+report describes these two people, shows the events they have in
+common, and lists their children. Then, it similarly includes the
+families of the children, grandchildren, and so on, to the limit of
+the number of generations specified in the report. If no limit is
+specified, all descendant families will be included. If "Only
+expand same gender lines is checked, this report only expands
+children having the same gender as the parent being listed. (Note
+that this is subtly different from the "expand same gender lines"
+option in Ancestor Families, and unlike that report is unable to
+trace the male-line descendants of a female ancestor or vice
+versa.)</p>
+
+<p>&nbsp;</p>
+
+<h3><a name="desc rep">6.5. Descendants Report</a></h3>
+
+<p>The Descendants report is similar to the Descendant Families
+report in listing the descendants of a specified individual or
+couple. However, unlike the Descendant Families report, the
+ancestors are listed by individual rather than by family, without
+the notes and lists of children included in the Ancestor Families
+report. If numbering is turned on, the children within any family
+are numbered in order.</p>
+
+<p>&nbsp;</p>
+
+<h3><a name="fam rep">6.6. Family Group Report</a></h3>
+
+<p>This report starts by bringing up a dialog asking for the names
+of a mother and/or father, along with some formatting options,
+similar to the dialog in the <a href="#anc fam rep">Ancestor
+Families</a> report. If only a Father or Mother is specified, the
+report will start with that person's family: any spouses or
+children he or she may have. If both are specified, the report will
+start with only the events and children shared by the two specified
+individuals. The report describes these two people, shows the
+events they have in common, and lists their children.</p>
+
+<p>&nbsp;</p>
+
+<h3><a name="summary rep">6.7. File Summary Report</a></h3>
+
+<p>This report produces a listing of how many cards there are in
+the current database, separated by type and by whether each card
+has a name or is unnamed. It replaces a similar top-level command
+in earlier versions of Gene.</p>
+
+<p>&nbsp;</p>
+
+<h3><a name="single card rep">6.8. Single Card Report</a></h3>
+
+The "Single Card" report shows the fields, links, and text of the
+topmost card window, in roughly the same format as they would be
+displayed on the screen. 
+
+<p>&nbsp;</p>
+
+<h3><a name="whole rep">6.9. Whole File Report</a></h3>
+
+<p>The "Whole File" report produces a listing of all cards in the
+database, in roughly the same format as they would be displayed on
+the screen. Although this report can be viewed on screen like any
+other report, it is intended primarily for printing out one's
+database or creating a web site based on it. Large databases may
+cause Gene to spend a long time making this report, so Gene uses a
+status bar to display its progress.</p>
+
+<p>&nbsp;</p>
+
+<hr>
+<p><small>Copyright 1995-2000 David and Diana Eppstein.</small></p>
+</body>
+</html>
+
+

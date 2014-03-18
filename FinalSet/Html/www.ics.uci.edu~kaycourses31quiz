@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="GENERATOR" CONTENT="Globetrotter 1.1.1" />
+<META HTTP-EQUIV="UPDATED" CONTENT="Tuesday, November 22, 2005 9:30 AM" />
+<TITLE>ICS 31 Quizzes and Midterms</TITLE>
+<META HTTP-EQUIV="X-GLOBETROTTERDATA" CONTENT="33CB8976" />
+<META HTTP-EQUIV="DESCRIPTION" CONTENT="Homework Assignments for Informatics 41, the Informatics Core Course, using How to Design Programs by Felleisen, Findler, Flatt, and Krishnamurthi and Fluency by Snyder, at UC Irvine." />
+<META HTTP-EQUIV="COPYRIGHT" CONTENT="Copyright &#169; 2001-2004 by David G. Kay.  All rights reserved." />
+<link href="http://www.ics.uci.edu/~kay/courses/31/mainstyle.css" rel="stylesheet" type="text/css" />
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<p><FONT size="2"  >ICS 31 &bull; DAVID G. KAY &bull; UC IRVINE &bull; WINTER 2014</FONT></p>
+<p><FONT   SIZE=6><B>Quizzes</B></FONT></p>
+<P><font  >Every week (usually Sunday afternoon through Tuesday at 11:00 p.m.), a quiz will be available on EEE. The quizzes are self-scored; everyone who takes it receives full credit. </font></P>
+<P><font  >The <em>wrong</em> way to use the quizzes is to glance over them, say, &quot;Yeah, that looks okay,&quot; and just type whatever into the answer blanks on EEE. You'll still get the credit, but you won't get the experience of actually doing the problems, which is what you'll need for the midterms, the final, and just basically learning the course material so you'll succeed in the next course. Instead, work out each problem; pretend it's a real quiz. Don't look up the answers in the book or on line; by the time the quiz comes around, you're supposed to be familiar with the topics. (If you're not, </font>you might consider spending more time with the textbook or being a more actively questioning partner in the lab.)</P>
+<P><FONT ><FONT >(An even more foolish approach to  self-grading is to answer &quot;Zot! Zot! Zot!&quot; to every question, giving them no thought at all. The wise student will take the time to work through the quizzes independently, recognizing that these are previews of exam questions and an excellent way to prepare, review, and assess one's mastery of the material before the stakes get higher.)</FONT></FONT></P>
+<P>The text of the quizzes will be posted on this page; that way, if you should miss the EEE quiz period, you can still see the content of the quiz even if you don't get credit. Try not to miss any quizzes on EEE, though, because it's easy credit that everyone else is getting. If you happen to miss one, it's not a big deal, but the Tuesday deadline is firm; we can't extend it for people who just got busy and forgot.</P>
+<P>Some time later, answers will also be posted. The answers may even be posted before the EEE quiz period ends! Again, copying them into EEE doesn't get you more credit but it does short-cut the actual experience you need to actually develop proficiency. How do you know if your answer is correct if it doesn't match the printed answer exactly? Eventually you'll develop an understanding of what differences are important, but in the meantime, check with your TA or lab tutor, or (if the answer is Python code) simply try to run your answer and see if it behaves properly (or see if the assertions pass).</P>
+ <!--  
+     <i>[We intentionally posted this before the quiz formally closed so that people who have finished the quiz can see the answers. If you haven't taken the quiz, don't look yet. (Looking before taking the quiz won't raise your score; it will just deprive you of one more source of study materials.)]</i> --><!-- More background information appears below. -->
+
+<uL>
+  <LI>Quiz 1: 
+  
+  <a href="https://eee.uci.edu/quiz/ics31.w14.q1">Take the quiz</a> for self-scored credit at EEE (through 11:00 pm on Tuesday, January 14).  <a href="http://www.ics.uci.edu/~kay/courses/31/quiz/Quiz1.pdf">Quiz text</a> for later reference; 
+ <a href="http://www.ics.uci.edu/~kay/courses/31/quiz/Quiz1key.pdf"> 
+  Quiz answers</a> 
+   for still later reference.  Topics:  Course policies and advice; 
+   <!--applications of computing-->
+   Expressions involving ints, floats, and strings; sequences of statements involving input and output.</LI>
+  <LI>Quiz 2:
+ 
+  <a href="https://eee.uci.edu/quiz/ics31.w14.q2">Take the quiz</a> for self-scored credit at EEE (through 11:00 pm on Tuesday, January 21).  <a href="http://www.ics.uci.edu/~kay/courses/31/quiz/Quiz2.pdf">Quiz text</a> for later reference; 
+ <a href="http://www.ics.uci.edu/~kay/courses/31/quiz/Quiz2key.pdf"> 
+ 
+  Quiz answers</a>
+   for still later reference.  Topics:  Lists, namedtuples, lists of namedtuples, <code>sort()</code> method.</LI>
+ 
+
+     <LI>Quiz 3:
+  <a href="https://eee.uci.edu/quiz/ics31.w14.q3">Take the quiz</a> for self-scored credit at EEE (through 11:00 pm on Tuesday, January 28).  <a href="http://www.ics.uci.edu/~kay/courses/31/quiz/Quiz3.pdf">Quiz text</a> for later reference; 
+ <a href="http://www.ics.uci.edu/~kay/courses/31/quiz/Quiz3key.pdf">Quiz answers</a>
+   for still later reference. Topics: if and for, functions, string indexing, sorting lists of namedtuples.</LI>
+   
+
+  <LI>Quiz 4: 
+  <a href="https://eee.uci.edu/quiz/ics31.w14.q4">Take the quiz</a> for self-scored credit at EEE (through 11:00 pm on Tuesday, February 4.  <a href="http://www.ics.uci.edu/~kay/courses/31/quiz/Quiz4.pdf">Quiz text</a> for later reference; 
+ <a href="http://www.ics.uci.edu/~kay/courses/31/quiz/Quiz4key.pdf"> 
+ 
+  Quiz answers</a>
+   for still later reference.  Topics:  functions with side effects or return values, processing lists of namedtuples, calling defined functions where appropriate, policies on collaboration.</LI>
+ 
+   <LI>Quiz 5: Stay tuned.
+ <!--
+  <a href="https://eee.uci.edu/quiz/ics31.f13.q5">Take the quiz</a> for self-scored credit at EEE (through 11:00 pm on Tuesday, October 29.  <a href="http://www.ics.uci.edu/~kay/courses/31/quiz/Quiz5.pdf">Quiz text</a> for later reference; 
+ <a href="http://www.ics.uci.edu/~kay/courses/31/quiz/Quiz5key.pdf"> 
+  Quiz answers</a>
+   for still later reference.  Topics:  Printing vs. returning in functions, processing lists of namedtuples, writing assertions as tests, programming with lists of namedtuples containing lists of namedtuples (students and courses).</LI>
+
+      <LI>Quiz 6: 
+  <a href="https://eee.uci.edu/quiz/ics31.f13.q6">Take the quiz</a> for self-scored credit at EEE (through 11:00 pm on Tuesday, November 5.  <a href="http://www.ics.uci.edu/~kay/courses/31/quiz/Quiz6.pdf">Quiz text</a> for later reference; 
+ <a href="http://www.ics.uci.edu/~kay/courses/31/quiz/Quiz6key.pdf">  
+  Quiz answers</a>
+   for still later reference.  Topics: Recognizing data types required by Python expressions, flow of control with function calls,  programming with lists of namedtuples containing lists of namedtuples (restaurants and menus).</LI>
+   
+      <LI>Quiz 7: 
+  <a href="https://eee.uci.edu/quiz/ics31.f13.q7">Take the quiz</a> for self-scored credit at EEE (through 11:00 pm on Tuesday, November 12.  <a href="http://www.ics.uci.edu/~kay/courses/31/quiz/Quiz7.pdf">Quiz text</a> for later reference; 
+ <a href="http://www.ics.uci.edu/~kay/courses/31/quiz/Quiz7key.pdf">  
+  Quiz answers</a>
+   for still later reference.  Topics: Flow of control, string processing, string formatting, distinguishing data types and interpreting error messages.</LI>
+   
+    <LI>Quiz 8: 
+  <a href="https://eee.uci.edu/quiz/ics31.f13.q8">Take the quiz</a> for self-scored credit at EEE (through 11:00 pm on Tuesday, November 19.  <a href="http://www.ics.uci.edu/~kay/courses/31/quiz/Quiz8.pdf">Quiz text</a> for later reference; 
+ <a href="http://www.ics.uci.edu/~kay/courses/31/quiz/Quiz8key.pdf">  
+  Quiz answers</a>
+   for still later reference.  Topics: Formatting and string manipulation, list processing, file processing, computation with if/elif/else</LI>
+   
+   
+    <LI>Quiz 9: 
+  <a href="https://eee.uci.edu/quiz/ics31.f13.q9">Take the quiz</a> for self-scored credit at EEE (through 11:00 pm on Tuesday, November 26.  <a href="http://www.ics.uci.edu/~kay/courses/31/quiz/Quiz9.pdf">Quiz text</a> for later reference; 
+ <a href="http://www.ics.uci.edu/~kay/courses/31/quiz/Quiz9key.pdf">  
+  Quiz answers</a>
+   for still later reference.  Topics: Recognizing data types, functions as arguments,
+   function reuse, mapping/filtering/accumulating, all in the context of the ICStunes program</LI>
+   
+  
+    <LI>Quiz 10: 
+  <a href="https://eee.uci.edu/quiz/ics31.f13.q10">Take the quiz</a> for self-scored credit at EEE (through 11:00 pm on Tuesday, December 3.  <a href="http://www.ics.uci.edu/~kay/courses/31/quiz/Quiz10.pdf">Quiz text</a> for later reference; 
+ <a href="http://www.ics.uci.edu/~kay/courses/31/quiz/Quiz10key.pdf">  
+  Quiz answers</a>
+   for still later reference.  Topics: two-dimensional tables, dictionaries, sets</LI>
+   
+     
+   
+   
+  
+  
+   --></uL>
+   <br />
+   <P>&nbsp;</P>
+<p>&nbsp;</p>
+<p><FONT   SIZE=6><B>Midterms</B></FONT></p>
+<P><font  >Below are copies of past ICS 31 midterms. The most effective way to use these to study or review is to block out the answers entirely and try to answer the questions &quot;for real&quot;.</font></P>
+<p><a href="http://www.ics.uci.edu/~kay/courses/31/quiz/f12.mt1.key.pdf">Fall 2012 First Midterm (with answers)</a></p>
+<p><a href="http://www.ics.uci.edu/~kay/courses/31/quiz/f12.mt2.key.pdf">Fall 2012 Second Midterm (with answers)</a>
+</p>
+<p><a href="http://www.ics.uci.edu/~kay/courses/31/quiz/w13.mt1.key.pdf">Winter 2013 First Midterm (with answers)</a></p>
+<p><a href="http://www.ics.uci.edu/~kay/courses/31/quiz/w13.mt2.key.pdf">Winter 2013 Second Midterm (with answers)</a>
+</p>
+<p><a href="http://www.ics.uci.edu/~kay/courses/31/quiz/f13.mt1.key.pdf">Fall 2013 First Midterm (with answers)</a>
+</p>
+<p><a href="http://www.ics.uci.edu/~kay/courses/31/quiz/f13.mt2.key.pdf">Fall 2013 Second Midterm (with answers)</a>
+</p>
+<p><a href="http://www.ics.uci.edu/~kay/courses/31/quiz/w14.mt1.key.pdf">Winter 2014 First Midterm (with answers)</a>
+</p>
+<uL>
+  <!--
+<LI><FONT  >InfxTunes program: <A HREF="http://www.ics.uci.edu/~kay/courses/i41/hw/hw8.html">Eighth Homework</A> (show your work to the TA at the start of lab on November 14); <a href="http://www.ics.uci.edu/~kay/courses/i41/hw/lab8.html">Eighth Lab Assignment</a> (due at the end of lab on Wednesday, November 23&mdash;this is the day before Thanksgiving, so choose a partner whose Thanksgiving schedule is compatible with yours; if you won't be here for lab on the day before Thanksgiving, when the lab is due, pick someone who's able to work with you for a few extra out-of-lab hours before then).</FONT></LI>
+
+
+       -->  
+</uL><hr />
+David G. Kay</A>, <a href=mailto:kay@uci.edu>kay@uci.edu</A><span><br />
+<font size="2"  >
+<!-- #BeginDate format:fcAm1a -->Sunday, February 2, 2014 9:00 PM<!-- #EndDate -->
+</font></span>
+</BODY>
+</HTML>
+

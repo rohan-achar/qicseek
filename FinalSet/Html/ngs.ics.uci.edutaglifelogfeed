@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/lifelog/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>From Calendars to Chronicles: 2</title>
+		<link>http://ngs.ics.uci.edu/from-calendars-to-chronicles-2/</link>
+		<comments>http://ngs.ics.uci.edu/from-calendars-to-chronicles-2/#comments</comments>
+		<pubDate>Sat, 20 Jul 2013 06:40:49 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[Calendar]]></category>
+		<category><![CDATA[Chronicle]]></category>
+		<category><![CDATA[LifeLog]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1514</guid>
+		<description><![CDATA[For the longest time, people have been interested in past events as well as the discovery, collection, organization, and presentation of information about these events. The motivations for this ranges from simply revisiting enjoyable events to creating knowledge by analyzing&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>For the longest time, people have been interested in past events as well as the discovery, collection, organization, and presentation of information about these events.   The motivations for this ranges from simply revisiting enjoyable events to creating knowledge by analyzing and relating events in many different forms.  Much of the knowledge that exists is a result of such analysis.  Events related to a person were of interest, we were the events related to any organization, place, or a collection of any person, any other living organism or any organization.  In a sense any living organism has events happening that describe itâ€™s growth and behavior.  To understand any living organism and predict its future behavior models are formed and such models are always based on the its past behavior.  It was believed that the past behavior inferred from past events is at least an indicator of future behavior.  Humans like to partially predict future for planning purpose.</p>
+<p>A chronicle is a record of past events.  For individuals such chronicle were created in the form of diaries, auto-biographies, biographies, and just description of individual events.  For any organization ranging from structured minutes of meetings to just description of events from different people existed.  Even scientific records are maintained in chronicles ranging from laboratory notebooks to published research papers.  Storytelling became a popular form of presenting a sequence of such events and continues to remain so. </p>
+<p>The art of chronicling evolved as civilization adopted new technology.  Earliest chronicles were oral. With writing, chronicles took new shape and gained more permanence.   But a major progress in chronicling took place with printing technology and mass adoption of print technology for dissemination of information.  The interest in chronicles related to different aspects of society resulted in introduction and rapid growth of Newspaper related technology.  Newspapers, magazines, and journals became almost daily consumption habit of people and independent of the fact that printing has evolved and now exists in digital multimedia format, the habit of following chronicles in different form continues.  Jounalism, editing, and publishing became important disciplines and will continue to remain so due to mass interest and dependence of society on chronicles.</p>
+<p>With progress in digital media, we saw change in format of chronicles.  With social media, we now have democratization of chronicle creation.  Anybody can now join Facebook or Twitter and start reporting on event in their own life, their organization, or just about any thing that they observe or are interested in.  This is a huge change in chronicles.  Equally important change is the media of chronicles.  Chronicles started as report by an individual first in oral form and then in text form, which is dependent on human expression.  The last decade has seen a major change in use of photos and videos as for mass reporting of events.   Photos and videos capture the events in more objective and natural visual and audio form.  This has changed the way we like to experience events and share events.</p>
+<p>But it appears that we are at the cusp of even more radical form for capturing, storing, organizing, and sharing events and creating knowledge from these events.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/from-calendars-to-chronicles-2/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Developing Actionable Personal Intelligence for everyone</title>
+		<link>http://ngs.ics.uci.edu/developing-actionable-personal-intelligence-for-everyone/</link>
+		<comments>http://ngs.ics.uci.edu/developing-actionable-personal-intelligence-for-everyone/#comments</comments>
+		<pubDate>Sun, 15 May 2011 14:13:41 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Entrepreneurism]]></category>
+		<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[LifeLog]]></category>
+		<category><![CDATA[Personal Intelligence]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1331</guid>
+		<description><![CDATA[Business intelligence emerged out of desire to correlate different data sources for analyzing focused business events for taking data-supported actions.  We believe that time has come to develop actionable personal intelligence techniques using the data being continuously collected by our phones and other devices.]]></description>
+				<content:encoded><![CDATA[<p>Human life, and so any other organism or organizationâ€™s life, is a sequence of events.  The importance of different events varies depending on their nature, length, and impact on other events in life.  Historically, people have used different mechanisms to record information and experiences related to events.  This process started with personal memory.   As technology developed, humans always used the most modern technology of their time to record their personal experiences of events either to share with others, or to relive them, or to reflect upon and understand events and relationships.  This process of recording important events and experiences associated with them started on cave walls and has closely tracked the technology evolution since then.  Personal diaries, autobiographies, biographies, chronicles, photo albums, video collections, and lifelogs using cameras and other devices demonstrate how with changing technologies, mechanisms for recording experiences have changed.<br />
+Electronic media has brought interesting new dimensions to this art of recording personal experiences for sharing and reflecting.  First, it has now become extremely easy to record such experiences with almost zero effort.  Different sensors in mobile phones can record location, time, and activity information unobtrusively.  Many other sensors are becoming part of mobile phones and will even record health related information.  Combine these with camera and microphones in the phones and you have powerful audio-visual experience capture for events.  Effectively, we are now at a point when we can record a significant part of our life using sensors in a mobile phone.  Since most people have their mobile phone always with them, data related to all events in which one participated is being recorded mostly in the background.  Moreover, people record some other important data effortlessly using camera and microphone in the phone.  The ease of collection of personal activity related data has resulted in many research projects and many companies that are recording data related to some activity, say eating habits or physical activities, and providing applications that track and analyze this data for personal improvements.  It is expected that future health care will depend a lot on such applications.<br />
+The second aspect of collecting this data is that the volume and types of data pose new data management challenges.  The data from different sources usually result in different silos that do not communicate with each other and are indexed using data centric approaches.  In the current form it is not possible to make sense of these diverse sources of data.  We believe that by organizing all this data around meaningful events, it is possible to understand data to reflect on broader experiences of events and then share and reflect on them.  Business intelligence emerged out of desire to correlate different data sources for analyzing focused business events for taking data-supported actions.  We believe that time has come to develop actionable personal intelligence techniques using the data being continuously collected by our phones and other devices.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/developing-actionable-personal-intelligence-for-everyone/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>LifeLog made easy</title>
+		<link>http://ngs.ics.uci.edu/lifelog-made-easy/</link>
+		<comments>http://ngs.ics.uci.edu/lifelog-made-easy/#comments</comments>
+		<pubDate>Mon, 30 Aug 2010 07:05:44 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[LifeLog]]></category>
+		<category><![CDATA[mChron]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1291</guid>
+		<description><![CDATA[A few years ago, lots of activity started in logging one&#8217;s lifeusing all kind of electronic devices. A DARPA project with the name LifeLog was launched but was later cancelled due to privacy issues. But many other efforts started at&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>A few years ago, lots of activity started in logging one&#8217;s lifeusing all kind of electronic devices.  A DARPA project with the name LifeLog was launched but was later cancelled due to privacy issues.  But many other efforts started at that time including (possibly the best known) MyLifeBits and others.  The whole concept is very appealing: one can record all activities and then review, analyze, and re-experience for different purposes.  The challenges ranged from collecting information to storing and organizing that information and finally using it.  Luckily, one after the other most challenges have become easier, if not solved, due to enormous progress in technology.  Now it is possible to easily implement a version of LifeLog for making it useful as well as enjoyable.</p>
+<p>The most important progress made in making LifeLog a reality is in the form of smartphones.  These devices are now equipped with more sensors than one could imagine just a few years ago.  Moreover, these devices can store all kind of information about a person, their activities, their communications, and their experiences.  They also have enough processing power to analyze and organize all this information and present to you for reflecting and re-experiencing it.  Many applications addressing one aspect of LifeLog have been introduced but these are currently not as usueful as they could be due to their limited scope.  By develoing applications that could address activities, communications, and experiences of an individual, one could create an application that may be very enjoyable and useful.</p>
+<p>Due to my long term interest in this area &#8212; I called it eChronicles in 2004 &#8212; I am very interested in seeing such a product in action.  In fact, some of my friends are helping me to realize this dream &#8212; so it is very possible that soon, very soon, I may be able to share with you my long term vision in terms of a product vision with you right here.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/lifelog-made-easy/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>
+

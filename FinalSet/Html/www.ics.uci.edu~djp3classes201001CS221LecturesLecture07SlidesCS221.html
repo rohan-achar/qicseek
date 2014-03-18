@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="description" content="Index Construction Introduction to Information Retrieval CS 221 Donald J. Patterson Content adapted from Hinrich Schütze http://www.informationretrieval.org  termID is an index given to a vocabulary word e.g., “house” = 57820 docID is an index given to a document e.g., “news.bbc.co.uk” = 74291 posting list is a data structure for the term-document matrix  posting list is an inverted data structure Index Construction Review  BSBI and SPIMI are single pass indexing algorithms leverage fast memory vs slow disk speeds for data sets that won’t fit in entirely in memory for data sets that will fit on a single disk Index Construction Review  BSBI builds (termID, docID) pairs until a block is filled builds a posting list in the final merge requires a vocabulary mapping word to termID SPMI builds posting lists until a block is filled combines posting lists in the final merge uses terms directly (not termIDs) Index Construction Review  What if your documents don’t fit on a single disk? Web-scale indexing Use a distributed computing cluster supported by “Cloud computing” companies Index Construction  Other benefits of distributed processing Individual machines are fault-prone They slow down unpredictably or fail Automatic maintenance Software bugs Transient network conditions A truck crashing into the pole outside Hardware fatigue and then failure Distributed Indexing  The design of Google’s indexing as of 2004 Distributed Indexing - Architecture  Think of our task as two types of parallel tasks Parsing A Parser will read a document and output (t,d) pairs Inverting An Inverter will sort and write posting lists Distributed Indexing - Architecture  Use an instance of MapReduce An general architecture for distributed computing jobs Manages interactions among clusters of cheap commodity compute servers aka nodes Uses Key-Value pairs as primary object of computation An open-source implementation is “Hadoop” by apache.org Distributed Indexing - Architecture  Generally speaking in MapReduce There is a map phase This takes input and makes key-value pairs this corresponds to the “parse” phase of BSBI and SPIMI The map phase writes intermediate files Results are bucketed into R buckets There is a reduce phase This is the “invert” phase of BSBI and SPIMI There are R inverters Distributed Indexing - Architecture  Distributed Indexing - Architecture  Parsers and Inverters are not separate machines They are both assigned from a pool It is different code that gets executed Intermediate files are stored on a local disk For efficiency Part of the “invert” task is to talk to the parser machine and get the data.  Distributed Indexing - Architecture  Hadoop/MapReduce does Hadoop manages fault tolerance Hadoop manages job assignment Hadoop manages a distributed file system Hadoop provides a pipeline for data Hadoop/MapReduce does not define data types manipulate data Distributed Indexing - Hadoop  Distributed Indexing - Hadoop InputFormat Creates splits One split is assigned to one mapper A split is a collection of &lt;K1,V1&gt; pairs  Distributed Indexing - Hadoop InputFormat Hadoop comes with NLineInputFormat which breaks text input into splits with N lines each K1 = line number V1 = text of line  Distributed Indexing - Hadoop Mapper&lt;K1,V1,K2,V2&gt; Takes a &lt;K1,V1&gt; pair as input Produces 0, 1 or more &lt;K2,V2&gt; pairs as output Optionally it can report progress with a Reporter  Distributed Indexing - Hadoop Partitioner&lt;K2,V2&gt; Takes a &lt;K2,V2&gt; pair as input Produces a bucket number as output Default is HashPartitioner  Distributed Indexing - Hadoop Reducer&lt;K2,V2,K3,V3&gt; Takes a &lt;K2,list&lt;V2&gt;&gt; pair as input Produces &lt;K3,V3&gt; as output Output is not resorted  Distributed Indexing - Hadoop OutputFormat Does something with the output (like write it to disk) TextOutputFormat&lt;K3,V3&gt; comes with Hadoop  Hadoop example: WordCount Example: count the words in an input corpus InputFormat = TextInputFormat Mapper: separates words, outputs &lt;Word, 1&gt; Partitioner = HashPartitioner Reducer: counts the length of list&lt;V2&gt;, outputs &lt;Word,count&gt; OutputFormat = TextOutputFormat   Hadoop example: WordCount package org.myorg; import java.io.IOException; import java.util.*;  import org.apache.hadoop.fs.Path; import org.apache.hadoop.conf.*; import org.apache.hadoop.io.*; import org.apache.hadoop.mapred.*; import org.apache.hadoop.util.*;  public class WordCount {   Hadoop example: WordCount public static void main(String[] args) throws Exception { JobConf conf = new JobConf(WordCount.class); conf.setJobName(&quot;wordcount&quot;);  conf.setInputFormat(TextInputFormat.class); FileInputFormat.setInputPaths(conf, new Path(args[0]));  conf.setMapperClass(Map.class); conf.setReducerClass(Reduce.class);  conf.setOutputKeyClass(Text.class); conf.setOutputValueClass(IntWritable.class);  conf.setOutputFormat(TextOutputFormat.class); FileOutputFormat.setOutputPath(conf, new Path(args[1]));  JobClient.runJob(conf); }   Hadoop example: WordCount public static class Map extends MapReduceBase implements Mapper&lt;LongWritable, Text, Text, IntWritable&gt; {  private final static IntWritable one = new IntWritable(1); private Text word = new Text(); public void map(LongWritable key, Text value, OutputCollector&lt;Text, IntWritable&gt; output, Reporter reporter) throws IOException {  String line = value.toString(); StringTokenizer tokenizer = new StringTokenizer(line); while (tokenizer.hasMoreTokens()) { word.set(tokenizer.nextToken()); output.collect(word, one); }  }  }   Hadoop example: WordCount public static class Reduce extends MapReduceBase implements Reducer&lt;Text, IntWritable, Text, IntWritable&gt; {  public void reduce(Text key, Iterator&lt;IntWritable&gt; values, OutputCollector&lt;Text, IntWritable&gt; output, Reporter reporter) throws IOException {  int sum = 0; while (values.hasNext()) { sum += values.next().get(); } output.collect(key, new IntWritable(sum)); } }   The JobTracker manages assignment of code to nodes makes sure nodes are responding makes sure data is flowing the “master” The TaskTracker runs on nodes accepts jobs from the JobTracker one of many “slaves” Hadoop execution  Hadoop example: WordCount &gt; mkdir wordcount_classes  &gt; javac -classpath ${HADOOP_HOME}/hadoop-${HADOOP_VERSION}-core.jar -d wordcount_classes WordCount.java   &gt;jar -cvf /usr/joe/wordcount.jar -C wordcount_classes/ .&gt; bin/hadoop dfs -ls /usr/joe/wordcount/input/  /usr/joe/wordcount/input/file01  /usr/joe/wordcount/input/file02   &gt;bin/hadoop dfs -cat /usr/joe/wordcount/input/file01  Hello World Bye World   &gt;bin/hadoop dfs -cat /usr/joe/wordcount/input/file02  Hello Hadoop Goodbye Hadoop   Hadoop example: WordCount &gt;bin/hadoop jar /usr/joe/wordcount.jar org.myorg.WordCount /usr/joe/wordcount/input /usr/joe/wordcount/output &gt;bin/hadoop dfs -cat /usr/joe/wordcount/output/part-00000  Bye 1  Goodbye 1  Hadoop 2  Hello 2  World 2  Hadoop example: WordCount End of Chapter 4"/>
+    <title></title>
+    <script type="text/javascript" language="javascript">
+//      <![CDATA[
+            var images = new Array (29);
+            images[0] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.001.png";
+            images[1] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.002.png";
+            images[2] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.003.png";
+            images[3] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.004.png";
+            images[4] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.005.png";
+            images[5] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.006.png";
+            images[6] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.007.png";
+            images[7] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.008.png";
+            images[8] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.009.png";
+            images[9] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.010.png";
+            images[10] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.011.png";
+            images[11] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.012.png";
+            images[12] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.013.png";
+            images[13] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.014.png";
+            images[14] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.015.png";
+            images[15] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.016.png";
+            images[16] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.017.png";
+            images[17] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.018.png";
+            images[18] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.019.png";
+            images[19] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.020.png";
+            images[20] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.021.png";
+            images[21] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.022.png";
+            images[22] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.023.png";
+            images[23] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.024.png";
+            images[24] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.025.png";
+            images[25] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.026.png";
+            images[26] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.027.png";
+            images[27] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.028.png";
+            images[28] = "Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.029.png";
+            var index = 0;
+            function WindowLoaded(evt)
+            {
+                document.body.onselectstart = function () { return false; };
+            }
+            function Step(i)
+            {
+                GoTo(index + i)
+            }
+            function GoTo(newIndex)
+            {
+                if(newIndex >= 0 && newIndex < images.length)
+                {
+                    index = newIndex;
+                    document.Slideshow.src = images[index];
+                }
+            }
+//      ]]>
+    </script>
+</head>
+<body bgcolor="black" onload='WindowLoaded(event);'>
+    <p align="center">
+        <br/>
+        <br/>
+        <img name="Slideshow" alt="" src="Lecture07_Slides_CS221_files/Lecture07_Slides_CS221.001.png" onclick="Step(1)"/>
+        <br/>
+        <br/>
+        <input type="image" src="Lecture07_Slides_CS221_files/home.png" onclick="GoTo(0)"/>
+        &nbsp;&nbsp;&nbsp;
+        <input type="image" src="Lecture07_Slides_CS221_files/prev.png" onclick="Step(-1)"/>
+        <input type="image" src="Lecture07_Slides_CS221_files/next.png" onclick="Step(1)"/>
+    </p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

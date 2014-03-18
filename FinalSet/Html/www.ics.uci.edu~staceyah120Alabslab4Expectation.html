@@ -1,0 +1,211 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Lab 4: Expected Value</title>
+  </head>
+  <body>
+    <table width="500" align="center" border="1" cellpadding="2"
+      cellspacing="2">
+      <tbody>
+        <tr>
+          <th valign="middle" align="center" bgcolor="#ffffcc">
+            <h1>Expected Values in R<br>
+            </h1>
+          </th>
+        </tr>
+      </tbody>
+    </table>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <h2> Finite Sample Spaces </h2>
+    <p>
+      The definition of the expected value for a finite sample space
+      with
+      outcomes x1, x2, x3, ..., xn, with probabilities p1, p2, p3, ...,
+      pn,
+      respectively, is:
+    </p>
+    <pre>	x1*p1 + x2*p2 + x3*p3 + ... + xn*pn
+</pre>
+    For example, a Bernoulli trial with probability p of generating a 1,
+    and
+    probability (1-p) of generating a 0, has expected value (or mean)
+    <pre>	0*(1-p) + 1*p = p
+</pre>
+    <p>
+      Example 4.23 of the Moore &amp; McCabe text "Introduction to the
+      Practice of Statistics" reports that the distribution of sizes of
+      U.S.
+      families is:
+    </p>
+    <pre>	size:  2    3    4    5    6    7
+	prob: .413 .236 .211 .090 .032 .018
+</pre>
+    To use R to compute the expected (i.e., average) size of a family
+    from this table,
+    first create two data vectors, then multiply and sum:
+    <pre>	size &lt;- 2:7
+	p &lt;- c(.413, .236, .211, .090, .032, .018)
+	sum(p*size)
+</pre>
+    The multiplication of two datasets in R is element by element,
+    so R multiplies 2*.413, 3*.236, etc. The sum function then
+    adds the products together, and returns 3.146. Note that the Moore
+    &amp; McCabe text reports it has ignored families of 8 or more
+    members, so this is not the true mean family size (which is about
+    3.17).
+    <p>
+      We can also compute the expected value of a probability
+      distribution
+      for which we have a density function in R, such as the Binomial.
+      Suppose we would like to numerically compute the expected value of
+      a random variable that has the Binomial(10, .2) distribution
+      generated
+      by counting the number of successes in 10 independent Bernoulli
+      trials
+      each with probability .2 of success:
+    </p>
+    <pre>	k &lt;- 0:10
+	p &lt;- dbinom(k,10,.2)
+	sum(k*p)
+</pre>
+    <p>
+      We could also verify this result by making use of the fact that a
+      Binomial(10, .2)
+      random variable is just the sum of 10 Bernoulli random variables
+      each
+      with probability .2 of returning a 1, and the fact that the
+      expected
+      value of a sum of random variables is the sum of their expected
+      values.
+      Thus the mean of the Binomial(10, .2) distribution must be 10*(.2)
+      = 2.
+    </p>
+    <h2> Infinite Sample Spaces </h2>
+    Several discrete random variables take values in infinite
+    sample spaces, including random variables that have a geometric
+    distribution,
+    a negative binomial distribution, or a Poisson distribution. This is
+    a slightly harder problem, as we have to add up infinitely many
+    terms.
+    While it is possible to compute the expected values analytically for
+    these particular cases,
+    we can also get accurate values numerically.
+    (You may want to review some of the
+    <a href="../lab3/Prob_Distns.html">standard probability
+      distributions</a> before
+    proceeding.)
+    <p>
+      Suppose that we are tossing a fair coin repeatedly, and counting
+      the number
+      of tails we observe before we get the first heads. Let X be the
+      number
+      of tails we observe, then here is a little table showing the first
+      few terms:
+    </p>
+    <pre>     k:  0    1    2    3    4    5    6     7     8...
+P(X=k): 1/2  1/4  1/8  1/16 1/32 1/64 1/128 1/256 1/512...
+
+products: 0  1/4  1/4  3/16 1/8  5/64  3/64 7/256 1/64...
+</pre>
+    We have to sum the terms in the products. One way to procede is to
+    simply pick some large number of terms, such as 100 or 1000, compute
+    the geometric probabilities and sum the products:
+    <pre>	k &lt;- 0:100
+	prob &lt;- dgeom(k,.5)
+	sum(k*prob)
+</pre>
+    This works well here because the terms are decreasing rapidly in
+    magnitude,
+    so we get an essentially exact sum for a fairly small number of
+    terms.
+    What is the smallest number of terms for which R returns the
+    correct answer 1.0? Try a couple of other geometric distributions,
+    i.e., different values of p, such as 1/3, 1/4, etc.
+    and see if you can guess the pattern, i.e., what is the expected
+    value
+    of a geometric random variable with probability p? It should be
+    clear
+    after a few examples; if not, try deriving it analytically.
+    <p>
+      Here is a function that computes the expected value in a different
+      way,
+      summing terms until the total converges to a fixed value. It
+      reports
+      the number of terms it used. See if you can understand how it
+      works!
+      <br>
+    </p>
+    <hr>
+    <pre>Egeom &lt;- function(p){
+#
+# usage:  Egeom(p) computes the expected value of a geometric
+# random variable with probability p of success on each trial
+#
+e &lt;- 0
+e0 &lt;- -1
+i &lt;- 0
+while(e != e0)
+{
+	e0&lt;-e  
+	i &lt;- i+1
+	e &lt;- e + i*dgeom(i,p)
+}
+cat(i,"terms \n")
+cat("expected value =",e,"\n")
+e
+}
+</pre>
+    <hr>
+    Try it for one of the cases you have already computed, such
+    as p = 1/3:
+    <pre>       Egeom(1/3)
+</pre>
+    <p>
+      For further amusement, try computing the expected values of
+      Poisson
+      or negative binomial random variables.
+    </p>
+    <p>
+    </p>
+    <h2> Variances</h2>
+    <p>
+      The variance of a random variable is just the expected value of
+      the
+      squared deviation from the mean: <b>E</b>((X-<b>E</b>(X))^2).
+      Returning to Example 4.23 of the Moore &amp; McCabe text:
+    </p>
+    <pre>	size:  2    3    4    5    6    7
+	prob: .413 .236 .211 .090 .032 .018
+</pre>
+    To use <b>R</b> to compute the variance of the size of a family
+    from this table, repeat the mean calculation, then compute the
+    weighted
+    mean of the squared deviations from the mean:
+    <pre>	size &lt;- 2:7
+	p &lt;- c(.413, .236, .211, .090, .032, .018)
+	M &lt;- sum(p*size)
+	V &lt;- sum(p*(size-M)^2)
+</pre>
+    If the family sizes were all equally likely (i.e., each of the
+    values
+    had probability 1/6) would the variance be larger or smaller?
+    <p>
+      Try computing the variance of a Binomial(10, .2) random variable.
+      You should get 1.6.<br>
+    </p>
+    <hr size="2" width="100%"><i>Material taken from Albyn Jones' Math
+      141 Lab Webpage, Nov. 2013</i><br>
+    <br>
+    <hr style="width: 100%; height: 2px;">
+    <div align="center"><big><span style="font-weight: bold;">Next:</span>
+        <a href="Life.html">Life Expectancy Tables</a></big><br>
+      <big> </big><br>
+      <big> <a href="index.html">Lab 4 Index</a></big><br>
+    </div>
+    <hr style="width: 100%; height: 2px;">
+    <p><br>
+    </p>
+  </body>
+</html>
+

@@ -1,0 +1,36 @@
+
+<h2><a href="http://dl.acm.org/citation.cfm?id=1016547">Implementation of a service platform for online games</a>, by Shaikh et al.</h2>
+
+<img src="NG04/shaikh-cloud.png" title="Cloud architecture">
+<img src="NG04/shaikh-setup.png" title="Experiment setup">
+
+<ul><li>How to provision a cloud infrastructure hosting games
+</li><li>Each bot sleeps perdiodically to reduce CPU load and instantiate more bots. Bots <q>connect to the game server according to a Poisson process with mean inter-arrival time of 1/&lambda;=1s</q>
+</li><li><abbr title="Tivoli Intelligent Orchastrator">TIO</abbr> polls game servers at regular intervals for their CPU load using SNMP. Using the raw CPU <q>leads to occasional over-provisionning</q> and higher costs, but using a moving average to smooth the CPU estimate misses CPU peaks and may result in inefficient QoS for some players.
+</li><li>Since player load follows daily and weekly platterns, it's possible to anticipate the peaks; in that case, provision slightly ahead of the peak and keep a smoothed metric.
+</li><li>Relevant metrics other than CPU: "slack time" = unused time during an iteration of the server loop
+</li></ul>
+
+
+
+
+<h2><a href="http://dl.acm.org/citation.cfm?id=1016549">Zoned federation of game servers: a peer-to-peer approach</a>, by Iimura et al.</h2>
+
+<img src="NG04/iimura-zoning.png" title="Zoning layer sits between Distributed Hash Table and the game layers">
+<img src="NG04/iimura-dhtzoning.png" title="Zone owner uses DHT as backup, but reads and writes from its local cache">
+
+<ul><li>DHT implementation is Pastry. It uses SHA1 to map a game zone to its owner and runner. 
+</li><li>Experimentation with 296 P3 1Ghz 512MB, all connected to a single 100Mbps switch. 295 machines run from 100 to 1,000 members, and a single machine runs the zone owner. Time taken to update the state of everybody is exponential with the number of zone members (average of 50ms for 500 members, 100ms for 700, 200ms for 1,000). 
+</li><li>Spreading users uniformly on multiple zones, each with a single zone owner, reduces the load.
+</li></ul>
+
+
+
+<h2><a href="http://dl.acm.org/citation.cfm?id=1016552">Scalable Peer-to-Peer Networked Virtual Environment</a>, by Hu and Liao</h2>
+
+<img src="NG04/hu-move.png" title="Voronoi diagram">
+
+<ul><li>Scalability implies that nodes can be added or removed on the fly while keeping the whole system functional. Ultimate P2P goal: adding a node should increase overall system resources without consuming centralized resources. 
+</li><li>Cut the virtual space in Voronoi cells, where each user is at the center of his cell (deterministc algorithm). Each user connects with at least all his Vornoi neighbors (min 3, average 6, max n-1), and with more users if they are in his area of interest. Each time a user joins, moves, or leaves the game, his neighbors have to recompute their Voronoi diagram. 
+</li></ul>
+

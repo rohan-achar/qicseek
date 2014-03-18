@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Looking at Directories</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Looking at Directories">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html4652 HREF="node201.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html4650 HREF="node198.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html4644 HREF="node199.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html4654 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html4653 HREF="node201.html"> Checking Files</A>
+<B>Up:</B> <A NAME=tex2html4651 HREF="node198.html"> File System</A>
+<B> Previous:</B> <A NAME=tex2html4645 HREF="node199.html"> Current Directory</A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION001732000000000000000> Looking at Directories</A></H2>
+<P>
+To look at the contents of a directory, <b> read_directory/4</b> is available.
+<A NAME=2945>&#160;</A>
+It takes a directory pathname and a filename pattern and returns a list
+of subdirectories and a list of files matching the pattern.
+The following metacharacters are recognised in the pattern:
+* matches an arbitrary sequence of characters,
+? matches any single character, [] matches one of the
+characters inside the brackets unless the first one is a space 
+in which case it matches any character but those inside the brackets.
+<blockquote> <PRE>[eclipse 1]: read_directory(&quot;/usr/john&quot;, &quot;*&quot;, Dirlist, Filelist).
+Dirlist = [&quot;subdir1&quot;, &quot;subdir2&quot;]
+Filelist = [&quot;one.c&quot;, &quot;two.c&quot;, &quot;three.pl&quot;, &quot;four.pl&quot;]
+yes.
+</PRE></blockquote><BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

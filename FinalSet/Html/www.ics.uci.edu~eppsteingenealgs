@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<title>Algorithms in Gene</title>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<h1>Algorithms in Gene</h1>
+
+<hr>
+This project combines my vocation (teaching computer science) with
+an avocation (working on a shareware genealogy database, <a href= 
+"http://www.ics.uci.edu/~eppstein/gene/">Gene</a>). 
+
+<p>Although the bulk of Gene consists of uninteresting manipulation
+of data, various odd corners of the program (particularly its the
+user interface code) involve nontrivial algorithmic techniques. If
+interesting algorithms turn up here, they could turn up anywhere.
+So I am creating these pages as a showcase for the applications
+theoretical algorithms have as parts of a real-world
+application.</p>
+
+<ul>
+<li><a href="approximsum/">Problem: center text accurately using
+space and option-space characters.<br>
+Solution: an integer linear program closely related to Euclid's
+algorithm for GCD.</a><br><br></li>
+
+<li><a href="/~eppstein/pubs/p-ancestors.html">Problem: quickly find the
+shortest connections between a given pair of people, for "Relations"
+tree drawing.<br>
+Solution: backtracking search (implemented) or translation to a
+k-shortest-paths problem on a much larger graph (theoretical).</a></li>
+</ul>
+
+Still to come: 
+
+<ul>
+<li>Problem: look up and alphabetize a dynamically changing set of
+names.<br>
+Solution: splay trees.</li>
+
+<li>Problem: search for substrings of names.<br>
+Solution: Knuth-Morris-Pratt string matching.</li>
+
+<li>Problem: wrap text to fit into narrow columns in tree
+drawings.<br>
+Solution: a linear time dynamic program.</li>
+
+<li>Problem: adjust widths of columns in tree drawings and
+recompute the total tree width.<br>
+Solution: rake-compress trees.</li>
+
+<li>Problems: speed up scrolling and redisplay of tree
+drawings;<br>
+quickly translate mouse clicks to active regions of drawings.<br>
+Solution: interval trees.</li>
+</ul>
+
+<hr>
+<a href="http://www.ics.uci.edu/~eppstein/gene/">Gene</a>, <a href= 
+"http://www.ics.uci.edu/~eppstein/">David Eppstein</a>, <a href= 
+"http://www.ics.uci.edu/">ICS</a>, <a href="http://www.uci.edu/">UC
+Irvine</a>
+</body>
+</html>
+
+

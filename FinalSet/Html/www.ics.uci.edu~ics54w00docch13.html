@@ -1,0 +1,375 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Script-Type" content="text/javascript">
+<title>ICS 54: Brief Notes on Chapter 13: The Internet</title>
+</head>
+
+<body bgcolor="#F8F8F0">
+<i><a href="http://www.ics.uci.edu/"> UC Irvine,
+Information and Computer Science Department</A></I>
+Winter 2000<br>
+<h2><A HREF="http://www.ics.uci.edu/~ics54/">ICS 54</A>:
+Brief Notes on Chapter 13: The Internet
+</h2>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>References</h2>
+<dl>
+<dt><a href="http://www.zakon.org/robert/internet/timeline/">
+  <tt>http://www.zakon.org/robert/internet/timeline/</tt></a>
+<dd>Hobbes' Internet Timeline
+<dt><a href="http://freesoft.org/CIE/">
+  <tt>http://freesoft.org/CIE/</tt></a>
+<dd><i>Connected: An Internet Encyclopedia</i> 
+<dt><a href="http://www.whatis.com/tour.htm"><tt>http://www.whatis.com/tour.htm</tt></a>
+<dd>An overview of the Internet from
+<tt><a href="http://www.whatis.com/">http://www.whatis.com/</a></tt>
+<dt><a href="http://www.it.kth.se/docs/rfc/">
+<tt>http://www.it.kth.se/docs/rfc/</tt></a>
+<dd>KTH (Sweden) RFC Archive
+<dt><a href="http://www.garlic.com/~lynn/rfcietff.htm">
+<tt>http://www.garlic.com/~lynn/rfcietff.htm</tt></a>
+<dd>Lynn Wheeler's IETF RFC Index
+<dt><a href="http://www.dns.net/dnsrd/"><tt>http://www.dns.net/dnsrd/</tt></a>
+<dd>DNS Resources Directory
+<dt><a href="http://www.w3.org/"><tt>http://www.w3.org/</tt></a>
+<dd>W3C = World Wide Web Consortium
+
+</dl>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2> Name Resolution </h2>
+Basic Task (alternate statements of same task): 
+<ul>
+<li> Given a network system name, determine the corresponding IP address.
+<li>Translate network system names to corresponding IP addresses.
+<li>Map network system names to corresponding IP addresses.
+</ul>
+<p>
+There are three different methods in use to
+accomplish this task (possibly used in combination):
+<dl>
+<dt>
+Static table(s).
+<dd>In Unix, this is stored in <code>/etc/hosts</code>.
+This was originally how the Internet worked.
+<dt>
+Network Information Service (NIS)
+<dd>Formerly called Yellow Pages (YP),
+this was originated by Sun along with NFS (Network File System).
+<dt>
+Domain Name System (DNS).
+<dd>This is the current Internet approach,
+so you have to use it if you're "on the Net."
+</dl>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>DNS</h2>
+DNS is a distributed database which holds information about computers
+on the Internet.
+<p>Primarily, it holds name&lt;--&gt;address mappings and mail
+routing information.
+<p>DNS was formally specified in RFCs 882  &amp; 883
+(November 1983) by Paul Mockapetris, who got his PhD from UCI ICS.
+<br>In November 1987, these RFCs superceded by 
+1034 &amp; 1035, also written by Mockapetris, which remain
+in force as Internet Standard 13.
+<br>
+<p>
+The specification includes both a hierarchical
+host naming scheme and a protocol for performing various operations, such
+as mapping a name to an address. 
+<p>The top-level domain is the "root"
+domain, named "<tt>.</tt>" (yes, just "."="dot").
+<p>See <a href="http://www.dns.net/dnsrd/">DNS Resources Directory
+(<tt>http://www.dns.net/dnsrd/</tt>)</a> and
+<br>
+<a href="http://www.freesoft.org/CIE/Course/Section2/">
+(<tt>http://www.freesoft.org/CIE/Course/Section2/</tt>)</a>
+from <i>Connected: An Internet Encyclopedia</i>.
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2> Domain Names </h2>
+Domain names represent administrative control, not specific geographical
+location or network connectivity. 
+<blockquote>
+For instance, <code>www.taa.com</code>'s
+address is 206.86.53.211, while <code>rd.taa.com</code>'s
+address is 204.140.196.3.  They're several hundred miles apart.
+</blockquote>
+<p>
+Domain names are case insensitive. 
+<br>You can't easily distinguish a hostname
+from a domain name: <code>taa.com</code> is both a host named <code>taa</code>
+in the <code>com</code> domain.
+<br>It's also a domain name in which other
+hostnames live.
+<br>Potentially, other domain names could exist under
+<code>taa.com</code> as well.
+<p>A domain name doesn't necessarily map to
+an IP network number: it may map to many or to none at all.
+
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2> <code>nslookup</code> </h2>
+The <em>nslookup</em> program can be used to query a nameserver.
+The basic commands it recognizes are:
+<dl>
+<dt><code>server </code><em>host</em><dd>
+Use <em>host</em> as the server.
+<dt><code>set type=</code><em>type</em><dd>
+Set the query type, such as "<tt>mx</tt>", "<tt>ns</tt>",
+"<tt>a</tt>", etc.
+<dt><em>name</em><dd>
+Show the <em>type</em> information for <em>name.</em>
+</dl>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2> <code>nslookup</code> Examples </h2>
+The default query type is "<tt>A</tt>".
+<pre>
+Default Server:  elliotgw.ics.uci.edu
+Address:  128.195.6.4
+
+> ics.uci.edu
+Server:  elliotgw.ics.uci.edu
+Address:  128.195.6.4
+
+Name:    ics.uci.edu
+Address:  128.195.1.1
+
+> set type=mx
+> ics.uci.edu
+Server:  elliotgw.ics.uci.edu
+Address:  128.195.6.4
+
+ics.uci.edu     preference = 10, mail exchanger = ics.uci.edu
+ics.uci.edu     preference = 20, mail exchanger = paris.ics.uci.edu
+ics.uci.edu     internet address = 128.195.1.1
+paris.ics.uci.edu       internet address = 128.195.1.50
+
+> set type=ptr
+> 1.1.195.128.in-addr.any
+Server:  elliotgw.ics.uci.edu
+Address:  128.195.6.4
+
+1.1.195.128.in-addr.arpa        name = ics.uci.edu
+</pre>
+
+<p>
+<h3>Finding Root Servers with nslookup</h3>
+If we know that <code>ns.nasa.gov</code> is a root name server,
+then we can ask it to list all the root servers:
+<pre>
+> set type=ns
+> server ns.nasa.gov
+Default Server:  ns.nasa.gov
+Addresses:  128.102.16.10, 192.52.195.10, 192.203.230.10
+
+> .
+Server:  ns.nasa.gov
+Addresses:  128.102.16.10, 192.52.195.10, 192.203.230.10
+
+(root)  nameserver = H.ROOT-SERVERS.NET
+(root)  nameserver = B.ROOT-SERVERS.NET
+(root)  nameserver = C.ROOT-SERVERS.NET
+(root)  nameserver = D.ROOT-SERVERS.NET
+(root)  nameserver = E.ROOT-SERVERS.NET
+(root)  nameserver = I.ROOT-SERVERS.NET
+(root)  nameserver = F.ROOT-SERVERS.NET
+(root)  nameserver = G.ROOT-SERVERS.NET
+(root)  nameserver = A.ROOT-SERVERS.NET
+H.ROOT-SERVERS.NET      internet address = 128.63.2.53
+B.ROOT-SERVERS.NET      internet address = 128.9.0.107
+C.ROOT-SERVERS.NET      internet address = 192.33.4.12
+D.ROOT-SERVERS.NET      internet address = 128.8.10.90
+E.ROOT-SERVERS.NET      internet address = 192.203.230.10
+I.ROOT-SERVERS.NET      internet address = 192.36.148.17
+F.ROOT-SERVERS.NET      internet address = 192.5.5.241
+G.ROOT-SERVERS.NET      internet address = 192.112.36.4
+A.ROOT-SERVERS.NET      internet address = 198.41.0.4
+</pre>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2> <code>dig</code> </h2>
+For Digging information out from DNS servers.
+<p>
+See <a href="http://www.freesoft.org/CIE/Course/Section2/13.htm">
+<tt>http://www.freesoft.org/CIE/Course/Section2/13.htm</tt></a>
+for a web form of <tt>dig</tt>.
+<p>
+There are also web forms of
+<a href="http://www.geektools.com/whois.html"><tt>whois</tt></a>
+and
+<a href="http://swhois.net/"><tt>nslookup</tt></a>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>USENET News Groups</h2>
+<a href="http://www.whatis.com/usenet.htm">USENET</a> (for
+"User's Network") used to be the network of computers that
+shared <a href="http://freesoft.org/CIE/Topics/96.htm">"news"
+(aka "netnews")</a>
+<p>Now it is more often considered simply as that collection of
+information known as news/netnews organized (hierarchically)
+into "newsgroups."
+<p>USENET uses <a href="http://www.whatis.com/nntp.htm">Network 
+News Transfer Protocol (NNTP)</a> as described in 
+<a href="ftp://ftp.isi.edu/in-notes/rfc977.txt">RFC 997</a> (1986).
+<p>News can be read and posted via a number of different clients,
+including both special purpose ones (e.g., <tt>rn</tt>, <tt>trn</tt>)
+and clients which also access e-mail or (even more generally) the web.
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>Mailing lists</h2>
+
+There used to be 2 dominant principal flavors
+<ul>
+<li><a href="http://www.lsoft.com/"><tt>listserv</tt></a> and its
+close relative
+<a href="http://www.cren.net/listproc/"><tt>listproc</tt></a>
+<li><a href="http://www.greatcircle.com/majordomo/"><tt>Majordomo</tt></a>
+</ul>
+Today there are <a
+href="http://dir.yahoo.com/Computers_and_Internet/Software/Internet/Email/Mailing_Lists/">many more choices</a> including 
+<ul>
+<li><a href="http://www.netspace.org/~dwb/lwgate/">LWGate</a> 
+<li><a href="http://www.list.org/">Mailman</a>
+<li><a href="http://www.egroups.com/">egroups</a>
+</ul>
+
+The Liszt, mailing list directory 
+(<a href="http://www.liszt.com/"><tt>http://www.liszt.com/</tt></a>)
+remains one of the best collections of lists available.
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>IRC</h2>
+IRC (Internet Relay Chat) is reasonably thoroughly described at
+<a href="http://www.irchelp.org/"><tt>http://www.irchelp.org/</tt></a>.
+<p>For example, here is an excerpt from
+<a href="http://www.irchelp.org/irchelp/altircfaq.html"><tt>http://www.irchelp.org/irchelp/altircfaq.html</tt></a>:
+
+<blockquote>
+<b> What is IRC? </b>
+<p>
+IRC stands for "Internet Relay Chat". It was originally written by
+Jarkko Oikarinen <i>(jto@tolsun.oulu.fi)</i> in 1988. Since starting in
+Finland, it has been used in over 60 countries around the world.  It
+was designed as a replacement for the "talk" program but has become
+much much more than that. IRC is a multi-user chat system, where people
+convene on "channels" (a virtual place, usually with a topic of
+conversation) to talk in groups, or privately. IRC is constantly
+evolving, so the way things to work one week may not be the way they
+work the next. Read the MOTD (message of the day) every time you use
+IRC to keep up on any new happenings or server updates.
+<p>
+IRC gained international fame during the 1991 Persian Gulf War, where
+updates from around the world came accross (sic) the wire, and most irc users
+who were online at the time gathered on a single channel to hear these
+reports. IRC had similar uses during the coup against Boris Yeltsin in
+September 1993, where IRC users from Moscow were giving live reports
+about the unstable situation there.
+<p>
+<b> How is IRC set up?</b>
+<p>
+The user runs a "client" program (usually called 'irc') which connects
+to the irc network via another program called a "server".  Servers
+exist to pass messages from user to user over the irc network.
+</blockquote>
+
+The IRC protocol (IRCP) is specified in 
+<a href="http://www.irchelp.org/irchelp/rfc/">RFC 1459</a> (1993).
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>Archie, Gopher, Veronica, Jughead, ...</h2>
+
+<dl>
+<dt><a href="http://www.whatis.com/archie.htm">Archie</a>
+<dd>A way of searching ftp (<i>archi(v)e</i>) sites
+<dt><a href="http://www.whatis.com/gopher.htm">Gopher</a>
+<dd>A menu oriented precursor to the web from the University of Minnesota
+<dt><a href="http://www.whatis.com/veronica.htm">Veronica</a>
+<br>("Very Easy, Rodent-Oriented, Net-Wide Index to Computerized Archives")
+<dd>A way of searching gopher sites from University of Nevada, Reno
+<dt><a href="http://www.whatis.com/jughead.htm">Jughead</a>
+<br>("Jonzy's Universal Gopher Hierarchy Excavation And Display")
+<dd>A more limited way of searching gopher sites than Veronica.
+From University of Utah.
+</dl>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>The Web</h2>
+
+<h2>Its Roots</h2>
+<b>As We May Think</b>
+<a href="http://eee.uci.edu/99s/36000/doc/vbush.html">As We May Think</a>
+(July 1945)  by
+<a href="http://www-eecs.mit.edu/AY95-96/events/bush/">Vannevar Bush</A>,
+the <i><a
+href="http://www.wired.com/wired/5.11/es_bush_pr.html">Godfather</a>
+of the Information Age</i>.
+
+
+<h3>What Does W3 Define?</h3>
+W3 has come to stand for a number of things,
+which should be distinguished.
+
+<p>
+These include
+
+<ul>
+<li> The idea of a boundless information world in which all items have a
+reference by which they can be retrieved;
+<li> The address system 
+(<a href="http://www.w3.org/Addressing/">URI</a>)
+... implemented to make this possible,
+despite many different protocols;
+<li>A network protocol 
+(<a href="http://www.w3.org/Protocols/">HTTP</a>)
+... giving performance and features
+not otherwise available;
+<li>A markup language 
+(<a href="http://www.w3.org/MarkUp/">HTML</a>)
+... used for the transmission
+of basic things ...
+across the net;
+<li> The body of data available on the Internet using all or some of the
+preceding listed items.
+</ul>
+<p>
+From "<a 
+href="http://www.acm.org/pubs/articles/journals/cacm/1994-37-8/p76-berners-lee/">The
+World-Wide Web</a>,"<br>
+by T. Berners-Lee, R.  Cailliau, <i>et al.</i>,<br>
+<em>Communications of the ACM</em>,<br>
+v.37, No.8, Aug 1994, pp. 76-82.
+
+<h3>How it Works</h3>
+The power of <a
+href="http://eee.uci.edu/99s/36000/doc/ClientServe.html">Client-Server</a>
+Interaction
+
+<h3>More Information</h3>
+See <a href="http://eee.uci.edu/99s/36000/doc/refs.html">
+<tt>http://eee.uci.edu/99s/36000/doc/refs.html</tt></a>
+or anyone of several (hundred?) thousand other sites. <tt>:-)</tt>
+<hr>
+<a href="http://www.oac.uci.edu/indiv/franklin/tools/feedback?ics54@ics.uci.edu">Comments are welcome.</a>
+<noscript><br><b>JavaScript must be enabled in order for this page
+   to be fully functional.</b></noscript>
+<script language="JavaScript" type="text/javascript">
+<!-- Beginning of JavaScript -
+   document.writeln("<br>This document can be found at &nbsp;<tt>"+
+       document.location+"</tt>");
+// document.writeln("<br><i>Current as of " + document.lastModified+"</i>");
+// - End of JavaScript - -->
+</script>
+   <br><i>Current as of 28 February 2000</i>
+<br><a href="http://validator.w3.org/check?uri=&{document.location};&ss=">HTML
+    4.01 Checked.</a>
+<!-- To show source in validation "...?uri=&{document.location};&ss=" -->
+
+</body>
+</html>
+

@@ -1,0 +1,502 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+                <title></title>
+                
+                
+                <meta content="Thu, 17 Oct 2013 08:24:53 -0380" name="date"/>
+                
+<link href="../../../bin/styles/stylesheet_secondary.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<!-- before breadcrumb_nav include -->
+ <!-- after breadcrumb_nav include -->
+
+<div id="wrapper">
+<script type="text/javascript">
+
+sfHover = function() {
+    var sfEls = document.getElementById("navcontainer").getElementsByTagName("LI");
+    for (var i=0; i<sfEls.length; i++) {
+        sfEls[i].onmouseover=function() {
+            this.className+=" sfhover";
+        }
+        sfEls[i].onmouseout=function() {
+            this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+        }
+    }
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+</script>
+
+    <div id="header" title="Welcome to the Donald Bren School of Information and Computer Sciences @ UC Irvine">
+
+           <a id="bren_link" href="/"></a>
+
+           <a id="uci_link" href="http://www.uci.edu/"></a>
+
+    </div>
+    
+    
+    <div CLASS="newbar"><p style="line-height: 0px; display: none; "></p></div>
+    
+    
+    <div id="navcontainer">
+
+                
+            <ul>
+                
+                <li>
+                
+                    <a href='/about/' title='about'>&raquo; About</a>              
+
+                    <ul>
+                        <li><a href="/about/">&raquo; About the School</a></li>
+                        <li><a href="/about/about_mission.php">&raquo; Bren ICS Mission</a></li>
+                        <li><a href="/about/about_deanmsg.php">&raquo; Dean's welcome</a></li>
+                        <li><a href="/about/bren/">&raquo; About the Bren gift</a></li>
+                        <li><a href="/about/about_factsfigures.php">&raquo; Facts and figures</a></li>
+                        <li><a href="/about/brenhall/index.php">&raquo; Donald Bren Hall</a></li>
+                        <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                        <li><a href="/about/about_contact.php">&raquo; Contact us</a></li>
+                        <LI><A HREF="/about/equity/">&raquo; Equity & diversity</A></LI>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/dept/' title='departments'>&raquo; Departments</a>
+                    <ul>
+                        <li><a href="http://www.cs.uci.edu">&raquo; Computer Science</a></li>
+                        <li><a href="http://www.informatics.uci.edu">&raquo; Informatics</a></li>
+                        <li><a href="http://www.stat.uci.edu">&raquo; Statistics</a></li>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/faculty/area/' title='research'>&raquo; Research</a>              
+                
+
+                
+                
+                
+                    <ul>
+                        <li><a href="/faculty/area/">&raquo; Research areas</a></li>
+                        <li><a href="/faculty/centers/">&raquo; Research centers</a></li>
+                        <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                    </ul>
+                </li>
+                
+                
+                
+                <li>
+                
+                    <a href='#' title='education'>&raquo; Education</a>              
+
+                    <ul>
+                        <li><a href="/grad/">&raquo; Graduate</a>
+                        
+                            <ul>                        
+                            <li><a href="/grad/admissions/index.php">&raquo; Apply</a></li>
+                            <li><a href="/grad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="http://www.reg.uci.edu/registrar/soc/fees.html">&raquo; Tuition and costs</a></li>
+                            <li><a href="/grad/courses/index.php">&raquo; Courses</a></li>
+                            <li><a href="/grad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/faculty/area/index.php">&raquo; Research areas</a></li>
+                            <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                            <li><a href="/grad/policies/index.php">&raquo; Policies &amp; forms</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/grad/phddirectory/index.php">&raquo; Recruit graduate student</a></li> -->
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->                            
+                            <li><a href="/grad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="http://www.housing.uci.edu/prospective/graduate/index.asp">&raquo; Graduate housing</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="/ugrad/">&raquo; Undergraduate</a>
+                        
+                            <ul>                        
+                            <!-- <li><a href="/ugrad/admissions/index.php">&raquo; Apply</a></li>                       
+                            <li><a href="/ugrad/events/index.php">&raquo; Campus visits</a></li>
+                            -->
+                            <li><a href="http://www.ics.uci.edu/~lab/">&raquo; Computer lab information</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/ugrad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="/ugrad/courses/index.php">&raquo; Course listings</a></li>                     
+                            <li><a href="/ugrad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="/ugrad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/ugrad/financial/index.php">&raquo; Financial aid</a></li>                         
+                            <li><a href="http://honors.ics.uci.edu/">&raquo; Honors program</a></li>
+                            <li><a href="http://www.housing.uci.edu/">&raquo; Housing</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Internship program</a></li>                         
+                            <li><a href="/ugrad/policies/index.php">&raquo; Policies</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->
+                            <!-- <li><a href="http://www.dos.uci.edu/orientation/">&raquo; Recently admitted</a></li> -->
+                            <li><a href="http://student-council.ics.uci.edu/">&raquo; Student Council</a></li>
+                            <li><a href="/ugrad/life/index.php">&raquo; Student life</a></li>   
+                            <li><a href="/ugrad/resources/index.php">&raquo; Student resources</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Summer internships</a></li>
+                            <li><a href="https://techjobs.uci.edu/">&raquo; Tech Jobs</a></li>
+                            <li><a href="http://www.ofas.uci.edu/content/costs.aspx?nav=1">&raquo; Tuition and costs</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li><a href="http://www.ics.uci.edu/prospective">&raquo; Prospective undergrad</a></li>
+
+
+                        <li><a href="http://www.parents.uci.edu/">&raquo; UCI parents</a></li>
+                        
+                                                    
+                    </ul>               
+                </li>
+
+    
+                <li>
+                    
+                    <a href='#' title='people'>&raquo; People</a>                      
+                    
+                
+                    <ul>
+                        <li><a href="/faculty/">&raquo; Faculty</a></li>
+                        <li><a href="/about/search/index.php">&raquo; Staff</a></li>
+                        <li><a href="/about/search/search_graduate_all.php">&raquo; Graduate students</a></li>
+                    </ul>   
+                </li>
+                                
+                
+                <li> 
+                
+                    <span id=specialborder><a href='#' title='community'>&raquo; Community</a></span>                    
+                    <ul>
+                        <li><a href="/community/alumni/">&raquo; Alumni</a></li>
+                        <li><a href="/community/friends/">&raquo; Friends</a></li>
+                        <li><a href="http://www.uadv.uci.edu/parents/">&raquo; Parent programs</a></li>
+                        <li><a href="/community/friends/leadershipcouncil/">&raquo; Leadership Council</a></li>
+                        <li><a href="http://www.uadv.uci.edu/DonaldBrenSchoolOfICSAnnualGiving">&raquo; Make a gift</a></li>
+                        <li><a href="/community/news/">&raquo; News</a></li>
+                    </ul>   
+                </li>
+
+                <li>
+                
+                    <a href='/involved/' title='get involved'>&raquo; Get Involved</a>              
+                
+                
+                    <ul>
+                    
+                            <LI><A HREF="/involved/tech_talk">&raquo; Tech talks</A></LI>
+                            <LI><A HREF="/involved/information_session">&raquo; Information sessions</A></LI>
+                            <!--<LI><A HREF="/involved/">&raquo; Join industry panel</A></LI>-->
+                            <LI><A HREF="/involved/project_class">&raquo; Sponsor projects</A></LI>
+                            <LI><A HREF="/involved/leadership_council">&raquo; Leadership Council</A></LI>
+                            <LI><A HREF="/involved/corporate_partner">&raquo; Corporate Partners</A></LI>
+                            <LI><A HREF="/involved/internship">&raquo; Sponsor interns</A></LI>
+                            <LI><A HREF="https://techjobs.uci.edu/">&raquo; Tech Jobs</A></LI>
+                            <!--<LI><A HREF="">&raquo; Support student groups</A></LI>-->
+                            <LI><A HREF="/community/events/butterworth/">&raquo; Butterworth Competition</A></LI>
+                            
+                    </ul>               
+                </li>
+                
+                    
+
+            </ul>
+
+<style type="text/css">@import url("/bin/icssearchstyle/css/icssearch.css");</style>
+<script src="/bin/icssearchstyle/js/icssearch.js" type="text/javascript"></script>
+<script src="/bin/icssearchstyle/js/icssearchform.js" type="text/javascript"></script>
+
+
+
+    </div>
+<!-- before breadcrumb_nav() print -->
+<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/news/">News</a> &gt; <a href="http://www.ics.uci.edu/community/news/articles/">Articles</a>] --><A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/news/">News</a> &gt; <a href="http://www.ics.uci.edu/community/news/articles/">Articles</a></div>
+<!-- after breadcrumb_nav() print -->
+
+<div id="content"><a id="startcontent" name="startcontent"></a>  
+<div id="content_title"></div>
+
+<blockquote>
+<div id="content_text">
+
+<br/>
+
+<!-- inc publications_db -->
+
+ <strong>August 4,  2013</strong><p><i>Orange County Register</i><p><strong>UC Irvine camp teaches middle school girls to code</strong><p><strong>By: Jillian Beck</strong><br><p>
+
+
+<style>
+
+   P.image_with_wrapped_text  { clear: both; NOTmargin: 2em 0; }
+
+   .image_with_wrapped_text IMG        { width: 260px; padding-bottom: 0.5em; }
+   .image_with_wrapped_text IMG.left   { float: left; padding-right: 0.5em; }
+   .image_with_wrapped_text IMG.right  { float: right; padding-left: 0.5em; }
+
+</style>
+
+
+
+
+
+
+<p class="image_with_wrapped_text">
+<img alt="" class="right" src="/bin/img/photos/news/ocreg-middleschoolgirlslearncomputerscience-2.jpg" />In a small lab tucked away in the computer sciences building at UC
+Irvine, more than 20 middle school-aged girls sat behind computer
+screens.
+
+<P>
+With the summer sun beating down just outside, they remained in the
+air-conditioned room, focused, typing furiously away on their keyboards,
+trying their small hands at learning the entry-level programming
+language, Python.
+
+<P>
+Each had on a bright turquoise shirt, with the words "Techie Girls,"
+across the front. Techie Girls was a weeklong camp meant to inspire
+girls to develop a love for technology, exposing them to web design, programming and game design. The
+camp, which the girls paid $50 to attend, ran from July 29 to August 2.
+
+<P>
+"A lot of them have already got it," Crystal Hsieh, one of the girls putting on the camp, said quietly to her
+friend Jessica Lin, smiling as she looked around the room.
+
+<P>
+Hsieh and Lin, both recent graduates of Northwood High School, put on the camp, after Crystal won an
+Aspirations in Computing award from the National Center for Women & Information Technology, or NCWIT,
+which works to correct the imbalance of gender diversity in technology and computing. Crystal then applied
+for and won a $3,750 grant to put on the Techie Girls camp.
+
+<P>
+Her mom calls her "techie girl" because of her love for technology, so Hsieh decided to make it the name of
+the camp.
+
+<P>
+"I think middle school, or a young age, is when you really need to hook them on computing," said <STRONG>Debra
+Richardson</STRONG>, a UC Irvine informatics professor and a member of the leadership team for NCWIT. "By high
+school and college it's very unlikely that they'll get an interest." Richardson, who is also the founding dean of
+the Donald Bren School of Information and Computer Sciences at UCI, acted as an adult supervisor at the
+camp.
+
+<P>
+Richardson said the camp is part of a pilot program from the NCWIT to create outreach programs to teach
+young girls about computing.
+
+<P>
+"There's a stigma for girls in areas like computing even though all the great jobs are there," she said.
+
+
+
+
+<p class="image_with_wrapped_text">
+<img alt="" class="left" src="/bin/img/photos/news/ocreg-middleschoolgirlslearncomputerscience-3.jpg" />
+Each day of the camp is broken into two parts: what they refer to as "learn sesh," where the girls learn about
+a particular aspect of computing in a lecture format, and then "work sesh," where the girls get to apply what
+they learn.
+
+<P>
+During a "learn sesh," Annabelle Chang and Maggie Yan sat next to each other in the lab, talking about
+square roots and their trials and tribulations learning to code. Both girls, who are about to start the eighth
+grade at Sierra Vista Middle School, said they heard about the camp through their school, liked technology
+and thought they'd try it.
+
+<P>
+For Maggie, and many of the other girls, the camp was a chance to explore future possibilities.
+
+<P>
+"I still don't know exactly what I want to be so I like experiencing things so when I get to that point I'll have
+more choices," she said.
+
+
+<P>
+Several volunteers roamed around the room, sometimes stopping to check if the girls needed help with the
+programming.
+
+<P>
+Harvey Coe, one of the volunteers and a junior at University High School, was the lone boy in the room of
+girls.
+
+<P>
+His dad knows Crystal's, and thought it would be a good experience for Harvey.
+
+<P>
+"It's been great," he said. "I get to learn while helping people."
+
+<P>
+The camp &ndash; and the efforts of the NCWIT &ndash; is meant to pique the interest of young girls and inspire them to
+get involved in computing. And it seems to work.
+
+<P>
+Kerenna Samynathan, an eighth grader at Sierra Vista Middle School, types away on the keyboard in front of
+her, functions appearing on her screen as she tries out Python, the new coding language she learned.
+
+<P>
+Kerenna said she first became interested in computer science after her dad showed her some aspects of
+coding back when she was in sixth grade. She then took web design as an elective at her middle school.
+
+<P>
+"I mostly like that you can really make anything with coding," she said, with wide eyes. "And even if it doesn't
+work at first, you can find the error and try again."
+
+<P>
+Kerenna has some big dreams. Someday, she wants to be the CEO of Apple, she said with a big grin, her
+green braces shining.
+
+<P>
+"Well, this is the place to start then," said UCI professor Richardson, smiling as she looked on at the girls
+typing away.
+
+
+
+<p class="image_with_wrapped_text">
+<img alt="" class="right" src="/bin/img/photos/news/ocreg-middleschoolgirlslearncomputerscience-1.jpg" />
+
+Crystal Hsieh and Jessica Lin graduated from Northwood High School in June. They've spent most of the
+summer planning out the Techie Girls camp before they head off to college in the fall.
+
+<P>
+Both plan to study computer science, but Crystal will attend the University of California, Los Angeles and
+Jessica will start at UC San Diego.
+
+
+
+
+
+
+<P>
+We caught up with them halfway through the weeklong camp to ask about their experience and their interest
+in computer science.
+
+
+
+<P>
+<B>Q. What motivated you to apply for the Aspire IT grant to start Techie Girls?</B>
+
+<P>
+<B>Hsieh:</B> "I got an email in June about applying for the grant and my parents encouraged me to go for it. We
+had to create a budget for it, all the things you'd use the money for ... I actually worked at Girls Inc. for a little
+bit for a three-day mini camp (for elementary kids) that I created so we kind of used that as a basis. After I
+sent the proposal in, I asked Jessica to help me do all the really important details after we got the grant."
+
+
+<P>
+<B>Q. What got you interested in computer science?</B>
+
+<P>
+<B>Lin:</B> "It basically started with our 10th grade (Advanced Placement) Computer Science class and our teacher,
+Mr. Olivares, was the best teacher ever. He was really funny and interactive. He basically got us interested ...
+It was something that is applied math, which is what I've been doing all my life, after that I just went to
+summer camps for math and computers."
+
+<P>
+<B>Hsieh:</B> "For me, I actually really wanted to do graphics, I was more into web design and all that. But then I
+learned that I actually do like the coding aspect and more of the math ... so I got more into that."
+
+
+<P>
+<B>Q. There's a growing movement to teach young people, especially girls, about coding. Why do you
+think it's important for young girls to learn about computer science?</B>
+
+<P>
+<B>Hsieh:</B> "What's interesting is that the older generation, like my parents, they have a harder time with it
+because they're not use to it and they're like, 'This is weird, I don't get it.' But when you're young, you don't
+have to worry about it, (you're) just absorbing everything (you) see. You don't see it as a foreign concept; you
+just take it in and just go for it."
+
+
+<P>
+<B>Q. Now that you're headed off to college in the fall, what are your future goals?</B>
+
+<P>
+<B>Hsieh:</B> "I'm more interested in the Apple, Google and more developer tools for mobile applications. But since
+we haven't actually taken any college courses yet, it's really up in the air right now."
+
+<P>
+<B>Lin:</B> "It feels really awkward because we don't really know that much about computer science because we
+haven't really had that many opportunities. I've (gone to) a summer camp on artificial intelligence and I think
+that's cool, but I also like art, so I might be wanting to combine some sort of art and computer science in
+college."
+
+
+<P>
+<B>Q. Do you have any advice for young girls wanting to learn more about computer science?</B>
+
+<P>
+<B>Hsieh:</B> "Keep trying. Because, just like coding, a lot of things don't work the first time you try it."
+
+<P>
+<B>Lin:</B> "If they want more exposure, then there's actually a lot of computing camps and a lot of things on the
+Internet you can teach yourself, too. Just go for it."
+
+
+
+<br><TITLE>UC Irvine camp teaches middle school girls to code</TITLE>
+
+</div>
+</blockquote>
+</div>
+<div id="sidebar"><div id="sidebar_title">More community &#187;</div>
+<ul>
+<li><a href="../../alumni/index.php">Alumni</a></li>
+<li><a href="../../friends/index.php">Friends</a></li>
+<li><a href="http://www.parents.uci.edu/">Parents</a></li>
+<li><a href="../../friends/leadershipcouncil/index.php">Leadership Council</a></li>
+<li><a href="../index.php">News</a></li>
+<li><a href="https://ua-web.uadv.uci.edu/eGiving/">Give a gift</a></li>
+</ul>
+<div>
+<div id="sidebar_title">More news and events &#187;</div>
+<ul>
+<li><a href="../press/index.php">Press
+ releases</a></li>
+<a href="http://www.ics.uci.edu/community/news/press/index.php">				</a>
+<li><a href="index.php">In the 
+news</a></li>
+<li><a href="../notes/index.php">Noteworthy
+ achievements</a></li>
+<a href="http://www.ics.uci.edu/community/news/notes/index.php">				</a>
+<li><a href="http://www.youtube.com/UCIBrenICS">Video highlights</a></li>
+<li><a href="../spotlight/index.php">Spotlight</a></li>
+<li><a href="http://calendar.ics.uci.edu/calendar.php">Calendar of 
+events</a></li>
+</ul>
+<!-- -->
+<!-- -->
+<!-- -->
+<!--
+<div id="sidebar_title">Noteworthy archive &#187;</div>
+<ul>
+<li><a href="/ICS/ics/community/news/notes/notes_2009">2009</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2008">2008</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2007">2007</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2006">2006</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2005">2005</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2004">2004</a></li>
+</ul>
+</div>
+--></div></div>
+<div id="footer"><a href="http://www.uci.edu/copyright.php">Copyright Inquiries</a> |
+   <a href="http://www.uci.edu/cgi-bin/phonebook">UCI Directory</a> |
+   <a href="http://intranet.ics.uci.edu/">Intranet</a> |
+   
+   <!-- <a href="http://www.ics.uci.edu/sitemap.php">Site Map</a> | -->
+ 
+  <a href="mailto: i%63%73%77%65%62m%61s%74%65r@%69c%73%2e%75c%69%2eedu">icswebmaster</a> |
+Updated: 
+October 17 2013</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-605898-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

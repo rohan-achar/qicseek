@@ -1,0 +1,955 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<!-- #BeginTemplate "/Templates/index.dwt" -->
+<meta name="description" content="A research project investigating the social and technical issues surrounding the success of geographically distributed science and engineering collaborations." />
+<meta name="keywords" content="scientific collaboration, collaboratories, collaboratory, University of California, Irvine, School of Information, social-technical" />
+<meta name="language" content="English" />
+<meta name="author" content="Dan Cooney" />
+<meta name="programmer" content="Greg Peters" />
+<META content=ALL name=robots>
+<META content="15 days" name=revisit-after>
+<META content=emilyo@uci.edu name=reply-to>
+<META content="Living Document" name=document-class>
+<META content="Copyrighted Work" name=document-rights>
+<META content="Web Page" name=document-type>
+<META content="Safe for Kids" name=document-rating>
+<META content=Global name=document-distribution>
+<META content=Static name=document-state>
+<META content=no-cache name=cache-control>
+<META http-equiv=Content-Language content=EN-US>
+<META content="Dan Cooney" name=Publisher>
+
+<link REL="ICON" HREF="/soc.ico" TYPE="image/x-icon">
+<link REL="SHORTCUT ICON" HREF="/soc.ico" TYPE="image/x-icon">
+
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1"><!-- #BeginEditable "doctitle" --><!-- #EndEditable -->
+<SCRIPT type=text/javascript>
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</SCRIPT>
+<LINK href="/styles/SOC.css" 
+type=text/css rel=stylesheet><!--Main content begins -->
+<META content="MSHTML 5.50.4913.1100" name=GENERATOR></HEAD>
+<!-- #LOOP-START:header -->
+<BODY text=#000000 vLink=#333399 aLink=#ff9900 link=#333399 bgColor=#ffffff 
+leftMargin=2 topMargin=2 marginheight="2" marginwidth="2">
+<TABLE height=117 cellSpacing=0 cellPadding=0 width="100%" align=center 
+border=0>
+  <TR>
+    <TD vAlign=top align=left>
+      <TABLE cellSpacing=0 cellPadding=0 width=100% align=left 
+      border=0 name="Header">
+        <TR>
+          <TD vAlign=bottom align=left background=""
+          rowSpan=3 height=103 width=145><A 
+            href="/"><IMG 
+            height=103 alt="Science of Collaboratories logo - link" 
+            src="/images/LOGOSMALLER.gif" 
+            width=145 align=bottom border=0 name=SOCLogo></A></TD>
+          <TD height=40 valign="top">
+            <DIV ALIGN="RIGHT" CLASS="admin_login"><A HREF="/index.php?SOCSiteMap">Site Map</A>&nbsp;-&nbsp;<A HREF="/datateam/index.php">Login</A></DIV><BR>
+            <SCRIPT src="/libs/exmplmenu_var.js" type=text/javascript></SCRIPT>
+            <SCRIPT src="/libs/menu_com.js" type=text/javascript></SCRIPT>
+            <NOSCRIPT>Your browser does not support script</NOSCRIPT></TD></TR>
+        <TR>
+          <TD vAlign=top align=left width=100% bgColor=#660033 height=15>
+            &nbsp;
+          </TD></TR>
+        <TR>
+         <TD width=100% bgColor=#660033 height=15>&nbsp;</TD></TR>
+</table>
+      </TD>
+    <TD vAlign=top width=60 height=100>&nbsp;</TD>
+   </TR>
+        <TR>
+          <TD vAlign=top align=left height=20><IMG height=20 
+            alt="An alliance to advance the understanding of collaboratories" 
+            src="/images/SOCATextNew.gif" 
+            width=527 border=0 name=SOCATextNew>
+          </TD>
+         </TR>
+</TABLE>
+<!-- #LOOP-END:header -->
+<TABLE cellSpacing=0 cellPadding=0 width=100% align=left border=0 
+name="Main Body Table">
+  <TR>
+    <TD vAlign=top colspan=4 align=left bgColor=#660033 height=12><IMG 
+      height=12 alt="Science of Collaboratories" 
+      src="/images/RoundedRed.gif" 
+      align=top border=0 name=Header_r9_c1><BR></TD>
+    <TD vAlign=top align=left bgColor=#660033 height=12>&nbsp; </TD>
+    <TD width=60 bgColor=#ffffff>&nbsp;</TD></TR>
+  <TR>
+    <TD width=20 bgColor=#660033></TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD colspan=2 align=left bgColor=#ffffff>
+<!-- This is where we will add the content -->
+      
+<script language="JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  brWin = window.open(theURL,winName,features);
+  brWin.focus();
+}
+//-->
+</script>
+<table width="100%" border="0">
+  <tbody>
+     <tr>
+    <td align="right"><p class="backnav"><a href="colisting.php">Return to the list of Collaboratory 
+Projects</a></p></td>
+    <td width="1%">&nbsp;</td>
+  </tr>
+    <tr>
+     <td align="right">&nbsp;</td>
+     <td width="1%">&nbsp;</td>
+   </tr>
+     
+  </tbody> 
+</table>
+<table width="100%" border="0">
+    <tbody>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccffff">     
+         
+      <p class="fieldname">Name of Collaboratory :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%"><p class="collabname">BrainNet Europe </p>
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">URL          :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%"><a href="http://www.brainnet-europe.org/">http://www.brainnet-europe.org/</a></td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">Collaboratory Status
+:</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+    <TD width="66%">
+    <TABLE BORDER="0" cellspacing="0" cellpadding="0">
+    <TR>
+      <td width="24%" align="left" bgcolor="#FFFFFF">Operational
+      </td>
+      <TD width="1%">&nbsp;</TD>
+      <td width="20%" align="left" bgcolor="#FFFFFF"> 
+        <b>Start Date :</b> 
+          2001
+      </td>
+      <td width="20%"> 
+        <b>End Date :</b> 
+          
+      </td>
+	  <td width="35%"> 
+        <b>Info Last Updated :</b> 
+          Mon, Nov 1 2010 6:01pm PDT
+      </td>
+    </tr>
+    </table>
+    </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccffff">     
+         
+      <p class="fieldname">Primary Collaboratory Function :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">Community Data Systems</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccffff">     
+         
+      <p class="fieldname">Secondary Collaboratory Functions :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">Distributed Research Center</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">Domain(s)         
+:</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">BIOLOGICAL/AGRICULTURAL SCIENCES >Biological Sciences >Biomedical Sciences, BIOLOGICAL/AGRICULTURAL SCIENCES >Biological Sciences >Pathology, Human and Animal</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+   <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" bgcolor="#ccffff" align="right" valign="top">     
+         
+      <p class="fieldname">Brief          Description 
+of the Collaboratory :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">               
+      <p>BrainNet Europe is a consortium of brain banks in mainland Europe and UK which commenced activities in 2001, expanding to the present grouping in 2004. Today, the network comprises 18 full member brain banks, two associated brain banks and the company GABO:mi, responsible for public relations. Individual brain banks within the BNE consortium focus on different CNS disorders. BNE is coordinated by the Centre for Neuropathology and Prion Research Ludwig-Maximilians-University Munich, Germany. It is divided into 25 workpackages.</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%" height="20">&nbsp;</td>
+      <td width="31%" bgcolor="#ccff66" bordercolor="#CCCCCC"
+ align="right" valign="top" height="20">               
+      <p class="fieldname">Access          to 
+Instruments :</p>
+      </td>
+      <td width="1%" height="20">&nbsp;</td>
+      <td width="66%" height="20"></td>
+      <td width="1%" height="20">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" bgcolor="#ccff66" bordercolor="#CCCCCC"
+ align="right" valign="top">               
+      <p class="fieldname">Access          to 
+Information Resources :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">BNE provides a forum for rapid spread of expertise relating to brain banking techniques, both within the consortium and to the wider neuroscience community. <BR>
+<BR>
+BNE has an extensive stock of human CNS tissue samples registered in a modern database, which is only accessible to BNE Members. </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" bgcolor="#ccff66" bordercolor="#CCCCCC"
+ align="right" valign="top">               
+      <p class="fieldname">Access          to 
+People as Resources :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">They had two international BNE conferences, one in 2006 and one in 2008.</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top">
+        <p class="fieldname">Funding Agency 
+or Sponsor :</p></td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">European Commission</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+</table>
+</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <TR> 
+      <td width="1">&nbsp;</td>
+      <td valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+        <table width="100%" border="0">
+          <tr> 
+            <td width="13%">&nbsp;</td>
+            <td width="49%"> 
+              <table width="100%" border="1" bordercolor="#CCFFFF">
+                <tr> 
+                  <td> 
+                    <p> <font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Notes on Funding Agencies/Sponsors:<br>
+                      BrainNet Europe is a "Network of Excellence" funded by the European Commission in the 6th Framework Program "Life Science" (LSHM-CT-2004-503039).
+                    </font></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+      <TD width="4">&nbsp;</TD>
+    </TR>
+
+    <TR> 
+      <td width="1">&nbsp;</td>
+      <td valign=top align=right colspan="3" bgcolor="#CCFFFF"> 
+        <div align="left"><font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Organizations with Funded Participants:</font></div>
+      </td>
+      <TD width="4">&nbsp;</TD>
+    </TR>
+
+    <TR> 
+      <td height=1 width="1"></td>
+      <td height=1 valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+       
+        <table width="100%" border="0">
+          <tr bgcolor="#FFFFFF"> 
+            <td width="49%"><b><font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Organization name:</font></b></td>
+            <td width="13%"> 
+              <div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Approx # of participants:</font></b></div>
+            </td>
+            <td width="38%"><b><font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Description of organization's role(s):</font></b></td>
+          </tr>
+
+
+
+
+          <tr bgcolor="" valign="top"> 
+            <td width="49%">Aarhus University</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              Associated member (Aarhus Brain Collection)
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University College London</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Molecular Neuroscience (University College London)</td>
+            <td width="13%"> 
+              <div align="center">
+                6
+              </div>
+            </td>
+            <td width="38%">
+              Queen Square Brain Bank
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Universit‡ di Bologna - University of Bologna</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Neurological Sciences (University of Bologna)</td>
+            <td width="13%"> 
+              <div align="center">
+                6
+              </div>
+            </td>
+            <td width="38%">
+              Consortium member
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Foundation of the Carlo Besta Neurological Institute, IRCCS</td>
+            <td width="13%"> 
+              <div align="center">
+                13
+              </div>
+            </td>
+            <td width="38%">
+              Consortium member
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Georg-August-Universität Göttingen</td>
+            <td width="13%"> 
+              <div align="center">
+                5
+              </div>
+            </td>
+            <td width="38%">
+              Consortium member
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Hospices Civils de LYON</td>
+            <td width="13%"> 
+              <div align="center">
+                9
+              </div>
+            </td>
+            <td width="38%">
+              Consortium Member
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Imperial College London</td>
+            <td width="13%"> 
+              <div align="center">
+                7
+              </div>
+            </td>
+            <td width="38%">
+              Consortium Member (UK Multiple Sclerosis and Parkinsons Disease Tissue Banks)
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>King's College, London</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Institute of Psychiatry - King's College London</td>
+            <td width="13%"> 
+              <div align="center">
+                8
+              </div>
+            </td>
+            <td width="38%">
+              Consortium member
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Karolinska Institutet </td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              Consortium member (Brain Bank at Karolinska Instituet)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Medical University of Vienna</td>
+            <td width="13%"> 
+              <div align="center">
+                6
+              </div>
+            </td>
+            <td width="38%">
+              Consortium member (Institute of Neurology)
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Royal Netherlands Academy for Arts and Sciences (KNAW)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Netherlands Institute for Neuroscience (NIN)</td>
+            <td width="13%"> 
+              <div align="center">
+                11
+              </div>
+            </td>
+            <td width="38%">
+              Consortium member (Netherlands Brain Bank - NBB)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Semmelweis University</td>
+            <td width="13%"> 
+              <div align="center">
+                14
+              </div>
+            </td>
+            <td width="38%">
+              Consortium member (Human Brain Tissue Bank Budapest)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Universite Pierre et Marie Curie et Universite Denis Diderot</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Consortium member
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Athens</td>
+            <td width="13%"> 
+              <div align="center">
+                4
+              </div>
+            </td>
+            <td width="38%">
+              Consortium member
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Barcelona</td>
+            <td width="13%"> 
+              <div align="center">
+                15
+              </div>
+            </td>
+            <td width="38%">
+              Consortium member; Associated member (Neurological Tissue Bank)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Edinburgh</td>
+            <td width="13%"> 
+              <div align="center">
+                5
+              </div>
+            </td>
+            <td width="38%">
+              Consortium member
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Kuopio</td>
+            <td width="13%"> 
+              <div align="center">
+                4
+              </div>
+            </td>
+            <td width="38%">
+              Consortium member (Kuopio Brain Bank)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Würzburg</td>
+            <td width="13%"> 
+              <div align="center">
+                7
+              </div>
+            </td>
+            <td width="38%">
+              Consortium member
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Ludwig Maximilians University (University of Munich)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Zentrum für Neuropathologie und Prionforschung (University of Munich)</td>
+            <td width="13%"> 
+              <div align="center">
+                5
+              </div>
+            </td>
+            <td width="38%">
+              Project office; Brain Bank Munich
+            </td>
+          </tr>
+
+
+
+</table>
+
+      </td>
+      <td height=1 width="4"></td>
+    </TR>
+
+    <TR> 
+      <td height=1 width="1"></td>
+      <td height=1 valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+       
+      </td>
+      <TD height=1 width="4"></TD>
+    </TR>
+
+    <TR> 
+      <td height=1 width="1"></td>
+      <td height=1 valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+       
+      </td>
+      <TD height=1 width="4"></TD>
+    </TR>
+    <TR> 
+      <td width="1">&nbsp;</td>
+      <td valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+        <table width="100%" border="0">
+          <tr bgcolor=""> 
+            <td width="49%" align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>TOTAL 
+              PARTICIPANTS: </b></font></td>
+            <td width="13%"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                132
+                </font></div>
+              </font></td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td width="49%" bgcolor="#CCFFFF"> 
+              <table width="100%" border="1" bgcolor="#CCFFFF">
+                <tr bgcolor="white"> 
+                  <td> 
+                    <p> <font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Notes on Participants/Organizations:<br>
+                      The Network Governing Board is the principal decision-making body of the Network and consists of all researchers and graduate students working for this Network.<BR>
+<BR>
+The Network Area Boards are management groups for the work packages. The chairpersons manage the Network Areas and are members of the Network Co-ordination Committee.<BR>
+<BR>
+The Network Co-ordination Committee is the supervisory body of the research activities which report to and are accountable to the Network Governing Board.<BR>
+<BR>
+The IPR Council is the panel of arbitration with power to decide disputes amongst the Parties concerning Intellectual Property Rights.  <BR>
+<BR>
+The Co-ordinator is the intermediary to the Commission who is authorised to execute the Network management. He reports to and is accountable to the Network Co-ordination Committee.<BR>
+<BR>
+The Project Office (=BrainNet Europe Office) is the central office of the BrainNet Europe II. The Project Office is based at the co-ordinator in Munich. It is concerned with organization and coordination, data handling, information of BrainNet Europe II members and the general public.<BR>
+<BR>
+The Co-ordinating group is composed of five members of the network and shall support and advise the Co-ordinator in management related matters.<BR>
+<BR>
+Associated Partners can join the BNEII Consortium, if they are approved by at least three quarters of the votes of the Network Governing Board. They do not receive funding and have no right to vote. They may attend meetings of the Network Governing Board at their own expense and they are invited to contribute to interlaboratory trials or other activities of BNEII. They have signed the BNE consortium agreement, the BNE Code of Conduct and abide by these provisions. 
+                    </font></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td width="13%">&nbsp;</td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td width="49%">&nbsp;</td>
+            <td width="13%">&nbsp;</td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+      <TD width="4">&nbsp;</TD>
+    </TR>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      
+    <td width="31%" bgcolor="#FFFFFF" bordercolor="#CCCCCC"
+ align="right" valign="top"> 
+      <p class="fieldname">Communications Technology 
+        Used :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      
+    <td width="66%"></td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      
+    <td width="31%" bgcolor="#FFFFFF" bordercolor="#CCCCCC"
+ align="right" valign="top"> 
+      <p class="fieldname">Technical 
+        Capabilities :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      
+    <td width="66%">
+        
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+  <tr>
+    <td width="1%">&nbsp;</td>
+    <td align="right" valign="top" width="31%">Key Articles : </td>
+    <td width="1%">&nbsp;</td>
+      <td width="66%" valign="top">
+        
+      </td>
+    <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">Project-reported performance data
+:</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%"></td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+   
+     
+
+
+  </tbody>
+</table>
+
+    </TD>
+    <TD width=60>&nbsp;</TD></TR>
+<TR>
+    <TD vAlign=top align=middle width=20 bgColor=#660033>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top colspan=2 align=right bgColor=#ffffff height=12>&nbsp;</TD>
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=bottom colspan=4 align=left width=145 bgColor=#660033 height=12><IMG 
+      height=12 
+      src="/images/RoundedBottom.gif" 
+      width=145 align=bottom></TD>
+    <TD vAlign=top align=right bgColor=#660033 height=12><FONT 
+      color=#ffffff>
+      &nbsp;</FONT><SPAN class=SmallText><FONT 
+      color=#ffffff>&nbsp; </FONT></SPAN></TD><!-- HERE -->
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=top align=middle width=20>&nbsp;</TD>
+    <TD colspan=4 vAlign=top align=middle bgColor=#ffffff
+      height=6><SPAN class="footernavbar"><A 
+      href="/">Home</A> | <A 
+      href="/AboutSOC/index.php">About 
+      SOC</A> | <A 
+      href="/Workshops/index.php">Workshops</A> | <A 
+      href="/Resources/index.php?findings">Resources</A> 
+      | <A 
+      href="/NewsEvents/index.php">News 
+      &amp; Events</A></SPAN></TD>
+    <TD width=60 bgColor=#ffffff height=6>&nbsp;</TD></TR>
+<!-- #LOOP-START:footer -->
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <HR align=center width=80%>
+    </TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5></TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <TABLE cellSpacing=0 cellPadding=0 width="95%" align=left border=0 
+      name="Footer">
+        <TR>
+          <TD vAlign=top align=middle width=172 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.uci.edu/"><IMG height=70 
+            alt="University of California, Irvine Logo" 
+            src="/images/logo_uci.jpg" 
+            width=62 border=0 name=UCI_Logo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.uci.edu/">University of California, Irvine<BR></A></P></TD>
+          <TD align=middle>
+            <P class="copyright">This material is based upon work supported by 
+            the <A target=_blank href="http://www.itr.nsf.gov/">National Science 
+            Foundation</A> under Grant No. IIS 0085951. Any opinions, findings, 
+            and conclusions or recommendations expressed in this material are 
+            those of the author(s) and do not necessarily reflect the views of 
+            the National Science Foundation. <BR><A target=_blank 
+            href="http://www.itr.nsf.gov/"><IMG height=42 
+            alt="National Science Foundation Logo" 
+            src="/images/nsf.gif" width=42 
+            border=0 name=NSF_Logo></A></P></TD>
+          <TD vAlign=top align=middle width=127 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.ics.uci.edu/"><IMG height=70 
+            alt="School of Information Logo" 
+            src="/images/logo_uci.jpg" 
+            width=62 border=0 name=SILogo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.ics.uci.edu/">School of Information</A>
+            <A href="http://www.ics.uci.edu/">University of 
+            Michigan</A></P></TD></TR>
+        <TR>
+          <TD align=middle>&nbsp;</TD></TR>
+        <TR>
+          <TD>
+            <P align=center class="copyright">&reg; 2010-2011
+            University of 
+            California, Irvine. Please send questions and comments to <A 
+            href="mailto:emilyo@uci.edu">SOC 
+        webmaster</A>.</P></TD></TR></TABLE></TD></TR>
+  <TR>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=95>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0>&nbsp; </TD>
+    <TD width=60 bgColor="white" height=0>&nbsp;</TD></TR>
+</TABLE>
+<!-- #LOOP-END:footer -->
+<P>&nbsp;</P>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-987955-53']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</BODY><!-- #EndTemplate --></HTML>
+

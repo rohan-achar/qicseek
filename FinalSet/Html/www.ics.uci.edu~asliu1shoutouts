@@ -1,0 +1,85 @@
+<style>
+h1 {font-size:50px;
+font-family:Harrington;
+color:406890;
+text-align: center}
+
+h2 {text-align:center}
+
+h4 {font-family:Lucida Console;
+font-size: 18px;
+color:406890;
+text-align: center}
+
+div.top_host{
+position:absolute;
+width: 300px;
+padding:10px;
+top:20%;
+left:30%;
+padding:10px;
+border: 15px solid transparent;
+border-image:url(border.png) 30 30 stretch;
+margin:50px;
+}
+
+div.comments{
+position:absolute;
+width: 300px;
+padding:10px;
+top:50%;
+left:45%;
+text-align:right;
+border: 15px solid transparent;
+border-image:url(border.png) 30 30 stretch;
+
+}
+
+div.submit{
+position:absolute;
+bottom:15%;
+left: 30%;
+}
+
+
+html { 
+  background: url(star_background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.text_color{
+color: yellow;}
+</style>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<h1>Shout Outs</h1>
+<h4>post some things you want to tell people!</h4>
+<h2 class = "text_color"> What are your thoughts about Ramen Cats?</h2>
+</head>
+
+
+
+<body>
+<div class = "top_host"> 
+<p class = "text_color">I LOVE THEM </p>
+</div><br>
+
+
+<div class = "comments">
+<p class = "text_color">ME TOO </p>
+</div><br>
+
+
+<div class = "submit"><textarea rows="8" cols="90"></textarea><br>
+<button type="submit" onclick="alert ('Your comment is not important to us.')"> comment </button>
+</div>
+</body>
+</html>
+

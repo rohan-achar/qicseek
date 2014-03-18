@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252"
+      http-equiv="Content-Type">
+    <title>Lab 1: Assignment</title>
+  </head>
+  <body>
+    <table style="width: 100%; background-color: rgb(102, 204, 204);
+      margin-left: auto; margin-right: auto; height: 58px; text-align:
+      left;" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td>
+            <div style="text-align: center;"> </div>
+            <h1 style=" text-align: center;">Lab 1: Assignment<br>
+            </h1>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    You must <span style="text-decoration: underline;">type</span> your
+    lab assignments and submit them through the EEE Dropbox tool. A
+    dropbox will be set up for each of the four lab assignments. This
+    lab assignment is due Wednesday, Oct. 16 by 5pm. You must include
+    all relevant R code used to answer the questions.<br>
+    <br>
+    <table style=" text-align: left; width: 100%; background-color:
+      rgb(255, 255, 204);" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td style="vertical-align: top;">
+            <div align="center">
+              <h3><b>The Classic Hat Problem</b></h3>
+            </div>
+            <p>Suppose <span style="font-style: italic;">n</span>
+              people go to a fancy restaurant. Each person is wearing a
+              hat and checks his/her hat at the door as he/she arrives.
+              The hat-check attendant gets tipsy throughout the evening,
+              forgetting which hat belongs to whom, and returns a random
+              hat to each person as they leave. The patrons leave in a
+              random order. </p>
+            <p> Conduct a <span style="text-decoration: underline;">simulation</span>
+              in R to answer the following questions:</p>
+            <ol start="1" style="list-style-type: lower-alpha;">
+              <ol style="list-style-type: lower-alpha;">
+                <li>Assume <span style="font-style: italic;">n</span> =
+                  5. Calculate an empirical probability that no one gets
+                  his or her own hat back. Use this to also estimate the
+                  probability that <i>at least one</i> patron gets his
+                  or her own hat back.<br>
+                </li>
+                <li>Still assuming <span style="font-style: italic;">n</span>
+                  = 5, calculate the empirical mean (average) number of
+                  patrons who get their own hats back.</li>
+                <li>Repeat parts a. and b. using <span
+                    style="font-style: italic;">n</span> = 20.<br>
+                </li>
+                <li>How do you think the probability of at least one
+                  match will change if there are 50 people? How do you
+                  think the average number of matches will change with
+                  50 people? Test your guesses by repeating the
+                  simulation with 50 hats and people. <br>
+                </li>
+                <li>Try the simulation for larger and larger values of <span
+                    style="font-style: italic;">n</span> to get an
+                  estimate of the limits for the probability of no one
+                  getting his/her hat back <span
+                    style="text-decoration: underline;">and</span> for
+                  the average number of patrons who get their hats back.
+                  (We will derive the exact probability of no one
+                  getting his/her hat back in class, <span
+                    style="font-family: monospace;">exp(-1)</span>. You
+                  can check your simulation by checking if your
+                  simulated answer is close to the exact answer.)<span
+                    style="font-weight: bold;"></span></li>
+              </ol>
+            </ol>
+            <h3>Hints </h3>
+            <p> You will need to simulate returning the hats at random
+              many many times (1000 times or more), keeping track of how
+              many patrons got their hat back on each trial. Try to
+              write R code to perform the following steps:</p>
+            <ul>
+              <li>Set up an <span style="font-style: italic;">empty
+                  vector</span> to store the result of each trial (in
+                the end, this will be a vector of non-negative integers
+                representing the number of patrons who got their hat
+                back on each trial).</li>
+            </ul>
+            <ul>
+              <li>Within a <span style="font-style: italic;">for loop</span>,
+                for each trial generate <span style="font-style:
+                  italic;">two random permutations</span> of size <span
+                  style="font-style: italic;">n</span> (the <span
+                  style="font-family: monospace;">sample</span> function
+                will come in handy here). One represents the random
+                order in which the patrons leave, the other the random
+                order in which the hats are returned. (Teaser: if the
+                hats are returned in random order, does it matter in
+                which order the patrons leave?). </li>
+            </ul>
+            <ul>
+              <li>Compute the <span style="font-style: italic;">number
+                  of matches</span> and <span style="font-style:
+                  italic;">save</span> it in the vector created in step
+                1. </li>
+            </ul>
+            <p>Once the for loop runs, you can calculate the <span
+                style="font-style: italic;">proportion</span> of times
+              that the number of matches was greater than zero, and the
+              <span style="font-style: italic;">mean</span> number of
+              matches over all trials. Run your simulation several times
+              to get an idea of how variable your results are.<br>
+              <br>
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <br>
+    <hr style="width: 100%; height: 2px;">
+    <div style="text-align: center;"><big><span style="font-weight:
+          bold;"></span><span style="font-weight: bold;">Previous:</span>
+        <a href="Adv_Coding.html">More Advanced R Commands</a></big><br>
+      <big> <br>
+        <a href="index.html">Lab 1 Index</a></big><br>
+      <hr style="width: 100%; height: 2px;"></div>
+    <br>
+    <br>
+  </body>
+</html>
+

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Photo-stream segmentation: Photo Organization</title>
+	<atom:link href="http://ngs.ics.uci.edu/photo-stream-segmentation-photo-organization/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/photo-stream-segmentation-photo-organization/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: PC Camera</title>
+		<link>http://ngs.ics.uci.edu/photo-stream-segmentation-photo-organization/comment-page-1/#comment-3043</link>
+		<dc:creator><![CDATA[PC Camera]]></dc:creator>
+		<pubDate>Fri, 18 Sep 2009 03:24:33 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=968#comment-3043</guid>
+		<description><![CDATA[It&#039;s a major problem to organize photos.  The idea of tags is fantastic.]]></description>
+		<content:encoded><![CDATA[<p>It&#8217;s a major problem to organize photos.  The idea of tags is fantastic.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: MBA Programs</title>
+		<link>http://ngs.ics.uci.edu/photo-stream-segmentation-photo-organization/comment-page-1/#comment-2291</link>
+		<dc:creator><![CDATA[MBA Programs]]></dc:creator>
+		<pubDate>Mon, 30 Jun 2008 11:15:24 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=968#comment-2291</guid>
+		<description><![CDATA[Quite frankly, I would rather like to save or organize my photos locally on my machine rather than doing it on internet. Although I donâ€™t feel any harm in doing so but somehow the security concerns are always there. 
+
+There&#039;s no doubt that many websites have very strong security settings as far as images are concerned i.e. you can not just copy the images, but loopholes are always there. I would rather say that arrange for some good photo organizing software (adobe provides such software) and then organize your photos locally.]]></description>
+		<content:encoded><![CDATA[<p>Quite frankly, I would rather like to save or organize my photos locally on my machine rather than doing it on internet. Although I donâ€™t feel any harm in doing so but somehow the security concerns are always there. </p>
+<p>There&#8217;s no doubt that many websites have very strong security settings as far as images are concerned i.e. you can not just copy the images, but loopholes are always there. I would rather say that arrange for some good photo organizing software (adobe provides such software) and then organize your photos locally.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Kent Tenney</title>
+		<link>http://ngs.ics.uci.edu/photo-stream-segmentation-photo-organization/comment-page-1/#comment-2268</link>
+		<dc:creator><![CDATA[Kent Tenney]]></dc:creator>
+		<pubDate>Wed, 25 Jun 2008 12:06:02 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=968#comment-2268</guid>
+		<description><![CDATA[There are a number of metrics which are easily harvested programatically which
+might be useful if assigned to an image. Given a collection of images, they are
+scanned and the following attributes are determined.
+
+time delta
+    duration between this image and prev, next.
+
+geometric complexity 
+    indicated by the degree that the image can be compressed.
+
+chromatic complexity
+    number of discrete colors in image
+
+average color
+    dominant color of image
+
+I&#039;m sure others will become evident, they share the characteristic of being
+available solely by examining the image data.    
+
+
+When images are tagged, a Bayesian filter correlates the above attributes with
+tags. I think there&#039;s a real chance that patterns would emerge which, if not
+leading to automation, would provide an improving level of assistance.
+
+The time delta attribute is valuable in determining batches. Within a batch,
+defined by a set of photos shot within a specified time frame, the tags will
+tend to be the same.
+
+Thanks,
+Kent]]></description>
+		<content:encoded><![CDATA[<p>There are a number of metrics which are easily harvested programatically which<br />
+might be useful if assigned to an image. Given a collection of images, they are<br />
+scanned and the following attributes are determined.</p>
+<p>time delta<br />
+    duration between this image and prev, next.</p>
+<p>geometric complexity<br />
+    indicated by the degree that the image can be compressed.</p>
+<p>chromatic complexity<br />
+    number of discrete colors in image</p>
+<p>average color<br />
+    dominant color of image</p>
+<p>I&#8217;m sure others will become evident, they share the characteristic of being<br />
+available solely by examining the image data.    </p>
+<p>When images are tagged, a Bayesian filter correlates the above attributes with<br />
+tags. I think there&#8217;s a real chance that patterns would emerge which, if not<br />
+leading to automation, would provide an improving level of assistance.</p>
+<p>The time delta attribute is valuable in determining batches. Within a batch,<br />
+defined by a set of photos shot within a specified time frame, the tags will<br />
+tend to be the same.</p>
+<p>Thanks,<br />
+Kent</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Web design</title>
+		<link>http://ngs.ics.uci.edu/photo-stream-segmentation-photo-organization/comment-page-1/#comment-2267</link>
+		<dc:creator><![CDATA[Web design]]></dc:creator>
+		<pubDate>Tue, 24 Jun 2008 05:08:55 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=968#comment-2267</guid>
+		<description><![CDATA[I think Adobe will done a great job later.]]></description>
+		<content:encoded><![CDATA[<p>I think Adobe will done a great job later.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

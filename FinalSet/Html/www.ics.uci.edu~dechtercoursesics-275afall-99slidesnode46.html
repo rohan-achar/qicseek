@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> History Mechanism</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" History Mechanism">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html2814 HREF="node47.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html2812 HREF="node39.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html2806 HREF="node45.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html2816 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html2815 HREF="node47.html"> Getting Help</A>
+<B>Up:</B> <A NAME=tex2html2813 HREF="node39.html"> Interaction with the </A>
+<B> Previous:</B> <A NAME=tex2html2807 HREF="node45.html"> Interrupting the execution</A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION00447000000000000000> History Mechanism</A></H2>
+<P>
+<A NAME=540>&#160;</A>
+The <A NAME=tex2html181 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  toplevel loop provides a simple history mechanism which allows
+to examine and to repeat previous queries.
+The history list is printed with command <b> h</b>.
+A previous query is invoked by typing its absolute number or its relative
+negative offset from the current query number (i.e. --1 will execute the
+previous query). The current query number is
+displayed in the toplevel prompt.
+<P>
+The history is initialized from the file <i> .eclipse_history</i>
+<A NAME=543>&#160;</A>
+in the current directory or in the home directory.
+This file contains the history goals, each ended by a fullstop.
+The current history can be written using the predicate write_history/0
+from the <b> util</b> library.
+<P>
+
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

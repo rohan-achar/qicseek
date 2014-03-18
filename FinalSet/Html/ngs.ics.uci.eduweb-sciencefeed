@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Web Science</title>
+	<atom:link href="http://ngs.ics.uci.edu/web-science/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/web-science/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: SEO Philadelphia</title>
+		<link>http://ngs.ics.uci.edu/web-science/comment-page-1/#comment-2160</link>
+		<dc:creator><![CDATA[SEO Philadelphia]]></dc:creator>
+		<pubDate>Wed, 30 Apr 2008 09:15:43 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=940#comment-2160</guid>
+		<description><![CDATA[Yes, it will be interesting to see how the changes or the evolutions in the web science will change the technology and up to what extent; at least it could be assumed that web science evolution will certainly make things easier.]]></description>
+		<content:encoded><![CDATA[<p>Yes, it will be interesting to see how the changes or the evolutions in the web science will change the technology and up to what extent; at least it could be assumed that web science evolution will certainly make things easier.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Besplatne Stvari</title>
+		<link>http://ngs.ics.uci.edu/web-science/comment-page-1/#comment-2062</link>
+		<dc:creator><![CDATA[Besplatne Stvari]]></dc:creator>
+		<pubDate>Sat, 26 Apr 2008 13:41:31 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=940#comment-2062</guid>
+		<description><![CDATA[Web Science is an interesting evolving area.]]></description>
+		<content:encoded><![CDATA[<p>Web Science is an interesting evolving area.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

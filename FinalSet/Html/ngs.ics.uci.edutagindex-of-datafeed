@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/index-of-data/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Extreme Stories: 12</title>
+		<link>http://ngs.ics.uci.edu/extreme-stories-12/</link>
+		<comments>http://ngs.ics.uci.edu/extreme-stories-12/#comments</comments>
+		<pubDate>Wed, 21 Mar 2012 02:56:31 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[Index of data]]></category>
+		<category><![CDATA[summarization]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1410</guid>
+		<description><![CDATA[In these days of Increasingly Bigger Data, it will become very important to understand the big picture that could be derived from this data. There are tow related approaches that one could use to provide this big picture: Summarization and&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>In these days of Increasingly Bigger Data, it will become very important to understand the big picture that could be derived from this data.  There are tow related approaches that one could use to provide this big picture:  Summarization and Storytelling.  These two are related, but not the same.  In summarization, the goal is to look at the data that has been collected and prepare a summary of this data to represent all the data meaningfully and in a way that one could explore it.  A commonly used structured representation of the data is the index of the data.  An index presents pointers to important locations in the data; it is just an index. An index does give an idea about what is contained in the data.  Somebody who knows the data commonly prepares this index.  And this is where the strength and limitations of index are.  In these days on increasingly bigger data, expecting somebody to analyze data in every area and indexing it may result in bottleneck for applications of the data.  Also, when a person prepares an index, the knowledge, biases, and perspective of a person result in an index and the index becomes relatively fixed.  </p>
+<p>Summarization of data or text is used to represent the data in a manageable size summary such that the summary captures the essence of data for a specific application context. </p>
+<p>An automated summarization technique could analyze incoming data and prepare summaries as the data becomes available and could also be tuned for specific applications such that multiple summaries could be developed for different applications using the same data.  In some cases, these summaries may even be used as an index to larger set of data.<br />
+Pinaki SInha (a doctoral student who worked under my supervision) developed a summarization approach and developed an algorithm for a large collection of photos.   Given a large collection of photos, say a few thousand photos, this approach will summarize it by selecting a small number of photos, say between 10 and 20.  This approach considers three important parameters: quality, coverage, and diversity.  Each photo in the original collection is assigned a quality measure.  Then the algorithm uses all meta data available related to photos to cover as many events as possible while selecting maximum diversity among events and represents these by selecting the best representative photo from the event.  This is a very simple description of the approach and does not do justice to all the power of this approach, but that is not what we are trying to do here.</p>
+<p>Summarization algorithms like the one discussed above for photos are required to be designed and developed for large collection of data.  Of course once such summary data is available, then one must consider rendering of this data to make it interesting.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/extreme-stories-12/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+	</channel>
+</rss>
+

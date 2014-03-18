@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<title>Jed Brubaker</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<!-- For the Blueprint CSS Framework, http://code.google.com/p/blueprintcss/ -->
+<link rel="stylesheet" href="http://www.jedbrubaker.com/wp-content/themes/futurosity_vero/css/blueprint/screen.css" type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="http://www.jedbrubaker.com/wp-content/themes/futurosity_vero/css/blueprint/print.css" type="text/css" media="print" />
+<!--[if IE]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection" /><![endif]-->
+<link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+<body class="wordpress y2009 m12 d20 h18 page pageid-148 page-author-jed">
+<div class="container hfeed">
+  <div id="header" class="column span-9 append-1">
+    <h1 id="blog-title"><a href="http://www.ics.uci.edi/~jrbrubak/" title="Jed Brubaker" rel="home">Jed Brubaker</a><span id="blog-description">&nbsp;// authoring my digital identity</span> </h1>
+  </div>
+  <!--  #header -->
+  <div id="access" class="column span-9 last">
+    <div id="menu">
+      <ul>
+        <ul>
+          <li class="page_item page-item-148"><a href="http://www.jedbrubaker.com/" title="About">About</a></li>
+          <li class="page_item"><a href="http://www.whatknows.com" title="Blog">Blog</a></li>
+          <li class="page_item page-item-64"><a href="http://www.whatknows.com/blog/contact/" title="Contact">Contact</a></li>
+        </ul>
+      </ul>
+    </div>
+  </div>
+  <!-- #access -->
+  <div id="container" class="column span-19 clear">
+    <div class="column span-7 append-3 ">
+      <!-- ADDED IMAGE -->
+      <img src='http://www.jedbrubaker.com/wp-content/plugins/simple-post-thumbnails/timthumb.php?src=/wp-content/thumbnails/148.jpg&amp;w=350&amp;h=270&amp;zc=1&amp;ft=jpg' alt='About' class='post-image' />
+      <div id="submenu">
+        <ul style="margin-top: 45px;">
+          <li><a href="http://www.jedbrubaker.com" title="Personal Site">Current research, papers, and more information on my personal site:<br />
+          <span style="color: #01AFEF">www.jedbrubaker.com</span></a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content" class="column span-9 last" >
+      <h2 class="entry-title">Welcome : //</h2>
+      <div id="post-148" class="hentry p1 page publish author-jed category-uncategorized tag-a-a tag-a-f-a tag-a-s tag-aamc tag-american-medical-colleges tag-amp tag-b-s tag-competency-center tag-computer tag-craigsl tag-current tag-d-c tag-developer-association tag-digital-identity tag-donald-bren-school tag-experience tag-front-end-design tag-h-s-diploma tag-human-computer-interface tag-identity tag-irvine tag-m-a tag-rock-springs tag-salt-lake-city tag-social-infrastructure tag-technology tag-theoretical-perspectives tag-theoretical-research tag-thesis tag-university tag-university-of-california-irvine tag-utsumma tag-uttechnical tag-washington tag-way tag-work y2008 m05 d31 h15">
+        <div class="entry-content">
+          <p>I am a PhD student in <a href="http://www.ics.uci.edu/informatics/" target="_blank">Informatics</a> at <a href="http://www.uci.edu/" target="_blank">UC Irvine</a> focusing on <span style='font-family: font-family: inherit; font-family: inherit;'Helvetica Neue', Helvetica, Arial, sans-serif'>digital identity, social media, and human centered computing</span>. I am particularly interested in issues of representation and the often invisible distinction between us and our data. My research draws from human centered computing, psychology, science and technology studies, and critical theory. </p>
+          <p>I study with <a href="http://www.gillianhayes.com/" target="_blank">Gillian Hayes</a>, so most days you can find me in the <a href="http://luci.ics.uci.edu/#overview" target="_blank">Laboratory for Ubiquitous Computing and Interaction</a> (LUCI) where I am a part of the <a title="STAR Group" href="http://www.star-uci.org/" target="_blank">STAR</a> research group. Previously, I earned my M.A. at <a title="Georgetown University" href="http://www.georgetown.edu/" target="_blank">Georgetown University</a> in <a title="Communication, Culture and Technology" href="http://cct.georgetown.edu/" target="_blank">Communication, Culture and Technology</a>, and my B.S.  in <a title="Psychology" href="http://www.psych.utah.edu/">Psychology</a> at the <a title="University of Utah" href="http://www.utah.edu/">University of Utah</a>.</p>
+          <p>Professionally, I  most recently spent four years at the <a title="Association of American Medical Colleges" href="http://www.aamc.org/">Association of American Medical Colleges</a> as a lead front-end software engineer. I worked on medical student systems (most notably the <a title="MCAT" href="http://www.aamc.org/mcat" target="_blank">MCAT</a>) and enterprise solutions including developing the AAMC’s JavaScript framework, launching a User Experience Competency Center, adoption of web analytics tools and best-practices, and cross-system standardization of digital identity information.</p>
+        </div>
+      </div>
+      <!-- .post -->
+    </div>
+    <!-- #content -->
+  </div>
+  <!-- #container -->
+  <div id="footer"></div>
+  <!-- #footer -->
+</div>
+<!-- .container .hfeed -->
+</body>
+</html>

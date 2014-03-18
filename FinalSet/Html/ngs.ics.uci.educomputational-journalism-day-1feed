@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Computational Journalism: Day 1</title>
+	<atom:link href="http://ngs.ics.uci.edu/computational-journalism-day-1/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/computational-journalism-day-1/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Andrew Haeg</title>
+		<link>http://ngs.ics.uci.edu/computational-journalism-day-1/comment-page-1/#comment-1434</link>
+		<dc:creator><![CDATA[Andrew Haeg]]></dc:creator>
+		<pubDate>Mon, 25 Feb 2008 17:58:30 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=915#comment-1434</guid>
+		<description><![CDATA[Was fascinated and challenged by your talk.  I&#039;m curious to get a better understanding of what the EventWeb is ... and how it might work.]]></description>
+		<content:encoded><![CDATA[<p>Was fascinated and challenged by your talk.  I&#8217;m curious to get a better understanding of what the EventWeb is &#8230; and how it might work.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Ramesh</title>
+		<link>http://ngs.ics.uci.edu/computational-journalism-day-1/comment-page-1/#comment-1433</link>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+		<pubDate>Mon, 25 Feb 2008 17:45:01 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=915#comment-1433</guid>
+		<description><![CDATA[Saurav,
+If you like to experiment with our system, you can first play a bit with www.seraja.com -- it is still on the web -- and then I can connect you with some people in my group who are working on a open source version of the software.
+
+I would love to see you work with the software. 
+Of course, i would love to hear about your research interests in this area -- lets take that on e-mail.]]></description>
+		<content:encoded><![CDATA[<p>Saurav,<br />
+If you like to experiment with our system, you can first play a bit with <a href="http://www.seraja.com" rel="nofollow">http://www.seraja.com</a> &#8212; it is still on the web &#8212; and then I can connect you with some people in my group who are working on a open source version of the software.</p>
+<p>I would love to see you work with the software.<br />
+Of course, i would love to hear about your research interests in this area &#8212; lets take that on e-mail.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Robert</title>
+		<link>http://ngs.ics.uci.edu/computational-journalism-day-1/comment-page-1/#comment-1432</link>
+		<dc:creator><![CDATA[Robert]]></dc:creator>
+		<pubDate>Sat, 23 Feb 2008 19:17:56 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=915#comment-1432</guid>
+		<description><![CDATA[Dear Sir,
+
+I reading your Blog soon long time and i like it. Kepp up your good work.
+
+Regards,
+Robert - Admin of:
+www.directoryelite.com
+www.bidladder.com
+www.rudyroots.org]]></description>
+		<content:encoded><![CDATA[<p>Dear Sir,</p>
+<p>I reading your Blog soon long time and i like it. Kepp up your good work.</p>
+<p>Regards,<br />
+Robert &#8211; Admin of:<br />
+<a href="http://www.directoryelite.com" rel="nofollow">http://www.directoryelite.com</a><br />
+<a href="http://www.bidladder.com" rel="nofollow">http://www.bidladder.com</a><br />
+<a href="http://www.rudyroots.org" rel="nofollow">http://www.rudyroots.org</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Saurav Sahay</title>
+		<link>http://ngs.ics.uci.edu/computational-journalism-day-1/comment-page-1/#comment-1431</link>
+		<dc:creator><![CDATA[Saurav Sahay]]></dc:creator>
+		<pubDate>Sat, 23 Feb 2008 18:13:14 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=915#comment-1431</guid>
+		<description><![CDATA[I really enjoyed your talk and the presentation here at the CJ symposium. I could see lots of challenging research opportunities in your talk as a PhD student here at Georgia Tech. There are so many different but related perspectives of the similar problem for creating the grand intelligent semantic web that we all envision.
+I look forward to experimenting with the EventWeb system.
+Regards,
+Saurav]]></description>
+		<content:encoded><![CDATA[<p>I really enjoyed your talk and the presentation here at the CJ symposium. I could see lots of challenging research opportunities in your talk as a PhD student here at Georgia Tech. There are so many different but related perspectives of the similar problem for creating the grand intelligent semantic web that we all envision.<br />
+I look forward to experimenting with the EventWeb system.<br />
+Regards,<br />
+Saurav</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

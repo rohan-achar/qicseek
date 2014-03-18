@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>HW5: </title>
+  </head>
+  <body>
+    <h1>HW5: Face recognition </h1>
+    <h3> Due Dec 9 in EEE DropBox at 11:59 pm </h3>
+    <hr>
+
+<h2>HW5: Face recognition</h2>
+
+
+<img width=200 src="meanface.jpg">
+<br>
+
+<p>
+In this assignment, you'll implement the Eigenface algorithm for face recognition from this <a href="http://www.cs.ucsb.edu/~mturk/Papers/jcn.pdf"> paper </a>. I have typed up an additional writeup on PCA <a href="../../../lec/PCA_notes.pdf"> here </a>. A common approach to recognition is utilizing a nearest neighbor framework. Here, images are represented as points in a high-dimensional vector space. One recognizes a query face by finding the closest labelled face from a training set of images. Eigenfaces extends this approach by using principle component analysis (PCA) to reduce the dimensionality of images before matching.
+
+The following directory contains extensive skeleton code, as well as the training & testing images for the assignment
+
+<ul>
+<li><a href="downloads">Downloads</a>
+</ul>
+
+<h4>Programming: [20 points]</h4>
+
+<p>
+The main scriptfile, <tt>hw5_run.m</tt>, is written completely for you. You will only need to make modifications to print images for the writeup. There are 4 functions which you will need to code
+
+    <ol>
+      <li> classifyNN.m (5 pts)
+	<blockquote><tt><pre>
+function yguess = classifyNN(Xtest,X,Y)
+% yguess = classifyNN(Xtest,X,Y)
+% X:     "d by n" design matrix
+% Y:     "n by 1" vector of class labels
+% Xtest: "d by m" matrix of test points to classify
+% yguess: "m by 1" vector of output labels for test points
+	  </pre></tt></blockquote>
+	This function implements the nearest-neighbor classification framework. It requires a set of "n" training points (X) and "n" training labels (Y). Given "m" test points with unknown labels, for each test point, it will return the label of the closest training point.
+	<p>
+      <li> pca.m (5 pts)
+	<blockquote><tt><pre>
+function [U,mu] = pca(X,k)
+% [U,mu] = pca(X,k)
+% X is a "d by n" matrix of n d-dimensional data points
+% 1) mu is a "d by 1" vector = average data point
+% 2) U is a "d by k" matrix of k column vectors spanning the low-dimensional space
+%   in which the points live  
+% 3) k is the number of principle component vectors to compute
+	  </pre></tt></blockquote>
+	This function performs principle component analysis given the design matrix X. Each column of X is a vector representing a data point in high-dimensional space; in our case, the image of a face. Because d is quite large, it will be difficult to compute the eigenvectors of the entire covariance matrix, which will be "d by d". Rather, you should directly apply the SVD function on the centered design matrix <tt> [U,S,V] = svd(Xcen) </tt>, and only retain the "k" columns of U associated with the largest singular vectors.
+	<p>
+      <li> project_pca.m (5 pts)
+	<blockquote><tt><pre>
+function res = project_pca(X,U,mu)
+% res = project_pca(X,U,mu)
+% X: "d by n" matrix of n d-dimensional data points
+% U: "d by k" matrix of basis vectors
+% mu: "d by 1" vector of mean point
+% res: "k by n" matrix of points from X projected into space spanned by U
+	  </pre></tt></blockquote>
+	This function projects the high-dimensional points from X into the k dimensional-space spanned by the vectors in U.
+	<p>
+	<li> reconstruct_pca.m (5 pts)
+	<blockquote><tt><pre>
+function res = reconstruct_pca(x,U,mu,k)
+% res = reconstruct_pca(x,U,mu,k)
+% x: "d by 1" vector
+% U: "d by k" matrix returned from pca
+% mu: "d by 1" vector returned from pca
+% k:   the number of vectors used to reconstruct x
+% res: "d by 1" vector
+	  </pre></tt></blockquote>
+	This function reconstructs a point x using k basis vectors from U.
+    </ol>
+
+<h4>Writeup: [10 points]</h4>
+
+<ol>
+
+<p><li> Show the error rate of the baseline nearest-neighbor classifier, and the eigenface algorithm. Use k = 50 principle components for the eigenface algoritm. The error rate is the percentage of test images that are incorrectly classified. For this dataset, you should see values around 11% for both.
+
+
+<p><li> Pick a random image from the test set. Show its closest matching training image found by the eigenface algorithm.
+
+<p><li> For the image from above, show the difference image between it and average face from the training set (mu).
+
+<p><li> For the image from above, show its reconstruction with 1, 10, and 50 principle components.
+
+<h4>Matlab Tips</h4>
+
+<ol>
+
+<p><li> The function <tt> bsxfun</tt> is a handy tool that lets you apply operations to each vector of a matrix. For example, here is quick way to center all the points in X: <tt> Xcen = bsxfun(@minus,X,mu); </tt>
+
+</ol>
+
+<h4>Extra-credit</h4>
+    As detailed in the <a href="../../hw_guide.html"> guidelines</a>, any project handed by 11:59 pm on the previous day (Dec 8th), will recieve 10% (3 points) extra credit.
+
+</p></div></center>
+</body></html>

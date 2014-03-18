@@ -1,0 +1,1265 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<!-- #BeginTemplate "/Templates/index.dwt" -->
+<meta name="description" content="A research project investigating the social and technical issues surrounding the success of geographically distributed science and engineering collaborations." />
+<meta name="keywords" content="scientific collaboration, collaboratories, collaboratory, University of California, Irvine, School of Information, social-technical" />
+<meta name="language" content="English" />
+<meta name="author" content="Dan Cooney" />
+<meta name="programmer" content="Greg Peters" />
+<META content=ALL name=robots>
+<META content="15 days" name=revisit-after>
+<META content=emilyo@uci.edu name=reply-to>
+<META content="Living Document" name=document-class>
+<META content="Copyrighted Work" name=document-rights>
+<META content="Web Page" name=document-type>
+<META content="Safe for Kids" name=document-rating>
+<META content=Global name=document-distribution>
+<META content=Static name=document-state>
+<META content=no-cache name=cache-control>
+<META http-equiv=Content-Language content=EN-US>
+<META content="Dan Cooney" name=Publisher>
+
+<link REL="ICON" HREF="/soc.ico" TYPE="image/x-icon">
+<link REL="SHORTCUT ICON" HREF="/soc.ico" TYPE="image/x-icon">
+
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1"><!-- #BeginEditable "doctitle" --><!-- #EndEditable -->
+<SCRIPT type=text/javascript>
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</SCRIPT>
+<LINK href="/styles/SOC.css" 
+type=text/css rel=stylesheet><!--Main content begins -->
+<META content="MSHTML 5.50.4913.1100" name=GENERATOR></HEAD>
+<!-- #LOOP-START:header -->
+<BODY text=#000000 vLink=#333399 aLink=#ff9900 link=#333399 bgColor=#ffffff 
+leftMargin=2 topMargin=2 marginheight="2" marginwidth="2">
+<TABLE height=117 cellSpacing=0 cellPadding=0 width="100%" align=center 
+border=0>
+  <TR>
+    <TD vAlign=top align=left>
+      <TABLE cellSpacing=0 cellPadding=0 width=100% align=left 
+      border=0 name="Header">
+        <TR>
+          <TD vAlign=bottom align=left background=""
+          rowSpan=3 height=103 width=145><A 
+            href="/"><IMG 
+            height=103 alt="Science of Collaboratories logo - link" 
+            src="/images/LOGOSMALLER.gif" 
+            width=145 align=bottom border=0 name=SOCLogo></A></TD>
+          <TD height=40 valign="top">
+            <DIV ALIGN="RIGHT" CLASS="admin_login"><A HREF="/index.php?SOCSiteMap">Site Map</A>&nbsp;-&nbsp;<A HREF="/datateam/index.php">Login</A></DIV><BR>
+            <SCRIPT src="/libs/exmplmenu_var.js" type=text/javascript></SCRIPT>
+            <SCRIPT src="/libs/menu_com.js" type=text/javascript></SCRIPT>
+            <NOSCRIPT>Your browser does not support script</NOSCRIPT></TD></TR>
+        <TR>
+          <TD vAlign=top align=left width=100% bgColor=#660033 height=15>
+            &nbsp;
+          </TD></TR>
+        <TR>
+         <TD width=100% bgColor=#660033 height=15>&nbsp;</TD></TR>
+</table>
+      </TD>
+    <TD vAlign=top width=60 height=100>&nbsp;</TD>
+   </TR>
+        <TR>
+          <TD vAlign=top align=left height=20><IMG height=20 
+            alt="An alliance to advance the understanding of collaboratories" 
+            src="/images/SOCATextNew.gif" 
+            width=527 border=0 name=SOCATextNew>
+          </TD>
+         </TR>
+</TABLE>
+<!-- #LOOP-END:header -->
+<TABLE cellSpacing=0 cellPadding=0 width=100% align=left border=0 
+name="Main Body Table">
+  <TR>
+    <TD vAlign=top colspan=4 align=left bgColor=#660033 height=12><IMG 
+      height=12 alt="Science of Collaboratories" 
+      src="/images/RoundedRed.gif" 
+      align=top border=0 name=Header_r9_c1><BR></TD>
+    <TD vAlign=top align=left bgColor=#660033 height=12>&nbsp; </TD>
+    <TD width=60 bgColor=#ffffff>&nbsp;</TD></TR>
+  <TR>
+    <TD width=20 bgColor=#660033></TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD colspan=2 align=left bgColor=#ffffff>
+<!-- This is where we will add the content -->
+      
+<script language="JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  brWin = window.open(theURL,winName,features);
+  brWin.focus();
+}
+//-->
+</script>
+<table width="100%" border="0">
+  <tbody>
+     <tr>
+    <td align="right"><p class="backnav"><a href="colisting.php">Return to the list of Collaboratory 
+Projects</a></p></td>
+    <td width="1%">&nbsp;</td>
+  </tr>
+    <tr>
+     <td align="right">&nbsp;</td>
+     <td width="1%">&nbsp;</td>
+   </tr>
+     
+  </tbody> 
+</table>
+<table width="100%" border="0">
+    <tbody>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccffff">     
+         
+      <p class="fieldname">Name of Collaboratory :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%"><p class="collabname">Competence Network Congenital Heart Defects </p>
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">URL          :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%"><a href="http://www.kompetenznetz-ahf.de/en/home/">http://www.kompetenznetz-ahf.de/en/home/</a></td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">Collaboratory Status
+:</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+    <TD width="66%">
+    <TABLE BORDER="0" cellspacing="0" cellpadding="0">
+    <TR>
+      <td width="24%" align="left" bgcolor="#FFFFFF">Operational
+      </td>
+      <TD width="1%">&nbsp;</TD>
+      <td width="20%" align="left" bgcolor="#FFFFFF"> 
+        <b>Start Date :</b> 
+          2009
+      </td>
+      <td width="20%"> 
+        <b>End Date :</b> 
+          
+      </td>
+	  <td width="35%"> 
+        <b>Info Last Updated :</b> 
+          Tue, Nov 2 2010 5:01am PDT
+      </td>
+    </tr>
+    </table>
+    </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccffff">     
+         
+      <p class="fieldname">Primary Collaboratory Function :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">Distributed Research Center</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccffff">     
+         
+      <p class="fieldname">Secondary Collaboratory Functions :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">Community Data Systems</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">Domain(s)         
+:</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">BIOLOGICAL/AGRICULTURAL SCIENCES >Biological Sciences >Biomedical Sciences, BIOLOGICAL/AGRICULTURAL SCIENCES >Biological Sciences >Pathology, Human and Animal</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+   <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" bgcolor="#ccffff" align="right" valign="top">     
+         
+      <p class="fieldname">Brief          Description 
+of the Collaboratory :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">               
+      <p>This collaborative effort involves hospitals, heart centres, rehabilitation centres and practising physicians. Together, they have built up an interdisciplinary research structure which, for the first time, offers the possibility of conducting multi-centric studies on congenital heart defects. This efficient approach results in high-quality research findings and, in the longer term, improved patient care. “We are creating an efficient research structure for congenital heart defects that benefits patients, industry and government, and which gives long-term strength to Germany’s reputation as a place of research”, states Professor Lange, past chairman of the competence network. <BR>
+<BR>
+The competence network currently maintains five distinct databases with different characteristics:<BR>
+<BR>
+    IDAT DB – for the storage and administration of patient-identifying data <BR>
+<BR>
+    MDAT DB– for the storage and administration of patient medical data<BR>
+    BDAT DB – for the storage and administration of (bio)sample-specific data<BR>
+    SDB – for the temporary storage of medical data from clinical studies<BR>
+    Image SDB – for the storage of image data from clinical studies (echo/MRI)<BR>
+<BR>
+Network Speaker: Prof. Dr. Hashim Abdul-Khaliq, Homburg/Saar<BR>
+<BR>
+Member of the Technologie- und Methodenplattform für die vernetzte medizinische Forschung (TMF) collaboratory.</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%" height="20">&nbsp;</td>
+      <td width="31%" bgcolor="#ccff66" bordercolor="#CCCCCC"
+ align="right" valign="top" height="20">               
+      <p class="fieldname">Access          to 
+Instruments :</p>
+      </td>
+      <td width="1%" height="20">&nbsp;</td>
+      <td width="66%" height="20"></td>
+      <td width="1%" height="20">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" bgcolor="#ccff66" bordercolor="#CCCCCC"
+ align="right" valign="top">               
+      <p class="fieldname">Access          to 
+Information Resources :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">Any individual scientist or legal entity currently working on research pertinent to the competence network may apply for full membership by filling out an application form on their Website. Annual membership costs 50 euros for individuals, 250 euros for legal entities. Alternative options are to apply for associate or supporting membership.<BR>
+<BR>
+Members are entitled to use the network’s infrastructure, also the association’s logo, and are eligible to vote in the members’ assembly. The members’ assembly is responsible for electing the Chair and certain members of the steering committee, making amendments to the constitution, and much more.<BR>
+<BR>
+The competence network currently maintains five distinct databases with different characteristics:<BR>
+<BR>
+    IDAT DB – for the storage and administration of patient-identifying data <BR>
+<BR>
+    MDAT DB– for the storage and administration of patient medical data<BR>
+    BDAT DB – for the storage and administration of (bio)sample-specific data<BR>
+    SDB – for the temporary storage of medical data from clinical studies<BR>
+    Image SDB – for the storage of image data from clinical studies (echo/MRI)<BR>
+<BR>
+Although stored in separate databases, all data sets relating to a particular patient are interlinked by means of a patient identifier (PID generator developed by the TMF). The National Registry for Congenital Heart Defects is responsible for managing all the identifying, medical and sample-specific data, while the Coordinating Centre for Clinical Trials (KKS) at the Charité University Hospital Berlin manages the study database and the CIOffice Göttingen (Medical Informatics) looks after the image study database. All data are pseudonymised and stored in strict compliance with the network’s data protection concept.<BR>
+<BR>
+Using web-based access, and with the aid of a web browser, data to be captured are input into the remote data entry (RDE) system – into electronic case report forms (eCRFs) – and then stored in the different databases. A clearly-defined roles and rights management concept gives various user groups (monitors, project managers, doctors, documentation personnel) different viewing and access rights, whereby each centre is only able to view its own data.</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" bgcolor="#ccff66" bordercolor="#CCCCCC"
+ align="right" valign="top">               
+      <p class="fieldname">Access          to 
+People as Resources :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%"></td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top">
+        <p class="fieldname">Funding Agency 
+or Sponsor :</p></td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">Federal Ministry of Education and Research (BMBF)</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+</table>
+</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <TR> 
+      <td width="1">&nbsp;</td>
+      <td valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+        <table width="100%" border="0">
+          <tr> 
+            <td width="13%">&nbsp;</td>
+            <td width="49%"> 
+              <table width="100%" border="1" bordercolor="#CCFFFF">
+                <tr> 
+                  <td> 
+                    <p> <font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Notes on Funding Agencies/Sponsors:<br>
+                      
+                    </font></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+      <TD width="4">&nbsp;</TD>
+    </TR>
+
+    <TR> 
+      <td width="1">&nbsp;</td>
+      <td valign=top align=right colspan="3" bgcolor="#CCFFFF"> 
+        <div align="left"><font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Organizations with Funded Participants:</font></div>
+      </td>
+      <TD width="4">&nbsp;</TD>
+    </TR>
+
+    <TR> 
+      <td height=1 width="1"></td>
+      <td height=1 valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+       
+        <table width="100%" border="0">
+          <tr bgcolor="#FFFFFF"> 
+            <td width="49%"><b><font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Organization name:</font></b></td>
+            <td width="13%"> 
+              <div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Approx # of participants:</font></b></div>
+            </td>
+            <td width="38%"><b><font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Description of organization's role(s):</font></b></td>
+          </tr>
+
+
+
+
+          <tr bgcolor="" valign="top"> 
+            <td width="49%">Albert-Ludwigs-Universität Freiburg</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study; PAH diagnostics (HP 2); PAH therapy: Sildenafil (HP 3.1); PAH therapy: Bosentan (HP 3.2); Tetralogy of Fallot: Infants (HP 4.2); Tetralogy of Fallot: Stress (HP 4.3); Right ventricular failure (HP 5.1); Cardiac resynchronisation therapy (HP 6)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Charité - Universitätsmedizin Berlin</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study; PAH therapy: Sildenafil (HP 3.1); Tetralogy of Fallot (HP 4.1); Tetralogy of Fallot: Infants (HP 4.2); Cardiac resynchronisation therapy (HP 6)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Christian-Albrechts Universität Kiel </td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Deutsche Kinderherzzentrum Sankt Augustin (DKHZ)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - Pulmonary stenosis (HP 1); Tetralogy of Fallot (HP 4.1); Tetralogy of Fallot: Infants (HP 4.2); Tetralogy of Fallot: Stress (HP 4.3); Right ventricular failure (HP 5.1); Cardiac resynchronisation therapy (HP 6)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Essen University Hospital</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study; Tetralogy of Fallot (HP 4.1); Tetralogy of Fallot: Infants (HP 4.2); Right ventricular failure (HP 5.1)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Evangelischen und Johanniter Klinikum Niederrhein</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAH therapy: Sildenafil (HP 3.1); Tetralogy of Fallot (HP 4.1); Tetralogy of Fallot: Infants (HP 4.2)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Friedrich-Schiller University in Jena</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Georg-August-Universität Göttingen</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">German Heart Center Munich</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study; PAH diagnostics (HP 2); PAH therapy: Sildenafil (HP 3.1); PAH therapy: Bosentan (HP 3.2); Tetralogy of Fallot (HP 4.1); Tetralogy of Fallot: Infants (HP 4.2); Tetralogy of Fallot: Stress (HP 4.3); Cardiac resynchronisation therapy (HP 6)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">German Heart Institute Berlin (DHZB)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study; Pulmonary stenosis (HP 1); PAH diagnostics (HP 2); PAH therapy: Sildenafil (HP 3.1); PAH therapy: Bosentan (HP 3.2); Tetralogy of Fallot (HP 4.1); Tetralogy of Fallot: Infants (HP 4.2); Tetralogy of Fallot: Stress (HP 4.3); Right ventricular failure (HP 5.1); Deutsches Herzzentrum Berlin; Cardiac resynchronisation therapy (HP 6)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Goethe University Frankfurt</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study; Cardiac resynchronisation therapy (HP 6)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Great Ormond Street Hospital for Children</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAH therapy: Sildenafil (HP 3.1); PAH therapy: Bosentan (HP 3.2)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Hannover Medical School</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study; Pulmonary stenosis (HP 1); PAH therapy: Sildenafil (HP 3.1); Tetralogy of Fallot (HP 4.1); Tetralogy of Fallot: Infants (HP 4.2); Tetralogy of Fallot: Stress (HP 4.3); Tetralogy of Fallot: Stress (HP 4.3)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Heinrich-Heine University Dusseldorf</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Herzzentrum Bremen</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Network member - Cardiac resynchronisation therapy (HP 6)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Justus-Liebig-Universität Giessen</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study; PAH diagnostics (HP 2); PAH therapy: Sildenafil (HP 3.1); PAH therapy: Bosentan (HP 3.2)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">King's College, London</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network Member - Tetralogy of Fallot (HP 4.1); Tetralogy of Fallot: Infants (HP 4.2); Tetralogy of Fallot: Stress (HP 4.3)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Klinikum Stuttgart</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAH therapy: Sildenafil (HP 3.1); Right ventricular failure (HP 5.1)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Ludwig Maximilians University (University of Munich)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study; PAH therapy: Sildenafil (HP 3.1); Cardiac resynchronisation therapy (HP 6)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Martin-Luther-Universität Halle-Wittenberg</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study; PAH diagnostics (HP 2); PAH therapy: Sildenafil (HP 3.1); PAH therapy: Bosentan (HP 3.2); Cardiac resynchronisation therapy (HP 6)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Oldenburg Hospital</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAH therapy: Sildenafil (HP 3.1); Right ventricular failure (HP 5.1)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Philipps-Universität Marburg</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Rheinisch-Friedrich-Wilhelms-Universitat Bonn</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Ruhr-Universitat Bochum </td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study; Pulmonary stenosis (HP 1); PAH diagnostics (HP 2); PAH therapy: Sildenafil (HP 3.1); PAH therapy: Bosentan (HP 3.2); Tetralogy of Fallot (HP 4.1); Tetralogy of Fallot: Infants (HP 4.2); Tetralogy of Fallot: Stress (HP 4.3); Right ventricular failure (HP 5.1); Cardiac resynchronisation therapy (HP 6)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Ruprecht-Karls-Universität Heidelberg</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study; PAH therapy: Sildenafil (HP 3.1)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">RWTH Aachen University</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study; Tetralogy of Fallot (HP 4.1); Cardiac resynchronisation therapy (HP 6)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Saarland University</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study; Pulmonary stenosis (HP 1); PAH diagnostics (HP 2); PAH therapy: Sildenafil (HP 3.1); PAH therapy: Bosentan (HP 3.2); Tetralogy of Fallot: Infants (HP 4.2); Tetralogy of Fallot: Stress (HP 4.3); Cardiac resynchronisation therapy (HP 6)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Ulm University</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Universität Leipzig</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Network Member - Tetralogy of Fallot (HP 4.1); Tetralogy of Fallot: Infants (HP 4.2); Tetralogy of Fallot: Stress (HP 4.3); Cardiac resynchronisation therapy (HP 6)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Universitätsklinikum Erlangen</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study; PAH therapy: Sildenafil (HP 3.1); Cardiac resynchronisation therapy (HP 6)
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Cologne</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+University Hospital Cologne</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study; Cardiac resynchronisation therapy (HP 6)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University Hospital of Wurzburg</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University Hospital Schleswig-Holstein</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAH diagnostics (HP 2); PAH therapy: Sildenafil (HP 3.1); PAH therapy: Bosentan (HP 3.2); Tetralogy of Fallot (HP 4.1); Tetralogy of Fallot: Infants (HP 4.2); Tetralogy of Fallot: Stress (HP 4.3)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University Medical Center Hamburg-Eppendorf</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network Member - Tetralogy of Fallot (HP 4.1); Right ventricular failure (HP 5.1); Cardiac resynchronisation therapy (HP 6)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Greifswald</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN member
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Muenster</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study; PAH therapy: Sildenafil (HP 3.1); Tetralogy of Fallot (HP 4.1); Tetralogy of Fallot: Infants (HP 4.2); Tetralogy of Fallot: Stress (HP 4.3); Cardiac resynchronisation therapy (HP 6)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Rostock</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Tubingen</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - PAN study; PAH therapy: Sildenafil (HP 3.1); Tetralogy of Fallot (HP 4.1); Tetralogy of Fallot: Infants (HP 4.2); Tetralogy of Fallot: Stress (HP 4.3); Right ventricular failure (HP 5.1); Cardiac resynchronisation therapy (HP 6)
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Vienna</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              Network member - Cardiac resynchronisation therapy (HP 6)
+            </td>
+          </tr>
+
+
+
+</table>
+
+      </td>
+      <td height=1 width="4"></td>
+    </TR>
+
+    <TR> 
+      <td height=1 width="1"></td>
+      <td height=1 valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+       
+      </td>
+      <TD height=1 width="4"></TD>
+    </TR>
+
+    <TR> 
+      <td height=1 width="1"></td>
+      <td height=1 valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+       
+      </td>
+      <TD height=1 width="4"></TD>
+    </TR>
+    <TR> 
+      <td width="1">&nbsp;</td>
+      <td valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+        <table width="100%" border="0">
+          <tr bgcolor=""> 
+            <td width="49%" align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>TOTAL 
+              PARTICIPANTS: </b></font></td>
+            <td width="13%"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                47
+                </font></div>
+              </font></td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td width="49%" bgcolor="#CCFFFF"> 
+              <table width="100%" border="1" bgcolor="#CCFFFF">
+                <tr bgcolor="white"> 
+                  <td> 
+                    <p> <font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Notes on Participants/Organizations:<br>
+                      The researchers united in the Competence Network for Congenital Heart Defects work together in interdisciplinary teams whose research falls into one of four categories: clinical research, healthcare research, basic research, and epidemiological research.<BR>
+<BR>
+The competence network’s central bodies comprise its central office in Berlin, the Coordinating Centre for Clinical Trials (KKS) at the Charité University Hospital Berlin, the Central Biometrics Unit in Magdeburg and the Medical Informatics Department of Göttingen University (CIOffice).<BR>
+<BR>
+The central network office co-ordinates all activities within the competence network and is the main point of contact for all partners of the research network. It supports all project participants in planning, carrying out and evaluating their research activities, and manages their finances. It also represents the competence network in public.<BR>
+<BR>
+The Executive Board manages the Competence Network for Congenital Heart Defects. The Executive Board manages the research network's funds, prepares the work of the steering group, reports to the members' assembly and the advisory<BR>
+board, and directs the executive manager. <BR>
+<BR>
+The Steering Group takes decisions concerning the scientific work of the competence network, in particular regarding new project proposals.<BR>
+<BR>
+The Advisory Board comprises 12 scientists from the fields of paediatric cardiology, cardiology, radiology, biometrics, epidemiology, informatics and telematics. It provides advice on all matters concerning the work of the research network.<BR>
+<BR>
+The Steering Board of the Biomaterials Bank has primarily advisory function. The Board evaluates proposals for projects in which samples from the Biomaterials Bank of the Register / Competence Network are to be used, from the point of view of basic science, health care, medical law, ethics and patient interests.<BR>
+<BR>
+The Steering Board for clinical and register-based studies is an advisory board. It evaluates proposals for projects in which patient data from the database of the Register and the Competence Network for Congenital Heart Disease (study database, image database) are to be used.
+                    </font></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td width="13%">&nbsp;</td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td width="49%">&nbsp;</td>
+            <td width="13%">&nbsp;</td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+      <TD width="4">&nbsp;</TD>
+    </TR>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      
+    <td width="31%" bgcolor="#FFFFFF" bordercolor="#CCCCCC"
+ align="right" valign="top"> 
+      <p class="fieldname">Communications Technology 
+        Used :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      
+    <td width="66%">The Competence Network for Congenital Heart Defects uses the RDE system secuTrial (Version 2.1) for all its clinical studies. Developed and marketed by interActive Systems (iAS), secuTrial fulfils the regulatory requirements of the German Pharmaceuticals Act (AMG), the GCP guidelines and FDA documentation. The Coordinating Centre for Clinical Studies at the Charité University Hospital Berlin (KKS Charité) makes the software available to the competence network and provides a service package that includes data management and maintenance of the study database (SDB). <BR>
+<BR>
+The image study database (image SDB) uses a radiology workstation and a web client developed by the firm CHILI (CHILI web server, CHILI telemedicine module). The image data it contains can be transferred from one location to another as required for the purpose of sharing findings, reading images or conducting consultations.<BR>
+</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      
+    <td width="31%" bgcolor="#FFFFFF" bordercolor="#CCCCCC"
+ align="right" valign="top"> 
+      <p class="fieldname">Technical 
+        Capabilities :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      
+    <td width="66%">
+        
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+  <tr>
+    <td width="1%">&nbsp;</td>
+    <td align="right" valign="top" width="31%">Key Articles : </td>
+    <td width="1%">&nbsp;</td>
+      <td width="66%" valign="top">
+        
+      </td>
+    <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">Project-reported performance data
+:</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%"></td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+   
+     
+
+
+  </tbody>
+</table>
+
+    </TD>
+    <TD width=60>&nbsp;</TD></TR>
+<TR>
+    <TD vAlign=top align=middle width=20 bgColor=#660033>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top colspan=2 align=right bgColor=#ffffff height=12>&nbsp;</TD>
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=bottom colspan=4 align=left width=145 bgColor=#660033 height=12><IMG 
+      height=12 
+      src="/images/RoundedBottom.gif" 
+      width=145 align=bottom></TD>
+    <TD vAlign=top align=right bgColor=#660033 height=12><FONT 
+      color=#ffffff>
+      &nbsp;</FONT><SPAN class=SmallText><FONT 
+      color=#ffffff>&nbsp; </FONT></SPAN></TD><!-- HERE -->
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=top align=middle width=20>&nbsp;</TD>
+    <TD colspan=4 vAlign=top align=middle bgColor=#ffffff
+      height=6><SPAN class="footernavbar"><A 
+      href="/">Home</A> | <A 
+      href="/AboutSOC/index.php">About 
+      SOC</A> | <A 
+      href="/Workshops/index.php">Workshops</A> | <A 
+      href="/Resources/index.php?findings">Resources</A> 
+      | <A 
+      href="/NewsEvents/index.php">News 
+      &amp; Events</A></SPAN></TD>
+    <TD width=60 bgColor=#ffffff height=6>&nbsp;</TD></TR>
+<!-- #LOOP-START:footer -->
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <HR align=center width=80%>
+    </TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5></TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <TABLE cellSpacing=0 cellPadding=0 width="95%" align=left border=0 
+      name="Footer">
+        <TR>
+          <TD vAlign=top align=middle width=172 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.uci.edu/"><IMG height=70 
+            alt="University of California, Irvine Logo" 
+            src="/images/logo_uci.jpg" 
+            width=62 border=0 name=UCI_Logo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.uci.edu/">University of California, Irvine<BR></A></P></TD>
+          <TD align=middle>
+            <P class="copyright">This material is based upon work supported by 
+            the <A target=_blank href="http://www.itr.nsf.gov/">National Science 
+            Foundation</A> under Grant No. IIS 0085951. Any opinions, findings, 
+            and conclusions or recommendations expressed in this material are 
+            those of the author(s) and do not necessarily reflect the views of 
+            the National Science Foundation. <BR><A target=_blank 
+            href="http://www.itr.nsf.gov/"><IMG height=42 
+            alt="National Science Foundation Logo" 
+            src="/images/nsf.gif" width=42 
+            border=0 name=NSF_Logo></A></P></TD>
+          <TD vAlign=top align=middle width=127 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.ics.uci.edu/"><IMG height=70 
+            alt="School of Information Logo" 
+            src="/images/logo_uci.jpg" 
+            width=62 border=0 name=SILogo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.ics.uci.edu/">School of Information</A>
+            <A href="http://www.ics.uci.edu/">University of 
+            Michigan</A></P></TD></TR>
+        <TR>
+          <TD align=middle>&nbsp;</TD></TR>
+        <TR>
+          <TD>
+            <P align=center class="copyright">&reg; 2010-2011
+            University of 
+            California, Irvine. Please send questions and comments to <A 
+            href="mailto:emilyo@uci.edu">SOC 
+        webmaster</A>.</P></TD></TR></TABLE></TD></TR>
+  <TR>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=95>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0>&nbsp; </TD>
+    <TD width=60 bgColor="white" height=0>&nbsp;</TD></TR>
+</TABLE>
+<!-- #LOOP-END:footer -->
+<P>&nbsp;</P>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-987955-53']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</BODY><!-- #EndTemplate --></HTML>
+

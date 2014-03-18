@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Fires in Southern California</title>
+	<atom:link href="http://ngs.ics.uci.edu/fires-in-southern-california/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/fires-in-southern-california/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Dave Nofmeister</title>
+		<link>http://ngs.ics.uci.edu/fires-in-southern-california/comment-page-1/#comment-1271</link>
+		<dc:creator><![CDATA[Dave Nofmeister]]></dc:creator>
+		<pubDate>Fri, 09 Nov 2007 16:37:33 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=850#comment-1271</guid>
+		<description><![CDATA[I hope that the issue of using controlled burns gets brought up from all of this awful news.  Surely that would have saved lives.]]></description>
+		<content:encoded><![CDATA[<p>I hope that the issue of using controlled burns gets brought up from all of this awful news.  Surely that would have saved lives.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: susan haynes</title>
+		<link>http://ngs.ics.uci.edu/fires-in-southern-california/comment-page-1/#comment-1267</link>
+		<dc:creator><![CDATA[susan haynes]]></dc:creator>
+		<pubDate>Fri, 26 Oct 2007 20:43:47 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=850#comment-1267</guid>
+		<description><![CDATA[A relief to read this -- thanks for the update.]]></description>
+		<content:encoded><![CDATA[<p>A relief to read this &#8212; thanks for the update.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

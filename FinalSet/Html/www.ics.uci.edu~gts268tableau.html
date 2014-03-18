@@ -1,0 +1,81 @@
+<HTML>
+<HEAD>
+<TITLE>ECS 253 Winter 1999: The Vigen&egrave;re Tableau</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<H1>The Vigen&egrave;re Tableau</H1>
+<P>
+The following is the tableau used for the Vigen&egrave;re, Beaufort,
+and variant Beaufort ciphers.
+<PRE>
+   <I>A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</I>
+<I>A</I>  A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+<I>B</I>  B C D E F G H I J K L M N O P Q R S T U V W X Y Z A
+<I>C</I>  C D E F G H I J K L M N O P Q R S T U V W X Y Z A B
+<I>D</I>  D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+<I>E</I>  E F G H I J K L M N O P Q R S T U V W X Y Z A B C D
+<I>F</I>  F G H I J K L M N O P Q R S T U V W X Y Z A B C D E
+<I>G</I>  G H I J K L M N O P Q R S T U V W X Y Z A B C D E F
+<I>H</I>  H I J K L M N O P Q R S T U V W X Y Z A B C D E F G
+<I>I</I>  I J K L M N O P Q R S T U V W X Y Z A B C D E F G H
+<I>J</I>  J K L M N O P Q R S T U V W X Y Z A B C D E F G H I
+<I>K</I>  K L M N O P Q R S T U V W X Y Z A B C D E F G H I J
+<I>L</I>  L M N O P Q R S T U V W X Y Z A B C D E F G H I J K
+<I>M</I>  M N O P Q R S T U V W X Y Z A B C D E F G H I J K L
+<I>N</I>  N O P Q R S T U V W X Y Z A B C D E F G H I J K L M
+<I>O</I>  O P Q R S T U V W X Y Z A B C D E F G H I J K L M N
+<I>P</I>  P Q R S T U V W X Y Z A B C D E F G H I J K L M N O
+<I>Q</I>  Q R S T U V W X Y Z A B C D E F G H I J K L M N O P
+<I>R</I>  R S T U V W X Y Z A B C D E F G H I J K L M N O P Q
+<I>S</I>  S T U V W X Y Z A B C D E F G H I J K L M N O P Q R
+<I>T</I>  T U V W X Y Z A B C D E F G H I J K L M N O P Q R S
+<I>U</I>  U V W X Y Z A B C D E F G H I J K L M N O P Q R S T
+<I>V</I>  V W X Y Z A B C D E F G H I J K L M N O P Q R S T U
+<I>W</I>  W X Y Z A B C D E F G H I J K L M N O P Q R S T U V
+<I>X</I>  X Y Z A B C D E F G H I J K L M N O P Q R S T U V W
+<I>Y</I>  Y Z A B C D E F G H I J K L M N O P Q R S T U V W X
+<I>Z</I>  Z A B C D E F G H I J K L M N O P Q R S T U V W X Y
+<P>
+<H2>Vigen&egrave;re</H2>
+<P>
+The leftmost column has the keys; the top alphabet has the plaintext. So:
+<PRE>
+message HELLOWORLD<BR>
+key     ECSECSECSE<BR>
+cipher  LGDPQOSTHD<BR>
+</PRE>
+<P>
+<H2>Beaufort</H2>
+<P>
+Find the plaintext in the left alphabet, and trace in until you find
+the key letter. Then turn a right angle and go up. The letter at the
+top alphabet is the ciphertext.
+<PRE>
+message HELLOWORLD<BR>
+key     ECSECSECSE<BR>
+cipher  WYHSOWPLHB<BR>
+</PRE>
+<P>
+<H2>Variant Beaufort</H2>
+<P>
+Find the key letter in the left alphabet, and trace in until you find
+the plaintext  letter. Then turn a right angle and go up. The letter at
+the top alphabet is the ciphertext.
+<PRE>
+message HELLOWORLD<BR>
+key     ECSECSECSE<BR>
+cipher  DCTHMEKPTZ<BR>
+</PRE>
+
+<b> Borrowed from: </b> <br>
+Department of Computer Science
+<br>
+University of California at Davis
+<br>
+Davis, CA  95616-8562
+</ADDRESS>
+<br CLEAR=left><hr>
+<DATE>Page last modified on 1/14/99</DATE>
+</BODY>
+</HTML>
+

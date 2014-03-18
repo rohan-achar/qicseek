@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Blinkx introduces Implicit Search</title>
+	<atom:link href="http://ngs.ics.uci.edu/blinkx-introduces-implicit-search/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/blinkx-introduces-implicit-search/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Ramesh</title>
+		<link>http://ngs.ics.uci.edu/blinkx-introduces-implicit-search/comment-page-1/#comment-417</link>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+		<pubDate>Tue, 07 Mar 2006 19:01:26 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=479#comment-417</guid>
+		<description><![CDATA[I will definitely play with Intellext and share my experience with people.]]></description>
+		<content:encoded><![CDATA[<p>I will definitely play with Intellext and share my experience with people.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Andrei</title>
+		<link>http://ngs.ics.uci.edu/blinkx-introduces-implicit-search/comment-page-1/#comment-416</link>
+		<dc:creator><![CDATA[Andrei]]></dc:creator>
+		<pubDate>Tue, 07 Mar 2006 18:56:56 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=479#comment-416</guid>
+		<description><![CDATA[You should also check out Watson, an implicit search application from Intellext [http://www.intellext.com].
+
+Watson takes a mashup approach and combines an implicit search generator with information from existing sources including Google Desktop Search, Yahoo! News, Technorati blog search, etc. 
+
+Plus Watson doesn&#039;t have the negative privacy implications of Pico; while Pico uploads all your documents to the blinkx server, Intellext&#039;s application does its calculations client-side so your private documents never leave your computer.]]></description>
+		<content:encoded><![CDATA[<p>You should also check out Watson, an implicit search application from Intellext [http://www.intellext.com].</p>
+<p>Watson takes a mashup approach and combines an implicit search generator with information from existing sources including Google Desktop Search, Yahoo! News, Technorati blog search, etc. </p>
+<p>Plus Watson doesn&#8217;t have the negative privacy implications of Pico; while Pico uploads all your documents to the blinkx server, Intellext&#8217;s application does its calculations client-side so your private documents never leave your computer.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

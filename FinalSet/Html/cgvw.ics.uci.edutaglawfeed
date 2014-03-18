@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Center for Computer Games &#38; Virtual Worlds &#187; Law</title>
+	<atom:link href="http://cgvw.ics.uci.edu/tag/law/feed/" rel="self" type="application/rss+xml" />
+	<link>http://cgvw.ics.uci.edu</link>
+	<description>Bren School of ICS &#124; UC Irvine</description>
+	<lastBuildDate>Fri, 25 Oct 2013 17:28:29 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>UCI Law Review Issue on Regulation of Virtual Worlds</title>
+		<link>http://cgvw.ics.uci.edu/uci-law-review-issue-on-regulation-of-virtual-worlds/</link>
+		<comments>http://cgvw.ics.uci.edu/uci-law-review-issue-on-regulation-of-virtual-worlds/#comments</comments>
+		<pubDate>Mon, 01 Oct 2012 13:58:06 +0000</pubDate>
+		<dc:creator><![CDATA[staff]]></dc:creator>
+				<category><![CDATA[In the News]]></category>
+		<category><![CDATA[Law]]></category>
+		<category><![CDATA[Online Games]]></category>
+		<category><![CDATA[virtual worlds]]></category>
+
+		<guid isPermaLink="false">http://cgvw.ics.uci.edu/?p=834</guid>
+		<description><![CDATA[The June 2012 of the UC Irvine Law Review, entitled &#8220;Governing the Magic Circle: Regulation of Virtual Worlds&#8220;, features articles of several prominent professors regarding issues of governance in online games and virtual worlds. All articles are available online.]]></description>
+		<wfw:commentRss>http://cgvw.ics.uci.edu/uci-law-review-issue-on-regulation-of-virtual-worlds/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

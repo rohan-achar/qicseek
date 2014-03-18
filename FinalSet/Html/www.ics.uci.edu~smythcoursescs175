@@ -1,0 +1,396 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta name="GENERATOR"
+ content="Mozilla/4.76 [en] (WinNT; U) [Netscape]">
+  <title>CS 175 Project in AI</title>
+</head>
+<body style="color: rgb(0, 0, 0); background-color: rgb(243, 249, 254);"
+ alink="#ff3300" link="#cc0000" vlink="#330099">
+<center>
+<h1>CS 175: Project in Artificial Intelligence</h1>
+</center>
+<center>
+<h2>Fall 2007</h2>
+</center>
+<hr>
+<h3>Course Goals:</h3>
+The main goal of this class is to have each student implement a working
+artificial intelligence system. For this quarter we
+will be primarily focusing on building a system which can analyze and
+recognize
+faces
+in digital images. This is something which humans can easily do, but
+which
+is difficult for computers. The project will involve the implementation
+of a variety of learning algorithms and image analysis
+functions.
+The overall goals of the class are to:
+<ul>
+  <li>Learn how to use the MATLAB scientific programming environment</li>
+  <li>Understand the general principles of how computers can perform
+simple
+learning,
+recognition and classification tasks</li>
+  <li>Learn about automated image analysis and why it is a difficult
+problem,
+but how in some cases we can use learning algorithms to build
+reasonably
+accurate and useful image analysis systems</li>
+  <li>Design, implement, and test a system (composed of component
+algorithms)
+which can learn to detect and/or classify face images</li>
+  <li>Learn how to experimentally evaluate and test your system.</li>
+</ul>
+<br>
+<hr style="width: 100%; height: 2px;">
+<h3><b>General Information:</b></h3>
+<ul>
+  <li> <b>Class Times, Location, and Schedule:</b></li>
+  <ul>
+    <li>Location: Multipurpose Science
+&amp; Technology Building, <a
+ href="http://www.nacs.uci.edu/computing/labs/mstb210-details.html">MSTB
+226: Lab B (Room 226)<br>
+      </a></li>
+    <li>Lecture Time: Tuesdays and Thursdays, 9:30 to 10:50am </li>
+    <li>Course code = 34360<br>
+      <br>
+    </li>
+  </ul>
+  <li><strong>Lab Hours</strong>:
+    <ul>
+      <li>CS 364 lab, machines with MATLAB (see <a href="http://www.ics.uci.edu/~smyth/courses/matlab.html">MATLAB Resources</a>), any hours that CS 364 is open.</li>
+      <li>Multipurpose Science
+&amp; Technology Labs, MSTB
+226: Lab A and B (Room 226), any time the labs are open and not booked for another class <br>
+        <br>
+        </li>
+    </ul>
+  </li>
+  <li><span style="font-weight: bold;"><a href="schedule.html">Weekly
+    Schedule, Lecture Notes, and Assignments</a> </span><a href="schedule.html"><br>
+    <br>
+    </a></li>
+  <li><b><a href="http://www.ics.uci.edu/~smyth/courses/matlab.html">MATLAB
+  resources</a></b> (general information on MATLAB, where to find it, etc) </li>
+</ul>
+<ul>
+  <li> <b>Who to Contact with Questions<br>
+    </b></li>
+  <ul>
+    <li>TA: Nathan Sutter <a
+ href="http://www.ics.uci.edu/%7Ensutter/cs175a.html"></a><br>
+    </li>
+    <ul>
+      <li>email address: nsutter@uci.edu <a
+ href="mailto:dchudova@ics.uci.edu"></a></li>
+      <li>Office Hours:&nbsp;4 to 6pm, Mondays, CS 364 Lab</li>
+      <li>additional information on <a href="http://www.ics.uci.edu/~nsutter/cs175f07.html">Nathan's TA Web page  </a><br>
+        <br>
+      </li>
+    </ul>
+    <li>Instructor: <a href="http://www.ics.uci.edu/%7Esmyth/">Professor
+Padhraic Smyth</a></li>
+    <ul>
+      <li>email address: smyth@ics.uci.edu</li>
+      <li>Office Hours:&nbsp; Thursdays, 3:30 to 5pm, BH 4212 <br>
+      </li>
+    </ul>
+  </ul>
+  <ul>
+    <ul>
+&nbsp;
+    </ul>
+  </ul>
+  <li> <b>Useful Reference  Texts (these are not required!)</b></li>
+  <ul>
+    <li><a style="font-style: italic;"
+ href="http://www.amazon.com/MATLAB-Introduction-Applications-Amos-Gilat/dp/0471694207/ref=pd_sim_b_3/104-0116974-4436722?ie=UTF8">Matlab:
+An Introduction with Applications (2nd Edition)</a>, A. Gilat, John
+Wiley Publishers, 2004.<br>
+    </li>
+    <li><i><a
+ href="http://www.amazon.com/exec/obidos/tg/detail/-/0131430181/ref=pd_sbs_b_1/104-7862640-6580738?%5Fencoding=UTF8&amp;v=glance">Mastering
+Matlab 7 </a></i>&nbsp;&nbsp; D. Hanselman and B. Littlefield,
+Prentice
+Hall, 2004 <br>
+    </li>
+    <li><i><a
+ href="http://www.amazon.com/exec/obidos/ASIN/0195150147/qid=1017186876/sr=1-2/ref=sr_1_2/103-7914891-7843042">Getting
+Started With Matlab : Version 6 : A Quick Introduction for Scientists
+and
+Engineers</a>, </i>R. Pratap, Oxford University Press, 2001<br>
+    </li>
+  </ul>
+</ul>
+<hr>
+<!--   GRADING  -->
+<h3>Grading</h3>
+Your grade will be determined based on the following factors:
+<ul>
+  <li>Completion of project milestones on time (design, MATLAB coding,
+testing)</li>
+  <li>Correctness and quality of your work, i.e.,</li>
+  <ul>
+    <li>does your code function correctly,</li>
+    <li>how well the code is designed/written/tested,</li>
+    <li>how well it is documented,</li>
+  </ul>
+  <li>Understanding of basic concepts underlying the algorithms</li>
+  <li>Your ability to evaluate your results and the presentation
+quality of
+your
+project reports.</li>
+</ul>
+<p>There will be two parts to the class:</p>
+<ul>
+  <li>The first 5  weeks or so: weekly assignments  using MATLAB: worth approximately 40% of your grade, with the lowest scoring assignment dropped. </li>
+  <li>The second 5 weeks: project proposals,  project progress reports, project presentation in class, and final project report: worth approximately 60% of your grade </li>
+</ul>
+<hr>
+<!--    ASSIGNMENTS......
+<h3>Assignments</h3>
+Your grade will be based on progress in the class as measured by your
+assignment
+work. Assignments must be submitted by the due date and time, there
+will
+be no exceptions (please do not ask the TA or instructor about
+exceptions.
+If your assignment is late, it will not be graded).&nbsp; If you are
+not
+finished working on your assignment by the time it is due, please
+submit
+whatever you have.<br>
+<br>
+Completed assignments should be uploaded to the EEE 175A dropbox under
+the folder for that Assignment (i.e.,
+Assignment1, Assignment2, etc). For more details on dropboxes please
+consult the <a
+ href="http://www.ics.uci.edu/computing/nt/dropboxes/dropboxes_faq.php">ICS
+FAQ on dropboxes</a>.<br>
+<p>The first 7 assignments are each worth 10 points. Your lowest
+scoring
+assignment will be discarded and your top 6 scoring assignments used to
+calculate your total score (so your maximum score is 60 points). In
+this
+way you can miss one assignment without penalty (however please be
+aware
+that assignments are incremental in that some of the later assignments
+will build on code you wrote in earlier assignments).
+</p>
+<p>Your final project will be worth 40 points (for a total possible
+score
+of 100 points in the class). You must submit an acceptable final
+project
+to pass the class.
+</p>
+<p>Intermediate grades will be issued during midterm week. This is the
+grade
+that you would have gotten if the class ended at that point: it is
+intended
+to provide you with feedback on how you are doing in the class at that
+time. It does not necessarily reflect your final grade, i.e., your
+final
+grade may be higher or lower depending on your performance in the
+second
+part of the quarter.
+</p>
+<ul>
+  <li> <a
+ href="http://www.ics.uci.edu/%7Esmyth/courses/ics175/assign1.html">Assignment
+1 </a>(due 12 noon Tuesday April 12th)</li>
+  <ul>
+    <li>Tutorial introduction to MATLAB</li>
+    <li>Implementation of simple MATLAB functions <br>
+    </li>
+  </ul>
+<li> <a href="assign2.html">Assignment 2 </a>(due 12 noon
+Thursday
+April 21st)
+  <ul>
+    <li>Implementation of k-nearest-neighbor classifier in MATLAB</li>
+  </ul>
+  <li> <a href="assign3.html">Assignment
+3 </a>(due 12:30 Thursday
+April 28th)</li>
+  <ul>
+    <li>Implementation of the perceptron gradient-descent learning
+algorithm <br>
+    </li>
+  </ul>
+  <li> <a href="assign4.html">Assignment 4 </a>(due 12:30 Thursday
+May 5th)</li>
+  <ul>
+    <li>Display, retrieval, and classification of face images</li>
+  </ul>
+  <li> <a href="assign5.htm">Assignment 5 </a>(due 12:30 Thursday May
+12th)</li>
+  <ul>
+    <li>Edge detection and template matching<br>
+    </li>
+  </ul>
+  <li> <a href="assign6.htm">Assignment 6 </a>(due 11am Wednesday May
+18th: NOTE DIFFERENT TIME AND DAY!)</li>
+  <ul>
+    <li>Project Proposal</li>
+  </ul>
+  <li> <a href="assign7.htm">Assignment 7 </a>(due 12:30 Tuesday May
+31st)</li>
+  <ul>
+    <li>Project Progress Report</li>
+  </ul>
+  <li><a href="presentation.html">Assignment 8/Class Presentation </a>(due
+11am the day of your presentation)</li>
+  <li><a href="project.html">Final Project Guidelines </a>(due 9am
+Monday June 13th)</li>
+  <ul>
+  </ul> 
+
+END OF ASSIGNMENTS.....--><!--   LECTURE SLIDES
+<hr size="1" width="100%">
+<h3> Copies of Lecture Overheads</h3>
+Copies of selected lectures will be available each week (after the
+class
+lecture) in Powerpoint format:
+<ul>
+  <li><a href="lecture1.intro.ppt">Lecture 1:
+Introduction
+to ICS 175</a></li>
+  <ul>
+    <li>&nbsp; <a href="vectorize.m">vectorize.m</a>,
+a simple MATLAB function to illustrate the speed advantage of
+vector-based
+computation in MATLAB</li>
+  </ul>
+  <li><a href="lecture2.matlab.ppt">Lecture 2</a>: Introduction
+to MATLAB Programming</li>
+  <ul>
+    <li>&nbsp; <a href="Lecture2MATLAB.zip">code for
+MATLAB functions</a> used in lecture 2</li>
+  </ul>
+  <li><a href="lecture3.classification.ppt">Lecture 3</a>: Review
+of Classification and the Nearest Neighbor Classifier</li>
+  <li><a href="lecture4.discussion.ppt">Lecture 4</a>: More on kNN
+classifiers, and Discussion
+of Assignment 1</li>
+  <li><a href="lecture5.perceptron.ppt">Lecture 5</a>: Linear
+Classifiers and Perceptrons</li>
+  <li><a href="lecture6.perceptronlearning.ppt">Lecture 6</a>:
+Perceptron
+Learning Algorithms</li>
+  <li><a href="lecture7.gradient.ppt">Lecture 7</a>: Gradient
+Descent Learning</li>
+  <li><a href="lecture8.images.ppt">Lecture 8</a>: Introduction
+to Digital Image Analysis and Assignment 4 instructions<br>
+  </li>
+  <li>Lecture 9: TA discussion section<br>
+  </li>
+  <li><a href="lecture10.filters_templates.ppt">Lecture 10</a>:
+Filtering and Template Detection<br>
+  </li>
+  <li><a href="lecture11_templates_again.ppt">Lecture 11</a>: More
+on Filtering and Templates</li>
+  <li><a href="lecture12.project.ppt">Lecture 12:</a></li>
+  <ul>
+    <li>Project
+Guidelines</li>
+  </ul>
+  <li><a href="lecture13.feature_extraction.ppt">Lecture 13:<br>
+    </a></li>
+  <ul>
+    <li>More on projects and feature extraction<br>
+    </li>
+  </ul>
+  <li><a href="lecture14.projects.ppt">Lecture 14</a>:</li>
+  <ul>
+    <li>Discussion of submitted project proposals</li>
+  </ul>
+  <li><a href="lecture15.clustering.ppt">Lecture 15</a>:</li>
+  <ul>
+    <li>Clustering and its applications to image data<br>
+    </li>
+    <li><a href="kmeans">MATLAB code
+for
+the Kmeans clustering algorithm</a></li>
+  </ul>
+  <li><a href="lecture16.eigenimages.ppt">Lecture 16:</a></li>
+  <ul>
+    <li>Basis images, SVD computation, and eigenimage methods<br>
+    </li>
+    <li><a href="SVDcode">MATLAB code
+for SVD on images<br>
+      </a></li>
+  </ul>
+  <li><a href="lecture17_morphology.ppt">Lecture 17:</a></li>
+  <ul>
+    <li>More on SVD computation - also morphological image analysis<br>
+    </li>
+  </ul>
+</ul>
+<h3>
+
+END OF LECTURE NOTES -->
+<h3>Academic Honesty<br>
+</h3>
+Academic honesty is taken very seriously. You are allowed to verbally
+discuss
+the design and implementation of your code with other class members,
+but
+under no circumstances can you copy *any* code or written material from
+anyone or anywhere. All code and written material submitted must be
+code
+or written material you have personally written during this quarter,
+except
+for any library or utility functions which we supply. Failure to adhere
+to this policy can result in a student receiving a failing grade in the
+class. It is the responsibility of each student to be familiar with
+UCI's
+current academic honesty policies. Please take the time to read the
+<a href="http://www.editor.uci.edu/catalogue/appx/appx.2.htm">current
+UCI Senate Academic Honesty Policies.</a><br>
+<br>
+<hr>
+<h3>Face Recognition Resources on the Internet</h3>
+<ul>
+  <li>The <a href="http://www.face-rec.org/">Face Recognition homepage</a>
+(very comprehensive set of pointers to research, data sets, etc)</li>
+  <ul>
+    <li><a href="http://www.face-rec.org/interesting-papers/">Research
+papers</a> on face recognition<br>
+    </li>
+  </ul>
+  <ul>
+    <li><a href="http://www.face-rec.org/databases/">Databases
+of face images</a> for research</li>
+  </ul>
+  <li>Information about <a
+ href="http://faculty.washington.edu/chudler/java/faces.html">how our
+brain recognizes faces</a> (from Washington University)<br>
+  </li>
+  <li>Mitsibushi Electric Research Laboratory <a
+ href="http://www.merl.com/projects/gender/">project
+on gender classification from face images</a></li>
+  <li>Research at Colorado State on <a
+ href="http://www.cs.colostate.edu/evalfacerec/">evaluation of face
+recognition algorithms</a></li>
+    <li><a href="http://www.frvt.org">Official tests of face recognition
+systems</a> by the US government<br>
+  </li>
+  <li>A magazine article on <a
+ href="http://www.eetimes.com/story/OEG19990405S0017">recognizing
+facial expressions</a>. <br>
+  </li>
+  <li><a href="http://www.epic.org/privacy/facerecognition/">Privacy
+issues</a>
+related to face recognition (includes an extensive set of references)<br>
+  </li>
+  <li>A <a
+ href="http://www.theregister.co.uk/content/archive/21916.html">skeptical
+look</a> at face recognition</li>
+</ul>
+</body>
+</html>
+

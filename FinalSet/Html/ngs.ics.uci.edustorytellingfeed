@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Storytelling</title>
+	<atom:link href="http://ngs.ics.uci.edu/storytelling/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/storytelling/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Ste</title>
+		<link>http://ngs.ics.uci.edu/storytelling/comment-page-1/#comment-2423</link>
+		<dc:creator><![CDATA[Ste]]></dc:creator>
+		<pubDate>Thu, 09 Oct 2008 12:27:25 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1003#comment-2423</guid>
+		<description><![CDATA[I always thought that anybody should be able to tell stories until I actually tried it and realised that it is actually an art form in itself!]]></description>
+		<content:encoded><![CDATA[<p>I always thought that anybody should be able to tell stories until I actually tried it and realised that it is actually an art form in itself!</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

@@ -1,0 +1,106 @@
+<html>
+
+<head>
+<title> Michael T. Goodrich - Projects </title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<table WIDTH=700 CELLPADDING=0 CELLSPACING=2 BORDER=0>
+
+<tr>
+<td NOWRAP WIDTH=250 VALIGN=TOP>
+
+<center>
+<p>
+<img align=bottom src ="../images/layers2.jpg">
+</center>
+
+</td>
+
+<td VALIGN=TOP WIDTH=450>
+
+<p>
+<center>
+<h2>
+Michael T. Goodrich<br>
+Projects
+</h2>
+</center>
+
+<p>
+Prof. Goodrich's research is directed at the design of high
+performance algorithms and data structures
+for solving large-scale problems
+motivated from 
+information assurance and security,
+the Internet,
+information visualization,
+and geometric computing.
+<br>
+
+<ul>      
+<li>
+<a href="graphs/">
+Algorithms for Graphs on Surfaces
+</a>
+
+<li>
+<a href="http://www.optiputer.net/">
+The Optiputer
+</a></li>
+
+<li>      
+<a href="pki/">
+Information Security Infrastructure</a></li>
+
+<li>
+<a href="http://www.cs.brown.edu/cgc/stms/">
+Cyber-Security Algorithms</a></li>
+
+<li>
+<a href="privacy/">
+Privacy Management, Measurement, and Visualization in Distributed
+Environments</a></li>
+
+</ul>
+
+</td>
+</tr>
+</table>
+
+<p>
+<h4>
+<ul>
+<li>
+<b>Book sites:</b>
+<ul>
+<li>
+<a href="http://www.datastructures.net">
+Data Structures and Algorithms</a>
+<li>
+<a href="http://java.datastructures.net">
+Data Structures and Algorithms in Java</a>
+<li>
+<a href="http://cpp.datastructures.net">
+Data Structures and Algorithms in C++</a>
+<li>
+<a href="http://www.algorithmdesign.net">
+Algorithm Design</a>
+</ul>
+</ul>
+</h4>
+<p>
+<HR>
+<br>
+<ADDRESS>
+<a href="http://www.ics.uci.edu/~goodrich/">
+Michael T. Goodrich</a><BR>
+Department of Computer Science<BR>
+Bren School of Information and Computer Sciences<BR>
+University of California, Irvine<BR>
+Irvine, CA 92697-3435 USA<BR>
+</ADDRESS>
+</BODY>
+</HTML>
+

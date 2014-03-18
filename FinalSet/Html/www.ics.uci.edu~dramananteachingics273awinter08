@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<style type="text/css">
+A:link {text-decoration: none}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+A:hover {text-decoration: underline}
+</style>
+
+<head>
+<title>ICS273A Winter 2008</title>
+</head>
+
+<body>
+<center>
+<hr width=80%>
+<table border=0>
+  <tr>
+    <td>
+      <img width="200" src="face.jpg"><br>
+      <img width="200" src="mnist.gif">
+    </td>      
+    <td bgcolor=lightblue align=center>
+      <H2>
+      <h1> ICS 273A</h1>
+      <h1> &nbsp  &nbsp  &nbsp Machine Learning &nbsp  &nbsp  &nbsp </h1>
+      <h1> Winter 2008 </h1>
+      </H2>
+    </td>
+  </tr>
+</table>
+</center>
+<hr width=80%>
+
+<br>
+<center>
+<td>
+  [<a href="syllabus.html">Syllabus</a>]
+  [<a href="lectures.html">Lectures</a>]
+  [<a href="homework/homework.html">Homework</a>]
+  [<a href="discussion.html">Discussion</a>]
+  [<a href="matlab.html">MATLAB</a>]
+  [<a href="projects.html">Projects</a>]
+
+</td>
+</center>
+<br>
+<b>Instructor:</b></br>
+<a href = "http://www.ics.uci.edu/~dramanan/index.html">Deva Ramanan</a> (dramanan@ics.uci.edu)<br>
+Office: DBH 4072, 842-4893<br>
+Office hours: Thursdays 10:30-12pm or by appointment<br>
+<br>  
+<b>Lectures:</b><br> MW 2:00-3:20pm DBH 1300<br><br>
+
+
+<b> <span style='color:red;text-decoration:none;text-underline:none'>News:</span></b> <br>
+Check out the final <a href = "http://www.ics.uci.edu/~dramanan/teaching/ics273a_winter08/projects.html">projects</a>! <br>
+Scribe materials up <a href="ScribeMaterials.tar">here</a>.
+<br><br>
+
+<b> Course description </b> <br>
+This course provides an introduction to machine learning, with a focus on discriminative methods for classification and regression. The goal is to have each student, by the end of the course, be armed with a toolbox of algorithms which can be applied to their own research. Topics covered will include linear and logistic regression for generalized linear models, generative versus discriminative methods, decision trees, subspace methods, neural nets, support vector machines, boosting, learning theory, and structured prediction algorithms. <br><br>  
+
+<b> Prerequisite:</b><br>
+CS 206 (Principles of Scientific Computing) and 271 (Introduction to Artificial Intelligence). Please see me if you haven't taken these classes.<br><br>
+
+
+<b> Textbook:</b><br>
+There is no required textbook for the course. The recommended book is <a href = "http://research.microsoft.com/~cmbishop/PRML/index.htm"> Pattern Recognition and Machine Learning</a> by Chris Bishop. A useful online book is <a href="http://web4.cs.ucl.ac.uk/staff/D.Barber/courses/mlgm_epfl_book.pdf">Machine Learning: A probabilistic approach</a> by David Barber.<br><br>
+
+<b>Grading:</b> <br> There will be bi-weekly homework assignments - 4 of them, collectively worth 50% of the final grade. There will be a major final project will be worth 50%. The homeworks will involve both written problem sets and MATLAB coding. You will be implementing algorithms on provided datasets. No late homeworks will be accepted. The choice of a final project is quite flexible, and students are encouraged to incorporate their own research. Homeworks must be done individually, but the final project can be done individually or in groups of two. <br><br>
+
+
+<b> Collaboration policy / Academic honesty: </b> </br>
+Homeworks can be discussed, but each student must independently write up their own solutions. In particular, no sharing of code. Please see the university policy on <a href =
+"http://www.editor.uci.edu/catalogue/appx/appx.2.htm"> academic honesty</a>.
+It is fine to use reference materials found online, but do not search for homework solutions. Rather, students are strongly encouraged to ask questions at both office hours and on the class discussion group.
+
+
+<hr>
+<b> Acknowledgements: </b> <br>
+The instructor gladly acknowledges other professors for making their course materials available. A large part of this class is based on notes provided by <a href="http://robotics.stanford.edu/~ang/">Andrew Ng</a>, in addition to materials from <a href="http://www.ics.uci.edu/~welling/">Max Welling</a>,<a href="http://www.cs.berkeley.edu/~jordan/"> Michael Jordan</a>, and <a href="http://www.cs.cmu.edu/~guestrin/"> Carlos Guestrin</a>.
+</body> </html>
+

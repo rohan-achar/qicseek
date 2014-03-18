@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/events/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Extreme Stories: 1</title>
+		<link>http://ngs.ics.uci.edu/extreme-stories-1/</link>
+		<comments>http://ngs.ics.uci.edu/extreme-stories-1/#comments</comments>
+		<pubDate>Mon, 30 Jan 2012 05:51:36 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[big data]]></category>
+		<category><![CDATA[events]]></category>
+		<category><![CDATA[Storytelling]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1381</guid>
+		<description><![CDATA[It seems I am in the mood of telling stories about storytelling. Storytelling has gone through many different forms and is now going through a major transformation. This is not surprising because the medium of story telling has always been&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>It seems I am in the mood of telling stories about storytelling.</p>
+<p>Storytelling has gone through many different forms and is now going through a major transformation.  This is not surprising because the medium of story telling has always been driven by the technology of the time.  We are going through unprecedented transformation in media.  This is resulting in interesting modes of storytelling.  There are two extreme forms of story telling that are evolving rapidly.  And these modes are strongly driven by the new media and big data.  </p>
+<p>For the first time in history a simple question like &#8220;What&#8217;s on your mind&#8221; (Facebook), &#8220;What&#8217;s happening&#8221; (Twitter), and &#8220;Share What&#8217;s New&#8221; (Google+) have become &#8216;center stage&#8217; and are being answered formally and informally but in recorded form by hundreds of millions of people every day.  These are the &#8216;micro stories&#8217; &#8212; in the form of mice blogs &#8212; that millions of people are telling every day.  This is becoming the defining mechanism for the modern society in many ways.  These stories are also resulting in a serious cultural change in the society.  But I believe that what we are seeing is really the early beginning of micro stories and their impact.  The most important reason is that even in Facebook and Google+ these mice blogs are mostly in text form and Twitter restricts it to 140 characters &#8212; of alphabet &#8212; making it mostly text.  As we know, Facebook&#8217;s success is in using a combination of appropriate media &#8212; text, photos, video &#8212; for sharing experiences.  This is the reason that Facebook has become the largest collection of photos.  But for micro stories they are mostly using text.  I am sure that this will change in near future.</p>
+<p>One thing is clear to me, however.  As more and more people gain access to mobile internet using their mobile phones, they will keep creating mice stories.  But these stories may not be based on using the keyboard, but using a few taps on their phone screen to tell more compelling audio-visual stories that may be data driven.</p>
+<p>The other extreme form of the stories will be based on Big Data, maybe even collected over really long period of time covering large areas, maybe even all planet &#8212; or even the universe.  </p>
+<p>I am thinking about these two extremes of storytelling.  Will scribble more on these.  Your comments and opinions will help me think more carefully.  Please feel free to send your comments.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/extreme-stories-1/feed/</wfw:commentRss>
+		<slash:comments>6</slash:comments>
+		</item>
+		<item>
+		<title>Photos are about Events</title>
+		<link>http://ngs.ics.uci.edu/photos-are-about-events/</link>
+		<comments>http://ngs.ics.uci.edu/photos-are-about-events/#comments</comments>
+		<pubDate>Thu, 07 Jul 2011 06:31:36 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[events]]></category>
+		<category><![CDATA[Instagram]]></category>
+		<category><![CDATA[Kodak Moment]]></category>
+		<category><![CDATA[photo sharing]]></category>
+		<category><![CDATA[Photos]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1358</guid>
+		<description><![CDATA[When you see something interesting happening, you take out your camera, now your mobile phone, and click. And that becomes your secondary visual memory. Clicking your phone camera is effortless and costs you almost zero. So now you take many&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>When you see something interesting happening, you take out your camera, now your mobile phone, and click.  And that becomes your secondary visual memory.  Clicking your phone camera is effortless and costs you almost zero.  So now you take many more photos than you used to just a few years ago.  The only hesitation is the thought that what will people say.  Soon you will never think about other people also &#8212; because this will be as common as carrying mobile phones.</p>
+<p>This is not a secret that photo-sharing has been one of the most popular apps area in the last few months.  The number of photo-sharing apps, led by Instagram and others, on smart phones is growing faster than anything you know or expected. Clearly, there is strong demand for it and if Google + and new Facebook focus are any indication, this will only result in more people sharing more photos.  </p>
+<p>However, only 1 in 10 or even smaller fraction of photos are ever shared.  Like wine, photos become more valuable as they age.  The take you back in time, they remind you of people, events, and places, and they help you reflect and reanalyze things.  With mobile phones, photos are also becoming as important as pen and your notebook used to be for taking notes.  And at the rate people take photos now, they soon face problems in managing those.  Most of my friends request me to send photos that I take at events.  And I confess that I am pretty bad in responding to their requests.  It is not easy to remember to go back fine their photos and send it to them or share those.  So what you do when you get a request to send a photo by a friend &#8212; you spend 15 minutes looking for the photo???  How do you usually remember where that photo could be.  It is usually the event &#8212; where you were with the person.  Now you need to locate photos of the event.  When thinking about this &#8212; it becomes clear that photos are our record of events.</p>
+<p>In fact, in a true sense photos capture and record events or events are manifested by or come alive in photos.  Just think about how you create albums and you will find that they are based on trips, birthdays, wedding, conferences, concerts, festivals and so on.  Albums are mostly about events.</p>
+<p>It is surprising that most photo management as well as photo sharing systems do not recognize this important fact.  Most photo sharing and photo organizing systems consider photos, people, places, objects, and events in the deceasing order of importance.  In fact the order should be events, people, objects, places, and photos.  A photo is worthless if it is not linked to an event, a person, an object or a place.  Most important of all:  Photos are about events.  Rememer &#8212; Kodak popularized &#8216;Kodak Moment&#8217; to emphasize that moment in an event.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/photos-are-about-events/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Managing Event Information:  A book.</title>
+		<link>http://ngs.ics.uci.edu/managing-event-information-a-book/</link>
+		<comments>http://ngs.ics.uci.edu/managing-event-information-a-book/#comments</comments>
+		<pubDate>Sat, 02 Jul 2011 12:25:53 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Technical Thoughts]]></category>
+		<category><![CDATA[Event Information Systems]]></category>
+		<category><![CDATA[events]]></category>
+		<category><![CDATA[Personal Intelligence]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1353</guid>
+		<description><![CDATA[Amarnath Gupta, my long term partner in crime in multimedia information retrieval and I are about to finish a book: Managing Event Information. This book is a result of our efforts to discuss emerging information management systems to represent real&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>Amarnath Gupta, my long term partner in crime in multimedia information retrieval and I are about to finish a book: Managing Event Information.  This book is a result of our efforts to discuss emerging information management systems to represent real world events.  We present the state of are related to event representation and different operations using those representations as used in many different areas of information system applications.  We then present our perspective and present details of event representation.  Our goal in this book is to present concepts and techniques to advanced researchers as well as implementers for building event information systems.  We give examples and details to help in making the concepts implementable in different applications.  We also discuss practical issues related to data representation, storage, and query processing.  Finally we give example of an emerging application, actionable personal intelligence, and show how story telling is a process of querying and synthesizing the results using event information systems that is similar to preparing reports.</p>
+<p>We hope that this book will help people interested in building event information systems.  We would love to see a community of researchers and implementers who are building different applications of event information management systems.  We intend to have a companion web site to share evolving knowledge as well as software and experiences in this area.  We are excited about this area and hope that this excitement will be shared by many other researchers and practitioners in the community.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/managing-event-information-a-book/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Events are &#8216;transparent&#8217;</title>
+		<link>http://ngs.ics.uci.edu/events-are-transparent/</link>
+		<comments>http://ngs.ics.uci.edu/events-are-transparent/#comments</comments>
+		<pubDate>Sat, 02 Jul 2011 05:14:06 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[Technical Thoughts]]></category>
+		<category><![CDATA[events]]></category>
+		<category><![CDATA[multimedia]]></category>
+		<category><![CDATA[semantic gap]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1350</guid>
+		<description><![CDATA[Some things are so obvious that we do not notice them. I have been working on organizing images, videos, and related experiential information for quite some time. All efforts by us, like all other researchers, revolved around the information that&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>Some things are so obvious that we do not notice them.  I have been working on organizing images, videos, and related experiential information for quite some time.  All efforts by us, like all other researchers, revolved around the information that is contained in the signals.  And like all other researchers, we were getting more and more frustrated that nothing seems to help.  More we worked in solving the semantic gap problem, more frustrating it got.  We were blindly following the old adage â€˜the content is the kingâ€™.  It took us some time to realize that content without context is incomplete.  Perceptual scientists have realized and argued the role of knowledge in perceptual tasks and we also thought that we believed in that and were not averse to using knowledge in solving challenges in emerging information systems that were increasingly related to multimedia information.  But, we really had no idea how to use context to manage content.</p>
+<p>After spending significant efforts and time in trying to manage images and video, slowly we started understanding that photos and videos are really only as important as the real world event that they capture.  They are nothing but a perspective or a window on the real world they capture.  And the real world contains objects and events of interest to people.   Both objects and events are equally important and are synergistic in understanding and representing the real world.  In computer science, we used objects commonly.  Events were also used but the concept of event was not much developed.  In fact, events meant different thing to different segments of computer science.  And each segmentâ€™s perspective on event was similar to the perspective described in the fable on blind men and an elephant.  A holistic perspective of event was required.  We developed a model of event and used it in some of our work.  We adopted the perspective that multimedia information management should be around real world objects and events rather than objects and events as captured in a medium. This perspective on multimedia information became more convincing as we started applying this to different applications.</p>
+<p>However, we realized that there is no good sources to deal with such events in computing systems.  So we decided to do something about it.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/events-are-transparent/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

@@ -1,0 +1,167 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<meta content="text/html; charset=windows-1252" http-equiv="Content-Type"><title>CS 154 Lab 3: Register File</title>
+
+</head>
+<body>
+<table style="text-align: left; width: 804px; height: 2365px;" align="center" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td style="width: 800px;">
+<h1 style="width: 800px;"> Register File </h1>
+<h2> Lab 3</h2>
+<p> The objective of this lab assignment is to design and
+implement a register file.&nbsp;</p>
+<p>The register file
+implements 32 registers, each of which is 32 bits wide. Register number
+0 is a zero register; its content is always 0 and cannot be changed.
+Register 1 through 31 store any value assigned to them. Access to
+registers beyond 31 is not allowed.
+</p>
+<p>We use <span style="font-style: italic;">data</span>,
+<span style="font-style: italic;">address</span>
+and
+<span style="font-style: italic;">control</span>
+ports to interface with the
+register file. There should be 3 data ports: 2 for reading and
+1 for writing. During each clock cycle, values from 2 registers can be
+read through the 2 read ports (<i style="color: rgb(51, 51, 255);"><b>d_out_1</b></i>
+and <i style="color: rgb(51, 51, 255);"><b>d_out_2</b></i>)
+and 1 can be
+written through the write port (<i style="color: rgb(51, 51, 255);"><b>d_in</b></i>).
+All 3 data ports are 32-bit wide.</p>
+<p>Use address ports <i><b><span style="color: rgb(51, 51, 255);">rd_addr_1</span>, <span style="color: rgb(51, 51, 255);">rd_addr_2</span></b></i>
+and <i style="color: rgb(51, 51, 255);"><b>wr_addr</b></i>
+to supply addresses
+of registers that will be read from or written to. For example, if <i>rd_addr_1</i>
+is set to 1 and <i>rd_addr_2</i> is set to 3, then the
+value in register 1 and 3 can be read from data port <i>d_out_1</i>
+and <i>d_out_2</i> at the same time.</p>
+<p>In addition to these ports, your register file needs to
+use a <i style="color: rgb(51, 51, 255);"><b>wr_en</b></i>
+control signal to write the value on port <i>d_in</i> to a
+register addressed by <i>wr_addr</i> in the register file.
+The register file also needs a clock signal (port <i style="color: rgb(51, 51, 255);"><b>clk</b></i>).
+Write operations are synchronized with this clock.&nbsp;</p>
+<p>
+You will need an array of vectors to implement the register file.</p>
+<p style="text-decoration: underline;"><span style="font-weight: bold;" class="style2">Specification</span><span class="style1">
+- Due Monday, 4/23/2012 at 3pm.</span></p>
+<p>Draw a block
+diagram of the register file as is described
+above. To make things easier, the register file has <span style="font-style: italic; font-weight: bold;"><span style="color: rgb(51, 51, 255);">only 8 registers</span></span>.
+You can represent the middle registers with ... and show only register
+0, 1, 2 ... and 7</p>
+You may use the following basic blocks: 32 bit register (with
+write enable), MUX and 3-8 decoder.
+<p>The register write_enable signal literally enables
+writing to
+the
+register. When each rising edge of the clock signal arrives, the
+register will only update its value if wr_en = 1.&nbsp;Otherwise,
+nothing will hapen.<br>
+<img alt="32 bit register" src="image/reg32.png" height="167" width="361"><br>
+Figure&nbsp;1. 32 bit register with write-enable.</p>
+<p>
+The MUX selectes
+one of the 8 inputs and sends it to the output, according to the 3-bit
+selection signal on the left. <br>
+<img alt="Mutiplexer" src="image/MUX.png" height="176" width="382"><br>
+Figure 2. Multiplexer with 8 32-bit inputs.</p>
+<p>The 3-to-8 decoder, when
+enabled,&nbsp;"translates" the 3-bit input (for example,
+an address) into one of the 8 outputs (for example, to drive 8 enable
+siganls for 8 different devices). <br>
+<img alt="3-8 decoder" src="image/decoder.png" height="234" width="353"><br>
+Figure&nbsp;3. 3-8 decoder.&nbsp;</p>
+<p>Pay attention to the wiring. Label the wires with proper
+signal names and mark the width.</p>
+<p><span style="text-decoration: underline;"><span style="font-weight: bold;">Design</span> - Due Friday,
+4/28/2012 at 11:45pm.</span></p>
+Your task is to design a&nbsp;register file module with 32
+registers.
+<p>The <a href="lab3.zip">template VHDL files</a>
+have been provided to you. The interface (that is, ports) is already
+defined. You need to add code for functionality in both files to make
+them work. Do not make any change to the interface.</p>
+<p>Since we are using an array to implement the register
+file,
+the decoder and the mux component is implemented automatically by the
+array reference. The implementation should be very straight-forward.
+Please refer to Prof. Veidenbaum's slides (<a href="http://www.ics.uci.edu/%7Ealexv/154/HTML/L5/L51_files/Slide0005.gif">Slide
+#5</a> and <a href="http://www.ics.uci.edu/%7Ealexv/154/HTML/L5/L51_files/Slide0006.gif">#6</a>
+of <a href="http://www.ics.uci.edu/%7Ealexv/154/HTML/L5/index.htm">Lecture
+5</a>). Our register file should be something like:<br>
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; RegFile: <span style="color: rgb(51, 51, 255);">array</span> (0 to
+31) <span style="color: rgb(51, 51, 255);">of
+std_logic_vector</span>(31 downto 0);<br>
+The
+declaration in the slides has many named subtypes and constants. Some
+of them are useful, and it will be a good idea to keep the declarations
+in a seperate <a href="http://www.ics.uci.edu/%7Ealexv/154/HTML/L5/L51_files/Slide0011.gif">package</a>
+for future labs.</p>
+<p>Index
+to array elements should be of type "INTEGER". To convert a
+signal of type STD_LOGIC_VECTOR to integer, you should use
+funciton&nbsp;"<span style="color: rgb(51, 51, 255);">TO_INTEGER</span>".
+It is declared in "<span style="color: rgb(51, 51, 255);">IEEE.NUMERIC_STD</span>"
+package. The argument of this function should be either
+STD_LOGIC_UNSIGNED or STD_LOGIC_SIGNED. So we woudl first cast our
+STD_LOGIC_VECTOR to STD_LOGIC_UNSIGNED, then pass it to
+TO_INTEGER.&nbsp;For example, to use wr_addr as array index, you
+should use: <span style="color: rgb(51, 51, 255);">RegFile(
+TO_INTEGER( UNSIGNED(wr_addr) ) )</span>;</p>
+<p>You should use a process to implement the writing
+operation. Think
+about which signals should be in&nbsp;the sensitivity list
+(wr_addr, wr_en, d_in, clk). Pay special attention to R0. When wr_addr
+= "00000", an update should not happen.</p>
+<p><span style="text-decoration: underline;"><span style="font-weight: bold;">Verification</span> - Due
+Friday,
+4/28/2012 at 11:45pm.</span></p>
+<p>In your test bench, you need to test your register file
+module
+for the following aspects:</p>
+<p>Addressing: You must make sure that you are reading from
+/
+writing to the specific register you want. All addresses and data ports
+need to be tested. This has to be done first, because the following
+tests will test each register and to do that you must make sure you are
+able to access each register. <br>
+You should write unique values to different registers, and read from
+them and see if what you read is what you have written.</p>
+<p>Content: You must make sure that each register holds
+what was
+actually written. No "stuck at" errors exist. Each bit in each register
+must be tested. <br>
+You should write "000...0" and "111...1" to each register and read from
+them and see if what you read is what you have written.</p>
+<p>All input signals in test bench should be 1 clock long
+and go high a
+short time after a rising clock edge. Use assert instruction and
+expected values to detect errors.</p>
+<hr><b>What you should produce in this lab:</b>
+<ol>
+<li>A block diagram of the register file you designed
+that has 8 registers.</li>
+</ol>
+Please submit the specification by Monday, 4/23/2012 at 3pm.
+<ol start="2">
+<li>Your VHDL design. </li>
+<li>Your VHDL test-bench. </li>
+<li>screen shots of addressing and content tests.
+</li>
+</ol>
+<p>
+Please submit your design and verification by Friday, 4/27/2012 at
+11:45pm.&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+</body></html>

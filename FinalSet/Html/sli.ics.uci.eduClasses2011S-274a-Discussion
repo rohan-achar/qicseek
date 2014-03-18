@@ -1,0 +1,146 @@
+<!DOCTYPE html 
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+  <title>SLI | Classes / CS274a Student Discussion Page </title>
+  <meta http-equiv='Content-Style-Type' content='text/css' />
+  <link rel='stylesheet' href='http://sli.ics.uci.edu/pmwiki/pub/skins/custom/pmwiki.css' type='text/css' />
+  <!--HTMLHeader--><style type='text/css'><!--
+  ul, ol, pre, dl, p { margin-top:0px; margin-bottom:0px; }
+  code.escaped { white-space: nowrap; }
+  .vspace { margin-top:1.33em; }
+  .indent { margin-left:40px; }
+  .outdent { margin-left:40px; text-indent:-40px; }
+  a.createlinktext { text-decoration:none; border-bottom:1px dotted gray; }
+  a.createlink { text-decoration:none; position:relative; top:-0.5em;
+    font-weight:bold; font-size:smaller; border-bottom:none; }
+  img { border:0px; }
+  .editconflict { color:green; 
+  font-style:italic; margin-top:1.33em; margin-bottom:1.33em; }
+
+  table.markup { border:2px dotted #ccf; width:90%; }
+  td.markup1, td.markup2 { padding-left:10px; padding-right:10px; }
+  table.vert td.markup1 { border-bottom:1px solid #ccf; }
+  table.horiz td.markup1 { width:23em; border-right:1px solid #ccf; }
+  table.markup caption { text-align:left; }
+  div.faq p, div.faq pre { margin-left:2em; }
+  div.faq p.question { margin:1em 0 0.75em 0; font-weight:bold; }
+  div.faqtoc div.faq * { display:none; }
+  div.faqtoc div.faq p.question 
+    { display:block; font-weight:normal; margin:0.5em 0 0.5em 20px; line-height:normal; }
+  div.faqtoc div.faq p.question * { display:inline; }
+   
+    .frame 
+      { border:1px solid #cccccc; padding:4px; background-color:#f9f9f9; }
+    .lfloat { float:left; margin-right:0.5em; }
+    .rfloat { float:right; margin-left:0.5em; }
+a.varlink { text-decoration:none; }
+
+--></style>
+  <link href='http://sli.ics.uci.edu/pmwiki/pub}/commentboxplus/commentboxplus.css' rel='stylesheet' type='text/css' />  <meta name='robots' content='index,follow' />
+
+</head>
+<body>
+<!--PageHeaderFmt-->
+  <div id='wikilogo'><a href='http://sli.ics.uci.edu'><img src='/pmwiki/pub/skins/custom/SLI_white.png'
+    alt='SLI' border='0' /></a></div>
+  <div id='wikihead'>
+  <form action='http://sli.ics.uci.edu'>
+    <!-- <span class='headnav'><a href='http://sli.ics.uci.edu/Classes/RecentChanges'
+      accesskey='c'>Recent Changes</a> -</span> --> 
+    <input type='hidden' name='n' value='Classes.2011S-274a-Discussion' />
+    <input type='hidden' name='action' value='search' />
+    <!-- <a href='http://sli.ics.uci.edu/Site/Search'>Search</a>: -->
+    <input type='text' name='q' value='' class='inputbox searchbox' />
+    <input type='submit' class='inputbutton searchbutton'
+      value='Search' />
+    <a href='http://sli.ics.uci.edu/Site/Search'>(?)</a>
+  </form></div>
+<!--/PageHeaderFmt-->
+  <table id='wikimid' width='100%' cellspacing='0' cellpadding='0'><tr>
+<!--PageLeftFmt-->
+      <td id='wikileft' valign='top'>
+        <ul><li><a class='wikilink' href='http://sli.ics.uci.edu/Classes/Classes'>Classes</a>
+</li><li><a class='wikilink' href='http://sli.ics.uci.edu/Group/Group'>Group</a>
+</li><li><a class='wikilink' href='http://sli.ics.uci.edu/Projects/Projects'>Research</a>
+</li><li><a class='urllink' href='http://www.ics.uci.edu/~ihler/pubs.html' title='' rel='nofollow'>Publications</a>
+</li><li><a class='wikilink' href='http://sli.ics.uci.edu/Code/Code'>Code</a>
+</li></ul><div class='vspace'></div><hr />
+<div class='vspace'></div>
+</td>
+<!--/PageLeftFmt-->
+      <td id='wikibody' valign='top'>
+<!--PageActionFmt-->
+        <div id='wikicmds'><ul><li class='browse'><a class='wikilink' href='http://sli.ics.uci.edu/Classes/2011S-274a-Discussion?action=login'>login</a>
+</li></ul>
+</div>
+<!--PageTitleFmt-->
+        <div id='wikititle'>
+          <div class='pagegroup'><a href='http://sli.ics.uci.edu/Classes'>Classes</a> /</div>
+          <h1 class='pagetitle'>CS274a Student Discussion Page</h1></div>
+<!--PageText-->
+<div id='wikitext'>
+<h3><a class='wikilink' href='http://sli.ics.uci.edu/Classes/2011S-274a'>Back to Course Page</a></h3>
+
+    <div id='message'><form name='cbox' class='inputform' action='http://sli.ics.uci.edu/Classes/2011S-274a-Discussion' method='post' onsubmit='return checkform(this);'>
+    <input type='hidden' name='n' value='Classes.2011S-274a-Discussion' />
+    <input type='hidden' name='action' value='comment' />
+    <input type='hidden' name='order' value='' /><input type='hidden' name='accesscode' value='907' />
+    <input type='hidden' name='csum' value='Comment added' />
+    <table width='90%'><tr>
+    <th class='prompt' align='right' valign='top'>Add Comment&nbsp;</th>
+    <td><textarea class='inputtext commenttext' name='text' id='text' rows=6 cols=40></textarea>
+    </td></tr><tr><th class='prompt' align='right' valign='top'>Sign as Author&nbsp;</th>
+    <td><input class='inputbox commentauthorbox' type='text' name='author' value='' size='32' /><input type='hidden' name='access' value='907' /><input class='inputbutton commentbutton' type='submit' name='post' value=' Post ' />
+    <input class='inputbutton commentbutton' type='reset' value='Reset' /></td></tr></table><br /></form></div>
+ <script type='text/javascript' language='JavaScript1.2'>
+  function checkform ( form ) {
+   if (form.text && form.text.value == "") { window.alert( 'Please enter a comment to post' ); form.text.focus(); return false; }
+   if (form.author && form.author.value == "") { window.alert( 'Please enter your name as author' ); form.author.focus(); return false; }return true ;
+  }
+  </script>
+   
+<div class='vspace'></div><h5>ihler  &mdash;  </h5>
+<div class='messageitem' > 
+<p>Feel free to add (anonymous or signed) comments, questions, or other discussion items about the class, including lecture, homework, etc.  Please remain polite.  I reserve the right to moderate and remove posts.  Posts must be made from UCI machines.  For anonymous posts, just use any name (like, "anonymous").
+</p></div>
+<hr />
+<p><a name='comments' id='comments'></a>
+</p>
+<p class='vspace'><a name='comment1' id='comment1'></a>
+</p><div class='messagehead' > 
+<h5>Sara  &mdash;  <span style='font-size:83%'>25 April 2011, 13:46</span>  </h5>
+</div><div class='messageitem' > 
+<p>Q1(C): to prove the ML estimator for mu is unbiased we need to show that
+mu-E[mu^]=0 where E[mu^] = E [sigma xi/n] = mu^ since this expectation is based on the iid sample. 
+In addition I don't know this in general this expectation is over what mass function. 
+</p>
+<p class='vspace'><span  style='color: green;'> You mean sigma = <img class='TrueLatexImage' style='vertical-align:middle;' border=0 src="http://sli.ics.uci.edu/pmwiki/pub/latexcache/c141cf9b9fede7320414b641bb252fc1.png" />? Yes, <img class='TrueLatexImage' style='vertical-align:middle;' border=0 src="http://sli.ics.uci.edu/pmwiki/pub/latexcache/0415d1021300bbc7fed76cf893c478a5.png" />.  The expectation <img class='TrueLatexImage' style='vertical-align:middle;' border=0 src="http://sli.ics.uci.edu/pmwiki/pub/latexcache/6f1defe58339d3cedf5646c079c9a8f1.png" />, but <img class='TrueLatexImage' style='vertical-align:middle;' border=0 src="http://sli.ics.uci.edu/pmwiki/pub/latexcache/da705494b3ec09ad40c86611aeea1ac4.png" /> is not equal to <img class='TrueLatexImage' style='vertical-align:middle;' border=0 src="http://sli.ics.uci.edu/pmwiki/pub/latexcache/5e5fa95883b587d323ab5ca1be357ab7.png" />, but rather <img class='TrueLatexImage' style='vertical-align:middle;' border=0 src="http://sli.ics.uci.edu/pmwiki/pub/latexcache/a2f925591f202b15476ff295fd4328c6.png" /> (the actual parameter, the mean of the distribution).  The estimator <img class='TrueLatexImage' style='vertical-align:middle;' border=0 src="http://sli.ics.uci.edu/pmwiki/pub/latexcache/5e5fa95883b587d323ab5ca1be357ab7.png" /> is a function of the observed data; the observed data depend on the parameters of the true distribution.  Does that help?</span>
+</p>
+<div class='vspace'></div></div>
+</div>
+
+      </td>
+    </tr></table>
+<!--PageFooterFmt-->
+  <div id='wikifoot'>
+    <div class='footnav' style='float:left'> Last modified April 26, 2011, at 10:30 AM</div>
+    <div class='footnav' style='float:right; text-align:right'>
+    <a href="http://www.ics.uci.edu">Bren School of Information and Computer Science</a><br>
+    <a href="http://www.uci.edu">University of California, Irvine</a>
+    </div>
+  </div>
+<!--HTMLFooter--><script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(["_setAccount", "UA-24148957-2"]);
+	_gaq.push(["_trackPageview"]);
+	(function() {
+	  var ga = document.createElement("script"); ga.type = "text/javascript"; ga.async = true;
+	  ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";
+	  var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+</script>
+</body>
+</html>
+

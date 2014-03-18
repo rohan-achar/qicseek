@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Center for Computer Games &#38; Virtual Worlds &#187; virtual worlds</title>
+	<atom:link href="http://cgvw.ics.uci.edu/tag/virtual-worlds/feed/" rel="self" type="application/rss+xml" />
+	<link>http://cgvw.ics.uci.edu</link>
+	<description>Bren School of ICS &#124; UC Irvine</description>
+	<lastBuildDate>Fri, 25 Oct 2013 17:28:29 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>The Future of Research in Computer Games and Virtual Worlds</title>
+		<link>http://cgvw.ics.uci.edu/the-future-of-research-in-computer-games-and-virtual-worlds/</link>
+		<comments>http://cgvw.ics.uci.edu/the-future-of-research-in-computer-games-and-virtual-worlds/#comments</comments>
+		<pubDate>Tue, 02 Oct 2012 21:18:41 +0000</pubDate>
+		<dc:creator><![CDATA[staff]]></dc:creator>
+				<category><![CDATA[In the News]]></category>
+		<category><![CDATA[computer games]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[virtual worlds]]></category>
+
+		<guid isPermaLink="false">http://cgvw.ics.uci.edu/?p=844</guid>
+		<description><![CDATA[In November of 2010, more than 30 scholars engaged in research on topics related to Computer Games and Virtual Worlds (CGVWs) participated in a workshop at UC Irvine to identify future research problems and opportunities in this arena. During the past year and a half the workshop continued online, culminating in the production of an extensive report [&#8230;]]]></description>
+		<wfw:commentRss>http://cgvw.ics.uci.edu/the-future-of-research-in-computer-games-and-virtual-worlds/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>UCI Law Review Issue on Regulation of Virtual Worlds</title>
+		<link>http://cgvw.ics.uci.edu/uci-law-review-issue-on-regulation-of-virtual-worlds/</link>
+		<comments>http://cgvw.ics.uci.edu/uci-law-review-issue-on-regulation-of-virtual-worlds/#comments</comments>
+		<pubDate>Mon, 01 Oct 2012 13:58:06 +0000</pubDate>
+		<dc:creator><![CDATA[staff]]></dc:creator>
+				<category><![CDATA[In the News]]></category>
+		<category><![CDATA[Law]]></category>
+		<category><![CDATA[Online Games]]></category>
+		<category><![CDATA[virtual worlds]]></category>
+
+		<guid isPermaLink="false">http://cgvw.ics.uci.edu/?p=834</guid>
+		<description><![CDATA[The June 2012 of the UC Irvine Law Review, entitled &#8220;Governing the Magic Circle: Regulation of Virtual Worlds&#8220;, features articles of several prominent professors regarding issues of governance in online games and virtual worlds. All articles are available online.]]></description>
+		<wfw:commentRss>http://cgvw.ics.uci.edu/uci-law-review-issue-on-regulation-of-virtual-worlds/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Ethnography and Virtual Worlds</title>
+		<link>http://cgvw.ics.uci.edu/ethnography-and-virtual-worlds/</link>
+		<comments>http://cgvw.ics.uci.edu/ethnography-and-virtual-worlds/#comments</comments>
+		<pubDate>Mon, 17 Sep 2012 20:54:58 +0000</pubDate>
+		<dc:creator><![CDATA[staff]]></dc:creator>
+				<category><![CDATA[In the News]]></category>
+		<category><![CDATA[ethnography]]></category>
+		<category><![CDATA[virtual worlds]]></category>
+
+		<guid isPermaLink="false">http://cgvw.ics.uci.edu/?p=784</guid>
+		<description><![CDATA[Tom Boellstorff, Bonnie Nardi and two other colleagues have published the book &#8220;Ethnography and Virtual Worlds: A Handbook of Method&#8220;. A great read for students, teachers, designers, and scholars interested in using ethnographic methods to study online virtual worlds.]]></description>
+		<wfw:commentRss>http://cgvw.ics.uci.edu/ethnography-and-virtual-worlds/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

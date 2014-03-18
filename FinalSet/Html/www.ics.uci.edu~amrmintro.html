@@ -1,0 +1,56 @@
+<HTML>
+<HEAD>
+<TITLE>Introduction to AMRM</TITLE>
+<meta name="resource-type" content="document">
+</HEAD>
+<BODY LINK="#0000FF" BGCOLOR="#FFFFFF" TEXT="#000000" ALINK="#FF0080" VLINK="#800080">
+<center><a href="http://www.ics.uci.edu/~amrm/"><img src="http://www.ics.uci.edu/~amrm/images/amrm.gif" alt="AMRM Project" border="0"></a></center> <br>
+<img src="http://www.ics.uci.edu/~amrm/banner.gif" width=450 height=32 border=0 usemap="#map">
+
+<map name="map">
+<!-- #$-:Image Map file created by GIMP Imagemap Plugin -->
+<!-- #$-:GIMP Imagemap Plugin by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:1.3 -->
+<!-- #$AUTHOR:Dan Nicolaescu -->
+<area shape="rect" coords="0,0,105,28" href="http://www.ics.uci.edu/~amrm/intro.html">
+<area shape="rect" coords="107,2,156,30" href="http://www.ics.uci.edu/~amrm/news.html">
+<area shape="rect" coords="158,2,262,30" href="http://www.ics.uci.edu/~amrm/publications.html">
+<area shape="rect" coords="266,0,323,30" href="http://www.ics.uci.edu/~amrm/people.html">
+<area shape="rect" coords="328,0,449,28" href="http://www.ics.uci.edu/~amrm/links.html">
+</map>
+
+<FONT FACE="System" COLOR="#000080" size="4"><B><P>Objective</B>:</FONT></P>
+<P>The goal of the MORPH project is to build <I>an Adaptive Memory Reconfiguration &amp; Management </I>(AMRM) architecture that demonstrates 100X improvement in the memory system performance, in terms of latency and available bandwidth. This performance gain is achieved by using application-adaptive architectural mechanisms, hardware-assisted blocking, prefetching and dynamic cache structures that optimize movement and placement of application data through the memory hierarchy. Specifically, we seek to address MoM radar cross-section modeling and NAS conjugate-gradient codes to achieve at least an order of magnitude gain in performance.</P>
+
+<P>Another important goal of MORPH AMRM project is to demonstrate that such gains in memory system performance are achievable across a range of applications using standard processing and application development platforms. That is, application development and execution environment allows an application to directly manage its memory latency and bandwidth needs. Two important key results to achieve this goal are smart compiler algorithms, which support identification and use of appropriate architectural assists (policies and associated hardware), and operating system strategies, which achieve safe and efficient compile-time and runtime memory system reconfiguration. Thus a coordinated compile and runtime adaptation management with fault detection, isolation and containment strategies will enable a multi-process and safe computing environment.</P>
+<P>      </P>
+<FONT FACE="System" COLOR="#000080" size="4"><B><P>Approach</B>: </P></FONT>
+<P>The AMRM design will specifically address challenges facing optimum data placement and movement through the memory hierarchy. We plan to begin with the design of a baseline memory system architecture that supports incorporation of re-programmable hardware blocks in the processor, cache and memory interconnection fabric. This baseline architecture will then be mapped for optimal prefetching (that supports memory-side pointer chasing, for example), recognition machine for working set size and miss patterns, victim caches and stream buffers, bandwidth management through translate and gather assists. These assists will be evaluated for performance gains on a group of applications including sparse matrix, conjugate gradient (NAS CG), radar cross-section modeling (MoM RCS), database (<I>tpc</I> and <I>oo7</I>) codes.</P>
+
+<P>Concurrently, we will also explore semantic retention techniques that enable compilers to determine memory-specific application characteristics such as access patterns, memory footprint, detect array references that cause memory conflicts. On the operating system front, we will devise techniques to ensure process isolation and validation of late-binding adaptation by formalizing the notion of process and access control for AMRM, and by mapping faults (hardware, mapping, protection) to OS semantics.</P>
+
+<P>Reconfigurable circuit structures for use in AMRM that allow for ultra-fast reconfiguration and block isolation will be designed. These structures will then be used to build adaptive architectural mechanisms (designed as HDL models) for latency management, available bandwidth optimization, stride prediction and skewing based on memory access patterns and finally optimize dynamic cache structures. We expect AMRM machine to eventually have available a menu of these memory assists organized according to application characteristics and runtime memory access patterns. To demonstrate a proof-of-concept system prototype, we will design an AMRM chip and a prototype. The AMRM chip will include a baseline memory hierarchy and reconfigurable logic resources that can be used to construct and manage adaptive cache memory. </P>
+
+<P>The adaptive cache architectural mechanisms will be controlled through compilers using semantic retention techniques. An adaptive machine definition (AMD) model will be developed that would be used for semantic retention by compilers and updated for adaptive memory structures and mechanisms by the hardware mapping tools. The AMD model will also help the runtime system devise protection and continuous validation hardware to address specific application needs. </P>
+
+<P>The architectural assists will be incorporated into core operating system mechanisms to enable a usable multi-process and safe computing environment. An adaptive cache simulation environment will be built to evaluate cost/performance tradeoffs. To support the evolution of software-controlled application-adaptive architectures, necessary CAD tools will be investigated and prototyped for automated synthesis and mapping of hardware assists. These tools will specifically address efficient modeling and simulation of architectural assists, and their synthesis under performance and size constraints into realizable configuration bit-streams.</P>
+</P>
+<P>Recent Accomplishments: New Start</P>
+
+<FONT FACE="System" COLOR="#000080" size="4"><B><P>Current Plan:</B></FONT></p> For the FY 1999, we plan to achieve three major milestones: define the architecture of AMRM system; devise architectural mechanisms for latency/bandwidth management through aggressive prefetching and dynamic caching; and build software, synthesis and hardware fault models that will be used later for protection and continuous validation techniques. The AMRM design will be designed to be fabricated through MOSIS.  The impact of this work on DoD applications will be substantially higher memory hierarchy utilization while protecting software investments in the legacy code. Specifically, DoD applications such as NAS conjugate gradient and MoM radar cross-section modeling in addition to object-oriented and relational databases, security-sensitive applications (where protection and validation strategies are central) will derive significantly improved memory system performance over conventional static hierarchical memory architectures. </P>
+
+<P>Technology Transition: New Start</P>
+
+<P>&nbsp;</P></FONT>
+
+<table>
+<tr>
+<td><IMG SRC="./darpa.gif" HEIGHT="68" WIDTH="120" BORDER="0"></td>
+<td>The AMRM Project is sponsored by <A HREF="http://www.darpa.mil">The Defense Advanced Research Projects Agency</A> (DARPA) <A HREF="http://www.darpa.mil/ito">Information Technology Office</A> (ITO). </td>
+</tr>
+</table>
+
+</BODY>
+</HTML>
+

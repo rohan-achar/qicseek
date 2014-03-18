@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="description" content="Link Analysis for Private Weighted Graphs Introduction to Information Retrieval CS 221 Donald J. Patterson Content based on the SIGIR2009 paper located here: http://doi.acm.org/10.1145/1571941.1571983  Link Analysis for Private Weighted Graphs  Link Analysis for Private Weighted Graphs It would be nice if we could compute PageRank without exposing the connection network.    Link Analysis for Private Weighted Graphs Commercial Relationships Business i and Business j do w amount of business Only i and j know this “Weight-aware model”   Link Analysis for Private Weighted Graphs Personal Relationships Person i calls person j do w amount per month Persons i and j know about the call, but only i knows w (j doesn’t know who else i calls, or how much) No one else knows about the call “Link-aware model”   Link Analysis for Private Weighted Graphs Professional Relationships Person i ranks person j as being w compared to peers Person i knows the ranking and the value Neither j, nor anyone else knows about the call “Link-unaware model”   Link Analysis for Private Weighted Graphs The goal of this paper is: To present secure protocols for link analysis with private weighted graphs   Link Analysis for Private Weighted Graphs M is an n by n matrix Row Privacy    Link Analysis for Private Weighted Graphs M is an n by n matrix Row Privacy  Symmetrically Private   Link Analysis for Private Weighted Graphs Graph is V are vertices A is adjacency matrix (0,1) W is weight matrix Weight-Aware Private Graph A and W are symmetrically private Link-Aware Private Graph A is symmetrically private, W is row private Link-Unaware Private Graph A and W are row private  Link Analysis for Private Weighted Graphs Assumption Global Dual-Key Cryptographic System One public key One private key for each node  Link Analysis for Private Weighted Graphs We are going to have each node in the graph compute PageRank for itself   This is very similar to PageRank on MapReduce Where each node does the Reduce Work for itself  Link Analysis for Private Weighted Graphs Keys to achieving this: Additive Homomorphic Cryptosystem  Enable calculating a sum without knowing the individual elements Threshold Decryption which allows                      to be decrypted when at least t nodes agree to decrypt Onion Routing to prevent knowledge of source of summands     Link Analysis for Private Weighted Graphs Keys to achieving this: Ability to detect convergence  Ability to normalize  Solution: Secure Function Evaluation   Link Analysis for Private Weighted Graphs Onion Routing Sender picks a route Encodes the message and the route in an “onion” Each node can decrypt the next hop only Destination can decrypt the message   Basic Flow Keys are distributed Probabilities are initialized Each node encrypts            and passes it to j j securely sums incoming results j normalizes repeat until convergence between step i and i+1 globally coordinate stepping globally coordinate covergence checking globally decrypt   Link Analysis for Private Weighted Graphs  Summary Using the same technique as PageRank on MapReduce private PageRank can be calculated It requires A global public key A distribution of private keys Nodes to calculate their own PageRank Additive Homomorphic CryptoSystem Onion routing Secure Function Evaluation Link Analysis for Private Weighted Graphs"/>
+    <title></title>
+    <script type="text/javascript" language="javascript">
+//      <![CDATA[
+            var images = new Array (17);
+            images[0] = "Lecture19_02_Slides_CS221_files/Lecture19_02_Slides_CS221.001.png";
+            images[1] = "Lecture19_02_Slides_CS221_files/Lecture19_02_Slides_CS221.002.png";
+            images[2] = "Lecture19_02_Slides_CS221_files/Lecture19_02_Slides_CS221.003.png";
+            images[3] = "Lecture19_02_Slides_CS221_files/Lecture19_02_Slides_CS221.004.png";
+            images[4] = "Lecture19_02_Slides_CS221_files/Lecture19_02_Slides_CS221.005.png";
+            images[5] = "Lecture19_02_Slides_CS221_files/Lecture19_02_Slides_CS221.006.png";
+            images[6] = "Lecture19_02_Slides_CS221_files/Lecture19_02_Slides_CS221.007.png";
+            images[7] = "Lecture19_02_Slides_CS221_files/Lecture19_02_Slides_CS221.008.png";
+            images[8] = "Lecture19_02_Slides_CS221_files/Lecture19_02_Slides_CS221.009.png";
+            images[9] = "Lecture19_02_Slides_CS221_files/Lecture19_02_Slides_CS221.010.png";
+            images[10] = "Lecture19_02_Slides_CS221_files/Lecture19_02_Slides_CS221.011.png";
+            images[11] = "Lecture19_02_Slides_CS221_files/Lecture19_02_Slides_CS221.012.png";
+            images[12] = "Lecture19_02_Slides_CS221_files/Lecture19_02_Slides_CS221.013.png";
+            images[13] = "Lecture19_02_Slides_CS221_files/Lecture19_02_Slides_CS221.014.png";
+            images[14] = "Lecture19_02_Slides_CS221_files/Lecture19_02_Slides_CS221.015.png";
+            images[15] = "Lecture19_02_Slides_CS221_files/Lecture19_02_Slides_CS221.016.png";
+            images[16] = "Lecture19_02_Slides_CS221_files/Lecture19_02_Slides_CS221.017.png";
+            var index = 0;
+            function WindowLoaded(evt)
+            {
+                document.body.onselectstart = function () { return false; };
+            }
+            function Step(i)
+            {
+                GoTo(index + i)
+            }
+            function GoTo(newIndex)
+            {
+                if(newIndex >= 0 && newIndex < images.length)
+                {
+                    index = newIndex;
+                    document.Slideshow.src = images[index];
+                }
+            }
+//      ]]>
+    </script>
+</head>
+<body bgcolor="black" onload='WindowLoaded(event);'>
+    <p align="center">
+        <br/>
+        <br/>
+        <img name="Slideshow" alt="" src="Lecture19_02_Slides_CS221_files/Lecture19_02_Slides_CS221.001.png" onclick="Step(1)"/>
+        <br/>
+        <br/>
+        <input type="image" src="Lecture19_02_Slides_CS221_files/home.png" onclick="GoTo(0)"/>
+        &nbsp;&nbsp;&nbsp;
+        <input type="image" src="Lecture19_02_Slides_CS221_files/prev.png" onclick="Step(-1)"/>
+        <input type="image" src="Lecture19_02_Slides_CS221_files/next.png" onclick="Step(1)"/>
+    </p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

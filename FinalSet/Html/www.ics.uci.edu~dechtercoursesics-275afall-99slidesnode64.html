@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Program Source</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Program Source">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html3027 HREF="node65.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html3025 HREF="node63.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html3019 HREF="node63.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html3029 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html3028 HREF="node65.html"> Procedure Types</A>
+<B>Up:</B> <A NAME=tex2html3026 HREF="node63.html"> The Compiler</A>
+<B> Previous:</B> <A NAME=tex2html3020 HREF="node63.html"> The Compiler</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION00610000000000000000> Program Source</A></H1>
+<P>
+When reading the input source, the compiler distinguishes
+<i> clauses</i> and <i> directives</i>.
+Directives are terms with main functor
+<b> :-/1</b>
+or
+<b> ?-/1</b>.
+When the compiler encounters them, it executes immediately
+their first argument as a Prolog goal.
+If this goal succeeds, the compiler continues to the next
+input term without reporting the answer to the user.
+If the directive fails, an event is raised.
+<P>
+All other input terms are interpreted as clauses to be compiled.
+A sequence of consecutive clauses whose heads have the same
+functor is interpreted as one procedure, and so e.g.
+if the clauses of one procedure are mixed with directives or
+with clauses for another procedure, the compiler
+takes them as several different procedures.
+To allow the user to write non-consecutive procedures,
+the compiler raises an event whenever it
+encounters several procedures with the same name and arity
+in one file, or when a procedure defined in one file
+is being redefined in another file.
+Default action for the former is to emit a warning,
+for the latter the new procedure just replaces the old one.
+The library <b> scattered</b> redefines the former handler
+<A NAME=906>&#160;</A>
+so that procedures which are scattered in one file are accepted
+as normal static procedures.
+<P>
+<BR> <HR><A NAME=tex2html3027 HREF="node65.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html3025 HREF="node63.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html3019 HREF="node63.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html3029 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html3028 HREF="node65.html"> Procedure Types</A>
+<B>Up:</B> <A NAME=tex2html3026 HREF="node63.html"> The Compiler</A>
+<B> Previous:</B> <A NAME=tex2html3020 HREF="node63.html"> The Compiler</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

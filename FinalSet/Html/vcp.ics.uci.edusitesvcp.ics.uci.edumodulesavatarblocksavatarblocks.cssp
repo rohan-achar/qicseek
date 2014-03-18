@@ -1,0 +1,18 @@
+.userpicture {
+  float: left;
+  line-height: 0;
+}
+
+.userpicture a {
+  display:block;
+  border: 2px solid #fff;
+}
+
+.userpicture a:hover {
+  border: 2px solid #bbb;
+}
+
+.userpicture img {
+  margin: 0;
+}
+

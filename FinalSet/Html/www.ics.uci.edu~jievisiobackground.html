@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!-- InstanceBegin template="/Templates/jren.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="author" content="Jie Ren"/>
+<link href="Assets/CSS/style.css" rel="stylesheet" type="text/css" />
+<link rel="Shortcut Icon" href="http://www.ics.uci.edu/~jie/rjs.ico" type="image/x-icon" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Background of Visio for C2/xADL</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="header">
+<table>
+<tr>
+<td rowspan="4"><img src="Assets/images/rjs.jpg" alt="Jie Ren" width="91" height="128" /></td>
+<td id="myname" colspan="2"><a href="index.html">Jie Ren (&#x4efb;&#x6770;)</a></td>
+</tr>
+<tr>
+<th>Area</th><td><a href="http://www.isr.uci.edu/Software/index.html">Software</a></td>
+</tr>
+<tr>
+<th>Advisor</th><td><a href="http://www.ics.uci.edu/~taylor">Richard N. Taylor</a></td>
+</tr>
+<tr>
+<th>E-mail</th><td><a href="mailto:jie@ics.uci.edu">jie@ics.uci.edu</a></td>
+</tr>
+</table>
+</div>
+<div>
+<p  id="menu">
+<a href="index.html">&nbsp;Biography&nbsp;</a>
+<a href="research.html">&nbsp;&nbsp;Research&nbsp;&nbsp;</a>
+<a href="teach.html">&nbsp;&nbsp;&nbsp;Teach&nbsp;&nbsp;&nbsp;</a>
+<a href="work.html">&nbsp;&nbsp;&nbsp;&nbsp;Work&nbsp;&nbsp;&nbsp;&nbsp;</a>
+<a href="service.html">&nbsp;&nbsp;Service&nbsp;&nbsp;</a>
+<a href="publication.html">Publication</a>
+<a href="contact.html">&nbsp;&nbsp;Contact&nbsp;&nbsp;</a>
+</p>
+</div>
+<!-- InstanceBeginEditable name="main" -->
+<div id="main">
+<h3>Background Information of Visio Editor for C2/xADL</h3>
+
+<p>Note: this background was written in 2000. The links are updated to reflect the situation in 2005, since many of them are no longer available. 
+However, the content is not as comprehensive and update-to-date as it could be.  
+</p>
+
+<p>A brief history of Visio can
+be found from the book, <a href="http://www.amazon.com/exec/obidos/tg/detail/-/1556225687/ref=ase_datinginfowor15-20/002-2794372-2573663?v=glance&amp;s=books">Learn Visio 5.0</a>. Here is <a href="http://www.mvps.org/visio/History.htm">a more comprehensive history</a>. <!--a href="http://www.wordware.com/computer/g_chapters/7116-Visio/7116.htm"></a--></p>
+
+<p>Similar approach was proposed
+by <a href="http://www.cs.cmu.edu/~Compose/html/ARPA/FY98/project_summary.html">CMU</a>
+in 1997 for their UniCon(2) work, but it never showed up.</p> 
+
+<p>One key problem is to bridge COM
+<!--a href="http://www.cs.iastate.edu/~cs652/f99/NOTES/DCOM/dcom01.pdf">COM</a-->
+and Java. There are several methods.</p>
+
+<p>To call Java in COM, Sun
+has an <a href="http://java.sun.com/products/plugin/1.3/docs/script.html">ActiveX
+Bridge for JavaBeans</a>, which enables JavaBeans to be used in a COM container.
+It also had an <!--a href="http://developer.java.sun.com/developer/earlyAccess/j2eecas/"></a-->Enterprise
+Edition Client Access Services COM Bridge(Early Access version),
+which allows COM clients to access EJB components, but the software seems no longer available..</p>
+
+<p>To call COM in Java, there
+are more to use. Neva has <a href="http://www.nevaobject.com/_docs/_java2com/java2com.htm">Java2COM</a>,
+IBM has <a href="http://www.alphaworks.ibm.com/tech/bridge2java">Bridge2Java</a>
+and <a href="http://www.alphaworks.ibm.com/tech/olebridge">OLEBridge</a>.;
+Dan Adler provides an open source bridge, <a href="http://danadler.com/jacob/">JACOB</a>,
+with some other <a href="http://users.rcn.com/danadler/javacom/">resources</a>
+about Java-COM bridge. infoZoom provides <a href="http://www.infozoom.de/en_jacoZoom.shtml">jacoZoom</a>.
+Halcyon provided rJAX<!--a href="http://www.halcyonsoft.com/products/rjax.asp"></a-->.</p>
+
+<p>Intrinsyc's <a href="http://j-integra.intrinsyc.com/">J-Integra</a>
+is an innovative pure Java-COM bridge, which implements DCOM in Java. It
+provides both Java-to-COM and COM-to-Java capability.</p>
+
+<p>Of course, Microsoft had
+its own solution. <!--a href="http://www.microsoft.com/java"></a-->Microsoft Virtual
+Machine(Microsoft VM) can provide both Java-to-COM and COM-to-Java
+bridge. However, it is no longer shipped in newer versions of Windows.
+</p>
+
+
+</div>
+<!-- InstanceEndEditable -->
+<div id="footer">
+  <p>Last Modified: 
+		<!-- #BeginDate format:Am1 -->November 20, 2005<!-- #EndDate -->
+  </p>
+  <p>
+	<a   href="http://jigsaw.w3.org/css-validator/">
+	<img style="border:0;width:88px;height:31px"
+	     src="http://jigsaw.w3.org/css-validator/images/vcss"
+	     alt="Valid CSS!" /></a>
+	<a   href="http://validator.w3.org/check/referer">
+	<img style="border:0;width:88px;height:31px"
+		 src="http://www.w3.org/Icons/valid-xhtml10"
+         alt="Valid XHTML 1.0!"  /></a>
+  </p>
+</div>
+</body>
+<!-- InstanceEnd --></html>
+

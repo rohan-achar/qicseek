@@ -1,0 +1,198 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> C-Prolog compatibility predicates</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" C-Prolog compatibility predicates">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5752 HREF="node291.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5750 HREF="node288.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5744 HREF="node289.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5754 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5753 HREF="node291.html"> C-Prolog Predicates not </A>
+<B>Up:</B> <A NAME=tex2html5751 HREF="node288.html"> C-Prolog Compatibility Package</A>
+<B> Previous:</B> <A NAME=tex2html5745 HREF="node289.html"> Using the C-Prolog </A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION002292000000000000000> C-Prolog compatibility predicates</A></H2>
+<P>
+The following predicates are available in the compatibility package.
+They are exported from the module <b> cprolog</b> and automatically imported
+by use_module/1 or lib/1.
+<P>
+<DL ><DT><b> consult/1</b>
+<DD> <BR>
+<P>
+<DT><b> reconsult/1</b>
+<DD> <BR>
+<P>
+<A NAME=6695>&#160;</A>
+<A NAME=6696>&#160;</A>
+The above two are implemented by simply calling the <A NAME=tex2html1333 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  predicate
+<b> compile/1</b>. By default 
+<A NAME=6698>&#160;</A>
+all compiled procedures are static.
+Procedures on which <b> assert/1</b> etc. will be applied,
+<A NAME=6700>&#160;</A>
+have to be declared as <i> dynamic</i> using <b> dynamic/1</b>.
+<A NAME=6703>&#160;</A>
+The notation <b> [-File]</b> for <b> reconsult/1</b> is not
+supported.
+<P>
+<DT><b> current_functor/2</b>
+<DD> <BR>
+<P>
+<A NAME=6707>&#160;</A>
+<P>
+<DT><b> current_predicate/2</b>
+<DD> <BR>
+<P>
+<A NAME=6709>&#160;</A>
+<P>
+<DT><b> db_reference/1</b>
+<DD> <BR>
+<P>
+<A NAME=6711>&#160;</A>
+<P>
+<DT><b> erased/1</b>
+<DD> <BR>
+<P>
+<A NAME=6713>&#160;</A>
+<P>
+<DT><b> get/1</b>
+<DD> <BR>
+<P>
+<A NAME=6715>&#160;</A>
+This is similar to the <A NAME=tex2html1342 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  predicate <b> get/1</b>, but control characters
+and blank spaces are skipped.
+<P>
+<DT><b> get0/1</b>
+<DD> <BR>
+<P>
+<A NAME=6718>&#160;</A>
+<P>
+<DT><b> fileerrors/0</b>
+<DD> <BR>
+<P>
+<A NAME=6720>&#160;</A>
+<P>
+<DT><b> heapused/1</b>
+<DD> <BR>
+<P>
+<A NAME=6722>&#160;</A>
+Needed for evaluating <b> heapused</b> in arithmetic expressions.
+It returns the sum of code heap and general heap usage.
+<P>
+<DT><b> instance/2</b>
+<DD> <BR>
+<P>
+<A NAME=6725>&#160;</A>
+Note that this compatibility predicate redefines the <A NAME=tex2html1347 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  builtin
+of the same name but different meaning (which is no longer available
+in C-Prolog mode).
+It is implemented using the <A NAME=tex2html1348 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  predicate <b> referenced_record/2</b>.
+<P>
+<DT><b> leash/1</b>
+<DD> <BR>
+<P>
+The <A NAME=tex2html1349 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  leash built-in provides more functionality than the 
+C-Prolog equivalent.
+<P>
+<DT><b> log/2</b>
+<DD> <BR>
+<P>
+<A NAME=6729>&#160;</A>
+<DT><b> log10/2</b>
+<DD> <BR>
+<P>
+<A NAME=6731>&#160;</A>
+These are not predicates in C-Prolog (arithmetic functors), but in <A NAME=tex2html1352 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+<P>
+they are needed for evaluating log/1 and log10/1 in arithmetic expressions.
+<P>
+<DT><b> nofileerrors/0</b>
+<DD> <BR>
+<P>
+<A NAME=6733>&#160;</A>
+<P>
+<DT><b> primitive/1</b>
+<DD> <BR>
+<P>
+<A NAME=6735>&#160;</A>
+<P>
+<DT><b> prompt/2</b>
+<DD> <BR>
+<P>
+<A NAME=6737>&#160;</A>
+<P>
+<DT><b> put/1</b>
+<DD> <BR>
+<P>
+<A NAME=6739>&#160;</A>
+This is similar to the <A NAME=tex2html1357 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  predicate <b> put/1</b>, but it first applies
+arithmetic evaluation to its argument.
+<P>
+<DT><b> sh/0</b>
+<DD> <BR>
+<P>
+<A NAME=6742>&#160;</A>
+<P>
+<DT><b> see/1</b>
+<DD> <BR>
+<P>
+<A NAME=6744>&#160;</A>
+<DT><b> seeing/1</b>
+<DD> <BR>
+<P>
+<A NAME=6746>&#160;</A>
+<DT><b> seen/0</b>
+<DD> <BR>
+<P>
+<A NAME=6748>&#160;</A>
+<DT><b> skip/1</b>
+<DD> <BR>
+<P>
+<A NAME=6750>&#160;</A>
+<DT><b> tab/1</b>
+<DD> <BR>
+<P>
+<A NAME=6752>&#160;</A>
+<DT><b> tell/1</b>
+<DD> <BR>
+<P>
+<A NAME=6754>&#160;</A>
+<DT><b> telling/1</b>
+<DD> <BR>
+<P>
+<A NAME=6756>&#160;</A>
+<DT><b> told/0</b>
+<DD> <BR>
+<P>
+<A NAME=6758>&#160;</A>
+The predicates of the <b> see/tell</b> family are defined in the
+<b> cio</b> library and can also be loaded independently.
+<P>
+<DT><b> ttyput/1</b>
+<DD> <BR>
+<P>
+corresponds to the DEC-10 Prolog predicate
+<A NAME=6762>&#160;</A>
+<P>
+ </DL><BR> <HR><A NAME=tex2html5752 HREF="node291.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5750 HREF="node288.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5744 HREF="node289.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5754 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5753 HREF="node291.html"> C-Prolog Predicates not </A>
+<B>Up:</B> <A NAME=tex2html5751 HREF="node288.html"> C-Prolog Compatibility Package</A>
+<B> Previous:</B> <A NAME=tex2html5745 HREF="node289.html"> Using the C-Prolog </A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

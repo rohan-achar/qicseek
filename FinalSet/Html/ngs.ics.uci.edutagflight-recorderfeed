@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/flight-recorder/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>From Calendars to Chronicles: 5</title>
+		<link>http://ngs.ics.uci.edu/from-calendars-to-chronicles-5/</link>
+		<comments>http://ngs.ics.uci.edu/from-calendars-to-chronicles-5/#comments</comments>
+		<pubDate>Tue, 30 Jul 2013 22:30:40 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[Calendar]]></category>
+		<category><![CDATA[Chronicle]]></category>
+		<category><![CDATA[Flight Recorder]]></category>
+		<category><![CDATA[surveillance video]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1533</guid>
+		<description><![CDATA[Chronicles are everywhere Importance of logs for archiving information both to verify facts in the past as well as using it to build models for predicting the future were recognized from the earliest times. This also suggests that people recognize&#8230; ]]></description>
+				<content:encoded><![CDATA[<p><strong>Chronicles are everywhere</strong></p>
+<p>Importance of logs for archiving information both to verify facts in the past as well as using it to build models for predicting the future were recognized from the earliest times.  This also suggests that people recognize the importance of the Data â€“ Information â€“ Knowledge chain also long time ago.</p>
+<p>Logs were maintained in many varied forms ranging from accounting logs, seasonal changes, personal life changes, events in organizations and societies, and you name it.  As the scientific curiosity increased the process of maintaining logs also became more precise and more systematic.  Precise and detailed logs would allow formation of better models, which in turn may result in more precise understanding and better predictions.  This meant encouraging people to record their observation with as little subjectivity and as much details as possible.  Rigorous protocols were developed for reporting in each area to make it less subjective and more detailed.</p>
+<p>As sensing technology coupled with storage of sensed information improved this task of objectivity and details in logs started improving rapidly.  With advances in technology the task of capturing and maintaining logs became easier and hence more popular.  This encouraged logs for things that were once considered too expensive.  Even ordinary people started maintaining diaries and started capturing photos and maintaining albums.</p>
+<p>It is very instructive to analyze all around us at different levels and see how many different levels of logs are now maintained.  Some logs that we normally donâ€™t think about are logs like the Black Box in an aeroplane.  This is commonly called a Flight Data Recorder or Accident Data Recorder and is slowing entering even cars.  This box records important flight parameters as well as cockpit conversations.  Blackbox is designed to be tough enogh to withstand major accidents so it can survive the accident to report what was going on at the time of the accident.  Whenever an accident takes place, this box provides the most valuable information to design safer planes and help reduce accidents.</p>
+<p>Another very common log that we are all becoming very familiar is the omni-present surveillance videos.  You may recall that like many other past events, recently after the Boston Marathon Bombing, the suspects were caught by analyzing the videos captured by surveillance videos in the bombed area.</p>
+<p>One area where strong noticeable progress has been made in the last century is weather forecasting.  By collecting past data and using them to build careful models, now it is possible to predict weather much better.  At one time, the only method to predict weather was the past record or the history of weather at a particular place.  Now by using ma multitude of sensors, one can carefully record the current states and using models one can predict the future of weather at the place.  This has become so common place that we have started relying on it to predict many of our everyday activities.  This is a clear demonstration of how logs can be combined to create models that could be used to predict future.  We see a clear collaboration between calendars and chrnicles in weather forecasting.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/from-calendars-to-chronicles-5/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

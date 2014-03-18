@@ -1,0 +1,531 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Script-Type" content="text/javascript">
+<title>ICS 54: History of Public-Key Cryptography</title>
+</head>
+<body bgcolor="#F8F8F0">
+<i><a href="http://www.ics.uci.edu/"> UC Irvine,
+Information and Computer Science Department</A></I>
+Winter 2000<br>
+<h2><A HREF="http://www.ics.uci.edu/~ics54/">ICS 54</A>:
+History of Public-Key Cryptography
+</h2>
+
+See also
+  <A HREF="http://www.research.att.com/~smb/nsam-160/">The
+  Prehistory of Public Key Cryptography</A>
+  (<tt>http://www.research.att.com/~smb/nsam-160/</tt>)
+<p>
+On September 6, 1997, the 
+<a href="http://www.nytimes.com/">New York Times</a> reported
+on the expiration of two landmark patents which laid the
+foundation for public-key cryptography.
+<p>
+Just a few months later (24 December 1997), there was another
+article, reporting that public-key encryption was discovered
+even earlier than the work of those who received the just expired
+patent.
+<p>
+Other NY Times articles on encryption may be found in
+<a href="http://www.nytimes.com/library/tech/reference/index-encrypt.html">
+"New York Times Coverage of Encryption"</a>
+  (<tt>http://www.nytimes.com/library/tech/reference/index-encrypt.html</tt>).
+
+<p>
+
+<pre>
+
+==================================================================
+NY Times: September 6, 1997
+A Patent Falls, and the Internet Dances
+By Peter Wayner
+<a href="http://www.nytimes.com/library/cyber/week/090697patent.html">http://www.nytimes.com/library/cyber/week/090697patent.html</a>
+      
+When tyrants die, the people parade with the head on a stick; when
+loved ones pass on in Ireland, the families celebrate a life
+well-lived; but when patents expire, they often slip away into the
+night.
+
+From the beginning, though, patent 4,200,770 was different. This
+Saturday night a group of computer scientists, Internet fanatics and
+Beltway politicos will gather in Washington, D.C.; Silicon Valley; and
+Boston to celebrate the end of the patent granted to Whitfield Diffie
+and Martin Hellman for a way to encrypt data.
+
+The party will toast the beginning of the end of an era when some of
+the greatest techniques for encrypting information were controlled by a
+few pivotal companies. The science of secret codes is proving to be
+essential technology for securing the Internet, and the techniques
+developed by Diffie and Hellman are some of the most useful. Banks use
+them to protect their money, companies use them to defend against
+industrial espionage and parents use them to protect their children
+against pedophiles and pornographers trolling the Internet.
+
+The patent granted to Diffie and Hellman is the first of a group that
+emerged from scientists at Stanford University and the Massachusetts
+Institute of Technology during the end of the 1970's.  On October 6,
+patent 4,218,582 will expire. It was granted to Hellman and Ralph
+Merkle, another graduate student at the time, for a public key
+encryption system that was later broken. The most famous patent,
+however, was probably the one given to Ron Rivest, Adi Shamir and Len
+Adleman, who were all at MIT at the time. It will last until September
+20, 2000.
+
+In the past, anyone who wanted to use the most famous encryption
+algorithms would need to negotiate licenses with either [6]RSA Data
+Security or [7]Cylink, the two companies that controlled the major
+patents. The companies were relatively open with their licenses and RSA
+Data Security even published general terms.
+
+But many scientists, programmers and tinkers still felt that all of the
+legal paperwork and money hampered their ability to add encryption to
+software. Many critics openly questioned the basis for the patents and
+some even wondered whether it was part of a larger government plot to
+suppress the technology.
+
+To make matters worse, it was difficult to determine just how much
+value encryption added to a product. For instance, consider a neat
+electronic mail program with the ability to encrypt messages. If
+someone pays $40 for it, is $20 being spent on the encrypting
+capability? Or is $10 a closer number? This made it necessary to engage
+in complex negotiations to settle royalties for the patents, adding
+more confusion and friction to the mix.
+
+All of that anger and animosity, however, should start to expire with
+the first patent on Saturday.
+
+"If there's a sudden blossoming, then the critics will be right that
+the patenting held up the technology." Hellman said in a telephone
+interview on Thursday. "But there are other factors there. The export
+restrictions. The slow standard (development) process."
+
+The [8]National Institute of Standards and Technology is still debating
+whether to work on a public-key encryption standard and it has only
+recognized a very limited system for creating digital signatures.
+
+The party in Washington may lead to this blossoming. It is being
+sponsored by the capital area branch of the [9]Cypherpunks, a loosely
+knit organization defined, for the most part, by people who subscribe
+to a mailing list. The group has no formal membership, but many
+subscribers, to judge from the content of the discussion, are opposed
+to letting the government gain access to people's private
+correspondence. Many toss about phrases like "You'll get my key when
+you pry it from my cold, dead hands." or "When encryption is outlawed,
+only outlaws will have encryption."
+
+Many members of the group recognize that public policy on the Internet
+is not defined by talking, but by distributing software.  Governmental
+policy analysts like Vannevar Bush were dreaming of the World Wide Web
+in the 1950s, but the reality began when the first browsers like Mosaic
+started appearing.
+
+The Cypherpunks have determined to write the software that will make
+encryption more ubiquitous. One early effort by Phil Zimmerman, of
+[10]Pretty Good Privacy, has already launched a commercial effort
+backed by venture capital. The first half of the party will be aimed at
+creating more pioneering software.
+
+The technical excitement is being shared by the former patent owners,
+who have very little choice but to be gracious. Jim Omura is the chief
+technical officer and one of the founders of Cylink, the company that
+bought control of the patent from Stanford. "Now, it's free and
+available to everyone," he said in a phone interview, adding that his
+company would work with many to encourage open use of the algorithm in
+standards. Cylink is already licensing some source code that uses the
+technology to companies like Sun.
+
+The end of the animosity also allows everyone to relax and praise the
+contributions without fear of compromising a legal position.  Patents
+are only granted to new and noteworthy contributions, and "obvious"
+improvements are not eligible. The definition of what is "obvious"
+however, is open to interpretation and often settled only by endless
+litigation. Competitors will often denigrate another's invention to
+weaken the patent. The end of the patent, however, leads to a dtente.
+
+By everyone's estimation, the invention by Diffie and Hellman was a
+pivotal moment in network security, a crucial component of public
+privacy, and also an elegant and simple mathematical solution.
+
+In essence, Diffie and Hellman developed a way for two people to set up
+a secure communication channel without ever meeting.  Encryption was
+well-understood at the time, but no one had a very good idea of how to
+handle the keys that are used to keep the data secret. The keys are
+long numbers that act to scramble the data.  Anyone with a copy of the
+key can read the data, but the message remains secret to those without
+a copy.
+
+Before the invention, people had to either agree to a key in advance or
+have some trusted courier carry a copy between them.  Today, banks
+still have this problem distributing PIN numbers to the people who use
+their ATMs. The banks send the cards and the PIN numbers in different
+envelopes to minimize the possibility that someone could steal both.
+
+Diffie and Hellman found a way to use fairly simple arithmetic with big
+numbers to let two people agree upon a key. The crucial detail was that
+anyone eavesdropping on the conversation would not be able to pick up a
+copy of the key by listening to the negotiation.
+
+Diffie believes that he never would have developed public key
+cryptography if he hadn't had an anti-authoritarian view. "In 1965
+someone mistakenly told me that NSA ([11]National Security Agency)
+encrypted the phones in their own building." he said. "I tried to think
+how it could work but I never understood classical 'trusted third
+party' key distribution. My view of cryptography was that it freed you
+from having to trust anyone other than the people you were
+communicating with."
+
+The NSA and other cryptographers used more centralized key distribution
+systems that, like Caesar's wife, needed to be above suspicion. Each
+person would have a single key he shared with the central repository.
+That is, there would be a secure channel between the central repository
+and each person.
+
+When Alice and Bob, for example, wanted to set up a secure link, both
+would ask the central system for a new key they could use to encrypt
+their conversation. The new key would be mailed to both hidden by the
+two channels. The central key repository was an unavoidable part of the
+system before their invention.
+
+Their approach is simple enough to explain in two paragraphs that can
+be skipped by the math-averse:
+
+To find a key, Alice chooses a random number "a" and Bob chooses a
+random number "b." They also agree on some value of "g" in advance.
+Alice ships g^a [that is, g raised to the power a, as in
+2^3=8] to Bob and Bob ships g^b to Alice. Alice computes
+(g^b)^a and Bob computes (g^a)^b. These are equal according to 
+the basic rules of algebra and they can serve as the key.
+
+The system can't be broken because the arithmetic occurs in a "finite
+field." That is, after each arithmetic operation, the result is divided
+by some prime number, "p," and only the remainder is kept. This is
+often indicated by appending "mod p" to the equation. Surprisingly, all
+of the basic rules of arithmetic and algebra still apply. Some
+operations, however, are harder. No one knows an efficient way to take
+g and g^a and find a. This is known as taking the "discrete log," and
+the fact that no one has described an easy way to do it means that the
+link is secure. No eavesdropper can listen in and take apart the (g^a)
+or the (g^b) to discover a or b.
+
+The invention was the culmination of a strong working relationship that
+began in September 1974. Before that, Diffie had been traveling the
+country with his wife, Mary, discussing cryptography with anyone who
+was available. At the time, there was very little published material
+about modern methods and much was classified.  Very few people were
+interested in the topic and Hellman even says that many of his
+colleagues felt that it was "born classified," like secrets about the
+atomic bomb, because it was so important to national security.
+
+That September, Diffie made a half-hour appointment with Hellman.  "I
+gave Mary the car and went off to see Marty," he recalled. "Each of us
+found the other the best informed person he'd met who was willing to
+talk. After an hour or so Mary came back and Marty invited us over for
+dinner. It turned out that both his wife and Mary were big dog
+aficionados. We all got along wonderfully and talked 'till nearly
+midnight."
+
+Diffie and Hellman began holding weekly seminars to discuss problems
+and possible solutions. While Diffie was technically a graduate student
+at the time, both he and his nominal adviser, Hellman, both agree that
+this was more a convenient classification that made it easier for
+Hellman to use research money to provide support. Diffie never
+graduated with a Ph.D., but later was awarded an honorary doctorate by
+the Swiss Federal Institute of Technology.  (He also never graduated
+from high school.)
+
+Soon after, Ralph Merkle arrived as a graduate student and started
+working on cryptography. Merkle would later invent a full public-key
+system known as the "knapsack." This approach offered more than just a
+way for two people to set up a secure channel, it provided a way for
+digital signatures to be created. Patent 4,218,582 covered that
+invention, but its value was short-lived.  Adi Shamir, the S in the
+rival RSA system, found a way to break it.
+
+Peter Blattman, a Berkeley graduate student, told Diffie that Ralph
+Merkle was trying to solve the problem of communicating securely with
+someone you had never had any contact with before. "I persuaded him it
+couldn't be done," Diffie said with a grin, "but then I went back to
+thinking about the problem. I didn't learn anything about Merkle's
+approach, but without that conversation, I probably never would have
+made my discovery."
+
+In the meantime, Hellman recalls asking colleagues for suggestions of
+mathematical equations that were easy to compute, but hard to work
+backward. Several gave him ideas, but John Gill, a mathematics
+professor at the University of California at Berkeley, pointed him
+toward computing exponents in finite fields. "We really owed this to
+John Gill," he said.
+
+During this development period, Hellman and Diffie traveled and
+occasionally gave talks. This disclosure hurt their position in the
+patenting process. Foreign patents, for instance, must be filed before
+any public discussion. In the United States, the application must be
+made within one year of disclosure. As a result, their patent only held
+in the United States and many people probed the history of the talks
+looking to invalidate the patents. Patent law has never been clear on
+what constitutes disclosure.
+
+There were other legal controversies. In 1977, people weren't even sure
+that it was possible to get a patent for software because patents were
+only granted for mechanisms, not the laws of nature that presumably
+included the mathematics at the core of their claims. The lawyers for
+Stanford University, where Hellman was a professor and Diffie a
+graduate student, sidestepped this approach by patenting a circuit.
+This move, while still debated, is common today.
+
+In the end, the patents never brought much money to either Stanford or
+the inventors. Diffie says that his total royalties are about $10,000.
+MIT did much better with the RSA patent. Over the last decade, RSA Data
+Security, the sole license holder of that patent, returned so much
+money to MIT that the university is naming a chair after the company.
+One person in the company places the amount at about $10 million, but
+concedes that some of this came from the appreciation of the equity the
+university held in the company.
+
+Still, this doesn't inflame Diffie. "The reason is that I haven't made
+much off of royalties, but I have made a lot off the invention." he
+said. "I owe it good jobs over 20 years that's more than a million
+dollars."
+
+He is currently holds the title of Distinguished Engineer at Sun
+Microsystems.
+________________________________________________________________
+
+Related Sites
+Following are links to the external Web sites mentioned in this
+article. These sites are not part of The New York Times on the Web,
+and The Times has no control over their content or availability.
+When you have finished visiting any of these sites, you will be
+able to return to this page by clicking on your Web browser's
+"Back" button or icon until this page reappears.
+* [12]Cylink
+* [13]RSA Data Security
+* [14]National Institute of Standards and Technology
+* [15]Cypherpunks home page
+* [16]Pretty Good Privacy
+* [17]National Security Agency
+________________________________________________________________
+
+Peter Wayner at [18]pwayner@nytimes.com welcomes your comments and
+suggestions.
+________________________________________________________________
+
+[26]Copyright 1997 The New York Times Company
+
+References
+
+6. <a href="http://www.nytimes.com/library/cyber/week/090697patent.html#1">http://www.nytimes.com/library/cyber/week/090697patent.html#1</a>
+7. <a href="http://www.nytimes.com/library/cyber/week/090697patent.html#1">http://www.nytimes.com/library/cyber/week/090697patent.html#1</a>
+8. <a href="http://www.nytimes.com/library/cyber/week/090697patent.html#1">http://www.nytimes.com/library/cyber/week/090697patent.html#1</a>
+9. <a href="http://www.nytimes.com/library/cyber/week/090697patent.html#1">http://www.nytimes.com/library/cyber/week/090697patent.html#1</a>
+10. <a href="http://www.nytimes.com/library/cyber/week/090697patent.html#1">http://www.nytimes.com/library/cyber/week/090697patent.html#1</a>
+11. <a href="http://www.nytimes.com/library/cyber/week/090697patent.html#1">http://www.nytimes.com/library/cyber/week/090697patent.html#1</a>
+12. <a href="http://www.cylink.com/">http://www.cylink.com/</a>
+13. <a href="http://www.rsa.com/">http://www.rsa.com/</a>
+14. <a href="http://www.nist.gov/">http://www.nist.gov/</a>
+15. <a href="ftp://ftp.csua.berkeley.edu/pub/cypherpunks/Home.html">ftp://ftp.csua.berkeley.edu/pub/cypherpunks/Home.html</a>
+16. <a href="http://www.pgp.com/">http://www.pgp.com/</a>
+17. <a href="http://www.nsa.gov:8080/">http://www.nsa.gov:8080/</a>
+18. <a href="mailto:pwayner@nytimes.com">mailto:pwayner@nytimes.com</a>
+26. <a href="http://www.nytimes.com/info/help/copyright.html">http://www.nytimes.com/info/help/copyright.html</a>
+
+==================================================================
+NY Times: December 24, 1997
+British Document Outlines Early Encryption Discovery
+By Peter Wayner
+<a href="http://www.nytimes.com/library/cyber/week/122497encrypt.html">http://www.nytimes.com/library/cyber/week/122497encrypt.html</a>
+
+To the list of institutions that Tony Blair's Labor Party is shaking
+up, add the British Secret Service. Last week, the British government's
+eavesdropping organization known as the Government Communications
+Headquarters, or GCHQ, posted a [5]document to its Web site describing
+its role in the discovery of public key cryptography.
+
+The set of algorithms, equations and arcane mathematics that make up
+public key cryptography are a crucial technology for preserving
+computer privacy in and making commerce possible on the Internet.  Some
+hail its discovery as one of the most important accomplishments of
+20th-century mathematics because it allows two people to set up a
+secure phone call without meeting beforehand.  Without it, there would
+be no privacy in cyberspace.
+
+The move by the once dusty and secretive organization is clearly an
+attempt to recast its image as a pioneering leader of cyberspace.
+
+For the last 20 years, the public gave credit for the discovery to
+Martin Hellman, a professor at Stanford University, and two graduate
+students who worked with him at the time, Ralph Merkle and Whitfield
+Diffie. They started publishing their work in 1976.
+
+Three professors at the Massachusetts Institute of Technology at the
+time, Ron Rivest, Adi Shamir and Len Adleman soon followed with another
+similar approach known by their initials, RSA, which went on to become
+one of the dominant solutions used on the Internet.
+
+Before public key cryptography, anyone who wanted to use a secret code
+needed to arrange for both sides to have a copy of the key used to
+scramble the data, a problem that requires either trusted couriers or
+advance meetings. PKC, as it is sometimes known, erased this problem by
+making it possible for two people, or more properly their computers, to
+agree upon a key by performing some complicated mathematics. There is
+no publicly known way for an eavesdropper to pick up the key by
+listening in.
+
+The new document details how three employees of the British government
+discovered the same approach several years earlier, but kept it a
+secret for reasons of national security. A spokesman for the British
+government's GCHQ, said that the document's release is part of a
+"pan-governmental drive for openness" pushed by the Labor party.
+
+The document describing the steps of invention taken by the spies was
+written by James Ellis, a mathematician and cryptographer who died less
+than a month ago. In it, Ellis describes how he suggested the existence
+of what he called "non-secret encryption" in 1970s.
+
+Ellis says that Clifford Cocks followed with a more practical solution
+in 1973 that was essentially the same thing as the algorithm published
+by Rivest, Shamir and Adleman. The paper also says that Malcolm
+Williamson discovered an algorithm in 1974 that was very similar to the
+work of Diffie and Hellman. They did not replicate the work done by
+Merkle and Hellman.
+
+In a telephone interview from his office in La Jolla, Calif., Malcolm
+Williamson said that he felt bad when others discovered the solution,
+but concluded, "I was working at the British government and that's just
+one of the restrictions you work under when you work for the
+government."
+
+Hellman said in a telephone interview that he agrees. "It must be
+really difficult for them to watch other people get the credit," he
+said. "But that's the agreement they made when they agreed to work in
+secret." He was also quick to point out that the secret branches of the
+government have the help of large budgets and classified knowledge.
+
+"Diffie, I and Merkle were working in a vacuum." he said. "If we had
+access to all of the classified literature of the previous 30 years, it
+would really be an advantage."
+
+For his part, Diffie said in a telephone interview from Cirencester,
+England, that he thinks that GCHQ never realized the deep importance of
+what the mathematicians discovered. He said that he met James Ellis
+several years ago and "within an hour of meeting me, Ellis said, 'You
+did much more with this than we did.'"
+
+Diffie also suggested that the history of ideas is hard to write
+because many people often find solutions to different problems only to
+later determine they've discovered the same thing.
+
+The story keeps going farther back. Recently, Matt Blaze, a
+cryptographer employed at Bell Labs, got a copy of a [8]memorandum from
+the desk of John F. Kennedy about the problem of securing nuclear
+weapons with launch codes. Steve Bellovin, a colleague of Blaze's at
+Bell Labs, said: "When I read this memo, I don't see anything that
+would require public key cryptography. But I think they're in the
+neighborhood. For so many things, the answer is the easy part. Asking
+the question is the hard part. I think this got them asking the
+questions."
+
+Historians of science will certainly spend time sorting out the various
+claims. David Kahn, the author of the best selling history The
+Codebreakers, said that he recently asked the National Security Agency
+to declassify some documents so he could write the proper history of
+public key cryptography. He said an NSA staff member told him, "I've
+spoken to the guys who did this, but they don't want to be interviewed
+now." This suggests that the NSA also may have discovered public-key
+systems or had a hand in exploring them.  Kahn hopes that the NSA will
+follow in Britain's lead so an accurate history can be written.
+
+Jim Bidzos, the chief executive of RSA Data Security, the division of
+the publicly traded Security Dynamics that holds the patent on the RSA,
+said that the announcement in Britain will have no effect on the
+company's business. Patent law is based on the notion that the
+inventors trade knowledge about the invention in return for an
+exclusive license to practice it.
+
+In fact, it is an interesting question to wonder whether Britain could
+have changed the history of cyberspace by disclosing the invention and
+encouraging the development of widespread cryptographic security for
+the public.
+
+This may have been a wise move during the height of the cold war in the
+70's when there were thousands of Soviet tanks poised on the edge of
+western Europe. Williamson also hastens to note that mathematical
+equations weren't considered patentable in Britain at the time and
+without a patent anyone could have used the invention.  The RSA patent
+in the United States was one of the first and it is generally accepted
+to have expanded the definition.
+
+Others are pushing a similar question. In a debate on cryptography
+policy at the University of Maryland, Baltimore County, John Gilmore,
+one of the founders of the Electronic Frontier Foundation, said the NSA
+should be more open. While national defense is very valuable, he
+suggested that the need for security in cyberspace for all citizens is
+going to be essential in the future.
+
+In the long run, the history of the discovery of public key
+cryptography is certain to be written and rewritten often in the next
+several years as more documents emerge from secret government
+laboratories. The spokesman from GCHQ promises that more documents are
+on the way.
+
+Hellman is philosophical. "In a way, these things are like gold nuggets
+that God left in the forest." he said. "If I'm walking along in the
+forest and I stubbed my toe on it, who's to say I deserve credit for
+discovering it?"
+
+He is quick to point out, however, that he shared the discovery with
+everyone.
+
+______________________________________________________________
+
+Related Sites
+Following are links to the external Web sites mentioned in this
+article. These sites are not part of The New York Times on the Web,
+and The Times has no control over their content or availability.
+When you have finished visiting any of these sites, you will be
+ableto return to this page by clicking on your Web browser's "Back"
+button or icon until this page reappears.
+* [11]Document on encryption from the Communications-Electronics
+  Security Group, part of the Government Communications Headquarters
+* Steve Bellovin explanation of [12]National Security Action
+  Memorandum 160 at Bell Labs
+______________________________________________________________
+
+Peter Wayner at [13]pwayner@nytimes.com welcomes your comments and
+suggestions.
+______________________________________________________________
+
+[21]Copyright 1997 The New York Times Company
+
+References
+
+5. <a href="http://www.nytimes.com/library/cyber/week/122497encrypt.html#1">http://www.nytimes.com/library/cyber/week/122497encrypt.html#1</a>
+8. <a href="http://www.nytimes.com/library/cyber/week/122497encrypt.html#1">http://www.nytimes.com/library/cyber/week/122497encrypt.html#1</a>
+11. <a href="http://www.cesg.gov.uk/ellisint.htm">http://www.cesg.gov.uk/ellisint.htm</a>
+12. <a href="http://www.research.att.com/~smb/nsam-160/">http://www.research.att.com/~smb/nsam-160/</a>
+13. <a href="mailto:pwayner@nytimes.com">mailto:pwayner@nytimes.com</a>
+21. <a href="http://www.nytimes.com/info/help/copyright.html">http://www.nytimes.com/info/help/copyright.html</a>
+==================================================================
+</pre>
+
+<hr>
+<a href="http://www.oac.uci.edu/indiv/franklin/tools/feedback?ics54@ics.uci.edu">Comments are welcome.</a>
+<noscript><br><b>JavaScript must be enabled in order for this page
+   to be fully functional.</b></noscript>
+<script language="JavaScript" type="text/javascript">
+<!-- Beginning of JavaScript -
+   document.writeln("<br>This document can be found at &nbsp;<tt>"+
+       document.location+"</tt>");
+// document.writeln("<br><i>Current as of " + document.lastModified+"</i>");
+// - End of JavaScript - -->
+</script>
+   <br><i>Current as of 6 March 2000</i>
+<br><a href="http://validator.w3.org/check?uri=&{document.location};&ss=">HTML
+    4.01 Checked.</a>
+<!-- To show source in validation "...?uri=&{document.location};&ss=" -->
+
+</body>
+</html>
+

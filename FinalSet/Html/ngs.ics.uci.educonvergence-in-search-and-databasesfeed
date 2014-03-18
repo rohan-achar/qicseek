@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Convergence in Search and databases</title>
+	<atom:link href="http://ngs.ics.uci.edu/convergence-in-search-and-databases/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/convergence-in-search-and-databases/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Harish Mallipeddi</title>
+		<link>http://ngs.ics.uci.edu/convergence-in-search-and-databases/comment-page-1/#comment-453</link>
+		<dc:creator><![CDATA[Harish Mallipeddi]]></dc:creator>
+		<pubDate>Tue, 06 Jun 2006 07:39:08 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=529#comment-453</guid>
+		<description><![CDATA[Just a few thoughts:
+
+I looked at the Flamenco search project started by Marti Hearst (http://flamenco.berkeley.edu/). But from what I gather by looking at the demos, it looks like the idea is very similar to Google Base. The last time I looked at Google Base, they seemed to support something which is very similar to what Marti calls facets in Flamenco. 
+
+I guess what is interesting about Flamenco is the ability to quickly expose your database directly via an interesting web UI with minimum configuration (a .csv file describing facets and a couple of other things is all that it takes).
+
+Cheers,
+Harish]]></description>
+		<content:encoded><![CDATA[<p>Just a few thoughts:</p>
+<p>I looked at the Flamenco search project started by Marti Hearst (<a href="http://flamenco.berkeley.edu/" rel="nofollow">http://flamenco.berkeley.edu/</a>). But from what I gather by looking at the demos, it looks like the idea is very similar to Google Base. The last time I looked at Google Base, they seemed to support something which is very similar to what Marti calls facets in Flamenco. </p>
+<p>I guess what is interesting about Flamenco is the ability to quickly expose your database directly via an interesting web UI with minimum configuration (a .csv file describing facets and a couple of other things is all that it takes).</p>
+<p>Cheers,<br />
+Harish</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

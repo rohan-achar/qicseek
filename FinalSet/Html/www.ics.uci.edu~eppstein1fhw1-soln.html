@@ -1,0 +1,86 @@
+<HTML><HEAD><TITLE>ICS 1F, Homework 1 Solutions</TITLE></HEAD>
+<BODY>
+
+<CENTER>
+<H1>ICS 1F, Homework 1 Solutions</H1>
+</CENTER>
+
+<OL>
+<P><LI>List three things you think computers can now do better than you, and three 
+things you think you can do better than computers.</P>
+
+<BLOCKQUOTE><I><FONT COLOR="RED">
+My answer:
+Computers can play chess, perform arithmetic, and predict weather
+better than I can.
+I can speak English, make new mathematical discoveries, and program computers
+better than computers can.
+</FONT></I></BLOCKQUOTE>
+
+<P><LI>Is there a (whole number) value of x that would cause an 
+infinite loop in the procedure described below? Explain why or why not.
+(Hint: Try it with a few small numbers to see what happens.)</P>
+
+<PRE>
+    Read a number x.
+    Initialize a counter to zero.
+
+    While x is greater than zero, perform the following steps:
+
+        Increase the counter by one.
+        If x is odd, replace x by (x+1)/2;
+        otherwise (if x is even) replace x by x-2.
+
+    Once the loop terminates (if it does),
+    output the value of the counter and halt.
+</PRE>
+
+<BLOCKQUOTE><I><FONT COLOR="RED">
+Answer:
+If x=1, then (x+1)/2 is also 1, so the program
+goes into an infinite loop.
+</FONT></I></BLOCKQUOTE>
+
+<P><LI>In the imaginary country of Binaria, the currency is based on the 
+centina, which is worth approximately the same as a penny.  The coins of 
+Binaria have values that are powers of two: 1, 2, 4, 8, 16, 32, and 64 
+centinas.</P>
+
+<P>(a) What coins should you use to make change for the following amounts of 
+money?  (In each case answer with the smallest possible set of coins that 
+adds up to the correct value.)</P>
+
+<OL>
+<LI>15 centinas
+<LI>29 centinas
+<LI>39 centinas
+<LI>108 centinas
+</OL>
+
+<BLOCKQUOTE><I><FONT COLOR="RED">
+Answers:
+<OL>
+<LI>1, 2, 4, and 8 centinas.
+<LI>1, 4, 8, and 16 centinas.
+<LI>1, 2, 4, and 32 centinas.
+<LI>4, 8, 32, and 64 centinas.
+</OL>
+</FONT></I></BLOCKQUOTE>
+
+<P>(b) Why might it be useful for Binarian cash registers to display 
+amounts of money using binary notation?
+
+<BLOCKQUOTE><I><FONT COLOR="RED">
+Answer:
+Because the 1's in the binary representation of a number would tell you
+exactly which coins to use to make change.
+E.g. for 29 centinas, the binary representation of 29 is 11101.
+The rightmost 1 tells you to use a 1-centina coin,
+the zero means you don't need any 2-centina coins,
+the second one from the right tells you to use a 4-centina coin,
+etc.
+</FONT></I></BLOCKQUOTE>
+</OL>
+</BODY>
+</HTML>
+

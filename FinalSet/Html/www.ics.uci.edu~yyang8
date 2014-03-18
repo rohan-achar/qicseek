@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Yi Yang - UC Irvine</title>
+	<link rel="stylesheet" type="text/css" href="homepage_styles.css" media="all">
+</head>
+<body>
+	<div id="container">
+		<div id="sidebar">
+			<img src="me/YangYi.jpg" id="me">
+			<br>
+		</div>
+		<div id="content">
+			<h1>Yi Yang (杨亿) (<a href="me/yiyang_cv.pdf">CV</a>)</h1>
+			<p>
+				Myself: PhD in Computer Science<br>
+				Office: DBH 4209, University of Califorina Irvine, Irvine, CA, 92697<br>
+				Email: yyang8 AT uci DOT edu<br>
+			</p>
+			<h2>Research Interest</h2>
+			<ul>
+				<li> Machine Learning</li>
+				<li> Computer Vision</li>
+			</ul>
+			<h2>About Me</h2>
+			<ul>
+				<li> I obtained the PhD degree in <a href="http://www.ics.uci.edu">Computer Science Department</a> at <a href="http://www.uci.edu">UC Irvine</a> in 2013. I was a member of the <a href="http://vision.ics.uci.edu">Computational Vision Group</a> where I was advised by <a href="http://www.ics.uci.edu/~dramanan">Prof. Deva Ramanan</a>. I am a fan of Computer Vision, Machine Learning and Artificial Intelligence. And I believe that some day robots can assist human in all our daily lives.</li>
+				<li> I had a summer 2012 internship at <a href="http://www.google.com/about/jobs/locations/mountain-view/">Google Mountain View</a>, where I worked with <a href="http://geometry.stanford.edu/member/eantunez/index.html">Emilio Antunez</a> and <a href="http://tianliresearch.blogspot.com">Tianli Yu</a> on Pose Estimation for Clothing Recognition.</li>
+				<li> I had a summer 2011 internship at <a href="http://research.microsoft.com/en-us/labs/siliconvalley">Microsoft Research Silicon Valley</a>, where I worked with <a href="http://research.microsoft.com/en-us/people/sbaker">Simon Baker</a>,  <a href="http://research.microsoft.com/en-us/people/ankannan">Anitha Kannan</a> and <a href="http://www.ics.uci.edu/~dramanan">Deva Ramanan</a> on <a href="research/proxemics/index.html">Proxemics Recognition</a>.</li>
+				<li> Previously I completed a master degree in <a href="http://www.ielm.ust.hk">Department of Industrial Engineering & Logistics Management</a> at <a href="http://www.ust.hk">Hong Kong University of Science and Technology</a> with <a href="http://www.ielm.ust.hk/dfaculty/hongl">Professor L. Jeff Hong</a>, and a bachelor degree in <a href="http://www.au.tsinghua.edu.cn">Department of Automation</a> at <a href="http://www.tsinghua.edu.cn">Tsinghua University</a>.</li>
+			</ul>
+			<h2>Publications</h2>
+			<hr>
+			<div class="publication">
+				<img src="research/proxemics/proxemic2012.jpg" class="publogo">
+				<p> 
+					<b>Recognizing Proxemics in Personal Photos</b><br>
+					Yi Yang, Simon Baker, Anitha Kannan, Deva Ramanan<br>
+					<em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Rhode Island, USA, 2012.</em><br>
+					<br>
+					<a href="research/proxemics/index.html">[Code]</a> <a href="research/proxemics/proxemic2012.pdf">[Paper]</a> <a href="research/proxemics/proxemic2012_slides.pptx">[Slides]</a> <a href="research/proxemics/proxemic2012_poster.pdf">[Poster]</a> <a href="">[Talk]</a><br>
+				</p>
+			</div>
+			<hr>
+			<div class="publication">
+				<img src="research/layers/layers2010.jpg" class="publogo">
+				<p>
+					<b>Layered Object Models for Image Segmentation</b><br>
+					Yi Yang, Sam Hallman, Deva Ramanan, Charless Fowlkes<br>
+					<em>IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), vol. 34 no. 9 pp. 1731-1743, 2012.</em><br>
+					<br>
+					<a href="research/layers/index.html">[Code]</a> <a href="research/layers/layers2012.pdf">[Paper]</a><br>
+				</p>
+			</div>
+			<hr>
+			<div class="publication">
+				<img src="research/pose/pose2011.jpg" class="publogo">
+				<p>
+					<b>Articulated Pose Estimation with Flexible Mixtures of Parts</b><br>
+					Yi Yang, Deva Ramanan<br>
+					<em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Colorado Spring, USA, 2011.</em><br>
+					<br>
+					<a href="research/pose/index.html">[Code]</a> <a href="research/pose/pose2011.pdf">[Paper]</a> <a href="research/pose/pose2011_slides.pptx">[Slides]</a> <a href="research/pose/pose2011_poster.pdf">[Poster]</a> <a href="http://techtalks.tv/events/56/44/">[Talk]</a> <br>
+				</p>
+			</div>
+			<hr>
+			<div class="publication">
+				<img src="research/jccp/jccp2011.jpg" class="publogo">
+				<p>
+					<b>Sequential Convex Approximations to Joint Chance Constrained Programs: a Monte Carlo Approach</b><br> 
+					L. Jeff Hong, Yi Yang, Liwei Zhang<br>
+					<em>Operations Research (OR), vol. 59 no. 3 pp. 617-630, 2011.</em><br>
+					<br>
+					<a href="research/jccp/jccp2011.pdf">[Paper]</a><br>
+				</p>
+			</div>
+			<hr>
+			<div class="publication">
+				<img src="research/layers/layers2010.jpg" class="publogo">
+				<p>
+					<b>Layered Object Detection for Multi-Class Segmentation</b><br> 
+					Yi Yang, Sam Hallman, Deva Ramanan, Charless Fowlkes<br>
+					<em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), San Francisco, USA, 2010.</em><br>
+					<br>
+					<a href="research/layers/index.html">[Code]</a> <a href="research/layers/layers2010.pdf">[Paper]</a> <a href="research/layers/layers2010_slides.ppt">[Slides]</a> <a href="research/layers/layers2010_poster.pdf">[Poster]</a> <a href="http://videolectures.net/cvpr2010_hallman_lodm/">[Talk]</a><br>
+				</p>
+			</div>
+			<hr>
+			<h2>Links</h2>
+			<ul>
+				<li><a href="professors.html">Computer Vision Professors</a></li>
+				<li><a href="quotes.html">Favorite Quotes</a></li>
+			</ul>
+<!--
+<h3>Neural Netwokrs</h3>
+<ul>
+<li> <a href="http://www.stanford.edu/class/cs294a/">Deep Learning Course by Andrew Ng from Standford University</a>
+<li> <a href="https://github.com/rasmusbergpalm/DeepLearnToolbox">Deep Learning Matlab Toolbox</a>
+<li> <a href="http://cs.nyu.edu/~fergus/tutorials/deep_learning_cvpr12/">Deep Learning Methods for Vision</a>
+</ul>
+
+<h3>Recommended Websites</h3>
+<ul>
+<li> <a href="http://www.cplusplus.com/doc/tutorial/">C++ Language Tutorial</a>
+<li> <a href="http://pages.cs.wisc.edu/~beechung/ref/gcc-intro.html">G++ Tutorial for Compiling C++</a>
+<li> <a href="http://www.unixguide.net/linux/linuxshortcuts.shtml">Linux Shortcuts and Commands</a>
+<li> <a href="http://www.engr.sjsu.edu/wbarrett/SortFind.htm">Standard Template Libary (STL) in C++</a>
+<li> <a href="http://www.cs.iit.edu/~agam/cs512/lect-notes/opencv-intro/">OpenCV Tutorial</a>
+<li> <a href="http://mrbook.org/tutorials/make/">Linux Makefile Tutorial</a>
+<li> <a href="http://www.boost.org/">Boost C++ Libraries for Linear Algebra and Image Processing</a>
+</ul>
+-->
+<!--
+<HR>
+<br>
+<ADDRESS>
+<a href="http://www.ics.uci.edu/">
+Information and Computer Science</a><BR>
+<a href="http://www.uci.edu/">University of California, Irvine</a><br>
+Irvine, CA 92697-3425
+</ADDRESS>
+Last modified: 10 Feb 2012
+-->
+	</div>
+</div>
+</body>
+</html>
+

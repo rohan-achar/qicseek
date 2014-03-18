@@ -1,0 +1,91 @@
+<html>
+<head>
+    <title>Ucigame - Gallery - BallFollower</title>
+<link href="../stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<center><h2>Ucigame - Gallery - BallFollower</h2></center>
+
+<h4>
+<a href="../index.html">Home</a> |
+<a href="../getting-started.html">Getting Started</a> |
+<a href="../reference.html">Reference</a> |
+<a href="../java.html">Introduction to Java</a> |
+<a href="../gallery.html">Gallery</a>
+</h4>
+
+<p>
+<table>
+<tr>
+<td width="300" valign="top">
+<applet
+   code="BallFollower.class"
+   codebase="."
+   archive="../ucigame.jar"
+   width="250"
+   height="250"
+   border="0"
+>
+Your browser cannot show Java applets.
+</applet>
+</td>
+<td width=600 valign="top" halign="center">
+BallFollower uses mouse.x() and mouse.y() to get the
+current mouse location.
+(0, 0) is the applet's upper left hand corner.
+When the mouse is not over the applet area,
+the applet is only sent updated mouse positions if the
+mouse is being "dragged" or moved with a mouse button held down.
+</td>
+</tr>
+<tr>
+<td colspan=2>
+<br>
+<b>BallFollower.java</b>
+<br>
+<pre>
+import ucigame.*;
+
+public class BallFollower extends Ucigame
+{
+    int x, y;
+    int ballRadius = 30;
+    Sprite ball;
+
+    public void setup()
+    {
+        window.size(250, 250);
+        window.title("Ball Follower");
+        window.showFPS();
+        canvas.background(255, 200, 200);
+
+        ball = makeSprite(getImage("images/ball.gif", 255, 255, 255));
+        x = canvas.width() / 2;
+        y = canvas.height() / 2;
+        ball.position(x, y);
+
+        framerate(30);
+    }
+
+    public void draw()
+    {
+        canvas.clear();
+
+        ball.nextX((9 * ball.x() + mouse.x()) / 10);
+        ball.nextY((9 * ball.y() + mouse.y()) / 10);
+
+        ball.draw();
+    }
+}
+</pre>
+</td>
+</tr>
+</table>
+
+<br>
+<br>
+
+</body>
+</html>
+

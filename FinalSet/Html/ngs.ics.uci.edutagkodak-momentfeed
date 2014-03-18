@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/kodak-moment/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Photos are about Events</title>
+		<link>http://ngs.ics.uci.edu/photos-are-about-events/</link>
+		<comments>http://ngs.ics.uci.edu/photos-are-about-events/#comments</comments>
+		<pubDate>Thu, 07 Jul 2011 06:31:36 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[events]]></category>
+		<category><![CDATA[Instagram]]></category>
+		<category><![CDATA[Kodak Moment]]></category>
+		<category><![CDATA[photo sharing]]></category>
+		<category><![CDATA[Photos]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1358</guid>
+		<description><![CDATA[When you see something interesting happening, you take out your camera, now your mobile phone, and click. And that becomes your secondary visual memory. Clicking your phone camera is effortless and costs you almost zero. So now you take many&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>When you see something interesting happening, you take out your camera, now your mobile phone, and click.  And that becomes your secondary visual memory.  Clicking your phone camera is effortless and costs you almost zero.  So now you take many more photos than you used to just a few years ago.  The only hesitation is the thought that what will people say.  Soon you will never think about other people also &#8212; because this will be as common as carrying mobile phones.</p>
+<p>This is not a secret that photo-sharing has been one of the most popular apps area in the last few months.  The number of photo-sharing apps, led by Instagram and others, on smart phones is growing faster than anything you know or expected. Clearly, there is strong demand for it and if Google + and new Facebook focus are any indication, this will only result in more people sharing more photos.  </p>
+<p>However, only 1 in 10 or even smaller fraction of photos are ever shared.  Like wine, photos become more valuable as they age.  The take you back in time, they remind you of people, events, and places, and they help you reflect and reanalyze things.  With mobile phones, photos are also becoming as important as pen and your notebook used to be for taking notes.  And at the rate people take photos now, they soon face problems in managing those.  Most of my friends request me to send photos that I take at events.  And I confess that I am pretty bad in responding to their requests.  It is not easy to remember to go back fine their photos and send it to them or share those.  So what you do when you get a request to send a photo by a friend &#8212; you spend 15 minutes looking for the photo???  How do you usually remember where that photo could be.  It is usually the event &#8212; where you were with the person.  Now you need to locate photos of the event.  When thinking about this &#8212; it becomes clear that photos are our record of events.</p>
+<p>In fact, in a true sense photos capture and record events or events are manifested by or come alive in photos.  Just think about how you create albums and you will find that they are based on trips, birthdays, wedding, conferences, concerts, festivals and so on.  Albums are mostly about events.</p>
+<p>It is surprising that most photo management as well as photo sharing systems do not recognize this important fact.  Most photo sharing and photo organizing systems consider photos, people, places, objects, and events in the deceasing order of importance.  In fact the order should be events, people, objects, places, and photos.  A photo is worthless if it is not linked to an event, a person, an object or a place.  Most important of all:  Photos are about events.  Rememer &#8212; Kodak popularized &#8216;Kodak Moment&#8217; to emphasize that moment in an event.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/photos-are-about-events/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

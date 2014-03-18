@@ -1,0 +1,123 @@
+<HTML>
+<HEAD>
+<TITLE>ECS 253 Winter 1999: Breaking a C&aelig;sar Cipher</TITLE>
+</HEAD>
+<BODY BGCOLOR="#ffffff">
+<H1>Breaking a C&aelig;sar Cipher</H1>
+<H2>Introduction</H2>
+This presents two different methods of breaking a C&aelig;sar cipher
+using statistics.  The ciphertext is <tt>VRVRVHDPVWUHVV</tt>;
+the frequency counts are:
+<TABLE BORDER="1">
+<TR><TD><tt>D</tt></TD><TD>1</TD><TD>0.0714</TD><TD><tt>R</tt></TD><TD>2</TD><TD>0.1429</TD><TD><tt>W</tt></TD><TD>1</TD><TD>0.0714</TD></TR>
+<TR><TD><tt>H</tt></TD><TD>2</TD><TD>0.1429</TD><TD><tt>U</tt></TD><TD>1</TD><TD>0.0714</TD><TD></TD></TR>
+<TR><TD><tt>P</tt></TD><TD>1</TD><TD>0.0714</TD><TD><tt>V</tt></TD><TD>6</TD><TD>0.4286</TD><TD></TD></TR>
+</TABLE>
+As a preliminary, we note that the unicity distance of a C&aelig;sar
+cipher is roughly 1.5, so 14 characters should be more than enough to
+find a unique key and decryption.
+<H2>Method #1: frequency counts</H2>
+The most frequent letters in English are <tt>ETAONRISH</tt>.
+The following table summarizes the overlap,
+assuming the key is the number indicated:
+<TABLE BORDER="1">
+<TR><TD> key </TD> <TD> ct </TD> <TD> letters </TD>
+    <TD> key </TD> <TD> ct </TD> <TD> letters </TD>
+    <TD> key </TD> <TD> ct </TD> <TD> letters </TD>
+    <TD> key </TD> <TD> ct </TD> <TD> letters </TD>
+</TR>
+<TR><TD> 0 </TD> <TD> 2 </TD> <TD> <tt>RH</tt> </TD>
+    <TD> 7 </TD> <TD> 4 </TD> <TD> <tt>VHPU</tt> </TD>
+    <TD> 13 </TD> <TD> 3 </TD> <TD> <tt>RVU</tt> </TD>
+    <TD> 20 </TD> <TD> 2 </TD> <TD> <tt>HU</tt> </TD>
+</TR>
+<TR><TD> 1 </TD> <TD> 2 </TD> <TD> <tt>PU</tt> </TD>
+    <TD> 8 </TD> <TD> 3 </TD> <TD> <tt>VPW</tt> </TD>
+    <TD> 14 </TD> <TD> 3 </TD> <TD> <tt>VHW</tt> </TD>
+    <TD> 21 </TD> <TD> 1 </TD> <TD> <tt>VD</tt> </TD>
+</TR>
+<TR><TD> 2 </TD> <TD> 3 </TD> <TD> <tt>VPW</tt> </TD>
+    <TD> 9 </TD> <TD> 2 </TD> <TD> <TT>RW</TT> </TD>
+    <TD> 15 </TD> <TD> 4 </TD> <TD> <TT>HDPW</TT> </TD>
+    <TD> 22 </TD> <TD> 3 </TD> <TD> <TT>DPW</TT> </TD>
+</TR>
+<TR><TD> 3 </TD> <TD> 6 </TD> <TD> <TT>VRHDWU</TT> </TD>
+    <TD> 10 </TD> <TD> 2 </TD> <TD> <TT>RD</TT> </TD>
+    <TD> 16 </TD> <TD> 3 </TD> <TD> <TT>HDU</TT> </TD>
+    <TD> 23 </TD> <TD> 1 </TD> <TD> <TT>P</TT> </TD>
+</TR>
+<TR><TD> 4 </TD> <TD> 3 </TD> <TD> <TT>VRW</TT> </TD>
+    <TD> 11 </TD> <TD> 2 </TD> <TD> <TT>DP</TT> </TD>
+    <TD> 17 </TD> <TD> 2 </TD> <TD> <TT>VR</TT> </TD>
+    <TD> 24 </TD> <TD> 2 </TD> <TD> <TT>RP</TT> </TD>
+</TR>
+<TR><TD> 5 </TD> <TD> 1 </TD> <TD> <TT>W</TT> </TD>
+    <TD> 12 </TD> <TD> 2 </TD> <TD> <TT>DU</TT> </TD>
+    <TD> 18 </TD> <TD> 2 </TD> <TD> <TT>WU</TT> </TD>
+    <TD> 25 </TD> <TD> 3 </TD> <TD> <TT>RHD</TT> </TD>
+</TR>
+<TR><TD> 6 </TD> <TD> 1 </TD> <TD> <TT>Y</TT> </TD>
+    <TD> &nbsp; </TD> <TD> &nbsp; </TD> <TD> &nbsp; </TD>
+    <TD> 19 </TD> <TD> 2 </TD> <TD> <TT>WU</TT> </TD>
+    <TD> &nbsp; </TD> <TD> &nbsp; </TD> <TD> &nbsp; </TD>
+</TR>
+</TABLE>
+The key value 3 leaps out.  Notice that had we counted differences, the
+same thing would happen, as the differences are the same as the
+counts.
+<H2>Method #2: correlations</H2>
+For this, we need frequency counts of the letters in plaintext, and for
+this purpose (since we don't have the plaintext handy) we simply assume
+the plaintext follows the 1-gram, independent model.  Note that this is
+usually a poor assumption since in English the letters are not
+independent, but we'll try it and see what happens.
+The relevant equation is:
+<br>
+SUM<sub>0&lt;=<i>t</i>&lt;26</sub><i>F<sub>t</sub></i>(<i>c</i>)<i>p</i>(<i>t</i>-<i>k</i>) =
+0.0714[<i>p</i>(3-<i>k</i>) + <i>p</i>(15-<i>k</i>) + <i>p</i>(20-<i>k</i>) + <i>p</i>(22-<i>k</i>)] +
+0.1429[<i>p</i>(7-<i>k</i>) + <i>p</i>(17-<i>k</i>)] + 0.4286<i>p</i>(21-<i>k</i>)
+<br>and the correlations over the values of k come out to be:
+&nbsp;
+<TABLE BORDER>
+<TR> <TH> key </TH> <TH> r </TH> <TH> key </TH> <TH> r </TH>
+     <TH> key </TH> <TH> r </TH> <TH> key </TH> <TH> r </TH>
+</TR>
+<TR> <TD> 0 </TD> <TD> 0.0281 </TD> <TD> 7 </TD> <TD> 0.0590 </TD>
+     <TD> 13 </TD> <TD> 0.0550 </TD> <TD> 20 </TD> <TD> 0.0252 </TD>
+</TR>
+<TR> <TD> 1 </TD> <TD> 0.0295 </TD> <TD> 8 </TD> <TD> 0.0425 </TD>
+     <TD> 14 </TD> <TD> 0.0513 </TD> <TD> 21 </TD> <TD> 0.0500 </TD>
+</TR>
+<TR> <TD> 2 </TD> <TD> 0.0639 </TD> <TD> 9 </TD> <TD> 0.0331 </TD>
+     <TD> 15 </TD> <TD> 0.0388 </TD> <TD> 22 </TD> <TD> 0.0253 </TD>
+</TR>
+<TR> <TD> 3 </TD> <TD> 0.0762 </TD> <TD> 10 </TD> <TD> 0.339 </TD>
+     <TD> 16 </TD> <TD> 0.0400 </TD> <TD> 23 </TD> <TD> 0.0186 </TD>
+</TR>
+<TR> <TD> 4 </TD> <TD> 0.0514 </TD> <TD> 11 </TD> <TD> 0.0229 </TD>
+     <TD> 17 </TD> <TD> 0.0763 </TD> <TD> 24 </TD> <TD> 0.0252 </TD>
+</TR>
+<TR> <TD> 5 </TD> <TD> 0.0160 </TD> <TD> 12 </TD> <TD> 0.0183 </TD>
+     <TD> 18 </TD> <TD> 0.0330 </TD> <TD> 25 </TD> <TD> 0.0341 </TD>
+</TR>
+<TR> <TD> 6 </TD> <TD> 0.0214 </TD> <TD> &nbsp; </TD> <TD> &nbsp; </TD>
+     <TD> 19 </TD> <TD> 0.0312 </TD> <TD> &nbsp; </TD> <TD> &nbsp; </TD>
+</TR>
+</TABLE>
+The values 3 and 17 are just about equal, so both must be tried.
+<H2> Answer</H2>
+The key is 3; the message is <tt>SOSOSEAMSTRESS</tt>
+<br>
+<p>
+<b> Borrowed from: </b> <br>
+Department of Computer Science
+<br>
+University of California at Davis
+<br>
+Davis, CA  95616-8562
+</ADDRESS>
+<br CLEAR=left><hr>
+<DATE>Page last modified on 1/14/99</DATE>
+</BODY>
+</HTML>
+

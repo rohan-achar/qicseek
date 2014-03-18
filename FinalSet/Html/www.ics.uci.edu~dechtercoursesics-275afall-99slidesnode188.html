@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Limitations</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Limitations">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html4492 HREF="node189.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html4490 HREF="node182.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html4486 HREF="node187.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html4494 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html4493 HREF="node189.html"> Operating System Interface</A>
+<B>Up:</B> <A NAME=tex2html4491 HREF="node182.html"> Saving States</A>
+<B> Previous:</B> <A NAME=tex2html4487 HREF="node187.html"> Invoking Saved States </A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION001650000000000000000> Limitations</A></H1>
+<P>
+A saved file may be copied between directories if desired.
+However, the saved file may only be
+restored using the <A NAME=tex2html629 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  binary from which it was created (e.g. you
+can not use another <A NAME=tex2html630 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  version).
+<P>
+The input/output state (opened streams etc.) is not saved by either
+<b> save_program/1</b> or <b> save/1</b>.
+It is re-initialised by <b> restore/1</b>, i.e.\
+after restoring only the <A NAME=tex2html631 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  standard streams are opened.
+<P>
+Dynamically loaded object files (i.e. C externals loaded using load/1)
+are not contained in saved states.
+They have to be loaded again after restarting a saved state.
+Alternatively, static linking can be used, as described in
+chapter <A HREF="node215.html#chapexternals"><IMG ALIGN=BOTTOM ALT="gif" SRC="http://www.ecrc.de/eclipse/new_icons//cross_ref_motif.gif"></A> on page <A HREF="node220.html#staticlink"><IMG ALIGN=BOTTOM ALT="gif" SRC="http://www.ecrc.de/eclipse/new_icons//cross_ref_motif.gif"></A>.
+<P>
+The saved state facilities might not always work properly together
+with the MegaLog features, e.g. creating a saved state while the
+database is open.
+<P>
+
+<P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

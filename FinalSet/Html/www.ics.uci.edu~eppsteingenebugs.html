@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<title>Gene Macintosh Genealogy Software</title>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+
+<h1><img src="images/GeneTree.gif" alt=" ">Gene Macintosh Genealogy
+Software</h1>
+
+<hr>
+<h2>Known bugs in Gene 4.3.4:</h2>
+
+<ul>
+<li>Gene can not correctly display or print cards with more than
+32k characters in their link or text panes.</li>
+
+<li>Accented characters in tree drawings are not correctly printed
+on HP plotters.</li>
+
+<li>Accented capital letters have their accents clipped off when they
+appear in the first line of the links pane.</li>
+
+<li>Marriages with only one spouse don't show up in verbose trees.</li>
+
+<li>The descendants report starting from a pair of spouses runs their
+information together without any space between them.</li>
+
+<li>The Merge command is unable to handle merging a person card and a
+name change card both having the same name.  Workaround: rename one of
+the cards before attempting the merge.</li>
+
+<li><a href="http://validator.w3.org/">http://validator.w3.org/</a>
+still doesn't like the HTML produced by Gene's reports.</li>
+
+<li>We have an unverified report that
+colons in place names cause HTML multiple-file whole-database to crash
+due to being unable to open output file.</li>
+
+<!-- fixed in source -->
+<li>RTF-format reports are not correctly indented.</li>
+</ul>
+
+<h2>Known conflicts with other software:</h2>
+
+<ul>
+<li>There is a <a href="http://sourceforge.net/tracker/index.php?func=detail&aid=417067&group_id=8642&atid=108642">reported incompatibility</a> between Gene
+(version not specified, likely 4.3.3 according to report date)
+and Netatalk 1.5pre6-1rh7.</li>
+
+<li>Gene's preference file usage may conflict with the new
+"multiple users" feature of MacOS 9.0.  Workaround:
+turn multiple user accounts off via the radio button at the bottom of
+the "Multiple Users" control panel.</li>
+
+<li>One user has reported a conflict with older versions of <a
+href="http://www.nlsoftware.com/software/ampro/ampro.html">
+AutoMenus Pro</a> (an extension for activating menus with mouse
+rollovers rather than clicks), causing the Windows menu to be
+greyed out. This can be worked around by configuring AutoMenus to
+exclude Gene, or fixed by upgrading to AutoMenus version
+3.5.1.</li>
+</ul>
+
+<h2>Known bugs in Gene 4.3 - 4.3.3, now fixed in Gene 4.3.4:</h2>
+<ul>
+
+<li>Gene may crash when sorting links from cards that have the same
+date and type but differ on a link field that is blank on one of them.</li>
+
+<li>In whole file report to multiple HTML files, the links from the
+surnames to the individual names are not correct: Person.html uses
+"a href" where it should use "a name" HTML tags. Also, multiple HTML files
+have incorrect closing tags.
+</li>
+
+<li>Asking Gene to Merge from a file that's already open causes pictures
+to get lost, and can lead to later crashes.  Also, the "Merge" menu item
+should be "Merge..." to indicate that it opens a dialog.</li>
+
+<li>Exporting a report with a picture in it (single card or whole file)
+as an HTML file causes the picture height and width and button
+coordinates to all be replaced by the number one.</li>
+
+<li>Gene can crash under various circumstances involving manipulating
+pictures then saving the file.</li>
+
+<li>The "Merge Files" command may malfunction if both files contain
+pictures.</li>
+
+<li>Widow/er links can cause deaths to be omitted from family group
+reports.</li>
+
+<li>Parenthesized numbers after the last name get turned into part of
+the last name when exported and re-imported.</li>
+
+<li>Accented characters are incorrectly output in RTF-format reports.</li>
+
+<li>Non-breaking spaces are turned into spaces rather than &amp;nbsp;
+in HTML reports.</li>
+
+<li>Index numbers in HTML-format reports are incorrect.</li>
+
+<li>Reports to single HTML files do not set the page title.</li>
+
+<li>GEDCOM export mixes up individual notes and birth source.</li>
+
+<li>Name Change cards cause problems in whole file reports.</li>
+
+<li>GEDCOM files with information about how to parse names
+into given, surname, etc., produce "Unknown GEDCOM tag" when imported.</li>
+
+<li>Tree drawings at screen width may not always fit on-screen.</li>
+
+<li>Descendant and descendant families reports may omit some people.</li>
+
+<li>Leading and trailing blanks are not stripped when entering card names.</li>
+
+<li>Gene can lose track of its pictures after saving the file.</li>
+
+<li>Some accented characters are incorrectly output in LaTeX-format
+reports.</li>
+
+<li>Some family records could be omitted from exported GEDCOM files.</li>
+
+<li>After using the menu to set a person's sex, Gene doesn't think the
+file has changed.</li>
+</ul>
+
+<h2>Known bugs in Gene 4.2.1, now fixed in Gene 4.3:</h2>
+
+<ul>
+<li>If a GEDCOM marriage record contained a date when the record
+was last changed, it overwrote the marriage date.</li>
+<li>GEDCOM TIME lines (particularly time of last change to a record)
+were not parsed when importing GEDCOM files.</li>
+<li>GEDCOM CONT and CONC lines were not distinguished correctly.</li>
+<li>Bad GEDCOM files in which a line contained a number without a tag
+could cause Gene to crash.</li>
+<li>Telling Gene to open a GEDCOM file, then cancelling the dialog asking
+whether to import it instead, caused an error message to appear.</li>
+<li>Importing a GEDCOM file, then saving, would overwrite the GEDCOM.</li>
+<li>The ".gene" suffix was not stripped before adding ".ged" when making
+default filenames for GEDCOM export.</li>
+<li>Event cards with multiple people were only exported
+to the GEDCOM record of the first person.</li>
+<li>Exported GEDCOM death records included an MSTAT line
+no longer allowed in the GEDCOM 5.5 standard.</li>
+<li>Exported event types could have extraneous slash characters added.</li>
+<li>Events with empty "Event" field produced GEDCOM with blank TYPE lines.</li>
+<li>Family events with empty "Event" field produced ugly link strings.</li>
+<li>Ancestor or descendant reports would occasionally omit some people.
+<li>Setting a button to link to a card in the edit picture dialog
+did not correctly update the linked card's name to its normal form.</li>
+<li>"Opening Files" card list preference was not obeyed.</li>
+<li>The option of saving files by renaming a temporary file
+was broken when the file was stored on a shared filesystem.</li>
+<li>Option-clicking caused mysterious redisplay problems.</li>
+<li>Merge cards made garbage chars for empty field.</li>
+<li>Ancestor and descendant family reports made bad cross-links to the
+second person listed in the report dialog, when outputting to multiple
+HTML files.</li>
+<li>HTML reports did not properly handle URLs embedded in card text panes.</li>
+<li>Changing the capitalization of a name would not change the name list
+if the name was selected there.</li>
+<li>The Merge Cards command would not complain if only given
+one card name.</li>
+</ul>
+
+<p>If you discover any other bug or unexpected behavior in Gene,
+please tell us about it -- if we don't know about it we can't fix
+it. Send bug reports and suggestions by email to <a href= 
+"mailto:eppstein@ics.uci.edu">eppstein@ics.uci.edu</a>.</p>
+
+<hr>
+<p><a href="http://www.ics.uci.edu/~eppstein/gene/">Gene
+software</a>, <a href="http://www.ics.uci.edu/~eppstein/">David
+Eppstein</a>, <a href="http://www.ics.uci.edu/">ICS</a>, <a href= 
+"http://www.uci.edu/">UC Irvine</a>.<br>
+<small>Last update: 
+14 Jan 2002, 10:20:14 PST.</small></p>
+</body>
+</html>
+
+

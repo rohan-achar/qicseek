@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Web Science 3</title>
+	<atom:link href="http://ngs.ics.uci.edu/web-science-3/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/web-science-3/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Web Science 3</title>
+		<link>http://ngs.ics.uci.edu/web-science-3/comment-page-1/#comment-2194</link>
+		<dc:creator><![CDATA[Web Science 3]]></dc:creator>
+		<pubDate>Sun, 04 May 2008 14:55:12 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=945#comment-2194</guid>
+		<description><![CDATA[[...] Amit Kumar Singh wrote an interesting post today onHere&#8217;s a quick excerptOn Friday I had a chance to spend 2 hours discussing Web with Tim Berners-Lee. Tim is the founder and father of the WWW. The most important aspect of WWW is not only the technology but the social aspects of its evolution. &#8230; [...]]]></description>
+		<content:encoded><![CDATA[<p>[...] Amit Kumar Singh wrote an interesting post today onHere&#8217;s a quick excerptOn Friday I had a chance to spend 2 hours discussing Web with Tim Berners-Lee. Tim is the founder and father of the WWW. The most important aspect of WWW is not only the technology but the social aspects of its evolution. &#8230; [...]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="my.css">
+    <title>William E. Devanny</title>
+  </head>
+  <body>
+    <div id="Header">
+    <h1>William E. Devanny</h1>
+    <h2>Graduate student</h2>
+    </div>
+    <div id ="Content">
+      <p>
+      I am a Computer Science PhD student in the  
+      <a href="http://www.ics.uci.edu/~theory/">Center for Algorithms and Theory of Computation</a>
+      at <a href="http://www.uci.edu/">University of California, Irvine</a>.<br>
+      <br>
+      Winter 2014 ICS 162 Office Hours: Thursday 11-12 and Friday 2-4 in DBH 4032<br>
+      </p>
+    </div>
+    <div id="Menu">
+      <b>Email:</b> <a href="http://www.google.com/recaptcha/mailhide/d?k=01tbhhmQG56ZseYgjj27-T-A==&amp;c=9eVv2stFwFIY0idCtPD26v2GRBjz_H0pgq-zlcAhktI=" onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501tbhhmQG56ZseYgjj27-T-A\75\75\46c\759eVv2stFwFIY0idCtPD26v2GRBjz_H0pgq-zlcAhktI\075', '', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300'); return false;" title="Reveal this e-mail address">My Email</a><br>    
+      <b>Office:</b> DBH 4032<br>
+      <b>CV:</b> <a href="files/cv.pdf">cv.pdf</a><br>
+    </div>
+    <div id="Papers">
+    <h2>Publications</h2>
+    <b>Small superpatterns for dominance drawing</b><br>
+    <a href="http://www.ics.uci.edu/~mbannist/">M J Bannister</a>, W E Devanny, <a href="http://www.ics.uci.edu/~eppstein">D Eppstein</a><br>
+    Presented at <a href="http://www.siam.org/meetings/analco14/">ANALCO14</a><br>
+    Preprint available at <a href="http://arxiv.org/abs/1310.3770">arXiv</a><br>
+    <br>
+    <b>Superpatterns and universal point sets</b><br>
+    <a href="http://www.ics.uci.edu/~mbannist/">M J Bannister</a>, <a href="http://www.ics.uci.edu/~zhanpenc">Z Cheng</a>, W E Devanny, <a href="http://www.ics.uci.edu/~eppstein">D Eppstein</a><br>
+    Presented at <a href="http://www.graphdrawing.org/">Graph Drawing 2013</a><br>
+    Preprint available at <a href="http://arxiv.org/abs/1308.0403">arXiv</a><br>
+    <br>
+    <b>DREM 2.0: Improved reconstruction of dynamic regulatory networks from time-series expression data</b><br>
+    <a href="http://www.mmci.uni-saarland.de/en/investigators/irgleaders/mschulz/">M H Schulz</a>, W E Devanny, <a href="http://research.microsoft.com/en-us/people/angit/">A Gitter</a>, S Zhong, <a href="http://biolchem.ucla.edu/labs/ernst/">J Ernst</a>, <a href="http://www.cs.cmu.edu/~zivbj/">Z Bar-Joseph</a><br>
+    Published in <a href="http://www.biomedcentral.com/1752-0509/6/104">BMC Systems Biology - Highly Accessed</a><br>
+    Software available <a href ="http://www.sb.cs.cmu.edu/drem/">here</a>
+    <br>
+    </div>
+    <div id="Footer">
+    <p>Last modified: Oct 8, 2013, Under construction</p>
+    </div>
+  </body>
+</html>
+

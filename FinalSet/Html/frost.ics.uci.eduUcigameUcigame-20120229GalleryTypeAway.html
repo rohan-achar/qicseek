@@ -1,0 +1,151 @@
+<html>
+<head>
+    <title>Ucigame - Gallery - TypeAway</title>
+<link href="../stylesheet.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<center><h2>Ucigame - Gallery - TypeAway</h2></center>
+
+<h4>
+<a href="../index.html">Home</a> |
+<a href="../getting-started.html">Getting Started</a> |
+<a href="../reference.html">Reference</a> |
+<a href="../java.html">Introduction to Java</a> |
+<a href="../gallery.html">Gallery</a>
+</h4>
+
+<p>
+<table>
+<tr>
+<td width="300" valign="top">
+<applet
+   code="TypeAway.class"
+   codebase="."
+   archive="../ucigame.jar"
+   width="250"
+   height="250"
+   border="0"
+>
+Your browser cannot show Java applets.
+</applet>
+</td>
+<td width=600 valign="top" halign="center">
+TypeAway illustrates Ucigame's typematic feature, which can apply to all
+keyboard keys or to specified keys.
+<br><br>
+keyboard.lastCharacter() conveniently returns the character representation
+(in a String) of the last printable keyboard key pressed.
+Note here the usage of keyboard.isBackspace() so that Backspaces are
+correctly handled.
+</td>
+</tr>
+<tr>
+<td colspan=2>
+<br>
+<b>TypeAway.java</b>
+<br>
+<pre>
+import ucigame.*;
+
+public class TypeAway extends Ucigame
+{
+    String myFont;
+    String playersName = "";
+    Sprite ball;
+
+    public void setup()
+    {
+        window.size(250, 250);
+        window.title("TypeAway");
+        framerate(30);
+        window.showFPS();
+        keyboard.typematicOn();
+
+        canvas.background(255, 200, 200);
+
+        ball = makeSprite(getImage("images/ball.gif", 255, 255, 255));
+        ball.position(120, 150);
+
+        if (isAvailableFont("Georgia"))
+            myFont = "Georgia";
+        else
+            myFont = arrayOfAvailableFonts()[0];    // just choose first one
+    }
+
+    public void draw()
+    {
+        canvas.clear();
+
+        canvas.font(myFont, PLAIN, 11, 0, 150, 50);
+        canvas.putText("Please enter your name: " + playersName, 10, 50);
+
+        canvas.font(myFont, PLAIN, 11, 200, 0, 0);
+        canvas.putText("F1: Turn typematic on for all keys", 10, 100);
+        canvas.putText("F2: Turn typematic on for up arrow", 10, 115);
+        canvas.putText("F3: Turn typematic on for down arrow", 10, 130);
+        canvas.putText("F4: Turn typematic on for left arrow", 10, 145);
+        canvas.putText("F5: Turn typematic on for right arrow", 10, 160);
+        canvas.putText("F6: Turn typematic off for all keys", 10, 175);
+        canvas.putText("F7: Turn typematic off for up arrow", 10, 190);
+        canvas.putText("F8: Turn typematic off for down arrow", 10, 205);
+        canvas.putText("F9: Turn typematic off for left arrow", 10, 220);
+        canvas.putText("F10: Turn typematic off for right arrow", 10, 235);
+
+        ball.draw();
+    }
+
+    public void onKeyPress()
+    {
+        String last = keyboard.lastCharacter();
+        if (keyboard.isBackspace(last))
+        {
+            if (playersName.length() > 0)
+                playersName = playersName.substring(0, playersName.length()-1);
+        }
+        else
+            playersName = playersName.concat(last);
+
+        if (keyboard.isDown(keyboard.F1))
+            keyboard.typematicOn();
+        else if (keyboard.isDown(keyboard.F2))
+            keyboard.typematicOn(keyboard.UP);
+        else if (keyboard.isDown(keyboard.F3))
+            keyboard.typematicOn(keyboard.DOWN);
+        else if (keyboard.isDown(keyboard.F4))
+            keyboard.typematicOn(keyboard.LEFT);
+        else if (keyboard.isDown(keyboard.F5))
+            keyboard.typematicOn(keyboard.RIGHT);
+        else if (keyboard.isDown(keyboard.F6))
+            keyboard.typematicOff();
+        else if (keyboard.isDown(keyboard.F7))
+            keyboard.typematicOff(keyboard.UP);
+        else if (keyboard.isDown(keyboard.F8))
+            keyboard.typematicOff(keyboard.DOWN);
+        else if (keyboard.isDown(keyboard.F9))
+            keyboard.typematicOff(keyboard.LEFT);
+        else if (keyboard.isDown(keyboard.F10))
+            keyboard.typematicOff(keyboard.RIGHT);
+
+        // Arrow keys move the ball
+        if (keyboard.isDown(keyboard.UP))
+            ball.nextY(ball.y() - 2);
+        if (keyboard.isDown(keyboard.DOWN))
+            ball.nextY(ball.y() + 2);
+        if (keyboard.isDown(keyboard.LEFT))
+            ball.nextX(ball.x() - 2);
+        if (keyboard.isDown(keyboard.RIGHT))
+            ball.nextX(ball.x() + 2);
+    }
+}
+</pre>
+</td>
+</tr>
+</table>
+
+<br>
+<br>
+
+</body>
+</html>
+

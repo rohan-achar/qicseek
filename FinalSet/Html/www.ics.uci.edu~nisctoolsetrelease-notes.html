@@ -1,0 +1,343 @@
+<html>
+	<head>
+		<title>NISC Technology - Release notes</title>
+		<link href="../library/styles.css" type="text/css" rel="stylesheet" />
+		<style>
+b {	color: Maroon; }
+code { color: blue; }
+		</style>
+	</head>
+	<body>
+		<iframe src="/~nisc/library/menu/index.html" scrolling="No" frameborder="0" height="150" width="100%"> </iframe>
+
+		<h1>NiscToolset Release Notes</h1>
+		<!-- ##################################################################################################### -->
+		<hr />
+		<h2>
+			<a name="2008.10.10">NiscToolset-2008.10.10</a></h2>
+		<b>New Features:</b>
+		<ul>
+		<li>A new tool called <i>BatchExecutor</i> is added to the tools that can run severl combinations of .nex fils and then generate summary reports in HTML format.</li>
+            <li>A new tool called <i>NiscDatapathEnhancer</i> is added to the tools that can get 
+                an architecture GNR and add connectivity to it to reduce number of clock cycles.</li>
+            <li>A new tool called <i>NiscDatapathTrimmer</i> is added to the tools that can get 
+                an architecture GNR as well as the schedule info of a program and then trim the 
+                architecture to remove underutilized components and connections.</li>
+            <li>A new tool called <i>NiscDatapathGenerator</i> is added to the tools that can 
+                get an architecture GNR template and generate a custom architecture a given 
+                application.</li>
+            <li>The frontend is now fully customizable and you can add your own frontend compiler / language to the NiscToolset. Take a look at the source code of the MsvcFrontend to learn how to add your own frontend. By generating the NiscCompiler input CDFG, you can for example accurately control the bit width of variables, etc..</li>
+            <li>It is now a lot easier to switch between frontends. There is &lt;NiscToolset&gt;/NiscEnvironment/bin/Frontend.config.xml that point to the information of the frontend. By changing that file, all application will be automatically compiled with the new frontend.</li>
+            <li>The compiler now supports bit-accurate types. So, you can use the NiscToolset to 
+                synthesize other languages such as SystemC, behavioral VHDL or Verilog, etc. All 
+                you need to do is to generate the CDFG of the application in XML format for the 
+                NiscCompiler. The format is very straight forward and you can use the Msil2Nisc 
+                as guideline example. </li>
+		</ul>
+		<b>Improvements and Bug fixes:</b>
+		<ul>
+		<li>The generation of type conversion is much more accurate now. This version <i>might</i> generate a more conservative code to guarantee correct execution.</li>
+        <li>The handling of complext hierachical .nsx arguments files is improved. Also, a 
+            new library is added to the bin directory (NiscPubLib.dll) that third party 
+            tools can use to easily integrate their tools with the rest of the NiscTools or 
+            even use the Nisc.exe and its argument handling for their own projects.</li>
+        <li>The tools now automatically check for updates and inform the user for new 
+            updates.</li>
+		</ul>
+		<b>Known issues:</b>
+		<ul>
+		</ul>
+		<!--
+#####################################################################################################-->
+		<hr />
+		<h2>
+			<a name="2008.05">NiscToolset-2008.05</a>
+		</h2>
+		<b>New Features:</b>
+		<ul>
+		<li>The .nsx argument files now support a powerful parameter mechanism that can simplify arguments. Each argument group can define its own parameters and then use them in the <i>Arg</i> tags. The parameters and includes are resolved the same way arguments are resolved.</li>
+		<li>The toolset can now use all three versions Visual Studio (i.e. 2003, 2005, and 2008) and all editions including the free Express Editions.Also, the mechanism for using different frontends has been simplified using the parameters. Refer to <a href="../documents/FAQ.html#q.i9">FAQ</a> to see how to configure the tools.</li>
+		<li>The RTL generator can now generated both clocked and unclocked logic based controllers.</li>
+		<li>The datapath generator implements some new optimization for generating better results.</li>
+		<li>A new capability in the tools allows the compiler to schedule the flow of values in the pipeline more efficiently by inserting delays (bubbles) on different independent paths. This results in a better resource utilization as well. For example, now the compiler can even use a single read port register file for reading parameters.</li>
+		</ul>
+		<b>Improvements and Bug fixes:</b>
+		<ul>
+		<li>Several major algorithms in compiler, RTL generator, and datapath generator (available in the online demo) have been improved to run significantly faster and hence supporting much more complex applications and architectures than before. </li>
+		<li>Some bug fixes in the scheduler and RTL generator.</li>
+		</ul>
+		<b>Known issues:</b>
+		<ul>
+		</ul>
+		<!--
+#####################################################################################################-->
+		<hr />
+		<h2>
+			<a name="2007.07">NiscToolset-2007.07</a>
+		</h2>
+		<b>New Features:</b>
+		<ul>
+		<li>The toolset can now use the new Visual Studio 2005. Users can also install the free Visual C++ 2005 Express Edition and use it as the front-end of the NiscToolset. With this new addition, the NiscToolset now only depends on other public free tools. Refer to <a href="../documents/FAQ.html#q.i9">FAQ</a> to see how to use this new front-end. </li>
+		<li>All types of struct copy features of is now supported in the compiler. You can now assign struct variables, pass them as function parameters or return them as return value. of course, for the sake of performance, we do not recommend that!</li>
+		<li>Some new and improved control word compressions techniques are added to the RTLGenerator</li>
+		<li>A GnrDocumentGenerator tool is added to the toolset that can analyze GNR files and generate some helpful HTML documents for them.</li>
+		<li>New arguments are added to generate new reports. These include: <i>genCallGraph, genCompUsage, genCompUtils, genDottyArch, genOpSchedDiagram, genOpUtils</i></li>
+		<li>A new Low-Power NiscDatapathGenerator tool is now available in the <a href="../demo/">online tools</a>. You can use this tool to generate the GNR of a custom datapath for your C code and then use the generated GNR in your design. You can download the GNR from the "Results" section of the online tool, and modify it if needed.</li>
+		</ul>
+		<b>Improvements and Bug fixes:</b>
+		<ul>
+		<li>The algorithms in the compiler and GNR processor are sped up significantly.</li>
+		<li>Fixed a bug in register binding algorithm that could generate wrong results in some corner cases.</li>
+		<li>Some bug fixes in the scheduler.</li>
+		<li>Fixed the parameters for Xilinx Coregen to generate correct RAM, ROM blocks.</li>
+		<li>To prevent users from accidentally changing the registers in the pipeline, the pre-binding no longer create variables for pipeline registers. Instead, whenever low level access to a register in the datapath is needed, that register must be of new type DataRegister (added to MainLib.gnr lib). This type of register has some read/write functions for accessing it directly.</li>
+		</ul>
+		<b>Known issues:</b>
+		<ul>
+		</ul>
+		<!--
+#####################################################################################################-->
+		<hr />
+		<h2>
+			<a name="2007.04">NiscToolset-2007.04</a>
+		</h2>
+		<b>New Features:</b>
+		<ul>
+			<li>
+The toolset now supports pipelined pre-bound functions. This enables lots of new capabilities. For example
+datapath can now have several clocked memories and programmer can easily read/write them from C code.
+</li>
+			<li>
+We now support datapaths without data-memory as well. If you have neither initialized global variables
+nor any function call, then data memory can be removed from datapath. In this case, you should remember
+to include <code>&lt;Arg n="addPrologEpilog" val="-"/&gt;&lt;Arg n="includeFunc" val=":NiscMain,"/&gt;</code>
+in your .nsx argument file. Also, put a <code>halt();</code> at the end of your <code>NiscMain()</code>.</li>
+			<li>
+Two new sets of design examples are included in the release:
+<ul>
+					<li>
+A Network-on-chip (NoC) example including 18 NISCs in a 3x3 matrix (each node containing 2 NISCs).
+The example is very general and the dimension of the matrix as well as function of each processing element (PE)
+can be easily changed.</li>
+					<li>
+Three board specific examples for "Xilinx Video Starter Kit Board" are included in the release. These
+design examples show how to use one or more NISCs to control LEDs, switches, the LCD of the board.
+See videos and documentations <a href="http://www.ics.uci.edu/~nisc/designs/">here</a>. One of the
+examples shows how to use multiple NISCs and report exact number of cycles for an application on the Character LCD of the board.</li>
+			  </ul>
+			</li>
+		</ul>
+		<b>Improvements and Bug fixes:</b>
+		<ul>
+			<li>
+The scheduler in the compiler is improved. It now generates more compact code and also can support
+more corner cases in the datapath.</li>
+			<li>
+All types of <code>switch</code> statements are now completely supported and handled by the compiler.</li>
+			<li>
+The issues for Control Word compressions using dual-port memories are solved now. Accordingly,
+during core-generation for Xilinx ISE, a proper type of memory is selected for memory based implementations.</li>
+			<li>
+C-frontend improved. You can now install the NISC toolset on a network drive. Designs can also reside
+on a network drive.</li>
+			<li>
+The generated Testbench.v now always contains the correct top module name of the design.</li>
+			<li>
+Synthesis issues of the divider component are fixed.</li>
+		</ul>
+		<b>Known issues:</b>
+		<ul>
+		</ul>
+		<!--
+#####################################################################################################-->
+		<hr />
+		<h2>
+			<a name="2007.02">NiscToolset-2007.03</a>
+		</h2>
+		<b>New Features:</b>
+		<ul>
+			<li>
+The complete synthesizable RTL generator is included in this release.</li>
+			<li>
+The XML Schema for GNR 2.0 released. Major new features include:<ul>
+					<li>
+	The <i>&lt;ComponentSynthesizer&gt;</i> tag now allows a component to be defined
+	in GNR, and then dynamically replaced with a proper implementation.</li>
+					<li>
+	The <i>&lt;XParam&gt;</i> tag added to the <i>&lt;Params&gt;</i> section of the
+	components now supports structured xml parameters.</li>
+					<li>
+	The <i>&lt;System&gt;</i> is removed from GNR. Instead, any <i>&lt;Module&gt;</i>
+	can be used as top-level module. One of the benefits is that it is now easier to
+	design a subsystem using NISC Toolset and then incorporate the generated Verilog files
+	into a bigger system. </li>
+					<li>
+	New functions such as <i>$cwWidth()</i> and <i>$compilerOutputFile()</i> can be used
+	to access the corresponding values for the enclosing <i>&lt;NiscArchitecture&gt;</i>.</li>
+				</ul>
+			</li>
+			<li>
+Before processing the GNR, it is now completely validated against the GNR Schema.</li>
+			<li>
+Several dictionary-based Control-Word compression techniques are added to the HDL generator.</li>
+			<li>
+Some power optimization techniques are now employed during controller generation.</li>
+			<li>
+A new tool is added to the toolset that automatically generates document files for GNR libraries and architectures.</li>
+			<li>
+Compiler now produces new HTML outputs such as CFG, CDFG, Operation slacks, ...</li>
+			<li>
+The NSIC compiler now generates bit patterns for control words and maintains the <i>don't care (X)</i> values.</li>
+			<li>
+Multiple versions of the NISC toolset can now run side by side. </li>
+			<li>
+The tools can now accept any module as top-module. The .nsx files now contain the name and
+parameter values of the top-module. Also the paths of the libraries are defined in the .nsx
+file rather than in the .gnr file.</li>
+			<li>
+The parameters in the GNR and NSX files can now have both simple values as well as structured
+XML values.</li>
+			<li>
+New complete design examples are added to this release, including: <ul>
+					<li>A custom discrete-cosine-transform (DCT) design.</li>
+					<li>Three implementations of a fixed point MP3 decoder.</li>
+					<li>Benchmarks from the <a href="http://www.eecs.umich.edu/mibench/" target="_blank">MiBench</a> suite.</li>
+					<li>A complete example showing the use of interrupts for controlling and accessing the LEDs and switches of a <em>Xilinx Video Starter Kit</em> board.</li>
+				</ul>
+			</li>
+		</ul>
+		<b>Improvements and Bug fixes:</b>
+		<ul>
+			<li>
+The process that resolved parameters no longer stops after the first error. Instead, it processes
+the whole GNR and stops after reporting all of the errors.</li>
+			<li>
+In addition to some bug fixes, the scheduler and register allocator in the compiler
+are significantly improved to generate better results.</li>
+			<li>
+Fixed register allocator to support unreachable code as well.</li>
+			<li>
+The <i>GNR</i> XML Schema is now cleaned up and some un-necessary redundant information are removed.
+For example, it is no longer necessary to explicitly identify the default register-files for each type
+since the compiler automatically detects them.</li>
+			<li>
+The problem with uninitialized memory blocks in the .coe files for Xilinx target is now resolved.</li>
+			<li>
+Removed all unnecessary ports and connections from processors, memories and controller to avoid
+the warning messages during Verilog simulation.</li>
+			<li>
+The <i>coregen.bat</i> file is updated to detect the unsuccessful core generations.
+It stops when it fails. Also, it keeps the log for all cores if it is called with switch <code>/L</code>.</li>
+			<li>
+A <i>simulate.bat</i> file is generated with the Verilog files that calls a ModelSim simulator from
+command line. If it is called with <code>/L</code> switch, it directs the output of all tools to <i>sim-log.txt</i>.</li>
+			<li>
+The bug in handling relative file and directory paths in the .nsx files is now fixed.</li>
+			<li>
+Compiler HTML outputs are now much improved. They contain the whole operation set of
+the application. Also, the operands of operations have hyperlink jumping to their definition.</li>
+			<li>
+The toolset now accepts MS Visual Studio Solution (.sln) files in addition to the MS Visual C++ Project (.vcproj)
+files. Now you can break your application into several projects and manage them easier. For example,
+in <i>NiscDesigns</i> directory, a <i>BaseLib</i> project is now shared among several applications without
+requiring the inclusion of source codes in <i>BaseLib</i> to other projects.</li>
+			<li>
+Hierarchical modules are now fully supported by the compiler. </li>
+			<li>
+In GNR, functional units can now also support move operations.</li>
+			<li>
+License expiration removed.</li>
+		</ul>
+		<b>Known issues:</b>
+		<ul>
+			<li>
+The compiler cannot load MSIL files that are located on mapped network drives.</li>
+			<li>
+Synthesizable Verilog files generated for the Xilinx FPGA cannot be implemented on
+Spartan2. However, other device families such as Virtex II, Virtex 2 Pro, Virtex 4, ... are supported. </li>
+			<li>
+Currently, the Verilog behavioral model of the divider core does not exist in the Xilinx library
+for ModelSim. However, it can still be synthesized and simulated at gate level. Note that this
+problem only exists in the synthesizable Verilog files, and not the simulatable Verilog files.</li>
+			<li>
+Always try to fix the cause of the warnings to make sure the architecture is correct. But,
+if you use sliced connections that connect several output ports to different wires of an input port,
+then the tool may (incorrectly) generates warnings for multiple port connections. In these cases,
+such warnings can be ignored. </li>
+			<li>
+The generated Testbench.v always assumes that the name of the top-module is <i>NiscSystem</i>. If
+your top-module has a different name, you need to manually edit the Testbench.v</li>
+			<li>
+When control memory type is LUT and register file size is more than 64, the Xilinx ISE 8.2 and older
+versions successfully synthesize the design but fail during mapping. The error message is:<br />
+"ERROR:MapLib: 822 - RAMB16 symbol ... has READ_WIDTH_A set
+to 0. This will result in the disconnection of the following output pin:
+...
+This pin drives other logic in the design and will leave it sourceless.
+Please change the value of READ_WIDTH_A/B or modify the design source and
+resynthesize."<br />
+This problem can be solved by reducing the size of register file (if possible) or by choosing RAM or ROM
+as the implementation method of control memory.</li>
+			<li>
+The <i>clock</i> port is missing in the GNR description of divider in the FUsLib library.</li>
+			<li>
+In the NiscCompiler, the common subexpression eliminator processes pre-bound functions the same as others.
+This may not be always correct if the pre-bound function changes the internal state of a component.</li>
+			<li>
+When CW compression is on, the generated Verilog files may not simulate correctly when design optimizations
+are enabled in ModelSim simulator. This is a bug in ModelSim simulator, not NISCTools problem! The solution
+is to set <code>VoptFlow = 0</code> in the <i>modelsim.ini</i> file in installation directory of ModelSim.</li>
+		</ul>
+		<!--
+#####################################################################################################-->
+		<hr />
+		<h2>
+			<a name="2006.08">NiscToolset-2006.08</a>
+		</h2>
+		<b>New Features:</b>
+		<ul>
+			<li>
+A cascadable argument file scheme is added to the tools. The <i>Nisc System Xml argument (*.nsx)</i>
+files can now include other .nsx files and then selectively overwrite arguments. This feature is
+especially helpful for sharing one set of argument/configurations among several designs.</li>
+			<li>
+The NISC system generator can now create default .nsx file for a given .gnr file.</li>
+			<li>
+The compiler now tries to break big constant values into smaller pieces that fit the given
+constant/immediate filed size. This works only for the constant that are known prior to compilation
+and not handle the big constant (e.g. large code offsets) that are generated during compilation.</li>
+			<li>
+				<i>&lt;MuxCon&gt;</i> and <i>&lt;BusCon&gt;</i> elements are added to the GNR to make use of multiplexer and busses simpler.</li>
+		</ul>
+		<b>Improvements and Bug fixes:</b>
+		<ul>
+			<li>
+Several bug fixes in the register allocator.</li>
+		</ul>
+		<b>Known issues:</b>
+		<ul>
+			<li>
+The register allocator in compiler does not work correctly in presence of unreachable code.
+For example, a <code>while (1) {...}</code> is not correctly handled.</li>
+			<li>
+If the code contains a <code>switch</code> statement with consecutive <code>case</code> values,
+then it might be converted to a jump table by the MSVC++ front-end. These cases are not handled
+properly by the compiler.
+</li>
+			<li>
+License and expiration! Bad Idea!</li>
+		</ul>
+		<iframe src="http://cecs02.cecs.uci.edu/utils/Track.aspx" scrolling="no" frameborder="0" height="0" width="0"> </iframe>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-2089831-1";
+urchinTracker();
+</script>
+
+<iframe src="/~nisc/library/counters/index.html" scrolling="no" frameborder="0" height="50" width="100%"> </iframe>
+
+
+	</body>
+</html>
+

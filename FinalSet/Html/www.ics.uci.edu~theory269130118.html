@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head>
+<title>Theory Seminar, January 18, 2012</title>
+</head>
+<body>
+<a href="/~theory/"><img src="http://www.ics.uci.edu/~theory/logo/CATOC2.jpg"></a>
+<h2><a href="/~theory/269/">CS 269S, Winter 2012: Theory Seminar</a><br>
+Bren Hall, Room 1423, 1pm
+
+<hr>
+January 18, 2013:</h2>
+<h1>
+A New Property and a Faster Algorithm for Baseball Elimination
+</h1>
+<h2>
+Edwin Solares
+</h2>
+<p>In the baseball elimination problem, there is a league consisting of n
+teams. At some point during the season, team&nbsp;<i>i</i>
+has <i>w<sub>i</sub></i>&nbsp;wins and <i>g<sub>ij</sub></i>&nbsp;games
+left to play against team&nbsp;<i>j</i>. A team is eliminated if it
+cannot possibly finish the season in first place or tied for first
+place. The goal is to determine exactly which teams are eliminated. The
+problem is not as easy as many sports writers would have you believe, in
+part because the answer depends not only on the number of games won and
+left to play but also on the schedule of remaining games. In the 1960's,
+Schwartz showed how to determine whether one particular team is
+eliminated using a maximum flow computation.  This paper indicates that
+the problem is not as difficult as many mathematicians would have you
+believe. For each team&nbsp;<i>i</i>, let <i>g<sub>i</sub></i> denote
+the number of games remaining. We prove that there exists a
+value <i>W</i> such that team&nbsp;<i>i</i> is eliminated if and only if
+<i>w<sub>i</sub></i>&nbsp;+&nbsp;<i>g<sub>i</sub></i>&nbsp;&lt;&nbsp;<i>W</i>.
+Using this surprising fact, we can determine all eliminated teams in
+time proportional to a single maximum flow computation in a graph
+with <i>n</i>&nbsp;nodes; this improves upon the previous best known
+complexity bound by a factor of&nbsp;<i>n</i>.</p>
+
+
+<p>(Based
+on <a href="http://www.cs.princeton.edu/~wayne/papers/baseball.pdf">a
+paper</a> by Kevin D. Wayne in SODA 1999 and <i>SIAM
+J. Discrete Math.</i> 2001)</p>
+
+</body>
+</html>
+
+

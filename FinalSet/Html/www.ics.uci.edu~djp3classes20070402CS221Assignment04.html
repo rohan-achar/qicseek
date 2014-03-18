@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Spring 2007: CS 221 Information Retrieval</title>
+<link href="styleSheet.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+
+-->
+</style>
+</head>
+<body>
+<p class="style2 style6 style7">Computer Science  221: Assignment #04 </p>
+<p class="style6">Spring 2007</p>
+<p class="style6"><a href="http://www.ics.uci.edu/informatics">Department of Informatics</a></p>
+<p class="style6"><a href="http://www.ics.uci.edu">Donald Bren School of Information and Computer Sciences </a></p>
+<p class="style6"><a href="http://www.uci.edu">University of California, Irvine </a></p>
+<div class="container"> <a href="index.html">Home</a> | <a href="admin.html">Administrative Policies </a> | <a href="structure.html">Course Structure</a> |<a href="materials.html"> Materials</a> | <a href="assignmentSchedule.html#CurrentWeek">Assignment Schedule </a>| <a href="faq.html">FAQ</a> </div>
+<div class="container">
+  <p>The
+    goal of this project is to use Dynamic Bayesian Networks to try and retrieve information from sensor streams. </p>
+  <p>&nbsp;</p>
+  <ul><li>This is an individual project. Your work should be done on your own. </p>
+  <li>Part One
+    <ul>
+      <li>Scan the documentation for <a href="http://ssli.ee.washington.edu/~bilmes/gmtk">GMTK</a> 
+        <ul>
+          <li>GMTK runs on Linux</li>
+          </ul>
+      </li>
+      <li>Get GMTK up and running</li>
+      <li>Here is a sample HMM with files for GMTK
+        <ul>
+          <li><a href="Assignment04/sampleGMTK.zip">sample</a> </li>
+        </ul>
+      </li>
+      </ul>
+  </li>
+  <li>Part Two
+    <ul>
+      <li>Create a model  for the following environment and specification.
+        <ul>
+          <li><img src="Assignment04/Room.jpg" alt="Room" width="252" height="212" />
+            <ul>
+              <li>Outside is 0</li>
+              <li>Room A is 1</li>
+              <li>Room B is 2</li>
+              <li>Room C is 3</li>
+              <li>Room D is 4</li>
+              <li>Room E is 5      </li>
+            </ul>
+          </li>
+          <li>There are &quot;three&quot; people that could work in this office 
+            <ul>
+              <li>&quot;Alice&quot;, &quot;Bob&quot;, &quot;Unknown&quot;</li>
+              <li>Alice works in office A</li>
+              <li>Bob works in office D</li>
+              <li>Unknown wanders about randomly and uniformly </li>
+              <li>Only one person is in the building at a time. </li>
+            </ul>
+          </li>
+          <li>There are 5 time periods during the day
+            <ul>
+              <li>In the morning Alice and Bob both go to their office and sometimes go to the printer room &quot;E&quot;</li>
+              <li>In the late morning Alice and Bob print out more stuff than in the early morning</li>
+              <li>At noon both Alice and Bob leave the building for lunch then return</li>
+              <li>In the early afternoon both Alice and Bob attend a meeting in office B</li>
+              <li>At the end of the day Alice and   Bob both go home.</li>
+              </ul>
+          </li>
+          <li>The building has a motion sensor which reports the room that the building occupant is in.
+            <ul>
+              <li>The motion sensor is mostly accurate but sometimes goes off when a person is in an adjacent room</li>
+              </ul>
+          </li>
+          <li>The occupants can't go through walls. </li>
+          </ul>
+      </li>
+      <li>Use the following structure
+        <ul>
+          <li><img src="Assignment04/roomModel.jpg" alt="model" width="271" height="267" /> </li>
+          </ul>
+      </li>
+      <li>Turn in a copy of your conditional probability tables. </li>
+      <li>Use GMTK to figure out the identity of the person in the following data sets
+        (time,sensor)
+        <ul>
+          <li><a href="Assignment04/dataset3.txt">data set A </a></li>
+          <li><a href="Assignment04/dataset1.txt">data set B </a></li>
+          <li><a href="Assignment04/dataset2.txt">data set C</a> </li>
+          </ul>
+      </li>
+      </ul>
+  </li>
+  <li>Part Three
+    <ul>
+      <li>Hold all parameters fixed in your model except the P(Who) parameters.
+        <ul>
+          <li>Train your model using the datasets A,B,C.
+            <ul>
+              <li>Doing this should cause your model parameters to drift toward believing that only one person is ever in the building. Who is that ?</li>
+              </ul>
+          </li>
+          <li>Hand craft some data sets that are representative of the other person.</li>
+          <li>Retrain your model on data sets A,B,C and your hand-crafted data sets.
+            <ul>
+              <li>Continue to hand craft data and redo the training process until you get the model to converge on a 50/50 chance of Alice or Bob being in the building.</li>
+              <li>Turn in a qualititative description of what your  training data sets were and how much of it you had to make.</li>
+              </ul>
+          </li>
+          <li>This command line might help save you some time:
+            <ul>
+              <li>gmtkEMTrain -strFile part3.txt -of1 observationMaster.txt -ni1 2 -fmt1 ascii -inputMasterFile inputMasterFile.txt -outputMasterFile outputMasterFile.txt -objsNotToTrain objsNotToTrain.txt -maxEmIters 5  </li>
+              </ul>
+          </li>
+          </ul>
+      </li>
+      </ul>
+  </li>
+  </ul>
+</div>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

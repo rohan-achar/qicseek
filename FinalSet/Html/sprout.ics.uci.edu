@@ -1,0 +1,170 @@
+ <!DOCTYPE html
+   PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		<link href="/themes/default.css" rel="stylesheet" type="text/css"/>
+		<link href="/themes/alert.css" rel="stylesheet" type="text/css"/>
+		<link href="/themes/alphacube.css" rel="stylesheet" type="text/css"/>        
+ 		<link href="/css/calendar.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="/css/styles.css" type="text/css" media="all" />
+
+        <script type="text/javascript" src="/js/prototype.js"></script>
+        <script type="text/javascript" src="/js/scriptaculous/scriptaculous.js"></script>
+        <script type="text/javascript" src="/js/effects.js"></script>
+        <script type="text/javascript" src="/js/window.js"> </script> 
+        <script type="text/javascript" src="/js/window_effects.js"></script>
+        <script type="text/javascript" src="/js/NewsUpDown.class.js"></script>
+        <script type="text/javascript" src="/js/calendar_us.js"></script>
+    </head>
+    <body>
+	  <div id="wrapper">
+        <div id="banner">
+          <img id="badge" src="/images/uci_seal_2col.png" alt="UCI" />
+		  <ul id="sitetools">
+          			<li>
+			  <a href="/account/login">Login</a>
+			</li>          
+            
+			<li>
+			  <a href="/admin">Admin</a>
+			</li>
+		  </ul>
+        </div>
+		<div id="mainNav">
+          <div>
+		  <ul>
+			<li>
+			  <a href="/index">Home</a>
+			</li>
+			<li>
+			  <a href="/index/project">Projects</a>
+			</li>
+			<li>
+			  <a href="/index/publications">Publications</a>
+			</li>
+			<li>
+			  <a href="/index/people">People</a>
+			</li>
+			<li>
+			  <a href="/index/gallery">Gallery</a>
+			</li>
+            <li style="float:right">
+			<div style="float:right">
+			<form method="get" action="http://www.google.com/search">
+			<table border="0" cellpadding="0">
+			<tr>
+              <td>
+                <div style="width:100%;">
+                <div style=" float:left">
+			    <input type="text"  name="sitesearch" value="sprout.ics.uci.edu" style="visibility:hidden" /> 
+                </div>
+                <div style="float:right">
+			    <input type="text"   name="q" size="10" maxlength="255" value="" />
+			    <input id="ssbutton" type="submit" value="Search" style="font-size:60%; width:45px; height:26px"/>
+                </div>
+                </div>
+			  </td>
+            </tr>
+            </table>
+			</form>
+			</div>
+
+            </li>
+		  </ul>
+          </div>
+		</div>
+<div id="contentWrapper">
+<div id="news">
+   <h2>News</h2>
+   <div class="story">
+       <input type="button" id="up" class="button"></button>
+       <input type="button" id="down" class="button"></button>
+       <script type="text/javascript" src="/js/NewsUpDown.class.js"></script>
+       <script type="text/javascript">
+            new NewsUpDown("up", "down");
+       </script>
+
+   </div>
+	<div id="news_content">
+        <div class="story">
+        <div class="title">Paper Accepted</div>
+        <div class="date">2013-11-21</div>
+        <div class="content">A paper titled: "Authentication Using Pulse-Response Biometrics"
+by  Kasper Rasmussen, Marc Roeschlin, Ivan Martinovic and Gene Tsudik
+was accepted by 2014 Network and Distributed System Security (NDSS) Symposium.</div>
+     </div>
+        <div class="story">
+        <div class="title">Paper Accepted</div>
+        <div class="date">2013-11-20</div>
+        <div class="content">A paper titled: "Two-Factor Authentication Resilient to Server Compromise Using Mix-Bandwidth Devices"
+by Maliheh Shirvanian, Stanislaw Jarecki, Nitesh Saxena and Naveen Nathan
+was accepted by 2014 Network and Distributed System Security (NDSS) Symposium.</div>
+     </div>
+        <div class="story">
+        <div class="title">Paper Accepted</div>
+        <div class="date">2013-11-19</div>
+        <div class="content">A paper titled: "Optimizing Bi-Directional Low-Latency Communication in Named Data Networking"
+by Mishari Almishari, Paolo Gasti, Naveen Nathan and Gene Tsudik
+was accepted for publication by ACM Computer Communication Review.
+</div>
+     </div>
+      </div>
+</div>
+<div id="main">
+  <div class="main_item">
+  <h1>SPROUT: Huh?</h1>
+  <div class="vision">
+<p>Security and Privacy Research OUTfit (SPROUT) is a group of people
+(faculty, students, visitors) who enjoy the exciting, rewarding, treacherous
+and slightly paranoid world of research in applied cryptography, computer/network
+security and privacy. Research directions/projects are broadly scoped, ranging from
+cryptographic protocols to usable security and privacy.</p>
+<br>
+<p>SPROUT funding comes from a variety of sources, including:
+National Science Foundation (NSF), Army Research Office (ARO),
+Intelligence Advanced Research Projects Activity (IARPA),
+Department of Education (DoED) and industry (e.g., Google, Experian, Cisco, and Bosch).</p>
+<br>
+<p>SPROUT alumni can be found, both in the US and abroad, at: academic
+departments, research laboratories and other industrial settings.</div>
+</p>
+
+  </div>
+<div>
+          <img id="sprout" src="/images/sprout.jpg" alt="SPROUT" />
+</div>
+</div>
+
+<div id="events">
+
+<ul>
+<h2>Upcoming Events</h2>
+   </ul>
+</div><div id="padding"></div>
+</div>
+        <div id="legal">
+        <div class="text" style="float:left">
+        Copyright 2010, sprout.ics.uci.edu
+        </div>
+        <div class="webmaster">
+        <a href="mailto:fabers@uci.edu" class="webmaster">webmaster</a>
+        </div>
+        </div>
+        </div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2960903-2");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+    </body>
+</html>

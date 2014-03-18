@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head>
+<title>David Eppstein - Publications</title>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<h1>David Eppstein - Publications</h1>
+<hr><p>
+<h2>
+Parallel algorithms
+</h2>
+<ul>
+<li><b>Reset sequences for monotonic automata</b>.<br>
+D. Eppstein.<br>
+<i>15th Int. Coll. Automata, Languages and Programming,</i>
+Tampere, Finland, 1988.<br>
+<i>Lecture Notes in Comp. Sci.</i> 317, 1988, pp. 230-238.<br>
+<a href="Epp-SJC-90.pdf"><i>SIAM J. Computing</i> 19(3):500-510, 1990</a>.
+<p>
+Automata theory.
+A reset sequence for a DFA is an input such that, no matter which
+state the DFA starts in, it ends up after the input in a known state.
+These have been used by Natarajan and Goldberg for certain robot motion
+planning problems (in fact the conference version of this paper used
+the title "Reset sequences for finite automata
+with application to design of parts orienters"), and also in coding
+theory where they arise in the design of
+self-synchronizing codes.  This paper considers DFAs in which the
+transition functions respect a given cyclic ordering of the states, and
+shows that their shortest reset sequences can be found quickly.
+It also considers parallel algorithms for the problem.
+There remains open a gap between <i>n<sup>2</sup></i> and <i>n<sup>3</sup></i>
+in the maximum length of reset sequences for general automata.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Reset sequences for monotonic automata">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Reset-sequences-for-monotonic-automata.html">Citations</a> --
+<a href="http://citeseer.ist.psu.edu/eppstein90reset.html">CiteSeer</a> --
+<a href="http://portal.acm.org/citation.cfm?id=681434">ACM DL (ICALP)</a> --
+<a href="http://portal.acm.org/citation.cfm?id=80025">ACM DL (SJC)</a>)
+<p>
+<li><b>On reset sequence length</b>.<br>
+D. Eppstein.<br>
+Tech. Rep. CUCS-440-89, Computer Science Dept., Columbia University, 1989.
+<p>(<a href="/~eppstein/bibs/eppstein.html#On reset sequence length">BibTeX</a>)
+<p>
+<li><b>Parallel algorithmic techniques for combinatorial computation</b>.<br>
+D. Eppstein and
+<a href="http://www.cs.columbia.edu/~galil/">Z. Galil</a>.<br>
+<i>Ann. Rev. Comput. Sci.</i> 3:233-283, 1988.<br>
+Invited talk by Z. Galil,
+<a href="EppGal-ICALP-89.pdf"><i>16th Int. Coll. Automata, Languages and Programming,</i> Stresa, Italy, 1989.</a><br>
+<a href="http://www.springer.de/comp/lncs/"><i>Lecture Notes in
+Comp. Sci.</i></a> 372, 1989, pp. 304-318, &copy; Springer-Verlag.
+<p>
+This survey on parallel algorithms emphasized the use of basic
+subroutines such as prefix sums, Euler tours, ear decomposition, and matrix
+multiplication for solving more complicated graph problems.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Parallel algorithmic techniques for combinatorial computation">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Parallel-algorithmic-techniques-for-combinatorial-computation.html">Citations</a> --
+<a href="http://citeseer.ist.psu.edu/eppstein88parallel.html">CiteSeer</a> --
+<a href="http://portal.acm.org/citation.cfm?id=53603">ACM DL (ARCS)</a> --
+<a href="http://portal.acm.org/citation.cfm?id=681611">ACM DL (ICALP)</a>)
+<p>
+<li><b>Planar orientations with low out-degree and compaction of adjacency matrices</b>.<br>
+<a href="http://www.cs.ucr.edu/~marek/">
+M. Chrobak</a> and D. Eppstein.<br>
+<a href="ChrEpp-TCS-91.pdf"><i>Theor. Comp. Sci.</i> 86(2):243-266, 1991</a>.
+<p>
+Describes efficient sequential and parallel algorithms for orienting the edges of
+an undirected planar graph so that each vertex has few outgoing edges.
+From such an orientation one can test in constant time whether a given edge exists.
+More recently this paper has been cited for its applications to
+scheduling update operations in parallel finite element methods.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Planar orientations with low out-degree and compaction of adjacency matrices">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Planar-orientations-with-low-out-degree-and-compaction-of-adjacency-matrices.html">Citations</a> --
+<a href="http://citeseer.ist.psu.edu/chrobak91planar.html">CiteSeer</a> --
+<a href="http://portal.acm.org/citation.cfm?id=117122">ACM DL</a>)
+<p>
+<li><b>Fast optimal parallel algorithms for maximal matching in sparse graphs</b>.<br>
+H. Asuri, <a href="/~dillenco/">M. Dillencourt</a>, D. Eppstein, 
+<a href="http://www.ics.uci.edu/~lueker/">
+G. Lueker</a>, and M. Molodowitch.<br>
+Tech. Rep. 92-01, ICS, UCI, 1992.
+<p>
+We later discovered that the same results were published
+in a SPAA paper by Greg Shannon.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Fast optimal parallel algorithms for maximal matching in sparse graphs">BibTeX</a>)
+<p>
+<li><b>Parallel recognition of series parallel graphs</b>.<br>
+D. Eppstein.<br>
+<a href="Epp-IC-92.pdf"><i>Information &amp; Computation</i> 98:41-55, 1992</a>.
+<p>
+Characterizes two-terminal series graphs in terms of a
+tree-like structure in their ear decompositions.
+Uses this characterization to construct
+parallel algorithms that recognize these graphs and
+construct their series-parallel decompositions.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Parallel recognition of series parallel graphs">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Parallel-recognition-of-series-parallel-graphs.html">Citations</a> --
+<a href="http://theory.lcs.mit.edu/~iandc/References/eppstein1992:41.html">MIT hypertext bibliography</a> --
+<a href="http://citeseer.ist.psu.edu/eppstein92parallel.html">CiteSeer</a> --
+<a href="http://portal.acm.org/citation.cfm?id=162582">ACM DL</a>)
+<p>
+<li><b>Efficient sequential and parallel algorithms for
+computing recovery points in trees and paths</b>.<br>
+<a href="http://www.cs.ucr.edu/~marek/">
+M. Chrobak</a>, D. Eppstein, 
+<a href="http://www.info.uniroma2.it/~italiano/">
+G.F. Italiano</a>, and M. Yung.<br>
+<a href="http://portal.acm.org/citation.cfm?id=127821">
+<i>2nd ACM-SIAM Symp. Discrete Algorithms,</i> San Francisco, 1991, pp. 158-167</a>.<br>
+ALCOM Report 91-74, University of Rome, 1991.
+<p>
+Described slightly superlinear algorithms for partitioning a tree into a
+given number of subtrees, making them all as short as possible.
+Frederickson at the same conference
+further improved the sequential time to linear.  There may still be
+something worth publishing in the parallel algorithms.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Efficient sequential and parallel algorithms for computing recovery points in trees and paths">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Efficient-sequential-and-parallel-algorithms-for-computing-recovery-points-in-trees-and-paths.html">Citations</a>)
+<p>
+<li><b>Parallel construction of quadtrees and quality triangulations</b>.<br>
+<a href="http://www.parc.xerox.com/csl/members/bern/">M. Bern</a>,
+D. Eppstein, and 
+<a href="http://www-sal.cs.uiuc.edu/~steng/">S.-H. Teng</a>.<br>
+<a href="BerEppTen-WADS-93.pdf"><i>3rd Worksh. Algorithms and Data
+Structures,</i> Montreal, 1993.</a><br>
+<a href="http://www.springer.de/cgi-bin/bag_generate.pl?ISBN=3-540-57155-8"><i>Lecture Notes in
+Comp. Sci.</i> 709</a>, 1993, pp. 188-199, &copy; Springer-Verlag.<br>
+Tech. Rep. 614, MIT Lab. for Comp. Sci., 1994.<br>
+<a href="BerEppTen-IJCGA-99.pdf"><i>Int. J. Comp. Geom. &amp; Appl.</i>
+9(6):517-532, 1999.</a>
+<p>
+A parallelization of the quadtree constructions in
+"<a href="p-pgood.html">Provably good mesh generation</a>",
+in an integer model of computation, based on a technique of
+sorting the input points using values formed by shuffling the binary
+representations of the coordinates.
+A side-effect is an efficient construction for the "fair split tree"
+hierarchical clustering method used by Callahan and Kosaraju for various
+nearest neighbor problems.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Parallel construction of quadtrees and quality triangulations">BibTeX</a> --
+<a href="http://www.CiteSeer.com/eppstein93parallel.html">CiteSeer</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Parallel-construction-of-quadtrees-and-quality-triangulations.html">Citations</a> --
+<a href="http://portal.acm.org/citation.cfm?id=672684">ACM DL</a>)
+<p>
+</ul>
+
+<hr><p>
+<a href="/~eppstein/pubs/">Publications</a> --
+<a href="/~eppstein/">David Eppstein</a> --
+<a href="/~theory/">Theory Group</a> --
+<a href="/">Inf. &amp; Comp. Sci.</a> --
+<a href="http://www.uci.edu/">UC Irvine</a>
+<p>
+<small>Semi-automatically <a href="filter.html">filtered</a>
+from a common source file.</small>
+</body></html>
+

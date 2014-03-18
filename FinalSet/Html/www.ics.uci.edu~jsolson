@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Judith S. Olson</title>
+	<meta name="generator" content="TextMate http://macromates.com/"/>
+	<meta name="author" content="ellie"/>
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
+	<link rel="stylesheet" href="css/master.css" type="text/css" media="screen" charset="utf-8"/>
+	<link rel="stylesheet" href="css/uci-light.css" type="text/css" media="screen" charset="utf-8"/>
+	
+	<!-- Date: 2009-10-12 -->
+</head>
+
+<body>
+
+<div id="container" class="short">
+
+<div id="header">
+<h1>Judith S. Olson</h1>
+<ul id="menu">
+<li><a href="index.html" class="current">Home</a></li>
+<li><a href="projects.html" >Projects</a></li>
+<li><a href="teaching.html" >Teaching</a></li>
+<li><a href="publications.html" >Publications</a></li>
+<li><a href="vita.html" >Vita</a></li>
+</ul>
+</div>
+
+<div id="aside">
+<img src="images/judy.jpg" alt="Professor Judith Olson's photograph"/>
+<h2>Donald Bren Professor of Information and Computer Sciences</h2>
+<p>5206 Donald Bren Hall<br/>
+University of California, Irvine<br/>
+Irvine, CA 92627-3440</p>
+
+<p>jsolson [at] uci [dot] edu</p>
+
+</div>
+
+<div id="content">
+
+<p>	Judith Olson is the Bren Professor of Information and Computer Sciences in the <a href="http://www.ics.uci.edu/informatics/">Informatics Department</a> at the UC Irvine, with courtesy appointments in the <a href="http://socialecology.uci.edu/">School of Social Ecology</a> and the <a href="http://www.merage.uci.edu/">Merage School of Business</a>.</p>
+
+<p>She has researched teams whose members are not collocated for over 20 years, summaries of which are found in her most cited paper, &ldquo;Distance Matters,&rdquo; (Olson &amp; Olson, 2000), and in her key theoretical contribution in the book <a href="http://mitpress.mit.edu/catalog/item/default.asp?ttype=2&amp;tid=11603">Scientific Collaboration on the Internet</a>  (Olson, Zimerman, and Bos, Eds., 2008).</p>
+
+<p>Her current work focuses on ways to verify the theory's components while at the same time helping new scientific collaborations succeed.  She has studied distributed teams both in the field and in the laboratory, the latter focusing on the communication hurdles distributed teams have and the consequent underutilization of remote team members skills and the reduction in trust.</p>
+
+<p>She is a Fellow of the <a href="http://www.acm.org/">Association for Computing Machinery</a> and with her husband and colleague, <a href="http://ics.uci.edu/~golson">Gary Olson</a>, holds the Lifetime Achievement award from the Special Interest Group in Computer Human Interaction.</p>
+
+</div> <!-- content -->
+
+
+<div class="clear"></div>
+
+</div> <!-- container -->
+</body>
+</html>

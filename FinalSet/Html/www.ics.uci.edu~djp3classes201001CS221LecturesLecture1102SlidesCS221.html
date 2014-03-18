@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="description" content="Using Matlab for LSA Introduction to Information Retrieval CS 221 Donald J. Patterson  Learning Objective Using MATLAB For LSA “Be able to use MATLAB to conduct LSI analysis on your own data”  What is MATLAB? Using MATLAB For LSA A numerical computing environment An interpreter for a specialized programming language Many libraries for complex mathematical operations Support for: Matrix Operations Graphing User Interfaces Great for rapid prototyping complex algorithms Cross -platform  What MATLAB isn’t Using MATLAB For LSA A production ready commercial software development tool Free Open-source  Where is MATLAB at UCI? Using MATLAB For LSA CS 364 Lab - about 30 machines with one machine licenses NACS PC Labs - “mpc cluster” Remote access through openlab if you buy a license and tell ICS support. Student edition is about $100.00 Open-source alternative called “octave” is available. http://www.ics.uci.edu/~smyth/courses/matlab.html  Demo Using MATLAB For LSA 6 documents Wikipedia entry for “baseball bat” Wikipedia entry for “bat” Wikipedia entry for “coffee” Wikipedia entry for “starbucks” Starbucks’ home page First page of a recent publication of mine  Demo Using MATLAB For LSA I pulled out 14 words BALLBASEBALLBATCALIFORNIACOFFEECOMPANYENCYCLOPEDIA IRVINERUNSPECIESSTARBUCKSSTORESUNIVERSITYUSERS  Demo Using MATLAB For LSA Calculate the TFIDF score Plot the documents on a two term axis Perform SVD decomposition Validate decomposition Reduce rank of system Show “M” Demonstrate what SVD is capturing Execute a query"/>
+    <title></title>
+    <script type="text/javascript" language="javascript">
+//      <![CDATA[
+            var images = new Array (9);
+            images[0] = "Lecture11_02_Slides_CS221_files/Lecture11_02_Slides_CS221.001.png";
+            images[1] = "Lecture11_02_Slides_CS221_files/Lecture11_02_Slides_CS221.002.png";
+            images[2] = "Lecture11_02_Slides_CS221_files/Lecture11_02_Slides_CS221.003.png";
+            images[3] = "Lecture11_02_Slides_CS221_files/Lecture11_02_Slides_CS221.004.png";
+            images[4] = "Lecture11_02_Slides_CS221_files/Lecture11_02_Slides_CS221.005.png";
+            images[5] = "Lecture11_02_Slides_CS221_files/Lecture11_02_Slides_CS221.006.png";
+            images[6] = "Lecture11_02_Slides_CS221_files/Lecture11_02_Slides_CS221.007.png";
+            images[7] = "Lecture11_02_Slides_CS221_files/Lecture11_02_Slides_CS221.008.png";
+            images[8] = "Lecture11_02_Slides_CS221_files/Lecture11_02_Slides_CS221.009.png";
+            var index = 0;
+            function WindowLoaded(evt)
+            {
+                document.body.onselectstart = function () { return false; };
+            }
+            function Step(i)
+            {
+                GoTo(index + i)
+            }
+            function GoTo(newIndex)
+            {
+                if(newIndex >= 0 && newIndex < images.length)
+                {
+                    index = newIndex;
+                    document.Slideshow.src = images[index];
+                }
+            }
+//      ]]>
+    </script>
+</head>
+<body bgcolor="black" onload='WindowLoaded(event);'>
+    <p align="center">
+        <br/>
+        <br/>
+        <img name="Slideshow" alt="" src="Lecture11_02_Slides_CS221_files/Lecture11_02_Slides_CS221.001.png" onclick="Step(1)"/>
+        <br/>
+        <br/>
+        <input type="image" src="Lecture11_02_Slides_CS221_files/home.png" onclick="GoTo(0)"/>
+        &nbsp;&nbsp;&nbsp;
+        <input type="image" src="Lecture11_02_Slides_CS221_files/prev.png" onclick="Step(-1)"/>
+        <input type="image" src="Lecture11_02_Slides_CS221_files/next.png" onclick="Step(1)"/>
+    </p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

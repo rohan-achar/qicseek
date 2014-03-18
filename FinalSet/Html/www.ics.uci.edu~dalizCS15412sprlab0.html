@@ -1,0 +1,64 @@
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<title>ModelSim - Getting Started</title>
+</head>
+<body>
+<center>
+<h1>A sample project</h1>
+</center>
+<h3>
+Lab 0
+</h3>
+<p>
+The objective of this lab assignment is to get familiar with lab environment (ModelSim), and submission procedures. This is also a good opportunity to ask questions about this course.
+<p>
+Please read <b>ALL</b> instruction carefully. Only <b><a target="blank" href="./index.html#SUBMISSION">properly submitted</a></b> assignments will be graded. Make sure to create a zip file, named by your student id, and submit your files in it.
+<p><b>Specification</b>
+<p>
+Specify a device that checks if the input signal is equal to "0101". The input signal is 4 bits wide and the output signal is one bit. Write down the truth table, the logical expression, and the circuit schematic using logic gates with up to 2 inputs. You may choose from AND, NAND, OR, NOR and NOT gates.
+<p><b>Design</b>
+<p>
+Your task is to design this module and a test bench to test the functionality of the module. The template VHDL files for the module (lab0.vhd) and the
+test bench (lab0_tb.vhd) have been provided for you. The interface (ports) is already defined. You need to add code for functionality in both files to make them work. Do not make any change to the interface.
+<p>
+The module (that is, the example entity) has one 4-bit inputs and one 1-bit output. The interface (ports) is defined as below for the example entity in lab0.vhd file.
+-           Input
+            input_vector : in  STD_LOGIC_VECTOR(3 downto 0)
+-           Output
+            output : out STD_LOGIC<p>
+<b>Verification</b><p>
+Inside the test bench, you should test your module using various input combinations. At each specific interval of time (which can be in the order of some tens of nanoseconds for example), change the inputs, get the output from the module and compare the result with the expected value to see if it is correct. In case the result does not match with the expected value, the
+test bench should generate an error message. Use the ASSERT statement for reporting the error message. Note that the entity example_tb in the
+test bench does not have ports since there are no input and output signals to it.
+<p>
+<b>What you should produce in this lab:</b>
+<ol>
+  <li>A specification for your design, including the truth-table and gate-level design. This should be completed on paper.
+  <li>Your VHDL design.
+  <li>Your VHDL test-bench.
+  <li>Screenshots of the waveforms for all in/out signals in the design.
+</ol>
+Please submit the above files via EEE.
+<p>
+You will be graded on the above plus the programming style and the comments.
+<p>
+<b>Download</b> <a href="./lab0.zip">lab0.zip</a> and unpack it.
+<p>
+Getting started:<br>
+- Open ModelSim-Altera.<br>
+- Create a new project (File -> New -> Project) by assigning project name and selecting location for the project.<br>
+- Add existing files lab0.vhd and lab0_tb.vhd to the project.<br>
+- Plug in your code in both the VHDL files. You can come up with your own code,
+or use <a href="example.txt" target="blank">this module file</a> and <a href="example_tb.txt" target="blank">this test bench file</a>.<br>
+- Change compilation order of the VHDL files if necessary by Compile -> Compile Order (lab0.vhd should be compiled first followed by lab0_tb.vhd).<br>
+- Compile the VHDL files by Compile -> Compile All.<br>
+- Set up simulation by Simulate -> Simulate...(here choose work.lab0_tb as the entity to be simulated).<br>
+- Add signals to waveform view by right click signals in the object view -> add... -> to wave.
+- Run simulation by Simulate -> Run -> Run-All. After some time, stop execution by Simulate -> Break. If there is an error, a message will be displayed.<br>
+<p>
+Good Luck!
+<p>
+-Submission: via EEE web site for 154. Please name your folders and files according to a given <a href="./index.html#SUBMISSION">SUBMISSION GUIDELINES</a>.
+</body>
+</html>
+

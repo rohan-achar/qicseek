@@ -1,0 +1,103 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<title>Kerim Yasin Oktay's Homepage</title>
+<style>
+body {
+    font-size: 10pt;
+    font-family: Arial,sans-serif;
+}
+td, th {
+    border: solid gray 1px;
+    padding: 3px;
+}
+</style>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30101057-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head><body>
+<h2>Kerim Yasin Oktay</h2>
+<div>
+<img height=400 width=300 src='kerim.jpg'>
+<br><br>
+</div>
+PhD Candidate
+<br>
+
+
+<br>
+<b>Advisor</b> <br> <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='http://www.ics.uci.edu/~sharad/'>Prof. Sharad Mehrotra</a>
+<br><br>
+<b>Contact Information</b>
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Donald Bren Hall, Room 2061
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.ics.uci.edu">Department of Computer Science</a>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.uci.edu">University of California, Irvine</a>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Irvine, CA 92697
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Email:</b> koktay AT uci DOT edu <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Phone</b> 773-6800595 <br>
+
+
+
+<h4>Research</h4>
+<ul>
+<li> Data Privacy
+<li> Data Management on Cloud Computing
+<li> Distributed and Parallel Computing
+</ul>
+
+
+<h4>Education</h4>
+<ul> 
+<li>PhD student, Computer Science Department, University of California, Irvine, USA. (Currently)
+<li>M.S. of Computer Science, University of California, Irvine, USA.
+<li>B.S. of Computer Science, Bilkent University, TURKEY.   
+</ul>
+
+
+<h4>Projects</h4>
+<ul>
+<li><a href='http://research.microsoft.com/en-us/groups/db/'>Latch Free Linear Hashtable over Log Structured Storage</a>.<br> 
+<li><a href='http://radicle.ics.uci.edu/'>RADICLE: Risk Aware Data Management in Cloud Environments</a>.<br> 
+<li><a href='http://cs.utdallas.edu/secure-cloud-repository/Hybrid-Clouds/hybrid-clouds.html'>Secure Data Processing in a Hybrid Cloud</a>.<br> 
+<li><a href='http://rescue-ibm.calit2.uci.edu:8480/jspTryV2Backup/'>UCI 311: Automatic Emergency Monitoring and Alerting Service</a>.<br> 
+<!--<li><a href='http://flamingo.ics.uci.edu/spellchecker/'>qSpell: Spelling Correction of Web Search Queries</a><br>-->
+</ul>
+
+<h4>Publications</h4>
+<ul>
+<li>Kerim Oktay, Vaibhav Khadilkar, Bijit Hore, Murat Kantarcioglu, Sharad Mehrotra, Bhavania Thuraisingham,<b>"Risk-Aware Workload Distribution in Hybrid Clouds"</b>, (IEEE Cloud 2012</font>)
+
+<li>A. Turk, K. Y. Oktay, and C. Aykanat,<b>"Query-Log Aware Replicated Declustering"</b>, <i>Transactions on Parallel and Distributed Systems </i> (TPDS 2012</font>) 
+
+<li>K. Y. Oktay, A. Turk, and C. Aykanat,<b>"Selective Replicated Declustering for Arbitrary Queries"</b>, <i>The 15th International European Conference on Parallel and Distributed Computing </i>(Euro-Par 2009)[<a href='Papers/paper1.pdf'>pdf</a>]
+</ul>
+
+<h4>Groups</h4>
+<ul>
+<li><a href="http://isg.ics.uci.edu">Information Systems Group</a>
+<li><a href="http://www.cs.bilkent.edu.tr/~bilweb/tubproj2.html">Web Databases Research Group</a>  
+</ul>
+
+<h2><a href='resume_Kerim_Yasin_Oktay.pdf'>Resume</a> <br></h2>
+<br>
+
+</body></html>
+
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/computer-scientists/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Honored, surprised, and then some thoughts</title>
+		<link>http://ngs.ics.uci.edu/honored-surprised-and-started-thinking/</link>
+		<comments>http://ngs.ics.uci.edu/honored-surprised-and-started-thinking/#comments</comments>
+		<pubDate>Sun, 19 Jun 2011 18:39:54 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[General Updates]]></category>
+		<category><![CDATA[Computer Scientists]]></category>
+		<category><![CDATA[wikipedia]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1347</guid>
+		<description><![CDATA[A colleague of mine mentioned that I am listed in a List of Computer Scientists on Wikipedia. I visited the list and must say that I am honored and surprised. Honored is obvious &#8212; and surprised is because I never&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>A colleague of mine mentioned that I am listed in a <a href="http://en.wikipedia.org/wiki/List_of_computer_scientists">List of Computer Scientists on Wikipedia</a>.  I visited the list and must say that I am honored and surprised.  Honored is obvious &#8212; and surprised is because I never took a class in computer science so was not formally trained in computer science, but more importantly, because this list (at this stage) is a relatively short list and finding my name in this list is truly surprising.  </p>
+<p>I don&#8217;t know how these things happen &#8212; and did not even know about my name being on the list, in fact did not know that such a list exists.  What is more important is that many systems in our society are going through transformations &#8212; and one can argue about &#8216;validity&#8217; and implications of those but their existence makes you think about the future.  The system in which a few people formed a &#8216;society&#8217; and that society conferred an honor such as a &#8216;Fellow&#8217; (and luckily I have a fair share of those) was a different mechanism than creating purely in a bottom-up manner a list like this one.  Is this going to become as commonly&#8211; or more &#8212;  used method of recognition?  Time will tell.  I feel that the last few year&#8217;s socio-technical changes are definitely transformative.</p>
+<p>In any case, THANKS to those who made my &#8216;ego&#8217; feel good by putting me on this list.  Now I am more motivated to contribute some ideas that will make me convinced me that I belong in a list like this.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/honored-surprised-and-started-thinking/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+	</channel>
+</rss>
+

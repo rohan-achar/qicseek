@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Day3</title>
+	<atom:link href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day3/feed/" rel="self" type="application/rss+xml" />
+	<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day3/</link>
+	<description></description>
+	<lastBuildDate>Thu, 01 Mar 2012 22:02:03 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.3.1</generator>
+	<item>
+		<title>By: Mathew</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day3/#comment-144</link>
+		<dc:creator>Mathew</dc:creator>
+		<pubDate>Thu, 01 Mar 2012 22:02:03 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=583#comment-144</guid>
+		<description>Hi guys. Please remember to post under your team category! Keep up the good work!</description>
+		<content:encoded><![CDATA[<p>Hi guys. Please remember to post under your team category! Keep up the good work!</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

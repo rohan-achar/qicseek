@@ -1,0 +1,153 @@
+<html>
+<head>
+<title>Layered Object Detection for Image Segmentation - UC Irvine</title>
+<style>
+body
+{
+	font-family : Arial;
+}
+#container
+{
+	width : 900px;
+	margin : 20px auto;
+	background-color : #fff;
+	padding : 20px;
+}
+h1 strong
+{
+	font-size : 40px;
+}
+h1
+{
+	margin : 0;
+	padding : 0;
+	font-size : 30px;
+}
+code
+{
+	border : 1px solid #ccc;
+	display : block;
+	padding : 5px;
+	margin : 10px;
+}
+</style>
+<!--<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17813713-3']);
+  _gaq.push(['_setDomainName', '.mit.edu']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>-->
+</head>
+
+
+<body>
+<div id="container">
+
+<h1 style="text-align:center;"><strong>L</strong>ayered <strong>O</strong>bject <strong>D</strong>etection for <strong>I</strong>mage <strong>S</strong>egmentation</h1>
+
+<p style="text-align:center;"><a href="http://www.ics.uci.edu/~yyang8">Yi Yang</a>, <a href="http://www.ics.uci.edu/~shallman">Sam Hallman</a>, <a href="http://www.ics.uci.edu/~dramanan">Deva Ramanan</a> and <a href="http://www.ics.uci.edu/~fowlkes">Charless Fowlkes</a></p>
+
+<!-- <p style="text-align:center;">under construction</p> -->
+
+<!--<blockquote style="text-align:center;">"These are some of the best HITS I've ever done!" <cite>&mdash; Mechanical Turk worker</cite></blockquote>-->
+
+<div style="margin-top : 30px;"></div>
+
+<h2>Introduction</h2>
+<p>We formulate a layered model for object detection and image segmentation. We describe a generative probabilistic model that composites the output of a bank of object detectors in order to define shape masks and explain the appearance, depth ordering, and labels of all pixels in an image. Notably, our system estimates both class labels and object instance labels. We evaluate our system on the PASCAL 2009 and 2010 segmentation challenge datasets and show good test results with state of the art performance in several categories including segmenting humans.</p>
+
+<div style="text-align : center; margin-left : 0px; margin-right: 0px; border : 2px solid black;">
+<center>
+<table align="center" border="0" cellspacing="40" cellpadding="0">
+<tr>
+<td align="center"><img src="figs/detection" height="256"></td>
+<td align="center"><img src="figs/seg_black" height="256"></td>
+<td align="center"><img src="figs/3d" height="256"></td>
+</tr>
+</table>
+</center>
+</div>
+
+<h2>Download</h2>
+
+<!--<p>The latest copy of our code: <a href="">DOWNLOAD</a></p>
+-->
+<p>Apologize for not able to release the code at this time. We are working on it.</p>
+
+<!--<p>Please read the <a href="">README</a> file for proper installation.</p>
+-->
+
+<h2>Publications</h2>
+
+<p>Yi Yang, Sam Hallman, Deva Ramanan, Charless Fowlkes. "Layered Object Detection for Multi-Class Segmentation". <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), San Francisco, USA, 2010.</em> <a href="layers2010.pdf">[Paper]</a><a href="layers2010_slides.ppt">[Slides]</a><a href="layers2010_poster.pdf">[Poster]</a><a href="http://videolectures.net/cvpr2010_hallman_lodm/">[Talk]</a><a href="layers2010.bib">[BibTex]</a> </p>
+
+<p>Yi Yang, Sam Hallman, Deva Ramanan, Charless Fowlkes. "Layered Object Models for Image Segmentation". <em>IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), 2012.</em> <a href="layers2012.pdf">[Paper]</a><a href="layers2012.bib">[BibTex]</a> </p>
+
+<h2>Examplar Results</h2>
+
+<center>
+<table align="center" border="0" cellspacing="0" cellpadding="2"
+<tr>
+<td align="center">Input Images</td>
+<td align="center">Object Instance Segmentation</td>
+<td align="center">Object Class Segmentation</td>
+<td align="center">Input Images</td>
+<td align="center">Object Instance Segmentation</td>
+<td align="center">Object Class Segmentation</td>
+</tr>
+<tr>
+<td align="center" width="140"><img src="figs/2009_001015.jpg" width="145" height="100"></td>
+<td align="center" width="140"><img src="figs/2009_001015.png" width="145" height="100"></td>
+<td align="center" width="140"><img src="figs/2009_001015_cls.png" width="145" height="100"></td>
+<td align="center" width="140"><img src="figs/2010_000817.jpg" width="145" height="100"></td>
+<td align="center" width="140"><img src="figs/2010_000817.png" width="145" height="100"></td>
+<td align="center" width="140"><img src="figs/2010_000817_cls.png" width="145" height="100"></td>
+</tr>
+<tr>
+<td align="center" width="140"><img src="figs/2009_004835.jpg" width="145" height="105"></td>
+<td align="center" width="140"><img src="figs/2009_004835.png" width="145" height="105"></td>
+<td align="center" width="140"><img src="figs/2009_004835_cls.png" width="145" height="105"></td>
+<td align="center" width="140"><img src="figs/2008_004919.jpg" width="145" height="105"></td>
+<td align="center" width="140"><img src="figs/2008_004919.png" width="145" height="105"></td>
+<td align="center" width="140"><img src="figs/2008_004919_cls.png" width="145" height="105"></td>
+</tr>
+<tr>
+<td align="center" width="140"><img src="figs/2009_001182.jpg" width="145" height="108"></td>
+<td align="center" width="140"><img src="figs/2009_001182.png" width="145" height="108"></td>
+<td align="center" width="140"><img src="figs/2009_001182_cls.png" width="145" height="108"></td>
+<td align="center" width="140"><img src="figs/2008_002587.jpg" width="145" height="108"></td>
+<td align="center" width="140"><img src="figs/2008_002587.png" width="145" height="108"></td>
+<td align="center" width="140"><img src="figs/2008_002587_cls.png" width="145" height="108"></td>
+</tr>
+<tr>
+<td align="center" width="140"><img src="figs/2008_000240.jpg" width="145" height="118"></td>
+<td align="center" width="140"><img src="figs/2008_000240.png" width="145" height="118"></td>
+<td align="center" width="140"><img src="figs/2008_000240_cls.png" width="145" height="118"></td>
+<td align="center" width="140"><img src="figs/2008_002939.jpg" width="145" height="118"></td>
+<td align="center" width="140"><img src="figs/2008_002939.png" width="145" height="118"></td>
+<td align="center" width="140"><img src="figs/2008_002939_cls.png" width="145" height="118"></td>
+</tr>
+</table>
+</center>
+
+<h2>Related Links</h2>
+<ul>
+<li><a href="http://pascallin.ecs.soton.ac.uk/challenges/VOC/">The PASCAL Visual Object Classes Challenge</a></li>
+<li><a href="http://www.cs.brown.edu/~pff/latent/">Object Detection with Discriminatively Trained Part Based Models</a></li>
+<li><a href="http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html">Contour Detection and Image Segmentation Resources</a></li>
+</ul>
+
+</div>
+
+</body>
+</html>
+
+

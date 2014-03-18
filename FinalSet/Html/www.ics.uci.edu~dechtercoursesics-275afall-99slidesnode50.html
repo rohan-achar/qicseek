@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Optimised Compilation</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Optimised Compilation">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html2861 HREF="node51.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html2859 HREF="node49.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html2853 HREF="node49.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html2863 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html2862 HREF="node51.html"> Compiling from a </A>
+<B>Up:</B> <A NAME=tex2html2860 HREF="node49.html"> More about compilation</A>
+<B> Previous:</B> <A NAME=tex2html2854 HREF="node49.html"> More about compilation</A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION00451000000000000000> Optimised Compilation</A></H2>
+<P>
+Note that the code above was compiled as <b> traceable</b>, which means that
+it can be traced using the built-in debugger or using the
+programmable debugger OPIUM.
+To obtain maximum efficiency, the directive nodbgcomp should be used,
+which will set some flags to produce a more efficient and shorter code
+<blockquote> <PRE>[eclipse 2]: nodbgcomp.
+
+yes.
+[eclipse 3]: [user].
+ father(abraham, isaac).
+ father(isaac, jacob).
+ father(jacob, joseph).
+ ancestor(X, Y) :- father(X, Y).
+ ancestor(X, Y) :- ancestor(X, Z), ancestor(Z, Y).
+  user       compiled optimized 396 bytes in 0.02 seconds
+
+yes.
+[eclipse 4]:
+</PRE>
+</blockquote><BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

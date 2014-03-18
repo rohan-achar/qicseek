@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Variant Color  
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20120307
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title> James Steven Supančič III </title>
+<link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css" />
+<link href="http://fonts.googleapis.com/css?family=Coda:400,800" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<!-- syntax highlighting -->
+<link href="syntaxhighlighter_3.0.83/styles/shCore.css" rel="stylesheet" type="text/css" />
+<link href="syntaxhighlighter_3.0.83/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div id="header-wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="#">James Steven Supančič III </a></h1>
+			<p> Computer Vision PhD Student at UC Irvine </p>
+		</div>
+	</div>
+</div>
+<div id="wrapper">
+	<!-- end #header -->
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+				<div id="content">
+					<div class="post">
+						<h2 class="title"><a href="#"> Self Paced Long Term Tracking </a></h2>
+						<td valign="center" align = "right"> <img src="LearningSplashPanda.svg" alt="learning_splash_figure" width=320 height=320> </td>
+						<p class="meta"><span class="date">April, 2013</span><span class="posted">Posted by <a href="#">James</a></span></p>
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+						  Our paper, "Self Paced Learning for Long-Term Tracking" was accepted for publication at CVPR 2013. The paper presents a novel technique 
+						  for adapting an appearance model for long term tracking. 
+						  <ol>
+						    <li> <a href="https://github.com/jsupancic/SPLTT-Release"> Project Source Code (Release Version, WIP) </a> 
+						      <ol>
+							<li> See it's README.txt for instructions. </li>
+							<li> Feel free to email me if you have problems. </li>
+						      </ol>
+						    </li>
+						    <li> <a href="SPLTT.pdf"> Self-paced learning for long-term tracking (Paper in PDF form) </a> </li>
+						    <li> <a href="video-data.zip"> Videos and Ground Truth (Data Set) </a> </li>
+						    <li> Output Tracks (CSV: x1, y1, x2, y2, cost). If x1 == NaN then the tracker said the target was occluded or out of frame.
+						    <ol> 
+						      <li> <a href="SPLTT/SPLTT_Tracks_Offline.zip"> Offline Output Tracks (CSV format) </a> </li>
+						      <li> <a href="SPLTT/SPLTT_Tracks_Online.zip"> Online Output Tracks  (CSV format) </a> </li>
+						    </ol>
+						  </ol>
+						  </li>
+						</div>
+					</div>
+
+					<div class="post">
+						<h2 class="title"><a href="#"> Displaying Real Valued Data in OpenCV </a></h2>
+						<p class="meta"><span class="date">Dec 19th, 2012</span><span class="posted">Posted by <a href="#">James</a></span></p>
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+						  The imageeq function, which follows, equalizes a floating point image before displaying it. It is much better than MATLAB's imagesc for visualizing depth
+						  data. 
+<pre class='brush: cpp'>
+void imageeq(const char* winName, cv::Mat_< float > im)
+{
+    // compute the order statistics
+    vector< float > values;
+    for(int rIter = 0; rIter < im.rows; rIter++)
+        for(int cIter = 0; cIter < im.cols; cIter++)
+                values.push_back(im.at< float >(rIter,cIter));
+    std::sort(values.begin(),values.end());
+    auto newEnd = std::unique(values.begin(),values.end());
+    values.erase(newEnd,values.end());
+    
+    // compute an equalized image
+    Mat showMe(im.rows,im.cols,DataType< uchar >::type);
+    float oldQuant = 0;
+    for(int qIter = 1; qIter <= 256; qIter++)
+    {
+        float quantile = static_cast< float >(qIter)/256;
+      
+        float thresh_low = values[oldQuant*(values.size() - 1)];
+        float thresh_high = values[quantile*(values.size() - 1)];
+        //printf("q = %f low = %f high = %f\n",quantile,thresh_low,thresh_high);
+        for(int rIter = 0; rIter < im.rows; rIter++)
+            for(int cIter = 0; cIter < im.cols; cIter++)
+            {
+                float curValue = im.at< float >(rIter,cIter);
+                if(curValue <= thresh_high && curValue >= thresh_low)
+                    showMe.at< uchar >(rIter,cIter) = qIter-1;
+            }
+        
+        oldQuant = quantile;
+    }
+    
+    imshow(winName,showMe);
+}
+</pre>
+						</div>
+					</div>
+
+					<div class="post">
+						<h2 class="title"><a href="#"> Welcome to my academic homepage </a></h2>
+						<td valign="center" align = "right"> <img src="JSS3_IHOG.jpe" alt="headshot"> </td>
+						<p class="meta"><span class="date">Dec 18th, 2012</span><span class="posted">Posted by <a href="#">James</a></span></p>
+						<div style="clear: both;">&nbsp;</div>
+						<div class="entry">
+						  The above figure contains the <a href="http://mit.edu/vondrick/ihog/"> inverse HOG visualization </a> of the HOG features in a picture of me. I am a first year PhD student at UC Irvine. 
+						  I work in computer vision. I'm interested in how we might exploit temporal data (tracking) and depth data (e.g. Kinect) in semi-supervised learning
+						  to create effective detectors. 
+						</div>
+					</div>
+				</div>
+				<!-- end #content -->
+				<div id="sidebar">
+					<ul>
+
+						<li>
+							<h2> James Steven Supančič III </h2>
+							<p> 
+							  <br> 4209 Donald Bren Hall (Office) </br>
+							  <br> jsupanci<!-- thwart --> at <!-- thwart -->uci.edu </br>
+							</p>
+							<h2> Links </h2>
+							<p> 
+							  <br> <a href="http://www.ics.uci.edu/~dramanan/"> My Adviser, Deva Ramanan </a> </br>
+							  <br> <a href="http://vision.ics.uci.edu/"> Computational Vision Group </a> </br>
+							  <br> <a href="http://www.ics.uci.edu/"> Department of Computer Science</a> </br>
+							  <br> <a href="http://www.uci.edu/"> University of California at Irvine</a> </br>
+							</p>
+						</li>
+
+					</ul>
+				</div>
+				<!-- end #sidebar -->
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+	<!-- end #page -->
+</div>
+<div id="footer">
+	<p>Copyright (c) 2012 James Supancic III. All rights reserved. Design by <a href="http://www.freecsstemplates.org">FCT</a>.</p>
+</div>
+<!-- end #footer -->
+</body>
+	<!-- add syntax highlighting -->
+	<script src="syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+	<script src="syntaxhighlighter_3.0.83/scripts/shBrushCpp.js"></script>
+	<script>
+	  SyntaxHighlighter.all()
+	</script>
+
+</html>
+

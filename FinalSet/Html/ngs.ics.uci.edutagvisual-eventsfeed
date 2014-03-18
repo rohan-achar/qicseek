@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/visual-events/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>VisR:  Organizing and sharing visual experiences of Events</title>
+		<link>http://ngs.ics.uci.edu/visr-organizing-and-sharing-visual-experiences-of-events/</link>
+		<comments>http://ngs.ics.uci.edu/visr-organizing-and-sharing-visual-experiences-of-events/#comments</comments>
+		<pubDate>Sat, 23 Jul 2011 01:41:23 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Entrepreneurism]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[photo management]]></category>
+		<category><![CDATA[visual events]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1365</guid>
+		<description><![CDATA[VisR is a company that I am affiliated with. I am happy to see some of my long-term research ideas starting to take shape and go beyond academic research community. VisR organizes and helps you share and retrieve your visual&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>VisR is a company that I am affiliated with. I am happy to see some of my long-term research ideas starting to take shape and go beyond academic research community.  VisR organizes and helps you share and retrieve your visual events.  The latest version was released in Android market place and a web site to go with it is going to be online very soon.  The team has done excellent job &#8212; my congratulations and THANKS to them.  It is exciting to see these ideas being put in the easiest to use form with modern UI/UX.  We expect to release the iPhone version in a few weeks.</p>
+<p>If you have an android phone, please do use this.  And let me know what you would like to see in the next versions of the software.  We want to make it useful and exciting system to save, share, and relish you visual experiences of events.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/visr-organizing-and-sharing-visual-experiences-of-events/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

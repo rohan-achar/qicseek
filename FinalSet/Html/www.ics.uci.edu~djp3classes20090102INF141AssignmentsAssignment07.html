@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Winter 2009: Informatics 141 : Information Retrieval : Assignment 07</title>
+<link href="../styleSheet.css" rel="stylesheet" type="text/css" /></head>
+<body>
+<div class="container">
+  <table>
+    <tr>
+      <td width="30%"><p class=" style7 ">Informatics   141: Information Retrieval: </p>
+        <p class=" style7 ">Assignment 07 </p>
+        <p>Winter 2009 </p>
+        <p class="style6"><a href="http://www.ics.uci.edu/informatics">Department of Informatics</a></p>
+        <p class="style6"><a href="http://www.ics.uci.edu">Donald Bren School of Information and Computer Sciences </a></p>
+        <p class="style6"><a href="http://www.uci.edu">University of California, Irvine </a></p></td>
+      <td><div id="gsfn_list_widget"> <a href="http://getsatisfaction.com/luci" class="widget_title"> Discussions about this class</a>
+  <div id="gsfn_content"><center><img src="../ajax-loader.gif"/></center></div>
+        </div>
+        <script src="http://getsatisfaction.com/luci/widgets/javascripts/db439d8/widgets.js" type="text/javascript"></script>
+        <script src="http://getsatisfaction.com/luci/topics.widget?callback=gsfnTopicsCallback&amp;length=120&amp;limit=10&amp;product=luci_winter_2009_inf_141cs_141&amp;sort=recently_active" type="text/javascript"></script>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class="container"><a href="../index.html">Home</a> | <a href="../admin.html">Administrative Policies </a> | <a href="../structure.html">Course Structure</a> |<a href="../materials.html"> Resources &amp; Materials</a> | <a href="../calendar.html#CurrentWeek">Calendar </a></div>
+<div class="container">
+  <p class="somethingDue">Due 3/15/2009</p>
+</div>
+<div class="rightSide">
+<img src="Assignment07/graphic.png"/>
+</div>
+<div class="container">
+  <ol>
+    <li><span class="style5"><strong>Goals</strong></span><strong>:
+      </strong>
+      <ol>
+        <li>This assignment is
+          designed to have you:
+          <ol>
+            <li> Use a large posting list to rank web pages against a query. </li>
+            <li>Implement cosine rank scoring efficiently. </li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><span class="style5"><strong>Administration:</strong></span>
+      <ol>
+        <li>You may work in teams of 1, 2 or 3, no restrictions on membership. </li>
+      </ol>
+    </li>
+    <li><span class="style5"><strong>Write a Java Program To Process the Hadoop Output</strong></span>
+      <ol>
+        <li>This part is necessary so that your program runs at a reasonable speed. </li>
+      </ol>
+    </li>
+    <ol>
+      <li><span class="style5">The input to this system is the output of the posting list exercise from Assignment 06.</span>
+        <ol>
+          <li>Use the results from the 500,000 URL crawl. <a href="Assignment07/Wikipedia-Top500000.zip">Here</a> are the URLs that were crawled. </li>
+          <li>You can optionally start from our output located <a href="http://www.ics.uci.edu/~djp3/classes/2009_01_02_INF141/Assignments/Assignment07/posting.txt.bz2">here</a>.  (820MB compressed, 2.8GB uncompressed)  </li>
+        </ol>
+      </li>
+      <ol>
+        <ol>
+          <li>000000000 , 12 , 5 :    {203645=1, 231518=4, 270201=4, 476437=2, 592873=1}</li>
+          <li>The term is &quot;000000000&quot; there are 12 occurences of that term in 5 documents. The term was found on the wikipedia pages for &quot;Sinclair_Coefficients&quot; 1 time, &quot;Free_Software_Foundation&quot; 4 times, &quot;Apollonian_gasket&quot; 4 times, &quot;List_of_Sunderland_A.F.C._managers&quot; 2 times and &quot;Finite_field_arithmetic&quot; 1 time. </li>
+        </ol>
+      </ol>
+    </ol>
+    <ol>
+      <li>The output of this program is two binary files.
+        <ol>
+          <li>The first
+            <ol>
+              <li>is a table in which each row has a term and a pointer into the second file.</li>
+            </ol>
+          </li>
+          <li>The second file
+            <ol>
+              <li>Is a binary representation of the posting list that you can use the first table to do a random access lookup into.  </li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+    </ol>
+    <li><strong>Write a Java Program Score a query</strong>
+      <ol>
+        <li>This part calculates the cosine ranking score</li>
+        <li>The input to this part is the output of the previous program, plus the document table, plus a query from a user.</li>
+        <li>The output is a ranked list of the ten most relevant web pages in wikipedia.<ol><li>Do not create an accumulator for any term which occurs more than 50,000 times.</li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    
+    <li><strong>Extra Credit   </strong>
+      <ol>
+        <li>Create a web-based user interface which collects a query from a user and displays the results.
+          <ol>
+            <li>Either a web-page or a browser extension (harder) </li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><span class="style5"><strong>What to turn in:</strong></span><ol>
+      <li>A sources.zip file containing your source code.</li>
+      <li>A report.txt file containing this information:
+        <ol>
+          <li>Names of your team members.</li>
+          <li>Size of each on-disk data structure that you are using. For example, if you are using 3 binary files to store your data structures this would be the description of each file and its size in Mega bytes.</li>
+          <li>Approximate size of your main in-memory data structures. For example, if you are keeping a look up table in memory, you should report the size (in MB) and description of this data structure.</li>
+          <li>A sample query that your program can process fast and the amount of time it takes to respond.</li>
+          <li>A sample query that takes longer to process (compared to other typical queries) and the amount of time it takes to response.</li>
+          </ol>
+      </li>
+      <li>With an efficient implementation, your program should return results in a fraction of second. Therefore, 15 seconds is our expectation for a maxmum time to wait for a query respons. If your program takes longer than that, something is not working right.</li>
+      <li>Make sure to attend the discussion session on March 9th. All of the details will be discussed there.</li>
+      <li>Your programs will be reviewed by Yasser on Monday March 16th from 10 am - 12 in the ICS third floor lab. If you have a conflict with this time, send him an email (before March 16th) to schedule another time.</li>
+      </ol>
+        </li>
+    <li><strong>Submitting your assignment </strong>              
+      <ol>
+        <li>Schedule an appointment with Yasser to review your final program. </li>
+      </ol>
+        </li>
+  </ol>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

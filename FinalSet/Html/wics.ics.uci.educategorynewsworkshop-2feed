@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Women in Information and Computer Sciences &#187; Workshop</title>
+	<atom:link href="http://wics.ics.uci.edu/category/news/workshop-2/feed/" rel="self" type="application/rss+xml" />
+	<link>http://wics.ics.uci.edu</link>
+	<description>A student organization at UCI dedicated to helping women succeed in the technological world</description>
+	<lastBuildDate>Thu, 06 Feb 2014 12:38:18 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Web Development Projects: Awards</title>
+		<link>http://wics.ics.uci.edu/web-development-projects-awards/</link>
+		<comments>http://wics.ics.uci.edu/web-development-projects-awards/#comments</comments>
+		<pubDate>Mon, 16 Dec 2013 08:28:49 +0000</pubDate>
+		<dc:creator><![CDATA[Angela Liu]]></dc:creator>
+				<category><![CDATA[Workshop]]></category>
+
+		<guid isPermaLink="false">http://wics.ics.uci.edu/?p=1076</guid>
+		<description><![CDATA[WICS awarded every participant that turned in their websites on Wednesday, December 4th. Winners were chosen and awarded $25 Amazon gift cards along with the winners of weekly challenges at project meetings! Congratulations Team 7 (Mrunmayi Vyawahare, Kelly Kwan, Emily &#8230; <a href="http://wics.ics.uci.edu/web-development-projects-awards/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://wics.ics.uci.edu/web-development-projects-awards/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Week 10: Hour of Code</title>
+		<link>http://wics.ics.uci.edu/week-10-hour-of-code/</link>
+		<comments>http://wics.ics.uci.edu/week-10-hour-of-code/#comments</comments>
+		<pubDate>Mon, 16 Dec 2013 07:59:15 +0000</pubDate>
+		<dc:creator><![CDATA[Angela Liu]]></dc:creator>
+				<category><![CDATA[Workshop]]></category>
+
+		<guid isPermaLink="false">http://wics.ics.uci.edu/?p=1074</guid>
+		<description><![CDATA[Monday, December 2nd, WICS organized an Hour of Code workshop that targeted undecided/undeclared majors at UCI. Over 20 students interested in coding not only got to learn how to code but also socialize and have some fun before finals week. &#8230; <a href="http://wics.ics.uci.edu/week-10-hour-of-code/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://wics.ics.uci.edu/week-10-hour-of-code/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Week 3: Resumé Workshop with Career Center</title>
+		<link>http://wics.ics.uci.edu/week-3-resume-workshop/</link>
+		<comments>http://wics.ics.uci.edu/week-3-resume-workshop/#comments</comments>
+		<pubDate>Sat, 19 Oct 2013 04:59:33 +0000</pubDate>
+		<dc:creator><![CDATA[Angela Liu]]></dc:creator>
+				<category><![CDATA[Workshop]]></category>
+
+		<guid isPermaLink="false">http://wics.ics.uci.edu/?p=990</guid>
+		<description><![CDATA[Monday, October 14th, over 40 people attended the resumé workshop that WICS co-organized with the Career Center. The Fall Quarter Career Fair was right around the corner and this workshop was to help students learn how to create eye-catching resumés &#8230; <a href="http://wics.ics.uci.edu/week-3-resume-workshop/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://wics.ics.uci.edu/week-3-resume-workshop/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>First Project Meeting by WICS</title>
+		<link>http://wics.ics.uci.edu/first-project-meeting-by-wics/</link>
+		<comments>http://wics.ics.uci.edu/first-project-meeting-by-wics/#comments</comments>
+		<pubDate>Fri, 04 Oct 2013 04:16:07 +0000</pubDate>
+		<dc:creator><![CDATA[Angela Liu]]></dc:creator>
+				<category><![CDATA[Workshop]]></category>
+
+		<guid isPermaLink="false">http://wics.ics.uci.edu/?p=914</guid>
+		<description><![CDATA[WICS&#8217;s first ever Project Meeting took place on Wednesday, October 2nd, where the Project Committee began supporting the creation of websites by WICS members. Members were assigned to groups and encouraged to build their own websites using HTML, CSS, and &#8230; <a href="http://wics.ics.uci.edu/first-project-meeting-by-wics/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://wics.ics.uci.edu/first-project-meeting-by-wics/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Aspire IT Camp: Techie Girls</title>
+		<link>http://wics.ics.uci.edu/aspire-it-camp-techie-girls/</link>
+		<comments>http://wics.ics.uci.edu/aspire-it-camp-techie-girls/#comments</comments>
+		<pubDate>Sat, 03 Aug 2013 23:15:47 +0000</pubDate>
+		<dc:creator><![CDATA[Angela Liu]]></dc:creator>
+				<category><![CDATA[Workshop]]></category>
+
+		<guid isPermaLink="false">http://wics.ics.uci.edu/?p=551</guid>
+		<description><![CDATA[In Techie Girls,  a week-long summer camp was designed for the 2013 Aspire IT Programs to inspire in girls a love for computer science. The camp provided workshops from July 29th through August 2nd on the UC Irvine Campus for &#8230; <a href="http://wics.ics.uci.edu/aspire-it-camp-techie-girls/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://wics.ics.uci.edu/aspire-it-camp-techie-girls/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>WICS Summer Session Workshop</title>
+		<link>http://wics.ics.uci.edu/wics-summer-session-workshop/</link>
+		<comments>http://wics.ics.uci.edu/wics-summer-session-workshop/#comments</comments>
+		<pubDate>Thu, 25 Jul 2013 08:22:04 +0000</pubDate>
+		<dc:creator><![CDATA[Angela Liu]]></dc:creator>
+				<category><![CDATA[Workshop]]></category>
+
+		<guid isPermaLink="false">http://wics.ics.uci.edu/?p=549</guid>
+		<description><![CDATA[Wednesday, July 24, WICS hosted a workshop for high school students and incoming freshmen at UCI. More than 10 WICS members signed up to work with over 40 students on Snap Circuits and littleBits. This workshop was intended to educate and &#8230; <a href="http://wics.ics.uci.edu/wics-summer-session-workshop/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://wics.ics.uci.edu/wics-summer-session-workshop/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>WICS hosts a &#8220;Toy Hacking&#8221; Workshop with Dr. Garnet Hertz</title>
+		<link>http://wics.ics.uci.edu/wics-hosts-a-toy-hacking-workshop-with-dr-garnet-hertz/</link>
+		<comments>http://wics.ics.uci.edu/wics-hosts-a-toy-hacking-workshop-with-dr-garnet-hertz/#comments</comments>
+		<pubDate>Wed, 20 Feb 2013 06:13:42 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Workshop]]></category>
+
+		<guid isPermaLink="false">http://wics.ics.uci.edu/?p=351</guid>
+		<description><![CDATA[We taught children between the 2nd and 5th grades how to circuit bend at the Verano After School Program. Kids got a first hand experience playing with circuit boards and they expanded their perception of how they have the power &#8230; <a href="http://wics.ics.uci.edu/wics-hosts-a-toy-hacking-workshop-with-dr-garnet-hertz/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://wics.ics.uci.edu/wics-hosts-a-toy-hacking-workshop-with-dr-garnet-hertz/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Letter of Recommendation Workshop</title>
+		<link>http://wics.ics.uci.edu/letter-of-recommendation-workshop/</link>
+		<comments>http://wics.ics.uci.edu/letter-of-recommendation-workshop/#comments</comments>
+		<pubDate>Fri, 01 Feb 2013 08:48:59 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Workshop]]></category>
+
+		<guid isPermaLink="false">http://wics.ics.uci.edu/?p=337</guid>
+		<description><![CDATA[January 22nd, last Tuesday, WICS hosted a Letter of Recommendation Workshop and Q&#038;A with Professor Shannon Tauro and PhD candidate Kristin Roher! Over 30 students attended for a pre-workshop social and a presentation on how to approach and establish relationships &#8230; <a href="http://wics.ics.uci.edu/letter-of-recommendation-workshop/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://wics.ics.uci.edu/letter-of-recommendation-workshop/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>WICS hosts a Toy Hacking Workshop</title>
+		<link>http://wics.ics.uci.edu/wics-hosts-a-toy-hacking-workshop/</link>
+		<comments>http://wics.ics.uci.edu/wics-hosts-a-toy-hacking-workshop/#comments</comments>
+		<pubDate>Tue, 29 Jan 2013 00:24:07 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Workshop]]></category>
+
+		<guid isPermaLink="false">http://wics.ics.uci.edu/?p=299</guid>
+		<description><![CDATA[On Monday, January 14th, WICS hosted a Toy Hacking Workshop Training with Dr. Garnet Hertz. Over 20 people attended with bags full of toys to break open! This workshop was intended to train students who were interested in being involved &#8230; <a href="http://wics.ics.uci.edu/wics-hosts-a-toy-hacking-workshop/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://wics.ics.uci.edu/wics-hosts-a-toy-hacking-workshop/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

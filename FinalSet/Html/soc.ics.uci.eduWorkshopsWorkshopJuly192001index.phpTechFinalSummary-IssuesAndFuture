@@ -1,0 +1,629 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>The Technology Issues Facing Collaboratories and Building a Collaboratory Technology Infrastructure: Today and Tomorrow</TITLE>
+<!-- #BeginTemplate "/Templates/index.dwt" -->
+<meta name="description" content="A research project investigating the social and technical issues surrounding the success of geographically distributed science and engineering collaborations." />
+<meta name="keywords" content="scientific collaboration, collaboratories, collaboratory, University of Michigan, School of Information, social-technical" />
+<meta name="language" content="English" />
+<meta name="author" content="Dan Cooney" />
+<meta name="programmer" content="Greg Peters" />
+<META content=ALL name=robots>
+<META content="15 days" name=revisit-after>
+<META content=SOC-website@umich.edu name=reply-to>
+<META content="Living Document" name=document-class>
+<META content="Copyrighted Work" name=document-rights>
+<META content="Web Page" name=document-type>
+<META content="Safe for Kids" name=document-rating>
+<META content=Global name=document-distribution>
+<META content=Static name=document-state>
+<META content=no-cache name=cache-control>
+<META http-equiv=Content-Language content=EN-US>
+<META content="Dan Cooney" name=Publisher>
+
+<link REL="ICON" HREF="/soc.ico" TYPE="image/x-icon">
+<link REL="SHORTCUT ICON" HREF="/soc.ico" TYPE="image/x-icon">
+
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1"><!-- #BeginEditable "doctitle" --><!-- #EndEditable -->
+<SCRIPT type=text/javascript>
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</SCRIPT>
+<LINK href="/styles/SOC.css" 
+type=text/css rel=stylesheet><!--Main content begins -->
+<META content="MSHTML 5.50.4913.1100" name=GENERATOR></HEAD>
+<!-- #LOOP-START:header -->
+<BODY text=#000000 vLink=#333399 aLink=#ff9900 link=#333399 bgColor=#ffffff 
+leftMargin=2 topMargin=2 marginheight="2" marginwidth="2">
+<TABLE height=117 cellSpacing=0 cellPadding=0 width="100%" align=center 
+border=0>
+  <TR>
+    <TD vAlign=top align=left>
+      <TABLE cellSpacing=0 cellPadding=0 width=100% align=left 
+      border=0 name="Header">
+        <TR>
+          <TD vAlign=bottom align=left background=""
+          rowSpan=3 height=103 width=145><A 
+            href="/"><IMG 
+            height=103 alt="Science of Collaboratories logo - link" 
+            src="/images/LOGOSMALLER.gif" 
+            width=145 align=bottom border=0 name=SOCLogo></A></TD>
+          <TD height=40 valign="top">
+            <DIV ALIGN="RIGHT" CLASS="admin_login"><A HREF="/index.php?SOCSiteMap">Site Map</A>&nbsp;-&nbsp;<A HREF="/datateam/index.php">Login</A></DIV><BR>
+            <SCRIPT src="/libs/exmplmenu_var.js" type=text/javascript></SCRIPT>
+            <SCRIPT src="/libs/menu_com.js" type=text/javascript></SCRIPT>
+            <NOSCRIPT>Your browser does not support script</NOSCRIPT></TD></TR>
+        <TR>
+          <TD vAlign=top align=left width=100% bgColor=#660033 height=15>
+            &nbsp;
+          </TD></TR>
+        <TR>
+         <TD width=100% bgColor=#660033 height=15>&nbsp;</TD></TR>
+</table>
+      </TD>
+    <TD vAlign=top width=60 height=100>&nbsp;</TD>
+   </TR>
+        <TR>
+          <TD vAlign=top align=left height=20><IMG height=20 
+            alt="An alliance to advance the understanding of collaboratories" 
+            src="/images/SOCATextNew.gif" 
+            width=527 border=0 name=SOCATextNew>
+          </TD>
+         </TR>
+</TABLE>
+<!-- #LOOP-END:header -->
+<TABLE cellSpacing=0 cellPadding=0 width=100% align=left border=0 
+name="Main Body Table">
+  <TR>
+    <TD vAlign=top colspan=4 align=left bgColor=#660033 height=12><IMG 
+      height=12 alt="Science of Collaboratories" 
+      src="/images/RoundedRed.gif" 
+      align=top border=0 name=Header_r9_c1><BR></TD>
+    <TD vAlign=top align=left bgColor=#660033 height=12>&nbsp; </TD>
+    <TD width=60 bgColor=#ffffff>&nbsp;</TD></TR>
+  <TR>
+    <TD width=20 bgColor=#660033></TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD colspan=2 align=left bgColor=#ffffff>
+<!-- This is where we will add the content -->
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" height="355" align="left">
+  <tr> 
+    <td width="9" height="5">&nbsp;</td>
+    <td>
+     <div class="breadcrumb">Workshops : Technical Underpinnings of Collaboration : Final Summary :</div>
+     <div class="PageTitle">The Technology Issues Facing Collaboratories and Building a Collaboratory Technology Infrastructure: Today and Tomorrow</div>
+      <br><div class="workshop_navbar"><a href="index.php">Workshop Description</a>
+      | <a href="index.php?agenda">Agenda</a> 
+      | <a href="index.php?backgroundReadings">Background Readings</a> | <b><a href="index.php?TechFinalSummary">Final 
+      Summary</a></b><a href="index.php?TechFinalSummary"></a></div>
+    </td>
+    <td height="5" width="10">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="9">&nbsp;</td>
+    <td align="left" valign="top"><!-- #BeginEditable "body" --> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" height="203">
+        <tr> 
+          <td colspan="2" valign="top"> 
+            <p>The third breakout 
+                    session attempted to address two basic issues, both related 
+                    to the challenges and opportunities in future development 
+                    of collaboratory technology. </p>
+            <p>Questions raised to trigger discussion 
+                    included:</p>
+            <ul>
+              <li>What kind of mismatches exist between 
+                      the reality of collaboratory technologies, and the ideal 
+                      representation of these technologies?<br>
+              </li>
+              <li>What are the areas in which collaboratory 
+                      R&amp;D could make a difference? What advances are needed?<br>
+              </li>
+              <li>What would you recommend as deployable 
+                      technologies to someone creating a collaboratory?<br>
+              </li>
+              <li>Is there consensus in our views?</li>
+            </ul>
+            <p><br>
+                    The participants generated many recommendations for collaboratory 
+                    designers. They are listed here, with the assumption that 
+                    the advice will vary based on what kind of collaboratory is 
+                    being built.</p>
+            <ul>
+              <li> Don't build until you know what 
+                      is already out there.<br>
+                 
+                <ul>
+                  <li>Some current technology does much 
+                          of what is desired, document sharing, for example.<br>
+                  </li>
+                </ul>
+              </li>
+              <li> Build for the web<br>
+                 
+                <ul>
+                  <li>A nice feature is when any user 
+                          can participate through a vanilla browser.<br>
+                  </li>
+                  <li>Making the access through the browser 
+                          is nice, as the system can then be constantly updated.<br>
+                  </li>
+                  <li>There are benefits and risks to 
+                          this, but consider providing at least minimal functionality 
+                          via the web.<br>
+                  </li>
+                  <li>There can be many problems with 
+                          standard software installs, and the web provides a &quot;work 
+                          around&quot;<br>
+                  </li>
+                  <li>We can assume browsers and servers 
+                          will still be around in 3-5 years.<br>
+                  </li>
+                </ul>
+              </li>
+              <li> Do things you would do in any 
+                      normal development project. <br>
+                 
+                <ul>
+                  <li>Many of the issues that arise in 
+                          collaboratory development are the same ones faced in 
+                          any software development project. <br>
+                  </li>
+                  <li>Employing standard software development 
+                          methodologies is a good starting point.<br>
+                  </li>
+                </ul>
+              </li>
+              <li> Practice careful analysis of 
+                      the needs of the users<br>
+                 
+                <ul>
+                  <li>This should go without saying, but 
+                          rarely happens.<br>
+                  </li>
+                  <li>Spend all the time needed to find 
+                          out what the needs are<br>
+                  </li>
+                  <li>Consider rapid prototyping with 
+                          many cycles and real users.<br>
+                  </li>
+                  <li>Make sure the development 
+                          team has an understanding of the science that is being 
+                          done.<br>
+                     
+                    <ul>
+                      <li>The metaphor of the tools being 
+                              developed needs to match with the metaphor of the 
+                              work environment being supported.<br>
+                      </li>
+                      <li>Though one could argue that 
+                              the development team only needs to make sure they 
+                              understand the work process - not the intricacies 
+                              of all the science that underpins it.<br>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li> Find someone to be your technology 
+                      champion and identify and work with the opinion leaders<br>
+                 
+                <ul>
+                  <li>Additionally, identify early adopters 
+                          who will give feedback and be more forgiving.<br>
+                  </li>
+                </ul>
+              </li>
+              <li> Make it compatible with what 
+                      your user base is currently using<br>
+                 
+                <ul>
+                  <li>Integrate into the user's environment, 
+                          not the other way around. <br>
+                  </li>
+                </ul>
+              </li>
+              <li> Start with something you know 
+                      will work<br>
+                 
+                <ul>
+                  <li>Make sure the initial technology 
+                          will not scare your users off.<br>
+                  </li>
+                  <li>Then incrementally add services 
+                          (possibly like plug-ins, on an as needed basis).<br>
+                  </li>
+                </ul>
+              </li>
+              <li> Make sure there is a low cost of entry, 
+                      it is easy to install, and you use standard platforms, so 
+                      they don't have to purchase much.<br>
+              </li>
+              <li> Ease of use is very important, as this 
+                      will probably not be their primary tool<br>
+              </li>
+              <li> Build in logging capabilities from 
+                      the start.<br>
+              </li>
+              <li> Build in a parallel back channel, so 
+                      there is an alternative to talking on the primary channel, 
+                      either for repair if there is a break down, or for discussion 
+                      or announcement of less important information.<br>
+              </li>
+              <li> Pay attention to standards, both real 
+                      (w3c) and de facto (IE5.0)<br>
+              </li>
+              <li> If building, consider something that 
+                      can go commercial, or be used by a consortium of universities.<br>
+              </li>
+              <li> When deciding to use - or not use - 
+                      a tool, consider its extensibility<br>
+              </li>
+              <li> Keep in mind new technologies<br>
+                 
+                <ul>
+                  <li>PDAs, etc.<br>
+                  </li>
+                </ul>
+              </li>
+              <li> Go with Java<br>
+                 
+                <ul>
+                  <li>Ease of development<br>
+                  </li>
+                  <li>Multi-platform<br>
+                  </li>
+                  <li>Will probably be a force in 3-5 
+                          years, even with Microsoft's C# around.<br>
+                  </li>
+                </ul>
+              </li>
+              <li> Go with Open Source<br>
+              </li>
+              <ul>
+                <li>With the rise and fall of companies, 
+                        one could think open-source initiatives might last longer 
+                        than supported initiatives.<br>
+                </li>
+                <li>Organizational problems, as companies 
+                        might not allow open development.<br>
+                </li>
+                <li>Support problems, as there is a tend 
+                        to need good local support.<br>
+                </li>
+                <li>Promise and practice of contributions 
+                        from the larger community is a big plus, especially for 
+                        modular construction of collaborative apps.<br>
+                </li>
+              </ul>
+              <li> Plan for how you will support your 
+                      users. Make sure there are resources devoted to this.<br>
+              </li>
+              <li> There was a suggestion to reduce 
+                      platforms, to insure software will work on all the machines 
+                      in use.<br>
+                 
+                <ul>
+                  <li>Alternatively, tell users that they 
+                          can use whatever platform they like, but that they have 
+                          to install some universal plug in (like RealPlayer, 
+                          or something like that).</li>
+                </ul>
+              </li>
+            </ul>
+            <p>&middot; Longer-term research issues:</p>
+            <ul>
+              <li> Distributed, collaboration-aware operating 
+                      systems<br>
+              </li>
+              <li> Server vs. peer-to-peer services - 
+                      how to design software that can do both, that can decide 
+                      which it should use?<br>
+              </li>
+              <li> Can software intelligently make decisions 
+                      about QoS? Can the collaboratory itself help decide what 
+                      services to offer, and how to offer them?<br>
+              </li>
+              <li> Lots of login/authentication issues, 
+                      as the security needs to be flexible enough to work with 
+                      a variety of environments, working with a variety of authentication 
+                      systems.<br>
+              </li>
+              <li> How to always, automatically, capture 
+                      context.<br>
+              </li>
+              <li> As a collaboratory can be run on all 
+                      sorts of tools (PC, PDA, cell phone, etc.), how can the 
+                      views of the data be effectively modified, as one steps 
+                      down to hardware with fewer resources?<br>
+              </li>
+              <li> Developing highly nomadic rapid response 
+                      collaborations - such as in fire fighting in huge forest 
+                      fires, where people are distributed over a wide geographical 
+                      space (from the individuals point of view), and they need 
+                      to be coordinated, but also there can be simulations of 
+                      the fire running (at NCAR or something) where there is a 
+                      lot of computing power, but there can be fast data transfer 
+                      to the people in the field.<br>
+              </li>
+              <li> Converging over divergent views<br>
+                 
+                <ul>
+                  <li>If one does not see the same 
+                          display (view) what are the implications?<br>
+                     
+                    <ul>
+                      <li>How does one &quot;point at&quot; 
+                              the same thing, as someone else, over different 
+                              views?<br>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>How to show the relationship between 
+                          different views?<br>
+                  </li>
+                </ul>
+              </li>
+              <li> Managing attention in collaboratories 
+                <br>
+                 
+                <ul>
+                  <li>Discovering areas of interest in 
+                          all the data<br>
+                  </li>
+                  <li>Have agents find things of interest?</li>
+                </ul>
+              </li>
+            </ul>
+            <p>Participants also spoke of a need for a 
+                    funding model that recognizes the need for building middleware. 
+                    Middleware is one of those things that isn't necessarily commercially 
+                    viable, and it isn't one particular person's problem. As a 
+                    result there is a need for support of such efforts, from a 
+                    funding perspective. The European Union is funding some projects 
+                    that they expect to be &quot;commercially viable&quot;, but 
+                    this doesn't necessarily mean that they will make lots of 
+                    money - it could mean it is used widely by universities. There 
+                    is also a reluctance to fund any thing that needs maintaining 
+                    over a long time.</p>
+            <p>The Glue - making the tools work together&#133;</p>
+            <ul>
+              <li> Main struggle of collaboratories is 
+                      to put together a correct set of technologies, not developing 
+                      the individual technologies. (Find video, whiteboard, remote 
+                      instrument, chat, notebook that share a single security 
+                      mechanism, logging/persistence mechanism, launching mechanism, 
+                      etc.) <br>
+              </li>
+              <li> There aren't really any common glues<br>
+              </li>
+              <li> We need to make the glue to have the 
+                      pieces work together.<br>
+              </li>
+              <li> Integration technologies<br>
+                 
+                <ul>
+                  <li>Directory services, security models, 
+                          XML<br>
+                  </li>
+                  <li>Using access grid<br>
+                  </li>
+                </ul>
+              </li>
+              <li> Ex: in UARC - CBE as a kind of glue</li>
+            </ul>
+            <p>Observations</p>
+            <ul>
+              <li> The most interesting thing about a 
+                      collaboratory is that the captured data might be mined and 
+                      analyzed to discover &quot;new knowledge&quot;<br>
+              </li>
+              <li> Pretty cheap to save everything. Just 
+                      save everything and work on creating tools to analyze that 
+                      data. Conventions on note taking took a long time to develop<br>
+              </li>
+              <li> Unintended use - using a game for other 
+                      interactive tasks<br>
+              </li>
+              <li> VOIP is problematic - lots of people 
+                      are trying to do this - but they aren't very successful, 
+                      lots of bandwidth/network problems, firewalls drop too many 
+                      packets.<br>
+              </li>
+              <li> Granularity<br>
+                 
+                <ul>
+                  <li>B1 - Granularity of understanding<br>
+                     
+                    <ul>
+                      <li>Ex: should one approach UARC 
+                              as a Java Applet or a frame work?<br>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>Granularity of capture<br>
+                     
+                    <ul>
+                      <li>Ex: Chat - how much do you log 
+                              - when is too much logging taking place? Do you 
+                              save enough to do sync-ed replay?<br>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li> Social Issues, such as with group authority, 
+                      chain of command, policies - these are areas that can cause 
+                      difficulty.<br>
+              </li>
+              <li> That there is a presumption that 
+                      the systems are likely to break down.<br>
+                 
+                <ul>
+                  <li>Schizophrenic attitude: we both 
+                          expect it to work, and expect it to break.<br>
+                  </li>
+                </ul>
+              </li>
+              <li> Someone is always awake - different 
+                      work environment.<br>
+                 
+                <ul>
+                  <li>Doing work in a collaboratory at 
+                          night in North America, while there are people awake 
+                          in Europe, is a fundamentally different space than working 
+                          alone in a lab at night.<br>
+                  </li>
+                </ul>
+              </li>
+              <li> Users don't usually ask explicitly 
+                      for things such as &quot;context&quot; - these needs are 
+                      interpreted from what is asked for.<br>
+              </li>
+              <li> Nestor noted a reluctance in many researchers 
+                      to do work with collaboratories, but these same people do 
+                      imagine they will be doing this stuff a few years from now. 
+                      (They are reluctant to be early adopters.)<br>
+              </li>
+              <li> People want a collaboratory because 
+                      it makes their collaboration visible. They are sometimes 
+                      empire building, as, if you have a new tool, you have some 
+                      advantage over your peers.<br>
+              </li>
+              <li> In business, there is a concern over 
+                      the ROI for IT, but the lesson is that if they don't have 
+                      the right IT, they are seen as not being &quot;with it,&quot; 
+                      and are therefore less desirable. <br>
+              </li>
+              <li> New tools might be thought badly 
+                      of if they don't have remote access built in.<br>
+              </li>
+            </ul>
+            <p><a href="index.php?TechFinalSummary#IssuesReturn">back 
+                    to the main summary page</a><br>
+            </p>
+          </td>
+        </tr>
+      </table>
+      <!-- #EndEditable --> </td>
+    <td width="10">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="9">&nbsp;</td>
+    <td> 
+      <p>&nbsp;</p>
+    </td>
+    <td width="10">&nbsp;</td>
+  </tr>
+</table>
+
+    </TD>
+    <TD width=60>&nbsp;</TD></TR>
+<TR>
+    <TD vAlign=top align=middle width=20 bgColor=#660033>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top colspan=2 align=right bgColor=#ffffff height=12>&nbsp;</TD>
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=bottom colspan=4 align=left width=145 bgColor=#660033 height=12><IMG 
+      height=12 
+      src="/images/RoundedBottom.gif" 
+      width=145 align=bottom></TD>
+    <TD vAlign=top align=right bgColor=#660033 height=12><FONT 
+      color=#ffffff>
+      &nbsp;</FONT><SPAN class=SmallText><FONT 
+      color=#ffffff>&nbsp; </FONT></SPAN></TD><!-- HERE -->
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=top align=middle width=20>&nbsp;</TD>
+    <TD colspan=4 vAlign=top align=middle bgColor=#ffffff
+      height=6><SPAN class="footernavbar"><A 
+      href="/">Home</A> | <A 
+      href="/AboutSOC/index.php">About 
+      SOC</A> | <A 
+      href="/Workshops/index.php">Workshops</A> | <A 
+      href="/Resources/index.php?findings">Resources</A> 
+      | <A 
+      href="/NewsEvents/index.php">News 
+      &amp; Events</A></SPAN></TD>
+    <TD width=60 bgColor=#ffffff height=6>&nbsp;</TD></TR>
+<!-- #LOOP-START:footer -->
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <HR align=center width=80%>
+    </TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5></TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <TABLE cellSpacing=0 cellPadding=0 width="95%" align=left border=0 
+      name="Footer">
+        <TR>
+          <TD vAlign=top align=middle width=172 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.umich.edu/"><IMG height=62 
+            alt="University of Michigan Logo" 
+            src="/images/logo_um.jpg" 
+            width=62 border=0 name=UMICH_Logo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.umich.edu/">University of Michigan<BR></A></P></TD>
+          <TD align=middle>
+            <P class="copyright">This material is based upon work supported by 
+            the <A target=_blank href="http://www.itr.nsf.gov/">National Science 
+            Foundation</A> under Grant No. IIS 0085951. Any opinions, findings, 
+            and conclusions or recommendations expressed in this material are 
+            those of the author(s) and do not necessarily reflect the views of 
+            the National Science Foundation. <BR><A target=_blank 
+            href="http://www.itr.nsf.gov/"><IMG height=42 
+            alt="National Science Foundation Logo" 
+            src="/images/nsf.gif" width=42 
+            border=0 name=NSF_Logo></A></P></TD>
+          <TD vAlign=top align=middle width=127 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.si.umich.edu/"><IMG height=54 
+            alt="School of Information Logo" 
+            src="/images/SISwirl.jpg" 
+            width=62 border=0 name=SILogo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.si.umich.edu/">School of Information</A>
+            <A href="http://www.si.umich.edu/">University of 
+            Michigan</A></P></TD></TR>
+        <TR>
+          <TD align=middle>&nbsp;</TD></TR>
+        <TR>
+          <TD>
+            <P align=center class="copyright">� 2004
+            Regents of the University of 
+            Michigan. Please send questions and comments to <A 
+            href="mailto:asz@umich.edu">SOC 
+        webmaster</A>.</P></TD></TR></TABLE></TD></TR>
+  <TR>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=95>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0>&nbsp; </TD>
+    <TD width=60 bgColor="white" height=0>&nbsp;</TD></TR>
+</TABLE>
+<!-- #LOOP-END:footer -->
+<P>&nbsp;</P>
+<P><BR></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><BR></P>
+<P><BR></P>
+<P>&nbsp;</P>
+<P><BR></P></BODY><!-- #EndTemplate --></HTML>
+

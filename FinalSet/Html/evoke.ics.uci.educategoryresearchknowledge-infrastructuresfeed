@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>EVOKE Lab &#187; Knowledge Infrastructures</title>
+	<atom:link href="http://evoke.ics.uci.edu/category/research/knowledge-infrastructures/feed/" rel="self" type="application/rss+xml" />
+	<link>http://evoke.ics.uci.edu</link>
+	<description></description>
+	<lastBuildDate>Fri, 22 Nov 2013 21:32:34 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Knowledge Infrastructure Policy: From Shrinking Cities to Sustainable Cities</title>
+		<link>http://evoke.ics.uci.edu/knowledge-infrastructure-policy-from-shrinking-cities-to-sustainable-cities/</link>
+		<comments>http://evoke.ics.uci.edu/knowledge-infrastructure-policy-from-shrinking-cities-to-sustainable-cities/#comments</comments>
+		<pubDate>Mon, 25 Feb 2013 21:06:57 +0000</pubDate>
+		<dc:creator><![CDATA[Courtney Loder]]></dc:creator>
+				<category><![CDATA[Design by Youth]]></category>
+		<category><![CDATA[Knowledge Infrastructures]]></category>
+
+		<guid isPermaLink="false">http://evoke.ics.uci.edu/?p=405</guid>
+		<description><![CDATA[The research project Knowledge Infrastructure Policy: From Shrinking Cities to Sustainable Cities revolves around a STEM collaboration with teenaged students from Orange County high schools. Bringing together STEM learning and participatory design, the project has a sharp focus on the reclamation of urban space as a community activity. The goal is not only to learn how(...)]]></description>
+				<content:encoded><![CDATA[<p>The research project Knowledge Infrastructure Policy: From Shrinking Cities to Sustainable Cities revolves around a STEM collaboration with teenaged students from Orange County high schools. Bringing together STEM learning and participatory design, the project has a sharp focus on the reclamation of urban space as a community activity. The goal is not only to learn how to use. Design thinking – re-thinking complex social problems – can open onto STEM engagement through creative modeling that enables analytic diagnosis for design ideation, concept generation and prototyping solutions that become pilot projects in school and community contexts. Throughout this project, we will teach ‘design thinking’ (eco-system, contextual user research, systems analysis, design strategy and planning), informatics, and data analysis towards the question: How can we expand access to resources for students and teachers to learn 21rst Century computer science, informatics, technology and design sciences for knowledge infrastructure policy leadership?</p>
+<p>Contact: <a href="mailto:sslota@uci.edu" target="_blank">Steve Slota</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://evoke.ics.uci.edu/knowledge-infrastructure-policy-from-shrinking-cities-to-sustainable-cities/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

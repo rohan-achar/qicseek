@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Script-Type" content="text/javascript">
+<title>ICS 54: Brief Notes on Encryption and Security</title>
+</head>
+
+<body bgcolor="#F8F8F0">
+<i><a href="http://www.ics.uci.edu/"> UC Irvine,
+Information and Computer Science Department</A></I>
+Winter 2000<br>
+<h2><A HREF="http://www.ics.uci.edu/~ics54/">ICS 54</A>:
+Brief Notes on Encryption and Security
+</h2>
+
+<b>The Greatest Threat to Network Security is Human Care-less-ness.</b>
+
+<h3>Functions of Encryption</h3>
+<ul>
+  <li><b>C</b>onfidentiality
+  <li><b>A</b>uthentication
+  <li><b>I</b>ntegrity
+  <li><b>N</b>onrepudiation
+</ul>
+<p>
+
+<h3>References:</h3>
+<dl>
+<dt><a href="http://www.techweb.com/encyclopedia/defineterm?term=CRYPTOGRAPHY">
+   TechWeb: Cryptography</a>
+<dd><a href="http://img.cmpnet.com/tw/encyclopedia/full/ENCRYPT.GIF">
+  (Secret Key vs Public Key 
+  Picture</a><a href="./encrypt.gif">)</a>: 
+  <br>&nbsp;&nbsp;&nbsp;Secret-Single-Symmetric vs. PublicPrivatePair-Asymmetric
+  <br><A 
+  HREF="http://www.techweb.com/encyclopedia/defineterm?term=DIGITALCERTIFICATE">
+  Digital Certificate</a> and Certificate Authorities (CA).
+  <br><A 
+  HREF="http://www.techweb.com/encyclopedia/defineterm?term=message+digest">
+  Message Digest</a>
+  <br><A 
+  HREF="http://www.techweb.com/encyclopedia/defineterm?term=digital+signature">
+  Digital Signature</a>
+  (<a href="http://img.cmpnet.com/tw/encyclopedia/full/DIGSIG.GIF">Picture</a><a href="./digsig.gif">)</a>
+<br><a href="http://www.techweb.com/encyclopedia/defineterm?term=diffie-hellman">Diffie-Hellman</a>
+<br><a href="http://www.techweb.com/encyclopedia/defineterm?term=RSA">RSA</a>
+
+<dt><a name="Webopedia" href="http://www.zdwebopedia.com/security.htm">
+   ZDNet Webopedia: Security</a>
+<dd>
+<a href="http://www.zdwebopedia.com/authentication.htm">Authentication</a>,
+<a href="http://www.zdwebopedia.com/authorization.htm">Authorization</a>,
+<a href="http://www.zdwebopedia.com/cryptography.htm">Cryptography</a>,
+<a href="http://www.zdwebopedia.com/encryption.htm">Encryption</a>,
+<a href="http://www.zdwebopedia.com/firewall.htm">Firewall</a>,
+<a href="http://www.zdwebopedia.com/Kerberos.htm">Kerberos</a>,
+<a href="http://www.zdwebopedia.com/RSA.htm">RSA</a>,
+<a href="http://www.zdwebopedia.com/sniffer.htm">Sniffer</a>.
+<br>Also, 
+<a href="http://www.zdwebopedia.com/digital_certificate.htm">Digital
+  Certificate</a>,
+<a href="http://www.zdwebopedia.com/Certificate_Authority.htm">
+    Certificate Authority</a>,
+<a href="http://www.zdwebopedia.com/digital_signature.htm">Digital
+  Signature</a>,
+<a href="http://www.zdwebopedia.com/public_key_cryptography.htm">Public
+  Key Encryption</a>.
+
+<dt><a href="./pkhistory.html">History of Public-Key Cryptography</a>
+<dt><a href="http://www.nytimes.com/library/tech/reference/index-encrypt.html">
+<i>New York Times</i> Coverage of Encryption</a>
+
+<dt>References on Cryptography
+<dd><ul>
+<li><a href="http://www.austinlinks.com/Crypto/">Quadralay
+   Cryptography Archive</a>
+   -- <i>(Comprehensive)</i>
+<li><a href="http://www.murky.org/cryptography/main.shtml">Beginners' 
+  Guide to Cryptography</a> from murky.org.
+ -- <i>(Basic)</i>
+<li><a href="http://www.pgpi.org/doc/pgpintro/">How PGP Works</a>
+  from <a href="http://www.pgpi.org/">PGP International</a>
+  -- <i>(Basic and focused/limited)</i>
+<li><a href="http://www.ipsec.com/tech/crypto/">Cryptography A-2-Z</a> from
+    <a href="http://www.ipsec.com/tech/">SSH Tech Corner</a>
+  -- <i>(Moderate)</i>
+<li><a href="http://www.rsa.com/rsalabs/faq/">Cryptography FAQ</a> from
+   <a href="http://www.rsa.com/">RSA</a>
+  -- <i>(Solid/Stiff)</i>
+<li><a href="http://www.ozemail.com.au/~firstpr/crypto/">Cryptography for
+ encryption, signatures and authentication</a> from
+ <a href="http://www.ozemail.com.au/~firstpr/">First Principles Consulting,
+ Australia</a> -- <i>(Intense)</i>
+<li><a href="http://www.abanet.org/scitech/ec/isc/dsg-tutorial.html">Digital
+ Signature Guidelines</a> -- <i>(Legally Oriented)</i>
+</ul>
+
+<dt>Organizations
+<dd><ul>
+<li><a href="http://www.sans.org/">SANS (System Administration,
+Networking, and Security) Insitute</a>
+<li><a href="http://www.cert.org/">CERT Coordination Center</a>
+</ul>
+
+
+<dt><a href="http://www.w3j.com/7/"> <I>Web Security: 
+ A Matter of Trust</I></a>, 
+ <dd><a href="http://www.w3j.com/7/">World Wide Web Journal</a>:
+   Volume 2, Issue 3, 1997.
+  <br>Available in print from
+    <a href="http://www.ora.com/catalog/wjsum97/noframes.html">O'Reilly,
+     ISBN 1-56592-329-4.</a>
+<dt><a href="http://www.w3.org/Security/">W3C Security Resources</a>
+  <dd><a href="http://www.w3.org/Security/Faq/www-security-faq.html">The
+     WWW Security FAQ</a>
+<dt><a
+ href="http://www.ora.com/catalog/puis/noframes.html"> <i>Practical UNIX 
+ &amp; Internet Security, 2nd Edition</i></a>, 
+ <dd>by Simson Garfinkel and Gene Spafford, O'Reilly, 1996,
+ ISBN 1-56592-148-8.
+<dt><a href="http://seclab.cs.ucdavis.edu/~bishop/">Matt Bishop</a>
+(UC Davis Computer Science)
+
+</dl>
+<hr>
+<a href="http://www.oac.uci.edu/indiv/franklin/tools/feedback?ics54@ics.uci.edu">Comments are welcome.</a>
+<noscript><br><b>JavaScript must be enabled in order for this page
+   to be fully functional.</b></noscript>
+<script language="JavaScript" type="text/javascript">
+<!-- Beginning of JavaScript -
+   document.writeln("<br>This document can be found at &nbsp;<tt>"+
+       document.location+"</tt>");
+// document.writeln("<br><i>Current as of " + document.lastModified+"</i>");
+// - End of JavaScript - -->
+</script>
+   <br><i>Current as of 6 March 2000</i>
+<br><a href="http://validator.w3.org/check?uri=&{document.location};&ss=">HTML
+    4.01 Checked.</a>
+<!-- To show source in validation "...?uri=&{document.location};&ss=" -->
+
+</body>
+</html>
+

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>INFORMATICS 134: User Interaction Software Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The online syllabus for INF 134">
+    <meta name="author" content="Donald J. Patterson">
+
+    <!-- Le styles -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+	  strong {font-weight:bolder; font-size:120%}
+    </style>
+    <link href="./assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="./assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="./assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Informatics 134: U/I Software Projects</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="calendar.html">Calendar</a></li>
+              <li><a href="structure.html">Course Structure</a></li>
+              <li><a href="admin.html">Administrative Polices</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div class="span2">
+				<div class="well sidebar-nav">
+					<ul class="nav nav-list">
+						<li class="nav-header">Links</li>
+						<!--<li><a href="#Week_00">Attendance</a></li>
+						<li><a href="#Week_01">Announcements</a></li>
+						<li><a href="#Week_02">Emailing the instructors</a></li>
+						<li><a href="#Week_03">Late Penalty</a></li>
+						<li><a href="#Week_04">Sick Policy</a></li>
+						<li><a href="#Week_05">Add/Drop</a></li>
+						<li><a href="#Week_06">Incompletes</a></li>
+						<li><a href="#Week_07">Academic Honesty</a></li>
+						<li><a href="#Week_08">Web Page/Readings/Assignments</a></li>
+						<li><a href="#Week_09">Special Needs</a></li>-->
+					</ul>
+				</div><!--/.well -->
+			</div><!--/span-->
+			<div class="span10">
+				<div class="hero-unit">
+					<div class="row-fluid">
+						<div class="span4"><h2><strong>Assignment 06</strong></h2>
+						<h4><strong>Due Date:</strong></h4>
+						<h4>Saturday 03/16 </h4>
+						</div>
+						<div class="offset1 span5"><h3>U/I Software Projects</h3>
+							<ul>
+								<li>Winter 2013</li>
+								<li>Department of Informatics</li>
+								<li>Donald Bren School of Information and Computer Sciences</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row-fluid"><div id="Week_00" class="span12"><hr/></div></div>
+		<div class="row-fluid">
+			<div class="span12">
+          		<p><strong>Assignment #6: Make a processing app that you
+				interact with via a depth-sensing camera (Kinect)</strong></p>
+				<ul>
+					<li> This assignment may be done alone or in pairs.</li>
+					<li> You are to take input from a text file that contains
+					the output of a Kinect.  The output was collected using
+					<a href="https://github.com/marshally/kinectable_pipe">kinectable_pipe</a></li>
+					<li> You are to parse the file line by line to create an
+					array of JSON objects.</li>
+					<li> Each JSON Object is a represenation of one skeleton.
+					Here is an example of one
+					line:<pre>{"skeletons":[{"userid":0,"joints":[{"joint":"head","X":-702.131,"Y":486.367,"Z":1579.783},{"joint":"neck","X":-676.385,"Y":273.182,"Z":1570.143},{"joint":"neck","X":-676.385,"Y":273.182,"Z":1570.143},{"joint":"l_shoulder","X":-645.730,"Y":268.028,"Z":1768.476},{"joint":"l_elbow","X":-645.831,"Y":-27.049,"Z":1768.808},{"joint":"l_elbow","X":-645.831,"Y":-27.049,"Z":1768.808},{"joint":"l_hand","X":-647.107,"Y":-322.086,"Z":1764.067},{"joint":"l_hand","X":-647.107,"Y":-322.086,"Z":1764.067},{"joint":"l_hand","X":-647.107,"Y":-322.086,"Z":1764.067},{"joint":"r_shoulder","X":-707.041,"Y":278.335,"Z":1371.810},{"joint":"r_elbow","X":-714.375,"Y":-16.645,"Z":1369.905},{"joint":"r_elbow","X":-714.375,"Y":-16.645,"Z":1369.905},{"joint":"r_hand","X":-755.104,"Y":-308.767,"Z":1378.805},{"joint":"r_hand","X":-755.104,"Y":-308.767,"Z":1378.805},{"joint":"torso","X":-647.342,"Y":50.508,"Z":1559.868},{"joint":"torso","X":-647.342,"Y":50.508,"Z":1559.868},{"joint":"l_hip","X":-603.110,"Y":-174.720,"Z":1647.858},{"joint":"l_knee","X":-816.152,"Y":-553.847,"Z":1768.455},{"joint":"l_knee","X":-816.152,"Y":-553.847,"Z":1768.455},{"joint":"l_foot","X":-796.903,"Y":-987.331,"Z":1763.658},{"joint":"r_hip","X":-633.487,"Y":-169.613,"Z":1451.327},{"joint":"r_knee","X":-776.181,"Y":-590.984,"Z":1527.173},{"joint":"r_knee","X":-776.181,"Y":-590.984,"Z":1527.173},{"joint":"r_foot","X":-775.487,"Y":-1024.921,"Z":1527.667}]}],"elapsed":8.181}</pre>
+					</li>
+					<li>Using what you know about JSON and processing, create a
+					character that interacts with you by mimicing the skeleton
+					data that was collected from the Kinect</li>
+					<li>For extra credit, add a physics system that is keyed to
+					the skeleton.  In the video below I have simulated a virtual
+					bull-fighting cape that the user is manipulating by waving
+					her arms.</li>
+					<li> Here are some sample input files:
+						<ul>
+							<li><a href="assignment_06/output1.txt">output1</a></li>
+							<li><a href="assignment_06/output2.txt">output2</a></li>
+							<li><a href="assignment_06/output3.txt">output3</a></li>
+							<li><a href="assignment_06/output4.txt">output4</a></li>
+							<li><a href="assignment_06/output5.txt">output5</a></li>
+							<li><a href="assignment_06/outputErick.txt">outputErick</a></li>
+						</ul>
+					</li>
+					<li>To get this to work you will need to import the <a
+					href="https://github.com/agoransson/JSON-processing">JSON
+					for processing</a> library manually and possibly a physics
+							library</li>
+					<li>Here is some code you can put in your setup function to
+					import the files.  You will need to make sure the files are
+					in your sketch's "data" folder for this to work:<pre>
+List<JSONObject> data = new ArrayList<JSONObject>();
+					
+String[] lines = loadStrings("output.txt");
+  for(int i = 0; i< lines.length; i++){
+    if((lines[i].length() > 0) && (lines[i].charAt(0) == '{')){
+      try{
+        data.add(new JSONObject(lines[i]));
+      }
+      catch(Exception e){
+        println("error"+i);
+      }
+      finally{}
+    }
+  }</pre>
+  </li>
+  <li>Finally, you will need to transform the coordinates from Kinect into
+  something that processing can plot. The z values seem to vary from about 500
+  to 3000.  The x and y positions seem to vary from -1000 to 1000, roughly.
+  Transforming involves moving the 0 axis in the skeleton data to some
+  other position on the Processing canvas.  These functions will take skeleton
+  points as input and output Processing points.  You need to set the 0 axis
+  using the "offset" variables.  You need to scale the points using the "scale"
+  variable so that the full range of Kinect positions will map to your window.
+  Then you can see that the y position is flipped so that up in Kinect world is
+  up in Processing world.:<pre>
+float myX(float x){
+  return (_offsetx+x*_scalex);
+}
+
+float myY(float y){
+  return (_offsety + (-1.0*y*_scaley));
+}
+</pre>
+</li>
+<li> Please turn in your Processing code as a text file. It should be a single
+file.  Please put a comment at the top
+indicating what needs to be done to run it (if anything special).  Tell us about libraries required
+and where to find them in particular and how to set the file name for the input.  Here is a link to the dropbox to turn it
+in:
+<a
+href="https://eee.uci.edu/toolbox/dropbox/index.php?op=openfolder&folder=309443">https://eee.uci.edu/toolbox/dropbox/index.php?op=openfolder&folder=309443</a>
+</li>
+<li> You will be graded on whether or not you were able to represent the
+skeleton accurately, your creativity in drawing your character, and your effective
+use of the processing animation loop. Additional credit will be given for doing
+something clever or unique.  Finally, bonus points will be given for people who
+incorporate a virtual physics system into their sketch.  
+</li>
+
+				</ul>
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div class="span12 pagination-centered">
+				<iframe width="420" height="315" src="http://www.youtube.com/embed/ZpzDSlBbOtc?rel=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<hr>
+
+		<footer>
+			<p>&copy; Donald J. Patterson 2012-2013</p>
+		</footer>
+
+	</div><!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
+
+

@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+
+
+<html>
+
+<head>
+
+<title>Zhijing (Gene) Qin's Homepage</title>
+
+<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
+<link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+
+<body>
+
+<table class="Global" cellpadding="0" cellspacing="0" border="0">
+
+<!-- ============ Logo ============== -->
+<tr><td height="30" colspan="2"><div class="Header_Text">Zhijing (Gene) Qin<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium; "><span class="Apple-style-span" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; text-align: left; "><div style="margin-top: 0px; margin-bottom: 0px; ">
+&nbsp;<p>
+	<font color="#000000" face="Times New Roman" class="ws14" style="font-size: 19px; ">
+	Ph.D Candidate</font></div>
+	<div style="margin-top: 0px; margin-bottom: 0px; ">
+		<font color="#000000" face="Times New Roman" class="ws14" style="font-size: 19px; ">
+		Donald Bren School of Information and Computer Science,</font></div>
+	<div style="margin-top: 0px; margin-bottom: 0px; ">
+		<font color="#000000" face="Times New Roman" class="ws14" style="font-size: 19px; ">
+		University of California Irvine, USA.</font></div>
+	</span></span></div></td></tr>
+
+<tr><td height="150" colspan="2">
+
+<!-- ============ Header Image ============== -->
+<table class="Header_Image" cellspacing="0" border="0"><tr>
+<td width="100%" align="left">&nbsp;</td>
+</tr></table>
+
+</td></tr>
+
+<!-- ============ COLUMNS SECTION ============== -->
+<tr>
+
+<!-- ============ Menu Column ============== -->
+<td class="MenuColTD" align="center" width="165">
+
+<!-- ============ Site Menu ============== -->
+
+<div class="Menu">
+<a href="index.htm">Home</a>
+<a href="education.htm">Education</a>
+<a href="publication.htm">Publication</a>
+<a href="project.htm">Projects</a>
+<a href="experience.htm">Experiences</a>
+<a href="honor.htm">Honor and Awards</a>
+<a href="contact.htm">Contact</a>
+<div id="clustrmaps-widget"></div><script type="text/javascript">var _clustrmaps = {'url' : 'http://www.ics.uci.edu/~zhijingq/', 'user' : 1037503, 'server' : '4', 'id' : 'clustrmaps-widget', 'version' : 1, 'date' : '2012-08-19', 'lang' : 'en', 'corners' : 'square' };(function (){ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'http://www4.clustrmaps.com/counter/map.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);})();</script><noscript><a href="http://www4.clustrmaps.com/user/eb7fd4bf"><img src="http://www4.clustrmaps.com/stats/maps-no_clusters/www.ics.uci.edu-~zhijingq--thumb.jpg" alt="Locations of visitors to this page" /></a></noscript>
+
+</div>
+
+</td>
+
+
+<!-- ============ Content Column ============== -->
+<td class="Content" width="574">
+
+<!-- ============ Page Heading ============== -->
+<h1 class="HeadingStyle">Introduction</h1>
+
+<!-- ============ Begin Content ============== -->
+
+<p><font face="Times New Roman" size="3">I am a fourth year PhD student in
+<a href="http://www.networkedsystems.uci.edu/index.html">Networked Systems
+Program</a>, <a href="http://www.ics.uci.edu/">Donald Bren School of Information
+and Computer Science</a>, <a href="http://www.uci.edu/">University of California
+Irvine</a>, USA. My current advisor is  <a href="http://www.ics.uci.edu/~nalini/">
+Prof. Nalini Venkatasubramanian</a> and our research groups are
+<a href="http://isg.ics.uci.edu/">Information Systems Group</a> and&nbsp;
+<a href="http://www.ics.uci.edu/~dsm/">Distributed Systems Middleware Group</a>.
+My current research work includes Multinetwork Management, Information
+Collection, Formal Method based Network Analysis and Cyber Physical System.
+</font>
+
+<p><font face="Times New Roman" size="3">I got my bachelor degree in <a href="http://www.buaa.edu.cn">Beihang University</a>, 2007 and master degree
+in <a href="http://www.pku.edu.cn">Peking University</a> in 2009. I also spent
+one year in <a href="http://www.cs.tsinghua.edu.cn/en/institute2.html">network lab of Tsinghua
+University</a> with <a href="http://www.cs.tsinghua.edu.cn/en/KeXU.html">
+Prof. Ke Xu</a> from 2008-2009.
+</font>
+</td>
+
+
+</tr>
+
+<!-- ============ Footer ============== -->
+<tr><td colspan="2" class="Footer">
+
+<div class="FooterWrap">
+
+<div class="Copyright">Copyright @ Zhijing Qin &nbsp;&nbsp;&#8212;&nbsp;&nbsp; Last modified on
+	Jan,2011</div>
+
+</div>
+
+</td></tr></table>
+</body>
+
+</html> 
+

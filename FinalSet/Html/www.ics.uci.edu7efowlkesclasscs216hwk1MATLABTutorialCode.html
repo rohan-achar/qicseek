@@ -1,0 +1,506 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>CS143: Introduction to Matlab (Code)</title>
+    <meta name="generator" content="emacs-wiki.el">
+    <meta http-equiv="Content-Type"
+	  content="text/html; charset=iso-8859-1">
+    <link rev="made" href="mailto: roth (AT) cs DOT brown DOT edu">
+    <link rel="stylesheet" type="text/css" href="plain.css">
+  </head>
+  <body>
+    
+    <h1>CS143: Introduction to Matlab (Code)</h1>
+<h2>intro.m</h2>
+<a name="intro" id="intro"></a><pre class="mcode"><span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="comment">% Introduction to Matlab </span>
+<span class="comment">% (adapted from http://www.stanford.edu/class/cs223b/matlabIntro.html)</span>
+<span class="comment">%</span>
+<span class="comment">% Stefan Roth &lt;roth (AT) cs DOT brown DOT edu&gt;, 09/08/2003</span>
+<span class="comment">% Last modified: 09/10/2003</span>
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+
+<span class="comment">% (1) Basics</span>
+
+<span class="comment">% The symbol &quot;%&quot; is used to indicate a comment (for the remainder of</span>
+<span class="comment">% the line).</span>
+
+<span class="comment">% When writing a long Matlab statement that becomes to long for a</span>
+<span class="comment">% single line use &quot;...&quot; at the end of the line to continue on the next</span>
+<span class="comment">% line.  E.g.</span>
+
+A = [1, 2; <span class="cont">...</span>
+     3, 4];
+
+<span class="comment">% A semicolon at the end of a statement means that Matlab will not</span>
+<span class="comment">% display the result of the evaluated statement. If the &quot;;&quot; is omitted</span>
+<span class="comment">% then Matlab will display the result.  This is also useful for</span>
+<span class="comment">% printing the value of variables, e.g.</span>
+
+A
+
+<span class="comment">% Matlab's command line is a little like a standard shell:</span>
+<span class="comment">% - Use the up arrow to recall commands without retyping them (and </span>
+<span class="comment">%   down arrow to go forward in the command history).  </span>
+<span class="comment">% - C-a moves to beginning of line (C-e for end), C-f moves forward a</span>
+<span class="comment">%   character and C-b moves back (equivalent to the left and right</span>
+<span class="comment">%   arrow keys), C-d deletes a character, C-k deletes the rest of the</span>
+<span class="comment">%   line to the right of the cursor, C-p goes back through the</span>
+<span class="comment">%   command history and C-n goes forward (equivalent to up and down</span>
+<span class="comment">%   arrows), Tab tries to complete a command.</span>
+
+<span class="comment">% Simple debugging:</span>
+<span class="comment">% If the command &quot;dbstop if error&quot; is issued before running a script</span>
+<span class="comment">% or a function that causes a run-time error, the execution will stop</span>
+<span class="comment">% at the point where the error occurred. Very useful for tracking down</span>
+<span class="comment">% errors.</span>
+
+
+
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+
+<span class="comment">% (2) Basic types in Matlab</span>
+
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="comment">% (A) The basic types in Matlab are scalars (usually double-precision</span>
+<span class="comment">% floating point), vectors, and matrices:</span>
+
+A = [1 2; 3 4];              <span class="comment">% Creates a 2x2 matrix</span>
+B = [1,2; 3,4];              <span class="comment">% The simplest way to create a matrix is</span>
+                             <span class="comment">% to list its entries in square brackets.</span>
+                             <span class="comment">% The &quot;;&quot; symbol separates rows;</span>
+                             <span class="comment">% the (optional) &quot;,&quot; separates columns.</span>
+
+N = 5                        <span class="comment">% A scalar</span>
+v = [1 0 0]                  <span class="comment">% A row vector</span>
+v = [1; 2; 3]                <span class="comment">% A column vector</span>
+v = v'                       <span class="comment">% Transpose a vector (row to column or </span>
+                             <span class="comment">%   column to row)</span>
+v = 1:.5:3                   <span class="comment">% A vector filled in a specified range: </span>
+v = pi*[-4:4]/4              <span class="comment">%   [start:stepsize:end]</span>
+                             <span class="comment">%   (brackets are optional)</span>
+v = []                       <span class="comment">% Empty vector</span>
+
+
+
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="comment">% (B) Creating special matrices: 1ST parameter is ROWS,</span>
+<span class="comment">%   2ND parameter is COLS </span>
+
+m = zeros(2, 3)              <span class="comment">% Creates a 2x3 matrix of zeros</span>
+v = ones(1, 3)               <span class="comment">% Creates a 1x3 matrix (row vector) of ones</span>
+m = eye(3)                   <span class="comment">% Identity matrix (3x3)</span>
+v = rand(3, 1)               <span class="comment">% Randomly filled 3x1 matrix (column </span>
+                             <span class="comment">% vector); see also randn</span>
+
+                             <span class="comment">% But watch out:</span>
+m = zeros(3)                 <span class="comment">% Creates a 3x3 matrix (!) of zeros</span>
+
+
+
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="comment">% (C) Indexing vectors and matrices.</span>
+<span class="comment">% Warning: Indices always start at 1 and *NOT* at 0!</span>
+
+v = [1 2 3];
+v(3)                         <span class="comment">% Access a vector element </span>
+
+
+m = [1 2 3 4; 5 7 8 8; 9 10 11 12; 13 14 15 16]
+m(1, 3)                      <span class="comment">% Access a matrix element</span>
+                             <span class="comment">%       matrix(ROW #, COLUMN #)</span>
+m(2, :)                      <span class="comment">% Access a whole matrix row (2nd row)</span>
+m(:, 1)                      <span class="comment">% Access a whole matrix column (1st column)</span>
+
+m(1, 1:3)                    <span class="comment">% Access elements 1 through 3 of the 1st row</span>
+m(2:3, 2)                    <span class="comment">% Access elements 2 through 3 of the </span>
+                             <span class="comment">%   2nd column</span>
+m(2:<span class="keyword">end</span>, 3)                  <span class="comment">% Keyword &quot;end&quot; accesses the remainder of a</span>
+                             <span class="comment">%   column or row</span>
+
+m = [1 2 3; 4 5 6]     
+size(m)                      <span class="comment">% Returns the size of a matrix</span>
+size(m, 1)                   <span class="comment">% Number of rows</span>
+size(m, 2)                   <span class="comment">% Number of columns</span>
+
+m1 = zeros(size(m))          <span class="comment">% Create a new matrix with the size of m</span>
+
+who                          <span class="comment">% List variables in workspace</span>
+whos                         <span class="comment">% List variables w/ info about size, type, etc.</span>
+
+
+
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="comment">% (3) Simple operations on vectors and matrices</span>
+
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="comment">% (A) Element-wise operations:</span>
+
+<span class="comment">% These operations are done &quot;element by element&quot;.  If two </span>
+<span class="comment">% vectors/matrices are to be added, subtracted, or element-wise</span>
+<span class="comment">% multiplied or divided, they must have the same size.</span>
+
+a = [1 2 3 4]';              <span class="comment">% A column vector</span>
+2 * a                        <span class="comment">% Scalar multiplication</span>
+a / 4                        <span class="comment">% Scalar division</span>
+b = [5 6 7 8]';              <span class="comment">% Another column vector</span>
+a + b                        <span class="comment">% Vector addition</span>
+a - b                        <span class="comment">% Vector subtraction</span>
+a .^ 2                       <span class="comment">% Element-wise squaring (note the &quot;.&quot;)</span>
+a .* b                       <span class="comment">% Element-wise multiplication (note the &quot;.&quot;)</span>
+a ./ b                       <span class="comment">% Element-wise division (note the &quot;.&quot;)</span>
+
+log([1 2 3 4])               <span class="comment">% Element-wise logarithm</span>
+round([1.5 2; 2.2 3.1])      <span class="comment">% Element-wise rounding to nearest integer</span>
+
+<span class="comment">% Other element-wise arithmetic operations include e.g. :</span>
+<span class="comment">%   floor, ceil, ...</span>
+
+
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="comment">% (B) Vector Operations</span>
+<span class="comment">% Built-in Matlab functions that operate on vectors</span>
+
+a = [1 4 6 3]                <span class="comment">% A row vector</span>
+sum(a)                       <span class="comment">% Sum of vector elements</span>
+mean(a)                      <span class="comment">% Mean of vector elements</span>
+var(a)                       <span class="comment">% Variance of elements</span>
+std(a)                       <span class="comment">% Standard deviation</span>
+max(a)                       <span class="comment">% Maximum</span>
+min(a)                       <span class="comment">% Minimum</span>
+
+<span class="comment">% If a matrix is given, then these functions will operate on each column</span>
+<span class="comment">%   of the matrix and return a row vector as result</span>
+a = [1 2 3; 4 5 6]           <span class="comment">% A matrix</span>
+mean(a)                      <span class="comment">% Mean of each column</span>
+max(a)                       <span class="comment">% Max of each column    </span>
+max(max(a))                  <span class="comment">% Obtaining the max of a matrix </span>
+mean(a, 2)                   <span class="comment">% Mean of each row (second argument specifies</span>
+                             <span class="comment">%   dimension along which operation is taken)</span>
+
+
+[1 2 3] * [4 5 6]'           <span class="comment">% 1x3 row vector times a 3x1 column vector</span>
+                             <span class="comment">%   results in a scalar.  Known as dot product</span>
+                             <span class="comment">%   or inner product.  Note the absence of &quot;.&quot;</span>
+
+[1 2 3]' * [4 5 6]           <span class="comment">% 3x1 column vector times a 1x3 row vector </span>
+                             <span class="comment">%   results in a 3x3 matrix.  Known as outer</span>
+                             <span class="comment">%   product.  Note the absence of &quot;.&quot;</span>
+
+
+
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="comment">% (C) Matrix Operations:</span>
+
+a = rand(3,2)                <span class="comment">% A 3x2 matrix</span>
+b = rand(2,4)                <span class="comment">% A 2x4 matrix</span>
+c = a * b                    <span class="comment">% Matrix product results in a 3x4 matrix</span>
+
+a = [1 2; 3 4; 5 6];         <span class="comment">% A 3x2 matrix</span>
+b = [5 6 7];                 <span class="comment">% A 1x3 row vector</span>
+b * a                        <span class="comment">% Vector-matrix product results in</span>
+                             <span class="comment">%   a 1x2 row vector</span>
+c = [8; 9];                  <span class="comment">% A 2x1 column vector</span>
+a * c                        <span class="comment">% Matrix-vector product results in</span>
+                             <span class="comment">%   a 3x1 column vector</span>
+
+a = [1 3 2; 6 5 4; 7 8 9];   <span class="comment">% A 3x3 matrix</span>
+inv(a)                       <span class="comment">% Matrix inverse of a</span>
+eig(a)                       <span class="comment">% Vector of eigenvalues of a</span>
+[V, D] = eig(a)              <span class="comment">% D matrix with eigenvalues on diagonal;</span>
+                             <span class="comment">%   V matrix of eigenvectors</span>
+                             <span class="comment">%   Example for multiple return values!</span>
+[U, S, V] = svd(a)           <span class="comment">% Singular value decomposition of a.</span>
+                             <span class="comment">%   a = U * S * V', singular values are</span>
+                             <span class="comment">%   stored in S</span>
+
+<span class="comment">% Other matrix operations: det, norm, rank, ...</span>
+
+
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="comment">% (D) Reshaping and assembling matrices:</span>
+
+a = [1 2; 3 4; 5 6];         <span class="comment">% A 3x2 matrix</span>
+b = a(:)                     <span class="comment">% Make 6x1 column vector by stacking </span>
+                             <span class="comment">%   up columns of a</span>
+sum(a(:))                    <span class="comment">% Useful:  sum of all elements</span>
+
+a = reshape(b, 2, 3)         <span class="comment">% Make 2x3 matrix out of vector </span>
+                             <span class="comment">%   elements (column-wise)</span>
+
+a = [1 2]; b = [3 4];        <span class="comment">% Two row vectors</span>
+c = [a b]                    <span class="comment">% Horizontal concatenation (see horzcat)</span>
+
+a = [1; 2; 3];               <span class="comment">% Column vector</span>
+c = [a; 4]                   <span class="comment">% Vertical concatenation (see vertcat)</span>
+
+a = [eye(3) rand(3)]         <span class="comment">% Concatenation for matrices</span>
+b = [eye(3); ones(1, 3)]
+
+b = repmat(5, 3, 2)          <span class="comment">% Create a 3x2 matrix of fives</span>
+b = repmat([1 2; 3 4], 1, 2) <span class="comment">% Replicate the 2x2 matrix twice in</span>
+                             <span class="comment">%   column direction; makes 2x4 matrix</span>
+b = diag([1 2 3])            <span class="comment">% Create 3x3 diagonal matrix with given</span>
+                             <span class="comment">%   diagonal elements</span>
+
+
+
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="comment">% (4) Control statements &amp; vectorization</span>
+
+<span class="comment">% Syntax of control flow statements:</span>
+<span class="comment">% </span>
+<span class="comment">% for VARIABLE = EXPR</span>
+<span class="comment">%     STATEMENT</span>
+<span class="comment">%      ...</span>
+<span class="comment">%     STATEMENT</span>
+<span class="comment">% end </span>
+<span class="comment">%</span>
+<span class="comment">%   EXPR is a vector here, e.g. 1:10 or -1:0.5:1 or [1 4 7]</span>
+<span class="comment">% </span>
+<span class="comment">%</span>
+<span class="comment">% while EXPRESSION</span>
+<span class="comment">%     STATEMENTS</span>
+<span class="comment">% end</span>
+<span class="comment">% </span>
+<span class="comment">% if EXPRESSION</span>
+<span class="comment">%     STATEMENTS </span>
+<span class="comment">% elseif EXPRESSION</span>
+<span class="comment">%     STATEMENTS</span>
+<span class="comment">% else</span>
+<span class="comment">%     STATEMENTS</span>
+<span class="comment">% end </span>
+<span class="comment">%</span>
+<span class="comment">%   (elseif and else clauses are optional, the &quot;end&quot; is required)</span>
+<span class="comment">%</span>
+<span class="comment">%   EXPRESSIONs are usually made of relational clauses, e.g. a &lt; b</span>
+<span class="comment">%   The operators are &lt;, &gt;, &lt;=, &gt;=, ==, ~=  (almost like in C(++))</span>
+
+<span class="comment">% Warning:</span>
+<span class="comment">%   Loops run very slowly in Matlab, because of interpretation overhead.</span>
+<span class="comment">%   This has gotten somewhat better in version 6.5, but you should</span>
+<span class="comment">%   nevertheless try to avoid them by &quot;vectorizing&quot; the computation, </span>
+<span class="comment">%   i.e. by rewriting the code in form of matrix operations.  This is</span>
+<span class="comment">%   illustrated in some examples below.</span>
+
+<span class="comment">% Examples:</span>
+<span class="keyword">for</span> i=1:2:7                  <span class="comment">% Loop from 1 to 7 in steps of 2</span>
+  i                          <span class="comment">% Print i</span>
+<span class="keyword">end</span>
+
+<span class="keyword">for</span> i=[5 13 -1]              <span class="comment">% Loop over given vector</span>
+  <span class="keyword">if</span> (i &gt; 10)                <span class="comment">% Sample if statement</span>
+    disp(<span class="string">'Larger than 10'</span>)   <span class="comment">% Print given string</span>
+  <span class="keyword">elseif</span> i &lt; 0               <span class="comment">% Parentheses are optional</span>
+    disp(<span class="string">'Negative value'</span>) 
+  <span class="keyword">else</span>
+    disp(<span class="string">'Something else'</span>)
+  <span class="keyword">end</span>
+<span class="keyword">end</span>
+
+
+<span class="comment">% Here is another example: given an mxn matrix A and a 1xn </span>
+<span class="comment">% vector v, we want to subtract v from every row of A.</span>
+
+m = 50; n = 10; A = ones(m, n); v = 2 * rand(1, n); 
+<span class="comment">%</span>
+<span class="comment">% Implementation using loops:</span>
+<span class="keyword">for</span> i=1:m
+  A(i,:) = A(i,:) - v;
+<span class="keyword">end</span>
+
+<span class="comment">% We can compute the same thing using only matrix operations</span>
+A = ones(m, n) - repmat(v, m, 1);   <span class="comment">% This version of the code runs </span>
+                                    <span class="comment">%   much faster!!!</span>
+
+
+<span class="comment">% We can vectorize the computation even when loops contain</span>
+<span class="comment">%   conditional statements.</span>
+<span class="comment">%</span>
+<span class="comment">% Example: given an mxn matrix A, create a matrix B of the same size</span>
+<span class="comment">%   containing all zeros, and then copy into B the elements of A that</span>
+<span class="comment">%   are greater than zero.</span>
+
+<span class="comment">% Implementation using loops:</span>
+B = zeros(m,n);
+<span class="keyword">for</span> i=1:m
+  <span class="keyword">for</span> j=1:n
+    <span class="keyword">if</span> A(i,j)&gt;0
+      B(i,j) = A(i,j);
+    <span class="keyword">end</span>
+  <span class="keyword">end</span>
+<span class="keyword">end</span>
+
+<span class="comment">% All this can be computed w/o any loop!</span>
+B = zeros(m,n);
+ind = find(A &gt; 0);           <span class="comment">% Find indices of positive elements of A </span>
+                             <span class="comment">%   (see &quot;help find&quot; for more info)</span>
+B(ind) = A(ind);             <span class="comment">% Copies into B only the elements of A</span>
+                             <span class="comment">%   that are &gt; 0</span>
+
+
+
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="comment">%(5) Saving your work</span>
+
+save myfile                  <span class="comment">% Saves all workspace variables into</span>
+                             <span class="comment">%   file myfile.mat</span>
+save myfile a b              <span class="comment">% Saves only variables a and b</span>
+
+clear a b                    <span class="comment">% Removes variables a and b from the</span>
+                             <span class="comment">%   workspace</span>
+clear                        <span class="comment">% Clears the entire workspace</span>
+
+load myfile                  <span class="comment">% Loads variable(s) from myfile.mat</span>
+
+ 
+ 
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="comment">%(6) Creating scripts or functions using m-files: </span>
+<span class="comment">%</span>
+<span class="comment">% Matlab scripts are files with &quot;.m&quot; extension containing Matlab </span>
+<span class="comment">% commands.  Variables in a script file are global and will change the</span>
+<span class="comment">% value of variables of the same name in the environment of the current</span>
+<span class="comment">% Matlab session.  A script with name &quot;script1.m&quot; can be invoked by</span>
+<span class="comment">% typing &quot;script1&quot; in the command window.</span>
+
+<span class="comment">% Functions are also m-files. The first line in a function file must be</span>
+<span class="comment">% of this form: </span>
+<span class="comment">% function [outarg_1, ..., outarg_m] = myfunction(inarg_1, ..., inarg_n)</span>
+<span class="comment">%</span>
+<span class="comment">% The function name should be the same as that of the file </span>
+<span class="comment">% (i.e. function &quot;myfunction&quot; should be saved in file &quot;myfunction.m&quot;). </span>
+<span class="comment">% Have a look at myfunction.m and myotherfunction.m for examples.</span>
+<span class="comment">%</span>
+<span class="comment">% Functions are executed using local workspaces: there is no risk of</span>
+<span class="comment">% conflicts with the variables in the main workspace. At the end of a</span>
+<span class="comment">% function execution only the output arguments will be visible in the</span>
+<span class="comment">% main workspace.</span>
+ 
+a = [1 2 3 4];               <span class="comment">% Global variable a</span>
+b = myfunction(2 * a)        <span class="comment">% Call myfunction which has local </span>
+                             <span class="comment">%   variable a</span>
+a                            <span class="comment">% Global variable a is unchanged</span>
+
+[c, d] = <span class="cont">...</span>
+  myotherfunction(a, b)      <span class="comment">% Call myotherfunction with two return</span>
+                             <span class="comment">% values</span>
+
+
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="comment">%(7) Plotting </span>
+
+x = [0 1 2 3 4];             <span class="comment">% Basic plotting</span>
+plot(x);                     <span class="comment">% Plot x versus its index values</span>
+pause                        <span class="comment">% Wait for key press</span>
+plot(x, 2*x);                <span class="comment">% Plot 2*x versus x</span>
+axis([0 8 0 8]);             <span class="comment">% Adjust visible rectangle</span>
+
+figure;                      <span class="comment">% Open new figure</span>
+x = pi*[-24:24]/24;
+plot(x, sin(x));
+xlabel(<span class="string">'radians'</span>);           <span class="comment">% Assign label for x-axis</span>
+ylabel(<span class="string">'sin value'</span>);         <span class="comment">% Assign label for y-axis</span>
+title(<span class="string">'dummy'</span>);              <span class="comment">% Assign plot title</span>
+
+figure;                      
+subplot(1, 2, 1);            <span class="comment">% Multiple functions in separate graphs</span>
+plot(x, sin(x));             <span class="comment">%   (see &quot;help subplot&quot;)</span>
+axis square;                 <span class="comment">% Make visible area square</span>
+subplot(1, 2, 2);
+plot(x, 2*cos(x));
+axis square;
+
+figure;                      
+plot(x, sin(x));
+hold on;                     <span class="comment">% Multiple functions in single graph           </span>
+plot(x, 2*cos(x), <span class="string">'--'</span>);     <span class="comment">% '--' chooses different line pattern</span>
+legend(<span class="string">'sin'</span>, <span class="string">'cos'</span>);        <span class="comment">% Assigns names to each plot</span>
+hold off;                    <span class="comment">% Stop putting multiple figures in current</span>
+                             <span class="comment">%   graph</span>
+
+figure;                      <span class="comment">% Matrices vs. images</span>
+m = rand(64,64);
+imagesc(m)                   <span class="comment">% Plot matrix as image</span>
+colormap gray;               <span class="comment">% Choose gray level colormap</span>
+axis image;                  <span class="comment">% Show pixel coordinates as axes</span>
+axis off;                    <span class="comment">% Remove axes</span>
+
+
+
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+<span class="comment">%(8) Working with (gray level) images</span>
+
+I = imread(<span class="string">'cit.png'</span>);         <span class="comment">% Read a PNG image</span>
+
+figure
+imagesc(I)                    <span class="comment">% Display it as gray level image</span>
+colormap gray;
+
+colorbar                      <span class="comment">% Turn on color bar on the side</span>
+impixelinfo                        <span class="comment">% Display pixel values interactively</span>
+truesize                      <span class="comment">% Display at resolution of one screen</span>
+                              <span class="comment">%   pixel per image pixel</span>
+truesize(2*size(I))           <span class="comment">% Display at resolution of two screen</span>
+                              <span class="comment">%   pixels per image pixel</span>
+
+I2 = imresize(I, 0.5, <span class="string">'bil'</span>); <span class="comment">% Resize to 50% using bilinear </span>
+                              <span class="comment">%   interpolation</span>
+I3 = imrotate(I2, 45, <span class="cont">...</span><span class="comment">     % Rotate 45 degrees and crop to</span>
+              <span class="string">'bil'</span>, <span class="string">'crop'</span>); <span class="comment">%   original size</span>
+
+I3 = double(I2);              <span class="comment">% Convert from uint8 to double, to allow</span>
+                              <span class="comment">%   math operations</span>
+imagesc(I3.^2)                <span class="comment">% Display squared image (pixel-wise)</span>
+imagesc(log(I3))              <span class="comment">% Display log of image (pixel-wise)</span>
+I3 = uint8(I3);               <span class="comment">% Convert back to uint8 for writing</span>
+imwrite(I3, <span class="string">'test.png'</span>)       <span class="comment">% Save image as PNG</span>
+
+figure;
+g = [1 2 1]' * [1 2 1] / 16;  <span class="comment">% 3x3 Gaussian filter mask</span>
+I2 = double(I);               <span class="comment">% Convert image to floating point</span>
+I3 = conv2(I2, g);            <span class="comment">% Convolve image with filter mask</span>
+I3 = conv2(I2, g, <span class="string">'same'</span>);    <span class="comment">% Convolve image, but keep original size</span>
+subplot(1, 2, 1)              <span class="comment">% Display original and filtered image</span>
+imagesc(I);                   <span class="comment">%   side-by-side</span>
+axis square;
+colormap gray;
+subplot(1, 2, 2)
+imagesc(I3);
+axis square;
+colormap gray;
+
+<span class="comment">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</span>
+</pre>
+
+
+<h2>myfunction.m</h2>
+<a name="myfunction" id="myfunction"></a><pre class="mcode"><span class="keyword">function</span> y = myfunction(x)
+<span class="comment">% Function of one argument with one return value</span>
+
+a = [-2 -1 0 1];              <span class="comment">% Have a global variable of the same name</span>
+y = a + x;
+</pre>
+
+
+<h2>myotherfunction.m</h2>
+<a name="myotherfunction" id="myotherfunction"></a><pre class="mcode"><span class="keyword">function</span> [y, z] = myotherfunction(a, b)
+<span class="comment">% Function of two arguments with two return values</span>
+
+y = a + b;
+z = a - b;
+</pre>
+
+    <hr>
+    <div class="navfoot">
+      <div class="footname">
+	Created by <a href="mailto: roth (AT) cs DOT brown DOT edu">
+	  Stefan Roth</a>
+      </div>
+      <div class="footdate">
+	Last updated: 2003-09-10
+      </div>
+    </div>
+  </body>
+</html>
+

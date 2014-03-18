@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="description" content="Index Construction Introduction to Information Retrieval CS 221 Donald J. Patterson Content adapted from Hinrich Schütze http://www.informationretrieval.org  Introduction Hardware BSBI - Block sort-based indexing SPIMI - Single Pass in-memory indexing Distributed indexing Dynamic indexing Miscellaneous topics Overview Index Construction  Indices The index has a list of vector space models  Indices “Term-Document Matrix” Capture Keywords A Column for Each Web Page (or “Document”) A Row For Each Word (or “Term”) ...........  This picture is deceptive it is really very sparse Our queries are terms - not documents We need to “invert” the vector space model To make “postings”  Terms Inverted index (Term, Document) pairs building blocks for working with Term-Document Matrices Index construction (or indexing) The process of building an inverted index from a corpus Indexer The system architecture and algorithm that constructs the index Introduction  Indices The index is built from term-document pairs  Indices The index is built from term-document pairs Core indexing step is to sort by terms  Indices Term-document pairs make lists of postings A posting is a list of all documents in which a term occurs. This is “inverted“ from how documents naturally occur  Terms How do we construct an index? Introduction  Interactions An indexer needs raw text We need crawlers to get the documents We need APIs to get the documents from data stores We need parsers (HTML, PDF, PowerPoint, etc.) to convert the documents Indexing the web means this has to be done web-scale Introduction  Construction Index construction in main memory is simple and fast. But: As we build the index we parse docs one at a time Final postings for a term are incomplete until the end. At 10-12 postings per term, large collections demand a lot of space Intermediate results must be stored on disk Introduction  Introduction Hardware BSBI - Block sort-based indexing SPIMI - Single Pass in-memory indexing Distributed indexing Dynamic indexing Miscellaneous topics Overview Index Construction  System Parameters Disk seek time              = 0.005 sec Transfer time per byte = 0.00000002 sec Processor clock rate   = 0.00000001 sec Size of main memory = several GB Size of disk space       = several TB Hardware in 2007  System Parameters Disk Seek Time The amount of time to get the disk head to the data About 10 times slower than memory access We must utilize caching No data is transferred during seek Data is transferred from disk in blocks There is no additional overhead to read in an entire block 0.2 seconds to get 10 MB if it is one block 0.7 seconds to get 10 MB if it is stored in 100 blocks Hardware in 2007  System Parameters Data is transferred from disk in blocks Operating Systems read data in blocks, so Reading one byte and reading one block take the same amount of time  Hardware in 2007  System Parameters Data transfers are done on the system bus, not by the processor The processor is not used during disk I/O Assuming an efficient decompression algorithm The total time of reading and then decompressing compressed data is usually less than reading uncompressed data. Hardware in 2007  Introduction Hardware BSBI - Block sort-based indexing SPIMI - Single Pass in-memory indexing Distributed indexing Dynamic indexing Miscellaneous topics Overview Index Construction  Reuters collection example (approximate #’s) 800,000 documents from the Reuters news feed 200 terms per document 400,000 unique terms number of postings 100,000,000 BSBI  Reuters collection example (approximate #’s) Sorting 100,000,000 records on disk is too slow because of disk seek time. Parse and build posting entries one at a time Sort posting entries by term  Then by document in each term Doing this with random disk seeks is too slow e.g. If every comparison takes 2 disk seeks and N items need to be sorted with N log2(N) comparisons? 306ish days? BSBI  Reuters collection example (approximate #’s) 100,000,000 records Nlog2(N) is = 2,657,542,475.91 comparisons 2 disk seeks per comparison = 13,287,712.38 seconds x 2 = 26,575,424.76 seconds = 442,923.75 minutes = 7,382.06 hours = 307.59 days  = 84% of a year = 1% of your life BSBI  Different way to sort index 12-byte records  (term, doc, meta-data) Need to sort T= 100,000,000 such 12-byte records by term Define a block to have 1,600,000 such records  can easily fit a couple blocks in memory we will be working with 64 such blocks Accumulate postings for each block (real blocks are bigger) Sort each block Write to disk Then merge BSBI - Block sort-based indexing  Different way to sort index BSBI - Block sort-based indexing  BlockSortBasedIndexConstruction BSBI - Block sort-based indexing  Block merge indexing Parse documents into (TermID, DocID) pairs until “block” is full Invert the block Sort the (TermID,DocID) pairs Compile into TermID posting lists Write the block to disk Then merge all blocks into one large postings file Need 2 copies of the data on disk (input then output) BSBI - Block sort-based indexing  Analysis of BSBI The dominant term is O(TlogT) T is the number of TermID,DocID pairs But in practice ParseNextBlock takes the most time Then MergingBlocks Again, disk seeks times versus memory access times BSBI - Block sort-based indexing  Analysis of BSBI 12-byte records  (term, doc, meta-data) Need to sort T= 100,000,000 such 12-byte records by term Define a block to have 1,600,000 such records  can easily fit a couple blocks in memory we will be working with 64 such blocks 64 blocks * 1,600,000 records * 12 bytes = 1,228,800,000 bytes Nlog2N comparisons is 5,584,577,250.93 2 touches per comparison at memory speeds (10e-6 sec) = 55,845.77 seconds = 930.76 min = 15.5 hours BSBI - Block sort-based indexing  Introduction Hardware BSBI - Block sort-based indexing SPIMI - Single Pass in-memory indexing Distributed indexing Dynamic indexing Miscellaneous topics Overview Index Construction  SPIMI BSBI is good but, it needs a data structure for mapping terms to termIDs this won’t fit in memory for big corpora Straightforward solution dynamically create dictionaries  store the dictionaries with the blocks integrate sorting and merging Single-Pass In-Memory Indexing  Single-Pass In-Memory Indexing  So what is different here? SPIMI adds postings directly to a posting list. BSBI first collected (TermID,DocID pairs) then sorted them then aggregated the postings Each posting list is dynamic so there is no term sorting Saves memory because a term is only stored once Complexity is O(T) Compression enables bigger effective blocks Single-Pass In-Memory Indexing  Large Scale Indexing Key decision in block merge indexing is block size In practice, spidering often interlaced with indexing Spidering bottlenecked by WAN speed and other factors Single-Pass In-Memory Indexing  Single-Pass In-Memory Indexing  Introduction Hardware BSBI - Block sort-based indexing SPIMI - Single Pass in-memory indexing Distributed indexing Dynamic indexing Miscellaneous topics Overview Index Construction  Web-scale indexing Must use a distributed computing cluster “Cloud computing” Individual machines are fault-prone They slow down unpredictably or fail Automatic maintenance Software bugs Transient network conditions A truck crashing into the pole outside Hardware fatigue and then failure Distributed Indexing End of Chapter 4"/>
+    <title></title>
+    <script type="text/javascript" language="javascript">
+//      <![CDATA[
+            var images = new Array (35);
+            images[0] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.001.png";
+            images[1] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.002.png";
+            images[2] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.003.png";
+            images[3] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.004.png";
+            images[4] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.005.png";
+            images[5] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.006.png";
+            images[6] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.007.png";
+            images[7] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.008.png";
+            images[8] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.009.png";
+            images[9] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.010.png";
+            images[10] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.011.png";
+            images[11] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.012.png";
+            images[12] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.013.png";
+            images[13] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.014.png";
+            images[14] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.015.png";
+            images[15] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.016.png";
+            images[16] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.017.png";
+            images[17] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.018.png";
+            images[18] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.019.png";
+            images[19] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.020.png";
+            images[20] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.021.png";
+            images[21] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.022.png";
+            images[22] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.023.png";
+            images[23] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.024.png";
+            images[24] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.025.png";
+            images[25] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.026.png";
+            images[26] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.027.png";
+            images[27] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.028.png";
+            images[28] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.029.png";
+            images[29] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.030.png";
+            images[30] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.031.png";
+            images[31] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.032.png";
+            images[32] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.033.png";
+            images[33] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.034.png";
+            images[34] = "Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.035.png";
+            var index = 0;
+            function WindowLoaded(evt)
+            {
+                document.body.onselectstart = function () { return false; };
+            }
+            function Step(i)
+            {
+                GoTo(index + i)
+            }
+            function GoTo(newIndex)
+            {
+                if(newIndex >= 0 && newIndex < images.length)
+                {
+                    index = newIndex;
+                    document.Slideshow.src = images[index];
+                }
+            }
+//      ]]>
+    </script>
+</head>
+<body bgcolor="black" onload='WindowLoaded(event);'>
+    <p align="center">
+        <br/>
+        <br/>
+        <img name="Slideshow" alt="" src="Lecture06_02_Slides_CS221_files/Lecture06_02_Slides_CS221.001.png" onclick="Step(1)"/>
+        <br/>
+        <br/>
+        <input type="image" src="Lecture06_02_Slides_CS221_files/home.png" onclick="GoTo(0)"/>
+        &nbsp;&nbsp;&nbsp;
+        <input type="image" src="Lecture06_02_Slides_CS221_files/prev.png" onclick="Step(-1)"/>
+        <input type="image" src="Lecture06_02_Slides_CS221_files/next.png" onclick="Step(1)"/>
+    </p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Contenxt (Not content or context) in computer vision</title>
+	<atom:link href="http://ngs.ics.uci.edu/contenxt-not-content-or-context-in-computer-vision/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/contenxt-not-content-or-context-in-computer-vision/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: dinesh vadhia</title>
+		<link>http://ngs.ics.uci.edu/contenxt-not-content-or-context-in-computer-vision/comment-page-1/#comment-3548</link>
+		<dc:creator><![CDATA[dinesh vadhia]]></dc:creator>
+		<pubDate>Sun, 11 Apr 2010 21:05:12 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1247#comment-3548</guid>
+		<description><![CDATA[Ramesh
+
+You may find this technology article of interest which was published on The Noisy Channel at http://thenoisychannel.com/2010/04/04/guest-post-information-retrieval-using-a-bayesian-model-of-learning-and-generalization/.  
+
+As you&#039;ll see from the article, items are defined by feature vectors.  Recently, we built image search prototypes using the Nus-Wide data set and built one with content features and another with content plus context features.  Both worked very well and the one with the addition of context delivering slightly better query results.  There is no reason why the same cannot be achieved with audio too.  Mixing content with context is possible and works.
+
+Dinesh]]></description>
+		<content:encoded><![CDATA[<p>Ramesh</p>
+<p>You may find this technology article of interest which was published on The Noisy Channel at <a href="http://thenoisychannel.com/2010/04/04/guest-post-information-retrieval-using-a-bayesian-model-of-learning-and-generalization/" rel="nofollow">http://thenoisychannel.com/2010/04/04/guest-post-information-retrieval-using-a-bayesian-model-of-learning-and-generalization/</a>.  </p>
+<p>As you&#8217;ll see from the article, items are defined by feature vectors.  Recently, we built image search prototypes using the Nus-Wide data set and built one with content features and another with content plus context features.  Both worked very well and the one with the addition of context delivering slightly better query results.  There is no reason why the same cannot be achieved with audio too.  Mixing content with context is possible and works.</p>
+<p>Dinesh</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

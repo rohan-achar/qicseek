@@ -1,0 +1,250 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>
+	Dissertations &#8211; Software Design and Collaboration Laboratory</title>
+
+<meta name="author" content="SDCL" />
+<link rel="shortcut icon" href="http://sdcl.ics.uci.edu/wp-content/themes/edegree/images/favicon.ico" type="image/x-icon" />
+<link rel="alternate" type="application/rss+xml" title="SDCL RSS Feed" href="http://sdcl.ics.uci.edu/feed/" />
+<link rel="pingback" href="http://sdcl.ics.uci.edu/xmlrpc.php" />
+				
+	<script type="text/javascript">//<![CDATA[
+	// Google Analytics for WordPress by Yoast v4.0.11 | http://yoast.com/wordpress/google-analytics/
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount','UA-23159745-1']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	//]]></script>
+<link rel="alternate" type="application/rss+xml" title="SDCL &raquo; Dissertations Comments Feed" href="http://sdcl.ics.uci.edu/papers/dissertations/feed/" />
+<script type='text/javascript' src='http://sdcl.ics.uci.edu/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://sdcl.ics.uci.edu/wp-includes/js/jquery/jquery.js?ver=1.4.4'></script>
+<script type='text/javascript' src='http://sdcl.ics.uci.edu/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://sdcl.ics.uci.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://sdcl.ics.uci.edu/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='SDCL' href='http://sdcl.ics.uci.edu/' />
+<link rel='up' title='Papers' href='http://sdcl.ics.uci.edu/papers/' />
+<link rel='prev' title='Papers' href='http://sdcl.ics.uci.edu/papers/' />
+<link rel='next' title='Opportunities' href='http://sdcl.ics.uci.edu/opportunities/' />
+<meta name="generator" content="WordPress 3.1.1" />
+<link rel='canonical' href='http://sdcl.ics.uci.edu/papers/dissertations/' />
+
+	<!-- begin gallery scripts -->
+    <link rel="stylesheet" href="http://sdcl.ics.uci.edu/wp-content/plugins/featured-content-gallery/css/jd.gallery.css.php" type="text/css" media="screen" charset="utf-8"/>
+	<link rel="stylesheet" href="http://sdcl.ics.uci.edu/wp-content/plugins/featured-content-gallery/css/jd.gallery.css" type="text/css" media="screen" charset="utf-8"/>
+	<script type="text/javascript" src="http://sdcl.ics.uci.edu/wp-content/plugins/featured-content-gallery/scripts/mootools.v1.11.js"></script>
+	<script type="text/javascript" src="http://sdcl.ics.uci.edu/wp-content/plugins/featured-content-gallery/scripts/jd.gallery.js.php"></script>
+	<script type="text/javascript" src="http://sdcl.ics.uci.edu/wp-content/plugins/featured-content-gallery/scripts/jd.gallery.transitions.js"></script>
+	<!-- end gallery scripts -->
+<style type="text/css">
+	#header {text-align:left }
+	#description { clear:left;float: left; }
+</style>
+
+<link href="http://sdcl.ics.uci.edu/wp-content/themes/edegree/style.css" type="text/css" rel="stylesheet" />
+
+<script type="text/javascript" src="http://sdcl.ics.uci.edu/wp-content/themes/edegree/js/superfish.js"></script>
+<script type="text/javascript" src="http://sdcl.ics.uci.edu/wp-content/themes/edegree/js/functions.js"></script>
+
+<!--[if gte IE 5.5]>
+<style type="text/css">.post img, .page img, .customhtml img {width: expression(this.width > 495 ? 495: true) }</style>
+<![endif]-->
+</head>
+
+<body class="page page-id-15 page-child parent-pageid-13 internalpage" style="font-size:12px;color:#575757;">
+<div id="bg" >
+  <div id="wrapper">
+    <div id="shadow">
+     
+        <div id="header">
+          <h1 id="logo">
+			            	<a href="http://sdcl.ics.uci.edu" id="blogname" style="background:none;text-indent:0;width:auto"><span class="blod">SDCL</span> Software Design and Collaboration Laboratory</a>
+                      </h1>
+          
+			          
+
+        </div>
+        
+                
+        <div id="container">
+			<div id="container-shoulder-plain">
+            	<div id="left-col">			
+					<div class="page">
+				<h2 class="catheader">Dissertations</h2> 				
+				<div class="page-content">
+						<h4>2013</h4>
+<ul>
+<li>Nicolas Mangano, <a href="http://sdcl.ics.uci.edu/downloads/mangano.pdf" >Calico: An early-phase software design tool</a>, Ph.D. dissertation.</li>
+</ul>
+<p>&nbsp;</p>
+<h4>2010</h4>
+<ul>
+<li>Alex Baker, <a href="http://sdcl.ics.uci.edu/downloads/abaker.pdf" >Theoretical and Empirical Studies of Software&#8217;s Role as a Design Discipline</a>, Ph.D. dissertation.</li>
+</ul>
+<p>&nbsp;</p>
+<h4>2009</h4>
+<ul>
+<li>Eugen Nistor, <a title="Eugen Nistor dissertation" href="https://webfiles.uci.edu/enistor/thesis.pdf" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','webfiles.uci.edu']);" target="_blank">Concern-Driven Software Evolution</a>, Ph.D. dissertation.</li>
+</ul>
+<p>&nbsp;</p>
+<h4>2008</h4>
+<ul>
+<li>Anita Sarma, <a title="Anita Sarma dissertation" href="http://www.cse.unl.edu/~asarma/papers/asarma_dissertation.pdf" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','www.cse.unl.edu']);" target="_blank">Palantír: Enhancing Configuration Management Systems with Workspace Awareness to Detect and Resolve Emerging Conflicts</a>, Ph.D. dissertation.</li>
+</ul>
+<p>&nbsp;</p>
+<h4>2006</h4>
+<ul>
+<li>Emily Navarro, <a title="Emily Navarro dissertation" href="http://www.ics.uci.edu/~emilyo/papers/Dissertation.pdf"  target="_blank">SimSE: A Software Engineering Simulation Environment for Software Process Education</a>, Ph.D. dissertation.</li>
+</ul>
+<p>&nbsp;</p>
+<h4>2004</h4>
+<ul>
+<li>Chris Lüer, User-Centric Deployment Support in a Component Platform, Ph.D. dissertation.</li>
+</ul>
+<p>&nbsp;</p>
+										</div>
+                
+                
+
+			<!-- If comments are closed. -->
+		
+	
+
+			</div>
+				
+				<div class="recover"></div>
+        </div><!--End left-col-->
+              
+			  		<!-- begin sidebar -->
+		<div id="sidebar">
+			                <div id="top-content-internal">
+                                    </div>
+                    <!--    
+            <div id="socialize-icons">
+                <ul>
+                                        	<li id="icon-facebook"><a href="#" rel="nofollow" target="_blank">facebook</a></li>
+					                    	
+	                    <li id="icon-twitter"><a href="#" rel="nofollow" target="_blank">twitter</a></li>
+					                                        	
+                    	<li id="icon-rss"><a href="http://sdcl.ics.uci.edu/feed/">RSS Feed</a></li>
+						
+                                        	<li id="icon-youtube"><a href="#" rel="nofollow" target="_blank">YouTube</a></li>
+                    	
+                </ul>
+            </div>
+            -->
+        	  
+			<ul>
+			  <li class="widget" id="categoryposts-4"><h2>News</h2><ul>
+</ul>
+</li><li class="widget" id="categoryposts-3"><h2>Travel</h2><ul>
+</ul>
+</li><li class="widget" id="linkcat-8"><h2>Collaborators</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://faculty.washington.edu/ajko/" target="_top" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','http://faculty.washington.edu/ajko/']);">Andrew Ko</a></li>
+<li><a href="http://csce.unl.edu/~asarma/" target="_top" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','http://csce.unl.edu/~asarma/']);">Anita Sarma</a></li>
+<li><a href="http://www.cs.cmu.edu/~bam/" target="_top" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','http://www.cs.cmu.edu/~bam/']);">Brad Myers</a></li>
+<li><a href="http://www.andrew.cmu.edu/user/aven/" target="_top" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','http://www.andrew.cmu.edu/user/aven/']);">Brandy Aven</a></li>
+<li><a href="http://www.ics.uci.edu/~lopes/" target="_top" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','http://www.ics.uci.edu/~lopes/']);">Crista Lopes</a></li>
+<li><a href="http://www.ics.uci.edu/~redmiles/" target="_top" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','http://www.ics.uci.edu/~redmiles/']);">David Redmiles</a></li>
+<li><a href="http://herbsleb.org/" target="_top" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','http://herbsleb.org/']);">Jim Herbsleb</a></li>
+<li><a href="http://lauradabbish.com/" target="_top" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','http://lauradabbish.com/']);">Laura Dabbish</a></li>
+<li><a href="http://public.tepper.cmu.edu/facultydirectory/FacultyDirectoryProfile.aspx?id=38" target="_top" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','http://public.tepper.cmu.edu/facultydirectory/FacultyDirectoryProfile.aspx?id=38']);">Linda Argote</a></li>
+<li><a href="http://web.engr.oregonstate.edu/~burnett/" target="_top" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','http://web.engr.oregonstate.edu/~burnett/']);">Margaret Burnett</a></li>
+<li><a href="http://mcs.open.ac.uk/mp8/" target="_top" onclick="javascript:_gaq.push(['_trackEvent','outbound-blogroll','http://mcs.open.ac.uk/mp8/']);">Marian Petre</a></li>
+
+	</ul>
+</li>
+	
+              
+                                            	
+			</ul>
+		</div><!-- end sidebar -->
+              
+              <div class="recover"></div>
+			</div><!-- #container-shoulder -->
+        </div><!-- #Container-->
+         
+ 
+        <div id="globalnav">                
+        	<div id="navpocket">                
+                <ul id="nav" class="nav-wide">                
+                                        <li><a href="http://sdcl.ics.uci.edu" rel="nofollow">Home</a></li>
+                                        
+                    <li class="page_item page-item-11"><a href="http://sdcl.ics.uci.edu/research/" title="Research">Research</a>
+<ul class='children'>
+	<li class="page_item page-item-25"><a href="http://sdcl.ics.uci.edu/research/calico/" title="Calico">Calico</a></li>
+	<li class="page_item page-item-1444"><a href="http://sdcl.ics.uci.edu/research/codeexchange/" title="CodeExchange">CodeExchange</a></li>
+	<li class="page_item page-item-1274"><a href="http://sdcl.ics.uci.edu/research/code-topics/" title="Code Topics">Code Topics</a></li>
+	<li class="page_item page-item-1324"><a href="http://sdcl.ics.uci.edu/research/crowd-development/" title="Crowd Development">Crowd Development</a></li>
+	<li class="page_item page-item-31"><a href="http://sdcl.ics.uci.edu/research/porchlight/" title="PorchLight">PorchLight</a></li>
+	<li class="page_item page-item-33"><a href="http://sdcl.ics.uci.edu/research/past-projects/" title="Past projects">Past projects</a></li>
+</ul>
+</li>
+<li class="page_item page-item-13 current_page_ancestor current_page_parent"><a href="http://sdcl.ics.uci.edu/papers/" title="Papers">Papers</a>
+<ul class='children'>
+	<li class="page_item page-item-40"><a href="http://sdcl.ics.uci.edu/papers/technical-reports/" title="Technical reports">Technical reports</a></li>
+	<li class="page_item page-item-15 current_page_item"><a href="http://sdcl.ics.uci.edu/papers/dissertations/" title="Dissertations">Dissertations</a></li>
+	<li class="page_item page-item-347"><a href="http://sdcl.ics.uci.edu/papers/books/" title="Books">Books</a></li>
+</ul>
+</li>
+<li class="page_item page-item-19"><a href="http://sdcl.ics.uci.edu/opportunities/" title="Opportunities">Opportunities</a></li>
+<li class="page_item page-item-6"><a href="http://sdcl.ics.uci.edu/people/" title="People">People</a>
+<ul class='children'>
+	<li class="page_item page-item-8"><a href="http://sdcl.ics.uci.edu/people/previous-members/" title="Previous members">Previous members</a></li>
+</ul>
+</li>
+<li class="page_item page-item-176"><a href="http://sdcl.ics.uci.edu/sponsors/" title="Sponsors">Sponsors</a></li>
+<li class="page_item page-item-21"><a href="http://sdcl.ics.uci.edu/contact/" title="Contact">Contact</a>
+<ul class='children'>
+	<li class="page_item page-item-196"><a href="http://sdcl.ics.uci.edu/contact/directions/" title="Directions">Directions</a></li>
+</ul>
+</li>
+                    
+                                    </ul>
+        	</div>
+        </div>
+    </div><!--End shadow-->
+  </div><!--End wrapper-->
+  
+      <div id="footer" >
+        <div class="footer-content">
+            <div class="footer-widget">
+                <ul class="footerlinks">
+                    <li class="widget" id="text-12">			<div class="textwidget">The Software Design and Collaboration Laboratory is housed in the <a href="http://www.ics.uci.edu/informatics" >Department of Informatics</a> in the <a href="http://www.ics.uci.edu/" >Donald Bren School of Information and Computer Sciences</a> at the <a href="http://www.uci.edu" onclick="javascript:_gaq.push(['_trackEvent','outbound-widget','www.uci.edu']);">University of California, Irvine</a>.</div>
+		</li>	
+                </ul>
+            </div>
+                    <div class="recover"></div>
+          
+          <span id="copyright"><span class="alignleft">Copyright &copy;             <script type="text/javascript">
+			/* <![CDATA[ */
+			var startCopyrightYear = 2011;
+			if(!startCopyrightYear) {
+				var d=new Date();
+				startCopyrightYear = d.getFullYear();
+			}
+			printCopyrightYears(startCopyrightYear)
+			/* ]]> */
+            </script>
+            SDCL</span><span id="footer-tag"> | &nbsp; <a href="http://www.topblogformula.com/wordpress-business-themes/edegree" target="_blank">eDegree&#176;</a> Theme by <a href="http://www.topblogformula.com/">Top Blog Formula</a> on <a href="http://www.wordpress.org" target="_blank">WordPress</a></span> | &nbsp; 
+                            <a href="http://sdcl.ics.uci.edu/wp-login.php">Log In</a>
+                      </span>
+    
+        </div>
+      </div><!--End footer-->
+
+</div><!--End bg-->
+
+
+
+
+</body>
+</html>
+

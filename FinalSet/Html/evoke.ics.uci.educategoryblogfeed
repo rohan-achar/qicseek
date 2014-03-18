@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>EVOKE Lab &#187; Blog</title>
+	<atom:link href="http://evoke.ics.uci.edu/category/blog/feed/" rel="self" type="application/rss+xml" />
+	<link>http://evoke.ics.uci.edu</link>
+	<description></description>
+	<lastBuildDate>Fri, 22 Nov 2013 21:32:34 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>My day as a data dealer</title>
+		<link>http://evoke.ics.uci.edu/my-day-as-a-data-dealer/</link>
+		<comments>http://evoke.ics.uci.edu/my-day-as-a-data-dealer/#comments</comments>
+		<pubDate>Thu, 31 Oct 2013 00:42:13 +0000</pubDate>
+		<dc:creator><![CDATA[Norma Möllers]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">http://evoke.ics.uci.edu/?p=674</guid>
+		<description><![CDATA[A while back I stumbled upon a browser game which in some ways could be considered an attempt to gamify privacy literacy. Gamification in the context of surveillance usually means the exploitation of the pleasures of play in order to collect and sell data, i.e. in fitness or productivity apps. In a somewhat similar vein,(...)]]></description>
+				<content:encoded><![CDATA[<p>A while back I stumbled upon a <a href="http://datadealer.com/play/">browser game</a> which in some ways could be considered an attempt to gamify privacy literacy. Gamification in the context of surveillance usually means the exploitation of the pleasures of play in order to collect and sell data, i.e. in fitness or productivity apps. In a somewhat similar vein, <a href="http://datadealer.com/team">a group of web developers/hacktivists</a> based in Vienna, Austria, set out to make education about privacy issues more interesting and pleasurable (but I suspect they don’t want to sell the players’ data). The media reactions made me curious, so I spent one Sunday afternoon trying to experience the dark pleasures of big data.</p>
+<p>The game’s idea is to enable people to gain a better understanding about what institutions, organizations, and people collect personal data; and why and for what purposes they use it. In order to do so, the players have to embrace the “dark values” of the database (which by the way looks like a hybrid between a vacuum cleaner and a vault, see screenshot) and become mean capitalist data dealers themselves.</p>
+<p><a href="http://evoke.ics.uci.edu/my-day-as-a-data-dealer/screenshot-2013-10-27-22-57-10/" rel="attachment wp-att-680"><img class="alignnone size-full wp-image-680" alt="data dealer screenshot" src="http://evoke.ics.uci.edu/wp-content/uploads/2013/10/Screenshot-2013-10-27-22.57.10.png" width="781" height="568" /></a></p>
+<p>I started out my existence as a data dealer with some cash to bribe nurses and tanning salon clerks into releasing customer profiles; some websites (i.e. an online dating site) which allowed me to manipulate profile data; and about a million profiles which were contained in the vault. The main goal was to collect as many profiles as possible and to become filthy rich in the process. In order to make money, I had to sell the collected profiles to different organizations, i.e. health insurance companies and national security organizations.</p>
+<p>However, these organizations were interested in different data – the security agency required information about political orientation, whereas the health care companies were more interested in weight and diet. The game thus creates an incentive to collect only specific kinds of information, to construct profiles which cater to the needs of corporations and bureaucracies. Thereby, the player understands that information has different value to different organizations, and that the profiles’ “completeness” increases their market value.</p>
+<p>The game is sometimes funny, sometimes really smart, and mostly cynical. For example, when I made too many risky deals with shady sources, I was prompted to invest into an image campaign in order to smooth over protests by “youthful data protection activists”. If the game’s purpose is educational, I wonder if the developers really want people to learn that public opinion is hugely irrelevant. Some other things were missing for me, too. For example, when I imported new profiles into my database, I was informed that new information would be integrated into existing profiles “using complicated mathematical methods”. Again, with the educational purpose in mind, I would have wished for more possibilities to tinker with these “mysterious methods”, in order to think about things like algorithms and data mining. To be fair, this was only the demo version, and the full version will probably (hopefully!) include features allowing for such tinkering.</p>
+<p>Finally, what about the pleasure? Whereas the game really made me smile in the beginning, after a while I caught myself getting into a sort of blind data collection frenzy. But at the end of the day, I still hadn’t arrived at collecting even half of all possible profiles, and I hadn’t made much money, either. Two other things I’ve learnt, thus, are that dealing data gets really boring after a while, and that I’m not a very good information capitalist. Still, I believe that in terms of pleasurable education the game could be a really nice teaching resource to stimulate classroom discussions about some of the implications of big data.</p>
+<div class="post-video"><iframe width="500" height="281" src="http://www.youtube.com/embed/x2eCAgQ1DTo?wmode=transparent?feature=oembed" frameborder="0" allowfullscreen></iframe></div>
+]]></content:encoded>
+			<wfw:commentRss>http://evoke.ics.uci.edu/my-day-as-a-data-dealer/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Viewing the World through Technology’s Eyes</title>
+		<link>http://evoke.ics.uci.edu/viewing-the-world-through-technologys-eyes/</link>
+		<comments>http://evoke.ics.uci.edu/viewing-the-world-through-technologys-eyes/#comments</comments>
+		<pubDate>Tue, 22 Oct 2013 23:47:15 +0000</pubDate>
+		<dc:creator><![CDATA[Andy Echenique]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">http://evoke.ics.uci.edu/?p=669</guid>
+		<description><![CDATA[Overlooking a recent technology article on BBC news (http://www.bbc.co.uk/news/technology-24332358), I read about how a Japanese research lab is developing a system to allow users (via augemnted reality) to be able to see the translation of writing in the environment. Naturally, its intended application is to allowing users to see the their foreign surroundings in a(...)]]></description>
+				<content:encoded><![CDATA[<p dir="ltr">Overlooking a recent technology article on BBC news (<a href="http://www.bbc.co.uk/news/technology-24332358">http://www.bbc.co.uk/news/technology-24332358</a>), I read about how a Japanese research lab is developing a system to allow users (via augemnted reality) to be able to see the translation of writing in the environment. Naturally, its intended application is to allowing users to see the their foreign surroundings in a much more familiar light. I’ve actually used a prototype of this system when I worked for NTT Communication Research Labs in Japan, and to be quite honest, it’s a bit of a shame.</p>
+<p> Now let me be clear: as a technology, it’s great! I actually know the people who worked on it and even went to school with one of them, and they’ve done a fantastic job. I also cannot overlook the practical benefits of having a handy, easy to use translator. But there is something to be commented on the social implications of this design. For one, there is a lack of visibility from the viewpoint of others. Being able to see foreign writing in your own language is good, up until the point that you need to ask someone to get you japanese fish-shaped pastry without being able to specifically point at the writing. Ask anyone who can read traditional Chinese and has visited Japan how useful it is to just point at a menu to get exactly what you mean. Even two people using the system, yet for different languages, may not be able to communicate based simply on what their display says. Highlighting items on your display and showing this externally would likely help this issue, yet bridging what one person sees versus what is visible will be a strong consideration in a larger social context.</p>
+<p>The second aspect of this technology that’s a bit personal to me is that it eliminates the unique feeling one gets from being in a foreign country. I still remember fondly all the lost moments I’ve had wondering Japan my first time there. The signs are foreign and the conversations are difficult; because they are! And it’s special. I had this feeling even considering how good Japanese major cities are at labeling their signs in English. But the experience is hard to compare and impossible to recreate, especially once you learn enough of the language to where it no longer feels foreign. So it may be a bit of a romantic view of what makes a trip to a foreign country special. Yet sometimes you need a disconnect in order to really connect with what is in the world around you.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://evoke.ics.uci.edu/viewing-the-world-through-technologys-eyes/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Hollowing &#8216;I&#8217; in the authorship of letters: A note on Flusser and surveillance</title>
+		<link>http://evoke.ics.uci.edu/hollowing-i-in-the-authorship-of-letters-a-note-on-flusser-and-surveillance/</link>
+		<comments>http://evoke.ics.uci.edu/hollowing-i-in-the-authorship-of-letters-a-note-on-flusser-and-surveillance/#comments</comments>
+		<pubDate>Tue, 15 Oct 2013 18:20:17 +0000</pubDate>
+		<dc:creator><![CDATA[John Seberger]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">http://evoke.ics.uci.edu/?p=648</guid>
+		<description><![CDATA[Although the 24-hour news cycle has recently moved on from Snowden and  surveillance to cover the latest set of unfortunate circumstances on Capitol Hill, there are some points I would like to make regarding the role of surveillance in the further dissolution of any sense of a human author that might underlie the use of(...)]]></description>
+				<content:encoded><![CDATA[<p>Although the 24-hour news cycle has recently moved on from Snowden and  surveillance to cover the latest set of unfortunate circumstances on Capitol Hill, there are some points I would like to make regarding the role of surveillance in the further dissolution of any sense of a human author that might underlie the use of &#8216;I&#8217; in a written communication. Much of what is discussed here focuses on the idea of the author as presented by Vilem Flusser in &#8216;Does Writing Have a Future,&#8217; in a chapter about letters. For purposes of clarity, I&#8217;ve relied on cryptographers&#8217; lingo to describe two communicators (Adam and Bob) and one eavesdropper (Eve). As a final introductory caveat, I&#8217;ve taken emails to be technologically analogous to written letters, with one major distinction being the facility with which one email can be sent to multiple intended recipients.</p>
+<p>Much in the same way that Meyer-Schonberger (2011) argued that the default setting of memory in the digital age is no longer forgetting, we seem to have reached a point where the default setting of written communication is no longer dyadic, or even (n)adic where multiple recipients are intended. Instead, and assuming that email has functionally replaced the written letter at the level of formal interpersonal communication, we must assume that written communication is (<em>n+x</em>)adic where <em>n</em> = (author + number of intended recipients) and <em>x</em> = an unknown number of electronic eavesdroppers.<br data-reactid=".r[5s5gg].[1][4][1]{comment672758684185_1078902}.[0].{right}.[0].{left}.[0].[0].[0][3].[0].[4]" /><br data-reactid=".r[5s5gg].[1][4][1]{comment672758684185_1078902}.[0].{right}.[0].{left}.[0].[0].[0][3].[0].[5]" />Flusser  argues that personal written communications are one of the few forms of writing that are intended to convey a personal understanding of the author, not of the written artifact the author produces. I am myself when I write to my friends, and in reading my letters and emails, my friends reconstruct my self-representation as they know me. Personal affiliation amends what Foucault called the &#8216;author function&#8217; (Foucault, 1969) in such a way that the author behind the &#8216;I&#8217; becomes perceivable. When we increase the number of implied readers to whom a letter&#8217;s author is not personally known (represented as <em>x</em>), we&#8217;re reducing the identify of the author, stealing bit by bit the interpersonal, communicative functionality of a letter. I, the author known personally to you, the reader, become less myself through the interpretive forces of the unknown quantity (<em>x</em>).<br data-reactid=".r[5s5gg].[1][4][1]{comment672758684185_1078902}.[0].{right}.[0].{left}.[0].[0].[0][3].[0].[7]" /><br data-reactid=".r[5s5gg].[1][4][1]{comment672758684185_1078902}.[0].{right}.[0].{left}.[0].[0].[0][3].[0].[8]" />Personal communications were once one of the only written refuges of identity, where &#8216;I&#8217; referred to the author in his/her direct relation to an intended recipient. In an age where surveillance is the default setting, &#8216;I&#8217; becomes even hollower on the page than Barthes, Foucault, and all the rest claimed. Moreover, its hollowness is not benign and static, but ambivalent and ephemeral, filled up by correlations to myriad points of myriad types of data at the touch of an (xkeystroke) button, rendering the author nothing more than a predictable set of patterns defined by second-hand empiricism. In a communication intercepted by (x), my &#8216;I&#8217; becomes further estranged from me, as if its existence on an inanimate screen weren&#8217;t enough, and replaced by the construction of an &#8216;author&#8217; unknown to (<em>x</em>). Thus, through surveillance, it is as though the author of an interpersonal communication is reduced to something less than a person, something artificial, constructed, and somehow hollower. As a side effect of surveillance, the author of a letter or email becomes as fictive and <em>a priori</em> as the author-function found in a novel.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://evoke.ics.uci.edu/hollowing-i-in-the-authorship-of-letters-a-note-on-flusser-and-surveillance/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Improving Outcomes and Program Sustainability for Women Veterans and HIV Screening</title>
+		<link>http://evoke.ics.uci.edu/improving-outcomes-and-program-sustainability-for-women-veterans-and-hiv-screening/</link>
+		<comments>http://evoke.ics.uci.edu/improving-outcomes-and-program-sustainability-for-women-veterans-and-hiv-screening/#comments</comments>
+		<pubDate>Sat, 02 Mar 2013 18:44:42 +0000</pubDate>
+		<dc:creator><![CDATA[Judith Gregory]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">http://evoke.ics.uci.edu/?p=515</guid>
+		<description><![CDATA[Hot off the press: an article from the Re-Imaging Health Workshop collaboration between VA Women&#8217;s Health &#38; Institute of Design/IIT Improving Outcomes and Program Sustainability for Women Veterans and HIV Screening Kayt Havens, MD / Cornelia Bailey, MDM / Amanda Geppert, MPH, MDM / Judith Gregory, PhD See the full issue of Insights here, or download(...)]]></description>
+				<content:encoded><![CDATA[<p>Hot off the press: an article from the <i>Re-Imaging Health</i> <i>Workshop</i> collaboration between VA Women&#8217;s Health &amp; Institute of Design/IIT</p>
+<p>Improving Outcomes and Program Sustainability for Women Veterans and HIV Screening<br />
+Kayt Havens, MD / Cornelia Bailey, MDM / Amanda Geppert, MPH, MDM / <a title="Judith Gregory" href="http://evoke.ics.uci.edu/judith-gregory/" target="_blank">Judith Gregory</a>, PhD</p>
+<p style="font-size: 18px;"><strong>See the full issue of <em>Insights</em> <strong><a title="Insights Vol. 7" href="http://api.ning.com/files/4iqR7n6daXV6-YLpQD6YJgsDR96hzR3zrSWyi7G*jl85-e aiVJopmJY4hCb3IO0wV8aJhF2Iuf61JPtFmaLPmmi3kFS5-LOE/InsightsVol.7web.pdf#page=48" target="_blank">here</a></strong>, or download the <a href="http://evoke.ics.uci.edu/wp-content/uploads/2013/03/Women-Vets-HIV-screening.pdf">article</a>.</strong></p>
+<p><strong>About <i>Insights</i> and the Innovation Learning Network:</strong><br />
+The Innovation Learning Network is an influence network of 40 or so health care, medicine and design consultancies that bring together design thinking and research &amp; medicine and health care.</p>
+<p>&nbsp;</p>
+<p><img src='http://evoke.ics.uci.edu/wp-content/uploads/2013/03/designthinkingandmedicine.png'></p>]]></content:encoded>
+			<wfw:commentRss>http://evoke.ics.uci.edu/improving-outcomes-and-program-sustainability-for-women-veterans-and-hiv-screening/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>VID Fellows to present work at iConference in Fort Worth</title>
+		<link>http://evoke.ics.uci.edu/vid-fellows-present-at-iconference/</link>
+		<comments>http://evoke.ics.uci.edu/vid-fellows-present-at-iconference/#comments</comments>
+		<pubDate>Thu, 17 Jan 2013 03:25:36 +0000</pubDate>
+		<dc:creator><![CDATA[Courtney Loder]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+		<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">http://vid-web0.ics.uci.edu/?p=317</guid>
+		<description><![CDATA[Several EVOKE Lab and VID Doctoral Workshop Fellows will be presenting successful research submissions at the 2013 iSchools Conference in Fort Worth, Texas on February 11-15. We are excited to see such exciting work at the intersection of social research, technology design, and creative computing represented at the principal gathering of the informatics and iSchool(...)]]></description>
+				<content:encoded><![CDATA[<p>Several EVOKE Lab and VID Doctoral Workshop Fellows will be presenting successful research submissions at the <a title="2013 iSchools Conference" href="http://iconference.ischools.org/iConference13/notes" target="_blank">2013 iSchools Conference </a>in Fort Worth, Texas on February 11-15. We are excited to see such exciting work at the intersection of social research, technology design, and creative computing represented at the principal gathering of the informatics and iSchool communities. Among those presenting are:</p>
+<ul>
+<li><strong>John Seberger</strong> and <strong>Cory Knobel</strong> (UCI EVOKE Lab) – Poster on Emerging Configurations of Knowledge Expression.</li>
+<li><strong>Cory Knobel</strong> (UCI EVOKE Lab), <strong>Leanne Bowler</strong> and <strong>Nora Mattern</strong> (University of Pittsburgh School of Information Sciences) – Poster on Participatory Design Approaches to Address Cyberbullying.</li>
+<li>2012 VID Fellows <strong>Amelia Acker</strong> (UCLA), <strong>Matt Burton</strong> (Michigan), <strong>Melissa Chalmers</strong> (Michigan), <strong>Thomas Lodato</strong> (Georgia Tech), and <strong>Grant Wythoff</strong> (Princeton) – Full presentation of AmpDamp, a physical knob for interacting with the flow of social media streams at the Microsoft FUSE Labs Social Media Expo.</li>
+</ul>
+<p>If you are attending the iConference, please stop by and see these fantastic presentations, say hello, and look for information about the upcoming 2013 Values in Design PhD Summer School at UC Irvine!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://evoke.ics.uci.edu/vid-fellows-present-at-iconference/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Computer Science as a General Education Requirement?</title>
+		<link>http://evoke.ics.uci.edu/computer-science-as-a-general-education-requirement/</link>
+		<comments>http://evoke.ics.uci.edu/computer-science-as-a-general-education-requirement/#comments</comments>
+		<pubDate>Mon, 02 Apr 2012 18:16:15 +0000</pubDate>
+		<dc:creator><![CDATA[Steve Slota]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">http://vid-web0.ics.uci.edu/?p=296</guid>
+		<description><![CDATA[&#8220;Earning a college degree often involves completing a list of general education requirements. Aimed at turning out well-rounded graduates, the mandated curriculum can include groups of courses from a variety of disciplines—literature, philosophy, social and physical sciences, history, and foreign languages. As we continue on a track where technology powers everything from our toothbrushes to(...)]]></description>
+				<content:encoded><![CDATA[<p>&#8220;Earning a <a href="http://colleges.usnews.rankingsandreviews.com/best-colleges">college degree</a> often involves completing a list of general education requirements. Aimed at turning out well-rounded graduates, the mandated curriculum can include groups of courses from a variety of disciplines—literature, philosophy, social and physical sciences, history, and foreign languages.</p>
+<p>As we continue on a track where technology powers everything from our toothbrushes to our <a href="http://www.usnews.com/education/best-colleges/articles/2012/02/07/digital-print-textbooks-to-compete-for-college-audience">textbooks</a>, should computer science be added to the list?&#8221;</p>
+<p><a href="http://www.usnews.com/education/best-colleges/articles/2012/04/03/computer-science-transitions-from-elective-to-requirement-computer-science-transitions-from-elective-to-requirement">http://www.usnews.com/education/best-colleges/articles/2012/04/03/computer-science-transitions-from-elective-to-requirement-computer-science-transitions-from-elective-to-requirement</a></p>
+<p>Our own Geof Bowker was interviewed for this article.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://evoke.ics.uci.edu/computer-science-as-a-general-education-requirement/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Truth and Wisdom in Historic Decline; Data and Information doing fine&#8230;</title>
+		<link>http://evoke.ics.uci.edu/truth-and-wisdom-in-historic-decline-data-and-information-doing-fine/</link>
+		<comments>http://evoke.ics.uci.edu/truth-and-wisdom-in-historic-decline-data-and-information-doing-fine/#comments</comments>
+		<pubDate>Thu, 23 Feb 2012 19:18:23 +0000</pubDate>
+		<dc:creator><![CDATA[Geof Bowker]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">http://vid-web0.ics.uci.edu/?p=299</guid>
+		<description><![CDATA[Struggling with the definition of the novel form, E.M. Forster came down reluctantly to the finding that ‘Yes, oh dear yes, the novel tells a story’. There’s really no way around that, even though folks like Joyce have done their darnedest. I feel the same nebulous dismay when I try to define what an academic(...)]]></description>
+				<content:encoded><![CDATA[<p><img src="http://evoke.ics.uci.edu/wp-content/uploads/2012/02/ngram.png" alt="ngram" width="600"  class="aligncenter size-medium wp-image-488" /></p>
+<p>Struggling with the definition of the novel form, E.M. Forster came down reluctantly to the finding that ‘Yes, oh dear yes, the novel tells a story’. There’s really no way around that, even though folks like Joyce have done their darnedest. I feel the same nebulous dismay when I try to define what an academic product is. Here’s a form that articles take in the field of computer supported cooperative work: wide ranging introduction; literature review section which covers far more reading than you will use in the text; truncated methods section which doesn’t allow you to interrogate the text easily; objective findings, which generally seem otherwise; discussion, which is too short, and (pace Paul Dourish), implications for design. If I’m asked what it is that most academics write most of the time, I’d have to say: “Yes, oh dear yes, the canonical academic product is the finding”.</p>
+<p>Who gets to read the unparalleled output that comes off the knowledge assembly line? Well, that’s a more difficult question. In the nineteenth century, when what we call the archival literature was first developed, there was a sense of an academic field in most areas being at most several hundred. I can read that sort of output – still do, though it tends to be from my 700 closest friends. Today, the average academic article is cited by none and read by two. And yet we persist in the venture. We adhere, especially in the human and social sciences, to the myth of the single author. Indeed our whole PhD system is very good at creating individual workers, who frequently get lost when they have to work in a fully collaborative environment. You can partly say the collaboration was always already so – an archival journal is at best a conversation, editors and peer reviewers help in the writing, as do audiences in the classroom or on the conference circuit. And yet that’s not the way we think, and not the way that we get PhDs or promotions. In a world where the preprint can be the true archival literature (archiv-X), we have a broken system that can neither recruit enough readers nor reflect our actual modes of knowledge production.</p>
+<p>One place to look right now is in the performance of knowledge. There is recent work in anthropology on seeing dance as just such a form – the Science annual competition for dancing your Phd is an amusing derivative. There is a body of work in anthropology around dancing knowledge and wisdom. Dance is a rich modality for knowledge expression. Eevi Beck’s Thundering Silence work, for example, involves a text narrator, an automated Prezi presentation and herself dancing. Just like the motif in Wagnerian opera, the dancer provides a rich subtext to the text and images. The knowledge experience for the witness resonates in all registers simultaneously.</p>
+<p>Hans Rösling’s TED talks are a good example of performed knowledge. I disagree with almost all his findings, but they are impressive for his use of his body, together with artefacts and his gapminder application. This dynamic form of expression is not new – as Rembrandt’s Anatomy Lesson (1632) reminds us. The very movement of the bubbles in gapminder expresses his findings much better than could any static text. However, today the performance of knowledge is frequently captured and preserved; and the performance can be richer, more convincing and more memorable than any text.</p>
+<p>by: Geof Bowker</p>
+]]></content:encoded>
+			<wfw:commentRss>http://evoke.ics.uci.edu/truth-and-wisdom-in-historic-decline-data-and-information-doing-fine/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

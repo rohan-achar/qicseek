@@ -1,0 +1,48 @@
+<HTML>
+<HEAD>
+  <TITLE>Home Page</TITLE>
+  <META NAME="person" CONTENT="y">
+  <META NAME="sortname" CONTENT="y">
+  <base href="http://www.ics.uci.edu/~aisi/97_aisics/people/lloudner/">
+</HEAD>
+
+<BODY bgcolor=#00CCCC text=#9966FF>
+<hr>
+<IMG SRC="images/indian.gif" ALIGN=left HEIGHT=125 WIDTH =125>
+<IMG SRC="images/indian.gif" ALIGN=right HEIGHT=125 WIDTH=125>
+
+<center>
+
+  <H2><font size=+3><B>LaVoyce Loudner's Home Page</b></font></H2><p>
+  <IMG SRC="images/aisic001.gif" HEIGHT=105 WIDTH=200></P>
+  <IMG SRC="images/feather.gif">
+
+  <table>
+    <tr>
+      <td>
+        <ul>    
+          <li><A HREF="bio.html">Biography</A></li>
+          <li><A HREF="lloudner.html">lloudner</A></li>
+          <li><A HREF="resume.html">Resume</A></li>
+          <li><A HREF="company.html">The Sioux Trading Post</A></li>
+          <li><a href="CCST.ps">CCST</a></li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+</center>
+
+<P>
+<ADDRESS>
+  E-mail: <A HREF="mailto:lloudner@ics.uci.edu">lloudner@ics.uci.edu</A><br>
+  <A HREF="http://www.ics.uci.edu/">Information and Computer Science</A><br>
+  <A HREF="http://www.uci.edu/">University of California, Irvine</A><br>
+  CA 92717-3425
+</ADDRESS>
+
+<p>
+<center><A HREF="../borosco/Project/CTNNCA.html"><b>Simulation Home Page</b></A></center>
+</BODY>
+</HTML>
+

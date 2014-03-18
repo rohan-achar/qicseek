@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252"
+      http-equiv="Content-Type">
+    <title>Lab 2: Assignment</title>
+    <meta content="Stacey Hancock" name="author">
+  </head>
+  <body>
+    <table style="width: 100%; background-color: rgb(102, 204, 204);
+      margin-left: auto; margin-right: auto; height: 58px; text-align:
+      left;" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td>
+            <div style="text-align: center;"> </div>
+            <h1 style=" text-align: center;">Lab 2: Assignment<br>
+            </h1>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    You must <span style="text-decoration: underline;">type</span> your
+    lab assignments and submit them through the EEE Dropbox tool. Review
+    how to write and submit a lab assignment <a
+      href="http://www.ics.uci.edu/%7Estaceyah/120A/labs/instructions.html">here</a>.
+    This lab assignment is due Friday, Feb. 7 by 5pm. You must include
+    all relevant R code used to answer the questions.<br>
+    <br>
+    <table style=" text-align: left; width: 100%; background-color:
+      rgb(255, 255, 204);" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td style="vertical-align: top;" bgcolor="#ffffff">
+            <div align="center">
+              <h3>Further Explorations with t-statistics<br>
+              </h3>
+            </div>
+            <ol>
+              <li>Now let's explore what happens to the T-statistic
+                defined in Lab 2 if our data do not come from a normal
+                distribution. Let's pick a skewed distribution like the
+                Exponential distribution. As a reminder, here is what
+                the pdf of an Exponential distribution with mean 1 looks
+                like:<br>
+                <pre>curve(dexp(x,1), from = 0, to = 5, xlab="X", ylab="Density",<br>	main = "Exponential pdf with Mean 1")<br></pre>
+                We know the Central Limit Theorem tells us that for
+                large sample sizes, the standardized mean has an
+                approximate standard normal distribution. Does this also
+                appear to hold for the T-statistic? Investigate this
+                question by performing simulations for a variety of
+                sample sizes (e.g., <i>n</i> = 5, 10, 30, and 100),
+                where each simulation should do the following:</li>
+              <ol type="i">
+                <li>Generate 10,000 samples of the desired sample size
+                  from an Exponential distribution with mean 1.</li>
+                <li>For each sample, calculate the T-statistic defined
+                  in Lab 2.</li>
+                <li>Plot a histogram of the 10,000 T-statistics with a
+                  standard normal distribution overlaid.</li>
+                <li>Calculate the proportion of T-statistics that are
+                  less than -2 or greater than 2, and compare it to the
+                  probability that a standard normal random variable is
+                  less than -2 or greater than 2.</li>
+              </ol>
+            </ol>
+            <blockquote>
+              <p>Does the sampling distribution of the T-statistic when
+                sampling from the Exponential distribution seem to
+                approach the standard normal distribution as the sample
+                size increases?<br>
+              </p>
+              <h3 align="center">Performance of the Traditional
+                Confidence Interval for a Proportion<br>
+              </h3>
+            </blockquote>
+            <ol start="2">
+              <li>Recall the Gallup poll example from Lecture 2 on the
+                Central Limit Theorem. The Central Limit Theorem states
+                that for large sample sizes, the sample proportion is
+                approximately normal. That is if <i>X</i><i><sub>1</sub></i><i>,
+                  X</i><i><sub>2</sub></i><i>,..., X</i><i><sub>n</sub></i>
+                are independent and identically distributed Bernoulli
+                random variables with parameter <i>p</i>, then<br>
+              </li>
+            </ol>
+            <blockquote>
+              <div align="center"><img alt="" src="Lab2image9.png"
+                  width="148" height="55"><br>
+                <div align="left">where<br>
+                  <div align="center"><img alt="" src="Lab2image10.png"
+                      width="120" height="52"><br>
+                    <div align="left">is called the <i><b>sample
+                          proportion</b></i>. Using this result, a <i><b>95%
+                          confidence interval</b></i> for the population
+                      proportion <i>p</i> is<br>
+                      <div align="center"><img alt=""
+                          src="Lab2image11.png" width="279" height="61">.<br>
+                        <div align="left">It is called a 95% confidence
+                          interval because in 95% of all random samples,
+                          the interval above will contain <i>p</i>.
+                          (Why? Note that 1.96 is the 0.975-quantile of
+                          the standard normal distribution.) The 95% is
+                          only an approximation to what is called the
+                          "coverage probability", however, since we are
+                          using the Central Limit Theorem. The function
+                          below will return the limits of a 95%
+                          confidence interval given values of <i>y</i>
+                          and <i>n</i>, where <i>y</i> = <i>x</i><i><sub>1</sub></i><i>+...
+                            + </i><i>x</i><i><sub>n</sub></i>:<br>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </blockquote>
+            <blockquote>
+              <blockquote>
+                <pre>bin.conf.int = function(y,n){<br>	z = qnorm(.975)<br>	phat = y/n<br>	se = sqrt(phat*(1-phat)/n)<br>	return(c(phat-z*se, phat+z*se))<br>}<br></pre>
+              </blockquote>
+            </blockquote>
+            <div align="center">
+              <div align="left">
+                <div align="center">
+                  <div align="left">
+                    <div align="center">
+                      <div align="left">
+                        <blockquote>Read this function into R and then
+                          do the following.<br>
+                        </blockquote>
+                        <blockquote>
+                          <ol type="a">
+                            <li>Suppose that samples of size <i>n</i> =
+                              20 are taken and the true value of the
+                              population proportion is <i>p</i> = 0.5.
+                              Using the "rbinom" R command, simulate a
+                              value of <i>y</i> and use the
+                              "bin.conf.int" R function to compute the
+                              95% confidence interval. Repeat this a
+                              total of 100 times (using a for loop!) and
+                              estimate the true coverage probability by
+                              calculating the proportion of these 100
+                              intervals that contain 0.5.</li>
+                            <li>Still assuming we are taking samples of
+                              size <i>n</i> = 20, now suppose that the
+                              true value of the population proportion is
+                              <i>p</i> = 0.05. Repeat part a. using <i>n</i>
+                              = 20 and <i>p</i> = 0.05.</li>
+                            <li>Investigate how the true coverage
+                              probability depends on the sample size <i>n</i>
+                              and the true proportion value <i>p</i> by
+                              running simulations as follows:</li>
+                            <ol type="i">
+                              <li>Write an R function that takes three
+                                arguments: <i>n</i>, <i>p</i>, and the
+                                number of simulations <i>m</i>; and
+                                will output the estimate of the true
+                                coverage probability.</li>
+                              <li>Implement your function using each
+                                combination of <i>n</i> = 10, 25, 100
+                                and <i>p</i> = .05, .25, .50 (so nine
+                                combinations), using <i>m</i> = 1000
+                                simulations for each combination.</li>
+                              <li>Describe how the true coverage
+                                probability depends on the sample size
+                                and true proportion value, and how it
+                                compares to the approximate coverage
+                                probability of 0.95.<br>
+                              </li>
+                            </ol>
+                          </ol>
+                        </blockquote>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p> <br>
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <br>
+    <hr style="width: 100%; height: 2px;">
+    <div style="text-align: center;"><big><br>
+        <a href="index.html">Lab 2 Index</a></big><br>
+      <br>
+      <hr style="width: 100%; height: 2px;"></div>
+    <br>
+    <br>
+  </body>
+</html>
+

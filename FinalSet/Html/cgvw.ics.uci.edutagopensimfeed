@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Center for Computer Games &#38; Virtual Worlds &#187; OpenSim</title>
+	<atom:link href="http://cgvw.ics.uci.edu/tag/opensim/feed/" rel="self" type="application/rss+xml" />
+	<link>http://cgvw.ics.uci.edu</link>
+	<description>Bren School of ICS &#124; UC Irvine</description>
+	<lastBuildDate>Fri, 25 Oct 2013 17:28:29 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>CGVW to Host MMVE 2012</title>
+		<link>http://cgvw.ics.uci.edu/cgvw-to-host-mmve-2012/</link>
+		<comments>http://cgvw.ics.uci.edu/cgvw-to-host-mmve-2012/#comments</comments>
+		<pubDate>Fri, 28 Sep 2012 16:31:04 +0000</pubDate>
+		<dc:creator><![CDATA[staff]]></dc:creator>
+				<category><![CDATA[In the News]]></category>
+		<category><![CDATA[MMVE]]></category>
+		<category><![CDATA[OpenSim]]></category>
+
+		<guid isPermaLink="false">http://cgvw.ics.uci.edu/?p=824</guid>
+		<description><![CDATA[The Center is proud to be hosting the virtual conference for the 5th International Workshop on Massively Multiuser Virtual Environments (MMVE 2012), which will take place in real life in Munich, October 9. The virtual conference center, based on the Universal Campus, will host the Poster session, as well as the Town Hall meeting that [&#8230;]]]></description>
+		<wfw:commentRss>http://cgvw.ics.uci.edu/cgvw-to-host-mmve-2012/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>The Universal Campus</title>
+		<link>http://cgvw.ics.uci.edu/the-universal-campus/</link>
+		<comments>http://cgvw.ics.uci.edu/the-universal-campus/#comments</comments>
+		<pubDate>Sun, 27 May 2012 20:55:47 +0000</pubDate>
+		<dc:creator><![CDATA[staff]]></dc:creator>
+				<category><![CDATA[In the News]]></category>
+		<category><![CDATA[3D collaboration environments]]></category>
+		<category><![CDATA[OpenSim]]></category>
+
+		<guid isPermaLink="false">http://cgvw.ics.uci.edu/?p=786</guid>
+		<description><![CDATA[Pierre Baldi and Cristina Videira Lopes have developed an infrastructure called the Universal Campuswhich allows, among other things, the organization and deployment of scientific meeting, conferences, classes, etc in a 3D virtual world. 2011. The work has been published in the ACM ELearn magazine.]]></description>
+		<wfw:commentRss>http://cgvw.ics.uci.edu/the-universal-campus/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

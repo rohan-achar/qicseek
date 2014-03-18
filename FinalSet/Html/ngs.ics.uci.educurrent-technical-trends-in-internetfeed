@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Current Technical Trends in Internet</title>
+	<atom:link href="http://ngs.ics.uci.edu/current-technical-trends-in-internet/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/current-technical-trends-in-internet/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: e-commerce solutions</title>
+		<link>http://ngs.ics.uci.edu/current-technical-trends-in-internet/comment-page-1/#comment-3242</link>
+		<dc:creator><![CDATA[e-commerce solutions]]></dc:creator>
+		<pubDate>Tue, 08 Dec 2009 06:18:48 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1206#comment-3242</guid>
+		<description><![CDATA[Hey thanks for the post...you are right.Even i am surprised to see Real Time on top of the list.Yeah i am excited too.We&#039;ll just have to wait and watch.Look forward to hearing from you soon again.]]></description>
+		<content:encoded><![CDATA[<p>Hey thanks for the post&#8230;you are right.Even i am surprised to see Real Time on top of the list.Yeah i am excited too.We&#8217;ll just have to wait and watch.Look forward to hearing from you soon again.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

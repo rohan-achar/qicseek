@@ -1,0 +1,45 @@
+<HTML>
+<HEAD>
+<TITLE>File Menu in the Applet Server</TITLE>
+</HEAD>
+
+<BODY>
+<p><a href="index.html">Home</a></p>
+
+<H2>File menu</H2>
+
+
+<p>The File menu contains the Quit command.  </p>
+
+<p><b>Note</b>:  This command will temporarily shut down the Applet Server, 
+but a new Applet Server will be started automatically by the Hyperweb Manager. 
+The reason for this is that the Applet Server must be available for applets 
+at a Chimera website which is  managed by the Hyperweb Manager.</p>
+
+<p> Applets must have this special arrangement because they may only connect 
+back to the website they were loaded from.  Thus any applet which is to act 
+as a Chimera client must use the Applet Server to provide the services of 
+the Chimera Server. 
+This is the job of the Applet Server in general, but since this implies
+that the Applet Server must run while the Hyperweb Manager is
+running, the Applet Server will restart after the quit command executes. </p>
+
+<CENTER><IMG SRC="../images/as/as_file.gif"
+WIDTH="496" HEIGHT="193"></CENTER>
+
+<H3>Operations</H3>
+
+<p><b>Quit</b>: This command <em>temporarily</em> shuts
+ down the Applet Server.</p>
+
+
+<p><b>Note</b>: The Applet Server is automatically restarted by the 
+Hyperweb Manager, so even if the 
+quit command is selected, the Applet Server is only temporarily shut-down.
+A new Applet Server will be launched after the current Applet Server
+ends executuion.</p>
+
+<p><a href="index.html">Home</a></p>
+</BODY>
+</HTML>
+

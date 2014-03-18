@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Arguments of Error Handlers</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Arguments of Error Handlers">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html4159 HREF="node160.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html4157 HREF="node157.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html4151 HREF="node158.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html4161 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html4160 HREF="node160.html"> User Defined Errors</A>
+<B>Up:</B> <A NAME=tex2html4158 HREF="node157.html"> Errors</A>
+<B> Previous:</B> <A NAME=tex2html4152 HREF="node158.html"> Error Handlers</A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION001312000000000000000> Arguments of Error Handlers</A></H2>
+<P>
+An error handler has 3 optional arguments.
+The first argument is the number that identifies the error,
+the second argument is
+the culprit (a structure corresponding to the call which caused the
+error).
+For instance, if,
+say, a type error occurs upon calling the third goal of the procedure
+<tt> p(2, Z)</tt>:
+<blockquote> <PRE> p(X, Y) :- a(X), b(X, Y), c(Y).
+</PRE>
+</blockquote>
+the structure given to the error handler is <tt> b(2, Y)</tt>.
+Note that the handler could bind Y which would have the same effect
+as if <tt> b/2</tt> had done the binding.
+<P>
+The third argument is only defined for a subset of the existing errors.
+If the error occurred inside a tool body, it holds the caller module,
+otherwise it is a free variable.
+Note that some events are not errors but are used for different purposes.
+In thoses cases the second and third argument are sometimes used
+differently. See Appendix <A HREF="#chaperrors"><IMG ALIGN=BOTTOM ALT="gif" SRC="http://www.ecrc.de/eclipse/new_icons//cross_ref_motif.gif"></A> for details.
+<P>
+The error handler is free to ignore some of these arguments,
+i.e. it can have any arity from 0 to 3.
+The first argument is provided for the case that the same procedure serves
+as the handler for several error types - then it can distinguish
+which is the actual error type.
+<A NAME=2534>&#160;</A>
+An error handler is just an ordinary Prolog procedure<A NAME=tex2html553 HREF="footnode.html#2535"><IMG ALIGN=BOTTOM ALT="gif" SRC="http://www.ecrc.de/eclipse/new_icons//foot_motif.gif"></A>,
+and thus within
+it a call may be made to any other procedure, or any built in predicate;
+this in particular means that a call to <b> exit_block/1</b> may be
+made (see the section on the <b> block/3</b>
+predicate).<A NAME=2538>&#160;</A> This will work
+'through' the call to the error handler, and so an exit may be made from
+within the handler out of the current block (i.e. back to the corresponding
+call of the <b> block/3</b> predicate).
+Specifying the predicates <b> true/0</b> or <b> fail/0</b> as error handlers
+will make the erroneous predicate succeed (without binding
+any further variables) or fail respectively.
+<P>
+<BR> <HR><A NAME=tex2html4159 HREF="node160.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html4157 HREF="node157.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html4151 HREF="node158.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html4161 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html4160 HREF="node160.html"> User Defined Errors</A>
+<B>Up:</B> <A NAME=tex2html4158 HREF="node157.html"> Errors</A>
+<B> Previous:</B> <A NAME=tex2html4152 HREF="node158.html"> Error Handlers</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

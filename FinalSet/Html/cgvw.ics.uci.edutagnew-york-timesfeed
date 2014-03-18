@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Center for Computer Games &#38; Virtual Worlds &#187; New York Times</title>
+	<atom:link href="http://cgvw.ics.uci.edu/tag/new-york-times/feed/" rel="self" type="application/rss+xml" />
+	<link>http://cgvw.ics.uci.edu</link>
+	<description>Bren School of ICS &#124; UC Irvine</description>
+	<lastBuildDate>Fri, 25 Oct 2013 17:28:29 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>From the New York Times</title>
+		<link>http://cgvw.ics.uci.edu/from-the-new-york-times/</link>
+		<comments>http://cgvw.ics.uci.edu/from-the-new-york-times/#comments</comments>
+		<pubDate>Mon, 30 Nov 2009 20:01:52 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[In the News]]></category>
+		<category><![CDATA[latimes]]></category>
+		<category><![CDATA[New York Times]]></category>
+		<category><![CDATA[nyt]]></category>
+
+		<guid isPermaLink="false">http://cgvw.ics.uci.edu/?p=202</guid>
+		<description><![CDATA[New York Times, November 30, 2009 UCI mentioned: This fall, the University of California, Irvine is set to begin a four year undergraduate program in &#8220;game science.&#8221;]]></description>
+		<wfw:commentRss>http://cgvw.ics.uci.edu/from-the-new-york-times/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

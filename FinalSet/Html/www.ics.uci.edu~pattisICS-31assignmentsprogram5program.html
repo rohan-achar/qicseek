@@ -1,0 +1,617 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+<head>
+  <title>Program 5</title>
+</head>
+
+<body BGCOLOR="white">
+
+<center>
+<h1>Program 5</h1>
+<h1>List Processing</h1>
+<p>
+<h2>ICS-31: Introduction to Programming
+</h2>
+<p>
+</center>
+
+
+<!-- Introduction -->
+
+<a name="Introduction">
+<hr align="left" width="33%">
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>Introduction</b></td>
+<td width ="80%">
+This programming assignment is designed to ensure that you know how to write
+  functions and scripts (using functions) that manipulate lists of data.
+You will also continue gaining experience using the standard control structures
+  in Python: <b>block</b>s, <b>if</b>s, <b>for</b> loops, <b>while</b> loops,
+  <b>break</b>, <b>try/except</b>, <b>return</b>, and <b>raise</b> statements.
+<p>
+In the first part of the assignment, you will write a variety of generally
+  useful list-processing functions in the <b>listlib.py</b> module (which are
+  used in the next two parts); in the second part you will a small script (and
+  some more functions) in the  <b>secretary.py</b> module, which solves a
+  problem in operations research; in the third part you will write a small
+  script (and some more functions) in the <b>dnamaker.py</b> script, which
+  uses shot-gun sequencing to assemble DNA fragments into a strand.
+<p>
+Import whatever modules/functions you think appropriate, using whatever form
+  of import you think appropriate (try to use both forms appropriately).
+Use short (but not overly short) well-chosen names.
+For indefinite loops, feel free to code directly with
+  <b>while boolean-expresssion:</b> loops, or continue writing
+  <b>while True:</b> loops with <b>if</b>/<b>break</b> statements in their
+  blocks; always strive to write the simplest loops.
+<p>
+You will download the <a href="program5.zip">program5</a> project folder, unzip
+  it, move it to your workspace, create a project from it, and write the three
+  required modules in this project folder.
+Submit each module separately in Checkmate.
+<b>Only one student should submit all parts of the the assignment</b>, but both
+  student's names should appear in the comments at the top of
+  <b>each submitted .py</b> file.
+It should look something like
+<pre><b>
+# Romeo Montague, Lab 1
+# Juliet Capulet, Lab 1
+# We certify that we worked cooperatively on this programming
+#   assignment, according to the rules for pair programming</b></pre>
+Please turn in each script <b>as you finish it</b>, so that I can accurately
+  assess the progress of the class as a whole during this assignment.
+<p>
+Print this document and carefully read it, marking any parts that contain
+  important detailed information that you find (for review before you turn in
+  the files).
+Reread the section on <b>Time Management</b> from Programming
+  Assignment 0 before starting this assignment.
+</td>
+</tbody>
+</table>
+
+
+
+<!-- General Functions -->
+
+<a name="GeneralFunctions">
+<hr align="left" width="33%">
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>A Module of General List-processing Functions</b></td>
+<td width ="80%">
+Write a module named <b>listlib.py</b> that mirrors the library  modules in
+   the <b>courselib</b> folder: it contains the following functions, each of
+   which might be useful in a variety of scripts, and all of which will be used
+   somewhere in this assignment to get an important job done.
+Note that the <b>listlib.py</b> module itself contains the
+  <b>count_predicate</b> and <b>rank</b> functions already written in the class
+  notes, and some code to test the functions you must write.
+Test/debug each function immediately after you define it.
+Note that we use the terminolgy "a value satisfies a predicate" to mean that
+  the predicate returns <b>True</b> when passed that value as an argument.
+<ul>
+<li><b>remove</b> defines a <b>list</b> and a <b>predicate</b> as parameters; it
+        returns <b>None</b> but mutates the list so that all of the values in
+        the list that satisfy the predicate are removed.
+    If no values satisfy the predicate, the list's length stays the same; if
+      <b>n</b> values satisfy the predicate, the list's length decreases by
+      <b>n</b>.
+    Hints: Use the <b>del</b> statement: e.g., <b>del alist[anindex]</b>.
+      Use a <b>while</b> loop that contols the index being examined,
+         terminating when the index to examine exceeds the end of the list;
+         recall that the list may become shorter as values are removed/deleted,
+         and that if we remove/delete a value at an index, we must see if the
+         new value in that index must also be removed/delete; <b>for</b> loop
+         advances indexes too simply for this task.
+    <p>
+    For example, if <b>l = ['a','b','c','d','e','f','g','h','i']</b> then
+       calling <b>remove(l,(lambda x : x in 'aeiou'))</b> results in
+       <b>l</b>'s list storing <b>['b','c','d','f','g','h']</b>.
+    If we instead called <b>remove(l,(lambda x : True))</b> then
+       <b>l</b>'s list would store <b>[]</b> (no values: all are removed).
+    My function has 7 lines.
+<p>
+
+<li><b>find_index</b> defines a <b>list</b>, a <b>range/irange</b>, and a
+        <b>predicate</b> as parameters; it returns the first index produced by
+        the range for which list's value at that index satisfies the predicate;
+        if no value satisfies the predicate, this function returns <b>-1</b>.
+    <p>
+    For example, if <b>l = [4,8,10, 11, 12, 13, 17, 20, 25]</b> then calling
+       <b>find_index(l,irange(0,len(l)-1),is_prime)</b> returns the result
+       <b>3</b> because <b>3</b> is the first index produced by the range in
+       which <b>l</b> stores a prime number;
+       calling <b>find_index(l,irange(len(l)-1,0,-1),is_prime)</b>
+       returns the result <b>6</b> because <b>6</b> is the first index produced
+       by the range (recall, it is counting downward from <b>len(l)-1</b>) in
+       which <b>l</b> stores a prime number.
+    My function has 6 lines.
+<p>
+
+<li><b>print_histogram</b> defines a <b>str</b> and a <b>list</b> as parameters;
+      it returns <b>None</b> but prints the title <b>str</b> followed by the
+      list's values (interpreted as bins in a histogram: so each value in the
+      list is an <b>int</b>).
+    Here is an example of what your function should print when called as
+<b><pre>print_histogram(' Bin  Count',[0, 0, 4, 0, 9, 15, 18, 8, 7, 0])
+ Bin  Count
+   2[  6.6%]|***********
+   3[  0.0%]|
+   4[ 14.8%]|*************************
+   5[ 24.6%]|*****************************************
+   6[ 29.5%]|**************************************************
+   7[ 13.1%]|**********************
+   8[ 11.5%]|*******************</pre></b>
+  Specifically, this list has ten bins numbered <b>0-9</b>; because bins
+    <b>0</b> and <b>1</b> store <b>0</b>, printing starts at bin <b>2</b>;
+   because bin <b>9</b> stores <b>0</b>, printing stops at bin <b>8</b> (but
+   bin <b>3</b>, which is inside the histogram, prints normally even though it
+   is <b>0</b>.
+<p>
+  Each line prints the bin number, the percentage of values in this bin, a
+    <b>|</b>, and a tower of stars representing its percent (at most 50 stars
+    high).
+<p>
+  Hints: Use <b>find_index</b> (twice) to find the index of the minimum and
+     maximum bin storing a non-zero value.
+  Compute the sum of all the values in the histogram (so you can print the
+    percent of the value occupied by each bin); compute the maximum of all the
+    values in the histogram, use that to scale how many stars to print for
+    each bin.
+  Use the <b>.format</b> method to print bin numbers and percents to the
+    exact specification show.
+  Note: recall the <b>sum</b> and <b>max</b> functions operate on lists/tuples,
+    computing the sum of all the values in the list/tuple and the largest value
+    in the list/tuple respectively.
+  Recall that we multiply a string by an integer to catenated a string to
+    itself that many times.
+  My function has 9 lines.
+<p>
+</ul>
+<h3>Testing</h3>
+The <b>listlib.py</b> module itself includes the standard tests.
+Recall, the code in the botom <b>if</b> is executed if we run this module as a
+  script (not if it is imported by another module).
+You can certainly add more tests here if you wish.
+</tbody>
+</table>
+
+
+<!-- Secretary Simulation -->
+
+<a name="Secretary">
+<hr align="left" width="33%">
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>Secretary Hiring Simulation</b></td>
+<td width ="80%">
+Write a script that defines various functions that simulate different aspects
+  of "The Secretary Hiring Problem", defined as follows.
+<p>
+Suppose that we can interview up to 100 people to hire a secretary (that many
+  have applied for the job).
+After interviewing each person, we must decide either to hire them or remove
+  them from consideration for the job.
+What is a  good strategy such that we will end up hiring a good secretary?
+Some books cast this problem in terms of choosing someone to marry: once you
+  say no, they are never coming back.
+<p>
+The first question to ask is, "What is the desired outcome?"
+One possibility would be to maximize the percentage of times the best person
+  (highest ranked) is hired; another would be to maximize the percentage of
+  times one of the best 5 people (highest 5 ranked) is hired; or generally, to
+  maximize the percentage of time one of the best B people (highest B ranked)
+  are hired.
+Given such a desired outcome, the next questions are how to achieve that
+  outcome the highest percentage of the time and what will that percentage be?
+<p>
+The strategy that we will use is to pre-interview some number (N) of candidates,
+  not hiring any of them no matter how good they are.
+Then we continue interviewing more candidates, but now in earnest (start real
+  hiring), hiring the first one who is ranked better than the best of the first
+  N candidates that we pre-interviewed: if no one exceeds the ranking of the
+  first N candidates, we will have to hire the last person we interview, no
+  matter what their rank.
+So, the first N candidates just give us a sampling/feeling for how well
+  qualified the pool of candidates is. So the key question is,
+  "How big should N be?"
+<p>
+If N is very low, then we are likely to see FEW high-ranked candidates, so the
+  rank of the one that we ultimately hire (who must be better ranked than
+  the first N) will likely also be low.
+But likewise, if N is very large, we are likely to see ALL the top-ranked
+  candidates before making real hiring starts, so the rank of the candidate we
+  hire will also be low (since we will have seen the top-ranked candidate, we
+  will hire the last person applying for the job).
+<p>
+So, we need to chose an N high enough so that we see some high-ranked
+  candidates, but not so high that we see too many (so some are still left to
+  hire).
+So this is a problem of picking an optimal N, that maximizes the probability of
+  the outcome we are looking for.
+Many optimization problems can be stated and solved in a similar manner.
+<p>
+Define your functions/script in the <b>secretary.py</b> module.
+<ol>
+<li>Define the function <b>hire_exceed</b> that takes two parameters: a 
+      <b>list</b> of <b>floats</b>s (each says how good a candidate is;
+      higher is better) and one <b>float</b> (the goodness of the best
+      candidate seen in the pre-interviews); it returns the goodness of the
+      person hired.
+  Note that we hire the first person in the list whose goodness exceeds the
+    second parameter: but if none exceed it, we return the goodness last in
+    the list.
+  <p>
+  For example <b>hire_exceed([15., .3, 1.6, 27., 14., 29., 22.], 18.)</b>
+     returns <b>27.</b>; if the second argument were <b>10.</b> it would return
+     <b>15.</b>; and if the second argument were <b>30.</b> it would return
+     <b>22.</b> (the last value, since none exceeds <b>30.</b>).
+  Hint: Just a simple search; my function has 5 lines.
+<p>
+<li>Define the function <b>do_experiment</b> that takes two <b>int</b>
+      parameters: the number of candidates in the hiring process and the number
+     of candidates to pre-interview; it returns the rank of the hired person
+     (1 is the best, the number of candidates is the worst: e.g., with 100
+     candidates, rank 1 is best and rank 100 is worst).
+   Here are the steps.
+   Hint: List slicing is your friend (I used slicing twice); I wrote no loops
+     in this function.
+   My function has 5 lines.
+<ul>
+<li>Generate a list of random <b>float</b> numbers, between <b>1-1000</b>, one
+      for each candidate: that is the goodness of the candidate.
+    Hint: easy to do with a comprehension, but there are other ways.
+<li>Find the maximum goodness for the pre-interiewed candidates.
+<li>Find the goodness of the candidate hired; see the function above.
+<li>Return the ranking of the candidate hired among all the candidates (i.e.,
+       including the pre-interviewed ones); see the functions in
+       <b>listlib.py</b>
+</ul>
+<p>
+<li>Define the function <b>do_experiments</b> that takes three <b>int</b>
+      parameters: the number of candidates in the hiring process, the number
+     of candidates to pre-interview, and the number of experiments to perform;
+     it creates and returns a histogram (with bins from 0 to the number of
+     candidates) of ranks; it performs the required number of experiments and
+     increments the bin in the histogram for the rank of the person hired from
+     each  experiment (note that index 0 remains 0 because the best rank is 1).
+   Hint: my function has 6 lines.
+<p>
+<li>Define the function <b>good_percent</b> that takes a histogram and a
+      predicate as parameters; it returns a <b>float</b> percent (from 0 to
+      100) computing a sum of how many values are in all the "good" bins.
+    For example, a predicate like <b>lambda x : x <= 5</b> is <b>True</b> for
+      bins <b>0-5</b> so really sums the number of candidates hired who were
+      rank 5 or better.
+<p>
+<li>Write a script at the bottom of this module that
+<ul>
+<li>Prompts the user for the number of candidates to interview, the number to
+      pre-interview, and the number of experiments to perform.
+<li>Performs that many experiments.
+<li>Prints the resulting histogram.
+<li>Prompts the user for a string specifying a <b>lambda</b> and then
+      computes <b>good_percent</b> on the histogram with that <b>lambda</b>,
+      printing the results; note that you have to <b>eval</b> the string
+      version of the <b>lambda</b> to get the real <b>lambda</b> function
+      object to use.
+</ul>
+Finally, given all the information collected above (but ignoring the entered
+  number of pre-interviews) write a loop that iterates over every possible
+  value for how many candidates to pre-interview: from 1 -we must interview at
+  least one to compute the goodness to exceed- to candidates-1 -we must have
+  at least one real candidate to offer the job to).
+For each value, do the specified number of experiments, compute the good
+  percentage, and plot out (in the form of a histogram, but not in a real
+  histogram) the good percentage for all possible pre-interview values.
+<p>
+</ol>
+Here is an example of my final script running (although I elided with ... 
+  large parts of the information).
+I supplied default values to the prompting functions (they automatically
+  appear in brackets) and just pressed enter to use those default values when
+  prompted.
+Of course because we are using random numbers, your answer may be different.
+<p>
+Write <b>lambdas</b> for the <b>is_legal</b> parameter for the prompts: the
+  number of candidate must be &gt;= 10; the number of candidates to
+  pre-interview must be &gt;=1 and &lt; the number of candidates entered above
+  it (and that number, here 100, should appear in the prompt text).
+
+<b><pre>Enter number of candidates in interview(>= 10)[100]: 
+Enter number of candidates to pre-interview(>=1, <100)[20]: 
+Enter number of experiments to simulate[1000]: 
+
+Histogram for one set of experiments
+Rank  Hire%
+   1[ 31.6%]|**************************************************
+   2[ 18.0%]|****************************
+   3[  9.8%]|***************
+   4[  6.8%]|**********
+   5[  4.6%]|*******
+   6[  2.9%]|****
+   7[  2.2%]|***
+   8[  1.7%]|**
+   9[  1.0%]|*
+  10[  1.0%]|*
+  11[  0.9%]|*
+  12[  0.4%]|
+  13[  0.3%]|
+  14[  0.2%]|
+  15[  0.3%]|
+...
+  95[  0.2%]|
+  96[  0.0%]|
+  97[  0.2%]|
+  98[  0.0%]|
+  99[  0.1%]|
+ 100[  0.3%]|
+
+Enter lambda to define good[lambda x : x <= 3]: 
+goodness for above histogram =  59%
+
+Results for many experiments, one set for each different pre-interview number
+PreI   good%
+   1[ 12.1%]|************
+   2[ 20.7%]|********************
+   3[ 25.6%]|*************************
+   4[ 30.6%]|******************************
+   5[ 35.0%]|***********************************
+   6[ 38.6%]|**************************************
+   7[ 42.4%]|******************************************
+   8[ 42.6%]|******************************************
+   9[ 48.6%]|************************************************
+  10[ 47.8%]|***********************************************
+...
+  90[ 10.5%]|**********
+  91[ 11.0%]|***********
+  92[  9.1%]|*********
+  93[  8.5%]|********
+  94[  8.3%]|********
+  95[  7.3%]|*******
+  96[  5.4%]|*****
+  97[  5.1%]|*****
+  98[  4.1%]|****
+  99[  2.4%]|**</pre></b>
+<h3>Testing</h3>
+Test each function on small amounts of data as you write it; then write the
+  script and run it, calling (and therefore testing) these same functions with
+  more complex data.
+My initial script code was 7 lines, with another 6 lines to handle the
+  iteration over different pre-interview values.
+</td>
+</tbody>
+</table>
+
+
+<!-- DNA Assembly -->
+
+<a name="DNA">
+<hr align="left" width="33%">
+<table cellspacing="0" cellpadding="5" border="0" rules="none" width="100%">
+<tbody>
+<tr valign="top">
+<td width ="20%"><b>DNA Assembly</b></td>
+<td width ="80%">
+Suppose that we are trying to sequence (determine the bases in) a large DNA
+  strand (typically containing tens of thousands of bases up to bilions in
+  the human genome).
+Although we can directly sequence small strands (hundreds of bases), we cannot
+  directly sequence bigger strands.
+But there is a "divide and conquer" (computationally intense) process, called
+  <b>shotgun sequencing</b>, that allows us to use the power of the computer
+  to recover a large DNA strand by matching/combining its smaller constituent
+  strands (called fragments).
+<p>
+In shotgun sequencing, first we clone (duplicate) the strand.
+Then, we break the resulting clones into smaller fragments, each containing
+  hundreds of bases.
+Breaking is accomplished via restriction enzymes (which cut DNA strands at
+  certain combinations of bases), thermal dissociation (heating), or
+  mechanical agitation (shaking) or combinations of all three.
+Using such methods, each DNA strand will break at different (and random)
+  locations.
+Because these resulting fragments are so small, we can sequence them directly.
+Once we have sequenced them all, we enter each fragment's sequence into a
+  large file that our program can read and process.
+Each line in the file is a string, with each DNA base represented by one of
+  the characters, <b>'a'</b>, <b>'c'</b>, <b>'g'</b>, or <b>'t'</b>.
+<p>
+The job of our program is to first read all these fragments (which contain
+  lots of redundant information from the clones) and them reassemble them into
+  the original, DNA strand.
+Our program starts by reading these fragment sequences into a list (so each
+  element in the list is a string).
+Next it repeated searches for overlapping pairs of fragments (discussed in
+  detail below), removes each individual fragment, combines the pair into a
+  larger fragment, and places the larger fragment back into the list.
+This combining process continues until the program finds no more fragments that
+  overlap.
+With a bit of further processing (see the details below) we try to reduce all
+  remaining fragments into one fragment, which is actually the original strand.
+<p>
+Here is an example of a small DNA sequence and some sample fragments broken at
+  random locations from four clones: a-d.
+I have labelled fragments of each close for easier reference: e.g., a0-a2 is
+  the entire original sequence.
+<b><pre>
+gccaacgtccgattacggatacaagctctt(original)
+gccaacgt(a0)   ccgattacggatacaa(a1)   gctctt(a2)
+gccaacgtc(b0)   cgattacggat(b1)   acaagctctt(b2)
+gccaacgtccgatt(c0)   acggatacaag(c1)   ctctt(c2)
+gccaacgtccgattacg(d0)   gatacaa(d1)   gctctt(d2)</pre></b>
+<p>
+Notice that we can re-assemble the original sequence from these clones as
+  follows (the actual algorithm is explained below via functions):
+  d0 overlaps a1, and a1 overlaps b2 as follows.
+<b><pre>  gccaacgtccgattacg(d0)
+          ccgattacggatacaa(a1)
+                      acaagctctt(b2)</pre></b>
+<p>
+Real shotgun sequencing performs exactly these operations, but on much messier
+  data than we will use: our data is computer generated; our programs can
+  assume perfect breaking with no loss or corruption of information.
+This assumption does not hold in real-world experiments, so the real-world
+  assembly programs must be more sophisticated (beyond the capacity of 7th
+  week introductory programming students :).
+Nevertheless, we will get a tremendous amount of insight into the problem by
+  writing a program that operates on simplfied data.
+<p>
+Define your functions/script in the <b>dnamaker.py</b> module.
+<ol>
+<li>Define the function <b>overlaps</b> that takes two <b>str</b> parameters
+      (which we will call <b>upper</b> and <b>lower</b>) and an <b>int</b>
+      parameter (which we will call <b>n</b>); it returns a <b>bool</b>,
+      whether the last <b>n</b> characters in the <b>upper</b> string matches 
+      the first <b>n</b> characters in the <b>lower</b> string.
+    <p>
+    The call <b>overlaps('acggtcac',gtcacattac',5)</b> is illustrated below:
+      it returns <b>True</b>; there is no other value of <b>n</b> for which
+      strands overlap.
+<b><pre>         01234567       (indexes for upper's characters)
+  upper  acggtcac
+  lower     gtcacattac  (indexes for lower's characters)
+            0123456789</pre></b>
+  Hint: I wrote this method carefully as a one-liner, using slicing to check
+    the condition.
+<p>
+<li>Define the function <b>max_overlap</b> that takes two <b>str</b> parameters
+      (which we will call <b>upper</b> and <b>lower</b>); it returns an
+      <b>int</b>, indicating the maximum number of overlapping characters at
+      the end of <b>upper</b> and the start of <b>lower</b> (if there is no
+      overlap, it should return <b>0</b>).
+    It works by trying all possible overlap sizes and returning the biggest for
+       which <b>overlaps</b> returns <b>True</b>: note that <b>n</b> cannot
+       be bigger than the length of the minimum string.
+    Hint: My function has 7 lines.
+    <p>
+    Once you have written <b>overlaps</b> and <b>max_overlap</b> test them
+      by uncommenting the call to the <b>test_max_overlap</b> function; when
+      you are done testing these functions, comment-out the call to the
+      <b>test_max_overlap</b> function again.
+<p>
+<li>Define the function <b>read_fragments</b> that takes one <b>str</b>
+       parameter that is a file name; it returns a list of DNA fragments,
+       read one per line from the file (with its <b>'\n'</b> stripped off
+       the right.
+    Test this function by calling it on the a few of the smaller DNA fragment
+      files; print the resulting list and visually check it against the lines
+      in the file.
+    Hint: My function has 1 line (because I used a comprehension); without a
+      comprehension my function would have 5 lines.
+<p>
+<li>Define the function <b>choose</b> that takes one <b>list</b> of <b>str</b>
+      parameter (the list of fragments) and one <b>int</b> parameter (the
+      minimum number of overlap characters required to combine the fragments);
+      it returns a tuple containing the upper fragment, the lower fragment,
+      and the number of overlaping characters (at the end of the upper fragment
+      and start of the lower fragment).
+    This method uses nested loops to find the maximum overlap between every
+       pair of fragments (but not a fragment and itself: use an
+       <b>if</b> statement to not check such fragments); the first time if finds
+       an overlap that is <b>&gt;=</b> the minmum required overlap, it returns
+       that upper and lower fragment, and the number of overlaping characters.
+    If no such pairs are found, this function returns the tuple
+       <b>('','',0)</b>.
+    Hint: loop over the fragment strings, not their indexes.
+    My function is 8 lines. 
+    <p>
+    Test this function by uncommenting the four calls to the <b>print</b>
+      function (and test others like these); when you are done testing these
+      functions, comment-out the calls to <b>print</b> again.
+<p>
+<li>Define the function <b>assemble</b> that takes one <b>list</b> of
+      <b>str</b> parameter (the list of fragments), one <b>int</b> parameter
+      (the minimum number of overlap characters required to combine the
+      fragments), and one <b>bool</b> parameter to turn on tracing (trace
+      whatever useful information you want to <b>print</b> while this function
+      executes); it returns <b>None</b> but mutates the fragment list as 
+      follows.
+    <p>
+    The <b>assemble</b> function calls <b>choose</b> to determine what
+      fragments to combine; if <b>choose</b> cannot find any fragments with
+      the minimum number of overlap characters, <b>assemble</b> returns;
+      otherwise (and the order is important here), it removes the upper and
+      lower fragments (see <b>remove_predicate</b>) and then adds the combined
+      fragment: so the net results is that the fragment list gets shorter by
+      1 fragment.
+    <p>
+    Going back to the example above, it would remove <b>'acggtcac'</b> and
+      <b>'gtcacattac'</b> and add <b>'acggtcacattac'</b> (mine was created by
+      catenating a slice of the upper string with the entire lower one).
+<b><pre>         01234567       (indexes for upper's characters)
+  upper  acggtcac
+  lower     gtcacattac  (indexes for lower's characters)
+            0123456789</pre></b>
+<p>
+<li>Write a script at the bottom of this module that
+<ul>
+<li>Prompts the user for the DNA fragments file name.
+<li>Reads that DNA file .
+<li>Prompts the user for the minimum overlap for merging: if this number is
+      too low accidental merges might occur; if it is too high, legitimate
+      merges might fail to occur.
+<li>Assembles the fragments.
+<lil>Sorts the remaining list so that the <b>longest</b> fragment appears first.
+<li>Removes all fragments whose (a) length is less than the fragment at index
+      <b>0</b> and (b) is in the fragment at index <b>0</b> (hint: the <b>in</b>
+      operator does this second job).
+<li>Prints the fragment at index <b>0</b> and the number of remaining
+      fragments (if 1, we have recovered the entire original DNA strand).
+<li>Prints this same fragment in a file whose name that is the same as the one
+      you prompted the user for, prefixed by <b>'assembled-'</b>, so the
+      output file name is <b>'assembled-trivialdna.txt'</b> when the input
+      file name is <b>'trivialdna.txt'</b>; print a message to this effect.
+</ul>
+My initial script code was 11 lines (including no looping)
+</ol>
+Here is an example of my final script running on the <b>trivialdna.txt</b>
+  file with the tracing I used (this would print too much for the larger
+  dna files).
+<b><pre>nter file to process: trivialdna.txt
+Enter minimum overlap: 2
+Tracing on?[True]: 
+
+assembling with 3 fragments
+['aacc', 'ccgg', 'ggtt']
+Removing upper = 'aacc' and lower = 'ccgg'
+Adding 'aaccgg'
+
+assembling with 2 fragments
+['ggtt', 'aaccgg']
+Removing upper = 'aaccgg' and lower = 'ggtt'
+Adding 'aaccggtt'
+
+assembling with 1 fragments
+['aaccggtt']
+
+Assembled with 1 strand(s) remaining
+aaccggtt
+Answer written into file: assembled-trivialdna.txt</pre></b>
+<h3>Testing</h3>
+Test this script on the supplied data files.
+Note that each as an answer file:e.g.,
+  <b>trivialdna.txt</b> and <b>trivialdnaanswer.txt</b>.
+<ul>
+<li>For <b>trivialdna.txt</b> use a minimum overlap of 2.
+<li>For <b>tinydna.txt</b> use a minimum overlap of 3.
+<li>For <b>exampledna.txt</b> use a minimum overlap of 3
+    (its 4 clones appear in these notes).
+<li>For <b>smalldna.txt</b> use a minimum overlap of 5.
+<li>For <b>hugedna.txt</b> use a minimum overlap of 10.
+</ul>
+    For <b>hugedna.txt</b>: turn tracing off, or trace just the current number
+      of fragments (so you can follow its progress); running my program took 90 
+      seconds.
+    The <b>assembled-hugedna.txt</b> and <b>hugednaanswer.txt</b>
+      have so many characters on one line that they cannot be examined in the
+      Eclipse editor.
+</body>
+</html>
+

@@ -1,0 +1,268 @@
+<html>
+<style type="text/css">@import url("/psearchstyle/css/psearch.css");</style>
+<script src="/psearchstyle/js/psearch.js" type="text/javascript"></script>
+<body>
+<script src="/psearchstyle/js/head.js" type="text/javascript"></script>
+<!--<script src="/psearchstyle/js/psearchform.js" type="text/javascript"></script>-->
+
+<script language=JavaScript> 
+function clear_textbox() 
+{ 
+if (document.getElementById('query').value == "Search DBLP") 
+		document.getElementById('query').value = "";
+}
+</script>
+
+
+
+
+<script language="javascript" type="text/javascript">
+
+var numberofRst = 100;
+var url = "/dblpstable?";
+var http = getHTTPObject(); // We create the XMLHTTPRequest Object
+
+function getOneRecordHttpResponse() {
+    if (http.readyState == 4) {
+        if (http.status == 200) {
+            var message = http.responseXML.getElementsByTagName("OneRecord");
+			if(message!=null)
+			{
+				var records = http.responseXML.getElementsByTagName("AttrValue");
+				var formatedRst = "<br/><br/><HR/><TABLE>"
+				for(var i=0;i<records.length;i++)
+				{
+				    var attr = records[i].childNodes[0].firstChild;
+					if(attr!=null)
+					      attr= attr.nodeValue;
+				    else 
+					      attr= "";
+					var value = records[i].childNodes[1].firstChild;//.nodeValue;
+					if(value!=null)
+					      value= value.nodeValue;
+				    else 
+					      value= "";
+					formatedRst += "<TR><TD VALIGN='TOP' ALIGN='RIGHT' class = 'singleAttrName'>" + attr +
+					":</TD><TD WIDTH='5'></TD><TD WIDTH='600' class='singleAttrValue'>" +value+ "</TD></TR>";
+				}
+				formatedRst += "</TABLE><BR/><HR/><br/><br/>";
+				document.getElementById('queryrst').innerHTML = formatedRst;				
+				document.getElementById('queryrst').style.display = "";
+            } 
+        } 
+		else 
+		{
+            alert ( "Not able to retrieve data" );
+        }
+    }    
+}
+
+
+function handleHttpResponse() {
+    if (http.readyState == 4) {
+        if (http.status == 200) {
+            var message = http.responseXML.getElementsByTagName("OneRecord");
+			if(message!=null)
+			{
+				var records = http.responseXML.getElementsByTagName("AttrValue");
+				var formatedRst = "<br/><br/><HR/><TABLE>"
+				for(var i=0;i<records.length;i++)
+				{
+				    var attr = records[i].childNodes[0].firstChild.nodeValue;
+					var value = records[i].childNodes[1].firstChild.nodeValue;
+					formatedRst += "<TR><TD VALIGN='TOP' ALIGN='RIGHT' class = 'singleAttrName'>" + attr +
+					":</TD><TD WIDTH='5'></TD><TD WIDTH='600' class='singleAttrValue'>" +value+ "</TD></TR>";
+				}
+				formatedRst += "</TABLE><BR/><HR/><br/><br/>";
+				document.getElementById('queryrst').innerHTML = formatedRst;				
+				document.getElementById('queryrst').style.display = "";
+            } 
+        } 
+		else 
+		{
+            alert ( "Not able to retrieve data" );
+        }
+    }    
+}
+
+
+function getMoreHttpResponse() {
+    if (http.readyState == 4) {
+        if (http.status == 200) {
+            var message = http.responseXML.getElementsByTagName("MultiRst");			
+			if(message!=null && message.length>0)
+			{				
+			    //alert("go in");
+			    var querysubmit = http.responseXML.getElementsByTagName("submitedquery")[0].firstChild.nodeValue;
+			    var formatedRst = "<HR/><br/> Input Query:<b>"+querysubmit+"</b><br/>";
+				formatedRst += "<TABLE align='center' class='listing' id='listing' width='100%'> ";
+				//alert(formatedRst);
+			    var attrs = http.responseXML.getElementsByTagName("Attr");
+				formatedRst += "<TR class='head'><TD class='fld_name'> ID </TD>";
+				for(var i=0;i<attrs.length;i++)
+				{
+				    var attr = attrs[i].firstChild.nodeValue;					
+					formatedRst += "<TD class='fld_name'>"+attr+"</TD>";
+				}
+				formatedRst += "</TR>"; 
+                //alert(formatedRst);
+				var data = http.responseXML.getElementsByTagName("Rst");
+				for(var j=0;j<data.length;j++)
+				{
+				   if(j%2==0)
+					   formatedRst +="<TR class='data row0'>";
+				   else 
+     				   formatedRst +="<TR class='data row1'>";
+				   for(var k=0;k<=attrs.length;k++)
+				   {
+				       var r = data[j].childNodes[k].firstChild;
+					   if(r!=null)
+					   {
+					        r = data[j].childNodes[k].firstChild.nodeValue;
+							if(k==0)
+								r="<A href='#' onClick='getRst("+r+");'>"+r+"</A>";							
+						}
+						else 
+						    r="";
+						formatedRst += "<TD class='fld_name'>"+r+"</TD>";                       
+				   }
+				   formatedRst +="</TR>";
+				}
+				//alert(formatedRst);
+				formatedRst += "</TABLE><br/><hr/>";
+				document.getElementById('queryrst').innerHTML = formatedRst;				
+				document.getElementById('queryrst').style.display = "";
+            } 
+			else
+			  alert("No such data!");
+        } 
+		else 
+		{
+            alert ( "Not able to retrieve data" );
+        }
+    }    
+}
+
+function updateFirstLastName() {
+    var queryvalue = document.getElementById("query").value;
+    queryvalue = "&q="+queryvalue;
+    http.open("GET", url + queryvalue , true);
+    http.onreadystatechange = handleHttpResponse;
+    http.send(null);
+}
+
+function getHTTPObject() {
+    var xmlhttp;
+    if (window.XMLHttpRequest) {
+        xmlhttp = new XMLHttpRequest();
+    } else if (window.ActiveXObject) {
+        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    return xmlhttp;
+}
+
+var timesend;
+var boolsubmit = 0;
+
+function enterQuery(e)    
+{    
+    if(boolsubmit==1)
+    {
+        boolsubmit = 0;
+        return;
+    } 
+    var keychar = window.event ? e.keyCode : e.which;
+	//var keychar = String.fromCharCode(key);
+    timesend = new Date();
+    timesend = timesend.getTime();
+
+    if(keychar==13){ 
+		var queryvalue = document.getElementById("query").value;
+		queryvalue = "getMore="+numberofRst+"&q="+queryvalue;
+		//alert(url + queryvalue);
+		document.getElementById('results').style.display = "none";
+		http.open("GET", url + queryvalue , true);
+		http.onreadystatechange = getMoreHttpResponse;
+		http.send(null);
+	}
+}
+
+function submitQuery()    
+{    
+   		var queryvalue = document.getElementById("query").value;
+		queryvalue= queryvalue.replace(/(^\s*)|(\s*$)/g, "");
+		if(queryvalue=="")
+		{
+		    alert("Query is null, pls input a query!");
+			return;
+		}
+		queryvalue = "getMore="+numberofRst+"&q="+queryvalue;
+		//alert(url + queryvalue);
+		document.getElementById('results').style.display = "none";
+		http.open("GET", url + queryvalue , true);
+		http.onreadystatechange = getMoreHttpResponse;
+		http.send(null);
+}
+
+function getMore(DataID)
+{    
+    var queryvalue = "getMore="+numberofRst+ "&q="+DataID;
+	//alert(url + queryvalue);
+    http.open("GET", url + queryvalue , true);
+    http.onreadystatechange = getMoreHttpResponse;
+    http.send(null);
+}
+
+function getRst(DataID)
+{
+    var queryvalue = "DataID="+DataID;
+	//alert(url + queryvalue);
+    http.open("GET", url + queryvalue , true);
+    http.onreadystatechange = getOneRecordHttpResponse;
+    http.send(null);
+}
+
+</script>
+
+
+<center>
+<input id="query" onFocus="clear_textbox()" name="q" size="90" maxlength="300" value="Search DBLP" autocomplete="off" type="text" onkeypress="enterQuery(event);"/>
+<input type="button" size="80" id="searchbutton" value="Search" onClick="submitQuery();" />
+
+<div class="auto_complete" id="results" align="center" size="100" maxlength="500" height="500" style="position:absolute;zIndex:100" ></div>
+
+</center>
+
+<script type="text/javascript"> 
+//<![CDATA[ 
+var searcher = new Ajax.Autocompleter( 
+	    'query', 
+	    'results', 
+	    '/dblpstable', 
+            {minChars: 2,
+	     afterUpdateElement: searchSubmit})
+             function searchSubmit(text, li) { 
+             var DataID = li.getAttribute("value"); 
+             //alert(DataID);
+
+             boolsubmit=1;
+             document.getElementById("query").value="";
+			 if(DataID>0)   			 
+			     getRst(DataID);
+			 else
+			     getMore(DataID); 		    
+	}
+//]]>
+</script>
+<center>
+ <div id="queryrst" style="display:none"></div>
+</center>
+
+
+
+<script src="/psearchstyle/js/bottom.js" type="text/javascript"></script>
+
+</body>
+
+</html>
+

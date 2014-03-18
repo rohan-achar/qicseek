@@ -1,0 +1,309 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+
+<HEAD>
+<TITLE>Social Security Place of Issue Lookup</TITLE>
+<META NAME=AUTHOR CONTENT="Moishe Miller">
+<META NAME=DESCRIPTION CONTENT="A form based Javascript to Social Security Place of Issue Lookup.">
+<META NAME=KEYWORDS CONTENT="Moishe Miller Javascript Social Security Place of Issue Lookup genealogy">
+<META NAME=DISTRIBUTION CONTENT="global">
+
+<!-- 
+    -------------------------------------------------------------------------
+                     TABLE LOOKUP EXAMPLE in JAVASCRIPT
+                    by Danny Goodman (dannyg@dannyg.com)
+                    Analyzed and described at length in 
+                            "JavaScript Bible"
+                      (IDG Books ISBN 0-7645-3022-4)
+    
+    This program is Copyright 1996 by Danny Goodman.  All Rights Reserved.
+    -------------------------------------------------------------------------
+SMTPOriginator:  dgoodman@shell12.ba.best.com
+From:  dannyg@dannyg.com
+Subject:  Re: JavaScript
+PostedDate:  02/22/99 03:25:10 AM
+SendTo:  CN=Moishe Miller/OU=PSG/O=Prudential
+DeliveredDate:  02/22/99 03:22:59 AM
+
+&gt;I found your website on Javascript fascinating and informative. Being an
+&gt;amateur genealogist, your SSN Lookup example was especially nice. Would it
+&gt;be possible to include it in my website? I know that you have a copyright
+&gt;on it. I can source it or annotate it with your credits if you like. There
+&gt;is an example that I wrote using Javascript on my website that acts as a
+&gt;Soundex Calculator. I would really love to include your example, could I?
+
+Yes, you may reproduce the SSN Lookup at your website, but please add the
+following permissions text somewhere on the visible page:
+
+  Copyright 1998 Danny Goodman (www.dannyg.com). Reprinted by permission.
+
+It can be in a small font, but at least a readable size.
+
+When you have the page up and running, please pass along the URL to it.
+
+All the best,
+
+Danny
+http://www.dannyg.com
+
+
+-->
+<SCRIPT LANGUAGE="JavaScript">
+<!-- hide from non-scriptable browsers
+function search(form) {
+	alert("This page requires Netscape Navigator 3.0 or later.")
+}
+// end hiding -->
+</SCRIPT>
+
+<SCRIPT LANGUAGE="JavaScript1.1">
+<!-- hide from non-scriptable browsers
+
+// create array listing all the top end of each numeric range
+var ssn = new Array(57)
+ssn[0] = 3
+ssn[1] = 7
+ssn[2] = 9
+ssn[3] = 34
+ssn[4] = 39
+ssn[5] = 49
+ssn[6] = 134
+ssn[7] = 158
+ssn[8] = 211
+ssn[9] = 220
+ssn[10] = 222
+ssn[11] = 231
+ssn[12] = 236
+ssn[13] = 246
+ssn[14] = 251
+ssn[15] = 260
+ssn[16] = 267
+ssn[17] = 302
+ssn[18] = 317
+ssn[19] = 361
+ssn[20] = 386
+ssn[21] = 399
+ssn[22] = 407
+ssn[23] = 415
+ssn[24] = 424
+ssn[25] = 428
+ssn[26] = 432
+ssn[27] = 439
+ssn[28] = 448
+ssn[29] = 467
+ssn[30] = 477
+ssn[31] = 485
+ssn[32] = 500
+ssn[33] = 502
+ssn[34] = 504
+ssn[35] = 508
+ssn[36] = 515
+ssn[37] = 517
+ssn[38] = 519
+ssn[39] = 520
+ssn[40] = 524
+ssn[41] = 525
+ssn[42] = 527
+ssn[43] = 529
+ssn[44] = 530
+ssn[45] = 539
+ssn[46] = 544
+ssn[47] = 573
+ssn[48] = 574
+ssn[49] = 576
+ssn[50] = 579
+ssn[51] = 580
+ssn[52] = 584
+ssn[53] = 585
+ssn[54] = 586
+ssn[55] = 599
+ssn[56] = 728
+
+// create parallel array listing all the states/territories
+// that correspond to the top range values in the first array
+var geo = new Array(57)
+geo[0] = "New Hampshire"
+geo[1] = "Maine"
+geo[2] = "Vermont"
+geo[3] = "Massachusetts"
+geo[4] = "Rhode Island"
+geo[5] = "Connecticut"
+geo[6] = "New York"
+geo[7] = "New Jersey"
+geo[8] = "Pennsylvania"
+geo[9] = "Maryland"
+geo[10] = "Delaware"
+geo[11] = "Virginia"
+geo[12] = "West Virginia"
+geo[13] = "North Carolina"
+geo[14] = "South Carolina"
+geo[15] = "Georgia"
+geo[16] = "Florida"
+geo[17] = "Ohio"
+geo[18] = "Indiana"
+geo[19] = "Illinois"
+geo[20] = "Michigan"
+geo[21] = "Wisconsin"
+geo[22] = "Kentucky"
+geo[23] = "Tennessee"
+geo[24] = "Alabama"
+geo[25] = "Mississippi"
+geo[26] = "Arkansas"
+geo[27] = "Louisiana"
+geo[28] = "Oklahoma"
+geo[29] = "Texas"
+geo[30] = "Minnesota"
+geo[31] = "Iowa"
+geo[32] = "Missouri"
+geo[33] = "North Dakota"
+geo[34] = "South Dakota"
+geo[35] = "Nebraska"
+geo[36] = "Kansas"
+geo[37] = "Montana"
+geo[38] = "Idaho"
+geo[39] = "Wyoming"
+geo[40] = "Colorado"
+geo[41] = "New Mexico"
+geo[42] = "Arizona"
+geo[43] = "Utah"
+geo[44] = "Nevada"
+geo[45] = "Washington"
+geo[46] = "Oregon"
+geo[47] = "California"
+geo[48] = "Alaska"
+geo[49] = "Hawaii"
+geo[50] = "District of Columbia"
+geo[51] = "Virgin Islands"
+geo[52] = "Puerto Rico"
+geo[53] = "New Mexico"
+geo[54] = "Guam, American Samoa, N. Mariana Isl., Philippines"
+geo[55] = "Puerto Rico"
+geo[56] = "Long-time or retired railroad workers"
+
+// **BEGIN DATA VALIDATION FUNCTIONS**
+// JavaScript sees numbers with leading zeros as octal values, so strip zeros
+function stripZeros(inputStr) {
+	var result = inputStr
+	while (result.substring(0,1) == "0") {
+		result = result.substring(1,result.length)
+	}
+	return result
+}
+
+// general purpose function to see if an input value has been entered at all
+function isEmpty(inputStr) {
+	if (inputStr == "" || inputStr == null) {
+		return true
+	}
+	return false
+}
+
+// general purpose function to see if a suspected numeric input 
+// is a positive integer
+function isNumber(inputStr) {
+	for (var i = 0; i < inputStr.length; i++) {
+		var oneChar = inputStr.substring(i, i + 1)
+		if (oneChar < "0" || oneChar > "9") {
+			return false
+		}
+	}
+	return true
+}
+
+// function to determine if value is in acceptable range for this application
+function inRange(inputStr) {
+	num = parseInt(inputStr)
+	if (num < 1 || num > 586 && num < 596 || num > 599 && num < 700 || num > 728) {
+		return false
+	}
+	return true
+}
+
+// Master value validator routine
+function isValid(inputStr) {
+	if (isEmpty(inputStr)) {
+		alert("Please enter a number into the field before clicking the button.")
+		return false
+	} else {
+		if (!isNumber(inputStr)) {
+			alert("Please make sure entries are numbers only.")
+			return false
+		} else {
+			if (!inRange(inputStr)) {
+				alert("Sorry, the number you entered is not part of our database.  Try another three-digit number.")
+				return false
+			}
+		}
+	}
+	return true
+}
+// **END DATA VALIDATION FUNCTIONS**
+
+// **LOOKUP FUNCTION**
+// Roll through ssn database to find index; apply index to geography database
+function search(form) {
+	var foundMatch = false
+	var inputStr = stripZeros(form.entry.value)
+	if (isValid(inputStr)) {
+		inputValue = inputStr
+		for (var i = 0; i < ssn.length; i++) {
+			if (inputValue <= ssn[i]) {
+				foundMatch = true
+				break
+			}
+		}
+	}
+	form.result.value = (foundMatch) ? geo[i] : ""
+	form.entry.focus()
+	form.entry.select()
+}
+// end hiding -->
+</SCRIPT>
+</HEAD>
+
+<BODY bgcolor="#ffffcc" text="#330000" link="#0000ff" alink="#ff00ff" vlink="#ff0000" leftmargin=8 topmargin=0>
+<table width="450" border="0" align="LEFT">
+	<tr><td>
+	<H1 ALIGN=CENTER>Social Security Place of Issue Lookup</H1><A HREF="../hometree.htm">
+	<IMG SRC="../img/smaltree.gif" WIDTH=36 HEIGHT=35 BORDER=0 ALIGN="RIGHT" alt="Go Home"></A>
+	<HR>
+	</td></tr>
+	<tr><td><P>
+
+According to an article in the <CITE>Wall Street Journal</CITE>, the first three digits of a U.S. Social Security number is a code that <B>may indicate</B> the state or territory in which your application stated you were born (because the code reveals the state in which you registered).  For recent immigrants, the number is supposed to match up with the state or territory in which you were living when you received proper working papers.<P>
+Note: The database in this document is not 100 percent complete.  Populous states have added numeric ranges not contained here.<P>
+Instructions:
+<OL><LI>Enter the first three digits of a U.S. Social Security number in question.
+<LI>Click on the Search button.
+<LI>See the corresponding state or territory in the field.
+</OL>
+
+<P><B>For the paranoid:</B> No information you enter here is recorded or monitored--it stays entirely within your browser.<P>
+<HR>
+<form onSubmit="return false">
+Enter the first <B>three</B> digits of a Social Security number:<INPUT TYPE="text" NAME="entry" SIZE=3 onChange="search(this.form)">
+<INPUT TYPE="button" VALUE="Search" onClick="search(this.form)">
+<P>
+The Feds link this number to:<INPUT TYPE="text" NAME="result" SIZE=50>
+</form>
+</td></tr>
+<tr><td>
+<A HREF="../hometree.htm">
+<IMG SRC="../img/smaltree.gif" WIDTH=36 HEIGHT=35 BORDER=0 ALIGN="RIGHT" alt="Go Home"></A><BR><P>
+<HR>
+<P>
+I would be very interested to hear from anyone with knowledge or an interest in the Miller family.<P>
+<ADDRESS>Moishe Miller<BR>moishe@langsam.com</ADDRESS>
+<BR>
+My home address is<PRE>
+           1374 East 28th Street
+           Brooklyn NY 11210-5311
+           USA
+</PRE>
+<P><FONT SIZE=-1>&copy;Copyright 1998 Danny Goodman (www.dannyg.com). Reprinted by permission.</FONT>
+  
+<P ALIGN=RIGHT><FONT SIZE=-2>Last updated 1/2/00</FONT>
+<P></td></tr></table>
+</BODY>
+</HTML>
+

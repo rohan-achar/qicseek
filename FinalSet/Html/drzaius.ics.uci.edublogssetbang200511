@@ -1,0 +1,531 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="sixapart-standard">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="generator" content="Movable Type 3.2" />
+
+   <link rel="stylesheet" href="http://drzaius.ics.uci.edu/blogs/setbang/styles-site.css" type="text/css" />
+   <link rel="alternate" type="application/atom+xml" title="Atom" href="http://drzaius.ics.uci.edu/blogs/setbang/atom.xml" />
+   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://drzaius.ics.uci.edu/blogs/setbang/index.xml" />
+
+   <title>::setbang::: November 2005 Archives</title>
+
+   <link rel="start" href="http://drzaius.ics.uci.edu/blogs/setbang/" title="Home" />
+   <link rel="prev" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/10/" title="October 2005" />
+   <link rel="next" href="http://drzaius.ics.uci.edu/blogs/setbang/2006/04/" title="April 2006" />
+</head>
+<body>
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=683161; 
+var sc_partition=5; 
+var sc_security="b4540abb"; 
+var sc_invisible=1; 
+</script>
+
+<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c6.statcounter.com/counter.php?sc_project=683161&amp;java=0&amp;security=b4540abb&amp;invisible=1" alt="hit counter" border="0"></a> </noscript>
+<!-- End of StatCounter Code -->
+
+<img src="http://www.ics.uci.edu/~johannab/images/background.gif">
+
+<div class="tiny-blocks" id="tiny-blocks">
+<img src="http://www.ics.uci.edu/~johannab/images/tiny-blocks.gif">
+</div>
+
+<a href="http://www.ics.uci.edu/~johannab/about-me.html" id="menu_01"><img src="http://www.ics.uci.edu/~johannab/images/menu_01.gif" width="87" height="19" border=0></a>
+<span id="menu_02"><img src="http://www.ics.uci.edu/~johannab/images/menu_02.gif" width="15" height="19"></span>
+<a href="http://drzaius.ics.uci.edu/blogs/setbang/" id="menu_03"><img src="http://www.ics.uci.edu/~johannab/images/menu_03.gif" width="48" height="19" border=0></a>
+<span id="menu_04"><img src="http://www.ics.uci.edu/~johannab/images/menu_04.gif" width="16" height="19"></span>
+<a href="http://www.ics.uci.edu/~johannab/research.html" id="menu_05"><img src="http://www.ics.uci.edu/~johannab/images/menu_05.gif" width="84" height="19" border=0></a>
+<span id="menu_06"><img src="http://www.ics.uci.edu/~johannab/images/menu_06.gif" width="15" height="19"></span>
+<a href="http://www.ics.uci.edu/~johannab/papers.html" id="menu_07"><img src="http://www.ics.uci.edu/~johannab/images/menu_07.gif" width="68" height="19" border=0></a>
+<span id="menu_08"><img src="http://www.ics.uci.edu/~johannab/images/menu_08.gif" width="16" height="19"></span>
+<a href="http://www.ics.uci.edu/~johannab/the-rest.html" id="menu_09"><img src="http://www.ics.uci.edu/~johannab/images/menu_09.gif" width="76" height="19" border=0></a>
+
+
+<a href="http://www.ics.uci.edu/~johannab/about-me.html" id="menu-green_01"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_01.gif" width="87" height="19" border=0></a>
+
+<a href="http://drzaius.ics.uci.edu/blogs/setbang/" id="menu-green_03"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_03.gif" width="48" height="19" border=0></a>
+<a href="http://www.ics.uci.edu/~johannab/research.html" id="menu-green_05"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_05.gif" width="84" height="19" border=0></a>
+<a href="http://www.ics.uci.edu/~johannab/papers.html" id="menu-green_07"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_07.gif" width="68" height="19" border=0></a>
+<a href="http://www.ics.uci.edu/~johannab/the-rest.html" id="menu-green_09"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_09.gif" width="76" height="19" border=0></a>
+
+<div class="sidebar">
+<div class="search">
+<br>
+<form method="get" action="http://drzaius.ics.uci.edu/mt/mt-search.cgi">
+<input type="hidden" name="IncludeBlogs" value="2" />
+<input id="search" name="search" size="20"/><br />
+<input type="submit" value="search me" />
+</form>
+</div>
+
+<p>&nbsp;</p>
+
+<div class="archive">
+<h3 class="content"><a href="http://drzaius.ics.uci.edu/blogs/setbang/archives.html">archives</a></h3>
+<ul>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2007/04/">April 2007</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/10/">October 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/09/">September 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/07/">July 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/06/">June 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/05/">May 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/04/">April 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/">November 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/10/">October 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/08/">August 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/">July 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/06/">June 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/">May 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/04/">April 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/03/">March 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/">February 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/01/">January 2005</a></li>
+
+</ul>
+</div>
+
+<p>&nbsp;</p>
+
+<div class="categories">
+<h3 class="content">categories</h3>
+<ul class="module-list">
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/aesthetics_art/" title="">aesthetics & art</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/gadgets/" title="">gadgets</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/interfaces_installations/" title="">interfaces & installations</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/lit_poetry/" title="">lit & poetry</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/music/" title="">music</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/my_enthralling_life/" title="">my enthralling life</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/noteworthy_nontech/" title="">noteworthy: nontech</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/noteworthy_tech/" title="">noteworthy: tech</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/wearble_tech/" title="">wearble tech</a>
+
+
+
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<span class="main">
+
+   <div id="container">
+      <div id="container-inner" class="pkg">
+
+
+         <div id="pagebody">
+            <div id="pagebody-inner" class="pkg">
+               <div id="alpha">
+                  <div id="alpha-inner" class="pkg">
+                     
+                     <p class="content">
+                        <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/10/">&laquo; October 2005</a> |
+                        <a href="http://drzaius.ics.uci.edu/blogs/setbang/">Main</a>
+                        | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/04/">April 2006 &raquo;</a>
+                     </p>
+                     
+                                          
+
+                     <h3 class="content">November 09, 2005</h3>
+                     <a id="a000248"></a>
+                     <div class="content" id="entry-248">
+                        <h3 class="content">hello trooper</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="hellotrooper.png" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/hellotrooper.png" width="187" height="250" /></p>
+
+<p>hello kitty as storm trooper.  paintings by <a href="http://www.flickr.com/photos/idoru45/sets/172195/">nick</a> showing the dark underbelly of the cute and cudly.</p>
+
+<p>[thanks <a href="http://www.boingboing.net/2005/11/09/hello_kittys_darksid.html">boing boing</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 11:53 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/hello_trooper.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/hello_trooper.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000247"></a>
+                     <div class="content" id="entry-247">
+                        <h3 class="content">washington university in st. louis dance floor</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="washu-dancefloor.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/washu-dancefloor.jpg" width="320" height="240" /></p>
+
+<p>the kids of <a href="http://ieee.wustl.edu/">wash u ieee</a> are making a <a href="http://washufloor.blogspot.com/">dance floor</a> like the one from <a href="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/2005/05/mit_disco_dance.html">mit</a>.      </p>
+
+<p>who wants to sponsor me to make the 3rd? ;]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:27 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/washington_university_in_st_lo.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/washington_university_in_st_lo.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">November 06, 2005</h3>
+                     <a id="a000246"></a>
+                     <div class="content" id="entry-246">
+                        <h3 class="content">parasite + parallel worlds</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="parasite.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/parasite.jpg" width="480" height="360" /></p>
+
+<p>parasite and parallel worlds are from a series of proposals called <a href="http://www.digital.udk-berlin.de/en/projects/summer05/main/freeproject/trains.html">moving canvas</a> from the universität der künste berlin:<blockquote>Our contribution to this is the idea of a parasite. Parasite is an independant projection-system that can be attached to subways and other trains with suction pads. Using the speed of the train as parameter for the projected content, the projection starts with the train moving inside a tunnel.</p>
+
+<p>The tunnels of a subway-system bear something mystic—most people usually have never made a step inside any of those tunnels. Confusing the routine of your train-travelling-journey, your habits and perception Parallel Worlds—making use of Parasite—allows you a glimpse into a different world full of surrealist imagery.</blockquote></p>
+
+<p>forgot to blog about this over the summer but i find it a really great installation.  of course sticking something to the side of a subway car is never looked kindly upon by the transportation authority, its still an awesome addition to an otherwise more mundane journey.  opening up new possibilities and new ways of regarding the infrastructures that we rely on in our daily lives.  plus it's gutsy :]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 10:22 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/parasite_parallel_worlds.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/parasite_parallel_worlds.html#comments">Comments (1)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000245"></a>
+                     <div class="content" id="entry-245">
+                        <h3 class="content">sunlight table + presence</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>two light/space interfaces worth keeping tabs on that i'm too lazy to post individually about:</p>
+
+<p><a href="http://www.random-international.com/sunlight-table">sun light table</a> via <a href="http://www.we-make-money-not-art.com/archives/006335.php">we make money not art</a></p>
+
+<p><a href="http://a.parsons.edu/%7Eresponsive/presence/">presence</a> via <a href="http://infosthetics.com/archives/2005/08/presence_1.html">information aesthetics</a></p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 04:29 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/sunlight_table_presence.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/sunlight_table_presence.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000244"></a>
+                     <div class="content" id="entry-244">
+                        <h3 class="content">digitall</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="digitall.png" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/digitall.png" width="420" height="266" /></p>
+
+<p>digitall by <a href="http://people.interaction-ivrea.it/a.amorim/">ana camila amorim</a> is:<blockquote>an "always on" home telephone that attempts to enrich voice based communications and enhance the experience of calling based on visual feedback.</p>
+
+<p>We repurpose the home telephone as set of individual transmitters, each of them connected to a house or a person, which can be plugged and unplugged to the system along time according to which people the user wants to be connected with.</p>
+
+<p>Each of these panels is customizable and can be shared as a gift/visiting card between friends.</blockquote></p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/007386.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:45 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/digitall.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/digitall.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000243"></a>
+                     <div class="content" id="entry-243">
+                        <h3 class="content">arch-os</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><a href="http://www.arch-os.com/">arch-os</a>:<blockquote>epresents an evolution in intelligent architecture, interactive art and ubiquitous computing. An 'Operating System' for contemporary architecture (Arch-OS, 'software for buildings') has been developed to manifest the life of a building and provide artists, engineers and scientists with a unique environment for developing transdisciplinary work and new public art.</blockquote></p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/007382.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:40 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/archos.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/archos.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">November 05, 2005</h3>
+                     <a id="a000242"></a>
+                     <div class="content" id="entry-242">
+                        <h3 class="content">TuneIn</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="tune-in.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/tune-in.jpg" width="440" height="272" /></p>
+
+<p>found this while i was a looking at through a sideshow of philips technology from <a href="http://images.businessweek.com/ss/05/10/philips2/index_01.htm">business week</a>:<blockquote>Enabling music lovers to share tunes legally was the inspiration for TuneIn. The Next Simplicity project is still in prototype phase but could allow people carrying the small yet savvy gadget to broadcast their music to others in the street. Press one button to tune into what another TuneIn carrier is listening to. Press another to listen to your own music. The device is designed to encourage like-minded music fans to talk to each other in public spaces.</blockquote>also of interest were the <a href="http://www.engadget.com/entry/1234000400066757/">concept led lightbulbs</a> they were showing off.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:28 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/tunein.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/tunein.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000241"></a>
+                     <div class="content" id="entry-241">
+                        <h3 class="content">soldius 1 universal solar charger</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="soldius1.png" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/soldius1.png" width="196" height="121" /></p>
+
+<p>this <a href="http://www.mysoldius.com/">solar charger</a> is tiny, looks hot, and recharges both my ipod <i>and</i> my mobile phone.  finally my love of renewable energy sources and over-designed technology have been merged into one!  you totally want to get me that for christmas don't you?</p>
+
+<p>[thanks <a href="http://www.popgadget.net/2005/11/soldius_1_unive.php">popgadget</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:16 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/soldius_1_universal_solar_char.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/soldius_1_universal_solar_char.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">November 04, 2005</h3>
+                     <a id="a000240"></a>
+                     <div class="content" id="entry-240">
+                        <h3 class="content">idades</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="idades.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/idades.jpg" width="480" height="360" /></p>
+
+<p><a href="http://www.idades.org/#">idades</a> is:<blockquote>a communication network formed by modular installations placed in transit spaces. In each of them, a spectator can recognize his or her simulated silhouette, projected onto a screen, placed in the midle of the transit space, in such a way as to discover that his or her movements affect the trajectory of a virtual ball that bounces as it touches the edges of the silhouette. This activates a game in which the participant is the body of the player, along with the rest of the spectators that enter the visual field of the camera that is displayed on the screen.</blockquote></p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/007368.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:39 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/idades.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/idades.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000239"></a>
+                     <div class="content" id="entry-239">
+                        <h3 class="content">muzaffarabad</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="muzaffarabad.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/muzaffarabad.jpg" width="280" height="211" /></p>
+
+<p>earthquake survivors in pakistan.  talk about re-appropriation...</p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/007364.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:36 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/muzaffarabad.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/muzaffarabad.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000238"></a>
+                     <div class="content" id="entry-238">
+                        <h3 class="content">awarecuffs</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="awarecuffs.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/awarecuffs.jpg" width="500" height="213" /></p>
+
+<p><a href="http://www.richardetter.net/awarecuffs.php">awarecuffs</a> are the second item from the <a href="http://www.richardetter.net/awarefashion.php">awarefashion</a> line:<blockquote>The wifi sensing technology is hidden in the small pocket. The circuit board in the pocket displays the quality of service by LEDs (light emitting diodes) in different colors. The LEDs are connected to glass fibres, the light travels through them and small light spots appear at the end. When the technology pocket is detached the cuffs solely consist of cloth and glass fibres and can be washed. This modular concept also makes it possible to easily replace the technology function of the cuffs. Or even, to wear the cuffs without technology at all, just because you love the fashion design :-)</blockquote>i really enjoy when designs actually look nice ;]</p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/007361.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:31 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/awarecuffs.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/awarecuffs.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">November 01, 2005</h3>
+                     <a id="a000237"></a>
+                     <div class="content" id="entry-237">
+                        <h3 class="content">nokia + bluetooth = music</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="nokia-no90.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/nokia-no90.jpg" width="250" height="283" /></p>
+
+<p>the <a href="http://news.bbc.co.uk/2/hi/technology/4392534.stm">bbc</a> reports that nokia and EMI have teamed up to let coffeeshop customers receive music over bluetooth.  the tests are conveniently [for everyone cooler than you and i] starting in helsinki.<blockquote>The service is designed to work with Series 60 Symbian phones (such as Nokia's N90 and the Siemens SX1) and Nokia Series 40 phones (such as the 6060 and the 8800).</p>
+
+<p>The trial service, dubbed bFree, will be free for those taking part. But Nokia and EMI expect to charge for access to the playlists if a commercial system is rolled out.</blockquote>the name will later changed to bForPay ;]</p>
+
+<p>p.s. this entry goes out to karma who still doesn't bother reading my site...<br />
+ <br />
+[thanks <a href="http://us.gizmodo.com/gadgets/cellphones/nokia-tests-bluetooth-music-134115.php">gizmodo</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:16 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/nokia_bluetooth_music.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/nokia_bluetooth_music.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000236"></a>
+                     <div class="content" id="entry-236">
+                        <h3 class="content">8520 south west 27th place version 2</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="8520-south-west-27th-place.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/8520-south-west-27th-place.jpg" width="210" height="158" /></p>
+
+<p><a href="http://www.fernandoorellana.com/">fernando orellana</a> brings us this great installation:<blockquote>This process of free will is what 8520 south west 27th place speaks of. Within this installation, there exists six double headed robotic-rodents. They live within their transparent houses, differing only in the numerical address of each house. Each robot, comprised of two reconfigured Gemmy Corporation Dancing Hamsters toys, has the ability to walk forward or backward on a track in its house. The robots have been programmed with a unique set of eight numbers. These numbers are then used to determine what type of kinetic behavior the robots demonstrate. Some robots might appear to be confident in their decision, by walking valiantly back and forth in the house. While others, might exhibit what seems to be hesitation, staying in one place for a long period of time, or fidgeting between each decision. In the end, the decision is random, but it serves as a metaphor for the overall redundancy of our decisions. The seed used to generate the random sequence of numbers is derived from a small infrared sensor installed at one end of each house. Like our decision process, the sensor allows for external forces to influence the outcome of each verdict the robot makes. The robots pause at every new assessment, pulsing a small light installed in theirs heads, which makes them appear to be contemplating future action. The robotic-rodents scurry about, seemingly with a purpose, only too bump their heads on the extremes of their houses.</blockquote></p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/007350.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:10 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/8520_south_west_27th_place_ver.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/8520_south_west_27th_place_ver.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000235"></a>
+                     <div class="content" id="entry-235">
+                        <h3 class="content">hifi transformer: more than meets the... ear.</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="hifi-transformer.jpg" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/hifi-transformer.jpg" width="197" height="346" /></p>
+
+<p><a href="http://toyboxst.inwards.com/rumblizer/view.php?article_key=544">compoboy</a> [that's a disappointing name huh?] is a way un-disappointing robot made out of 80s hifi components.  but does he <i><a href="http://students.washington.edu/colin2/breakformers/Video_player_06.html">dance</a></i>?</p>
+
+<p>[thanks <a href="http://us.gizmodo.com/gadgets/robots/eighties-hifi-transformer-133952.php">gizmodo</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:05 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/hifi_transformer_more_than_mee.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/hifi_transformer_more_than_mee.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000234"></a>
+                     <div class="content" id="entry-234">
+                        <h3 class="content">GAYmobile</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img alt="GAYmobile.JPG" src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/GAYmobile.JPG" width="197" height="69" /></p>
+
+<p>a new cell company is being launched in denmark called <a href="http://www.gaymobile.dk/">GAYmobile</a>.<br />
+the flagship product?  why of course it's called HOMOBIL.</p>
+
+<p>at last... seperate but equal cell phone service. ;]</p>
+
+<p>[thanks <a href="http://www.engadget.com/entry/1234000303065826/">engadget</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:00 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/gaymobile.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/gaymobile.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+</body>
+</span>
+</html>
+

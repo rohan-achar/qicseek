@@ -1,0 +1,145 @@
+<!-- received="Tue Sep  3 05:14:09 1996 PDT" -->
+<!-- sent="Thu, 29 Aug 1996 13:38:03 -0500" -->
+<!-- name="David G. Durand" -->
+<!-- email="dgd@cs.bu.edu" -->
+<!-- subject="Re: Seiwald Q &amp; A -- "GET for EDIT" cookies" -->
+<!-- id="v02130505ae4b8f3533dc@[128.148.157.46]" -->
+<!-- inreplyto="Seiwald Q &amp; A -- "GET for EDIT" cookies" -->
+<title>Archive of Working Group on Versioning and Configuration Management of World Wide Web Content: Re: Seiwald Q &amp; A -- "GET for EDIT" cookies</title>
+<h1>Re: Seiwald Q &amp; A -- "GET for EDIT" cookies</h1>
+<b>David G. Durand</b> (<a href="mailto:dgd@cs.bu.edu"><i>dgd@cs.bu.edu</i></a>)<br>
+<i>Thu, 29 Aug 1996 13:38:03 -0500</i>
+<p>
+<ul>
+<li> <b>Messages sorted by:</b> <a href="index.html#117">[ date ]</a><a href="thread.html#117">[ thread ]</a><a href="subject.html#117">[ subject ]</a><a href="author.html#117">[ author ]</a>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0118.html">Yaron Goland: "RE: Seiwald Q &amp; A"</a>
+<li> <b>Previous message:</b> <a href="0116.html">Jim Whitehead: "RE: Microsoft Feature Support List (V 0.1, ALPHA, 8/26/96)"</a>
+<!-- nextthread="start" -->
+<!-- reply="end" -->
+</ul>
+<hr>
+<!-- body="start" -->
+<pre>
+At 10:00 PM 8/28/96, Christopher Seiwald wrote:
+&gt;Me again:
+&gt;Locking ("reservations") can be handled by LOCK, I quite agree.  But
+&gt;SCM systems don't hang all their context on a lock: they hang it on the
+&gt;"checkout".  That's when the user tells the system, "I'll be changing
+&gt;this here document," and the system records that fact for the day when
+&gt;the user says, "Uh, here's that document I changed." The SCM system uses
+&gt;this context to keep track of the dozens (thousands?) of users out there,
+&gt;all trying to change the same set of documents (but invariable all
+&gt;starting with different revisions of those documents).
+
+Well, _my_ interpretation of lock is that it's a notofication of intent to
+modify a resource. I don't think (but not everyone agrees with me) that we
+can specify a single policy for locking that will work for everyone: but we
+can define operations the servers can interpret to "do the right thing"
+based on the policies that they implement, and the clients can meaningfully
+implement in way that will let them be used effectively with different
+servers.
+
+    I don't think (and intentionally avoided requiring) that we can
+guarantee that the same client used with different server will work exactly
+the same way with each server. But a client should be able to work with
+different servers and make effective use of the policies that the servers
+do provide.
+
+    So an argument that CHECKOUT/CHECKIN are required separate from a
+LOCK/GET/PUT/UNLOCK cycle would have to be a case where a server needed to
+have _both forms_ of operation in place, _and_ have both forms operate
+oaccording to different semantics. We want sufficient operations to span
+the space of behavior, but I don't think that the different behaviors need
+distinct representations in the protocol, unless they need to be
+simultaneously implemented.
+
+&gt;Not all SCM systems require a lock before checking in documents, and
+&gt;some acquire that lock automatically, so many PUTs are likely to happen
+&gt;in the absense of a LOCK.  But _all_ SCM systems (except CVS) require
+&gt;some sort of checkout (locking or non-locking) before checkin.
+   I think we have to handle CVS too, which means we already can't
+_require_ a CHECKOUT method.
+
+If you don't need a lock, then LOCK followed by GET _is_ a checkout. Maybe
+the name LOCK is bad. Maybe NOTIFY (of intention to write) would be better?
+
+
+&gt;  Now you
+&gt;could fudge it, and by remembering the URL and revision do a paired
+&gt;checkout/checkin to establish the required context.  But this defeats
+&gt;a feature that all modern SCM systems boast: tracking user activity.
+&gt;They have this feature because users don't remember what they're doing,
+&gt;and they certainly don't remember what other people are doing.  Half
+&gt;the job of SCM systems (and by extension, version aware web servers) is
+&gt;to keep track of who is doing what to what, just to remind everyone
+&gt;involved.  Those scenarios I cooked up (where Joe and Jane keep stepping
+&gt;on each other) weren't just from my past experience: they were from my
+&gt;past week's experience.
+
+I don't have a problem with a server having a policy that passes out
+multiple locks (as long as we can represent the state properly). I don't
+see the problem with the client having to present the version number with
+the document when reigstering an update.
+
+Is the cookie a persisten session identifier? I'm still having trouble
+understanding what it is, rather than what you wan tot do with it...
+
+
+&gt;Only one user can LOCK a file.  If the context is established on LOCK
+&gt;then there will be only one context per document, precluding Joe and
+&gt;Jane from finding out that they're doctoring the same text.
+I'm not sure that this has to be the case. I'd rather relax the semantics
+of lock, and keep a single protocol with access and update orhtogonal than
+tighten the defintion, add more methods, and make client and server
+implementation harder and more policy-dependent.
+
+&gt;Normally SCM systems have a tight association between the checkout
+&gt;context and the checked-out file, because often there is no way to work
+&gt;"outside" of the SCM system.  But if the SCM system is the backend of
+&gt;a version-aware web server, with the actual work happening in "stateless"
+&gt;web clients, then that context must be represented by a cookie.
+What is the context? If I understood that maybe I would undertsand
+everything. I still don't see what the cookie is _needed for_.
+
+&gt;The cookie belongs to the underlying SCM system; whether it is an MD5
+&gt;hash of the document contents, some cryptic string churned up from bowels
+&gt;of the SCM database, or "allworkandnoplaymakesjohnnyadullboy" is not
+&gt;HTTP's or a Web authoring tool's business.  They just have to keep it
+&gt;associated with the checked-out document so that it can be reunited with
+&gt;the checkout context at checkin time.
+MD5 was just an example... What does the cookie identify: a state of the
+document, a granted access request, a bunch of session information, or
+something else?
+
+&gt;
+&gt;This cookie is the single most important component of distributed web
+&gt;authoring, IMHO.
+
+
+May be. I can see some use for session identifiers (So I can check out the
+same thing 5 times and post a variety of variants).
+   Couldn't non-exclusive reservation also be handled by some kind of
+generic "attach meta-data" operation; I suspect we will need something like
+this as a hook for specific config management strategies in the second
+phase anyway?
+
+
+    -- David
+
+--------------------------------------------+--------------------------
+David Durand                  <a href="mailto:dgd@cs.bu.edu">dgd@cs.bu.edu</a> | david@dynamicDiagrams.com
+Boston University Computer Science          | Dynamic Diagrams
+<a href="http://www.cs.bu.edu/students/grads/dgd/">http://www.cs.bu.edu/students/grads/dgd/</a>    | http://dynamicDiagrams.com/
+</pre>
+<!-- body="end" -->
+<hr>
+<p>
+<ul>
+<!-- next="start" -->
+<li> <b>Next message:</b> <a href="0118.html">Yaron Goland: "RE: Seiwald Q &amp; A"</a>
+<li> <b>Previous message:</b> <a href="0116.html">Jim Whitehead: "RE: Microsoft Feature Support List (V 0.1, ALPHA, 8/26/96)"</a>
+<!-- nextthread="start" -->
+<!-- reply="end" -->
+</ul>
+

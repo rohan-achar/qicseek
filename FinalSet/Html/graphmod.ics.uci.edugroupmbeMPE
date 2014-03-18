@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>mbeMPE - GraphModAlg@UCI</title>
+<script type="text/javascript" src="/moin_static163/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static163/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static163/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static163/rightsidebar/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static163/rightsidebar/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static163/rightsidebar/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="GraphModAlg@UCI: mbeMPE" href="/group/action/rss_rc/mbeMPE?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=mbeMPE&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/group/Main_Page">
+<link rel="Alternate" title="Wiki Markup" href="/group/mbeMPE?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/group/mbeMPE?action=print">
+<link rel="Search" href="/group/FindPage">
+<link rel="Index" href="/group/TitleIndex">
+<link rel="Glossary" href="/group/WordIndex">
+<link rel="Help" href="/group/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="/group/mbeMPE">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="/group/Main_Page"><img src="/moin_static163/common/moinmoin.png" alt="MoinMoin Logo"></a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a class="backlink" href="/group/action/fullsearch/mbeMPE?action=fullsearch&amp;context=180&amp;value=linkto%3A%22mbeMPE%22" rel="nofollow" title="Click to do a full-text search for this title">mbeMPE</a></li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="sidebar">
+<div class="sidepanel">
+<h1>Wiki</h1>
+
+<ul id="navibar">
+<li class="wikilink"><a href="/group/Main_Page">Main_Page</a></li><li class="wikilink"><a href="/group/RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="/group/FindPage">FindPage</a></li><li class="wikilink"><a href="/group/HelpContents">HelpContents</a></li><li class="current"><a href="/group/mbeMPE">mbeMPE</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><span class="disabled">Immutable Page</span></li><li class="toggleCommentsButton" style="display:none;"><a href="#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="/group/action/info/mbeMPE?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="/group/action/AttachFile/mbeMPE?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="/group/mbeMPE">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="RenderAsDocbook">Render as Docbook</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Subscribe User</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="PackagePages">Package Pages</option>
+<option value="SyncPages">Sync Pages</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="Save">Save</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="/group/action/login/mbeMPE?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><p class="line867">
+<h2 id="mbeMPE-1">mbeMPE</h2>
+<span class="anchor" id="line-2"></span><p class="line874">Approximates the Most Probable Explanation in Bayesian networks. <span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><p class="line867">
+<h5 id="Author">Author</h5>
+<span class="anchor" id="line-5"></span><p class="line867"><a href="/group/Radu_Marinescu">Radu_Marinescu</a> <span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><p class="line867">
+<h5 id="Description">Description</h5>
+<span class="anchor" id="line-8"></span><p class="line874">The library contains the implementation of the Mini-Bucket Elimination algorithm for Bayesian MPE. <span class="anchor" id="line-9"></span><span class="anchor" id="line-10"></span><p class="line867">
+<h5 id="Input_format">Input format</h5>
+<span class="anchor" id="line-11"></span><p class="line862">The belief network and the evidence need to be specified in the <a href="/group/Ergo_file_format">Ergo_file_format</a>. <span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><p class="line862">For some example problems please see our <a href="/group/Repository">Repository</a>. <span class="anchor" id="line-14"></span><span class="anchor" id="line-15"></span><p class="line867">
+<h5 id="Usage">Usage</h5>
+<span class="anchor" id="line-16"></span><p class="line874">The algorithm is invoked with three (if no evidence present) or four (if evidence present) arguments: <span class="anchor" id="line-17"></span><span class="anchor" id="line-18"></span><p class="line867"><span class="anchor" id="line-19"></span><span class="anchor" id="line-20"></span><pre><span class="anchor" id="line-1"></span>mbeMPE &lt;networkFile&gt; [&lt;evidenceFile&gt;] &lt;parameterFile&gt; &lt;outputFile&gt;</pre><span class="anchor" id="line-21"></span><p class="line874">with the following meaning: <span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span><ul><li><p class="line891"><tt>&lt;networkFile&gt;</tt> specifies the path to the network specification in <a href="/group/Ergo_file_format">Ergo_file_format</a>. <span class="anchor" id="line-24"></span></li><li><p class="line891"><tt>&lt;evidenceFile&gt;</tt> (optional) specifies the path to the evidence specification according to the <a href="/group/Ergo_file_format">Ergo_file_format</a>. <span class="anchor" id="line-25"></span></li><li><p class="line891"><tt>&lt;parameterFile&gt;</tt> specifies the path to the file containing custom parameters for the algorithm. See the example file that comes with the binary program file for syntax reference. <span class="anchor" id="line-26"></span></li><li><p class="line891"><tt>&lt;outputFile&gt;</tt> specifies the path to the file to which (the logarithm of) the probability of the most probable explanation is written. <span class="anchor" id="line-27"></span></li></ul><p class="line862">Detailed step-by-step instructions are available <a href="/group/aolibMPE/Demo">here</a>. <span class="anchor" id="line-28"></span><span class="anchor" id="line-29"></span><p class="line867">
+<h5 id="Parameters">Parameters</h5>
+<span class="anchor" id="line-30"></span><p class="line874">Parameters for the algorithm, which can be specified within the parameter file: <span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span><ul><li><p class="line891"><strong>h</strong>: (string) the heuristic to use for finding an variable elimination order by which to construct the AND/OR search space. The following values can be used: <span class="anchor" id="line-33"></span><ul><li><p class="line891"><em>minfill</em>: to indicate the min-fill heuristic <span class="anchor" id="line-34"></span></li><li><p class="line891"><em>hypergraph</em>: to indicate the hypergraph partitioning heuristic <span class="anchor" id="line-35"></span></li></ul></li><li><p class="line891"><strong>a</strong>: (integer) specifies which algorithm to run. The following values can be used: <span class="anchor" id="line-36"></span><ul><li>2: the Mini-Bucket algorithm <span class="anchor" id="line-37"></span></li></ul></li><li><p class="line891"><strong>ib</strong>: (integer) specifies the i-bound of MBE(i). <span class="anchor" id="line-38"></span></li></ul><p class="line867">
+<h5 id="Download">Download</h5>
+<span class="anchor" id="line-39"></span><p class="line874">A 32-bit Linux binary and an example parameter will be available soon <span class="anchor" id="line-40"></span><span class="anchor" id="line-41"></span><p class="line862">Get the 32-bit Windows binary and an example parameter file <a class="http" href="http://graphmod.ics.uci.edu/files/mbeMPE-win32.zip">here</a>. <span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span><p class="line874">If you are interested in obtaining the source code, please contact the program author. <span class="anchor" id="line-44"></span><span class="anchor" id="line-45"></span><p class="line867">
+<h5 id="References">References</h5>
+<span class="anchor" id="line-46"></span><p class="line862">[1] Mini-Buckets: A General Scheme For Generating Approximations In Automated Reasoning. Rina Dechter. In <em>Fifteenth International Joint Conference of Artificial Intelligence (IJCAI97)</em>, Japan, 1997. <span class="anchor" id="line-47"></span><a class="http" href="http://www.ics.uci.edu/~csp/r62.pdf">Link</a> <span class="anchor" id="line-48"></span><span class="anchor" id="bottom"></span></div><p id="pageinfo" class="info" lang="en" dir="ltr">mbeMPE  (last edited 2008-03-10 19:07:37 by <span title="??? @ localhost[127.0.0.1]">localhost</span>)</p>
+
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+
+

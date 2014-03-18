@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>EVOKE Lab</title>
+	<atom:link href="http://evoke.ics.uci.edu/feed/" rel="self" type="application/rss+xml" />
+	<link>http://evoke.ics.uci.edu</link>
+	<description></description>
+	<lastBuildDate>Fri, 22 Nov 2013 21:32:34 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Mengyao Zhao</title>
+		<link>http://evoke.ics.uci.edu/mengyao-zhao/</link>
+		<comments>http://evoke.ics.uci.edu/mengyao-zhao/#comments</comments>
+		<pubDate>Sat, 02 Nov 2013 17:49:19 +0000</pubDate>
+		<dc:creator><![CDATA[Andy Echenique]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">http://evoke.ics.uci.edu/?p=720</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<div id="attachment_721" style="width: 235px" class="wp-caption alignleft"><a href="http://evoke.ics.uci.edu/mengyao-zhao/meng/" rel="attachment wp-att-721"><img class="size-medium wp-image-721 " alt="Meng" src="http://evoke.ics.uci.edu/wp-content/uploads/2013/11/Meng-225x300.jpg" width="225" height="300" /></a><p class="wp-caption-text">Mengyao is a first-year Ph.D. student in Informatics, Donald Bren School of Information and Computer Sciences, University of California Irvine. She graduated from HCI/design, Indiana University and her research interests include design theory, embodied interaction, cross-cultural study in HCI, craftsmanship and aesthetics in HCI. In her spare time, she plays Chinese Zeither and she takes a lot of photos. She gains design inspirations from music, art and life.</p></div>
+<p><img src='http://evoke.ics.uci.edu/wp-content/uploads/2013/11/Meng1.jpg'></p>]]></content:encoded>
+			<wfw:commentRss>http://evoke.ics.uci.edu/mengyao-zhao/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Norma Möllers</title>
+		<link>http://evoke.ics.uci.edu/norma-mollers/</link>
+		<comments>http://evoke.ics.uci.edu/norma-mollers/#comments</comments>
+		<pubDate>Sat, 02 Nov 2013 17:28:41 +0000</pubDate>
+		<dc:creator><![CDATA[Andy Echenique]]></dc:creator>
+				<category><![CDATA[Doctoral Students]]></category>
+
+		<guid isPermaLink="false">http://evoke.ics.uci.edu/?p=703</guid>
+		<description><![CDATA[&#160;]]></description>
+				<content:encoded><![CDATA[<div id="attachment_711" style="width: 310px" class="wp-caption alignleft"><a href="http://evoke.ics.uci.edu/norma-mollers/norma-2-2/" rel="attachment wp-att-711"><img class="size-medium wp-image-711 " alt="norma 2" src="http://evoke.ics.uci.edu/wp-content/uploads/2013/11/norma-2-300x300.jpg" width="300" height="300" /></a><p class="wp-caption-text">Norma is currently visiting UCI from Germany, where she is pursuing a PhD in sociology at Potsdam University. Her research interests include the social study of information and surveillance technology. She is specifically interested in what surveillance technologies can tell us about the intersections of science, technology and politics. For her doctoral dissertation, she is writing an ethnography of the development of a “smart” video surveillance system.<br />Prior to coming to Irvine, Norma studied “languages, cultural and business studies” at Passau University, Germany, and sociology at Sapienza University, Rome. She has also worked as a research fellow with the German Federal Ministry for Education and Research project &#8220;Sociological Perspectives on Pattern Recognition and Video Tracking&#8221; at Potsdam University, Germany.</p></div>
+<p>&nbsp;</p>
+<p><img src='http://evoke.ics.uci.edu/wp-content/uploads/2013/11/norma-2.jpg'></p>]]></content:encoded>
+			<wfw:commentRss>http://evoke.ics.uci.edu/norma-mollers/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Evoke members @ Western Humanities Alliance 2013</title>
+		<link>http://evoke.ics.uci.edu/evoke-members-western-humanities-alliance-2013/</link>
+		<comments>http://evoke.ics.uci.edu/evoke-members-western-humanities-alliance-2013/#comments</comments>
+		<pubDate>Thu, 31 Oct 2013 19:46:31 +0000</pubDate>
+		<dc:creator><![CDATA[John Seberger]]></dc:creator>
+				<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">http://evoke.ics.uci.edu/?p=695</guid>
+		<description><![CDATA[Geoffrey C. Bowker, Cory Knobel, and John S. Seberger will be presenting on &#8216;Emerging Modes of Knowledge Expression&#8217; at the annual meeting of the Western Humanities Alliance at University of California, San Diego on November 1, 2013. The conference is hosted by the UCSD Center for the Humanities. The theme of the conference is New(...)]]></description>
+				<content:encoded><![CDATA[<p>Geoffrey C. Bowker, Cory Knobel, and John S. Seberger will be presenting on &#8216;Emerging Modes of Knowledge Expression&#8217; at the <a href="http://humctr.ucsd.edu/research/wha-conference-2013/">annual meeting</a> of the <a href="http://www.humanities.uci.edu/wha/">Western Humanities Alliance</a> at University of California, San Diego on November 1, 2013. The conference is hosted by the UCSD Center for the Humanities. The theme of the conference is New Modes of Scholarly Communication.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://evoke.ics.uci.edu/evoke-members-western-humanities-alliance-2013/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>My day as a data dealer</title>
+		<link>http://evoke.ics.uci.edu/my-day-as-a-data-dealer/</link>
+		<comments>http://evoke.ics.uci.edu/my-day-as-a-data-dealer/#comments</comments>
+		<pubDate>Thu, 31 Oct 2013 00:42:13 +0000</pubDate>
+		<dc:creator><![CDATA[Norma Möllers]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">http://evoke.ics.uci.edu/?p=674</guid>
+		<description><![CDATA[A while back I stumbled upon a browser game which in some ways could be considered an attempt to gamify privacy literacy. Gamification in the context of surveillance usually means the exploitation of the pleasures of play in order to collect and sell data, i.e. in fitness or productivity apps. In a somewhat similar vein,(...)]]></description>
+				<content:encoded><![CDATA[<p>A while back I stumbled upon a <a href="http://datadealer.com/play/">browser game</a> which in some ways could be considered an attempt to gamify privacy literacy. Gamification in the context of surveillance usually means the exploitation of the pleasures of play in order to collect and sell data, i.e. in fitness or productivity apps. In a somewhat similar vein, <a href="http://datadealer.com/team">a group of web developers/hacktivists</a> based in Vienna, Austria, set out to make education about privacy issues more interesting and pleasurable (but I suspect they don’t want to sell the players’ data). The media reactions made me curious, so I spent one Sunday afternoon trying to experience the dark pleasures of big data.</p>
+<p>The game’s idea is to enable people to gain a better understanding about what institutions, organizations, and people collect personal data; and why and for what purposes they use it. In order to do so, the players have to embrace the “dark values” of the database (which by the way looks like a hybrid between a vacuum cleaner and a vault, see screenshot) and become mean capitalist data dealers themselves.</p>
+<p><a href="http://evoke.ics.uci.edu/my-day-as-a-data-dealer/screenshot-2013-10-27-22-57-10/" rel="attachment wp-att-680"><img class="alignnone size-full wp-image-680" alt="data dealer screenshot" src="http://evoke.ics.uci.edu/wp-content/uploads/2013/10/Screenshot-2013-10-27-22.57.10.png" width="781" height="568" /></a></p>
+<p>I started out my existence as a data dealer with some cash to bribe nurses and tanning salon clerks into releasing customer profiles; some websites (i.e. an online dating site) which allowed me to manipulate profile data; and about a million profiles which were contained in the vault. The main goal was to collect as many profiles as possible and to become filthy rich in the process. In order to make money, I had to sell the collected profiles to different organizations, i.e. health insurance companies and national security organizations.</p>
+<p>However, these organizations were interested in different data – the security agency required information about political orientation, whereas the health care companies were more interested in weight and diet. The game thus creates an incentive to collect only specific kinds of information, to construct profiles which cater to the needs of corporations and bureaucracies. Thereby, the player understands that information has different value to different organizations, and that the profiles’ “completeness” increases their market value.</p>
+<p>The game is sometimes funny, sometimes really smart, and mostly cynical. For example, when I made too many risky deals with shady sources, I was prompted to invest into an image campaign in order to smooth over protests by “youthful data protection activists”. If the game’s purpose is educational, I wonder if the developers really want people to learn that public opinion is hugely irrelevant. Some other things were missing for me, too. For example, when I imported new profiles into my database, I was informed that new information would be integrated into existing profiles “using complicated mathematical methods”. Again, with the educational purpose in mind, I would have wished for more possibilities to tinker with these “mysterious methods”, in order to think about things like algorithms and data mining. To be fair, this was only the demo version, and the full version will probably (hopefully!) include features allowing for such tinkering.</p>
+<p>Finally, what about the pleasure? Whereas the game really made me smile in the beginning, after a while I caught myself getting into a sort of blind data collection frenzy. But at the end of the day, I still hadn’t arrived at collecting even half of all possible profiles, and I hadn’t made much money, either. Two other things I’ve learnt, thus, are that dealing data gets really boring after a while, and that I’m not a very good information capitalist. Still, I believe that in terms of pleasurable education the game could be a really nice teaching resource to stimulate classroom discussions about some of the implications of big data.</p>
+<div class="post-video"><iframe width="500" height="281" src="http://www.youtube.com/embed/x2eCAgQ1DTo?wmode=transparent?feature=oembed" frameborder="0" allowfullscreen></iframe></div>
+]]></content:encoded>
+			<wfw:commentRss>http://evoke.ics.uci.edu/my-day-as-a-data-dealer/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Viewing the World through Technology’s Eyes</title>
+		<link>http://evoke.ics.uci.edu/viewing-the-world-through-technologys-eyes/</link>
+		<comments>http://evoke.ics.uci.edu/viewing-the-world-through-technologys-eyes/#comments</comments>
+		<pubDate>Tue, 22 Oct 2013 23:47:15 +0000</pubDate>
+		<dc:creator><![CDATA[Andy Echenique]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">http://evoke.ics.uci.edu/?p=669</guid>
+		<description><![CDATA[Overlooking a recent technology article on BBC news (http://www.bbc.co.uk/news/technology-24332358), I read about how a Japanese research lab is developing a system to allow users (via augemnted reality) to be able to see the translation of writing in the environment. Naturally, its intended application is to allowing users to see the their foreign surroundings in a(...)]]></description>
+				<content:encoded><![CDATA[<p dir="ltr">Overlooking a recent technology article on BBC news (<a href="http://www.bbc.co.uk/news/technology-24332358">http://www.bbc.co.uk/news/technology-24332358</a>), I read about how a Japanese research lab is developing a system to allow users (via augemnted reality) to be able to see the translation of writing in the environment. Naturally, its intended application is to allowing users to see the their foreign surroundings in a much more familiar light. I’ve actually used a prototype of this system when I worked for NTT Communication Research Labs in Japan, and to be quite honest, it’s a bit of a shame.</p>
+<p> Now let me be clear: as a technology, it’s great! I actually know the people who worked on it and even went to school with one of them, and they’ve done a fantastic job. I also cannot overlook the practical benefits of having a handy, easy to use translator. But there is something to be commented on the social implications of this design. For one, there is a lack of visibility from the viewpoint of others. Being able to see foreign writing in your own language is good, up until the point that you need to ask someone to get you japanese fish-shaped pastry without being able to specifically point at the writing. Ask anyone who can read traditional Chinese and has visited Japan how useful it is to just point at a menu to get exactly what you mean. Even two people using the system, yet for different languages, may not be able to communicate based simply on what their display says. Highlighting items on your display and showing this externally would likely help this issue, yet bridging what one person sees versus what is visible will be a strong consideration in a larger social context.</p>
+<p>The second aspect of this technology that’s a bit personal to me is that it eliminates the unique feeling one gets from being in a foreign country. I still remember fondly all the lost moments I’ve had wondering Japan my first time there. The signs are foreign and the conversations are difficult; because they are! And it’s special. I had this feeling even considering how good Japanese major cities are at labeling their signs in English. But the experience is hard to compare and impossible to recreate, especially once you learn enough of the language to where it no longer feels foreign. So it may be a bit of a romantic view of what makes a trip to a foreign country special. Yet sometimes you need a disconnect in order to really connect with what is in the world around you.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://evoke.ics.uci.edu/viewing-the-world-through-technologys-eyes/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Hollowing &#8216;I&#8217; in the authorship of letters: A note on Flusser and surveillance</title>
+		<link>http://evoke.ics.uci.edu/hollowing-i-in-the-authorship-of-letters-a-note-on-flusser-and-surveillance/</link>
+		<comments>http://evoke.ics.uci.edu/hollowing-i-in-the-authorship-of-letters-a-note-on-flusser-and-surveillance/#comments</comments>
+		<pubDate>Tue, 15 Oct 2013 18:20:17 +0000</pubDate>
+		<dc:creator><![CDATA[John Seberger]]></dc:creator>
+				<category><![CDATA[Blog]]></category>
+
+		<guid isPermaLink="false">http://evoke.ics.uci.edu/?p=648</guid>
+		<description><![CDATA[Although the 24-hour news cycle has recently moved on from Snowden and  surveillance to cover the latest set of unfortunate circumstances on Capitol Hill, there are some points I would like to make regarding the role of surveillance in the further dissolution of any sense of a human author that might underlie the use of(...)]]></description>
+				<content:encoded><![CDATA[<p>Although the 24-hour news cycle has recently moved on from Snowden and  surveillance to cover the latest set of unfortunate circumstances on Capitol Hill, there are some points I would like to make regarding the role of surveillance in the further dissolution of any sense of a human author that might underlie the use of &#8216;I&#8217; in a written communication. Much of what is discussed here focuses on the idea of the author as presented by Vilem Flusser in &#8216;Does Writing Have a Future,&#8217; in a chapter about letters. For purposes of clarity, I&#8217;ve relied on cryptographers&#8217; lingo to describe two communicators (Adam and Bob) and one eavesdropper (Eve). As a final introductory caveat, I&#8217;ve taken emails to be technologically analogous to written letters, with one major distinction being the facility with which one email can be sent to multiple intended recipients.</p>
+<p>Much in the same way that Meyer-Schonberger (2011) argued that the default setting of memory in the digital age is no longer forgetting, we seem to have reached a point where the default setting of written communication is no longer dyadic, or even (n)adic where multiple recipients are intended. Instead, and assuming that email has functionally replaced the written letter at the level of formal interpersonal communication, we must assume that written communication is (<em>n+x</em>)adic where <em>n</em> = (author + number of intended recipients) and <em>x</em> = an unknown number of electronic eavesdroppers.<br data-reactid=".r[5s5gg].[1][4][1]{comment672758684185_1078902}.[0].{right}.[0].{left}.[0].[0].[0][3].[0].[4]" /><br data-reactid=".r[5s5gg].[1][4][1]{comment672758684185_1078902}.[0].{right}.[0].{left}.[0].[0].[0][3].[0].[5]" />Flusser  argues that personal written communications are one of the few forms of writing that are intended to convey a personal understanding of the author, not of the written artifact the author produces. I am myself when I write to my friends, and in reading my letters and emails, my friends reconstruct my self-representation as they know me. Personal affiliation amends what Foucault called the &#8216;author function&#8217; (Foucault, 1969) in such a way that the author behind the &#8216;I&#8217; becomes perceivable. When we increase the number of implied readers to whom a letter&#8217;s author is not personally known (represented as <em>x</em>), we&#8217;re reducing the identify of the author, stealing bit by bit the interpersonal, communicative functionality of a letter. I, the author known personally to you, the reader, become less myself through the interpretive forces of the unknown quantity (<em>x</em>).<br data-reactid=".r[5s5gg].[1][4][1]{comment672758684185_1078902}.[0].{right}.[0].{left}.[0].[0].[0][3].[0].[7]" /><br data-reactid=".r[5s5gg].[1][4][1]{comment672758684185_1078902}.[0].{right}.[0].{left}.[0].[0].[0][3].[0].[8]" />Personal communications were once one of the only written refuges of identity, where &#8216;I&#8217; referred to the author in his/her direct relation to an intended recipient. In an age where surveillance is the default setting, &#8216;I&#8217; becomes even hollower on the page than Barthes, Foucault, and all the rest claimed. Moreover, its hollowness is not benign and static, but ambivalent and ephemeral, filled up by correlations to myriad points of myriad types of data at the touch of an (xkeystroke) button, rendering the author nothing more than a predictable set of patterns defined by second-hand empiricism. In a communication intercepted by (x), my &#8216;I&#8217; becomes further estranged from me, as if its existence on an inanimate screen weren&#8217;t enough, and replaced by the construction of an &#8216;author&#8217; unknown to (<em>x</em>). Thus, through surveillance, it is as though the author of an interpersonal communication is reduced to something less than a person, something artificial, constructed, and somehow hollower. As a side effect of surveillance, the author of a letter or email becomes as fictive and <em>a priori</em> as the author-function found in a novel.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://evoke.ics.uci.edu/hollowing-i-in-the-authorship-of-letters-a-note-on-flusser-and-surveillance/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Bietz and Gregory speak at &#8220;Moving Genomics from Bench to Bedside&#8221; workshop</title>
+		<link>http://evoke.ics.uci.edu/bietz-and-gregory-speak-at-moving-genomics-from-bench-to-bedside-workshop/</link>
+		<comments>http://evoke.ics.uci.edu/bietz-and-gregory-speak-at-moving-genomics-from-bench-to-bedside-workshop/#comments</comments>
+		<pubDate>Fri, 31 May 2013 21:30:54 +0000</pubDate>
+		<dc:creator><![CDATA[Matthew Bietz]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[genomics]]></category>
+		<category><![CDATA[QS]]></category>
+		<category><![CDATA[quantified self]]></category>
+		<category><![CDATA[workshop]]></category>
+
+		<guid isPermaLink="false">http://evoke.ics.uci.edu/?p=625</guid>
+		<description><![CDATA[EVOKE members Matthew Bietz and Judith Gregory were recently invited to speak at the Moving Genomics Research from Bench to Bedside: Science, Technology &#38; Society Perspectives workshop on May 24, 2013. The workshop was hosted by Ellen Balka in the School of Communication at Simon Fraser University, with additional support from the Michael Smith Foundation(...)]]></description>
+				<content:encoded><![CDATA[<div id="attachment_626" style="width: 310px" class="wp-caption alignright"><a href="http://evoke.ics.uci.edu/wp-content/uploads/2013/05/judith_sfu_workshop.jpg"><img class="size-medium wp-image-626" alt="Judith Gregory" src="http://evoke.ics.uci.edu/wp-content/uploads/2013/05/judith_sfu_workshop-300x225.jpg" width="300" height="225" /></a><p class="wp-caption-text">Judith Gregory presents at the Moving Genomics from Bench to Bedside workshop, Vancouver, BC.</p></div>
+<p>EVOKE members <a title="Matthew Bietz" href="http://evoke.ics.uci.edu/matthew-bietz/">Matthew Bietz</a> and <a title="Judith Gregory" href="http://evoke.ics.uci.edu/judith-gregory/">Judith Gregory</a> were recently invited to speak at the <em>Moving Genomics Research from Bench to Bedside: Science, Technology &amp; Society Perspectives</em> workshop on May 24, 2013. The workshop was hosted by <a title="Ellen Balka" href="http://www.sfu.ca/~ebalka/">Ellen Balka</a> in the School of Communication at Simon Fraser University, with additional support from the <a title="Michael Smith Foundation for Health Research" href="http://www.msfhr.org/">Michael Smith Foundation for Health Research</a> and <a title="Genome BC" href="http://www.genomebc.ca/">Genome BC</a>. The workshop provided a wonderful opportunity to discuss clinical, legal, ethical, theoretical and infrastructural aspects of bringing genomics into clinical and personal health practices.</p>
+<p>Bietz presented on his work with the <a href="http://gensc.org">Genomic Standards Consortium</a>, a community standards development organization focusing on developing common formats for data production, description, analysis and exchange. Gregory presented on &#8220;The Quantified Self and Personal Genomics,&#8221; exploring the challenges and opportunities around personal genomic testing, self-tracking, and sharing personal data to create a public good.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://evoke.ics.uci.edu/bietz-and-gregory-speak-at-moving-genomics-from-bench-to-bedside-workshop/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Values in Design for Collaborative Systems at CTS 2013</title>
+		<link>http://evoke.ics.uci.edu/values-in-design-for-collaborative-systems-at-cts-2013/</link>
+		<comments>http://evoke.ics.uci.edu/values-in-design-for-collaborative-systems-at-cts-2013/#comments</comments>
+		<pubDate>Fri, 31 May 2013 18:47:41 +0000</pubDate>
+		<dc:creator><![CDATA[Matthew Bietz]]></dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Conferences]]></category>
+		<category><![CDATA[Values in Design]]></category>
+
+		<guid isPermaLink="false">http://evoke.ics.uci.edu/?p=616</guid>
+		<description><![CDATA[Lab members Matthew Bietz, Cory Knobel, and Katie Pine presented a tutorial on Values in Design for Collaborative Systems at the 2013 International Conference on Collaboration Technologies and Systems in San Diego. In the tutorial we provided an introduction to human-centered computing, explored the Values in Design concept, and then worked through a series of(...)]]></description>
+				<content:encoded><![CDATA[<div id="attachment_617" style="width: 310px" class="wp-caption alignright"><a href="http://www.slideshare.net/mbietz/vid-tutorial-full002"><img class="size-medium wp-image-617" alt="VID case studies were based around the use of Electronic Medical Record systems." src="http://evoke.ics.uci.edu/wp-content/uploads/2013/05/VID_Tutorial_Full_002-300x225.jpg" width="300" height="225" /></a><p class="wp-caption-text">VID case studies were based around the use of Electronic Medical Record systems.</p></div>
+<p>Lab members <a title="Matthew Bietz" href="http://evoke.ics.uci.edu/matthew-bietz/">Matthew Bietz</a>, <a title="Cory Knobel" href="http://evoke.ics.uci.edu/cory-knobel/">Cory Knobel</a>, and <a href="http://www.kpine.net/">Katie Pine</a> presented a tutorial on <em>Values in Design for Collaborative Systems</em> at the <a title="CTS2013" href="http://cts2013.cisedu.info">2013 International Conference on Collaboration Technologies and Systems</a> in San Diego. In the tutorial we provided an introduction to human-centered computing, explored the Values in Design concept, and then worked through a series of case-based design exercises focused on understanding stakeholders, eliciting values, and designing from a particular value standpoint. The case examples were drawn from Katie Pine&#8217;s <a href="http://www.kpine.net/home/research/">examination of the use of Electronic Medical Record systems in labor and delivery rooms</a>. Slides from the presentation are <a href="http://www.slideshare.net/mbietz/vid-tutorial-full002">available on SlideShare</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://evoke.ics.uci.edu/values-in-design-for-collaborative-systems-at-cts-2013/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Geof Bowker Speaks at NYU</title>
+		<link>http://evoke.ics.uci.edu/geof-bowker-speaks-at-nyu/</link>
+		<comments>http://evoke.ics.uci.edu/geof-bowker-speaks-at-nyu/#comments</comments>
+		<pubDate>Wed, 10 Apr 2013 00:09:04 +0000</pubDate>
+		<dc:creator><![CDATA[Courtney Loder]]></dc:creator>
+				<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">http://evoke.ics.uci.edu/?p=580</guid>
+		<description><![CDATA[Along with Sara Hendren (Harvard), Geof will be a speaker in the PROGRAM series at NYU organized by the departments of Media, Culture and Communication, English, and Comparative Literature. More event details can be found here. Values in Technological Design Abstract: The goal for many designers of technology is to produce objects that are useful,(...)]]></description>
+				<content:encoded><![CDATA[<p>Along with Sara Hendren (Harvard), Geof will be a speaker in the PROGRAM series at NYU organized by the departments of <a href="http://steinhardt.nyu.edu/mcc/">Media, Culture and Communication</a>, <a href="http://english.fas.nyu.edu/page/home">English</a>, and <a href="http://complit.as.nyu.edu/page/home">Comparative Literature</a>. More event details can be found <a href="http://www.programseries.com/events/values-in-technological-design/">here</a>. </p>
+<p><strong><em>Values in Technological Design</em></strong><br />
+Abstract:<br />
+The goal for many designers of technology is to produce objects that are useful, but whose use is not dictated by the object design itself. Computers in particular are flexible technologies, and can be programmed to suit a wide variety of functions and needs. Yet despite these goals of technological neutrality, the design of technical objects often shapes their use, and can have far-reaching political, social, and cultural consequences. This event investigates the ways in which values become embodied in technological design and what efforts we might make to address such structures.</p>
+<p><img src='http://evoke.ics.uci.edu/wp-content/uploads/2013/04/VIDatNYU_web_final.jpg'></p>]]></content:encoded>
+			<wfw:commentRss>http://evoke.ics.uci.edu/geof-bowker-speaks-at-nyu/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Geof Bowker Speaks at Michigan</title>
+		<link>http://evoke.ics.uci.edu/geof-bowker-speaks-at-michigan/</link>
+		<comments>http://evoke.ics.uci.edu/geof-bowker-speaks-at-michigan/#comments</comments>
+		<pubDate>Tue, 09 Apr 2013 23:54:54 +0000</pubDate>
+		<dc:creator><![CDATA[Courtney Loder]]></dc:creator>
+				<category><![CDATA[News]]></category>
+
+		<guid isPermaLink="false">http://evoke.ics.uci.edu/?p=567</guid>
+		<description><![CDATA[Geof will be speaking as part of the Yahoo! Lecture Series at the University of Michigan&#8217;s School of Information on April 10, 2013. The End of the Article Abstract: In this talk, I analyze the development of the scientific article as the coin of the realm for the transmission of knowledge. I argue that the(...)]]></description>
+				<content:encoded><![CDATA[<p>Geof will be speaking as part of the <a href="http://www.si.umich.edu/newsandevents/event/yahoo-lecture-series-geoffrey-bowker">Yahoo! Lecture Series</a> at the <a href="http://www.si.umich.edu/">University of Michigan&#8217;s School of Information</a> on April 10, 2013. </p>
+<p><strong><em>The End of the Article</em></strong><br />
+Abstract:<br />
+In this talk, I analyze the development of the scientific article as the coin of the realm for the transmission of knowledge.  I argue that the database, over the past 200 years, has grown into a form of transmission and exploration which has been largely under-recognized.  I then discuss examples of new forms of knowledge expression which both deploy databases more effectively and move from a largely logocentric model to one engaging a wider set of senses.  Finally, I explore the possibilities for developing these new forms within the academy.</p>
+<p><img src='http://evoke.ics.uci.edu/wp-content/uploads/2013/04/bowker_michigan1.jpg'></p>]]></content:encoded>
+			<wfw:commentRss>http://evoke.ics.uci.edu/geof-bowker-speaks-at-michigan/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

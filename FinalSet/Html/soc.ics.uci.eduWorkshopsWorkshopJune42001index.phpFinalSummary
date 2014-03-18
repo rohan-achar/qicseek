@@ -1,0 +1,509 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Workshops :
+            The Social Underpinnings of Collaboration : Final Summary</TITLE>
+<!-- #BeginTemplate "/Templates/index.dwt" -->
+<meta name="description" content="A research project investigating the social and technical issues surrounding the success of geographically distributed science and engineering collaborations." />
+<meta name="keywords" content="scientific collaboration, collaboratories, collaboratory, University of Michigan, School of Information, social-technical" />
+<meta name="language" content="English" />
+<meta name="author" content="Dan Cooney" />
+<meta name="programmer" content="Greg Peters" />
+<META content=ALL name=robots>
+<META content="15 days" name=revisit-after>
+<META content=SOC-website@umich.edu name=reply-to>
+<META content="Living Document" name=document-class>
+<META content="Copyrighted Work" name=document-rights>
+<META content="Web Page" name=document-type>
+<META content="Safe for Kids" name=document-rating>
+<META content=Global name=document-distribution>
+<META content=Static name=document-state>
+<META content=no-cache name=cache-control>
+<META http-equiv=Content-Language content=EN-US>
+<META content="Dan Cooney" name=Publisher>
+
+<link REL="ICON" HREF="/soc.ico" TYPE="image/x-icon">
+<link REL="SHORTCUT ICON" HREF="/soc.ico" TYPE="image/x-icon">
+
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1"><!-- #BeginEditable "doctitle" --><!-- #EndEditable -->
+<SCRIPT type=text/javascript>
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</SCRIPT>
+<LINK href="/styles/SOC.css" 
+type=text/css rel=stylesheet><!--Main content begins -->
+<META content="MSHTML 5.50.4913.1100" name=GENERATOR></HEAD>
+<!-- #LOOP-START:header -->
+<BODY text=#000000 vLink=#333399 aLink=#ff9900 link=#333399 bgColor=#ffffff 
+leftMargin=2 topMargin=2 marginheight="2" marginwidth="2">
+<TABLE height=117 cellSpacing=0 cellPadding=0 width="100%" align=center 
+border=0>
+  <TR>
+    <TD vAlign=top align=left>
+      <TABLE cellSpacing=0 cellPadding=0 width=100% align=left 
+      border=0 name="Header">
+        <TR>
+          <TD vAlign=bottom align=left background=""
+          rowSpan=3 height=103 width=145><A 
+            href="/"><IMG 
+            height=103 alt="Science of Collaboratories logo - link" 
+            src="/images/LOGOSMALLER.gif" 
+            width=145 align=bottom border=0 name=SOCLogo></A></TD>
+          <TD height=40 valign="top">
+            <DIV ALIGN="RIGHT" CLASS="admin_login"><A HREF="/index.php?SOCSiteMap">Site Map</A>&nbsp;-&nbsp;<A HREF="/datateam/index.php">Login</A></DIV><BR>
+            <SCRIPT src="/libs/exmplmenu_var.js" type=text/javascript></SCRIPT>
+            <SCRIPT src="/libs/menu_com.js" type=text/javascript></SCRIPT>
+            <NOSCRIPT>Your browser does not support script</NOSCRIPT></TD></TR>
+        <TR>
+          <TD vAlign=top align=left width=100% bgColor=#660033 height=15>
+            &nbsp;
+          </TD></TR>
+        <TR>
+         <TD width=100% bgColor=#660033 height=15>&nbsp;</TD></TR>
+</table>
+      </TD>
+    <TD vAlign=top width=60 height=100>&nbsp;</TD>
+   </TR>
+        <TR>
+          <TD vAlign=top align=left height=20><IMG height=20 
+            alt="An alliance to advance the understanding of collaboratories" 
+            src="/images/SOCATextNew.gif" 
+            width=527 border=0 name=SOCATextNew>
+          </TD>
+         </TR>
+</TABLE>
+<!-- #LOOP-END:header -->
+<TABLE cellSpacing=0 cellPadding=0 width=100% align=left border=0 
+name="Main Body Table">
+  <TR>
+    <TD vAlign=top colspan=4 align=left bgColor=#660033 height=12><IMG 
+      height=12 alt="Science of Collaboratories" 
+      src="/images/RoundedRed.gif" 
+      align=top border=0 name=Header_r9_c1><BR></TD>
+    <TD vAlign=top align=left bgColor=#660033 height=12>&nbsp; </TD>
+    <TD width=60 bgColor=#ffffff>&nbsp;</TD></TR>
+  <TR>
+    <TD width=20 bgColor=#660033></TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD colspan=2 align=left bgColor=#ffffff>
+<!-- This is where we will add the content -->
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="left" name="Main Content">
+  <tr>
+    <td width="10">&nbsp;</td>
+    <td><div class="PageTitle">Workshops :
+            The Social Underpinnings of Collaboration : Final Summary</div><br>
+      <div class="workshop_navbar"><a href="index.php">Workshop Description</a>
+      | <a href="index.php?Agenda">Agenda</a> | <a href="index.php?BackgroundReadings">Background Readings</a> 
+            | <b>Final Summary</b></div></td>
+    <td width="10">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="10">&nbsp;</td>
+    <td align="left" valign="top"><!-- #BeginEditable "body" --> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="left">
+        <tr> 
+          <td width="9">&nbsp;</td>
+          <td align="left" valign="top"> 
+             <p>These materials were assembled 
+             by the following participants in the workshop: Kristen 
+             Arbutiski, Julie Ballin, Matt Bietz, Jeremy Birnholtz, 
+             Tom Finholt, Darren Gergle, Erik Hofer, Gary Olson, 
+             and Diane Sonnenwald.</p>
+     <p class="subhead">Measures of collaboratory 
+             success </p>
+     <p>All of the discussion groups, to varying degrees, began 
+             consideration of collaboratory success by first attempting 
+             to define a collaboratory.
+       Synthesizing across these efforts produces 
+             the following description:
+       </p>
+             <BLOCKQUOTE>A collaboratory 
+             is a network-based facility and organizational entity 
+             that spans distance, supports rich and recurring human 
+             interaction oriented to a common research area, fosters 
+             contact between researchers who are both known and 
+             unknown to each other, and provides access to data 
+             sources, artifacts and tools required to accomplish 
+             research tasks.</BLOCKQUOTE>
+     <p>Several features of this definition are helpful in thinking 
+             about how to measure collaboratory success.
+       First, the emphasis on spanning distance suggests 
+             that when measuring collaboratory success, the correct 
+             comparison is with other forms of long-distance collaboration 
+             &#8211; and not with collocated collaboration.
+       Second, the emphasis on contacts, recurring 
+             interaction, and artifacts suggests that a critical 
+             contribution of a collaboratory is to be a social 
+             arena for research work &#8211; but an arena that 
+             is not tied to a particular physical space.
+       And finally, the emphasis on research suggests 
+             that the impact of collaboratories must be evaluated 
+             in terms of products critical to the research endeavor, 
+             such as creation of new knowledge and techniques.
+       </p>
+     <p>The 
+             following examples illustrate different kinds of measures 
+             that may reflect success in collaboratory-based collaboration, 
+             both in terms of process and product, when compared 
+             to more traditional long-distance collaboration: frequency 
+             and impact of discoveries; frequency and impact of 
+             publications; diversity among collaborators (on multiple 
+             dimensions); satisfaction of collaborators; frequency 
+             of travel; number and prestige of honors accumulated 
+             by collaborators; proportion of collaborations composed 
+             of first-time collaborators; impact of the collaborations 
+             on the training of young scientists; attracting newcomers 
+             to the field, frequency and duration of delays; level 
+             of interpersonal trust; extent of shared mental models; 
+             degree of mutually consistent work practices; and 
+             level of public interest.
+       </p>
+     <p>These 
+             proposed measures form the focus for three principal 
+             research threads: a) exploration of the feasibility 
+             and sensitivity of the success measures using retrospective 
+             and prospective data from operational collaboratories 
+             &#8211; in comparison with traditional long-distance 
+             collaborations; b) exploration of the different collaboratory 
+             types that have evolved (e.g., integrated versus aggregation 
+             of separate applications) &#8211; and how these types 
+             influence success; and c) exploration of how collaboratory 
+             stakeholders, level of analysis, and time interact 
+             to influence success.
+       An overarching concern was the problem of finding 
+             a sufficient number of viable collaboratories to form 
+             a sample for examining the impact of collaboratories.
+       </p>
+     <p><a href="index.php?FinalSummaryMeasures">(Click 
+             here for detailed notes on measures)</a></p>
+     <p class="subhead">Group processes in collaboratories</p>
+         <p>A way to view group processes in collaboratories is 
+             to see these as independent variables that influence 
+             the success measures summarized in the preceding section. This section, then, is divided into two parts. First, a list of candidate processes are 
+             proposed.Then, 
+             these candidate processes are analyzed in terms of 
+             their importance to understanding collaboratory success.
+       </p>
+     <p><u>Candidate 
+             processes</u></p>
+     <p>The processes suggested in the discussion groups included: 
+             a) awareness, meaning the availability and interpretation 
+             of cues about what others are doing; b) task interdependence, 
+             such as Van de Ven et al.'s (1976) scheme of pooled, 
+             sequential, reciprocal, and team tasks; c) maintenance 
+             of common ground; d) group dynamics (including trust, 
+             leadership, conflict resolution, decision making, 
+             roles, and goal setting); e) creation of routines 
+             and procedures; f) communication, such as cultural 
+             sensitivity and fluency; and g) interaction of task 
+             and process characteristics and technology (e.g., 
+             scarcity of instrument time).
+</p>
+     <p><u>Important 
+             processes</u></p>
+     <p>To 
+             guide examination of the processes listed above, workshop 
+             participants discussed building on an effort launched 
+             by the Science of Collaboratories group at Michigan 
+             to produce a framework for identifying variables of 
+             interest.
+This framework can be developed both retrospectively based 
+             on data previously collected and prospectively for 
+             new and ongoing collaboratories.
+       Examples of relevant contexts include face-to-face 
+             collaboration within and across science and engineering 
+             labs and distributed collaboration outside of a collaboratory. 
+       </p>
+     <p>An 
+             additional suggested starting point was to consider 
+             how the identified processes and variables might moderate 
+             and mediate collaboratory success.
+       That is, from Baron and Kenny's (1986) description, 
+             a moderator variable influences the strength or direction 
+             of the relationship between an independent and a dependent 
+             variable and a mediator variable explains the mechanism 
+             behind the relationship.
+       In the case of collaboratories, for example, 
+             there may be an interest in how a particular measure 
+             of collaboratory use relates to a particular measure 
+             of collaboratory success &#8211; where this relationship 
+             may be moderated by some factors (e.g., task interdependence) 
+             and mediated by others (e.g., awareness).
+       </p>
+     <p><a href="index.php?FinalSummaryProcess" class="smallerText">(Click 
+             here for detailed notes on processes)</a></p>
+     <p class="subhead">Organizational and community 
+           consequences of collaboratory use</p>
+<p>The 
+             discussions of organizational and community consequences 
+             of collaboratory use were focused along two lines: 
+             examination of potential consequences, assuming widespread 
+             collaboratory use; and specific collaboratory-based 
+             interventions that might have beneficial outcomes 
+             (e.g., expanding the pipeline for training of future 
+             scientists).
+</p>
+     <p><u>Potential 
+             consequences</u></p>
+     <p><i>Expanded 
+             access</i> &#8211; While some workshop participants noted that claims 
+             for expanded access to science, through collaboratory 
+             use, are probably exaggerated &#8211; there was still 
+             hope that collaboratory development might create new 
+             opportunities for broader participation in research 
+             (particularly among institutions with fewer resources, 
+             both domestically and internationally).
+       Specifically, collaboratories may provide a 
+             way for faculty at Master's Colleges and Universities 
+             I and II (i.e., from the Carnegie Classification &#8211; 
+             institutions that are primarily oriented to undergraduates 
+             and award 20 to 40 masters degrees per year) to maintain 
+             active research involvement with colleagues at Doctoral/Research 
+             Universities &#8211; Extensive (i.e., from the Carnegie 
+             Classification &#8211; institutions with undergraduate 
+             and graduate programs, typically awarding 50 or more 
+             doctorates per year across 15 or more disciplines).
+       Also, collaboratories may provide a compelling 
+             mechanism for outreach, particularly to K-12 audiences 
+             (i.e., via science museums, classroom use and etc.).
+</p>
+     <p><i>Structural 
+             transformation</i> &#8211; Again, while some participants expressed skepticism 
+             &#8211; many expected that widespread collaboratory 
+             use would produce changes in the structure of scientific 
+             communities.
+Specifically, collaboratories were seen 
+             as accelerating trends toward increased multi-disciplinarity 
+             (although there were concerns about the scientific 
+             value of multi-disciplinarity) and toward cross-institutional 
+             mentoring.Similarly, 
+             there was an expectation that feedback might occur, 
+             such that wider adoption of previously unorthodox 
+             practices (e.g., electronic publication) and career 
+             tracks (e.g., outside the tenure system) may also 
+             produce incentives that reward collaboratory use &#8211; 
+             which in turn, may accelerate transformation of the 
+             status quo (e.g., by increasing visibility of junior 
+             scientists or of researchers outside the scientific 
+             mainstream).
+</p>
+     <p><i>New 
+             kinds of science</i> &#8211; A principal envisioned impact was the capability 
+             to bring previously unrelated communities of researchers 
+             together through the capacity of collaboratories to 
+             combine data in new ways.
+For example, in the Space Physics and 
+             Aeronomy Collaboratory, observational and simulation 
+             data can be viewed side by side, which has led to 
+             new interactions between theoretical space physicists 
+             and experimental space physicists.</p>
+     <p><i>Increased 
+             production</i> &#8211; In the discussion of success measures, increased 
+             rates of publication and discovery were identified 
+             as important outcomes of collaboratory use.
+       Discussions focused on the sensitivity of such 
+             measures with particular attention to the lag between 
+             adoption of innovative practices and impact in terms 
+             of publication or citation patterns.
+Comparisons to earlier innovations, like email and electronic 
+             journals, suggested that even at mature points in 
+             the penetration of these innovations &#8211; it was 
+             still hard to see impact in terms of citation data.
+       However, broader access to the Internet does 
+             seem to have played a role in the dramatic increase 
+             of papers within one very special class (authors from 
+             ten or more different countries).
+       Collaboratory impact might be most visible 
+             in the case of similar &#8220;mega-collaborations.&#8221;
+One proposal was to track the number of 
+             different congressional districts represented among 
+             authors on papers from collaboratory-based collaborations 
+             versus conventional long-distance collaborations.
+       </p>
+     <p class="subhead">Collaboratory-based interventions</p>
+<p>In 
+             terms of next steps for research there was a reluctance 
+             to pursue the connection between collaboratory use 
+             and broad changes &#8211; both because of the immaturity 
+             of collaboratory technology and because of the multi-causal 
+             nature of large transformations (e.g., the trend toward 
+             multi-institution authorship has been increasing for 
+             several decades &#8211; pre-dating the Internet, collaboratories 
+             and other more recent inventions).
+       However, there was enthusiasm for tightly scoped 
+             interventions with high impact, both in terms of outcomes 
+             and as demonstrations.
+       For example, in terms of Ph.D. production in 
+             the United States, a small set of selective liberal 
+             arts colleges have performed at a disproportionately 
+             high level (Carrier &amp; Davis-Van Atta, 1987) &#8211; 
+             with corresponding disproportionate representation 
+             among authors of highly-cited publications and among 
+             members of the National Academy of Sciences.
+The keys to this success are partially related to the admission 
+             criteria of these institutions &#8211; but other important 
+             factors include exposure to hands on research activity 
+             and mentorship by faculty.
+With the right mixture of support, collaboratories 
+             might be used to produce the conditions currently 
+             found only at these selective liberal arts colleges, 
+             but across a wider array of institutions &#8211; with 
+             corresponding increases in the number of students 
+             choosing to pursue graduate degrees and research careers.
+</p>
+     <p><a href="index.php?FinalSummaryOrganizational">(Click 
+             here for detailed notes on organizational and community 
+             processes)</a></p>
+     <p class="subhead">Bibliography</p>
+<p class="biblio">Baron, 
+             R.M., &amp; Kenny, D.A. (1986). The moderator-mediator 
+             variable distinction in social psychological research: 
+             Conceptual, strategic, and statistical considerations. 
+       <em>Journal of Personality and Social Psychology</em>, 
+       <em>51</em>, 1173-1182.
+</p>
+     <p class="biblio">Carrier, 
+             S., &amp; Davis-Van Atta, D. (1987).
+       <i>Maintaining America's scientific productivity</i>
+Oberlin, OH: Oberlin College.
+</p>
+     <p class="biblio">Van 
+             de Ven, A.H., Delbecq, A. L., &amp; Koenig, R., Jr. 
+             (1976).
+Determinants of coordination made within organizations.
+<i>American Sociological Review</i>, <i>41</i>(3), 
+             322-338.</p>
+   </div>
+  </td>
+          <td width="10">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="9">&nbsp;</td>
+          <td> 
+            <p>&nbsp;</p>
+          </td>
+          <td width="10">&nbsp;</td>
+        </tr>
+      </table>
+      <!-- #EndEditable --> </td>
+    <td width="10">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td width="10">&nbsp;</td>
+    <td> 
+      <p>&nbsp;</p>
+    </td>
+    <td width="10">&nbsp;</td>
+  </tr>
+</table>
+
+    </TD>
+    <TD width=60>&nbsp;</TD></TR>
+<TR>
+    <TD vAlign=top align=middle width=20 bgColor=#660033>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top colspan=2 align=right bgColor=#ffffff height=12>&nbsp;</TD>
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=bottom colspan=4 align=left width=145 bgColor=#660033 height=12><IMG 
+      height=12 
+      src="/images/RoundedBottom.gif" 
+      width=145 align=bottom></TD>
+    <TD vAlign=top align=right bgColor=#660033 height=12><FONT 
+      color=#ffffff>
+      &nbsp;</FONT><SPAN class=SmallText><FONT 
+      color=#ffffff>&nbsp; </FONT></SPAN></TD><!-- HERE -->
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=top align=middle width=20>&nbsp;</TD>
+    <TD colspan=4 vAlign=top align=middle bgColor=#ffffff
+      height=6><SPAN class="footernavbar"><A 
+      href="/">Home</A> | <A 
+      href="/AboutSOC/index.php">About 
+      SOC</A> | <A 
+      href="/Workshops/index.php">Workshops</A> | <A 
+      href="/Resources/index.php?findings">Resources</A> 
+      | <A 
+      href="/NewsEvents/index.php">News 
+      &amp; Events</A></SPAN></TD>
+    <TD width=60 bgColor=#ffffff height=6>&nbsp;</TD></TR>
+<!-- #LOOP-START:footer -->
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <HR align=center width=80%>
+    </TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5></TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <TABLE cellSpacing=0 cellPadding=0 width="95%" align=left border=0 
+      name="Footer">
+        <TR>
+          <TD vAlign=top align=middle width=172 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.umich.edu/"><IMG height=62 
+            alt="University of Michigan Logo" 
+            src="/images/logo_um.jpg" 
+            width=62 border=0 name=UMICH_Logo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.umich.edu/">University of Michigan<BR></A></P></TD>
+          <TD align=middle>
+            <P class="copyright">This material is based upon work supported by 
+            the <A target=_blank href="http://www.itr.nsf.gov/">National Science 
+            Foundation</A> under Grant No. IIS 0085951. Any opinions, findings, 
+            and conclusions or recommendations expressed in this material are 
+            those of the author(s) and do not necessarily reflect the views of 
+            the National Science Foundation. <BR><A target=_blank 
+            href="http://www.itr.nsf.gov/"><IMG height=42 
+            alt="National Science Foundation Logo" 
+            src="/images/nsf.gif" width=42 
+            border=0 name=NSF_Logo></A></P></TD>
+          <TD vAlign=top align=middle width=127 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.si.umich.edu/"><IMG height=54 
+            alt="School of Information Logo" 
+            src="/images/SISwirl.jpg" 
+            width=62 border=0 name=SILogo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.si.umich.edu/">School of Information</A>
+            <A href="http://www.si.umich.edu/">University of 
+            Michigan</A></P></TD></TR>
+        <TR>
+          <TD align=middle>&nbsp;</TD></TR>
+        <TR>
+          <TD>
+            <P align=center class="copyright">� 2004
+            Regents of the University of 
+            Michigan. Please send questions and comments to <A 
+            href="mailto:asz@umich.edu">SOC 
+        webmaster</A>.</P></TD></TR></TABLE></TD></TR>
+  <TR>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=95>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0>&nbsp; </TD>
+    <TD width=60 bgColor="white" height=0>&nbsp;</TD></TR>
+</TABLE>
+<!-- #LOOP-END:footer -->
+<P>&nbsp;</P>
+<P><BR></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><BR></P>
+<P><BR></P>
+<P>&nbsp;</P>
+<P><BR></P></BODY><!-- #EndTemplate --></HTML>
+

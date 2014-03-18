@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta name="viewport" content="width=640" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+		<title>Imagevue Gallery content</title>
+		<link href="imagevue/css/dtree.css" rel="stylesheet" type="text/css" />
+		<link href="imagevue/css/htmlstyle.css" rel="stylesheet" type="text/css" />
+		<link href="imagevue/css/htmlstyle.css" rel="stylesheet" type="text/css" />
+		<link media="only screen and (max-device-width: 480px)" href="imagevue/css/forIphone.css" type="text/css" rel="stylesheet" />
+				<link href="imagevue/css/forAdmin.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="imagevue/javascript/dtree.js"></script>
+		<script type="text/javascript" src="imagevue/javascript/prototype.js"></script>
+		
+		<!-- lightbox2 http://www.lokeshdhakar.com/projects/lightbox2/ -->
+		<script type='text/javascript' src='imagevue/lightbox/js/scriptaculous.js?load=effects,builder'></script>
+		<script type="text/javascript" src="imagevue/lightbox/js/lightbox.js"></script>
+		<link rel="stylesheet" href="imagevue/lightbox/css/lightbox.css" type="text/css" media="screen" />
+	</head>
+	<body>
+		
+		<!-- #header -->
+		<div id="header">Imagevue Gallery</div>
+		<!-- /header -->
+
+		<!-- #subheader -->
+		<div id="subheader">
+
+			<div id="flashlink">
+				<a href="?p=gallery#/content/" title="Flash version of this page" target="_blank">Flash version &raquo;</a>
+			</div>
+
+			<div id="menu">
+				<div>
+					<img src="imagevue/images/plus_icon.png" alt="" class="openMenu"/>
+				</div>
+				<!-- JSTREE STARTS HERE -->
+				<div id="hiddenmenu">
+	<script type="text/javascript">
+	//<![CDATA[
+		d = new dTree('d');
+		d.config.inOrder = true;
+																					d.add(0,-1,"<span class='text'><span class='title'>content<\/span><span class='number'>(0)<\/span><\/span>","?content/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																																	d.add(1,0,"<span class='text'><span class='title'>Bay Area  Oct 2004<\/span><span class='number'>(14)<\/span><\/span>","?content/Bay Area  Oct 2004/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(2,0,"<span class='text'><span class='title'>Celebrating Maithili and Niteshs PhD completion   Aug 19 2006<\/span><span class='number'>(23)<\/span><\/span>","?content/Celebrating Maithili and Niteshs PhD completion   Aug 19 2006/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(3,0,"<span class='text'><span class='title'>Claude Castelluccias Farewell Party  July 2005<\/span><span class='number'>(2)<\/span><\/span>","?content/Claude Castelluccias Farewell Party  July 2005/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(4,0,"<span class='text'><span class='title'>Claudio and Di Phd Completion<\/span><span class='number'>(1)<\/span><\/span>","?content/Claudio and Di Phd Completion/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(5,0,"<span class='text'><span class='title'>Farewell BBQ for Jeong H Yi  Sep 2005<\/span><span class='number'>(15)<\/span><\/span>","?content/Farewell BBQ for Jeong H Yi  Sep 2005/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(6,0,"<span class='text'><span class='title'>Fun in Las Vegas<\/span><span class='number'>(7)<\/span><\/span>","?content/Fun in Las Vegas/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(7,0,"<span class='text'><span class='title'>Gabriele farewell dinner  Nov 2009<\/span><span class='number'>(1)<\/span><\/span>","?content/Gabriele farewell dinner  Nov 2009/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(8,0,"<span class='text'><span class='title'>Graduation   Summer 2010<\/span><span class='number'>(2)<\/span><\/span>","?content/Graduation   Summer 2010/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(9,0,"<span class='text'><span class='title'>Having fun at Knotts Scary Farm<\/span><span class='number'>(1)<\/span><\/span>","?content/Having fun at Knotts Scary Farm/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(10,0,"<span class='text'><span class='title'>Ivan farewell<\/span><span class='number'>(7)<\/span><\/span>","?content/Ivan farewell/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(11,0,"<span class='text'><span class='title'>Jeong H Yi PhD defense   Aug 2005<\/span><span class='number'>(5)<\/span><\/span>","?content/Jeong H Yi PhD defense   Aug 2005/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(12,0,"<span class='text'><span class='title'>Jihye Graduation Dinner<\/span><span class='number'>(1)<\/span><\/span>","?content/Jihye Graduation Dinner/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(13,0,"<span class='text'><span class='title'>Sconce BBQ   March 18 2007<\/span><span class='number'>(14)<\/span><\/span>","?content/Sconce BBQ   March 18 2007/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(14,0,"<span class='text'><span class='title'>Summer grill fest  2003<\/span><span class='number'>(23)<\/span><\/span>","?content/Summer grill fest  2003/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(15,0,"<span class='text'><span class='title'>UCI Parking Lot<\/span><span class='number'>(1)<\/span><\/span>","?content/UCI Parking Lot/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(16,0,"<span class='text'><span class='title'>ersin_john_karim_farewell<\/span><span class='number'>(33)<\/span><\/span>","?content/ersin_john_karim_farewell/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(17,0,"<span class='text'><span class='title'>graduation-mish<\/span><span class='number'>(18)<\/span><\/span>","?content/graduation-mish/","","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																								d.add(18,0,"<span class='text'><span class='title'>Daniele's farewell dinner, Oct 2009<\/span><span class='number'>(1)<\/span><\/span>","?content/pictures1/","This is another pictures demo folder. These thumbnails have been created with croptobox &lt;b&gt;160x120&lt;/b&gt;","","imagevue/images/dtree/folder.gif","imagevue/images/dtree/folderopen.gif");
+																	document.write(d);
+		d.s(0);
+	//]]>
+	</script>
+</div>				<!-- JSTREE ENDS HERE -->
+			</div>
+
+			<div class="crumbs">
+								                                  
+					<a class="active" href="?content%2F">content</a>[0]							</div>
+
+			<div class="clrFlt"></div>
+		</div>
+		<!-- /subheader -->
+
+		<div id="content">
+			
+	<div class="currentFolder">
+				<div class="currentFolderTitle">   
+			<h1 class="title">
+				content			</h1>
+		   <h2 class="description">
+						   </h2>
+		</div>                 
+	</div>
+	<div id="folders">
+																				<a href="?content%2FBay+Area++Oct+2004%2F"  title="Bay Area  Oct 2004 " >
+											<img class="png" src="imagevue/images/folder1_128x128.png" alt=""/><br />
+						<div align="center" class="textblock">Bay Area  Oct 2004</div>
+					</a>
+																						<a href="?content%2FCelebrating+Maithili+and+Niteshs+PhD+completion+++Aug+19+2006%2F"  title="Celebrating Maithili and Niteshs PhD completion   Aug 19 2006 " >
+											<img class="png" src="imagevue/images/folder1_128x128.png" alt=""/><br />
+						<div align="center" class="textblock">Celebrating Maithili and Niteshs PhD completion   Aug 19 2006</div>
+					</a>
+																						<a href="?content%2FClaude+Castelluccias+Farewell+Party++July+2005%2F"  title="Claude Castelluccias Farewell Party  July 2005 " >
+											<img class="png" src="imagevue/images/folder1_128x128.png" alt=""/><br />
+						<div align="center" class="textblock">Claude Castelluccias Farewell Party  July 2005</div>
+					</a>
+																						<a href="?content%2FClaudio+and+Di+Phd+Completion%2F"  title="Claudio and Di Phd Completion " >
+											<img class="png" src="imagevue/images/folder1_128x128.png" alt=""/><br />
+						<div align="center" class="textblock">Claudio and Di Phd Completion</div>
+					</a>
+																						<a href="?content%2FFarewell+BBQ+for+Jeong+H+Yi++Sep+2005%2F"  title="Farewell BBQ for Jeong H Yi  Sep 2005 " >
+											<img class="png" src="imagevue/images/folder1_128x128.png" alt=""/><br />
+						<div align="center" class="textblock">Farewell BBQ for Jeong H Yi  Sep 2005</div>
+					</a>
+																						<a href="?content%2FFun+in+Las+Vegas%2F"  title="Fun in Las Vegas " >
+											<img class="png" src="imagevue/images/folder1_128x128.png" alt=""/><br />
+						<div align="center" class="textblock">Fun in Las Vegas</div>
+					</a>
+																						<a href="?content%2FGabriele+farewell+dinner++Nov+2009%2F"  title="Gabriele farewell dinner  Nov 2009 " >
+											<img class="png" src="imagevue/images/folder1_128x128.png" alt=""/><br />
+						<div align="center" class="textblock">Gabriele farewell dinner  Nov 2009</div>
+					</a>
+																						<a href="?content%2FGraduation+++Summer+2010%2F"  title="Graduation   Summer 2010 " >
+											<img class="png" src="imagevue/images/folder1_128x128.png" alt=""/><br />
+						<div align="center" class="textblock">Graduation   Summer 2010</div>
+					</a>
+																						<a href="?content%2FHaving+fun+at+Knotts+Scary+Farm%2F"  title="Having fun at Knotts Scary Farm " >
+											<img class="png" src="imagevue/images/folder1_128x128.png" alt=""/><br />
+						<div align="center" class="textblock">Having fun at Knotts Scary Farm</div>
+					</a>
+																						<a href="?content%2FIvan+farewell%2F"  title="Ivan farewell " >
+											<img class="png" src="imagevue/images/folder1_128x128.png" alt=""/><br />
+						<div align="center" class="textblock">Ivan farewell</div>
+					</a>
+																						<a href="?content%2FJeong+H+Yi+PhD+defense+++Aug+2005%2F"  title="Jeong H Yi PhD defense   Aug 2005 " >
+											<img class="png" src="imagevue/images/folder1_128x128.png" alt=""/><br />
+						<div align="center" class="textblock">Jeong H Yi PhD defense   Aug 2005</div>
+					</a>
+																						<a href="?content%2FJihye+Graduation+Dinner%2F"  title="Jihye Graduation Dinner " >
+											<img class="png" src="imagevue/images/folder1_128x128.png" alt=""/><br />
+						<div align="center" class="textblock">Jihye Graduation Dinner</div>
+					</a>
+																						<a href="?content%2FSconce+BBQ+++March+18+2007%2F"  title="Sconce BBQ   March 18 2007 " >
+											<img class="png" src="imagevue/images/folder1_128x128.png" alt=""/><br />
+						<div align="center" class="textblock">Sconce BBQ   March 18 2007</div>
+					</a>
+																						<a href="?content%2FSummer+grill+fest++2003%2F"  title="Summer grill fest  2003 " >
+											<img class="png" src="imagevue/images/folder1_128x128.png" alt=""/><br />
+						<div align="center" class="textblock">Summer grill fest  2003</div>
+					</a>
+																						<a href="?content%2FUCI+Parking+Lot%2F"  title="UCI Parking Lot " >
+											<img class="png" src="imagevue/images/folder1_128x128.png" alt=""/><br />
+						<div align="center" class="textblock">UCI Parking Lot</div>
+					</a>
+																						<a href="?content%2Fersin_john_karim_farewell%2F"  title="ersin_john_karim_farewell " >
+											<img class="png" src="imagevue/images/folder1_128x128.png" alt=""/><br />
+						<div align="center" class="textblock">ersin_john_karim_farewell</div>
+					</a>
+																						<a href="?content%2Fgraduation-mish%2F"  title="graduation-mish " >
+											<img class="png" src="imagevue/images/folder1_128x128.png" alt=""/><br />
+						<div align="center" class="textblock">graduation-mish</div>
+					</a>
+																						<a href="?content%2Fpictures1%2F"  title="Daniele's farewell dinner, Oct 2009 This is another pictures demo folder. These thumbnails have been created with croptobox <b>160x120</b>" >
+											<img class="png" src="imagevue/images/folder1_128x128.png" alt=""/><br />
+						<div align="center" class="textblock">Daniele's farewell dinner, Oct 2009</div>
+					</a>
+																	</div>
+
+	<div id="thumbnails">
+			</div>
+		</div>
+	</body>
+</html>

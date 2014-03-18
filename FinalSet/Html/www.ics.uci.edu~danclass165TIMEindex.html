@@ -1,0 +1,87 @@
+<HTML><HEAD>
+<TITLE>Timing</TITLE>
+</HEAD><BODY>
+<span style="color:#000000; font:16px Arial, Helvetica, sans-serif;">
+
+<center>
+<H2> Timing on your computer </H2>
+</center>
+
+In order to determine the relative execution efficiency of various
+algorithms, you will need to use a timer package.&nbsp;
+I have available (see below) for your use such a package
+written in C.&nbsp;
+However, with advance approval from me, you may use other packages.
+Note that CPU time is used by your program (user time)
+as well as the system (system time).  We will be interested in
+capturing the values of the user time usage only.
+<P>
+<B>A problem</B>:&nbsp;
+On some systems, the timing function gives times in multiples
+of .01 seconds.&nbsp;
+On others, the timing coarseness may be
+significantly smaller or larger.&nbsp;
+(You should determine the timing coarseness for your machine.)&nbsp;
+Thus, for example, on a system with .01 second timing coarseness,
+timing anything which takes less than
+one fiftieth of a second could result in more than a 50% error.&nbsp;
+Your programs, for small values of <I>n</I>,
+should be easily this fast.
+<P>
+<B>A solution</B>:&nbsp;
+When the algorithm to be timed is too fast to obtain an accurate
+measurement, the algorithm can be run many times in succession,
+with the cumulative time being measured.&nbsp;
+This time can then be divided by the number of runs to obtain a more
+accurate measurement of the time required by an individual run.&nbsp;
+<I>As little as possible</I>, other then the successive calls,
+should occur while the timing is taking place.&nbsp;
+In fact, for particularly speedy code, the time spent updating
+the loop variable may be of the same order of magnitude as
+the time you are attempting to measure.&nbsp;
+To account for this, you can subsequently time the loop with
+a (nearly) empty body and subtract this measure from your first measure,
+the net result reflecting more accurately the time spent within
+the code of interest.
+One should note that some optimizing compilers will
+optimize loops that contain an empty body by discarding them.
+
+<H3> Timer package </H3>
+
+Program file <a href="timer.c"><tt>timer.c</tt></a> should be compiled
+and linked with your program system.&nbsp;
+It defines the following routines:
+<UL>
+<LI> <tt>user_time()</tt>
+  <BR>
+returns the total amount of user cpu time used by the current process
+  <BR>
+<LI> <tt>start_timer()</tt>
+  <BR>
+starts the timer
+[actually, it only records the current value of <tt>user_time()</tt>]
+  <BR>
+<LI> <tt>elapsed_time()</tt>
+  <BR>
+returns the amount of cpu time that has been used since the last call
+to <tt>start_timer()</tt>
+</UL>
+<P>
+Header file <a href="timer.h"><tt>timer.h</tt></a>
+declares the routines that are defined in <tt>timer.c</tt>
+and it should be <tt>include</tt>d in all program files
+that invoke any of those routines.
+
+</span>
+<HR>
+<ADDRESS>
+<A HREF="http://www.ics.uci.edu/~dan">
+Dan Hirschberg </A> <BR>
+Computer Science Department<BR>
+University of California, Irvine, CA 92697-3435<BR>
+</ADDRESS>
+<tt>dan (at) ics.uci.edu</tt><br>
+
+Last modified: Dec  7, 2011
+</BODY></HTML>
+

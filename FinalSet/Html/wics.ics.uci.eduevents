@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<title>Events this month | Women in Information and Computer Sciences</title>
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="http://wics.ics.uci.edu/wp-content/themes/twentyten-wics/style.css" />
+<link rel="pingback" href="http://wics.ics.uci.edu/xmlrpc.php" />
+<link rel="alternate" type="application/rss+xml" title="Women in Information and Computer Sciences &raquo; Feed" href="http://wics.ics.uci.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Women in Information and Computer Sciences &raquo; Comments Feed" href="http://wics.ics.uci.edu/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Women in Information and Computer Sciences &raquo; Events Feed" href="" />
+<link rel='stylesheet' id='jetpack_likes-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/jetpack/modules/likes/style.css?ver=2.8' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-subscriptions-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/jetpack/modules/subscriptions/subscriptions.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-bootstrap-datepicker-css-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/the-events-calendar/vendor/bootstrap-datepicker/css/datepicker.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='cptchStylesheet-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/captcha/css/style.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/contact-form-7/includes/css/styles.css?ver=3.7' type='text/css' media='all' />
+<link rel='stylesheet' id='flickr-header-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/flickr-header/header-styles.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='meteor-slides-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/meteor-slides/css/meteor-slides.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-events-custom-jquery-styles-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/the-events-calendar/vendor/jquery/smoothness/jquery-ui-1.8.23.custom.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='full-calendar-style-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/the-events-calendar/resources/tribe-events-full.min.css?ver=3.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe_events-calendar-style-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/the-events-calendar/resources/tribe-events-theme.min.css?ver=3.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpt-twitter-feed-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/wp-to-twitter/css/twitter-feed.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='tipsy-social-icons-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/tipsy-social-icons/css/widget.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='post-ratings-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/post-ratings/post-ratings.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='FooterCredits-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/footer-putter/styles/footer-credits.css?ver=1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='afg_colorbox_css-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/awesome-flickr-gallery-plugin/colorbox/colorbox.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='afg_css-css'  href='http://wics.ics.uci.edu/wp-content/plugins/wics/awesome-flickr-gallery-plugin/afg.css?ver=3.8.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/jetpack/_inc/postmessage.js?ver=2.8'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/jetpack/_inc/jquery.inview.js?ver=2.8'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/jetpack/_inc/jquery.jetpack-resize.js?ver=2.8'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tribe_bootstrap_datepicker_strings = {"dates":{"days":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"daysShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat","Sun"],"daysMin":["S","M","T","W","T","F","S","S"],"months":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthsShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"clear":"Clear","today":"Today"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/the-events-calendar/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js?ver=3.2'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/the-events-calendar/vendor/jquery-placeholder/jquery.placeholder.min.js?ver=2.0.7'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/the-events-calendar/vendor/jquery-resize/jquery.ba-resize.min.js?ver=1.1'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/the-events-calendar/resources/tribe-events.min.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/the-events-calendar/resources/tribe-events-bar.min.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/tipsy-social-icons/js/widget.min.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/awesome-flickr-gallery-plugin/colorbox/jquery.colorbox-min.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/awesome-flickr-gallery-plugin/colorbox/mycolorbox.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/meteor-slides/js/jquery.cycle.all.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/meteor-slides/js/jquery.metadata.v2.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/meteor-slides/js/jquery.touchwipe.1.1.1.js?ver=3.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var meteorslidessettings = {"meteorslideshowspeed":"2000","meteorslideshowduration":"2000","meteorslideshowheight":"300","meteorslideshowwidth":"940","meteorslideshowtransition":"fade"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/meteor-slides/js/slideshow.js?ver=3.8.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://wics.ics.uci.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://wics.ics.uci.edu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.8.1" />
+<style type="text/css">/* Start writing your custom CSS here */</style><!-- Start Genie WP Favicon -->
+<link rel="shortcut icon" href="http://wics.ics.uci.edu/wp-content/uploads/gwpf_icon/favicon.ico" />
+<link rel="apple-touch-icon" href="http://wics.ics.uci.edu/wp-content/uploads/gwpf_icon/favicon.ico" />
+<!-- End Genie WP Favicon -->
+ <meta name="robots" content="noindex,follow" />
+<style>#container { float: left; margin: 0 -240px 0 0; } #content { margin: 0 280px 0 20px; } #primary, #secondary { float: right; } #secondary { clear: right; } </style><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f1f1f1; background-image: url('http://wics.ics.uci.edu//wp-content/uploads/wics/2013/10/www.momi8_.com_20120918115041286.gif'); background-repeat: repeat; background-position: top left; background-attachment: fixed; }
+</style>
+</head>
+
+<body class="custom-background tribe-filter-live events-gridview events-archive tribe-theme-parent-twentyten tribe-theme-child-twentyten-wics">
+<div id="wrapper" class="hfeed">
+	<div id="header">
+		<div id="masthead">
+			<div id="branding" role="banner">
+								<div id="site-title">
+					<span>
+						<a href="http://wics.ics.uci.edu/" title="Women in Information and Computer Sciences" rel="home">Women in Information and Computer Sciences</a>
+					</span>
+				</div>
+				<div id="site-description">A student organization at UCI dedicated to helping women succeed in the technological world</div>
+			
+					
+		
+	<div id="meteor-slideshow" class="meteor-slides  navboth">
+	
+			
+			
+			<ul class="meteor-nav">
+		
+				<li id="meteor-prev" class="prev"><a href="#prev">Previous</a></li>
+			
+				<li id="meteor-next" class="next"><a href="#next">Next</a></li>
+			
+			</ul><!-- .meteor-nav -->
+		
+			<div id="meteor-buttons" class="meteor-buttons"></div>
+		
+				
+			
+		<div class="meteor-clip">
+	
+				
+			<img style="visibility: hidden;" class="meteor-shim" src="http://wics.ics.uci.edu//wp-content/uploads/wics/2013/10/GHC-header.png" alt="" />
+			<div class="mslide mslide-1">
+				
+										
+					<a href="http://wics.ics.uci.edu/grace-hopper-celebration-2013/" title="Grace Hopper Celebration 2013"><img width="940" height="300" src="http://wics.ics.uci.edu//wp-content/uploads/wics/2013/10/GHC-header.png" class="attachment-featured-slide wp-post-image" alt="GHC header" title="Grace Hopper Celebration 2013" /></a>
+			
+							
+			</div><!-- .mslide -->
+			
+						
+				
+			
+			<div class="mslide mslide-2">
+				
+										
+					<a href="http://wics.ics.uci.edu/project-development/" title="WICS Project Meetings (Fall 2013)"><img width="940" height="300" src="http://wics.ics.uci.edu//wp-content/uploads/wics/2013/11/Project-Meeting-HeaderFall.png" class="attachment-featured-slide wp-post-image" alt="Project Meeting Header(Fall)" title="WICS Project Meetings (Fall 2013)" /></a>
+			
+							
+			</div><!-- .mslide -->
+			
+						
+				
+			
+			<div class="mslide mslide-3">
+				
+										
+					<a href="http://wics.ics.uci.edu/inittogether/" title="initTogether"><img width="940" height="300" src="http://wics.ics.uci.edu//wp-content/uploads/wics/2013/09/cropped-initTogether-e1380104561308.jpg" class="attachment-featured-slide wp-post-image" alt="initTogether header 1" title="initTogether" /></a>
+			
+							
+			</div><!-- .mslide -->
+			
+						
+				
+			
+			<div class="mslide mslide-4">
+				
+										
+					<a href="http://wics.ics.uci.edu/officers/" title="initTogether WICS officers"><img width="940" height="300" src="http://wics.ics.uci.edu//wp-content/uploads/wics/2013/09/InitTogether-3-940x300.jpg" class="attachment-featured-slide wp-post-image" alt="initTogether header 2" title="initTogether WICS officers" /></a>
+			
+							
+			</div><!-- .mslide -->
+			
+						
+				
+			
+			<div class="mslide mslide-5">
+				
+										
+					<a href="http://wics.ics.uci.edu/wics-hosts-a-toy-hacking-workshop-with-dr-garnet-hertz/" title="Toy Hacking Workshop"><img width="940" height="300" src="http://wics.ics.uci.edu//wp-content/uploads/wics/2013/09/Toy-Hacking-Workshop-Collage.png" class="attachment-featured-slide wp-post-image" alt="Toy Hacking Workshop Collage" title="Toy Hacking Workshop" /></a>
+			
+							
+			</div><!-- .mslide -->
+			
+						
+				
+		</div><!-- .meteor-clip -->
+				
+					
+	</div><!-- .meteor-slides -->
+	
+					
+			</div><!-- #branding -->
+
+			<div id="access" role="navigation">
+			  				<div class="skip-link screen-reader-text"><a href="#content" title="Skip to content">Skip to content</a></div>
+								<div class="menu-header"><ul id="menu-main-menu" class="menu"><li id="menu-item-409" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-409"><a href="http://wics.ics.uci.edu">Home</a></li>
+<li id="menu-item-413" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-413"><a href="http://wics.ics.uci.edu/category/news/">WICS News</a>
+<ul class="sub-menu">
+	<li id="menu-item-776" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-776"><a href="http://wics.ics.uci.edu/category/init-together/">init (together)</a></li>
+	<li id="menu-item-1085" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1085"><a href="http://wics.ics.uci.edu/internship-job-postings/">Internship &#038; Job Postings</a></li>
+</ul>
+</li>
+<li id="menu-item-384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-384"><a href="http://wics.ics.uci.edu/join-us/">Join Us!</a>
+<ul class="sub-menu">
+	<li id="menu-item-389" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-389"><a href="http://wics.ics.uci.edu/our-mentorship-program/">Mentorship Program</a></li>
+	<li id="menu-item-887" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-887"><a href="http://wics.ics.uci.edu/project-development/">Project Development</a>
+	<ul class="sub-menu">
+		<li id="menu-item-964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-964"><a href="http://wics.ics.uci.edu/web-development-projects-fall-2013/">Web Development Projects (Fall 2013)</a></li>
+		<li id="menu-item-1188" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1188"><a href="http://wics.ics.uci.edu/android-app-projects-winter-2014/">Android App Projects (Winter 2014)</a></li>
+		<li id="menu-item-935" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-935"><a href="http://wics.ics.uci.edu/powerpoint-slides/">PowerPoint Slides</a></li>
+	</ul>
+</li>
+	<li id="menu-item-388" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-388"><a href="http://wics.ics.uci.edu/apply-to-wics-committee/">Apply to WICS Committee</a></li>
+	<li id="menu-item-390" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-390"><a href="http://wics.ics.uci.edu/corporate-sponsorship/">Corporate Sponsorship</a></li>
+</ul>
+</li>
+<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-28"><a href="http://wics.ics.uci.edu/about-us/">About WICS</a>
+<ul class="sub-menu">
+	<li id="menu-item-173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-173"><a href="http://wics.ics.uci.edu/officers/">Current Officers</a>
+	<ul class="sub-menu">
+		<li id="menu-item-715" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-715"><a href="http://wics.ics.uci.edu/previous-officers/">Previous Officers</a></li>
+	</ul>
+</li>
+	<li id="menu-item-682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-682"><a href="http://wics.ics.uci.edu/contact/">Contact Us</a></li>
+</ul>
+</li>
+</ul></div>			</div><!-- #access -->
+		</div><!-- #masthead -->
+	</div><!-- #header -->
+
+	<div id="main">
+<div id="tribe-events-pg-template">
+	<div id="tribe-events" class="tribe-no-js" data-live_ajax="1" data-category=""><div class="tribe-events-before-html"></div><span class="tribe-events-ajax-loading"><img class="tribe-events-spinner-medium" src="http://wics.ics.uci.edu/wp-content/plugins/wics/the-events-calendar/resources/images/tribe-loading.gif" alt="Loading Events" /></span>	
+<div id="tribe-events-content-wrapper" class="tribe-clearfix"><input type="hidden" id="tribe-events-list-hash" value="">
+<!-- Tribe Bar -->
+
+
+<div id="tribe-events-bar">
+
+	<form id="tribe-bar-form" class="tribe-clearfix" name="tribe-bar-form" method="post" action="http://wics.ics.uci.edu/events?post_type=tribe_events&amp;eventDisplay=month">
+
+		<!-- Mobile Filters Toggle -->
+
+		<div id="tribe-bar-collapse-toggle" >
+			Find Events<span class="tribe-bar-toggle-arrow"></span>
+		</div>
+
+		<!-- Views -->
+				<div id="tribe-bar-views">
+			<div class="tribe-bar-views-inner tribe-clearfix">
+				<h3 class="tribe-events-visuallyhidden">Event Views Navigation</h3>
+				<label>View As</label>
+				<select class="tribe-bar-views-select tribe-no-param" name="tribe-bar-view">
+											<option tribe-inactive value="http://wics.ics.uci.edu/events/upcoming/" data-view="upcoming">
+							List						</option>
+											<option selected value="http://wics.ics.uci.edu/events/month/" data-view="month">
+							Month						</option>
+									</select>
+			</div><!-- .tribe-bar-views-inner -->
+		</div><!-- .tribe-bar-views -->
+		
+				<div class="tribe-bar-filters">
+			<div class="tribe-bar-filters-inner tribe-clearfix">
+									<div class="tribe-bar-date-filter">
+						<label class="label-tribe-bar-date" for="tribe-bar-date">Events In</label>
+						<input type="text" name="tribe-bar-date" style="position: relative;" id="tribe-bar-date" value="" placeholder="Date">
+								<input type="hidden" name="tribe-bar-date-day" id="tribe-bar-date-day" class="tribe-no-param" value="">					</div>
+									<div class="tribe-bar-search-filter">
+						<label class="label-tribe-bar-search" for="tribe-bar-search">Search</label>
+						<input type="text" name="tribe-bar-search" id="tribe-bar-search" value="" placeholder="Search">					</div>
+								<div class="tribe-bar-submit">
+					<input class="tribe-events-button tribe-no-param" type="submit" name="submit-bar" value="Find Events" />
+				</div><!-- .tribe-bar-submit -->
+			</div><!-- .tribe-bar-filters-inner -->
+		</div><!-- .tribe-bar-filters -->
+		
+	</form><!-- #tribe-bar-form -->
+
+</div><!-- #tribe-events-bar -->
+
+<!-- Main Events Content -->
+
+<div id="tribe-events-content" class="tribe-events-month">
+	
+	<!-- Month Title -->
+		<h2 class="tribe-events-page-title">Events for February 2014</h2>
+	
+	<!-- Notices -->
+	
+	<!-- Month Header -->
+		<div id="tribe-events-header"  data-title="Events this month &raquo; " data-view="month" data-date="2014-02" data-baseurl="http://wics.ics.uci.edu/events/month/">
+
+		<!-- Header Navigation -->
+		
+
+<h3 class="tribe-events-visuallyhidden">Calendar Month Navigation</h3>
+
+<ul class="tribe-events-sub-nav">
+	<li class="tribe-events-nav-previous">
+			<a data-month="2014-01" href="http://wics.ics.uci.edu/events/2014-01/" rel="prev">&laquo; January </a>	</li><!-- .tribe-events-nav-previous -->
+	<li class="tribe-events-nav-next">
+		<a data-month="2014-03" href="http://wics.ics.uci.edu/events/2014-03/" rel="next">March &raquo;</a>	</li><!-- .tribe-events-nav-next -->
+</ul><!-- .tribe-events-sub-nav -->
+
+
+	</div><!-- #tribe-events-header -->
+	
+	<!-- Month Grid -->
+	
+
+
+<table class="tribe-events-calendar">
+	<thead>
+		<tr>
+					<th id="tribe-events-sunday" title="Sunday">Sunday</th>
+					<th id="tribe-events-monday" title="Monday">Monday</th>
+					<th id="tribe-events-tuesday" title="Tuesday">Tuesday</th>
+					<th id="tribe-events-wednesday" title="Wednesday">Wednesday</th>
+					<th id="tribe-events-thursday" title="Thursday">Thursday</th>
+					<th id="tribe-events-friday" title="Friday">Friday</th>
+					<th id="tribe-events-saturday" title="Saturday">Saturday</th>
+				</tr>
+	</thead>
+	<tbody class="hfeed vcalendar">
+		<tr>
+								<td class="tribe-events-othermonth">
+				
+
+			</td>
+								<td class="tribe-events-othermonth">
+				
+
+			</td>
+								<td class="tribe-events-othermonth">
+				
+
+			</td>
+								<td class="tribe-events-othermonth">
+				
+
+			</td>
+								<td class="tribe-events-othermonth tribe-events-right">
+				
+
+			</td>
+								<td class="tribe-events-othermonth tribe-events-right">
+				
+
+			</td>
+								<td class="tribe-events-thismonth tribe-events-past tribe-events-right">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-1">
+
+					1		
+	</div>
+
+	<!-- Events List -->
+	
+	<!-- View More -->
+	
+			</td>
+							</tr>
+		<tr>
+						<td class="tribe-events-thismonth tribe-events-past">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-2">
+
+					2		
+	</div>
+
+	<!-- Events List -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-past tribe-events-has-events">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-3">
+
+					<a href="http://wics.ics.uci.edu/events/2014-02-03/">3</a>
+		
+	</div>
+
+	<!-- Events List -->
+			
+
+<div id="tribe-events-event-1148-3" class="hentry vevent tribe-events-category-social-gathering post-1148 tribe_events type-tribe_events status-publish hentry cat_social-gathering tribe-events-venue-694 tribe-events-organizer-442 tribe-events-last">
+	<h3 class="tribe-events-month-event-title summary"><a href="http://wics.ics.uci.edu/event/week-5-potluck/" class="url">Week 5: Quarterly Potluck With ICS Clubs</a></h3>
+	<div id="tribe-events-tooltip-1148-3" class="tribe-events-tooltip">
+		<h4 class="summary">Week 5: Quarterly Potluck With ICS Clubs</h4>
+		<div class="tribe-events-event-body">
+
+			<span class="date-start dtstart">February 3 @ 7:00 pm<span class="value-title" title="2014-02-03PST07:00"></span></span> - <span class="end-time dtend">9:00 pm<span class="value-title" title="2014-02-03PST09:00"></span></span>			
+			
+			<p class="entry-summary description">
+				Are midterms stressing you out and you wanna take a little break? I&#8217;m sure you&#8217;ve been hanging out with your textbooks up close and personal, but maybe it&#8217;s time to put some healthy space in between. This is also an &hellip; <a href="http://wics.ics.uci.edu/event/week-5-potluck/">Continue reading <span class="meta-nav">&rarr;</span></a>			</p><!-- .entry-summary -->
+
+		</div><!-- .tribe-events-event-body -->
+		<span class="tribe-events-arrow"></span>
+	</div><!-- .tribe-events-tooltip -->
+</div><!-- #tribe-events-event-# -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-past">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-4">
+
+					4		
+	</div>
+
+	<!-- Events List -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-past">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-5">
+
+					5		
+	</div>
+
+	<!-- Events List -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-present tribe-events-has-events tribe-events-right">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-6">
+
+					<a href="http://wics.ics.uci.edu/events/2014-02-06/">6</a>
+		
+	</div>
+
+	<!-- Events List -->
+			
+
+<div id="tribe-events-event-1140-6" class="hentry vevent tribe-events-category-project-meeting post-1140 tribe_events type-tribe_events status-publish hentry cat_project-meeting tribe-events-venue-694 tribe-events-organizer-738 tribe-events-last">
+	<h3 class="tribe-events-month-event-title summary"><a href="http://wics.ics.uci.edu/event/project-meeting-2-3/" class="url">Project Meeting #2</a></h3>
+	<div id="tribe-events-tooltip-1140-6" class="tribe-events-tooltip">
+		<h4 class="summary">Project Meeting #2</h4>
+		<div class="tribe-events-event-body">
+
+			<span class="date-start dtstart">February 6 @ 7:00 pm<span class="value-title" title="2014-02-06PST07:00"></span></span> - <span class="end-time dtend">8:30 pm<span class="value-title" title="2014-02-06PST08:30"></span></span>			
+			
+			<p class="entry-summary description">
+				Come and work with your groups on your Android Apps! Stay updated with the Facebook page and check out the Project Development page for more information. Don&#8217;t forget to BRING YOUR LAPTOPS! Food and refreshments will be provided during the &hellip; <a href="http://wics.ics.uci.edu/event/project-meeting-2-3/">Continue reading <span class="meta-nav">&rarr;</span></a>			</p><!-- .entry-summary -->
+
+		</div><!-- .tribe-events-event-body -->
+		<span class="tribe-events-arrow"></span>
+	</div><!-- .tribe-events-tooltip -->
+</div><!-- #tribe-events-event-# -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-future tribe-events-right">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-7">
+
+					7		
+	</div>
+
+	<!-- Events List -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-future tribe-events-right">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-8">
+
+					8		
+	</div>
+
+	<!-- Events List -->
+	
+	<!-- View More -->
+	
+			</td>
+							</tr>
+		<tr>
+						<td class="tribe-events-thismonth tribe-events-future tribe-events-has-events">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-9">
+
+					<a href="http://wics.ics.uci.edu/events/2014-02-09/">9</a>
+		
+	</div>
+
+	<!-- Events List -->
+			
+
+<div id="tribe-events-event-1182-9" class="hentry vevent tribe-events-category-workshop post-1182 tribe_events type-tribe_events status-publish hentry cat_workshop tribe-events-venue-1183 tribe-events-organizer-442 tribe-events-last">
+	<h3 class="tribe-events-month-event-title summary"><a href="http://wics.ics.uci.edu/event/computer-expert-badge-brownie-troops-workshop/" class="url">Computer Expert Badge Brownie Troops Workshop</a></h3>
+	<div id="tribe-events-tooltip-1182-9" class="tribe-events-tooltip">
+		<h4 class="summary">Computer Expert Badge Brownie Troops Workshop</h4>
+		<div class="tribe-events-event-body">
+
+			<span class="date-start dtstart">February 9 @ 2:00 pm<span class="value-title" title="2014-02-09PST02:00"></span></span> - <span class="end-time dtend">4:00 pm<span class="value-title" title="2014-02-09PST04:00"></span></span>			
+			
+			<p class="entry-summary description">
+							</p><!-- .entry-summary -->
+
+		</div><!-- .tribe-events-event-body -->
+		<span class="tribe-events-arrow"></span>
+	</div><!-- .tribe-events-tooltip -->
+</div><!-- #tribe-events-event-# -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-future tribe-events-has-events">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-10">
+
+					<a href="http://wics.ics.uci.edu/events/2014-02-10/">10</a>
+		
+	</div>
+
+	<!-- Events List -->
+			
+
+<div id="tribe-events-event-1181-10" class="hentry vevent tribe-events-category-social-gathering post-1181 tribe_events type-tribe_events status-publish hentry cat_social-gathering tribe-events-venue-694 tribe-events-organizer-442 tribe-events-last">
+	<h3 class="tribe-events-month-event-title summary"><a href="http://wics.ics.uci.edu/event/week-6-homework-help/" class="url">Week 6: WICS Group Study Session</a></h3>
+	<div id="tribe-events-tooltip-1181-10" class="tribe-events-tooltip">
+		<h4 class="summary">Week 6: WICS Group Study Session</h4>
+		<div class="tribe-events-event-body">
+
+			<span class="date-start dtstart">February 10 @ 7:00 pm<span class="value-title" title="2014-02-10PST07:00"></span></span> - <span class="end-time dtend">8:30 pm<span class="value-title" title="2014-02-10PST08:30"></span></span>			
+			
+			<p class="entry-summary description">
+				It&#8217;s week 6 and there&#8217;s midterms, projects, and a lot of stress. Looking for a place to be productive or a study group? Well WICS is hosting a study session, so you&#8217;re in luck. Bring any questions you may have &hellip; <a href="http://wics.ics.uci.edu/event/week-6-homework-help/">Continue reading <span class="meta-nav">&rarr;</span></a>			</p><!-- .entry-summary -->
+
+		</div><!-- .tribe-events-event-body -->
+		<span class="tribe-events-arrow"></span>
+	</div><!-- .tribe-events-tooltip -->
+</div><!-- #tribe-events-event-# -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-future tribe-events-has-events">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-11">
+
+					<a href="http://wics.ics.uci.edu/events/2014-02-11/">11</a>
+		
+	</div>
+
+	<!-- Events List -->
+			
+
+<div id="tribe-events-event-1149-11" class="hentry vevent tribe-events-category-info-session post-1149 tribe_events type-tribe_events status-publish hentry cat_info-session tribe-events-venue-1199 tribe-events-organizer-442 tribe-events-last">
+	<h3 class="tribe-events-month-event-title summary"><a href="http://wics.ics.uci.edu/event/week-6-northrop-grumman/" class="url">Week 6: Northrop Grumman with ACM</a></h3>
+	<div id="tribe-events-tooltip-1149-11" class="tribe-events-tooltip">
+		<h4 class="summary">Week 6: Northrop Grumman with ACM</h4>
+		<div class="tribe-events-event-body">
+
+			<span class="date-start dtstart">February 11 @ 5:30 pm<span class="value-title" title="2014-02-11PST05:30"></span></span> - <span class="end-time dtend">7:30 pm<span class="value-title" title="2014-02-11PST07:30"></span></span>			
+			
+			<p class="entry-summary description">
+				UCI CS/CE majors! Interested in meeting industry professionals who can offer you advice on getting the most out of your college education? Or learning about opportunities in the government contracting arena? Come out to the Northrop Grumman information session to learn more &hellip; <a href="http://wics.ics.uci.edu/event/week-6-northrop-grumman/">Continue reading <span class="meta-nav">&rarr;</span></a>			</p><!-- .entry-summary -->
+
+		</div><!-- .tribe-events-event-body -->
+		<span class="tribe-events-arrow"></span>
+	</div><!-- .tribe-events-tooltip -->
+</div><!-- #tribe-events-event-# -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-future">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-12">
+
+					12		
+	</div>
+
+	<!-- Events List -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-future tribe-events-has-events tribe-events-right">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-13">
+
+					<a href="http://wics.ics.uci.edu/events/2014-02-13/">13</a>
+		
+	</div>
+
+	<!-- Events List -->
+			
+
+<div id="tribe-events-event-1141-13" class="hentry vevent tribe-events-category-project-meeting post-1141 tribe_events type-tribe_events status-publish hentry cat_project-meeting tribe-events-venue-694 tribe-events-organizer-739 tribe-events-last">
+	<h3 class="tribe-events-month-event-title summary"><a href="http://wics.ics.uci.edu/event/project-meeting-3-2/" class="url">Project Meeting #3</a></h3>
+	<div id="tribe-events-tooltip-1141-13" class="tribe-events-tooltip">
+		<h4 class="summary">Project Meeting #3</h4>
+		<div class="tribe-events-event-body">
+
+			<span class="date-start dtstart">February 13 @ 7:00 pm<span class="value-title" title="2014-02-13PST07:00"></span></span> - <span class="end-time dtend">8:30 pm<span class="value-title" title="2014-02-13PST08:30"></span></span>			
+			
+			<p class="entry-summary description">
+				Come and work with your groups on your Android Apps! Stay updated with the Facebook page and check out the Project Development page for more information. Don’t forget to BRING YOUR LAPTOPS! Food and refreshments will be provided during the &hellip; <a href="http://wics.ics.uci.edu/event/project-meeting-3-2/">Continue reading <span class="meta-nav">&rarr;</span></a>			</p><!-- .entry-summary -->
+
+		</div><!-- .tribe-events-event-body -->
+		<span class="tribe-events-arrow"></span>
+	</div><!-- .tribe-events-tooltip -->
+</div><!-- #tribe-events-event-# -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-future tribe-events-right">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-14">
+
+					14		
+	</div>
+
+	<!-- Events List -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-future tribe-events-right">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-15">
+
+					15		
+	</div>
+
+	<!-- Events List -->
+	
+	<!-- View More -->
+	
+			</td>
+							</tr>
+		<tr>
+						<td class="tribe-events-thismonth tribe-events-future">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-16">
+
+					16		
+	</div>
+
+	<!-- Events List -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-future tribe-events-has-events">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-17">
+
+					<a href="http://wics.ics.uci.edu/events/2014-02-17/">17</a>
+		
+	</div>
+
+	<!-- Events List -->
+			
+
+<div id="tribe-events-event-1114-17" class="hentry vevent tribe-events-category-holiday post-1114 tribe_events type-tribe_events status-publish hentry cat_holiday tribe-events-last">
+	<h3 class="tribe-events-month-event-title summary"><a href="http://wics.ics.uci.edu/event/presidents-day/" class="url">Presidents&#8217; Day</a></h3>
+	<div id="tribe-events-tooltip-1114-17" class="tribe-events-tooltip">
+		<h4 class="summary">Presidents&#8217; Day</h4>
+		<div class="tribe-events-event-body">
+
+			<span class="date-start dtstart">February 17<span class="value-title" title="2014-02-17PST12:00"></span></span>			
+			
+			<p class="entry-summary description">
+				No School!			</p><!-- .entry-summary -->
+
+		</div><!-- .tribe-events-event-body -->
+		<span class="tribe-events-arrow"></span>
+	</div><!-- .tribe-events-tooltip -->
+</div><!-- #tribe-events-event-# -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-future">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-18">
+
+					18		
+	</div>
+
+	<!-- Events List -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-future">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-19">
+
+					19		
+	</div>
+
+	<!-- Events List -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-future tribe-events-has-events tribe-events-right">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-20">
+
+					<a href="http://wics.ics.uci.edu/events/2014-02-20/">20</a>
+		
+	</div>
+
+	<!-- Events List -->
+			
+
+<div id="tribe-events-event-1151-20" class="hentry vevent tribe-events-category- post-1151 tribe_events type-tribe_events status-publish hentry tribe-events-venue-472 tribe-events-organizer-442 tribe-events-last">
+	<h3 class="tribe-events-month-event-title summary"><a href="http://wics.ics.uci.edu/event/week-7-tba/" class="url">Week 7: littleBits Workshop</a></h3>
+	<div id="tribe-events-tooltip-1151-20" class="tribe-events-tooltip">
+		<h4 class="summary">Week 7: littleBits Workshop</h4>
+		<div class="tribe-events-event-body">
+
+			<span class="date-start dtstart">February 20 @ 7:00 pm<span class="value-title" title="2014-02-20PST07:00"></span></span> - <span class="end-time dtend">8:30 pm<span class="value-title" title="2014-02-20PST08:30"></span></span>			
+			
+			<p class="entry-summary description">
+							</p><!-- .entry-summary -->
+
+		</div><!-- .tribe-events-event-body -->
+		<span class="tribe-events-arrow"></span>
+	</div><!-- .tribe-events-tooltip -->
+</div><!-- #tribe-events-event-# -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-future tribe-events-right">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-21">
+
+					21		
+	</div>
+
+	<!-- Events List -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-future tribe-events-right">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-22">
+
+					22		
+	</div>
+
+	<!-- Events List -->
+	
+	<!-- View More -->
+	
+			</td>
+							</tr>
+		<tr>
+						<td class="tribe-events-thismonth tribe-events-future">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-23">
+
+					23		
+	</div>
+
+	<!-- Events List -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-future tribe-events-has-events">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-24">
+
+					<a href="http://wics.ics.uci.edu/events/2014-02-24/">24</a>
+		
+	</div>
+
+	<!-- Events List -->
+			
+
+<div id="tribe-events-event-1142-24" class="hentry vevent tribe-events-category-workshop post-1142 tribe_events type-tribe_events status-publish hentry cat_workshop tribe-events-venue-472 tribe-events-organizer-442 tribe-events-last">
+	<h3 class="tribe-events-month-event-title summary"><a href="http://wics.ics.uci.edu/event/week-8-littlebits-workshop-with-brownie-troups/" class="url">Week 8: littleBits Workshop with Brownie Troups</a></h3>
+	<div id="tribe-events-tooltip-1142-24" class="tribe-events-tooltip">
+		<h4 class="summary">Week 8: littleBits Workshop with Brownie Troups</h4>
+		<div class="tribe-events-event-body">
+
+			<span class="date-start dtstart">February 24 @ 4:00 pm<span class="value-title" title="2014-02-24PST04:00"></span></span> - <span class="end-time dtend">6:00 pm<span class="value-title" title="2014-02-24PST06:00"></span></span>			
+			
+			<p class="entry-summary description">
+							</p><!-- .entry-summary -->
+
+		</div><!-- .tribe-events-event-body -->
+		<span class="tribe-events-arrow"></span>
+	</div><!-- .tribe-events-tooltip -->
+</div><!-- #tribe-events-event-# -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-future">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-25">
+
+					25		
+	</div>
+
+	<!-- Events List -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-future">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-26">
+
+					26		
+	</div>
+
+	<!-- Events List -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-future tribe-events-has-events tribe-events-right">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-27">
+
+					<a href="http://wics.ics.uci.edu/events/2014-02-27/">27</a>
+		
+	</div>
+
+	<!-- Events List -->
+			
+
+<div id="tribe-events-event-1150-27" class="hentry vevent tribe-events-category-project-meeting post-1150 tribe_events type-tribe_events status-publish hentry cat_project-meeting tribe-events-venue-694 tribe-events-organizer-442 tribe-events-last">
+	<h3 class="tribe-events-month-event-title summary"><a href="http://wics.ics.uci.edu/event/project-meeting-5-2/" class="url">Project Meeting #4</a></h3>
+	<div id="tribe-events-tooltip-1150-27" class="tribe-events-tooltip">
+		<h4 class="summary">Project Meeting #4</h4>
+		<div class="tribe-events-event-body">
+
+			<span class="date-start dtstart">February 27 @ 7:00 pm<span class="value-title" title="2014-02-27PST07:00"></span></span> - <span class="end-time dtend">8:30 pm<span class="value-title" title="2014-02-27PST08:30"></span></span>			
+			
+			<p class="entry-summary description">
+				Come and work with your groups on your Android Apps! Stay updated with the Facebook page and check out the Project Development page for more information. Don’t forget to BRING YOUR LAPTOPS! Food and refreshments will be provided during the &hellip; <a href="http://wics.ics.uci.edu/event/project-meeting-5-2/">Continue reading <span class="meta-nav">&rarr;</span></a>			</p><!-- .entry-summary -->
+
+		</div><!-- .tribe-events-event-body -->
+		<span class="tribe-events-arrow"></span>
+	</div><!-- .tribe-events-tooltip -->
+</div><!-- #tribe-events-event-# -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-thismonth tribe-events-future tribe-events-right">
+				
+
+
+	<!-- Day Header -->
+	<div id="tribe-events-daynum-28">
+
+					28		
+	</div>
+
+	<!-- Events List -->
+	
+	<!-- View More -->
+	
+			</td>
+								<td class="tribe-events-othermonth tribe-events-right">
+				
+
+			</td>
+				</tr>
+	</tbody>
+</table><!-- .tribe-events-calendar -->
+
+	<!-- Month Footer -->
+		<div id="tribe-events-footer">
+
+		<!-- Footer Navigation -->
+				
+
+<h3 class="tribe-events-visuallyhidden">Calendar Month Navigation</h3>
+
+<ul class="tribe-events-sub-nav">
+	<li class="tribe-events-nav-previous">
+			<a data-month="2014-01" href="http://wics.ics.uci.edu/events/2014-01/" rel="prev">&laquo; January </a>	</li><!-- .tribe-events-nav-previous -->
+	<li class="tribe-events-nav-next">
+		<a data-month="2014-03" href="http://wics.ics.uci.edu/events/2014-03/" rel="next">March &raquo;</a>	</li><!-- .tribe-events-nav-next -->
+</ul><!-- .tribe-events-sub-nav -->
+
+		
+	</div><!-- #tribe-events-footer -->
+		
+</div><!-- #tribe-events-content -->
+
+</div> <!-- #tribe-events-content-wrapper -->	<div class="tribe-events-after-html"></div></div><!-- #tribe-events --></div> <!-- #tribe-events-pg-template -->
+	</div><!-- #main -->
+
+	<div id="footer" role="contentinfo">
+		<div id="colophon">
+
+
+
+			<div id="footer-widget-area" role="complementary">
+
+				<div id="first" class="widget-area">
+					<ul class="xoxo">
+						<li id="text-9" class="widget-container widget_text">			<div class="textwidget">Questions or comments? <a title="Contact Us" href="http://wics.ics.uci.edu/contact/">Contact us</a></div>
+		</li>					</ul>
+				</div><!-- #first .widget-area -->
+
+
+
+
+			</div><!-- #footer-widget-area -->
+
+			<div id="site-info">
+				<a href="http://wics.ics.uci.edu/" title="Women in Information and Computer Sciences" rel="home">
+					Women in Information and Computer Sciences				</a>
+			</div><!-- #site-info -->
+
+			<div id="site-generator">
+				<div class="custom-footer"><div id="footer_copyright-3" class="widget widget_footer_copyright"><div class="widget-wrap"><div id="footer-credits" class=" footer-right"><br/><span class="copyright">Copyright &copy; 2014 WICS</span></div><div class="clear"></div><!-- end #footer-credits --></div></div></div><!-- end .custom-footer -->				<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform">Proudly powered by WordPress.</a>
+			</div><!-- #site-generator -->
+
+		</div><!-- #colophon -->
+	</div><!-- #footer -->
+
+</div><!-- #wrapper -->
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+var TribeCalendar = {"ajaxurl":"http:\/\/wics.ics.uci.edu\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/the-events-calendar/resources/tribe-events-ajax-calendar.min.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/contact-form-7/includes/js/jquery.form.min.js?ver=3.48.0-2013.12.28'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/wics.ics.uci.edu\/wp-content\/plugins\/wics\/contact-form-7\/images\/ajax-loader.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/contact-form-7/includes/js/scripts.js?ver=3.7'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201406'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var post_ratings = {"blog_url":"http:\/\/wics.ics.uci.edu\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://wics.ics.uci.edu/wp-content/plugins/wics/post-ratings/post-ratings.js?ver=2.4'></script>
+
+	<script src="http://stats.wordpress.com/e-201406.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	st_go({v:'ext',j:'1:2.8',blog:'57484762',post:'0',tz:'-8'});
+	var load_cmc = function(){linktracker_init(57484762,0,2);};
+	if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+	else load_cmc();
+	</script></body>
+</html>
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+		>
+<channel>
+	<title>Comments on: Day 3 &#8212; Team 6</title>
+	<atom:link href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-3-4/feed/" rel="self" type="application/rss+xml" />
+	<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-3-4/</link>
+	<description></description>
+	<lastBuildDate>Thu, 01 Mar 2012 22:02:03 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.3.1</generator>
+	<item>
+		<title>By: Peter Huynh</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-3-4/#comment-142</link>
+		<dc:creator>Peter Huynh</dc:creator>
+		<pubDate>Thu, 01 Mar 2012 17:16:34 +0000</pubDate>
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=620#comment-142</guid>
+		<description>When are you meeting today (March 1)? Let me know please. huynhp1 is my UCI ID.</description>
+		<content:encoded><![CDATA[<p>When are you meeting today (March 1)? Let me know please. huynhp1 is my UCI ID.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>AppJam Blog</title>
+	<atom:link href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/feed/" rel="self" type="application/rss+xml" />
+	<link>http://student-council.ics.uci.edu/appjam/winter2012/blog</link>
+	<description></description>
+	<lastBuildDate>Tue, 06 Mar 2012 19:57:38 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.3.1</generator>
+		<item>
+		<title>The final countdown</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/the-final-countdown/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/the-final-countdown/#comments</comments>
+		<pubDate>Tue, 06 Mar 2012 09:22:29 +0000</pubDate>
+		<dc:creator>The GBC</dc:creator>
+				<category><![CDATA[2012-winter-Team7]]></category>
+		<category><![CDATA[GlobalEvent]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=909</guid>
+		<description><![CDATA[Everything we set out to do in the beginning now works. We have fully implemented the building finder, tour, augmented reality, and user upload portions of our app. The user can essentially navigate to any portion of our app and be able to do what it says. We were able to finish our last bit [...]]]></description>
+			<content:encoded><![CDATA[<p>Everything we set out to do in the beginning now works. We have fully implemented the building finder, tour, augmented reality, and user upload portions of our app. The user can essentially navigate to any portion of our app and be able to do what it says. We were able to finish our last bit of functionality thanks to the extreme perseverance of Kevin. Our app looks really cool and we really believe that everything is working how we wanted it to. Granted, there were times in the beginning where some things, namely augmented reality and user uploads, that seemed not possible to do in a week, be we managed to power through and Learn UCI (LUCI [lucy, get it?]) is ready for tomorrow!</p>
+<p>&nbsp;</p>
+<p>UPDATE:</p>
+<p>In light of being done, I would personally like to add some memes that helped us get through appjam week:</p>
+<p><a title="scumbag brain" href="http://www.quickmeme.com/meme/36gn00/">http://www.quickmeme.com/meme/36gn00/</a></p>
+<h6><a href="http://www.quickmeme.com/meme/36fjnr/" rel="nofollow nofollow" target="_blank">http://www.quickmeme.com/meme/36fjnr/</a></h6>
+<h6><a href="http://www.quickmeme.com/meme/36fh7z/" rel="nofollow nofollow" target="_blank">http://www.quickmeme.com/meme/36fh7z/</a></h6>
+<p>http://www.quickmeme.com/meme/36egpq/</p>
+<p><strong><a href="http://i.imgur.com/Qt9MV.jpg" rel="nofollow" target="_blank">http://i.imgur.com/Qt9MV.jpg</a></strong></p>
+<p>&nbsp;</p>
+<p>Good luck to everyone tomorrow(Today)!</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/the-final-countdown/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Team2: Day 8</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team2-day-8/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team2-day-8/#comments</comments>
+		<pubDate>Tue, 06 Mar 2012 08:30:15 +0000</pubDate>
+		<dc:creator>Team2</dc:creator>
+				<category><![CDATA[2012-winter-Team2]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=903</guid>
+		<description><![CDATA[Current Status: The app is complete! Final changes to the code were made at around 10:30pm. The remaining time was spent exporting and testing the app on the android, and cleaning up the document and presentation slides to submit. Submitted just in time. Progress Today: At the beginning of the day, the app had most [...]]]></description>
+			<content:encoded><![CDATA[<p>Current Status:<br />
+The app is complete! Final changes to the code were made at around 10:30pm. The remaining time was spent exporting and testing the app on the android, and cleaning up the document and presentation slides to submit. Submitted just in time.</p>
+<p>Progress Today:<br />
+At the beginning of the day, the app had most of it&#8217;s features complete, but still a lot of bugs and implementation issues. Since we didn&#8217;t have much time yesterday to work and I knew that the bug fixing would take a lot of time, I started coding at 12:00am today, and continued until around 8 or 9 in the mourning before taking a nap. By then the app was looking much more polished and I had implemented some extra features we had been hoping for. Our team met at 11:00 today and went over the changes. We then continued with some of us fixing bugs and adding new features, while the others worked on populating our database and creating the documents. By 10:30pm we had gotten the fixes and features we wanted to, so we stopped coding and prepared to submit.</p>
+<p>Challenges:<br />
+Very tired from programming for so many hours. Ran into some unexpected bugs in the webserver that made things take longer than we had originally thought. However, we worked hard and were able to finish on time.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team2-day-8/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Day 8 : Progress</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-8-progress-2/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-8-progress-2/#comments</comments>
+		<pubDate>Tue, 06 Mar 2012 08:25:02 +0000</pubDate>
+		<dc:creator>Team1</dc:creator>
+				<category><![CDATA[2012-winter-Team1]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=744</guid>
+		<description><![CDATA[Very interesting day, today was. We started knowing what we were going to do and we kept that up through the whole day. Near the end of the day, of course, we wanted to add a few new functionalities, but in the end, we had been able to add all the things we wanted and [...]]]></description>
+			<content:encoded><![CDATA[<p>Very interesting day, today was.</p>
+<p>We started knowing what we were going to do and we kept that up through the whole day.<br />
+Near the end of the day, of course, we wanted to add a few new functionalities, but in the end, we had been able to add all the things we wanted and then submit. I was surprised by the submission process, but we definitely had started it before 11:59.</p>
+<p>Overall, our team did a great job producing a great application. Hopefully we don&#8217;t experience unforeseen bugs later.</p>
+<p>Some bugs did definitely come up at the end. Luckily the big one was caught.</p>
+<p>Although a few bugs probably exist, we pretty much finished.</p>
+<p>Things to do better:</p>
+<p>Make sure we do <strong>not</strong> create functionality requirements on the last day.</p>
+<p>Make sure we build component wise together rather than individually. (Speedy programming basically causes a lot of sub-optimally structured code)</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-8-progress-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Day 8</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-8/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-8/#comments</comments>
+		<pubDate>Tue, 06 Mar 2012 07:43:08 +0000</pubDate>
+		<dc:creator>Team5</dc:creator>
+				<category><![CDATA[2012-winter-Team5]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=894</guid>
+		<description><![CDATA[Current Status: The app is now finished, ready to be submitted. Progress Today: We have been working on the app since 5PM today trying to finish the app and put everything together. It was really tough trying to get everything to work. The good news is that the interface looks a lot better than what [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Current Status:</strong></p>
+<p>The app is now finished, ready to be submitted.</p>
+<p><strong>Progress Today:</strong></p>
+<p>We have been working on the app since 5PM today trying to finish the app and put everything together. It was really tough trying to get everything to work. The good news is that the interface looks a lot better than what we had before due to making some major changes to the interface. We added background image, added some unique features to the app, and adjusted the arrangement of the objects in the screen.</p>
+<p><strong>Major Challenge:</strong></p>
+<p>The biggest challenge that we had was putting everything together under a time constraint.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-8/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Team 4 : Day 8</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team-4-day-8/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team-4-day-8/#comments</comments>
+		<pubDate>Tue, 06 Mar 2012 07:16:15 +0000</pubDate>
+		<dc:creator>Team4</dc:creator>
+				<category><![CDATA[2012-winter-Team4]]></category>
+		<category><![CDATA[GlobalEvent]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=892</guid>
+		<description><![CDATA[Current Status of the Project I am happy to report that our app is fully functional, seemingly bug free, and has been optimized for speed.  We also implemented some features last minute that we didn&#8217;t believe we would have time to complete.  We are currently thoroughly testing our app to ensure that it is bug [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Current Status of the Project<br />
+</strong>I am happy to report that our app is fully functional, seemingly bug free, and has been optimized for speed.  We also implemented some features last minute that we didn&#8217;t believe we would have time to complete.  We are currently thoroughly testing our app to ensure that it is bug free. Looking forward to presenting our app tomorrow.</p>
+<p><strong>Progress Today:</strong></p>
+<p>We made some major progress today including debugging issues that were left over from last night, adding multiple extra features that were on our &#8220;if we have time&#8221; list.  We had several bugs pop up throughout the day, but they have all seemingly been corrected.  Our app was also taking long periods of time to load data (20-30 seconds initially) and sometimes even cause the app to stop responding.  We spent some time today figuring out how to optimize our apps performance and drastically reduce those loading times.  We also made some last minute changes to our database tables to allow for new functionality to be added.  Overall today was really intense, but also really fun and exciting as we passed our initial expectations and gone above and beyond what we thought possible (I&#8217;m jealous I don&#8217;t have an android to run this app myself).<br />
+We also finished our poster, power point presentation, and app documentation.</p>
+<p>We also enjoyed not one, but TWO visits from Peter the photographer today. He was present during the extremely intense final moments as we scrambled to get our documents together and submitted with 5 minutes to go before midnight. I&#8217;m sure he got some fun pictures.</p>
+<p><strong>Challenges:</strong></p>
+<p>Limitations with the database required changes. Serious loading times presented us with a dilemma, should we spend time optimizing our app for a speedy performance or work on adding additional features? We were fortunately able to accomplish both. We also had some last minutes bugs that sent us into a minor panic, but it looks like we&#8217;ve worked them all out.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team-4-day-8/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Day 8 Progress</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-8-progress/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-8-progress/#comments</comments>
+		<pubDate>Tue, 06 Mar 2012 07:03:43 +0000</pubDate>
+		<dc:creator>Team9</dc:creator>
+				<category><![CDATA[2012-winter-Team9]]></category>
+		<category><![CDATA[GlobalEvent]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=890</guid>
+		<description><![CDATA[Current Project Status: The app is complete, but git issues are slowing us down. Progress Today: We met late today since we all had class earlier in the day. Half the team rushed to put finishing touches on the app and test as much as possible while the other half worked on the presentation and [...]]]></description>
+			<content:encoded><![CDATA[<div>
+<p>Current Project Status:</p>
+<p>The app is complete, but git issues are slowing us down.</p>
+<p>Progress Today:</p>
+<p>We met late today since we all had class earlier in the day. Half the team rushed to put finishing touches on the app and test as much as possible while the other half worked on the presentation and documentation. As this is being written, we are still racing to fix all the merge conflicts due to git.</p>
+<p>Challenges:</p>
+<p>The competition was definitely not short of challenges and setbacks. The biggest contributor may have very well been git and it&#8217;s errors with Android environment configurations and organization.  Other than that, short hours, inexperience, and lack of availability set us back quite a bit.  We met every afternoon and even stayed overnight during the weekend to work on the app, and we believe it shows in our finished product. Overall, this competition was an incredible learning experience and, win or lose, it was very enjoyable. Winning wouldn&#8217;t hurt though.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-8-progress/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Last Day &#8211; Team 8</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/last-day-team-8/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/last-day-team-8/#comments</comments>
+		<pubDate>Tue, 06 Mar 2012 06:45:56 +0000</pubDate>
+		<dc:creator>Team8</dc:creator>
+				<category><![CDATA[2012-winter-Team8]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=880</guid>
+		<description><![CDATA[Current Status: We have a working local application that can function with our desired methods and has great translate functionality and adding objects interface. The client-server, which has been a problem since the beginning, continues to be a problem til the last day. We are still researching the code to implement the code and send [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Current Status:<br />
+</strong>We have a working local application that can function with our desired methods and has great translate functionality and adding objects interface. The client-server, which has been a problem since the beginning, continues to be a problem til the last day. We are still researching the code to implement the code and send the involved clients updated files successfully.</p>
+<p><strong>Progress Today:<br />
+</strong>We have been working like crazy today to finish all the debugging of the client-server. We finished the powerpoint presentation as well as the documentation and the document with all the information (team members, inspiration, programming languages used, etc.). The debugging took up the majority of the time as a basic semi-functioning application was working yesterday. Today we tried to debug for over 7 hours and it was exhausting, exhilaration, and annoying. We were working on ID&#8217;s of objects, sending objects to users, and adding users. We wrapped up well and are awaiting tomorrow for our presentation.</p>
+
+<a href='http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/last-day-team-8/imag0282-2/' title='IMAG0282'><img width="150" height="150" src="http://student-council.ics.uci.edu/appjam/winter2012/blog/wp-content/uploads/2012/03/IMAG02821-150x150.jpg" class="attachment-thumbnail" alt="IMAG0282" title="IMAG0282" /></a>
+<a href='http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/last-day-team-8/imag0306/' title='IMAG0306'><img width="150" height="150" src="http://student-council.ics.uci.edu/appjam/winter2012/blog/wp-content/uploads/2012/03/IMAG0306-150x150.jpg" class="attachment-thumbnail" alt="IMAG0306" title="IMAG0306" /></a>
+<a href='http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/last-day-team-8/imag0307/' title='IMAG0307'><img width="150" height="150" src="http://student-council.ics.uci.edu/appjam/winter2012/blog/wp-content/uploads/2012/03/IMAG0307-150x150.jpg" class="attachment-thumbnail" alt="IMAG0307" title="IMAG0307" /></a>
+<a href='http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/last-day-team-8/imag0311/' title='IMAG0311'><img width="150" height="150" src="http://student-council.ics.uci.edu/appjam/winter2012/blog/wp-content/uploads/2012/03/IMAG0311-150x150.jpg" class="attachment-thumbnail" alt="IMAG0311" title="IMAG0311" /></a>
+<a href='http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/last-day-team-8/imag0312/' title='IMAG0312'><img width="150" height="150" src="http://student-council.ics.uci.edu/appjam/winter2012/blog/wp-content/uploads/2012/03/IMAG0312-150x150.jpg" class="attachment-thumbnail" alt="IMAG0312" title="IMAG0312" /></a>
+<a href='http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/last-day-team-8/imag0314/' title='IMAG0314'><img width="150" height="150" src="http://student-council.ics.uci.edu/appjam/winter2012/blog/wp-content/uploads/2012/03/IMAG0314-150x150.jpg" class="attachment-thumbnail" alt="IMAG0314" title="IMAG0314" /></a>
+
+<p><strong>Challenges:<br />
+</strong>The biggest challenge was and always will be the very complicated server-client relationship. It is very difficult to send users specific data. The database had to be updated accordingly and this was a difficult thing to manage. It is apparent that this needs focused time and research. Finally, we are working on a presentation for tomorrow.<strong><br />
+</strong></p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/last-day-team-8/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Team10: Day 8</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team10-day-8/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team10-day-8/#comments</comments>
+		<pubDate>Tue, 06 Mar 2012 06:24:19 +0000</pubDate>
+		<dc:creator>Team10</dc:creator>
+				<category><![CDATA[2012-winter-Team10]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=875</guid>
+		<description><![CDATA[Current Status of the Project Team 10 is very excited to report that our app is fully tested and functional. All of the major features that we set out to implement have been done! This leaves us with the task of presenting our application at the judging event tomorrow. We are currently making finishing touches [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Current Status of the Project<br />
+</strong>Team 10 is very excited to report that our app is fully tested and functional. All of the major features that we set out to implement have been done! This leaves us with the task of presenting our application at the judging event tomorrow. We are currently making finishing touches to our PowerPoint presentation and dividing/delegating poster design tasks for tomorrow. We wait in anticipation to see all the other teams and their apps tomorrow.</p>
+<p><strong>Progress Today:</strong><br />
+<em>Android (Client Side ):<br />
+</em>Since we had the project at a mostly complete state yesterday, today was focused on ironing out bugs. Our testing consisted of both white box and black box QA where we would emulate standard users. The app was also signed and built to an APK which marked the end of development.</p>
+<p><em>Server/Database:<br />
+</em>Development of the server and database infrastructure is complete and tested.</p>
+<p><em>Design/UI:<br />
+</em>Development of the UI is complete. Today the UI team made minor touches to app to make it shine for the judging event.</p>
+<p><strong>Challenges:<br />
+</strong>The major challenge of today is creativity. It is a common fact that many computer science and engineering majors do not have a creative bone in their body. Given this issue, the design of our PowerPoint presentation and poster board is a difficult task. However, all of us strive for excellence. We are confident that we will have a presentable PowerPoint and poster board for tomorrow&#8217;s judging event.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team10-day-8/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Last Day &#8212; Team 6</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/last-day/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/last-day/#comments</comments>
+		<pubDate>Tue, 06 Mar 2012 04:08:39 +0000</pubDate>
+		<dc:creator>Team6</dc:creator>
+				<category><![CDATA[2012-winter-Team6]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=861</guid>
+		<description><![CDATA[Current Status: Currently, we are working out minor errors in our application and completing the required documents and powerpoint. This last part of the project is fairly simple and straightforward since all we have to do is translate our work into words on paper. Progress today: Today, we met up as a group in the [...]]]></description>
+			<content:encoded><![CDATA[<p>Current Status:</p>
+<p>Currently, we are working out minor errors in our application and completing the required documents and powerpoint. This last part of the project is fairly simple and straightforward since all we have to do is translate our work into words on paper.</p>
+<p>Progress today:</p>
+<p>Today, we met up as a group in the ICS building and discuss the current situation of our app. We have also tested the app on multiple devices and so far the app has worked! It is an awesome experience to see the app actually works like an app that&#8217;s already on the market. We made minor changes to the appearance of the app, such as the background as well as the app logo, and we tried resolving the issue we had with the mapping. I would go into further details but that information will be presented in the powerpoint. Overall, the app is set and ready for presentation. The long hours of work put into this app finally paid off. Now it is a matter of typing up the proper documents.</p>
+<p>&nbsp;</p>
+<p>Challenges:</p>
+<p>Like I said, one of the bugs that we have in our app has to do with the mapping. We have tried many different approaches during our discussion today and finally we got the map function to display the location properly. Now back to the documentation and the powerpoint.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/last-day/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Last day: Team Mneomonics</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-8-team-mneomonics/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-8-team-mneomonics/#comments</comments>
+		<pubDate>Tue, 06 Mar 2012 03:32:19 +0000</pubDate>
+		<dc:creator>Team3</dc:creator>
+				<category><![CDATA[2012-winter-Team3]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=854</guid>
+		<description><![CDATA[Current Project Status: Currently we have a lot done, merging and finalizing is smooth with some difficulties. Everything is getting done, documentation and Power Points and everything. We are starting to wrap up the final features to be implemented. Progress Today: Today we finished up with the main interface of the application and we are [...]]]></description>
+			<content:encoded><![CDATA[<p>Current Project Status:</p>
+<p>Currently we have a lot done, merging and finalizing is smooth with some difficulties. Everything is getting done, documentation and Power Points and everything. We are starting to wrap up the final features to be implemented.</p>
+<p>Progress Today:</p>
+<p>Today we finished up with the main interface of the application and we are getting closer to debugging the maps feature. We are running into bugs, but we are addressing them as they come. Progressing as a team, we are helping each other finish. Guerilla code-fare!</p>
+<p>Challenges:</p>
+<p>The biggest challenge is now the deadline.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-8-team-mneomonics/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

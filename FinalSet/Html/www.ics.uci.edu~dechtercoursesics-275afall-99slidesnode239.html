@@ -1,0 +1,134 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Using the Statistics Facility</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Using the Statistics Facility">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5112 HREF="node240.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5110 HREF="node236.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5106 HREF="node238.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5114 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5113 HREF="node240.html"> Exhaustive Collection</A>
+<B>Up:</B> <A NAME=tex2html5111 HREF="node236.html"> Profiling Prolog Execution</A>
+<B> Previous:</B> <A NAME=tex2html5107 HREF="node238.html"> Using the Profiling </A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION002030000000000000000> Using the Statistics Facility</A></H1>
+<P>
+The statistics tool is predicate based.
+The user can switch on statistics collection
+for all predicates or for selected ones.
+<P>
+The statistics tool is closely related to the debugger.
+In order to apply it to a program, this program must be
+compiled in <b> dbgcomp</b>-mode and it must be run with the debugger
+switched on.
+<P>
+A sample output from the statistics tool looks like this:
+<PRE> PROCEDURE         #    MODULE    #CALL   #EXIT    #TRY    #CUT   #NEXT   #FAIL
+true               /0   sepia_k       2       2       0       0       0       0
+fail               /0   sepia_k      27       0       0       0       0      27
+set_flag           /3   sepia_k       1       1       0       0       0       0
+env                /0   sepia_k       1       1       1       0       2       0
+spaces             /1   sepia_k     309     309     309     286      23       0
+!                  /0   sepia_k     286     286       0       0       0       0
+open               /3   sepia_k       1       1       0       0       0       0
+|TOTAL:     PROCEDURES: 7           627     600     310     286      25      27
+</PRE>
+<P>
+The numbers show how often the execution passed the various predicate ports
+(for a description of the ports see <A HREF="#chapdebug"><IMG ALIGN=BOTTOM ALT="gif" SRC="http://www.ecrc.de/eclipse/new_icons//cross_ref_motif.gif"></A>).
+In coroutine mode the table has 2 more columns for DELAY and WAKE ports.
+The relation between the debugger ports and the statistics counters is as
+follows:
+<P>
+<DL ><DT>CALL -
+<DD> counts CALL ports
+<DT>EXIT -
+<DD> counts EXIT and *EXIT ports
+<DT>TRY -
+<DD> there is no corresponding port, it stands for entering the
+first of several matching clauses or a disjunction (choicepoint creation)
+<DT>CUT -
+<DD> counts CUT ports
+<DT>NEXT -
+<DD> counts NEXT ports
+<DT>FAIL -
+<DD> counts FAIL and *FAIL ports
+<DT>DELAY -
+<DD> counts DELAY ports (in coroutine mode only)
+<DT>WAKE -
+<DD> counts WAKE ports (in coroutine mode only)
+<P>
+ </DL>
+<P>
+Ports that can not be displayed by the debugger are not available for
+the statistics tool either, ie.
+<UL><LI> subgoals of predicates that are set to <tt> skipped</tt> (user predicates
+are not skipped by default)
+<LI> subgoals of predicates that are compiled in <b> nodbgcomp</b>-mode
+<LI> untraceable predicates (user predicates and all built-ins are
+traceable by default)
+</UL>
+<P>
+There is a global flag <tt> statistics</tt> (accessed with <b> set_flag/2</b>,
+<b> get_flag/2</b>) that can take four possible values:
+<UL><LI> <b> off</b> - no procedure is counted
+<LI> <b> some</b> - some specified (using <b> set_flag/3</b> or
+<b> set_statistics/2</b>) procedures are counted
+<LI> <b> all</b> - all traceable procedures are counted
+<LI> <b> mode</b> - like <b> all</b>, but the mode usage is also collected
+</UL>
+<P>
+The output of the statistics tool goes to the <tt> output</tt> stream.
+Most of the time it is useful to write it into a file using
+<blockquote> <PRE>?- open(table, write, output), print_statistics, close(output).
+</PRE></blockquote>
+where it can be further processed.
+The statistics table can be sorted on  a specified column
+with the Unix <i> sort(2)</i> command, e.g.
+<blockquote> <PRE>sort -n -r +4 table
+</PRE></blockquote>
+will sort with procedures that exited most frequently first.
+<P>
+To improve the performance of a program, the following
+considerations might apply:
+<P>
+<UL><LI> The <b> CALL</b> ports show how often a procedure is called
+and hence procedures with many CALLS are crucial to the program's
+performance.
+<P>
+<LI> Many <b> TRY</b> ports show that either the procedure
+is really nondeterministic, or that it is written in such a manner
+that the compiler cannot decide which clause will match a given
+call and so it has to create a choice point and try several clauses
+in sequence.
+<P>
+<LI> <b> NEXT</b> ports mean most often that the compiler did not
+succeed to pick up the right clause at the first try
+and so another one had to be tried.
+Rewriting the procedure might help, as well as providing mode
+declarations.
+<P>
+<LI> If there are much less <b> CUT</b> ports than <b> CALL</b> ports
+of the procedure <b> !/0</b>, it means that some cuts in
+the program source are redundant.
+</UL><BR> <HR>
+<UL> 
+<LI> <A NAME=tex2html5115 HREF="node240.html#SECTION002031000000000000000"> Exhaustive Collection</A>
+<LI> <A NAME=tex2html5116 HREF="node241.html#SECTION002032000000000000000"> Selective Collection</A>
+<LI> <A NAME=tex2html5117 HREF="node242.html#SECTION002033000000000000000"> Obtaining mode information</A>
+</UL>
+<BR> <HR><A NAME=tex2html5112 HREF="node240.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5110 HREF="node236.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5106 HREF="node238.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5114 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5113 HREF="node240.html"> Exhaustive Collection</A>
+<B>Up:</B> <A NAME=tex2html5111 HREF="node236.html"> Profiling Prolog Execution</A>
+<B> Previous:</B> <A NAME=tex2html5107 HREF="node238.html"> Using the Profiling </A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

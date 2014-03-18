@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>Dennis Park - UC Irvine</title>
+<style>
+h1 { padding : 0; margin : 0; }
+body { padding : 0; font-family : Arial; font-size : 16px; }/* background-color : #EFEFEF; } /* background-image : url('bg.png');}*/
+#container { width : 950; margin : 10px 20px;  background-color : #fff; padding : 50px; } /* border : 1px solid #ccc; } */
+#me { border : 0 solid black; margin-bottom : 0;}
+#sidebar { margin-left : 25px; border : 0 solid black; float : right; margin-bottom : 0;}
+#content { display : block; margin-right : 275px;}
+a { text-decoration : none; }
+a:hover { text-decoration : underline; }
+a:visited { color : blue; }
+a.invisible { color : inherit; text-decoration : inherit; }
+.publogo { margin-right : 10px; float : left; border : 0;}
+.publication { clear : left; padding-bottom : 0px;}
+.publication p { height : 100px; }
+.codelogo { margin-right : 10px; float : left; border : 0;}
+.code { clear : left; padding-bottom : 10px; vertical-align :middle;} 
+.code .download a { display : block; margin : 0 15px; float : left;}
+#simpsons { margin : 5px auto; text-align : left; color : #B7B7B7; }
+#erdos { color : #999; text-align : center; font-size : 12px; }
+.contact { margin-left : 40px; }
+.contact td { width : 300px; vertical-align : top; }
+.schoollogo { text-align : center; color : #999; width : 150px;}
+.schoollogo img { margin-bottom : 10px; }
+
+table.pub {width: 700px; border=0}
+td.pic {text-align: right; vertical-align:top}
+td.pub {width: 600px; vertical-align:center}
+
+tr.pub > td{padding-bottom:10px}
+
+</style>
+</head>
+
+<body>
+<div id="container">
+
+<div id="sidebar">
+<img src="profile.jpg" id="me">
+</div>
+
+<div id = "content">
+<h1> Dennis Park </h1>
+<!--<h5> 4209 Donald Bren Hall, Irvine, CA 92617 </h5> -->
+<!--<h4> iypark@ics.uci.edu </h4>i-->
+<br>
+<b>iypark@ics.uci.edu</b>
+<br>
+
+
+<p> I am a fourth year Ph.D. student in <a href="http://vision.ics.uci.edu/">Computer Vision lab</a> at <a href="http://uci.edu">UC Irvine</a>, where I am advised by Prof. <a href="http://www.ics.uci.edu/~dramanan">Deva Ramanan</a>.  I generally work in computer vision, and am also interested in machine learning. Specifically, my research focuses on detecting and tracking poses of articulated people in images and videos.</p>
+
+<p> More information is available in my <a href="dennis_park_cv.pdf">curriculum vitae</a>. </p>
+<hr>
+
+<h2> Conference publications </h2>
+<!--<div class="publication"> -->
+<table class="pub">
+<tr><tr class="pub">
+<td class="pic"> <a href="papers/motionftrs.pdf"><img class="pub" src="papers/motionftrs.jpg" class="pub"></a>
+<td class="pub"> <p>D. Park, C.L. Zitnick, D. Ramanan, and P. Dollar. "<strong>Exploring Weak Stabilization for Motion Feature Extraction</strong>" <em>Computer Vision and Pattern Recognition</em> (CVPR), Portland, OR, June 2013.
+<br>
+<a href="papers/motionftrs.pdf">[paper]</a> 
+
+<tr><tr class = "pub">
+<td class="pic"> <a href="papers/nbest.pdf"><img class="pub" src="papers/nbest.jpg" class="pub"></a>
+<td class="pub"> <p>D. Park and D. Ramanan. "<strong>N-Best Maximal Decoders for Part Models</strong>" <em>International Conference on Computer Vision</em> (ICCV) Barcelona, Spain, November 2011. 
+<br>
+<a href="papers/nbest.pdf">[paper]</a> <a href="slides/nbest_poster.pdf">[poster]</a> <a href="code/nbest_release.zip">[code]</a> <a href="code/pose-video-v1.0.zip">[data]</a></p>
+
+
+<tr><tr class="pub">
+<td class="pic"> <a href="papers/multires.pdf"><img class="pub" src="papers/multires.jpg" class="pub"></a>
+<td class="pub"> <p>D. Park, D. Ramanan and C. Fowlkes. "<strong>Multiresolution models for object detection</strong>" <em>European Conference on Computer Vision</em> (ECCV) Crete, Greece, September 2010.
+<br>
+<a href="papers/multires.pdf">[paper]</a> <a href="slides/multires_poster.pdf">[poster]</a> 
+<br>
+<br>
+<sup>*</sup>Check out our <a href="caltech_result">results</a> on <a href="http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/index.html">Caltech Pedestrian Dataset</a>.
+
+
+</table>
+<!--
+<a href="papers/nbest.pdf"><img src="papers/nbest.jpg" class="publogo"></a>
+<p>Dennis Park and Deva Ramanan. "<strong>N-Best Maximal Decoders for Part Models</strong>" <em>International Conference on Computer Vision</em> (ICCV) Barcelona, Spain, November 2011. 
+<br>
+<a href="papers/nbest.pdf">[paper]</a> <a href="slides/nbest_poster.pdf">[poster]</a> <a href="code/nbest_release.zip">[code]</a> <a href="code/pose-video-v1.0.zip">[data]</a></p>
+</div>
+
+<div class="publication">
+<a href="papers/multires.pdf"><img src="papers/multires.jpg" class="publogo"></a>
+<p>Dennis Park and Deva Ramanan. "<strong>Multiresolution models for object detection</strong>" <em>European Conference on Computer Vision</em> (ECCV) Crete, Greece, September 2010. 
+<br>
+<a href="papers/multires.pdf">[paper]</a> <a href="slides/multires_poster.pdf">[poster]</a> 
+</div>
+
+
+</div>
+<br>
+-->
+<hr>
+
+</div>
+
+
+</body>
+</html>
+
+

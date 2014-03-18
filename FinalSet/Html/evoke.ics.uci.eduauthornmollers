@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<link href='http://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'>
+
+<meta charset="UTF-8">
+
+<title>  Norma Möllers</title>
+
+
+<!-- wp_header -->
+<link rel="alternate" type="application/rss+xml" title="EVOKE Lab &raquo; Feed" href="http://evoke.ics.uci.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="EVOKE Lab &raquo; Comments Feed" href="http://evoke.ics.uci.edu/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="EVOKE Lab &raquo; Posts by Norma Möllers Feed" href="http://evoke.ics.uci.edu/author/nmollers/feed/" />
+<link rel='stylesheet' id='themify-shortcodes-css'  href='http://evoke.ics.uci.edu/wp-content/themes/suco/themify/css/shortcodes.css?ver=1.2.8' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-style-css'  href='http://evoke.ics.uci.edu/wp-content/themes/suco/style.css?ver=1.2.8' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-media-queries-css'  href='http://evoke.ics.uci.edu/wp-content/themes/suco/media-queries.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='pretty-photo-css'  href='http://evoke.ics.uci.edu/wp-content/themes/suco/prettyPhoto.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css'  href='http://fonts.googleapis.com/css?family=Rokkitt&#038;v1&#038;ver=3.8.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-content/themes/suco/js/audio-player.js?ver=3.8.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://evoke.ics.uci.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://evoke.ics.uci.edu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.8.1" />
+
+<!-- Open Graph Tags -->
+<meta property="og:site_name" content="EVOKE Lab" />
+<meta property="og:type" content="article" />
+<meta property="og:description" content="A while back I stumbled upon a browser game which in some ways could be considered an attempt to gamify privacy literacy. Gamification in the context of surveillance usually means the exploitation of the pleasures of play in order to collect and sell data, i.e. in fitness or productivity apps. In a somewhat similar vein, ..." />
+<meta property="og:url" content="http://evoke.ics.uci.edu/my-day-as-a-data-dealer/" />
+<!-- End Open Graph Tags -->
+<!-- RSS Feed -->
+<link rel="alternate" type="application/rss+xml" title="EVOKE Lab RSS Feed" href="http://evoke.ics.uci.edu/feed/" />
+
+
+<link href="http://evoke.ics.uci.edu/wp-content/themes/suco/skins/gray/style.css" rel="stylesheet" type="text/css" />
+<!-- modules styling -->
+<style type='text/css'>
+#site-logo {
+position: absolute;
+top: 0px;
+left: 0px;
+}
+
+.post-title {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+</style>
+
+
+<!-- media-queries.js -->
+<!--[if lt IE 9]>
+	<script src="http://evoke.ics.uci.edu/wp-content/themes/suco/js/respond.js"></script>
+<![endif]-->
+
+<!-- html5.js -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<meta name="viewport" content="width=100%, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+<!--[if lt IE 9]>
+	<script src="http://s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+	<![endif]-->
+
+<script type="text/javascript">
+	AudioPlayer.setup("http://evoke.ics.uci.edu/wp-content/themes/suco/player.swf", {
+		width: '90%',
+		transparentpagebg: 'yes'
+	});
+</script>
+
+</head>
+
+<body class="archive author author-nmollers author-19 skin-gray sidebar1 list-post">
+
+<div id="pagewrap">
+
+	<div id="headerwrap">
+
+				<header id="header" class="pagewidth">
+        	        
+			<hgroup>
+									<div id="site-logo"><a href="http://evoke.ics.uci.edu" title="EVOKE Lab"><img src='http://evoke.ics.uci.edu/wp-content/themes/suco/themify/img.php?src=http://evoke.ics.uci.edu/wp-content/uploads/2013/02/evokelogo_color.png&amp;w=200&amp;h=' alt='EVOKE Lab'   width='200'  /></a></div>					
+				<h2 id="site-description"></h2>
+			</hgroup>
+	
+            <div id="main-nav-wrap">
+                <div id="menu-icon" class="mobile-button"></div>
+                <nav>
+                    <ul id="main-nav" class="main-nav"><li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="http://evoke.ics.uci.edu/">Home</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://evoke.ics.uci.edu/people/">People</a></li>
+<li id="menu-item-450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-450"><a href="http://evoke.ics.uci.edu/research/">Research</a>
+<ul class="sub-menu">
+	<li id="menu-item-454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-454"><a href="http://evoke.ics.uci.edu/research/knowledge-infrastructures/">Knowledge Infrastructures</a></li>
+	<li id="menu-item-453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-453"><a href="http://evoke.ics.uci.edu/research/values-in-design/">Values in Design</a></li>
+	<li id="menu-item-451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-451"><a href="http://evoke.ics.uci.edu/research/design-by-youth/">Design by Youth</a></li>
+	<li id="menu-item-452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-452"><a href="http://evoke.ics.uci.edu/research/emerging-configurations/">Emerging Configurations</a></li>
+</ul>
+</li>
+<li id="menu-item-304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-304"><a href="http://evoke.ics.uci.edu/events/">Events</a></li>
+<li id="menu-item-303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303"><a href="http://evoke.ics.uci.edu/blog/">Blog</a></li>
+<li id="menu-item-606" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-606"><a href="http://evoke.ics.uci.edu/contact/">Contact</a></li>
+</ul>                    <!-- /#main-nav --> 
+                </nav>
+			</div>
+            <!-- /#main-nav-wrap -->
+	
+					<div id="searchform-wrap">
+				<div id="search-icon" class="mobile-button"></div>
+				<form method="get" id="searchform" action="http://evoke.ics.uci.edu/">
+	<input type="text" name="s" id="s"  placeholder="Search">
+</form>
+			</div>
+			<!-- /#searchform-wrap -->
+		
+        
+			<div class="social-widget">
+					
+							</div>
+			<!-- /.social-widget -->
+			
+			<div class="header-widget">
+							</div>
+			<!-- /.header-widget -->
+
+					</header>
+		<!-- /#header -->
+        		
+		<div id="nav-bar">
+		</div>
+		<!-- /#nav-bar -->
+		
+	</div>
+	<!-- /.headerwrap -->
+	
+	<div id="body" class="clearfix"> 
+	
+
+
+<div id="upperwrap">
+		
+				
+	
+		
+		
+</div>
+<!-- /#upperwrap -->
+
+		
+
+<!-- layout -->
+<div id="layout" class="clearfix">
+
+	<div class="pagewidth clearfix">
+
+				<!-- content -->
+		<div id="content" class="clearfix">
+        				
+														<div class="author-bio clearfix">
+					<p class="author-avatar"><img alt='' src='http://1.gravatar.com/avatar/f719646b018ec33fd80768fbf582756d?s=48&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D48&amp;r=G' class='avatar avatar-48 photo' height='48' width='48' /></p>
+					<h2 class="author-name">About Norma Möllers</h2>
+										<div class="author-description">
+											</div>
+					<!-- /.author-description -->
+				</div>
+				<!-- /.author bio -->
+				
+				<h2 class="author-posts-by">Posts by Norma Möllers:</h2>
+					
+										
+								
+				<!-- loops-wrapper -->
+				<div class="loops-wrapper">
+	
+								
+													
+<!-- post -->
+<article id="post-674" class="post-674 post type-post status-publish format-video hentry category-blog post clearfix cat-10">
+		
+	<span class="post-icon"></span><!-- /post-icon -->
+
+	<!-- post-title -->
+								<h1 class="post-title"><a href="http://evoke.ics.uci.edu/my-day-as-a-data-dealer/">My day as a data dealer</a></h1>
+						<!-- /post-title -->
+
+	<!-- post-meta -->
+	<p class="post-meta"> 
+					<time datetime="2013-10-30" class="post-date" pubdate>Oct 30, 2013</time>
+		
+						<span class="post-author"><a href="http://evoke.ics.uci.edu/author/nmollers/" title="Posts by Norma Möllers" rel="author">Norma Möllers</a></span>
+				<span class="post-category"><a href="http://evoke.ics.uci.edu/category/blog/" title="View all posts in Blog" rel="category tag">Blog</a></span>
+									<span class="post-comment"><a href="http://evoke.ics.uci.edu/my-day-as-a-data-dealer/#respond" title="Comment on My day as a data dealer">No Comments</a></span>
+										    
+	</p>
+	<!-- /post-meta -->
+	
+	
+<!-- post-video -->
+<!-- /post-video -->
+
+<!-- post-content -->
+
+	<p>A while back I stumbled upon a browser game which in some ways could be considered an attempt to gamify privacy literacy. Gamification in the context of surveillance usually means the exploitation of the pleasures of play in order to collect and sell data, i.e. in fitness or productivity apps. In a somewhat similar vein,(&#8230;)</p>
+
+<!-- /post-content -->	
+		
+    </article>
+<!-- /post -->
+									
+													
+				</div>
+				<!-- /loops-wrapper -->
+
+					 
+			
+					
+						
+			
+            		</div>
+		<!-- /#content -->
+        	
+		<aside id="sidebar">
+	
+	
+	</aside>
+<!-- /#sidebar -->
+	
+	</div>
+	<!-- /.pagewidth --> 
+
+</div>
+<!-- /#layout -->
+
+
+		</div>
+	<!-- /body -->
+	
+	<div class="footer-widgetswrap clearfix">
+		<div class="footer-widgets pagewidth clearfix">
+	
+				
+	<div class="footer-widgets clearfix">
+
+								<div class="col3-1 first">
+							</div>
+								<div class="col3-1 ">
+							</div>
+								<div class="col3-1 ">
+							</div>
+		
+	</div>
+	<!-- /.footer-widgets -->
+
+			
+		</div>
+		<!-- /.footer-widgets -->
+	</div>
+	<!-- /.footer-widgetswrap -->
+
+	<div id="footerwrap">
+    
+    			<footer id="footer" class="pagewidth clearfix">
+        				
+			<div id="footer-logo">
+									 <a href="http://evoke.ics.uci.edu/">EVOKE Lab</a>
+							</div>
+			<!-- /footer-logo -->
+	
+				
+			<div class="footer-text clearfix">
+				<div class="one"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</div>
+				<div class="two">Powered by <a href="http://wordpress.org">WordPress</a>  &bull; <a href="http://themify.me">Themify WordPress Themes</a></div>
+			</div>
+			<!-- /.footer-text --> 
+
+					</footer>
+		<!-- /#footer -->
+                
+	</div>
+	<!-- /#footerwrap -->
+	
+</div>
+<!-- /#pagewrap -->
+
+
+<!-- wp_footer -->
+
+
+				
+		<!-- slider -->
+		<script>
+		/////////////////////////////////////////////
+		// Slider	 							
+		/////////////////////////////////////////////
+		jQuery(document).ready(function($){
+			$('#slider').flexslider({
+				animation: "slide",
+				slideshow: true,
+				slideshowSpeed: 4000,
+				animationSpeed: 3000,
+				animationLoop: true, 
+				directionNav: true,
+				prevText: "&laquo;",
+				nextText: "&raquo;",
+				pauseOnHover: true
+			});
+		});
+		</script>
+        <script type='text/javascript' src='http://evoke.ics.uci.edu/wp-content/themes/suco/js/jquery.prettyPhoto.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-content/themes/suco/js/jquery.slider.js?ver=3.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var themifyScript = {"overlayTheme":"pp_default"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-content/themes/suco/js/themify.script.js?ver=3.8.1'></script>
+
+</body>
+</html>

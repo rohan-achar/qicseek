@@ -1,0 +1,218 @@
+<html>
+  <head>
+    <title>
+      Dr. Rina Dechter @ UCI
+    </title>
+    <LINK REL="Stylesheet" HREF="/~dechter/basic.css">      
+  </HEAD>
+
+<BODY bgcolor="#ffffff" alink="00aaaa" link="008080" vlink="008080">
+
+<center>
+<table width="95%" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td class="title" valign="bottom">
+      <nobr>Dr. Rina Dechter - University of California at Irvine</nobr></td>
+
+    <td><img alt="ZOT!" align="right" valign="bottom" src="/~dechter/images/anteater-ics.gif"></td>
+  </tr>
+
+  <tr>
+    <td colspan="2"><img height="2" src="/~dechter/images/transp-fill.gif"></td>
+  </tr>
+
+  <tr>
+    <td colspan="2"><img width="100%" height="2"  src="/~dechter/images/black-fill.gif"></td>
+  </tr>
+
+  <tr valign=top>
+    <td><font color="ffaa00" size="3"><a href="/~dechter/index.html">home</a> |
+    <a href="/~dechter/publications.html">publications</a> |
+    <a href="/~dechter/books/">book</a> |
+		<a href="/~dechter/courses.html">courses</a> |
+    <a href="/~dechter/research.html">research</a></font></td>
+    <td align=right><font color=#008080>Revised on
+      
+      Feb. 09, 2010</font></td>
+  </tr>
+</table>
+</center>
+
+<br><br>
+<center>
+<table width="90%" cellspacing="0" cellpadding="0" border="0">
+
+<tr>
+  <td><img height="4" src="/~dechter/images/transp-fill.gif"></td>
+</tr>
+
+<tr>
+<td class=title>ICS-175, Project in AI, Winter 2010</td>
+</tr>
+
+<tr>
+  <td><img width="100%" height="2"  src="/~dechter/images/black-fill.gif"></td>
+</tr>
+
+<tr>
+  <td align="right">
+  <A HREF="index.html">overview</A> | 
+  <A HREF="announcements.html">announcements</A> | 
+  <A HREF="lecture-notes.html">lecture notes</A>  
+  
+</tr>
+</table>
+
+<p>
+
+<table width="90%" cellspacing="0" cellpadding="0" border="0">
+
+<tr>
+<td>
+<div class="section">Project ideas for CompSci175 class</div>
+<br><br>
+
+<div>Next are some project ideas in Bayesian networks constraint networks and games.<p></div>
+
+<HR noshade>
+
+<div>When you select a project provide:
+<ul>
+  <li>Project title
+  <li>Project idea
+  <li>Methodology (Constraint processing, Bayesian networks, Games, search, planning, learning)
+  <li>Data source you will use
+  <li>Tools you will use
+  <li>Software you will have to write
+  <li>Background material to read. Read relevant papers. Find out available systems.
+  <li>Teammate: optimal number of team mates is 3
+  <li>Expected output (experiments, demo)
+</ul>
+
+<b>Note</b>: During week 2 you only need to provide the project title and list of your teammates.
+</div>
+
+<HR noshade>
+
+<p align="justify">
+In Bayesian network projects you will build a Bayesian network that models a domain and makes some inferences.
+  Available tools such as SamIam,  REES, Hugin and JavaBayes can be used. The system can be built using knowledge
+ acquisition from expert in the domain or by learning from data or both. Some domains used in the past are:
+ Admission to a Phd program, Loan expert advisor, Basketball simulator, Handicappers (picking winners in horseracing).
+<p align="justify">
+The domain you select should be sufficiently complex. It should have enough variables (at least 50 variables).
+ You would need to validate the model somehow. This can be done by connecting with an expert in the domain or
+ by having data. Once you have the Bayesian network, you should propose what kinds of experimental evaluation 
+ to conduct over it.  The projects below are not well defined. They are ideas. Part of your project task is to
+ define the scope and provide the details of your project.
+<p align="justify">
+In constraint networks projects, you will also need to model your domain using a collection of constraints  and
+ perhaps using some objective functions, using one of the tools for constraints and then show how you solve the
+ problem and how you evaluate the quality of your model and solutions.
+<p align="justify">
+<Hr noshade>
+<div class="section">1.    Email management project.</div>
+The problem: people receive thousands of emails which require some action
+(answer, discard and file). 
+<p> 
+Email management becomes unmanageable.
+<p>
+The project: build a system that help decide:
+<ol>
+  <li>
+   what email to answer next (prioritize emails)
+ <li> What emails to discard and what to file to other folders. 
+</ol>
+<p align="justify">
+The input is a collection of emails that were received. Each message should have a collection of features
+ (time of arrival, sender, title, length, number of recipients, topic and response time).
+<p align="justify">
+Methodology: learning: look at past messages received and the decisions made.
+<br>
+<a name=topics>See</a> Padhraic Smyth's <a href = "http://www.ics.uci.edu/~smyth/topics.html">topic modelling page</a>. Also, topic modelling tutorials: <a href="http://psiexp.ss.uci.edu/research/papers/SteyversGriffithsLSABookFormatted.pdf">Steyvers and Griffiths</a> and <a href="http://www.cs.princeton.edu/~blei/papers/BleiLafferty2009.pdf">Blei and Lafferty</a>
+<br>
+More links on text classification and topic modelling:<p align="justify">
+<ul>
+<li><a href="http://www.paulgraham.com/better.html">Paul Graham, Better Bayesian filtering (for spam classification)</a>
+</ul>
+<br>
+
+
+<div class="section">2. TA assignments.</div>
+<p align="justify">
+ Given class schedules for quarter, the number of TA needed for each class, TA's preferences and qualification,
+ and instructors' choice of preferred TA, schedule the TA's in a way that maximize some measure of satisfaction.
+ (Real data may be available, talk to Mark Cartnal). See the page for the <a href="http://www.cs.qub.ac.uk/~B.McCollum/patat10/"> PATAT</a> - International conference on the practice and theory automated timetabling.  
+<br>
+<div class="section"><a name=class_scheduling> 3. Class scheduling.</a></div>
+<p align="justify">
+ The problem is to find a schedule for classes, classrooms, and teachers for a teaching setting
+ (e.g., a high school, a computer science department). Measure of satisfaction can be to
+ minimize the number of weighted constraints violated. Students can use the REES tool to model and
+ run their algorithms. See papers by <a href="papers/paper1.pdf"> Saleh Elmohamed et al.</a>, <a href="papers/Dimopoulou.pdf">Dimopoulou et al.</a>, <a href="papers/Badri.pdf"> Badri et al.</a> and <a href="papers/Dinkel.pdf">Dinkel et al.</a> Also see the link for the PATAT above.
+<p align="justify">UPDATE! Actual data from chair of CS department: <a href = "2010-12_CS_Blank_Teaching_Plan.xls"> class schedule for next two years</a>
+ <br>
+<div class="section">4. Advising a first year student.</div>
+<p align="justify">
+A freshman student needs to make many decisions in his first year (what is his major, what classes to take, etc.)
+ Build a Bayesian network or a constraint network (or a mixture of both),
+ based on your own expertise that will advise a first year student in his first steps on campus.
+ See <a href= "http://www.ics.uci.edu/~dechter/courses/ics-175a/winter-2010/IJAMT_Paper.pdf">paper</a> by Avi Dechter.
+ <br>
+<div class="section">5. Magnetic Tower of Hanoi project.</div>
+<p align="justify">
+ Variation of Tower of Hanoi puzzle that uses multicolored disks. See <a href="http://www.ics.uci.edu/~dechter/courses/ics-175a/winter-2010/The_Magnetic_Tower_of_Hanoi.doc">paper</a> by Uri Levy.
+<br>
+<div class="section">6. RoboSoccer game simulation.</div>
+<p align="justify">
+ Investigate different policies for keepaway RoboSoccer game simulation.
+ See Peter Stone's <a href="http://www.cs.utexas.edu/~AustinVilla/sim/keepaway/">site for keepaway</a>.
+  Investigate influence of total number of players, ratio between keepers and takers and field size on the effectiveness of certain policies.
+<br>
+<ol>
+  <li>
+    Develop new policies for the keepers, using various machine learning techniques and compare to the ones presented by Peter Stone's group.
+    <li>Develop policies for the takers. Prove that your policies work better then the handcoded one used by Peter Stone.
+</ol>
+<div class="section">7. Games development.</div>
+<p align="justify">
+
+<ul>
+ <li>Othello game
+ <li>Checkers
+ <li>Go
+ <li>Japanese crossword
+ <li>Generating ordinary crosswords
+</ul>
+<div class="section">8. Sudoku. </div>
+<p align="justify">
+ Develop both solver and generator of the game instances. See <a href="http://www.websudoku.com/"> Sudoku online</a>
+ and <a href=" http://www.ics.uci.edu/~dechter/courses/ics-175a/winter-2010/sudoku_Modelling_Workshop.ppt">slides
+on sudoku modelling</a>. Another useful <a href="http://www.aaai.org/Papers/AAAI/2007/AAAI07-362.pdf">paper</a>
+<br>
+<div class="section">9. Image recognition project.</div>
+<p align="justify">
+ Develop system capable of recognising  so-called CAPCHA - numbers that you need to input when you register for a forum or ticketmaster.
+<br>
+
+
+
+
+
+
+</td>
+</tr>
+</table>
+</center>
+
+<div id="footer"><centeR>
+<A HREF="http://www.ics.uci.edu">School of Information and Computer Science</A>
+<A HREF="http://www.uci.edu">University of California, Irvine, CA 92697-3435</a>
+<A HREF="http://www.ics.uci.edu/~dechter">Dr. Rina Dechter</A>
+
+<A HREF="mailto:dechter_at_ics.uci.edu">dechter at ics.uci.edu</A>
+
+</center></div>
+
+</body>
+

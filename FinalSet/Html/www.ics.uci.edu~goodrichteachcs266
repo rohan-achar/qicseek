@@ -1,0 +1,116 @@
+<head>
+<title> CS 266 - Computational Geometry </title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+
+<center>
+
+<h2> 
+CS 266 - Computational Geometry </h2>
+
+<p>
+Professor: 
+<a href="http://www.ics.uci.edu/~goodrich/">Michael T. Goodrich</a>, 
+DBH 4216
+<br>
+Lectures: MWF 11:00-11:50, SST 220B
+<br>
+Office hours: MW 1:00pm-1:50pm, DBH 4216
+<br>
+(physical/electronic meetings can also be scheduled)
+<br>
+Reader: <a href="http://www.ics.uci.edu/~jsimons/">Joseph Simons</a>
+
+</center>
+
+<ul>
+<li><h3>Course Description:</h3>
+<ul>
+<li>
+Algorithms and data structures for geometric computation and graphics
+programming. Fundamental problems of computational geometry such as
+convex hulls, Voronoi diagrams, Delaunay triangulations, polygon
+partitioning, arrangements, geometric searching, hidden surface
+elimination, motion planning. 
+</ul>
+<li><h3>Announcements:</h3>
+<ul>
+<li>
+First day of instruction: March 28, 2011
+<li>
+Friday, April 1, class will be joining the
+<a
+href="http://www.cs.uci.edu/research/seminarseries/Speakers/Olukotun/profile.php"> CS Seminar</a>
+in DBH 6011.
+<li>
+April 11 and 13, guest lecturer, Darren Strash
+<li>
+April 18 and 20, guest lecturer, Joseph Simons
+<li>
+<b>Midterm Exam,</b> Friday, April 22, 2011, in class.
+Reading: de Berg et al., Chapters 1-4.
+Old midterm exams are available:
+<ul>
+<li>
+<a href="midterm1.pdf">midterm1</a>
+<li>
+<a href="midterm2.pdf">midterm2</a>
+<li>
+<a href="midterm3.pdf">midterm3</a>
+<li>
+<a href="midterm4.pdf">midterm4</a>
+</ul>
+<li>
+May 16, guest lecturer, Lowell Trott
+<li>
+No class, Monday, May 30, 2011, Memorial Day
+<li>
+The lowest score among all the homeworks will be dropped in
+determining the final grade.
+<li>
+<font color="RED"><b>Extra credit</b>:</font> Any student who completes the 
+online course evaluation
+prior to the last day of class will receive 1% of extra credit in
+their final total score.
+<li>
+<b>Final Exam,</b> Tuesday, June 7, 1:30pm-3:30pm.
+In class.
+Reading: de Berg et al., Chapters 1-11, and 15.
+Old final exams are available:
+<ul>
+<li>
+<a href="final.pdf">final1</a>
+<li>
+<a href="final2.pdf">final2</a>
+<li>
+<a href="final3.pdf">final3</a>
+<li>
+<a href="final4.pdf">final4</a>
+</ul>
+</ul>
+<br>
+
+<li> <h3><a href="syll.html"> Course Syllabus</a>.</h3>
+
+<li> <h3><a href="hw/"> Homework Assignments</a>.</h3>
+
+<li> <h3><a href="http://www.ics.uci.edu/~goodrich/teach/cs164/notes/"> 
+Extra Course Notes</a>.</h3>
+
+</ul>
+</h3>
+
+<P>
+<hr>
+<br>
+<ADDRESS>
+<a href="http://www.ics.uci.edu/~goodrich/">
+Michael T. Goodrich</a><BR>
+Department of Computer Science<BR>
+University of California, Irvine<br>
+Irvine, CA 92697-3435 USA<BR>
+</ADDRESS>
+</BODY></HTML>
+

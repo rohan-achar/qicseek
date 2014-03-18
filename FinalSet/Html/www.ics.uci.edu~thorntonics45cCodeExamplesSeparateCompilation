@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC
+ "-//W3C//DTD XHTML 1.1//EN"
+ "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="../../course.css" type="text/css" />
+
+<title>ICS 45C Winter 2014, Code Example: Separate Compilation</title>
+
+</head>
+
+<body>
+
+<div class="navbar">
+
+<p>
+ICS 45C Winter 2014 |
+<a href="../../index.html">News</a> |
+<a href="../../CourseReference.html">Course Reference</a> |
+<a href="../../Schedule.html">Schedule</a> |
+<a href="../../ProjectGuide">Project Guide</a> |
+<a href="../../CodeExamples">Code Examples</a> |
+<a href="http://www.ics.uci.edu/~thornton/">About Alex</a>
+</p>
+
+<hr />
+
+</div>
+
+<div class="header">
+
+<p>ICS 45C Winter 2014<br />
+   Code Example: Separate Compilation</p>
+
+</div>
+
+<div class="section">
+
+<p class="center"><i>The moniker for this code example is <b>SeparateCompilation</b></i></p>
+
+</div>
+
+<div class="section">
+
+<hr />
+
+<p class="title">Background</p>
+
+<p>For the most part, programming in almost any programming language is done by writing the program's text into individual source files.  In lecture, we've seen programs entirely written in a single file called <b>main.cpp</b>; we call these <b>.cpp</b> files <i>source files</i>.  As in any programming language in which programs are written as text files, as C++ programs grow beyond a certain size, it becomes important to be able to split them up into separate source files of a practical size, rather than writing them as one giant source file.  The mechanisms provided for this in C++ require a bit more painstaking effort than what you might be accustomed to from other programming languages, requiring you to more carefully arrange your code and to understand more precisely how the compiler works.</p>
+
+<p>Part of why C++ has a clunkier mechanism for tying the code in separate source files together is due to a certain amount of historical baggage.  In particular, C++ compilers only compile a single source file at a time, with no visibility into other source files &mdash; a reality motivated largely by a distant past in which available memory and processing power were orders of magnitude smaller than they are today.  However, C++ compilers are required to do <i>static type checking</i>, meaning that they verify that all uses of variables, functions, etc., must use the correct types (e.g., only a value compatible with an integer can ever be stored in an <b>int</b> variable.  Where it gets tricky is when the compiler needs to verify the use of something in one source file that's defined in another one, a problem which you'll encounter almost immediately once you write a program with multiple source files.  To understand the mechanism for handling this problem, we need a slightly deeper understanding of how a C++ compiler works.</p>
+
+<p class="subtitle">Declarations and definitions</p>
+
+<p>Broadly, C++ programs are built out of two things: <i>declarations</i> and <i>definitions</i>.  Recall the distinction:</p>
+
+<ul>
+  <li>Declarations allow you to tell the compiler about the existence of something, to give a type to a name.  There are different kinds of declarations &mdash; variable declarations, function declarations, class declarations &mdash; and each has the job of specifying the type that a name has.  Other than a few built-in types, such as <b>int</b> and <b>char</b>, no name can be used in a C++ source file until after the point where it is declared.  (There is a small handful of exceptions to this rule, but it's true for the most part.)</li>
+  <li>Definitions give full meaning to something; they are said to "fully elaborate" the meaning of a name.  Like declarations, there are different kinds of definitions &mdash; variable definitions, function definitions, etc. &mdash; and each has the job of solidifying the meaning of some name.  In the case of a variable, the declaration <i>is</i> the definition, because the declaration includes the type, and the type is sufficient information for the compiler to know how much memory to allocate for it.  (Note, in particular, that the distinction between the declaration and the definition of a variable has nothing to do with whether it's been assigned a value; that's separate, because variables are not required to be initialized.)  In the case of a function, on the other hand, the declaration is the function's signature (i.e., its name, parameters, and return type), while the definition includes its body.</li>
+</ul>
+
+<p class="subtitle">Compilation and linking</p>
+
+<p>Unlike in some programming languages, a C++ program typically needs to be "built" (i.e., an executable version of the program needs to be constructed) before it can be executed.  The process of building a C++ program occurs, broadly, in two phases: <i>compilation</i> and <i>linking</i>.</p>
+
+<ul>
+  <li>Compilation is generally done one source file at a time, with the compiler starting fresh each time, having forgotten everything it knew about other source files.  Part of the job of compilation is type checking, but type checking can only be done if each source file contains a declaration of <i>every</i> name it uses, even those that are defined in other source files.  Each source file is generally compiled into a single <i>object file</i>, which we can think of as being "mostly" machine code, but with certain things left as placeholders &mdash; most especially, uses of things defined in other source files are left out.</li>
+  <li>Linking is the process of taking all of the object files built by the compiler, along with any libraries (the C++ Standard Library or other third-party libraries) required by the program, and stitching them together into a single executable program.  A big part of what linkers do is resolving the placeholders left behind by the compilation process; if <b>a.cpp</b> calls a function defined in <b>b.cpp</b>, it's the linker that replaces an "unresolved" call to that function in a's object file to an actual call to b's function.</li>
+</ul>
+
+<p>Understanding these steps leads us to three rules that we'll need to follow:</p>
+
+<ul>
+  <li>No entity (e.g., a variable, a function, etc.) in C++ can be used in a source file without a <i>declaration</i> for that name appearing in that source file first.  (Remember that a declaration is not the same thing as a definition.)</li>
+  <li>In a particular source file in C++, some kinds of declarations are not allowed to be repeated, though others can be.  (For example, function declarations can be repeated multiple times, but, as we'll see later this quarter, class declarations cannot.)  As a general rule, we're best off preventing multiple declarations of all entities, just to be safe.</li>
+  <li>No entity in C++ can be defined in more than one source file.  This is with good reason.  Suppose that a function <b>f()</b> is defined (i.e., its body appears) in both <b>a.cpp</b> and <b>b.cpp</b>, and that the function is declared and called in <b>c.cpp</b>.  When the linker tries to resolve <b>c.cpp</b>'s call to <b>f()</b>, it won't know whether to resolve it as a call to the version of <b>f()</b> defined in <b>a.cpp</b> or <b>b.cpp</b>, so it will instead trigger a <i>link-time error</i> and the program will fail to build.</li>
+</ul>
+
+<p>As you might expect, a pattern evolved in C++ for dealing with these three rules.  If you follow the pattern, none of these three rules will be violated.</p>
+
+<p class="subtitle">Header and source files</p>
+
+<p>To divide our C++ programs into what you might call "modules" &mdash; separate groupings of closely-related functions, classes, etc. &mdash; we write our code in two kinds of files: <i>header files</i> and <i>source files</i>.</p>
+
+<ul>
+  <li>A <i>source file</i> contains the definitions of everything necessary to implement a module.  If a module is a colection of functions &mdash; say, a collection of mathematical utility functions &mdash; those functions would all be defined in the module's source file.  For reasons we'll see later, each module has only source file.</li>
+  <li>A <i>header file</i> contains the declarations of those entities that are intended to be visible to other modules.  Notably, though, header files <i>do not</i> contain definitions.  So, for example, our module of mathematical utility functions would have a header file that contained the declarations of those utility functions (i.e., their signatures) but not their definitions (i.e., no bodies).  Also, if there were functions in the module that were helpers, but were not intended to be "public" and available to other modules, we would simply leave their declarations out of the header file.  Generally speaking, each module consists of one header file (or none if the module doesn't make anything publicly available to other modules).</li>
+</ul>
+
+<p>Splitting our code up this way might seem like a bit of a burden, but the necessity arises from the rules we specified above.</p>
+
+<ul>
+  <li>Header files contain a set of declarations that would be needed in one source file in order to use the entities defined by another.  This avoids the problem of having to copy and paste the declarations into many source files, which would require cascading changes in many places whenever one of these declarations needed to change (e.g., a parameter is added to a commonly-used function).</li>
+  <li>Header files are <i>included</i> in source files when needed.  If a source file includes a header file, the declarations in that header file become available in the source file.</li>
+  <li>We never write definitions in header files, so that we avoid the problem of creating multiple copies of the same definition (i.e., one in every source file that includes a header file), which can quite easily cause link-time errors.  (As we'll discover later in the quarter, there are exceptions to this rule, but nothing we've seen so far in the course can be multiply-defined.)</li>
+  <li>Because some kinds of declarations are not allowed to be repeated in the same source file, we should prevent the same header file from ever being included more than one in the same source file.  There's a relatively simple pattern that we can use to solve this problem, which we <i>must</i> use in every header file to be safe.</li>
+</ul>
+
+<p class="subtitle">Naming conventions for header and source files</p>
+
+<p>In this course, when we write source files, their names will end in <b>.cpp</b>, while header files will have names that end in <b>.hpp</b>.  Note that this is not the only convention in popular use in the world &mdash; unlike some programming languages, C++ compilers are less finicky about file naming &mdash; but we'll use it, because it (a) establishes a clean distinction between header and source files, and (b) makes clear (with the "pp" on the end, a filesystem-compatible way of saying "++") that the code we're writing is C++ and not C.</p>
+
+</div>
+
+<div class="section">
+
+<hr />
+
+<p class="title">The code</p>
+
+<p>Code examples this quarter will all have an official "moniker," a name that uniquely identifies it and hooks into some automation tools in the ICS 45C VM.  The official moniker of this one is <b>SeparateCompilation</b>.</p>
+
+<p>The complete, commented code for this example can be downloaded by clicking the link to the tarball below:</p>
+
+<ul>
+  <li><a href="SeparateCompilation.tar.gz">SeparateCompilation.tar.gz</a></li>
+</ul>
+
+<p class="subtitle">Downloading code examples for use on the ICS 45C VM</p>
+
+<p>If you want to view, compile, and run the code examples on the ICS 45C VM, I've set up some automated tools to make that job easier.</p>
+
+<p>You will already have a project template called <b>code_example</b>.  Choose a name for your new project, then issue the following commands to start a new project and download the code example into it.</p>
+
+<blockquote><pre>
+ics45c start_project <b><i>YOUR_CHOSEN_PROJECT_NAME</i></b> code_example
+cd ~/projects/<b><i>YOUR_CHOSEN_PROJECT_NAME</i></b>
+./download_code SeparateCompilation
+</pre></blockquote>
+
+<p>Having issued these three commands, the <b>src</b> directory in your new project directory (i.e., <b>~/projects/<i>YOUR_CHOSEN_PROJECT_NAME</i>/src</b>) should contain all of the header and source files that comprise the code example.  You can use the <b>./build</b> and <b>./run</b> scripts, as usual, to compile and run the example program.</p>
+
+</div>
+
+</body>
+</html>
+

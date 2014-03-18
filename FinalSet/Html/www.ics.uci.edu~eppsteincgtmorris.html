@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<hr>
+<pre>
+<b>Newsgroups:</b>     rec.games.chess,rec.games.go,rec.games.abstract
+<b>From:</b>           <a href=
+"mailto:gasser@inf.ethz.ch">gasser@inf.ethz.ch</a> (Ralph Gasser)
+<b>Subject:</b>        Nine Men's Morris is a DRAW
+<b>Organization:</b>   Dept. Informatik, Swiss Federal Institute of Technology (ETH), Zurich, CH
+<b>Date:</b>           Tue, 23 Nov 1993 12:42:10 GMT
+</pre>
+
+<hr>
+<pre>
+The game of Nine Men's Morris (NMM) has been solved. The game is a draw.
+
+As there are different variations of NMM being played, I will first specify
+the rules I used, then give a short summary of how the solution was computed.
+
+RULES
+-----
+
+Nine Men's Morris is played on a board with 24 points where stones may be
+placed.
+
++--------+--------+
+|        |        |
+|  +-----+-----+  |
+|  |     |     |  |
+|  |  +--+--+  |  |
+|  |  |     |  |  |
++--+--+     +--+--+
+|  |  |     |  |  |
+|  |  +--+--+  |  |
+|  |     |     |  |
+|  +-----+-----+  |
+|        |        |
++--------+--------+
+
+Both players start with nine stones each.
+
+The game goes through three phases
+        -  opening phase
+           Players alternately place stones on an empty point.
+        -  midgame phase
+           After all stones are placed, players slide stones to
+           any adjacent vacant point.
+        -  endgame phase
+           When a player has only three stones left, she may
+           jump a stone to any vacant point.
+
+When closing a mill (three-in-a-row), any opponent's stone
+which is not part of a mill may be removed. If all the
+opponent's stones are part of mills, any stone may be removed.
+
+Closing two mills simultaneously (opening phase) only allows
+one of the opponent's stones to be removed.
+
+        -  The first player who has less than three stones loses.
+        -  The first player who cannot make a legal move loses.
+
+HOW IT WAS SOLVED
+-----------------
+
+Retrograde Analysis (well known from Chess) was used to compute
+databases for all mid- and endgame positions (about 10 billion
+different positions). These positions were split into 28
+separate databases characterized by the number of stones on the
+board i.e. all the 3 White stone against 3 Black stone
+positions, the 4-3, 4-4 ... up to 9-9 positions.
+ 
+An 18 ply alpha-beta search for the opening phase then found
+the value of the initial position (the empty board). Only the
+9-9, 9-8 and 8-8 databases were needed to establish that the
+game is a draw.
+
+Ralph Gasser (<a href=
+"mailto:gasser@inf.ethz.ch">gasser@inf.ethz.ch</a>)
+Informatik, ETH
+CH-8092 Zurich
+Switzerland
+</pre>
+
+<hr>
+<pre>
+<b>Newsgroups:</b>     rec.games.abstract
+<b>From:</b>           <a href=
+"mailto:gasser@inf.ethz.ch">gasser@inf.ethz.ch</a> (Ralph Gasser)
+<b>Subject:</b>        Nine Men's Morris: More about the draw
+<b>Organization:</b>   Dept. Informatik, Swiss Federal Institute of Technology (ETH), Zurich, CH
+<b>Date:</b>           Wed, 24 Nov 1993 10:31:38 GMT
+</pre>
+
+<hr>
+<pre>
+I would like to answer some questions that came up regarding
+the solution of Nine Men's Morris.
+
+- How can a draw be reached?
+
+A draw is reached through cyclical play, whereby neither
+player can (or will) close a mill. Note that since the proof
+was obtained using only the 9-9, 9-8 and 8-8 databases, neither
+player need close more than one mill to reach a draw ,thereby
+avoiding a loss with less than three stones.
+
+- What is an optimal opening strategy (for humans)?
+
+I must admit that I have not examined the opening moves
+for any easily describable patterns. 
+However, the examination of mid- and endgame databases
+has repeatedly shown optimal play to be beyond human
+comprehension. Therefore, I very much doubt that any such
+simple-to-describe strategy exists. 
+
+- Is a paper describing these results available?
+
+I am now working on such a paper. I will send a copy to those
+of you who have requested one as soon as it is completed.
+
+There is however a paper describing some initial results
+of the retrograde analysis phase of the project:
+
+Gasser, R., "Applying Retrograde Analysis to Nine Men's 
+Morris", Heuristic Programming in Artificial
+Intelligence 2: the Second Computer Olympiad, Levy, D.N.L.
+and Beal, D.F. (Eds.), pp. 161-173, Ellis Horwood, London.
+
+- Is the program available?
+
+Making the program available is something of a problem 
+because of the databases it uses. In total the databases 
+amount to a few hundred MBytes.
+
+There is of course a program available which plays without
+any database (or with a few small db's). While this program
+cannot claim to be invincible, it plays quite strongly, having
+won a match against the British Champion.
+
+This program was developed under the Smart Game Board and 
+therefore only runs on Macintosh computers. The program
+is shareware and depending on the number of requests, I will
+either make it available via ftp or snail mail.
+
+Ralph Gasser (<a href=
+"mailto:gasser@inf.ethz.ch">gasser@inf.ethz.ch</a>)
+Informatik, ETH
+CH-8092 Zurich
+Switzerland
+</pre>
+
+<hr>
+<pre>
+<b>Newsgroups:</b>     rec.games.abstract
+<b>From:</b>           <a href=
+"mailto:colley@qucis.queensu.ca">colley@qucis.queensu.ca</a> (Paul Colley)
+<b>Subject:</b>        Re: Nine Men's Morris: More about the draw
+<b>Organization:</b>   Computing &amp; Information Science, Queen's University at Kingston
+<b>Date:</b>           Wed, 24 Nov 1993 15:41:54 GMT
+</pre>
+
+<hr>
+<pre>
+In article &lt;1993Nov24.103138.21488@neptune.inf.ethz.ch&gt;
+<a href=
+"mailto:gasser@inf.ethz.ch">gasser@inf.ethz.ch</a> (Ralph Gasser) writes:
+
+&gt;A draw is reached through cyclical play, whereby neither
+&gt;player can (or will) close a mill. Note that since the proof
+&gt;was obtained using only the 9-9, 9-8 and 8-8 databases, neither
+&gt;player need close more than one mill to reach a draw ,thereby
+&gt;avoiding a loss with less than three stones.
+
+This appears to be a mistake.  Er, let me rephrase that.  "The evidence
+supplied does not prove your conclusion."
+
+In building the 9-9 and 9-8 databases, you would have used the smaller
+data bases.  Retrograde analysis starts from the smallest, and works
+up.
+
+Say some position in the 8-7 database is a draw.  Then in the 8-8
+database, a position where the player may close a mill and reduce to
+the drawn 8-7 position gets marked as a draw (assuming there's no
+winning move).
+
+You don't need the 8-7 database in doing the opening search, because
+you don't need to know why the particular 8-8 position is drawn.  This
+is NOT the same thing as
+
+&gt;neither player need close more than one mill to reach a draw
+
+The fact that you didn't need the smaller databases in the opening
+search just means that no player need close more than one mill *DURING
+THE OPENING* to reach a draw.  It doesn't mean the player doesn't need
+to close a mill during the middle or end game.
+
+The correct statement, based on the evidence you give, is "neither
+player need close more than one mill, and only during the opening, to
+reach a book draw."  Well, now that the initial position of NMM is
+solved, we could even say "neither player needs to make a move to reach
+a book draw."  Of course, if your opponent doesn't agree, you still
+have to play out the book draw, and that (may) require the smaller
+databases.  Or may not require the smaller databases.  I have nothing
+to contradict your statement.  I'm just asking for more support.
+
+- Paul Colley
+University:  <a href=
+"mailto:colley@qucis.queensu.ca">colley@qucis.queensu.ca</a>
+Home:        <a href=
+"mailto:pacolley@ember.uucp">pacolley@ember.uucp</a>   watmath!ember!pacolley  +1 613 545 3807
+"Anyone who attempts to generate random numbers by deterministic means is,
+of course, living in a state of sin."  - John von Neumann
+</pre>
+</body>
+</html>
+
+

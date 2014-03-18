@@ -1,0 +1,329 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+    <title>Bibliography | Virtual Collaboration Portal</title>
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/./sites/vcp.ics.uci.edu/modules/avatar_blocks/avatar_blocks.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/cck/theme/content-module.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/ctools/css/ctools.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/custom/multi_google_cse/multi_google_cse.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/date/date.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/dhtml_menu/dhtml_menu.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/fckeditor/fckeditor.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/filefield/filefield.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/gallery/gallery.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/gallery/gallery_filter.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/og/theme/og.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/tagadelic/tagadelic.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/forum/forum.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/biblio/biblio.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/cck/modules/fieldgroup/fieldgroup.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/views/css/views.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/files/color/garland_newvcp-cb8d0b3a/style.css?p" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/vcp.ics.uci.edu/themes/garland-newvcp/print.css?p" />
+    <script type="text/javascript" src="/misc/jquery.js?p"></script>
+<script type="text/javascript" src="/misc/drupal.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/dhtml_menu/dhtml_menu.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/og/og.js?p"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","dhtmlMenu":{"slide":"slide","siblings":"siblings","relativity":"relativity","clone":"clone","doubleclick":"doubleclick","children":0}});
+//--><!]]>
+</script>
+    <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/themes/garland-newvcp/fix-ie.css" />    <![endif]-->
+  </head>
+  <body class="sidebar-left">
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="/" title="Virtual Collaboration Portal"><span>Virtual Collaboration Portal</span></a></h1>        </div>
+
+                  <ul class="links primary-links"><li class="menu-197 first"><a href="/" title="VCP home page">Home</a></li>
+<li class="menu-494"><a href="/og" title="">Groups</a></li>
+<li class="menu-12772 last"><a href="/collaborators">Collaborators</a></li>
+</ul>                                  
+      </div> <!-- /header -->
+
+              <div id="sidebar-left" class="sidebar">
+          <div class="block block-theme"><form action="/biblio?page=9"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-6Y7CedBsmsomeITjNIo3dmH-TuEO6OOuFMl1m4hcWUA" value="form-6Y7CedBsmsomeITjNIo3dmH-TuEO6OOuFMl1m4hcWUA"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+</div>          <div id="block-user-1" class="clear-block block block-user">
+
+  <h2>Navigation</h2>
+
+  <div class="content"><ul class="menu"><li class="expanded first dhtml-menu  active-trail"><a href="/biblio" id="dhtml_menu-5079" class="active">Bibliography</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/biblio/authors" id="dhtml_menu-12779">Authors</a></li>
+<li class="leaf last dhtml-menu "><a href="/biblio/keywords" id="dhtml_menu-12792">Keywords</a></li>
+</ul></li>
+<li class="leaf  dhtml-menu "><a href="/readinglist/year" id="dhtml_menu-5761">Reading Lists</a></li>
+<li class="leaf  dhtml-menu "><a href="/weblinks" id="dhtml_menu-3412">Web Links</a></li>
+<li class="leaf  dhtml-menu "><a href="/gallery" title="Visit your embedded Gallery2." id="dhtml_menu-3237">Gallery</a></li>
+<li class="leaf  dhtml-menu "><a href="/tracker" id="dhtml_menu-119">Recent posts</a></li>
+<li class="leaf last dhtml-menu "><a href="/content/acknowledgements" title="Acknowledgements" id="dhtml_menu-11419">Acknowledgements</a></li>
+</ul></div>
+</div>
+<div id="block-user-0" class="clear-block block block-user">
+
+  <h2>User login</h2>
+
+  <div class="content"><form action="/biblio?destination=biblio%3Fpage%3D9"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
+<div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-Tq3IcGHmcOT1qX8j1FP6FsmYyVrWJQnwZcV5PCKjPVA" value="form-Tq3IcGHmcOT1qX8j1FP6FsmYyVrWJQnwZcV5PCKjPVA"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+</div>
+</div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="/">Home</a></div>                              <h2>Bibliography</h2>                                                  <div class="clear-block">
+            <div id="biblio-header" class="clear-block"><div class="biblio-export">Found 375 results</div><br /></div>
+<div class="biblio-separator-bar">2005</div>
+
+<div class ="biblio-category-section">
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/269">Good, N.</a>, <a href="/biblio/author/309">R. Dhamija</a>, <a href="/biblio/author/270">J. Grossklags</a>, <a href="/biblio/author/306">D. Thaw</a>, <a href="/biblio/author/310">S. Aronowitz</a>, <a href="/biblio/author/271">D. Mulligan</a>, and <a href="/biblio/author/278">J. Konstan</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/stopping-spyware-gate-user-study-privacy-notice-and-spyware">Stopping spyware at the gate: a user study of privacy, notice and spyware</a>&quot;, </span> 
+<i>2005 Symposium on Usable Privacy and Security</i>, Pittsburgh, PA, Association for Computing Machinery, pp. 43-52, 07/2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Stopping+spyware+at+the+gate%3A+a+user+study+of+privacy%2C+notice+and+spyware&amp;rft.isbn=1-59593-178-3+&amp;rft.date=2005&amp;rft.spage=43&amp;rft.epage=52&amp;rft.aulast=Good&amp;rft.auinit=N&amp;rft.pub=Association+for+Computing+Machinery&amp;rft.place=Pittsburgh%2C+PA"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/125" class="biblio-local-author">Scacchi, W.</a>, and <a href="/biblio/author/147">C. Jensen</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/modeling-recruitment-and-role-migration-processes-ossd-projects-2">Modeling Recruitment and Role Migration Processes in OSSD Projects</a>&quot;, </span> 
+<i>6th International Workshop on Software Process Simulation and Modeling</i>, St. Louis, MO, 05.2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Modeling+Recruitment+and+Role+Migration+Processes+in+OSSD+Projects&amp;rft.date=2005&amp;rft.aulast=Scacchi&amp;rft.aufirst=Walt&amp;rft.place=St.+Louis%2C+MO"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/87">Georgas, J. C.</a>, <a href="/biblio/author/40">A. van der Hoek</a>, and <a href="/biblio/author/28" class="biblio-local-author">R. N. Taylor</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/architectural-runtime-configuration-management-support-dependable-self-adaptive-software-0">Architectural Runtime Configuration Management in Support of Dependable Self-Adaptive Software</a>&quot;, </span> 
+<i>Workshop on Architecting Dependable Systems (WADS &#039;05), in conjunction with ICSE 2005</i>, St. Louis, MO, pp. 48–53, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Architectural+Runtime+Configuration+Management+in+Support+of+Dependable+Self-Adaptive+Software&amp;rft.date=2005&amp;rft.spage=48%E2%80%9353&amp;rft.aulast=Georgas&amp;rft.aufirst=John&amp;rft.place=St.+Louis%2C+MO"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/311">Kwan, S. K.</a>, and <a href="/biblio/author/258">J. West</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/conceptual-model-enterprise-adoption-open-source-software">A Conceptual Model for Enterprise Adoption of Open Source Software</a>&quot;, </span> 
+<i>The Standards Edge: Open Season</i>, Ann Arbor, Mich., Sheridan Books, pp. 51-62, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.atitle=A+Conceptual+Model+for+Enterprise+Adoption+of+Open+Source+Software&amp;rft.title=The+Standards+Edge%3A+Open+Season&amp;rft.btitle=The+Standards+Edge%3A+Open+Season&amp;rft.date=2005&amp;rft.spage=51&amp;rft.epage=62&amp;rft.aulast=Kwan&amp;rft.aufirst=Stephen&amp;rft.pub=Sheridan+Books&amp;rft.place=Ann+Arbor%2C+Mich."></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/313">Harper, F. M.</a>, <a href="/biblio/author/276">X. Li</a>, <a href="/biblio/author/277">Y. Chen</a>, and <a href="/biblio/author/248">J. A. Konstan</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/economic-model-user-rating-online-recommender-system">An Economic Model of User Rating in an Online Recommender System</a>&quot;, </span> 
+<i>10th International Conference on User Modeling</i>, Edinburgh, UK, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=An+Economic+Model+of+User+Rating+in+an+Online+Recommender+System&amp;rft.date=2005&amp;rft.aulast=Harper&amp;rft.auinit=F+M&amp;rft.place=Edinburgh%2C+UK"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/300">Cosley, D.</a>, <a href="/biblio/author/273">D. Frankowski</a>, <a href="/biblio/author/275">S. Kiesler</a>, <a href="/biblio/author/217">L. Terveen</a>, and <a href="/biblio/author/224">J. Riedl</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/how-oversight-improves-member-maintained-communities">How Oversight Improves Member-Maintained Communities</a>&quot;, </span> 
+<i>ACM SIGCHI Conference on Human Factors in Computing Systems</i>, Portland OR, ACM, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=How+Oversight+Improves+Member-Maintained+Communities&amp;rft.date=2005&amp;rft.aulast=Cosley&amp;rft.auinit=D&amp;rft.pub=ACM&amp;rft.place=Portland+OR"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/314">Kapoor, N.</a>, <a href="/biblio/author/248">J. A. Konstan</a>, and <a href="/biblio/author/315">L. G. Terveen</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/how-peer-photos-influence-member-participation-online-communities">How Peer Photos Influence Member Participation in Online Communities</a>&quot;, </span> 
+<i>ACM SIGCHI Conference on Human Factors in Computing Systems</i>, Portland, OR, ACM, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=How+Peer+Photos+Influence+Member+Participation+in+Online+Communities&amp;rft.date=2005&amp;rft.aulast=Kapoor&amp;rft.auinit=N&amp;rft.pub=ACM&amp;rft.place=Portland%2C+OR"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/76">Ren, J.</a>, and <a href="/biblio/author/28" class="biblio-local-author">R. N. Taylor</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/secure-software-architecture-description-language-0">A Secure Software Architecture Description Language</a>&quot;, </span> 
+<i>Workshop on Software Security Assurance Tools, Techniques, and Metrics, Co-located with the 20th IEEE/ACM International Conference on Automated Software Engineering (ASE 2005)</i>, Long Beach, CA, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=A+Secure+Software+Architecture+Description+Language&amp;rft.date=2005&amp;rft.aulast=Ren&amp;rft.aufirst=Jie&amp;rft.place=Long+Beach%2C+CA"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/125" class="biblio-local-author">Scacchi, W.</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/socio-technical-interaction-networks-freeopen-source-software-development-processes-0">Socio-Technical Interaction Networks in Free/Open Source Software Development Processes</a>&quot;, </span> 
+<i>Software Process Modeling</i>, New York, Springer Science+Business Media Inc., pp. 1-27, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.atitle=Socio-Technical+Interaction+Networks+in+Free%2FOpen+Source+Software+Development+Processes&amp;rft.title=Software+Process+Modeling&amp;rft.btitle=Software+Process+Modeling&amp;rft.date=2005&amp;rft.spage=1&amp;rft.epage=27&amp;rft.aulast=Scacchi&amp;rft.aufirst=Walt&amp;rft.pub=Springer+Science%2BBusiness+Media+Inc.&amp;rft.place=New+York"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/125" class="biblio-local-author">Scacchi, W.</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/socio-technical-interaction-networks-freeopen-source-software-development-processes-1">Socio-Technical Interaction Networks in Free/Open Source Software Development Processes</a>&quot;, </span> 
+<i>Software Process Modeling</i>, New York, Springer Science+Business Media Inc., pp. 1-27, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.atitle=Socio-Technical+Interaction+Networks+in+Free%2FOpen+Source+Software+Development+Processes&amp;rft.title=Software+Process+Modeling&amp;rft.btitle=Software+Process+Modeling&amp;rft.date=2005&amp;rft.spage=1&amp;rft.epage=27&amp;rft.aulast=Scacchi&amp;rft.aufirst=Walt&amp;rft.pub=Springer+Science%2BBusiness+Media+Inc.&amp;rft.place=New+York"></span>
+</div></div>
+</div><!-- end category-section -->
+<div class="biblio-separator-bar">2004</div>
+
+<div class ="biblio-category-section">
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/87">Georgas, J. C.</a>, and <a href="/biblio/author/28" class="biblio-local-author">R. N. Taylor</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/towards-knowledge-based-approach-architectural-adaptation-management-0">Towards a Knowledge-based Approach to Architectural Adaptation Management</a>&quot;, </span> 
+<i>1st ACM SIGSOFT Workshop on Self-managed Systems (WOSS &#039;04)</i>, Newport Beach, CA, ACM Press, pp. 59-63, October, 2004.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Towards+a+Knowledge-based+Approach+to+Architectural+Adaptation+Management&amp;rft.date=2004&amp;rft.spage=59&amp;rft.epage=63&amp;rft.aulast=Georgas&amp;rft.aufirst=John&amp;rft.pub=ACM+Press&amp;rft.place=Newport+Beach%2C+CA"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/76">Ren, J.</a>, and <a href="/biblio/author/28" class="biblio-local-author">R. N. Taylor</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/utilizing-commercial-object-libraries-within-loosely-coupled-event-based-systems-0">Utilizing Commercial Object Libraries within Loosely-coupled, Event-based Systems</a>&quot;, </span> 
+<i>IASTED International Conference on Software Engineering and Applications (SEA 2004)</i>, Cambridge, MA, November 9-11, 2004.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Utilizing+Commercial+Object+Libraries+within+Loosely-coupled%2C+Event-based+Systems&amp;rft.date=2004&amp;rft.aulast=Ren&amp;rft.aufirst=Jie&amp;rft.place=Cambridge%2C+MA"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/28" class="biblio-local-author">Taylor, R. N.</a>, and <a href="/biblio/author/89">M. B. Dwyer</a>, </span> 
+<span class="biblio-title"><i><a href="/content/proceedings-12th-acm-sigsoft-twelfth-international-symposium-foundations-software-engineeri-0">Proceedings of the 12th ACM SIGSOFT Twelfth International Symposium on Foundations of Software Engineering</a>, </i></span> 
+, New York, NY, ACM Press, pp. 274, November 2004.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Proceedings+of+the+12th+ACM+SIGSOFT+Twelfth+International+Symposium+on+Foundations+of+Software+Engineering&amp;rft.date=2004&amp;rft.spage=274&amp;rft.aulast=Taylor&amp;rft.aufirst=Richard&amp;rft.pub=ACM+Press&amp;rft.place=New+York%2C+NY"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/147">Jensen, C.</a>, and <a href="/biblio/author/125" class="biblio-local-author">W. Scacchi</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/collaboration-leadership-control-and-conflict-negotiation-netbeansorg-community-0">Collaboration, Leadership, Control, and Conflict Negotiation in the NetBeans.org Community</a>&quot;, </span> 
+<i>4th. Workshop on Open Source Software Engineering</i>, Edinburgh, Scotland, UK, May 25, 2004.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Collaboration%2C+Leadership%2C+Control%2C+and+Conflict+Negotiation+in+the+NetBeans.org+Community&amp;rft.date=2004&amp;rft.aulast=Jensen&amp;rft.aufirst=Chris&amp;rft.place=Edinburgh%2C+Scotland%2C+UK"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/147">Jensen, C.</a>, and <a href="/biblio/author/125" class="biblio-local-author">W. Scacchi</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/collaboration-leadership-control-and-conflict-negotiation-netbeansorg-community-1">Collaboration, Leadership, Control, and Conflict Negotiation in the NetBeans.org Community</a>&quot;, </span> 
+<i>4th. Workshop on Open Source Software Engineering</i>, Edinburgh, Scotland, UK, May 25, 2004.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Collaboration%2C+Leadership%2C+Control%2C+and+Conflict+Negotiation+in+the+NetBeans.org+Community&amp;rft.date=2004&amp;rft.aulast=Jensen&amp;rft.aufirst=Chris&amp;rft.place=Edinburgh%2C+Scotland%2C+UK"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/147">Jensen, C.</a>, and <a href="/biblio/author/125" class="biblio-local-author">W. Scacchi</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/process-modeling-across-web-information-infrastructure-1">Process Modeling Across the Web Information Infrastructure</a>&quot;, </span> 
+<i>5th. Intern. Workshop on Software Process Simulation and Modeling (ProSIM), in conjunction with ICSE 2004</i>, Edinburgh, Scotland, UK, May 24-25, 2004.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Process+Modeling+Across+the+Web+Information+Infrastructure&amp;rft.date=2004&amp;rft.aulast=Jensen&amp;rft.aufirst=Chris&amp;rft.place=Edinburgh%2C+Scotland%2C+UK"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/147">Jensen, C.</a>, and <a href="/biblio/author/125" class="biblio-local-author">W. Scacchi</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/data-mining-software-process-discovery-open-source-software-development-communities-0">Data Mining for Software Process Discovery in Open Source Software Development Communities</a>&quot;, </span> 
+<i>Proc. Workshop on Mining Software Repositories, in conjunction with ICSE 2004</i>, Edinburgh, Scotland, UK, May, 2004.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Data+Mining+for+Software+Process+Discovery+in+Open+Source+Software+Development+Communities&amp;rft.date=2004&amp;rft.aulast=Jensen&amp;rft.aufirst=Chris&amp;rft.place=Edinburgh%2C+Scotland%2C+UK"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/147">Jensen, C.</a>, and <a href="/biblio/author/125" class="biblio-local-author">W. Scacchi</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/data-mining-software-process-discovery-open-source-software-development-communities-1">Data Mining for Software Process Discovery in Open Source Software Development Communities</a>&quot;, </span> 
+<i>Proc. Workshop on Mining Software Repositories, in conjunction with ICSE 2004</i>, Edinburgh, Scotland, UK, May, 2004.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Data+Mining+for+Software+Process+Discovery+in+Open+Source+Software+Development+Communities&amp;rft.date=2004&amp;rft.aulast=Jensen&amp;rft.aufirst=Chris&amp;rft.place=Edinburgh%2C+Scotland%2C+UK"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/31">Khare, R.</a>, and <a href="/biblio/author/28" class="biblio-local-author">R. N. Taylor</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/extending-representational-state-transfer-architectural-style-decentralized-systems-0">Extending the REpresentational State Transfer Architectural Style for Decentralized Systems</a>&quot;, </span> 
+<i>26th International Conference on Software Engineering (ICSE 2004)</i>, Edinburgh, Scotland, UK, May, 2004.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Extending+the+REpresentational+State+Transfer+Architectural+Style+for+Decentralized+Systems&amp;rft.date=2004&amp;rft.aulast=Khare&amp;rft.aufirst=Rohit&amp;rft.place=Edinburgh%2C+Scotland%2C+UK"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/76">Ren, J.</a>, and <a href="/biblio/author/28" class="biblio-local-author">R. N. Taylor</a>, </span> 
+<span class="biblio-title"><i><a href="/content/automatic-and-generic-framework-ranking-research-institutions-and-scholars-based-publicatio-0">An Automatic and Generic Framework for Ranking Research Institutions and Scholars based on Publications</a>, </i></span> 
+: Institute for Software Research, University of California, Irvine, June, 2004.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=An+Automatic+and+Generic+Framework+for+Ranking+Research+Institutions+and+Scholars+based+on+Publications&amp;rft.isbn=UCI-ISR-04-5&amp;rft.date=2004&amp;rft.aulast=Ren&amp;rft.aufirst=Jie&amp;rft.pub=Institute+for+Software+Research%2C+University+of+California%2C+Irvine"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/41">Suryanarayana, G.</a>, <a href="/biblio/author/75">J. R. Erenkrantz</a>, <a href="/biblio/author/54">S. A. Hendrickson</a>, and <a href="/biblio/author/28" class="biblio-local-author">R. N. Taylor</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/pace-architectural-style-trust-management-decentralized-applications-2">PACE: An Architectural Style for Trust Management in Decentralized Applications</a>&quot;, </span> 
+<i>4th Working IEEE/IFIP Conference on Software Architecture</i>, Oslo, Norway, pp. 221-230, June, 2004.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=PACE%3A+An+Architectural+Style+for+Trust+Management+in+Decentralized+Applications&amp;rft.date=2004&amp;rft.spage=221&amp;rft.epage=230&amp;rft.aulast=Suryanarayana&amp;rft.aufirst=Girish&amp;rft.place=Oslo%2C+Norway"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/41">Suryanarayana, G.</a>, and <a href="/biblio/author/28" class="biblio-local-author">R. N. Taylor</a>, </span> 
+<span class="biblio-title"><i><a href="/content/survey-trust-management-and-resource-discovery-technologies-peer-peer-applications-0">A Survey of Trust Management and Resource Discovery Technologies in Peer-to-Peer Applications</a>, </i></span> 
+: Institute for Software Research, University of California, Irvine, July, 2004.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=A+Survey+of+Trust+Management+and+Resource+Discovery+Technologies+in+Peer-to-Peer+Applications&amp;rft.isbn=UCI-ISR-04-6&amp;rft.date=2004&amp;rft.aulast=Suryanarayana&amp;rft.aufirst=Girish&amp;rft.pub=Institute+for+Software+Research%2C+University+of+California%2C+Irvine"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/125" class="biblio-local-author">Scacchi, W.</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/freeopen-source-software-development-practices-computer-game-community-0">Free/Open Source Software Development Practices in the Computer Game Community</a>&quot;, </span> 
+<i>IEEE Software</i>, vol. 21, no. 1, pp. 59-67, January/February, 2004.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.atitle=Free%2FOpen+Source+Software+Development+Practices+in+the+Computer+Game+Community&amp;rft.title=IEEE+Software&amp;rft.date=2004&amp;rft.volume=21&amp;rft.spage=59&amp;rft.epage=67&amp;rft.aulast=Scacchi&amp;rft.aufirst=Walt"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/125" class="biblio-local-author">Scacchi, W.</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/freeopen-source-software-development-practices-computer-game-community-1">Free/Open Source Software Development Practices in the Computer Game Community</a>&quot;, </span> 
+<i>IEEE Software</i>, vol. 21, no. 1, pp. 59-67, January/February, 2004.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.atitle=Free%2FOpen+Source+Software+Development+Practices+in+the+Computer+Game+Community&amp;rft.title=IEEE+Software&amp;rft.date=2004&amp;rft.volume=21&amp;rft.spage=59&amp;rft.epage=67&amp;rft.aulast=Scacchi&amp;rft.aufirst=Walt"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/154">Elliott, M.</a>, and <a href="/biblio/author/125" class="biblio-local-author">W. Scacchi</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/free-software-development-cooperation-and-conflict-virtual-organizational-culture-0">Free Software Development: Cooperation and Conflict in a Virtual Organizational Culture</a>&quot;, </span> 
+<i>Free/Open Source Software Development</i>, Hershey, PA, IDEA Press, pp. 152-172, 2004.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.atitle=Free+Software+Development%3A+Cooperation+and+Conflict+in+a+Virtual+Organizational+Culture&amp;rft.title=Free%2FOpen+Source+Software+Development&amp;rft.btitle=Free%2FOpen+Source+Software+Development&amp;rft.date=2004&amp;rft.spage=152&amp;rft.epage=172&amp;rft.aulast=Elliott&amp;rft.aufirst=Margaret&amp;rft.pub=IDEA+Press&amp;rft.place=Hershey%2C+PA"></span>
+</div></div></div><!-- end category-section --><div class="item-list"><ul class="pager"><li class="pager-first first"><a href="/biblio" title="Go to first page" class="active">« first</a></li>
+<li class="pager-previous"><a href="/biblio?page=8" title="Go to previous page" class="active">‹ previous</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-item"><a href="/biblio?page=5" title="Go to page 6" class="active">6</a></li>
+<li class="pager-item"><a href="/biblio?page=6" title="Go to page 7" class="active">7</a></li>
+<li class="pager-item"><a href="/biblio?page=7" title="Go to page 8" class="active">8</a></li>
+<li class="pager-item"><a href="/biblio?page=8" title="Go to page 9" class="active">9</a></li>
+<li class="pager-current">10</li>
+<li class="pager-item"><a href="/biblio?page=10" title="Go to page 11" class="active">11</a></li>
+<li class="pager-item"><a href="/biblio?page=11" title="Go to page 12" class="active">12</a></li>
+<li class="pager-item"><a href="/biblio?page=12" title="Go to page 13" class="active">13</a></li>
+<li class="pager-item"><a href="/biblio?page=13" title="Go to page 14" class="active">14</a></li>
+<li class="pager-next"><a href="/biblio?page=10" title="Go to next page" class="active">next ›</a></li>
+<li class="pager-last last"><a href="/biblio?page=14" title="Go to last page" class="active">last »</a></li>
+</ul></div>          </div>
+                    <div id="footer"></div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+  <script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/custom/multi_google_cse/multi_google_cse.js?p"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"en"}});
+//--><!]]>
+</script>
+  </body>
+</html>
+

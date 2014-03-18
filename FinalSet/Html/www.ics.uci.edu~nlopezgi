@@ -1,0 +1,194 @@
+<html>
+<head>
+	<title>Nicolas Lopez-Giraldo</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+
+
+</head>
+
+<body>
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+      <tr>
+        <td>
+	 	<a href="index.html" title="home">home</a> |  |
+	   	<a href="publications.html" title="publications">publications</a> |
+		<a href="teaching.html" title="teaching">teaching</a> |
+	 	</td>
+	    <td align="right">
+   	   	<a href="mailto:nlopezgi@uci.edu" class="title">Nicolas Lopez-Giraldo</a>
+  	    </td>
+      </tr>
+    </table>
+
+<div align="center">
+<table border="0" cellpadding="0" cellspacing="0" width="760" id="main">
+<tr><td colspan="2" id="top"><div class="header">Nicolas Lopez-Giraldo</div></td>
+<td><img src="ni-lopez.jpg" class="media" alt="" /></td>
+</tr>
+<tr>
+	<td width="800" id="left" valign="top">
+
+		<div class="title">About Me</div>
+		<div class="text">I am a Ph.D. candidate working for the <a href="http://sdcl.ics.uci.edu/">Software Design and Collaboration Laboratory</a> at the <a href="http://www.uci.edu">University of California, Irvine</a> in the <a href="http://www.ics.uci.edu">Donald Bren School of Information and Computer Science</a> with a concentration on <a href="http://www.ics.uci.edu/informatics/">Informatics -  Software Engineering Track</a>. I have been awarded a Fulbright Scholarship and an ICS Fellowship to pursue my Ph.D. Degree. My advisor is <a href="http://www.ics.uci.edu/~andre/">Andr&eacute; van der Hoek</a> and my research areas are Software Engineering and Software Design.
+
+		I have experience working as software engineer at Google and IBM, building infrastructure for world-class applications including Google Analytics and IBM Rational Jazz.
+		<p>
+		Before I started my PhD I was Instructor (Junior Faculty) at <a href="http://www.uniandes.edu.co/"> University of Los Andes</a> in Bogota, Colombia as part of the Software Construction group. I also was in charge of leading small development groups implementing support tools for several development and learning processes during this 4 year period. </div>
+
+		<div class="title">Research</div>
+		<div class="text">
+		Software engineering; development tools; program comprehension; mining software repositories; concern-oriented software engineering; topic modeling for understanding software evolution.
+		</div>
+
+
+		<div class="title">Awards and Honors</div>
+		<div class="text">
+		<table border="0" cellpadding="5" cellspacing="0" class="info">
+		<tr><td align="right"><b>2014 </b></td><td> Awarded a Miguel Velez Fellowship for Spring 2014, University of California Office of the President</td></tr>
+
+		<tr><td align="right"><b>2011 </b></td><td> Awarded a Miguel Velez Fellowship for Winter 2011, University of California Office of the President</td></tr>
+
+		<tr><td align="right"><b>2009 </b></td><td> Awarded a 3 year ICS Fellowship from the Donald Bren School of Information and Computer Sciences at UC Irvine</td></tr>
+
+		<tr><td align="right"><b>2008</b></td><td> Awarded Fulbright Scholarship to pursue a Ph.D. in Software Engineering- Fulbright-Colciencias-DNP program </td></tr>
+
+		</table>
+		</div>
+
+
+
+
+
+		<div class="title">News</div>
+
+
+		<div class="text">
+		<table border="0" cellpadding="5" cellspacing="0" class="info">
+		<tr><td align="right"><b>Fall 2013:</b></td><td> I have successfully defended my dissertation topic proposal, only one more milestone in my PhD left.</td></tr>
+		<tr><td align="right"><b>Summer 2013:</b></td><td> I will be working during the summer as Sotware Research Intern at Google Irvine.</td></tr>
+		<tr><td align="right"><b>Spring 2013:</b></td><td> I have been invited to participate in the <a href="http://www.fulbright.edu.co">Fulbright Colombia</a> academic evaluation committee! I will be providing feedback on the selection of candidates for this year's Fulbright Colombia scholarship program.</td></tr>
+		<tr><td align="right"><b>Spring 2013:</b></td><td> I attended ICSE 2013 in San Francisco.</td></tr>
+		<tr><td align="right"><b>Spring 2013:</b></td><td> My paper <a href="unpublished/dsfse13_nlopezgi.pdf">"Using topic models to understand the evolution of a software ecosystem"</a> has been accepted for presentation at the <a href="http://esec-fse.inf.ethz.ch/">FSE Doctoral Symposium </a></td></tr>
+		<tr><td align="right"><b>Summer 2012:</b></td><td> I'm working during the summer as Sotware Research Intern at Google Irvine.</td></tr>
+		<tr><td align="right"><b>Spring 2012:</b></td><td> Advanced to candidacy. I presented a survey on Concern Oriented Software Development. Check out the unpublished <a href="unpublished/COSD-surveyPaper-FINAL-nlopez.pdf" title="COSD survey">paper</a> and the <a href="unpublished/COSD presentation.pdf" title="COSD survey presentation">presentation</a>.</td></tr>
+		<tr><td align="right"><b>Fall 2011:</b></td><td> I am now moderating and adminstrating the SEWORLD mailing list with my colleagues at the SDCL. The SDCL is now in charge of the ACM SIGSOFT SEWORLD mailing list. The mailing list, started over 15 years ago at the University of Colorado at Boulder, serves the Software Engineering community through the dissemination of time-sensitive information relevant to the field of software engineering research (<a href="http://www.sigsoft.org/seworld/">http://www.sigsoft.org/seworld/</a>). We are very exited to be able to support the Software Engineering community in this role!</td></tr>
+		<tr><td align="right"><b>Summer 2011:</b></td><td> I'm working during the summer as Software Research Intern at Google Irvine.</td></tr>
+		<tr><td align="right"><b>Spring 2011:</b></td><td> I will be helping as session chair for the <a href="http://2011.icse-conferences.org/content/seip-software-metrics">Software Engineering in Practice (SIEP) Track: Software Metrics<a> at ICSE 2011</td></tr>
+		<tr><td align="right"><b>Spring 2011:</b></td><td> I will be attending ICSE 2011! See you in Hawaii!!</td></tr>
+		<tr><td align="right"><b>Winter 2011:</b></td><td> My paper "The Code Orb - Supporting Contextualized Coding via At-a-Glance Views (NIER Track)" was accepted for ICSE 2011 (New Ideas and Emerging Results Track)</a></td></tr>
+		<tr><td align="right"><b>Winter 2011:</b></td><td> I participated as student volunteer for <a href="http://aosd.net/2011"> AOSD 2011 </a></td></tr>
+		<tr><td align="right"><b>Winter 2011:</b></td><td> I am co-author of the <a href="http://aosd.net/2011/keynotes.html#ms">Modularity Visions Keynote paper at AOSD 2011 </a></td></tr>
+		<tr><td align="right"><b>Winter 2011:</b></td><td> I am PC member for two ICSE workshops: <a href="http://www.ics.uci.edu/~nlopezgi/flexitoolsICSE2011/contact.html">ICSE 2011 Workshop on Flexible Modeling Tools </a> and <a href="http://www.s-cube-network.eu/pesos-2011">PESOS 2011 - 3rd International Workshop on Principles of Engineering Service-Oriented Systems </a></td></tr>
+		<tr><td align="right"><b>Winter 2011:</b></td><td> I have been awarded a Miguel Velez Fellowship!</td></tr>
+		<tr><td align="right"><b>Winter 2011:</b></td><td> This quarter I'm lecturer of the <a href="teaching/informatics122w2011.html">Software Design II </a> class for undergraduate students here at UCI!</td></tr>
+		<tr><td align="right"><b>Fall 2010:</b></td><td> I presented our paper <a href="http://portal.acm.org/citation.cfm?id=1882408">"An Agenda for Concern-Oriented Software Engineering"</a> at the <a href="http://fse18.cse.wustl.edu/foserprogram.html">FSE/SDP workshop on Future of software engineering research</a>. I also participated as student volunteer at <a href="http://fse18.cse.wustl.edu/">FSE 18</a> in NM, USA, Nov. 2010. </td></tr>
+		<tr><td align="right"><b>Fall 2010:</b></td><td> I participated as chair of session 1 at <a href="http://www.ics.uci.edu/~nlopezgi/flexitools/index.html">SPLASH 2010 Workshop on Flexible Modeling Tools </a></td></tr>
+		<tr><td align="right"><b>Fall 2010:</b></td><td> Our paper "An Agenda for Concern-Oriented Software Engineering" was accepted for the <a href="http://fse18.cse.wustl.edu/foserprogram.html">FSE/SDP Workshop on the Future of Software Engineering Research </a></td></tr>
+		<tr><td align="right"><b>Summer 2010:</b></td><td> I have been selected as student volutneer for the <a href="http://fse18.cse.wustl.edu/">18th International symposium on Foundations of Software Engineering - FSE 2010, Santa Fe, NM. November 7-8 2010 </a></td></tr>
+		<tr><td align="right"><b>Summer 2010:</b></td><td>I'm working during the summer as Research Intern at the <a href="http://www.watson.ibm.com/index.shtml"> IBM TJ Watson Research Center</a> with Harold Ossher.</td></tr>
+
+		<tr><td align="right"><b>March 2010:</b></td><td>I passed my <a href="http://www.isr.uci.edu/Software/phaseII_reading_list.html">phase 2 </a> exam!! One step closer to candidacy.</td></tr>
+
+		</table>
+		</div>
+
+		<div class="title">Contact</div>
+		<div class="level1">
+		<ul>
+		<li class="level1"><div class="li"> Home Page: <a href="http://www.ics.uci.edu/~nlopezgi/">http://www.ics.uci.edu/~nlopezgi/</a></div>
+		</li>
+		</ul>
+		<ul>
+			<li class="level1"><div class="li"> Linked in: <a href="http://www.linkedin.com/in/nlopezgi/">http://www.linkedin.com/in/nlopezgi/</a></div>
+			</li>
+		</ul>
+		<ul>
+			<li class="level1"><div class="li"> Academia.edu: <a href="http://uci.academia.edu/NicolasLopez">http://uci.academia.edu/NicolasLopez</a></div>
+			</li>
+		</ul>
+		<ul>
+		<li class="level1"><div class="li"> GitHub: <a href="https://github.com/nlopezgi" class="urlextern" title="https://github.com/nlopezgi" rel="nofollow">https://github.com/nlopezgi</a></div>
+		</li>
+		</ul>
+
+		<ul>
+		<li class="level1"><div class="li"> E-Mail: <a href="mailto:nlopezgi@uci.edu" class="mail JSnocheck" title="nlopezgi@uci.edu">nlopezgi@uci.edu</a></div>
+		</li>
+		</ul>
+
+		<ul>
+		<li class="level1"><div class="li"> E-Mail(alternate): <a href="mailto:ni-lopez@uniandes.edu.co" class="mail JSnocheck" title="ni-lopez@uniandes.edu.co">ni-lopez@uniandes.edu.co</a></div>
+
+		</li>
+		</ul>
+		<ul>
+		<li class="level1"><div class="li"> Phone: (949) 291 1243 (USA)</div>
+		</li>
+		</ul>
+		<ul>
+		<li class="level1"><div class="li"> Address: 4747 Hazelbrook ave, Long Beach, CA 90808</div>
+		</li>
+		</ul>
+		<ul>
+		<li class="level1"><div class="li"> Address (in COLOMBIA): <br>
+		 Carrera 18 No 92 - 22 APT 402  Bogota, (Colombia) </div>
+
+		</li>
+		</ul>
+		<ul>
+					<li class="level1"><div class="li"> <a href="NicolasLopez_CV.pdf">CV</a></div>
+					</li>
+		</ul>
+
+		</div>
+
+		<div class="title">Teaching</div>
+		<div class="text">
+		<table border="0" cellpadding="5" cellspacing="0" class="info">
+		<tr><td align="right"><b>Winter 2011:</b></td><td> Lecturer for <a href="teaching/informatics122w2011.html"> INF 122 - Software Design II </a></td></tr>
+
+		<tr><td align="right"><b>Fall 2009:</b></td><td> I was Reader for INF 153 - Computer Supported Collaborative Work this quarter. <a href="https://eee.uci.edu/09f/37080 "> Course webpage </a></td></tr>
+
+		<tr><td align="right"><b>Fall 2005-Spring 2009:</b></td><td> I was Junior Faculty (A.K.A Instructor) at University of Los Andes in Bogota Colombia. I was lecturer for the Software Architecture course for undergraduate students 7 semesters, lecturer for the Software Engineering course for undergraduate students 3 semesters and lecturer for the basic programming course (Algorithmics and Object Oriented Programming) 4 semesters. For more info on my previous work see <a href="http://xue.uniandes.edu.co/%7Eni-lopez"> my old webpage </a>.</td></tr>
+
+		</table>
+		</div>
+		<div class="title">Classes</div>
+		<div class="text">
+		<table border="0" cellpadding="5" cellspacing="0" class="info">
+		<tr><td align="right"><b>Spring 2011:</b></td><td><a href="http://www.ics.uci.edu/~andre/informatics223s2011.html"> INF 223: Applied Software Design Techniques</a> - A. van der Hoek</td></tr>
+		<tr><td align="right"><b>Winter 2010:</b></td><td><a href="https://eee.uci.edu/10w/37205"> INF 205: QUANT RSCH MTHDS</a> - G. Olson, <a href="http://cleo.ics.uci.edu/teaching/Fall09/201/"> INF 231B : Human-Computer Interaction</a> - G. Hayes, <a href="http://www.ics.uci.edu/~taylor/classes/221/syllabusWQ10.html"> INF 221: Software Architecture</a> - R. Taylor </td></tr>
+		<tr><td align="right"><b>Fall 2009:</b></td><td><a href="http://www.ics.uci.edu/~jajones/Informatics211.html"> INF 201</a> - G. Hayes , <a href="http://cleo.ics.uci.edu/teaching/Fall09/201/"> INF 211  </a> - J. Jones , ICS 398A - D. Kay</td></tr>
+
+		</table>
+		</div>
+
+		<div class="title">Research/Industrial Projects (brief summaries)</div>
+				<div class="text">
+				<table border="0" cellpadding="5" cellspacing="0" class="info">
+				<tr><td align="right"><a href="http://sdcl.ics.uci.edu/research/code-topics/"><b>Code topics: Using topic models to understand the evolution of a software ecosystem: Sept 2012 - present:</a></b></td><td>The development of a software system is now ever more frequently a part of a larger development effort, including multiple software systems that co-exist in the same environment: a software ecosystem. Though most studies of the evolution of software have focused on a single software system, there is much that we can learn from the analysis of a set of interrelated systems. Topic modeling techniques show promise for mining the data stored in software repositories to understand the evolution of a system. In my research I seek to explore how topic modeling techniques can aid in understanding the evolution of a software ecosystem. The results of this research have the potential to improve how topic modeling techniques are used to predict, plan, and understand the evolution of software, and will inform the design of tools that support software engineering activities such as feature location, expertise identification, and bug detection.</td></tr>
+				<tr><td align="right"><b>Google Software Research Intern: June 2012 - Sept 2012</b></td><td>Worked as developer in the Google Analytics Management API project. In charge of designing and implementing the write API for GA management entities. </td></tr>
+				<tr><td align="right"><b><a href="unpublished/COSD-surveyPaper-FINAL-nlopez.pdf" title="COSD survey"> Survey of Concern oriented development: Sept 2011 - June 2012:</a></b></td><td>
+				Concern-oriented development has been of significant interest to the software engineering community since the early formulation of its importance by Dijkstra and Parnas. Many different approaches have emerged since then, and continue to emerge, which support developers when they need to reason about and make changes to code in terms of the concerns that govern the system. While initially much work focused on modularization of concerns, relying on programmatic constructs to encapsulate concerns in modules, new types of approaches have more recently emerged that address the problem from quite different directions and lead to quite different forms of support.
+				I have been working on a survey that is inclusive of the breadth of approaches to date. Its main contributions are a set of definitions of concerns that precisely delineate the field, an evaluation framework that characterizes a set of capabilities that any approach to concern-oriented development ideally should offer, an articulation of how four, previously disparate categories of approaches closely relate, and a set of nine observations that take stock of the field as it stands today and provide guidance as to where it should head in the future.
+				</td></tr>
+				<tr><td align="right"><b>Google Software Research Intern: June 2011 - Sept 2011</b></td><td>Worked with the TvAds group at the Google Irvine office. Designed and built support infrastructure for a web based application. Improved client-side, web caching mechanisms to deliver better performance.</td></tr>
+				<tr><td align="right"><a href="http://sdcl.ics.uci.edu/research/past-projects/"><b>Contextualized Coding: Sept 2010 - June 2011:</a></b></td><td>The Contextualized coding project aims to improve development by providing richer contextual cues to developers mined from process support tools and code analysis. The Code Orb is the first prototype view which shows developers fine-grained information related to code volatility. The Code Orb is implemented as a series of plug-ins to the Eclipse IDE.</td></tr>
+				<tr><td align="right"><b>IBM research intern: June 2010 - Sept 2010</b></td><td>Worked in a development co-op with the Ottawa software group in the Jazz - Rational Team Concert (RTC) � Versioning system group. My development effort had as objective improving the integration of the versioning features of Jazz / RTC with other versioning systems such as GIT and Subversion. Concretely, I implemented extensions to export and synchronize files maintained in Jazz / RTC with Subversion. Scalability and performance was a critical issue of this integration. Frameworks/Languages used: Eclipse plug-ins, Java, SVNKit.</td></tr>
+				<tr><td align="right"><b>Calico: 2009-2010</b></td><td>Calico is a free hand rapid design tool for the initial creative and typically informal stages of software design. Calico is designed to support the informal phases of design, with features that are designed to amplify good creative design practices. I worked as developer extending the functionalities of the tool and afterward I performed usability evaluations of some of the newer functionalities of the tool and drafting research results from these experiences. Calico is a Java stand-alone application.</td></tr>
+				<tr><td align="right"><b>Change Based PLAs and CM: 2008-2009</b></td><td>I was lead developer for a research project were we integrated change-based SCM tool implemented in JEE technology and a Product Line Architecture definition environment. The integration maps the product architecture defined in xADL, EASEL and ArchStudio to a concrete implementation in Java and maintains the consistency of the implementation with its architectural definition in a change-based SCM. Frameworks/Languages used: Java, code generation with Velocity, Eclipse plug-ins.</td></tr>
+				<tr><td align="right"><b>Management Game: 2007-2009</b></td><td>In June 2007 we initiated a project to develop a support environment for the "Management Game" course taken by undergraduate students in the last semester of the Business Program at University of Los Andes. My role in the project was as lead Software Architect in charge of defining and specifying the system global design, technological platform and architectural restrictions. Additionally I assisted the project leader in the implementation and testing phases of the project. Frameworks/Languages used: JEE, code generation with MDA (EMF + ATLs) DSLs (XML, XSL), Java, Java Server Faces, Hibernate.</td></tr>
+				<tr><td align="right"><b>Testing in a Global Environment: 2004-2006</b></td><td>This research project that had as main objective the definition of an appropriate testing and software defect correction process in a global software development environment and the development of process support tools and an integration platform that fulfills the requirements of an appropriate infrastructure for Internet-scale integration. My role was as designer and lead developer of an event based messaging infrastructure. Frameworks/Languages used: J2EE, Java, code generation using XMI and XSL.</td></tr>
+				<tr><td align="right"><b>QualDev development Group: 2005-2009</b></td><td>I was the leader of a development group made up mainly of undergraduate students in a capstone project course. This group is a software engineering laboratory where students learn how to use software processes, methodologies and applications as tools to produce high quality software. The group works as a laboratory to experiment with software processes and technologies. The group develops tools in the broad domain of software development process support and some of these are successfully used in real contexts. Frameworks/Languages used: J2EE, JEE, Java, PHP, JME, XML, Jena, Velocity, Hibernate, Spoon, JSF, Struts, amongst many others.</td></tr>
+
+				</table>
+		</div>
+	</td>
+
+</tr>
+<tr><td colspan="2" id="bottom"><div class="footer">Nicolas Lopez-Giraldo, University of California, Irvine &middot; Copyright &copy;2009</div></td></tr>
+</table>
+</div>
+</body>
+</html>
+

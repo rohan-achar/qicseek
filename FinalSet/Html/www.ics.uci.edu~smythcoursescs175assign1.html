@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta name="GENERATOR"
+ content="Mozilla/4.76 [en] (WinNT; U) [Netscape]">
+  <title>ICS 175: Project in Artificial Intelligence</title>
+  <style type="text/css">
+<!--
+.style1 {font-size: 16px}
+-->
+  </style>
+</head>
+<body alink="#ff3300" bgcolor="#f3f9fe" link="#cc0000" text="#000000"
+ vlink="#330099">
+<center>
+<h1>Assignment 1: CS 175: Project in Artificial Intelligence</h1>
+</center>
+<center>
+<h2>Introduction to MATLAB and simple MATLAB functions</h2>
+</center>
+<center>
+<h2>Due by 9:30am Thursday October 3rd 2007</h2>
+</center>
+<h3><br>
+</h3>
+<h3 class="style1"><big>PART 1: LEARNING HOW TO USE
+  MATLAB </big></h3>
+<ul>
+  <li><strong>Note:</strong> since the whole class is based on MATLAB, it is very important that you spend time in the first few weeks of class familiarizing yourself with MATLAB and going through the recommended tutorials.<br>
+    <br>
+</li>
+  <li><b>Introduction to MATLAB</b></li>
+  <ul>
+    <li>Start a MATLAB session (consult the <a
+ href="http://www.ics.uci.edu/%7Esmyth/courses/matlab.html">class Web
+page on MATLAB resources</a> to find machines on campus with MATLAB).
+Just
+click on the MATLAB icon and a MATLAB window should come up, or find
+MATLAB
+under Start-&gt;Programs-&gt;MATLAB. The "command line" prompt
+(&gt;&gt;), where you
+can enter commands, is usually the window on the right hand side.&nbsp;</li>
+    <li>Select "MATLAB help" under the "help" menu. Under the
+"Contents" tab select "MATLAB -&gt; Getting Started". If your version
+of MATLAB does not have online help, or if you are using Octave, you
+can access this tutorial material in a PDF file, <a
+ href="../Getting_Started_with_MATLAB.pdf">Getting Started with MATLAB</a>
+(you may want to download this PDF and look at it offline at times when
+you don't have access to the MATLAB software).</li>
+    <li>&nbsp;Go through each of the following items in detail (under
+the menu item "Getting Started").. It is strongly recommended that you
+interactively try out some of the commands that are described in the
+command window as you read this tutorial material.<br>
+    </li>
+    <ul>
+      <li style="font-style: italic;">Introduction</li>
+      <li><span style="font-style: italic;">Matrices and Arrays </span><br>
+      </li>
+      <li><span style="font-style: italic;">Programming</span>&nbsp;
+(you can skip "Other Data Structures" if you wish - we will return to
+this in a later assignment)<br>
+      </li>
+      <li style="font-style: italic;">Desktop Tools and Development
+Environment</li>
+    </ul>
+    <li>There is a vast range of
+documentation available for MATLAB under "Help" - you are not expected
+to read all of this! But you do need to go through the basic tutorial
+material above to get started. The sooner you have a good understanding
+of how to use MATLAB, the more likely you are to do well in assignments
+and in your project in this class. <span style="font-style: italic;"><br>
+      </span></li>
+    <li><span style="font-style: italic;"></span>In addition to the
+"Getting Started" items, you may also find it useful to refer to some
+of the more detailed information under other menu items under
+Contents-&gt;MATLAB, such as</li>
+    <ul>
+      <li><span style="font-style: italic;">Desktop Tools and
+Development</span>, e.g. <span style="font-style: italic;">Workspace,
+Search Path, and File Operation</span>, and <span
+ style="font-style: italic;">Editing and Debugging M-files</span></li>
+      <li><span style="font-style: italic;">Programming,</span> e.g.,<span
+ style="font-style: italic;"> Data Structures, Data Types, Basic
+Program Components, M-File Programming, </span>and<span
+ style="font-style: italic;"> Programming Tips<br>
+        <br>
+        </span></li>
+    </ul>
+  </ul>
+  <li style="font-weight: bold;">Online MATLAB Tutorial</li>
+  <ul>
+    <li>Go through the &quot;On-Ramp&quot; part of the <a href="http://www.mathworks.com/academia/student_center/tutorials/launchpad.html"><em>MATLAB tutorial at Mathworks</em></a>. This requires registration at the Mathworks site and will take you approximately 30 minutes to go through the whole tutorial. You should have a MATLAB window open as you go through the tutorial so that you can pause the tutorial and try out the ideas directly in MATLAB. You may also want to wear headphones if running the tutorial in a public location like a lab, since the tutorial comes with sound. </li>
+  <li>(Optional) you  may also want to try the <em><a href="http://www.mathworks.com/academia/student_center/tutorials/launchpad.html">MATLAB for Problem Solving Tutorial</a></em>, which takes about 60 minutes to go through.  In particular you may want to look at Tutorial 8, on writing MATLAB programs, since this will help you with Homework 1.<br>
+  </li>
+    <li>Note that there are many <a
+ href="http://www.ics.uci.edu/%7Esmyth/courses/matlab.html">other
+online tutorials</a> that you can
+also look
+at for additional information. Also there are quite a few introductory
+books on
+MATLAB, where the first few chapters typically contain basic tutorial
+material.</li>
+    <br>
+    <br>
+  </ul>
+</ul>
+<h3 class="style1">PART 2: MATLAB PROGRAMMING
+ASSIGNMENT</h3>
+<span style="font-weight: bold;"></span>
+<ul>
+  <li>You are asked to write 3 MATLAB functions below. Before you
+tackle this part of the assignment you need to make sure to first
+review the basic tutorial above and also make sure to look at the
+demo/information Desktop Tools and Development Environment under
+"demos". <br>
+    <br>
+  </li>
+  <li><strong>Criteria for grading:</strong> when we grade your code we will take into account the following
+factors:</li>
+  <ul>
+    <li><strong>Correctness of the code: </strong>does the MATLAB function compute the
+correct solutions under a variety of test conditions. You should make
+sure you code works for different cases, e.g., different sizes of
+matrices and vectors.</li>
+    <li><strong>Comments and clarity</strong>: is the code readable? does it have clear
+comments? are sensible variable names used? Code that is not clear and/or that is without comments will
+lose points.</li>
+    <li><strong>Error-checking</strong>: if&nbsp; a user provides incorrect inputs to
+the function, does the function halt and generate a meaningful error
+message? you should include some basic error checking in your code,
+such as checking for example that the 2 vectors provided to the
+euclidean.m function have the same dimensions.<br>
+      <br>
+    </li>
+  </ul>
+  <li>You can use existing MATLAB library functions in the code that
+you write, e.g., functions like max( ) or sort( ).<br>
+  </li>
+  <ul>
+    <br>
+    <br>
+  </ul>
+  <li><b>MATLAB Coding Exercise 1: </b>Write a MATLAB function
+(stored as
+an ascii&nbsp;
+text file, with the name euclidean.m) that takes 2 vectors (of any
+length,
+both the same length) and calculates the Euclidean distance between
+them.&nbsp;
+Your function header should have the following format:<br>
+  </li>
+  <pre>&nbsp;function dist = euclidean(x,y)<br>&nbsp;% function dist = euclidean(x,y)<br>&nbsp;%&nbsp;<br>&nbsp;% Calculates the Euclidean distance between two vectors x and y<br>&nbsp;%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Your Name, CS 175, Fall 2007<br>&nbsp;%<br>&nbsp;%&nbsp; Inputs:<br>&nbsp;%&nbsp;&nbsp;&nbsp; x, y:&nbsp; 2 vectors of real numbers, each of size 1 x n   <br>&nbsp;%&nbsp;&nbsp;&nbsp;<br>&nbsp;%&nbsp; Outputs:<br>&nbsp;%&nbsp;&nbsp;&nbsp; dist: the Euclidean distance between x and y<br>&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ------&nbsp; Your code goes here&nbsp; ------<br><br></pre>
+  <li> <b>MATLAB Coding Exercise 2: </b>Write a MATLAB function
+(stored as
+an ascii&nbsp;
+text file, with the name nearest_neighbor.m) that finds the vector y in
+a list of vectors, which is closest to a particular vector x (closest
+in
+Euclidean distance sense). Your function header should have the
+following format:</li>
+  <pre>&nbsp; function [y, i, d] = nearest_neighbor(x, A);<br>&nbsp; % function [y, i, d] = nearest_neighbor(x, A);<br>&nbsp; %<br>&nbsp; %&nbsp; brief description of function here<br>&nbsp; %&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Your Name, CS 175, Fall 2007<br>&nbsp; %<br>&nbsp; % Inputs<br>&nbsp; %&nbsp;&nbsp;&nbsp;&nbsp; x:&nbsp; a vector of numbers of size 1 x n<br>&nbsp; %&nbsp;&nbsp;&nbsp;&nbsp; A:&nbsp; k vectors of size 1 x n, "stacked" in a k x n matrix<br>&nbsp; %<br>&nbsp; % Outputs<br>&nbsp; %&nbsp;&nbsp;&nbsp;&nbsp; y:&nbsp; the closest vector in A to x (y has size 1 x n)<br>&nbsp; %&nbsp;&nbsp;&nbsp;&nbsp; i:&nbsp; the integer (row) index of y in A<br>&nbsp; %&nbsp;&nbsp;&nbsp;&nbsp; d:&nbsp; the Euclidean distance between y and x<br>&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --------&nbsp;&nbsp; Your code goes here -------<br><br></pre>
+  <li> <b>MATLAB Coding Exercise 3: </b>Write a MATLAB function
+(stored as
+an ascii
+text file, with the name maxvalue.m) that finds the maximum
+(largest
+value) of a matrix and the location of this maximum.&nbsp; Your
+function header should have the following format:</li>
+  <pre>&nbsp; function [maxvalue, rmax, cmax] = maxvalue(A);<br>&nbsp; % function [maxvalue, rmax, cmax] = maxvalue(A);</pre>
+  <pre>&nbsp; %&nbsp; brief description of function here<br>&nbsp; %&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Your Name, CS 175, Fall 2007<br>&nbsp; %<br>&nbsp; % Inputs&nbsp;<br>&nbsp; %&nbsp;&nbsp;&nbsp;&nbsp; A:&nbsp; a matrix of size r x c, with r rows and c columns<br>&nbsp; %<br>&nbsp; % Outputs<br>&nbsp; %&nbsp;&nbsp;&nbsp;&nbsp; maxvalue:&nbsp; largest entry in A</pre>
+  <pre>&nbsp; %&nbsp;&nbsp;&nbsp;&nbsp; rmax, cmax: integers specifying the (row,column) location of the max value<br>&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --------&nbsp;&nbsp; Your code goes here -------<br></pre>
+</ul>
+<h3 class="style1"><big>PART 3: WRITING ASSIGNMENT </big></h3>
+<ul>
+  <li>MATLAB, Face recognition technology was introduced in consumer cameras a few years ago and is now widely available. Write about 1 page (acceptable formats are Word, PDF, or a plain ascii text file) where you discuss the following points (you can use the Web or any other source of information to find background information):
+    <ul>
+      <li>is face recognition considered to be a success in consumer cameras?</li>
+      <li>how does face recognition enhance the consumer's picture-taking abilities? i.e., what can you do with face-recognition on a camera that could not be done before? </li>
+      <li>what are the limitations of face recognition in cameras? e.g., are there situations where it does not work well? </li>
+      <li>how do the algorithms work? there seems to be relatively little published on this - the camera companies like to keep their algorithms secret so as not to provide competitive advantage to their competitors - but if you can find any information on the details of how the algorithms work, please provide a brief summary and a pointer to the source of your information. If you can't find any information on the details of the algorithms, just say so. </li>
+    </ul>
+  </li>
+</ul>
+<p>&nbsp;</p>
+<hr>
+<h3>What to Submit</h3>
+<ul>
+  <li>Electronically submit (using the Homework 1 dropbox for CS 175 in EEE)
+your MATLAB code for the 3
+functions above and your writing assignment. The MATLAB files should be called euclidean.m, nearest_neighbor.m, and maxvalue.m<br>
+  </li>
+</ul>
+</body>
+</html>
+

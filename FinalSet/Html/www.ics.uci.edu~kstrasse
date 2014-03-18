@@ -1,0 +1,81 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Kyle Strasser</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<h1>Kyle Strasser</h1>
+<p><i>Last update: 17 May 2012</i></p>
+
+<h2>About Me</h2>
+<div class="bBox">
+	<p>I am a graduate student of software engineering in the <a href="http://www.isr.uci.edu/">Institute for Software Research</a>
+	and the <a href="http://www.informatics.uci.edu/">Department of Informatics</a> 
+	at the <a href="http://www.ics.uci.edu/">School of Information and Computer Sciences</a> at UC Irvine.
+	My advisor is <a href="http://www.ics.uci.edu/~taylor/">Dr. Richard N. Taylor</a>.
+	I received a Bachelor's of Science from the Department of Informatics at UC Irvine in 2008.
+	</p>
+
+	<div class="lBox">
+	<h3>Contact</h3>
+	<b>office</b>: Donald Bren Hall 5209<br>
+	<b>email</b>: kstrasse@ics.uci.edu<br>
+	<b>mailing address</b>: <br>
+	Donald Bren Hall<br>
+	University of California, Irvine<br>
+	Irvine, CA 92697-3425</div>
+
+	<div class="rBox">
+	<h3>Interests</h3>
+	software engineering<br>
+	software design<br>
+	software architecture; architectural styles<br>
+	decentralized services and systems<br>
+	architecture-based dynamic adaptivity<br></div>
+</div>
+
+<h2>Research</h2>
+<div class="bBox">
+	<div class="lBox">
+	<h3>COAST</h3> (with Michael Gorlick, Alegria Baquero, Alberto Pareja-Lecaros, Christoph Dorn, Richard N. Taylor)
+	<p><b>COmputAtional State Transfer</b> (COAST) (following a previous project, <a href="http://www.erenkrantz.com/CREST/">CREST</a>) is an architectural style for the construction of adaptive, decentralized Internet service ecosystems.
+	In COAST, customized, tailored microservices are implemented as mobile computations and deployed across organizational bounds to execute in the context of domain- and organization-specific execution sites.
+	Those services collaborate with other services by exposing fine-grained, differentiated interfaces to computations exchanged amongst them.</p>
+	<p>Our implementation of COAST comprises <b>Motile</b>, an architectural style-specific functional mobile code language designed to enforce the security and functional constraints of COAST, and the supporting infrastructure <b>Island</b>.
+	Security is addressed via the application of <i>capability security</i> to limit both the communicative and computational capability allocated to deployed services.
+	The rights to communicate with COAST services are conferred by <i>Capability URLs</i>, unforgeable cryptographic structures that encompass numerous restrictions on communication and provide a basis for higher level constructs such as transactions and contracts between mutually suspicious parties.
+	The rights afforded to any Motile mobile code are determined by <i>islands</i> whose owners use the <b>Island</b> infrastructure and tools to segregate, allocate and monitor the functions and assets granted to visiting Motile code.
+	</p>
+	</div>
+
+	<div class="rBox">
+	<h4>Publications</h4>
+	<ul>
+		<li>Michael Gorlick, <b>Kyle Strasser</b>, Richard N. Taylor. <a href="http://www.isr.uci.edu/tech_reports/UCI-ISR-12-3.pdf"><i>Motile: Mobile Code for Decentralized On-Demand Tailored Services</i></a>. UCI ISR Tech Report UCI-ISR-12-3, April 2012.</li>
+		<li>Michael Gorlick, <b>Kyle Strasser</b>, Richard N. Taylor. <a href="http://www.isr.uci.edu/tech_reports/UCI-ISR-12-2.pdf"><i>COAST: Architectures for Decentralized On-Demand Tailored Services</i></a>. UCI ISR Tech Report UCI-ISR-12-2, April 2012.</li>
+		<li>Michael Gorlick, <b>Kyle Strasser</b>, Alegria Baquero, Richard N. Taylor. <a href="http://dl.acm.org/citation.cfm?id=2048202"><i>CREST: Principled Foundations for Decentralized Systems</i></a> 			Abstract and poster, SPLASH 2011.</li>
+	</ul>
+	<h4>Software</h4>
+<p>	Source code is available at <a href="https://github.com/kstrasser/CRESTaceans">GitHub</a>.
+	The repository includes <a href="https://github.com/kstrasser/CRESTaceans/tree/master/apps/coastcast">COASTcast</a>,
+	a sample COAST application based on the dynamic deployment of video streaming pipelines as Motile computations and the collaborative sharing and recombination of those streams among users, all implemented as computation exchange using the mechanisms of COAST.</p>
+	<p>Our implementation of <i>Motile/Island</i> is written primarily in <a href="http://racket-lang.org">Racket</a>.</p>
+	</div>
+</div>
+
+<div class="bBox">
+	<div class="lBox">
+	<h3>Service</h3>
+	Student volunteer, ICSE 2011.<br>
+	Student volunteer, SPLASH 2011.
+	</div>
+	
+	<div class="rBox">
+	</div>
+</div>
+
+</body>
+</html>
+

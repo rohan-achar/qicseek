@@ -1,0 +1,616 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+
+    <title>Andrew E. Gelfand - University of California, Irvine</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    
+    <style type="text/css">
+    <!--
+    
+	/* Original Background Color: 635b46 */
+    body
+    {
+        margin: 0;
+        padding: 0;
+        color: #222222;
+        line-height: 1.6em;
+        background-color: #FFDC76;
+        font: normal 13px "Trebuchet MS", "Lucida Grande", Verdana, Georgia, Sans-Serif;
+    }
+    
+    /* Links */
+    
+    a:link 
+    { 
+        text-decoration: none; 
+        color: #53584a; 
+    } 
+    
+    a:visited 
+    { 
+        text-decoration: none; 
+        color: #636958; 
+    }
+    
+    a:hover, a:active { color: #993333; }
+    
+    /* Html Elements */
+    
+    h1, h2, h3, h4, h5, h6 { font-weight: normal; margin: 0; padding: 10px 0; }
+    
+    /* Structure 000039 635b46*/
+    
+	/* border-left: 5px solid #3c3016; */
+    #container 
+    { 
+        margin: 0 auto; 
+        width: 900px; 
+        background-color: #eeeeee; 
+        border-left: 5px solid #000039; 
+        border-right: 5px solid #000039; 
+    }
+    
+	/* border-top and bottom 7e7d51 */
+    #header-wrapper 
+    { 
+        border-top: 10px solid #000039; 
+        border-bottom: 3px solid #000039; 
+        width: 100%; 
+        float: left; 
+        background-color: #f7f4ee; 
+    }
+    
+    #header
+    {
+        float: left;
+        width: 40%;
+    }
+    
+    #navigation
+    {
+        float: right;
+        width: 45%;
+    }
+    
+	/* border-bottom: 3px solid #7e7d51; */
+    #wrapper
+    {
+        clear: both;
+        float: left;
+        width: 100%; 
+        background-color: #ffffff;
+        border-bottom: 3px solid #000039;
+    }
+    
+    #content-wrapper
+    {
+        float: left;
+        width: 100%;
+    }
+    
+    #latest { line-height: 1.5em; }
+    
+    #content
+    {
+        float: left;
+        padding: 20px;
+    }
+    
+/*    #sidebar-wrapper
+    {
+        float: left;
+        width: 30%;
+    }
+    
+    #sidebar
+    {
+        float: left;
+        padding: 20px; 
+    } */
+    
+	/* 
+		border-bottom: 10px solid #7e7d51; 
+        background-color: #f7f4ee; 
+	*/
+    #footer
+    {
+        clear: both;
+        text-align: center; 
+        padding: 20px 0 10px; 
+        border-top: 1px solid #000039;
+        border-bottom: 10px solid #000039; 
+        background-color: #f7f4ee; 
+        font-size: 12px; 
+        color: #636958; 
+    }
+    
+    /* Header */
+    
+    #header h1, #header h2 { padding-left: 10px; padding-right: 10px; color: #000039;}
+    
+    #header h2 { font-size: 12px; font-weight: bold; padding-top: 0; color: #000039;}
+    
+    /* Navigation */
+    
+    #navigation ul { float: left; list-style-type: none; margin: 0; padding: 0; }
+    
+    #navigation li { float: left; }
+    
+    #navigation li a:link,
+    #navigation li a:visited
+    {
+        float: left; 
+        display: block;
+        margin: 10px 5px;
+        padding: 5px 10px;
+        color: #635b46;
+        border: 1px solid #bbbbbb;
+    }
+    
+    #navigation li a:hover,
+    #navigation li a:active
+    {
+        color: #993333; 
+        background-color: #ffffff;
+        border: 1px solid #53584a;
+    }
+    
+    body#bhome #navigation li#home a, 
+    body#babout #navigation li#about a,
+    body#bcontact #navigation li#contact a,
+    body#barchives #navigation li#archives a
+    {
+        background-color: #ffffff;
+        color: #000000;
+        border: 1px solid #333333;         
+    }
+    
+    /* Latest */
+    
+    #latest .entry
+    {
+        border-top: 1px solid #4a502e;
+        border-bottom: 1px solid #4a502e;
+        color: #ffffff;
+/*        color: #000039;*/
+        background-color: #252558;
+/*		background-color: #8e8568; */
+    }
+    
+    #latest a:link { color: #e0e8b9; }
+    
+    #latest a:visited { color: #f8f8ec; }
+    
+    #latest a:hover, #latest a:active { color: #ffe3a4; }
+    
+    #latest .entry { padding: 10px; }
+    
+    #latest .entry-body a:link 
+    { 
+        font-weight: bold; 
+        font-size: 12px; 
+        border-bottom: 1px dotted #e0e8b9; 
+    }
+    
+    #latest .entry-body a:visited
+    {
+        font-weight: bold; 
+        font-size: 12px; 
+        border-bottom: 1px dotted #f8f8ec; 
+    }
+    
+    #latest .entry-body a:hover,
+    #latest .entry-body a:active
+    {
+        border-bottom-color: #ffe3ac;
+    }
+    
+    #latest .entry-footer
+    {
+        padding-left: 20px;
+        background: transparent url(date.png) 0 0 no-repeat;
+    }
+    
+    #latest .entry-footer a
+    {
+        font-size: 11px;
+        font-weight: bold; 
+    }
+    
+    #latest h3 
+    {
+        font-size: 24px; 
+        padding: 5px 0;
+    }
+    
+    /* Content */
+    
+    #content .entry 
+    {
+        border-top: 2px solid #000039;
+        background-color: #f8f8ec;
+        margin-bottom: 25px; 
+    }
+    
+    #content .entry h3 
+    {
+        font-size: 24px; 
+        padding-left: 10px;
+        padding-right: 10px; 
+        padding-bottom: 0;
+    }
+    
+    #content .entry-body, #content .entry-footer
+    {
+        padding-left: 10px; 
+        padding-right: 10px;
+    }
+    
+    #content .entry-footer
+    {
+        font-size: 12px;
+        color: #555555; 
+        padding-left: 30px;
+        padding-bottom: 10px; 
+        border-bottom: 1px dotted #000039;
+        background: transparent url(date.png) 10px 0 no-repeat;
+    }
+    
+    /* Sidebar */
+    /*
+    #sidebar .sideblock
+    {
+        border: 1px solid #000039;
+        padding: 5px;
+        margin: 0 0 16px;
+        background-color: #f8f8ec;
+    }
+    
+    #sidebar .sideblock h3
+    {
+        padding-left: 5px; 
+        padding-right: 5px;
+        padding-bottom: 0;
+        color: #000039;
+    }
+    
+    #sidebar .sideblock ul
+    {
+        line-height: 1.8em;
+        font-weight: bold;
+        font-size: 12px;
+        list-style-type: square;
+    }
+    
+    #sidebar #recently ul
+    {
+        font-weight: normal;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }*/
+
+    #footer a:link { color: #7e7d51; }
+    
+    #footer a:visited { color: #636958; }
+    
+    #footer a:hover,
+    #footer a:active
+    {
+        color: #53584a;
+        border-bottom: 1px dotted #7e7d51;
+    } 
+        
+    //-->
+    </style>
+
+</head>
+
+<body id="bhome">
+
+    <div id="container">
+    
+        <div id="header-wrapper">
+        
+            <div id="header">
+            
+                <h1><a href="#home">Andrew E. Gelfand</a></h1>
+                <!-- <h2>brain.save(universe.fetch(everything_interesting));</h2> -->
+            
+            </div>
+            
+            <div id="navigation">
+            
+                <ul>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#teaching">Teaching</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#personal">Personal</a></li>
+                </ul>
+            
+            </div>
+        
+        </div>
+        
+        <div id="wrapper">
+        
+            <div id="latest">
+                
+                    <div class="entry">
+                        
+                        <h3><a href="Andrew4.jpg"><img src="Andrew4.jpg" align="left" border="0" class="self" width="240" height="350" style="padding:10px;"></a>
+						<a href="http://www.uci.edu"><img src="ucilogo.jpg" align="right" border="0" class="logo" vspace="5" hspace="5" width="140" height="140"></a></h3>
+                                                
+                        <div class="entry-body">
+                        
+							<table border="0" cellpadding="1" cellspacing="1">
+                              <tr>
+                        
+                                <td><b>Position:&nbsp;</b></td>
+                        
+                                <td>Ph.D. Candidate</td>
+                              </tr>
+                        
+                              <tr>
+                                <td><b>Email:</b></td>
+                        
+                                <td><img alt="email address" src="emailAddress.jpg" height="25" width="190"></td>
+                        
+                              </tr>
+                        
+                              <tr>
+                                <td><b>Office:</b></td>
+                        
+                                <td>4099 Bren Hall</td>
+                              </tr>
+                        
+                              <tr>
+                        
+                                <td valign="top"><b>Address:&nbsp;</b></td>
+                        
+                                <td>Department of Computer Science<br>
+                                University of California, Irvine<br>
+                                Irvine, CA&nbsp;&nbsp;92697-3435</td>
+                              </tr>
+
+					<tr>
+                                <td><b>School Phone:</b></td>
+					  <td>(949) 824-7427</td>
+					</tr>
+					<tr>
+                                <td><b>School Fax:</b></td>
+					  <td>(949) 824-4056</td>
+					</tr>
+                            </table>
+
+						
+                            <p>
+                            
+                                I am presently a Ph.D. candidate in <a href="http://www.ics.uci.edu/~dechter/">Rina Dechter's</a> Automated reasoning in Artificial Intelligence group and
+					  Prof. <a href="http://www.ics.uci.edu/~welling/">Max Welling's</a> Statistical Computation, Information, Vision and Inference (SCIVI) lab.  
+							</p>
+							<p>
+								Prior to UCI, I received a M.Sc. degree in operations
+								research at George Washington University, where I worked with Prof. <a href="http://www.seas.gwu.edu/~mazzu/">Tom Mazzuchi</a> on Bayesian inference in 
+								time-varying failure processes for software reliability.  While in Washington DC, I also worked for 
+								<a href="http://www.dac.us/">Decisive Analytics Corporation</a>, an applied research firm that develops algorithms for multi-sensor data fusion, target 
+								tracking and discrimination, and topic and relational mining in text and video.                                 
+                            </p>                            
+                            
+                        </div>                        
+                        
+                    </div>
+                
+                </div>
+        
+            <div id="content-wrapper">
+            
+                <div id="content">
+                
+                    <div class="entry">
+                        
+                        <h3><a name="research">Research</a></h3>
+                        
+                        <div class="entry-body">
+                        
+                            <p>
+I work in the area of artificial intelligence and machine learning. My focus is on developing methods to efficiently learn from data using graphical models - a modeling formalism that provides structure to probability distributions over large, complex systems.  I am interested in developing methods to efficiently and accurately perform approximate inference in probabilistic graphical models, particularly in message passing algorithms based on variational methods.                                
+                            </p>                            
+                            
+                        </div>                        
+                        
+                    </div>
+                    
+                    <div class="entry">
+                    
+                        <h3><a name="teaching">Teaching</a></h3>
+                        
+				<ul>
+					<li> Fall 2011 - <a href="http://sli.ics.uci.edu/Classes/2011F-171">CS 171 - Intro to Artificial Intelligence</a> taught by <a href="http://www.ics.uci.edu/~ihler/">Alex Ihler</a>.
+
+					<li> Winter 2012 - <a href="http://www.ics.uci.edu/~rickl/courses/cs-171/2012-wq-cs171/CS-171-WQ-2012.htm">CS 171 - Intro to Artificial Intelligence</a> taught by <a href="http://www.ics.uci.edu/~rickl/">Rick Lathrop</a>.
+                        
+				</ul>                   
+
+                    </div>
+                    
+                    <div class="entry">
+                    
+                        <h3><a name="publications">Publications</a></h3>
+                        
+                        <div class="entry-body">
+                                                    
+                                <br />Below are a list of publications and technical reports.                           
+                            
+							<h4>Conferences</h4>
+							
+							<ul>
+
+								<li><a href="pub/nips_matching_final_aeg_v2.pdf">A Graphical Transformation for Belief Propagation: Maximum Weight Matchings and Odd-Sized Cycles<a><br />
+								&nbsp;&nbsp;Jinwoo Shin, Andrew E. Gelfand and Misha Chertkov<br /> 
+								&nbsp;&nbsp;<i>NIPS 2013.</i> Lake Tahoe, NV, USA, December 2013.</li>
+
+								<li><a href="pub/LoopsBootstrap_v5.pdf">Loop Calculus and Bootstrap-Belief Propagation for Perfect Matchings on Arbitrary Graphs</a> <br />
+								&nbsp;&nbsp;Misha Chertkov, Andrew E. Gelfand and Jinwoo Shin<br /> 
+								&nbsp;&nbsp;<i>In Proceedings of the International Meeting on 'Inference, Computation, and Spin Glasses'.</i> Sapporo, Japan, July 2013.</li>
+
+								<li><a href="pub/ISIT2013_v8.pdf">Belief Propagation for Linear Programming</a> <br />
+								&nbsp;&nbsp;Andrew E. Gelfand, Jinwoo Shin and Misha Chertkov<br /> 
+								&nbsp;&nbsp;<i>IEEE International Symposium on Information Theory (ISIT).</i> Istanbul, Turkey, July 2013.</li>
+
+								<li><a href="pub/TreeRobustSRG_UAI2012_vcr.pdf">Generalized Belief Propagation on Tree Robust Structured Region Graphs</a> &nbsp;&nbsp; <a href="pub/TreeRobustSRG_UAI2012_vcr_supplementary.pdf">[Proofs]</a><br />
+								&nbsp;&nbsp;Andrew E. Gelfand and Max Welling<br /> 
+								&nbsp;&nbsp;<i>In 28th Conference on Uncertainty in Artificial Intelligence (UAI).</i> Catalina Island, CA, USA, August 2012.</li>
+
+								<li><a href="pub/CCE_UAI2012_vcr.pdf">A Cluster-Cumulant Expansion at the Fixed Points of Belief Propagation</a><br /> 
+								&nbsp;&nbsp;Max Welling, Andrew E. Gelfand and Alexander Ihler<br /> 
+								&nbsp;&nbsp;<i>In 28th Conference on Uncertainty in Artificial Intelligence (UAI).</i> Catalina Island, CA, USA, August 2012.</li>
+
+								<li><a href="pub/HerdingCRFImSeg.pdf">Integrating Local Classifiers through Nonlinear Dynamics on Label Graphs with an Application to Image Segmentation</a><br />
+								&nbsp;&nbsp;Yutian Chen, Andrew E. Gelfand, Charless Fowlkes and Max Welling<br /> 
+								&nbsp;&nbsp;<i>13th IEEE International Conference on Computer Vision (ICCV)</i> Barcelona, Spain, November 2011.</li>
+
+								<li><a href="pub/StoppingCriteria.pdf">Stopping Rules for Randomized Greedy Triangulation Schemes</a><br />
+								&nbsp;&nbsp;Andrew E. Gelfand, Kalev Kask and Rina Dechter<br /> 
+								&nbsp;&nbsp;<i>AAAI 2011.</i> San Francisco, CA, USA, August 2011.</li>
+
+								<li><a href="pub/cvo.pdf">Pushing the Power of Stochastic Greedy Ordering Schemes for Inference in Graphical Models</a><br />
+								&nbsp;&nbsp;Kalev Kask, Andrew E. Gelfand, Lars Otten, and Rina Dechter<br /> 
+								&nbsp;&nbsp;<i>AAAI 2011.</i> San Francisco, CA, USA, August 2011.</li>
+
+								<li><a href="pub/CH.pdf">On Herding and the Perceptron Cycling Theorem</a><br />
+								&nbsp;&nbsp;Andrew E. Gelfand, Laurens van der Maaten, Yutian Chen and Max Welling<br /> 
+								&nbsp;&nbsp;<i>NIPS 2010.</i> Vancouver, Canada, December 2010.</li>
+
+								<li><a href="pub/BEEM.pdf">BEEM : Bucket Elimination with External Memory</a><br /> 
+								&nbsp;&nbsp;Kalev Kask, Rina Dechter and Andrew E. Gelfand.<br /> 
+								&nbsp;&nbsp;<i>In 26th Conference on Uncertainty in Artificial Intelligence (UAI).</i> Catalina Island, CA, USA, July 2010.</li>
+
+								<li><a href="pub/PEofDistributedEstimationSystemswUncertainComms.pdf">Performance Evaluation of Decentralized Estimation Systems 
+								with Uncertain Communication</a><br />
+								&nbsp;&nbsp;Andrew E. Gelfand, Chris Smith, Mike Colony and Christopher Bowman<br />
+								&nbsp;&nbsp;<i>12th International Conference on Information Fusion.</i> Seattle, WA, USA, July 2009.</li>
+							</ul>
+							
+							<h4>Technical Reports</h4>
+							<ul>
+								<li><a href="pub/ComparisonOfAlgsForCollabFilteringOnRBMs.pdf">A Comparison of Algorithms for Collaborative Filtering on RBMs</a><br />
+								&nbsp;&nbsp;Andrew E. Gelfand, March 2010</li>
+								<li><a href="pub/Post-ProcessingtoReduceInducedWidth.pdf">Post-Processing Elimination Orderings to Reduce Induced Width</a><br />
+								&nbsp;&nbsp;Andrew E. Gelfand, December 2009</li>							
+								<li><a href="pub/ConstrainedCrypto-EMAlgorithm.pdf">Solving Cryptograms with the Constrained Cyrpto-EM Algorithm</a><br />
+								&nbsp;&nbsp;Andrew E. Gelfand, December 2009</li>							
+							</ul>			
+							
+							
+                        </div>
+                        
+                        <div class="entry-footer">						                        
+                            <br />Last Updated on November 8, 2013                        
+                        </div>
+                    
+                    </div>                    
+                    
+                    <div class="entry">
+                    
+                        <h3><a name="personal">Personal</a></h3>
+                        
+                        <div class="entry-body">
+                        
+				    <p>
+
+					My (hopefully) up-to-date <a href="AndrewGelfandResume.pdf">Resume</a>
+
+				    </p
+                            
+                        </div>
+                        
+                        <!--<div class="entry-footer">
+                        
+                            Posted on June 25, 2006 in <a href="#21">What's This?</a>, <a href="#22">Sixth Sense</a>| 
+                            <a href="#">Comments(0)</a> | <a href="#">Trackbacks(0)</a> | <a href="#">Read More &raquo;</a>
+                        
+                        </div> -->
+                    
+                    </div>					
+					
+                </div>
+                            
+            </div>
+            
+            <!-- <div id="sidebar-wrapper">
+            
+                <div id="sidebar">
+                
+                    <div class="sideblock" id="byCat">
+                    
+                        <h3>By Category</h3>
+                        
+                        <ul>
+                            <li><a href="#02">Magic</a></li>
+                            <li><a href="#03">Batmap</a></li>
+                            <li><a href="#04">1000 Clowns</a></li>
+                            <li><a href="#05">1+1=3</a></li>
+                            <li><a href="#06">Woot!</a></li>
+                            <li><a href="#07">Woot++</a></li>
+                            <li><a href="#08">Odd Man Out</a></li>
+                            <li><a href="#09">Just One More</a></li>
+                            <li><a href="#10">And Done!</a></li>
+                        </ul>
+                    
+                    </div>
+                    
+                    <div class="sideblock" id="byDate">
+                    
+                        <h3>By Date</h3>
+                        
+                        <ul>
+                            <li><a href="#18">July 2006</a></li>
+                            <li><a href="#17">June 2006</a></li>
+                            <li><a href="#16">May 2006</a></li>
+                            <li><a href="#15">April 2006</a></li>
+                            <li><a href="#14">March 2006</a></li>
+                            <li><a href="#13">March 2006</a></li>
+                            <li><a href="#12">February 2006</a></li>
+                            <li><a href="#11">January 2006</a></li>
+                            <li><a href="#11">December 2005</a></li>
+                            <li><a href="#11">November 2005</a></li>
+                            <li><a href="#11">October 2005</a></li>
+                            <li><a href="#11">September 2005</a></li>
+                            <li><a href="#11">August 2005</a></li>
+                        </ul>
+                    
+                    </div>
+                    
+                    <div class="sideblock" id="searchBox">
+                    
+                        <form method="post" id="searchForm" action="#">
+                            
+                            <div><input type="text" id="keywordsTextBox" size="20" />
+                            <input type="submit" value="Search" id="searchButton" /></div>
+                            
+                        </form>
+                    
+                    </div>
+                
+                </div>
+            
+            </div> -->
+        
+        </div>
+        
+        <div id="footer">
+        
+            <p>
+            </p>
+        
+        </div>
+    
+    </div>    
+
+</body>
+</html>
+

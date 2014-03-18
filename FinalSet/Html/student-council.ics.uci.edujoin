@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<!--
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+-->
+    <meta name="format-detection" content="telephone=no">
+    <title>Join Us</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+<!--
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+-->
+<!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+<![endif]-->
+
+    
+    <meta name="author" content="ICS Student Council">
+    
+    
+    <meta name="generator" content="jekyll">
+    
+
+  </head>
+  <body class="page">
+    <div id="root">
+      <header>
+        <section>
+          <a href="/">
+            <span class="logo"></span>
+          </a>
+        </section>
+        <nav>
+          <ul>
+            <li><a href="/" class="active">Home</a></li>
+            <li><a href="/about/" class="active">About Us</a></li>
+            <li><a href="/join/" class="active">Join Us</a></li>
+          </ul>
+          <ul>
+            <li><a href="/officers/" class="active">Officers</a></li>
+            <li><a href="/events/" class="active">Events</a></li>
+            <li><a href="/calendar/" class="active">Calendar</a></li>
+          </ul>
+          <ul>
+            <li><a href="/contact/" class="active">Contact Us</a></li>
+          </ul>
+        </nav>
+
+      </header>
+      <main>
+<h1 id="toc_0">Join Us</h1>
+
+<p>Our Student Council is broken up into three different committees, come join a committee that suit your needs!</p>
+
+<ul>
+<li><a href="#academic-and-administrative-affairs">Academic and Administrative Affairs</a></li>
+<li><a href="#corporate-outreach">Corporate Outreach</a></li>
+<li><a href="#projects">Projects</a></li>
+</ul>
+
+<p><a id="academic-and-administrative-affairs"></a></p>
+
+<h2 id="toc_1">Academic and Administrative Affairs</h2>
+
+<h3 id="toc_2">Mission</h3>
+
+<p>To address the concerns of the ICS student body and to further them into academic and administrative cohesion &amp; collaboration with the ICS student body.</p>
+
+<h3 id="toc_3">Roles and Responsibilities</h3>
+
+<h4 id="toc_4">Faculty Relations Team:</h4>
+
+<p>Establish, maintain, and extend relationships with faculty through interactions about research opportunities, coaching/mentoring of student project teams in the ICS Council, and improving student-faculty relations. Individuals in this team are responsible to update the Professor List and to make sure that there are consistent interactions between board members and professors.</p>
+
+<h4 id="toc_5">Student Service Team:</h4>
+
+<p>Collect and address the concerns of the ICS students through ICS Student Council Representatives, word of mouth, and faculty/admin interactions.</p>
+
+<p><a id="corporate-outreach"></a></p>
+
+<h2 id="toc_6">Corporate Outreach</h2>
+
+<h3 id="toc_7">Mission</h3>
+
+<p>To support the ICS Student Council&#39;s mission by strengthening and reaching out to the community of alumni and corporate supporters of the ICS School. This means going to networking events to meet up with ICS alumni and various local corporations and inviting them to our school. We build relationships with our alumni and company representatives, help them find something in ICS that appeals to their interests, and give them the opportunity to get involved. We speak to recruiters and hiring managers, reminding them that our school is one of the best in the nation, and coordinating with them to make their visit here convenient and productive.</p>
+
+<p>Some of the companies we&#39;ve worked with recently include Google, Microsoft, and IBM. If you&#39;re interested in building business connections in the Information and Computer Sciences, want to better understand the technology industries, or would like to help our students get internships and jobs, consider joining us!</p>
+
+<p><a id="projects"></a></p>
+
+<h2 id="toc_8">Projects</h2>
+
+<h3 id="toc_9">Mission</h3>
+
+<p>To develop projects for the council, other student associations, the Bren administration, UCI, and corporations.</p>
+
+<h3 id="toc_10">Roles and Responsibilities</h3>
+
+<h4 id="toc_11">Project managers:</h4>
+
+<p>Project managers are responsible for managing resources and coordinating efforts for developing projects.</p>
+
+<h4 id="toc_12">Developers:</h4>
+
+<p>Developers are responsible for creating software projects in any capacity, including but not limited to, requirements gathering, software design, software architecture, user-interface design, and coding.</p>
+
+<h4 id="toc_13">Regular members:</h4>
+
+<p>Regular members assist with specific projects as needed, and are responsible for managing administrative affairs of the committee.</p>
+
+      </main>
+      <aside>
+
+      </aside>
+      <footer>
+        <span class="logo"></span>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About Us</a></li>
+            <li><a href="/join/">Join Us</a></li>
+            <li><a href="/officers/">Officers</a></li>
+            <li><a href="/calendar/">Calendar</a></li>
+            <li><a href="/contact/">Contact Us</a></li>
+            <li><a href="/events/">Events</a></li>
+          </ul>
+          <ul>
+            <li><a href="/">App Jams</a></li>
+            <li><a href="/">ICS Day</a></li>
+            <li><a href="/">MobileWorld</a></li>
+            <li><a href="/events/">Reverse Career Fair</a></li>
+          </ul>
+        </nav>
+        <section>
+          <p>Copyright © <time datetime="2013-10-31T23:18:08-07:00">2013</time> <a href="https://github.com/ICSSC" rel="author">ICS Student Council</a>. All rights reserved.</p>
+        </section>
+
+      </footer>
+    </div>
+  </body>
+</html>
+

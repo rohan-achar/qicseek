@@ -1,0 +1,56 @@
+<HTML><HEAD>
+<TITLE>Computational Geometry</TITLE>
+<META name="Owner" value="eppstein">
+<META name="Reply-To" value="eppstein@ics.uci.edu">
+</HEAD><BODY>
+<H1>ICS 266, Spring 1996, Homework Set 3</H1>
+<H2>Due Tuesday, May 14, in class</H2>
+
+<HR><P>
+
+<OL>
+<LI><B>Plane sweep</B>.  Suppose you are given a collection of circles
+in the plane,
+none of which cross each other.  Describe an algorithm for testing
+whether there is any pair of circles, one of which contains the other.
+What is the running time of your algorithm?
+<P>
+<LI><B>Davenport-Schinzel Sequences</B>.  Any two ellipses can have at
+most four crossing points.  What does this imply about the complexity of
+a lower envelope of <I>n</I> ellipses?  How quickly can one compute such
+a lower envelope?
+<P>
+<LI><B>Ham-Sandwich Trees</B>.  A Ham-Sandwich tree in the plane
+works by cutting the point sets corresponding to the two children of any
+node by a common line; the result is that any halfplane boundary can
+only cross three out of the four grandchildren, so this data structure
+gives fast halfspace range queries.  More explicitly,
+if we let T(<I>n</I>) denote the query time on this data structure,
+and S(<I>n</I>) denote time to query a node for which one of its
+two children is missed by the query boundary,
+we have a recurrence
+<BLOCKQUOTE>
+T(<I>n</I>) = T(<I>n/2</I>) + S(<I>n/2</I>) + O(1)<BR>
+S(<I>n</I>) = T(<I>n/2</I>) + O(1)
+</BLOCKQUOTE>
+which has a solution involving the Fibonacci numbers.
+<P>
+In three dimensions, we would like to perform an analogous construction,
+in which we cut the point sets corresponding to the four grandchildren
+of any node by a common plane.
+<P>
+(a) If this were possible, what would this imply about halfspace range queries?
+Write out a recurrence for the query time and solve it.
+<P>
+(b) Show that it is not possible i.e. find four point sets that can not
+be evenly cut by a single plane.
+</OL>
+
+<HR><P>
+<A HREF="/~eppstein/266/">ICS 266</A>,
+<A HREF="/~eppstein/">David Eppstein</A>,
+<A HREF="/">Dept. Information & Computer Science</A>,
+<A HREF="http://www.uci.edu/">UC Irvine</A><BR>
+<SMALL>Last update: 07 May 1996, 10:10:38 PDT</SMALL>
+</BODY></HTML>
+

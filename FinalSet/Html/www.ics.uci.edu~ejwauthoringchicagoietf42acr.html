@@ -1,0 +1,180 @@
+<HTML>
+<HEAD>
+<TITLE>WebDAV Advanced Collections Protocol</TITLE>
+</HEAD>
+<BODY>
+<h1>WebDAV Advanced Collections Protocol</h1>
+<H2>42nd IETF, 27 August 1998<BR>
+Jim Davis</H2>
+
+These are the slides as presented at the WebDAV WG at the 42nd IETF in
+Chicago by Jim Davis.  These slides reflect corrections made during
+discussion.  The presentation included a design for direct references
+that was created by two of the authors (Davis and Whitehead) during
+the week.  This design is not documented in the current ID.
+
+<H2>Terminology</h2>
+
+<UL>
+<LI><B>Referential Resource</B>:  A resource that has no content of its own, but rather is a reference to another resource</LI>
+<LI><B>Ordinary Resource</B>: A resource that is not a reference to another resource</LI>
+<LI><B>Target Resource</B>:  The resource referenced by a referential member of a collection</LI>
+<LI><B>Direct Reference</B>: A reference that has the property that operations on it are passed through to its target</LI>
+<LI><B>Indirect Reference</B>: A reference that has the property that operations on it do not affect its target</LI>
+<LI><B>Strong Reference</B>:  A reference whose referential integrity is guaranteed by the server</LI>
+<LI><B>Weak Reference</B>:  A reference whose referential integrity is not guaranteed by the server</LI></UL>
+
+<H2>Scope of This Specification</h2>
+
+<UL>
+<LI>Direct and weak indirect and references are supported</LI>
+<LI>Headers and properties are designed to be extensible</LI>
+<LI>Allow future support for strong references</LI></UL>
+
+<H2>Referential Resource</h2>
+
+Has four properties
+<ul>
+<li>resourcetype = dav:reference
+<li>reftarget (new) = URL of target resource.
+<li>reftype (new) = dav:direct or dav:indirect
+<li>refintegrity (new) = dav:weak or dav:strong
+</ul>
+
+<H2>New HTTP headers</h2>
+<ul>
+<li>Ref-Type
+<li>Ref-Target
+</ul>
+<H2>New methods</h2>
+<ul>
+<li>MKREF
+<li>DELREF
+</ul>
+<H2>New properties</h2>
+<ul>
+<li>on reference resource:
+<ul>
+<li>reftarget - URL of target resource.
+<li>reftype - dav:direct or dav:indirect
+<li>refintegrity - dav:weak or dav:strong
+</ul>
+<li>on target resource:
+<ul>
+<li>references - list of URLs of targets.
+</ul>
+</ul>
+
+
+<H2>Operations on Indirect Reference</h2>
+
+<UL>
+<LI>Redirected:</LI>
+<ul>
+<li>GET, HEAD, PUT, POST</LI>
+</ul>
+<LI>Affect reference:</LI>
+<ul>
+<li>PROPPATCH, PROPFIND, DELREF, DELETE, COPY, MOVE, LOCK, </LI>
+</ul>
+<LI>Passed to target:</LI>
+<ul>
+<li>none</LI>
+</ul>
+</UL>
+
+<H2>Operations on Direct Reference</h2>
+
+<UL>
+<LI>Redirected:</LI>
+<ul>
+<li>None
+</ul>
+<LI>Affect reference:</LI>
+<ul>
+<li>DELREF, DELETE, COPY, MOVE
+</ul>
+<LI>Passed to target:</LI>
+<ul>
+<li>GET*, HEAD*, PUT, POST, PROPFIND, PROPPATCH, LOCK
+<li>*except Ref-Type and Ref-Target headers are added
+</ul>
+</UL>
+
+<H2>Creating Referential Resources</H2>
+
+[Request]
+<PRE>
+MKREF /~whitehead/dav/spec08.ref HTTP/1.1
+Host: www.ics.uci.edu
+Ref-Target: http://www.ics.uci.edu/i-d/draft-webdav-protocol-08.txt
+Ref-Type: &lt;dav:indirect&gt;
+</PRE>
+
+[Response]
+<PRE>
+HTTP/1.1 201 Created
+</PRE>
+
+<H2>Deleting Referential Resources</H2>
+
+[Request]
+<PRE>
+DELREF /~whitehead/dav/spec08.ref HTTP/1.1
+Host: www.ics.uci.edu
+</PRE>
+
+[Response]
+<PRE>
+HTTP/1.1 200 OK
+</PRE>
+
+<H2>Operations on Target Resources</h2>
+
+<UL>
+<LI>Operations on targets of weak, indirect references have no effect on the referential resource</LI>
+<LI>Operations on targets of direct references:
+<ul>
+<li>DELETE deletes all references</LI>
+<LI>MOVE updates ref-target of references</LI>
+</UL>
+</LI>
+</ul>
+
+<H2>Security issue:</H2>
+
+<P>MOVE of target T to a new, secret place reveals location to reference R</P>
+<P>Solution: COPY it, then DELETE.</P></DIR>
+
+<H2>Issues</h2>
+
+<UL>
+<LI>Owner of T should be able to prevent creation of direct references</LI>
+<LI>References should have distinct ACL from target.</LI>
+<LI>Cross-server reference acts like a proxy.</LI>
+
+</UL>
+
+<H2>Ordered Collections</H2>
+
+Not presented, for lack of time.
+
+<H2>Information</H2>
+
+<UL>
+<LI>Draft protocol specification is at: <a
+href="http://www.ics.uci.edu/~ejw/authoring/collection/draft-ietf-webdav-collection-protocol-01.txt">http://www.ics.uci.edu/~ejw/authoring/collection/draft-ietf-webdav-collection-protocol-01.txt</a>
+<BR>(Note that this draft of the protocol does not include the design
+for direct references presented at the IETF.)
+</LI>
+<LI>Authors can be reached at:
+<UL>
+<LI>jslein@crt.xerox.com</LI>
+<LI>jdavis@parc.xerox.com</LI>
+<LI>ababich@filenet.com</LI>
+<LI>ejw@ics.uci.edu</LI>
+</UL>
+</LI>
+</BODY>
+</HTML>
+

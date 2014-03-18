@@ -1,0 +1,495 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    
+    <title>Software Engineering (SE) &laquo; Degrees &laquo; Bren School of Information and Computer Sciences &laquo; University of California Irvine</title>
+
+    <link rel="stylesheet" href="/prospective/css/style.css" media="screen" />
+    
+    <script type='text/javascript' src='/prospective/scripts/jquery.js'></script>
+    <script type='text/javascript' src='/prospective/scripts/init.js'></script>
+    
+</head>
+
+<body>
+
+
+   <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-605898-15']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>   ?>
+   
+   
+    <div id="wrapper">
+
+        <div id="header">
+        
+            <div class="nav nav-left">
+
+                <ul>
+                    <li class="start"><a href="/prospective/en/degrees/overview/" class="">Degrees</a></li>
+                    <li><a href="/prospective/en/opportunities/applied-learning/" class="">Opportunities</a></li>
+                    <li class="end"><a href="/prospective/en/careers/breadth/" class="">Careers</a></li>
+                </ul>
+
+            </div>
+        
+            <div id="logo">
+                <a href="/prospective/en/" class="image-text home-link"></a>
+                <a href="/prospective/en/uci/campus/" class="image-text campus-link"></a>
+            </div>
+        
+            <div class="nav nav-right">
+
+                <ul>
+                    <li class="start"><a href="/prospective/en/student-life/diversity/" class="">Student Life</a></li>
+                    <li><a href="/prospective/en/admissions/freshmen/" class="">Admissions</a></li>
+                    <li class="end"><a href="/prospective/en/contact/student-affairs/" class="">Contact</a></li>
+                </ul>
+
+            </div>
+        
+        </div>
+
+        <div id="content-container">
+        
+            <div id="page-heading">
+
+                <h1>Degrees</h1>
+<p>Our broad selection of majors lets you be as specialized or general as you like</p>            
+            </div>
+
+            <div id="col1">
+
+                <ul class="side-nav">
+    <li><a href="/prospective/en/degrees/overview/" class="">Overview</a></li>
+
+    <li><a href="/prospective/en/degrees/business-information-management/" class="">Business Information Management</a></li>
+    <li><a href="/prospective/en/degrees/computer-game-science/" class="">Computer Game Science</a></li>
+    <li><a href="/prospective/en/degrees/computer-science/" class="">Computer Science</a></li>
+    <li><a href="/prospective/en/degrees/computer-science-engineering/" class="">Computer Science & Engineering</a></li>
+    <li><a href="/prospective/en/degrees/informatics/" class="">Informatics</a></li>
+    <li><a href="/prospective/en/degrees/software-engineering/" class="active">Software Engineering</a></li>
+    <li><a href="/prospective/en/degrees/ics-undeclared-pre-major/" class="">ICS Undeclared Pre-Major</a></li>
+    <li><a href="/prospective/en/degrees/minors/" class="">Minors</a></li> 
+</ul>                    
+            </div>
+                    
+            <div id="col2">
+     <h2>Software Engineering (SE)</h2>
+
+
+   <SCRIPT TYPE='text/javascript' SRC='/prospective/scripts/degree_info_expand.js'></SCRIPT>
+   <LINK REL="stylesheet" HREF="/prospective/css/degree_info_expand.css" MEDIA="screen" />
+
+
+                
+<P>
+The Software Engineering major prepares students to be productive members of software engineering teams in a 
+variety of application domains, with focus on the domains of major importance within each decade. It combines a 
+solid foundation in computer science with knowledge of how to engineer modern software systems, and how to function 
+within teams. 
+<P>
+Coursework in mathematics and statistics provide students the basis for rigorous thinking; coursework in the 
+foundations of computer science provide students the basis for computational thinking; coursework in topics of 
+software engineering prepares students for the production of software; project courses prepare students for the 
+practice of software development.  The major emphasizes the design and implementation of large software systems.
+ 
+
+
+
+
+
+
+
+
+<div id="expandable" STYLE="margin-top: 2em; ">
+
+
+
+
+
+
+
+
+<P CLASS="section_heading"><A HREF="#">IS SOFTWARE ENGINEERING FOR ME?</A> <span></span> </P>
+<DIV CLASS="section_content">
+<P>
+Students who major in Software Engineering will: 
+<UL class="content-list-large">
+   <LI>Acquire a strong foundation in software engineering as well as a solid basis in computer science
+   <LI>Have the ability to become a productive member of software engineering teams in a variety of application domains including, but not restricted to, Web and mobile applications
+   <LI>Be inspired by technical knowledge and have an appreciation for life-long learning
+   <LI>Be capable of placing software in the social context in which is it developed and create novel applications that have the potential to bring social change
+</UL>
+<DIV CLASS="clear"></DIV>
+</DIV>
+
+
+
+
+
+
+<P CLASS="section_heading"><a href="#">WHAT COURSES DO I TAKE?</A> <span></span> </P>
+<DIV CLASS="section_content">
+<P>
+Coursework involves mathematics and statistics, foundations of computer science, topics of software engineering and project courses. Requirements for this major are listed below:
+Lower-division:
+<OL TYPE="A">
+   <LI>ICS 21 and ICS 22, or Informatics 41 and 42, or ICS 31* and ICS 32* and ICS 33*.
+   <LI>ICS 65 or ICS 45C.
+   <LI>ICS 45J*.
+   <LI>ICS 23 or ICS 46.
+   <LI>Informatics 43 or ICS 52.
+   <LI>ICS 51.
+   <LI>Mathematics 2A-B, ICS 6B, ICS 6D, ICS 6N*, Statistics 7 or Statistics 67.
+</OL>
+
+Upper-division:
+<OL TYPE="A">
+   <LI>Core requirements: CS 122A, CS 143A, CS 132, CS 161, Informatics 101/CS 141, Informatics 113, Informatics 115, Informatics 131, Informatics 121, Informatics 122, Informatics 123, Informatics 151, Informatics 191A-B-C, ICS 139.
+   <LI>Four elective courses chosen from the following:  Informatics 102, Informatics 124, Informatics 125/CS 113, Informatics 133, Informatics 134, Informatics 141/CS 121, Informatics 143, Informatics 148, Informatics 161, CS 133, CS 134, CS 142A, CS 142B, CS 145A, CS 145B, CS 146, CS 165, ICS 160, ICS 167, ICS 168.
+</OL>
+<P>
+Software Engineering elective courses may not be counted as part of the Management Minor or the Biomedical Computing Minor.
+<P>
+<B>*Note:  These courses will be taught during AY 2012-13</B>
+<P>
+A suggested four-year academic plan is available below. This is just one example; students may complete these courses in any manner that is consistent with the prerequisites and the actual offerings each year. 
+
+
+<P>
+<strong>Sample Program of Study for SE Majors</strong> <BR>
+
+<style>
+   #sample_program_table TH,TD { NOTfont-size: 0.7em; padding: 2px; }
+   #sample_program_table { margin-bottom: 1em; }
+</style>
+
+
+
+<table id="sample_program_table" width="80%" align="CENTER" border="1">
+
+   <TR>
+      <TH COLSPAN=3>Freshmen</TH>
+   </TR>
+   <TR>
+      <TH WIDTH=30%>Fall</TH>
+      <TH WIDTH=30%>Winter</TH>
+      <TH WIDTH=30%>Spring</TH>
+   </TR>
+   <TR VALIGN=TOP>
+      <TD> ICS 31 <P> Math 2A <P> WR 39A </TD>
+      <TD> ICS 32 <P> Math 2B <P> WR 39B <P> GE III </TD>
+      <TD> ICS 33 <P> In4matx 43 <P> ICS 6B <P> WR 39C </TD>
+   </TR>
+
+</TABLE>
+
+
+<table id="sample_program_table" width="80%" align="CENTER" border="1">
+
+   <TR>
+      <TH COLSPAN=3>Sophomore</TH>
+   </TR>
+   <TR>
+      <TH WIDTH=30%>Fall</TH>
+      <TH WIDTH=30%>Winter</TH>
+      <TH WIDTH=30%>Spring</TH>
+   </TR>
+   <TR VALIGN=TOP>
+      <TD> ICS 51 <P> ICS 45C <P> ICS 6D <P> GE III/VII </TD>
+      <TD> ICS 46 <P> In4matx 113 <P> ICS 6N <P> In4matx 131 </TD>
+      <TD> ICS 45J <P> CS 143A <P> CS 122A <P> Stats 7 </TD>
+   </TR>
+
+</TABLE>
+
+
+
+<table id="sample_program_table" width="80%" align="CENTER" border="1">
+
+   <TR>
+      <TH COLSPAN=3>Junior</TH>
+   </TR>
+   <TR>
+      <TH WIDTH=30%>Fall</TH>
+      <TH WIDTH=30%>Winter</TH>
+      <TH WIDTH=30%>Spring</TH>
+   </TR>
+   <TR VALIGN=TOP>
+      <TD> In4matx 121 <P> In4matx 115 <P> GE IV <P> GE III </TD>
+      <TD> In4matx 122 <P> In4matx 151 <P> In4matx 101 <P> GE IV/VIII </TD>
+      <TD> In4matx 123 <P> In4matx 191A <P> CS 132 <P> GE IV </TD>
+   </TR>
+
+</TABLE>
+
+
+
+<table id="sample_program_table" width="80%" align="CENTER" border="1">
+
+   <TR>
+      <TH COLSPAN=3>Senior</TH>
+   </TR>
+   <TR>
+      <TH WIDTH=30%>Fall</TH>
+      <TH WIDTH=30%>Winter</TH>
+      <TH WIDTH=30%>Spring</TH>
+   </TR>
+   <TR VALIGN=TOP>
+      <TD> CS 161 <P> In4matx 191B <P> SE Elective </TD>
+      <TD> ICS 139W <P> In4matx 191C <P> SE Elective </TD>
+      <TD> SE Elective <P> SE Elective <P> GE VI </TD>
+   </TR>
+
+</TABLE>
+
+
+        
+
+
+
+
+
+
+
+<DIV CLASS="clear"></DIV>
+
+</DIV>
+
+
+
+
+
+
+
+
+
+<P CLASS="section_heading"><a href="#">WHAT CAN I DO WITH A DEGREE IN SE?</A> <span></span> </P>
+<DIV CLASS="section_content">
+<P>
+A wide variety of careers and graduate programs are open to Software Engineering graduates. The Web and mobile applications industry is a multi-billion dollar industry, and job growth projections are the strongest for people with strong technical backgrounds. Many other application domains, including interactive entertainment, medical information systems, and training and education software have demand for similar skill sets and knowledge. Graduate school in either computer science or software engineering or a related IT field is also a possible career path.
+<DIV CLASS="clear"></DIV>
+</DIV>
+
+
+
+
+
+
+
+<P CLASS="section_heading"><a href="#">SPECIAL PROGRAMS</A> <span></span> </P>
+<DIV CLASS="section_content">
+
+<P>
+UC Irvine offers several ways to add depth scope, and experiential learning to your academic program of study. An academic counselor will help you determine the most efficient way to add another major, a minor or concentration to your academic plan, and will refer you to other campus programs and resources that support your interests and future goals. All Bren School majors in good standing may propose an academic plan that demonstrates the ability to complete the concentration and other requirements for graduation in a reasonable timeframe.
+
+<UL class="content-list-large">
+   
+   <LI><STRONG>CONCENTRATION: Engineering and Computer Science in the Global Context. </STRONG>
+       The globalization of the marketplace for information technology services and products makes it likely that Bren School graduates will work in multicultural settings or be employed by companies with extensive international operations or customer bases. The goal of the concentration is to help students develop and integrate knowledge of the history, language and culture of a country or geographic region outside the United States, through coursework both at UCI and an international host campus, followed by a technology related internship in the host country. 
+       <P CLASS="sub-indent">
+          <P><STRONG>Application:</STRONG><BR>
+             Each student’s proposed program of study, specifying coursework and a guided internship experience in a region outside the U.S. must be approved in advance by the Bren School’s Associate Dean for Student Affairs. It is expected that each student’s proposal will reflect a high degree of planning that includes the guidance of academic counselors and those at the UCI Center for International Education regarding course selection, as well as considerations related to internship opportunities, housing and financial aid. The academic counselors and the Associate Dean will be available to assist qualified students with the development of a satisfactory academic plan, as needed.
+      <P><STRONG>Requirements:</STRONG> <BR>
+             <UL CLASS="sub-indent">
+             <LI>A minimum of eight courses at UCI or at the international campus with an emphasis on the culture, language (if applicable and necessary), history, literature of the country that corresponds to the international portion of the program, international law, international labor policy, global issues, global institutions, global conflict and negotiation, and global economics;  </LI>
+             <LI>A one- or two-semester sequence of technical courses related to the major and, possibly, cultural, history and literature courses taken at an international university; </LI>
+             <LI>A two-month or longer technical internship experience in the same country as the international educational experience. </LI>
+              </UL>
+       </P>
+   </LI>
+    
+   <LI><STRONG>Bren School Honors Program.</STRONG>       Allows juniors and seniors enrolled in Bren School major (Biomedical Computing, Business Information Management, 
+      Computer Game Science, Computer Science, Computer Science and Engineering, Informatics, Information and Computer 
+      Science, or Software Engineering) to pursue advanced work in one of many research areas. Students who join the 
+      program participate in an honors seminar, conduct independent research under the guidance of a faculty member, 
+      and write a research paper. 
+      <A HREF="http://honors.ics.uci.edu/">Click here</A> 
+      for more information about eligibility criteria and benefits of successful completion of the honors program.
+   </LI>
+   <LI><STRONG>Independent Research Opportunities.</STRONG>The Bren School encourages all majors to take advantage of this valuable experience, and faculty advertise many research opportunities every year. Students also are encouraged to participate in the campus 
+       <A HREF="http://www.urop.uci.edu/">Undergraduate Research Opportunities Program</A>, which offers guidance and grant funding for student-proposed independent research, and sponsors programs that provide summer stipends for students working on faculty-guided research. </LI>
+   <LI><STRONG>Campuswide Honors Program.</STRONG> Available to selected high-achieving students from all academic majors, from their freshman through senior years. For more information see the 
+       <A HREF="http://www.honors.uci.edu/">CHP</A> website. </LI>
+   <LI><STRONG>Education Abroad Program.</STRONG> Upper-division students have the opportunity to experience different cultures while making progress toward degree objectives through the 
+       <A HREF="http://eap.ucop.edu/">EAP</A>, an overseas study program that operates in cooperation with host universities and colleges throughout the world. </LI>
+   <LI><STRONG>Other Programs of Interest.</STRONG> The following programs offer additional learning opportunities for Bren School students:
+       <P CLASS="sub-indent" STYLE="margin-top: 0.5em; ">
+          <A HREF="http://www.sagescholars.uci.edu/">UCI SAGE (Student Achievement Guided by Experience) Scholars Program</A> </BR>
+          <A HREF="http://www.gse.uci.edu/calteach/">UCI California Teach Initiative</A> </BR>
+          <A HREF="http://www.dccenter.uci.edu/">UCI Washington Academic Internship Program</A> </BR> 
+          <A HREF="http://www.ucdc.uci.edu/about_ucdc.php">UC/DC Internship Program</A> </BR>
+          <A HREF="http://www.dos.uci.edu/leadership/aip/index.php">UCI Administrative Intern Program</A> </BR>
+       </P>
+   </LI>
+</UL>
+
+<DIV CLASS="clear"></DIV>
+
+</DIV>
+
+
+
+
+
+
+<P CLASS="section_heading"><a href="#">STILL NOT SURE?</A> <span></span> </P>
+<DIV CLASS="section_content">
+<P>
+Prospective and current UCI students interested in learning more about the Bren School’s degree 
+options are encouraged to meet with the school’s associate dean of student affairs, counselors and 
+student ambassadors. They will help you determine which of our majors and minors best support your 
+academic strengths and interests. Call our Student Affairs Office at 949-824-5156 to make an 
+appointment or to inquire about campus visit opportunities.  
+<P>
+(Note: Appointments are made by phone only, not by email request.)
+<P>
+CONTACT: <BR>
+Bren School Student Affairs Office <BR>
+Information and Computer Science Building I, Suite 352 <BR>
+Irvine, CA 92697-3430 <BR>
+949-824-5156 <BR>
+<A HREF="mailto:ucounsel@uci.edu">ucounsel@uci.edu</A>
+<DIV CLASS="clear"></DIV>
+
+</DIV>
+
+
+
+
+
+
+
+</DIV>  <!-- #expandable -->
+
+
+
+
+
+             <!--
+             
+             <p class="image-fig">
+                 <img src="/prospective/img/degrees-cs-img.jpg" alt="Chen Li, associate professor of computer science, and his students created a Web search tool to reunite people after the quake that devastated Haiti." />
+                 <cite STYLE="display: block; width: 434px; ">Chen Li, associate professor of computer science, and his students created a Web search tool to reunite people after the quake that devastated Haiti. </cite>
+                 </p>
+                 
+                 -->
+
+
+
+
+
+
+
+
+
+
+<div class="side-panel">
+<h3>Of interest</h3>
+
+
+
+   <STYLE>
+
+      .side-panel  { height: auto;
+                     padding-bottom: 1em; }
+
+      .side-panel DIV.headline { margin-top: 1em;
+                          padding: 0.5em;
+                          background-color: #D0D8E8;
+                          border: 1px solid #C0C8D8;
+                          font-size: 0.8em;
+                          line-height: 160%;
+                        }
+   </STYLE>
+                
+                            <DIV CLASS='headline'><B><A HREF="http://www.todaysengineer.org/2013/Feb/career-focus.asp">
+                               Software Engineering Careers Continue to Boom</A></B> <BR>
+                               According to IEEE publication <I>Today's Engineer</I>, software engineering is a hot industry, "with more demand
+                               for talented professionals than ever." In fact, the U.S. Department of Labor’s Bureau of Labor Statistics 
+                               predicts a 30 percent growth rate for software engineering jobs through 2020 — much higher than the 14 
+                               percent average growth rate for all other occupations. 
+                            </DIV>
+
+                      
+                                 
+</DIV>
+
+
+
+
+
+
+
+                 
+
+
+
+
+
+				<div class="addthis_toolbox addthis_default_style ">
+					<a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=xa-4d7e35ad5fb0fe07" class="addthis_button_compact">Share</a>
+					<span class="addthis_separator">|</span>
+					<a class="addthis_button_preferred_1"></a>
+					<a class="addthis_button_preferred_2"></a>
+					<a class="addthis_button_preferred_3"></a>
+					<a class="addthis_button_preferred_4"></a>
+				</div>
+				<script type="text/javascript">var addthis_config = { ui_language: 'en' };</script>
+				<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4d7e35ad5fb0fe07"></script>
+			</div>
+
+            <div class="spacer"></div>
+
+	    </div>
+		
+		<div id="footer">
+		
+			<div class="lang-selector">
+			
+				<strong>Language: </strong>
+				<a href="/prospective/en/degrees/software-engineering/" class="active">English</a> |
+				<a href="/prospective/zh-tw/degrees/software-engineering/" class="">Chinese (Traditional)</a> |
+				<a href="/prospective/ko/degrees/software-engineering/" class="">Korean</a> |
+				<a href="/prospective/vi/degrees/software-engineering/" class="">Vietnamese</a>			
+			</div>
+		
+			<div class="footer-left">
+			
+			    <p>University of California, Irvine - Irvine, CA 92697 : 949-824-5011</p>
+
+                <div class="links">
+                    <a href="http://www.uci.edu/comments.php" target="_blank">Comments & Questions</a> |
+                    <a href="http://www.uci.edu/privacy.php" target="_blank">Privacy & Legal Notice</a> |
+                    <a href="http://www.uci.edu/copyright.php" target="_blank">Copyright Inquiries</a> |
+                    &copy; 2014 UC Regents
+                </div>
+
+			</div>
+			
+			<div class="footer-right">
+			
+				<a href="http://www.crispbrandagency.com/" class="crisp image-text" target="_blank">Site By Crisp</a>
+
+			</div>
+		
+		</div>
+
+	</div>
+	
+</body>
+</html>

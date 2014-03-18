@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Bengaluru trip</title>
+	<atom:link href="http://ngs.ics.uci.edu/begaluru-trip/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/begaluru-trip/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: website design company</title>
+		<link>http://ngs.ics.uci.edu/begaluru-trip/comment-page-1/#comment-3009</link>
+		<dc:creator><![CDATA[website design company]]></dc:creator>
+		<pubDate>Tue, 01 Sep 2009 13:01:23 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1149#comment-3009</guid>
+		<description><![CDATA[I am likely to visit Bengaluru this October during my vacations.Language is a matter of concern in the Southern part of India.Bangalore has progressed a lot in the past few years.Hope to have a good time when i visit this year.]]></description>
+		<content:encoded><![CDATA[<p>I am likely to visit Bengaluru this October during my vacations.Language is a matter of concern in the Southern part of India.Bangalore has progressed a lot in the past few years.Hope to have a good time when i visit this year.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

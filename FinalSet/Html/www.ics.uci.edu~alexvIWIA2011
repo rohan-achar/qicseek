@@ -1,0 +1,600 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns:css="http://macVmlSchemaUri" xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta name=Title content="IWIA'10">
+<meta name=Keywords content="">
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 2008">
+<meta name=Originator content="Microsoft Word 2008">
+<link rel=File-List href="index_files/filelist.xml">
+<title>IWIA'10</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Alex Veidenbaum</o:Author>
+  <o:Template>Normal.dotm</o:Template>
+  <o:LastAuthor>Alex Veidenbaum</o:LastAuthor>
+  <o:Revision>5</o:Revision>
+  <o:TotalTime>26</o:TotalTime>
+  <o:Created>2011-03-02T00:13:00Z</o:Created>
+  <o:LastSaved>2011-03-04T22:22:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>622</o:Words>
+  <o:Characters>3547</o:Characters>
+  <o:Company>University of California</o:Company>
+  <o:Lines>29</o:Lines>
+  <o:Paragraphs>7</o:Paragraphs>
+  <o:CharactersWithSpaces>4355</o:CharactersWithSpaces>
+  <o:Version>12.257</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>150</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:SplitPgBreakAndParaMark/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="276">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--h2
+	{mso-bidi-font-size:10pt;
+	mso-bidi-font-weight:normal;}
+h3
+	{mso-bidi-font-size:10pt;
+	mso-bidi-font-weight:normal;}
+span.HEADING2CHAR
+	{mso-bidi-font-size:13pt;
+	mso-style-locked:yes;}
+span.HEADING3CHAR
+	{mso-bidi-font-size:10pt;
+	mso-style-locked:yes;}
+
+ /* Font Definitions */
+@font-face
+	{font-family:"Courier New";
+	panose-1:2 7 3 9 2 2 5 2 4 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Times;
+	panose-1:2 0 5 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ascii-font-family:Times;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Times;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:"Times New Roman";
+	mso-ascii-font-family:Times;
+	mso-hansi-font-family:Times;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	font-weight:bold;}
+h3
+	{mso-style-link:"Heading 3 Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.5pt;
+	font-family:"Times New Roman";
+	mso-ascii-font-family:Times;
+	mso-hansi-font-family:Times;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-ascii-font-family:Times;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Times;
+	mso-bidi-font-family:"Times New Roman";}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-locked:yes;
+	mso-style-link:"Heading 2";
+	mso-ansi-font-size:13.0pt;
+	font-family:Calibri;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	font-weight:bold;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-locked:yes;
+	mso-style-link:"Heading 3";
+	mso-ansi-font-size:10.0pt;
+	font-family:Calibri;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	font-weight:bold;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+@list l0
+	{mso-list-id:162359607;
+	mso-list-template-ids:1081802336;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1
+	{mso-list-id:1538735934;
+	mso-list-template-ids:-1066479588;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l1:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l2
+	{mso-list-id:1587761876;
+	mso-list-template-ids:-1312629318;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";}
+@list l3
+	{mso-list-id:2141918309;
+	mso-list-template-ids:872732776;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:Symbol;}
+@list l3:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:1.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";}
+@list l3:level3
+	{mso-level-tab-stop:1.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level4
+	{mso-level-tab-stop:2.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level5
+	{mso-level-tab-stop:2.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level6
+	{mso-level-tab-stop:3.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level7
+	{mso-level-tab-stop:3.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level8
+	{mso-level-tab-stop:4.0in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+@list l3:level9
+	{mso-level-tab-stop:4.5in;
+	mso-level-number-position:left;
+	text-indent:-.25in;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:minor-latin;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:minor-latin;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=white lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<div class=Section1>
+
+<h2 align=center style='text-align:center'><span style='color:gray'>International
+Workshop on Innovative Architecture for Future <br>
+Generation High-Performance Processors and Systems <o:p></o:p></span></h2>
+
+<h2 align=center style='text-align:center'><span style='color:gray'><o:p>&nbsp;</o:p></span></h2>
+
+<p align=center style='text-align:center'><span style='font-size:11.0pt;
+mso-bidi-font-size:10.0pt'>Date: April 7-8, 2011<br>
+Place: <span class=SpellE>Kohala</span> Coast, Hawaii <br>
+Location: <a href="http://www.princeresortshawaii.com/HBP"><span class=SpellE>Hapuna</span>
+Beach Prince Hotel</a><br style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]><o:p></o:p></span></p>
+
+<p align=center style='text-align:center'><span style='font-size:11.0pt;
+mso-bidi-font-size:10.0pt'><br>
+<span style='color:fuchsia'>Sponsored by </span>Center for Embedded Computer
+Systems, UC Irvine <o:p></o:p></span></p>
+
+<p align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
+normal'><span style='font-size:12.0pt'>Program Committee </span></i></b><i
+style='mso-bidi-font-style:normal'><span style='font-size:12.0pt'><o:p></o:p></span></i></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<table class=MsoNormalTable border=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:2.0pt;mso-padding-alt:2.0pt 2.0pt 2.0pt 2.0pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td style='padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+  <table class=MsoNormalTable border=0 cellpadding=0 style='mso-cellspacing:
+   1.5pt'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal>Prof. Jose Ayala (<span class=SpellE>Compultense</span>
+    U, Spain) <br>
+    Prof. <span class=SpellE>Nik</span> <span class=SpellE>Dutt</span> (UC
+    Irvine) <br>
+    Prof. Kyle <span class=SpellE>Gallivan</span> (Florida State) <br>
+    Prof. Peter <span class=SpellE>Kogge</span> (Notre Dame) <br>
+    Dr. Hans Zima (JPL) </p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal><o:p></o:p></p>
+  </td>
+  <td style='padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+  <table class=MsoNormalTable border=0 cellpadding=0 style='mso-cellspacing:
+   1.5pt'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:.75pt .75pt .75pt .75pt'>
+    <p class=MsoNormal> Prof. Hironori Kasahara (Waseda U) <br>
+    Prof. Atsushi Kubota (Hiroshima city U) <br> 
+    Prof. <span class=SpellE>Toshinori</span> Sato (Kyushu U) <br>
+    Prof. Hajime Shimada (NAIST) <br>
+    Prof. <span class=SpellE>Kiyofumi</span> Tanaka (JAIST) </p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal align=right style='text-align:right'><o:p></o:p></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p align=center style='text-align:center'>Publication Chair: Prof. <span
+class=SpellE>Nakajo</span> </p>
+
+<p align=center style='text-align:center'>Local Arrangements Chair: Alex <span
+class=SpellE>Veidenbaum</span> </p>
+
+<p align=center style='text-align:center'>Finance Chairs: Profs. <span
+class=SpellE>Nicolau</span> and Joe </p>
+
+<p align=center style='text-align:center'><a href="#describe">Workshop
+description </a><br>
+<a href="#publ">Submission </a><br>
+<a href="#people">Participants </a><br>
+<a href="#travel">Local Arrangements </a><br>
+<a href="./program.htm">Preliminary Program </a><br>
+<br>
+<a href="#stercom">IWIA Steering Committee</a></p>
+
+<p><o:p>&nbsp;</o:p></p>
+
+<h3><a name=describe><i style='mso-bidi-font-style:normal'>Description </i></a><i
+style='mso-bidi-font-style:normal'><o:p></o:p></i></h3>
+
+<p>This workshop aims to bring together researchers and designers from academia
+and industry to discuss directions in the development of high-performance,
+parallel, and distributed processors and systems. The main goal of the workshop
+is to discuss future trends in the development of architecture and software
+systems and to explore the assumptions made by the architects about software
+systems and by software writers about architecture. The increased complexity in
+each of these areas calls for increased interaction with researchers from all
+of the other disciplines to accurately assess the potential directions and
+future trends in architecture and systems. </p>
+
+<p>The main themes of the workshop are software- and technology-driven and
+constrained new architectures, compiler/architecture interaction and co-design,
+and application requirements and characteristics. Both numerical and
+non-numerical applications, such as database, data mining, Web- and Java-based,
+and (high-performance) embedded applications, are of interest. In all cases a
+longer-term view and assessment of the future is of most interest. </p>
+
+<p><o:p>&nbsp;</o:p></p>
+
+<p><b style='mso-bidi-font-weight:normal'>This year's special focus is on 3D
+architectures and technology. All aspects of the design, architecture, power
+management, reliability, and programming of such processors are of interest. </b></p>
+
+<p>Other topics of interest include but are not limited to the following: </p>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo3;tab-stops:list .5in'>Processor
+     design </li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo3;tab-stops:list .5in'>Single-chip
+     multiprocessors, multi-chip servers and large-scale multiprocessors </li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo3;tab-stops:list .5in'>Memory
+     technology and system organization </li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo3;tab-stops:list .5in'>Applications
+     and their performance </li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo3;tab-stops:list .5in'>Power
+     management</li>
+ <li class=MsoNormal style='mso-list:l1 level1 lfo3;tab-stops:list .5in'><o:p>&nbsp;</o:p></li>
+</ul>
+
+<p>The workshop will consist of sessions combining individual presentations
+with discussion. Presentations will be limited to ~20 min to provide sufficient
+time for discussion. An ideal presentation will concentrate on trends and
+future directions in addition to recently obtained results. Speculation is
+encouraged. </p>
+
+<p><o:p>&nbsp;</o:p></p>
+
+<p><a name=publ></a><b style='mso-bidi-font-weight:normal'>Submission and
+Publication <o:p></o:p></b></p>
+
+<p>The submission of an extended abstract, up to 3 pages, is due by <span
+style='color:red'>4/2/11</span>. Submissions should be electronic in <span
+class=SpellE>pdf</span> format. The abstracts will be reviewed and printed in
+the on-site <span class=SpellE>proceedigns</span>. </p>
+
+<p><span class=GramE>The final proceedings consisting of full papers will be
+published by Conference Publishing Services</span> (CPS,
+http://www.computer.org/portal/web/cscps/home) after the meeting. The full
+papers will undergo additional review and be selected for publication in the
+post-proceedings. The full papers will be due by <span style='color:red'>August
+1st, 2011</span>. <span class=GramE>Publication instructions will be distributed
+by Conference Publishing Services (CPS)</span> at a later date. </p>
+
+<p><o:p>&nbsp;</o:p></p>
+
+<h3><a name=people><i style='mso-bidi-font-style:normal'>Participants </i></a><i
+style='mso-bidi-font-style:normal'><o:p></o:p></i></h3>
+
+<table class=MsoNormalTable border=0 cellpadding=0 width="100%"
+ style='width:100.0%;mso-cellspacing:2.0pt;mso-padding-alt:2.0pt 2.0pt 2.0pt 2.0pt'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+  <td style='padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+  <table class=MsoNormalTable border=0 cellpadding=0 align=left
+   style='mso-cellspacing:2.0pt;mso-table-lspace:3.0pt;mso-table-rspace:3.0pt;
+   mso-table-anchor-vertical:paragraph;mso-table-anchor-horizontal:column;
+   mso-table-left:left;mso-padding-alt:2.0pt 2.0pt 2.0pt 2.0pt'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+    <p class=MsoNormal>TBD </p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal><o:p></o:p></p>
+  </td>
+  <td style='padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+  <table class=MsoNormalTable border=0 cellpadding=0 style='mso-cellspacing:
+   2.0pt;mso-padding-alt:2.0pt 2.0pt 2.0pt 2.0pt'>
+   <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+    <td style='padding:2.0pt 2.0pt 2.0pt 2.0pt'>
+    <p class=MsoNormal>TBD</p>
+    </td>
+   </tr>
+  </table>
+  <p class=MsoNormal><o:p></o:p></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3><a name=stercom><i style='mso-bidi-font-style:normal'>IWIA Steering
+Committee </i></a></h3>
+
+<p class=MsoNormal style='margin-left:.5in'>Prof. <span class=SpellE>Kazuki</span>
+Joe <br>
+Prof. Alex <span class=SpellE>Nicolau</span> <br>
+Prof. Alex <span class=SpellE>Veidenbaum</span> </p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h3><a name=travel><i style='mso-bidi-font-style:normal'>Travel and Local
+Arrangements</i> </a></h3>
+
+<ul style='margin-top:0in' type=disc>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo6;tab-stops:list .5in'>Registration
+     fee: US$300.00. </li>
+ <li class=MsoNormal style='mso-list:l3 level1 lfo6;tab-stops:list .5in'>We
+     have a group rate for IWIA'11 at <a
+     href="http://www.princeresortshawaii.com/HBP"><span class=SpellE>Hapuna</span>
+     Beach Prince Hotel</a></li>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l3 level2 lfo6;tab-stops:list 1.0in'><b
+      style='mso-bidi-font-weight:normal'>Reservations must be made by 3/12/11 </b>and
+      will require a deposit. </li>
+ </ul>
+</ul>
+
+<p class=MsoNormal style='margin-left:.75in'><span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Toll
+<span class=GramE>Free <span style="mso-spacerun: yes">&nbsp;</span>Reservations</span>:
+(866) PRINCE-6 <br>
+<span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Fax:
+(808) 944-4491 <br>
+<span style='mso-tab-count:1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>E-mail:
+reservations@princehawaii.com </p>
+
+<ul style='margin-top:0in' type=disc>
+ <ul style='margin-top:0in' type=circle>
+  <li class=MsoNormal style='mso-list:l3 level2 lfo6;tab-stops:list 1.0in'>It
+      will be possible to stay for up to 3 extra days at the same rate before
+      and after the meeting, subject to room availability. </li>
+  <li class=MsoNormal style='mso-list:l3 level2 lfo6;tab-stops:list 1.0in'><o:p>&nbsp;</o:p></li>
+  <li class=MsoNormal style='mso-list:l3 level2 lfo6;tab-stops:list 1.0in'><o:p>&nbsp;</o:p></li>
+ </ul>
+</ul>
+
+<p class=MsoNormal>Send questions/mail about IWIA to <b style='mso-bidi-font-weight:
+normal'>Alex <span class=SpellE>Veidenbaum</span> </b></p>
+
+</div>
+
+</body>
+
+</html>
+

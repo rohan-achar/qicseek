@@ -1,0 +1,294 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+                <title></title>
+                
+                
+                <meta content="Thu, 17 Oct 2013 08:28:02 -0380" name="date"/>
+                
+<link href="../../../bin/styles/stylesheet_secondary.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<!-- before breadcrumb_nav include -->
+ <!-- after breadcrumb_nav include -->
+
+<div id="wrapper">
+<script type="text/javascript">
+
+sfHover = function() {
+    var sfEls = document.getElementById("navcontainer").getElementsByTagName("LI");
+    for (var i=0; i<sfEls.length; i++) {
+        sfEls[i].onmouseover=function() {
+            this.className+=" sfhover";
+        }
+        sfEls[i].onmouseout=function() {
+            this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+        }
+    }
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+</script>
+
+    <div id="header" title="Welcome to the Donald Bren School of Information and Computer Sciences @ UC Irvine">
+
+           <a id="bren_link" href="/"></a>
+
+           <a id="uci_link" href="http://www.uci.edu/"></a>
+
+    </div>
+    
+    
+    <div CLASS="newbar"><p style="line-height: 0px; display: none; "></p></div>
+    
+    
+    <div id="navcontainer">
+
+                
+            <ul>
+                
+                <li>
+                
+                    <a href='/about/' title='about'>&raquo; About</a>              
+
+                    <ul>
+                        <li><a href="/about/">&raquo; About the School</a></li>
+                        <li><a href="/about/about_mission.php">&raquo; Bren ICS Mission</a></li>
+                        <li><a href="/about/about_deanmsg.php">&raquo; Dean's welcome</a></li>
+                        <li><a href="/about/bren/">&raquo; About the Bren gift</a></li>
+                        <li><a href="/about/about_factsfigures.php">&raquo; Facts and figures</a></li>
+                        <li><a href="/about/brenhall/index.php">&raquo; Donald Bren Hall</a></li>
+                        <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                        <li><a href="/about/about_contact.php">&raquo; Contact us</a></li>
+                        <LI><A HREF="/about/equity/">&raquo; Equity & diversity</A></LI>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/dept/' title='departments'>&raquo; Departments</a>
+                    <ul>
+                        <li><a href="http://www.cs.uci.edu">&raquo; Computer Science</a></li>
+                        <li><a href="http://www.informatics.uci.edu">&raquo; Informatics</a></li>
+                        <li><a href="http://www.stat.uci.edu">&raquo; Statistics</a></li>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/faculty/area/' title='research'>&raquo; Research</a>              
+                
+
+                
+                
+                
+                    <ul>
+                        <li><a href="/faculty/area/">&raquo; Research areas</a></li>
+                        <li><a href="/faculty/centers/">&raquo; Research centers</a></li>
+                        <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                    </ul>
+                </li>
+                
+                
+                
+                <li>
+                
+                    <a href='#' title='education'>&raquo; Education</a>              
+
+                    <ul>
+                        <li><a href="/grad/">&raquo; Graduate</a>
+                        
+                            <ul>                        
+                            <li><a href="/grad/admissions/index.php">&raquo; Apply</a></li>
+                            <li><a href="/grad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="http://www.reg.uci.edu/registrar/soc/fees.html">&raquo; Tuition and costs</a></li>
+                            <li><a href="/grad/courses/index.php">&raquo; Courses</a></li>
+                            <li><a href="/grad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/faculty/area/index.php">&raquo; Research areas</a></li>
+                            <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                            <li><a href="/grad/policies/index.php">&raquo; Policies &amp; forms</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/grad/phddirectory/index.php">&raquo; Recruit graduate student</a></li> -->
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->                            
+                            <li><a href="/grad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="http://www.housing.uci.edu/prospective/graduate/index.asp">&raquo; Graduate housing</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="/ugrad/">&raquo; Undergraduate</a>
+                        
+                            <ul>                        
+                            <!-- <li><a href="/ugrad/admissions/index.php">&raquo; Apply</a></li>                       
+                            <li><a href="/ugrad/events/index.php">&raquo; Campus visits</a></li>
+                            -->
+                            <li><a href="http://www.ics.uci.edu/~lab/">&raquo; Computer lab information</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/ugrad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="/ugrad/courses/index.php">&raquo; Course listings</a></li>                     
+                            <li><a href="/ugrad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="/ugrad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/ugrad/financial/index.php">&raquo; Financial aid</a></li>                         
+                            <li><a href="http://honors.ics.uci.edu/">&raquo; Honors program</a></li>
+                            <li><a href="http://www.housing.uci.edu/">&raquo; Housing</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Internship program</a></li>                         
+                            <li><a href="/ugrad/policies/index.php">&raquo; Policies</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->
+                            <!-- <li><a href="http://www.dos.uci.edu/orientation/">&raquo; Recently admitted</a></li> -->
+                            <li><a href="http://student-council.ics.uci.edu/">&raquo; Student Council</a></li>
+                            <li><a href="/ugrad/life/index.php">&raquo; Student life</a></li>   
+                            <li><a href="/ugrad/resources/index.php">&raquo; Student resources</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Summer internships</a></li>
+                            <li><a href="https://techjobs.uci.edu/">&raquo; Tech Jobs</a></li>
+                            <li><a href="http://www.ofas.uci.edu/content/costs.aspx?nav=1">&raquo; Tuition and costs</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li><a href="http://www.ics.uci.edu/prospective">&raquo; Prospective undergrad</a></li>
+
+
+                        <li><a href="http://www.parents.uci.edu/">&raquo; UCI parents</a></li>
+                        
+                                                    
+                    </ul>               
+                </li>
+
+    
+                <li>
+                    
+                    <a href='#' title='people'>&raquo; People</a>                      
+                    
+                
+                    <ul>
+                        <li><a href="/faculty/">&raquo; Faculty</a></li>
+                        <li><a href="/about/search/index.php">&raquo; Staff</a></li>
+                        <li><a href="/about/search/search_graduate_all.php">&raquo; Graduate students</a></li>
+                    </ul>   
+                </li>
+                                
+                
+                <li> 
+                
+                    <span id=specialborder><a href='#' title='community'>&raquo; Community</a></span>                    
+                    <ul>
+                        <li><a href="/community/alumni/">&raquo; Alumni</a></li>
+                        <li><a href="/community/friends/">&raquo; Friends</a></li>
+                        <li><a href="http://www.uadv.uci.edu/parents/">&raquo; Parent programs</a></li>
+                        <li><a href="/community/friends/leadershipcouncil/">&raquo; Leadership Council</a></li>
+                        <li><a href="http://www.uadv.uci.edu/DonaldBrenSchoolOfICSAnnualGiving">&raquo; Make a gift</a></li>
+                        <li><a href="/community/news/">&raquo; News</a></li>
+                    </ul>   
+                </li>
+
+                <li>
+                
+                    <a href='/involved/' title='get involved'>&raquo; Get Involved</a>              
+                
+                
+                    <ul>
+                    
+                            <LI><A HREF="/involved/tech_talk">&raquo; Tech talks</A></LI>
+                            <LI><A HREF="/involved/information_session">&raquo; Information sessions</A></LI>
+                            <!--<LI><A HREF="/involved/">&raquo; Join industry panel</A></LI>-->
+                            <LI><A HREF="/involved/project_class">&raquo; Sponsor projects</A></LI>
+                            <LI><A HREF="/involved/leadership_council">&raquo; Leadership Council</A></LI>
+                            <LI><A HREF="/involved/corporate_partner">&raquo; Corporate Partners</A></LI>
+                            <LI><A HREF="/involved/internship">&raquo; Sponsor interns</A></LI>
+                            <LI><A HREF="https://techjobs.uci.edu/">&raquo; Tech Jobs</A></LI>
+                            <!--<LI><A HREF="">&raquo; Support student groups</A></LI>-->
+                            <LI><A HREF="/community/events/butterworth/">&raquo; Butterworth Competition</A></LI>
+                            
+                    </ul>               
+                </li>
+                
+                    
+
+            </ul>
+
+<style type="text/css">@import url("/bin/icssearchstyle/css/icssearch.css");</style>
+<script src="/bin/icssearchstyle/js/icssearch.js" type="text/javascript"></script>
+<script src="/bin/icssearchstyle/js/icssearchform.js" type="text/javascript"></script>
+
+
+
+    </div>
+<!-- before breadcrumb_nav() print -->
+<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/news/">News</a> &gt; <a href="http://www.ics.uci.edu/community/news/articles/">Articles</a>] --><A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/news/">News</a> &gt; <a href="http://www.ics.uci.edu/community/news/articles/">Articles</a></div>
+<!-- after breadcrumb_nav() print -->
+
+<div id="content"><a id="startcontent" name="startcontent"></a>  
+<div id="content_title"></div>
+
+<blockquote>
+<div id="content_text">
+
+<br/>
+
+<!-- inc publications_db -->
+
+ <strong>July 28,  2006</strong><p><i>The Sydney Morning Herald</i><p><strong>Cortex interruptus</strong><p><strong>By: Alison Motluk</strong><br><p><b>Can't get any work done? A cyber secretary might be just the thing, writes Alison Motluk.</b><p>YOU know the kind of day. You set time aside to finish a report, only to be constantly interrupted by crises in the office, whining colleagues, calls from family, gossip at the coffee machine and saucy emails. You end up writing the thing at home, after the kids are asleep.<p>For more and more people, every day feels like this - one long string of interruptions with only the gaps in between to get anything done. However bad you think it is, it's probably worse. When researchers at the University of California at Irvine set out to quantify the problem, they thought people were probably overreacting, that we probably got in a good quarter of an hour or so between disruptions. But after shadowing a dozen information workers for three days, they found that on average they got just three sustained minutes of work in before being diverted. "I was shocked," says Gloria Mark, who ran the study.<p>It wasn't always like this. In the good old days, if somebody didn't have the courage to walk over and disturb you in person, they relied on the telephone or the post. Now your friends and colleagues think nothing of emailing, texting, leaving voicemails and trying your mobile, and if you don't respond instantaneously to any of these, they pop by to see what's wrong. Out of touch is out of the question.<p>This "always on" culture is taking its toll. A survey by US information technology research firm Basex this year found that interruptions take up more than two hours of the working day. Even work-related interruptions disrupt your flow. It was estimated that the cost of these breaches to the US economy is $US588 billion ($A785 billion) a year - 6.5 times as much as the estimated cost of back pain, according to a 2004 study at Duke University in Durham, North Carolina.<p>Glenn Wilson, at the Institute of Psychiatry in London, last year found that being bombarded with emails and phone calls has a greater effect on IQ than smoking marijuana (New Scientist, April 30, 2005).<p>Edward Hallowell, a psychiatrist based in Sudbury, Massachusetts, has seen the signs. He treats patients with attention deficit disorder and says that in the past few years he has seen an increase in people claiming to have "developed" the disorder in adulthood. Patients complain that they are distracted, forgetful, disorganised and impulsive - and they can't get anything done. But for many of them the symptoms mysteriously disappear when they are on holiday.<p>The problem, he soon realised, was their work environment, and their lack of control over their own interruptions. "Technology used properly is a blessing, but when used wrong, it's downright destructive," says Mr Hallowell, who has written a book on the subject, CrazyBusy.<p>How do we improve the situation? As anyone working in an office knows, interruptions are often necessary: we need to discuss projects with our colleagues, take important phone calls and so on, and we need breaks. But now that there are more ways to be interrupted, it is even more difficult to keep the day under our control.<p>Technology may be at the root of all this, but some researchers believe it is the solution too. Put your ear to the ground and you'll hear them talking whimsically of computers that are more "understanding" and "empathetic". The systems of the future, they say, will take the time to really get to know us, to understand what's important to us, who our friends and associates are, so that it can decide whether this call should be put through or that email be given priority.<p>They'll recognise when we can handle being disturbed and when we want to be left alone. They will apologise when they get it wrong. Our lives will cease to be a cacophony of beeps, buzzes and rings. Instead, our interruptions will be orchestrated by our perfectly intuitive, round-the-clock techno-assistants. Or that's the idea.<p>The first job for our cyber-secretaries will be to deliver us from temptation. After all, we do want most of our interruptions, we just don't want them all now, and as any compulsive email checker knows, we aren't always that good at deciding what is urgent and what can wait. Gloria Mark's research backed this up: about half of all interruptions are self-generated.<p>Several years ago Microsoft set about designing a system called Priorities that could analyse each interruption for salience and urgency on your behalf. It works much like the way a doctor uses a triage system to decide how urgently a patient needs care. After you train it up, Priorities examines each incoming email or call to see who it is from, what your relationship to the sender is, whether you share any projects, and so on. It scans for evidence of urgency - whether the email mentions a date, a time, or an impending meeting. It also looks for keywords that you have indicated are relevant to you, then it assigns a score.<p>"It works extremely well at discriminating urgent from non-urgent," says Eric Horvitz, a senior researcher at Microsoft in Redmond, Washington. He and others use it to prioritise messages in the office and to decide which ones are so important they need to be sent via his mobile no matter where he is. It's better than a live secretary, he says. "It knows so much about me."<p>It only occurred to me after a few minutes of banter with Mr Horvitz that I too had come under the cold scrutiny of Priorities and had been scored. As the interrupter, I was curious to know how I had fared. My initial email had received just 65 out of 100, with a 20 per cent chance of being junk, Mr Horvitz told me - "not bad", he said, for someone who didn't work at Microsoft and with whom he had never exchanged emails before. To console me, Mr Horvitz confided that even Bill Gates gets low scores - not because his emails aren't important, but because they are usually more meditative than urgent.<p>It looks like assessing the value of a communication is the easy part. What's harder is figuring out when a person is in the right frame of mind to receive it. Predicting an individual's interruptability has become the focus of a great deal of study. Ms Mark found that employees in open-plan cubicle offices who could hear and see their co-workers interrupted each other less, and in less annoying ways than employees who had their own offices. Although the open-space folks interrupted more often, they did so at more appropriate junctures. Can computers be trained to give us the best of both worlds?<p>The key could lie in predicting a person's "interruptability". Scott Hudson at Carnegie Mellon University in Pittsburgh has tried to figure this out by painstakingly measuring everything from the number of people in an office, to whether a person was typing at their keyboard and whether a door was open or shut, and asking people to estimate the cost of an interruption. After placing microphones and sensors around the office and interrupting at different times, he was surprised to find that the most important single factor in their interruptability is whether or not someone is talking.<p>If they were, he discovered, there was a 76 per cent chance they didn't want to be interrupted. That's about as good as human observers, he points out, who on average guess with only 77 per cent accuracy that a person doesn't want to be disturbed. "What your mother taught you was correct," Mr Hudson says. "Don't interrupt when someone is talking."<p>Adding several more sensors - on the phone, keyboard and mouse, for instance - bumped up accuracy to 82.4 per cent.<p>Still, getting it wrong every fourth or fifth time isn't quite good enough. And, as Mr Hudson points out, people have different jobs, not to mention different dispositions.<p>For a manager, talking might mean hard work, but for a procrastinating writer, it might mean break time. A computer will need to be taught what you're like, how you work and what signals availability for you.<p>This too is a pet research area for Microsoft. Some years ago it ran an "interruption workbench", which filmed people over their shoulders as they worked and were interrupted. At the end of the day, the volunteers had to indicate how irritating or acceptable each interruption in their day had been - and to assign it a dollar value.<p>That led to something they call BusyBody. It's a device that lives up to its name: it paws through your calendar and eavesdrops on your office, and it spies on you, taking note of things such as head position and activity level. Then it pools the information to help decide whether you are in a state to receive any non-urgent communications.<p>Put BusyBody side by side with Priorities, as is the case in a prototype dubbed Bestcom, and you have a system that can weigh the benefits of keeping you informed against the cost of interrupting you.<p>During a telephone conversation I had with Mr Horvitz, for instance, the system held back all emails and diverted two calls. Presumably none of them were deemed more urgent than I was.<p>On another day, when I called at a pre-arranged time, only to get an answering machine, an email arrived from Mr Horvitz a few minutes later saying his system had informed him that I called but his meeting had run over; could he call me in 10 minutes?<p>Had I been a Microsoft employee, that option would have been presented to me on screen, even as the phone was ringing. It would have checked his calendar and offered me alternative times to ring back.<p>"We found that if we just deferred callers for a few minutes, there was a lower cost of interruption," Mr Horvitz says. That cost, of course, is shifted back to the caller, who has to interrupt whatever they are doing at the new time and try again. Unless, that is, you're his wife, Bill Gates, or a handful of others with "breakthrough" privileges.<p>There are other potential costs, for instance, to privacy. Of course, the good boss won't use the information a computer collects about a person's work habits to decide who gets the axe and who the pay rise, he or she won't listen in on your conversations or blame you for claiming to be uninterruptible when you're really surfing the net for a new pair of shoes, but can you be sure the information stays private? What's more, as "Clippy", Microsoft's erstwhile animated office assistant, demonstrated, there are few things more likely to annoy busy people than a computer that thinks it's really helpful - no one wants a computer that tuts and shakes its head every time it catches you napping.<p>No matter how good the training, computers will always make some mistakes, says Rosalind Picard at the MIT Media Lab in Boston.<p>One possible way to get over the irritation factor, she says, is to make the system more considerate.<p>"People interrupt you at the wrong time a lot," Ms Picard says. "The ones who keep their jobs are the ones who say 'I'm sorry', who take a second to be empathetic."<p>A computer can do this, too. Ms Picard tested two systems designed to interrupt people between one and 60 times a day to ask about their stress level and interruptability. One was merely polite. The other was polite but also showed concern for the person being intruded upon and apologised if it was a bad time.<p>When people with "caring" computers were later asked how often they had been interrupted that day, they significantly underestimated the number. Those who had been spared the faux emotion were more accurate.<p>"We want (computers) to be willing to make mistakes, and to recover from them. We want them to be able to say they're sorry," Ms Picard says.<p>But even the best-timed interruption, even the one abjectly apologised for, will disrupt our flow, which in turn will affect productivity. It's not simply that interruptions steal time away from other projects; they also make it hard to get back to what you were doing - if you can even remember what it was.<p>According to Gloria Mark, only 77 per cent of interrupted work is resumed the same day. Even when you do manage to pick up where you left off, typically it takes an average of 25 minutes and two intervening tasks before you do. Can technology help with this too?<p>Ms Mark thinks it can. People tend to have what she calls "working spheres", or discrete projects that may use several applications at once. She found that interruptions were not nearly as bad if they were related to the project a person was already working on. However, being forced to leave one working sphere and enter another was highly disruptive.<p>One thing that would help, she believes, would be if others could somehow know what project you are working on at any given time. "Broadcast to colleagues what the working sphere is," she says. That way, they'd be able to better estimate the cost of an interruption.<p>There's no doubt that handing over just a little control to the machines could make our lives that bit easier. But just as the answer-machine revolution was followed by the counter-revolt of "telephone tag" - leaving several messages for each other but never actually talking - no doubt we will find downsides to these technologies too. Edward Hallowell thinks that in the end the solution comes down to us, and whether we can use technology wisely. "We haven't learned to master it - it has mastered us," he says. "We need a new etiquette."<p>Ramona Creel, a professional organiser, agrees. Her clients know there's a problem, but they want to blame something tangible, like a filing system. "I think it's mental," she says. "You have to respect your time before others will."<p>You have to have the backbone to be honest with people, she says: tell them you really don't have a minute if you don't. Take a lesson from Ms Picard's computers, and apologise while you're saying it. And like Mr Horvitz's Bestcom, you can offer to schedule a meeting for another time, or have regular times each day when you have an open-door policy. If you are interrupted, take a moment to note where you left off, so you have less trouble getting back on track.<p>Finally - and this will be painful - have the guts to turn off your email, phone and instant messenger until the job is done.<p><b>New Scientist</b><p><b>Surfing the wave of interruptions</b><p>- Get a bigger monitor. A Microsoft study found it helped people work up to 44 per cent faster, one of the biggest boosts to productivity yet.<p>- Put up a clear "do not disturb" sign, or an obvious signal that you are busy. Insist that your colleagues respect it.<p>- Rearrange your office furniture so your desk faces away from the flow of people, so no one can catch your eye.<p>- Always stand up to talk to someone who is interrupting you, so they know what they're doing.<p>- Put a big clock in plain view of visitors and check it while you are talking.<p>- Be prepared: if an interruption is likely to take longer than 2 minutes, add it to your to-do list and go back to what you were already doing.<p>- Keep a notebook open and write down what you are doing as soon as you are interrupted.<p>- Cutting 2 centimetres off the front legs of a chair makes it just uncomfortable enough to keep visits short.<br><TITLE>Cortex interruptus</TITLE>
+
+</div>
+</blockquote>
+</div>
+<div id="sidebar"><div id="sidebar_title">More community &#187;</div>
+<ul>
+<li><a href="../../alumni/index.php">Alumni</a></li>
+<li><a href="../../friends/index.php">Friends</a></li>
+<li><a href="http://www.parents.uci.edu/">Parents</a></li>
+<li><a href="../../friends/leadershipcouncil/index.php">Leadership Council</a></li>
+<li><a href="../index.php">News</a></li>
+<li><a href="https://ua-web.uadv.uci.edu/eGiving/">Give a gift</a></li>
+</ul>
+<div>
+<div id="sidebar_title">More news and events &#187;</div>
+<ul>
+<li><a href="../press/index.php">Press
+ releases</a></li>
+<a href="http://www.ics.uci.edu/community/news/press/index.php">				</a>
+<li><a href="index.php">In the 
+news</a></li>
+<li><a href="../notes/index.php">Noteworthy
+ achievements</a></li>
+<a href="http://www.ics.uci.edu/community/news/notes/index.php">				</a>
+<li><a href="http://www.youtube.com/UCIBrenICS">Video highlights</a></li>
+<li><a href="../spotlight/index.php">Spotlight</a></li>
+<li><a href="http://calendar.ics.uci.edu/calendar.php">Calendar of 
+events</a></li>
+</ul>
+<!-- -->
+<!-- -->
+<!-- -->
+<!--
+<div id="sidebar_title">Noteworthy archive &#187;</div>
+<ul>
+<li><a href="/ICS/ics/community/news/notes/notes_2009">2009</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2008">2008</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2007">2007</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2006">2006</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2005">2005</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2004">2004</a></li>
+</ul>
+</div>
+--></div></div>
+<div id="footer"><a href="http://www.uci.edu/copyright.php">Copyright Inquiries</a> |
+   <a href="http://www.uci.edu/cgi-bin/phonebook">UCI Directory</a> |
+   <a href="http://intranet.ics.uci.edu/">Intranet</a> |
+   
+   <!-- <a href="http://www.ics.uci.edu/sitemap.php">Site Map</a> | -->
+ 
+  <a href="mailto: i%63%73%77%65%62m%61s%74%65r@%69c%73%2e%75c%69%2eedu">icswebmaster</a> |
+Updated: 
+October 17 2013</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-605898-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

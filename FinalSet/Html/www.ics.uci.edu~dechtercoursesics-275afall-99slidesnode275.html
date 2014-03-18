@@ -1,0 +1,168 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Apply Macros</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Apply Macros">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5582 HREF="node276.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5580 HREF="node268.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5574 HREF="node274.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5584 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5583 HREF="node276.html"> CIO</A>
+<B>Up:</B> <A NAME=tex2html5581 HREF="node268.html"> Libraries</A>
+<B> Previous:</B> <A NAME=tex2html5575 HREF="node274.html"> quintus_util</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION002220000000000000000> Apply Macros</A></H1>
+<P>
+<A NAME=6515>&#160;</A>
+<A NAME=6516>&#160;</A>
+<A NAME=libapply>&#160;</A>
+<P>
+Very often the programmer wants to scan a given list or structure
+and apply a given predicate on every subterm, or even to collect
+some data from every subterm.
+Although it is quite easy to define the <b> apply/2</b> or <b> maplist/3</b>
+etc. predicates, their performance is poor because of the involved
+metacalls.
+<A NAME=tex2html1290 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  offers the possibility to use macros to define these operations,
+so that they have the efficiency of specialized predicates,
+i.e. as if the predicates were partially evaluated with respect
+to the given inputs. The library is loaded using
+<blockquote> <PRE>:- lib(apply_macros).
+</PRE></blockquote>
+It provides the following macros:
+<DL ><DT>maplist(Pred, ListIn, ListOut)
+<DD>
+<A NAME=6523>&#160;</A>
+calls <i> Pred</i> with two additional arguments
+on every element of the <i> ListIn</i>, yielding <i> ListOut</i>.
+For example
+<PRE>[eclipse 1]: lib(apply_macros).
+loading the library /usr/local/eclipse/lib/apply_macros.pl
+
+yes.
+[eclipse 2]: maplist(times(3), [1, 2, 3], L).
+*** Creating auxiliary predicate 'maplist(times(3))' / 2
+
+L = [3, 6, 9]
+yes.
+</PRE>
+<P>
+<DT>checklist(Pred, List)
+<DD>
+<A NAME=6527>&#160;</A>
+calls <i> Pred</i> with one additional argument on every element of <i> List</i>.
+<P>
+<PRE>[eclipse 1]: checklist(&lt;(0), [1, 2, 3]).
+*** Creating auxiliary predicate 'checklist(&lt;(0))' / 1
+
+yes.
+</PRE>
+<P>
+<DT>selectlist(Pred, ListIn, ListOut)
+<DD>
+<A NAME=6530>&#160;</A>
+stores in <i> ListOut</i> all element from <i> ListIn</i> which
+satisfy <i> Pred</i>
+<P>
+<PRE>[eclipse 1]: selectlist(&lt;(5), [1, 6, 8, 3, 9, 5], L).
+*** Creating auxiliary predicate 'selectlist(&lt;(5))' / 2
+
+L = [6, 8, 9]
+yes.
+</PRE>
+<P>
+<DT>sumlist(Pred, List, AccIn, AccOut)
+<DD>
+<A NAME=6534>&#160;</A>
+calls <i> Pred</i> enhanced by three arguments on every element of <i> List</i>,
+using an accumulator, i.e. if <i> List = <IMG  ALIGN=MIDDLE ALT="" SRC="img45.gif"></i>,
+the following sequence is called:
+<blockquote> Pred(X1, AccIn, A1),<BR> 
+Pred(X2, A1, A2),<BR> 
+..<BR> 
+Pred(Xn, An-1, AccOut).
+</blockquote>
+e.g.
+<PRE>[eclipse 1]: sumlist(times, [2, 3, 4, 5], 1, X).
+*** Creating auxiliary predicate 'sumlist(times)' / 3
+
+X = 120
+yes.
+</PRE>
+<P>
+<DT>mapargs(Pred, TermIn, TermOut)
+<DD>
+<A NAME=6540>&#160;</A>
+is similar to maplist, but traverses the arguments of <i> TermIn</i> rather than
+a list, e.g.
+<PRE>[eclipse 1]: mapargs(atom_string, s(a,b,c), X).
+*** Creating auxiliary predicate 'mapargs(atom_string)' / 2
+
+X = s(&quot;a&quot;, &quot;b&quot;, &quot;c&quot;)
+yes.
+</PRE>
+<P>
+<DT>sumargs(Pred, Term, AccIn, AccOut)
+<DD>
+<A NAME=6542>&#160;</A>
+is similar to sumlist, but traverses the arguments of <i> Term</i> rather than
+a list, e.g.
+<PRE>[eclipse 1]: sumargs(times, s(1,2,3,4), 1, X).
+*** Creating auxiliary predicate 'sumargs(times)' / 3
+
+X = 24
+yes.
+</PRE>
+<P>
+<DT>sumnodes(Pred, Term, AccIn, AccOut)
+<DD>
+<A NAME=6544>&#160;</A>
+is like <b> sumlist/4</b>, but <i> Term</i> may be any term and <i> Pred</i>
+is called recursively on all its subterms.
+Example: collect all variables in a term
+<PRE>[eclipse 1]: [user].
+vars(X) --&gt; {var(X)} -&gt; [X]; [].
+user       compiled traceable 260 bytes in 0.00 seconds
+
+yes.
+[eclipse 2]: sumnodes(vars, s(1,t(X,2),[Y]), List, []).
+*** Creating auxiliary predicate 'sumnodes(vars)' / 3
+
+X = X
+Y = Y
+List = [X, Y]
+yes.
+</PRE>
+<P>
+<DT>mapstream(Pred, ListIn, ListOut)
+<DD>
+<A NAME=6548>&#160;</A>
+is similar to maplist, but delays if the input list is a variable, e.g. in
+coroutine mode:
+<PRE>[eclipse 1]: mapstream(+(3), In, Out), In = [1,2,3|T].
+*** Creating auxiliary predicate 'mapstream(+(3))' / 2
+
+Out = [4, 5, 6|News0]
+In = [1, 2, 3|T]
+
+Delayed goals:
+        'mapstream(+(3))'(T, News0)
+yes.
+</PRE>
+<P>
+ </DL><BR> <HR><A NAME=tex2html5582 HREF="node276.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5580 HREF="node268.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5574 HREF="node274.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5584 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5583 HREF="node276.html"> CIO</A>
+<B>Up:</B> <A NAME=tex2html5581 HREF="node268.html"> Libraries</A>
+<B> Previous:</B> <A NAME=tex2html5575 HREF="node274.html"> quintus_util</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

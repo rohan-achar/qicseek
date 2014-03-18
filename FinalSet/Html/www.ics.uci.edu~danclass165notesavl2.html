@@ -1,0 +1,99 @@
+<HTML>
+<HEAD><TITLE> AVL </TITLE></HEAD>
+<BODY>
+
+<H2 align=center>Insertion into an AVL Tree </H2>
+
+Balance factors are denoted as follows:
+<table border=1>
+<tr><th>balance factor</th>
+    <th>meaning</th>
+    <th>denoted by</th>
+<tr><td align=center>+1</td>
+    <td>R subtree taller</td>
+    <td align=center><tt>+</tt></td>
+<tr><td align=center>0</td>
+    <td>R,L equal height</td>
+    <td align=center><tt>.</tt></td>
+<tr><td align=center>-1</td>
+    <td>L subtree taller</td>
+    <td align=center><tt>-</tt></td>
+</table>
+<P>
+(Heights of subtrees are indicated in parentheses.)
+<P>
+Let X be the deepest node whose balance factor has become "illegal".&nbsp;
+We consider the scenario in which X's balance factor has become too large, +2.&nbsp;
+(The scenario that X's balance factor has become too small, -2, can be
+handled in a symmetric manner.)&nbsp;
+This illegal imbalance happened because X previously had a balance
+factor of +1, and the insertion caused X's right subtree (headed by Y)
+to increase in height.&nbsp;
+This height increase implies that Y had a balance factor of 0,
+because otherwise either Y would not gain height or Y
+would become illegally imbalanced.&nbsp;
+This scenario is illustrated below and devolves into 2 cases --
+the insertion is made into Y's Right subtree or into Y's Left subtree.
+<P>
+<pre>
+                   X+
+                  / \
+                     Y
+                    / \
+</pre>
+<P>
+<B>Case 1</B>: insertion into Y's Right subtree
+<P>
+This is cured by a single rotation, resulting in this subtree
+having the same height as it did before the insertion.
+<P>
+<pre>
+           <font color=red>X</font>+(h+2)              <font color=red>X</font>++(h+3)                    <font color=red>Y</font>.(h+2)
+          / \                  / \          rotate         / \
+       (h)<font color=red>1</font>  <font color=red>Y</font>.(h+1)        (h)<font color=red>1</font>  <font color=red>Y</font>+(h+2)   (XY)L    (h+1)<font color=red>X</font>.  <font color=red>3</font>(h+1)
+            / \      ====>       / \        ====>        / \
+           <font color=red>2</font>   <font color=red>3</font>                <font color=red>2</font>   <font color=red>3</font>                   <font color=red>1</font>   <font color=red>2</font>
+          (h) (h)              (h) (h+1)               (h) (h)
+               ^
+               |
+             insert
+</pre>
+<P>
+<B>Case 2</B>: insertion into Y's Left subtree
+<P>
+There are two possible subtrees of Z where the insertion
+may take place that are treated similarly.
+<P>
+This is cured by a double rotation, resulting in this subtree
+having the same height as it did before the insertion.
+<P>
+<pre>
+           <font color=red>X</font>+(h+2)              <font color=red>X</font>++(h+3)    double          <font color=red>Z</font>.(h+2)
+          / \                  / \          rotate         /  \
+       (h)<font color=red>1</font>  <font color=red>Y</font>.(h+1)        (h)<font color=red>1</font>  <font color=red>Y</font>-(h+2)   (XYZ)L    (h+1)<font color=red>X</font>.  <font color=red>Y</font>+(h+1)
+            / \      ====>       / \        ====>       / \    / \
+        (h)<font color=red>Z</font>.  <font color=red>4</font>(h)        (h+1)<font color=red>Z</font>-  <font color=red>4</font>(h)   same as     <font color=red>1</font>  <font color=red>2</font>   <font color=red>3</font>   <font color=red>4</font>
+          / \                  / \          (ZY)R     (h)(h) (h-1)(h)
+         <font color=red>2</font>   <font color=red>3</font>                <font color=red>2</font>   <font color=red>3</font>         (XZ)L
+      (h-1) (h-1)            (h) (h-1)
+         ^
+         |
+       insert
+
+
+           <font color=red>X</font>+(h+2)              <font color=red>X</font>++(h+3)    double          <font color=red>Z</font>.(h+2)
+          / \                  / \          rotate         /  \
+       (h)<font color=red>1</font>  <font color=red>Y</font>.(h+1)       (h)<font color=red>1</font>   <font color=red>Y</font>-(h+2)   (XYZ)L    (h+1)<font color=red>X</font>-  <font color=red>Y</font>.(h+1)
+            / \      ====>       / \        ====>       / \    / \
+        (h)<font color=red>Z</font>.  <font color=red>4</font>(h)        (h+1)<font color=red>Z</font>+  <font color=red>4</font>(h)   same as     <font color=red>1</font>  <font color=red>2</font>   <font color=red>3</font>   <font color=red>4</font>
+          / \                  / \          (ZY)R    (h)(h-1) (h) (h)
+         <font color=red>2</font>   <font color=red>3</font>                <font color=red>2</font>   <font color=red>3</font>         (XZ)L
+      (h-1) (h-1)          (h-1) (h)
+             ^
+             |
+           insert
+</pre>
+<P>
+<HR>
+</BODY></HTML>
+

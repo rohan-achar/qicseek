@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<title>Inci Cetindil's Homepage</title>
+<style>
+body {
+    font-size: 10pt;
+    font-family: Arial,sans-serif;
+}
+td, th {
+    border: solid gray 1px;
+    padding: 3px;
+}
+</style>
+</head><body>
+<h2>Inci Cetindil</h2>
+<div>
+<img height=200 width=200 src='inci.jpg'>
+<br><br>
+PhD student
+<br>
+<img src='email.png'> <br>
+<a href='resume.pdf'>Resume</a> <br>
+<br>
+Advisor: <a href='www.ics.uci.edu/~chenli/'>Prof. Chen Li</a>
+
+</div>
+
+<br>
+<a href="http://www.ics.uci.edu">Department of Computer Science</a>
+<br>
+<a href="http://isg.ics.uci.edu">Information Systems Group</a> 
+<br>
+<a href="http://www.ics.uci.edu/about/brenhall/index.php">Donald Bren Hall, Room 2062</a>
+<br>
+<a href="http://www.uci.edu">University of California, Irvine</a>
+<br>
+
+
+
+
+<h4>Research</h4>
+Information Management, Instant and Fuzzy Search, Data Cleaning
+
+
+
+<h4>Education</h4>
+<ul> 
+<li>PhD student, Computer Science Department, University of California, Irvine, USA.
+<li>M.S. of Computer Science, University of California, Riverside, USA.
+<li>B.S. of Computer Science, Bilkent University, TURKEY.   
+</ul>
+
+
+<h4>Projects</h4>
+<ul>
+<li><a href='http://asterixdb.ics.uci.edu/'>AsterixDB</a><br>
+<li><a href='http://ipubmed.ics.uci.edu/'>iPubMed</a><br>
+<li><a href='http://tastier.ics.uci.edu/'>TASTIER: Efficient Auto-Completion, Type-Ahead Search</a>.<br> 
+<li><a href='http://flamingo.ics.uci.edu/spellchecker/'>qSpell: Spelling Correction of Web Search Queries</a><br>
+</ul>
+
+<h4>Publications</h4>
+<ul>
+<li><b>Efficient Instant-Fuzzy Search with Proximity Ranking.</b>
+<br>
+Inci Cetindil, Jamshid Esmaelnezhad, Taewoo Kim, Chen Li
+<br>
+ICDE 2014 (to appear). 
+
+<li><b>Analysis of Instant Search Query Logs.</b>
+<br>
+Inci Cetindil, Jamshid Esmaelnezhad, Chen Li, David Newman
+<br>
+WebDB 2012.
+
+<li><b>qSpell: Spelling Correction of Web Search Queries using Ranking Models and Iterative Correction.</b>
+<br>
+Y. Ganjisaffar, A. Zilio, S. Javanmardi, I. Cetindil, M. Sikka, S. Katumalla, N. Khatib, C. Li, C. Lopes
+<br>
+Spelling Alteration for Web Search Workshop, Bellevue, WA, USA, July 2011.
+
+<li><b>Interactive and fuzzy search: a dynamic way to explore MEDLINE.</b>
+<br>
+Jiannan Wang, Inci Cetindil, Shengyue Ji, Chen Li, Xiaohui Xie, Guoliang Li, Jianhua Feng
+<br>
+Bioinformatics 2010.
+
+<li><b>Making Instant Fuzzy Search Faster with Less Memory.</b>
+<br>
+Shengyue Ji, Inci Cetindil, Chen Li
+<br>
+Technical Report, UC Irvine 2010.
+</ul>
+
+</body></html>
+
+

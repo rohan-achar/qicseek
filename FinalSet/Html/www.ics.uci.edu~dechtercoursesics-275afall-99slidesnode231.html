@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Arrays</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Arrays">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5024 HREF="node232.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5022 HREF="node222.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5016 HREF="node230.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5026 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5025 HREF="node232.html"> Memory Management</A>
+<B>Up:</B> <A NAME=tex2html5023 HREF="node222.html"> Interface to Externals</A>
+<B> Previous:</B> <A NAME=tex2html5017 HREF="node230.html"> I/O in External </A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION001949000000000000000> Arrays</A></H2>
+<P>
+Arrays can be used as a convenient way to pass structured C data
+between C and Prolog.
+For example, C structures can be mapped onto Prolog
+integer arrays and mapping of C arrays is obvious.
+Passing whole arrays from Prolog to C is achieved specifying
+the name and order of the array like for predicates, e.g.
+<blockquote> <PRE>process(ar/2)
+</PRE></blockquote>
+calls the predicate <b> process/1</b> and its argument is the
+two-dimensional array <i> ar</i>.
+The macro
+<blockquote> <PRE>Get_Array_Address(adid, address)
+</PRE></blockquote>
+<A NAME=3595>&#160;</A>
+can be used to obtain the address of the global array beginning from its DID.
+If the DID is that of an atom, the address of the global variable is returned.
+If the array does not exist, an exception is raised.
+<tt> address</tt> must be of type <tt> pword *</tt>.
+Thus the macro <tt> Get_Functor_Did</tt> in combination with
+<tt> Get_Array_Address</tt> can be used to process arrays specified as above
+<b> process(ar/2)</b>.
+<P>
+For advanced array usage, the macro
+<blockquote> <PRE>Get_Array_Header(adid, address)
+</PRE></blockquote>
+returns the address of the array header.
+The array header is a <tt> pword</tt> whose tag specifies the type
+of the array and whose value points to further information.
+The array type is specified as follows:
+<UL><LI> TCOMP - Prolog type
+<P>
+<LI> TINT - integer array
+<P>
+<LI> TFLOAT - real array
+<P>
+<LI> TSTRG - byte array
+</UL>
+The value of the array header points to a block
+of (arity + 1) <tt> word32</tt>'s, the first one is the DID of the array functor
+and the following ones are its dimensions.
+After the dimensions the array itself is located.
+Since a global variable has no header, trying to apply this
+macro on a global variable will issue an error.
+<P>
+As described in chapter <A HREF="node129.html#chaparrays"><IMG ALIGN=BOTTOM ALT="gif" SRC="http://www.ecrc.de/eclipse/new_icons//cross_ref_motif.gif"></A>, arrays and global variables are
+sensitive to the module system. The macros mentioned above always access
+the non-local array or variable.
+To access the visible array or variable in a given module, the module
+argument is needed. The corresponding macros are
+<blockquote> <PRE>Get_Visible_Array_Header(adid, mod_val, mod_tag, address)
+Get_Visible_Array_Address(adid, mod_val, mod_tag, address)
+</PRE></blockquote>
+<P>
+As an example, here is the source of an external predicate that
+prints the contents of the specified Prolog (i.e. untyped) array which
+must be visible in the given module:
+<blockquote> <PRE>int
+p_print_array(varr, tarr, vmod, tmod)
+value   varr, vmod;
+type    tarr, tmod;
+{
+        int        size = 1;  /* number of array elements */
+        pword      *p;
+        word32     *dim;
+        word32     wdid;
+        int        arity;
+
+        Error_If_Ref(tarr);
+        if (IsAtom(tarr))                      /* a global variable */
+                wdid = varr.did;
+        else                                   /* an array */
+        {
+                Get_Functor_Did(varr, tarr, wdid);
+                Get_Visible_Array_Header(wdid, vmod, tmod, p);
+                if (!IsStructure(p-&gt;tag))      /* error if not prolog */
+                {
+                        Error(TYPE_ERROR);
+                }
+                dim = (word32 *) p-&gt;val.ptr;
+                dim++;                        /* skip the did */
+                for (arity = DidArity(wdid); arity; arity--)
+                        size *= *dim++;       /* compute the size */
+        }
+        Get_Visible_Array_Address(wdid, vmod, tmod, p);
+        for (; size; size--, p++)
+        {
+                Write(p-&gt;val, p-&gt;tag, Current_Output);
+                Fprintf(Current_Output, &quot; &quot;);
+        }
+        Succeed;
+}
+</PRE>
+</blockquote>
+<P>
+Note the use of <tt> pword</tt> and <tt> word32</tt> pointers - the array header
+and array elements are <tt> pword</tt>'s, the dimensions are <tt> word32</tt>'s.
+<P>
+To avoid the need of specifying a module argument on every call, it is
+convenient to define a <i> tool interface</i> using the external predicate
+as the tool body:
+<blockquote> <PRE>:-  external(print_array/2, p_print_array),
+    tool(print_array/1, print_array/2).
+</PRE>
+</blockquote>
+The resulting predicate <tt> print_array/1</tt> will print the array with the
+specified name that is visible in the module from where <tt> print_array/1</tt>
+is called.
+<P>
+<BR> <HR><A NAME=tex2html5024 HREF="node232.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5022 HREF="node222.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5016 HREF="node230.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5026 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5025 HREF="node232.html"> Memory Management</A>
+<B>Up:</B> <A NAME=tex2html5023 HREF="node222.html"> Interface to Externals</A>
+<B> Previous:</B> <A NAME=tex2html5017 HREF="node230.html"> I/O in External </A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

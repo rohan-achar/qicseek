@@ -1,0 +1,283 @@
+<html>
+<head>
+<title>NISC Toolset FAQ</title>
+<link href="../library/styles.css" type="text/css" rel="stylesheet" />
+<style type="text/css">
+<!--
+.Question {
+	font-weight: bold;
+	color: #990000;
+	font-size: 18px;
+}
+.Outline-Title {
+	font-size: 18px;
+	font-weight: bold;
+}
+.Answer {
+	color: #330099;
+	padding-left: 20px;
+	font-size: 17px;
+}
+.Outline-Question {
+	font-size: 16px;
+	padding-left: 20px;
+}
+.Topic {
+	font-size: 26px;
+	font-weight: bold;
+	background-position: center center;
+	text-align: center;
+}
+-->
+</style>
+</head>
+<body>
+<iframe src="/~nisc/library/menu/index.html" scrolling="No" frameborder="0" height="150" width="100%"> </iframe>
+
+<div> </div>
+<h1>NISC Toolset Frequently Asked Questions </h1>
+<span class="Outline-Title"><a href="#t1">NISC Design Methodologies </a></span><br/>
+<span class="Outline-Question"><a href="#q1">What can I do with the NISC toolset?</a></span><br/>
+<span class="Outline-Question"><a href="#q2"> How do I use the NISC toolset?</a></span><br/>
+<span class="Outline-Question"><a href="#q3"> What are inputs and outputs of the tools?</a></span><br/>
+<br/>
+<span class="Outline-Title"><a href="#t2">Input Application </a></span><br/>
+<span class="Outline-Question"><a href="#q4">What language should I use to describe my application?</a></span><br/>
+<span class="Outline-Question"><a href="#q5"> Is there any limitation on the C language?</a></span><br/>
+<span class="Outline-Question"><a href="#q6"> Is there any size limitation on the application?</a></span><br/>
+<span class="Outline-Question"><a href="#q7"> Can I write in assembly?</a></span><br/>
+<span class="Outline-Question"><a href="#q8"> Can I include standard C libraries in my code?</a></span><br/>
+<span class="Outline-Question"><a href="#q.i9"> How can I configure the NiscToolset to use different versions of Microsoft Visual Studio?</a></span><br/>
+<br/>
+<span class="Outline-Title"><a href="#t3">Architecture and Component Description Format</a></span><br/>
+<span class="Outline-Question"><a href="#q9">In what format the architecture is described?</a></span><br/>
+<span class="Outline-Question"><a href="#q10"> In what format the library components are described?</a></span><br/>
+<span class="Outline-Question"><a href="#q11"> How can I add a custom functional unit to the NISC library?</a></span><br/>
+<span class="Outline-Question"><a href="#q12"> How can I add a functional unit to a NISC datapath?</a></span><br/>
+<br/>
+<span class="Outline-Title"><a href="#t4">Outputs and Supported Platforms</a></span><br/>
+<span class="Outline-Question"><a href="#q13">What should I know about the output RTL code?</a></span><br/>
+<span class="Outline-Question"><a href="#q14"> What is the difference between generic Verilog output and Xilinx-specific Verilog output?</a></span><br/>
+<span class="Outline-Question"><a href="#q15"> How can I synthesize the output Verilog code on ASIC?</a></span><br/>
+<span class="Outline-Question"><a href="#q16"> What is the style of the output Verilog codes?</a></span><br/>
+<span class="Outline-Question"><a href="#q17"> What should I expect when simulating the Verilog code?</a></span><br/>
+<span class="Outline-Question"><a href="#q18"> Do you support VHDL?</a></span><br/>
+<br/>
+<span class="Outline-Title"><a href="#t5">Architecture and Components Features</a></span><br/>
+<span class="Outline-Question"><a href="#q19">Does compiler support multi-cycle units?</a></span><br/>
+<span class="Outline-Question"><a href="#q20"> Does compiler support pipelined units?</a></span><br/>
+<span class="Outline-Question"><a href="#q21"> Does the NISC toolset support cache?</a></span><br/>
+<span class="Outline-Question"><a href="#q22"> Can I make my NISC programmable so that I can reprogram it after implementation?</a></span><br/>
+<span class="Outline-Question"><a href="#q23"> How can I reduce the code size?</a></span><br/>
+<span class="Outline-Question"><a href="#q24"> Can I reuse a pre-designed NISC IP for a new application?</a></span><br/>
+<br/>
+<span class="Outline-Title"><a href="#t6">Validation and Verification</a></span><br/>
+<span class="Outline-Question"><a href="#q25">How do I validate a NISC IP?</a></span><br/>
+<br/>
+<span class="Outline-Title"><a href="#t7">System Design and Integration</a></span><br/>
+<span class="Outline-Question"><a href="#q26">How do I design a system with multiple NISCs?</a></span><br/>
+<span class="Outline-Question"><a href="#q27"> How do I design the interface between two NISCs?</a></span><br/>
+<span class="Outline-Question"><a href="#q28"> How do I write driver code to communicate between two NISCs?</a></span><br/>
+<span class="Outline-Question"><a href="#q29"> Can I design a NISC that handles external interrupts?</a></span><br/>
+<span class="Outline-Question"><a href="#q30"> Can I design a NISC that communicates with a bus?</a></span><br/>
+<span class="Outline-Question"><a href="#q31"> Is it possible to have multiple communication interfaces?</a></span><br/>
+<span class="Outline-Question"><a href="#q32"> What network topologies have been implemented using NISC?</a></span><br/>
+<br/>
+<span class="Outline-Title"><a href="#t8">Performance Improvement Techniques</a></span><br/>
+<span class="Outline-Question"><a href="#q33">What are the techniques that can be used to improve the performance of NSIC IPs?</a></span><br/>
+<br/>
+<span class="Outline-Title"><a href="#t9">Power Optimizations</a></span><br/>
+<span class="Outline-Question"><a href="#q34">How does the NISC Toolset reduce the power consumption of my IP?</a></span><br/>
+<br/>
+<span class="Outline-Title"><a href="#t10">Comparison with Other Approaches</a></span><br/>
+<span class="Outline-Question"><a href="#q35"> How do you compare NISC against high-level synthesis (HLS)?</a></span><br/>
+<span class="Outline-Question"><a href="#q36">How do you compare NISC against custom processor designs?</a></span><br/>
+<br/>
+<span class="Outline-Title"><a href="#t11">Online Tool</a></span><br/>
+<span class="Outline-Question"><a href="#q37">Can I use online tool for an actual design?</a></span><br/>
+<br/>
+<!-- ################################################################################################################-->
+<p>&nbsp;</p>
+<span class="Topic"><a name="t1">NISC Design Methodologies</a></span><br/>
+<hr/>
+<span class="Question"><a name="q1"></a>Q. What can I do with the NISC toolset?</span><br/>
+<span class="Answer">You can use the NISC toolset for two purposes:
+    1) For synthesizing C to HDL (i.e. C to Verilog);
+    2) For designing custom embedded processors. The NISC toolset comes with a retargetable compiler that can compile an application on a given datapath. The NISC toolset can also be used for fast exploration of &quot;what if&quot; scenarios. </span><br/>
+<br/>
+<span class="Question"><a name="q2"></a>Q. How do I use the NISC toolset?</span><br/>
+<span class="Answer">A. You can <a href="../toolset/">download and install the NISC toolset</a> on your local machine, or you can run <a href="../demo/">NISC free online C-to-Verilog tool</a>. </span><br/>
+<br/>
+<span class="Question"><a name="q3"></a>Q. What are inputs and outputs of the  tools?</span><br/>
+<span class="Answer">A. The inputs and outputs depend on the selected methodology. If using the tool as a C-to-HDL synthesis tool, the inputs are application C code as well as design constraints. If using the tool for custom processor design, the inputs are the application C code and the datapath description captured in our Architecture Description Language (ADL) called GNR. The outputs include generic and platform-specific Verilog code in Register Transfer Level (RTL), as well as utilization reports that can be used to optimize the datapath further. Additionally, the tool generates the high-level schematic of the architecture that is helpful for future modifications. </span><br/>
+<br/>
+<br/>
+<span class="Topic"><a name="t2">Input Application </a></span><br/>
+<hr/>
+<span class="Question" ><a name="q4"></a>Q. What language should I use to  describe my application?</span><br/>
+<span class="Answer">A. ANSI C. </span><br/>
+<br/>
+<span class="Question" ><a name="q5"></a>Q. Is there any limitation on the C  language?</span><br/>
+<span class="Answer">A. There are a few limitations on the input C program. Function pointers (virtual functions) and global pointer initialization are not currently supported. For a complete list of the limitations, please refer to Section 5 in NISC <a href="http://cecs02.cecs.uci.edu/utils/Download.aspx?f=../toolset/Quick-Guide.pdf&to=">Quick Guide</a>. </span><br/>
+<br/>
+<span class="Question" ><a name="q8"></a>Q. Can I include standard C libraries  in my code?</span><br/>
+<span class="Answer">A. You cannot include any of the standard libraries such as stdio.h. Note that
+    we are compiling the application on a single processor that does not have an OS. Therefore, function
+    calls such as printf or OS calls such as malloc are meaningless in this setup. However, other standard library functions, e.g. string manipulators, can be used in the program if the source code of
+    the body of these functions is also included in the input program. For more information, please refer to Section 5 in the NISC <a href="http://cecs02.cecs.uci.edu/utils/Download.aspx?f=../toolset/Quick-Guide.pdf&to=">Quick Guide</a>. </span><br/>
+<br/>
+<span class="Question" ><a name="q6"></a>Q. Is there any size limitation on the application?</span><br/>
+<span class="Answer">A. The application size is not limited in NISC. </span><br/>
+<br/>
+<span class="Question" ><a name="q7"></a>Q. Can I write in assembly?</span><br/>
+<span class="Answer">A. No. NISC does not have any assembly. But low-level and I/O programming are supported through pre-bound functions.<br />
+</span><br/>
+<span class="Question" ><a name="q.i9"></a>Q. How can I configure the NiscToolset to use different versions of Microsoft Visual Studio?</span><br/>
+<span class="Answer">A. The NiscToolset can be configured to use different versions and editions of the Microsot Visual Studio as front end. To configure the tools properly, open &lt;NISCTOOLSET&gt;\NiscEnvironment\bin\MsvcFrontend.config..xml.
+    Ath the top you will find a &quot;&lt;Param n="Frontend"&gt;Msvc9&lt;/Param&gt;&quot;.
+    Set the value of this paramter to <i>Msvc7</i> for Visual Studio 2003; <i>Msvc8</i>
+    for Visual Studio 2005; and <i>Msvc9</i> for Visual Studio 2008. For each
+    application in the NiscDesign, the proper project files and configuration is already included wich will use the global <i>Frontend</i> parameter to select the proper verion. You should also remember to update the tools paths in the argument group <i>Tools</i> in the &lt;NISCTOOLSET&gt;\NiscEnvironment\bin\Global.config.xml.
+    <br />
+	<!--
+Alternatively, you can let the VC2005 upgrade your project/solution files to the new version. In this case, you do not need to change the .nsx files since the NiscToolset detects the version of project files and calls the proper front-end for them.<br/>-->
+</span><br/>
+<span class="Topic"><a name="t3">Architecture and Component Description Format</a></span><br/>
+<hr/>
+<span class="Question" ><a name="q9"></a>Q. In what format is the architecture described?</span><br/>
+<span class="Answer">A. Architecture is described in Generic Netlist Representation (GNR). GNR is a hierarchical XML-based ADL that is used for describing components, NISC processors, and the entire system. GNR is strongly typed and captures different aspects of the components so that different tools can operate on them. For more information about GNR, see this publication: <a href="../publications/gorjiara-iccd06-gnr
+">B. Gorjiara,  	M. Reshadi,  	P. Chandraiah,  	D. Gajski,  	&quot;Generic Netlist Representation for System and PE Level Design Exploration&quot;, International Symposium on Hardware/Software Codesign and System Synthesis (CODES+ISSS),  		October 2006. </a></span><br/>
+<br/>
+<span class="Question" ><a name="q10"></a>Q. In what format are the library components described?</span><br/>
+<span class="Answer">A. The library components are captured in GNR as well. </span><br/>
+<br/>
+<span class="Question" ><a name="q11"></a>Q. How can I add a custom functional unit to the NISC library?</span><br/>
+<span class="Answer">A. To add a functional unit to the NISC library, you need to capture its entity in GNR, describe its internal netlist in GNR or Verilog, and specify the C functions/operations that the unit can handle. The custom unit can be parameterized similar to Verilog and VHDL. It may also be a multi-cycle or pipelined unit. </span><br/>
+<br/>
+<span class="Question" ><a name="q12"></a>Q. How can I add a functional unit to a NISC datapath?</span><br/>
+<span class="Answer">A. If you are using the tool in C-to-Verilog synthesis mode, you simply need to instantiate the functional unit in a NISC template and have the toolset to automatically connect it to the rest of components. If you are using the tool in custom processor design mode, the simplest way to include a unit is to instantiate it and add a connection between the register file (RF) outputs and inputs to the unit's inputs and outputs, respectively. You can also create data-forwarding (bypass) paths between the new units and other units in the datapath. </span><br/>
+<br/>
+<br/>
+<span class="Topic"><a name="t4">Outputs and Supported Platforms</a></span><br/>
+<hr/>
+<span class="Question" ><a name="q13"></a>Q. What should I know about the output RTL code?</span><br/>
+<span class="Answer">A. The tool generates structural Verilog code in Register-Transfer-Level (RTL). Since the code is in RT level, even primitive synthesis tools (such as Xilinx ISE) can synthesize it correctly. Also, unlike many high-level synthesis tools in which their output is not synthesizable for large C codes, in NISC, the output Verilog is synthesizable for any size C code. At this point, the tool generates two types of Verilog code: (1) generic code, and (2) Xilinx-specific code, stored in Simulation and Synthesis folders, respectively. All the verilog modules are merged into one file called Design.v. Also, a testbench file is generated for the design that drives <em>reset</em> and <em>clk</em> signals. A batch file is also provided to simulate the code using Modelsim simulator. </span><br/>
+<br/>
+<span class="Question" ><a name="q14"></a>Q. What is the difference between generic Verilog output and  Xilinx-specific Verilog output?</span><br/>
+<span class="Answer">A. Generic Verilog code is a platform-independent code that can be simulated and synthesized on any platform. Xilinx-specific Verilog code, however, can only be synthesized using the Xilinx synthesis tool. The code utilizes optimized Xilinx cores for memory, divider, etc. to produce efficient results for FPGAs. Control and data memory are implemented using Block RAMs available on Xilinx FPGAs. The memories are initialized correctly when the design binary is loaded on an FPGA chip. </span><br/>
+<br/>
+<span class="Question" ><a name="q15"></a>Q. How can I synthesize the output Verilog code on ASIC?</span><br/>
+<span class="Answer">A. If your design uses LUT-based controller and does not need data memory, the generated Verilog code can be synthesized on ASIC out of the box. If your design needs memory units, and  your synthesis tool can synthesize the memory descriptions, you don't have to do much. The only thing you need to do is to make sure that the initial values of control and data memories are loaded before simulating your design. If your synthesis tool does not synthesize memory descriptions, you need to manually run your memory generator tool to generate memory blocks in your design. Also, you need to write a simple wrapper around your memory block to make it compatible with the NISC memory interface. </span><br/>
+<br/>
+<span class="Question" ><a name="q16"></a>Q. What is the style of the output Verilog codes?</span><br/>
+<span class="Answer">A. The code is in Register-Transfer Level (RTL). </span><br/>
+<br/>
+<span class="Question" ><a name="q17"></a>Q. What should I expect when simulating the Verilog code?</span><br/>
+<span class="Answer">A. You should simulate the design with the simple testbench that is generated automatically. The testbench drives clock signal and resets the IP for a few cycles. Then the IP gets executes. Once the execution is done, the <em>halt</em> signal becomes '1'. The testbench terminates the simulation once <em>halt</em> becomes '1' and writes the number of cycles on the screen. Also, if your design contains one or more display units, one or more text files are created in the output directory. In these files, you can see the values your program printed during execution. These values can be used for verifying your design as explained in Verification section in this FAQ. </span><br/>
+<br/>
+<span class="Question" ><a name="q18"></a>Q. Do you support VHDL?</span><br/>
+<span class="Answer">A. We do not currently support VHDL, though it is a possibility in the future. </span><br/>
+<br/>
+<br/>
+<span class="Topic"><a name="t5">Architecture and Components Features</a></span><br/>
+<hr/>
+<span class="Question" ><a name="q19"></a>Q. Does the compiler support multi-cycle units?</span><br/>
+<span class="Answer">A. Yes. If your component has a high delay, you can parameterize it as a multi-cycle unit and set the delay parameter when instantiating the unit. This way, you can run your design at a higher clock frequency. </span><br/>
+<br/>
+<span class="Question" ><a name="q20"></a>Q. Does the compiler support pipelined units?</span><br/>
+<span class="Answer">A. Yes. If your unit is pipelined, you can specify its properties in compiler aspect of the unit. Our compiler supports complex pipeline behavior. </span><br/>
+<br/>
+<span class="Question" ><a name="q21"></a>Q. Does the NISC toolset support cache?</span><br/>
+<span class="Answer">A. Potentially yes. But we haven't designed a cache for NISC. If you are interested in cache design for NISC, please contact us. </span><br/>
+<br/>
+<span class="Question" ><a name="q22"></a>Q. Can I make my NISC programmable so that I can reprogram it after  implementation?</span><br/>
+<span class="Answer">A. Yes. You can choose to have a dedicated or programmable controller for NISC. </span><br/>
+<br/>
+<span class="Question" ><a name="q23"></a>Q. If using a programmable controller, how big is the code size? How can I reduce the code size? </span><br/>
+<span class="Answer">A. The size of code depends on your application size. If you think the code size of your application is large, you can enable code compression to reduce the code size by 40-70% at the cost of an 8-18% performance penalty depending on the application. For more information, see this publication: <a href="http://cecs02.cecs.uci.edu/utils/Download.aspx?f=../publications/gorjiara-fpga07-compress.pdf&to=">B. Gorjiara, D. Gajski, &quot;FPGA-friendly Code Compression for Horizontal Microcoded Custom IPs&quot;, International Symposium on Field-Programmable Gate Arrays (FPGA), February 2007.</a></span><br/>
+<br/>
+<span class="Question" ><a name="q24"></a>Q. Can I reuse a pre-designed NISC IP for a new application?</span><br/>
+<span class="Answer">A. It is possible, if your IP has all the units that the new application needs. If not, you can add a few units and connections and compile the application on the new datapath. </span><br/>
+<br/>
+<br/>
+<span class="Topic"><a name="t6">Validation and Verification</a></span><br/>
+<hr/>
+<span class="Question" ><a name="q25"></a>Q. How do I validate a NISC IP?</span><br/>
+<span class="Answer">A. The simplest way to validate an IP is to instantiate a display unit (aka. stdio) into the datapath. Then in C application, print the values that must be examined on the display unit using a pre-bound function call. During Verilog simulation, the display unit opens a text file and writes the values into the file. If the values in the file are correct then the IP is behaving correctly. For the final implementation, remove the display unit from the datapath and comment the print calls. </span><br/>
+<br/>
+<br/>
+<span class="Topic"><a name="t7">System Design and Integration</a></span><br/>
+<hr/>
+<span class="Question" ><a name="q26"></a>Q. How do I design a system with multiple NISCs?</span><br/>
+<span class="Answer">A. You can describe a system that contains multiple NISC using GNR. For each NISC, you need to specify the C program (project file). In addition, you need to define how the NISC components interface to each other. </span><br/>
+<br/>
+<span class="Question" ><a name="q27"></a>Q. How do I design the interface between two NISCs?</span><br/>
+<span class="Answer">A. You can use shared register, dual-port shared memory, queue, interrupt, or bus to communicate between two NISCs. Instantiate the communication medium outside the two NISC in the system. To make the communication possible, you need to instantiate a proxy unit in each NISC to describe the communication API on each side. The Verilog implementation of the proxy unit is usually straight-through wiring. The proxy has some output signals that control the communication medium. </span><br/>
+<br/>
+<span class="Question" ><a name="q28"></a>Q. How do I write driver code to communicate between two NISCs?</span><br/>
+<span class="Answer">A. In the C program, call proxy APIs that are in form of pre-bound functions. The order of calling the APIs depend on the communication protocol. </span><br/>
+<br/>
+<span class="Question" ><a name="q29"></a>Q. Can I design a NISC that handles external interrupts?</span><br/>
+<span class="Answer">A. Yes. The NISC library comes with an interrupt-handling unit. Several external interrupts can be connected to this unit. Once an interrupt is triggered, the function NiscInterrupt() (if it exists) is called. Therefore, you should write your interrupt handling routine in this function. Based on the ID of the triggered interrupt, the program may show different behavior. For more information about interrupt handling, please see this publication: M. Reshadi, D. Gajski,  	  					&quot;Interrupt and Low-level Programming Support for Expanding the Application Domain of Statically-scheduled Horizontally-microcoded Architectures in  Embedded Systems&quot;, Design Automation and Test in Europe (DATE), 		 					April 2007.</span><br/>
+<br/>
+<span class="Question" ><a name="q30"></a>Q. Can I design a NISC that communicates with a bus?</span><br/>
+<span class="Answer">A. Yes. For more information about connecting a NISC to a bus, see these publications: <a href="http://cecs02.cecs.uci.edu/utils/Download.aspx?f=../publications/TR06-05.pdf&to=">B. Gorjiara, 	M. Reshadi, 	D. Gajski, 	&quot;NISC Communication Interface&quot;, Center for Embedded Computer Systems, 		TR 06-05, 		March 2006</a>; and M. Reshadi, 	D. Gajski, 	 					&quot;Interrupt and Low-level Programming Support for Expanding the Application Domain of Statically-scheduled Horizontally-microcoded Architectures in Embedded Systems&quot;, 					 Design Automation and Test in Europe (DATE), 		 					April 2007.</span><br/>
+<br/>
+<span class="Question" ><a name="q31"></a>Q. Is it possible to have multiple communication interfaces?</span><br/>
+<span class="Answer">A. Yes. Simply instantiate multiple communication proxies inside the datapath and use them in your C code. </span><br/>
+<br/>
+<span class="Question" ><a name="q32"></a>Q. What network topologies have been implemented using NISC?</span><br/>
+<span class="Answer">A. There are several examples that come with the downloadable package. The communication examples include shared dual-port memory, double-handshake bus, and network on a chip (a mesh of NISC processors and routers). </span><br/>
+<br/>
+<br/>
+<span class="Topic"><a name="t8">Performance Improvement Techniques</a></span><br/>
+<hr/>
+<span class="Question" ><a name="q33"></a>Q. What are the techniques that can be used to improve the performance of  NSIC IPs?</span><br/>
+<span class="Answer">A. To improve the performance there are different techniques. For instance, to reduce the number of cycles, there are four techniques: (1) enhancing parallelism in the program through
+techniques such as loop unrolling (or software pipelining) and
+various code transformations developed for VLIW machines; (2) <a href="http://cecs02.cecs.uci.edu/utils/Download.aspx?f=../publications/reshadi-dac08-voip.pdf&to=">Incorporating custom functional units in datapath</a>: for example, a custom functional unit that does bit-wise operation can be far more efficient than doing the same functionality in C using SHIFT and logic operations;<a href="http://cecs02.cecs.uci.edu/utils/Download.aspx?f=../publications/gorjiara-dac08-DpGen.pdf&to=">(3) increasing parallelism in datapath by adding many functional units and enough bandwidth to read and write operands at the same time; (4) changing the pipeline structure to chain operations by adding forwarding paths between the units.</a>
+<br/>
+In addition to reducing cycle count,improving the clock frequency increases the performance as well.For more information, please refer to the following paper: <a href="http://cecs02.cecs.uci.edu/utils/Download.aspx?f=../publications/gorjiara-estimedia05-nisc.pdf&to=">B. Gorjiara,  	D. Gajski,  	&quot;Design Space Exploration of C Programs Using NISC: A Case-Study on DCT algorithm&quot;, Workshop on Embedded Systems for Real-time Multimedia (ESTIMEDIA),  		pages 21-26,  		September 2005</a>.</span><br/>
+<br/>
+<br/>
+<span class="Topic"><a name="t9">Power Optimizations</a></span><br/>
+<hr/>
+<span class="Question" ><a name="q34"></a>Q. How does the NISC Toolset reduce the power and energy consumption of my IP?</span><br/>
+<span class="Answer">A. NISC technology and its toolset reduce the power and energy consumption of your design significantly. For more information on low-power NISC, please see the following book chapter: B. Gorjiara,  	M. Reshadi,  	D. Gajski,  	&quot;Chapter 2: Low-Power Design with NISC Technology&quot;,J. Henkel,  	S. Parameswaran,  	Designing Embedded Processors: A Low Power Perspective, Springer,  		ISBN: 978-1-4020-5868-4,  		April 2007.<br />
+Also, the following publication contains a case-study that shows how NISC reduces energy consumption 12 times: <a href="http://cecs02.cecs.uci.edu/utils/Download.aspx?f=../publications/gorjiara-estimedia05-nisc.pdf&to=">B. Gorjiara,  	D. Gajski,  	&quot;Design Space Exploration of C Programs Using NISC: A Case-Study on DCT algorithm&quot;, Workshop on Embedded Systems for Real-time Multimedia (ESTIMEDIA),  		pages 21-26,  		September 2005.</a><br />
+Furthermore, the NISC Low-Power Architecture generator targets both controller and datapath to reduce dynamic power of the overall design. </span><br/>
+<br/>
+<span class="Topic"><a name="t10">Comparison with Other Approaches</a></span><br/>
+<hr/>
+<p><span class="Question" ><a name="q35"></a>Q. How do you compare NISC against high-level synthesis (HLS)?</span><br/>
+  <span class="Answer">A. Standard HLS (a.k.a. behavioral synthesis) tools provide only a top-down design flow (from high-level C to low-level RTL). NISC provides both top-down flow (by generating architecture from C) and bottom-up flow (by providing datapath as input).</span><br>
+<span class="Answer">When using HLS, a change in the application will result in many changes in the generated RTL. There is no way to predict or correlate the application changes to the changes in the results. Therefore, the only way to improve unsatisfactory results is by trial-and-error and guesswork.NISC enables the designers to control every aspect of the design. The designer can select the exact points for improvement and then do it quickly. For example, by directly changing the GNR description of architecture, the designer can reduce a critical path delay or fix complex multiplexers and connections that consume too much power or make the layout unroutable.</span><br>
+<span class="Answer">All HLS tools provide their own extension of C as the input language. Such extensions require extra effort for learning. Additionally, they prevent the use of unmodified C code and lock the designer into a proprietary tool by making the developed algorithms non-portable to other tools. NISC Technology only uses standard languages. The designers do not need extra training and also can use their favorite development tools such as editors and debuggers. NISC provides a seamless way of combining standard C and Verilog through pre-bound functions enabling the inclusion of low-level Verilog code inside a C program.<br>
+<br>
+  </span>
+  <span class="Question" ><a name="q36"></a>Q. How do you compare NISC against custom processor designs?</span><br/>
+<span class="Answer">A. Custom processor design requires processor/instruction-set design expertise. Since custom instructions directly affect the instruction binary coding and instruction decoder in hardware, the number of custom instructions that can be added to a processor are limited. Therefore the designer must look for the most profitable instructions to be added. Finding such instructions is a very challenging task! Additionally, after adding custom instructions, the designer should either use HLS to synthesis the datapath and controller (with typically unpredictable and unsatisfactory results), or must do it manually (very time consuming).</span><br>
+<span class="Answer"> In NISC Technology, the designer only needs to specify the datapath (components &amp; connections) and all possible functionalities of that datapath will be directly used by the NISC compiler to execute the program. So, not only is the NISC approach easier than designing custom processor, but also the designer is able to directly control the details and structure of datapath and get much better quality (in terms of area, clock frequency, etc.) at the end.</span><br/>
+  <br/>
+  <span class="Topic"><a name="t11">Online Tool</a></span><br/>
+</p>
+<hr/>
+<span class="Question" ><a name="q37"></a>Q. Can I use the online tool for an actual design?</span><br/>
+<span class="Answer">A. Yes. At this time, you can write to the  ExternalOuputs port and read from the ExternalInputs. This is good enough for shared register communication. We are going to extend the online tool to enable communication through a dual-port shared memory. </span><br/>
+<br/>
+<br/>
+<h1>&nbsp; </h1>
+<iframe src="http://cecs02.cecs.uci.edu/utils/Track.aspx" scrolling="no" frameborder="0" height="0" width="0"> </iframe>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-2089831-1";
+urchinTracker();
+</script>
+
+<iframe src="/~nisc/library/counters/index.html" scrolling="no" frameborder="0" height="50" width="100%"> </iframe>
+
+
+</body>
+</html>
+

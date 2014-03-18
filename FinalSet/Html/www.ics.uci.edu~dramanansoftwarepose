@@ -1,0 +1,71 @@
+
+<html>
+<head>
+<title>Articulated Pose Estimation with Flexible Mixtures of Parts</title>
+</head>
+<style type="text/css">
+#container
+{
+	width : 850px;
+	padding : 0px;
+	margin : 25px;
+	background-color : #fff;
+	font-family : Ariel;
+}
+A:link {text-decoration: none}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+A:hover {text-decoration: underline}
+tr {border:0px}
+img.pub {height:120px;border:0px}
+p.link {font-weight:bold;font-size:small;text-align:center;white-space:pre}
+table.pub {width: 800px; border=0}
+td.pic {text-align: right; vertical-align:top}
+td.pub {width: 600px; vertical-align:bottom}
+span.h2 {font-size:x-large; font-weight:bold}
+span.h3 {font-size:large; font-weight:bold}
+span.h3red {font-size:large; color:red}
+span.h4 {font-style:italic; font-weight:bold} 
+</style>
+<body bgcolor=white>
+<div id="container">
+<h1> Articulated Pose Estimation with Flexible Mixtures of Parts
+<center><img src="parse_results.jpg"></center>
+<table border="0" width="800" cellpadding="5">
+<tr>
+<td> <a href="http://www.ics.uci.edu/~dramanan/papers/pose_pami.pdf"><img src="main_cover_shadow.gif"></a>
+<td>
+<p>
+We describe a method for detecting articulated people and estimating their pose from static images based on a new representation of deformable part models. Rather than modeling articulation using a family of warped (rotated and foreshortened) templates, we use a mixture of small, non-oriented parts. We describe a general, flexible mixture model that jointly captures spatial relations between part locations and co-occurrence relations between part mixtures, augmenting standard pictorial structure models that encode just spatial relations. Our models have several notable properties: (1) they efficiently model articulation by sharing computation across similar warps (2) they efficiently model an exponentially-large set of global mixtures through composition of local mixtures and (3) they capture the dependence of global geometry on local appearance (parts can look different at different spatial locations). We learn all parameters, including local appearances, spatial relations, and co-occurrence relations (which encode local rigidity) with a structured SVM solver. We introduce novel criteria for evaluating articulated human detection and pose estimation, both separately and jointly. We present experimental results on standard benchmarks that suggest our approach is the state-of-the-art system for pose estimation, improving past work on the challenging Parse and Buffy datasets, while being orders of magnitude faster. 
+<br>
+<br>
+<p> Y. Yang, D. Ramanan. <b>"Articulated Human Detection with Flexible Mixtures of Parts"</b> <i>IEEE Pattern Analysis and Machine Intelligence </i> (PAMI). To appear.
+<p> Y. Yang, D. Ramanan. <b>"Articulated Pose Estimation using Flexible Mixtures of Parts"</b> <i> Computer Vision and Pattern Recognition </i>(CVPR) Colorado Springs, Colorado, June 2011.
+</table>
+
+<h3>Downloads</h3> 
+ 
+<table style="text-align: left"> 
+<tbody><tr><th>Filename</th><th>Description</th><th align="right">Size</th>
+<tr> 
+  <td><a href="README">README</a>
+  <td>Description of contents.
+  <td>2KB
+<tr>
+  <td><a href="pose-release1.2-basic.tgz">pose-release1.2-basic.tgz</a>
+  <td>Basic code for detection and pose estimation with pre-trained full-body and upper-body models.
+  <td> 1MB
+<tr>
+  <td><a href="pose-release1.2-full.tgz">pose-release1.2-full.tgz</a>
+  <td>Full code for training and testing, including BUFFY, PARSE, and INRIA image benchmarks.
+  <td> 89MB
+<tr>
+  <td><A href="pose-release1.3-full.tgz">pose-release1.3-full.tgz</a>
+  <td> Full code for training and testing, including image benchmarks and new evaluation routines.
+  <td> 89MB
+</table>
+
+</div>
+</body>
+</html>
+

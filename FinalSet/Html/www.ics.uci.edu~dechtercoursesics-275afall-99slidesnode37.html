@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE>  ECLiPSe
+  Command Line Options</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value="  ECLiPSe
+  Command Line Options">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html2706 HREF="node38.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html2704 HREF="node34.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html2698 HREF="node36.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html2708 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html2707 HREF="node38.html"> The  .eclipserc file</A>
+<B>Up:</B> <A NAME=tex2html2705 HREF="node34.html"> Getting started with  </A>
+<B> Previous:</B> <A NAME=tex2html2699 HREF="node36.html"> Starting  ECLiPSe
+  in </A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION00420000000000000000>  ECLiPSe
+  Command Line Options</A></H1>
+<P>
+
+The following command line options may be specified
+<DL ><DT><b> <b>-</b>b bootfile</b>
+<DD> <BR>
+<P>
+<A NAME=451>&#160;</A>
+<A NAME=452>&#160;</A>
+<A NAME=453>&#160;</A>
+Compile the file <i> bootfile</i> before starting the session or before
+saving the state using the <b> <b>-</b>s</b> option.
+
+<P>
+<DT><b> <b>-</b>e goal</b>
+<DD> <BR>
+<P>
+<A NAME=457>&#160;</A>
+<A NAME=458>&#160;</A>
+Instead of starting an interactive toplevel-loop, the system will execute the
+goal <b> goal</b>. <b> goal</b> is given in normal Prolog syntax, and has to be
+quoted if it contains any characters that would normally be interpreted by the
+shell. The -e option can be used together with the -b option and is executed
+afterwards.
+If the -e option is used together with the saved state option -s, then the
+goal will not be executed when making the saved state, but when restoring it.
+<P>
+The exit status of the <A NAME=tex2html143 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  process reflects success or failure of the
+<A NAME=461>&#160;</A>
+executed Prolog goal (0 for success, 1 for failure).
+<P>
+
+<P>
+<DT><b> <b>-</b>p size</b>
+<DD> <BR>
+<P>
+<A NAME=463>&#160;</A>
+<A NAME=464>&#160;</A>
+The size of the page buffer area for the database handling is
+set to <i> size</i> kbytes. The default value is 400 kbytes.
+<P>
+<DT><b> <b>-</b>r file</b>
+<DD> <BR>
+<P>
+<A NAME=467>&#160;</A>
+<A NAME=468>&#160;</A>
+<A NAME=469>&#160;</A>
+Restore a saved state from the file <i> file</i>.
+<P>
+<DT><b> <b>-</b>s file</b>
+<DD> <BR>
+<P>
+<A NAME=472>&#160;</A>
+<A NAME=473>&#160;</A>
+<A NAME=474>&#160;</A>
+<A NAME=475>&#160;</A>
+Save the <A NAME=tex2html154 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  state into the executable file <i> file</i>.
+This option is normally used together with the <b> <b>-</b>b</b> option as follows:
+<blockquote> <PRE>eclipse -b mybootfile.pl -s myeclipse
+</PRE>
+</blockquote>
+This will create a <A NAME=tex2html155 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  save state called myeclipse in the current
+directory, which has the bootfile mybootfile.pl already compiled in.
+<P>
+<DT><b> <b>--</b></b>
+<DD> <BR>
+<P>
+The <A NAME=tex2html156 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  system will ignore this argument and everything that follows on
+the commmand line. The Prolog program will only see the part of the
+command line that follows this argument.
+<P>
+ </DL>
+<P>
+More command line options are described in chapter <A HREF="node77.html#chapparallel"><IMG ALIGN=BOTTOM ALT="gif" SRC="http://www.ecrc.de/eclipse/new_icons//cross_ref_motif.gif"></A>.
+<P>
+
+<BR> <HR><A NAME=tex2html2706 HREF="node38.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html2704 HREF="node34.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html2698 HREF="node36.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html2708 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html2707 HREF="node38.html"> The  .eclipserc file</A>
+<B>Up:</B> <A NAME=tex2html2705 HREF="node34.html"> Getting started with  </A>
+<B> Previous:</B> <A NAME=tex2html2699 HREF="node36.html"> Starting  ECLiPSe
+  in </A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

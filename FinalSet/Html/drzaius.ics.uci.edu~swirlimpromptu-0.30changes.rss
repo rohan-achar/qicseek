@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rss version="0.91">
+  <channel>
+    <title>Changes report</title>
+    <link>http://www.isr.uci.edu/projects/swirl</link>
+    <description>Changes report</description>
+    <language>en-us</language>
+    <copyright>Copyright 2004 The Apache Software Foundation</copyright>
+    <item>
+      <title>5 change(s) for version 0.30</title>
+      <link>http://www.isr.uci.edu/projects/swirl/changes-report.html</link>
+      <description>
+        <table border="1">
+          <tr>
+            <th style="width:50px">Type</th>
+            <th>Changes</th>
+            <th style="width:70px">By</th>
+          </tr>
+          <tr>
+            <td>add</td>
+            <td>Use a filter-based architecture that incurs no performance overhead for local WebDAV access.</td>
+            <td>
+              <a href="http://www.isr.uci.edu/projects/swirl/team-list.html#jie">jie</a>
+            </td>
+          </tr>
+          <tr>
+            <td>add</td>
+            <td>Use Jetty's SecurityConstraint to control WebDAV methods permissions.</td>
+            <td>
+              <a href="http://www.isr.uci.edu/projects/swirl/team-list.html#jie">jie</a>
+            </td>
+          </tr>
+          <tr>
+            <td>add</td>
+            <td>Use Windows and Mac's file systems' support for WebDAV as client</td>
+            <td>
+              <a href="http://www.isr.uci.edu/projects/swirl/team-list.html#jie">jie</a>
+            </td>
+          </tr>
+          <tr>
+            <td>add</td>
+            <td>Multiple Yancees support.</td>
+            <td>
+              <a href="http://www.isr.uci.edu/projects/swirl/team-list.html#jie">jie</a>
+            </td>
+          </tr>
+          <tr>
+            <td>add</td>
+            <td>Separate the repository and the pie that can run independently.</td>
+            <td>
+              <a href="http://www.isr.uci.edu/projects/swirl/team-list.html#jie">jie</a>
+            </td>
+          </tr>
+        </table>
+      </description>
+    </item>
+  </channel>
+</rss>

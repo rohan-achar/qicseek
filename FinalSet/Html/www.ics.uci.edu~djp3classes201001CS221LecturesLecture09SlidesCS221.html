@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="description" content="Vector Space Scoring Introduction to Information Retrieval CS 221 Donald J. Patterson Content adapted from Hinrich Schütze http://www.informationretrieval.org  Vector Space Model Vector Space Scoring Define: Vector Space Model Representing a set of documents as vectors in a common vector space. It is fundamental to  many operations (query,document) pair scoring document classification document clustering Queries are represented as a document A short one, but mathematically equivalent  Vector Space Model Vector Space Scoring Define: Vector Space Model A document, d, is defined as a vector: One component for each term in the dictionary Assume the term is the tf-idf score   A corpus is many vectors together. A document can be thought of as a point in a multi-dimensional space, with axes related to terms.  Vector Space Model Vector Space Scoring Recall our Shakespeare Example:  Vector Space Model Vector Space Scoring Recall our Shakespeare Example:   Vector Space Model Vector Space Scoring Recall our Shakespeare Example:  Vector Space Model Vector Space Scoring Recall our Shakespeare Example:   Vector Space Model Vector Space Scoring Recall our Shakespeare Example:  Query as a vector Vector Space Scoring So a query can also be plotted in the same space “worser mercy” To score, we ask: How similar are two points? How to answer?  Score by magnitude Vector Space Scoring How to answer? Similarity of magnitude? But, two documents, similar in content, different in length can have large differences in magnitude.  Score by angle Vector Space Scoring How to answer? Similarity of relative positions, or difference in angle Two documents are similar if the angle between them is 0. As long as the ratios of the axes are the same, the documents will be scored as equal. This is measured by the dot product  Score by angle Vector Space Scoring Rather than use angle use cosine of angle When sorting cosine and angle are equivalent Cosine is monotonically decreasing as a function of angle over (0 ... 180)  Big picture Vector Space Scoring Why are we turning documents and queries into vectors Getting away from Boolean retrieval Developing ranked retrieval methods Developing scores for ranked retrieval Term weighting allows us to compute scores for document similarity Vector space model is a clean mathematical model to work with  Big picture Vector Space Scoring Cosine similarity measure Gives us a symmetric score if d_1 is close to d_2, d_2 is close to d_1 Gives us transitivity if d_1 is close to d_2, and d_2 close to d_3, then d_1 is also close to d_3 No document is closer to d_1 than itself If vectors are normalized (length = 1) then The similarity score is just the dot product (fast)  Queries in the vector space model Vector Space Scoring Central idea: the query is a vector We regard the query as a short document We return the documents ranked by the closeness of their vectors to the query (also a vector)    Note that q is very sparse!  Cosine Similarity Score Vector Space Scoring Also called cosine similarity  Cosine Similarity Score Vector Space Scoring Define: dot product   Cosine Similarity Score Vector Space Scoring Define: Euclidean Length   Cosine Similarity Score Vector Space Scoring Define: Euclidean Length   Cosine Similarity Score Vector Space Scoring Example  Exercise Vector Space Scoring Rank the following by decreasing cosine similarity. Assume tf-idf weighting: Two docs that have only frequent words in common (the, a , an, of) Two docs that have no words in common Two docs that have many rare words in common (mocha, volatile, organic, shade-grown)"/>
+    <title></title>
+    <script type="text/javascript" language="javascript">
+//      <![CDATA[
+            var images = new Array (22);
+            images[0] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.001.png";
+            images[1] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.002.png";
+            images[2] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.003.png";
+            images[3] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.004.png";
+            images[4] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.005.png";
+            images[5] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.006.png";
+            images[6] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.007.png";
+            images[7] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.008.png";
+            images[8] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.009.png";
+            images[9] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.010.png";
+            images[10] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.011.png";
+            images[11] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.012.png";
+            images[12] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.013.png";
+            images[13] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.014.png";
+            images[14] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.015.png";
+            images[15] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.016.png";
+            images[16] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.017.png";
+            images[17] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.018.png";
+            images[18] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.019.png";
+            images[19] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.020.png";
+            images[20] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.021.png";
+            images[21] = "Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.022.png";
+            var index = 0;
+            function WindowLoaded(evt)
+            {
+                document.body.onselectstart = function () { return false; };
+            }
+            function Step(i)
+            {
+                GoTo(index + i)
+            }
+            function GoTo(newIndex)
+            {
+                if(newIndex >= 0 && newIndex < images.length)
+                {
+                    index = newIndex;
+                    document.Slideshow.src = images[index];
+                }
+            }
+//      ]]>
+    </script>
+</head>
+<body bgcolor="black" onload='WindowLoaded(event);'>
+    <p align="center">
+        <br/>
+        <br/>
+        <img name="Slideshow" alt="" src="Lecture09_Slides_CS221_files/Lecture09_Slides_CS221.001.png" onclick="Step(1)"/>
+        <br/>
+        <br/>
+        <input type="image" src="Lecture09_Slides_CS221_files/home.png" onclick="GoTo(0)"/>
+        &nbsp;&nbsp;&nbsp;
+        <input type="image" src="Lecture09_Slides_CS221_files/prev.png" onclick="Step(-1)"/>
+        <input type="image" src="Lecture09_Slides_CS221_files/next.png" onclick="Step(1)"/>
+    </p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

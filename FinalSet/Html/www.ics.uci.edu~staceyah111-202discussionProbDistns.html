@@ -1,0 +1,380 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252"
+      http-equiv="Content-Type">
+    <title>Probability Models in R</title>
+    <meta content="Stacey Hancock" name="author">
+  </head>
+  <body>
+    <table style="width: 100%; background-color: rgb(102, 204, 204);
+      margin-left: auto; margin-right: auto; height: 58px; text-align:
+      left;" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td>
+            <div style="text-align: center;"> </div>
+            <h1 style=" text-align: center;">Probability Models in R<br>
+            </h1>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    R has four functions for each distribution, beginning with a "d",
+    "p", "q", or "r" and followed by the name of the distribution. For
+    example, for a binomial distribution with 10 trials and success
+    probability 1/3,<br>
+    <pre># "Density" function: <br># For a discrete random variable (e.g., binomial): <br>#     probability mass function (pmf), e.g., the probability X = 5.<br># For a continuous random variable (e.g., normal): <br>#     probability density function (pdf), e.g., the normal curve y-value at a given x-value.<br>dbinom(5,10,1/3)<br><br># Cumulative distribution function (cdf): e.g., the probability X &lt;= 5.<br>pbinom(5,10,1/3)<br><br># Quantile function: The value of X such that, e.g., .25 percent of the<br>#   distribution lies below it, i.e., the inverse of the cdf.<br>qbinom(.25,10,1/3)<br><br># Random generation: e.g., generate 20 data points from the distribution.<br>rbinom(20,10,1/3)</pre>
+    <br>
+    The two main types of random variables are <span
+      style="font-weight: bold;">discrete</span> and <span
+      style="font-weight: bold;">continuous</span>. A random variable is
+    <span style="text-decoration: underline;">discrete</span> if you can
+    enumerate all possible values of the variable. A random variable is
+    <span style="text-decoration: underline;">continuous</span> if it
+    can take any value in an interval of the real line. The R functions
+    for several discrete distributions we may see in this course are:<br>
+    <br>
+    <table style="text-align: left; width: 100%; background-color:
+      rgb(255, 204, 51);" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td style="vertical-align: top; font-weight: bold;">Discrete
+            Distribution<br>
+            (parameters)<br>
+          </td>
+          <td style="vertical-align: top; font-weight: bold;">Scenario<br>
+          </td>
+          <td style="vertical-align: top; font-weight: bold;">Possible
+            Values<br>
+          </td>
+          <td style="vertical-align: top; font-weight: bold;">R Function<br>
+            (_ = d, p, q, r)<br>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;">X ~ Binomial(n, p)<br>
+          </td>
+          <td style="vertical-align: top;">X = number of "successes" in
+            n independent trials;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P("success") = p<br>
+            <br>
+          </td>
+          <td style="vertical-align: top;">0, 1,..., n<br>
+          </td>
+          <td style="vertical-align: top;">
+            <pre>_binom</pre>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">(X1,..., Xc) ~ Multinomial(n, p1,..., pc)<br>
+          </td>
+          <td valign="top">Xi = number of observations in category i in
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; n independent
+            trials; <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P("category i") =
+            pi, i = 1,..., c<br>
+          </td>
+          <td valign="top">0, 1,..., n<br>
+            where <br>
+            X1+...+Xc = n<br>
+          </td>
+          <td valign="top">
+            <pre>_multinom</pre>
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;">X ~ Poisson(lambda)<br>
+          </td>
+          <td style="vertical-align: top;">X = count of "rare" events in
+            an interval of time; <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mean count = lambda<br>
+          </td>
+          <td style="vertical-align: top;">0, 1, 2,...<br>
+          </td>
+          <td style="vertical-align: top;">
+            <pre>_pois</pre>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;">X ~ Geometric(p)<br>
+          </td>
+          <td style="vertical-align: top;">X = number of "failures"
+            until first "success"; <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P("success") = p<br>
+          </td>
+          <td style="vertical-align: top;">0, 1, 2,...<br>
+          </td>
+          <td style="vertical-align: top;">
+            <pre>_geom</pre>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;">X ~ Negative Binomial(r, p)<br>
+          </td>
+          <td style="vertical-align: top;">X = number of "failures"
+            until rth "success";<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; P("success") = p</td>
+          <td style="vertical-align: top;">0, 1, 2,...<br>
+          </td>
+          <td style="vertical-align: top;">
+            <pre>_nbinom</pre>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;">X ~ Hypergeometric(N, k, n)<br>
+          </td>
+          <td style="vertical-align: top;">X = number of "successes" in
+            a sample of size n from <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; an population of N
+            items, k of which are "successes" <br>
+            &nbsp; &nbsp; &nbsp; &nbsp;and N-k are "failures"<br>
+          </td>
+          <td style="vertical-align: top;">max(0, n-(N-k)),...,<br>
+            min(n, k)<br>
+          </td>
+          <td style="vertical-align: top;">
+            <pre>_hyper</pre>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    The R functions for several continuous distributions are:<br>
+    <br>
+    <table style="text-align: left; width: 100%; background-color:
+      rgb(255, 204, 51);" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td style="vertical-align: top; font-weight: bold;">Continuous
+            Distribution<br>
+            (parameters)<br>
+          </td>
+          <td style="vertical-align: top; font-weight: bold;">Scenario<br>
+          </td>
+          <td style="vertical-align: top; font-weight: bold;">Possible
+            Values<br>
+          </td>
+          <td style="vertical-align: top; font-weight: bold;">R Function<br>
+            (_ = d, p, q, r)<br>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;">X ~ Normal(mean, sd)<br>
+          </td>
+          <td style="vertical-align: top;">"bell curve"<br>
+            e.g., approximate distribution of people's heights<br>
+          </td>
+          <td style="vertical-align: top;">(-infinity, infinity)<br>
+          </td>
+          <td style="vertical-align: top;">
+            <pre>_norm</pre>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;">X ~ Uniform(min, max)<br>
+          </td>
+          <td style="vertical-align: top;">X = random number chosen from
+            the interval [min, max]<br>
+          </td>
+          <td style="vertical-align: top;">[min, max]<br>
+          </td>
+          <td style="vertical-align: top;">
+            <pre>_unif</pre>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;">X ~ Exponential(rate)<br>
+          </td>
+          <td style="vertical-align: top;">X = time between events with
+            given rate<br>
+          </td>
+          <td style="vertical-align: top;">[0, infinity)<br>
+          </td>
+          <td style="vertical-align: top;">
+            <pre>_exp</pre>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;">X ~ Chi-squared(df)<br>
+          </td>
+          <td style="vertical-align: top;">Used in hypothesis testing.<br>
+          </td>
+          <td style="vertical-align: top;">[0, infinity)<br>
+          </td>
+          <td style="vertical-align: top;">
+            <pre>_chisq</pre>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;">X ~ t(df)<br>
+          </td>
+          <td style="vertical-align: top;">Used in hypothesis testing. </td>
+          <td style="vertical-align: top;">(-infinity, infinity) </td>
+          <td style="vertical-align: top;">
+            <pre>_t</pre>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;">X ~ F(df1, df2)<br>
+          </td>
+          <td style="vertical-align: top;">Used in hypothesis testing.</td>
+          <td style="vertical-align: top;">[0, infinity)</td>
+          <td style="vertical-align: top;">
+            <pre>_f</pre>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <big><span style="font-weight: bold;">It's a good idea to become
+        familiar with the syntax of the R functions for each
+        distribution (some of the arguments aren't what you would
+        expect). Try looking up the help files for several of these
+        functions.<br>
+        <br>
+      </span></big>
+    <hr style="width: 100%; height: 2px;">
+    <h2><big><span style="font-weight: bold;"></span></big></h2>
+    <h2>Examples Using the Binomial Distribution</h2>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <h3 style="text-align: center;"> dbinom Examples</h3>
+    <p>For a Binomial(6,1/3) random variable named <span
+        style="font-style: italic;">X</span>, compute the probability of
+      2 successes, Pr(X=2): </p>
+    <pre>&gt; dbinom(2,6,1/3)
+[1] 0.3292181
+</pre>
+    Compare to the direct computation:
+    <pre>Pr(X = 2) = ((6*5*4*3*2*1)/(2*1*4*3*2*1))*(1/3)^2*(2/3)^4 
+
+          = 15*(1/3)^2*(2/3)^4
+
+          =  0.3292181
+</pre>
+    or
+    <pre>         choose(6,2)*(1/3)^2*(2/3)^4
+</pre>
+    <p> We can compute the probabilities for the whole sample space at
+      once if we like with: </p>
+    <pre>          dbinom(0:6,6,1/3)
+</pre>
+    A nicer way to display those probabilities is in a table:
+    <pre>          matrix(c(0:6,dbinom(0:6,6,1/3)),ncol=2,
+                 dimnames=list(NULL,c("n","Prob")))
+</pre>
+    When printing tables like this, it is often better to round off the
+    entries to fewer significant digits:
+    <pre>          M &lt;- matrix(c(0:6,dbinom(0:6,6,1/3)),ncol=2,
+                      dimnames=list(NULL,c("n","Prob")))
+          round(M,4)
+</pre>
+    <p> We can also produce the theoretical histogram for repeated
+      trials of a given binomial experiment. Here is a function to draw
+      the binomial density "curve", you can paste it in to your R
+      session: </p>
+    <pre>hist.binom &lt;- function(n, p, ...)
+{
+# plots a relative frequency histogram of the binomial distribution
+        k &lt;- 0:n
+        p &lt;- dbinom(k, n, p)
+        names(p) &lt;- as.character(0:n)
+        barplot(p,space=0, ...)
+}
+</pre>
+    A relative frequency histogram is just a barplot with no space
+    between the bars, where the total area is 1. The height of each bar
+    here the probability associated with that binomial outcome. To use
+    the hist.binom function, you must specify the values of n and p. For
+    example, to get the histogram of a Binomial(6,1/3) distribution, use
+    <pre>  
+       hist.binom(6,1/3)
+</pre>
+    Try experimenting with the color ("col") argument; use <span
+      style="font-family: monospace;">help(colors)</span> or <span
+      style="font-family: monospace;">colors()</span> to see what colors
+    R knows by name.
+    <pre>  
+       hist.binom(6,1/3,col="yellow")
+</pre>
+    <h3 style="text-align: center;">pbinom Examples</h3>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <p> For a binomial(6,1/3) random variable X, compute the probability
+      that X is less than 3; in other words, Pr(X &lt;= 2): </p>
+    <pre>          pbinom(2,6,1/3)
+</pre>
+    Compare to summing the density (ie adding up the areas under the
+    binomial histogram:
+    <pre>          dbinom(0,6,1/3)+dbinom(1,6,1/3)+dbinom(2,6,1/3)
+
+or
+
+          sum(dbinom(0:2,6,1/3))
+</pre>
+    <p> We can find the probability that we get more than a given number
+      of successes by subtraction: for the probability that X is greater
+      than 2, Pr(X &gt; 2): </p>
+    <pre>          1 - pbinom(2,6,1/3)
+</pre>
+    We could of course compute the probability of that event by summing
+    the individual probabilities:
+    <pre>          sum(dbinom(3:6,6,1/3))
+</pre>
+    Finally, R has another option for this computation:
+    <pre>          pbinom(2,6,1/3,lower.tail=FALSE)
+</pre>
+    The tails of a probability distribution are the values at either end
+    of the range of the random variable. The pbinom function normally
+    assumes that you want the lower tail of the distribution, that is
+    the probability of getting less than or equal to a specified value.
+    The specification "lower.tail=FALSE" tells S to compute the upper
+    tail of the distribution, that is the probability of getting a value
+    greater than the argument. Compare all three methods and make sure
+    that they give the same probabilities. <b> Note:</b> since the
+    Binomial sample space only includes integer values, Pr(X &lt; k) is
+    the same as Pr(X &lt;= k-1). <br>
+    <h3 style="text-align: center;">qbinom Examples</h3>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <p> For continuous distributions, the "p" function and the "q"
+      function are inverses (i.e., either one undoes the action of the
+      other: try&nbsp;<span style="font-family: monospace;">
+        qnorm(pnorm(0))&nbsp;</span> or&nbsp; <span style="font-family:
+        monospace;">pnorm(qnorm(.5))</span>.) This doesn't work out
+      quite so perfectly for the binomial distribution because of the
+      discrete nature of the sample space. It is too "lumpy." Compare<br>
+    </p>
+    <pre>      qbinom(.5,6,1/3)
+
+      pbinom(2,6,1/3)
+<br></pre>
+    <br>
+    <hr width="100%" size="2">
+    <h2>Multinomial Distribution</h2>
+    <p>The multinomial distribution differs from all the other discrete
+      distributions listed above in that it is a multivariate
+      distribution (rather than a univariate distribution). As such, one
+      possible observation from the distribution is actually a vector of
+      c observations rather than a scalar. Additionally, R only provides
+      the "d" and "r" options for the multinomial distribution. See<br>
+    </p>
+    <pre>?Multinom<br></pre>
+    For example, suppose the random vector (X1, X2, X3) has a
+    multinomial distribution with probabilities p1 = 0.2, p2 = 0.3, and
+    p3 = 0.5, and sample size n = 20. Then, we could compute the
+    multinomial probability P(X1 = 6, X2 = 4, X3 = 10) as follows.<br>
+    <pre>dmultinom(c(6,4,10), 20, c(0.2,0.3,0.5))<br></pre>
+    Note that R requires the first and third arguments of the function
+    to be vectors. The "c" (combine or concatenate) function tells R to
+    treat the elements as a vector. See<br>
+    <pre>?c<br></pre>
+    <br>
+    <br>
+  </body>
+</html>
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Spring 2007:INF 132 Human Computer Interaction Project Course: Department of Informatics, UCI</title>
+<link href="styleSheet.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+
+-->
+</style>
+</head>
+<body>
+<p class="style2 style6 style7">Informatics 132: Materials </p>
+<p class="style6">Spring 2007</p>
+<p class="style6"><a href="http://www.ics.uci.edu/informatics">Department of Informatics</a></p>
+<p class="style6"><a href="http://www.ics.uci.edu">Donald Bren School of Information and Computer Sciences </a></p>
+<p class="style6"><a href="http://www.uci.edu">University of California, Irvine </a></p>
+<div class="container"> <a href="index.html">Home</a> | <a href="admin.html">Administrative Policies </a> | <a href="structure.html">Course Structure</a> |<a href="materials.html"> Materials</a> | <a href="assignmentSchedule.html#CurrentWeek">Assignment Schedule </a>| <a href="faq.html">FAQ</a> </div>
+<div class="container">
+  <p><span class="style5">Books are optional, but recommended:</span></p>
+  <ul>
+    <li>Phone Code
+      <ul>
+        <li>helloworld example from class
+          <ul>
+            <li><a href="code/helloWorldExample.zip">code</a> </li>
+          </ul>
+        </li>
+        <li>lots more examples
+          <ul>
+            <li><a href="code/phoneExamples.zip">code</a>            </li>
+          </ul>
+        </li>
+        <ul>
+          <li>in particular check out
+            <ul>
+              <li>BlueDumpGPSTest</li>
+              <li>NetDumpGPSTest</li>
+              <li>They give examples of how to use the GPS code. The key difference is that the first one initializes the GPS component from a Bluetooth source:
+                <ul>
+                  <li> setGPS(new GPSComponent(GPSComponent.CONFIG_USE_BLUETOOTH_GPS)); </li>
+                </ul>
+              </li>
+              <li>And the second one gets fake GPS data (for testing and debugging) from a file on the Internet:
+                <ul>
+                  <li>setGPS(new GPSComponent(GPSComponent.CONFIG_USE_NETWORK_GPS_PROXY, &quot;http://www.ics.uci.edu/~djp3/classes/2006_03_30_ICS105/Resources/phone/GPSDATA01.txt&quot;)); </li>
+                </ul>
+              </li>
+              <li>Try running NetDumpGPSTest to see how to get the GPS data.</li>
+              <li>Then the &quot;tick()&quot; function in NetFormatGPSTest.java shows you how to format the data for your own use. </li>
+            </ul>
+          </li>
+        </ul>
+      </ul>
+    </li>
+    <li>Background and theory:
+      <p><a href="http://www.amazon.com/Designing-User-Interface-Human-Computer-Interaction/dp/0321197860/ref=sr_1_1/002-4805999-7231260?ie=UTF8&amp;s=books&amp;qid=1175642383&amp;sr=1-1"><img src="images/DTUI.jpg" alt="dtui" width="240" height="240" border="0" /></a></p>
+    </li>
+    <li>AJAX
+      <p><a href="http://www.amazon.com/exec/obidos/ASIN/1932394613/bookstorenow600-20"><img src="images/ajax.jpg" alt="ajax in action" width="240" height="240" border="0" /></a></p>
+    </li>
+    <li>Google Maps
+      <p><a href="http://www.amazon.com/Google-Maps-Hacks-Geographic-Searching/dp/0596101619"><img src="images/googleMapHacks.jpg" alt="google map hacks" width="240" height="240" border="0" /></a> </p>
+    </li>
+  </ul>
+  <p>&nbsp;</p>
+</div>
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

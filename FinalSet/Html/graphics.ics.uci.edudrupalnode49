@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Empty 2D Nesting Problem | iGravi: Interactive Graphics & Visualization</title>
+  
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+    
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/drupal/misc/favicon.ico" type="image/x-icon" />
+ 
+
+  <link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/fckeditor/fckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/panels/css/panels.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/layout.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/graphics.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/typography.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/links.css?s" />
+  
+  <!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="/drupal/sites/all/themes/marinelli/iestyles/ie6.css" />
+<![endif]-->
+
+  <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="/drupal/sites/all/themes/marinelli/iestyles/ie7.css" />
+<![endif]-->
+  
+  
+  <script type="text/javascript" src="/drupal/misc/jquery.js?s"></script>
+<script type="text/javascript" src="/drupal/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/drupal/sites/all/modules/panels/js/panels.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/drupal/" });
+//--><!]]>
+</script>
+</head>
+
+
+<body>
+  <div id="utilities">
+    
+    <div id="plinks">     
+             <ul class="links primary-links"><li class="menu-206 first"><a href="/drupal/front">Home</a></li>
+<li class="menu-209"><a href="/drupal/node/4" title="Projects">Projects</a></li>
+<li class="menu-194"><a href="/drupal/node/2" title="Publications">Publications</a></li>
+<li class="menu-210"><a href="/drupal/node/8" title="People">People</a></li>
+<li class="menu-178 last"><a href="/drupal/node/1" title="Login">Login</a></li>
+</ul>     
+               </div>          </div>
+
+
+<div id="page">
+
+  <div id="header">
+
+ 
+   <p class="sitetitle">
+	      <a href="/drupal/" title="Home">
+	        iGravi: Interactive Graphics &amp; Visualization	      </a>
+	    </p>	
+ 
+ 	  	  
+ <p class="slogan">Shine light on truth.</p>
+
+  </div>
+
+ 
+         
+       
+   
+
+  <div class="wrapper"><!--wrapper:defines whole content margins-->
+  
+  
+   <div id="primary" class="long">               <div class="singlepage">
+	   
+	  
+            
+		 		 
+                            <div class="drdot">
+<hr />
+</div>
+         
+          
+ 
+ 
+ 
+ 
+  <div class="node">
+ 	           
+
+        
+		        
+    <div class="content">
+	
+	
+	<h2><img width="200" align="left" height="189" alt="Sample Image" src="http://graphics.ics.uci.edu/drupal/sites/default/files/webform/hull_hierarchy.jpg" class="thumbnailimg" /></h2>
+<h2><strong>2D Nesting Problem<br />
+</strong></h2>
+<p align="justify"><span class="left"><b>Overview:</b>The 2D nesting problem is a famous problem in Computational Geometry where the objective is to fit multiple shapes into a fixed region. Simplistically put, it is similar to solving a jigsaw puzzle using just the geometry of the polygonal shapes. We approach this problem using a new geometric algorithm called the convex hull hierarchy. Our hull hierarchy exploits features of the polygons such as convex regions and concave regions termed as protrusions and cavities. We identify initial cavities using convex hulls of the polygons and then define protrusions based on cavities. This process is performed recursively and we finally have a tree structure where each node defines a new polygon which is either a cavity or a protrusion. We then use the hierarchy trees generated for each polygon to perform matching using criteria like polygon area, perimeter and tree isomorphism. Please contact <a href="mailto:gopi@ics.uci.edu">gopi@ics.uci.edu</a> for details. </span></p>
+<p>Project Members: Shanaz Mistry, Kaiser Md. Nahiduzzaman, M. Gopi</p>
+<p>Funding:</p></div>
+    
+    
+                
+        
+    
+            
+    
+  </div>
+      </div>
+
+    </div>
+
+
+   
+   
+   
+        	<!-- left -->
+        
+   	<!-- right -->
+        
+
+
+ <div class="clear"></div>
+
+  </div>
+</div>
+<!-- Close Page -->
+<div id="footer">
+
+
+   <a href="http://drupal.org"><img src="/drupal/misc/powered-blue-80x15.png" alt="Powered by Drupal, an open source content management system" title="Powered by Drupal, an open source content management system" width="80" height="15" /></a><p>Donald Bren School of Information and Computer Science<br />
+University of California, Irvine - Irvine, CA 92697</p></div>
+</body>
+</html>

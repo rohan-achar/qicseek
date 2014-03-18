@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Historic Day:  Today&#8217;s Election</title>
+	<atom:link href="http://ngs.ics.uci.edu/historic-day-todays-election/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/historic-day-todays-election/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Web Designer</title>
+		<link>http://ngs.ics.uci.edu/historic-day-todays-election/comment-page-1/#comment-2458</link>
+		<dc:creator><![CDATA[Web Designer]]></dc:creator>
+		<pubDate>Tue, 04 Nov 2008 14:25:46 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1015#comment-2458</guid>
+		<description><![CDATA[You make a great point in this blog. I just voted about an hour ago, and I am a first time voter so this was obviously an important time. Everyone should get out and vote. I too hope Obama wins.]]></description>
+		<content:encoded><![CDATA[<p>You make a great point in this blog. I just voted about an hour ago, and I am a first time voter so this was obviously an important time. Everyone should get out and vote. I too hope Obama wins.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

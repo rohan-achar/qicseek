@@ -1,0 +1,315 @@
+<head>
+
+<title>Statistics 110/201</title>
+
+ </head>
+
+<body text="#000000" bgcolor="#C0C0FF" link="#0000FF" vlink="#800080" alink="#FF0080">
+
+<center><img SRC="../rainbow.gif" height=14 width=100%></center>  <center>
+
+<h1> Statistics 110/201 - Fall 2012</h1></center>  <center> <h1>
+
+<a href="http://www.stat.uci.edu/">Department of Statistics</a></h1></center>
+
+ <center> <h1> University of California, Irvine</h1></center>
+
+<center><img SRC="../rainbow.gif" height=14 width=100%></center>
+
+<center> <h2> Welcome to the homepage for Statistics 110/201: Statistical Methods for Data Analysis I</h2></center>
+
+<center> <h2> <img SRC="../classes.gif" height=50 width=72><a NAME="classtime"></a>
+
+<b><i><font color="#FF0000"><font size=+1>Class Time</font></font></i></b></h2></center>
+
+<center><table BORDER WIDTH="89%" >
+
+<tr> <td> <center><font color="#3333FF"><font size=+1>Lecture</font></font></center> </td>
+
+<td> <center><b><font color="#3366FF">Discussion</font></b></center> </td> </tr>
+
+<tr>
+
+<td> <center><a href="http://www.classrooms.uci.edu/GAC/HH.html">262 Humanities Hall</a><br>Mon, Wed 9:30 - 11:00am</center> </td>
+
+<td> <center><a href="http://www.classrooms.uci.edu/GAC/HH.html">262 Humanities Hall</a><br>Mon 4:00 - 4:50am</center></td>
+
+</tr> </table></center>
+
+<center><p><img SRC="../bookques.gif" height=39 width=67>
+
+<a NAME="contact"></a><b><i><font color="#FF0000">
+
+<font size=+1>How, when and where to find us:</font></font></i></b></center>
+
+
+
+<center><table BORDER COLS=3 WIDTH="70%" > <tr> <td><a href="http://www.ics.uci.edu/~jutts">Professor Jessica Utts</a></td>
+
+<td><b>TA:</b> Shiwei Lan</td>   </tr>
+
+<tr> <td>2212 Donald Bren Hall</td>  <td>2013 Donald Bren Hall</td>  </tr>  <tr> <td>(949) 824-0649</td>  <td>no phone</td>  </tr>
+
+<tr> <td>jutts_at_uci.edu [Not clickable to avoid spam]</td>  <td>slan_at_uci.edu</td>  </tr>
+
+<tr> <td>Mon, Wed, 1:30-3:00 and by appointment<br>Special office hour for midterm: Tues, Oct 30, 10:30 - 11:30 am</td>
+
+<td>Mon, 3 to 4pm, and Fri, 1 to 3pm
+
+<br> </tr> </table></center>
+
+
+
+<h4> <img SRC="../star.gif" height=18 width=21>Syllabus, resources and material from class lectures and discussions</h4>
+
+<ul>
+
+<li> <a href="Syllabus110-201.pdf">Syllabus</a></li>
+
+<li> <a href="Outline110-201.pdf">Tentative Outline</a></li>
+
+<li> <a href="http://www.mhhe.com/kutnerALRM4e">Link to website to accompany the textbook, including data sets and downloadable pdf of Chapters 1, 2 and 13</a></li>
+
+<li> <a href="Stat110-201.pdf">Powerpoint slides from Monday Oct 1 (as a pdf file, 6 to a page)</a></li>
+<li> <a href="Discussion1.pdf">Slides from the Oct 1 discussion (as a pdf file, 6 to a page)</a></li>
+<li> <a href="RIntro.pdf">Handout on using R and R Commander to do Problem 1.19, Oct 8 Discussion</a></li>
+<li> <a href="RSessionHwyData.pdf">R Session showing how to get results for the Sign reading by Age example, including confidence and prediction intervals</a></li>
+<li> <a href="Oct15Lecture.pdf">October 15 lecture on checking assumptions (pdf file)</a></li>
+<li> <a href="GeneralLinearTest.pdf">Summary of General Linear Tests, from October 17 lecture</a></li>
+<li> <a href="HtWtLackofFitExample-Updated.pdf">Example of Lack of Fit test, from October 17 lecture</a>  <b>Updated Oct 25</b></li>
+<li> <a href="Ch6UCDHtHandout.pdf">Multiple regression example predicting heights from parents' heights, Oct 24 handout but with graphs</a></li>
+<li> <a href="MidtermReview.pdf">Midterm Exam Review</a></li>
+<li> <a href="ExtraSSGraphs.pdf">Example of graphs illustrating the Extra SS idea, for Mon, Nov 5 lecture</a></li>
+<li> <a href="Nov5Example.pdf">Example R output illustrating the different ways to compare models in R, for Mon, Nov 5 lecture</a></li>
+<li> <a href="MulticollinearityExample.pdf">Multicollinearity example from Nov 7 lecture</a></li>
+<li> <a href="InteractionAndPolynomialExamples.pdf">Examples of interactions and polynomial regression, Nov 14 lecture</a></li>
+<li> <a href="Lecture14.pdf">Lecture 14, Mon Nov 19 (one slide per page)</a> or <a href="Lecture14Compact.pdf">Compact version, 4 slides per page</a> </li>
+<li> <a href="BestSubsets.pdf">Best subsets example using Minitab, Mon Nov 19</a></li>
+<li> <a href="Case_Diagnostics_in_R.doc">Case Diagnostics in R (for Nov 21 lecture and homework)</a> and <a href="CaseDiagnosticsInR.pdf">PDF version</a> </li>
+<li> <a href="CaseDiagnostics.pdf">Case Diagnostics Example, Wed Nov 21</a></li>
+<li> <a href="https://eee.uci.edu/12f/37831">Website with ANOVA materials for 110 Students</a></li>
+<li> <a href="https://eee.uci.edu/12f/37911">Website with ANOVA materials for 201 Students</a></li>
+<li> <a href="OneWayAnovaSeatLocationExample.pdf">One-way analysis of variance example (Nov 26 lecture)</a></li>
+<li> <a href="TwoWayAnovaExample.pdf">Two-way analysis of variance example (Nov 28 lecture)</a></li>
+<li> <a href="Lectures18And19.pdf">Lectures for Mon and Wed, Dec 3 and 5</a></li>
+<li> <a href="ANOVAExamplesWithAnswers.pdf">ANOVA Examples with answers (Dec 3)</a></li>
+<li> <a href="FinalExamReview.pdf">Review for Final Exam - topics after the midterm (Dec 5)</a></li>
+
+</ul>
+
+
+<h4> <img SRC="../star.gif" height=18 width=21>Information about Installing R and R Commander, and getting an ICS Computing Account</h4>
+
+<ul> <li> <a href=http://www.ics.uci.edu/~lab/students/acct_activate.php>How to get an account to use the ICS Labs</a></li>
+
+<li> <a href=http://www.ics.uci.edu/~lab/lab_schedule/index.php>ICS Lab Hours</a></li>
+
+<li> <a href="InstallRCommander.doc">How to Install R and R Commander (Word)</a> or <a href="InstallRCommander.pdf">pdf</a></li>
+
+<li> <a href=http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/installation-notes.html>Additional notes on how to install R commander, helpful for Mac users</a></li>
+
+</ul>
+
+<h4> <img SRC="../star.gif" height=18 width=21>Instructions for R and R Commander</h4>
+
+<ul>
+<li> <a href="http://www.r-project.org/">The R Project Homepage</a></li>
+<li> <a href=http://www.ats.ucla.edu/stat/R/>Helpful website on learning and using R, from UCLA Academic Technology Services</a></li>
+<li> <a href="http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/">An R Commander website, by John Fox, who developed R Commander</a></li>
+<li> <a href="RSessionHwyData.pdf">R Session showing how to get results for the Sign reading by Age example, including confidence and prediction intervals</a></li>
+<li> <a href="RIntro.pdf">Handout on using R and R Commander to do Problem 1.19, Oct 8 Discussion</a></li>
+</ul>
+
+<h4> <img SRC="../star.gif" height=18 width=21>R Instructions, mostly using Exercises 1.19 and 6.9 as examples; Modified from materials prepared by my UC Davis TA Michael McAssey. Thanks, Michael!</h4>
+<ul>
+<li> <a href="Getting_Data_into_R.doc">Getting Data into R</a></li>
+<li> <a href="Making_a_Scatterplot_in_R.doc">Making a Scatterplot in R</a></li>
+<li> <a href="Simple_Linear_Regression_in_R.doc">Simple Linear Regression in R</a></li>
+<li> <a href="Regression_Inferences_in_R.doc">Regression Inferences in R</a></li>
+<li> <a href="More_Regression_Inferences_in_R.doc">More Regression Inferences in R</a></li>
+<li> <a href="Diagnostics_in_R.doc">Diagnostics in R</a></li>
+<li> <a href="Transformations_in_R.doc">Transformations in R</a></li>
+<li> <a href="Lack_of_Fit_Test.doc">Conducting a Lack of Fit Test in R</a></li>
+<li> <a href="Matrices_in_R.doc">Matrices in R</a></li>
+<li> <a href="Multiple_Regression_in_R.doc">Multiple Regression in R</a></li>
+<li> <a href="Extra_SS_in_R.doc">Extra Sums of Squares in R</a></li>
+<li> <a href="Indicator_Variables_in_R.doc">Some notes on dealing with indicator variables and factors in R</a></li>
+<li> <a href="Polynomial_and_Interaction_Regression_Models_in_R.doc">Polynomial and Interaction Regression Models in R</a></li>
+<li> <a href="Model_Selection_in_R.doc">Model Selection in R</a></li>
+<li> <a href="Case_Diagnostics_in_R.doc">Case Diagnostics in R (created by Prof Utts for Nov 21 lecture)</a></li>
+<li> <a href="DiscussionDec3Slide.pdf">Slide showing example of mixed model in R (Dec 3 Discussion)</a></li>
+
+ </ul>
+
+
+<h4><img SRC="../star.gif" height=18 width=21>Data Sets and Applets</h4>
+<ul>
+<li> <a href="HighwaySign.txt">Highway Sign data, with Age listed first, then Distance</a></li>
+<li> <a href="CH01PR19.csv">Data from Exercise 1.19, with GPA listed first, then ACT</a></li>
+<li> <a href="http://onlinestatbook.com/stat_sim/reg_by_eye/index.html">Drawing regression line by eye (applet)</a></li>
+<li> <a href="http://illuminations.nctm.org/LessonDetail.aspx?ID=L455">Effect of outliers on regression line (applet)</a></li>
+<li> <a href="UCD.txt">UC Davis height data, for Homework #5</a></li>
+<li> <a href="CH06PR15.txt">Data from Exercise 6.15, also for Exercises 7.5 and 7.6, and Nov 19 homework</a></li>
+<li> <a href="Exer816.txt">Data for 8.16 and 8.20, including headers and a column with "Major, yes or no" as a Factor (tab separators)</a></li>
+<li> <a href="CH01PR27.txt">Data from Exercise 1.27, also for Exercise 8.4</a></li>
+<li> <a href="Student0405.txt">Student0405.txt with tab separators</a> or <a href="student0405.txt">student0405.txt with comma separators,</a> data for Nov 26 homework</li>
+</ul>
+
+ <h4> <img SRC="../star.gif" height=18 width=21>Practice Exams and Exam Keys</h4>  <ul>
+<li> <a href="MidtermReview.pdf">Review for Midterm</a> (posted at least a week before the midterm)</li>
+<li> <a href="PracticeMidterm.pdf">Practice Midterm Exam</a></li>
+<li> <a href="PracticeMidtermKey.pdf">Practice Midterm Exam Key</a></li>
+
+
+
+<li> <a href="Midtermkey.PDF">Midterm Exam Key</a> (Posted after the exam)</li><br><br>
+<li> <a href="FinalExamReview.pdf">Review for Final Exam - topics after the midterm</a></li>
+
+<li> <a href="PracticeRegressionFinal.pdf">Practice Final on Regression</a></li>
+
+<li> <a href="PracticeFinalANOVA.pdf">Practice Final on ANOVA</a></li>
+
+<li> <a href="PracticeRegressionFinalKey.pdf">Practice Final on Regression Key</a></li>
+
+<li> <a href="PracticeFinalANOVAKey.pdf">Practice Final on ANOVA Key</a></li>
+
+
+
+
+
+<li> <a href="FinalKey.PDF">Final Exam Key</a> (Posted after the exam) </li> </ul>
+
+<h4> <img SRC="../star.gif" height=18 width=21>Homework Solutions, posted after they are due </h4>
+
+<blockquote>
+
+<li> <a href="HW1Key.pdf">Assignment #1, Due Mon, Oct 8</a></li>
+
+<li> <a href="HW2Key.pdf">Assignment #2, Due Mon, Oct 15</a></li>
+
+<li> <a href="HW3Key.pdf">Assignment #3, Due Mon, Oct 22</a></li>
+
+<li> <a href="HW4Key.pdf">Assignment #4, Due Mon, Oct 29</a></li>
+
+<li> <a href="HW5Key.pdf">Assignment #5, Due Mon, Nov 5</a></li>
+
+<li> <a href="HW6Key.pdf">Assignment #6, Due Wed, Nov 14</a></li>
+
+<li> <a href="HW7Key.pdf">Assignment #7, Due Mon, Nov 19</a></li>
+
+<li> <a href="HW8Part1Key.pdf">Part 1 of Assignment #8, Assigned Mon, Nov 19, Due Wed, Nov 28</a></li>
+
+<li> <a href="HW8110Part2Key.pdf">Part 2 of Assignment #8 for 110 Students, Assigned Wed, Nov 21, Due Wed, Nov 28</a></li>
+<li> <a href="HW8201Part2Key.pdf">Part 2 of Assignment #8 for 201 Students, Assigned Wed, Nov 21, Due Wed, Nov 28</a></li>
+
+<li> <a href="HW9Key.pdf">Assignment #9, Due Wed, Dec 5</a></li>
+
+ <br>&nbsp;</blockquote>
+
+<h4> <img SRC="../star.gif" height=18 width=21>Homework assignments:</h4> &nbsp; <table BORDER COLS=3 WIDTH="100%" >
+
+<tr> <td><b><u><font color="#FF0000">Date Assigned</font></u></b></td>  <td><b><u><font color="#FF0000">Date Due</font></u></b></td>
+
+<td><b><u><font color="#FF0000">Assignment</font></u></b></td>
+
+<td><b><u><font color="#FF0000">Sections covered and skipped; other topics covered</font></u></b></td>
+
+</tr>
+
+
+
+<tr>  <td>Mon Oct 1</td> <td>Mon Oct 8 </td> <td>Chapter 1: #12, 13, 29, 30 </td> <td>Overview of Regression</td> </tr>
+<tr>  <td>Oct 1 Disc.</td> <td></td> <td>No homework</td> <td><a href="Discussion1.pdf">Review of introductory statistics</a></td> </tr>
+<tr>  <td>Wed Oct 3</td> <td>Mon Oct 8 </td> <td>Chapter 1: #2, 5, 6, 11, 18</td> <td>Chapter 1</td> </tr>
+<tr>  <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+
+<tr>  <td>Mon Oct 8</td> <td>Mon Oct 15 </td> <td>Chapter 1: #27 (use R or R Commander); Chapter 2: #9, 10, 28ab </td> <td>Sections 2.1, 2.2, 2.4; Skip 2.3</td> </tr>
+<tr>  <td>Oct 8 Disc.</td> <td></td> <td>No homework</td> <td><a href="RIntro.pdf">Introduction to R and R Commander</a></td> </tr>
+<tr>  <td>Wed Oct 10</td> <td>Mon Oct 15 </td> <td>Chapter 2: #12, 27, 29bde (not parts a, c)</td> <td>Sections 2.5, 2.7, 2.9, 2.10; Skip 2.6, 2.11; Do 2.8 with Ch. 3 </td></tr>
+<tr>  <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+
+<tr>  <td>Mon Oct 15</td> <td>Mon Oct 22 </td> <td>Chapter 3: #1, 18, 19, 20</td> <td>Sections 3.1 to 3.4, 3.8, 3.9</td> </tr>
+<tr>  <td>Oct 15 Disc.</td> <td></td> <td>No homework</td> <td>Review of some basic statistics, t, chi-square and F distributions</td> </tr>
+<tr>  <td>Wed Oct 17</td> <td>Mon Oct 22</td> <td>Chapter 2: #56a, 57; Chapter 3: #15, 23 </td> <td>Sections 2.8, 3.7; Skip 3.5, 3.6, 3.10; Read 3.11 on your own; Skip Ch 4</td> </tr>
+<tr>  <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+
+<tr>  <td>Mon Oct 22</td> <td>Mon Oct 29</td> <td>Chapter 5: #3, 6, 8ab, 17a, 30, 31, and show that the hat matrix <b>H</b> is idempotent</td> <td>Sections 5.8 to 5.13</td> </tr>
+<tr>  <td>Oct 22 Disc.</td> <td>Not due</td> <td>Chapter 5: #1, 2 (Practice only!)<a href="Ch5Practice.pdf"> Solutions</a></td> <td>Sections 5.1 to 5.7 (Review of matrices)</td> </tr>
+<tr>  <td>Wed Oct 24</td> <td>Mon Oct 29</td> <td>Chapter 6: #1, 15ab*c, 16a, 25; *For 15b do the scatterplot matrix but not the correlation matix.</td><td>Data example and Sections 6.1 to 6.5</td> </tr>
+<tr>  <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+
+<tr>  <td>Mon Oct 29</td> <td>Mon Nov 5 </td> <td><a href="HW5.pdf">Assignment for Oct 29</a> and <a href="UCD.txt">UCD.txt, Data for Homework #5</a>
+ </td> <td>Part of Section 4.1; Sections 6.6, 6.7; Read 6.9 on your own </td> </tr>
+<tr>  <td>Oct 29 Disc.</td> <td> </td> <td>No homework</td> <td>Q&A for midterm exam</td> </tr>
+
+<tr>  <td>Wed Oct 31</td> <td> </td> <td>Midterm exam - no assignment </td> <td>Midterm exam</td> </tr>
+<tr>  <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+
+<tr>  <td>Mon Nov 5</td> <td>Wed Nov 14 </td> <td>Chapter 7: #1, 5, 6 28b <br> <a href="CH06PR15.txt">Data from Exercise 6.15, for #7.5 and 7.6</a></td>
+<td>Parts of Section 6.8; Sections 7.1 to 7.3; Skip 7.4, 7.5</td> </tr>
+<tr>  <td>Nov 5 Disc.</td> <td> </td><td>No homework</td> <td>Go over midterm, more instruction in R, Q&A</td></tr>
+<tr>  <td>Wed Nov 7</td> <td>Wed Nov 14</td> <td>Chapter 7: #22, Chapter 8: #21, 16abc, then repeat 16abc using coding in formula 8.44 (page 323)
+<br><a href="Exer816.txt">Data for 8.16, including headers and a column with "Major, yes or no" as a Factor (tab separators)</a> </td> <td>Sections 7.6, 8.3 and 8.4</td> </tr>
+
+<tr>  <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+
+<tr>  <td>Mon Nov 12</td> <td></td> <td>Holiday</td><td></td> </tr>
+<tr>  <td>Nov 12 Disc.</td><td></td> <td>Holiday</td> <td></td></tr>
+<tr>  <td>Wed Nov 14</td> <td>Mon Nov 19</td> <td>Chapter 8: #4abeg, 17, 18, 20<br>
+<a href="CH01PR27.txt">Data from Exercise 1.27, used for Exercise 8.4</a>; See previous homework (8.16) for data for 8.20</td></td> <td>Sections 8.1, 8.2 and 8.5</td> </tr>
+<tr>  <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+
+
+
+<tr>  <td>Mon Nov 19</td> <td><i>Wed Nov 28</i></td><td><a href="Nov19Homework.pdf">Assignment for Nov 19</a> and <a href="CH06PR15.txt">Data from Exercise 6.15</a> </td> <td>Parts of Sections 9.3, 9.4; Read 9.1, 9.2</td> </tr>
+
+<tr>  <td>Nov 19 Disc.</td> <td></td> <td>No homework</td> <td>Model building using R</td> </tr>
+
+<tr>  <td>Wed Nov 21</td> <td><i>Wed Nov 28</i></td><td><a href="Nov21Homework110.pdf">Assignment for <b>110 Students</b> for Nov 21</a> and <a href="Nov21Hmwk.txt">Data for 110 students</a><br>
+<a href="Nov21Homework201.pdf">Assignment for <b>201 Students</b> for Nov 21</a> and <a href="Quality2.txt">Data for 201 students</a> </td><td>Sections 10.2 to 10.4</td> </tr>
+
+<tr>  <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+
+
+
+<tr>  <td>Mon Nov 26</td> <td><i>Wed Dec 5</i></td> <td><a href="Nov26HW.pdf">Assignment for Nov 26</a>;
+choose <a href="Student0405.txt">Student0405.txt with tab separators</a> or <a href="student0405.txt">student0405.txt with comma separators</a></td> <td>One-way analysis of variance</td> </tr>
+
+<tr>  <td>Nov 26 Disc.</td> <td></td> <td>No homework</td> <td>Two-sample t-test using the ANOVA framework</td> </tr>
+
+<tr>  <td>Wed Nov 28</td> <td><i>Wed Dec 5</i></td> <td>Problems S4.10 to S4.14 in the "Utts Heckard TwoWayAnova" chapter</td> <td>Two factor ANOVA</td> </tr>
+
+<tr>  <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+
+
+
+<tr>  <td>Mon Dec 3</td> <td><i>Wed Dec 5</i></td> <td><a href="Dec3Homework.pdf">Assignment for Dec 3</a></td> <td>Random effects, randomized block design, nested effects, repeated measures</td> </tr>
+
+<tr>  <td>Dec 3 Disc.</td> <td></td> <td>No homework</td> <td>ANOVA using R; Q&A</td> </tr>
+
+<tr>  <td>Wed Dec 5</td> <td></td> <td>No homework</td> <td>Sums of squares for unbalanced ANOVA; more about random effects</td> </tr>
+
+<tr>  <td> </td> <td> </td> <td> </td> <td> </td> </tr>
+
+
+
+<tr>  <td>Wed Dec 12</td> <td></td> <td>Final Exam, 8-10am</td> <td></td> </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </table>  <br>&nbsp; <br>&nbsp; </body> </html>
+

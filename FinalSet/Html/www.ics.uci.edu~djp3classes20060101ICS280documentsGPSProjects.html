@@ -1,0 +1,232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ICS 280: Special topics in Informatics</title>
+<link rel="stylesheet" href="../styleSheet.css" type="text/css" />
+<link rel="icon" href="http://www.djp3.net/favicon.gif" />
+<link rel="shortcut icon" href="http://www.djp3.net/favicon.gif" />
+<style type="text/css">
+<!--
+.style1 {
+	font-size: larger;
+	font-weight: bold;
+}
+.style8 {font-size: 14px}
+-->
+                </style>
+</head>
+<body>
+<div class="container">
+  <div class="banner">
+    <hr width="30%"/>
+    <h1><span class="style1">GPS Project Descriptions </span></h1>
+    <p>&nbsp;</p>
+    <h2><a href="../index.html">Back to main page</a> </h2>
+    <hr width="30%"/>
+  </div>
+</div>
+<div class="container">
+  <ul>
+    <li>Goals
+      <ul>
+        <li>The goal of this project is to give participants hands on experience with GPS error. I want participants to have a physical working sense of how reliable and accurate an off-the-shelf receiver is and compare that to reported characteristics. The result will be that participants will be better designers of location-aware systems. </li>
+      </ul>
+    </li>
+    <li>Details
+      <ul>
+        <li>There are three possible projects. Two require a GPS unit.</li>
+        <li>There are two GPS units available. They have been distributed to Wiwat and Trung. </li>
+        <li>You may work in teams.
+          <ul>
+            <li>Team #1:
+              <ul>
+                <li>Jose, Mamadiou, Wiwat, Roger : Geocaching  </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>Background
+      <ul>
+        <li>GPS receivers output information in NMEA format. This is just a bunch of formatted strings. 
+          <ul>
+            <li>Example NMEA string:
+              <ul>
+                <li>&quot; $GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47&quot; </li>
+              </ul>
+            </li>
+            <li>Lots of references are online. Here are two:
+              <ul>
+                <li><a href="http://www.gpsinformation.org/dale/nmea.htm">One</a></li>
+                <li><a href="http://www.eoss.org/pubs/nmeafaq.htm">Two</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>Deliverables
+      depend on project, roughly:
+      <ul>
+        <li>An artifact related to the project</li>
+        <li>Presentation of project to class </li>
+        <li>Group self-evaluation
+          of the following form:
+          <ul>
+            <li>
+              <table border="1">
+                <tr>
+                  <th scope="col"><span class="style8">Group member </span></th>
+                  <th scope="col"><div align="center" class="style8">Lots more than average </div></th>
+                  <th scope="col"><div align="center" class="style8">More than average </div></th>
+                  <th scope="col"><div align="center" class="style8">Average</div></th>
+                  <th scope="col"><div align="center" class="style8">Less than average </div></th>
+                  <th scope="col"><div align="center" class="style8">Lots less than average </div></th>
+                  <th scope="col"><span class="style8">Responsibilities</span></th>
+                  <th scope="col"><span class="style8">Comments</span></th>
+                </tr>
+                <tr>
+                  <td><span class="style8">Joe Doughnut </span></td>
+                  <td><div align="center"><span class="style8"><span class="style8"></span></span></div></td>
+                  <td><div align="center"><span class="style8"><span class="style8"></span></span></div></td>
+                  <td><div align="center"><span class="style8"><span class="style8"></span></span></div></td>
+                  <td><div align="center"><span class="style8"><span class="style8"></span></span></div></td>
+                  <td><div align="center" class="style8">X</div></td>
+                  <td><span class="style8">Final presentation </span></td>
+                  <td><span class="style8">Didn't show up to give presentation </span></td>
+                </tr>
+                <tr>
+                  <td><span class="style8">Buzz Golden </span></td>
+                  <td><div align="center" class="style8">X</div></td>
+                  <td><div align="center"><span class="style8"><span class="style8"></span></span></div></td>
+                  <td><div align="center"><span class="style8"><span class="style8"></span></span></div></td>
+                  <td><div align="center"><span class="style8"><span class="style8"></span></span></div></td>
+                  <td><div align="center"><span class="style8"><span class="style8"></span></span></div></td>
+                  <td><span class="style8">Survey and Paper </span></td>
+                  <td><span class="style8">Did impromptu presentation plus everything else </span></td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <!--
+        			<li>Teaching Assistant
+					<ul>
+						<li></li>
+					</ul>
+				</li>
+				-->
+  </ul>
+</div>
+<div class="container">
+  <ul>
+    <li>Project 1: GPS Error survey
+      <ul>
+        <li>Collect position information from four locations:
+          <ul>
+            <li>Location 1: 6 hours of GPS traces from an open, unobstructed location. This will provide a baseline for what the &quot;best you can expect&quot; should be.</li>
+            <li>Location 2: 2 hours of GPS traces from an interesting obstructed location. </li>
+            <li>Location 3: 2 hours of GPS traces from an urban canyon.</li>
+            <li>Location 4: 15-30 minutes of GPS traces from a vehicle.</li>
+          </ul>
+        </li>
+        <li>Analysis
+          <ul>
+            <li>Report on the parameters of the receiver. Single-dual frequency, channels, etc. </li>
+            <li>Visualize this data in several ways. 2-D Histograms, temporally, overlays on satellites, anything that helps to illuminate features of the collected signals. </li>
+            <li>Present an analysis of any interesting features in the visualization.  Why does the analysis look the way it does? To what degree do the interference parameters that we discussed in class appear or not appear in the data. What is surprising about the data? What is expected about the data.</li>
+            <li>Given the results what applications can use the GPS receiver that you used? What applications can not use this receiver?</li>
+          </ul>
+        </li>
+        <li>Deliverables
+          <ul>
+            <li>a 5-10 page paper describing the survey</li>
+            <li>a 15 minute presentation describing the survey</li>
+            <li>group self-evaluation</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+<div class="container">
+  <ul>
+    <li>Project 2: Geocaching course
+      <ul>
+        <li>Develop a position-based treasure hunt that would be appropriate for prospective students to engage in
+          <ul>
+            <li>Select a number of locations on campus (~7)</li>
+            <li>Find the lat/long of those positions</li>
+            <li>Stash a weather-proof treasure or clue at each location. (In a plastic container probably)</li>
+            <li>The course should be designed in such a way that two teams can run the course at the same time competitively and there should be a disincentive for either team to steal or misplace the treasure once discovered. </li>
+          </ul>
+        </li>
+        <li>Create a web-site that will support the treasure hunt. It can be interactive with information from the treasures. </li>
+        <li>Do one round of redesign: Reserve one or two members of your group as the &quot;testers&quot;. Have that(those) person(s) run the course and then provide feedback to the group. Incorporate the feedback into the course.</li>
+        <li>Be creative </li>
+        <li>Deliverable
+          <ul>
+            <li>A geo-cache course that takes about an hour to run. </li>
+            <li>A website that can be used as a launching point for the course. You can assume that someone running the course has mobile-phone style access to the Internet. (simple-forms are okay)</li>
+            <li>Host a live run of the course for the other group.</li>
+            <li>a less than 10 page paper describing  the layout of the course, and how the mechanisms of the course work. (Sufficient that the course can be rebuilt)</li>
+            <li>Group self-evaluation </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+<div class="container">
+  <ul>
+    <li>Project 3: Offline DGPS software
+      <ul>
+        <li>This project can be done as a stand-alone project or as extra-credit</li>
+        <li>Write a piece of software that takes a basic GPS trace, applies off-line DGPS corrections from CORS (or somewhere else) and outputs a more accurate DGPS trace.</li>
+        <li>It is fine to cobble this together from existing tools provided:
+          <ul>
+            <li>The resulting software is well-integrated.</li>
+            <li>The component parts and associated licenses are documented     
+              clearly.</li>
+          </ul>
+        </li>
+        <li>The best solution will access CORS (or something) as part of the software and not require the user to get the CORS information themselves. </li>
+        <li>Caveat:
+          <ul>
+            <li>This may not be possible using the output of the GPS receivers that we are using.</li>
+          </ul>
+        </li>
+        <li>Deliverable
+          <ul>
+            <li>Software artifact and demo of it working, or</li>
+            <li>a paper clearly describing why you weren't able to get this working, what you could get to work and what options you investigated. </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<div class="container">
+  <p align="center"> <a href="http://validator.w3.org/check?uri=referer"><img
+        src="http://www.w3.org/Icons/valid-xhtml10"
+        alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a> </p>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

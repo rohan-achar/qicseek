@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dissertation and Plant Guild Project">
+    <meta name="author" content="Juliet Norton">
+    <link rel="shortcut icon" href="bootstrap/assets/ico/favicon.png">
+
+    <title>Grounded Technologist</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/bootstrap/assets/js/html5shiv.js"></script>
+      <script src="/bootstrap/assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Grounded Technologist</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#" onclick="$('#about').slideUp(); $('#projects').slideUp(); $('#summary').slideDown();">Home</a></li>
+            <li><a href="#" onclick="$('#about').slideDown();$('#summary').slideUp();">About</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="divider"></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Permaculture and Gardening</li>
+                <li class="divider"></li>
+                 <li><a href="http://arboretum.ucf.edu/">UCF Arboretum</a></li>
+                <li><a href="http://www.simplelivinginstitute.org/">Simple Living Institute</a></li>
+                <li class="divider"></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Academic Projects</li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Graduate Research @ UCI</li>
+                <li><a href="#">Plant Guild Composer</a></li>
+                <li class="dropdown-header">Graduate Research @ UCF</li>
+                <li><a href="http://e2i.ist.ucf.edu/index.php?projectInfo&projectID=2">Water's Journey Through the Everglades</a></li>
+                <li><a href="http://www.eecs.ucf.edu/isuelab/research/3dui.php#spatial">Full Body Navigation Interfaces</a></li>
+                <li><a href="http://lunarquest.ucfretrolab.org/">Lunar Quest</a></li>
+                <li><a href="http://isue-server.eecs.ucf.edu/chimera/">Minds of Chimera</a></li>  
+                <li class="dropdown-header">Undergraduate Research @ UCF</li>
+                <li><a href="http://e2i.ist.ucf.edu/index.php?projectInfo&projectID=8">Lunar Lunge</a></li>
+                <li><a href="http://e2i.ist.ucf.edu/index.php?projectInfo&projectID=9">M4: MOUT</a></li>
+                <li><a href="http://e2i.ist.ucf.edu/index.php?projectInfo&projectID=7">MR Warehouse</a></li>
+                <li><a href="http://e2i.ist.ucf.edu/index.php?projectInfo&projectID=15">MR Restaurant</a></li>
+                <li><a href="http://e2i.ist.ucf.edu/index.php?projectInfo&projectID=6">Smash Me</a></li>
+              </ul>
+            </li>
+            <li><a href="#" onclick="$('#about').slideUp(); $('#projects').slideUp(); $('#summary').slideDown();">Contact</a></li>
+            
+          </ul>
+          <!--<form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>-->
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Juliet Norton</h1>
+        <p>This is the informational website of a grounded technologist.</p>
+     <!--   <p><a class="btn btn-primary btn-lg">Learn more &raquo;</a></p>-->
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div id="summary" class="row">
+        <div class="col-lg-4">
+          <h2>About</h2>
+			<p>Juliet is a grounded technologist. Learn about the journey that brought her to UC, Irvine as a doctoral student in Informatics researching local food resilience.</p>
+          <p><button onclick="$('#about').slideDown();$('#summary').slideUp();">View details &raquo;</button></p>
+        </div>
+        
+        <div class="col-lg-4">
+          <h2>Projects</h2>
+          <p>This grounded technologist uses her computing knowledge to make a positive environmental and social impact. Read about her activities both in the soil and on the computer.</p>
+          <p><button onclick="$('#projects').slideDown();$('#summary').slideUp();">View details &raquo;</button></p>
+        </div>
+      
+      	<div class="col-lg-4">
+          <h2>Contact</h2>
+          <p>email: jnnorton [at] uci [dot] edu</p>
+       </div>       
+      </div>
+      
+      <div id="about" class="row" style="display:none">
+       
+        
+        <div class="col-lg-3">
+          <img src="images/headshot.JPG" alt="Juliet Headshot" width="240" height="320" style="margin-top:25px">
+        </div>
+        
+        <div class="col-lg-9">
+          <h2>About</h2>
+          <p><button onclick="$('#about').slideUp();$('#summary').slideDown();">&laquo; Close details</button></p>
+          <p>Juliet is a grounded technologist. In the Spring of 2013, a wise man asked Juliet why she was so motivated to live sustainably. Sure, her exposure to the natural wonders of North America as a youth helped, but she realized it is her deep sense of responsibility for her actions upon the earth and to her kin. 
+          It is because of this intrinsic interest in sustainability and wellbeing that she calls herself a grounded technologist.</p>
+          
+          <p>Juliet grew up in Florida and attended college at the University of Central Florida where she received a B.A. in Digital Media and later a M.S. in Computer Science. In her spare time she was found in the Arboretum on campus gardening, until one day she decided to make that her research. Around that time Juliet integrated into the Central Florida permaculture community and transformed her lifestyle in a soul satisfying way. Not only was she able to satisfy her desire to live sustainably, but she was a part of a collective of people who inspired her to reach out and "give back" to the world with the knowledge she had gained.</p>
+          
+          <p>Today Juliet lives in Irvine and attends the University of California in effort to address critical issues that affect the long term wellbeing of earth and humanity. As a student of Bill Tomlinson, a member of the GreenIT lab, and a participant in the on-campus Sustainability Initiative, Juliet is surrounded by inspiring and supportive people to help her achive her goal of making the world a happier, healthier place to live now and for future generations.</p>
+          
+        </div>
+        
+      </div>
+      
+      <div id="projects" class="row" style="display:none">
+        <h2> Projects </h2>
+        <p><button onclick="$('#projects').slideUp();$('#summary').slideDown();">&laquo; Close details</button></p>
+        <div class="col-lg-4">
+          <h4>Permaculture and Gardening</h4>
+          <ul>
+			<li><a href="http://arboretum.ucf.edu/">UCF Arboretum</a></li>
+			<li><a href="http://www.simplelivinginstitute.org/">Simple Living Institute</a></li>
+		 </ul>
+		</div>
+		<div class="col-lg-4">
+		  <h4>Graduate Research @ UCI</h4>
+		  <ul>
+			<li><a href="#">Plant Guild Composer</a></li>
+		  </ul>
+		  <h4>Graduate Research @ UCF</h4>
+		  <ul>
+			<li><a href="http://e2i.ist.ucf.edu/index.php?projectInfo&projectID=2">Water's Journey Through the Everglades</a></li>
+			<li><a href="http://www.eecs.ucf.edu/isuelab/research/3dui.php#spatial">Full Body Navigation Interfaces</a></li>
+			<li><a href="http://lunarquest.ucfretrolab.org/">Lunar Quest</a></li>
+			<li><a href="http://isue-server.eecs.ucf.edu/chimera/">Minds of Chimera</a></li>  
+		  </ul>
+		</div>
+		<div class="col-lg-4">
+		  <h4>Undergraduate Research @ UCF</h4>
+		  <ul>
+			<li><a href="http://e2i.ist.ucf.edu/index.php?projectInfo&projectID=8">Lunar Lunge</a></li>
+			<li><a href="http://e2i.ist.ucf.edu/index.php?projectInfo&projectID=9">M4: MOUT</a></li>
+			<li><a href="http://e2i.ist.ucf.edu/index.php?projectInfo&projectID=7">MR Warehouse</a></li>
+			<li><a href="http://e2i.ist.ucf.edu/index.php?projectInfo&projectID=15">MR Restaurant</a></li>
+			<li><a href="http://e2i.ist.ucf.edu/index.php?projectInfo&projectID=6">Smash Me</a></li>
+		  </ul>
+        </div>
+      </div>
+      
+      
+
+      <hr>
+
+      <footer>
+        <p>&copy; Juliet Norton 2013</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bootstrap/assets/js/jquery.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    
+    
+    
+  </body>
+</html>
+

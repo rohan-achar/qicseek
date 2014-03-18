@@ -1,0 +1,213 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Using the macros</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Using the macros">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html4059 HREF="node152.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html4057 HREF="node149.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html4051 HREF="node150.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html4061 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html4060 HREF="node152.html"> Definite Clause Grammars </A>
+<B>Up:</B> <A NAME=tex2html4058 HREF="node149.html">  ECLiPSe
+  Macros</A>
+<B> Previous:</B> <A NAME=tex2html4052 HREF="node150.html"> Introduction</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION001220000000000000000> Using the macros</A></H1>
+<P>
+The following built-ins control macro expansion:
+<DL ><DT><b> define_macro(+TermClass, +TransPred, +Options)</b>
+<DD> <BR>
+<P>
+define a macro for the given <i> TermClass</i>. The transformation will
+be performed by the predicate <i> TransPred</i>.
+<DT><b> erase_macro(+TermClass)</b>
+<DD> <BR>
+<P>
+erase a currently defined macro for <i> TermClass</i>. This can only be done
+in the module where the definition was made.
+<DT><b> current_macro(?TermClass, ?TransPred, ?Options, ?Module)</b>
+<DD> <BR>
+<P>
+retrieve information about currently defined visible macros.
+<P>
+ </DL>
+<P>
+Macros are selectively applied only to terms of the specified class.
+<i> TermClass</i> can take two forms:
+<DL ><DT>Name/Arity
+<DD> transform all terms with the specified functor
+<A NAME=2356>&#160;</A>
+<A NAME=2357>&#160;</A>
+<DT>type(Type)
+<DD> transform all terms of the specified type, where Type
+is one of <tt> compound, string, integer, rational, real, atom,
+goal</tt><A NAME=tex2html517 HREF="footnode.html#2359"><IMG ALIGN=BOTTOM ALT="gif" SRC="http://www.ecrc.de/eclipse/new_icons//foot_motif.gif"></A>.
+<P>
+ </DL>
+The +TransPred argument specifies the predicate that will perform the
+transformation. It has to be of arity 2 or 3 and should have the form:
+<blockquote> <PRE>trans_function(OldTerm, NewTerm [, Module]) :- ... .
+</PRE></blockquote>
+At transformation time, the system will call <i> TransPred</i> in the module
+where <b> define_macro/3</b> was invoked.
+The term to transform is passed as the first argument, the second is a free
+variable which the transformation predicate should bind to the
+transformed term, and the optional
+third argument is the module where the term is read or written.
+<P>
+<i> Options</i> is a list which may be empty (in this case the macro defaults
+to a local read term macro) or contain specifications from
+the following categories:
+<UL><LI> visibility
+<P>
+<DL ><A NAME=2369>&#160;</A>
+<DT>local:
+<DD> The transformation is only visible in this module (default).
+<A NAME=2370>&#160;</A>
+<DT>global:
+<DD> The transformation is globally visible.
+<P>
+ </DL>
+<P>
+<LI> mode
+<DL ><A NAME=2373>&#160;</A>
+<DT>read:
+<DD> This is a read macro and shall be applied after reading a
+term (default).
+<P>
+<A NAME=2374>&#160;</A>
+<DT>write:
+<DD> This is a write macro and shall be applied before printing
+a term.
+<P>
+ </DL>
+<P>
+<LI> type
+<DL ><A NAME=2377>&#160;</A>
+<DT>term:
+<DD> Transform all terms (default).
+<P>
+<A NAME=2378>&#160;</A>
+<DT>clause:
+<DD> Transform only if the term is a program clause,
+i.e. inside compile/1, assert/1 etc.
+Write macros are applied using the 'C' option in the printf/2 predicate.
+<P>
+<A NAME=2382>&#160;</A>
+<DT>goal:
+<DD> Transform only if the term is a subgoal in the
+body of a program clause.
+Write macros are applied using the 'G' option in the printf/2 predicate.
+<P>
+ </DL>
+<P>
+<LI> additional specification
+<DL ><A NAME=2386>&#160;</A>
+<DT>protect_arg:
+<DD> Disable transformation of subterms (optional).
+<A NAME=2387>&#160;</A>
+<DT>top_only:
+<DD> Consider only the whole term, not subterms (optional).
+<P>
+ </DL></UL>
+<P>
+Here is an example of a conditional read macro:
+<blockquote> <PRE>[eclipse 1]: [user].
+ trans_a(a(X,Y), b(Y)) :-    % transform a/2 into b/1,
+        number(X),           % but only under these
+        X &gt; 0.               % conditions
+
+:- define_macro(a/2, trans_a/2, []).
+  user       compiled traceable 204 bytes in 0.00 seconds
+
+yes.
+[eclipse 2]: read(X).
+        a(1, hello).
+
+X = b(hello)                 % transformed
+yes.
+[eclipse 3]: read(X).
+        a(-1, bye).
+
+X = a(-1, bye)               % not transformed
+yes.
+</PRE>
+</blockquote>
+If the transformation function fails, the term is not transformed. Thus, 
+<b> a(1, zzz)</b> is transformed into <b> b(zzz)</b> but <b> a(-1, zzz)</b> 
+is not transformed.
+The arguments are transformed bottom-up. It is possible to protect the 
+subterms of a transformed term by specifying the flag <tt> protect_arg</tt>.
+<P>
+A term can be protected against transformation by quoting it with 
+the ``protecting functor'' (by default it is <b> no_macro_expansion/1</b>):
+<A NAME=2397>&#160;</A>
+<blockquote> <PRE>[eclipse 4]: read(X).
+        a(1, no_macro_expansion(a(1, zzz))).
+X = b(a(1, zzz)).
+</PRE>
+</blockquote>
+Note that the protecting functor is itself defined as a macro:
+<blockquote> <PRE>trprotect(no_macro_expansion(X), X).
+:- define_macro(no_macro_expansion/1, trprotect/2, [global, protect_arg]).
+</PRE> </blockquote>
+A macro is by default only visible in the module where it has been defined.
+When it is defined inside a module interface, then it is copied to all
+other modules that contain a use_module/1 for this module.
+The transformation function should be exported in this case and be defined
+in the module interface as well.
+<P>
+A macro can also be made visible in all modules by specifying the <tt> global</tt>
+option in the option list. As usual, local definitions hide global ones.
+<A NAME=2404>&#160;</A>
+The global flag <b> macro_expansion</b> can be used to disable
+macro expansion globally, e.g. for debugging purposes.
+Use <tt> set_flag(macro_expansion, off)</tt> to do so.
+<P>
+The next example shows the use of a type macro. Suppose we want to represent
+integers as s/1 terms:
+<blockquote> <PRE>[eclipse 1]: [user].
+ tr_int(0, 0).
+ tr_int(N, s(S)) :- N &gt; 0, N1 is N-1, tr_int(N1, S).
+ :- define_macro(type(integer), tr_int/2, []).
+
+yes.
+[eclipse 2]: read(X).
+        3.
+
+X = s(s(s(0)))
+yes.
+</PRE> </blockquote>
+When we want to convert the s/1 terms back to normal integers so that they
+are printed in the familiar form, we can use a write macro.
+Note that we first erase the read macro for integers, otherwise we would get
+unexpected effects since all integers occurring in the definition of
+tr_s/2 would turn into s/1 structures:
+<blockquote> <PRE>[eclipse 3]: erase_macro(type(integer)).
+
+yes.
+[eclipse 4]: [user].
+ tr_s(0, 0).
+ tr_s(s(S), N) :- tr_s(S, N1), N is N1+1.
+ :- define_macro(s/1, tr_s/2, [write]).
+
+yes.
+[eclipse 2]: write(s(s(s(0)))).
+3
+yes.
+</PRE> </blockquote><BR> <HR><A NAME=tex2html4059 HREF="node152.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html4057 HREF="node149.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html4051 HREF="node150.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html4061 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html4060 HREF="node152.html"> Definite Clause Grammars </A>
+<B>Up:</B> <A NAME=tex2html4058 HREF="node149.html">  ECLiPSe
+  Macros</A>
+<B> Previous:</B> <A NAME=tex2html4052 HREF="node150.html"> Introduction</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

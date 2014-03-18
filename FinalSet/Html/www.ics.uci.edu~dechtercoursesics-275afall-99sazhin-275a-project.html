@@ -1,0 +1,303 @@
+<HTML>
+<HEAD>
+<TITLE>
+Dr. Rina Dechter @ UCI
+</TITLE>
+<LINK REL="Stylesheet" HREF="/~dechter/basic.css">		
+</HEAD>
+
+<BODY bgcolor="#ffffff" alink="00aaaa" link="008080" vlink="008080">
+
+<!-- Begin Header -->
+  <center>
+<table width="95%" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td class="title" valign="bottom">
+      <nobr>Dr. Rina Dechter - University of California at Irvine</nobr></td>
+
+    <td><img alt="ZOT!" align="right" valign="bottom" src="/~dechter/images/anteater-ics.gif"></td>
+  </tr>
+
+  <tr>
+    <td colspan="2"><img height="2" src="/~dechter/images/transp-fill.gif"></td>
+  </tr>
+
+  <tr>
+    <td colspan="2"><img width="100%" height="2"  src="/~dechter/images/black-fill.gif"></td>
+  </tr>
+
+  <tr valign=top>
+    <td><font color="ffaa00" size="3"><a href="/~dechter/index.html">home</a> |
+    <a href="/~dechter/publications.html">publications</a> |
+    <a href="/~dechter/books/">book</a> |
+		<a href="/~dechter/courses.html">courses</a> |
+    <a href="/~dechter/research.html">research</a></font></td>
+    <td align=right><font color=#008080>Revised on
+      
+      Sep. 08, 2008</font></td>
+  </tr>
+</table>
+</center>
+<!-- End Header -->
+		
+<br><br>
+<center>
+<TABLE width="90%" cellspacing="0" cellpadding="0" border="0">
+<tr><td>
+<p class="title">Correlation between parameters of the constraint graphs and the solution
+time spent by different search algorithms<br>
+Course project ICS 275A<br>
+Anton Sazhin</p>
+
+<p ALIGN="CENTER"><a HREF="mailto:sazhin@ics.uci.edu">sazhin@ics.uci.edu</a></font><font
+FACE="Arial"> </p>
+</font><font FACE="Arial" SIZE="3">
+
+<p ALIGN="CENTER">This project is based on the research done by Rina Dechter and Daniel
+Frost.</p>
+</font><font FACE="Arial"><b>
+
+<p>1. Introduction</p>
+</b></font><font FACE="Arial" SIZE="3">
+
+<p ALIGN="JUSTIFY">Constraint Satisfaction Problems were in the focus of the theoretical
+and experimental research over the last two decades [1-5]. As the result of this research
+there is a verity of different algorithms, which are efficient for solving some classes of
+CSP. A lot of work is done to provide a theoretical guarantee of the worst case
+performance. But in practice a lot of problems do not belong to any class of CSP where we
+have a reasonable guarantee of the worst case performance. Nevertheless even for these
+cases existing algorithms often are able to provide a solution much faster then the
+estimated worst case time. </p>
+
+<p ALIGN="JUSTIFY">This project provides a statistical analysis of an average case
+performance of five different CSP algorithms for some classes of CSP problems where the
+worst case analysis provides guarantees, which are far behind of any computational
+resources available nowadays. </p>
+
+<p ALIGN="JUSTIFY">The project addresses two main questions. Are some instances
+&quot;naturally&quot; more difficult then other even if they have the same number of
+variables, constraints, and values in each domain? If there are some &quot;naturally&quot;
+difficult instances then what makes them difficult? </p>
+</font><font FACE="Arial"><b>
+
+<p ALIGN="JUSTIFY">2. Method</p>
+</b></font><font FACE="Arial" SIZE="3">
+
+<p ALIGN="JUSTIFY">The behavior of the five search algorithms is investigated in this
+project (BJ means conflict-directed backjumping, FC means forward checking, AC3X means
+full arc-consistency checking, DVO means dynamic variable ordering, VMC means maximum
+cardinality variable ordering, VFA means fixed arbitrary variable ordering):</p>
+
+<p ALIGN="JUSTIFY">1. BJ-AC3X-DVO</p>
+
+<p ALIGN="JUSTIFY">2. BJ-AC3X-VMC</p>
+
+<p ALIGN="JUSTIFY">3. BJ-AC3X-VFA</p>
+
+<p ALIGN="JUSTIFY">4. BJ-FC-DVO</p>
+
+<p ALIGN="JUSTIFY">5. BJ-FC-VMC</p>
+
+<p ALIGN="JUSTIFY">The choice of the set of CSP to test the algorithm performance is
+really crucial. For one type of CSP problems algorithm A can overperform algorithm B while
+for another type of CSP A overperforms B. The choice of the testing set of CSP is very
+subjective. It has been shown [1,3] that there are set of parameters (so called cross-over
+points) which make CSP very difficult to solve. In this project only sets nearby
+cross-over points are investigated. </p>
+
+<p ALIGN="JUSTIFY">Eight sets of CSP problems are chosen (see table 1). Each set contains
+10000 parameterized, randomly generated, binary CSP instances. Four generation parameters
+determines the each set of CSP: N is the number of variables, D is the size of each
+variable&#146;s domain, C is the number of constraints, T is an indicator of the tightness
+of each constraint. The short notation is used everywhere below: N_D_C_T. For example the
+type 50_3_164_2 means N = 50, D = 3, C = 164, T = 2. </p>
+
+<p ALIGN="JUSTIFY">All possible constraints could be enumerated using a simple rule:
+constraint 1--2 has number 1, constraint 1--3 has number 2, ..., constraint 1--N has
+number N - 1, ..., constraint (N-1)--N has number N*(N-1)/2. Four sets contain the
+instances where constraints are uniformly distributed over all variables (these sets
+denoted as &quot;uniform&quot;). In the uniform case the distribution function of a binary
+random variable &quot;Constraint x is chosen&quot; is linear, so its derivative (the
+probability density function) is constant. Four sets contain the instances where
+constraints are distributed non-uniformly (these sets denoted as &quot;non-uniform&quot;).
+In the non-uniform case the distribution function is polynomial with randomly chosen power
+between 1 and 2, so its derivative (the probability density function) is polynomial with
+randomly chosen power between 0 and 1. </p>
+
+<p ALIGN="JUSTIFY">To make the performance estimation simpler only one parameter is used
+to judge how good a particular algorithms solves a particular CSP instance. This parameter
+is the number of consistency checks made by the algorithm while solving the instance. The
+number of consistency checks for all algorithms under investigation is strongly correlated
+with CPU time spent by these algorithms at some particular computer. And the number of
+consistence checks is implementation independent and will be the same for computers with
+different performance.</p>
+
+<p ALIGN="JUSTIFY">Eight different graph parameters are used as in advance estimators of
+the difficulty of some particular instance of CSP. Four of them deal with the original
+constraint graph and the corresponding set of four graph parameters is calculated for the
+induced constraint graph. Minimum induced width algorithm is used to build the induced
+width graph. These parameters for original and induced graphs respectively are width,
+number of variables in the core, hyperwidth of the core, and relative density of
+constraints in the core. The definition of the core is the set of variables in the graph
+(original or induced respectively) with width at least 80% of the width of the
+corresponding graph. For example, if the induced width is equal to 50 then the core of the
+induced graph contains all variables with induced width 40 or bigger. The hyperwidth of
+the core is defined as the sum over widths of all variables in the core. The definition of
+the relative density of constraints in the core is a little bit cumbersome: it is the
+ratio of the actual number of constraints between variables in the core (both variables
+should be in the core) to the expected number of constraints between variables in the
+core. The actual number of constraints between variables in the core could be easily
+counted for the particular graph. The expected number of constrains between variables in
+the core is equal to C*N<sub>C</sub>*( N<sub>C</sub> -1)/( N*( N -1) ), where C is the
+number of constraints, N is the number of variables, and N<sub>C </sub>is the number of
+variables in the core.</p>
+</font><font FACE="Arial"><b>
+
+<p ALIGN="JUSTIFY">3. Results and discussion </p>
+</b></font><font FACE="Arial" SIZE="3">
+
+<p ALIGN="JUSTIFY">The average numbers of consistency checks over 10000 instances for each
+algorithm and each set of generation parameters of CSP is shown in the table 1. The graph
+1 represents the same information (results for BJ-FC-VMC are omitted because they are way
+bigger then other). We can see that the algorithms BJ-AC3X-DVO, BJ-AC3X-VMC and
+BJ-AC3X-VFA give almost the same performance for simple (less time consuming for all
+algorithms) types of CSP: 50_3_164_2 and 50_3_92_3. In the case of more difficult types of
+CSP (50_3_380_1 and 30_6_151_10) the choice of the &quot;right&quot; variable ordering
+becomes more important so BJ-AC3X-DVO and BJ-AC3X-VMC perform better than BJ-AC3X-VFA.
+Only the BJ-AC3X-VFA algorithm shows the significant (about three times) difference
+between performance for &quot;uniform&quot; and &quot;non-uniform&quot; types of CSP. This
+result seems counterintuitive because one can expect that the algorithm that use
+&quot;smart&quot; variable ordering will take bigger advantage of the information about
+non-uniformity of the constraint distribution.</p>
+
+<p ALIGN="JUSTIFY">The main focus of this project is the analysis of the set of
+correlation matrixes. This set is presented in tables 2 &#150; 25. In these tables
+&quot;all&quot; means correlation matrixes over all instances, &quot;zeros&quot; means
+correlation matrixes over instances which are proved to have no solution and
+&quot;ones&quot; means correlation matrixes over instances which have at least one
+solution. Remember that algorithms stop after the first solution is found or the absence
+of the solution is proved.</p>
+
+<p ALIGN="JUSTIFY">Let&#146;s first address the question about the &quot;natural&quot;
+difficulty of some instances inside the same type of CSP. There are some interesting
+trends here. </p>
+
+<p ALIGN="JUSTIFY">The first one is that for &quot;difficult&quot; types of CSP
+(50_3_380_1 and 30_6_151_10) the performance of all algorithms, except BJ-AC3X-VFA, is
+highly correlated. One should not make the conclusion that for this type of CSP the
+variable ordering is fully responsible for the performance. We can see that FC algorithms
+perform significantly worse than AC3X algorithms in these types of CSP. I would suggest
+the interpretation that for these types of CSP there is a significant amount of instances
+where the &quot;smart&quot; variable ordering can detect a &quot;good&quot; ordering,
+which simultaneously improves performance of all nontrivial ordering algorithms.</p>
+
+<p ALIGN="JUSTIFY">Another very interesting trend is that the correlation between
+BJ-AC3X-VFA and other AC3X algorithms is higher in the cases of non-uniformly distributed
+constraints. For &quot;difficult&quot; types of CSP (50_3_380_1 and 30_6_151_10) the
+growth of the correlation is minimal. But for &quot;easy&quot; types of CSP (50_3_164_2
+and especially 50_3_92_2) the difference is very high. Maybe this type of correlation is
+connected with the fact that BJ-AC3X-VFA for &quot;difficult&quot; types of CSP performs
+significantly better when constraints are distributed non-uniformly.</p>
+
+<p ALIGN="JUSTIFY">Surprisingly enough, there is not so much difference between the set of
+correlation matrixes for problems where solution exists only, for problems where the
+absence of the solution is proven only and for mixture of those problems. One interesting
+observation can be made here. For difficult types of CSP, instances where no solution is
+proved are more time consuming for all algorithms (negative correlation between -0.2 and
+&#150;0.5). But for easy types of CSP the situation is more complicated. FC algorithms
+perform approximately the same way in solvable instance and in instances where no solution
+is proved. BJ-AC3X-DVO and BJ-AC3X-VMC perform significantly better in instances where no
+solution is proved. While BJ-AC3X-VFA performs significantly better in instances where no
+solution is proved only if constraints are distributed non-uniformly. In the case of
+uniformly distributed constraints there is no correlation between performance of
+BJ-AC3X-VFA and the existence of the solution.</p>
+
+<p ALIGN="JUSTIFY">The last part of the statistical analysis deals with the correlation
+between the performance and different graph parameters. It would be really nice to be able
+to predict how difficult is each particular instance of CSP simply by analyzing the
+constraint graph. Unfortunately, at least for the chosen set of graph parameters there is
+no significant correlation between any graph parameter and any algorithm. There is a small
+correlation between induced width and the performance of algorithms that use VMC (the
+maximum cardinality variable ordering) at least for some types of CSP. One should expect
+it because VMC is closely connected with induced graph. But even this correlation is too
+small (non bigger than 0.3) to be used on practice. </p>
+</font><font FACE="Arial"><b>
+
+<p ALIGN="JUSTIFY">4. Conclusion </p>
+</b></font><font FACE="Arial" SIZE="3">
+
+<p ALIGN="JUSTIFY">The obvious observation is that for these particular types of CSP the
+best choice would be BJ_AC3X_VMC.</p>
+
+<p ALIGN="JUSTIFY">Less trivial observation is that there are strong dependencies between
+performance of different algorithms applied to the same CSP instances. And these
+dependencies change significantly when we change the set of generation parameters.</p>
+
+<p ALIGN="JUSTIFY">The set of graph parameters introduced in this project is not suitable
+for an advance prediction of the difficulty of some particular CSP instance inside the
+same generation type. Three possible reasons could explain this fact. The first possible
+reason is that the author of this project is not lucky (or smart) enough to guess the
+right set of graph parameters. The second explanation is that the pairwise correlation
+between each particular parameter and performance is not enough and one should
+statistically analyze the performance vs. the whole set of graph parameters
+simultaneously. For example, the parity function could not be detected using pairwise
+correlation matrix. The last possible reason could be that it is impossible in principal
+to predict the &quot;hardness&quot; of some particular instance inside the same type of
+CSP before we solve it or prove the absence of the solution by some algorithm. </p>
+
+<p ALIGN="JUSTIFY">&nbsp;</p>
+
+<p ALIGN="JUSTIFY">&nbsp;</p>
+</font><font FACE="Arial"><b>
+
+<p ALIGN="JUSTIFY">5. References</p>
+
+<dir>
+  </b></font><font FACE="Arial" SIZE="3"><p ALIGN="JUSTIFY">1. Daniel Frost, <a
+  HREF="http://www.ics.uci.edu/~csp/R69.ps">&quot;Algorithms and
+  Heuristics for Constraint Satisfaction Problems.&quot;</a> Ph.D. thesis, ICS, UCI, October
+  1997.</p>
+  <p ALIGN="JUSTIFY">2. Rina Dechter, &quot;Enhancement Schemes for Constraints Proceedings:
+  Backjumping, Learning and Cutset Decomposition&quot;, <i>Artificial Intelligence</i>
+  41:273-312. 1990</p>
+  <p ALIGN="JUSTIFY">3. Peter Cheeseman, Bob Kanefsky, and William M. Taylor, &quot;Where
+  the <i>really</i> hard problems are&quot;, In <i>Proceedings of the International Joint
+  Conference on Artificial Intelligence, </i>pages 331-337, 1991</p>
+  <p ALIGN="JUSTIFY">4. John G. Gaschnig, &quot;Performance Measurement and Analysis of
+  Certain Search Algorithms&quot;, Ph.D. thesis, Carnegie Mellon University, Pittsburgh, PA
+  15213, May 1979.</p>
+  <p ALIGN="JUSTIFY">5. Daniel Frost and Rina Dechter, &quot;In search of the best
+  constraint satisfaction search&quot;, In <i>Proceedings of the Twelfth National Conference
+  on Artificial Intelligence, </i>pages 291-300, 1991</p>
+</dir>
+</font>
+
+<p ALIGN="JUSTIFY"><font FACE="Arial"><b>6. Appendix</b></font></p>
+
+<p ALIGN="JUSTIFY"><a href="sazhin-275a-project-tables.html">The set of tables 1-25 is
+available in HTML format (It could be really slow)</a></p>
+
+<p ALIGN="JUSTIFY">This project report is also available in MS Office (Word and Excel)
+format. The tables look much better. Also printing is easy.<a
+href="proj_report_sazhin_275A.zip"> Download zip archive (42K)</a></p>
+</td></tr>
+</table>
+</center>
+
+<p>
+
+<!--- Begin Footer -->
+     <div id="footer"><centeR>
+<A HREF="http://www.ics.uci.edu">School of Information and Computer Science</A>
+<A HREF="http://www.uci.edu">University of California, Irvine, CA 92697-3435</a>
+<A HREF="http://www.ics.uci.edu/~dechter">Dr. Rina Dechter</A>
+
+<A HREF="mailto:dechter_at_ics.uci.edu">dechter at ics.uci.edu</A>
+
+</center></div>
+<!--- End Footer -->
+
+
+</body>
+</html>
+

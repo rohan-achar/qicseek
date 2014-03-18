@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Visibility</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Visibility">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html3852 HREF="node135.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html3850 HREF="node129.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html3846 HREF="node133.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html3854 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html3853 HREF="node135.html"> Input and Output</A>
+<B>Up:</B> <A NAME=tex2html3851 HREF="node129.html"> Arrays and Global </A>
+<B> Previous:</B> <A NAME=tex2html3847 HREF="node133.html"> Global References</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION001050000000000000000> Visibility</A></H1>
+<P>
+All the examples so far created objects with unlimited visibility, i.e. they
+can be accessed, modified and even erased from every module.
+Yet the scope of an array or global variable can also be restricted
+to a single module.
+Such an object is created by using <b> make_local_array/1,2</b>.
+<P>
+Note that to obtain a global variable with restricted scope,
+it must also be explicitly
+declared using <b> make_local_array/1</b>, since otherwise <b> setval/2</b>
+implicitly creates one with unrestricted scope.
+<P>
+The visibility rule is such that an object declared local to a module
+hides an unrestricted one with the same name and number of dimensions.
+Destroying a local array or variable with <b> erase_array/1</b> may
+therefore uncover an existing global one.
+All built-ins that have been discussed in this chapter access the <i> visible</i>
+array or variable.
+<P>
+
+<P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

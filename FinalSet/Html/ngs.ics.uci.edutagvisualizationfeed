@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/visualization/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Emerging art of storytelling</title>
+		<link>http://ngs.ics.uci.edu/emerging-art-of-storytelling/</link>
+		<comments>http://ngs.ics.uci.edu/emerging-art-of-storytelling/#comments</comments>
+		<pubDate>Sat, 08 Sep 2012 16:33:36 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[General Updates]]></category>
+		<category><![CDATA[big data]]></category>
+		<category><![CDATA[Storytelling]]></category>
+		<category><![CDATA[visualization]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1447</guid>
+		<description><![CDATA[We are living in the age of transformations. Even the most ancient and most popular art, the art of storytelling, is being transformed by the emerging technology, particularly first by Computers and now by Mobile Phones. My research in the&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>We are living in the age of transformations.  Even the most ancient and most popular art, the art of storytelling, is being transformed by the emerging technology, particularly first by Computers and now by Mobile Phones.  My research in the last few years has been related to some aspects of storytelling using emerging technology.  Storytelling plays a very central role in human life and society.  The nature of storytelling is closely related to how we communicate, how cultural traditions are formed, how we learn and educate, and how we entertain.  <a href="https://dl.dropbox.com/u/5644217/Extreme%20Stories%20120902.pdf" title="Emerging storytelling" target="_blank">This white paper</a> is the result of my observations in this fascinating area.  I would love to hear your comments and suggestions on this.</p>
+<p>Here is a link to the white paper: https://dl.dropbox.com/u/5644217/Extreme%20Stories%20120902.pdf</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/emerging-art-of-storytelling/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Extreme Stories:13</title>
+		<link>http://ngs.ics.uci.edu/extreme-stories13/</link>
+		<comments>http://ngs.ics.uci.edu/extreme-stories13/#comments</comments>
+		<pubDate>Sun, 08 Apr 2012 04:46:08 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[data analytics]]></category>
+		<category><![CDATA[mega storiy]]></category>
+		<category><![CDATA[Storytelling]]></category>
+		<category><![CDATA[visualization]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1413</guid>
+		<description><![CDATA[Extreme Stories: 13 Storytelling is a well-known art that almost everybody practices. Some people have special talents, some acquire reasonable ability, and some just manage to use it for their interactions. There has been much written about it. With increasing&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>Extreme Stories: 13<br />
+Storytelling is a well-known art that almost everybody practices.  Some people have special talents, some acquire reasonable ability, and some just manage to use it for their  interactions.  There has been much written about it.<br />
+With increasing amount of data capture, there is a rise in new kind of storytelling, however.  This is based on data, using talents to use the data for communicating the point that the storyteller is interested in conveying.  This kind of storytelling is not related to weaving through individual events as is done in most traditional storytelling.  Here a storyteller uses appropriate data collected over time to convey the story.  Usually, there is a predetermined theme and finding from the data and this needs to presented using appropriate rendering of the data.  Statistical approaches are used to summarize this data to make the story compelling.  Powerful visualization techniques have emerged to represent and render spatio-temporal-thematic data in compelling form.  Combination of all these analytical tools with visualization techniques started becoming popular even before computers arrived.  With computing power, more attention was given to such tools.  The last few years have seen significantly more attention being given to data analytics and visualization approaches.  This trend is likely to continue for some time.<br />
+The nature of storytelling with large volume of data, commonly called Big Data, is taking another extreme form.  In micro stories, one presents just a simple, or atomic, event and all data and information related to that to convey experience of that event.  On the other extreme, using analytics and visualization one conveys mega stories that use large volumes of data to convey summary of experiences collected over long time, at relevant geographic locations, and across relevant themes.</p>
+<p>One thing is clear: the nature of storytelling is evolving.  We will see increasing number of stories that will be told using data.  New forms of storytelling approaches will emerge for this new type of storytelling.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/extreme-stories13/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		</item>
+	</channel>
+</rss>
+

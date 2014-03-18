@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Next Generation Search in 2010</title>
+	<atom:link href="http://ngs.ics.uci.edu/next-generation-search-in-2010/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/next-generation-search-in-2010/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: tommy</title>
+		<link>http://ngs.ics.uci.edu/next-generation-search-in-2010/comment-page-1/#comment-3536</link>
+		<dc:creator><![CDATA[tommy]]></dc:creator>
+		<pubDate>Mon, 05 Apr 2010 21:17:44 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1240#comment-3536</guid>
+		<description><![CDATA[in addition to the search techniques you mentioned:
+- collaborative/social searching: if you and i are searching for similar things, can computer interfaces help us both?
+
+- search across heterogeneous data sources: data comes in many forms: text, structured data, vid, images; we need search interfaces/systems to search across different sources.
+
+- structured and linked data: how will search across  different structured data work? is RDF the answer? or is it too complicated?]]></description>
+		<content:encoded><![CDATA[<p>in addition to the search techniques you mentioned:<br />
+- collaborative/social searching: if you and i are searching for similar things, can computer interfaces help us both?</p>
+<p>- search across heterogeneous data sources: data comes in many forms: text, structured data, vid, images; we need search interfaces/systems to search across different sources.</p>
+<p>- structured and linked data: how will search across  different structured data work? is RDF the answer? or is it too complicated?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Web Graphic Design</title>
+		<link>http://ngs.ics.uci.edu/next-generation-search-in-2010/comment-page-1/#comment-3504</link>
+		<dc:creator><![CDATA[Web Graphic Design]]></dc:creator>
+		<pubDate>Wed, 24 Mar 2010 09:31:26 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1240#comment-3504</guid>
+		<description><![CDATA[Hello.Good to hear from you again.Like you have rightly mentioned,there have been some great advancements..be it location based search or social networking etc.Visual search is still in the developmental stage and i believe it&#039;s only a matter of time before visual search make serious inroads in our daily lives.Do keep me updated with the latest.Thanks a lot.]]></description>
+		<content:encoded><![CDATA[<p>Hello.Good to hear from you again.Like you have rightly mentioned,there have been some great advancements..be it location based search or social networking etc.Visual search is still in the developmental stage and i believe it&#8217;s only a matter of time before visual search make serious inroads in our daily lives.Do keep me updated with the latest.Thanks a lot.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

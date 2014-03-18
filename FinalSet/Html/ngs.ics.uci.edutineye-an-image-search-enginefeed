@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: TinEye &#8212; An Image Search Engine</title>
+	<atom:link href="http://ngs.ics.uci.edu/tineye-an-image-search-engine/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/tineye-an-image-search-engine/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: julie</title>
+		<link>http://ngs.ics.uci.edu/tineye-an-image-search-engine/comment-page-1/#comment-2628</link>
+		<dc:creator><![CDATA[julie]]></dc:creator>
+		<pubDate>Wed, 04 Feb 2009 18:37:26 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=980#comment-2628</guid>
+		<description><![CDATA[I mean if they created such useful thing, why they are forcing people to get registered to use it. Why dont they just make it open like any other search engine :S
+--------------------------
+&lt;a href=&quot;http://www.linkbuilderz.com/&quot; rel=&quot;nofollow&quot;&gt;link building service&lt;/a&gt;]]></description>
+		<content:encoded><![CDATA[<p>I mean if they created such useful thing, why they are forcing people to get registered to use it. Why dont they just make it open like any other search engine :S<br />
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211;<br />
+<a href="http://www.linkbuilderz.com/" rel="nofollow">link building service</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Ramesh</title>
+		<link>http://ngs.ics.uci.edu/tineye-an-image-search-engine/comment-page-1/#comment-2340</link>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+		<pubDate>Tue, 05 Aug 2008 11:21:16 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=980#comment-2340</guid>
+		<description><![CDATA[Ian,
+On Tineye all he images are the same with different resolution and possibly compression so it is quite possible that there is either some metadata or a simple matching of histograms (or dct coefficients) that are being used.  On google, they are using the keywords and many times the same keyword goes with different images.
+
+In any case, this is an interesting approach.]]></description>
+		<content:encoded><![CDATA[<p>Ian,<br />
+On Tineye all he images are the same with different resolution and possibly compression so it is quite possible that there is either some metadata or a simple matching of histograms (or dct coefficients) that are being used.  On google, they are using the keywords and many times the same keyword goes with different images.</p>
+<p>In any case, this is an interesting approach.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: martha</title>
+		<link>http://ngs.ics.uci.edu/tineye-an-image-search-engine/comment-page-1/#comment-2338</link>
+		<dc:creator><![CDATA[martha]]></dc:creator>
+		<pubDate>Tue, 05 Aug 2008 04:00:36 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=980#comment-2338</guid>
+		<description><![CDATA[hmm..Its in private beta. i have requested an invite to check it out. But it surely a great idea. Let&#039;s see how well it gonna be. 
+
+------------------
+&lt;a href=&quot;http://www.dissertation-help.co.uk/dissertation_topics.htm&quot; rel=&quot;nofollow&quot;&gt;dissertation topic&lt;/a&gt;]]></description>
+		<content:encoded><![CDATA[<p>hmm..Its in private beta. i have requested an invite to check it out. But it surely a great idea. Let&#8217;s see how well it gonna be. </p>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;<br />
+<a href="http://www.dissertation-help.co.uk/dissertation_topics.htm" rel="nofollow">dissertation topic</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Ian</title>
+		<link>http://ngs.ics.uci.edu/tineye-an-image-search-engine/comment-page-1/#comment-2337</link>
+		<dc:creator><![CDATA[Ian]]></dc:creator>
+		<pubDate>Mon, 04 Aug 2008 20:41:09 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=980#comment-2337</guid>
+		<description><![CDATA[I&#039;m pretty sure it is doing something content-based, though of course I can&#039;t be sure.  For instance, a search based on an image of Michelangelo&#039;s PietÃ  turns up these results:
+
+http://tineye.com/search/141e3500ffcbe31f483a02644c8c2ae83cd139f5
+
+None of them are exactly the original, but the amount of visual variation among the images is much less than you&#039;d get from Google:
+
+http://images.google.com/images?q=michelangelo+piet%E0
+
+This suggests that it really is using the image content.]]></description>
+		<content:encoded><![CDATA[<p>I&#8217;m pretty sure it is doing something content-based, though of course I can&#8217;t be sure.  For instance, a search based on an image of Michelangelo&#8217;s PietÃ  turns up these results:</p>
+<p><a href="http://tineye.com/search/141e3500ffcbe31f483a02644c8c2ae83cd139f5" rel="nofollow">http://tineye.com/search/141e3500ffcbe31f483a02644c8c2ae83cd139f5</a></p>
+<p>None of them are exactly the original, but the amount of visual variation among the images is much less than you&#8217;d get from Google:</p>
+<p><a href="http://images.google.com/images?q=michelangelo+piet%E0" rel="nofollow">http://images.google.com/images?q=michelangelo+piet%E0</a></p>
+<p>This suggests that it really is using the image content.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

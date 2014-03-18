@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;
+    charset=utf-8">
+    <title>Family Reunification for Chile Earthquake - Person Finder Search Widget</title>
+    <link href="/css/fr.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <body><div class="white" style="min-width:700px;">
+
+    <h1>FAMILY REUNIFICATION<br>FOR CHILE EARTHQUAKE</h1>
+
+    <h1 class="center">Live Demo</h1>
+    <div class="center">
+    <div style="border: 2px dashed blue; padding:10px; width: 650px; margin:auto;">
+
+<link rel="stylesheet" type="text/css"
+      href="http://fr.ics.uci.edu/widgets/chilepersonfinder/isearch.css">
+<div id="isearch"></div>
+<script type="text/javascript"
+      src="http://fr.ics.uci.edu/widgets/chilepersonfinder/isearch.min.js"></script>
+    </div></div>
+
+    <h2>People Finder Search Widget</h2>
+
+    <p>We are providing an interactive search widget that can be
+      embedded into any website. The widget enables interactive and
+      error tolerant searches over the <a
+      href="http://chilepersonfinder.appspot.com">People Finder: Chile
+      Earthquake</a> data.</p>
+
+    <p>To integrate our widget into your site just copy and paste the
+    following HTML code into your web pages:</p>
+
+      <pre style="width: 730px">
+&lt;link rel="stylesheet" type="text/css"
+    href="http://fr.ics.uci.edu/widgets/chilepersonfinder/isearch.css"&gt;
+&lt;div id="isearch"&gt;&lt;/div&gt;
+&lt;script type="text/javascript"
+    src="http://fr.ics.uci.edu/widgets/chilepersonfinder/isearch.min.js"&gt;
+&lt;/script&gt;</pre>
+
+    <p>Above is a demo of how the widget will look on your site.</p>
+
+    <p><br><a href="/chile"> &#xab; Back to Family Reunification for
+    Chile Earthquake</a></p>
+
+  </div></body>
+</html>
+

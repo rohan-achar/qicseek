@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>CS 277: Project Guidelines</title><style type="text/css">
+<!--
+body {
+	font: 100%   Arial, Helvetica, sans-serif;
+	background: #FFFFFF;
+	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+}
+.oneColElsCtr #container {
+	width: 56em;
+	background:  #FFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 0px solid #000000;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+.oneColElsCtr #mainContent {
+	padding: 0 5px; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+}
+-->
+</style></head>
+<body class="oneColElsCtr">
+
+<div id="container">
+  <h1 style="font-family: Calibri;" align="center"><small>Project Guidelines</small></h1>
+  <p style="font-family: Calibri; font-weight: bold;" align="center">CS 277, Data Mining, Winter 2014</p>
+  <p style="font-family: Calibri;"><big><font size="3"><big>The
+goal of your project is to give you hands-on experience of applying
+data mining techniques to one or more large data sets, going through
+the following steps:</big></font></big></p>
+  <ul style="font-family: Calibri;"><big>
+    </big><li><big><font size="3"><big>identifying a data 
+      set</big></font> and problem domain</big></li><big>
+    </big><li><big><font size="3"><big>deciding on what you want to achieve with data mining</big></font> </big></li><big>
+    </big><li><big><font size="3"><big>choosing 
+      appropriate methods and algorithms</big></font></big></li><big>
+    </big><li><big><font size="3"><big>implementing and testing your methods</big></font> </big></li><big>
+    </big><li><big><font size="3"><big>evaluating 
+      your techniques on your data sets</big></font> </big></li><big>
+    </big><li><big><font size="3"><big>reporting 
+      conclusions</big></font>  </big></li><big>
+  </big></ul>
+  <p style="font-family: Calibri;"><big><font size="3"><big>Here are the
+  project deliverables and due dates:</big></font></big></p>
+  <table style="font-family: Calibri;" align="center" border="1" width="83%">
+    <tbody>
+      <tr>
+        <td align="left" height="24" valign="center" width="44%"><div align="center"><font size="4">Project Deliverable</font></div></td>
+        <td height="24" valign="center" width="56%"><div align="center"><font size="4">Due Date</font></div></td>
+      </tr>
+      <tr>
+        <td align="left" valign="center" width="44%"><blockquote>
+          <p><font size="3">1. <a href="project_proposals.html">Project Proposal</a></font></p>
+        </blockquote></td>
+        <td style="font-weight: bold;" valign="center" width="56%"><blockquote>
+          <p>Written proposal, due in class, Monday Jan 27th</p>
+        </blockquote></td>
+      </tr>
+      <tr>
+        <td align="left" valign="center" width="44%"><blockquote>
+          <p><font size="3">2.&nbsp;Progress Report 1</font></p>
+        </blockquote></td>
+        <td style="font-weight: bold;" valign="center" width="56%"><blockquote>
+          <p>Written report, due in class Monday February 10th</p>
+        </blockquote></td>
+      </tr>
+      <tr><td align="left" valign="center" width="44%"><blockquote>
+          <p><font size="3">3. Progress Report 2</font></p>
+        </blockquote></td><td style="font-weight: bold;" valign="center" width="56%"><blockquote>
+          <p>Written report, due in class Monday February 24th</p>
+        </blockquote></td></tr><tr>
+        <td align="left" valign="center" width="44%"><blockquote>
+          <p><font size="3">4. Project 
+            Presentations</font></p>
+        </blockquote></td>
+        <td style="font-weight: bold;" valign="center" width="56%"><blockquote>
+          <p>(TBD: if we do this it will likely be the week of March 10th, last wek or classes)</p>
+        </blockquote></td>
+      </tr>
+      <tr>
+        <td align="left" valign="center" width="44%"><blockquote>
+          <p><font size="3">5. Final Project 
+            Report</font></p>
+        </blockquote></td>
+        <td style="font-weight: bold;" valign="center" width="56%"><blockquote>
+          <p>EEE dropbox, 12 noon March 17th</p>
+        </blockquote></td>
+      </tr>
+    </tbody>
+  </table>
+<p style="font-family: Calibri;">&nbsp;</p> 
+  <p style="font-family: Calibri;"><big><strong>Data Sets:</strong><br />
+You are strongly encouraged to use a data set from one of the Web sites
+listed below. If there is a different data set that you would prefer to
+use, please email me to request permission - it should be a large data
+set for a problem area that you know something about or are interested
+in learning about. Note that most data sets from the UCI Machine
+Learning Repository are too small and too simple for a CS 277 project</big></p>
+  <ul style="font-family: Calibri;"><big>
+    
+    </big><li><big>One or more of several well-known <a href="http://disi.unitn.it/moschitti/corpora.htm">text categorization data sets</a> (text with labels)</big></li><li><big><a href="http://en.wikipedia.org/wiki/Wikipedia:Database_download">All or part of Wikipedia</a> (Web pages, with links and category labels and other metadata)</big></li><li><big>The <a href="http://labrosa.ee.columbia.edu/millionsong/">Million Song data set</a> with audio features and metadata for 1 million songs (music recommendation data)</big></li><li><big><a href="http://www.google.com/googlebooks/uspto-patents-assignments.html">Several million US patents from 1980 to 2012</a> (text, metadata, time-series)</big></li><li><big><a href="http://www.google.com/googlebooks/uspto-trademarks.html">Several million US trademark applications from 1870 to 2012</a>&nbsp;(text, metadata, time-series)</big></li><li><big><a href="http://mimic.physionet.org/database.html">MIMIC II data set for intensive care patients</a> (time-series, metadata)</big></li><li><big><a href="http://googleresearch.blogspot.co.il/2013/05/syntactic-ngrams-over-time.html">Google syntactic ngrams over time</a> (text, time-series)</big></li><li><big><a href="http://gdelt.utdallas.edu/about.html">Global Event Data Set</a>
+with 250 million georeferenced events from 1979 to the present
+(spatial, temporal, relational data of political events worldwide)</big></li><li><big>Any of <a href="https://snap.stanford.edu/data/index.html">the larger network data set available on the Stanford SNAP site</a> &nbsp;(relational network data, temporal, spatial)&nbsp;</big></li><li><big><a href="http://research.microsoft.com/en-us/projects/mslr/">Microsoft Learning-to-Rank data sets</a> (search engine result ranking for 30k queries)</big></li></ul>
+  <p style="font-family: Calibri;"><big>It
+is fine (and even encouraged!) to combine any of the data sets above
+with 1 or more other data sets (e.g., data sets not listed above) that are of interest to you - for example, an
+interesting project would be to see if you can use information from Wikipedia
+to improve a text classification algorithm.</big></p><p style="font-family: Calibri;"><big>Note that you are not allowed
+to work on a data set you have worked with (or are working with)
+outside this class (e.g., for a different class project, for research,
+etc.) unless you obtain approval from me first (by explaining why this
+data is not being "double-counted" for other purposes). <br />
+  </big></p>
+  
+  <p style="font-family: Calibri;"><big><strong>Types of Projects:</strong><br />
+    Here are some typical types of projects::</big></p>
+  <ul style="font-family: Calibri;"><big>
+    </big><li><big>Focus
+on the data and a particular task (e.g., prediction, clustering) and
+use multiple different algorithms from the literature to address this
+task. The focus here might be more on the data set and the task, than
+on the algorithms.</big></li><big>
+    </big><li><big>Focus on the algorithms: compare one
+or more baseline algorithms with a new recently-published algorithm -
+the focus here might be to see if the new algorithm really works as
+well as described in the paper where it is published</big></li><big>
+    </big><li><big>Develop
+a new algorithm/method and implement it and apply it to a task and data
+set - its important here to evaluate how your approach compares to
+existing baseline methods (at least one).</big></li><big>
+    </big><li><big>Another
+example
+would be to take a well-known technique (such as logistic regression or
+SVD decomposition) and carefully evaluate and compare a variety of
+different ways for fitting such models to data, evaluating perhaps on
+multiple data sets rather than just on one. (This might require using
+more data sets than those I have listed above - but you should try to
+include at least 1 of the data sets above if you can).<br />
+      <br />
+Note
+that a critically important part of any project is that you conduct
+careful empirical evaluations (for example by using appropriate
+train/test
+partitions) of different approaches. Also note that your project grade
+will not necessaily be correlated with the accuracy of your results:
+for example, a project developing a classification algorithm that
+achieves high accuracy on some classification task could receive a low
+score if you do not provide any insight into why the algorithm did
+well. Conversely, a project on classification with relatively low
+accuracies could get a very high score if you can provide insight and
+understanding into why the accuracies are not high.</big></li><big>
+  </big></ul>
+  
+  <p style="font-family: Calibri;"><big><strong>Software:</strong><br />
+You must use either R, or Python, or Matlab as the primary environment
+for your project. You can call other code from within these
+environments, or use other code in your pipeline, but at a minimum for
+data visualization and analysis of model results you must use one of
+these 3 environments.&nbsp;</big></p><p style="font-family: Calibri;"><big>You
+can use any library functions, toolboxes, publicly-available code, as
+long as you clearly indicate this in your reports. You are of course
+also encouraged to write your own
+custom software. A typical project might involve a "pipeline" of data
+anlaysis/processing steps, some of which you write yourself and others
+where you use existing software. &nbsp;</big></p><p style="font-family: Calibri;"><big><strong>Teaming:<br />
+  </strong>Students
+can work on projects individually, or in teams of 2 or 3 people. For
+multi-person teams, I will expect to see the work of 2 or 3 people, so
+you will need to think clearly about who will do what on the project,
+and how to make sure that your project has enough work to justify
+having 2 or 3 people work on it. For 2 or 3 person teams, your progress
+report and final report will be a single report, consisting of one
+common section for the project and then a seperate section briefly
+describing the work of each individual team member on the project.
+Grades will be assigned individually (2 people on the same project
+might get different grades depending on their contributions) - but
+clearly they will be correlated with the overall quality of the
+project. So you should think carefully (and choose partners carefully!)
+before signing up for a team project.</big></p>
+  
+  <p style="font-family: Calibri;"><big><strong>Progress Report and Final Report:<br />
+  </strong>More details will be provided closer to the dates that these are due. Your reports should be clearly written and comprehensive. <font size="3"><big>Your final project 
+  report should be of the quality that is at the level of a conference or workshop paper.</big></font> The following outline from Professor Ray Mooney on a <a href="http://www.cs.utexas.edu/users/mooney/cs391L/paper-template.html">possible project report format </a>may be helpful.</big></p>
+<p style="font-family: Calibri;"><big>&nbsp;</big></p>
+<p style="font-family: Calibri;">&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+<div id="mainContent">
+    <!-- end #mainContent -->
+  </div>
+<!-- end #container --></div>
+</body></html>

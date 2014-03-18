@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="up" href="/content/vcp-features" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+    <title>Groups | Virtual Collaboration Portal</title>
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/./sites/vcp.ics.uci.edu/modules/avatar_blocks/avatar_blocks.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/cck/theme/content-module.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/ctools/css/ctools.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/custom/multi_google_cse/multi_google_cse.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/date/date.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/dhtml_menu/dhtml_menu.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/fckeditor/fckeditor.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/filefield/filefield.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/gallery/gallery.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/gallery/gallery_filter.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/og/theme/og.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/tagadelic/tagadelic.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/forum/forum.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/biblio/biblio.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/cck/modules/fieldgroup/fieldgroup.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/views/css/views.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/files/color/garland_newvcp-cb8d0b3a/style.css?p" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/vcp.ics.uci.edu/themes/garland-newvcp/print.css?p" />
+    <script type="text/javascript" src="/misc/jquery.js?p"></script>
+<script type="text/javascript" src="/misc/drupal.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/dhtml_menu/dhtml_menu.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/og/og.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/jquery_media/js/jquery.media.js?p"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","dhtmlMenu":{"slide":"slide","siblings":"siblings","relativity":"relativity","clone":"clone","doubleclick":"doubleclick","children":0}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+if (Drupal.jsEnabled) {
+  $(document).ready(function() {
+    $.fn.media.defaults.flvPlayer = '/sites/vcp/files/player.swf';
+    $.fn.media.defaults.mp3Player = '/sites/vcp/files/player.swf';
+  });  
+}
+
+//--><!]]>
+</script>
+    <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/themes/garland-newvcp/fix-ie.css" />    <![endif]-->
+  </head>
+  <body class="sidebar-left">
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="/" title="Virtual Collaboration Portal"><span>Virtual Collaboration Portal</span></a></h1>        </div>
+
+                  <ul class="links primary-links"><li class="menu-197 first"><a href="/" title="VCP home page">Home</a></li>
+<li class="menu-494"><a href="/og" title="">Groups</a></li>
+<li class="menu-12772 last"><a href="/collaborators">Collaborators</a></li>
+</ul>                                  
+      </div> <!-- /header -->
+
+              <div id="sidebar-left" class="sidebar">
+          <div class="block block-theme"><form action="/content/groups"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-yezsTXl7v-smqJgqLgN2nMZI3EAYrtAvNYZ7vj9_yoM" value="form-yezsTXl7v-smqJgqLgN2nMZI3EAYrtAvNYZ7vj9_yoM"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+</div>          <div id="block-user-1" class="clear-block block block-user">
+
+  <h2>Navigation</h2>
+
+  <div class="content"><ul class="menu"><li class="expanded first dhtml-menu  collapsed start-collapsed "><a href="/biblio" id="dhtml_menu-5079">Bibliography</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/biblio/authors" id="dhtml_menu-12779">Authors</a></li>
+<li class="leaf last dhtml-menu "><a href="/biblio/keywords" id="dhtml_menu-12792">Keywords</a></li>
+</ul></li>
+<li class="leaf  dhtml-menu "><a href="/readinglist/year" id="dhtml_menu-5761">Reading Lists</a></li>
+<li class="leaf  dhtml-menu "><a href="/weblinks" id="dhtml_menu-3412">Web Links</a></li>
+<li class="leaf  dhtml-menu "><a href="/gallery" title="Visit your embedded Gallery2." id="dhtml_menu-3237">Gallery</a></li>
+<li class="leaf  dhtml-menu "><a href="/tracker" id="dhtml_menu-119">Recent posts</a></li>
+<li class="leaf last dhtml-menu "><a href="/content/acknowledgements" title="Acknowledgements" id="dhtml_menu-11419">Acknowledgements</a></li>
+</ul></div>
+</div>
+<div id="block-user-0" class="clear-block block block-user">
+
+  <h2>User login</h2>
+
+  <div class="content"><form action="/content/groups?destination=node%2F488"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
+<div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-T0TmaoQeVZW7BSoSZY4U9ibuqeU0iXWbVLlX-sRDDZw" value="form-T0TmaoQeVZW7BSoSZY4U9ibuqeU0iXWbVLlX-sRDDZw"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+</div>
+</div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="/">Home</a></div>                              <h2>Groups</h2>                                                  <div class="clear-block">
+            <div id="node-488" class="node">
+
+<div class="picture">
+  </div>
+
+
+      <span class="submitted">Wed, 2009-09-16 14:23 — admin</span>
+  
+  <div class="content clear-block">
+    <p>The VCP allows collaborators to create and manage their own &lsquo;groups&rsquo; to which other collaborators can subscribe.&nbsp; Each group maintains its own homepage where collaborators can communicate amongst themselves.&nbsp; Below is the homepage for the DVAS group.&nbsp; Subscribers can create new content, invite collaborators to join the group, view a full list of members, find the manager, or unsubscribe to the group using the navigation menu in the lower left column.&nbsp; The center screen shows a list of recent postings to this group.&nbsp; In the right column a subscriber can search the content from this group.&nbsp; Some of the most recently added members are displayed below that.&nbsp; RSS feeds and email subscriptions are also available for groups.</p>
+<p class="rtecenter"><img height="487" width="500" src="/sites/default/files/vcp-snapshots/Groups/dvas-group.jpg" alt="dvas group page" /></p>
+<p>For non-subscribers, a group homepage has a restricted view as shown in below. </p>
+<p class="rtecenter"><img height="379" width="500" src="/sites/default/files/vcp-snapshots/Groups/dvas-group-non.jpg" alt="dvas group unauth" /></p>
+<p class="rteleft">
+Collaborators can view get a summary of all content that they have not yet viewed by selecting &ldquo;My Unread&rdquo; in the navigation menu, as show below.</p>
+<p class="rtecenter"><img height="386" width="500" src="/sites/default/files/vcp-snapshots/Groups/unread.jpg" alt="unread" /></p>
+<p class="rteleft">A group directory listing can be accessed by following the &ldquo;Groups&rdquo; link in the primary menu found in the upper right corner of the all pages.&nbsp; A sample directory is shown below.&nbsp; An RSS feed is available for this listing so that Collaborators can monitor new groups.</p>
+<p class="rtecenter"><img height="344" width="500" src="/sites/default/files/vcp-snapshots/Groups/groups-crop.jpg" alt="groups directory" /></p>
+<p class="rteleft">The creation of a new group is illustrated below. When collaborators create new groups they must provide a group name (Title), a brief description for the group listing, keywords (Tags) that describe the group, and a mission statement.&nbsp; The creator can indicate whether on or not users should have the opportunity to join the group at the time they create an account.&nbsp; There are several privacy options to choose from.&nbsp; The creator must indicate if this group is Open -&nbsp; any registered collaborator can join at any time, Moderated - all membership request must be approved by an administrator, Invite-only -&nbsp; members must accept an invitation initiated by an administrator, or Closed &ndash; only administer can create a membership.&nbsp;&nbsp; The creator can decide if the group should be listed in the Group Directory and the group can be set to private (provided it is not Open and unlisted) which makes visible to only its members.&nbsp; </p>
+<p class="rtecenter"><img height="421" width="500" src="/sites/default/files/vcp-snapshots/Groups/create-group1-crop.jpg" alt="creategroup1" /></p>
+<p class="rtecenter"><img height="441" width="500" src="/sites/default/files/vcp-snapshots/Groups/create-group2-crop.jpg" alt="creategroup2" /></p>
+  <div id="book-navigation-485" class="book-navigation">
+    
+        <div class="page-links clear-block">
+                    <a href="/content/vcp-features" class="page-up" title="Go to parent page">up</a>
+                </div>
+    
+  </div>
+  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+        </div>
+
+      </div>
+
+</div>
+          </div>
+                    <div id="footer"></div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+  <script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/custom/multi_google_cse/multi_google_cse.js?p"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"en"}});
+//--><!]]>
+</script>
+  </body>
+</html>
+

@@ -1,0 +1,158 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Script-Type" content="text/javascript">
+<title>ICS 54: Winter 2000, Homework 4</title>
+</head>
+
+<body bgcolor="#F8F8F0">
+<i><a href="http://www.ics.uci.edu/"> UC Irvine,
+Information and Computer Science Department</A></I><br>
+<h2><A HREF="http://www.ics.uci.edu/~ics54/">ICS 54 Winter 2000</A>:
+Homework 4
+</h2>
+
+<p>
+<dl>
+<dt>This assignment is to be done individually.
+<dt>All work for it should be done in a special directory (on a UCI
+UNIX system, either ICS or OAC-EA) which you
+set aside for the purpose which contains no other work and
+which you keep for future reference and use in this course.
+<dd>Suggestion: Have a <tt>ics54</tt> directory and
+put the work for this assignment in an <tt>ics54/hw4</tt>
+subdirectory.
+<dt>This assignment is due at <b>the start of class, Wednesday, February 23</b>.
+<dd>You will turn in a printout with a separate cover/title page
+containing:
+<br> (1) Your Personal Identification (Name, Student ID number, and UCInetID),
+<br> (2) Assignment Identification (course name and quarter
+plus assignment number).  
+<dt>Please print separate parts of the
+assignment on separate sheets and label the pages appropriately.
+</dl>
+<p>
+
+<p>
+The TA will be available in CS 364 at the following times:
+<ul>
+<li>Thursday & Friday, February 11 & 12: 11 a.m. - 12:00 a.m.
+<li>Thursday & Friday, February 17 & 18: 10 a.m. - 12:00 p.m.
+</ul>
+The Instructor will also be available in his office (Engineering Gateway
+2149):
+<ul>
+<li>Monday & Wednesday, February 14 & 16: 4:30-5:30 p.m.
+</ul>
+
+<hr>
+<ol>
+<li>In homework assignment 3, you created a shell script <tt>MyFriends</tt>, 
+which listed all the processes your friends were running.
+For this problem, you will create an advanced version of <tt>MyFriends</tt> -
+<tt>MyFriendsV2</tt>. It accepts arguments, which are either your friends' login
+names (login IDs) or files which contain lists of login IDs (one per
+line). If an argument is a file name, you can assume it is a file  
+containing a list of login IDs (one per line).  If it is not a file
+name, you can assume it is a login name.
+
+<p>For this part, you should submit a well commented listing (WCL) of
+<tt>MyFriendsV2</tt> and at least 2 sample runs showing how (well) it works.
+Include also (of course) an explanation of the sample runs, stating how they
+show that your <tt>MyFriendsV2</tt> works well.
+
+<p>&nbsp;
+
+<li>Create a <tt>sh</tt> shell script called <tt>AllProcesses</tt>,
+which creates a report file about current processes running on the
+system you are using. The report should include how many process are
+running, how many unique commands are running, how many distinct
+terminals are being used for these processes. After giving these
+statistics the report should list each user's login ID following by all
+the processes belonging to this ID. The report sections for different
+users should be separated from each other by a blank line.
+
+<p>For this part, submit the same type of WCL and sample runs with
+explanations as you did for the previous part.
+
+<p>&nbsp;
+
+<li> This part continues the work you did in the previous part. After   
+you obtained report from <tt>AllProcesses</tt>, you want to receive, via
+e-mail, a report of the processes belonging to a particular person (a
+friend or even yourself). Create another shell script called
+<tt>FriendProc</tt> which takes 3 arguments: an e-mail address, a login
+ID, and the "real name" of the person to whom the login ID belongs. It
+extracts from from the report produced by AllProcesses all information
+relevant to the login ID (the third argument). It then prepares a
+suitable e-mail message, including the person's "real name" and login ID
+in the first lines, and sends it to the e-mail address given by the
+first argument. Your solution may well create some intermediate
+file(s). If so, they should be named in such a way that you could run
+more than one copy of the program at the same time and they should be
+deleted when the program exits. You need not actually send the
+e-mail. It is sufficient that you echo to the screen a line giving the
+command that would e-mail the message to the given address.
+
+<p>For this part, submit the same type of WCL and sample runs with
+explanations as you did for the previous parts.
+
+<p>&nbsp;
+
+<li>In this part, give both the <tt>awk</tt> command and a sample of its use.
+<ol>
+<li>Write any line in which the second field contains a backslash. 
+<li>Write (only) the last two fields in each line, separated by a colon.
+<li>Write the line number and number of fields in each line separated by
+a colon.
+<li>Write lines longer than 66 characters. 
+</ol> 
+
+<p>&nbsp;
+
+<li>In this part, you will create several small (<tt>sh</tt>) shell
+scripts for the following requirements. You need to submit listings of
+your scripts and explanations about how they work including, as
+appropriate, suitably edited sample runs.
+<ol>
+<li>Read in two numbers from the keyboard and print their sum.
+<li>Write a shell script that given a person's uid, tells you how many  
+times that person is logged on.
+<li>Write a shell script taking a filename name as argument which lists
+the files in it (using <tt>ls -l</tt> piped  to <tt>more</tt>) if it's a
+directory and shows the content of the file (using <tt>more</tt>) if it
+is a regular file.
+<li>In many versions of UNIX there is a <tt>-i</tt> argument for
+<tt>cp</tt> so that you will be prompted for confirmation if you are
+about to overwrite a file. Write a script called  <tt>cpi</tt> which
+will prompt if necessary.
+</ol>
+
+</ol>
+
+
+
+<hr>
+<a
+href="http://www.oac.uci.edu/indiv/franklin/tools/feedback?ics54@ics.uci.edu">Comments are welcome.</a>
+<noscript><br><b>JavaScript must be enabled in order for this page
+   to be fully functional.</b></noscript>
+<script language="JavaScript" type="text/javascript">
+<!-- Beginning of JavaScript -
+   document.writeln("<br>This document can be found at &nbsp;<tt>"+
+       document.location+"</tt>");
+// document.writeln("<br><i>Current as of " + document.lastModified+"</i>");
+// - End of JavaScript - -->
+</script>
+   <br><i>Current as of 7 February 2000</i>
+<br><a
+href="http://validator.w3.org/check?uri=&{document.location};&ss=">HTML
+    4.01 Checked.</a>
+<!-- To show source in validation "...?uri=&{document.location};&ss=" -->
+
+
+</BODY>
+</HTML>
+
+

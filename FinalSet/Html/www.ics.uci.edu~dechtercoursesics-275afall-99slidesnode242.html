@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Obtaining mode information</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Obtaining mode information">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5146 HREF="node243.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5144 HREF="node239.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5140 HREF="node241.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5148 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5147 HREF="node243.html"> The Built-in Predicates </A>
+<B>Up:</B> <A NAME=tex2html5145 HREF="node239.html"> Using the Statistics </A>
+<B> Previous:</B> <A NAME=tex2html5141 HREF="node241.html"> Selective Collection</A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION002033000000000000000> Obtaining mode information</A></H2>
+<P>
+<A NAME=3878>&#160;</A>
+<A NAME=3879>&#160;</A>
+The global <tt> statistics</tt>-flag can take another value called <tt> mode</tt>.
+This has the same effect as <tt> all</tt>, but in addition there is
+information collected about the actual arguments of predicate calls.
+The arguments are tested for being instantiated and for groundness.
+This information is helpful to provide mode declarations for
+a program.
+The results are displayed by the <tt> print_modes/0</tt> built-in in the form
+of a mode declaration summarising the information that could be extracted
+from the predicate calls executed.
+The output is in the form of a mode declaration that can be read in and
+executed.
+<PRE>[eclipse 1]: set_flag(statistics,mode).
+
+yes.
+[eclipse 2]: debug(go_qsort).
+Start debugging - leap mode
+Stop debugging.
+
+yes.
+[eclipse 3]: print_modes.
+:- mode
+    list50(-),
+    qsort(++, -, ++),
+    partition(++, ++, -, -).
+
+yes.
+</PRE>
+Note that these modes are not the result of a program analysis.
+They just indicate what arguments occurred in the sample run of the program.
+Hence it may well be that running the program with different data
+produces a different mode statistics.
+<P>
+If a procedure has already an explicit mode declaration, the modes
+returned by the mode statistics will not be more restrictive than the
+declaration, e.g. if a declaration
+<PRE>:- mode p(+).
+</PRE>
+exists and <b> p/1</b> is called with a ground argument only, the generated
+mode will be <b> +</b> rather than <b> ++</b>.
+<P>
+<BR> <HR><A NAME=tex2html5146 HREF="node243.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5144 HREF="node239.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5140 HREF="node241.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5148 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5147 HREF="node243.html"> The Built-in Predicates </A>
+<B>Up:</B> <A NAME=tex2html5145 HREF="node239.html"> Using the Statistics </A>
+<B> Previous:</B> <A NAME=tex2html5141 HREF="node241.html"> Selective Collection</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

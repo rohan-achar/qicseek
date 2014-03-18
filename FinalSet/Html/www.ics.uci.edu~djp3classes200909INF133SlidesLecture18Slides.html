@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="description" content="User Interaction: Intro to Multi-Touch Asst. Professor Donald J. Patterson INF 133 Fall 2009  Getting Multi-Touch up and Running MT4J MT4j - Multitouch for Java™ - is an open source Java™ development platform, created for rapid development of graphically rich applications. MT4j is designed to support different kinds of input devices with a special focus on multitouch support. http://www.mt4j.org  Getting Multi-Touch up and Running MT4J MT4j - Multitouch for Java™ - is an open source Java™ development platform, created for rapid development of graphically rich applications. MT4j is designed to support different kinds of input devices with a special focus on multitouch support. http://www.mt4j.org  Getting Multi-Touch up and Running Processing Processing is an open source programming language and environment for people who want to program images, animation, and interactions. It is used for learning, prototyping, and production. It is created to teach fundamentals of computer programming within a visual context and to serve as a software sketchbook and professional production tool. http://processing.org/learning/eclipse/  Getting Multi-Touch up and Running Processing We are making an “Eclipse Project” in processing  Getting Multi-Touch up and Running Log4J an Apache project With log4j it is possible to enable logging at runtime without modifying the application binary. The log4j package is designed so that these statements can remain in shipped code without incurring a heavy performance cost. Logging behavior can be controlled by editing a configuration file, without touching the application binary.Logging equips the developer with detailed context for application failures. On the other hand, testing provides quality assurance and confidence in the application. Logging and testing should not be confused. They are complementary. When logging is wisely used, it can prove to be an essential tool.  Getting Multi-Touch up and Running JOGL is designed to provide hardware-supported 3D graphics to applications written in Java. http://kenai.com/projects/jogl/pages/Home  Getting Multi-Touch up and Running TUIO TUIO is an open framework that defines a common protocol and API for tangible multitouch surfaces. The TUIO protocol allows the transmission of an abstract description of interactive surfaces, including touch events and tangible object states. http://www.tuio.org/  Getting Multi-Touch up and Running TUIO TUIO is an open framework that defines a common protocol and API for tangible multitouch surfaces. The TUIO protocol allows the transmission of an abstract description of interactive surfaces, including touch events and tangible object states. http://www.tuio.org/  Getting Multi-Touch up and Running"/>
+    <title></title>
+    <script type="text/javascript" language="javascript">
+//      <![CDATA[
+            var images = new Array (11);
+            images[0] = "Lecture18Slides_files/Lecture18Slides.001.png";
+            images[1] = "Lecture18Slides_files/Lecture18Slides.002.png";
+            images[2] = "Lecture18Slides_files/Lecture18Slides.003.png";
+            images[3] = "Lecture18Slides_files/Lecture18Slides.004.png";
+            images[4] = "Lecture18Slides_files/Lecture18Slides.005.png";
+            images[5] = "Lecture18Slides_files/Lecture18Slides.006.png";
+            images[6] = "Lecture18Slides_files/Lecture18Slides.007.png";
+            images[7] = "Lecture18Slides_files/Lecture18Slides.008.png";
+            images[8] = "Lecture18Slides_files/Lecture18Slides.009.png";
+            images[9] = "Lecture18Slides_files/Lecture18Slides.010.png";
+            images[10] = "Lecture18Slides_files/Lecture18Slides.011.png";
+            var index = 0;
+            function WindowLoaded(evt)
+            {
+                document.body.onselectstart = function () { return false; };
+            }
+            function Step(i)
+            {
+                GoTo(index + i)
+            }
+            function GoTo(newIndex)
+            {
+                if(newIndex >= 0 && newIndex < images.length)
+                {
+                    index = newIndex;
+                    document.Slideshow.src = images[index];
+                }
+            }
+//      ]]>
+    </script>
+</head>
+<body bgcolor="black" onload='WindowLoaded(event);'>
+    <p align="center">
+        <br/>
+        <br/>
+        <img name="Slideshow" alt="" src="Lecture18Slides_files/Lecture18Slides.001.png" onclick="Step(1)"/>
+        <br/>
+        <br/>
+        <input type="image" src="Lecture18Slides_files/home.png" onclick="GoTo(0)"/>
+        &nbsp;&nbsp;&nbsp;
+        <input type="image" src="Lecture18Slides_files/prev.png" onclick="Step(-1)"/>
+        <input type="image" src="Lecture18Slides_files/next.png" onclick="Step(1)"/>
+    </p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

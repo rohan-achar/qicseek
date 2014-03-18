@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+
+body
+{
+	background-color: pink;
+	font-family: Bell MT;
+	text-align:center;
+}
+h1
+{
+	font-family: Harrington;
+	color: purple;
+}
+form
+{
+	text-align: center;
+}
+</style>
+<body>
+
+
+<h1> Welcome to WICS 
+<br> login in page!</h1>
+<form action ="">
+Username: <input type="text" name="username"><br>
+Password: <input type="password" name="pwd"><br>
+
+<button type="submit" onclick="alert ('You can not log in without first making an account.')"><a href= "http://www.ics.uci.edu/~asliu1/">Submit</a></button>
+</form>
+</body>
+

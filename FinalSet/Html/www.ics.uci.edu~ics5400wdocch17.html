@@ -1,0 +1,640 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Script-Type" content="text/javascript">
+<title>ICS 54: awk</title>
+</head>
+
+<body bgcolor="#F8F8F0">
+<i><a href="http://www.ics.uci.edu/"> UC Irvine,
+Information and Computer Science Department</A></I>
+Winter 2000<br>
+<h2><A HREF="http://www.ics.uci.edu/~ics54/">ICS 54</A>:
+<tt>awk</tt>: Brief notes for Chapter 17
+</h2>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>awk Selected References</h2>
+<dl>
+<dt><a href="http://docs.sun.com/ab2/coll.40.5/REFMAN1/@Ab2PageView/idmatch(AWK-1)">
+  <tt>http://docs.sun.com/ab2/coll.40.5/REFMAN1/@Ab2PageView/idmatch(AWK-1)</tt></a>
+  <dd>Sun's Solaris 7 man page
+<dt><a href="http://www.opengroup.org/onlinepubs/7908799/xcu/awk.html">
+  <tt>http://www.opengroup.org/onlinepubs/7908799/xcu/awk.html</tt></a>
+  <dd>The Open Group's Single UNIX Specification, Version 2.
+<dt><a href="http://www.faqs.org/faqs/computer-lang/awk/faq/">
+  <tt>http://www.faqs.org/faqs/computer-lang/awk/faq/</tt></a>
+  <dd>awk FAQ (Frequently Asked Questions)
+<dt><a href="http://www.ora.com/catalog/unixnut3/chapter/ch11.html">
+  <tt>http://www.ora.com/catalog/unixnut3/chapter/ch11.html</tt></a>
+  <dd>"The awk Programming Language," chapter 11 of
+  <a href="http://www.ora.com/catalog/unixnut3/"><i>UNIX in a Nutshell:
+  System V Edition, 3rd Edition</i></a> by Arnold Robbins.
+<dt><a href="http://www.novia.net/~phridge/programming/awk/">
+  <tt>http://www.novia.net/~phridge/programming/awk/</tt></a>
+  <dd>Worked examples from <i>The Awk Programming Language</i>,
+  by Aho, Kernighan, and Wienberger, Addison-Wesley, 1998,
+  ISBN 020107981X.
+</dl>
+<tt>awk</tt> is a pattern scanning and processing language,
+named after its inventors: Alfred Aho, Peter Wienberger, and Brian Kernighan.
+<p>
+Please note that our coverage of <tt>awk</tt> is very much simplified
+and shows only a small part of its full range of capabilities.
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2><tt>awk</tt> </h2>
+
+<dl>
+<dt><tt><b>awk</b> [ <b>-f</b> <i>progfile</i> ] [ <b>-F</b><i>c</i> ]
+[ <b>'</b><i>prog</i><b>'</b> ]
+[ <i>parameters</i> ]  [ <i>filename</i> ] <i>...</i></tt>
+<dd>An <tt><b>awk</b></tt> program is a sequence of
+  <tt><i>pattern-action</i></tt> commands, each of the form
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <tt><i>pattern</i><b>{</b><i>action</i><b>}</b></tt>
+<br><tt><b>awk</b></tt> scans each input <tt><i>filename</i></tt>
+  (multiple ones can be given and a hyphen, <tt><b>-</b></tt>,
+  can be used as the "filename" for standard input)
+  for lines which match patterns specified in a program given either by
+  the <tt><i>prog</i></tt> string (which is enclosed in single quotes)
+  or in the file <tt><i>progfile</i></tt>.
+<br>If no <tt><i>filename</i></tt> present, the program operates
+  on standard input.
+<br>For each pattern in the program, the corresponding action
+  is done on all lines of the input which the pattern matches.
+<dt><tt><b>-f&nbsp;</b><i>progfile</i></tt>
+<dd>Take the <tt><i>pattern-action</i></tt> statments/commands from
+<tt><i>progfile</i></tt>
+rather than from <tt><i>prog</i></tt>.
+<dt><tt><b>-F</b><i>c</i></tt>
+<dd>Use character <tt><i>c</i></tt>, rather than space/blank as the
+field separator on each line of the input.
+</dl>
+
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2><tt>awk</tt> Commands</h2>
+
+<h3>Examples</h3>
+<pre>
+% cat in
+Alice   20   4
+Bob     12   3
+Carol   18   3
+Dave    24   4
+Ed      30   5
+%
+<a name="E1" href="#S1">% awk '/0/{print}' in</a>
+Alice   20   4
+Ed      30   5
+%
+<a name="E2" href="#S2">% awk '{print NR":"$0" ="$3"-"$2"-"$1}' < in</a>
+1:Alice   20   4 =4-20-Alice
+2:Bob     12   3 =3-12-Bob
+3:Carol   18   3 =3-18-Carol
+4:Dave    24   4 =4-24-Dave
+5:Ed      30   5 =5-30-Ed
+%
+<a name="E3" href="#S3">% awk -F2 '{print "="$2"="$1"="}' in</a>
+=0   4=Alice   =
+=   3=Bob     1=
+==Carol   18   3=
+=4   4=Dave    =
+==Ed      30   5=
+%
+<a name="E4" href="#S4">% awk 'BEGIN{print "Hi"}{s+=$2}END{print "Sum2=",s}' in</a>
+Hi
+Sum2= 104
+%
+<a name="E5" href="#S5">% awk '$3==4{s+=$2}END{print s}' in</a>
+44
+%
+<a name="E5a" href="#S5a">ls -l | awk '/^d/{d++}/^-/{f++}END{print d" dirs + "f" files"}'</a>
+3 dirs + 6 files
+%
+<a name="E6" href="#S6">% awk '$2~/[3-8]/{print;s+=$3}END{print s}' in</a>
+Carol   18   3
+Dave    24   4
+Ed      30   5
+12
+%
+<a name="E7" href="#S7">% awk '{printf "%s = %4.1f\n",$0,$2/$3}' in</a>
+Alice   20   4 =  5.0
+Bob     12   3 =  4.0
+Carol   18   3 =  6.0
+Dave    24   4 =  6.0
+Ed      30   5 =  6.0
+%
+<a name="E8" href="#S8">% awk '{s+=$2;t+=$3}END{printf "%4d/%d=%4.2f\n",s,t,s/t}' in</a>
+ 104/19=5.47
+%
+<a name="E9" href="#S9">% awk 'BEGIN{step=2}{n++; if(n>=step){print NR": "$0;n=0}}' in
+<br>    or
+<br>% awk '{n++; if(n>=step){print NR": "$0;n=0}}' step=2 in</a>
+2: Bob     12   3
+4: Dave    24   4
+%
+</pre>
+
+<h3>Explanations</h3>
+<dl>
+<dt><a href="#E1" name="S1"><tt>awk '/0/{print}' in</tt></a>
+  <dd>Print all lines from the file <tt>in</tt> which contain a "0"
+<dt><a href="#E2" name="S2"><tt>awk '{print $0 " = " $3 "-" $2 "-" $1}' < in</tt></a>
+  <dd>Print each line preceded by its number (and a colon) and
+  followed by the 3 fields of the line in reverse order,
+  using "<tt>=</tt>" and "<tt>-</tt>" as separators.
+  <br>Note: <tt>NR</tt> = "Number of this Record," a built-in variable.
+<dt><a href="#E3" name="S3"><tt>awk -F2 '{print "="$2"="$1"="}' in</tt></a>
+  <dd>Using "<tt>2</tt>" as a field separator, print fields 2 and 1
+  in that order, using  "<tt>=</tt>" to delimit them.
+<dt><a href="#E4" name="S4"><tt>awk 'BEGIN{print "Hi"}{s+=$2}END{print "Sum2=",s}' in</tt></a>
+  <dd>Print "<tt>Hi</tt>" at the start, sum up field 2 of each line,
+   and print the sum at the end.
+   <br>Note the use of <tt>BEGIN</tt> and <tt>END</tt> as special patterns.
+   <br>Note also that "<tt>+=</tt>" means that <tt>s</tt> is to be
+    incremented by the value of the 2nd field and that there is
+    no "<tt>$</tt>" before the <tt>s</tt>.
+<dt><a href="#E5" name="S5"><tt>awk '$3==4{s+=$2}END{print s}' in</tt></a>
+  <dd>Print the sum of the 2nd field of each line whose 3rd field
+   is 4.
+   <br>Note the use of "<tt>==</tt>" to test for equality.
+<dt><a href="#E5a" name="S5a"><tt>ls -l|awk '/^d/{d++}/^-/{f++}END{print d" dirs + "f" files"}'</tt></a>
+  <dd>Count separately the lines beginning "<tt>d</tt>" and those
+   beginning "<tt>-</tt>"
+   <br>Note that
+   <tt><b>++</b></tt> means that the variable's value is incremented by 1.
+<dt><a href="#E6" name="S6"><tt>awk '$2~/[3-8]/{print;s+=$3}END{print s}' in</tt></a>
+  <dd>Print each line
+whose 2nd field matches the pattern "<tt>[3-8]</tt>" and then print the
+sum of the 3rd field of each of these lines.
+<dt><a href="#E7" name="S7"><tt>awk '{printf "%s = %4.1f\n",$0,$2/$3}' in</tt></a>
+  <dd>Append to each line field 2 divided by field 3.
+<dt><a href="#E8" name="S8"><tt>awk '{s+=$2;t+=$3}END{printf "%4d/%d=%4.2f\n",s,t,s/t}' in</tt></a>
+  <dd>Total columns 3 and 4 and print the average of the totals.
+<dt><a href="#E9" name="S9"><tt>
+% awk 'BEGIN{step=2}{n++; if(n>=step){print NR": "$0;n=0}}' in
+<br>% awk '{n++; if(n>=step){print NR": "$0;n=0}}' step=2 in</tt></a>
+  <dd>Print, preceded by its line number, every line whose number is
+a multiple of <tt>step</tt>.
+  <br>One can also do this as follows:
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <tt>awk '{if(step<=++n){print NR": "$0;n=0}}' step=2 in</tt>
+  <br>or even
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <tt>awk '0==NR%step{print NR": "$0}' step=2 in</tt>
+</dl>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2><tt>awk</tt> programs</h2>
+
+A <tt>awk</tt> program consists of one or more commands
+of the form:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <tt><i>pattern</i><b>{</b><i>action</i><b>}</b></tt>
+<p>The <tt><i>action</i></tt> is performed on all lines of the
+input which match the <tt><i>pattern</i></tt>.
+<p>Every input line matches an empty <tt><i>pattern</i></tt>.
+
+<h3><tt>awk</tt> patterns</h3>
+<dl>
+<dt>empty
+  <dd><tt><i>action</i></tt> is done for each line.
+<dt><tt><b>BEGIN</b></tt>
+  <dd><tt><i>action</i></tt> is done before first line.
+<dt><tt><b>END</b></tt>
+  <dd><tt><i>action</i></tt> is done after last line.
+<dt><tt><b>/</b><i>RegularExpression</i><b>/</b></tt>
+  <dd><tt><i>action</i></tt> is done
+   if the line matches <tt><i>RegularExpression</i></tt>.
+<dt><tt><i>PatternMatchingExpression</i></tt>
+  <dd><tt><i>action</i></tt> is done if the
+   <tt><i>PatternMatchingExpression</i></tt> is true for this line.
+   <br>Such expressions are composed of the <tt><b>~</b></tt>
+    (match) and <tt><b>!~</b></tt> (no match) operators
+<dt><tt><i>RelationalExpression</i></tt>
+  <dd><tt><i>action</i></tt> is done
+   if the <tt><i>RelationalExpression</i></tt> is true for this line.
+   <br>The relational operations are:
+  <tt><b>&nbsp;&nbsp;&lt;  &nbsp;&nbsp;&lt;= &nbsp;&nbsp;==
+       &nbsp;&nbsp;!= &nbsp;&nbsp;&gt;=  &nbsp;&nbsp;&gt;</b></tt>
+<dt><tt><i>BooleanExpression</i></tt>
+  <dd><tt><i>action</i></tt> is done if the
+   <tt><i>BooleanExpression</i></tt> is true for this line.
+  <br>Such expressions are the combination of
+   pattern matching and relational expressions using
+   boolean operations (<tt><b>&amp;&amp;</b></tt>,
+   <tt><b>||</b></tt>, and <tt><b>!</b></tt>) and (if/as needed)
+   parentheses.
+</dl>
+
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2><tt>awk</tt> Built-in Variables</h2>
+
+<dl>
+<dt><tt><b>FILENAME</b></tt>
+  <dd>Name of the current input file
+<dt><tt><b>FS</b></tt>
+  <dd>input Field Separator regular expression (default blank and tab)
+<dt><tt><b>NF</b></tt>
+  <dd>Number of Fields in the current record
+<dt><tt><b>NR</b></tt>
+  <dd>Number of the current Record
+<dt><tt><b>OFMT</b></tt>
+  <dd>Output ForMaT for numbers (default <tt>%.6g</tt>)
+<dt><tt><b>OFS</b></tt>
+  <dd>Output Field Separator (default blank)
+<dt><tt><b>ORS</b></tt>
+  <dd>Output Record Separator (default newline)
+<dt><tt><b>RS</b></tt>
+  <dd>input Record Separator (default newline)
+</dl>
+
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>Special Characters and Regular Expressions in <tt>awk</tt></h2>
+
+<table>
+<tr><td><tt><b>\</b></tt></td><td>Combines with following character to
+give it special meaning
+(see below) or, if it would have had a special meaning
+without the <tt><b>\</b></tt>, to make it revert to its literal meaning.</td></tr>
+
+<tr><td><tt><b>\a</b></tt></td><td>Alert/Bell (CTRL/G = ASCII 7)</td></tr>
+<tr><td><tt><b>\b</b></tt></td><td>Backspace (CTRL/H = ASCII 8)</td></tr>
+<tr><td><tt><b>\f</b></tt></td><td>Form feed (CTRL/L = ASCII 12)</td></tr>
+<tr><td><tt><b>\n</b></tt></td><td>Newline (CTRL/J = ASCII 10)</td></tr>
+<tr><td><tt><b>\r</b></tt></td><td>Carriage return (CTRL/M = ASCII 13)</td></tr>
+<tr><td><tt><b>\t</b></tt></td><td>Tab (CTRL/I = ASCII 9)</td></tr>
+<tr><td><tt><b>\/</b></tt></td><td>Literal slash (in regular expressions)</td></tr>
+<tr><td><tt><b>\</b><i>nnn</i>&nbsp;</tt></td>
+  <td>Octal value <tt><i>nnn</i></tt></td></tr>
+
+<tr><td><tt><b>.</b></tt></td><td>Match any character</td></tr>
+<tr><td><tt><b>^</b></tt></td><td>Match start of line</td></tr>
+<tr><td><tt><b>$</b></tt></td><td>Match end of line</td></tr>
+<tr><td><tt><b>[<i>...</i>]</b></tt></td><td>Match any character in brackets
+  <br>Example: <tt>[abcA-Z7]</tt> </td></tr>
+<tr><td valign="top"><tt><b>[</b>^<i>...</i><b>] &nbsp;</b></tt></td><td>Match
+   any character except those in brackets
+  <br>Example: <tt>[^abcA-Z7]</tt> </td></tr>
+<tr><td><tt><b>*</b></tt></td><td>Match 0 or more repetitions of
+  previous item</td></tr>
+<tr><td><tt><b>+</b></tt></td><td>Match 1 or more repetitions of
+ previous item</td></tr>
+<tr><td><tt><b>?</b></tt></td><td>Match 0 or 1 repetitions of
+ previous item</td></tr>
+<tr><td><tt><b>(<i>...</i>)</b>&nbsp;</tt></td><td>Treat enclosed text as
+ a group/item</td></tr>
+<tr><td valign="top"><tt><b>|</b></tt></td><td>Separator for
+  items which are considered alternatives.
+<br>Example: <tt>(NY|LA|SF)</tt></td></tr>
+</table>
+
+<h3>Examples</h3>
+<pre>
+% cat in
+Alice   20   4
+Bob     12   3
+Carol   18   3
+Dave    24   4
+Ed      30   5
+% awk '/^[^A-CE]/{print}' in
+Dave    24   4
+% awk '($1~/e/)||(NR>4){print}' in
+Alice   20   4
+Dave    24   4
+Ed      30   5
+% awk '($1~/e/)&&($2\!~/0/){print}' in
+Dave    24   4
+% sh
+$ awk '($1~/e/)&&($2!~/0/){print}' in
+Dave    24   4
+$ echo $0
+sh
+$ exit
+% echo $0
+tcsh
+% awk '{s+=$2*$3}END{print s}' in
+416
+% ls -la ~ | awk '/^-/{s+=$5;n++}END{print n" files, Avg="s/n" bytes"}'
+32 files, Avg=1376.21 bytes
+</pre>
+
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2><tt>awk</tt> Arithmetic</h2>
+
+<dl>
+<dt><tt><b>+ &nbsp; - &nbsp; * &nbsp; / &nbsp; % &nbsp; ^</b></tt>
+<dd>Addition, subtraction, multiplication, division,
+    modulus(remainder), exponentiation.
+<dt><tt><b>++ &nbsp; -- &nbsp; </b></tt>
+  <dd>Increment and Decrement the value of a variable:
+   prefix (<tt>++x</tt>) before the value is used or
+   postfix (<tt>x++</tt>) after it is used.
+<dt><tt><b>= &nbsp; += &nbsp; -= &nbsp; *= &nbsp; /= &nbsp; %= &nbsp; ^= &nbsp;</b></tt>
+<dd>Assignment: <tt>x <b><i>?</i>=</b> y</tt> &nbsp;&nbsp;
+is the same as <tt>x <b>=</b> x <b><i>?</i></b> y</tt>
+</dl>
+String concatenation is indicated by a blank or simple
+juxtaposition when token boundaries are clear.
+
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2><tt>awk</tt> Statements</h2>
+
+<a name="state">
+An <tt>awk</tt> action is a sequence of statments, each terminated
+by a semicolon, newline, or right brace.</a>
+<p>
+<pre>
+<a href="#if-e"><b>if (</b> <i>expression</i> <b>)</b> <i>statement</i> [<b>else</b> <i>statement</i> ]</a>
+<a href="#while-e"><b>while (</b> <i>expression</i> <b>)</b> <i>statement</i></a>
+<a href="#do-e"><b>do</b> <i>statement</i> <b>while (</b> <i>expression</i> <b>)</b> # In nawk</a>
+<a href="#for-e"><b>for (</b> <i>expression</i> ;<i>expression</i> ; <i>expression</i><b>)</b> <i>statement</i></a>
+<a href="#forin-e"><b>for (</b> <i>var</i> <b>in</b> <i>array</i> <b>)</b> <i>statement</i></a>
+<b>break</b>
+<b>continue</b>
+<b>{</b> [ <i>statement</i> ] . . . <b>}</b>
+<i>expression</i> # commonly <i>variable</i> <b>=</b> <i>expression</i>
+<b>print</b> [ <i>expression-list</i> ] [ <b>&gt;</b> <i>expression</i> ]
+<b>printf</b> <i>format</i> [ <b>,</b><i>expression-list</i> ] [ <b>&gt;</b> <i>expression</i> ]
+<a href="#next-e"><b>next</b>  # skip remaining patterns on this input line</a>
+<a href="#exit-e"><b>exit</b> [<i>expr</i>] # skip the rest of the input; exit status is <i>expr</i></a>
+</pre>
+
+<h3>Examples</h3>
+<pre>
+% cat in
+Alice   20   4
+Bob     12   3
+Carol   18   3
+Dave    24   4
+Ed      30   5
+%
+% awk '$2<20{print $1" is small"}' in
+Bob is small
+Carol is small
+<a name="if-e" href="#state">%</a>
+% awk '{if($2<20)print $1" is small"}' in
+Bob is small
+Carol is small
+%
+% awk '{if($2<20)print $1" is small " else print $1 " is big"}' in
+awk: syntax error near line 1
+awk: illegal statement near line 1
+%
+% awk '{if($2<20){print $1" is small "} else print $1 " is big"}' in
+Alice is big
+Bob is small
+Carol is small
+Dave is big
+Ed is big
+%
+% awk '{if ($2<20) print $1" is small " else {print $1 " is big"}}' in
+awk: syntax error near line 1
+awk: illegal statement near line 1
+awk: syntax error near line 1
+awk: bailing out near line 1
+<a name="while-e" href="#state">%</a>
+% awk 'END{while(i++<3)print i}' < /dev/null
+1
+2
+3
+%
+% awk 'END{while(++i<3)print i}' < /dev/null
+1
+2
+<a name="do-e" href="#state">%</a>
+% awk 'END{do print i}while (++i<3)}' < /dev/null
+awk: syntax error near line 1
+awk: illegal statement near line 1
+awk: bailing out near line 1
+%
+% <b>nawk</b> 'END{do{print i}while (++i<3)}' < /dev/null
+
+1
+2
+%
+% <b>nawk</b> 'END{while(++i<3)print i}' < /dev/null
+1
+2
+<a name="for-e" href="#state">%</a>
+% awk 'END{for(i=0;i<3;i++)print i}' < /dev/null
+0
+1
+2
+%
+% awk 'END{for(;i<3;i++)print i}' < /dev/null
+
+1
+2
+%
+%
+% cat in2
+Alice:20:4
+Bob:12:3
+Carol:18:3
+Dave:24:4
+Ed:30:5
+%
+% cat 2.awk
+/^[A-C]/{print "A-C: "$0}
+/e/{print "--e: "$0}
+%
+% awk -F':' -f 2.awk in2
+A-C: Alice:20:4
+--e: Alice:20:4
+A-C: Bob:12:3
+A-C: Carol:18:3
+--e: Dave:24:4
+<a name="next-e" href="#state">%</a>
+% cat 2n.awk
+/^[A-C]/{print "A-C: "$0; next}
+/e/{print "--e: "$0}
+%
+% awk -F: -f 2n.awk in2
+A-C: Alice:20:4
+A-C: Bob:12:3
+A-C: Carol:18:3
+--e: Dave:24:4
+<a name="exit-e" href="#state">%</a>
+% awk -F: '/o/{exit}END{print "Exit at\n"NR"="$0}' in2
+Exit at
+2=Bob:12:3
+%
+</pre>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2><tt>awk</tt> Arrays</h2>
+
+<tt>awk</tt>'s array variables are <b><i>associative arrays</i></b>.
+
+<p>Each array variable is, in fact, a collection of variables
+written in the form <tt>avar<b>[</b><i>index</i><b>]</b></tt>
+where <tt>avar</tt> is a name they share and <tt><i>index</i></tt>
+(called a "subscript" or "index") can be an integer or string value.
+
+<p>Like all other, user-defined variables,
+<tt>avar[index]</tt> is automatically
+created when it is first used.  Thus the array variable
+<tt>avar</tt> is created and extended simply by being used.
+
+<h3>Examples</h3>
+<pre>
+% cat in
+Alice   20   4
+Bob     12   3
+Carol   18   3
+Dave    24   4
+Ed      30   5
+%
+<a name="forin-e" href="#state">%</a>
+% awk '{myline[$1]=NR}END{for(n in myline)print n"="myline[n]}' in
+Ed=5
+Bob=2
+Alice=1
+Dave=4
+Carol=3
+%
+% awk '{name[NR]=$1}END{for(n in name)print n"="name[n]}' in
+2=Bob
+3=Carol
+4=Dave
+5=Ed
+1=Alice
+%
+% awk '{name[NR]=$1}END{for(n=1;n<=NR;n++)print n"="name[n]}' in
+1=Alice
+2=Bob
+3=Carol
+4=Dave
+5=Ed
+%
+% cat in3
+Alice   20
+Bob     12
+Carol   18
+Dave    24
+Ed      30
+Alice   16
+Bob     12
+Carol   12
+Dave    14
+Ed      20
+%
+% awk '{sum[$1]+=$2}END{for(n in sum)print n"="sum[n]}' in3
+Ed=50
+Bob=24
+Alice=36
+Dave=38
+Carol=30
+%
+</pre>
+
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2><tt>awk</tt> functions</h2>
+
+<tt>awk</tt> has a generous set of built-in functions.
+<p>The on-line form of
+<a href="http://www.ora.com/catalog/unixnut3/chapter/ch11.html">Chapter
+11: The awk Programming Language</a> of
+<a href="http://www.ora.com/catalog/unixnut3/"><i>UNIX in a Nutshell:
+System V Edition, 3rd Edition</i></a> by Arnold Robbins, has an excellent
+<a href="http://www.ora.com/catalog/unixnut3/chapter/ch11.html#ch11_08.htm">Group Listing</a>
+and <a
+href="http://www.ora.com/catalog/unixnut3/chapter/ch11.html#ch11_10.htm">Alphabetic Summary</a>
+of <tt>awk</tt> Functions and Commands.
+
+<p>Standard/minimal <tt>awk</tt> doesn't include user-defined functions.
+<p><tt>nawk</tt>, <tt>gawk</tt>, and other extended versions of <tt>awk</tt>
+do provide user-defined functions.
+
+
+<h3>Examples</h3>
+<pre>
+% cat in.val
+Alice   1 2 3 4
+Bob     2 5 4 1
+Carol   3 2 4 2
+Dave    4 3 2 1
+Ed      5 3 4 2
+%
+% awk -f valsum.awk in.val
+awk: syntax error near line 4
+awk: bailing out near line 4
+%
+% cat valsum.awk
+# valsum.awk -- sum values in each record
+# input: name followed by a series of values
+
+function sum(s) {
+  for (i=2; i<=NF; ++i) s+=$i
+  return s
+}
+
+{print($0" = " sum())}
+%
+% nawk -f valsum.awk in.val
+Alice   1 2 3 4 = 10
+Bob     2 5 4 1 = 12
+Carol   3 2 4 2 = 11
+Dave    4 3 2 1 = 10
+Ed      5 3 4 2 = 14
+%
+% nawk -f valsort.awk in.val
+  Alice:  1 2 3 4
+    Bob:  1 2 4 5
+  Carol:  2 2 3 4
+   Dave:  1 2 3 4
+     Ed:  2 3 4 5
+%
+% cat valsort.awk
+# valsort.awk -- sort values in each record
+# input: name followed by a series of values
+# based on grade.sort.awk script from chapter 9 of
+# "sed & awk, 2nd ed," Dougherty & Robbins, O'Reilly, 1997
+
+# sort function -- sort numbers in ascending order
+function sort(A,n) {
+  for (i=2; i<=n; ++i)
+    for (j=i; (j>1) in A && A[j-1]>A[j]; --j) {
+      tmp=A[j]; A[j]=A[j-1]; A[j-1]=tmp
+  }
+  return
+}
+
+# main routine
+{
+for (i=2; i<=NF; ++i) val[i-1]=$i
+sort(val, NF-1)
+printf("%7s:  ", $1)
+for (j=1; j<=NF-1; ++j) printf("%d ", val[j])
+printf("\n")
+}
+</pre>
+
+<hr>
+<a href="http://www.oac.uci.edu/indiv/franklin/tools/feedback?ics54@ics.uci.edu">Comments are welcome.</a>
+<noscript><br><b>JavaScript must be enabled in order for this page
+to be fully functional.</b></noscript>
+<script language="JavaScript" type="text/javascript">
+<!-- Beginning of JavaScript -
+document.writeln("<br>This document can be found at &nbsp;<tt>"+
+   document.location+"</tt>");
+// document.writeln("<br><i>Current as of " + document.lastModified+"</i>");
+// - End of JavaScript - -->
+</script>
+<br><i>Current as of 14 February 2000</i>
+<br><a href="http://validator.w3.org/check?uri=&{document.location};&ss=">HTML
+4.01 Checked.</a>
+<!-- To show source in validation "...?uri=&{document.location};&ss=" -->
+
+</body>
+</html>
+

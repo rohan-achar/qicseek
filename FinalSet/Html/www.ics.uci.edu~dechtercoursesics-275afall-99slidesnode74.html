@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Soft Cut</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Soft Cut">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html3138 HREF="node75.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html3136 HREF="node73.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html3130 HREF="node73.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html3140 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html3139 HREF="node75.html"> Matching Clauses</A>
+<B>Up:</B> <A NAME=tex2html3137 HREF="node73.html"> Special Primitives</A>
+<B> Previous:</B> <A NAME=tex2html3131 HREF="node73.html"> Special Primitives</A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION006101000000000000000> Soft Cut</A></H2>
+<P>
+Sometimes it is useful to be able to remove a choice point which is
+not the last one and to keep the following ones, for example
+when defining an if-then-else construct which backtracks also
+into the condition.
+This functionality is usually called <i> soft cut</i> in the Prolog
+folklore.
+<P>
+When you define the operator
+<A NAME=1127>&#160;</A>
+<A NAME=1128>&#160;</A>
+op(1050, xfx, <IMG  ALIGN=MIDDLE ALT="" SRC="img4.gif">)
+and import <IMG  ALIGN=MIDDLE ALT="" SRC="img5.gif">/2 from sepia_kernel,
+then the expression
+<blockquote> <b> A <IMG  ALIGN=MIDDLE ALT="" SRC="img6.gif"> B ; C</b>
+</blockquote>
+is evaluated as a soft cut:
+if A succeeds, B is executed and on backtracking subsequent
+solutions of A are returned, but C is never executed.
+If A fails, C is executed.
+It is similar to <b>-&gt;</b>/2, with the exception that <b>-&gt;</b>/2
+cuts both A and the disjunction if A succeeds, whereas <IMG  ALIGN=MIDDLE ALT="" SRC="img7.gif">/2
+cuts only the disjunction.
+<P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

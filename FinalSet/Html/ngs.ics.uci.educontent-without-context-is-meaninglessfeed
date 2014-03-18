@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Content Without COntext is Meaningless</title>
+	<atom:link href="http://ngs.ics.uci.edu/content-without-context-is-meaningless/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/content-without-context-is-meaningless/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: dinesh vadhia</title>
+		<link>http://ngs.ics.uci.edu/content-without-context-is-meaningless/comment-page-1/#comment-3792</link>
+		<dc:creator><![CDATA[dinesh vadhia]]></dc:creator>
+		<pubDate>Wed, 04 Aug 2010 14:03:18 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1281#comment-3792</guid>
+		<description><![CDATA[Ramesh
+
+Thoroughly enjoyed your paper and its subject is very close to what we are doing at Xyggy.  I concur that combining content and context makes a significant difference in multimedia information retrieval.  
+
+I think the paper should highlight the difference between user generated context (the primary mode of commercial search engines) and machine generated context (eg. ELIF and other sensor data).  It is important to differentiate the two because user-generated context is noisy and machine generated context isn&#039;t noisy (and hence far more valuable).
+
+Dinesh]]></description>
+		<content:encoded><![CDATA[<p>Ramesh</p>
+<p>Thoroughly enjoyed your paper and its subject is very close to what we are doing at Xyggy.  I concur that combining content and context makes a significant difference in multimedia information retrieval.  </p>
+<p>I think the paper should highlight the difference between user generated context (the primary mode of commercial search engines) and machine generated context (eg. ELIF and other sensor data).  It is important to differentiate the two because user-generated context is noisy and machine generated context isn&#8217;t noisy (and hence far more valuable).</p>
+<p>Dinesh</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

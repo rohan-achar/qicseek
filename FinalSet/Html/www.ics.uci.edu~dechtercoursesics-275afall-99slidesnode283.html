@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Foreign C Interface</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Foreign C Interface">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5670 HREF="node284.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5668 HREF="node268.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5662 HREF="node282.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5672 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5671 HREF="node284.html"> Graphic Libraries</A>
+<B>Up:</B> <A NAME=tex2html5669 HREF="node268.html"> Libraries</A>
+<B> Previous:</B> <A NAME=tex2html5663 HREF="node282.html"> Depth-First Search with </A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION002260000000000000000> Foreign C Interface</A></H1>
+<P>
+<A NAME=libforeign>&#160;</A>
+<A NAME=6630>&#160;</A>
+<A NAME=6631>&#160;</A>
+This library (loaded with <tt> :- lib(foreign)</tt>)
+allows to use external functions written
+for Quintus or SICStus Prolog, or to interface
+C functions which are independent of <A NAME=tex2html1314 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+ .
+It accepts the syntax and semantics of the
+predicates <b> foreign/3, foreign_file/2 and load_foreign_files/2</b>
+of Quintus/SICStus.
+Since their external interface is incompatible with the <A NAME=tex2html1315 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  one,
+this library generates a C source file which converts the <A NAME=tex2html1316 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+<P>
+interface into the foreign one, by defining a new C function
+for every C function defined in the foreign interface.
+Note that this approach uses more C code, but it is still more efficient
+than using a generic procedure to check the argument
+of every external function.
+<P>
+After compiling definitions of the <b> foreign/3</b> predicate,
+(the predicate <b> foreign_file/2</b> is ignored),
+the predicate <b> make_simple_interface</b> has to be called.
+This predicate generates a file <i> interface.c</i>, which contains
+the auxiliary C definitions.
+This file has to be compiled to obtain the <i> interface.o</i> file,
+it might also have to be edited to include other <i> .h</i> files.
+After the file <i> interface.o</i> has been generated,
+the system is fully compatible with the Quintus/SICStus foreign
+interface, and calling <b> load_foreign_files/2</b> will connect
+the external functions with <A NAME=tex2html1317 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+ .
+<P>
+Although it is possible to use this library to interface
+existing independent C functions, its main use is to
+port foreign interface from Quintus or SICStus.
+Please refer to their manuals for the description of the
+foreign interface.
+<P>
+<BR> <HR><A NAME=tex2html5670 HREF="node284.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5668 HREF="node268.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5662 HREF="node282.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5672 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5671 HREF="node284.html"> Graphic Libraries</A>
+<B>Up:</B> <A NAME=tex2html5669 HREF="node268.html"> Libraries</A>
+<B> Previous:</B> <A NAME=tex2html5663 HREF="node282.html"> Depth-First Search with </A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/multimedia/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Events are &#8216;transparent&#8217;</title>
+		<link>http://ngs.ics.uci.edu/events-are-transparent/</link>
+		<comments>http://ngs.ics.uci.edu/events-are-transparent/#comments</comments>
+		<pubDate>Sat, 02 Jul 2011 05:14:06 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[Technical Thoughts]]></category>
+		<category><![CDATA[events]]></category>
+		<category><![CDATA[multimedia]]></category>
+		<category><![CDATA[semantic gap]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1350</guid>
+		<description><![CDATA[Some things are so obvious that we do not notice them. I have been working on organizing images, videos, and related experiential information for quite some time. All efforts by us, like all other researchers, revolved around the information that&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>Some things are so obvious that we do not notice them.  I have been working on organizing images, videos, and related experiential information for quite some time.  All efforts by us, like all other researchers, revolved around the information that is contained in the signals.  And like all other researchers, we were getting more and more frustrated that nothing seems to help.  More we worked in solving the semantic gap problem, more frustrating it got.  We were blindly following the old adage â€˜the content is the kingâ€™.  It took us some time to realize that content without context is incomplete.  Perceptual scientists have realized and argued the role of knowledge in perceptual tasks and we also thought that we believed in that and were not averse to using knowledge in solving challenges in emerging information systems that were increasingly related to multimedia information.  But, we really had no idea how to use context to manage content.</p>
+<p>After spending significant efforts and time in trying to manage images and video, slowly we started understanding that photos and videos are really only as important as the real world event that they capture.  They are nothing but a perspective or a window on the real world they capture.  And the real world contains objects and events of interest to people.   Both objects and events are equally important and are synergistic in understanding and representing the real world.  In computer science, we used objects commonly.  Events were also used but the concept of event was not much developed.  In fact, events meant different thing to different segments of computer science.  And each segmentâ€™s perspective on event was similar to the perspective described in the fable on blind men and an elephant.  A holistic perspective of event was required.  We developed a model of event and used it in some of our work.  We adopted the perspective that multimedia information management should be around real world objects and events rather than objects and events as captured in a medium. This perspective on multimedia information became more convincing as we started applying this to different applications.</p>
+<p>However, we realized that there is no good sources to deal with such events in computing systems.  So we decided to do something about it.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/events-are-transparent/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

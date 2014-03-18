@@ -1,0 +1,307 @@
+<style type="text/css">
+table.sample {
+	border-width: thick;
+	border-spacing: 2px;
+	border-style: solid;
+	border-color: white;
+	border-collapse: collapse;
+	background-color: white;
+}
+table.sample th {
+	border-width: thick;
+	padding: 1px;
+	border-style: none;
+	border-color: white;
+	background-color: white;
+	-moz-border-radius: ;
+}
+table.sample td {
+	border-width: thick;
+	padding: 7px;
+	border-style: none;
+	border-color: white;
+	background-color: white;
+	-moz-border-radius: ;
+}
+
+
+a.highlight1
+	{background-color: rgb(255,255,0)}
+a.highlight2 
+	{background-color: rgb(0,255,0)}
+a.fancyHighlight 
+	{background-color: rgb(0,255,255)}
+
+</style>
+
+
+
+<HTML>
+
+
+<TITLE>Lee Martie</TITLE>
+<LINK rev="Made" href="mailto:lmartie@ics.uci.edu">
+<META name="person" content="Lee Martie">
+<META name="sortname" content="Martie, Lee">
+
+<Head>
+<!--<link rel="icon" type="image/png" href="glider.png">-->
+
+
+
+</Head>
+<center>
+
+<table>
+<tr valign="top">
+<td >
+
+	<table cellspacing=0 cellpadding=0>
+	<tr>
+	<td valign="top">
+
+		<table class="sample">
+		<tr>
+		<td width="255px">
+		<center><img src="profile_pic_scale2.JPG"></center>
+		</td>
+		</tr>
+		</table>
+	
+	</td>
+	</tr>
+
+	<tr>
+	<td>
+		<table>
+		<tr>
+		<td>
+		</td>
+		</tr>
+		</table>
+	</td>
+	</tr>
+
+	<tr>
+	<td>
+		<table class="sample">
+		<tr>
+
+		<td valign="top">
+			<center>
+			</center>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		<img src="email.png">
+		</td>
+		</tr>
+		</table>
+
+	</td>
+	</tr>
+
+	
+	<tr>
+	<td>
+		<table>
+		<tr>
+		<td>
+		</td>
+		</tr>
+		</table>
+	</td>
+	</tr>
+
+	<tr>
+	<td align="right" valign="bottom">
+		<table class="sample">
+		<tr>
+		<td width="255px">
+		<font size="4" face="courier" color="black">
+		<h3>Bio</h3>
+			<ul>
+			<li><b>Sept. 2011</b>: First year PhD student at <a href="http://www.informatics.uci.edu">UCI</a>.
+		 	<li><b>Sept. 2009 - July 2011</b>: Research Scientist &amp; Tech Temp @ <a href="http://dilab.gatech.edu">DIL</a>.
+			<li><b>2009</b>: Received MS in CS at <a href="http://www.cc.gatech.edu">Georgia Tech</a>.
+			<li><b>2007</b>: Received BS in CS at <a href="http://www.cc.gatech.edu">Georgia Tech</a>.
+			</ul>
+		</font>
+		</td>
+		</tr>
+		</table>
+
+	</td>
+	</tr>
+
+
+
+	</table>
+
+</td>
+
+<td>
+	<table cellspacing=0 cellpadding=0 height="860">
+	<tr>
+	<td>
+
+	<table class="sample" height="860">
+	<tr>
+	<td valign="top">
+
+<HEAD>
+
+<font size="4" face="courier" color="black">
+
+
+
+</HEAD><BODY>
+<table cellspacing=0 cellpadding=0>
+<tr >
+<td valign="bottom" style="padding-top: 2px;"><font size="6">Lee Martie</font></td>
+<td valign="top"><a href="CV_MARTIE.pdf"><img height="34" src="CV_ICON.png" alt="Lee Martie's CV" /></a></td>
+</tr>
+</table>
+<!--<div style="height:40px;">
+<div style="height:40px;float:left;margin-right:15px;vertical-align:bottom;"><span style="font-weight:bold;font-size:30px;">Lee Martie</span></div>
+<div style="height:40px;margin-bottom:0xp;float:left;"><a href="CV_MARTIE.pdf">	<img height="32" src="CV_ICON.png" alt="Lee Martie's CV" />	</a></div>
+</div>-->
+<hr>
+<UL>
+<LI>Affiliation: PhD Student
+<LI>Department: <a href="http://www.ics.uci.edu/informatics/">Informatics</a><br>
+<LI>Area: Software Engineering
+<LI>Advisor: <A HREF="http://www.ics.uci.edu/~andre/">André van der Hoek</a>
+<LI>Lab: <A class="highlight" HREF="http://sdcl.ics.uci.edu/">SDCL</a> 
+<LI>Office: ICS 414 (Room A)
+</UL>
+
+<H3>Publications</H3>
+<hr>
+
+<ul>
+<li>
+<i>w:</i> L. Martie and A. van der Hoek, <a href="http://www.ics.uci.edu/~lmartie/code_exchange.pdf">“Toward Social-Technical Code Search”</a>, in Proceedings of the 6th International Workshop on Cooperative and Human Aspects of Software Engineering, 2013 (accepted for publication)
+</li>
+<br/>
+<li>
+<i>c:</i> S. Rugaber, A. Goel, and L. Martie, <a href="http://www.sciencedirect.com/science/article/pii/S1877050913000057">"GAIA: A CAD Environment for Model-Based Adaptation of Game-Playing Software Agents"</a>,11th Annual Conference on Systems Engineering Research (CSER), 2013, pages 29–38
+</li>
+<br/>
+<li>
+<i>c:</i> L. Martie, V. Palepu Krishna, H. Sajnani,  C. Lopes , <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6224268&isnumber=6224266">"Trendy bugs: Topic trends in the Android bug reports"</a>, 9th IEEE Working Conference on Mining Software Repositories (MSR), pages 120-123
+</li>
+</ul>
+
+<H3>Projects</H3>
+<hr>
+<ul>
+<li>
+<h4>Current work: <a href="http://sdcl.ics.uci.edu/research/codeexchange/">CodeExchange</a></h4>
+</li>
+
+<li><h4>Demo of work while at the </br> 
+<A HREF="http://dilab.gatech.edu">Design Intelligence Laboratory</a>:</h4></li>
+
+<ul>
+<li>
+<A HREF="./GAIA/GAIA.html">GAIA Demo Video</a>
+</li>
+</ul>
+
+<li><h4><A HREF="http://www.math.gatech.edu/~lacey/ump/reu/gtreulist.htm#2006">REU</a> papers resulting from work with
+<a href="http://people.math.gatech.edu/~belinfan">Professor Johan G. F. Belinfante</a> 
+</br>
+and his theorem prover <A HREF="http://www.math.gatech.edu/~belinfan/research/autoreas/">GOEDEL</a>:</h4></li>
+
+<ul>
+
+<li>
+<A HREF="http://www.math.gatech.edu/~belinfan/research/autoreas/goedel/nb/cowork/clock.nb.pdf">clock.nb.pdf</a></br>
+</li>
+<li>
+<A HREF="http://www.math.gatech.edu/~belinfan/research/autoreas/goedel/nb/cowork/unary.nb.pdf">unary.nb.pdf</a></br>
+</li>
+<li>
+<A HREF="http://www.math.gatech.edu/~belinfan/research/autoreas/goedel/nb/cowork/unop-pow.nb.pdf">unop-pow.nb.pdf</a></br>
+</li>
+<li>
+<A HREF="http://www.math.gatech.edu/~belinfan/research/autoreas/goedel/nb/cowork/uocpsdup.nb.pdf">uocpsdup.nb.pdf</a></br>
+</li>
+<li>
+<A HREF="http://www.math.gatech.edu/~belinfan/research/autoreas/goedel/nb/cowork/iterclok.nb.pdf">iterclok.nb.pdf</a></br>
+</li>
+<li>
+<A HREF="http://www.math.gatech.edu/~belinfan/research/autoreas/goedel/nb/cowork/fu-im.nb.pdf">fu-im.nb.pdf</a></br>
+</li>
+
+</ul>
+<li><h4>Educational applet produced while working on</br>
+ Interactive Learning Tools for the Systems Realization Laboratory:</h4></li>
+<ul>
+<li><A HREF="http://www.srl.gatech.edu/education/ME2016/NumMeth/CurveFitting">Curve Fitting Applet</a></li>
+</ul>
+</ul>
+
+<H3>Educational Code</H3>
+<hr>
+<ul>
+<li><a href="education">Processing</a>
+</li>
+</ul>
+
+<H3>Side Projects</H3>
+<hr>
+<ul>
+<li><a href="http://www.ics.uci.edu/~lmartie/spacedebugs/spacedebugs.mp4">Space Debugs</a>
+</li>
+</ul>
+
+<H3>Tutorial Videos</H3>
+<hr>
+<ul>
+<li><a href="http://www.ics.uci.edu/~lmartie/emf_tutorial.1.mp4">Eclipse Modeling Framework (EMF)</a>
+</li>
+<li><a href="http://www.ics.uci.edu/~lmartie/gmf_tutorial.1.mp4">Graphical Modeling Framework (GMF)</a>
+</li>
+</ul>
+
+</font>
+
+	</td>
+
+		
+		
+
+
+	</tr>
+
+
+	</table>
+
+</td>
+
+</tr>
+
+
+
+</table>
+
+
+
+
+
+
+
+</td>
+		
+</tr>
+
+</table>
+
+</center>
+
+
+</BODY></HTML>
+

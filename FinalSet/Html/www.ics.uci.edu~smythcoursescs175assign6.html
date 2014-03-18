@@ -1,0 +1,614 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta name="GENERATOR"
+ content="Mozilla/4.76 [en] (WinNT; U) [Netscape]">
+  <title>ICS 175: Project in Artificial Intelligence</title>
+</head>
+<body alink="#ff3300" bgcolor="#f3f9fe" link="#cc0000" text="#000000"
+ vlink="#330099">
+<center>
+<h1>Project Proposals (Assignment 6) </h1>
+</center>
+<center>
+<h1>&nbsp;CS 175: Project in Artificial Intelligence</h1>
+</center>
+<center>
+<h2>Due at 12 noon Friday November 9th to EEE <br>
+</h2>
+<h2>(Note the different time and day of week for the assignment deadline!)<br>
+</h2>
+</center>
+<hr>
+<h3>Instructions for Assignment 6: Project Proposals</h3>
+This assignment is the proposal phase of a final project which will
+form
+the basis of the remainder of your project work in this class. The goal
+of this week's assignment is for you to read the background literature
+on face recognition, review the classification and image analysis
+functions
+available in MATLAB, and write a project proposal to be completed by
+Monday of finals week. You should not start
+serious
+work on your project until your proposal is approved by Professor
+Smyth. If your proposal is judged to be not acceptable, it will not be
+approved, and you will need to revise it until it is approved.
+It
+is important that your proposal is as detailed and professional as
+possible:
+a good proposal, with well-conceived milestones and plans, is the basis
+for a good project! Note that your proposal will be graded just like a
+regular assignment.
+<p><b>Background Reading:</b>
+<br>
+You are not
+expected
+to understand all of the content of these articles - you can ignore
+technical concepts and jargon that we have not covered in class, but
+try to get as much as you can out of the articles below.<br>
+</p>
+<ul>
+  <li><strong>Recommended Reading:</strong></li>
+  <ul><li><a href="facerecognition_overview_2003.pdf"><strong>Face
+      recognition</strong></a><strong><a
+ href="facerecognition_overview_2003.pdf">:&nbsp;A
+        literature survey</a>, </strong><span class="mediumb-text">ACM
+          Computing Surveys, December 2003. This is a very comprehensive article,
+          but quite long, so I don't expect you read all of it. Please try to
+          read as much of sections 1, 2, 3 and 5 as you can.&nbsp; Sections 4 and
+          6
+          are also interesting, but less directly relevant, so only read those if
+          you are interested and have time to do so.</span></li>
+    <li><a href="http://research.microsoft.com/~viola/Pubs/Detect/violaJones_IJCV.pdf"><strong>Robust real-time object detection</strong></a>: this paper descibes the well-known &quot;Viola and Jones&quot; object detection algorithm that is now widely used in practical face recognition applications. You don't need to read all of  the details in the paper (e.g., you could skip Section 4 on a first reading). Note that this paper describes a method for <strong>detecting </strong>faces in arbitrary images, rather than classifying faces. We will discuss this algorithm in a later lecture in class. </li>
+    <li><span class="mediumb-text"><a style="font-weight: bold;"
+ href="features_versus_templates.pdf">Face Recognition: Features versus
+      Templates</a><span style="font-weight: bold;">:</span> a well-written
+      article that describes in detail methods and experiments comparing
+      feature-based recognition of faces versus template-based recognition.
+      Although this is an older paper (from 1993) it nonetheless has quite a
+      few useful ideas that are of potential relevance to CS 175 projects.</span><span class="mediumb-text"><br>
+      <br>
+      </span></li>
+  </ul>
+  <li><span style="font-weight: bold;">Optional Additional Reading:</span></li>
+  <ul>
+    <li><a style="font-weight: bold;"
+ href="http://www.msu.edu/~lvxiaogu/publications/ImAna4FacRcg_Lu.pdf">Image
+      Analysis for Face Recognition</a><span style="font-weight: bold;">:&nbsp;</span> survey paper on face recognition. This paper goes into technical
+      details on methods such as "eigenfaces", ICA, etc (which we have not
+      yet discussed in class). There are several informative figures in the
+      paper that you can take a look at, even if you don't fully understand
+    the mathematics behind the techniques.</li>
+    <li><a style="font-weight: bold;" href="http://www.face-rec.org/">Face
+      Recognition HomePage</a><span style="font-weight: bold;">:</span>&nbsp;
+      many useful papers here under "Interesting Papers", "New Papers", and
+  "Algorithms". If you are looking for detailed specific information
+      about a specific algorithm that you are interested in using in your
+      project (e.g., neural networks, support vector machines (SVMs),
+      eigenfaces, etc) then the section "Algorithms" is a good place to start
+      looking.</li>
+    <li><span style="font-weight: bold;"><a
+ href="neural_network_face_detection.pdf">Neural Network-Based Face
+Detection:</a> </span>describes in detail a fairly complex system for
+detecting faces in images using multilayer neural networks.</li>
+    <li><a style="font-weight: bold;"
+ href="feret_evaluation_experiments.pdf">The FERET Evaluation
+Methodology for Face-Recognition Algorithms:</a> a paper describing a
+set of government-sponsored tests to evaluate different face
+recognition algorithms and systems. <br>
+    </li>
+  </ul>
+  <br>
+</ul>
+<h4>
+What your Project Proposal must contain:</h4>
+Your proposal must contain 7 distinct sections:
+<ul>
+</ul>
+<ol>
+  <li>A clear description of the basic classification or recognition
+task you will try to solve.</li>
+  <li>The data sets you will use for this task.</li>
+  <li>The feature representation (features that will be provided as
+input
+to the classifiers) you will investigate for solving this problem</li>
+  <li>The classification algorithms you plan to use.</li>
+  <li>An extended task that you will also investigate, that extends the
+basic
+classification or recognition task to something more complex. For
+example,
+if your basic task is to classify images as to whether or not they have
+sunglasses, your extended task might be to simulate adding noise to the
+images and to see how accuracy changes as a function of the amount of
+noise
+added.</li>
+  <li>A specific plan for how you will evaluate your algorithms</li>
+  <li>Milestones for each week of the project.<br>
+  </li>
+</ol>
+<ul>
+</ul>
+Your submission for next week should be written clearly and in a
+professional manner. The proposal will be graded in terms of both how
+well it is written (is it clear and comprehensive) and technical
+correctness (i.e., do you appear to know what you are talking about
+when you describe your feature extraction, classification,
+cross-validation experiments, etc).<br>
+<br>
+Please use the<a
+ href="http://www.ics.uci.edu/~smyth/courses/cs175/proposal.template.doc">
+proposal template </a>that is available online. We will discuss
+below
+in more detail on what options you have available for each of the
+project
+sections.
+<h4>Proposal Part 1: Recognition and Classification Tasks</h4>
+There are a number of different classification problems you can
+address,
+and I list some of them below. These are by no means exhaustive, and
+feel
+free to be creative and come up with your own task definition.
+<p>Be aware that your grade does not necessarily depend on the accuracy
+of the classification system you build, since some tasks will naturally
+be harder (and have lower accuracies) than others - we will take this
+into
+account when grading. Note that if you go for an "easy" problem you
+will
+need to do an excellent job to get full points. If you go for a harder
+problem and investigate several variations/extensions, and do a good
+job
+on each, you will be graded a bit more leniently.&nbsp;
+</p>
+<p>So try to pick a task that looks like it will be challenging but
+doable.
+You can of course pick what looks like a fairly "easy" task for your
+basic task, but then pick a more interesting and challenging task for
+your
+"extended task" that you can work on once you have the main task
+completed.</p>
+<ul>
+  <li> <b>Pose Recognition </b>Classify faces into one of 4 classes,
+i.e., up,
+straight, right, or left. This is a generalization of the problem in
+Assignment
+5, where now there are 4 classes instead of 2.</li>
+  <li> <b>Sunglasses Recognition </b>Classify face images into two
+classes, "sunglasses"
+or "no sunglasses".</li>
+  <li> <b>Expression Recognition </b>Classify faces into 4 classes
+based
+on what
+expression the person has (angry, happy, sad, neutral).</li>
+  <li> <b>Individual Recognition </b>Classify the faces into the name
+of
+the individual,
+i.e., into one of 20 classes, given any pose or expression for that
+individual.</li>
+  <li>There are several other possible variations on this theme: e.g.,
+you
+could
+try to classify the people with glasses versus those without (could be
+tricky), or classify the images with men's faces from the images with
+women's
+faces (to really evaluate this you would need to test person i using
+training
+data that does not contain any specific images of person i, only of
+type
+i (e.g., only men images, but not of that particular man) - otherwise
+your
+classifier will probably just be an "individual recognition" system and
+not a "man/woman" recognition system). Out data set also has relatively
+few faces from women, so this could also be a practical problem. Some
+of
+the other face databases on the Web have a better balance of men and
+women
+faces.</li>
+</ul>
+These are some of the possible classification problems you could
+attack.
+They get somewhat more difficult as one moves down the list, e.g., identifying
+one of 20 different people (a 20-way classification problem) is likely to be hard to do accurately, but it is a fun
+problem.
+Identifying emotions is also quite difficult but again is a very
+interesting
+problem. Again, I encourage you to define your own versions of these
+problems.
+<p>Note that all of these tasks are really just straightforward
+extensions
+of what we have already done in class (e.g., in Assignment 5). To make
+it interesting you will need to add some variations as part of your
+extended
+task.
+</p>
+<p>Your proposal should be clear about what task you will address and
+which
+variations you will attempt. Your task description should be as precise
+as you can be about exactly which subsets of images will be used, how
+many
+images will be available for training, and so forth. These details may
+change as you get further into the project, but you should have some
+idea
+at the outset of your overall plan for both classifier design and
+classifier
+evaluation (i.e., what data will be used to build the classifier and
+what
+data will be used to test it).
+</p>
+<h4></h4>
+<h4>Part 2: Data Sets for your Proposal</h4>
+We have a large set of face images available which can be used as the
+default data set for your experiments. However you are free
+to use any data set that you wish for your project as long as you
+clearly indicate what data set you will be using in your proposal (at
+the end of this section are links to multiple online face recognition
+data sets). Some of the other data sets are
+much higher resolution than our standard set and some come with more
+variability in terms of lighting, pose, etc - these are more
+challenging to work with, but will also be more interesting! Also note
+that you can change data sets during your project if you decide to
+later, for example, if you start with the default data set and then
+decide to try something more challenging to see if your algorithms work
+on a different set of images. To change data sets later on please send
+me an email to let me know.<br>
+<br>
+The "default" data set is
+as follows:
+<ul>
+  <li>There are images for 20 different individuals (as in our earlier
+Assignments)</li>
+  <li>For each individual there are 4 basic expressions: neutral,
+happy, angry,
+sad.</li>
+  <li>For each individual and type there are 4 "poses": straight, up,
+right,
+and left, where the last two poses are of people looking to the right
+and
+left.</li>
+  <li>For each of the above combinations, there are 2 images: one with
+sunglasses
+and one without.</li>
+  <li>Thus, in total, for each individual, there are 4 x 4 x 2 = 32
+different
+images: a small fraction of these are blank where images were not
+collected
+for one reason or another. Overall there are roughly 20 x 32 = 640
+images
+available.</li>
+  <li>Furthermore, the images are available at 3 different resolutions.
+Full
+resolution images are 120 x 128 pixels in size, half-resolution are 60
+x 64, and quarter resolution are 30 x 32. The smaller images are just
+averaged
+versions of the larger images. The smaller images are easier to
+download,
+process, and manipulate. However, the full images do have more
+information,
+so this is a tradeoff you will have to work with. Note that a single
+full
+image takes up the same amount of memory as 16 of the quarter
+resolution
+images.</li>
+</ul>
+Both
+<a href="ftp://ftp.ics.uci.edu/pub/smyth/ics175a/projectdata/">small
+and medium images </a>as well as
+<a href="ftp://ftp.ics.uci.edu/pub/smyth/ics175a/projectdata/LARGE">large
+images </a>can be downloaded by ftp. The README file in the
+small/medium
+directory explains the format and nature of the images. <br>
+<br>
+You can work with other data sets if you wish.. Some other large
+face datasets available on the Web listed below - some of these have
+the
+advantage of being higher resolution than the our default set, and some
+also have more variability, making classification more challenging (but
+also more realistic). I encourage students to use these data sets if
+they are interested in doing so. Sources for other face data:
+<ul>
+  <li><a href="http://www.face-rec.org/databases/">L:inks to multiple
+different face databases <br>
+    </a></li>
+  <li><a href="http://pics.psych.stir.ac.uk/cgi-bin/PICS/New/pics.cgi">Stirling
+University face database</a></li>
+  <li><a
+ href="http://vision.ucsd.edu/%7Eleekc/ExtYaleDatabase/ExtYaleB.html">Yale
+face
+database</a></li>
+  <li><a href="http://www.ri.cmu.edu/projects/project_419.html">CMU
+face image
+databases</a></li>
+  <li><a href="http://images.ee.umist.ac.uk/danny/database.html">University
+of
+Manchester face images</a></li>
+</ul>
+Or you could even create your own training and test data
+set if you have a digital camera and time to do this.&nbsp; If you
+propose
+to create your own data set, please state so clearly in your proposal
+and be sure to think through issues such as lighting, image resolution,
+how long it will take you to collect the images, etc. Note, that
+converting images
+to the right formats for MATLAB can take some time so please do not
+underestimate
+how long it may take you to collect additional data if you decide to do
+so - however, there are several functions (such as imread.m) that can
+read
+in image data in standard formats such as JPEG and PNM..
+<h4><br>
+</h4>
+<h4>Part 3: Feature Extraction&nbsp; <br>
+</h4>
+An important component of any image classification algorithm is what <i>representation
+</i>it
+chooses to use for the pixel data. In assignment 4 you saw that using
+the
+pixels directly can be quite useful, but has its limitations.
+<p>Thus, in this part of your project you are <i>required </i>to
+define
+at least 2 "extracted" features to use for classification (and I
+encourage
+you to use more). You can they try to compare classification
+performance
+using the high-level features versus using the low-level pixels. By a
+higher-level
+feature I mean a scalar value (or vector of scalars) that is defined as
+a *function* of the pixels in the image where the number of features is
+far less than the number of pixels in the original image. For example,
+if you use an edge detector to produce a response image on a 60 x 64
+pixel
+image, you could then define a simple feature vector with 16 features,
+where you divide the image into sub-images each approximately or size
+1/16th
+of the original image and the 16 features correspond to the average
+value
+of the edge response image in each of the 16 subimages. This would be a
+primitive way to try to detect at a coarse resolution which parts of
+the
+image have edge information, and the resulting features might be useful
+for classifying right versus straight, etc. There are obviously many
+different
+ways to define such features and you should be as creative as possible.
+</p>
+<p>Here are some features you may want to consider:
+</p>
+<ul>
+  <li>Global information from the histogram of the image: average,
+standard deviation, minimum, maximum
+brightness. These features will probably not be very discriminative
+(i.e., they may not discriminate between classes very well).<br>
+  </li>
+  <li>Summarization of pixel values (average, standard deviation, max -
+min,
+etc) from local sub-windows in the image. <br>
+  </li>
+  <li>Extracted location and shape information from a thresholded
+version of
+the image.</li>
+  <li>Information from a blurred version of the image: the location or
+brightness
+of the brightest "blob" in an 8 x 8 reduced version of the image for
+example.
+You could for example use the split-and-merge segmentation algorithm
+described
+in the notes on Robot Vision, on a smoothed version of the face, to try
+to segment the face from the background.</li>
+  <li>Information from the response image, or edge map, from using an
+edge
+filter,
+e.g., try to find the boundaries of the face and thus get a size
+estimate
+for the face. Or you could try to fit an ellipse to the edge
+information
+and use this to tell you something about whether a person is facing the
+camera "straight" or not.</li>
+  <li>Template-based methods, which use templates (as described in
+class) to
+estimate where the eyes, nose, mouth, ears, etc., are, and then tries
+to
+measure various features such as their relative positions, size,
+relative
+brightness, etc.</li>
+  <li>Detection of other facial features, such as the hair, chin, or
+shirt
+being
+worn.</li>
+</ul>
+<p>For each feature, you will need to write a general function that
+takes
+as input an image and can automatically return a feature value (or
+vector
+of features). Thus, you might have 8 different features that you can
+calculate
+on an image, some based on edges, some based on templates, etc., and
+you could write a function called
+<span style="font-weight: bold;">feature_detect.m</span> that could
+then call a number of different feature
+detection
+"modules" to determine the values of each of the features, given the
+image.
+</p>
+<p>Finding useful features is usually a combination of good
+guesswork/intuition
+in defining features, and then empirical evaluation (part 4) to see how
+the&nbsp; features work. You can just include as many features as you
+can
+think of, or try to search for the useful discriminative ones (that
+have
+different values on average for different classes) and to leave out the
+ones that appear not to be useful for classification. How would one
+search
+for a good subset of features from a larger set? in general one can
+only
+find the optimal set by doing exhaustive search through all possible
+subsets
+(order of 2 to the power of K, for K features) and evaluating the
+classification
+accuracy for each subset (note that bigger subsets will not necessarily
+lead to better generalization accuracy, since including a noisy feature
+may cause the classifier to overfit and it might be better to leave it
+out). One could perform some form of automated greedy search through
+different
+feature subsets (e.g., start with all of them, and then add or delete
+the
+one that gives the greatest increase in accuracy on test data).
+</p>
+<p>An easier (but suboptimal) approach is just to plot the feature
+values
+in 1d or 2d, where the feature values for the different classes are in
+different colors, and to manually eliminate the features where all the
+classes appear to be "on top" of each other in the plot (i.e., little
+or
+no separation). The problem with this approach in general is that even
+if feature X and feature Y each on their own cannot classify very well,
+it is theoretically possible that feature X and Y together might allow
+perfect classification (perhaps you can think of a simple 2-
+dimensional
+example where this would happen). Your simplest option is to include
+all
+of your features, perhaps manually getting rid of the ones that clearly
+add no value to classification.
+</p>
+<p>Your project proposal should contain a list of <i>at least 2
+features you
+plan
+to investigate</i>, with some information on how you will automatically
+measure these quantities.
+</p>
+<h4><br>
+</h4>
+<h4>Part 4: Classification Algorithms</h4>
+You should include at least 2 classifiers in your evaluation - e.g., as baseline methods I would suggest minimum-distance and k-nearest neighbor
+(kNN) classification algorithms. Feel
+free to also include the perceptron, and any other classifier you would
+like to implement - or you are free to use other classifiers, such as
+support vector machines or neural networks (in a later lecture I will
+try to provide pointers to software for these classifiers that you can
+use). If you find that one
+of the two (minimum distance or kNN) is far inferior to the other for
+your
+problem, it is ok to establish this clearly by experiment, and then
+focus
+on getting the best performance possible with the better classifier.
+But
+if you do this, you better be convincing in your explanation that the
+other
+classifier really is not practical to use and demonstrate clearly why
+with
+experiments.
+<p>You will evaluate your classifiers based on (a) pixel values as
+feature
+vectors as we did in Assignment 4, (b) derived features (from the pixel
+values), as inputs to your classifier. <br>
+</p>
+<p>Note: you can use any code you wrote in earlier assignments, or code
+described in lectures, or code I provided for assignments, for your
+project. You are also free to use code by other researchers or students
+that you can find on the Web (e.g., for support-vector machines or
+neural networks) as long as you clearly reference where the code came
+from.<br>
+&nbsp;
+</p>
+<h4>Part 5: Extended Task</h4>
+Your extended task should involve at least one main variation/extension
+of the basic classification task in part 1. For example:
+<ul>
+  <li>investigate at each of the 3 different resolutions and report on
+how
+image
+resolution affects (or does not affect) the accuracy of classification.</li>
+  <li>does pose have any effect on classification?</li>
+  <li>does expression have any effect on classification?</li>
+  <li>add random noise to the images and plot how accuracy changes
+versus
+noise
+level</li>
+  <li>perform some "blind" classification tests with human labellers
+(i.e.,
+humans who are not familiar with the images) and compare the human
+results
+with the automated classification algorithms </li>
+  <li>simulate "blanking out" parts of the images to simulate the
+effect of having
+an object in front of a person's face that partially obscures it (e.g.,
+a black square of pixels): then evaluate how the size and location of
+this
+"obscuring object" affects the accuracy.</li>
+</ul>
+<h4><br>
+</h4>
+<h4>Part 6: Testing Your System</h4>
+Provide a clearly defined methodology (cross-validation is recommended)
+on how you will test your system. Note that you will be comparing both
+different sets of features and different classifiers. You should define
+clearly how you will handle the complexity of this part of the work,
+e.g.,
+select a good set of features first, then find the best classifier, or
+evaluate features and classifiers together, etc. Note that you can use
+cross-validation to compare different sets of features for the same
+classifier,
+i.e., fix the type of classifier and run it with different sets of
+features
+to see which one gives the best cross-validated accuracy.
+<p>A specific experiment that I recommend everyone do if possible, is
+the following comparison:
+<br>
+(a) evaluate your classification system using standard cross-validation
+(e.g., 5-fold cross-validation where the test sets are randomly chosen)
+<br>
+(b) now evaluate it using cross-validation where we do "leave one out"
+on <i>different individuals </i>each time, i.e,. the test set in each
+cross-validation
+iteration is specifically chosen to consist of *all* images for a given
+person, i.e., the classifier is trying to classify that person without
+having any images for that specific person in the training data.
+Clearly
+this is harder than the case where there are images for that individual
+already in the training data. You should carefully evaluate whether
+adding
+the constraint of leaving each individual out to testing has any affect
+on your classifier's
+performance (compared to just leaving random sets of images out).
+The one exception to this is the "individual recognition" classifier
+where
+you will not be able to do this experiment for obvious reasons (here
+instead
+for part (a) you might test the case of "no sunglasses" versus for part
+(b) the case where all images (sunglasses includes) can be used).
+</p>
+<p>You should also test the *robustness* of your proposed system. First
+test it under ideal conditions. Now try a harder version of the same
+problem,
+e.g., add noise, or shift or obscure the faces in the images.<br>
+</p>
+<h4><br>
+</h4>
+<h4>Part 7: Milestones and Deliverables</h4>
+You need to define a timeline of what you plan to accomplish by the end
+of each week of the project, i.e.<br>
+<ul>
+  <li>week 1, Short 1-page progress report due November 13th Monday noon<br>
+  </li>
+  <li>week 2, 2-page progress report due November 20th Monday noon</li>
+  <li>week 3, Short in-class presentations on Tuesday Nov 28th and
+Thursday Nov 30th<br>
+  </li>
+  <li>week 4, Final project reports due noon Thursday December 7th
+(finals week) <br>
+  </li>
+</ul>
+<hr>
+<h3>What to Submit </h3>
+<ul>
+  <li>Please use the<a
+ href="http://www.ics.uci.edu/~smyth/courses/cs175/proposal.template.doc">
+proposal template </a>that is available online. Your report should be
+precise and clear - a minimum of 2 and a maximum of 4 pages of text.
+Submit your proposal
+to EEE in WORD format. No need to hand in any hardcopy this week. Make sure your name and email address is at the top of your report. <br>
+  </li>
+</ul>
+</body>
+</html>
+

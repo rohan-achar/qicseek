@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> External Procedures</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" External Procedures">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html4849 HREF="node217.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html4847 HREF="node215.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html4841 HREF="node215.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html4851 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html4850 HREF="node217.html"> Mapping between C </A>
+<B>Up:</B> <A NAME=tex2html4848 HREF="node215.html"> External Language Interface</A>
+<B> Previous:</B> <A NAME=tex2html4842 HREF="node215.html"> External Language Interface</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION001910000000000000000> External Procedures</A></H1>
+<P>
+<A NAME=3147>&#160;</A>
+What is an external procedure? An external procedure is a subprogram
+written in a language other than Prolog, which imitates the action of
+a Prolog procedure. The subprogram is linked to a predicate in a Prolog
+program, and a call to this predicate results in a call to the subprogram.
+Therefore, there is a correspondence between the arguments of the Prolog
+predicate and the arguments of the subprogram, and like any other Prolog
+procedure, the subprogram may fail or succeed and bind variables,
+but it may as well raise an exception.
+<P>
+We may particularly identify two types of external procedure. These are
+those which are resatisfiable upon backtracking, i.e.
+<i> nondeterministic</i>, which are <i> regular</i>,
+and those which are not resatisfiable, i.e.
+<i> deterministic</i>, which are <i> simple</i>.
+<A NAME=3152>&#160;</A>
+<A NAME=3153>&#160;</A>
+From the Prolog level, all types of external predicates may be called
+exactly like Prolog predicates.
+However, on the implementation level, deterministic externals use a different
+calling convention than Prolog predicates and nondeterministic externals.
+As a consequence, certain dynamic redefinitions are restricted (as
+described below).
+<P>
+In principle, the external procedure can be written in any language
+which is able to produce a <i> .o</i> object file.
+In the current implementation of <A NAME=tex2html698 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+ , only
+C macros are provided
+for external procedure definition, and so all of the following assumes that
+the external procedure is written as a function in C.
+<P>
+Apart from this external interface there are two other possibilities
+to call a C function from Prolog:
+<UL><LI> Using the <b> foreign</b> library.
+<A NAME=3157>&#160;</A>
+This is the interface in the style of Quintus and SICStus Prolog,
+which allows to load and interface independent C routines.
+<P>
+<LI> Using the call_c/2 predicate. This predicate
+allows to call directly any C function whose address is available
+in the symbol table of the binary file. Unlike the foreign
+interface, it can also map C structures to Prolog arrays.
+</UL><BR> <HR><A NAME=tex2html4849 HREF="node217.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html4847 HREF="node215.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html4841 HREF="node215.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html4851 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html4850 HREF="node217.html"> Mapping between C </A>
+<B>Up:</B> <A NAME=tex2html4848 HREF="node215.html"> External Language Interface</A>
+<B> Previous:</B> <A NAME=tex2html4842 HREF="node215.html"> External Language Interface</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

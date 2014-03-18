@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="description" content="Social Search Introduction to Information Retrieval CS 221 Donald J. Patterson  Aardvark “The Anatomy of a Large-Scale Social Search Engine” by Horowitz, Kamvar WWW2010  Aardvark Web IR Input is a query of keywords Search is over documents Trust is based on authority Mental model is a library   Aardvark Web IR Input is a query of keywords Search is over documents Trust is based on authority Mental model is a library  Social Search Input is a question Search is over people Trust is based on intimacy Mental model is a village   Aardvark Web IR facts navigation transactions Social Search opinion advice experience recommendations   Aardvark Components  Aardvark Crawler/Indexer Users not documents Query Analyzer Understand the information need Ranking Function Pick the best resources UI  To manage the conversation  Aardvark Welcome to Aardvark - Sign on process After confirming a new user’s account A Social Graph is built Facebook/LinkedIn connections webmail connections manual email invites “group” aware This is a work colleague, college friend, etc.  Aardvark Welcome to Aardvark - Sign on process A knowledge bank is built on self-identified expertise friend identified expertise home page identified expertise facebook status update analysis twitter status update analysis observed Aardvark usage knowledge bank’s inverted index maps topic -&gt; user  Aardvark The Question  Aardvark The Question The question is acquired by various input channels: text, web, IM, mobile, etc. The question is screened for obscenity The question is topic analyzed topic is presented to asker for confirmation The question is passed to a routing engine which ranks potential answers based on social graph and expertise  Aardvark Routing Engine Pick the best answerer What is the probability that user i will answer question q? Marginalize over the topics in the question and the topic expertise of the user Pick the best pair of users Which user i is the most likely to give a good answer to user j?   Aardvark Routing Engine Ranking function combines the two For a given query, q,  by user j what is the best user i to ask? Biases intimacy over authority Notice there is nothing like PageRank here The only real-time component is p(t|q)  Aardvark Indexing People Figuring out Figuring out    Aardvark Indexing People Figuring out Users self-identify topics they are “experts” in Others identify topics you are “experts” in Topics are mined from Facebook Twitter Homepages Blogs   Aardvark Indexing People Figuring out In unstructured text an SVM classifies the general topic an ad-hoc entity parser figures out specific topics scaled by TF-IDF score topics are also mined from aardvark conversations    Aardvark Indexing People The mined information is not for answering questions It’s for identifying people who can answer questions Topics are enhanced with social network information   Aardvark Indexing People All of the scores for topics given a user are normalized  Bayes Law is used to invert the probability   Aardvark Indexing People Probability that u_i will respond to u_j Social Connections Demographic similarity Profile similarity Vocabulary similarity Chattiness similarity Verbosity similarity Politeness similarity Speed match   Aardvark Pulling topics out of a question Real-time response needed Doesn’t have to be perfect, people pick up the slack Screening Is it a question? (No -&gt; reject) Is it inappropriate?Spam? Sex? Commercial? (Yes -&gt; reject) Is it trivial? (Yes -&gt; answer it) Is it location sensitive? Location is treated differently than topic   Aardvark Pulling topics out of a question topics Keyword to Topic Matcher Taxonomy Topic Mapper SVM classifier Phrase to Topic Matcher User Tag to Topic Mapper If the user tags the question  Aardvark User Interface  Aardvark User Interface  Aardvark Samples  Aardvark Samples  Aardvark Empirical Results  Aardvark Empirical Results  Aardvark Empirical Results  Aardvark Empirical Results"/>
+    <title></title>
+    <script type="text/javascript" language="javascript">
+//      <![CDATA[
+            var images = new Array (29);
+            images[0] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.001.png";
+            images[1] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.002.png";
+            images[2] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.003.png";
+            images[3] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.004.png";
+            images[4] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.005.png";
+            images[5] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.006.png";
+            images[6] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.007.png";
+            images[7] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.008.png";
+            images[8] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.009.png";
+            images[9] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.010.png";
+            images[10] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.011.png";
+            images[11] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.012.png";
+            images[12] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.013.png";
+            images[13] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.014.png";
+            images[14] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.015.png";
+            images[15] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.016.png";
+            images[16] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.017.png";
+            images[17] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.018.png";
+            images[18] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.019.png";
+            images[19] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.020.png";
+            images[20] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.021.png";
+            images[21] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.022.png";
+            images[22] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.023.png";
+            images[23] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.024.png";
+            images[24] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.025.png";
+            images[25] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.026.png";
+            images[26] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.027.png";
+            images[27] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.028.png";
+            images[28] = "Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.029.png";
+            var index = 0;
+            function WindowLoaded(evt)
+            {
+                document.body.onselectstart = function () { return false; };
+            }
+            function Step(i)
+            {
+                GoTo(index + i)
+            }
+            function GoTo(newIndex)
+            {
+                if(newIndex >= 0 && newIndex < images.length)
+                {
+                    index = newIndex;
+                    document.Slideshow.src = images[index];
+                }
+            }
+//      ]]>
+    </script>
+</head>
+<body bgcolor="black" onload='WindowLoaded(event);'>
+    <p align="center">
+        <br/>
+        <br/>
+        <img name="Slideshow" alt="" src="Lecture16_01_Slides_CS221_files/Lecture16_01_Slides_CS221.001.png" onclick="Step(1)"/>
+        <br/>
+        <br/>
+        <input type="image" src="Lecture16_01_Slides_CS221_files/home.png" onclick="GoTo(0)"/>
+        &nbsp;&nbsp;&nbsp;
+        <input type="image" src="Lecture16_01_Slides_CS221_files/prev.png" onclick="Step(-1)"/>
+        <input type="image" src="Lecture16_01_Slides_CS221_files/next.png" onclick="Step(1)"/>
+    </p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

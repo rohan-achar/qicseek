@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html><head><title>Impromptu Workspace - Impromptu Workspace User Guide</title><style type="text/css" media="all">
+          @import url("./style/maven-base.css");
+          
+			    @import url("style/impromptu.css");</style><link rel="stylesheet" href="./style/print.css" type="text/css" media="print"></link><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"></meta></head><body class="composite"><div id="banner"><a href="http://www.isr.uci.edu" id="organizationLogo"><img alt="Institute for Software Research" src="./images/logos/ISR-logo.gif"></img></a><a href="http://www.isr.uci.edu/projects/swirl" id="projectLogo"><img alt="Impromptu Workspace" src="./images/logos/swirl-logo.gif"></img></a><div class="clear"><hr></hr></div></div><div id="breadcrumbs"><div class="xright">
+        
+        <a href="http://drzaius.ics.uci.edu" class="externalLink" title="External Link">Dr Zaius</a>
+      </div><div class="clear"><hr></hr></div></div><div id="leftColumn"><div id="navcolumn"><div id="menuQuick_Links"><h5>Quick Links</h5><ul><li class="none"><a href="download.html">Download</a></li><li class="none"><a href="user-setup.html">User Setup</a></li><li class="none"><a href="userGuide.html">User Guide</a></li><li class="none"><a href="dev-setup.html">Developer Setup</a></li></ul></div><div id="menuProject_Documentation"><h5>Project Documentation</h5><ul><li class="none"><a href="index.html">About Impromptu Workspace</a></li><li class="collapsed"><a href="project-info.html">Project Info</a></li><li class="collapsed"><a href="maven-reports.html">Project Reports</a></li></ul></div><a href="http://maven.apache.org/" title="Built by Maven" id="poweredBy"><img alt="Built by Maven" src="./images/logos/maven-button-1.png"></img></a></div></div><div id="bodyColumn"><div class="contentBox"><div class="section"><a name="Basic_Concepts"></a><h2>Basic Concepts</h2><div class="subsection"><a name="Users__Private_Files__and_Shared_Files"></a><h3>Users, Private Files, and Shared Files</h3><p>
+				Impromptu Workspace allows users to share files and collaborately view
+				and editing these files.
+			</p><p>
+				Each user is presented with the same GUI. The GUI has a Pie in the center. 
+				Within the pie, each user is represented by a slice. Each shared file is 
+				represented by a dot. The local user's slice looks
+				darker than other slices. Each slice displays what files that user is sharing. Each 
+				user can pick a color, which is used to depict the name of the user, a colorful marker 
+				on the edge of the pie, and all files shared by that user.
+			</p><p>
+				The outside of the pie represents the private space of a local user, where the user can put files 
+				that the user does not want to share yet. 
+			</p><p>
+				The owning user can do anything with files that the user shares. For other users, the 
+				possible operations are determined by the sharing degree of a shared file. There are 
+				four degrees of sharing. The "see only" files, which are put in the outer
+				outermost ring (excluding the colorful edge), are files that other users can be aware
+				of their existence but can do no more operations. The "read only" files, whic are
+				put in the second outermost ring, are files that other users can read. The "read/write"
+				files, which are put in the ring that is near the center circle, are files that others
+				can not only read but also modify. Finally, the "persistent" files, which are put
+				in the center circle, are files that shared by one user but will be continually served
+				by another user even after the original owing user leaves.
+			</p></div><div class="subsection"><a name="Transient_Sessions"></a><h3>Transient Sessions</h3><p>
+				When you start Impromptu Workspace, the Workspace starts fresh, sharing no files
+			to others. You need to import files that you want to share. 
+			</p><p>
+				When you start, the Workspace displays what files other users are sharing.
+			</p><p>
+				When you exit the Workspace, all your files will no longer be shared, unless
+				they are put in the persisten space, in which case another user will keep serving these
+				files. 
+			</p></div><div class="subsection"><a name="Flat_and_Shared_Name_Space"></a><h3>Flat and Shared Name Space</h3><p>
+				The Impromptu Workspace does not allow sharing directories. You can share all
+				files under a directory, though. 
+			</p><p>
+				If another user already shares a file with a certain name, you can no longer share
+				a file with the same name. You either need to rename the file, or wait until that
+				user leaves the shared Workspace. 
+			</p></div></div><div class="section"><a name="Import_Files"></a><h2>Import Files</h2><p>There are two ways to import files that you want to share with others.</p><div class="subsection"><a name="Use_Drag_and_Drop"></a><h3>Use Drag and Drop</h3><p>You can drag a set of files from your native application (Windows Explorer or
+				Mac Finder) and drop them onto the Workspace. These files will be imported and
+				displayed at the drop point. The drop point also determines what other users
+				can do with these shared files, based on what ring the drop point belongs to.
+			</p></div><div class="subsection"><a name="Use_Menu"></a><h3>Use Menu</h3><p>You can select the "Import Files to Workspace" menu item from the "File" manu, 
+				and choose files you want to import. You can choose multiple files, even all files,
+				under a directory. These files will be imported to your private space.  </p></div><div class="subsection"><a name="Notification_of_File_Sharing"></a><h3>Notification of File Sharing</h3><p>
+				When another user shares a new file, a dot is created for this file, and it 
+				blinks a couple seconds.
+			</p></div></div><div class="section"><a name="Manipulate_Files"></a><h2>Manipulate Files</h2><div class="subsection"><a name="Change_File_Sharing_Degree_or_Position"></a><h3>Change File Sharing Degree or Position</h3><p> 
+				You can change the position of your file by dragging a file to a 
+				new place.
+			</p><p>
+				If the place lies in a different ring than the original ring, the
+				new ring determines the new sharing level of the file.
+			</p></div><div class="subsection"><a name="View_and_Edit_a_File"></a><h3>View and Edit a File</h3><p>
+				You can double click the file. The native application associated 
+				with the file will launch and open the file for editing.
+			</p><p>
+				You can right click on the file, and choose the "Open" item from
+				the pop up menu.
+			</p></div><div class="subsection"><a name="Notification_of_File_Access"></a><h3>Notification of File Access</h3><p>
+				When a file shared by one user is accessed by another user, the dot's ring 
+				color is changed to match the accessing user's color.
+			</p></div></div><div class="section"><a name="Delete_a_File"></a><h2>Delete a File</h2><p>
+			You can right click on the file, and choose the "Delete" item from
+			the pop up menu. The file will be deleted from the shared repository.
+		</p></div><div class="section"><a name="Export_Changed_files"></a><h2>Export Changed files</h2><p>
+			If any of the shared files that you own are changed by either you or other users, when you exit, 
+			the Workspace asks you whether you want to save the changes or not. Choose yes
+			to save the changes. (It will overwrite the original copy of the file.)
+		</p><p>
+			You can also use "File/Save My Changed Files" to save changes during normal operation.
+		</p><p>
+			You can right click on the file, and choose the "Save" item from
+			the pop up menu.
+		</p><p>
+			When you choose the "Delete" item from the pop up menu, if the file has been modified,
+			you will also be asked whether you want to save the changes.
+		</p></div><div class="section"><a name="File_System_Integration"></a><h2>File System Integration</h2><div class="subsection"><a name="Use_Regular_File_System_operations"></a><h3>Use Regular File System operations</h3><p>
+				Impromptu Workspace mount the shared workspace as a regular file system drive or directory,
+				thus allowing any applications of your operating systems access the shared files. 
+				You can treat it like an integrated part of your file system and operate with 
+				your familar tools. On Windows, the default drive is "I". On Mac, the defaul
+				mount point is "/Volumes/Impromptu".
+			</p></div><div class="subsection"><a name="Unreliable_&quot;net_use&quot;_on_Windows"></a><h3>Unreliable "net use" on Windows</h3><p>
+				On Windows, for some reason the "net use" command used by Impromptu Workspace does not always
+				function correctly. If you receive an error that reports mount failure, you can try 
+				to restart Impromptu Workspace. Or you can log off Windows, log on again, and restart Impromptu Workspace.
+			</p><p>
+				During test, you can manually type, in a command prompt window, the command "net use 
+				i: http://localhost/files /user:Username password". You might need to try several times.
+				If Windows reports an error of 1219 (Conflicting credentials), then you have to log off Windows, 
+				log on again, and restart Impromptu Workspace.
+			</p></div></div><div class="section"><a name="Change_visual_display"></a><h2>Change visual display</h2><div class="subsection"><a name="Zoom"></a><h3>Zoom</h3><p>
+				You can choose "Zoom In" and "Zoom Out" from the "View" menu to zoom in and zoom out the dipaly.
+			</p></div><div class="subsection"><a name="Change_Dot_Size"></a><h3>Change Dot Size</h3><p>
+				You can choose "Increase Dot Size" and "Descrease Dot Size" from the "View" menu to 
+				increase or decrease the size of dots by 10%, respectively.
+			</p></div><div class="subsection"><a name="Show_Tip_Message"></a><h3>Show Tip Message</h3><p>
+				If you want to see the description for files, check the "Show Tip Message" 
+				item from the "View" menu.
+			</p></div><div class="subsection"><a name="Change_Color_of_Your_Slice"></a><h3>Change Color of Your Slice</h3><p>
+				You can choose the "Change color..." item from the "View" menu. Select a color
+				you want to use for your slice and your files. 
+			</p><p>
+				Your choice will be picked up by other present users. A user joins after you
+				change your color WILL NOT pick up your change (and still uses your old color for display).
+			</p><p>
+				Your chosen color is saved when you exit. When you come back, the 
+				color you choose last time is used. 
+			</p></div></div></div></div><div class="clear"><hr></hr></div><div id="footer"><div class="xright">� 2005-2006, Institute for Software Research</div><div class="clear"><hr></hr></div></div></body></html>

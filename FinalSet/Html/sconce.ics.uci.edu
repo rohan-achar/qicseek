@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<title>Welcome to SCONCE</title>
+<style><!--
+.leading200 { line-height: 200% }
+.leading180 { line-height: 180% }
+.leading150 { line-height: 150% }
+.leading100 { line-height: 100% }
+-->
+</style>
+</head>
+<frameset rows="176, 77%" cols="1*" border="0">
+<frame name="banner" scrolling="no" marginwidth="0" marginheight="10" namo_target_frame="contents" src="banner.htm">
+<frameset rows="1*" cols="20%, 80%">
+<frame  scrolling="auto" marginwidth="10" marginheight="14" namo_target_frame="detail" src="news.htm">
+        <frame name="detail" scrolling="auto" marginwidth="10" marginheight="14" src="main1.htm" namo_target_frame="_top" noresize>
+        
+</frameset>
+<noframes>
+<body text="#000000" link="#0000FF" vlink="#800080" alink="#FF0000">
+    <p>&nbsp;</p>
+</body>
+</noframes>
+</frameset>
+</html>
+

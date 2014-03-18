@@ -1,0 +1,624 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="alternate" type="application/rss+xml" title="OSS" href="/content/oss/feed" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+    <title>OSS | Virtual Collaboration Portal</title>
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/./sites/vcp.ics.uci.edu/modules/avatar_blocks/avatar_blocks.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/cck/theme/content-module.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/ctools/css/ctools.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/custom/multi_google_cse/multi_google_cse.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/date/date.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/dhtml_menu/dhtml_menu.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/fckeditor/fckeditor.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/filefield/filefield.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/gallery/gallery.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/gallery/gallery_filter.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/og/theme/og.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/tagadelic/tagadelic.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/forum/forum.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/biblio/biblio.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/cck/modules/fieldgroup/fieldgroup.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/views/css/views.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/files/color/garland_newvcp-cb8d0b3a/style.css?p" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/vcp.ics.uci.edu/themes/garland-newvcp/print.css?p" />
+    <script type="text/javascript" src="/misc/jquery.js?p"></script>
+<script type="text/javascript" src="/misc/drupal.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/dhtml_menu/dhtml_menu.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/og/og.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/jquery_media/js/jquery.media.js?p"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","dhtmlMenu":{"slide":"slide","siblings":"siblings","relativity":"relativity","clone":"clone","doubleclick":"doubleclick","children":0},"og":{"group_context":{"nid":"10","title":"OSS","type":"groupnode"}}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+if (Drupal.jsEnabled) {
+  $(document).ready(function() {
+    $.fn.media.defaults.flvPlayer = '/sites/vcp/files/player.swf';
+    $.fn.media.defaults.mp3Player = '/sites/vcp/files/player.swf';
+  });  
+}
+
+//--><!]]>
+</script>
+    <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/themes/garland-newvcp/fix-ie.css" />    <![endif]-->
+  </head>
+  <body class="sidebars">
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="/" title="Virtual Collaboration Portal"><span>Virtual Collaboration Portal</span></a></h1>        </div>
+
+                  <ul class="links primary-links"><li class="menu-197 first"><a href="/" title="VCP home page">Home</a></li>
+<li class="menu-494"><a href="/og" title="">Groups</a></li>
+<li class="menu-12772 last"><a href="/collaborators">Collaborators</a></li>
+</ul>                                  
+      </div> <!-- /header -->
+
+              <div id="sidebar-left" class="sidebar">
+          <div class="block block-theme"><form action="/content/oss"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-3u-XJClHf76Kogz1tGzqJMxiVDmyekczwJH287zneMI" value="form-3u-XJClHf76Kogz1tGzqJMxiVDmyekczwJH287zneMI"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+</div>          <div id="block-og_vcp-1" class="clear-block block block-og_vcp">
+
+  <h2><a href="/content/oss" class="active">OSS</a></h2>
+
+  <div class="content"><div class="item-list"><ul><li class="first last">You must <a href="/user/login?destination=node%2F10">login</a> in order to post into this group.</li>
+</ul></div></div>
+</div>
+<div id="block-user-1" class="clear-block block block-user">
+
+  <h2>Navigation</h2>
+
+  <div class="content"><ul class="menu"><li class="expanded first dhtml-menu  collapsed start-collapsed "><a href="/biblio" id="dhtml_menu-5079">Bibliography</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/biblio/authors" id="dhtml_menu-12779">Authors</a></li>
+<li class="leaf last dhtml-menu "><a href="/biblio/keywords" id="dhtml_menu-12792">Keywords</a></li>
+</ul></li>
+<li class="leaf  dhtml-menu "><a href="/readinglist/year" id="dhtml_menu-5761">Reading Lists</a></li>
+<li class="leaf  dhtml-menu "><a href="/weblinks" id="dhtml_menu-3412">Web Links</a></li>
+<li class="leaf  dhtml-menu "><a href="/gallery" title="Visit your embedded Gallery2." id="dhtml_menu-3237">Gallery</a></li>
+<li class="leaf  dhtml-menu "><a href="/tracker" id="dhtml_menu-119">Recent posts</a></li>
+<li class="leaf last dhtml-menu "><a href="/content/acknowledgements" title="Acknowledgements" id="dhtml_menu-11419">Acknowledgements</a></li>
+</ul></div>
+</div>
+<div id="block-user-0" class="clear-block block block-user">
+
+  <h2>User login</h2>
+
+  <div class="content"><form action="/content/oss?destination=node%2F10"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
+<div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-7ZLm0GHfoOd5fKyCinaGZGbijsSDZQV0xFa66E3uN_w" value="form-7ZLm0GHfoOd5fKyCinaGZGbijsSDZQV0xFa66E3uN_w"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+</div>
+</div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="/">Home</a> › <a href="/og">Groups</a></div>                    <div id="tabs-wrapper" class="clear-block">          <h2 class="with-tabs">OSS</h2>          <ul class="tabs primary"><li class="active" ><a href="/content/oss" class="active">View</a></li>
+<li ><a href="/node/10/by_subject">By term</a></li>
+</ul></div>                                        <div class="clear-block">
+            <div id="node-10" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+
+  <div class="meta">
+  
+    </div>
+
+  <div class="content">
+      <div id="mission" class="og-mission"><p>UCI research in open source software development focuses on empirically-based studies of the processes, practices, and communities that develop open source software and related artifacts. Ethnographic and virtual enthnographic research methods are employed in the field studies of open source software development in communities that include those centered on Internet infrastructure, X-Ray astronomy and deep space imaging, networked computer games, and academic software design research.</p>
+</div>
+<div class="view view-og-ghp-ron view-id-og_ghp_ron view-display-id-default view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div id="node-550" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/facts-or-friends-distinguishing-informational-and-conversational-questions-social-qna-sites-" title="Facts or Friends? Distinguishing Informational and Conversational Questions in Social QnA Sites (forthcoming)">Facts or Friends? Distinguishing Informational and Conversational Questions in Social QnA Sites (forthcoming)</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2010-06-10 13:18 — walt</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/246">Harper, M. F.</a>, <a href="/biblio/author/247">D. Moy</a>, and <a href="/biblio/author/248">J. A. Konstan</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/facts-or-friends-distinguishing-informational-and-conversational-questions-social-qna-sites-">Facts or Friends? Distinguishing Informational and Conversational Questions in Social QnA Sites (forthcoming)</a>&quot;, </span> 
+<i>ACM SIGCHI Conference on Human Factors in Computing Systems</i>, 2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Facts+or+Friends%3F+Distinguishing+Informational+and+Conversational+Questions+in+Social+QnA+Sites+%28forthcoming%29&amp;rft.date=2009&amp;rft.aulast=Harper&amp;rft.aufirst=Maxwell"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div id="node-551" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/heartbeat-measuring-active-user-base-and-potential-user-interest-floss-projects" title="Heartbeat: Measuring Active User Base and Potential User Interest in FLOSS Projects">Heartbeat: Measuring Active User Base and Potential User Interest in FLOSS Projects</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2010-06-10 13:18 — walt</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/241">Wiggins, A.</a>, <a href="/biblio/author/207">J. Howison</a>, and <a href="/biblio/author/218">K. Crowston</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/heartbeat-measuring-active-user-base-and-potential-user-interest-floss-projects">Heartbeat: Measuring Active User Base and Potential User Interest in FLOSS Projects</a>&quot;, </span> 
+<i>IFIP OSS</i>, 2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Heartbeat%3A+Measuring+Active+User+Base+and+Potential+User+Interest+in+FLOSS+Projects&amp;rft.date=2009&amp;rft.aulast=Wiggins&amp;rft.aufirst=Andrea"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <div id="node-552" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/making-new-friends-keep-old-recommending-people-social-networking-sites-forthcoming" title="Making New Friends, but Keep the Old - Recommending People on Social Networking Sites (forthcoming)">Making New Friends, but Keep the Old - Recommending People on Social Networking Sites (forthcoming)</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2010-06-10 13:18 — walt</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/235">Chen, J.</a>, <a href="/biblio/author/249">W. Geyer</a>, <a href="/biblio/author/250">C. Dugan</a>, <a href="/biblio/author/251">M. Muller</a>, and <a href="/biblio/author/252">I. Guy</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/making-new-friends-keep-old-recommending-people-social-networking-sites-forthcoming">Making New Friends, but Keep the Old - Recommending People on Social Networking Sites (forthcoming)</a>&quot;, </span> 
+<i>ACM SIGCHI Conference on Human Factors in Computing Systems</i>, 2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Making+New+Friends%2C+but+Keep+the+Old+-+Recommending+People+on+Social+Networking+Sites+%28forthcoming%29&amp;rft.date=2009&amp;rft.aulast=Chen&amp;rft.auinit=J"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+    <div id="node-553" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/perceptions-and-practices-usability-freeopen-source-software-foss-community" title="Perceptions and Practices of Usability in the Free/Open Source Software (FOSS) Community">Perceptions and Practices of Usability in the Free/Open Source Software (FOSS) Community</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2010-06-10 13:18 — walt</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/253">Terry, M.</a>, <a href="/biblio/author/254">M. Kay</a>, and <a href="/biblio/author/255">B. Lafreniere</a>, </span> 
+<span class="biblio-title"><i><a href="/content/perceptions-and-practices-usability-freeopen-source-software-foss-community">Perceptions and Practices of Usability in the Free/Open Source Software (FOSS) Community</a>, </i></span> 
+, no. CS-2009-26: David R. Cheriton School of Computer Science, University of Waterloo, 2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Perceptions+and+Practices+of+Usability+in+the+Free%2FOpen+Source+Software+%28FOSS%29+Community&amp;rft.date=2009&amp;rft.aulast=Terry&amp;rft.auinit=M&amp;rft.pub=David+R.+Cheriton+School+of+Computer+Science%2C+University+of+Waterloo"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+    <div id="node-547" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/tagsplanations-explaining-recommendations-using-tags" title="Tagsplanations: Explaining Recommendations using Tags">Tagsplanations: Explaining Recommendations using Tags</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2010-06-10 13:18 — walt</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/223">Vig, J.</a>, <a href="/biblio/author/222">S. Sen</a>, and <a href="/biblio/author/224">J. Riedl</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/tagsplanations-explaining-recommendations-using-tags">Tagsplanations: Explaining Recommendations using Tags</a>&quot;, </span> 
+<i>International Conference on Intelligent User Interfaces</i>, Sanibel Island, FL, 02/08/2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Tagsplanations%3A+Explaining+Recommendations+using+Tags&amp;rft.date=2009&amp;rft.aulast=Vig&amp;rft.auinit=J&amp;rft.place=Sanibel+Island%2C+FL"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+    <div id="node-548" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/freelibre-open-source-software-what-we-know-and-what-we-do-not-know" title="Free/libre open source software: What we know and what we do not know">Free/libre open source software: What we know and what we do not know</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2010-06-10 13:18 — walt</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/218">Crowston, K.</a>, <a href="/biblio/author/240">K. Wei</a>, <a href="/biblio/author/207">J. Howison</a>, and <a href="/biblio/author/241">A. Wiggins</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/freelibre-open-source-software-what-we-know-and-what-we-do-not-know">Free/libre open source software: What we know and what we do not know</a>&quot;, </span> 
+<i>ACM Computing Surveys, Under review.</i>, 2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.atitle=Free%2Flibre+open+source+software%3A+What+we+know+and+what+we+do+not+know&amp;rft.title=ACM+Computing+Surveys%2C+Under+review.&amp;rft.date=2009&amp;rft.aulast=Crowston&amp;rft.aufirst=Kevin"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+    <div id="node-544" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/two-peers-are-better-one-aggregating-peer-reviews-computing-assignments-surprisingly-accurat" title="Two peers are better than one: aggregating peer reviews for computing assignments is surprisingly accurate">Two peers are better than one: aggregating peer reviews for computing assignments is surprisingly accurate</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2010-06-10 13:18 — walt</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/233">Reily, K.</a>, <a href="/biblio/author/234">P. L. Finnerty</a>, and <a href="/biblio/author/217">L. Terveen</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/two-peers-are-better-one-aggregating-peer-reviews-computing-assignments-surprisingly-accurat">Two peers are better than one: aggregating peer reviews for computing assignments is surprisingly accurate</a>&quot;, </span> 
+<i>ACM 2009 International Conference on Supporting Group Work</i>, Sanibel Island, FL, Association for Computing Machinery, pp. 115-124, 05/10/2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Two+peers+are+better+than+one%3A+aggregating+peer+reviews+for+computing+assignments+is+surprisingly+accurate&amp;rft.isbn=978-1-60558-500-0+&amp;rft.date=2009&amp;rft.spage=115&amp;rft.epage=124&amp;rft.aulast=Reily&amp;rft.auinit=K&amp;rft.pub=Association+for+Computing+Machinery&amp;rft.place=Sanibel+Island%2C+FL"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-8 views-row-even">
+    <div id="node-545" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/wikipedians-are-born-not-made-study-power-editors-wikipedia" title="Wikipedians are born, not made: a study of power editors on Wikipedia">Wikipedians are born, not made: a study of power editors on Wikipedia</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2010-06-10 13:18 — walt</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/214">Panciera, K.</a>, <a href="/biblio/author/227">A. Halfaker</a>, and <a href="/biblio/author/217">L. Terveen</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/wikipedians-are-born-not-made-study-power-editors-wikipedia">Wikipedians are born, not made: a study of power editors on Wikipedia</a>&quot;, </span> 
+<i>ACM 2009 International Conference on Group Work</i>, Sanibel Island, FL, Association for Computing Machinery, pp. 51-60, 05/10/2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Wikipedians+are+born%2C+not+made%3A+a+study+of+power+editors+on+Wikipedia&amp;rft.date=2009&amp;rft.spage=51&amp;rft.epage=60&amp;rft.aulast=Panciera&amp;rft.auinit=K&amp;rft.pub=Association+for+Computing+Machinery&amp;rft.place=Sanibel+Island%2C+FL"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-9 views-row-odd">
+    <div id="node-546" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/short-and-tweet-experiments-recommending-content-information" title="Short and Tweet: Experiments on Recommending Content from Information">Short and Tweet: Experiments on Recommending Content from Information</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2010-06-10 13:18 — walt</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/235">Chen, J.</a>, <a href="/biblio/author/236">R. Nairn</a>, <a href="/biblio/author/237">L. Nelson</a>, <a href="/biblio/author/238">M. Bernstein</a>, and <a href="/biblio/author/239">E. Chi</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/short-and-tweet-experiments-recommending-content-information">Short and Tweet: Experiments on Recommending Content from Information</a>&quot;, </span> 
+<i>Proceedings of the 28th annual conference on Human Factors in Computing Systems</i>, Atlanta, GA, ACM Press, 04/10/10, 2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Short+and+Tweet%3A+Experiments+on+Recommending+Content+from+Information&amp;rft.date=2009&amp;rft.aulast=Chen&amp;rft.auinit=J&amp;rft.pub=ACM+Press&amp;rft.place=Atlanta%2C+GA"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-10 views-row-even">
+    <div id="node-539" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/intellectual-property-rights-requirements-heterogeneously-licensed-systems" title="Intellectual Property Rights Requirements for Heterogeneously Licensed Systems">Intellectual Property Rights Requirements for Heterogeneously Licensed Systems</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2010-06-10 13:18 — walt</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/230">Alspaugh, T.</a>, <a href="/biblio/author/231">H. U. Asuncion</a>, and <a href="/biblio/author/125" class="biblio-local-author">W. Scacchi</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/intellectual-property-rights-requirements-heterogeneously-licensed-systems">Intellectual Property Rights Requirements for Heterogeneously Licensed Systems</a>&quot;, </span> 
+<i>17th Internnational Conference on Requirements Engineering (RE09)</i>, Atlanta, GA, pp. 24-33, 09/2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Intellectual+Property+Rights+Requirements+for+Heterogeneously+Licensed+Systems&amp;rft.date=2009&amp;rft.spage=24&amp;rft.epage=33&amp;rft.aulast=Alspaugh&amp;rft.aufirst=Thomas&amp;rft.place=Atlanta%2C+GA"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-11 views-row-odd">
+    <div id="node-540" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/role-software-licenses-open-architecture-ecosystems" title="The Role of Software Licenses in Open Architecture Ecosystems">The Role of Software Licenses in Open Architecture Ecosystems</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2010-06-10 13:18 — walt</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/230">Alspaugh, T.</a>, <a href="/biblio/author/231">H. U. Asuncion</a>, and <a href="/biblio/author/125" class="biblio-local-author">W. Scacchi</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/role-software-licenses-open-architecture-ecosystems">The Role of Software Licenses in Open Architecture Ecosystems</a>&quot;, </span> 
+<i>International Workshop on Software Ecosystems, in conjunction with the  International Conference on Software Reuse</i>, Falls Church, VA, 09/2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=The+Role+of+Software+Licenses+in+Open+Architecture+Ecosystems&amp;rft.date=2009&amp;rft.aulast=Alspaugh&amp;rft.aufirst=Thomas&amp;rft.place=Falls+Church%2C+VA"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-12 views-row-even">
+    <div id="node-541" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/analyzing-software-licenses-open-architecture-software-systems-0" title="Analyzing Software Licenses in Open Architecture Software Systems">Analyzing Software Licenses in Open Architecture Software Systems</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2010-06-10 13:18 — walt</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/230">Alspaugh, T.</a>, <a href="/biblio/author/231">H. U. Asuncion</a>, and <a href="/biblio/author/125" class="biblio-local-author">W. Scacchi</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/analyzing-software-licenses-open-architecture-software-systems-0">Analyzing Software Licenses in Open Architecture Software Systems</a>&quot;, </span> 
+<i>Proceedings of the  Workshop on Emerging Trends in FLOSS Research and Development</i>, Vancouver, Canada, 05/2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Analyzing+Software+Licenses+in+Open+Architecture+Software+Systems&amp;rft.date=2009&amp;rft.aulast=Alspaugh&amp;rft.aufirst=Thomas&amp;rft.place=Vancouver%2C+Canada"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-13 views-row-odd">
+    <div id="node-542" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/software-licenses-open-source-components-and-open-architectures" title="Software Licenses, Open Source Components, and Open Architectures">Software Licenses, Open Source Components, and Open Architectures</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2010-06-10 13:18 — walt</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/230">Alspaugh, T.</a>, <a href="/biblio/author/231">H. U. Asuncion</a>, and <a href="/biblio/author/125" class="biblio-local-author">W. Scacchi</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/software-licenses-open-source-components-and-open-architectures">Software Licenses, Open Source Components, and Open Architectures</a>&quot;, </span> 
+<i>Sixth Annual Acquisition Research Symposium</i>, Monterey, CA, 05/2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Software+Licenses%2C+Open+Source+Components%2C+and+Open+Architectures&amp;rft.date=2009&amp;rft.aulast=Alspaugh&amp;rft.aufirst=Thomas&amp;rft.place=Monterey%2C+CA"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-14 views-row-even">
+    <div id="node-543" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/wikipedia-growing-longer-tail" title="Is Wikipedia Growing a Longer Tail?">Is Wikipedia Growing a Longer Tail?</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2010-06-10 13:18 — walt</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/232">Lam, S. K.</a>, and <a href="/biblio/author/224">J. Riedl</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/wikipedia-growing-longer-tail">Is Wikipedia Growing a Longer Tail?</a>&quot;, </span> 
+<i>ACM 2009 International Conference on Supporting Group Work</i>, Sanibel Island, FL, Association for Computing Machinery, 05/10/2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Is+Wikipedia+Growing+a+Longer+Tail%3F&amp;rft.date=2009&amp;rft.aulast=Lam&amp;rft.auinit=S+K&amp;rft.pub=Association+for+Computing+Machinery&amp;rft.place=Sanibel+Island%2C+FL"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-15 views-row-odd">
+    <div id="node-534" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/succession-measuring-transfer-code-and-developer-productivity" title="Succession: Measuring Transfer of Code and Developer Productivity">Succession: Measuring Transfer of Code and Developer Productivity</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2010-06-10 13:18 — walt</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/221">Mockus, A.</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/succession-measuring-transfer-code-and-developer-productivity">Succession: Measuring Transfer of Code and Developer Productivity</a>&quot;, </span> 
+<i>2009 International Conference on Software Engineering</i>, Vancouver, CA, ACM Press, May 12–22, 2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Succession%3A+Measuring+Transfer+of+Code+and+Developer+Productivity&amp;rft.date=2009&amp;rft.aulast=Mockus&amp;rft.aufirst=Audris&amp;rft.pub=ACM+Press&amp;rft.place=Vancouver%2C+CA"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-16 views-row-even">
+    <div id="node-535" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/tagommenders-connecting-users-items-through-tags" title="Tagommenders: Connecting Users to Items through Tags">Tagommenders: Connecting Users to Items through Tags</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2010-06-10 13:18 — walt</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/222">Sen, S.</a>, <a href="/biblio/author/223">J. Vig</a>, and <a href="/biblio/author/224">J. Riedl</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/tagommenders-connecting-users-items-through-tags">Tagommenders: Connecting Users to Items through Tags</a>&quot;, </span> 
+<i>International World Wide Web Conference</i>, Madrid, Spain, ACM, 4/20/2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Tagommenders%3A+Connecting+Users+to+Items+through+Tags&amp;rft.date=2009&amp;rft.aulast=Sen&amp;rft.auinit=S&amp;rft.pub=ACM&amp;rft.place=Madrid%2C+Spain"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-17 views-row-odd">
+    <div id="node-536" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/learning-recognize-valuable-tags" title="Learning to Recognize Valuable Tags">Learning to Recognize Valuable Tags</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2010-06-10 13:18 — walt</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/222">Sen, S.</a>, <a href="/biblio/author/223">J. Vig</a>, and <a href="/biblio/author/224">J. Riedl</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/learning-recognize-valuable-tags">Learning to Recognize Valuable Tags</a>&quot;, </span> 
+<i>International Conference on Intelligent User Interfaces</i>, Sanibel Island, FL, ACM, 2/8/2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Learning+to+Recognize+Valuable+Tags&amp;rft.date=2009&amp;rft.aulast=Sen&amp;rft.auinit=S&amp;rft.pub=ACM&amp;rft.place=Sanibel+Island%2C+FL"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-18 views-row-even">
+    <div id="node-537" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/rv-youre-dumb-identifying-discarded-work-wiki-article-history" title="rv you&#039;re dumb: Identifying Discarded Work in Wiki Article History">rv you&#039;re dumb: Identifying Discarded Work in Wiki Article History</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2010-06-10 13:18 — walt</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/225">Ekstrand, M. D.</a>, and <a href="/biblio/author/226">J. T. Riedl</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/rv-youre-dumb-identifying-discarded-work-wiki-article-history">rv you're dumb: Identifying Discarded Work in Wiki Article History</a>&quot;, </span> 
+<i>The Fifth International Symposium on Wiki&#039;s and Open Collaboration</i>, Orlando, FL, 10/25/2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=rv+you%26%23039%3Bre+dumb%3A+Identifying+Discarded+Work+in+Wiki+Article+History&amp;rft.date=2009&amp;rft.aulast=Ekstrand&amp;rft.auinit=M+D&amp;rft.place=Orlando%2C+FL"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-19 views-row-odd">
+    <div id="node-538" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/jury-your-peers-quality-experience-and-ownership-wikipedia" title="A Jury of Your Peers: Quality, Experience and Ownership in Wikipedia">A Jury of Your Peers: Quality, Experience and Ownership in Wikipedia</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2010-06-10 13:18 — walt</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/227">Halfaker, A.</a>, <a href="/biblio/author/228">N. Kittur</a>, <a href="/biblio/author/229">R. Kraut</a>, and <a href="/biblio/author/224">J. Riedl</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/jury-your-peers-quality-experience-and-ownership-wikipedia">A Jury of Your Peers: Quality, Experience and Ownership in Wikipedia</a>&quot;, </span> 
+<i>The International Symposium on Wiki&#039;s and Open Collaboration</i>, Orlando, FL, 10/2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=A+Jury+of+Your+Peers%3A+Quality%2C+Experience+and+Ownership+in+Wikipedia&amp;rft.date=2009&amp;rft.aulast=Halfaker&amp;rft.auinit=A&amp;rft.place=Orlando%2C+FL"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-20 views-row-even views-row-last">
+    <div id="node-531" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/lurking-cyclopaths-quantitative-lifecyle-analysis-user-behavior-geowiki" title="Lurking? Cyclopaths? A Quantitative Lifecyle Analysis of User Behavior in a Geowiki">Lurking? Cyclopaths? A Quantitative Lifecyle Analysis of User Behavior in a Geowiki</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2010-06-10 13:18 — walt</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/214">Panciera, K.</a>, <a href="/biblio/author/215">R. Priedhorsky</a>, <a href="/biblio/author/216">T. Erickson</a>, and <a href="/biblio/author/217">L. Terveen</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/lurking-cyclopaths-quantitative-lifecyle-analysis-user-behavior-geowiki">Lurking? Cyclopaths? A Quantitative Lifecyle Analysis of User Behavior in a Geowiki</a>&quot;, </span> 
+<i>ACM Conference on Computer-Human Interaction (CHI)</i>, Atlanta, GA, Association for Computing Machinery, 04/2010.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Lurking%3F+Cyclopaths%3F+A+Quantitative+Lifecyle+Analysis+of+User+Behavior+in+a+Geowiki&amp;rft.date=2010&amp;rft.aulast=Panciera&amp;rft.auinit=K&amp;rft.pub=Association+for+Computing+Machinery&amp;rft.place=Atlanta%2C+GA"></span>  </div>
+  
+  
+  </div>  </div>
+    </div>
+  
+      <div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a href="/content/oss?page=1" title="Go to page 2" class="active">2</a></li>
+<li class="pager-next"><a href="/content/oss?page=1" title="Go to next page" class="active">next ›</a></li>
+<li class="pager-last last"><a href="/content/oss?page=1" title="Go to last page" class="active">last »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>   </div>
+
+  </div>          </div>
+          <a href="/content/oss/feed" class="feed-icon"><img src="/misc/feed.png" alt="Syndicate content" title="OSS" width="16" height="16" /></a>          <div id="footer"></div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+              <div id="sidebar-right" class="sidebar">
+                    <div id="block-og_vcp-0" class="clear-block block block-og_vcp">
+
+  <h2><a href="/content/oss" class="active">OSS</a> Content</h2>
+
+  <div class="content"><div class="item-list"></div></div>
+</div>
+<div id="block-og_views-1" class="clear-block block block-og_views">
+
+  <h2>Group notifications</h2>
+
+  <div class="content">This group offers an <a href="/content/oss/feed">RSS feed</a>. Or subscribe to these personalized, sitewide feeds:<div class="item-list"><ul><li class="first last">All posts: <ul class="links inline"><li class="0 first"><a href="/group/tracker/feed">Feed</a></li>
+<li class="1 last"><a href="/group/tracker">Page</a></li>
+</ul></li>
+</ul></div></div>
+</div>
+        </div>
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+  <script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/custom/multi_google_cse/multi_google_cse.js?p"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"en"}});
+//--><!]]>
+</script>
+  </body>
+</html>
+

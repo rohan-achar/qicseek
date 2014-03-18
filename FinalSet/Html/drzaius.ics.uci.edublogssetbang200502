@@ -1,0 +1,697 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="sixapart-standard">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta name="generator" content="Movable Type 3.2" />
+
+   <link rel="stylesheet" href="http://drzaius.ics.uci.edu/blogs/setbang/styles-site.css" type="text/css" />
+   <link rel="alternate" type="application/atom+xml" title="Atom" href="http://drzaius.ics.uci.edu/blogs/setbang/atom.xml" />
+   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://drzaius.ics.uci.edu/blogs/setbang/index.xml" />
+
+   <title>::setbang::: February 2005 Archives</title>
+
+   <link rel="start" href="http://drzaius.ics.uci.edu/blogs/setbang/" title="Home" />
+   <link rel="prev" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/01/" title="January 2005" />
+   <link rel="next" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/03/" title="March 2005" />
+</head>
+<body>
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=683161; 
+var sc_partition=5; 
+var sc_security="b4540abb"; 
+var sc_invisible=1; 
+</script>
+
+<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c6.statcounter.com/counter.php?sc_project=683161&amp;java=0&amp;security=b4540abb&amp;invisible=1" alt="hit counter" border="0"></a> </noscript>
+<!-- End of StatCounter Code -->
+
+<img src="http://www.ics.uci.edu/~johannab/images/background.gif">
+
+<div class="tiny-blocks" id="tiny-blocks">
+<img src="http://www.ics.uci.edu/~johannab/images/tiny-blocks.gif">
+</div>
+
+<a href="http://www.ics.uci.edu/~johannab/about-me.html" id="menu_01"><img src="http://www.ics.uci.edu/~johannab/images/menu_01.gif" width="87" height="19" border=0></a>
+<span id="menu_02"><img src="http://www.ics.uci.edu/~johannab/images/menu_02.gif" width="15" height="19"></span>
+<a href="http://drzaius.ics.uci.edu/blogs/setbang/" id="menu_03"><img src="http://www.ics.uci.edu/~johannab/images/menu_03.gif" width="48" height="19" border=0></a>
+<span id="menu_04"><img src="http://www.ics.uci.edu/~johannab/images/menu_04.gif" width="16" height="19"></span>
+<a href="http://www.ics.uci.edu/~johannab/research.html" id="menu_05"><img src="http://www.ics.uci.edu/~johannab/images/menu_05.gif" width="84" height="19" border=0></a>
+<span id="menu_06"><img src="http://www.ics.uci.edu/~johannab/images/menu_06.gif" width="15" height="19"></span>
+<a href="http://www.ics.uci.edu/~johannab/papers.html" id="menu_07"><img src="http://www.ics.uci.edu/~johannab/images/menu_07.gif" width="68" height="19" border=0></a>
+<span id="menu_08"><img src="http://www.ics.uci.edu/~johannab/images/menu_08.gif" width="16" height="19"></span>
+<a href="http://www.ics.uci.edu/~johannab/the-rest.html" id="menu_09"><img src="http://www.ics.uci.edu/~johannab/images/menu_09.gif" width="76" height="19" border=0></a>
+
+
+<a href="http://www.ics.uci.edu/~johannab/about-me.html" id="menu-green_01"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_01.gif" width="87" height="19" border=0></a>
+
+<a href="http://drzaius.ics.uci.edu/blogs/setbang/" id="menu-green_03"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_03.gif" width="48" height="19" border=0></a>
+<a href="http://www.ics.uci.edu/~johannab/research.html" id="menu-green_05"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_05.gif" width="84" height="19" border=0></a>
+<a href="http://www.ics.uci.edu/~johannab/papers.html" id="menu-green_07"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_07.gif" width="68" height="19" border=0></a>
+<a href="http://www.ics.uci.edu/~johannab/the-rest.html" id="menu-green_09"><img src="http://www.ics.uci.edu/~johannab/images/menu-green_09.gif" width="76" height="19" border=0></a>
+
+<div class="sidebar">
+<div class="search">
+<br>
+<form method="get" action="http://drzaius.ics.uci.edu/mt/mt-search.cgi">
+<input type="hidden" name="IncludeBlogs" value="2" />
+<input id="search" name="search" size="20"/><br />
+<input type="submit" value="search me" />
+</form>
+</div>
+
+<p>&nbsp;</p>
+
+<div class="archive">
+<h3 class="content"><a href="http://drzaius.ics.uci.edu/blogs/setbang/archives.html">archives</a></h3>
+<ul>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2007/04/">April 2007</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/10/">October 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/09/">September 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/07/">July 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/06/">June 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/05/">May 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2006/04/">April 2006</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/11/">November 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/10/">October 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/08/">August 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/07/">July 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/06/">June 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/05/">May 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/04/">April 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/03/">March 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/">February 2005</a></li>
+<li><a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/01/">January 2005</a></li>
+
+</ul>
+</div>
+
+<p>&nbsp;</p>
+
+<div class="categories">
+<h3 class="content">categories</h3>
+<ul class="module-list">
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/aesthetics_art/" title="">aesthetics & art</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/gadgets/" title="">gadgets</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/interfaces_installations/" title="">interfaces & installations</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/lit_poetry/" title="">lit & poetry</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/music/" title="">music</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/my_enthralling_life/" title="">my enthralling life</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/noteworthy_nontech/" title="">noteworthy: nontech</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/noteworthy_tech/" title="">noteworthy: tech</a>
+
+
+
+</li>
+
+
+<li class="module-list-item"><a href="http://drzaius.ics.uci.edu/blogs/setbang/wearble_tech/" title="">wearble tech</a>
+
+
+
+</li>
+</ul>
+
+</div>
+
+</div>
+
+<span class="main">
+
+   <div id="container">
+      <div id="container-inner" class="pkg">
+
+
+         <div id="pagebody">
+            <div id="pagebody-inner" class="pkg">
+               <div id="alpha">
+                  <div id="alpha-inner" class="pkg">
+                     
+                     <p class="content">
+                        <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/01/">&laquo; January 2005</a> |
+                        <a href="http://drzaius.ics.uci.edu/blogs/setbang/">Main</a>
+                        | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/03/">March 2005 &raquo;</a>
+                     </p>
+                     
+                                          
+
+                     <h3 class="content">February 28, 2005</h3>
+                     <a id="a000110"></a>
+                     <div class="content" id="entry-110">
+                        <h3 class="content">paris h[axxored]ilton</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/paris-tinkerbell.jpg" width="140" height="180"></p>
+
+<p>i always say that americans tend to place more value on big-giant-safety-ensuring-machines than on the human aspect of security, and once again that holds true.  so for all of you out there here is social engineering defense 101:<br />
+<ol><br />
+<li>if you are a celebrity</li><br />
+<li>if you flaunt your sidekick like you flaunt your...</li><br />
+<li>if everyone knows the name of your dog because you flaunt her like you flaunt your...</li></ol><br />
+DO NOT HAVE THE SECURITY QUESTION FOR YOUR T-MOBILE LOGIN IN BE "WHAT IS YOUR FAVORITE PET'S NAME?"</p>
+
+<p>it's just that simple.  most of the news coverage about this has been along the lines of "hackers are everywhere! beware!"  but, the <a href="http://www.macdevcenter.com/pub/a/mac/2005/01/01/paris.html">o'reilly network</a> tells it like it is.  instead of attacking the technology, maybe we need to start taking a look at the users. PEBKAC!</p>
+
+<p>[thanks <a href="http://www.engadget.com/entry/1234000547032961/">engadget</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 03:59 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/paris_haxxoredilton.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/paris_haxxoredilton.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000109"></a>
+                     <div class="content" id="entry-109">
+                        <h3 class="content">water treatment never looked so good</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/newhaven-watertreatment.jpg" width="400" height="88"></p>
+
+<p>steven holl's new water treatment plant in new haven, ct is a standout piece of architecture.  instead of being purely functional, it is also beautiful, evoking the tumbling, rushing power of water.<br />
+<blockquote>It was all that talk of pipes, he said, that helped him settle on a building whose form "articulates what is happening inside." Not merely a metaphor, the building is also a sculpture that recalls the work of Richard Serra and Anish Kapoor.</blockquote>more disappointing though is the worry that it might be a potential terrorist target, and because of this the location is under wraps.  apparently though it is nestled among some high profile houses.  typically this kind of public works project is met with a "not in my backyard" response, but dressing the plant up and blinging it out apparently worked.<br />
+<blockquote>In Connecticut, Mr. Holl said that his interventions - as well as those of the landscape architect Michael Van Valkenburgh - may have added two or three million dollars to the cost of the $49 million plant. At first, the water company's Representative Policy Board, which approves major expenditures, was reluctant to allocate the money. But then Professor Plattus of Yale made a presentation to the board on the value of design.</p>
+
+<p>At a crucial moment, Ms. Sweet said, Mr. Plattus projected a photo of a banal concrete overpass on Route 95 alongside an image of one of the W.P.A.-era overpasses on the Merritt Parkway. The board "saw the difference immediately," Ms. Sweet recalled.</blockquote>this reminds me alot of what i've been reading in <a href="http://www.amazon.com/exec/obidos/tg/detail/-/0520201604/qid=1109589387/sr=8-1/ref=sr_8_xs_ap_i1_xgl14/102-3150716-6773702?v=glance&s=books&n=507846">postsuburban california</a>.  it's interesting to see how the wealthy are involved in the shaping of a community's functional underbelly.  will it become the new fashion to have designer utilities going up in high-class neighborhoods?  keep an eye out for diamond-encrusted sewers.</p>
+
+<p>[thanks <a href="http://www.nytimes.com/2005/02/27/arts/design/27bern.html?">new york times</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:47 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/water_treatment_never_looked_s.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/water_treatment_never_looked_s.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000108"></a>
+                     <div class="content" id="entry-108">
+                        <h3 class="content">breakin' the law, breakin' the law</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>two dudes [lads, chaps, blokes] from england have decided to go on a quest to break as many of the silly american state laws that they can.  it is both a virtue and a vice that the states have the power to create their own laws [google away for further information].  overall i think it's a virtue, but in the cases that it's not it is either scary or downright hilarious.   here we have a clear case of the latter.  from the <a href="http://www.guardian.co.uk/usa/story/0,12271,1425731,00.html">guardian</a>:<br />
+<blockquote>As US coast-to-coast crimewaves go, it is not in the league of Bonnie and Clyde. It lacks both violence and avarice and is further hindered by an overabundance of pre-publicity.<br />
+...<br />
+"Driving round the town square 100 times in Oxford, Mississippi, is going to take for ever because there are no roundabouts," he said. "And I'm rubbish at walking on my hands so crossing the street in Hartford, Connecticut, while walking on them is going to be very difficult."</blockquote>look for them this summer in a town near you.  </p>
+
+<p>[thanks <a href="http://www.boingboing.net/2005/02/26/americas_dumbest_law.html">boing boing</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:21 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/breakin_the_law_breakin_the_la.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/breakin_the_law_breakin_the_la.html#comments">Comments (3)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000107"></a>
+                     <div class="content" id="entry-107">
+                        <h3 class="content">lego love</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/podbrix.jpg" width="150" height="144"></p>
+
+<p>lego <i>and</i> ipod?  it's just all too much!  from <a href="http://www.podbrix.com/itemdetails.php?PID=1786109705">podbrix</a>.</p>
+
+<p>[thanks <a href="http://www.core77.com/corehome/2005/02/podbrix.html">core77</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:15 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/lego_love.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/lego_love.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000106"></a>
+                     <div class="content" id="entry-106">
+                        <h3 class="content">sound flakes</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/soundflakes.jpg" width="180" height="144"></p>
+
+<p>satako moroi's <a href="http://www.siggraph.org/s2004/conference/etech/sound.php?=conference">sound flakes</a> recently caught my eye.  a pretty toy that inpsires reflection and playfulness.  also, it's pretty colored :]<br />
+<blockquote>Sound Flakes is interactive art for all ages. When faucets "Do, Re, Mi" are turned, sound drips into the water pool, where it floats as "flakes" of sound. Users can stir them or scoop them up with a ladle. </blockquote></p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/004651.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:03 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/sound_flakes.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/sound_flakes.html#comments">Comments (1)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000105"></a>
+                     <div class="content" id="entry-105">
+                        <h3 class="content">the carrousel</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/carrousel.jpg" width="160" height="230"></p>
+
+<p>i saw this project at ubicomp 2004, but we make money not art recently blogged it so i thought i might as well throw in my 2 cents.  <a href="http://studiolab.io.tudelft.nl/ross/project/">the carrousel</a>, designed by <a href="http://studiolab.io.tudelft.nl/ross/">philip ross</a>, is a tangible interface that allows one to change the ambience of the room [specfically the lighting, music, and video projection].  something about getting to play with the interface myself really sold me on it.  it's very natural feeling, a smooth combination of wood, metal and technology.  also, philip really managed to nail the intuitiveness of use.  the fluidity of "sculpting" the atmosphere really comes across.  bravo.</p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/004656.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:52 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/the_carrousel.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/the_carrousel.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000104"></a>
+                     <div class="content" id="entry-104">
+                        <h3 class="content">always use protection for your banana</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/bananabunker.jpg" width="150" height="111"></p>
+
+<p>i'm sorry.  what?  cause you didn't just invent and market <a href="http://bananabunker.com">this</a> did you?  gizmodo sums it up nicely:<br />
+<blockquote>From Cultured Containers, this BananaBunker fruit tote serves at least one purpose: To protect your banana from asploding in your backpack or briefcase. Other uses might include an ice breaker for a picnic first date, or alternatively, an easy way to end a date that isn't going well at all. Their tagline "pamper your Banana with the BananaBunker®" pretty much says it all. Purchase one for just $5.00 or 5 for $20. Backordered right now, which is no surprise to us.</blockquote></p>
+
+<p>[thanks <a href="http://www.gizmodo.com/gadgets/gadgets/household/protect-your-banana-034012.php">gizmodo</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:36 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/always_use_protection_for_your.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/always_use_protection_for_your.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">February 24, 2005</h3>
+                     <a id="a000103"></a>
+                     <div class="content" id="entry-103">
+                        <h3 class="content">knives out</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/viceversa_knife.jpg" width="160" height="160"></p>
+
+<p>i love this sort of visceral design that puts you on edge.  from <a href="http://www.viceversa.com/Dynamic/Products,intCategoryID,34,intItemID,1447.html">viceversa</a>.</p>
+
+<p>[thanks <a href="http://www.gizmodo.com/gadgets/gadgets/household/raffaele-iannello-knife-block-033956.php">gizmodo</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 04:03 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/knives_out.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/knives_out.html#comments">Comments (2)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000102"></a>
+                     <div class="content" id="entry-102">
+                        <h3 class="content">pimp my ride: combining car mods with d&d</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/diemod.jpg" width="160" height="171"></p>
+
+<p>it is so cool to take you love of dungeons & dragons and <a href="http://forums.privateerpress.com/index.php?showtopic=37279">merge it with your stick shift</a>.  it really is. </p>
+
+<p>[thanks <a href="http://www.gizmodo.com/gadgets/gadgets/vehicles/d20-stick-shift-033892.php">gizmodo</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 03:50 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/pimp_my_ride_combining_car_mod.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/pimp_my_ride_combining_car_mod.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">February 23, 2005</h3>
+                     <a id="a000101"></a>
+                     <div class="content" id="entry-101">
+                        <h3 class="content">computers + nudity: only in the czech republic!</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/skupina.jpg" width="300" height="99"></p>
+
+<p>okay, probably not -only- in the czech republic.  but who else could do it so well?  a bunch of students from a technical secondary school there compiled their [apparently] traditional tableau of graduation photos but added a special twist.  posing naked with bits of hardware tastefully covering there, well... bits.  you can check the photos out at their <a href="http://fotky.tomor.cz/fotky.php?sk=Super%20Tablo%20IT99&mypath=foto">original location</a> but since they are getting hammered for bandwidth best to check them out at <a href="http://www.drunkenblog.com/drunkenblog-archives/000472.html">drunken blog</a> instead.  take note that women continue to be woefully underrepresented in the technical fields.  girls, take of your knickers and throw on a hard drive ;]</p>
+
+<p>oh these aren't particularly safe for work [depends where you work though eh?].</p>
+
+<p>[thanks <a href="http://www.drunkenblog.com/drunkenblog-archives/000418.html">drunken blog</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 05:10 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/computers_nudity_only_in_the_c.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/computers_nudity_only_in_the_c.html#comments">Comments (1)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000100"></a>
+                     <div class="content" id="entry-100">
+                        <h3 class="content">computers made of chickens</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/feathers.jpg" width="390" height="145"></p>
+
+<p>this is no joke, richard wool [no puns please], a chemical engineering prof at the university of delaware, proposes to use chicken feathers to manufacture circuit boards.<br />
+<blockquote>Circuit boards are typically made of an epoxy-fiberglass composite, Wool said, which is then printed with wires and circuits. Wool envisions using soybean oil to replace the epoxy and chicken feathers to replace the fiberglass, creating a healthier composite for the environment.</blockquote> you can check out the full story in <a href="http://www.wired.com/news/technology/0,1282,66361,00.html">wired</a>. for yourself.  i'm all for renewable resources, and apparently the discarded feathers are usually used for cattle feed [don't get me started...] so i guess this is a better use for them.  but, wouldn't that make my computer un-vegetarian?  what is a girl to do.</p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/004629.php">we make money not art]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 03:48 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/computers_made_of_chickens.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/computers_made_of_chickens.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">February 22, 2005</h3>
+                     <a id="a000099"></a>
+                     <div class="content" id="entry-99">
+                        <h3 class="content">searchable video killed the... ?</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/google-video.jpg" width="285" height="102"></p>
+
+<p>check out google's new <a href="http://video.google.com/">video search</a>.  it's gonna kill something alright.  hopefully all of those crazy bills that people keep trying to pass.  if you can search it with google it must be in the public domain. right? right? ;]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 02:10 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/searchable_video_killed_the.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/searchable_video_killed_the.html#comments">Comments (1)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000098"></a>
+                     <div class="content" id="entry-98">
+                        <h3 class="content">sweet sexy maps</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/google-maps.jpg" width="372" height="304"> </p>
+
+<p>oh oh the places we will go.  now guided by <a href="http://maps.google.com/">google maps</a>.  what a map interface should be.  it has the pretty aesthetic of the <a href="http://www.wizeguides.com/">wizeguides</a> work my old roomate <a href="http://www.craigrunyan.net">craig</a> did, but with all the manpower and engineering of google.  i must note though, that craigs work which integrates the subway system of boston with the surrounding streets still needs to happen for every city in the world.  needs to.</p>
+
+<p><br />
+<img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/a9-yellowpages.jpg" width="328" height="276" /></p>
+
+<p>another really cool concept is the interactive yellow pages of <a href="http://www.a9.com">a9</a> which allow you to see actual photos of the place you are looking for.  you can check out the <a href="http://www.amazon.com/gp/yp/B0005OTBT2/102-3150716-6773702?">tanning salon</a> next to my old apartment, which you can "walk down the block" from and see in the photo above.</p>
+
+<p>am i getting nostalgic or what?</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:41 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/sweet_sexy_maps.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/sweet_sexy_maps.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000097"></a>
+                     <div class="content" id="entry-97">
+                        <h3 class="content">not so white walls</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/notsowhitewalls.jpg" width="247" height="120"></p>
+
+<p>although this is not breaking news, it's news to me.  <a href="http://www.interaction-ivrea.it/en/gallery/notsowhitewalls/index.asp">not so white walls</a> is the thesis project of <a href="http://www.interaction-ivrea.it/en/people/d.buzzini/index.asp">dario buzzini</a> of ivrea.  this project differs from the <a href="http://www.viktoria.se/fal/projects/infoart/">informative art</a> project in that not so white walls provide an interactive display.  more like an abstract monitor that is actually a wall; text [think email or sms] as well as photos can be displayed.  i wouldn't call this ambient, but we all know i just need to rethink my buzzwords ;]</p>
+
+<p>[thanks <a href="http://www.we-make-money-not-art.com/archives/003637.php">we make money not art</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 01:00 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/not_so_white_walls.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/not_so_white_walls.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000096"></a>
+                     <div class="content" id="entry-96">
+                        <h3 class="content">hugms.  mmm.  squish.</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/hugms.jpg" width="352" height="120"></p>
+
+<p>check these bad boys out.  <a href="http://www.mobjects.net/hugms/">hugms</a> by <a href="http://www.argobot.com/">mark argo</a>.  basically these little devices connect via bluetooth to your phone.  when you squeeze them, they light up and send a text message to your friend or loved one saying "hhhhhuuuuuggggg" [number of letters depending on the strength of the squeeze].  if they happen to have their own hugm, it'll light up as well.</p>
+
+<p>a great combo of the awesome properties of sms with fun impulsive desires.  and with enough wiggle room to let people to develop their own unique uses.</p>
+
+<p>p.s. none of you can complain about my silicone design aesthetic ever again.  just look at those.</p>
+
+<p>[thanks <a href="http://www.popgadget.net/2005/02/hugms-hugs-over-sms.html">popgadget</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:48 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/hugms_mmm_squish.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/hugms_mmm_squish.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000095"></a>
+                     <div class="content" id="entry-95">
+                        <h3 class="content">history table</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/history-table.jpg" width="190" height="161"></p>
+
+<p>how do we augment everday objects that are already integral parts of our lives?  just like this.  not only is the tablecloth beautiful, it opens up new, subtle, ways for us to communicate with each other.  mindlessly dumping more computation into our world isn't the answer, and sometimes [often] lack of technology is just as important as its prescence.  however, designs like this seem to be right on target to me.  as it is put by rachel wingfield on <a href="http://www.loop.ph/new/historytable.html">loop.ph</a>:<br />
+<blockquote> The table cloth draws attention to the flow of objects over a surface in the home by signalling how long things have been left upon it. If an object is left on the table for a while, a glowing halo forms beneath it that grows slowly over time, until the object is moved. This object raises issues about the desirability of using technology to emphasise existing behaviour.</blockquote><br />
+this is part of the <a href="http://machen.mrl.nott.ac.uk/">equator project</a>.</p>
+
+<p>[thanks <a href="http://www.core77.com/corehome/2005/02/history-tablecloth.html">core77</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:36 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/history_table.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/history_table.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">February 21, 2005</h3>
+                     <a id="a000094"></a>
+                     <div class="content" id="entry-94">
+                        <h3 class="content">"queerly beloved"</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/simpsons1.jpg" width="200" height="150"> <img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/simpsons2.jpg" width="200" height="150"></p>
+
+<p>the forward [or rather, current] thinking simpsons just aired an episode about gay marriage.  hilarious and spot on, the episode chronicles springfield's decision to support gay marriage purely for the purpose of generating tourism.  like all good satire, nothing is sacred on the simpsons.  but still as the <a href="http://www.nytimes.com/2005/02/21/arts/television/21simpsons.html?8hpib">new york times</a> reports, not everyone can accept gay marriage even when it's the punchline to a joke.<br />
+<blockquote> L. Brent Bozell III, president of the Parents Television Council, criticized "The Simpsons" for addressing the issue of gay marriage, though he cautioned that he had not seen the episode. A parental advisory preceded the broadcast.</p>
+
+<p>"At a time when the public mood is overwhelmingly against gay marriage, any show that promotes gay marriage is deliberately bucking the public mood," he said.</p>
+
+<p>"I'd rather them not do it at all," he added. "You've got a show watched by millions of children. Do children need to have gay marriage thrust in their faces as an issue? Why can't we just entertain them?"</blockquote><br />
+i love it when the woefully uninformed weigh in.  i'm not sure which public mood he's referring to, but, given that the simpsons is in it's 16th wildly successful season, i have a feeling that the writers have a somewhat deeper understanding of the public than mr. bozel the third does. but hell, he's right let's take love off the table and entertain children with good wholesome violence damnit. ;]</p>
+
+<p>p.s. there's a url flashed across the screen during a fake commercial in the show: <a href="http://www.springfieldisforgayloversofmarriage.com/">www.springfieldisforloversofgaymarriage.com</a>.  it's actually real.  hilarious.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 03:23 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/queerly_beloved.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/queerly_beloved.html#comments">Comments (1)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">February 16, 2005</h3>
+                     <a id="a000093"></a>
+                     <div class="content" id="entry-93">
+                        <h3 class="content">just to be fair</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>i should post a link to larry summers' <a href="http://www.president.harvard.edu/speeches/2005/womensci.html">apology</a> which just goes to show that crow is still on the harvard menu. ;]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:46 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/just_to_be_fair.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/just_to_be_fair.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">February 07, 2005</h3>
+                     <a id="a000092"></a>
+                     <div class="content" id="entry-92">
+                        <h3 class="content">pompeii: down & dirty</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/pompeii-fresco1.jpg"> <img src="http://drzaius.ics.uci.edu/mt3.14/johannab/archives/pompeii-fresco2.jpg"></p>
+
+<p>how did i miss out on these naughty frescos in pompeii?  apparently they've been on view since 2000, but i just saw a story about it today which is summed up nicely as:<br />
+<blockquote>This <a href="http://www.spiegel.de/wissenschaft/mensch/0,1518,338536,00.html">Der Spiegel</a> story about erotic frescoes from Pompeii reveals that prior to being buried in heaps of ash, Pompeiians were totally whoring it up.</a></blockquote><i>amor vincit omnia</i> ;]</p>
+
+<p>[thanks <a href="http://www.boingboing.net/2005/02/06/hot_hot_hot_pompeii_.html">boing boing</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 03:23 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/pompeii_down_dirty.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/pompeii_down_dirty.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">February 06, 2005</h3>
+                     <a id="a000091"></a>
+                     <div class="content" id="entry-91">
+                        <h3 class="content">boston's south station is the vulnerablest</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>all you leet haxxors back home take note: e-walking into south station's wireless network is easy as pie.  think computer has a great little <a href="http://www.thinkcomputer.com/corporate/news/southstation.pdf">white paper</a> on just how wide open the network of the largest transportation hub in boston is.  not only can you access the network itself, but you can get yourself onto 25+ other networks around the city without paying a dime!  act now, because i'm sure this is a limited time offer ;]</p>
+
+<p>[thanks <a href="http://it.slashdot.org/it/05/02/07/0047208.shtml?tid=172&tid=193&tid=169&tid=218">/.</a>]</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 05:15 PM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/bostons_south_station_is_the_v.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/bostons_south_station_is_the_v.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     <h3 class="content">February 04, 2005</h3>
+                     <a id="a000090"></a>
+                     <div class="content" id="entry-90">
+                        <h3 class="content">chi 2005</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p><a href="http://www.inf.ethz.ch/personal/coroama/">vlad</a> asked me to submit something to his <a href="http://www.chi2005.org/">chi 2005</a> workshop <a href="http://www.vs.inf.ethz.ch/events/ubisoc2005/">ubisoc</a> on social implications of ubiquitous computing.  i did just that, and my <a href="http://www.ics.uci.edu/~johannab/papers/JohannaBrewer-CHI2005-UbiSoc-Paper.pdf">paper</a> was accepted.  i will be off to portland then at the beginning of april along with pretty much everyone else from my department.  we will bring the funk.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:58 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/chi_2005.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/chi_2005.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                                          
+
+                     
+                     <a id="a000089"></a>
+                     <div class="content" id="entry-89">
+                        <h3 class="content">our great [count them, 50] states</h3>
+                        <div class="content">
+                           <div class="content">
+                              <p>so i was in trader joe's a few days ago buying myself some food and a bottle of wine.  of course i got carded, and i hand over my connecticut driver's license to the guy behind the register.  he was nice, american [or rather, californian], about my age.  he takes alook at it and says, "hmm, connecticut.  massachusetts is in connecticut right?  my parents are thinking of moving there."</p>
+
+<p>the last time i checked, we had 50 non-intersecting states.  i leave it as an exercise to the reader to imagine how i fielded that one.</p>
+                              
+                              <p class="posted">
+                                 <span class="post-footers">roxy said on 12:53 AM</span> <span class="separator">|</span> <a class="permalink" href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/our_great_count_them_50_states.html">Permalink</a>
+                                 | <a href="http://drzaius.ics.uci.edu/blogs/setbang/2005/02/our_great_count_them_50_states.html#comments">Comments (0)</a>
+                                 
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+</body>
+</span>
+</html>
+

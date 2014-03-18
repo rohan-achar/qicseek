@@ -1,0 +1,171 @@
+<HTML><HEAD><TITLE>Acute Square Triangulation</TITLE>
+<META name="Owner" value="eppstein">
+<META name="Reply-To" value="eppstein@ics.uci.edu">
+</HEAD><BODY BGCOLOR="#FFFFFF" FGCOLOR="#000000">
+
+<H1>
+<A HREF="http://www.ics.uci.edu/~eppstein/junkyard/"><IMG src="../junkyard.gif" ALIGN=center WIDTH="545" HEIGHT="45" ALT="The Geometry Junkyard" BORDER=0></A>
+</H1>
+<HR>
+<A HREF="http://www.ics.uci.edu/~eppstein/junkyard/acute-square/">
+<H1>Acute Square Triangulation</H1></A>
+<HR><PRE>
+<B>From:</B>           <A HREF="mailto:tromp@cwi.nl">tromp@cwi.nl</A> (John Tromp)
+<B>Date:</B>           Wed, 23 Oct 1996 17:06:04 GMT
+<B>Newsgroups:</B>     sci.math
+<B>Subject:</B>        nice geometry puzzle
+</PRE><HR><PRE>
+I was recently reminded of an old puzzle asking for
+
+   a subdivision of a square into acute-angled triangles
+
+So there can be no angle of at least 90 degrees. In particular,
+all four corners of the square require bisecting at least.
+An additional challenge is to
+
+   minimize the resulting number of triangles
+
+The answer appears to be eight, as witnessed by my PostScript signature.
+This fact may very well have been proven somewhere in the literature;
+let me know if you have a reference.
+
+I attacked the problem of how to make the angles as acute as possible.
+For an 8 triangle subdivision, this leads to an optimization problem
+involving two unknowns (x,y) (being one of the (symmetric) middle points
+in a square ranging from (-1,0) to (1,2)), and three necessarily equal angles.
+Application of the cosine law results in the simultaneous equations:
+
+     x^2-x+y^2         (1-x)^2-2y+y^2      x sqrt((1-x)^2+y^2)
+   ------------- = --------------------- = -------------------
+   sqrt(x^2+y^2)   sqrt((1-x)^2+(2-y)^2)    sqrt(x^2+(2-y)^2)
+
+With the help of expert Maple user Walter Lioen
+this gave me the desired solution
+
+   (x,y)  ~ (.13071391155196, .379831986484951)
+
+corresponding to an angle of about 85 degrees.
+
+Now I was wondering if a division in more triangles could achieve
+even more acute angles. I discovered that a division in 20 triangles can:
+
+First divide the square in two along a main diagonal. Then subdivide
+each of the two triangles into 10 smaller ones,
+by adding a small triangle in the middle (each of whose corners
+connects to one of the outer triangle), and adding one point on each side
+of the outer triangle, connecting to two corners of the inner one.
+
+My big question is: how do I go about optimizing the angles in such
+a subdivision? It seems to involve three instead of two parameters:
+If we position the outer triangle at (0,0),(1,0),(0,1), then the small
+inner triangle should be positioned at (w,w),(x,y),(y,x).
+
+The problem is I'm not sure which angles should up being equal
+when w,x,y are chosen so as to minimize the largest angle...
+
+By fixing some angles and optimizing a remaining single parameter I found
+a solution with all angles smaller than 84 degrees, but it seems something
+close to 80 degrees should be feasible.
+
+Any help is appreciated!
+
+regards,
+
+%!PS                      %  -John Tromp (<A HREF="http://www.cwi.nl/~tromp/">http://www.cwi.nl/~tromp/</A>)
+300 200 translate 2{-1 1 26 76 0 0 200 0 200 400 0 400 26 76 200 400
+200 0 26 76 9 0 76 moveto{lineto}repeat scale}repeat stroke showpage
+</PRE><HR><PRE>
+<B>From:</B>           <A HREF="mailto:eppstein@ics.uci.edu">eppstein@ics.uci.edu</A> (David Eppstein)
+<B>Date:</B>           24 Oct 1996 14:17:50 -0700
+<B>Newsgroups:</B>     sci.math
+<B>Subject:</B>        Re: nice geometry puzzle
+</PRE><HR><PRE>
+In &lt;<A HREF="mailto:tromp.846090364@news.cwi.nl">tromp.846090364@news.cwi.nl</A>&gt; <A HREF="mailto:tromp@cwi.nl">tromp@cwi.nl</A> (John Tromp) writes:
+&gt; I was recently reminded of an old puzzle asking for
+&gt; a subdivision of a square into acute-angled triangles
+
+This was one of the problems in the Amer. Math. Monthly a number of
+years ago.  Unfortunately I've lost the exact reference.
+
+&gt; ...Now I was wondering if a division in more triangles could achieve
+&gt; even more acute angles... I found a solution with all angles smaller
+&gt; than 84 degrees, but it seems something close to 80 degrees should be
+&gt; feasible.
+
+My paper "Provably good mesh generation" [J. Comp. Sys. Sci. 48 (1994)
+384-409] has a triangulation of the unit square with angles at most
+roughly 80 degrees.  It uses a total of 26 triangles, five along each
+side and six in the interior.  I didn't try hard to optimize the angles
+in this triangulation and probably it could be improved a little.
+
+If you allow subdivisions in which triangles do not always meet edge to
+edge, a method of J. L. Gerver achieves 72 degrees for any polygon
+[The dissection of a polygon into nearly equilateral triangles,
+Geom. Ded.  16 (1984) 93-106].
+-- 
+David Eppstein		UC Irvine Dept. of Information &amp; Computer Science
+<A HREF="mailto:eppstein@ics.uci.edu">eppstein@ics.uci.edu</A>	<A HREF="http://www.ics.uci.edu/~eppstein/">http://www.ics.uci.edu/~eppstein/</A>
+</PRE><HR><PRE>
+<B>To:</B>             <A HREF="mailto:sci.math@wormwood.ICS.UCI.EDU">sci.math@wormwood.ICS.UCI.EDU</A>, <A HREF="mailto:tromp@cwi.nl">tromp@cwi.nl</A>
+<B>Subject:</B>        nice geometry puzzle
+<B>Date:</B>           Thu, 24 Oct 1996 17:37:10 -0700
+<B>From:</B>           David Eppstein &lt;<A HREF="mailto:eppstein@ICS.UCI.EDU">eppstein@ICS.UCI.EDU</A>&gt;
+</PRE><HR><PRE>
+John Tromp asked about subdivisions of a square into acute triangles,
+to which I responded with a pointer to 26-triangle solution having all
+angles at most 80, and a method for getting solutions in which triangles
+need not meet edge to edge, but with maximum angle 72.
+
+I now have a solution with 60 triangles, all of which do meet edge to
+edge, and in which the maximum angle is 72.  Two opposite sides of the
+square are partitioned into thirds, each third is covered by a 72-54-54
+isosceles triangle, and the remaining gaps on each side are filled with
+six 36-72-72 isosceles triangles.  The space in the middle then forms
+three hexagons, each of which can be filled with 14 triangles
+(maybe fewer triangles per hexagon would also work).
+
+I've put a picture of this triangulation on my web site at
+<A HREF="http://www.ics.uci.edu/~eppstein/junkyard/acute-square/60-square.gif">http://www.ics.uci.edu/~eppstein/acute-square.gif</A>.
+
+It almost works to do a similar solution in which the two opposite sides
+of the square are subdivided in half and then covered as before with
+isosceles triangles.  The spaces between them look like they should be
+able to be filled with 12 more 36-72-72 triangles but there's just
+barely not enough room (the resulting rectangle has dimensions 1 x 1.013).
+
+Is 72 a hard minimum?  Any better would require avoiding degree-five
+vertices inside the square, which seems to be difficult.
+-- 
+David Eppstein		UC Irvine Dept. of Information &amp; Computer Science
+<A HREF="mailto:eppstein@ics.uci.edu">eppstein@ics.uci.edu</A>	<A HREF="http://www.ics.uci.edu/~eppstein/">http://www.ics.uci.edu/~eppstein/</A>
+</PRE><HR><PRE>
+<B>To:</B>             <A HREF="mailto:sci.math@wormwood.ICS.UCI.EDU">sci.math@wormwood.ICS.UCI.EDU</A>, <A HREF="mailto:John.Tromp@cwi.nl">John.Tromp@cwi.nl</A>, <A HREF="mailto:mfineman@ix.netcom.com">mfineman@ix.netcom.com</A>
+<B>Subject:</B>        nice geometry puzzle
+<B>Date:</B>           Sat, 26 Oct 1996 10:44:36 -0700
+<B>From:</B>           David Eppstein &lt;<A HREF="mailto:eppstein@ICS.UCI.EDU">eppstein@ICS.UCI.EDU</A>&gt;
+</PRE><HR><PRE>
+Here's an even better solution to the problem of triangulating a square
+with all angles at most 72.
+
+Place as guides two congruent regular pentagons, meeting at a face,
+diagonally in the square (as large as possible, so that four of their
+corners touch the square's sides).  Use as triangulation vertices these
+four points on the square's sides, the two centers of the pentagons (on
+one diagonal of the square), and the two points on the other diagonal
+where the pentagons share a corner.
+
+The triangulation has six 54-54-72 triangles (connecting each pentagon
+center to three pentagon edges), and eight 45-63-72 triangles (two at
+each corner of the square).
+
+Is fourteen triangles optimal?  One can't do better than 72 degrees
+because (by some manipulations with Euler's formula) any triangulated
+square has (1) a vertex along a square edge where only two triangles
+meet, (2) a square corner covered by only one triangle, or (3) an
+interior vertex where at most five triangles meet.  Cases (1) and (2)
+give at best 90 degrees, and case (3) gives at best 72.
+-- 
+David Eppstein		UC Irvine Dept. of Information &amp; Computer Science
+<A HREF="mailto:eppstein@ics.uci.edu">eppstein@ics.uci.edu</A>	<A HREF="http://www.ics.uci.edu/~eppstein/">http://www.ics.uci.edu/~eppstein/</A>
+</PRE>
+

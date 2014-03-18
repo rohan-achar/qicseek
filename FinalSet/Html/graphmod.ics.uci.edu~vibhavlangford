@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>Index of /~vibhav/langford/</title>
+<style type="text/css">
+a, a:active {text-decoration: none; color: blue;}
+a:visited {color: #48468F;}
+a:hover, a:focus {text-decoration: underline; color: red;}
+body {background-color: #F5F5F5;}
+h2 {margin-bottom: 12px;}
+table {margin-left: 12px;}
+th, td { font: 90% monospace; text-align: left;}
+th { font-weight: bold; padding-right: 14px; padding-bottom: 3px;}
+td {padding-right: 14px;}
+td.s, th.s {text-align: right;}
+div.list { background-color: white; border-top: 1px solid #646464; border-bottom: 1px solid #646464; padding-top: 10px; padding-bottom: 14px;}
+div.foot { font: 90% monospace; color: #787878; padding-top: 4px;}
+</style>
+</head>
+<body>
+<h2>Index of /~vibhav/langford/</h2>
+<div class="list">
+<table summary="Directory Listing" cellpadding="0" cellspacing="0">
+<thead><tr><th class="n">Name</th><th class="m">Last Modified</th><th class="s">Size</th><th class="t">Type</th></tr></thead>
+<tbody>
+<tr><td class="n"><a href="../">Parent Directory</a>/</td><td class="m">&nbsp;</td><td class="s">- &nbsp;</td><td class="t">Directory</td></tr>
+<tr><td class="n"><a href="lang-10-way-1.cnf">lang-10-way-1.cnf</a></td><td class="m">2007-May-08 17:48:49</td><td class="s">170.1K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-10-way-2.cnf">lang-10-way-2.cnf</a></td><td class="m">2007-May-08 17:48:50</td><td class="s">35.2K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-11-way-1.cnf">lang-11-way-1.cnf</a></td><td class="m">2007-May-08 17:48:50</td><td class="s">229.3K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-11-way-2.cnf">lang-11-way-2.cnf</a></td><td class="m">2007-May-08 17:48:50</td><td class="s">49.5K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-12-way-1.cnf">lang-12-way-1.cnf</a></td><td class="m">2007-May-08 17:48:50</td><td class="s">300.8K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-12-way-2.cnf">lang-12-way-2.cnf</a></td><td class="m">2007-May-08 17:48:50</td><td class="s">67.1K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-13-way-1.cnf">lang-13-way-1.cnf</a></td><td class="m">2007-May-08 17:48:50</td><td class="s">385.5K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-13-way-2.cnf">lang-13-way-2.cnf</a></td><td class="m">2007-May-08 17:48:50</td><td class="s">88.5K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-14-way-1.cnf">lang-14-way-1.cnf</a></td><td class="m">2007-May-08 17:48:51</td><td class="s">484.6K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-14-way-2.cnf">lang-14-way-2.cnf</a></td><td class="m">2007-May-08 17:48:51</td><td class="s">113.8K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-15-way-1.cnf">lang-15-way-1.cnf</a></td><td class="m">2007-May-08 17:48:51</td><td class="s">599.4K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-15-way-2.cnf">lang-15-way-2.cnf</a></td><td class="m">2007-May-08 17:48:52</td><td class="s">143.3K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-16-way-1.cnf">lang-16-way-1.cnf</a></td><td class="m">2007-May-08 17:48:52</td><td class="s">733.8K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-16-way-2.cnf">lang-16-way-2.cnf</a></td><td class="m">2007-May-08 17:48:52</td><td class="s">177.6K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-17-way-1.cnf">lang-17-way-1.cnf</a></td><td class="m">2007-May-08 17:48:53</td><td class="s">900.3K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-17-way-2.cnf">lang-17-way-2.cnf</a></td><td class="m">2007-May-08 17:48:53</td><td class="s">216.8K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-18-way-1.cnf">lang-18-way-1.cnf</a></td><td class="m">2007-May-08 17:48:54</td><td class="s">1.0M</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-18-way-2.cnf">lang-18-way-2.cnf</a></td><td class="m">2007-May-08 17:48:54</td><td class="s">261.3K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-19-way-1.cnf">lang-19-way-1.cnf</a></td><td class="m">2007-May-08 17:48:54</td><td class="s">1.2M</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-19-way-2.cnf">lang-19-way-2.cnf</a></td><td class="m">2007-May-08 17:48:55</td><td class="s">311.3K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-20-way-1.cnf">lang-20-way-1.cnf</a></td><td class="m">2007-May-08 17:48:56</td><td class="s">1.5M</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-20-way-2.cnf">lang-20-way-2.cnf</a></td><td class="m">2007-May-08 17:48:56</td><td class="s">367.3K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-21-way-1.cnf">lang-21-way-1.cnf</a></td><td class="m">2007-May-08 17:48:57</td><td class="s">1.7M</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-21-way-2.cnf">lang-21-way-2.cnf</a></td><td class="m">2007-May-08 17:48:57</td><td class="s">429.7K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-22-way-1.cnf">lang-22-way-1.cnf</a></td><td class="m">2007-May-08 17:48:58</td><td class="s">2.0M</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-22-way-2.cnf">lang-22-way-2.cnf</a></td><td class="m">2007-May-08 17:48:59</td><td class="s">498.7K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-23-way-1.cnf">lang-23-way-1.cnf</a></td><td class="m">2007-May-08 17:49:00</td><td class="s">2.3M</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-23-way-2.cnf">lang-23-way-2.cnf</a></td><td class="m">2007-May-08 17:49:01</td><td class="s">574.6K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-24-way-1.cnf">lang-24-way-1.cnf</a></td><td class="m">2007-May-08 17:49:02</td><td class="s">2.7M</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-24-way-2.cnf">lang-24-way-2.cnf</a></td><td class="m">2007-May-08 17:49:03</td><td class="s">657.7K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-25-way-1.cnf">lang-25-way-1.cnf</a></td><td class="m">2007-May-08 17:49:05</td><td class="s">3.0M</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-25-way-2.cnf">lang-25-way-2.cnf</a></td><td class="m">2007-May-08 17:49:05</td><td class="s">748.3K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-26-way-1.cnf">lang-26-way-1.cnf</a></td><td class="m">2007-May-08 17:49:07</td><td class="s">3.4M</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-26-way-2.cnf">lang-26-way-2.cnf</a></td><td class="m">2007-May-08 17:49:08</td><td class="s">846.8K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-27-way-1.cnf">lang-27-way-1.cnf</a></td><td class="m">2007-May-08 17:49:10</td><td class="s">3.9M</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-27-way-2.cnf">lang-27-way-2.cnf</a></td><td class="m">2007-May-08 17:49:11</td><td class="s">960.3K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-28-way-1.cnf">lang-28-way-1.cnf</a></td><td class="m">2007-May-08 17:49:13</td><td class="s">4.3M</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-28-way-2.cnf">lang-28-way-2.cnf</a></td><td class="m">2007-May-08 17:49:14</td><td class="s">1.0M</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-29-way-1.cnf">lang-29-way-1.cnf</a></td><td class="m">2007-May-08 17:49:16</td><td class="s">4.9M</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-29-way-2.cnf">lang-29-way-2.cnf</a></td><td class="m">2007-May-08 17:49:17</td><td class="s">1.2M</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-3-way-1.cnf">lang-3-way-1.cnf</a></td><td class="m">2007-May-08 17:49:17</td><td class="s">3.4K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-3-way-2.cnf">lang-3-way-2.cnf</a></td><td class="m">2007-May-08 17:49:17</td><td class="s">0.3K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-4-way-1.cnf">lang-4-way-1.cnf</a></td><td class="m">2007-May-08 17:49:17</td><td class="s">8.5K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-4-way-2.cnf">lang-4-way-2.cnf</a></td><td class="m">2007-May-08 17:49:17</td><td class="s">1.1K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-5-way-1.cnf">lang-5-way-1.cnf</a></td><td class="m">2007-May-08 17:49:17</td><td class="s">17.3K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-5-way-2.cnf">lang-5-way-2.cnf</a></td><td class="m">2007-May-08 17:49:17</td><td class="s">2.8K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-6-way-1.cnf">lang-6-way-1.cnf</a></td><td class="m">2007-May-08 17:49:17</td><td class="s">32.5K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-6-way-2.cnf">lang-6-way-2.cnf</a></td><td class="m">2007-May-08 17:49:17</td><td class="s">5.6K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-7-way-1.cnf">lang-7-way-1.cnf</a></td><td class="m">2007-May-08 17:49:17</td><td class="s">54.3K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-7-way-2.cnf">lang-7-way-2.cnf</a></td><td class="m">2007-May-08 17:49:17</td><td class="s">9.9K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-8-way-1.cnf">lang-8-way-1.cnf</a></td><td class="m">2007-May-08 17:49:17</td><td class="s">83.7K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-8-way-2.cnf">lang-8-way-2.cnf</a></td><td class="m">2007-May-08 17:49:17</td><td class="s">15.7K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-9-way-1.cnf">lang-9-way-1.cnf</a></td><td class="m">2007-May-08 17:49:17</td><td class="s">121.9K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="lang-9-way-2.cnf">lang-9-way-2.cnf</a></td><td class="m">2007-May-08 17:49:17</td><td class="s">23.9K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="langford_encodings.pdf">langford_encodings.pdf</a></td><td class="m">2007-May-08 18:03:35</td><td class="s">47.4K</td><td class="t">application/pdf</td></tr>
+</tbody>
+</table>
+</div>
+<div class="foot">lighttpd/1.4.26</div>
+</body>
+</html>
+

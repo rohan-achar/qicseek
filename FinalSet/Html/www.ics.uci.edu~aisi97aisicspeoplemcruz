@@ -1,0 +1,47 @@
+<HTML>
+<HEAD>
+  <TITLE>Monique's Home Page</TITLE>
+  <BASE HREF="http://www.ics.uci.edu/~aisi/97_aisics/people/mcruz/">
+</HEAD>
+
+<BODY TEXT="#000066" LINK="#0000CC" VLINK="#339999" ALINK="#339999" BGCOLOR="FFFFCC">
+
+<center>
+  <p>
+  <img src="images/tigger.gif">
+  <img src="images/tigger.gif">
+  <img src="images/tigger.gif">
+  <img src="images/tigger.gif">
+  <img src="images/tigger.gif">
+</center>
+<H1 ALIGN=CENTER><font size=20><I>Monique<I></font></H1></P>
+
+
+<CENTER><P><img src="images/banner.gif"></P></CENTER>
+
+<H3 ALIGN=CENTER>More of my web page stylings</H3>
+
+<UL>
+
+<L1><center><img src="images/bullet4.gif" HEIGHT-9 WIDTH-9><A HREF="pers1.html">Personal Stuff</A> </center> 
+<L1><center><img src="images/bullet4.gif" HEIGHT=9 WIDTH=9> <A HREF="resume.html">Resume</A></center>
+<L1><center><img src="images/bullet4.gif" HEIGHT=9 WIDTH=9> <A HREF="otoe.ps">Otoe-Missouria</A></center>
+<L1><center><img src="images/bullet4.gif" HEIGHT=9 WIDTH=9> <A HREF="swelcome.html">Simulation Schools</A></center>
+</UL>
+<center><a href="index2.html">Index2 comments(html)</a></center>
+<CENTER><img src="images/rule02.gif height=5 width=920"></CENTER>
+<CENTER><img src="images/tig1a.gif"></CENTER>
+<center>I LOVE TIGGER! HE IS SO CUTE!<center>
+
+<P>My web page isn't at all exciting or even remotely interesting.</P>
+<P>If you can't read this you need glasses :)
+
+<P>If you have comments or suggestions, please keep them to your self<br> (Just Kidding)<BR> email me at <I><A HREF="mailto:mcruz@ics.uci.edu">mcruz@ics.uci.edu</A></I>
+</P>
+
+
+
+
+</BODY>
+</HTML>
+

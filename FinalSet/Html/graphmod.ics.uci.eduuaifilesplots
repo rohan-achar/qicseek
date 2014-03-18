@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>Index of /uaifiles/plots/</title>
+<style type="text/css">
+a, a:active {text-decoration: none; color: blue;}
+a:visited {color: #48468F;}
+a:hover, a:focus {text-decoration: underline; color: red;}
+body {background-color: #F5F5F5;}
+h2 {margin-bottom: 12px;}
+table {margin-left: 12px;}
+th, td { font: 90% monospace; text-align: left;}
+th { font-weight: bold; padding-right: 14px; padding-bottom: 3px;}
+td {padding-right: 14px;}
+td.s, th.s {text-align: right;}
+div.list { background-color: white; border-top: 1px solid #646464; border-bottom: 1px solid #646464; padding-top: 10px; padding-bottom: 14px;}
+div.foot { font: 90% monospace; color: #787878; padding-top: 4px;}
+</style>
+</head>
+<body>
+<h2>Index of /uaifiles/plots/</h2>
+<div class="list">
+<table summary="Directory Listing" cellpadding="0" cellspacing="0">
+<thead><tr><th class="n">Name</th><th class="m">Last Modified</th><th class="s">Size</th><th class="t">Type</th></tr></thead>
+<tbody>
+<tr><td class="n"><a href="../">Parent Directory</a>/</td><td class="m">&nbsp;</td><td class="s">- &nbsp;</td><td class="t">Directory</td></tr>
+<tr><td class="n"><a href="approx-mar-errors/">approx-mar-errors</a>/</td><td class="m">2008-Oct-01 14:58:33</td><td class="s">- &nbsp;</td><td class="t">Directory</td></tr>
+<tr><td class="n"><a href="approx-mar-scores/">approx-mar-scores</a>/</td><td class="m">2008-Oct-01 14:57:52</td><td class="s">- &nbsp;</td><td class="t">Directory</td></tr>
+<tr><td class="n"><a href="approx-pe-errors/">approx-pe-errors</a>/</td><td class="m">2008-Oct-01 14:53:53</td><td class="s">- &nbsp;</td><td class="t">Directory</td></tr>
+<tr><td class="n"><a href="approx-pe-scores/">approx-pe-scores</a>/</td><td class="m">2008-Oct-01 14:53:24</td><td class="s">- &nbsp;</td><td class="t">Directory</td></tr>
+<tr><td class="n"><a href="exact-mar/">exact-mar</a>/</td><td class="m">2008-Oct-01 14:54:26</td><td class="s">- &nbsp;</td><td class="t">Directory</td></tr>
+<tr><td class="n"><a href="exact-pe/">exact-pe</a>/</td><td class="m">2008-Oct-01 14:54:34</td><td class="s">- &nbsp;</td><td class="t">Directory</td></tr>
+<tr><td class="n"><a href="approx-mar-errors.tar.gz">approx-mar-errors.tar.gz</a></td><td class="m">2008-Sep-10 16:42:40</td><td class="s">25.3M</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="approx-mar-scores.tar.gz">approx-mar-scores.tar.gz</a></td><td class="m">2008-Sep-10 19:09:48</td><td class="s">22.7M</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="approx-pe-errors.tar.gz">approx-pe-errors.tar.gz</a></td><td class="m">2008-Sep-10 16:29:25</td><td class="s">2.2M</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="approx-pe-scores.tar.gz">approx-pe-scores.tar.gz</a></td><td class="m">2008-Sep-10 16:33:03</td><td class="s">2.1M</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="exact-mar.tar.gz">exact-mar.tar.gz</a></td><td class="m">2008-Sep-10 16:23:59</td><td class="s">935.0K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="exact-pe.tar.gz">exact-pe.tar.gz</a></td><td class="m">2008-Sep-10 16:24:00</td><td class="s">1.0M</td><td class="t">application/octet-stream</td></tr>
+</tbody>
+</table>
+</div>
+<div class="foot">lighttpd/1.4.26</div>
+</body>
+</html>
+

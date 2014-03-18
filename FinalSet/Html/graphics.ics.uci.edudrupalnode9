@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Empty BioViz | iGravi: Interactive Graphics & Visualization</title>
+  
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+    
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/drupal/misc/favicon.ico" type="image/x-icon" />
+ 
+
+  <link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/node/node.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/system/defaults.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/system/system.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/system/system-menus.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/modules/user/user.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/cck/theme/content-module.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/ctools/css/ctools.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/fckeditor/fckeditor.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/filefield/filefield.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/panels/css/panels.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/modules/views/css/views.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/layout.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/graphics.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/typography.css?s" />
+<link type="text/css" rel="stylesheet" media="all" href="/drupal/sites/all/themes/marinelli/links.css?s" />
+  
+  <!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="/drupal/sites/all/themes/marinelli/iestyles/ie6.css" />
+<![endif]-->
+
+  <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="/drupal/sites/all/themes/marinelli/iestyles/ie7.css" />
+<![endif]-->
+  
+  
+  <script type="text/javascript" src="/drupal/misc/jquery.js?s"></script>
+<script type="text/javascript" src="/drupal/misc/drupal.js?s"></script>
+<script type="text/javascript" src="/drupal/sites/all/modules/panels/js/panels.js?s"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/drupal/" });
+//--><!]]>
+</script>
+</head>
+
+
+<body>
+  <div id="utilities">
+    
+    <div id="plinks">     
+             <ul class="links primary-links"><li class="menu-206 first"><a href="/drupal/front">Home</a></li>
+<li class="menu-209 active-trail"><a href="/drupal/node/4" title="Projects">Projects</a></li>
+<li class="menu-194"><a href="/drupal/node/2" title="Publications">Publications</a></li>
+<li class="menu-210"><a href="/drupal/node/8" title="People">People</a></li>
+<li class="menu-178 last"><a href="/drupal/node/1" title="Login">Login</a></li>
+</ul>     
+               </div>          </div>
+
+
+<div id="page">
+
+  <div id="header">
+
+ 
+   <p class="sitetitle">
+	      <a href="/drupal/" title="Home">
+	        iGravi: Interactive Graphics &amp; Visualization	      </a>
+	    </p>	
+ 
+ 	  	  
+ <p class="slogan">Shine light on truth.</p>
+
+  </div>
+
+ 
+         
+       
+   
+
+  <div class="wrapper"><!--wrapper:defines whole content margins-->
+  
+  
+   <div id="primary" class="long">               <div class="singlepage">
+	   
+	  
+            
+		 		 
+                            <div class="drdot">
+<hr />
+</div>
+         
+          
+ 
+ 
+ 
+ 
+  <div class="node">
+ 	           
+
+        
+		        
+    <div class="content">
+	
+	
+	<h2><img width="200" height="189" align="left" src="http://graphics.ics.uci.edu/upload/NeuroViz.jpg" alt="Sample Image" class="thumbnailimg" /></h2>
+<h2>A Visual Navigation System for Querying Large Stem Cell Image Data</h2>
+<p align="justify"><span class="left"><b>Overview:</b> Cellular biology deals with studying  the behavior of cells. Current time-lapse imaging microscopes help us  capture the progress of experiments at intervals that allow for  understanding of the dynamic and kinematic behavior of the cells. On the  other hand, these devices generate such massive amounts of data (250GB  of data per experiment) that manual sieving of data to identify  interesting patterns becomes virtually impossible. In this project we  propose an end-to-end system to analyze time-lapse images of the  cultures of human Neuro Stem Cells (hNSC), that includes an image  processing system to analyze the images to extract all the relevant  geometric and statistical features within and between images, a database  management system to manage and handle queries on the data, a visual  analytic system to navigate through the data, and a visual query system  to explore different relationships and correlations between the  parameters. In each stage of the pipeline we make novel algorithmic and  conceptual contributions, and the entire system design is motivated by  many different yet unanswered exploratory questions pursued by our Neuro  Biologist collaborators. [for more details of the problem or implementation aspects please contact Gopi  (<a href="mailto:gopi@ics.uci.edu">gopi@ics.uci.edu</a>)]</span><em><strong> </strong></em></p>
+<p align="justify">Publications:</p>
+<table width="100%" bordercolor="#FFFFFF" border="0">
+<tbody>
+<tr bordercolor="#FFFFFF">
+<td width="30%"><img width="240" height="120" class="thumbnailimg" src="http://graphics.ics.uci.edu/drupal/img/2011l.jpg" alt="" /></td>
+<td width="70%"><strong>A Visual Navigation System for Querying Neural Stem Cell Imaging Data</strong><br />
+            <a style="text-decoration:none" href="http://www.ics.uci.edu/~ikulkarn/">Ishwar Kulkarni</a>, <a style="text-decoration:none" href="http://www.ics.uci.edu/~symistry/">Shanaz Y. Mistry</a>, Brian Cummings,<a style="text-decoration:none" href="http://www.ics.uci.edu/~gopi/">M. Gopi</a><br />
+            <em>IEEE Visual Analytics Science and Technology (VAST), 2011</em><br />
+            <a href="http://graphics.ics.uci.edu/drupal/sites/default/files/webform/paper149.pdf">paper</a> <a href="http://graphics.ics.uci.edu/drupal/sites/default/files/webform/VAST%20Talk.zip">ppt</a></td>
+</tr>
+<tr bordercolor="#FFFFFF">
+<td width="30%"><img width="240" height="120" class="thumbnailimg" src="http://graphics.ics.uci.edu/drupal/img/2011a.jpg" alt="" /></td>
+<td width="70%"><strong>Adaptive Cell Segmentation and Tracking for Volumetric Confocal Microscopy Images of A Developing Plant Meristem</strong><br />
+            Min Liu, Anirban Chakraborty, Damanpreet Singh, Ram Kishor Yadav, <a style="text-decoration:none" href="http://www.ics.uci.edu/~gopi/">M. Gopi</a>, G. Venugopala Reddy, Amit Roy-Chowdhury<br />
+            <em>Molecular Plant Journal, 2011</em><br />
+            <a href="http://graphics.ics.uci.edu/upload/mplant2011.pdf">paper </a></td>
+</tr>
+<tr>
+<td><img width="240" height="120" class="thumbnailimg" src="http://graphics.ics.uci.edu/drupal/img/projectc.jpg" alt="" /></td>
+<td><strong>Robust Segmentation and Tracking of Generic Shapes of  Neuro-Stem Cells</strong><br />
+            <a style="text-decoration:none" href="http://www.ics.uci.edu/~ikulkarn/">Ishwar Kulkarni</a>, <a style="text-decoration:none" href="http://www.ics.uci.edu/~umukherj/">Uddipan Mukherjee</a>, Chris Sontag, Brian Cummings, <a style="text-decoration:none" href="http://www.ics.uci.edu/~gopi/">M. Gopi</a><br />
+            <em>IEEE Conference on Healthcare Informatics, Imaging, and Systems Biology (HISB)</em><em>, 2011</em></td>
+</tr>
+</tbody>
+</table>
+<p align="justify">&nbsp;</p>
+<p>Project Members: M. Gopi, Ishwar Kulkarni, Shanaz Mistry, Brian Cummings (Dept. of Neuroscience, UCI)</p>
+<p>Funding:</p>
+</div>
+    
+    
+                
+        
+    
+            
+    
+  </div>
+      </div>
+
+    </div>
+
+
+   
+   
+   
+        	<!-- left -->
+        
+   	<!-- right -->
+        
+
+
+ <div class="clear"></div>
+
+  </div>
+</div>
+<!-- Close Page -->
+<div id="footer">
+
+
+   <a href="http://drupal.org"><img src="/drupal/misc/powered-blue-80x15.png" alt="Powered by Drupal, an open source content management system" title="Powered by Drupal, an open source content management system" width="80" height="15" /></a><p>Donald Bren School of Information and Computer Science<br />
+University of California, Irvine - Irvine, CA 92697</p></div>
+</body>
+</html>

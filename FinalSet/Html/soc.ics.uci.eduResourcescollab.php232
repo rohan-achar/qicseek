@@ -1,0 +1,6231 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<!-- #BeginTemplate "/Templates/index.dwt" -->
+<meta name="description" content="A research project investigating the social and technical issues surrounding the success of geographically distributed science and engineering collaborations." />
+<meta name="keywords" content="scientific collaboration, collaboratories, collaboratory, University of California, Irvine, School of Information, social-technical" />
+<meta name="language" content="English" />
+<meta name="author" content="Dan Cooney" />
+<meta name="programmer" content="Greg Peters" />
+<META content=ALL name=robots>
+<META content="15 days" name=revisit-after>
+<META content=emilyo@uci.edu name=reply-to>
+<META content="Living Document" name=document-class>
+<META content="Copyrighted Work" name=document-rights>
+<META content="Web Page" name=document-type>
+<META content="Safe for Kids" name=document-rating>
+<META content=Global name=document-distribution>
+<META content=Static name=document-state>
+<META content=no-cache name=cache-control>
+<META http-equiv=Content-Language content=EN-US>
+<META content="Dan Cooney" name=Publisher>
+
+<link REL="ICON" HREF="/soc.ico" TYPE="image/x-icon">
+<link REL="SHORTCUT ICON" HREF="/soc.ico" TYPE="image/x-icon">
+
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1"><!-- #BeginEditable "doctitle" --><!-- #EndEditable -->
+<SCRIPT type=text/javascript>
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</SCRIPT>
+<LINK href="/styles/SOC.css" 
+type=text/css rel=stylesheet><!--Main content begins -->
+<META content="MSHTML 5.50.4913.1100" name=GENERATOR></HEAD>
+<!-- #LOOP-START:header -->
+<BODY text=#000000 vLink=#333399 aLink=#ff9900 link=#333399 bgColor=#ffffff 
+leftMargin=2 topMargin=2 marginheight="2" marginwidth="2">
+<TABLE height=117 cellSpacing=0 cellPadding=0 width="100%" align=center 
+border=0>
+  <TR>
+    <TD vAlign=top align=left>
+      <TABLE cellSpacing=0 cellPadding=0 width=100% align=left 
+      border=0 name="Header">
+        <TR>
+          <TD vAlign=bottom align=left background=""
+          rowSpan=3 height=103 width=145><A 
+            href="/"><IMG 
+            height=103 alt="Science of Collaboratories logo - link" 
+            src="/images/LOGOSMALLER.gif" 
+            width=145 align=bottom border=0 name=SOCLogo></A></TD>
+          <TD height=40 valign="top">
+            <DIV ALIGN="RIGHT" CLASS="admin_login"><A HREF="/index.php?SOCSiteMap">Site Map</A>&nbsp;-&nbsp;<A HREF="/datateam/index.php">Login</A></DIV><BR>
+            <SCRIPT src="/libs/exmplmenu_var.js" type=text/javascript></SCRIPT>
+            <SCRIPT src="/libs/menu_com.js" type=text/javascript></SCRIPT>
+            <NOSCRIPT>Your browser does not support script</NOSCRIPT></TD></TR>
+        <TR>
+          <TD vAlign=top align=left width=100% bgColor=#660033 height=15>
+            &nbsp;
+          </TD></TR>
+        <TR>
+         <TD width=100% bgColor=#660033 height=15>&nbsp;</TD></TR>
+</table>
+      </TD>
+    <TD vAlign=top width=60 height=100>&nbsp;</TD>
+   </TR>
+        <TR>
+          <TD vAlign=top align=left height=20><IMG height=20 
+            alt="An alliance to advance the understanding of collaboratories" 
+            src="/images/SOCATextNew.gif" 
+            width=527 border=0 name=SOCATextNew>
+          </TD>
+         </TR>
+</TABLE>
+<!-- #LOOP-END:header -->
+<TABLE cellSpacing=0 cellPadding=0 width=100% align=left border=0 
+name="Main Body Table">
+  <TR>
+    <TD vAlign=top colspan=4 align=left bgColor=#660033 height=12><IMG 
+      height=12 alt="Science of Collaboratories" 
+      src="/images/RoundedRed.gif" 
+      align=top border=0 name=Header_r9_c1><BR></TD>
+    <TD vAlign=top align=left bgColor=#660033 height=12>&nbsp; </TD>
+    <TD width=60 bgColor=#ffffff>&nbsp;</TD></TR>
+  <TR>
+    <TD width=20 bgColor=#660033></TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD colspan=2 align=left bgColor=#ffffff>
+<!-- This is where we will add the content -->
+      
+<script language="JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  brWin = window.open(theURL,winName,features);
+  brWin.focus();
+}
+//-->
+</script>
+<table width="100%" border="0">
+  <tbody>
+     <tr>
+    <td align="right"><p class="backnav"><a href="colisting.php">Return to the list of Collaboratory 
+Projects</a></p></td>
+    <td width="1%">&nbsp;</td>
+  </tr>
+    <tr>
+     <td align="right">&nbsp;</td>
+     <td width="1%">&nbsp;</td>
+   </tr>
+     
+  </tbody> 
+</table>
+<table width="100%" border="0">
+    <tbody>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccffff">     
+         
+      <p class="fieldname">Name of Collaboratory :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%"><p class="collabname">A Toroidal LHC ApparatuS (ATLAS)</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">URL          :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%"><a href="http://atlas.ch">http://atlas.ch</a></td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">Collaboratory Status
+:</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+    <TD width="66%">
+    <TABLE BORDER="0" cellspacing="0" cellpadding="0">
+    <TR>
+      <td width="24%" align="left" bgcolor="#FFFFFF">Operational
+      </td>
+      <TD width="1%">&nbsp;</TD>
+      <td width="20%" align="left" bgcolor="#FFFFFF"> 
+        <b>Start Date :</b> 
+          1997
+      </td>
+      <td width="20%"> 
+        <b>End Date :</b> 
+          
+      </td>
+	  <td width="35%"> 
+        <b>Info Last Updated :</b> 
+          Mon, Nov 2 2009 3:00am PST
+      </td>
+    </tr>
+    </table>
+    </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccffff">     
+         
+      <p class="fieldname">Primary Collaboratory Function :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">Distributed Research Center</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+     <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccffff">     
+         
+      <p class="fieldname">Secondary Collaboratory Functions :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">Shared Instrument</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">Domain(s)         
+:</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">PHYSICAL SCIENCES >Physics >Elementary Particle Physics</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+   <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" bgcolor="#ccffff" align="right" valign="top">     
+         
+      <p class="fieldname">Brief          Description 
+of the Collaboratory :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">               
+      <p>ATLAS is one of the largest collaborative efforts ever attempted in the physical sciences. The ATLAS project consists of the designing, construction and use of a particle detector named "A Toroidal LHC Apparatus" (abbreviated ATLAS) at the Large Hadron Collider (LHC). It is one part of the five experiments (ATLAS, CMS, ALICE, LHCb, TOTEM) to be performed at the LHC. Prior to 2009, the project was focused on collaboratively building and setting up the ATLAS detector. In late 2009, the ATLAS detector began searching for new discoveries in the head-on collisions of protons of extraordinarily high energy. ATLAS aims to learn about the basic forces that have shaped our Universe since the beginning of time and that will determine its fate. Among the possible unknowns are the origin of mass, extra dimensions of space, microscopic black holes, and evidence for dark matter candidates in the Universe. ATLAS involves 3000 physicists from 38 countries and 174 universities, and also includes 1000 students.<BR>
+<BR>
+Data collected from the detector is exported from CERN at a rate of 1 GB/sec to 10 main computing centres in 3 continents, where data are stored, processed, and further distributed to ~50 collaborating institutes for analysis. All members of the ATLAS collaboration have equal access possibilities to all ATLAS data, independently of their geographical location, thanks to the Worldwide LHC Computing Grid.<BR>
+<BR>
+ATLAS collaborators are organized by systems and subsystems of the detector. There are numerous subsystems and sub-subsystems so that people mostly work in small groups. ATLAS as a whole, as well as its systems and subsystems, have various elected leadership positions and governing boards, organized hierarchically. <BR>
+<BR>
+The main policy-making powers are the Resource Review Board (RRW), the Plenary Meeting (PM) and the Collaboration Board (CB). The Resource Review Board (RRW) is the body where the ATLAS resources are approved upon proposals from the ATLAS collaboration, and monitored. It is chaired by the CERN Director of Research and composed of representatives of the national funding agencies, the CERN management and the ATLAS management. The Plenary Meeting (PM) is the general forum of the collaboration. All major ATLAS decisions concerning physics objectives and results, hardware and software design, and organizational matters are discussed there. The Collaboration Board (CB) is the policy deciding body. Each institution collaborating in the project is represented in it and has one vote. The Plenary Meeting (PM) and the Collaboration Board (CB) assemble at the ATLAS Weeks, week-long meetings of the ATLAS collaboration, four times a year.<BR>
+<BR>
+The ATLAS data provides experimental input for a large number of separate research topics. ATLAS scientists pursue these research areas mostly in small groups working at their home institutions. All collaborators are invited to analyze the data by being part of analysis teams. <BR>
+<BR>
+In some respects data analysis by individual ATLAS physicists can be compared to data analysis by astronomers using the Hubble Space Telescope (though ATLAS looks at the micro-cosmos). Both groups of scientists will chose the research areas and data that interest them most. <BR>
+<BR>
+---------------------Previously------------------------------------<BR>
+Griphyn collab<BR>
+The ATLAS detector is the largest and one of the most elaborate particle physics experiments ever designed.  Its ambitious experimental program is designed to to shed light on many unanswered questions about the origins of matter and the fundamental forces of nature.   ATLAS consists of 1,700 participantss from more than 150  institutions from 34 countries. A Memorandum of Agreement signed by all the funding agencies specifies the construction deliverables from each participating institution.<BR>
+<BR>
+ATLAS has four major components: Inner detector, Calorimeter, Muon Spectrometer, and Magnet System.  <BR>
+<BR>
+The global detector commissioning is expected to begin in fall 2006.<BR>
+<BR>
+The ATLAS Education and Outreach Committee is developing a textbook for high school teachers and students.  The aim is to create an interface between the outreach materials aimed at general public and students and the "professional" textbooks. <BR>
+<BR>
+The Collaboration Board is the policy- and decision-making body of the ATLAS Collaboration.  Its activities include making decisions on the global detector design and setting policies and guidelines for publications and presentations and issues related to finanacial and human resources, elections, and ATLAS organizations and membership.  In general, each instition has one representative, although instutions may have to two, if they desire.  Each institution has only one vote, however.  The chairperson of the Collaboration Board is elected by the board and serves for a period of two years.  The term is not renewable.<BR>
+<BR>
+The full collaboration group meets for one week, three times a year.<BR>
+</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%" height="20">&nbsp;</td>
+      <td width="31%" bgcolor="#ccff66" bordercolor="#CCCCCC"
+ align="right" valign="top" height="20">               
+      <p class="fieldname">Access          to 
+Instruments :</p>
+      </td>
+      <td width="1%" height="20">&nbsp;</td>
+      <td width="66%" height="20"></td>
+      <td width="1%" height="20">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" bgcolor="#ccff66" bordercolor="#CCCCCC"
+ align="right" valign="top">               
+      <p class="fieldname">Access          to 
+Information Resources :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">All members of the ATLAS collaboration have equal access possibilities to all ATLAS data, independently of their geographical location, thanks to the Worldwide LHC Computing Grid.</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" bgcolor="#ccff66" bordercolor="#CCCCCC"
+ align="right" valign="top">               
+      <p class="fieldname">Access          to 
+People as Resources :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">Electronics communication (e-mail, WWW, telephone, video conferencing) plays a major role in communication between collaborators. However regular direct human contacts are crucial elements in the communication. Meetings therefore play an important role in the life of ATLAS. The Plenary Meeting (PM) and the Collaboration Board (CB) assemble at the ATLAS Weeks, week-long meetings of the ATLAS collaboration, four times a year.</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top">
+        <p class="fieldname">Funding Agency 
+or Sponsor :</p></td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%">
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+
+
+<TR><TD>
+<TABLE border=0 cellspacing=0 cellpadding=0 width="100%">
+<TR>
+
+
+
+<TD width="100%">CERN - European Organization for Nuclear Research</td>
+
+
+</tr>
+</table>
+</td></tr>
+
+</table>
+</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <TR> 
+      <td width="1">&nbsp;</td>
+      <td valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+        <table width="100%" border="0">
+          <tr> 
+            <td width="13%">&nbsp;</td>
+            <td width="49%"> 
+              <table width="100%" border="1" bordercolor="#CCFFFF">
+                <tr> 
+                  <td> 
+                    <p> <font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Notes on Funding Agencies/Sponsors:<br>
+                      The large project funds come mostly from the science funding agencies of the various countries participating in ATLAS. There are also contributions from CERN, and some resources from individual university funds. 
+                    </font></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+      <TD width="4">&nbsp;</TD>
+    </TR>
+
+    <TR> 
+      <td width="1">&nbsp;</td>
+      <td valign=top align=right colspan="3" bgcolor="#CCFFFF"> 
+        <div align="left"><font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Organizations with Funded Participants:</font></div>
+      </td>
+      <TD width="4">&nbsp;</TD>
+    </TR>
+
+    <TR> 
+      <td height=1 width="1"></td>
+      <td height=1 valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+       
+        <table width="100%" border="0">
+          <tr bgcolor="#FFFFFF"> 
+            <td width="49%"><b><font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Organization name:</font></b></td>
+            <td width="13%"> 
+              <div align="center"><b><font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Approx # of participants:</font></b></div>
+            </td>
+            <td width="38%"><b><font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Description of organization's role(s):</font></b></td>
+          </tr>
+
+
+
+
+          <tr bgcolor="" valign="top"> 
+            <td width="49%">A.F. Ioffe Physical Technical Institute</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Aalto University School of Economics</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Academia Sinica</td>
+            <td width="13%"> 
+              <div align="center">
+                33
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Academy of Sciences of the Czech Republic (ASCR)</td>
+            <td width="13%"> 
+              <div align="center">
+                7
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Institute of Physics - Academy of Sciences of the Czech Republic</td>
+            <td width="13%"> 
+              <div align="center">
+                91
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Argonne National Laboratory (ANL)</td>
+            <td width="13%"> 
+              <div align="center">
+                49
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Aristotle University of Thessaloniki</td>
+            <td width="13%"> 
+              <div align="center">
+                31
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Bayerische Julius-Maximilians-Universität Würzburg</td>
+            <td width="13%"> 
+              <div align="center">
+                19
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Boston University</td>
+            <td width="13%"> 
+              <div align="center">
+                22
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Brookhaven National Laboratory</td>
+            <td width="13%"> 
+              <div align="center">
+                106
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Budker Institute of Nuclear Physics (BINP)</td>
+            <td width="13%"> 
+              <div align="center">
+                60
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">California State University, Fresno</td>
+            <td width="13%"> 
+              <div align="center">
+                16
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Carleton University</td>
+            <td width="13%"> 
+              <div align="center">
+                20
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Centre d Etudes de Saclay (CEA)</td>
+            <td width="13%"> 
+              <div align="center">
+                27
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Institut de Recherche sur les Lois Fondamentales de l Univers (IRFU)</td>
+            <td width="13%"> 
+              <div align="center">
+                67
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Centre de Calcul de l IN2P3</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Université d Aix - Marseille II</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Faculte des Sciences de Luminy</td>
+            <td width="13%"> 
+              <div align="center">
+                36
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+
+&nbsp;&nbsp;
+Centre de Physique de Particules de Marseille (CPPM)</td>
+            <td width="13%"> 
+              <div align="center">
+                41
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">CERN - European Organization for Nuclear Research</td>
+            <td width="13%"> 
+              <div align="center">
+                231
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Charles University</td>
+            <td width="13%"> 
+              <div align="center">
+                36
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Louisiana Technical University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+College of Engineering and Science (Louisiana Tech)</td>
+            <td width="13%"> 
+              <div align="center">
+                14
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Comenius University</td>
+            <td width="13%"> 
+              <div align="center">
+                20
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Computer Aided Design Center (CATIA)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Czech Technical University of Prague (CTU)</td>
+            <td width="13%"> 
+              <div align="center">
+                48
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Faculty of Nuclear Sciences and Physical Engineering (FNSPE)</td>
+            <td width="13%"> 
+              <div align="center">
+                7
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Universidad Técnica Federico Santa María</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Departamento de Física - Universidad Técnica Federico Santa María</td>
+            <td width="13%"> 
+              <div align="center">
+                33
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Universidade de Lisboa</td>
+            <td width="13%"> 
+              <div align="center">
+                8
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><i>Faculdade de Ciencias (Universidade de Lisboa)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+
+&nbsp;&nbsp;
+Departamento de Fisica (Universidade de Lisboa)</td>
+            <td width="13%"> 
+              <div align="center">
+                6
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Weizmann Institute of Science</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Particle Physics and Astrophysics - The Weizmann Institue of Science</td>
+            <td width="13%"> 
+              <div align="center">
+                35
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Ankara University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics (Ankara University)</td>
+            <td width="13%"> 
+              <div align="center">
+                13
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Duke University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics (Duke University)</td>
+            <td width="13%"> 
+              <div align="center">
+                31
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Hampton University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics (Hampton University)</td>
+            <td width="13%"> 
+              <div align="center">
+                13
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Harvard University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics (Harvard University)</td>
+            <td width="13%"> 
+              <div align="center">
+                36
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Kyoto University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics (Kyoto University)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Lancaster University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics (Lancaster University)</td>
+            <td width="13%"> 
+              <div align="center">
+                25
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>New York University (NYU)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics (NYU)</td>
+            <td width="13%"> 
+              <div align="center">
+                16
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Okayama University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics (Okayama University)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of London</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><i>Royal Holloway College</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+
+&nbsp;&nbsp;
+Department of Physics (Royal Holloway College)</td>
+            <td width="13%"> 
+              <div align="center">
+                24
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><i>Queen Mary and Westfield College (QMW)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+
+&nbsp;&nbsp;
+Department of Physics (Queen Mary and Westfield College)</td>
+            <td width="13%"> 
+              <div align="center">
+                35
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Southern Methodist University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics (SMU)</td>
+            <td width="13%"> 
+              <div align="center">
+                28
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Liverpool</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics (University of Liverpool)</td>
+            <td width="13%"> 
+              <div align="center">
+                45
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Oxford</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics (University of Oxford)</td>
+            <td width="13%"> 
+              <div align="center">
+                74
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Tokyo</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics (University of Tokyo)</td>
+            <td width="13%"> 
+              <div align="center">
+                57
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Yale University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics (Yale University)</td>
+            <td width="13%"> 
+              <div align="center">
+                46
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Israel Institute of Technology (Technion)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics - Israel Institute of Technology (Technion)</td>
+            <td width="13%"> 
+              <div align="center">
+                21
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>McGill University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics - McGill University</td>
+            <td width="13%"> 
+              <div align="center">
+                22
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Universita di Genova</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics - Universita di Genova</td>
+            <td width="13%"> 
+              <div align="center">
+                25
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of British Columbia</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics - University of British Columbia</td>
+            <td width="13%"> 
+              <div align="center">
+                11
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Department of Physics - University of Genova</td>
+            <td width="13%"> 
+              <div align="center">
+                25
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Milan</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics - University of Milan</td>
+            <td width="13%"> 
+              <div align="center">
+                41
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Toronto</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics - University of Toronto</td>
+            <td width="13%"> 
+              <div align="center">
+                47
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Uppsala University - Uppsala universitet</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics and Astronomy</td>
+            <td width="13%"> 
+              <div align="center">
+                15
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Michigan State University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics and Astronomy (Michigan State University)</td>
+            <td width="13%"> 
+              <div align="center">
+                35
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of California, Irvine</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics and Astronomy (UC Irvine)</td>
+            <td width="13%"> 
+              <div align="center">
+                48
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University College London</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics and Astronomy (University College London)</td>
+            <td width="13%"> 
+              <div align="center">
+                47
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Birmingham</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics and Astronomy (University of Birmingham)</td>
+            <td width="13%"> 
+              <div align="center">
+                29
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Louisville</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics and Astronomy (University of Louisville)</td>
+            <td width="13%"> 
+              <div align="center">
+                8
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of New Mexico (UNM)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics and Astronomy (University of New Mexico)</td>
+            <td width="13%"> 
+              <div align="center">
+                8
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Oklahoma</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics and Astronomy (University of Oklahoma)</td>
+            <td width="13%"> 
+              <div align="center">
+                19
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Sheffield</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics and Astronomy (University of Sheffield)</td>
+            <td width="13%"> 
+              <div align="center">
+                29
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Pennsylvania</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics and Astronomy (UPenn)</td>
+            <td width="13%"> 
+              <div align="center">
+                35
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Iowa</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics and Astronomy - at Iowa</td>
+            <td width="13%"> 
+              <div align="center">
+                6
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Cambridge</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Physics, Cavendish Laboratory (University of Cambridge)</td>
+            <td width="13%"> 
+              <div align="center">
+                26
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Department of Theoretical Physics (Universidad Autónoma de Madrid)</td>
+            <td width="13%"> 
+              <div align="center">
+                21
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Universidad Antonio Narino</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Department of Theoretical Physics - Universidad Antonio Narino</td>
+            <td width="13%"> 
+              <div align="center">
+                9
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Deutsches Elektronen-Synchrotron, Hamburg (DESY)</td>
+            <td width="13%"> 
+              <div align="center">
+                66
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Deutsches Elektronen-Synchrotron, Zeuthen</td>
+            <td width="13%"> 
+              <div align="center">
+                19
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Universita della Calabria</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Dipartimento di Fisica (Universita della Calabria)</td>
+            <td width="13%"> 
+              <div align="center">
+                20
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Universita di Pisa</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Dipartimento di Fisica (Universita di Pisa)</td>
+            <td width="13%"> 
+              <div align="center">
+                16
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Universita di Roma I (La Sapienza)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Dipartimento di Fisica (Universita di Roma I (La Sapienza))</td>
+            <td width="13%"> 
+              <div align="center">
+                71
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Universita di Roma II (Tor Vergata)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Dipartimento di Fisica (Universita di Roma II (Tor Vergata))</td>
+            <td width="13%"> 
+              <div align="center">
+                21
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Universita di Roma III (Roma Tre)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Dipartimento di Fisica (Universita di Roma III (Roma Tre))</td>
+            <td width="13%"> 
+              <div align="center">
+                28
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Universita di Udine</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Dipartimento di Fisica (Universita di Udine)</td>
+            <td width="13%"> 
+              <div align="center">
+                17
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Universit‡ di Bologna - University of Bologna</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Dipartimento di Fisica - University of Bologna</td>
+            <td width="13%"> 
+              <div align="center">
+                55
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Universita di Pavia</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Dipartimento di Fisica Nucleare e Teorica (Universita di Pavia)</td>
+            <td width="13%"> 
+              <div align="center">
+                15
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Universita di Napoli </i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Dipartimento di Scienze Fisiche (Universita di Napoli (Federico II))</td>
+            <td width="13%"> 
+              <div align="center">
+                36
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Georgian Academy of Sciences</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+E. Andronikashvili Institute of Physics</td>
+            <td width="13%"> 
+              <div align="center">
+                14
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Chicago (UChicago)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Enrico Fermi Institute</td>
+            <td width="13%"> 
+              <div align="center">
+                57
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>European Commission</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+European Commission Joint Research Centre - Ispra, Italy</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Bergische Universitat Wuppertal</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Fachbereich Physik - Bergische Universitat Wuppertal</td>
+            <td width="13%"> 
+              <div align="center">
+                60
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Universitat Siegen</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Fachbereich Physik - Universitat Siegen</td>
+            <td width="13%"> 
+              <div align="center">
+                28
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Fachhochschule Wiener Neustadt (FWHN)</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Universite Hassan II, Ain Chock</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Faculte des Sciences (Universite Hassan II, Ain Chock)</td>
+            <td width="13%"> 
+              <div align="center">
+                5
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Hiroshima Institute of Technology</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Faculty of Engineering (Hiroshima Institute of Technology)</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Akademia Gornicza-Hutnicza University of Science and Technology</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Faculty of Physics and Applied Computer Science (Akademia Gornicza-Hutnicza University of Science and Technology)</td>
+            <td width="13%"> 
+              <div align="center">
+                16
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Albert-Ludwigs-Universität Freiburg</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Fakultät für Physik</td>
+            <td width="13%"> 
+              <div align="center">
+                88
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Lund University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Fysiska Institutionen (Lund University)</td>
+            <td width="13%"> 
+              <div align="center">
+                14
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Tsukuba</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Graduate School of Pure and Applied Sciences (University of Tsukuba)</td>
+            <td width="13%"> 
+              <div align="center">
+                27
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Montreal</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Group of Particle Physics (GPP)</td>
+            <td width="13%"> 
+              <div align="center">
+                16
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Polish Academy of Sciences</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Henryk Niewodniczanski Institute of Nuclear Physics (PAN)</td>
+            <td width="13%"> 
+              <div align="center">
+                59
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">High Energy Accelerator Research Organization (KEK)</td>
+            <td width="13%"> 
+              <div align="center">
+                34
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Radboud University Nijmegen</td>
+            <td width="13%"> 
+              <div align="center">
+                12
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+High Energy Physics Institute (Radboud University Nijmegen) (HEFIN)</td>
+            <td width="13%"> 
+              <div align="center">
+                8
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Hiroshima University</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Horia Hulubei National Institute of Physics and Nuclear Engineering (IFIN-HH)</td>
+            <td width="13%"> 
+              <div align="center">
+                39
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Georg-August-Universität Göttingen</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><i>Fakuktät für Physik</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+
+&nbsp;&nbsp;
+II Physikalisches Institut</td>
+            <td width="13%"> 
+              <div align="center">
+                65
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Imperial College of Science Technology and Medicine</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Indiana University</td>
+            <td width="13%"> 
+              <div align="center">
+                36
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Institue of Isotopes and Molecular Technology</td>
+            <td width="13%"> 
+              <div align="center">
+                5
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Universidad de Valencia</td>
+            <td width="13%"> 
+              <div align="center">
+                32
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Instituto de Microelectronica de Barcelona (CNM-IMB)</td>
+            <td width="13%"> 
+              <div align="center">
+                4
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Institut de Fisica Corpuscular (CSIC)</td>
+            <td width="13%"> 
+              <div align="center">
+                48
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Universitat Autonoma de Barcelona</td>
+            <td width="13%"> 
+              <div align="center">
+                62
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Institut de Fisica d Altes Energies (IFAE)</td>
+            <td width="13%"> 
+              <div align="center">
+                6
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Wirtschaftsuniversitat Wien (WU)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Institut für Entrepreneurship und Innovation</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Technische Universität Dresden</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Institut für Kern- und Teilchenphysik (IKTP)</td>
+            <td width="13%"> 
+              <div align="center">
+                37
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Humboldt University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Institut für Physik - Humboldt University</td>
+            <td width="13%"> 
+              <div align="center">
+                38
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Universität Dortmund</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Institut für Physik - Universität Dortmund</td>
+            <td width="13%"> 
+              <div align="center">
+                25
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Innsbruck</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Institute for Astro- and Particle Physics</td>
+            <td width="13%"> 
+              <div align="center">
+                13
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Institute for High Energy Physics, Russian Federation State Research Centre (IHEP)</td>
+            <td width="13%"> 
+              <div align="center">
+                203
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Institute for Theoretical and Experimental Physics (ITEP)</td>
+            <td width="13%"> 
+              <div align="center">
+                13
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Slovak Academy of Sciences (SAS)</td>
+            <td width="13%"> 
+              <div align="center">
+                4
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Institute of Experimental Physics (Slovak Academy of Sciences)</td>
+            <td width="13%"> 
+              <div align="center">
+                10
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Institute of High Energy Physics - Chinese Academy of Sciences</td>
+            <td width="13%"> 
+              <div align="center">
+                21
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Azerbaijan National Academy of Sciences (ANAS)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Institute of Physics (Azerbaijan National Academy of Sciences)</td>
+            <td width="13%"> 
+              <div align="center">
+                9
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>The National Academy of Sciences of Belarus</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Institute of Physics (National Academy of Sciences of Belarus)</td>
+            <td width="13%"> 
+              <div align="center">
+                8
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Belgrade</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Institute of Physics (University of Belgrade)</td>
+            <td width="13%"> 
+              <div align="center">
+                17
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Universidade de Sao Paolo (USP)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Instituto de Fisica (IFUSP)</td>
+            <td width="13%"> 
+              <div align="center">
+                8
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Instituto Nazionale di Fisica Nucleare (INFN)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Instituto Nazionale di Fisica Nucleare, Sezione di Milano</td>
+            <td width="13%"> 
+              <div align="center">
+                35
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Instituto Nazionale di Fisica Nucleare, Sezione di Napoli</td>
+            <td width="13%"> 
+              <div align="center">
+                36
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Instituto Nazionale di Fisica Nucleare, Sezione di Pavia</td>
+            <td width="13%"> 
+              <div align="center">
+                10
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Instituto Nazionale di Fisica Nucleare, Sezione di Pisa</td>
+            <td width="13%"> 
+              <div align="center">
+                19
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Instituto Nazionale di Fisica Nucleare, Sezione di Roma</td>
+            <td width="13%"> 
+              <div align="center">
+                71
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Instituto Nazionale di Fisica Nucleare, Sezione di Frascati</td>
+            <td width="13%"> 
+              <div align="center">
+                44
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Instituto Nazionale di Fisica Nucleare, Sezione di Genova</td>
+            <td width="13%"> 
+              <div align="center">
+                25
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Instituto Nazionale di Fisica Nucleare, Sezione di Bologna</td>
+            <td width="13%"> 
+              <div align="center">
+                55
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Iowa State University </td>
+            <td width="13%"> 
+              <div align="center">
+                26
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Johannes-Gutenberg-Universitat Mainz </td>
+            <td width="13%"> 
+              <div align="center">
+                63
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Joint Institute for Nuclear Research (JINR)</td>
+            <td width="13%"> 
+              <div align="center">
+                364
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Jozef Stefan Institute</td>
+            <td width="13%"> 
+              <div align="center">
+                19
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Justus-Liebig-Universität Giessen</td>
+            <td width="13%"> 
+              <div align="center">
+                10
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Hungarian Academy of Sciences</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+KFKI Research Institute for Particle and Nuclear Physics - Hungarian Academy of Sciences (RMKI)</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Kobe University</td>
+            <td width="13%"> 
+              <div align="center">
+                27
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Kyoto University of Education</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">LaboratÛrio de InstrumentaÁ„o e FÌsica Experimental de PartÌculas, Coimbra (LIP)</td>
+            <td width="13%"> 
+              <div align="center">
+                11
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">LaboratÛrio de InstrumentaÁ„o e FÌsica Experimental de PartÌculas, Lisboa</td>
+            <td width="13%"> 
+              <div align="center">
+                39
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Laboratoire d'Annecy-le-Vieux de Physique des Particules (LAPP)</td>
+            <td width="13%"> 
+              <div align="center">
+                66
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Universite de Paris-Sud</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Laboratoire de l Accélérateur Linéaire (LAL)</td>
+            <td width="13%"> 
+              <div align="center">
+                114
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Universite Joseph Fourier</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Laboratoire de Physique Subatomique et de Cosmologie de Grenoble (LPSC)</td>
+            <td width="13%"> 
+              <div align="center">
+                51
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Laboratoire de Physique Theorique et des Particules (LPTP)</td>
+            <td width="13%"> 
+              <div align="center">
+                10
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Université Blaise Pascal</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Laboratorie de Physique Corpusculaire de Clermot-Ferrand</td>
+            <td width="13%"> 
+              <div align="center">
+                49
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Bern</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><i>Albert Einstein Center for Fundamental Physics</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+
+&nbsp;&nbsp;
+Laboratory for High Energy Physics (University of Bern) (LHEP)</td>
+            <td width="13%"> 
+              <div align="center">
+                26
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Lawrence Berkeley National Laboratory (LBNL)</td>
+            <td width="13%"> 
+              <div align="center">
+                86
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Max Planck Society</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Max-Planck-Institut fur Physik</td>
+            <td width="13%"> 
+              <div align="center">
+                104
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Moscow Engineering Physics Institute (MePhI)</td>
+            <td width="13%"> 
+              <div align="center">
+                38
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Nagasaki Institute of Applied Science</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Nagoya University</td>
+            <td width="13%"> 
+              <div align="center">
+                16
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Nanjing University</td>
+            <td width="13%"> 
+              <div align="center">
+                8
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Quaid-i-Azam University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+National Centre for Physics (Quaid-i-Azam University) (NCP)</td>
+            <td width="13%"> 
+              <div align="center">
+                70
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">National Institute for Subatomic Physics (NIKHEF)</td>
+            <td width="13%"> 
+              <div align="center">
+                127
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Byelarussian State University (BSU)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+National Scientific and Educational Centre of Particle and High Energy Physics - Byelarussian State U (NC PHEP BSU)</td>
+            <td width="13%"> 
+              <div align="center">
+                9
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">National Technical University of Athens (NTUA)</td>
+            <td width="13%"> 
+              <div align="center">
+                54
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">National University of La Plata</td>
+            <td width="13%"> 
+              <div align="center">
+                6
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Columbia University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Nevis Laboratories</td>
+            <td width="13%"> 
+              <div align="center">
+                44
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Copenhagen - K¯benhavns Universitet</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Niels Bohr Institute (NBI)</td>
+            <td width="13%"> 
+              <div align="center">
+                37
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Northern Illinois University</td>
+            <td width="13%"> 
+              <div align="center">
+                7
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Ohio State University</td>
+            <td width="13%"> 
+              <div align="center">
+                20
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Osaka University</td>
+            <td width="13%"> 
+              <div align="center">
+                8
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Russian Academy of Sciences</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+P.N. Lebedev Physical Institute</td>
+            <td width="13%"> 
+              <div align="center">
+                35
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Palacky University</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Petersburg Nuclear Physics Institute</td>
+            <td width="13%"> 
+              <div align="center">
+                49
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Bogazici University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Physics Department (Bogazici University)</td>
+            <td width="13%"> 
+              <div align="center">
+                13
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Oklahoma State University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Physics Department (Oklahoma State)</td>
+            <td width="13%"> 
+              <div align="center">
+                5
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Wisconsin-Madison</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Physics Department (U of Wisconsin, Madison)</td>
+            <td width="13%"> 
+              <div align="center">
+                60
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Massachusetts System (UMASS)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><i>University of Massachusetts Amherst (UMass Amherst)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+
+&nbsp;&nbsp;
+Physics Department (UMass Amherst)</td>
+            <td width="13%"> 
+              <div align="center">
+                14
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of the Witwatersrand</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><i>Faculty of Science (University of the Witwatersrand)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+
+&nbsp;&nbsp;
+Physics Department (University of the Witwatersrand)</td>
+            <td width="13%"> 
+              <div align="center">
+                4
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Michigan</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Physics Department (UofMich)</td>
+            <td width="13%"> 
+              <div align="center">
+                78
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Texas at Arlington (UTA)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Physics Department (UT Arlington)</td>
+            <td width="13%"> 
+              <div align="center">
+                45
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Rheinisch-Friedrich-Wilhelms-Universitat Bonn</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Physikalisches Institut - Rheinisch-Friedrich-Wilhelms-Universitat Bonn</td>
+            <td width="13%"> 
+              <div align="center">
+                81
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Ruprecht-Karls-Universität Heidelberg</td>
+            <td width="13%"> 
+              <div align="center">
+                37
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Zentrales Institut für Technische Informatik (ZITI)</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Physikalisches Institut - Ruprecht-Karls-Universität Heidelberg</td>
+            <td width="13%"> 
+              <div align="center">
+                8
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Polytechnic University of Bucharest</td>
+            <td width="13%"> 
+              <div align="center">
+                15
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Pontificia Universidad Católica de Chile</td>
+            <td width="13%"> 
+              <div align="center">
+                11
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Melbourne University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Research Centre for High Energy Physics</td>
+            <td width="13%"> 
+              <div align="center">
+                22
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Royal Institute of Technology (KTH)</td>
+            <td width="13%"> 
+              <div align="center">
+                34
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Russian Federal Nuclear Centre - Scientific Research Institute for Technical Physics (RFNC-VNIITF)</td>
+            <td width="13%"> 
+              <div align="center">
+                15
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Science and Technology Facilities Council (STFC)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Rutherford Appleton Laboratory (of the STFC)</td>
+            <td width="13%"> 
+              <div align="center">
+                72
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of California, Santa Cruz (UC Santa Cruz)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Santa Cruz Institute for Particle Physics</td>
+            <td width="13%"> 
+              <div align="center">
+                25
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Brandeis University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+School of Physics (Brandeis University)</td>
+            <td width="13%"> 
+              <div align="center">
+                17
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Tel Aviv University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+School of Physics - Tel Aviv University</td>
+            <td width="13%"> 
+              <div align="center">
+                32
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Edinburgh</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+School of Physics and Astronomy (University of Edinburgh)</td>
+            <td width="13%"> 
+              <div align="center">
+                16
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Glasgow</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+School of Physics and Astronomy (University of Glasgow)</td>
+            <td width="13%"> 
+              <div align="center">
+                45
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Manchester</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+School of Physics and Astronomy (University of Manchester)</td>
+            <td width="13%"> 
+              <div align="center">
+                50
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Université de Genève</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Section de Physique (Universite de Geneve)</td>
+            <td width="13%"> 
+              <div align="center">
+                67
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Ludwig Maximilians University (University of Munich)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Sektion Physik - Ludwig-Maximilians-Universität München</td>
+            <td width="13%"> 
+              <div align="center">
+                75
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Shandong University</td>
+            <td width="13%"> 
+              <div align="center">
+                15
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Shinshu University</td>
+            <td width="13%"> 
+              <div align="center">
+                7
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Simon Fraser University</td>
+            <td width="13%"> 
+              <div align="center">
+                19
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Moscow State University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Skobeltsyn Institute of Nuclear Physics (Moscow State University) (SINP)</td>
+            <td width="13%"> 
+              <div align="center">
+                26
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Stanford University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+<font size="1" color="gray"><i>Stanford Linear Accelerator Center (SLAC)</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+
+&nbsp;&nbsp;
+SLAC National Accelerator Laboratory</td>
+            <td width="13%"> 
+              <div align="center">
+                71
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">State University of New York (SUNY)</td>
+            <td width="13%"> 
+              <div align="center">
+                28
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+University at Albany</td>
+            <td width="13%"> 
+              <div align="center">
+                18
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Tbilisi State University</td>
+            <td width="13%"> 
+              <div align="center">
+                12
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Tokyo Institute of Technology</td>
+            <td width="13%"> 
+              <div align="center">
+                10
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Tokyo Metropolitan University</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Tri-University Meson Facility (TRIUMF)</td>
+            <td width="13%"> 
+              <div align="center">
+                33
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Tufts University</td>
+            <td width="13%"> 
+              <div align="center">
+                12
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Universidade Federal do Rio de Janeiro</td>
+            <td width="13%"> 
+              <div align="center">
+                31
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Universidade Nova de Lisboa (UNL)</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Universita del Salento</td>
+            <td width="13%"> 
+              <div align="center">
+                16
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Universitat Mannheim </td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Universite Mohammed V</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">Universite Pierre et Marie Curie et Universite Denis Diderot</td>
+            <td width="13%"> 
+              <div align="center">
+                50
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Alberta</td>
+            <td width="13%"> 
+              <div align="center">
+                32
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Arizona</td>
+            <td width="13%"> 
+              <div align="center">
+                37
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Athens</td>
+            <td width="13%"> 
+              <div align="center">
+                15
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Bergen</td>
+            <td width="13%"> 
+              <div align="center">
+                28
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Buenos Aires</td>
+            <td width="13%"> 
+              <div align="center">
+                8
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of California, Berkeley</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>University of Hawaii</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+University of Hawaii at Manoa</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Illinois at Urbana-Champaign (UIUC)</td>
+            <td width="13%"> 
+              <div align="center">
+                24
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Johannesberg (UJ)</td>
+            <td width="13%"> 
+              <div align="center">
+                2
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Oregon</td>
+            <td width="13%"> 
+              <div align="center">
+                12
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Oslo</td>
+            <td width="13%"> 
+              <div align="center">
+                52
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Pittsburgh</td>
+            <td width="13%"> 
+              <div align="center">
+                13
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Regina</td>
+            <td width="13%"> 
+              <div align="center">
+                7
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Science and Technology of China</td>
+            <td width="13%"> 
+              <div align="center">
+                25
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Sussex</td>
+            <td width="13%"> 
+              <div align="center">
+                7
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Sydney</td>
+            <td width="13%"> 
+              <div align="center">
+                11
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Texas at Dallas</td>
+            <td width="13%"> 
+              <div align="center">
+                11
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Victoria (UVIC)</td>
+            <td width="13%"> 
+              <div align="center">
+                30
+              </div>
+            </td>
+            <td width="38%">
+              https://particle.phys.uvic.ca/
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Warwick</td>
+            <td width="13%"> 
+              <div align="center">
+                
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">University of Washington</td>
+            <td width="13%"> 
+              <div align="center">
+                21
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">University of Zilina</td>
+            <td width="13%"> 
+              <div align="center">
+                3
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Vinca Institute of Nuclear Sciences</td>
+            <td width="13%"> 
+              <div align="center">
+                5
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">VTT Electronics Technical Research Center</td>
+            <td width="13%"> 
+              <div align="center">
+                1
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%"><font size="1" color="gray"><i>Waseda University</i></font></td>
+            <td width="13%"> 
+              <div align="center"></div>
+            </td>
+            <td width="38%"></td>
+          </tr>
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">
+&nbsp;&nbsp;
+Waseda Research Institute for Science and Engineering (WISE)</td>
+            <td width="13%"> 
+              <div align="center">
+                8
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="white" valign="top"> 
+            <td width="49%">Yerevan Physics Institute</td>
+            <td width="13%"> 
+              <div align="center">
+                12
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+
+
+
+          <tr bgcolor="#eeeeee" valign="top"> 
+            <td width="49%">York University</td>
+            <td width="13%"> 
+              <div align="center">
+                4
+              </div>
+            </td>
+            <td width="38%">
+              
+            </td>
+          </tr>
+
+
+
+</table>
+
+      </td>
+      <td height=1 width="4"></td>
+    </TR>
+
+    <TR> 
+      <td height=1 width="1"></td>
+      <td height=1 valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+       
+      </td>
+      <TD height=1 width="4"></TD>
+    </TR>
+
+    <TR> 
+      <td height=1 width="1"></td>
+      <td height=1 valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+       
+      </td>
+      <TD height=1 width="4"></TD>
+    </TR>
+    <TR> 
+      <td width="1">&nbsp;</td>
+      <td valign=top align=right colspan="3" bgcolor="#FFFFFF"> 
+        <table width="100%" border="0">
+          <tr bgcolor=""> 
+            <td width="49%" align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>TOTAL 
+              PARTICIPANTS: </b></font></td>
+            <td width="13%"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+              <div align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                3000
+                </font></div>
+              </font></td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td width="49%" bgcolor="#CCFFFF"> 
+              <table width="100%" border="1" bgcolor="#CCFFFF">
+                <tr bgcolor="white"> 
+                  <td> 
+                    <p> <font face="Verdana, Arial, Helvetica, sans-serif" 
+      size=1>Notes on Participants/Organizations:<br>
+                      ATLAS involves 3000 physicists from 38 countries and 174 universities, and also includes 1000 students.
+                    </font></p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td width="13%">&nbsp;</td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+          <tr> 
+            <td width="49%">&nbsp;</td>
+            <td width="13%">&nbsp;</td>
+            <td width="38%">&nbsp;</td>
+          </tr>
+        </table>
+      </td>
+      <TD width="4">&nbsp;</TD>
+    </TR>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      
+    <td width="31%" bgcolor="#FFFFFF" bordercolor="#CCCCCC"
+ align="right" valign="top"> 
+      <p class="fieldname">Communications Technology 
+        Used :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      
+    <td width="66%">E-mail, WWW, telephone, video conferencing.</td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      
+    <td width="31%" bgcolor="#FFFFFF" bordercolor="#CCCCCC"
+ align="right" valign="top"> 
+      <p class="fieldname">Technical 
+        Capabilities :</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      
+    <td width="66%">
+        <B>Asynchronous conversation</B><BR>
+Email<BR>
+<B>Synchronous conversation</B><BR>
+Video
+      </td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+  <tr>
+    <td width="1%">&nbsp;</td>
+    <td align="right" valign="top" width="31%">Key Articles : </td>
+    <td width="1%">&nbsp;</td>
+      <td width="66%" valign="top">
+        
+      </td>
+    <td width="1%">&nbsp;</td>
+    </tr>
+    <tr>
+       <td width="1%">&nbsp;</td>
+      <td width="31%" align="right" valign="top" bgcolor="#ccff66">     
+         
+      <p class="fieldname">Project-reported performance data
+:</p>
+      </td>
+      <td width="1%">&nbsp;</td>
+      <td width="66%"></td>
+      <td width="1%">&nbsp;</td>
+    </tr>
+   
+     
+
+    
+    <tr>
+       <td width="1%">&nbsp;</td>
+       <td width="31%" valign="top" align="right"><font
+ face="Verdana, Arial, Helvetica, sans-serif" size="1">Images            
+ of the Collaboratory:</font></td>
+       <td width="1%">&nbsp;</td>
+       <td width="66%">
+         <TABLE width="100%" border=1>
+
+      <TR valign="top">
+        <td><a href="javascript:MM_openBrWindow('otherShots.php?232+1','shotView','scrollbars=yes,resizable=yes,width=750,height=400')"><img src="fileCmd.php?retr+94" width="150" border=0></a></td>
+        <td><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Detector
+        </td>
+      </tr>
+
+             </font>
+            </td>
+          </tr>
+      </table>
+      </td>
+       <td width="1%">&nbsp;</td>
+     </tr>
+
+  </tbody>
+</table>
+
+    </TD>
+    <TD width=60>&nbsp;</TD></TR>
+<TR>
+    <TD vAlign=top align=middle width=20 bgColor=#660033>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top colspan=2 align=right bgColor=#ffffff height=12>&nbsp;</TD>
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=bottom colspan=4 align=left width=145 bgColor=#660033 height=12><IMG 
+      height=12 
+      src="/images/RoundedBottom.gif" 
+      width=145 align=bottom></TD>
+    <TD vAlign=top align=right bgColor=#660033 height=12><FONT 
+      color=#ffffff>
+      &nbsp;</FONT><SPAN class=SmallText><FONT 
+      color=#ffffff>&nbsp; </FONT></SPAN></TD><!-- HERE -->
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=top align=middle width=20>&nbsp;</TD>
+    <TD colspan=4 vAlign=top align=middle bgColor=#ffffff
+      height=6><SPAN class="footernavbar"><A 
+      href="/">Home</A> | <A 
+      href="/AboutSOC/index.php">About 
+      SOC</A> | <A 
+      href="/Workshops/index.php">Workshops</A> | <A 
+      href="/Resources/index.php?findings">Resources</A> 
+      | <A 
+      href="/NewsEvents/index.php">News 
+      &amp; Events</A></SPAN></TD>
+    <TD width=60 bgColor=#ffffff height=6>&nbsp;</TD></TR>
+<!-- #LOOP-START:footer -->
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <HR align=center width=80%>
+    </TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5></TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <TABLE cellSpacing=0 cellPadding=0 width="95%" align=left border=0 
+      name="Footer">
+        <TR>
+          <TD vAlign=top align=middle width=172 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.uci.edu/"><IMG height=70 
+            alt="University of California, Irvine Logo" 
+            src="/images/logo_uci.jpg" 
+            width=62 border=0 name=UCI_Logo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.uci.edu/">University of California, Irvine<BR></A></P></TD>
+          <TD align=middle>
+            <P class="copyright">This material is based upon work supported by 
+            the <A target=_blank href="http://www.itr.nsf.gov/">National Science 
+            Foundation</A> under Grant No. IIS 0085951. Any opinions, findings, 
+            and conclusions or recommendations expressed in this material are 
+            those of the author(s) and do not necessarily reflect the views of 
+            the National Science Foundation. <BR><A target=_blank 
+            href="http://www.itr.nsf.gov/"><IMG height=42 
+            alt="National Science Foundation Logo" 
+            src="/images/nsf.gif" width=42 
+            border=0 name=NSF_Logo></A></P></TD>
+          <TD vAlign=top align=middle width=127 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.ics.uci.edu/"><IMG height=70 
+            alt="School of Information Logo" 
+            src="/images/logo_uci.jpg" 
+            width=62 border=0 name=SILogo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.ics.uci.edu/">School of Information</A>
+            <A href="http://www.ics.uci.edu/">University of 
+            Michigan</A></P></TD></TR>
+        <TR>
+          <TD align=middle>&nbsp;</TD></TR>
+        <TR>
+          <TD>
+            <P align=center class="copyright">&reg; 2010-2011
+            University of 
+            California, Irvine. Please send questions and comments to <A 
+            href="mailto:emilyo@uci.edu">SOC 
+        webmaster</A>.</P></TD></TR></TABLE></TD></TR>
+  <TR>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=95>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0>&nbsp; </TD>
+    <TD width=60 bgColor="white" height=0>&nbsp;</TD></TR>
+</TABLE>
+<!-- #LOOP-END:footer -->
+<P>&nbsp;</P>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-987955-53']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</BODY><!-- #EndTemplate --></HTML>
+

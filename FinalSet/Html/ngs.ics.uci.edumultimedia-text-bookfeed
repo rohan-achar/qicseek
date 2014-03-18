@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Multimedia Text Book</title>
+	<atom:link href="http://ngs.ics.uci.edu/multimedia-text-book/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/multimedia-text-book/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Christian Timmerer</title>
+		<link>http://ngs.ics.uci.edu/multimedia-text-book/comment-page-1/#comment-2715</link>
+		<dc:creator><![CDATA[Christian Timmerer]]></dc:creator>
+		<pubDate>Tue, 24 Mar 2009 08:31:04 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1086#comment-2715</guid>
+		<description><![CDATA[All the best for this undertaking and this is definitely needed, i.e., I would certainly consider this book for my courses. Have done a course in the winter semester regarding compression technologies and multimedia data formats (cf. http://tinyurl.com/deotwm for the outline) and have used the &quot;Fundamentals of Multimedia&quot; as basis but in the end was not happy about that...]]></description>
+		<content:encoded><![CDATA[<p>All the best for this undertaking and this is definitely needed, i.e., I would certainly consider this book for my courses. Have done a course in the winter semester regarding compression technologies and multimedia data formats (cf. <a href="http://tinyurl.com/deotwm" rel="nofollow">http://tinyurl.com/deotwm</a> for the outline) and have used the &#8220;Fundamentals of Multimedia&#8221; as basis but in the end was not happy about that&#8230;</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

@@ -1,0 +1,23 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Search Author</title><link href="index_files/dblp.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="llogo"><a href="http://www.informatik.uni-trier.de/%7Eley/db/index.html"><img alt="dblp.uni-trier.de" src="index_files/Logo.gif" width="170" border="0" height="60"></a></div>
+<div class="rlogo"><a href="http://www.uni-trier.de/"><img alt="www.uni-trier.de" src="index_files/logo_universitaet-trier.gif" width="215" border="0" height="48"></a></div>
+<div class="clogo"><a href="http://www.mpi-inf.mpg.de/"><img alt="www.mpi-inf.mpg.de" src="index_files/mpii.jpg" width="150" border="0" height="50"></a></div>
+<h1>Search Author</h1><hr>
+
+<script type="text/javascript" src="acunit.js"></script>
+<link rel="stylesheet" href="index.css" type="text/css">
+
+<div>
+<input id="input" style="width: 420px; color: rgb(132, 132, 132);" onblur="if(this.value==''||this.value==' '){this.value=gDefaultInputLetters;this.style.color='#848484';}" onfocus="if(this.value==gDefaultInputLetters)this.value='';this.style.color='#000000';return false;" type="text">
+</div>
+</center>
+
+<script type="text/javascript" src="dblp-authors.js"></script>
+
+<p><b><a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/index.html">Original DBLP Author Page</a></b></p><p></p><div class="footer"><a href="http://www.informatik.uni-trier.de/%7Eley/db/index.html">Home</a> | <a href="http://www.informatik.uni-trier.de/%7Eley/db/conf/indexa.html">Conferences</a> | <a href="http://www.informatik.uni-trier.de/%7Eley/db/journals/index.html">Journals</a> | <a href="http://www.informatik.uni-trier.de/%7Eley/db/series/index.html">Series</a> | <a href="http://www.informatik.uni-trier.de/%7Eley/db/about/faq.html">FAQ</a> — Search: <a href="http://dblp.l3s.de/">Faceted</a> | <a href="http://dblp.mpi-inf.mpg.de/dblp-mirror/index.php">Complete</a> | <a href="http://www.informatik.uni-trier.de/%7Eley/db/indices/a-tree/index.html">Author</a></div>
+<small><a href="http://www.informatik.uni-trier.de/%7Eley/db/copyright.html">Copyright ©</a> Tue Feb  3 16:53:46 2009
+ by <a href="http://www.informatik.uni-trier.de/%7Eley/addr.html">Michael Ley</a> (<a href="mailto:ley@uni-trier.de">ley@uni-trier.de</a>)</small><p></p></body></html>
+

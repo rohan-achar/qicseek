@@ -1,0 +1,39 @@
+<html>
+<body>
+<h1> Game of Life</h1>
+This is an implementation of John Conway's Game of Life created for Bill Tomlinson's
+<a href = "http://www.ics.uci.edu/~wmt/courses/BiomoW04/BiomoW04Syllabus.html">Biomorphic Computing course</a> 
+at the <a href = "http://www.uci.edu">University of California, Irvine</a> in the Winter Quarter of 2004 
+in response to 
+<a href = "http://www.ics.uci.edu/~wmt/courses/BiomoW04/BiomoW04Assignment1.html">Assignment 1</a>.
+The framework of the code was written by <a href = "http://www.ics.uci.edu/~wmt">Bill Tomlinson</a>, and the
+core functionality was written by So Yamaoka, an 
+<a href = "http://www.ace.uci.edu">ACE</a> student in the class.<P>
+For more information on the Game of Life, please visit <a href = "http://ddi.cs.uni-potsdam.de/HyFISCH/Produzieren/lis_projekt/proj_gamelife/ConwayScientificAmerican.htm">
+this site</a>.  For more information on Moore and von Neumann neighborhoods, <a href = "http://mathworld.wolfram.com/Neighborhood.html">look here</a>.<P>
+<applet code="GameOfLife.class" width="600" height="636">
+</applet>
+<P>
+Of particular interest is the following pattern, discovered by Alex Baker, 
+an <a href = "http://www.ics.uci.edu">ICS</a> student in the class.  
+Draw two vertical lines-of-six, overlapping a horizontal line-of-8 so 
+that the second-from-the-bottom pixels of the vertical lines overlapped 
+the second-from-the-left and second-from-the-right of the horizontal line 
+(see below).  It offers quite interesting results in both the von Neumann 2 
+and von Neumann 3 neighboorhood functions (pull down the list where it 
+says "Moore"), in particular in von Neumann 2 at step 42 ("the teddy cherub") and 49 
+("the man in the egg"), and in von Neumann 3 at steps 
+8 ("the raccoon") and 16 ("sad bear with suitcases").<P>
+Starting Pattern:<BR>
+<pre>
+OXOOOOXO
+OXOOOOXO
+OXOOOOXO
+OXOOOOXO
+XXXXXXXX
+OXOOOOXO
+</pre>
+<P>
+</body>
+</html>
+

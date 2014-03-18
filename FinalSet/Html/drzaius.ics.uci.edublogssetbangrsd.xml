@@ -1,0 +1,13 @@
+<?xml version="1.0"?> 
+<rsd version="1.0" xmlns="http://archipelago.phrasewise.com/rsd">
+<service>
+<engineName>Movable Type 3.2</engineName> 
+<engineLink>http://www.sixapart.com/movabletype/</engineLink>
+<homePageLink>http://drzaius.ics.uci.edu/blogs/setbang/</homePageLink>
+<apis>
+<api name="MetaWeblog" preferred="true" apiLink="http://drzaius.ics.uci.edu/mt/mt-xmlrpc.cgi" blogID="2" />
+<api name="Blogger" preferred="false" apiLink="http://drzaius.ics.uci.edu/mt/mt-xmlrpc.cgi" blogID="2" />
+</apis>
+</service>
+</rsd>
+

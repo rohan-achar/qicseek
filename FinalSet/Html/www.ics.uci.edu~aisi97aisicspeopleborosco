@@ -1,0 +1,48 @@
+<! -- This is the Personal Page of Bernie Orosco -- !>
+<html>
+<HEAD>
+  <TITLE>Bernie Orosco Home Page</TITLE>
+  <META NAME="Author" CONTENT="Bernie Orosco">
+  <META NAME="Description" CONTENT="Personal Page">
+  <META NAME="KeyWords" CONTENT="AISICS, American Indians, HTML, Netscape,Yaqui,Bernie Orosco">
+  <base href="http://www.ics.uci.edu/~aisi/97_aisics/people/borosco/">
+</HEAD>
+
+<BODY TEXT="#000000" BGCOLOR=red LINK="#0000FF" VLINK=blue>
+
+<CENTER>
+
+<H1><FONT SIZE=+4>Bernie Orosco</FONT></H1>
+
+<H2><FONT COLOR="#000033" SIZE=+2><I>Looking for My Rainbow</I></FONT></H2>
+
+<P>
+<FONT SIZE=+2>A YAQUI</FONT></P>
+
+<P>
+Native American</P>
+
+<BR>
+<IMG SRC="images/B1-image.gif" ALT=[PICTURE] HEIGHT=150 WIDTH=150>
+
+<BR>
+<B>A Little Indian?</B>
+
+<P>
+<I>My personal journey into the Americas</I></P>
+
+<P>
+<A HREF="Project/CTNNCA.html">Confederated Tribes of Net Natives Consulting Agency</A></P>
+
+<P>
+<A HREF="Tribal-History.html">Tribal History</A></P>
+
+<P>
+<A HREF="Project/resume-6.html">Resume</A></P>
+
+<P>
+<A HREF="Project/Biography.html">Biography</CENTER></A></P>
+
+</BODY>
+</HTML>
+

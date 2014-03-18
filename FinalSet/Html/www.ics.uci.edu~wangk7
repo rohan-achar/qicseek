@@ -1,0 +1,82 @@
+
+<title>Kai Wang's Homepage</title>
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/combo?3.3.0/build/cssreset/reset-min.css&3.3.0/build/cssfonts/fonts-min.css&3.3.0/build/cssgrids/grids-min.css"/>
+<!-- Source File -->
+<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssbase/base-min.css">
+
+<style>
+   body {
+	           margin: auto; /* center in viewport */
+		           width: 960px;
+        }
+	ul {
+	  list-style: none;
+	  margin-left: 0;
+	  padding-left: 1em;
+	text-indent: -1em;
+}
+
+ul li {
+	  list-style: none;
+}
+
+ul li:before {
+		content: "\00BB \0020";
+			}
+
+			table, th, td
+			{
+				border: none;
+			}
+		</style>
+</head>
+
+<body>
+<br><br><a href="head3.png" style="float:right;"><img src="head3.png" style="float:right;" border="0" alt=""></a>
+<br>
+<br>
+<h1>Kai Wang's Homepage</h1>
+<br>
+<br>
+<td>
+        <a class ="1" href="http://www.ics.uci.edu/" >
+<IMG src="logo.jpg" alt="School of ICS"> </a>
+<br><br><br>
+<br>Ph.D. Student <br>
+<br>
+
+<a href="http://www.cs.uci.edu/">Computer Science Department</a> <br />
+<a href="http://www.ics.uci.edu/">Donald Bren School of Computer and Information Sciences </a><br />
+<a href="http://www.uci.edu/">University of California, Irvine</a><br />
+<br />
+<br>
+Email: wangk7<em> at </em>uci.edu<br />
+Office: Donald Bren Hall 3243<br />
+
+<br><br><br><br>
+<hr />
+<h1><span style="color:#FFFFFF; background-color:#B22222">About me &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span></h1>
+<p>I am currently a first-year Ph.D. student at University of California, Irvine. My advisor is Prof. <a href="http://www.ics.uci.edu/~guoqingx/">Guoqing(Harry) Xu</a>. Before coming to UC Irvine, I completed my Master's degree in CS at <a href="http://english.ict.cas.cn/">Institute of Computing Technology</a>, <a href="http://english.cas.cn/">Chinese Academy of Sciences</a>
+I completed my undergraduate degree in CS at <a href="http://english.hust.edu.cn">Huazhong Unversity of Science&Technology</a>.
+<br>It's really a brand-new journey. Enjoy! :)
+</p>
+<h1><span style="color:#FFFFFF; background-color:#B22222">Research Interests &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span></h1>
+<p>Programming Language, Program Analysis, Software Engineering</p>
+
+</p>
+<h1><span style="color:#FFFFFF; background-color:#B22222">Current Projects &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span></h1>
+<p>to be continued... </p>
+
+</p>
+<h1><span style="color:#FFFFFF; background-color:#B22222">Publications &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span></h1>
+<p>to be continued... </p>
+
+<h1><span style="color:#FFFFFF; background-color:#B22222">Personal Interests &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span></h1>
+<p>
+Music, Movies, Skiing.
+</p>
+
+</body>
+</html>
+
+

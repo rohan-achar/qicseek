@@ -1,0 +1,314 @@
+
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title> Yingyi Bu's Homepage </title>
+        <link href="css/new.css" rel="stylesheet" type="text/css"/>
+    	<style type="text/css">
+		.auto-style1 {
+			font-size: 13pt;
+		}
+		.auto-style2 {
+			color: #FF0000;
+		}
+		.auto-style3 {
+	font-weight: normal;
+}
+.auto-style4 {
+	color: #FF0000;
+	font-size: 16pt;
+}
+		.auto-style5 {
+			font-style: normal;
+		}
+		</style>
+    </head>
+<body>
+<div class="main"> 
+
+<!-- address and a picture -->
+<img class="migobild" src="buyingyi.JPG" alt="Lydia" style="height: 200px;
+width:200px;"/>
+
+
+<div class="name">Yingyi Bu</div><br />
+<p>
+Office: Room 2064 DBH<br />
+Tel: 949-8789-0298<br />
+Department of Computer Science<br />
+University of California, Irvine<br />
+Irvine, CA 92697<br />
+<br />
+Email: yingyib@ics.uci.edu<br />
+<br />
+</p>
+<!-- short biography-->
+<p> I
+am now a Ph.D. student in <a href="http://www.ics.uci.edu/">Department of
+Computer Science,</a> University of California, Irvine, working with Prof. <a href="http://www.ics.uci.edu/~mjcarey">Michael J. Carey</a>. Before that, I got a B.Sc. from 
+<a href="http://cs.nju.edu.cn/">Nanjing University</a>, China, an M.Phil. from
+<a href="http://www.cse.cuhk.edu.hk">The Chinese University of Hong Kong</a>, and also 
+fulltimely worked in <a href="http://www.microsoft.com/sqlserver/2008/en/us/default.aspx">Microsoft SQL
+Server group</a> . 
+
+</p>
+	<p> <span class="auto-style4"><strong>News:</strong></span>&nbsp;</p>
+        <ul>
+    <li>2013/08/13&nbsp;&nbsp;&nbsp; AsterixDB team are visiting <a href="http://www.couchbase.com">CouchBase</a> for the CouchBase/AsterixDB workshop! </li>
+    <li>2013/06/11&nbsp;&nbsp;&nbsp; I'm awarded the 2013 <a href="http://googleresearch.blogspot.com/2013/06/2013-google-phd-fellowships-5-years-of.html">Google Fellowship</a> in Structured Data! </li>
+    <li>2013/06/06&nbsp;&nbsp;&nbsp; <a href="https://asterixdb.ics.uci.edu">AsterixDB</a> 0.8.0 and <a href="http://www.hyracks.org/projects/pregelix">Pregelix</a> 0.2.6 are released!</a></li>
+    <li>2013/04/06&nbsp;&nbsp;&nbsp; We are very excited to release our <a href="https://code.google.com/p/asterixdb/wiki/AsterixAlphaRelease">AsterixDB alpha!</a></li>
+    <li>2013/03/27&nbsp;&nbsp;&nbsp; We are happy to announce the second release of <a href="http://www.hyracks.org/projects/pregelix">Pregelix</a> with quite a few new features!</li>
+    <li>2013/03/26&nbsp;&nbsp;&nbsp; Our paper on the bloat-aware design for Big Data applications is accetped to <a href="http://www.cs.technion.ac.il/~erez/ismm13/">SIGPLAN ISMM'13</a>!</li>
+    <li>2013/03/25&nbsp;&nbsp;&nbsp; I'm selected as a Facebook fellowship <a href="http://www.facebook.com/notes/facebook-academics/announcing-the-2013-2014-facebook-graduate-fellows/514353405282738">finalist</a>.</li>
+	<li>2012/10/28&nbsp;&nbsp;&nbsp; We are happy to announce the first release of <a href="http://www.hyracks.org/projects/pregelix">Pregelix</a> -- an open-source <strong>Big Graph</strong> analytics system!</li>
+	<li>2012/06/26&nbsp;&nbsp;&nbsp; Start my summer inernship in <a href="http://research.google.com/">Google Research</a>, a lot of fun!</li>
+	<li>2012/03/01&nbsp;&nbsp;&nbsp; Interested 
+	in<strong> Big Data</strong> machine learning?&nbsp; Check out our fresh and exciting
+	<a href="http://arxiv.org/pdf/1203.0160v2.pdf">technical report</a>!</p>
+	</li>        
+	</ul>
+
+<H1> Research Interests </H1>
+<p class="auto-style1">My primary area of research interest is in large scale data management systems, especially data-intensive computing systems. 
+</p>
+	<p class="auto-style1"><em><font size="3">Current projects:</font></em>
+</p>
+<ul>
+<li class="s0"><a href="http://www.hyracks.org/projects/pregelix">Pregelix</a>. Pregelix is an open-source implementation of Google's Pregel programming model. We
+	architect the Pregel programming model on top of the
+	<a href="http://code.google.com/p/hyracks">Hyracks</a> general-purpose data-parallel  
+	execution engine. This leads to a much simpler design and implementation than building from scratch. Pregelix also corresponds to the Pregel part of our
+	<a href="http://arxiv.org/pdf/1203.0160v2.pdf">technical report</a>!</li>
+<li class="s0"><a href="http://asterix.ics.uci.edu">AsterixDB</a>. We are working towards an open source data-intensive computing platform, with new technologies for ingesting,
+storing, managing, indexing, querying, analyzing, and subscribing intensive semi-structured data. 
+</li>
+</ul>
+	<p><em>Past projects:</em></p>
+	<ul>
+		<li class="s1"><a href="http://code.google.com/p/haloop">HaLoop</a>. In HaLoop (with 
+		<a href="http://www.cs.washington.edu/homes/billhowe">Bill</a>, 
+		<a href="http://www.cs.washington.edu/homes/magda">Magda</a>, and 
+		<a href="http://www.cs.washington.edu/homes/mernst">Michael</a>), we designed and implemented a modified version of 
+the Hadoop MapReduce framework for efficiently support data-intensive iterative data analysis.  A
+		<a href="papers/HaLoop_camera_ready.pdf">paper</a> describing HaLoop system is in
+		<a href="http://www.vldb2010.org/">VLDB 2010</a>.  
+HaLoop also got sponsored by <a href="http://labs.yahoo.com/ksc">Yahoo! KSC Program</a> !</li>
+		<li class="s1">In the past, I also worked on stream monitoring (a 
+		<a href="papers/sigkdd09anomaly.pdf">paper</a> in KDD 2009 and a 
+		<a href="papers/sdm2007_discords_camera-ready.pdf">paper</a> in SDM 2007), and data privacy (a 
+		<a href="papers/privacy.pdf">paper</a> in VLDB 2008). </li>
+</ul>
+	
+<H1> Publications (<a href="http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/b/Bu:Yingyi.html">dlbp 
+entry</a>)</H1>
+    
+<div class="paper-s1">
+    <div class="title">
+        	A Bloat-Aware Design for Big Data Applications [<a href="papers/issm-bu.pdf">PDF</a>][<a href="https://docs.google.com/presentation/d/1LXi07DA2OKmi7VNkjkKzBO89U1VWpFhT48Iu7gQzcjw/edit?usp=sharing">PPT</a>][<a href="http://www.importnew.com/5061.html">An independent Chinese translation</a>]
+        <br />
+        <span class="auto-style3">(<span class="auto-style2"><em>Open-source systems using our design paradigm: <a href="https://asterix.ics.uci.edu">AsterixDB</a>, <a href="http://code.google.com/p/hyracks">Hyracks</a>, <a href="http://www.hyracks.org/projects/pregelix">Pregelix</a></em></span> )</span></div>
+    <div class="authors">
+            <strong>Yingyi Bu</strong>, Vinayak Borkar, Guoqing Xu, and Michael J. Carey
+    </div>
+    <div class="conf">
+        	In Proceedings of the 2013 ACM SIGPLAN International Symposium on Memory Management (<span class="auto-style5"><strong>ISMM 2013</strong></span>)
+    </div>
+    <div class="location">
+        	 Seattle, WA, June 20-21, 2013.
+    </div>
+</div>
+
+<div class="paper-s0">
+        <div class="title">
+        	Declarative Systems for Large-Scale Machine Learning [<a href="http://sites.computer.org/debull/A12june/declare.pdf">PDF</a>]
+	</div>        
+	<div class="authors">
+        Vinayak Borkar, <strong>Yingyi Bu</strong>, Michael J. Carey, Joshua Rosen, Neoklis Polyzotis, Tyson Condie, Markus Weimer, Raghu Ramakrishnan
+        </div>
+        <div class="conf">
+        	 IEEE Data Engineering Bulletin. Volume 35, Number 2, June 2012</span>
+        </div>
+</div>
+
+<div class="paper-s1">
+        <div class="title">
+        	The HaLoop Approach to Large-Scale Iterative Data Analysis [<a href="papers/haloop-vldb2012.pdf">PDF</a>][<a href="http://code.google.com/p/haloop">Implementation</a>]                                                                          
+	</div>        
+	<div class="authors">
+        <strong>Yingyi Bu</strong>, Bill Howe, Magdalenda Balazinska, Michael D. Ernst
+        </div>
+        <div class="conf">
+        	The VLDB Journal (<span class="auto-style5"><strong>VLDBJ</strong></span>), Volume 21, Number 2, April 2012.</span>
+        </div>
+</div>
+
+<div class="paper-s0">
+        <div class="title">
+        	Combined Static and Dynamic Automated Test Generation [<a href="http://www.cs.washington.edu/homes/mernst/pubs/palus-testgen-issta2011.pdf">PDF</a>][<a href="http://code.google.com/p/tpalus/">Implementation</a>]
+        </div>
+        <div class="autors">
+        Sai Zhang, David Suff, <strong>Yingyi Bu</strong>, Michael D. Ernst
+        </div>
+        <div class="conf">
+        	In Proceedings of the 11th International Symposium on Software Testing and Analysis 
+			(<span class="auto-style5"><strong>ISSTA 
+			2011</strong></span>)
+        </div>
+        <div class="location">
+        	 Toronto, ON, Canada, July 17 - 21, 2011 (acceptance rate: 35/121=28.9%)
+        </div>
+</div>
+
+<div class="paper-s1">
+        <div class="title">
+        	HaLoop: Efficient Iterative Data Processing on Large Clusters [<a href="papers/HaLoop_camera_ready.pdf">PDF</a>][<a href="papers/vldb2010.ppt">PPT</a>][<a href="http://www.slideshare.net/yingyib/haloop">Talk 
+			in Berkeley</a>][<a href="http://code.google.com/p/haloop">Implementation</a>]
+			<br />
+			<span class="auto-style3">(<span class="auto-style2"><em>selected 
+			for Best of VLDB 2010 issue of VLDB Journal</em></span> )</span></div>                                                                          
+        <div class="authors">
+        <strong>Yingyi Bu</strong>, Bill Howe, Magdalenda Balazinska, Michael D. Ernst
+        </div>
+        <div class="conf">
+        	In Proceedings of the 36th International Conference on Very Large Data Bases (<span class="auto-style5"><strong>VLDB 
+			2010</strong></span>)
+        </div>
+        <div class="location">
+        	Singapore, 11-17 September, 2010. (Acceptance Rate: 33/204 = 16.1%)
+        </div>
+</div>
+
+
+<div class="paper-s0">
+        <div class="title">
+        	Efficient Anomaly Monitoring Over Moving Object Trajectory Streams [<a href="papers/sigkdd09anomaly.pdf">PDF</a>][<a href="papers/kdd09.ppt">PPT</a>][<a href="papers/anomaly.zip">Source 
+			Code</a>][<a href="repository/index.html">Dataset</a>]</div>
+        <div class="authors">
+        <strong>Yingyi Bu</strong>, Lei Chen, Ada Wai-Chee Fu, Dawei Liu
+        </div>
+        <div class="conf">
+        	In Proceedings of the 15th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (<span class="auto-style5"><strong>KDD 
+			2009</strong></span>)
+        </div>
+        <div class="location">
+        	 Paris, France, June 28-July 1, 2009. (Acceptance Rate: 105/537 = 19.6%)
+        </div>
+</div>
+
+<div class="paper-s1">
+    <div class="title">
+		Privacy Preserving Serial Data Publishing By Role Composition [<a href="papers/privacy.pdf">PDF</a>][<a href="http://www.cse.ust.hk/~raywong/ppt/serial.ppt">PPT</a>][<a href="http://www.cse.ust.hk/~raywong/code/serial-pub1.zip">Source 
+		Code</a>][<a href="http://www.hc-sc.gc.ca/dhp-mps/medeff/databasdon/index_e.html">Dataset 
+		Link</a>]</div>
+	<div class="authors">
+    <strong>Yingyi Bu</strong>, Ada Wai-Chee Fu, Raymond Chi-Wing Wong, Lei Chen, Jiuyong Li
+    </div>
+    <div class="conf">
+    	In Proceedings of the 34th International Conference on Very Large Data Bases (<span class="auto-style5"><strong>VLDB 2008</strong></span>)
+    </div>
+    <div class="location">
+    	Auckland, New Zealand on 24-30 Aug, 2008.  (Acceptance Rate: 46/273 = 16.8%)  
+    </div>
+</div>
+
+<div class="paper-s0">
+    <div class="title">
+		WAT: Finding Top-K Discords in Time Series Database 
+		[<a href="papers/sdm2007_discords_camera-ready.pdf">PDF</a>][<a href="papers/find_unusual.zip">Source 
+		Code</a>]</div>
+    <div class="authors">
+    <strong>Yingyi Bu</strong>, Tat-Wing Leung, Ada Wai-Chee Fu, Eamonn Keogh, Jian Pei, Sam Meshkin
+    </div>
+    <div class="conf">
+		 In Proceedings of the 2007 SIAM International Conference on Data Mining (<span class="auto-style5"><strong>SDM 
+		 2007</strong></span>)
+    </div>
+    <div class="location">
+    	 Minneapolis, MN, USA, April 26-28, 2007.  (Acceptance Rate: 25%)     
+    </div>
+</div>
+
+
+<H1>System Demos and Posters</H1>
+<div class="paper-s0">
+        <div class="title">
+            Pregelix: Dataflow-Based Big Graph Analytics
+            [<a href="papers/pregelix-poster.pdf">PDF</a>][<a href="http://www.hyracks.org/projects/pregelix">Open-source System</a>]</div>
+        <div class="authors">
+            <strong>Yingyi Bu</strong>
+        </div>
+        <div class="conf">
+            In Proceedings of the 2013 ACM SIGMOD/SIGOPS Symposium on Cloud Computing (<span class="auto-style5"><strong>SOCC
+                2013</strong></span>)
+        </div>
+        <div class="location">
+            Santa Clara, CA, October 1-3, 2013.
+        </div>
+</div>
+
+<div class="paper-s1">
+        <div class="title">
+            Comparing SSD-placement strategies to scale a Database-in-the-Cloud
+            [<a href="papers/gft-poster.pdf">PDF</a>]</div>
+        <div class="authors">
+            <strong>Yingyi Bu</strong>, Hongrae Lee, Jayant Madhavan
+        </div>
+        <div class="conf">
+            In Proceedings of the 2013 ACM SIGMOD/SIGOPS Symposium on Cloud Computing (<span class="auto-style5"><strong>SOCC
+                2013</strong></span>)
+        </div>
+        <div class="location">
+            Santa Clara, CA, October 1-3, 2013.     
+        </div>
+</div>
+
+<div class="paper-s0">
+    <div class="title">
+		ASTERIX: An Open Source System for "Big Data" Management and Analysis
+		[<a href="http://vldb.org/pvldb/vol5/p1898_sattamalsubaiee_vldb2012.pdf">PDF</a>]</div>
+    <div class="authors">
+    Sattam Alsubaiee, Yasser Altowim, Hotham Altwaijry, Alexander Behm, Vinayak R. Borkar, <strong>Yingyi Bu</strong>, Michael J. Carey, Raman Grover, Zachary Heilbron, Young-Seok Kim, Chen Li, Nicola Onose, Pouria Pirzadeh, Rares Vernica, Jian Wen
+    </div>
+    <div class="conf">
+		 In Proceedings of the 38th International Conference on Very Large Data Bases (<span class="auto-style5"><strong>VLDB 
+			2012</strong></span>)
+    </div>
+    <div class="location">
+    	 İstanbul, Turkey, August 27-31, 2012.     
+    </div>
+</div>
+
+<H1> Honors and Awards</H1>
+    <ul>
+        <li class="s0">2013-2015 Google Fellowship in Structured Data</li>
+        <li class="s0">2013-2014 Facebook Fellowship Finalist</li>
+        <li class="s0">2010 Yahoo! Key Scientific Challenage Award</li>
+    </ul>
+
+<div class = "footer"> 
+<br> Last modified: June 15 2013.
+</div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." :
+"http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost +
+"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2856439-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+
+</body> 
+
+</html>
+
+

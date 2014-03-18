@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<link href="style.css" rel="stylesheet" type="text/css">
+<title>CS117 Spring 2011</title>
+</head>
+
+<body>
+<center>
+<hr width=700>
+<table border=0>
+<tr>
+<td> <img width="300" src="interface.jpg"> </td>      
+<td bgcolor=lightblue align=center width=500>
+<h1> CS 117 <br> Projects in Computer Vision:<br> Visual Interfaces <br> Spring 2011 </h1>
+</table>
+</center>
+<hr width=700>
+
+<br>
+<center>
+[<a href="lec/index.html">Lectures</a>] 
+[<a href="matlab.html">Matlab</a>]
+[<a href="submission.html">Project Submission</a>]
+[<a href="hw/images/">Project Videos</a>] 
+<br>
+[<a href="hw/hw1/index.html">Project1</a>] 
+[<a href="hw/hw2/index.html">Project2</a>] 
+[<a href="hw/hw3/index.html">Project3</a>] 
+[<a href="hw/hw4/index.html">Project4</a>]
+[<a href="hw/hw5/index.html">Project5</a>] 
+</center>
+<br>
+
+
+<p><span class="h2"> Administrivia </span></p>
+<table>
+<tr>
+<td class="head">Instructor:
+<td colspan=6> 
+<a href = "http://www.ics.uci.edu/~dramanan/index.html">Deva Ramanan</a> (dramanan@ics.uci.edu)
+<tr> <td class="head"> Mailing list:
+<td colspan=6> <a href="mailto:cs216-F09@classes.uci.edu"> cs117-S11@classes.uci.edu </a>
+<tr> <td class="head">Lectures:
+<td> T,R <td> 11:00-12:20pm <td> <a href="https://eee.uci.edu/toolbox/roomfinder/room.php?building_abbr=RH"> RH </a> <td> 190
+<tr> <td class="head">Office hours:
+<td> W <td> 12:30-2:00pm <td> <a href="https://eee.uci.edu/toolbox/roomfinder/room.php?building_abbr=DBH"> DBH</a> <td> 4072 <td> (or by appointment)
+<!-- <tr> <td class="head"> Final (6/10):
+<td> R <td> 10:30-12:30pm <td> ICS <td> 253 !-->
+</table>
+
+<p><span class="red">News:</span>
+<ul>
+<li> No class on Thursady, April 14.
+</ul>
+
+
+<p><span class="h2"> Course overview </span>
+<p> This project-based class will focus on the algorithmic design and implementation of vision-based interfaces. Lectures will cover the background for feature extraction from video frames, motion-processing, face and hand tracking, and gesture recognition. Students will be expected to implement algorithms through a series of 5 homework assignment. Students will be required to work in MATLAB for the homework assignments.
+
+<p><span class="h2"> Prerequisites </span>
+<p> CS 116 and the following undergraduate courses or their equivalent: ICS 6D/Mathematics 6D, Mathematics 6G or 3A, Mathematics 2A-B, ICS 23, or permission of the instructor.
+
+<p><span class="h2"> The required course materials are available online</span>
+<ul>
+<p><li> <a href="http://research.microsoft.com/en-us/um/people/szeliski/Book/">Computer Vision: Algorithms and Applications</a> by Szeliski. Book in progress with online draft.
+<p><li> <a href="http://proquest.safaribooksonline.com/9780596516130"> Learning OpenCV </a> by Bradski. Free online access from on-campus. Access from off-campus via the <a href="https://vpn.nacs.uci.edu/">web-based VPN</a>.
+</ul>
+
+<p><span class="h2"> Recommended course materials (all in course reserves at Library) </span>
+<lu>
+<p><li> <em>Computer Vision, A Modern Approach</em> by Forsyth and Ponce. Modern text on computer vision.
+<p><li> <em> Robot Vision </em> by Horn. Classic text on machine vision.
+</ul>
+
+<p><span class="h2"> Grading </span>
+<p> 5 projects worth 20% each. Projects handed in 24 hours early will get 10% extra credit on the assignment (e.g. if the assignment is worth 100 points you will get 10 pts extra credit). Each project will require writing code in <a href="matlab.html">MATLAB</a>, which is available on about 34 machines in the CS 364 lab - the machines are in 3 rows front of the lab assistant's desk and to the left of this desk as you face away from it. 
+
+
+<p><span class="h2">Academic honesty</span>
+<p> Homeworks can be discussed, but each student must independently write up their own solutions. In particular, no sharing of code. Please see the university policy on academic honesty. It is fine to use reference materials found online, but do not search for homework solutions. Rather, students are strongly encouraged to ask questions at both office hours and on the class discussion group. 
+
+<p><span class="h2">Acknowledgemnts</span> 
+<p>I gladly acknowledge a host of other instructors for making their teaching materials available online.
+</body> </html>
+

@@ -1,0 +1,265 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<title>UBICOMP 290: Patterson : Recent Research in Ubiquitous Computing</title>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="MSHTML 6.00.2900.2722" name=GENERATOR>
+<link href="styleSheet.css" rel="stylesheet" type="text/css" media="all">
+<style type="text/css">
+<!--
+
+.style10 {color: #976C6D}
+.style12 {color: #00FF00}
+-->
+        </style>
+</head>
+<body>
+<h2 align="center">UBICOMP 290 (INF 290) Fall 2007 </h2>
+<h2 align="center"> Software Systems in Ubiquitous Computing</h2>
+<div class="box">
+  <p class="style7">This reading group will review  literature in the Ubiquitous, Pervasive, CHI and other  related communities. The emphasis   will be on developing
+    a familiarity with trends and directions being developed by active
+    researchers.  This is PowerPoint unfriendy meeting. This is also a forum for students to present practice talks and get feedback as the need arises (PP allowed in that case). On the weeks when papers are presented, they are presented by attenders. This
+    class is being moderated by Nick Noack and  <a href="http://www.ics.uci.edu/~djp3/">Asst. Prof. Don Patterson</a> </p>
+  <p class="style7">This quarter we will be looking at papers from the Pervasive 2007 conference in Innsbruck, Austria. </p>
+  <p class="style7">Class meeting time is Thursday 12:30 -1:30 DBH 5011 </p>
+  <p class="style7">The course code is 37307.  If you are a student please register, although if that's a problem don't let it prevent you from coming anyway</p>
+  <p class="style7">Last quarter's web page is <a href="http://www.ics.uci.edu/~djp3/classes/2007_04_02_INF290/index.html">here</a>. </p>
+  <p class="style7">Thanks to Mo we have links to the papers below and the <a href="https://eee.uci.edu/toolbox/dropbox/index.php?op=openfolder&folder=104597">course drop box</a> has a pair of zip files with all the papers in them.</p>
+</div>
+<h3 align="center" class="style7">Reading Schedule</h3>
+<TABLE width="100%" border="1" align="center" style="BORDER-COLLAPSE: collapse; TEXT-ALIGN: center; background-color: #FFFFFF; color: #68737E;">
+  <TBODY>
+    <TR	 style="BORDER-TOP: black 1px solid">
+      <TH colSpan=2><span class="style10">Week of </span></TH>
+      <TH><span class="style10">Paper</span></TH>
+      <TH><span class="style10">Lead Discusser </span></TH>
+      <TH><span class="style10">Source</span></TH>
+      <TH><span class="style10">Comments</span></TH>
+    </TR>
+    <TR bgcolor="#CCCCCC"  style="BORDER-TOP: black 1px solid">
+      <TD><span class="style9">1</span></TD>
+      <TD><span class="style9">10/4/2007</span></TD>
+      <TD style="COLOR: green; TEXT-ALIGN: center"><span class="style9">Organizational Meeting </span></TD>
+      <TD>Nick Noack</TD>
+      <TD>&nbsp;</TD>
+      <TD>&nbsp;</TD>
+    </TR>
+    <TR bgcolor="#CCCCCC" style="BORDER-TOP: black 1px solid">
+      <TD><span class="style9">2</span></TD>
+      <TD>10/11/2007</TD>
+      <TD style="COLOR: green; TEXT-ALIGN: center">&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD bgcolor="#B9CCBD">&nbsp;</TD>
+      <TD bgcolor="#B9CCBD">&nbsp;</TD>
+      <TD bgcolor="#B9CCBD"><p>Movement-based Group Awareness with Wireless Sensor Networks 
+<a href="http://www.springerlink.com/content/e8w02u403775m780/">(Springer)</a>
+<a href="http://eprints.eemcs.utwente.nl/9261/01/TR-CTIT-07-06.pdf">(Direct)</a>
+</p>
+      <p>Virtual Walls: Protecting Digital Privacy in Pervasive Environments <a href="http://www.springerlink.com/content/a651245g33k62p72/">(Springer)</a>
+
+<a href="http://www.cs.dartmouth.edu/~akapadia/papers/walls_pervasive07.pdf">(Direct)</a></p></TD>
+      <TD bgcolor="#B9CCBD"><p>Daniel</p>
+      <p>Silvia</p></TD>
+      <TD bgcolor="#B9CCBD">Pervasive 2007</TD>
+      <TD bgcolor="#B9CCBD" class="style7">&nbsp;</TD>
+    </TR>
+    <TR bgcolor="#CCCCCC" style="BORDER-TOP: black 1px solid">
+      <TD><span class="style9">3</span></TD>
+      <TD>10/18/2007</TD>
+      <TD style="COLOR: green; TEXT-ALIGN: center">&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD bgcolor="#B9CCBD">&nbsp;</TD>
+      <TD bgcolor="#B9CCBD">&nbsp;</TD>
+      <TD bgcolor="#B9CCBD"><p>Objects Calling Home: Locating Objects Using Mobile Phones <a href="http://www.springerlink.com/content/m1m677872950v814/">(Springer)</a>
+</p>
+      </TD>
+      <TD bgcolor="#B9CCBD"><p>David</p>
+      </TD>
+      <TD bgcolor="#B9CCBD">Pervasive 2007</TD>
+      <TD bgcolor="#B9CCBD">&nbsp;</TD>
+    </TR>
+    <TR bgcolor="#CCCCCC"  style="BORDER-TOP: black 1px solid">
+      <TD><span class="style9">4</span></TD>
+      <TD>10/25/2007</TD>
+      <TD>&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD bgcolor="#B9CCBD"></TD>
+      <TD bgcolor="#B9CCBD"></TD>
+      <TD bgcolor="#B9CCBD"><p>Combining Web, Mobile Phones and Public Displays in Large-Scale: Manhattan Story Mashup <a href="http://www.springerlink.com/content/v547442t5746m7h7/">(Springer)</a> <a href="http://www.storymashup.org/msm-pervasive07.pdf">(Direct)</a></p>
+        <p>Trust, privacy and relationships in &lsquo;pervasive education&rsquo;: Families&rsquo; views on managing homework through technologies <a href="http://www.springerlink.com/content/j714148w0367twh5/">(Springer)</a></p>
+      </TD>
+      <TD bgcolor="#B9CCBD"><p>Mo</p>
+        <p>Lily</p>
+      </TD>
+      <TD bgcolor="#B9CCBD">Pervasive 2007</TD>
+      <TD bgcolor="#B9CCBD">&nbsp;</TD>
+    </TR>
+    <TR bgcolor="#CCCCCC"  style="BORDER-TOP: black 1px solid">
+      <TD><span class="style9">5</span></TD>
+      <TD>11/1/2007</TD>
+      <TD style="COLOR: green; TEXT-ALIGN: center">&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD bgcolor="#B9CCBD">&nbsp;</TD>
+      <TD bgcolor="#B9CCBD">&nbsp;</TD>
+      <TD bgcolor="#B9CCBD"><p><span class="style9">Portable, But Not Mobile: A Study of Wireless Laptops in the Home </span><a href="http://www.springerlink.com/content/7w2382202197853p/">(Springer)</a> <a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2006/EECS-2006-88.pdf">(Direct)</a></p>
+        <p>&nbsp;</p>
+      </TD>
+      <TD bgcolor="#B9CCBD"><p>Sam </p>
+        <p>&nbsp;</p>
+      </TD>
+      <TD bgcolor="#B9CCBD">Pervasive 2007</TD>
+      <TD bgcolor="#B9CCBD">&nbsp;</TD>
+    </TR>
+    <TR bgcolor="#CCCCCC" style="BORDER-TOP: black 1px solid">
+      <TD><span class="style9">6</span></TD>
+      <TD>11/8/2007</TD>
+      <TD style="COLOR: green; TEXT-ALIGN: center">&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD bgcolor="#B9CCBD">&nbsp;</TD>
+      <TD bgcolor="#B9CCBD">&nbsp;</TD>
+      <TD bgcolor="#B9CCBD"><p>Inference Attacks on Location Tracks <a href="http://www.springerlink.com/content/tg64551rw2716103/">(Springer)</a> <a
+href="http://research.microsoft.com/users/jckrumm/Publications%202007/inference%20attack%20refined02%20distribute.pdf">(Direct)</a></p>
+      </TD>
+      <TD bgcolor="#B9CCBD"><p>Daniel</p>
+      </TD>
+      <TD bgcolor="#B9CCBD">Pervasive 2007</TD>
+      <TD bgcolor="#B9CCBD">&nbsp;</TD>
+    </TR>
+    <TR bgcolor="#CCCCCC" style="BORDER-TOP: black 1px solid">
+      <TD><span class="style9">7</span></TD>
+      <TD>11/15/2007</TD>
+      <TD style="COLOR: green; TEXT-ALIGN: center">&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD><p>Shake well before use: Authentication based on Accelerometer Data <a href="http://www.springerlink.com/content/3731306g60h67644/">(Springer)</a> <a
+href="http://www.mayrhofer.eu.org/downloads/publications/Pervasive2007-Shake-Well-Before-Use.pdf">(Direct)</a></p>
+        <p>Augmenting, Looking, Pointing and Reaching Gestures to Enhance the Searching and Browsing of Physical Objects <a href="http://www.springerlink.com/content/l3115q8206481846/">(Springer)</a> <a
+href="http://ambient.media.mit.edu/assets/_pubs/dmerrill_maes-augmenting.pdf">(Direct)</a></p>
+      </TD>
+      <TD><p>Sharon</p>
+        <p>Mo</p>
+      </TD>
+      <TD>Pervasive 2007</TD>
+      <TD><span class="style12">updated 11/14/2007 </span></TD>
+    </TR>
+    <TR bgcolor="#CCCCCC"  style="BORDER-TOP: black 1px solid">
+      <TD><span class="style9">8</span></TD>
+      <TD>11/22/2007</TD>
+      <TD style="COLOR: green; TEXT-ALIGN: center">&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD><p>PersonisAD: Distributed, Active, Scrutable Model Framework for Context-Aware Services <a href="http://www.springerlink.com/content/kr08827t3h732343/">(Springer)</a></p>
+        <p>Using Ground Reaction Forces from Gait Analysis: Body Mass as a Weak Biometric <a href="http://www.springerlink.com/content/w5l51g1076202857/">(Springer)</a></p>
+      </TD>
+      <TD><p>Sam</p>
+        <p>David</p>
+        <p>&nbsp;</p></TD>
+      <TD>Pervasive 2007</TD>
+      <TD>&nbsp;</TD>
+    </TR>
+    <TR bgcolor="#CCCCCC"  style="BORDER-TOP: black 1px solid">
+      <TD><span class="style9">9</span></TD>
+      <TD>11/29/2007</TD>
+      <TD style="COLOR: green; TEXT-ALIGN: center">Thanksgiving Break </TD>
+      <TD>&nbsp;</TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD><p>&nbsp;</p>
+      </TD>
+      <TD><p>&nbsp;</p>
+      </TD>
+      <TD>&nbsp;</TD>
+      <TD>&nbsp;</TD>
+    </TR>
+    <TR bgcolor="#CCCCCC" style="BORDER-TOP: black 1px solid">
+      <TD><span class="style9">10</span></TD>
+      <TD>12/6/2007</TD>
+      <TD style="COLOR: green; TEXT-ALIGN: center">&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD></TD>
+      <TD></TD>
+    </TR>
+    <TR>
+      <TD>&nbsp;</TD>
+      <TD>&nbsp;</TD>
+      <TD class="style9"><p>Managing communication availability and interruptions: A Study of Mobile Communication in an Oncology Department <a href="http://www.springerlink.com/content/fu45n0tj14m64530/">(Springer)</a></p>
+        <p>Assessing and optimizing the range of UHF RFID to enable real-world pervasive computing applications <a href="http://www.springerlink.com/content/nh8645q417003qx4/">(Springer)</a></p>
+      </TD>
+      <TD><p>Lily</p>
+        <p>Nick</p>
+      </TD>
+      <TD>Pervasive 2007</TD>
+      <TD>&nbsp;</TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<div class="box">
+  <p>Next quarter:</p>
+  <p>TrackSense: Infrastructure Free Precise Indoor Positioning using Projected Patterns <a href="http://www.springerlink.com/content/d3672332667883j2/">(Springer)</a> <a href="http://people.inf.ethz.ch/mkoehler/papers/Pervasive07.pdf">(Direct)</a></p>
+  <p>Evaluating a Wearable Display Jersey for Augmenting Team Sports Awareness <a href="http://www.springerlink.com/content/bw6g5815g8143673/">(Springer)</a> <a href="http://people.arch.usyd.edu.au/~andrew/publications/pervasive07.pdf">(Direct)</a></p>
+  <p>An Exploration into Activity-Informed Physical Advertising Using PEST <a href="http://www.springerlink.com/content/u5692h972h232382/">(Springer)</a></p>
+  <p>&nbsp;</p>
+</div>
+<HR>
+<ADDRESS>
+<a href="http://luci.ics.uci.edu/">LUCI</a>
+</ADDRESS>
+<ADDRESS>
+<A href="http://www.ics.uci.edu/">Information and Computer 
+Science</A><BR>
+<A href="http://www.uci.edu/">University of California, 
+Irvine</A><BR>
+Irvine, CA 92697-3425
+</ADDRESS>
+<p> <a href="http://validator.w3.org/check?uri=referer"><img
+        src="http://www.w3.org/Icons/valid-html401"
+        alt="Valid HTML 4.01 Transitional" height="31" width="88"></a> </p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+		
+</BODY>
+</HTML>
+

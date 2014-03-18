@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>Kasper Bonne Rasmussen - about</title>
+<meta name="keywords" content="Kasper Bonne Rasmussen UCI post-doc distance bounding">
+<meta name="description" content="This is Kasper Bonne Rasmussen's homepage. Kasper is a post-doc at UCI in California.">
+<link href="default.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="/~kbrasmus/favico.gif" type="image/gif">
+</head>
+
+<body>
+
+<div id="header">
+
+<div id="logo">
+<h1><a href="/~kbrasmus/">Kasper</a></h1>
+<h2>Dr. Kasper Bonne Rasmussen</h2>
+</div>
+
+<div id="menu">
+<ul>
+<li class="active"><a href="/~kbrasmus/">about</a>
+<li><a href="publications.html">publications</a>
+<li><a href="pgp-key.html">pgp-key</a>
+<li><a href="contact.html">contact</a>
+</ul>
+</div>
+
+</div> <!-- #header -->
+
+<div id="wrapper">
+<div id="page">
+
+<div id="content">
+
+<p class="notice">This page is no longer being maintained. For up to date information please refer to my <a href="http://www.cs.ox.ac.uk/people/kasper.rasmussen/">Oxford University webpage</a>.</p>
+
+<div class="post">
+<h1>About Kasper</h1> 
+<p>I completed my masters degree in Computer Science (Information
+technology and Mathematics) from the Technical University of Denmark
+(DTU) in December 2005. My masters thesis was on optimization of path
+protection in circuit switched networks.</p>
+<p>In January 2011, I got my Ph.D. from the Department of Computer
+Science at ETH Zurich. During my Ph.D. I worked on various security
+issues including secure time synchronization and secure localization
+with a particular focus on distance bounding.</p>
+<p>I'm currently working with Gene Tsudik as a post-doc at University
+of California, Irvine.  My research interests include security of
+wireless networks; security of embedded and cyber-physical systems,
+including smart grid nodes and hand held devices; and applied
+cryptography.</p>
+</div> <!-- post -->
+
+</div> <!-- content -->
+
+
+<div style="clear: both;">&nbsp;</div>
+
+</div> <!-- page -->
+</div> <!-- wrapper -->
+
+<div id="footer">
+<p id="legal">(c) 2011, Kasper Bonne Rasmussen.</p>
+</div>
+
+</body>
+</html>
+

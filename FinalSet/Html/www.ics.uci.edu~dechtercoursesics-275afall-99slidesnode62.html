@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Exploiting  ECLiPSe
+  Features</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Exploiting  ECLiPSe
+  Features">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html2992 HREF="node63.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html2990 HREF="node57.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html2986 HREF="node61.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html2994 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html2993 HREF="node63.html"> The Compiler</A>
+<B>Up:</B> <A NAME=tex2html2991 HREF="node57.html"> Porting Applications to  </A>
+<B> Previous:</B> <A NAME=tex2html2987 HREF="node61.html"> Porting Programs to </A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION00530000000000000000> Exploiting  ECLiPSe
+  Features</A></H1>
+<P>
+When rewriting existing applications as well as when writing new programs,
+it is useful to bear in mind important <A NAME=tex2html241 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  features which can make
+programs easier to write and/or faster:
+<UL><LI> The maximum performance is obtained when calling <b> nodbgcomp/0</b>
+at the beginning of the session, before compiling any program and loading
+any libraries.
+<P>
+<LI> <A NAME=tex2html242 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  arrays and global variables (<b> setval/2, getval/2</b>) are usually
+more suitable to store permanent data than <b> assert/1</b> is, and are usually
+faster.
+See also Chapter 8 in [<A HREF="node322.html#sepcustom">17</A>].
+<P>
+<LI> There are various libraries that make the use of <A NAME=tex2html243 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  features
+more straightforward, e.g. <b> structures.pl</b>, <b> define.pl</b>,
+<b> ifdef.pl</b>, <b> apply_macros.pl</b>, <b> check.pl</b> etc.
+<P>
+<LI> The predicates <b> get_flag/2</b>, <b> get_flag/3</b>,
+<b> get_file_info/3</b>, <b> get_stream_info/3</b>, <b> get_var_info/3</b>
+give a lot of useful information about the system and the data.
+<P>
+<LI> The <A NAME=tex2html244 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  macros often help to solve syntactic problems
+(see chapter <A HREF="node149.html#chapmacros"><IMG ALIGN=BOTTOM ALT="gif" SRC="http://www.ecrc.de/eclipse/new_icons//cross_ref_motif.gif"></A>).
+<P>
+<LI> The <A NAME=tex2html245 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  debugger has also many useful commands (j, A, v, z, o, q, M)
+not available in other systems.
+See also chapter <A HREF="#chapdebug"><IMG ALIGN=BOTTOM ALT="gif" SRC="http://www.ecrc.de/eclipse/new_icons//cross_ref_motif.gif"></A>.
+<P>
+<LI> Even problems which seemingly require modification of the
+<A NAME=tex2html246 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  sources in order to change its behaviour,
+can very often be solved just at the Prolog level, by a combined
+use of available features.
+The Guide to Advanced Programming gives some examples, but there
+are many more possibilities than could be shown there.
+<P>
+</UL><BR> <HR><A NAME=tex2html2992 HREF="node63.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html2990 HREF="node57.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html2986 HREF="node61.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html2994 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html2993 HREF="node63.html"> The Compiler</A>
+<B>Up:</B> <A NAME=tex2html2991 HREF="node57.html"> Porting Applications to  </A>
+<B> Previous:</B> <A NAME=tex2html2987 HREF="node61.html"> Porting Programs to </A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

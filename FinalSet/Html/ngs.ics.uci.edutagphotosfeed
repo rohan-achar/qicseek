@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/photos/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Photos are about Events</title>
+		<link>http://ngs.ics.uci.edu/photos-are-about-events/</link>
+		<comments>http://ngs.ics.uci.edu/photos-are-about-events/#comments</comments>
+		<pubDate>Thu, 07 Jul 2011 06:31:36 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[events]]></category>
+		<category><![CDATA[Instagram]]></category>
+		<category><![CDATA[Kodak Moment]]></category>
+		<category><![CDATA[photo sharing]]></category>
+		<category><![CDATA[Photos]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1358</guid>
+		<description><![CDATA[When you see something interesting happening, you take out your camera, now your mobile phone, and click. And that becomes your secondary visual memory. Clicking your phone camera is effortless and costs you almost zero. So now you take many&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>When you see something interesting happening, you take out your camera, now your mobile phone, and click.  And that becomes your secondary visual memory.  Clicking your phone camera is effortless and costs you almost zero.  So now you take many more photos than you used to just a few years ago.  The only hesitation is the thought that what will people say.  Soon you will never think about other people also &#8212; because this will be as common as carrying mobile phones.</p>
+<p>This is not a secret that photo-sharing has been one of the most popular apps area in the last few months.  The number of photo-sharing apps, led by Instagram and others, on smart phones is growing faster than anything you know or expected. Clearly, there is strong demand for it and if Google + and new Facebook focus are any indication, this will only result in more people sharing more photos.  </p>
+<p>However, only 1 in 10 or even smaller fraction of photos are ever shared.  Like wine, photos become more valuable as they age.  The take you back in time, they remind you of people, events, and places, and they help you reflect and reanalyze things.  With mobile phones, photos are also becoming as important as pen and your notebook used to be for taking notes.  And at the rate people take photos now, they soon face problems in managing those.  Most of my friends request me to send photos that I take at events.  And I confess that I am pretty bad in responding to their requests.  It is not easy to remember to go back fine their photos and send it to them or share those.  So what you do when you get a request to send a photo by a friend &#8212; you spend 15 minutes looking for the photo???  How do you usually remember where that photo could be.  It is usually the event &#8212; where you were with the person.  Now you need to locate photos of the event.  When thinking about this &#8212; it becomes clear that photos are our record of events.</p>
+<p>In fact, in a true sense photos capture and record events or events are manifested by or come alive in photos.  Just think about how you create albums and you will find that they are based on trips, birthdays, wedding, conferences, concerts, festivals and so on.  Albums are mostly about events.</p>
+<p>It is surprising that most photo management as well as photo sharing systems do not recognize this important fact.  Most photo sharing and photo organizing systems consider photos, people, places, objects, and events in the deceasing order of importance.  In fact the order should be events, people, objects, places, and photos.  A photo is worthless if it is not linked to an event, a person, an object or a place.  Most important of all:  Photos are about events.  Rememer &#8212; Kodak popularized &#8216;Kodak Moment&#8217; to emphasize that moment in an event.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/photos-are-about-events/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Photos are more than Fleeting experiences</title>
+		<link>http://ngs.ics.uci.edu/photos-are-more-than-fleeting-experiences/</link>
+		<comments>http://ngs.ics.uci.edu/photos-are-more-than-fleeting-experiences/#comments</comments>
+		<pubDate>Tue, 03 May 2011 06:51:36 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Entrepreneurism]]></category>
+		<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[mobile phone photos]]></category>
+		<category><![CDATA[Photos]]></category>
+		<category><![CDATA[Photosharing]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1328</guid>
+		<description><![CDATA[If one looks at all the emerging photo services that are built using confluence of mobile phone cameras, Internet, and social networks then one may start thinking that photos, and visual memory, is a fleeting experience. From Instagrams of the&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>If one looks at all the emerging photo services that are built using confluence of mobile phone cameras, Internet, and social networks then one may start thinking that photos, and visual memory, is a fleeting experience.  From Instagrams of the world to PicPlz, Path, Color, and many many more systems that emerged in the last several months and even gained significant buzz are implicitly based on an assumption that people believe in &#8216;shoot-share-forget&#8217; about photos.  They will spontaneously shoot a photo because they have their mobile phone camera with them and then share it with one or more people and thats the end of the life of a photo.</p>
+<p>The beauty of the photo, unlike sound, is that it represents exeperience of a moment and many of those moments are considered extremely precious, some are not as precious but are still precious enough for people to reminisce them by using photos.  After the current fad of &#8216;shoot-share-forget&#8217; disappears soon, people will go back to collecting their visual memories which are to be shared but are also to be treasured as ones life&#8217;s pleasent moments.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/photos-are-more-than-fleeting-experiences/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Photos 4: A disruptive change in communication</title>
+		<link>http://ngs.ics.uci.edu/photos-4-a-disruptive-change-in-communication/</link>
+		<comments>http://ngs.ics.uci.edu/photos-4-a-disruptive-change-in-communication/#comments</comments>
+		<pubDate>Sun, 02 Jan 2011 02:45:04 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Technical Thoughts]]></category>
+		<category><![CDATA[communication]]></category>
+		<category><![CDATA[Photos]]></category>
+		<category><![CDATA[visual tweets]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1311</guid>
+		<description><![CDATA[Mobile Phone Cameras are changing the nature of information as well as experiences. They are bridging the gap between information and experiences. This gap was created by absence of technology to capture, store, and share experiences. Since there was no&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>Mobile Phone Cameras are changing the nature of information as well as experiences.  They are bridging the gap between information and experiences.  This gap was created by absence of technology to capture, store, and share experiences.  Since there was no such technology and the need was compelling, people innovated different means.  Writing and then printing technology was developed to meet these needs and has dominated our culture.  Advances in technology has now brought us to the point that we can appropriately use information and experiences and combine them as may be required to make our communication compelling and efficient.  Mobile Phone Camera technology was an essential missing component in this evolution.  </p>
+<p>First came the digital camera revolution which brought inexpensive point and shoot cameras that allowed people to take pictures easily.  But these cameras were an added hardware to carry â€“ and few carried such cameras.  The combination of cameras with phone meant that one could capture, store, and share pictures using a device that they already have become used to carrying with them.  This has long term implications.  Fewer people are already carrying a pen.  People take photos of things they want to remember â€“ in stead of taking notes using a pen.</p>
+<p>The evolution of photo management system is naturally tied to the technology for capture and storage.  Until recently, systems were being developed to organize photos in different â€˜albumsâ€™ based on events, places, and people.    Now applications to instantly share experiences using â€˜visual tweetsâ€™ are being developed.  Interestingly, most such systems (instagrams, picplz, fxcamera, â€¦) allow people to do simple image processing to increase â€˜expressivenessâ€™ of the these visual tweets.  Some systems (path, deepvue, â€¦)  are allowing to share and store these â€˜instancesâ€™ into diary.  A fundamental shift is suggested by all these systems â€“ sharing your â€˜momentsâ€™ using visual experiences rather than articulated text.  Pictures are easy to take (though attaching captions takes away the efficiency at least in part) compared to typing tweets using mobile devices and are more effective in communicating experiences â€“ as well as information.</p>
+<p>The trend that we are seeing is beginning of a disruptive change in communication.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/photos-4-a-disruptive-change-in-communication/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Photos: Then and Now (2)</title>
+		<link>http://ngs.ics.uci.edu/photos-then-and-now-2/</link>
+		<comments>http://ngs.ics.uci.edu/photos-then-and-now-2/#comments</comments>
+		<pubDate>Thu, 23 Dec 2010 00:15:31 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Technical Thoughts]]></category>
+		<category><![CDATA[Instagram]]></category>
+		<category><![CDATA[Mobile Photos]]></category>
+		<category><![CDATA[Photos]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1305</guid>
+		<description><![CDATA[In my travels, I am amazed how many photos are now being captured using mobile devices. At one time, I thought mobile cameras were just third-class cameras used when you donâ€™t have the real one. In just a few years,&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>In my travels, I am amazed how many photos are now being captured using mobile devices.  At one time, I thought mobile cameras were just  third-class cameras used when you donâ€™t have the real one.  In just a few years, my opinion has changed: mobile cameras are becoming, if not already become,  the real cameras, the other cameras are more specialized devices used only on special occasions.  Mobile cameras are now taking the role of the â€˜penâ€™ that became more powerful than the sword about two century ago.  Mobile cameras are facilitating not only capturing â€˜momentsâ€™, but taking notes, creating stories,  sharing compelling experiences.  The only thing lacking is really a powerful environment to facilitate use of the captured data easily and appropriately.</p>
+<p>Recently many interesting photo applications â€“ most notably Instagrams â€“ have been gaining popularity.  Flickr was good but was developed before mobile cameras started becoming mainstream.  Applications like Instagrams are becoming popular, because they do serve an impulsive sharing need.  I am sure we are going to see many more like those.  But currently, such services are being designed considering a component in the information sharing eco-system that has visual component.  Clearly a nice step.</p>
+<p>But is this the real revolution in use of Mobile cameras?  Somehow it appears like the first step that is like climbing the tallest tree when your ambition is to get to the Moon.  So, the real question is how can we really develop technology eco-system that will take us to the Moon of compelling visual communication for sharing experiences.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/photos-then-and-now-2/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+	</channel>
+</rss>
+

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="description" content="User Interaction: XML and JSON Asst. Professor Donald J. Patterson INF 133 Fall 2009  JSON also structured textalso with a syntax applied it can also represent a huge variety of information It also enables data transport Across systems, languages, and networks So what does JSON look like? JSON  JSON  What is JSON?JSON stands for “JavaScript Object Notation” JSON was designed to pass data around between browsers and servers JSON has no tags, only data JSON has no meta-data JSON  JSON also does not DO AnythingIt is a data format A program must be written to manipulate the data To search the data To display the data To change the data JSON  JSON was developed by people who thought that the meta-data in XML was unnecessary too big too hard to maintain not that valuable JSON  DetailsTwo basic structures object: name/value pairs  think Map array list of values  think List JSON http://json.org/  DetailsThe basic type is a value which can be a string a number an object an array “true” “false” “null” JSON http://json.org/  DetailsObject Delimited by curly braces name/values are separated by colons elements are separated by commas names are always strings values are always values JSON http://json.org/  DetailsArray Delimited by square braces elements are separated by commas elements are always values JSON http://json.org/  DetailsString is UNICODE is always in double quotes uses \ escape sequences JSON http://json.org/  DetailsNumber JSON http://json.org/  DetailsWhite space outside of quotes is ignored JSON http://json.org/  JSON  Supported languages ASP, ActionScript, C, C++,C#,ColdFusion, D, Delphi, E, Eiffel, Erlang, Fan, Flex, Haskell, haXe, Java, JavaScript, Lasso,Lisp,LotusScript, Lua, Objective C, Objective CAML, OpenLaszlo, Perl, PHP, Pike, PL/SQL,PowerShell, Prolog, Pythong, R, Realbasic, Rebol, Ruby, Squeak, Tcl, Visual Basic, Visual FoxPro JSON http://json.org/  On beyond JSON JSON validation tools are easy to findNo defined schema language No built-in namespaces (no meta-data!) No built-in transformation languages JSON  XML is like a Ferrari A Ferrari will get you to Las Vegas faster JSON is like a good bicycle A bicycle can go off-road  XML is beautiful and powerful XML is well-engineered and well-researched JSON is much lighter weight JSON is easier to just get going fast XML vs JSON  JSON is like XML They are both human-readable text They are both hierarchical/ tree-structured Both can be parsed and used in many languages Both can be passed in AJAX requests (despite the X in AJAX) JSON vs XML http://www.secretgeek.net/json_3mins.asp  JSON is different than XML JSON does not have tags JSON is less verbose quicker to write quicker to read quicker to transport JSON can be parsed trivially using the eval() procedure in Javascript JSON has arrays, XML does not XML is extensible JSON usually isn’t JSON vs XML http://www.secretgeek.net/json_3mins.asp  Using either looks like: get the JSON/XML string convert it to a data structure JSON -&gt; eval() XML -&gt; some parse function (lib dependent) Use the data Do not process either type of data by “hand”. input: Use a library to parse the data output: Create the data in native data structures Use a program or method to output the data structure in JSON/XML JSON vs XML http://www.secretgeek.net/json_3mins.asp  Example Represent this as XML JSON There is not an absolutely correct answer to how to interpret this tree in the respective languages. There are multiple ways to interpret what this tree means.  Example"/>
+    <title></title>
+    <script type="text/javascript" language="javascript">
+//      <![CDATA[
+            var images = new Array (23);
+            images[0] = "Lecture08Slides_files/Lecture08Slides.001.png";
+            images[1] = "Lecture08Slides_files/Lecture08Slides.002.png";
+            images[2] = "Lecture08Slides_files/Lecture08Slides.003.png";
+            images[3] = "Lecture08Slides_files/Lecture08Slides.004.png";
+            images[4] = "Lecture08Slides_files/Lecture08Slides.005.png";
+            images[5] = "Lecture08Slides_files/Lecture08Slides.006.png";
+            images[6] = "Lecture08Slides_files/Lecture08Slides.007.png";
+            images[7] = "Lecture08Slides_files/Lecture08Slides.008.png";
+            images[8] = "Lecture08Slides_files/Lecture08Slides.009.png";
+            images[9] = "Lecture08Slides_files/Lecture08Slides.010.png";
+            images[10] = "Lecture08Slides_files/Lecture08Slides.011.png";
+            images[11] = "Lecture08Slides_files/Lecture08Slides.012.png";
+            images[12] = "Lecture08Slides_files/Lecture08Slides.013.png";
+            images[13] = "Lecture08Slides_files/Lecture08Slides.014.png";
+            images[14] = "Lecture08Slides_files/Lecture08Slides.015.png";
+            images[15] = "Lecture08Slides_files/Lecture08Slides.016.png";
+            images[16] = "Lecture08Slides_files/Lecture08Slides.017.png";
+            images[17] = "Lecture08Slides_files/Lecture08Slides.018.png";
+            images[18] = "Lecture08Slides_files/Lecture08Slides.019.png";
+            images[19] = "Lecture08Slides_files/Lecture08Slides.020.png";
+            images[20] = "Lecture08Slides_files/Lecture08Slides.021.png";
+            images[21] = "Lecture08Slides_files/Lecture08Slides.022.png";
+            images[22] = "Lecture08Slides_files/Lecture08Slides.023.png";
+            var index = 0;
+            function WindowLoaded(evt)
+            {
+                document.body.onselectstart = function () { return false; };
+            }
+            function Step(i)
+            {
+                GoTo(index + i)
+            }
+            function GoTo(newIndex)
+            {
+                if(newIndex >= 0 && newIndex < images.length)
+                {
+                    index = newIndex;
+                    document.Slideshow.src = images[index];
+                }
+            }
+//      ]]>
+    </script>
+</head>
+<body bgcolor="black" onload='WindowLoaded(event);'>
+    <p align="center">
+        <br/>
+        <br/>
+        <img name="Slideshow" alt="" src="Lecture08Slides_files/Lecture08Slides.001.png" onclick="Step(1)"/>
+        <br/>
+        <br/>
+        <input type="image" src="Lecture08Slides_files/home.png" onclick="GoTo(0)"/>
+        &nbsp;&nbsp;&nbsp;
+        <input type="image" src="Lecture08Slides_files/prev.png" onclick="Step(-1)"/>
+        <input type="image" src="Lecture08Slides_files/next.png" onclick="Step(1)"/>
+    </p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

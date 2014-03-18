@@ -1,0 +1,295 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+                <title></title>
+                
+                
+                <meta content="Thu, 17 Oct 2013 08:28:02 -0380" name="date"/>
+                
+<link href="../../../bin/styles/stylesheet_secondary.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<!-- before breadcrumb_nav include -->
+ <!-- after breadcrumb_nav include -->
+
+<div id="wrapper">
+<script type="text/javascript">
+
+sfHover = function() {
+    var sfEls = document.getElementById("navcontainer").getElementsByTagName("LI");
+    for (var i=0; i<sfEls.length; i++) {
+        sfEls[i].onmouseover=function() {
+            this.className+=" sfhover";
+        }
+        sfEls[i].onmouseout=function() {
+            this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+        }
+    }
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+</script>
+
+    <div id="header" title="Welcome to the Donald Bren School of Information and Computer Sciences @ UC Irvine">
+
+           <a id="bren_link" href="/"></a>
+
+           <a id="uci_link" href="http://www.uci.edu/"></a>
+
+    </div>
+    
+    
+    <div CLASS="newbar"><p style="line-height: 0px; display: none; "></p></div>
+    
+    
+    <div id="navcontainer">
+
+                
+            <ul>
+                
+                <li>
+                
+                    <a href='/about/' title='about'>&raquo; About</a>              
+
+                    <ul>
+                        <li><a href="/about/">&raquo; About the School</a></li>
+                        <li><a href="/about/about_mission.php">&raquo; Bren ICS Mission</a></li>
+                        <li><a href="/about/about_deanmsg.php">&raquo; Dean's welcome</a></li>
+                        <li><a href="/about/bren/">&raquo; About the Bren gift</a></li>
+                        <li><a href="/about/about_factsfigures.php">&raquo; Facts and figures</a></li>
+                        <li><a href="/about/brenhall/index.php">&raquo; Donald Bren Hall</a></li>
+                        <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                        <li><a href="/about/about_contact.php">&raquo; Contact us</a></li>
+                        <LI><A HREF="/about/equity/">&raquo; Equity & diversity</A></LI>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/dept/' title='departments'>&raquo; Departments</a>
+                    <ul>
+                        <li><a href="http://www.cs.uci.edu">&raquo; Computer Science</a></li>
+                        <li><a href="http://www.informatics.uci.edu">&raquo; Informatics</a></li>
+                        <li><a href="http://www.stat.uci.edu">&raquo; Statistics</a></li>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/faculty/area/' title='research'>&raquo; Research</a>              
+                
+
+                
+                
+                
+                    <ul>
+                        <li><a href="/faculty/area/">&raquo; Research areas</a></li>
+                        <li><a href="/faculty/centers/">&raquo; Research centers</a></li>
+                        <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                    </ul>
+                </li>
+                
+                
+                
+                <li>
+                
+                    <a href='#' title='education'>&raquo; Education</a>              
+
+                    <ul>
+                        <li><a href="/grad/">&raquo; Graduate</a>
+                        
+                            <ul>                        
+                            <li><a href="/grad/admissions/index.php">&raquo; Apply</a></li>
+                            <li><a href="/grad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="http://www.reg.uci.edu/registrar/soc/fees.html">&raquo; Tuition and costs</a></li>
+                            <li><a href="/grad/courses/index.php">&raquo; Courses</a></li>
+                            <li><a href="/grad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/faculty/area/index.php">&raquo; Research areas</a></li>
+                            <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                            <li><a href="/grad/policies/index.php">&raquo; Policies &amp; forms</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/grad/phddirectory/index.php">&raquo; Recruit graduate student</a></li> -->
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->                            
+                            <li><a href="/grad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="http://www.housing.uci.edu/prospective/graduate/index.asp">&raquo; Graduate housing</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="/ugrad/">&raquo; Undergraduate</a>
+                        
+                            <ul>                        
+                            <!-- <li><a href="/ugrad/admissions/index.php">&raquo; Apply</a></li>                       
+                            <li><a href="/ugrad/events/index.php">&raquo; Campus visits</a></li>
+                            -->
+                            <li><a href="http://www.ics.uci.edu/~lab/">&raquo; Computer lab information</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/ugrad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="/ugrad/courses/index.php">&raquo; Course listings</a></li>                     
+                            <li><a href="/ugrad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="/ugrad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/ugrad/financial/index.php">&raquo; Financial aid</a></li>                         
+                            <li><a href="http://honors.ics.uci.edu/">&raquo; Honors program</a></li>
+                            <li><a href="http://www.housing.uci.edu/">&raquo; Housing</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Internship program</a></li>                         
+                            <li><a href="/ugrad/policies/index.php">&raquo; Policies</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->
+                            <!-- <li><a href="http://www.dos.uci.edu/orientation/">&raquo; Recently admitted</a></li> -->
+                            <li><a href="http://student-council.ics.uci.edu/">&raquo; Student Council</a></li>
+                            <li><a href="/ugrad/life/index.php">&raquo; Student life</a></li>   
+                            <li><a href="/ugrad/resources/index.php">&raquo; Student resources</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Summer internships</a></li>
+                            <li><a href="https://techjobs.uci.edu/">&raquo; Tech Jobs</a></li>
+                            <li><a href="http://www.ofas.uci.edu/content/costs.aspx?nav=1">&raquo; Tuition and costs</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li><a href="http://www.ics.uci.edu/prospective">&raquo; Prospective undergrad</a></li>
+
+
+                        <li><a href="http://www.parents.uci.edu/">&raquo; UCI parents</a></li>
+                        
+                                                    
+                    </ul>               
+                </li>
+
+    
+                <li>
+                    
+                    <a href='#' title='people'>&raquo; People</a>                      
+                    
+                
+                    <ul>
+                        <li><a href="/faculty/">&raquo; Faculty</a></li>
+                        <li><a href="/about/search/index.php">&raquo; Staff</a></li>
+                        <li><a href="/about/search/search_graduate_all.php">&raquo; Graduate students</a></li>
+                    </ul>   
+                </li>
+                                
+                
+                <li> 
+                
+                    <span id=specialborder><a href='#' title='community'>&raquo; Community</a></span>                    
+                    <ul>
+                        <li><a href="/community/alumni/">&raquo; Alumni</a></li>
+                        <li><a href="/community/friends/">&raquo; Friends</a></li>
+                        <li><a href="http://www.uadv.uci.edu/parents/">&raquo; Parent programs</a></li>
+                        <li><a href="/community/friends/leadershipcouncil/">&raquo; Leadership Council</a></li>
+                        <li><a href="http://www.uadv.uci.edu/DonaldBrenSchoolOfICSAnnualGiving">&raquo; Make a gift</a></li>
+                        <li><a href="/community/news/">&raquo; News</a></li>
+                    </ul>   
+                </li>
+
+                <li>
+                
+                    <a href='/involved/' title='get involved'>&raquo; Get Involved</a>              
+                
+                
+                    <ul>
+                    
+                            <LI><A HREF="/involved/tech_talk">&raquo; Tech talks</A></LI>
+                            <LI><A HREF="/involved/information_session">&raquo; Information sessions</A></LI>
+                            <!--<LI><A HREF="/involved/">&raquo; Join industry panel</A></LI>-->
+                            <LI><A HREF="/involved/project_class">&raquo; Sponsor projects</A></LI>
+                            <LI><A HREF="/involved/leadership_council">&raquo; Leadership Council</A></LI>
+                            <LI><A HREF="/involved/corporate_partner">&raquo; Corporate Partners</A></LI>
+                            <LI><A HREF="/involved/internship">&raquo; Sponsor interns</A></LI>
+                            <LI><A HREF="https://techjobs.uci.edu/">&raquo; Tech Jobs</A></LI>
+                            <!--<LI><A HREF="">&raquo; Support student groups</A></LI>-->
+                            <LI><A HREF="/community/events/butterworth/">&raquo; Butterworth Competition</A></LI>
+                            
+                    </ul>               
+                </li>
+                
+                    
+
+            </ul>
+
+<style type="text/css">@import url("/bin/icssearchstyle/css/icssearch.css");</style>
+<script src="/bin/icssearchstyle/js/icssearch.js" type="text/javascript"></script>
+<script src="/bin/icssearchstyle/js/icssearchform.js" type="text/javascript"></script>
+
+
+
+    </div>
+<!-- before breadcrumb_nav() print -->
+<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/news/">News</a> &gt; <a href="http://www.ics.uci.edu/community/news/articles/">Articles</a>] --><A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/news/">News</a> &gt; <a href="http://www.ics.uci.edu/community/news/articles/">Articles</a></div>
+<!-- after breadcrumb_nav() print -->
+
+<div id="content"><a id="startcontent" name="startcontent"></a>  
+<div id="content_title"></div>
+
+<blockquote>
+<div id="content_text">
+
+<br/>
+
+<!-- inc publications_db -->
+
+ <strong>March 27,  2007</strong><p><i>Security + Life Safety Systems</i><p><strong>Best and Final Offer Lands Contract</strong><p><strong>By: Russ Munyan</strong><br><p><b>Anderson & Howard Electric comes in with a win</b><p>The University of California, Irvine (UCI), has a proud heritage as a leading educational institution; founded in 1965, the university is consistently ranked by U.S. News & World Report among the nation&rsquo;s best universities. <p>Its achievements have garnered an abundance of national rankings. It is among the top U.S. universities&mdash;public and private&mdash;in the number of undergraduate applications it receives annually. UCI boasts three researchers who have won Nobel Prizes&mdash;most recently in 2004.<p>But perhaps just as appealing to incoming freshmen is that UCI combines the strengths of a major university with the bounty of an incomparable Southern California location. <p>Laguna Beach, only 12 miles away, is always accessible after (or instead of) going to class. Los Angeles is 45 miles north, making it ideal for a day trip and beautiful San Diego is 80 miles to the south. <p>All of its combined accolades place UCI, with its 24,000 students, 1,400 faculty members and 8,300 staff members, among the fastest-growing campuses in the 10-school University of California system.<p>The UCI campus architecture reflects the high standards, which will be further illustrated when it opens its newest building: the six-story, 160,000-square-foot Bren Hall. <p>It will be the new home of the Donald Bren School of Information and Computer Sciences, which was renamed in 2004 in response to Donald L. Bren&rsquo;s $20 million contribution. Bren, who is chairman of The Irvine Co., a real estate development firm, is an area business leader and philanthropist.<p>Bren Hall will accommodate 10 classrooms; four lecture halls; 90 research labs, wet labs and/or research offices; more than 125 administrative offices; and administrative support areas for the school&rsquo;s 62 faculty members and approximately 1,700 students. <p>Originally, the project included two buildings: a six-story office and research facility and a two-story classroom building, for a combined 260,000 square feet.<p>However, when two original design/build competitive bids both came in over budget, the university&rsquo;s Design and Construction Services initiated a Best and Final Offer (BAFO) process.<p>Both of the original design/build teams were invited to redesign the project and resubmit bids that would meet the structure&rsquo;s educational objectives and budget requirements.<p><strong>Go-to contractor</strong><p>Both of the design/ build teams used Anderson & Howard Electric Inc., Irvine, as their lead electrical contractor. Anderson & Howard worked on its first UCI project in 1990, and has continually had crews on campus ever since. <p>It has worked on a total of 13 UCI projects and has billed the university for more than $52 million in that time. So when the Bren Hall project went through the BAFO process, it was nothing new for Anderson & Howard to be in pursuit of another major UCI project. <p>However, that process did require delicate balancing by the Anderson & Howard team as it worked on two competing BAFO designs with two different general contractors. <p>Eventually, Hensel Phelps Construction Co.&mdash;with Anderson & Howard on its team&mdash;won the $40.2 million Bren Hall contract for a single L-shaped structure.<p>Courtesy of Brad Rosen/Anderson & Howard Electric
+The sixth floor patio of Bren Hall overlooks a 19-acre botanical garden in the center of the UCI campus.<p>The new Bren Hall blends in with the overall campus theme, having a simple geometric form and a predominately flat roof. <p>It has an expressed base of darker textured concrete masonry, a body of plain stained concrete and a top of glazed ribbon windows and overhangs.<p>Like most UCI buildings, its primary structural and visual materials are beige-colored masonry and glass, with metal as a secondary structural material; terra cotta and brick are also visual elements. <p>As called for in the design/build specifications, the primary entryway &ldquo;provides views into the space so pedestrians shall see the activity [within] providing for information, interest and discovery.&rdquo;<p>Furthering the building&rsquo;s open design, the Hensel Phelps/Anderson & Howard team built recesses between floors two through five for viewing of the open lobby area. It has both interior and exterior stairwells that are glass-enclosed for maximum viewing. <p>The Leadership in Energy and Environmental Design (LEED) Green Building Rating System, which has now become the universal benchmark for the design, construction and operation of high performance buildings, will certify Bren Hall. <p>UCI has directed that Bren Hall&rsquo;s energy-efficient rating be 20 percent greater than required by Title 24, California&rsquo;s Energy Efficiency Standards for Residential and Nonresidential Buildings. <p>&ldquo;The electrical system was part of creating an entire energy-efficient envelope for the building,&rdquo; said Brad Rosen, an Anderson & Howard senior project manager for the UCI campus.<p>The new structure sits just outside of the UCI Ring Mall, the mile-long, main undergraduate campus pedestrian thoroughfare. As new buildings have populated the Ring Mall over the decades, space for additional buildings has grown tight. <p>Bren Hall is nestled with limited perimeter space between four preexisting buildings, which required some impressive space-saving innovations during construction. <p>Perhaps most noteworthy was Hensel Phelps constructing a 10-story tower crane in the Bren Hall elevator shaft. <p>Once the building topped out, the crane was disassembled and removed so that the elevator could be installed.<p>&ldquo;It was really something to see that great big crane poking out of the top of that building,&rdquo; said Mike Andersen, a 22-year Anderson & Howard veteran and project manager for Bren Hall (but no relation to founder Roger Anderson).<p>Space and aesthetics drove UCI&rsquo;s decision to eliminate a dedicated external pad mount electrical transformer. <p>Anderson & Howard worked closely with UCI to design a 480V power feed from another new building to the immediate south of Bren Hall on which Anderson & Howard was also the electrical contractor. <p>Unfortunately, by the time UCI and Anderson & Howard devised the plan, the other building&rsquo;s concrete floor was already poured and the transformer installed.<p>Undeterred, the Anderson & Howard team chipped out the newly poured floor and installed a new buss duct overhead, navigating its way through all of the other recently completed work&mdash;HVAC, electrical, plumbing, fire sprinklers, etc. <p>As a result of Anderson & Howard&rsquo;s hard work, the university avoided installing an unsightly exterior pad mount transformer in view of the nearby University Club, where outdoor social events are commonly held.<p>Another challenge for the Bren Hall project was that in the process of completing the BAFO design and squeezing two buildings into one, the Hensel Phelps/Anderson & Howard team reduced the size of each floor&rsquo;s electrical rooms on floors two through six to a mere 114 square feet (or smaller), with similarly intimate communications rooms. <p>To compensate, the company centrally located and stacked the reduced rooms in order to consolidate the rooms&rsquo; equipment needs.<p>&ldquo;But we still needed more than that,&rdquo; Rosen recalled. Anderson & Howard, therefore, enlisted the electrical gear manufacturer Cutler-Hammer to custom-build integrated facility system (IFS) switchboards to incorporate each floor&rsquo;s transformers, circuit breakers and panelboards for a complete custom &ldquo;one-piece&rdquo; lineup.<p>Besides the traditional electrical portion of the project, Anderson & Howard also participated in each element of the building&rsquo;s low-voltage requirements. It installed 600,000 feet of Belden IBDN GigaFlex 2400-Series Cat 6 telecommunications cable, carried along a Cablofil wire basket tray system to 3,000 locations over all six floors.<p>User workstation devices and fiber backbones (both outside plant and riser) were from Molex, with copper riser cables from Hitachi. <p>It installed NORDX GigaBIX hardware and DAMAC cabinets in the communications rooms.<p>Anderson & Howard partnered on the building fire alarm system with SimplexGrinnell, Westminster, Mass. Anderson & Howard installed all of the system conduit, wiring and devices, which included a voice evacuation system. <p>SimplexGrinnell then programmed the system for the UCI fire marshal to approve.<p>For the building security system and lecture hall audiovisual systems, Anderson & Howard provided all conduit, stubs and power for subsequent contractors&rsquo; use during their installations.<p><strong>&lsquo;Highest level of planning and execution&rsquo;</strong><p>Anderson & Howard&rsquo;s decade and a half of service to the university was recognized in 2004 when the Orange County NECA chapter awarded its Ed Carpenter Award, which was imprinted: &ldquo;Presented to the contractor exhibiting, on behalf of the client, the highest level of planning, coordination and execution of all electrical services ... for University of California, Irvine.&rdquo;<p>UCI&rsquo;s Donald Bren School of Information and Computer Sciences, which became the first independent information and computer science school in the UC system in 2002, has become one of the fastest-growing programs of its kind in the nation. <p>The new Bren Hall is a giant step forward in the school&rsquo;s ability to continue to develop and deliver cutting-edge programs to students.<br><TITLE>Best and Final Offer Lands Contract</TITLE>
+
+</div>
+</blockquote>
+</div>
+<div id="sidebar"><div id="sidebar_title">More community &#187;</div>
+<ul>
+<li><a href="../../alumni/index.php">Alumni</a></li>
+<li><a href="../../friends/index.php">Friends</a></li>
+<li><a href="http://www.parents.uci.edu/">Parents</a></li>
+<li><a href="../../friends/leadershipcouncil/index.php">Leadership Council</a></li>
+<li><a href="../index.php">News</a></li>
+<li><a href="https://ua-web.uadv.uci.edu/eGiving/">Give a gift</a></li>
+</ul>
+<div>
+<div id="sidebar_title">More news and events &#187;</div>
+<ul>
+<li><a href="../press/index.php">Press
+ releases</a></li>
+<a href="http://www.ics.uci.edu/community/news/press/index.php">				</a>
+<li><a href="index.php">In the 
+news</a></li>
+<li><a href="../notes/index.php">Noteworthy
+ achievements</a></li>
+<a href="http://www.ics.uci.edu/community/news/notes/index.php">				</a>
+<li><a href="http://www.youtube.com/UCIBrenICS">Video highlights</a></li>
+<li><a href="../spotlight/index.php">Spotlight</a></li>
+<li><a href="http://calendar.ics.uci.edu/calendar.php">Calendar of 
+events</a></li>
+</ul>
+<!-- -->
+<!-- -->
+<!-- -->
+<!--
+<div id="sidebar_title">Noteworthy archive &#187;</div>
+<ul>
+<li><a href="/ICS/ics/community/news/notes/notes_2009">2009</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2008">2008</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2007">2007</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2006">2006</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2005">2005</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2004">2004</a></li>
+</ul>
+</div>
+--></div></div>
+<div id="footer"><a href="http://www.uci.edu/copyright.php">Copyright Inquiries</a> |
+   <a href="http://www.uci.edu/cgi-bin/phonebook">UCI Directory</a> |
+   <a href="http://intranet.ics.uci.edu/">Intranet</a> |
+   
+   <!-- <a href="http://www.ics.uci.edu/sitemap.php">Site Map</a> | -->
+ 
+  <a href="mailto: i%63%73%77%65%62m%61s%74%65r@%69c%73%2e%75c%69%2eedu">icswebmaster</a> |
+Updated: 
+October 17 2013</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-605898-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

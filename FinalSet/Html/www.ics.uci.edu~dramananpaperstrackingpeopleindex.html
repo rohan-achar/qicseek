@@ -1,0 +1,98 @@
+<html>
+<head>
+  <title>Finding and Tracking People from the Bottom Up</title>
+</head>
+<body bgcolor="#ffffff">
+<!-- ***********************************************************   
+                  PAPER TITLE, ABSTRACT AND BIB INFO
+****************************************************************//-->
+<br>
+<h1 align="center">&nbsp;"Finding and Tracking People From the Bottom
+Up"</h1>
+<div align="center">
+<table border="0" width="800" cellpadding="5">
+  <tbody>
+    <tr>
+      <td><a href="../trackingpeople.pdf"><img alt="paper"
+ style="border: 0px solid ; width: 176px; height: 246px;"
+ src="trackingpeople_cover.gif"></a></td>
+      <td><!-- *** Paper Abstract ***//--> <font size="2">
+      <p style="margin-top: 0pt; margin-bottom: 0pt;">We describe a
+tracker that can track moving people in long sequences without manual
+initialization. Moving people are modeled with the assumption that,
+while configuration can vary quite substantially from frame to frame,
+appearance does not. This leads to an algorithm that firstly builds a
+model of the appearance of the body of each individual by clustering
+candidate body segments, and then uses this model to find all
+individuals in each frame. Unusually, the tracker does not rely on a
+model of human dynamics to identify possible instances of people; such
+models are unreliable, because human motion is fast and large
+accelerations are common. We show our tracking algorithm can be
+interpreted as a loopy inference procedure on an underlying Bayes net.
+Experiments on video of real scenes demonstrate that this tracker can
+(a) count distinct individuals; (b) identify and track them; (c)
+recover when it loses track, for example, if individuals are occluded
+or briefly leave the view;&nbsp; (d) identify the configuration of the
+body largely correctly; and (e) is not dependent on particular models
+of human motion.<br>
+      <br>
+      </p>
+      <br>
+      <br>
+      </font><!-- ***Paper Citation//-->
+      <p> Ramanan, D., Forsyth, D. A.&nbsp;"<b>Finding and Tracking
+People From the Bottom Up.</b>" <i>Computer Vision and Pattern
+Recognition </i>(CVPR), Madison, WI, June 2003. <a href="../trackingpeople.pdf">[pdf]</a></p>
+      <p> Ramanan, D., Forsyth, D. A., Zisserman, A.&nbsp;"<b>
+Tracking People by Learning their Appearance</b>" <i>IEEE Pattern Analysis and Machine Intelligence </i> (PAMI), Accepted for publication. <a href="../tracker_journal_draft.pdf">[pdf]</a></p>
+<!-- ***Paper Links//-->
+      <p align="center"> 
+<a href="../../talks/trackingpeople_poster.pdf"> Poster&nbsp;</a></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<!-- ***********************************************************   
+                  EXAMPLES
+****************************************************************//-->
+<center>
+      <h1><a name="Examples"><b>Examples</b></a> </h1>
+      <p>A tarfile of test frames from the weave sequence is <a href="../../videos/weave.tar.gz">here.</a></p>
+      <p>The following movies are <a href="http://www.divx.com/divx">DIVX</a>
+encoded.</p>
+<table style="text-align: left; margin-left: auto; margin-right: auto;">
+  <tbody>
+    <tr>
+      <td>
+      <div style="text-align: center;"><!-- *** Paper Full Movie ***//--> <a
+ href="../../videos/walkTrack_divx.avi"><img
+ style="border: 0px solid ; width: 146px; height: 214px;" src="walk.jpg"
+ alt="Walk Movie"></a></div>
+      </td>
+      <td align="center"><!-- *** Paper Full Movie ***//--> <a
+ href="../../videos/jackTrack_divx.avi"><img
+ style="border: 0px solid ; width: 146px; height: 214px;" src="jack.jpg"
+ alt="Jumping Jack Movie"></a> </td>
+      <td style="text-align: left; vertical-align: bottom;"><a
+ href="../../videos/weaveTrack_divx.avi"><img
+ style="border: 0px solid ; width: 206px; height: 154px;"
+ src="weave.jpg" alt="Weave Movie"></a></td>
+    </tr>
+    <tr>
+      <td align="center"> <a href="../../videos/walkTrack_divx.avi">Walk
+      </a> </td>
+      <td style="text-align: center;"> <a
+ href="../../videos/jackTrack_divx.avi">Jumping Jacks</a> </td>
+      <td style="vertical-align: top; text-align: center;"><a
+ href="../../videos/weaveTrack_divx.avi">Weave Run<br>
+      </a></td>
+    </tr>
+  </tbody>
+</table>
+<hr>
+Back to <a href="../..">home page</a>
+</center>
+</body>
+</html>
+

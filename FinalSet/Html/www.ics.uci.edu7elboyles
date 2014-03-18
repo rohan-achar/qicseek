@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- Original design by Free CSS Templates -->
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Equivalency   
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20101025
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Levi B Boyles</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a >Levi B Boyles</a></h1>
+<!--			<p> Template design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a></p>   -->
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="index.html">Home</a></li>
+				<li><a href="publications.html">Publications</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- end #header -->
+	<div id="page">
+		<div id="page-bgtop">
+			<div id="page-bgbtm">
+				<div id="content">
+					<div class="post">
+                        <p>I am a PhD student in the Computer Science Department at the University of California, Irvine, working with Max Welling in Machine Learning and related fields. </p>
+                        <p>My current research focus is in performing inference in Bayesian Nonparametric models and variable dimension models.  My other interests include MCMC methodology, Hierarchical Clustering, Computer Vision, Optimization and Variational Bayesian Methods.  </p>
+                        <p>lboyles uci edu  </p>
+					</div>
+					<div style="clear: both;">&nbsp;</div>
+				</div>
+				<!-- end #content -->
+				<div style="clear: both;">&nbsp;</div>
+			</div>
+		</div>
+	</div>
+	<!-- end #page -->
+</div>
+<div id="footer">
+	<p>Copyright (c) 2012 Levi Boyles. All rights reserved.</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>
+

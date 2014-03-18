@@ -1,0 +1,236 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Writing Efficient Code</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Writing Efficient Code">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html3115 HREF="node73.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html3113 HREF="node63.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html3107 HREF="node71.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html3117 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html3116 HREF="node73.html"> Special Primitives</A>
+<B>Up:</B> <A NAME=tex2html3114 HREF="node63.html"> The Compiler</A>
+<B> Previous:</B> <A NAME=tex2html3108 HREF="node71.html"> Compiler Pragmas</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION00690000000000000000> Writing Efficient Code</A></H1>
+<P>
+The <A NAME=tex2html286 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  compiler tries its best, however there are some
+constructs which can be compiled more efficiently than others.
+On the other hand, many Prolog programmers overemphasise
+the importance of efficient code and write completely unreadable
+programs which can be only hardly maintained and which are only
+marginally faster than simple, straightforward and readable
+programs.
+The advice is therefore <b> Try the simple and straightforward
+solution first!</b>
+The second rule is to keep this original program even if you try
+to optimise it. You may find out that the optimisation
+was not worth the effort.
+<P>
+To achieve the maximum speed of your programs, you must
+produce the optimised code with the flag <tt> debug_compile</tt>
+being off, e.g. by calling nodbgcomp/0
+or <b> set_flag(debug_compile, off)</b>,
+or using the pragma <b> nodebug</b>.
+Setting the flag <tt> variable_names</tt> can also cause slight
+performance degradations and it is thus better to have
+it off, unless variable names have to be kept.
+Unlike in the previous releases, the flag <tt> coroutine</tt>
+has now no influence on the execution speed.
+Some programs spend a lot of time in the garbage collection,
+collecting the stacks and/or the dictionary.
+If the space is known to be deallocated anyway, e.g. on failure,
+the programs can be often speeded up considerably
+by switching the garbage collector off or by increasing
+the <tt> gc_interval</tt> flag.
+As the global stack expands automatically, this does not cause
+any stack overflow, but it may of course exhaust the machine memory.
+<P>
+When the program is running and its speed is still
+not satisfactory, use the profiling tools.
+The profiler can tell you which predicates
+are the most expensive ones, and the statistics tool
+tells you why.
+A program may spend its time in a predicate because the predicate
+itself is very time consuming, or because it was frequently executed.
+The statistics tool gives you this information.
+It can also tell whether the predicate was slow because it
+has created a choice point or because there was too much
+backtracking due to bad indexing.
+<P>
+One of the very important points is the selection
+of the clause that matches the current call.
+If there is only one clause that can potentially match,
+the compiler is expected to recognise this and generate code
+that will directly execute the right clause
+instead of trying several subsequent clauses until the
+matching one is found.
+Unlike most of the current Prolog compilers, the <A NAME=tex2html287 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+<P>
+compiler tries to base this selection (<i> indexing</i>) on the most suitable
+argument of the predicate<A NAME=tex2html288 HREF="footnode.html#1067"><IMG ALIGN=BOTTOM ALT="gif" SRC="http://www.ecrc.de/eclipse/new_icons//foot_motif.gif"></A>.
+It is therefore not necessary to reorder the predicate
+arguments so that the first one is the crucial argument
+for indexing.
+However, the decision is still based only on one argument.
+If it is necessary to look at two arguments
+in order to select the matching clause, e.g. in
+<blockquote> <PRE>p(a, a) :- a.
+p(b, a) :- b.
+p(a, b) :- c.
+p(d, b) :- d.
+p(b, c) :- e.
+</PRE>
+</blockquote>
+and if it is crucial that this procedure is executed
+as fast as possible, it is necessary to define
+an auxiliary procedure which can be indexed on the other argument:
+<blockquote> <PRE>p(X, a) :- pa(X).
+p(X, b) :- pb(X).
+p(b, c) :- e.
+
+pa(a) :- a. pa(b) :- b.
+
+pb(a) :- c. pb(d) :- d.
+</PRE>
+</blockquote>
+<P>
+The compiler also tries to use for indexing all type-testing information
+that appears at the beginning of the clause body:
+<UL><LI> Type testing predicates free/1, var/1, meta/1,
+atom/1, integer/1, real/1, number/1,
+string/1, atomic/1, compound/1, nonvar/1 and
+nonground/1.
+<P>
+<LI> Explicit unification and value testing
+=/2, ==/2, <IMG  ALIGN=MIDDLE ALT="" SRC="img1.gif">/2
+and <IMG  ALIGN=MIDDLE ALT="" SRC="img2.gif">/2.
+<P>
+<LI> Combinations of tests with ,/2, ;/2,
+not/1, <b>-&gt;</b>/2.
+<P>
+<LI> Arithmetic testing predicates
+<b>&lt;</b>/2,
+<b>=&lt;</b>/2,
+<b>&gt;</b>/2,
+<b>&gt;=</b>/2 if one argument is an integer constant and the
+other one known to be of the integer type.
+<P>
+<LI> A cut after the type tests.
+</UL>
+<P>
+If the compiler can decide about the clause selection at compile time,
+the type tests are never executed and thus they incur no overhead.
+When the clauses are not disjoint because of the type tests, either a cut
+after the test or more tests into the other clauses can be added.
+For example, the following procedure will be recognised as deterministic
+and all tests are optimised away:
+<P>
+<PRE>    % a procedure without cuts
+    p(X) :- var(X), ...
+    p(X) :- (atom(X); integer(X)), X \= [], ...
+    p(X) :- nonvar(X), X = [_|_], ...
+    p(X) :- nonvar(X), X = [], ...
+</PRE>
+<P>
+Another example:
+<PRE>    % A procedure with cuts
+    p(X{_}) ?- !, ...
+    p(X) :- var(X), !, ...
+    p(X) :- integer(X), ...
+    p(X) :- real(X), ...
+    p([H|T]) :- ...
+    p([]) :- ...
+</PRE>
+<P>
+Integers less than or greater than a constant can also be
+recognised by the compiler:
+<PRE>    p(X) :- integer(X), X &lt; 5, ...
+    p(7) :- ...
+    p(9) :- ...
+    p(X) :- integer(X), X &gt;= 15, ...
+</PRE>
+<P>
+If the clause contains tests of several head arguments, only the
+first one is taken into account for indexing.
+<P>
+Here are some more hints for efficient coding with <A NAME=tex2html289 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+ :
+<UL><LI> Arguments which are repeated in the clause head and in the first
+regular goal in the body do not require any data moving and thus
+they do not cost anything. For example,
+<blockquote> <PRE>p(X, Y, Z, T, U) :- q(X, Y, Z, T, U).
+</PRE>
+</blockquote>
+is as expensive as
+<blockquote> <PRE>p :- q.
+</PRE>
+</blockquote>
+On the other hand, switching arguments requires data moves and so
+<blockquote> <PRE>p(A, B, C) :- q(B, C, A).
+</PRE>
+</blockquote>
+is significantly more expensive.
+<P>
+<LI> When accessing an argument of a
+structure whose functor is known, unification
+is better than <b> arg/3</b>.
+Note, however, that for better maintainability the library <b> structures</b>
+should be used to define the structures.
+<A NAME=1107>&#160;</A>
+<P>
+<LI> Tests are generally rather slow unless they can be compiled away
+(see <i> indexing</i>).
+<LI> When processing all arguments of a structure, using =../2
+and list predicates is always faster, more readable
+and easier analyzable by automated tools than using functor/3
+and arg/3 loops.
+<P>
+<LI> Similarly, when adding one new element to a structure, using <b> =../2</b>
+and append/3 is faster than functor/arg.
+<P>
+<LI> Waking is less expensive than metacalling and more expensive
+than direct calling.
+Metacalls, although generally slow, are still a lot faster than
+in some other Prolog systems.
+<P>
+<LI> Sorting using sort/2 is very efficient and it does not use
+much space.
+Using setof/3, findall/3 etc. is also efficient enough
+to be used every time a list of all solutions is needed.
+<P>
+<LI> using <b> not not Goal</b> is optimised in the compiler
+to use only one choice point.
+<P>
+<LI> =/2, when expanded by the compiler, is faster than ==/2
+or =:=/2.
+<P>
+<LI> call_explicit/2 is optimised away by the compiler
+if both argument are known.
+<P>
+<LI> Using several clauses is much more efficient than using
+a disjunction if the clause heads contain nonvariables
+which can be used for indexing.
+If no indexing can be made anyway, using a disjunction
+is slightly faster.
+<P>
+<LI> Conditionals with <b> <IMG  ALIGN=MIDDLE ALT="" SRC="img3.gif"></b> are compiled more efficiently
+if the condition is a simple built-in test.
+However, using several clauses can be faster if the compiler
+optimises the test away.
+<P>
+</UL><BR> <HR><A NAME=tex2html3115 HREF="node73.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html3113 HREF="node63.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html3107 HREF="node71.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html3117 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html3116 HREF="node73.html"> Special Primitives</A>
+<B>Up:</B> <A NAME=tex2html3114 HREF="node63.html"> The Compiler</A>
+<B> Previous:</B> <A NAME=tex2html3108 HREF="node71.html"> Compiler Pragmas</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

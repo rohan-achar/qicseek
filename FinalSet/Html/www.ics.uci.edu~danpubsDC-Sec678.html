@@ -1,0 +1,536 @@
+<HTML>
+<HEAD>
+<TITLE> Data Compression -- Section 6 </TITLE>
+</HEAD><BODY>
+
+<H1> Data Compression </H1>
+
+<a name="Sec_6">
+<H2> 6.  EMPIRICAL RESULTS</H2> </a>
+
+<A HREF="DC-Sec5.html"><IMG SRC="prev.gif" ALT="PREV section"></A>
+<a href="#Sec_7"><IMG SRC="next.gif" ALT="NEXT section"></A>
+<P>
+
+Empirical tests of the efficiencies of the algorithms presented here
+are reported in [Bentley et al. 1986; 
+Knuth 1985; Schwartz and Kallick 1964; Vitter 1987; Welch 1984].
+These experiments compare the number of bits per word
+required and processing time is not reported.  While theoretical
+considerations bound the performance of the various algorithms,
+experimental data is invaluable in providing additional insight.
+It is clear that the performance of each of these methods is 
+dependent upon the characteristics of the source ensemble.
+<P>
+Schwartz and Kallick test an implementation of
+static Huffman coding in which bottom merging is used to determine
+codeword lengths and all codewords of a given length are sequential
+binary numbers [Schwartz and Kallick 1964].  The source alphabet in 
+the experiment consists
+of 5,114 frequently-used English words, 27 geographical names,
+10 numerals, 14 symbols, and 43 suffixes.  The entropy of the 
+document is 8.884 binary digits per message and the average codeword 
+constructed has length 8.920.  The same document is also coded 
+one character at a time.  In this case, the entropy of the source is 
+4.03 and the coded ensemble contains an average of 4.09 bits per
+letter.  The redundancy is low in both cases.  However, the
+<EM>relative redundancy</EM> (i.e., redundancy/entropy) is lower when
+the document is encoded by words.
+<P>
+Knuth describes algorithm FGK's performance on three types of data:
+a file containing the text of Grimm's first ten Fairy Tales, 
+text of a technical book,
+and a file of graphical data [Knuth 1985].  For the first two files, the
+source messages are individual characters and the alphabet size is 128.
+The same data is coded using pairs of characters, so that the alphabet
+size is 1968.  For the graphical data, the number of source messages 
+is 343. In the case of the Fairy Tales the performance
+of FGK is very close to optimum, although performance degrades with 
+increasing file size.
+Performance on the technical book is not as good, but is still 
+respectable.  The graphical data proves harder yet to
+compress, but again FGK performs reasonably well.  In the latter
+two cases, the trend of performance degradation with file size continues.
+Defining source messages to consist of character pairs results in
+slightly better compression, but the difference would not appear to justify
+the increased memory requirement imposed by the larger alphabet.
+
+<PRE>
+ n      k    Static    Alg. V    Alg. FGK
+
+100    96     83.0      71.1       82.4
+500    96     83.0      80.8       83.5
+961    97     83.5      82.3       83.7
+
+Figure 6.1 -- Simulation results for a small text file [Vitter 1987];
+              <VAR>n</VAR> = file size in 8-bit bytes, 
+              <VAR>k</VAR> = number of distinct messages.
+</PRE>
+
+Vitter tests the performance of algorithms V and FGK against that of 
+static Huffman coding.
+Each method is run on data which includes Pascal source code, 
+the TeX source of the author's
+thesis, and electronic mail files [Vitter 1987].  Figure 6.1 summarizes
+the results of the experiment for a small file of text.  The performance
+of each algorithm is measured by the number of bits in the coded ensemble and
+overhead costs are not included.  
+Compression achieved by each algorithm is represented by the size of the
+file it creates, given as a percentage of the original file size.
+Figure 6.2 presents data for Pascal source code.  For the TeX source, the
+alphabet consists of 128 individual characters; for the other two file
+types, no more than 97 characters appear.  For each experiment, when 
+the overhead
+costs are taken into account, algorithm V outperforms static Huffman 
+coding as long as the size of the message
+ensemble (number of characters) is no more than 10^4.  Algorithm FGK 
+displays slightly
+higher costs, but never more than 100.4% of the static algorithm.
+
+<PRE>
+   n     k    Static    Alg. V    Alg. FGK
+
+  100   32     57.4      56.2       58.9
+  500   49     61.5      62.2       63.0
+ 1000   57     61.3      61.8       62.4
+10000   73     59.8      59.9       60.0
+12067   78     59.6      59.8       59.9
+
+Figure 6.2 -- Simulation results for Pascal source code [Vitter 1987];
+              <VAR>n</VAR> = file size in bytes,
+              <VAR>k</VAR> = number of distinct messages.
+</PRE>
+
+Witten et al. compare adaptive arithmetic coding with adaptive Huffman
+coding [Witten et al. 1987].  The version of arithmetic coding tested
+employs single-character adaptive frequencies and is a mildly optimized
+C implementation.  Witten et al. compare the results provided by this
+version of arithmetic coding with the results achieved by the UNIX
+<EM>compact</EM> program (<EM>compact</EM> is based on algorithm FGK).
+On three large files which typify data compression
+applications, compression achieved by arithmetic coding is better than
+that provided by <EM>compact</EM>, but only slightly better (average file
+size is 98% of the <EM>compact</EM>ed size).  A file over a three-character
+alphabet, with very skewed
+symbol probabilities, is encoded by arithmetic coding in less than one
+bit per character; the resulting file size is 74% of the size of the 
+file generated by <EM>compact</EM>.  Witten et al. also report encoding
+and decoding times.  The encoding time of arithmetic coding is generally 
+half of the time required by the adaptive Huffman coding method.
+Decode time averages 65% of the time required by <EM>compact</EM>.
+Only in the case of the skewed file are the time statistics quite
+different.  Arithmetic coding again achieves faster encoding, 67% of
+the time required by <EM>compact</EM>.  However, <EM>compact</EM> decodes
+more quickly, using only 78% of the time of the arithmetic method. 
+<P>
+Bentley et al. use C and Pascal source files, TROFF source files, and a
+terminal session transcript of several hours for experiments which
+compare the performance of algorithm BSTW to static Huffman coding.
+Here the defined words consist of two disjoint classes, 
+sequences of alphanumeric characters and sequences of
+nonalphanumeric characters.
+The performance of algorithm BSTW is very close to that of static
+Huffman coding in all cases.  The experiments reported by Bentley et al.
+are of particular interest in that they incorporate
+another dimension, the possibility that in the move-to-front
+scheme one might want to limit the size of the data structure containing
+the codes to include only the <VAR>m</VAR> most recent words, for some <VAR>m</VAR> [Bentley et al. 1986].  The
+tests consider cache sizes of 8, 16, 32, 64, 128 and 256.  Although
+performance tends to increase with cache size, the increase is erratic,
+with some documents exhibiting nonmonotonicity (performance
+which increases with cache size to a point and then decreases when cache
+size is further increased).
+<P>
+Welch reports simulation results for Lempel-Ziv codes
+in terms of compression ratios [Welch 1984].
+His definition of compression ratio is the one given in
+<a href="DC-Sec1.html#Sec_1.3">Section 1.3</a>,
+<VAR>C</VAR> = (average message length)/(average codeword length).  The ratios
+reported are:  1.8 for English text, 2 to 6 for Cobol data files, 1.0 for
+floating point arrays, 2.1 for formatted scientific data, 2.6 for system
+log data, 2.3 for source code, and 1.5 for object code.  The tests involving
+English text files showed that long
+individual documents did not compress better than groups of
+short documents. 
+This observation is somewhat surprising, in that it seems to refute the
+intuition that redundancy is due at least in part to correlation in content.
+For purposes of comparison, Welch cites results of Pechura and Rubin. 
+Pechura achieved a 1.5 compression ratio using static Huffman coding on files of
+English text [Pechura 1982].
+Rubin reports a 2.4 ratio for English text when employing a complex technique
+for choosing the source messages to which Huffman coding is applied
+[Rubin 1976].
+These results provide only a very weak basis for comparison, since the
+characteristics of the files used by the three authors are unknown.
+It is very likely that a single algorithm may produce compression ratios
+ranging from 1.5 to 2.4, depending upon the source to which it is
+applied.
+
+<a name="Sec_7">
+<H2> 7.  SUSCEPTIBILITY TO ERROR</H2> </a>
+
+<a href="#Sec_6"><IMG SRC="prev.gif" ALT="PREV section"></A>
+<a href="#Sec_8"><IMG SRC="next.gif" ALT="NEXT section"></A>
+<P>
+
+The discrete noiseless channel is, unfortunately,
+not a very realistic model of a communication system.  Actual data 
+transmission systems are prone
+to two types of error: <EM>phase error</EM>, in which a code symbol
+is lost or gained; and <EM>amplitude error</EM>, in which a code
+symbol is corrupted [Neumann 1962].
+The degree to which channel errors degrade transmission is
+an important parameter in the choice of a data compression
+method.  The susceptibility to error of a coding algorithm
+depends heavily on whether the method is static or adaptive.
+
+<a name="Sec_7.1">
+<H3> 7.1  Static Codes</H3> </a>
+
+It is generally known that Huffman codes tend to be self-correcting
+[Standish 1980].  That is, a transmission error tends not to propagate 
+too far.  The codeword in which the error occurs is incorrectly
+received and it is likely that several subsequent codewords are misinterpreted
+but, before too long, the receiver is back in synchronization with the sender.
+In a static code, synchronization means simply that both sender and
+receiver identify the beginnings of the codewords in the
+same way.  In Figure 7.1, an example is used
+to illustrate the ability of a Huffman code to recover from
+phase errors. The message ensemble "<kbd>BCDAEB</kbd>" is encoded using
+the Huffman code of Figure 3.4 where the 
+source letters <VAR>a</VAR>(1) ... <VAR>a</VAR>(5) represent <VAR>A ... E</VAR>
+respectively, yielding the coded ensemble "<kbd>0110100011000011</kbd>".
+Figure 7.1 demonstrates the impact of loss of the first bit, the second
+bit, or the fourth bit.  
+The dots show the way in which each line is parsed
+into codewords. The loss of the first bit results in re-synchronization
+after the third bit so that only the first source message (<VAR>B</VAR>) is lost
+(replaced by <VAR>AA</VAR>).
+When the second bit is lost, the first eight bits of the coded ensemble
+are misinterpreted and synchronization is regained by bit 9.  
+Dropping the fourth bit causes the same
+degree of disturbance as dropping the second.  
+
+<PRE>
+<kbd>011.010.001.1.000.011.  </kbd> coded ensemble <VAR>BCDAEB</VAR>
+<kbd>1.1.010.001.1.000.011.  </kbd> bit 1 is lost, interpreted as <VAR>AACDAEB</VAR>
+<kbd>010.1.000.1.1.000.011.  </kbd> bit 2 is lost, interpreted as <VAR>CAEAAEB</VAR>
+<kbd>011.1.000.1.1.000.011.  </kbd> bit 4 is lost, interpreted as <VAR>BAEAAEB</VAR>
+
+Figure 7.1 -- Recovery from phase errors
+</PRE>
+
+<PRE>
+<kbd>0 1 1.0 1 0.00 1.1.000.011  </kbd> coded ensemble (<VAR>BCDAEB</VAR>)
+<kbd>1.1.1.0 1 0.00 1.1.000.011  </kbd> bit 1 is inverted, interpreted as <VAR>DCDAEB</VAR>
+<kbd>0 0 1.0 1 0.00 1.1.000.011  </kbd> bit 2 is inverted, interpreted as <VAR>AAACDAEB</VAR>
+<kbd>0 1 1.1.1.0 00.1.1.000.011  </kbd> bit 4 is inverted, interpreted as <VAR>BAAEAAEB</VAR>
+
+Figure 7.2 -- Recovery from amplitude errors
+</PRE>
+
+The effect of amplitude errors is demonstrated in Figure 7.2.
+The format of the illustration is the same as that in Figure 7.1.  This time
+bits 1, 2, and 4 are inverted rather than lost.  Again
+synchronization is regained almost immediately.  When bit 1 or bit 2 is changed,
+only the first three bits (the first character of the ensemble) are disturbed.
+Inversion of bit four causes loss of synchronization through the ninth bit.
+A very simple explanation of the self-synchronization present in these
+example can be given.  Since many of the codewords end in the same sequence
+of digits, the decoder is likely to reach a leaf of the Huffman code tree
+at one of the codeword boundaries of the original coded ensemble.  When
+this happens, the decoder is back in synchronization with the encoder.
+So that self-synchronization may be discussed more carefully,
+the following definitions are presented.  (It should be noted that
+these definitions hold for arbitrary prefix codes, so that the discussion
+includes all of the codes described in
+<a href="DC-Sec3.html#Sec_3">Section 3</a>.)  If <VAR>s</VAR> is a suffix of some 
+codeword and there exist sequences of codewords <VAR>Gamma</VAR> and <VAR>Delta</VAR> 
+such that <VAR>s Gamma</VAR> = <VAR>Delta</VAR>, then <VAR>Gamma</VAR> is said to be a 
+<VAR>synchronizing sequence</VAR> for <VAR>s</VAR>.  For example, in the Huffman
+code used above, 1 is a synchronizing sequence for the suffix 01 while
+both 000001 and 011 are synchronizing sequences for the suffix 10.
+If every suffix (of every codeword) has a synchronizing sequence,
+then the code is <EM>completely self-synchronizing</EM>.  If some
+or none of the proper suffixes have synchronizing sequences, then the
+code is, respectively, <EM>partially-</EM> or <EM>never-self-synchronizing</EM>.
+Finally, if there exists a sequence <VAR>Gamma</VAR> which is a synchronizing
+sequence for every suffix, <VAR>Gamma</VAR> is defined to be a <EM>universal
+synchronizing sequence</EM>.  The code used in the examples above is
+completely self-synchronizing, and has universal synchronizing
+sequence 00000011000.  Gilbert and Moore prove that the 
+existence of a universal synchronizing sequence is a necessary as well
+as a sufficient condition for a code to be completely self-synchronizing
+[Gilbert and Moore 1959].   They also state that any prefix code
+which is completely self-synchronizing will synchronize itself with
+probability 1 if the source ensemble consists of successive messages
+independently chosen with any given set of probabilities. 
+This is true since the probability of occurrence of
+the universal synchronizing sequence at any given time is positive.
+<P>
+It is important to realize that the fact that a completely self-synchronizing
+code will re-synchronize with probability 1 does not guarantee recovery
+from error with bounded delay.  In fact, for every completely self-synchronizing
+prefix code with more than two codewords, there are errors within one
+codeword which cause unbounded error propagation [Neumann 1962]. 
+In addition, prefix codes are not always completely self-synchronizing.
+Bobrow and Hakimi state a necessary condition for
+a prefix code with codeword lengths <VAR>l</VAR>(1) ... <VAR>l</VAR>(<VAR>r</VAR>) to be completely
+self-synchronizing:  the greatest common divisor of the <VAR>l</VAR>(<VAR>i</VAR>) must
+be equal to one [Bobrow and Hakimi 1969].  The Huffman code
+{ 00, 01, 10, 1100, 1101, 1110, 1111 } is not completely
+self-synchronizing, but is partially self-synchronizing since
+suffixes 00, 01 and 10 are synchronized by any codeword.  
+The Huffman code { 000, 0010, 0011, 01, 100, 1010, 1011, 100, 111 }
+is never-self-synchronizing.  Examples of never-self-synchronizing
+Huffman codes are difficult to construct, and the example above is 
+the only one with fewer than 16 source messages.  Stiffler
+proves that a code is never-self-synchronizing if and only if
+none of the proper suffixes of the codewords are themselves codewords
+[Stiffler 1971].
+<P>
+The conclusions which may be drawn from the above discussion are:
+while it is common for Huffman codes to self-synchronize, 
+this is not guaranteed; and when self-synchronization is assured,
+there is no bound on the propagation of the error.  An additional
+difficulty is that self-synchronization provides no indication
+that an error has occurred.  
+<P>
+The problem of error detection and correction in connection with
+Huffman codes has not received a great deal of attention.  Several
+ideas on the subject are reported here.  
+Rudner states that synchronizing sequences should be as short as
+possible to minimize re-synchronization delay.  In addition,
+if a synchronizing sequence is used as the codeword for a 
+high probability message, then re-synchronization will be
+more frequent.  A method
+for constructing a minimum-redundancy code having the shortest
+possible synchronizing sequence is described by Rudner [Rudner 1971].  Neumann
+suggests purposely adding some redundancy to Huffman codes
+in order to permit detection of certain types of errors 
+[Neumann 1962].  Clearly this has to be done carefully, so as
+not to negate the redundancy reduction provided by Huffman coding.
+McIntyre and Pechura cite data integrity as an advantage of the codebook
+approach discussed in
+<a href="DC-Sec3.html#Sec_3.2">Section 3.2</a> [McIntyre and Pechura 1985].
+When the code is stored separately from the coded data, the code may
+be backed up to protect it from perturbation.  However, when the code is
+stored or transmitted with the data, it is susceptible to errors.
+An error in the code representation constitutes a drastic loss and therefore
+extreme measures for protecting this part of the transmission
+are justified.
+<P>
+The Elias codes of <a href="DC-Sec3.html#Sec_3.3">Section 3.3</a>
+are not at all robust.  Each of the codes
+<VAR>gamma</VAR> and <VAR>delta</VAR> can be thought of as generating codewords which
+consist of a number of substrings such that each substring encodes the
+length of the subsequent substring.  For code <VAR>gamma</VAR> we may think of
+each codeword <VAR>gamma</VAR>(<VAR>x</VAR>) as the concatenation of <VAR>z</VAR>, a string of <VAR>n</VAR> 
+zeros, and <VAR>b</VAR>, a string of length <VAR>n</VAR>+1 (<VAR>n</VAR> = floor[ lg <VAR>x</VAR> ] ).
+If one of the zeros in substring <VAR>z</VAR> is lost, synchronization will be
+lost as the last symbol of <VAR>b</VAR> will be pushed into the next codeword.
+<P>
+Since the 1 at the front of substring <VAR>b</VAR> delimits the end of <VAR>z</VAR>, if a 
+zero in <VAR>z</VAR> is changed to a 1, synchronization will be lost as symbols 
+from  <VAR>b</VAR> are pushed into the following codeword.  Similarly, if ones
+at the front of <VAR>b</VAR> are inverted to zeros, synchronization will be
+lost as the codeword <VAR>gamma</VAR>(<VAR>x</VAR>) consumes symbols from the 
+following codeword.  Once synchronization is lost, it cannot 
+normally be recovered.
+<P>
+In Figure 7.3, codewords <VAR>gamma</VAR>(6), <VAR>gamma</VAR>(4), <VAR>gamma</VAR>(8) are used
+to illustrate the above ideas.  In each case, synchronization is lost
+and never recovered.
+
+<PRE>
+<kbd>001 1 0.00 1 00.0 00100 0.  </kbd> coded integers 6, 4, 8
+<kbd>0 1 1.0 00 1 00 0.00100.0   </kbd> bit 2 is lost, interpreted as 3, 8, 2, etc.
+<kbd>011.1.0 00 1 00 0.00100.0   </kbd> bit 2 is inverted, interpreted as 3, 1, 8, 4, etc.
+<kbd>000 1 0 00.1.00 0 00100 0   </kbd> bit 3 is inverted, interpreted as 8, 1, etc.
+
+Figure 7.3 -- Effects of errors in Elias Codes.
+</PRE>
+
+The Elias code <VAR>delta</VAR> may be thought of as a three-part ramp where 
+<VAR>delta</VAR>(<VAR>x</VAR>) = <VAR>zmb</VAR> with <VAR>z</VAR> a string of <VAR>n</VAR> zeros, <VAR>m</VAR> a string of
+length <VAR>n</VAR>+1 with binary value <VAR>v</VAR>, and <VAR>b</VAR> a string of length <VAR>v</VAR>-1.
+For example, in <VAR>delta</VAR>(16)=00.101.0000, <VAR>n</VAR>=2, <VAR>v</VAR>=5, and the
+final substring is the binary value of 16 with the leading 1 removed
+so that it has length <VAR>v</VAR>-1=4.  Again the fact that each substring
+determines the length of the subsequent substring means that an
+error in one of the first two substrings is disastrous, changing the
+way in which the rest of the codeword is to be interpreted.  And,
+like code <VAR>gamma</VAR>, code <VAR>delta</VAR> has no properties which aid in
+regaining synchronization once it has been lost.
+<P>
+The Fibonacci codes of
+<a href="DC-Sec3.html#Sec_3.3">Section 3.3</a>, on the other hand, are quite
+robust.  This robustness is due to the fact that every codeword
+ends in the substring 11 and that substring can appear nowhere else
+in a codeword.  If an error occurs anywhere other than in the 11
+substring, the error is contained within that one codeword.  It is
+possible that one codeword will become two (see the sixth line of 
+Figure 7.4), but no other codewords will be disturbed.  If the
+last symbol of a codeword is lost or changed, the current codeword
+will be fused with its successor, so that two codewords are lost.
+When the penultimate bit is disturbed, up to three codewords can
+be lost.  For example, the coded message 011.11.011 becomes
+0011.1011 if bit 2 is inverted.  The maximum disturbance resulting
+from either an amplitude error or a phase error is the disturbance of
+three codewords.
+<P>
+In Figure 7.4, some illustrations based on the Fibonacci coding
+of ensemble <VAR>EXAMPLE</VAR> as shown in Figure 3.9 are given.
+When bit 3 (which is not part of a 11 substring) is lost or changed,
+only a single codeword is degraded.  When bit 6 (the final bit of the
+first codeword) is lost or changed, the first two codewords are
+incorrectly decoded.  When bit 20
+is changed, the first <VAR>b</VAR> is incorrectly decoded as <VAR>fg</VAR>. 
+
+<PRE>
+<kbd>000011.000011.00011.010 11.01011.  </kbd> coded ensemble "<kbd>aa bb</kbd>".
+<kbd>00 011.000011.00011.010 11.01011.  </kbd> bit 3 is lost, interpreted as "<kbd> a bb</kbd>".
+<kbd>001011.000011.00011.010 11.01011.  </kbd> bit 3 is inverted, interpreted as "<kbd>?a bb</kbd>".
+<kbd>00001  000011.00011.010 11.01011.  </kbd> bit 6 is lost, interpreted as "<kbd>? bb</kbd>".
+<kbd>000010 000011.00011.010 11.01011.  </kbd> bit 6 is inverted, interpreted as "<kbd>? bb</kbd>".
+<kbd>000011.000011.00011.011.11.01011.  </kbd> bit 20 is inverted, interpreted as "<kbd>aa fgb</kbd>".
+
+Figure 7.4 -- Effects of errors in Fibonacci Codes.
+</PRE>
+
+<a name="Sec_7.2">
+<H3> 7.2  Adaptive Codes</H3> </a>
+
+Adaptive codes are far more adversely affected by transmission errors
+than are static codes.  For example, in the case of a adaptive
+Huffman code, even though the receiver may re-synchronize with
+the sender in terms of correctly locating the beginning of a
+codeword, the information lost represents more than a few bits or
+a few characters of the source ensemble.  The fact that sender
+and receiver are dynamically redefining the code indicates
+that by the time synchronization is regained, they may have
+radically different representations of the code.  Synchronization
+as defined in
+<a href="#Sec_7.1">Section 7.1</a> refers to synchronization of the bit stream,
+which is not sufficient for adaptive methods.  What is needed here
+is <EM>code synchronization</EM>, that is, synchronization of both
+the bit stream and the dynamic data structure representing the
+current code mapping.  
+<P>
+There is no evidence that adaptive methods
+are self-synchronizing.  
+Bentley et al. note that, in algorithm BSTW, loss of synchronization
+can be catastrophic, whereas this is not true with static Huffman
+coding [Bentley et al. 1986].  
+Ziv and Lempel recognize that the major
+drawback of their algorithm is its susceptibility to error
+propagation [Ziv and Lempel 1977].  Welch also considers the
+problem of error tolerance of Lempel-Ziv codes and suggests that
+the entire ensemble be embedded in an error-detecting code [Welch 1984].
+Neither static nor adaptive arithmetic coding has the ability to tolerate
+errors.
+
+<a name="Sec_8">
+<H2> 8.  NEW DIRECTIONS</H2> </a>
+
+<a href="#Sec_7"><IMG SRC="prev.gif" ALT="PREV section"></A>
+<a href="#Sec_9"><IMG SRC="next.gif" ALT="NEXT section"></A>
+<P>
+
+Data compression is still very much an active research area.
+This section suggests possibilities for further study.
+<P>
+The discussion of
+<a href="#Sec_7">Section 7</a> illustrates the susceptibility to error
+of the codes presented in this survey.  Strategies for increasing the
+reliability of these codes while incurring only a moderate loss of efficiency
+would be of great value.  This area appears to be largely unexplored.  
+Possible approaches include embedding the entire ensemble
+in an error-correcting code or reserving one or more codewords to
+act as error flags.  For adaptive
+methods it may be necessary for receiver and sender to verify
+the current code mapping periodically.  
+<P>
+For adaptive Huffman coding, Gallager suggests an "aging" scheme,
+whereby recent occurrences of a character contribute more to its
+frequency count than do earlier occurrences [Gallager 1978].
+This strategy introduces the notion of locality into the adaptive
+Huffman scheme.  Cormack and Horspool describe an algorithm for
+approximating exponential aging [Cormack and Horspool 1984].  However,
+the effectiveness of this algorithm has not been established.
+<P>
+Both Knuth and Bentley et al. suggest the possibility of using
+the "cache" concept to exploit locality and minimize the effect
+of anomalous source messages. 
+Preliminary empirical results indicate that this may be helpful
+[Knuth 1985; Bentley et al. 1986].   A problem related to the use
+of a cache is overhead time required for deletion.  Strategies
+for reducing the cost of a deletion could be considered.
+Another possible extension to algorithm BSTW is to investigate other
+locality heuristics.  Bentley et al. prove that intermittent-move-to-front
+(move-to-front after every <VAR>k</VAR> occurrences) is as effective as
+move-to-front [Bentley et al. 1986].  It should be noted that
+there are many other self-organizing methods yet to be considered.
+Horspool and Cormack describe experimental results which imply that
+the transpose heuristic performs as well as move-to-front, and suggest
+that it is also easier to implement [Horspool and Cormack 1987].  
+<P>
+Several aspects of free-parse methods merit further attention. 
+Lempel-Ziv codes appear to be promising, although the absence of a worst-case
+bound on the redundancy of an individual finite source ensemble
+is a drawback.  The variable-block type Lempel-Ziv codes have
+been implemented with some success [ARC 1986] and 
+the construction of a variable-variable Lempel-Ziv code has been 
+sketched [Ziv and Lempel 1978].
+The efficiency of the variable-variable model should be investigated.
+In addition, an implementation of Lempel-Ziv coding which combines
+the time efficiency of Rodeh et al. method with more efficient use of space
+is worthy of consideration.
+<P>
+Another important research topic is the development of theoretical models
+for data compression which address the problem of local redundancy.
+Models based on Markov chains may be exploited to take advantage of
+interaction between groups of symbols.  Entropy tends to be overestimated
+when symbol interaction is not considered.  Models which exploit
+relationships between source messages may achieve better compression 
+than predicted by an entropy calculation based only upon symbol probabilities.
+The use of Markov modeling is considered by Llewellyn and by Langdon
+and Rissanen [Llewellyn 1987; Langdon and Rissanen 1983].
+
+<a name="Sec_9">
+<H2> 9.  SUMMARY</H2> </a>
+
+<a href="#Sec_8"><IMG SRC="prev.gif" ALT="PREV section"></A>
+<a href="DC-references.html"><IMG SRC="next.gif" ALT="NEXT section"></A>
+<P>
+
+Data compression is a topic of much importance and many applications.
+Methods of data compression have been studied for almost four decades.
+This paper has provided an overview of data compression methods of
+general utility.  The algorithms have been evaluated in terms of
+the amount of compression they provide, algorithm efficiency, 
+and susceptibility to error.  While algorithm efficiency and susceptibility
+to error are relatively independent of the characteristics of the source
+ensemble, the amount of compression achieved depends upon the
+characteristics of the source to a great extent.
+<P>
+Semantic dependent data compression techniques, as discussed in
+<a href="DC-Sec2.html#Sec_2">Section 2</a>, are special-purpose methods designed to exploit
+local redundancy or context information.  A semantic dependent scheme
+can usually be viewed as a special case of one or more general-purpose
+algorithms.  It should also be noted that algorithm BSTW is a general-purpose
+technique which exploits locality of reference, a type of local redundancy.
+<P>
+Susceptibility to error is the main drawback of each of the algorithms
+presented here.  Although channel errors are more devastating to
+adaptive algorithms than to static ones, it is possible for an error
+to propagate without limit even in the static case.  Methods of
+limiting the effect of an error on the effectiveness of a data
+compression algorithm should be investigated.
+
+<P>
+<A HREF="DC-Sec5.html"><IMG SRC="prev.gif" ALT="PREV section"></A>
+<a href="DC-references.html"><IMG SRC="next.gif" ALT="NEXT section"></A>
+<P>
+</BODY></HTML>
+

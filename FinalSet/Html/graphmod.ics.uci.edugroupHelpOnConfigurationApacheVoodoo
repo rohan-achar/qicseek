@@ -1,0 +1,218 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>HelpOnConfiguration/ApacheVoodoo - GraphModAlg@UCI</title>
+<script type="text/javascript" src="/moin_static163/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static163/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static163/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static163/rightsidebar/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static163/rightsidebar/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static163/rightsidebar/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="GraphModAlg@UCI: HelpOnConfiguration/ApacheVoodoo" href="/group/action/rss_rc/HelpOnConfiguration/ApacheVoodoo?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=HelpOnConfiguration%2FApacheVoodoo&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/group/Main_Page">
+<link rel="Alternate" title="Wiki Markup" href="/group/HelpOnConfiguration/ApacheVoodoo?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/group/HelpOnConfiguration/ApacheVoodoo?action=print">
+<link rel="Up" href="/group/HelpOnConfiguration">
+<link rel="Search" href="/group/FindPage">
+<link rel="Index" href="/group/TitleIndex">
+<link rel="Glossary" href="/group/WordIndex">
+<link rel="Help" href="/group/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="/group/HelpOnConfiguration/ApacheVoodoo">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="/group/Main_Page"><img src="/moin_static163/common/moinmoin.png" alt="MoinMoin Logo"></a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a href="/group/HelpOnConfiguration">HelpOnConfiguration</a></li><li><a class="backlink" href="/group/action/fullsearch/HelpOnConfiguration/ApacheVoodoo?action=fullsearch&amp;context=180&amp;value=linkto%3A%22HelpOnConfiguration%2FApacheVoodoo%22" rel="nofollow" title="Click to do a full-text search for this title">ApacheVoodoo</a></li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="sidebar">
+<div class="sidepanel">
+<h1>Wiki</h1>
+
+<ul id="navibar">
+<li class="wikilink"><a href="/group/Main_Page">Main_Page</a></li><li class="wikilink"><a href="/group/RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="/group/FindPage">FindPage</a></li><li class="wikilink"><a href="/group/HelpContents">HelpContents</a></li><li class="current"><a href="/group/HelpOnConfiguration/ApacheVoodoo">ApacheVoodoo</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><span class="disabled">Immutable Page</span></li><li class="toggleCommentsButton" style="display:none;"><a href="#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="/group/action/info/HelpOnConfiguration/ApacheVoodoo?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="/group/action/AttachFile/HelpOnConfiguration/ApacheVoodoo?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="/group/HelpOnConfiguration/ApacheVoodoo">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="RenderAsDocbook">Render as Docbook</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Subscribe User</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="PackagePages">Package Pages</option>
+<option value="SyncPages">Sync Pages</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="Save">Save</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="/group/action/login/HelpOnConfiguration/ApacheVoodoo?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span><span class="anchor" id="line-10"></span><p class="line867"><div class="table-of-contents"><p class="table-of-contents-heading">Contents<ol><li>
+<a href="#Apache_Root_Wiki">Apache Root Wiki</a></li><li>
+<a href="#Root_wiki_on_Mac_OSX">Root wiki on Mac OSX</a></li><li>
+<a href="#Root_wiki_with_mod_python_recipe">Root wiki with mod python recipe</a></li></ol></div> <span class="anchor" id="line-11"></span><span class="anchor" id="line-12"></span><p class="line867"><img alt="/!\" height="15" src="/moin_static163/rightsidebar/img/alert.png" title="/!\" width="15" /> Voodoo is not for newbies! <span class="anchor" id="line-13"></span><span class="anchor" id="line-14"></span><p class="line874">This page gives some nice but advanced tricks for a moin Apache setup. The directives on this page assume that you have knowledge about Apache configuration, newbies should stick to the basic setup. <span class="anchor" id="line-15"></span><span class="anchor" id="line-16"></span><span class="anchor" id="line-17"></span><p class="line867">
+<h1 id="Apache_Root_Wiki">Apache Root Wiki</h1>
+<span class="anchor" id="line-18"></span><span class="anchor" id="line-19"></span><p class="line867"><img alt="/!\" height="15" src="/moin_static163/rightsidebar/img/alert.png" title="/!\" width="15" /> This requires the Apache module "mod_rewrite" (which should be standard) <span class="anchor" id="line-20"></span><span class="anchor" id="line-21"></span><p class="line862">An Apache root wiki is easy, but it has limitations. Since moin needs to access certain static files (images, css, etc.), it intercepts a part of the possible <a href="/group/WikiName">WikiName</a> namespace. <span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span><ol type="1"><li>Install moin as normal. <span class="anchor" id="line-24"></span></li><li><p class="line862">Add the following lines to your <a class="nonexistent" href="/group/VirtualHost">VirtualHost</a> config: <span class="anchor" id="line-25"></span><ul><li style="list-style-type:none"><span class="anchor" id="line-26"></span><span class="anchor" id="line-27"></span><span class="anchor" id="line-28"></span><span class="anchor" id="line-29"></span><span class="anchor" id="line-30"></span><span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span><span class="anchor" id="line-33"></span><span class="anchor" id="line-34"></span><span class="anchor" id="line-35"></span><span class="anchor" id="line-36"></span><span class="anchor" id="line-37"></span><pre><span class="anchor" id="line-1"></span>  RewriteEngine On
+<span class="anchor" id="line-2"></span>  RewriteLogLevel 0
+<span class="anchor" id="line-3"></span>  
+<span class="anchor" id="line-4"></span>  # Point to moin shared static files - DEPENDS ON MOIN VERSION!
+<span class="anchor" id="line-5"></span>  RewriteRule ^/moin_static160/(.*)$ /prefix/share/moin/htdocs/$1 [last]
+<span class="anchor" id="line-6"></span>  
+<span class="anchor" id="line-7"></span>  # Map everything else to moin cgi script
+<span class="anchor" id="line-8"></span>  RewriteRule ^(.*)$ /path/to/moin.cgi$1 [type=application/x-httpd-cgi]
+<span class="anchor" id="line-9"></span>  
+<span class="anchor" id="line-10"></span>  # Setting for FastCGI
+<span class="anchor" id="line-11"></span>  ##RewriteRule ^(.*)$ /path/to/moin.fcg$1 [type=application/x-httpd-fcgi]</pre><span class="anchor" id="line-38"></span><span class="anchor" id="line-39"></span></li></ul></li></ol><p class="line862">The <a class="nonexistent" href="/group/RewriteRule">RewriteRule</a> for Fast<strong></strong>CGI here does not work for me: <span class="anchor" id="line-40"></span><span class="anchor" id="line-41"></span><span class="anchor" id="line-42"></span><span class="anchor" id="line-43"></span><pre><span class="anchor" id="line-1-1"></span>[Wed Jan 05 01:43:41 2005] [error] [client 10.0.0.1] File does not exist: /home/apache/moin/wiki/share/moin/pw/moin.fcg/RecentChanges, referer: http://moin.dahoam/StartSeite
+<span class="anchor" id="line-2-1"></span>duplo:/home/danielt# ls /home/apache/moin/wiki/share/moin/pw/moin.fcg
+<span class="anchor" id="line-3-1"></span>-rwxr-xr-x  1 root  www  1088 Jan  4 23:35 /home/apache/moin/wiki/share/moin/pw/moin.fcg*</pre><span class="anchor" id="line-44"></span><span class="anchor" id="line-45"></span><p class="line862">As a workaround I use this: <span class="anchor" id="line-46"></span><span class="anchor" id="line-47"></span><span class="anchor" id="line-48"></span><pre><span class="anchor" id="line-1-2"></span>  RewriteRule ^/?(.*) /_Wikiscript_/moin.fcg/$1
+<span class="anchor" id="line-2-2"></span>  RewriteRule ^/_Wikiscript_/(.*) /home/apache/moin/wiki/share/moin/pw/$1 [last]</pre><span class="anchor" id="line-49"></span><span class="anchor" id="line-50"></span><span class="anchor" id="line-51"></span><p class="line867">
+<h1 id="Root_wiki_on_Mac_OSX">Root wiki on Mac OSX</h1>
+<span class="anchor" id="line-52"></span><p class="line867"><img alt="/!\" height="15" src="/moin_static163/rightsidebar/img/alert.png" title="/!\" width="15" /> This configuration intercepts all userfolder URLs like <em><tt class="backtick">http://127.0.0.1/~yourname/</tt></em> and offers a blank wiki page instead, so these instructions are offered as an exercise only. There may be a way around this problem but I don't know what it is. <span class="anchor" id="line-53"></span><span class="anchor" id="line-54"></span><p class="line874">Using the previous information on the moin OS X installation, you end up with a virtual host block like this: <span class="anchor" id="line-55"></span><span class="anchor" id="line-56"></span><span class="anchor" id="line-57"></span><span class="anchor" id="line-58"></span><span class="anchor" id="line-59"></span><span class="anchor" id="line-60"></span><span class="anchor" id="line-61"></span><span class="anchor" id="line-62"></span><span class="anchor" id="line-63"></span><span class="anchor" id="line-64"></span><pre><span class="anchor" id="line-1-3"></span>&lt;VirtualHost *&gt;
+<span class="anchor" id="line-2-3"></span>   ServerName Gnarlodious
+<span class="anchor" id="line-3-2"></span>   Alias /moin_static160/ /usr/local/share/moin/htdocs/
+<span class="anchor" id="line-4-1"></span>   ScriptAlias /mywiki /usr/local/share/moin/mywiki/moin.cgi
+<span class="anchor" id="line-5-1"></span>   RewriteEngine On
+<span class="anchor" id="line-6-1"></span>   RewriteRule ^/moin_static160/(.*)$ /usr/local/share/moin/htdocs/$1 [last]
+<span class="anchor" id="line-7-1"></span>   RewriteRule ^(.*)$ /usr/local/share/moin/mywiki/moin.cgi$1 [type=application/x-httpd-cgi]
+<span class="anchor" id="line-8-1"></span>&lt;/VirtualHost&gt; </pre><span class="anchor" id="line-65"></span><p class="line862">Remove the following <tt class="backtick">&lt;IfModule&nbsp;mod_alias.c&gt;</tt> directives added on <a href="/group/HelpOnInstalling/ApacheOnMacOsx">this page</a>, as they are now redundant: <span class="anchor" id="line-66"></span><span class="anchor" id="line-67"></span><span class="anchor" id="line-68"></span><span class="anchor" id="line-69"></span><pre><span class="anchor" id="line-1-4"></span>    Alias /moin_static160/ "/moinwiki/share/moin/htdocs/"
+<span class="anchor" id="line-2-4"></span>    ScriptAlias /mywiki "/moinwiki/share/moin/mywiki/moin.cgi"</pre><span class="anchor" id="line-70"></span><p class="line862">Now restart Apache. You should be able to open a URL like <a class="http" href="http://127.0.0.1/HelpOnInstalling/ApacheOnMacOsx">http://127.0.0.1/HelpOnInstalling/ApacheOnMacOsx</a> <span class="anchor" id="line-71"></span><span class="anchor" id="line-72"></span><span class="anchor" id="line-73"></span><p class="line867">
+<h1 id="Root_wiki_with_mod_python_recipe">Root wiki with mod python recipe</h1>
+<span class="anchor" id="line-74"></span><span class="anchor" id="line-75"></span><p class="line874">Using the above example, I got this working like this: <span class="anchor" id="line-76"></span><span class="anchor" id="line-77"></span><ol type="1"><li>Install moin as usual and create instance <span class="anchor" id="line-78"></span></li><li>Use this config in httpd.conf <span class="anchor" id="line-79"></span><ul><li style="list-style-type:none"><span class="anchor" id="line-80"></span><span class="anchor" id="line-81"></span><span class="anchor" id="line-82"></span><span class="anchor" id="line-83"></span><span class="anchor" id="line-84"></span><span class="anchor" id="line-85"></span><span class="anchor" id="line-86"></span><span class="anchor" id="line-87"></span><span class="anchor" id="line-88"></span><span class="anchor" id="line-89"></span><span class="anchor" id="line-90"></span><span class="anchor" id="line-91"></span><span class="anchor" id="line-92"></span><span class="anchor" id="line-93"></span><span class="anchor" id="line-94"></span><span class="anchor" id="line-95"></span><span class="anchor" id="line-96"></span><span class="anchor" id="line-97"></span><span class="anchor" id="line-98"></span><span class="anchor" id="line-99"></span><span class="anchor" id="line-100"></span><span class="anchor" id="line-101"></span><span class="anchor" id="line-102"></span><span class="anchor" id="line-103"></span><span class="anchor" id="line-104"></span><span class="anchor" id="line-105"></span><span class="anchor" id="line-106"></span><span class="anchor" id="line-107"></span><span class="anchor" id="line-108"></span><span class="anchor" id="line-109"></span><pre><span class="anchor" id="line-1-5"></span>NameVirtualHost 192.115.134.51:80
+<span class="anchor" id="line-2-5"></span>&lt;VirtualHost 192.115.134.51:80&gt;
+<span class="anchor" id="line-3-3"></span>    ServerName wiki.nirs.dyndns.org
+<span class="anchor" id="line-4-2"></span>    ServerAlias wiki
+<span class="anchor" id="line-5-2"></span>    
+<span class="anchor" id="line-6-2"></span>    # Rewrite urls
+<span class="anchor" id="line-7-2"></span>    RewriteEngine On
+<span class="anchor" id="line-8-2"></span>    RewriteLogLevel 0
+<span class="anchor" id="line-9-1"></span>    # map static files to htdocs
+<span class="anchor" id="line-10-1"></span>    RewriteRule ^/moin_static160/(.*)$ /usr/share/moin/htdocs/$1 [last]
+<span class="anchor" id="line-11-1"></span>    # map everything else to server script
+<span class="anchor" id="line-12"></span>    RewriteRule ^(.*)$ /usr/share/moin/mywiki/moinmodpy.py$1
+<span class="anchor" id="line-13"></span>
+<span class="anchor" id="line-14"></span>    &lt;Directory "/usr/share/moin/mywiki"&gt;
+<span class="anchor" id="line-15"></span>        # These are copied from the default cgi-bin directory
+<span class="anchor" id="line-16"></span>        AllowOverride None
+<span class="anchor" id="line-17"></span>        Options None
+<span class="anchor" id="line-18"></span>        Order allow,deny
+<span class="anchor" id="line-19"></span>        Allow from all
+<span class="anchor" id="line-20"></span>
+<span class="anchor" id="line-21"></span>        # Modpy stuff
+<span class="anchor" id="line-22"></span>        AddHandler python-program .py
+<span class="anchor" id="line-23"></span>        # Add the path to the wiki directory, where moinmodpy.py and 
+<span class="anchor" id="line-24"></span>        # wikiconfig.py are located.
+<span class="anchor" id="line-25"></span>        PythonPath "['/usr/share/moin/mywiki'] + sys.path"
+<span class="anchor" id="line-26"></span>        PythonHandler moinmodpy
+<span class="anchor" id="line-27"></span>        PythonDebug On 
+<span class="anchor" id="line-28"></span>    &lt;/Directory&gt;
+<span class="anchor" id="line-29"></span>&lt;/VirtualHost&gt;</pre><span class="anchor" id="line-110"></span><span class="anchor" id="line-111"></span></li></ul></li></ol><p class="line867"><img alt="(!)" height="15" src="/moin_static163/rightsidebar/img/idea.png" title="(!)" width="15" /> It seems to be impossible to get a root modpy wiki without using the moinmodpy wrapper script. <span class="anchor" id="line-112"></span><span class="anchor" id="bottom"></span></div>
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+
+

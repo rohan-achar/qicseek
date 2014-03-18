@@ -1,0 +1,108 @@
+<html><head>
+<link href="../style.css" rel="stylesheet" type="text/css">
+<title>NetGames 2002 summaries</title>
+</head><body>
+<p>
+Summary of selected papers about MMOG architecture from the NetGames 2002 conference.
+</p>
+
+<h2>Aarhus et al., <a href="http://portal.acm.org/citation.cfm?id=566502">Generalized Two-Tier Relevance Filtering of Computer Game Update Events</a>.</h2>
+
+<ul><li>Two-tiered means <q>network communication is limited to a dedicated concentrator layer</q>
+</li><li>TCP
+</li><li>Consistency within the server layer requires to pass the world state between servers.
+</li><li><q>Clients connect to concentrators based on network topology, not their position in the game world.</q>
+</li><li><q>The concentrators are constructed to be application independent</q>
+</li><li>Dead-reckoning schemes
+</li><li>Clients connect to a concentrator, not to the server logic. Hence, client connection is never lost if a game server crashes.
+</li></ul>
+<img src="http://www.ics.uci.edu/~tdebeauv/NGsummaries/NG02/aarhus%20-%20tiers.png" title="Architecture tiers"><br/>
+<img src="http://www.ics.uci.edu/~tdebeauv/NGsummaries/NG02/aarhus%20-%20relevance%20filtering.png" title="Relevance filtering">
+
+
+<hr><h2>Bharambe et al., <a href="http://portal.acm.org/citation.cfm?id=566501">Mercury: A Scalable Publish-Subscribe System for Internet Games</a>.</h2>
+
+<ul><li>distributed content-based publish-subscribe system
+</li><li>subscription language expressive enough to allow game-specific subscriptions (eg x in [10,20] && y <= [40,50], or team == "MyTeam"). In the subscription {x in [10,20] && y >0}, a hub for x is more efficient at relaying an event than a hub for y. 
+</li><li>routing mechanism based on a circle of modular software hubs, each hub storing subscriptions. 
+</li><li>Evaluation: network topology simulator in which nodes are randomly assigned as hubs [unrealistic]
+</li><li>Metrics: 
+<ul><li>Number of publications routed by a node. All nodes end up having the same routing load (ie scalability achieved).
+</li><li>Number of subscriptions stored by a node. Virtual world is a square, hence the central zone receives more players and subscriptions than peripheral zones. 
+</li><li>Delay for a publication to reach the interested subscribers. Increases linearly with the number of nodes [not scalable!]
+</li></ul>
+</li></ul>
+<img src="http://www.ics.uci.edu/~tdebeauv/NGsummaries/NG02/bharambe%20-%20routing.png" title="Routing">
+
+
+<hr><h2>Cronin et al., <a href="http://portal.acm.org/citation.cfm?id=566510">An Efficient Synchronization Mechanism for Mirrored Game Architectures</a>.</h2>
+
+<ul><li>Trailing State Synchronization (TSS)
+</li><li>Optimistic algorithm: execute commands as they are received and rollback when late messages are received.
+</li><li>TSS runs a delayed "trailing" copy of the live game state. Trailing copy is able to re-order messages and execute them in chronological order. 
+</li><li><q>It's cheaper to execute a command multiple times than to make snapshots of the game state</q>
+</li><li>Preserving random events was hard
+</li></ul>
+<img src="http://www.ics.uci.edu/~tdebeauv/NGsummaries/NG02/cronin%20-%20TSS.png" title="Trailing State Synchronization"><br/>
+<img src="http://www.ics.uci.edu/~tdebeauv/NGsummaries/NG02/cronin%20-%20mirrored%20server%20archi.png" title="Mirrored server architecture">
+
+
+<hr><h2>Farber, <a href="http://portal.acm.org/citation.cfm?id=566508">Network game traffic modelling</a>.</h2>
+
+<ul><li>Traffic modeling from logs of a 36 hour LAN. Matches of 8 to 30 players.
+</li><li>Server sends 16kbps to each client
+</li><li>Each client sends 1 kbps to the server
+</li><li>Both client and server receive 20-25 packets/sec.
+</li><li>Packet size varies a lot.
+</li><li>Probability density function of client-server and server-client packet size and latency modeled by Extreme Value distribution: F(x) = exp(-exp(-(x-a)/b)). (long-tail behavior)
+</li></ul>
+
+
+<hr><h2>Fiedler et al., <a href="http://portal.acm.org/citation.cfm?id=566503">A Communication Architecture for Massive Multiplayer Games</a>.</h2>
+
+<ul><li>World cut in rectangle or hexagon tiles. 
+</li><li>Players subscribe to current and tiles adjacent to closest current tile corner.
+</li><li>Each tile contains an environment and an interaction channel. 
+</li><li>Environment channel for static data. Static objects generate bandwidth only when someone interacts with them, not by themselves. A static object does not interact with other static objects. Consumes low bandwidth. Uses TCP.
+</li><li>Interaction channel for active objects. Active objects interact with static and active objects. 
+</li><li>Tiles are managed by one or more servers (n to n relationship). Server only provides constant data such as terrain and objects within the map. Server only cares about the environment channel. Collision detection on clients. Scales with the number of tiles, not the number of clients. 
+</li><li>Authoritative objects are on the machine that instantiates them. Other clients have duplicates/"proxies". Collision detection and other object-object interactions are calculated on clients. Affected object instances publish their updates on the interaction channel of the object's current tile.
+</li></ul>
+<img src="http://www.ics.uci.edu/~tdebeauv/NGsummaries/NG02/fiedler%20-%20managing%20channel%20membership.png" title="Managing channel membership"><br/>
+<img src="http://www.ics.uci.edu/~tdebeauv/NGsummaries/NG02/fiedler%20-%20cluster%20pubsub%20scenario.png" title="Cluster pub-sub"><br/>
+<img src="http://www.ics.uci.edu/~tdebeauv/NGsummaries/NG02/fiedler%20-%20tiles.png" title="Client walking over a few tiles">
+
+
+<hr><h2>Griwodz et al., <a href="http://portal.acm.org/citation.cfm?id=566505">State replication for multiplayer games</a></h2>
+
+<ul><li>Player-to-player interactions require low latency (= high urgency).
+</li><li>In case of congestion, less urgent events may be dropped. Results in a game of lower quality, but still running. 
+</li><li>Rare player-to-environment actions require high reliability
+</li><li>Game designers define when they build the game which actions are urgent and which are relevant.
+</li><li>Clients connect to a nearby proxy. Proxies are interconnected.
+</li><li>Participants belong to target groups. Each target group can be contacted through a channel. 
+</li><li>Overlay network of proxies distribute events to target group members.
+</li></ul>
+<img src="http://www.ics.uci.edu/~tdebeauv/NGsummaries/NG02/griwodz%20-%20archi.png" title="Architecture">
+
+
+<hr><h2>Henderson, <a href="http://portal.acm.org/citation.cfm?id=566507">Observations on game server discovery mechanisms</a>.</h2>
+
+<ul><li>Analyzing network traffic to know how FPS servers work. 
+</li><li>Game servers register to server directories. Client gets server list from directory using UDP. Same structure as Napster.
+</li><li>Method: 3 Half-Life US server directories were queried four times a day for a month.
+</li><li>Problem of directories: single points of failure, stale information (70% of servers not active anymore), redundant info (90% of servers register to all directories), and no congestion control 
+</li></ul>
+
+
+<hr><h2>Mauve et al, <a href="http://portal.acm.org/citation.cfm?id=566504">A Generic Proxy System for Networked Computer Games</a>.</h2>
+
+<ul><li>Move intelligence and server functionality to the border of the network
+</li><li>Some server functionality can be delegated to the proxies. 
+</li><li>Proxies located close to the players (need ISP support). Therefore, they could execute client code as well (anti-cheat).
+</li><li>Proxies can reduce the server load in doing packet processing and filtering.
+</li><li>Overlay network enables traffic rerouting around congested areas, network fault detection and node-failure recovery.
+</li></ul>
+<img src="http://www.ics.uci.edu/~tdebeauv/NGsummaries/NG02/mauve%20-%20proxy.png" title="Proxy">
+
+</body></html>

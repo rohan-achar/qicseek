@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/category/technical-thoughts/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Calendars to Chronicles: 6</title>
+		<link>http://ngs.ics.uci.edu/calendars-to-chronicles-6/</link>
+		<comments>http://ngs.ics.uci.edu/calendars-to-chronicles-6/#comments</comments>
+		<pubDate>Mon, 05 Aug 2013 05:03:15 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[Technical Thoughts]]></category>
+		<category><![CDATA[Business Activity Monitoring]]></category>
+		<category><![CDATA[Business Intelligence]]></category>
+		<category><![CDATA[chronicles]]></category>
+		<category><![CDATA[Data Warehouses]]></category>
+		<category><![CDATA[Database Visualization]]></category>
+		<category><![CDATA[OLAP]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1536</guid>
+		<description><![CDATA[Data Warehouses are Chronicles Business enterprises have a major challenge: making efficient and effective decisions all the time. This challenge can only be solved by knowing what the current situation in the organization is and what happened in the past&#8230; ]]></description>
+				<content:encoded><![CDATA[<p><strong>Data Warehouses are Chronicles</strong></p>
+<p>Business enterprises have a major challenge: making efficient and effective decisions all the time.  This challenge can only be solved by knowing what the current situation in the organization is and what happened in the past in their organization. Top managers have difficulty understanding their own organization because of the size, but more importantly because the data related to the operation of the enterprise is kept in many different silos.  Business enterprises were earliest to adopt computers for data management applications.  No surprise that these enterprises were also one of the earliest to explore application of storing data for various applications not only as databases but also to collect data for different applications and then using this data to understand detailed operations and build decision support systems on top of that.</p>
+<p>In 1980s the notion of data warehouses started becoming popular.  A data warehouse is an integrated and time-varying collection of data acquired from different operational data sources and is primarily used in important decision making of the enterprise.  A data warehouse represents the data from disparate sources in a unified schema and provides tools to ask aggregate queries as well as provide powerful analytical tools and visualization of data in flexible formats.   Data, which normally lived in different silos of an organization, is imported and integrated to represent it in a unified format thus allowing access to all organizations data.  By providing useful analytical and organizational tools on this data, decision makers can gain insights essential to make important decisions.  Data warehousing made ETL (Extract, Transform, and Load) paradigm very popular to import data from different operations related databases into the unified schema.  Similarly, OLAP (OnLine Analytical Processing) and visualization of a segment of data in appropriate form to help in understanding data related to particular entities during a particular period received significant attention.</p>
+<p>As data warehousing tools started appearing, new fields of Business Intelligence and Business Activity Monitoring evolved and became popular in 1990s.  Business Intelligence used data warehouse technology and built powerful analytical tools on top of it to provide tools to understand common business situations related to the operation of the whole enterprise.  Business Activity Monitoring unified data from different silos to provide holistic real time dashboard for common events in the enterprise.  Both these technologies built on pulling data from disparate silos and unifying all this data around entities or events and then building appropriate analytical and visualization tools.  These systems helped improve enterprise resource management, supply chain management, as well as customer relationship management .  </p>
+<p>By realizing importance of storing data related to different operations and then utilizing this data to understand, or model, functioning of the overall enterprise, enterprise warehousing technologies contributed to bringing in efficiency as well as efficacy in different companies.  Data warehousing became a powerful infrastructure used by many enterprises.</p>
+<p>The rapid success of enterprise warehousing could be attributed to already popular databases used by every enterprise in their different operations.  All these databases commonly used structured data to collect and store all information related to the operations.  Since this data is ever increasing, because with time more data is being collected, the challenge is to identify trends and models in operations, particularly correlating these for events taking place in different parts of the organization and hence in different databases.  Data warehouses took the first step in unifying the logs of information from different parts and providing access to them at the knowledge level.  In a sense data warehouses were an effort to provide data, information, and knowledge available in the same framework and to understand and relate them to gain understanding for making good decisions.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/calendars-to-chronicles-6/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>From Calendars to Chronicles: 3</title>
+		<link>http://ngs.ics.uci.edu/from-calendars-to-chronicles-3/</link>
+		<comments>http://ngs.ics.uci.edu/from-calendars-to-chronicles-3/#comments</comments>
+		<pubDate>Wed, 24 Jul 2013 05:37:02 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Technical Thoughts]]></category>
+		<category><![CDATA[Calendar]]></category>
+		<category><![CDATA[Chronicle]]></category>
+		<category><![CDATA[journalism]]></category>
+		<category><![CDATA[reporting]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1517</guid>
+		<description><![CDATA[The changing Nature of Chronicles The dictionary meaning of a chronicle is: a historical account of events arranged in order of time usually without analysis or interpretation. The earliest chronicles were report by humans. The most popular form of chronicles&#8230; ]]></description>
+				<content:encoded><![CDATA[<p><strong>The changing Nature of Chronicles</strong></p>
+<p>The dictionary meaning of a chronicle is: <em><strong>a historical account of events arranged in order of time usually without analysis or interpretation.  The earliest chronicles were report by humans.</strong> </em> The most popular form of chronicles is called history.  History has been popular for reporting events as perceived, based on some anecdotal data, for very long time.  Since history was usually based on anecdotal data, it was usually revised based on power and popularity of people and events.  <em>It was quite common to revise events and their outcome depending on who was funding the historian and what outcome was desired by them.</em>  As is commonly said, victors usually wrote the history.  This may not be accurate, but it was definitely usually the case that victors funded â€˜creationâ€™ of the history.</p>
+<p>With advances in technology for storage, first of text and then of different forms of data including experiential data (photos, videos, and sound), people started becoming more sensitive to credibility of events.  A simple anecdote was not compelling, but a photo of the event or better a video of the event were more compelling as well as enjoyable.   In a sense, people wanted evidence for the events included in a chronicle.  Popularity of printing was the first step in moving away from earlier anecdotal chronicle.  The printing, however, resulted in enormous growth in professions related to the art of recording information related to events.  The field of journalism is directly related to preparing chronicles.  A good journalist reports information related to events without any personal prejudices or personal opinions.  As we all know, there is a difference between what a professional is supposed to do and what (s)he does.  In fact, it is almost impossible for any human journalist to report an event completely objectively because the mere act of perception is known to be influenced by subjective knowledge and personal experiences.</p>
+<p>Photos for the first time made it possible to show an event, and hence create a record of an event, from a cameraâ€™s eyes rather than a personâ€™s eye.  Of course which instant and from which aspect the event is visually recorded is a personâ€™s decision, yet a photo is definitely enormously more objective that the rendering of the event even by the person who snapped the photo.  This is because the photo is captured by a mechanical sensor and is not interpreted.  A photo is a visual record of an event rather than description of a visual event by a person.  A sensor is mechanical device and hence it does not have its experiences or prejudices.  It records what it measures and then presents its measurement simply as numbers.  These numbers are nothing but observed or measured data.  This data could be interpreted by a human to understand the event.  Thus a sensor is a relatively pure communication channel, while a human is usually a subjective channel that modulates the incoming data.  No wonder that the same event data is usually presented very differently by different reporters because each reporter has their modulation function.</p>
+<p>With advances in electronic recording techniques, audio and then video also became an import part of chronicles.  Both audio and video have the same strength in terms of being a relatively pure communication channel for the observed data of events as photograph.  </p>
+<p>Thus recording technology influenced the nature of chronicles significantly.  Recording technology made chronicling more data-based than subjective reporting.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/from-calendars-to-chronicles-3/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Physical-Social-Cyber Computing Systems</title>
+		<link>http://ngs.ics.uci.edu/physical-social-cyber-computing-systems/</link>
+		<comments>http://ngs.ics.uci.edu/physical-social-cyber-computing-systems/#comments</comments>
+		<pubDate>Sat, 20 Apr 2013 18:55:42 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[Technical Thoughts]]></category>
+		<category><![CDATA[Computer Interfacecs]]></category>
+		<category><![CDATA[Cyber Physical]]></category>
+		<category><![CDATA[Representations]]></category>
+		<category><![CDATA[social computing]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1501</guid>
+		<description><![CDATA[As difficult as it may be difficult to believe to many people, computing is a relatively young discipline. Until recently, most computing systems received input from people and represented it in cyberspace mostly in form of abstract information. For efficiency&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>As difficult as it may be difficult to believe to many people, computing is a relatively young discipline.  Until recently, most computing systems received input from people and represented it in cyberspace mostly in form of abstract information.  For efficiency reasons most representations of real world in computing systems captured only application-specific essential abstract aspects of the problem.  These systems were much closer to mathematics which defines operations on numbers representing abstractions of a problem.   Moreover, these systems assumed that a human will transform data from the real physical world or from sensors capturing aspects of real world to the form acceptable to the computing system.  This has been the common mode of input in computing systems even as they evolved from traditional computers to the Web and then included social networks.  Even in those transaction oriented systems where data was directly input in the system, the data was available already in the abstract form compatible with the representations in the computing system.  In a real sense, cyber representations of the real world entered by human beings have been the predominant mode of interfaces for computing systems.</p>
+<p>Increasingly, computing systems are expected to interface with different sensors and other information sources directly without the mediation of a human.  Emerging computing systems are expected to  deal with data directly coming from different sensors and from other data sources.  This data could be in the form of GPS coordinates, physical activity levels, flood level, temperature, rainfall rate, heart rates as function of time, photographs, audio, and video.  Clearly all these data may come at different rates and may represent measurements over different regions or people.  Since the system is suppose to take this input directly from sources, without any human mediators, it is important that the system can deal with the representations and the semantics of data.  Using these diverse representations and semantics, the system should be able to extract and deal with information that will help in detecting situations of different kinds and then represent it in representations suitable for reasoning and analysis of situation.</p>
+<p>Compared to traditional computing systems, emerging cyber-physical-social systems must deal with diverse real time data streams with different semantics and tied to spatial locations.  The semantics of such data is inherently based on the sensor producing the data, location of the sensor, and the time of measurement.  The system must extract information from this data that is also related to the time and location.  Traditional cyber systems wanted to deal with abstractions that minimized importance of absolute location and time.  In emerging cyber-physical-social systems time and location are independent variables that are used to represent measured, observed, and reported data; in traditional computing systems time and location were made attributes while entities were made independent variables.  These two approaches to representation are significantly different and emphasize different characteristics of the world that we try to model.  </p>
+<p>Scientists and engineers dealing with signals and systems learnt to deal with this challenge long time ago.  It was considered natural to maintain multiple representations and use them opportunistically for solving a problem.  The most common example of this is the use of time-domain and frequency-domain analysis and use in designing audio and video systems.  By maintaining and using both representations, one can design systems that help in understanding the requirement and steer the functionality to make these systems more useful for humans.  </p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/physical-social-cyber-computing-systems/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Creating Health Persona</title>
+		<link>http://ngs.ics.uci.edu/creating-health-persona/</link>
+		<comments>http://ngs.ics.uci.edu/creating-health-persona/#comments</comments>
+		<pubDate>Mon, 04 Mar 2013 06:12:06 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Technical Thoughts]]></category>
+		<category><![CDATA[Health Persona]]></category>
+		<category><![CDATA[Objective Health]]></category>
+		<category><![CDATA[Persona]]></category>
+		<category><![CDATA[Quantified Health]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1478</guid>
+		<description><![CDATA[We address more detailed aspects of observing and analyzing all data sources to get objective self health information A very thought provoking book called Creative Destruction of Medicine by Eric Topol paints a very data oriented future of medicine. Future&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>We address more detailed aspects of observing and analyzing all data sources to get objective self health information   A very thought provoking book called Creative Destruction of Medicine by Eric Topol paints a very data oriented future of medicine.  Future of healthcare is likely to utilize an individualâ€™s lifestyle information with personal genomics to provide individual-focused health services.</p>
+<p>First step in building persona is data acquisition on aspects of personâ€™s daily life. Many lifelogging systems collect significant volume of data, but lack an explicit description of potential value for users, focusing instead on technical challenges.  We simply lack effective techniques for Analyzing information that involves examining it in ways that reveal the relationships, patterns, trends, etc. that would be valuable for enhancing userâ€™s life. </p>
+<p>Our goal is building the health persona, by emphasizing on analysis and correlation of different data streams as different types of events occurring in personâ€™s life.  For discussion in the following, we consider correlation among 4 different types of events: life events, food events, fitness events, and body parameters events.  For creating these 4  important event streams, multiple sensors may contribute to each of these streams.  As shown in figure below <strong>(Thanks Laleh for a nice rendering of the vague ideas that I discussed with you)</strong>, life events can be derived from different sources of information such as personal calendar, Facebook, LinkedIn and Foursquare accounts, smart phone apps and GPS.  Fitness event stream may combine data from NIKE Fuel, FitBit, Basis, programs like Moves on smart phones and other similar sources.  </p>
+<p>For each type of event, one may collect data from different sensors and classify that data into meaningful events in each of the 4 data streams.   Different types of events may be determined using a model to classify them and determine their time intervals. For example fitness events may be, no activity to vigorous activity. And each event may be determined by considering some activity per minute as determined by a specific sensor.  Moreover, any of these event streams may be the result of the combination of multiple sensor streams.  For example, activity level may be determined by considering Nike Fuel, Fitbit, BASIS, and Jawbone.  Each of these measures activities differently, but these measurements are correlated to actual activity levels and are aggregated to correspond to and segment the timeline according to physical activity by a person.</p>
+<p>With these data stream the health persona is determined by combining these streams over a long period to gain insights about a person by correlating these event streams and drawing insights about a personâ€™s health.</p>
+<p><a href="http://ngs.ics.uci.edu/blog/?attachment_id=1479" rel="attachment wp-att-1479"><img src="http://ngs.ics.uci.edu/blog/../temp/Sensors-to-Persona-294x300.png" alt="Sensors to Persona" width="294" height="300" class="alignnone size-medium wp-image-1479" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/creating-health-persona/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>RIP My four legged son</title>
+		<link>http://ngs.ics.uci.edu/rip-my-four-legged-son/</link>
+		<comments>http://ngs.ics.uci.edu/rip-my-four-legged-son/#comments</comments>
+		<pubDate>Mon, 29 Oct 2012 20:46:54 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Technical Thoughts]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1459</guid>
+		<description><![CDATA[RIP Osito. My four legged son, and my BFF. I still remember July 1996 when Swati brought home a small creature that we could hold in our palm &#8212; and we fell in love with him. Suzi name him Osito.&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>RIP Osito.  My four legged son, and my BFF.</p>
+<p><img src="https://dl.dropbox.com/u/5644217/Osito%20in%20Laguna.jpg" alt="Osito in Laguna Beach.  He was a star attraction at all public places." /></p>
+<p>I still remember July 1996 when Swati brought home a small creature that we could hold in our palm &#8212; and we fell in love with him.  Suzi name him Osito.  Neil became his best buddy.  And Sudha, well he became the most important &#8216;person&#8217; in her life.  In all our life.  Juarez family loved him and he did them.</p>
+<p>After 16+ years of unconditional love, enjoyment, and friendship, he decided to leave the way he always was &#8212; without giving any problem to us and peacefully.  He never has any health problems &#8212; but old age started making him without hearing, smell, and eyesight.  Last few months were difficult for him, but he was still the same:  energetic, demanding for love and food, and waiting for us.</p>
+<p>Hey, Osito, we loved you so much and liked everything about you.  Just one complain &#8212; why couldn&#8217;t you wait for your Mom and me to come back home from our trip.  Maybe Adolpho is right &#8212; you just wanted to peacefully leave us without any hassle.</p>
+<p>You will always be part of our life.</p>
+<p>RIP, Osito.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/rip-my-four-legged-son/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+	</channel>
+</rss>
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Words: A picture is worth a thousand words</title>
+	<atom:link href="http://ngs.ics.uci.edu/words-apicture-is-worth-a-thousand-words/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/words-apicture-is-worth-a-thousand-words/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Ramesh</title>
+		<link>http://ngs.ics.uci.edu/words-apicture-is-worth-a-thousand-words/comment-page-1/#comment-470</link>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+		<pubDate>Wed, 05 Jul 2006 22:00:25 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=556#comment-470</guid>
+		<description><![CDATA[Most natural languages do not qualify for &#039;Universal Language&#039; according to what you say (which I agree) but they are used by more than a few -- say more than hundreds -- people otherwise they are usually not considered to be a language.  So the point is that the lexican and then the grammar for using the lexicon allows use of the language by any one who is inclied so.
+
+I also find the growth of the languages -- and lexicons -- fascinating process.  And I believe that this will be accelarating.]]></description>
+		<content:encoded><![CDATA[<p>Most natural languages do not qualify for &#8216;Universal Language&#8217; according to what you say (which I agree) but they are used by more than a few &#8212; say more than hundreds &#8212; people otherwise they are usually not considered to be a language.  So the point is that the lexican and then the grammar for using the lexicon allows use of the language by any one who is inclied so.</p>
+<p>I also find the growth of the languages &#8212; and lexicons &#8212; fascinating process.  And I believe that this will be accelarating.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Ville</title>
+		<link>http://ngs.ics.uci.edu/words-apicture-is-worth-a-thousand-words/comment-page-1/#comment-469</link>
+		<dc:creator><![CDATA[Ville]]></dc:creator>
+		<pubDate>Wed, 05 Jul 2006 14:03:03 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=556#comment-469</guid>
+		<description><![CDATA[Is there something else than limited sets of people and thus boundaries between these sets? What are extended lexicons other, than extensions of language, which by their very nature are always used always by limited sets of people? I mean, isn&#039;t it widely understood, in the light of modern and postmodern philosophy and critical theory, that universal languages don&#039;t exist? 
+
+Despite my criticisms, which might result from me not maybe totally comprehending everything in the background of Your post, I find the development of new words and languages fascinating. I guess, something like development of tag services or ontology services, which host ONLY tags and ontologies, is something which must be envisioned somewhere at this moment. At the moment, they are tied to applications and domains.]]></description>
+		<content:encoded><![CDATA[<p>Is there something else than limited sets of people and thus boundaries between these sets? What are extended lexicons other, than extensions of language, which by their very nature are always used always by limited sets of people? I mean, isn&#8217;t it widely understood, in the light of modern and postmodern philosophy and critical theory, that universal languages don&#8217;t exist? </p>
+<p>Despite my criticisms, which might result from me not maybe totally comprehending everything in the background of Your post, I find the development of new words and languages fascinating. I guess, something like development of tag services or ontology services, which host ONLY tags and ontologies, is something which must be envisioned somewhere at this moment. At the moment, they are tied to applications and domains.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Ramesh</title>
+		<link>http://ngs.ics.uci.edu/words-apicture-is-worth-a-thousand-words/comment-page-1/#comment-468</link>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+		<pubDate>Tue, 04 Jul 2006 19:01:58 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=556#comment-468</guid>
+		<description><![CDATA[Yes, Ryan, if the two processes (for assigning and using words) are not independent than the language remains limited to a set of people.  For a more general language, the words get into lexicons when they become well recognized.  And once they are in the lexicons, people can start using them as they want provided their meaning according to lexicon is more-or-less preserved. (Ambiguity in natuaral languages is due to this &#039;more-or-less&#039;.)  In images by developing an independent assignment process, we can use any process to assign the word -- including the manual processes.
+
+So tagging an image becomes a manual process of assigning the words.  If I have a powerful segmentation approach, that could be another assignment process.]]></description>
+		<content:encoded><![CDATA[<p>Yes, Ryan, if the two processes (for assigning and using words) are not independent than the language remains limited to a set of people.  For a more general language, the words get into lexicons when they become well recognized.  And once they are in the lexicons, people can start using them as they want provided their meaning according to lexicon is more-or-less preserved. (Ambiguity in natuaral languages is due to this &#8216;more-or-less&#8217;.)  In images by developing an independent assignment process, we can use any process to assign the word &#8212; including the manual processes.</p>
+<p>So tagging an image becomes a manual process of assigning the words.  If I have a powerful segmentation approach, that could be another assignment process.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Ryan Shaw</title>
+		<link>http://ngs.ics.uci.edu/words-apicture-is-worth-a-thousand-words/comment-page-1/#comment-465</link>
+		<dc:creator><![CDATA[Ryan Shaw]]></dc:creator>
+		<pubDate>Mon, 03 Jul 2006 06:32:26 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=556#comment-465</guid>
+		<description><![CDATA[I&#039;m curious why you say the processes for assigning words and for using words should be independent. Are you concerned that if a mechanism developed for assigning words also relies on using them that it will evolve to assign only the specialized set of words it needs, rather than more generally useful words? What does this imply about manual tagging of images by their creators or viewers?]]></description>
+		<content:encoded><![CDATA[<p>I&#8217;m curious why you say the processes for assigning words and for using words should be independent. Are you concerned that if a mechanism developed for assigning words also relies on using them that it will evolve to assign only the specialized set of words it needs, rather than more generally useful words? What does this imply about manual tagging of images by their creators or viewers?</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

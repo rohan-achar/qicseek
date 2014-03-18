@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"><html><head><title>Homepage of James Foulds</title></head>
+<head>
+<style>
+iframe[seamless]{
+    background-color: transparent;
+    border: 0px none transparent;
+    padding: 0px;
+    overflow: hidden;
+}
+</style>
+</head>
+
+<body bgcolor=#CDDDDD>
+
+<table>
+<tr>
+	<td>
+              <h1>James Foulds (Jimmy)</h1>
+		Department of Computer Science<br>
+		Bren School of Information and Computer Sciences <br>
+		University of California, Irvine <br>
+		CA 92697-3435 <br>
+		USA<br>
+		<br>
+		Email: jfoulds at ics dot uci dot edu
+	</td>
+	<td>&#160; &#160; &#160; &#160; &#160; &#160; &#160;</td>
+	<td><img src="jimmy-01.jpg" alt="Picture of James"></td>
+	<td>&#160; &#160; &#160; &#160; &#160; &#160; &#160;</td>
+	<td>
+	    <BR>
+   	    <BR>
+	    <h3> Just for fun, a random selection of movies generated based </br>  on popularity and diversity using a determinantal point process </h3>
+	    <iframe src="http://www.ics.uci.edu/~jfoulds/movieRecs/movies.txt", seamless=true, width=550, height=150>, frameborder="0"</iframe>
+	    <BR>
+	    <P>
+	    (This list refreshes every few seconds)
+	    </P>
+	</td>
+</tr>
+</table>
+<hr>
+<h2>About Me</h2>
+I am a PhD candidate at <a href="http://www.uci.edu">UCI</a>, in <a href="http://www.ics.uci.edu/~smyth/">Padhraic Smyth</a>'s <a href="http://www.datalab.uci.edu/">DataLab</a> research group.  I work in the area of statistical machine learning. <BR> Here is my <B><font size = "5"><a href="JamesFouldsCV_November2013.pdf">CV</a></font></B> (or email for a more up to date version), and here is a list of my <B><font size = "5"><a href="publications
+.html">publications</a></font></B>.
+<BR>
+
+<h2>Research Interests</h2>
+I develop <B>probabilistic models</B> and associated <B>inference algorithms</B> for finding <B>interpretable latent structure</B> in social network and text data. I accomplish this by using <B>latent variable modeling</B> techniques, leveraging topic models, probabilistic matrix factorization, Bayesian nonparametrics, and related methods.
+
+<P>Previously, I have worked on supervised machine learning/data mining, multi-instance learning, cognitive robot mapping, operations research, and artificial intelligence for the game of Go.</P>
+<BR>
+<!--
+<h2>Conference and Journal Publications</h2>
+<li>J. R. Foulds, P. Smyth. <A HREF="TIR_EMNLP.pdf"><B>Modeling scientific impact with topical influence regression</B></A>. Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2013. <A HREF = "slides/TIR - EMNLP.pptx">[Slides]</A> <A HREF=http://aclweb.org/anthology//D/D13/D13-1012.bib>[Bibtex]</A></I></li><br>
+<li>J. R. Foulds, L. Boyles, C. DuBois, P. Smyth and M. Welling.
+<A HREF="Foulds_SCVB0.pdf"><B>Stochastic collapsed variational Bayesian inference for latent Dirichlet allocation</B></A>.
+Proceedings of the 19th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD), 2013.
+<br>
+ <I>The long version, including convergence proofs, is available on the <A HREF="http://arxiv.org/abs/1305.2452">arXiv </A>. <A HREF = "slides/Stochastic CVB for LDA (KDD presentation).pptx">[Slides]</A>
+ <A HREF=bibtex/scvb0.bib>[Bibtex]</A></I>
+</li><br>
+<li>C. DuBois, J. R. Foulds, P. Smyth. <A HREF="http://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/view/2861/3270"><B>Latent set models for two-mode network data</B></A>. Proceedings of the 5th International AAAI Conference on Weblogs and Social Media (ICWSM), 2011. </li><br>
+
+<li>J. R. Foulds, A. Asuncion, C. DuBois, C. T. Butts, P. Smyth. <A HREF = "http://jmlr.csail.mit.edu/proceedings/papers/v15/foulds11b/foulds11b.pdf"><B>A dynamic relational infinite feature model for longitudinal social networks</B></A>. Proceedings of the 14th International Conference on AI and Statistics (AI Stats), April 2011. <br><I>Code available<A HREF = code/DRIFT.tar.gz> here </A>.</I></li><br>
+<li>J. R. Foulds, N. Navaroli, P. Smyth, A. Ihler. <A HREF = "http://jmlr.csail.mit.edu/proceedings/papers/v15/foulds11a/foulds11a.pdf"><B>Revisiting MAP estimation, message passing and perfect graphs</B></A>. Proceedings of the 14th International Conference on AI and Statistics (AI Stats), April 2011. </li><br>
+
+<li> J. R. Foulds and P. Smyth.  <A HREF="http://siam.omnibooksonline.com/2011datamining/data/papers/256.pdf"><B>Multi-instance mixture models and semi-supervised learning</B></A>.  SIAM International Conference on Data Mining, April 2011.</li><br>
+
+<li> J. R. Foulds and E. Frank. <A HREF="dd_speedup.pdf"><B>Speeding up and boosting diverse density learning</B></A>. In Proc 13th International Conference on Discovery Science, pages 102-116. Springer, 2010. </li><br>
+
+<li> J. R. Foulds and E. Frank. <A HREF="FouldsAndFrankMIreview.pdf"><B>A review of multi-instance learning assumptions</B></A>. Knowledge Engineering Review, 25(1):1-25, 2010. </li><br>
+
+<li> J. R. Foulds and E. Frank. <A HREF="miles.pdf"><B>Revisiting multiple-instance learning via embedded instance selection</B></A>. In Proc 21st Australasian Joint Conference on Artificial Intelligence, Auckland, New Zealand. Springer, 2008. </li><br>
+
+<li>J. R. Foulds and L. R. Foulds, <A HREF="http://inderscience.metapress.com/link.asp?id=96j9n63f98pvubea"><B>A probabilistic dynamic programming model of rape seed harvesting</B></A>.  International Journal of Operational Research 2006, Vol. 1, No. 4, 2006.</li><br>
+
+<li>J. R. Foulds and L. R. Foulds, <A HREF="http://dx.doi.org/10.1142/S0217595906000875"><B>Bridge lane direction specification for sustainable traffic management</B></A>.  Asia-Pacific Journal of Operational Research, Vol. 23, No. 2, 2006.</li><br>
+<BR>
+
+<h2>Workshop Papers</h2>
+<li>J. R. Foulds and P. Smyth. <B>Robust Evaluation of Topic Models</B>.
+In NIPS Workshop on Topic Models, 2013</li><br>
+<li>J. R. Foulds and D. G&ouml;r&uuml;r. <B>Diverse personalization with determinantal point process eigenmixtures</B>.
+In NIPS Workshop on Personalization, 2013.</li><br>
+<li>J. R. Foulds and P. Smyth. <B>Modeling scientific impact with topical influence regression</B>.
+In NIPS Workshop on Algorithmic and Statistical Approaches for Large Social Network
+Data Sets, 2012.
+</li>
+<BR>
+
+<h2>Theses</h2>
+
+<li>J. R. Foulds, <A HREF="FouldsMSc08.pdf"><B>Learning Instance Weights in Multi-Instance Learning</B></A>. MSc Thesis, Department of Computer Science, University of Waikato, Hamilton, New Zealand, 2008.</li><br>
+
+<li>J. R. Foulds, <A HREF="FouldsLearningGo06.pdf"><B>Learning to play the game of go</B></A>. Honours Thesis, Department of Computer Science, University of Waikato, Hamilton, New Zealand, 2006.</li><br>
+<BR>
+-->
+<h2>Reviewing</h2>
+NIPS, NIPS Workshop on Topic Models, UAI, IEEE TNNLS, IEEE TKDE, AIJ, DAMI, CAMWA
+<!--
+<h2>Research Experience</h2>
+
+<li> Master of Science Project: "Learning Instance Weights in Multi-Instance Learning".  I investigated multi-instance concept classes where instances in the MI bags are assumed to each have a weight that determines their influence on bag-level class labels.  Supervisor: Dr Eibe Frank. February 2007 - February 2008.</li>
+
+<li> Honours Project: "Learning to Play the Game of Go".  The project was to apply supervised machine learning techniques to the game of Go, and perform a comparative study on the performances of different learning algorithms.  Supervisor: Dr Eibe Frank. 2006.</li>
+
+<li> Two operations research papers published with my father, Les Foulds (see publications, above).  The papers were on the application of dynamic programming to specific real-world problems. 2006. </li>
+
+<li> Research Assistantship: Text mining. Supervisor: Dr Eibe Frank. Summer 2006. </li>
+
+<li> Research Assistantship: Cognitive Robot Mapping. Supervisor: The late Dr Margaret Jefferies. 2003-2005 </li>
+-->
+<BR>
+
+<h2>Software</h2>
+<li> At the behest of the University of Waikato Department of Mathematics, I created <A HREF="http://sourceforge.net/projects/tuataratmsim/">Tuatara Turing Machine Simulator </A>, a graphical Turing machine simulator and construction tool for teaching purposes.</li>
+<li> I also worked on the GUI for the Boundary Visualizer, a classification visualization tool in <A HREF="http://www.cs.waikato.ac.nz/ml/weka/"> WEKA </A>, a popular java open source data mining toolkit developed at the University of Waikato.
+<BR>
+
+<h2>Other Interests</h2>
+<li> I am a member of the Korean drumming group Hansori. </li> 
+<li> I was a performing member of the Japanese taiko drumming group <A HREF="http://www.waitaiko.com"> Waitaiko </A>. </li>
+<li> I played guitar in the (now disbanded) rock group <A HREF = "http://profile.myspace.com/4secondfuse"> 4 Second Fuse</A>.</li>
+<li> In 2007-2008, I was part of the problem reviewing/writing team for the ACM South Pacific Programming Contest. </li>
+<li> For a number of years, I was involved with the executive committee of the <A HREF="http://www.cs.waikato.ac.nz/studentacm/"> Waikato ACM Student Chapter </A>. </li>
+<BR>
+
+<h2>Trivia</h2>
+
+My Erd&#246;s number is two (James R. Foulds - Leslie R. Foulds - Paul Erd&#246;s).
+<BR>
+
+</html>
+

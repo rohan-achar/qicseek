@@ -1,0 +1,294 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<title>Centered Text by Integer Programming</title>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<h1>Algorithms in Gene</h1>
+
+<h2>Centered Text by Integer Programming</h2>
+
+<hr>
+<h3>The Problem</h3>
+
+<p>The following problem comes up when Gene 4.2 creates reports in
+certain output formats. Some report types want the text they create
+to be centered. Some formats are only capable of handling character
+output; they do not have any way of specifying centering. To center
+text in these formats, we need to indent it ourselves by using an
+appropriate number of space characters.</p>
+
+<p>The complication is that the Macintosh character set contains
+two kinds of space character: the usual space, and option-space
+(also known as non-breaking space). For typical fonts, these two
+spaces are different widths. We can take advantage of this fact by
+using a combination of both kinds of spaces, to get a total amount
+of indentation that centers the text more accurately than we would
+achieve by using only one kind of space.</p>
+
+<p>So, the question becomes, given three numbers</p>
+
+<blockquote><i>a</i> (the width of a normal space),<br>
+<i>b</i> (the width of an option-space), and<br>
+<i>c</i> (the amount we want to indent),</blockquote>
+
+find two more numbers 
+
+<blockquote><i>x</i> (the number of normal spaces to use), and<br>
+<i>y</i> (the number of option-spaces to use),</blockquote>
+
+so that <i>ax</i>+<i>by</i> is as close as possible to <i>c</i>.
+This is an instance of <i>diophantine approximation</i> (a field
+studying how to find integer approximations to various formulas). 
+
+<p>A slight further optimization can be made here: if it's possible
+to err by equal amounts on both the high and low side of <i>c</i>,
+we want the answer to be consistently on one side, say the low one.
+Another way of thinking of this is that we get an even better
+approximation to <i>c</i> - 1/2 than we do to <i>c</i> itself. This
+is especially helpful for the centering application since centering
+involves dividing a certain amount of space by two.</p>
+
+<p>We might also have a secondary goal of minimizing the number of
+characters (<i>x</i>+<i>y</i>) but we don't worry about that
+here.</p>
+
+<p>How can we solve this efficiently?</p>
+
+<h3>Integer Linear Programming</h3>
+
+The problem becomes easier to visualize if we plot it in two
+dimensions. We use the usual <i>x</i> and <i>y</i> axes to
+represent the two variables we are trying to find. The possible
+solutions are just those points where both variables are
+nonnegative integers; they form (part of) a <i>lattice</i> in the
+<i>xy</i> plane. The ideal solution would be <i>
+ax</i>+<i>by</i>=<i>c</i>; this is the equation of a line, cutting
+across the lattice. 
+
+<p>The following picture depicts an example we will use in the rest
+of this page, in which <i>a</i>=11, <i>b</i>=9, and <i>c</i>=79. In
+terms of our original problem, the width of an option-space is 11
+pixels, the width of a space is 9 pixels, and the total width we
+wish to indent is 79 pixels. Each blue dot in the picture
+represents the combination of <i>x</i> option-spaces and <i>y</i>
+spaces. The red line represents the ideal width of 79 pixels. What
+we want to do is to find a blue dot that's as close as possible to
+the red line.</p>
+
+<p>For this example, there are exact integer solutions to the
+equation <i>ax</i>+<i>by</i>=<i>c</i>, but these solutions all have
+one of <i>x</i> and <i>y</i> negative, which makes no sense for our
+application. We require both numbers to be positive or zero; with
+this constraint, the best close approximate solution is <i>x</i>=3,
+<i>y</i>=5, <i>ax</i>+<i>by</i>=78. In other words, 3 option-spaces
+and 5 spaces give a 78-pixel indentation, close to our desired
+indentation of 79 pixels.</p>
+
+<center><img src="11-9-79.gif"></center>
+
+<p>If the line <i>ax</i>+<i>by</i>=<i>c</i> contains an integer
+point, that's our solution; otherwise we'd like to find an integer
+point (<i>x</i>,<i>y</i>) as close to the line as possible.
+Depending on whether the point is below or above the line,
+(<i>x</i>,<i>y</i>) can be described by certain inequalities. If
+(<i>x</i>,<i>y</i>) is below the line, it satisfies the three
+inequalities</p>
+
+<center><i>x</i> &gt;= 0<br>
+<i>y</i> &gt;= 0<br>
+<i>ax</i>+<i>by</i> &lt;= <i>c</i></center>
+
+and is the point maximizing the value of <i>ax</i>+<i>by</i> among
+all points satisfying those inequalities. On the other hand, if
+(<i>x</i>,<i>y</i>) is above the line, it satisfies the three
+inequalities 
+
+<center><i>x</i> &gt;= 0<br>
+<i>y</i> &gt;= 0<br>
+<i>ax</i>+<i>by</i> &gt;= <i>c</i></center>
+
+and is the point minimizing the value of <i>ax</i>+<i>by</i> among
+all points satisfying those inequalities. 
+
+<p>The general problem of finding a point satisfying certain linear
+inequalities, and maximizing or minimizing a linear function, is
+known as <i>linear programming</i>. If the variables are allowed to
+be real numbers, linear programs can be solved in polynomial time
+(in the number of variables and inequalities, and in the number of
+bits needed to store the various numbers defining the problem)
+using complicated methods such as Karmarkar's algorithm. With only
+few variables (here, just two) they can be solved even more
+efficiently using algorithms from computational geometry.</p>
+
+<p>Here, however, we have an additional constraint that <i>x</i>
+and <i>y</i> be integers. This makes a different type of problem,
+known as <i>integer linear programming</i>. If there are many
+variables, integer linear programming is very hard (NP-complete)
+but here there are only two variables, so we can solve our problem
+reasonably efficiently.</p>
+
+<h3>Brute Force Solution</h3>
+
+One easy solution method is to follow a path of vertical and
+horizontal edges in the integer lattice, keeping as close as
+possible to the line <i>ax</i>+<i>by</i>=<i>c</i>. 
+
+<center><img src="aps-brute.gif"></center>
+
+<p>In more detail, we start our path with the candidate solution
+<i>x</i>=0, <i>y</i>=<i>c</i>/<i>b</i>+1. Then whenever the current
+point has <i>ax</i>+<i>by</i> &gt;= <i>c</i>, we decrease <i>y</i>,
+and whenever <i>ax</i>+<i>by</i> &lt;= <i>c</i>, we increase <i>
+x</i>, until we reach the other end of the path, <i>y</i>=0, <i>
+x</i>=<i>c</i>/<i>a</i>+1. At each step we compare the current
+point against the best previous solution.</p>
+
+<p>This takes time O(<i>c</i>/<i>a</i> + <i>c</i>/<i>b</i>), the
+number of points on the path of candidate solutions. Although not
+polynomial (this time bound is exponential in the number of bits
+needed to represent the input) this may be ok for our centering
+application, since we need to spend a similar amount of time
+actually outputting the spaces.</p>
+
+<h3>Efficient Solution</h3>
+
+Here's a different way of solving the same problem much more
+quickly. 
+
+<p>We can assume without loss of generality that <i>
+a</i>&gt;<i>b</i> (if not, just switch the two coordinates). The
+idea behind our efficient algorithm is simply to approximate the
+line <i>ax</i> + <i>by</i> = <i>c</i> by one of integer slope, <i>
+y</i> = <i>r</i> - <i>q</i><i>x</i>. To make this line have similar
+slope to the original one, we let <i>
+q</i>=floor(<i>a</i>/<i>b</i>), and to make this line stay entirely
+below the original one, we let <i>
+r</i>=floor(<i>qc</i>/<i>a</i>).</p>
+
+<p>We use this line to divide the possible integer solutions to our
+problem into two sets, a triangle near the origin in which <i>y</i>
+&lt;= <i>r</i> - <i>q</i><i>x</i>, and a wedge bounded by the <i>
+y</i> axis and by the line <i>y</i> &gt;= <i>r</i> - <i>
+q</i><i>x</i> + 1.</p>
+
+<center><img src="approximsum.gif"></center>
+
+<p>Within the lower triangle, the best approximation to <i>c</i> is
+always found at the lower right corner. In the problem shown in the
+picture, the lower right corner point is on the <i>x</i> axis, but
+for some other problems it might be slightly above the axis. More
+technically the solution for this case is the point with <i>x</i> =
+floor(<i>c</i>/<i>a</i>) and <i>y</i> = <i>r</i> - <i>qx</i>.</p>
+
+<p>Within the upper wedge, we can ignore the constraint <i>y</i>
+&gt;= 0 (the optimal solution ignoring this constraint is the same
+as if the constraint were there). If we perform a coordinate
+transformation <i>y</i> = <i>y</i> + <i>qx</i> - <i>r</i> - 1 this
+wedge turns back into the quadrant <i>x</i>,<i>y</i> &gt;= 0! In
+other words we can solve the upper wedge problem recursively as
+another instance of the same type of problem we started with. As a
+base case to the recursion, whenever the upper wedge becomes
+completely above the line <i>ax</i> + <i>by</i> = <i>c</i> we can
+simply return the origin as our best approximation.</p>
+
+<p>At each step, the coordinate transformation we use replaces <i>
+a</i> with <i>a</i> - <i>bq</i>, so the instances we solve get
+smaller and smaller. In fact, the changes made to <i>a</i> and <i>
+b</i> are exactly those made by Euclid's algorithm for computing
+gcd(<i>a</i>,<i>b</i>), which is known to terminate after O(log <i>
+a</i>) steps. So the same bound applies to our algorithm. Note in
+particular that the runtime doesn't depend on <i>c</i>, the number
+we're trying to approximate.</p>
+
+<h3>Which Solution to Use?</h3>
+
+Both methods produce the same quality of answer (although if more
+than one point has the same quality, the two methods may give
+different answers). The amount of code needed to program both
+methods is also not much different. Obviously the efficient
+algorithm will work better for "large" input; the question is
+whether the inputs found in practice are large enough to make this
+difference important. To test the timing issues, I ran some
+experiments on my SPARCstation, with input parameters within the
+ballpark of what I'd expect to see on my centering application. 
+
+<p>The results? A bit of a wash. Without optimization, the
+efficient algorithm was actually 50% slower than the brute force
+method on the numbers I tried. But with compiler optimizations
+turned on (in particular function inlining), the efficient
+algorithm became more than twice as fast as the (similarly
+optimized) brute force algorithm. The moral seems to be that
+optimizing compilers are more critical for recursive algorithms
+than for iterative ones.</p>
+
+<p>My choice would be to go with the efficient algorithm. The speed
+differences are small enough not to matter (either algorithm will
+only use a small fraction of the total report output time) but the
+efficient algorithm has greater flexibility to cover cases I
+haven't yet anticipated, or other applications of the same
+problem.</p>
+
+<h3>Source Code</h3>
+
+<ul>
+<li><a href="aps-brute.cp">Brute Force Solution</a></li>
+
+<li><a href="approximsum.cp">Efficient Solution</a> and <a href= 
+"approximsum.h">header file</a></li>
+
+<li><a href="test.cp">Test driver</a>. I found it very useful to
+implement two algorithms for the same problem; I could debug both
+by looking for discrepancies in their answers. This was the main
+program I used to do this.</li>
+
+<li><a href="timetest.cp">Timing benchmark driver and timing
+results</a></li>
+</ul>
+
+<h3>References</h3>
+
+<ul>
+<li>D. S. Hirschberg and C. K. Wong. A polynomial-time algorithm for the
+knapsack problem with two variables. <i>J. ACM</i> 23, 1976, pp. 147-154.
+Solves a somewhat more general problem, of finding a combination of two
+lengths that totals less than a given target length and that maximizes
+some weighted combination of the two lengths (rather than, as here,
+simply being as close to the target as possible).  The algorithm
+is based on similar Euclidean-algorithm ideas to the ones here.</li>
+
+<li>D. Shallcross, V. Pan, and Y. Lin-Kriz. The NC equivalence of
+planar integer linear programming and Euclidean GCD. <i>34th IEEE
+Symp. Foundations of Computer Science</i>, 1993, pp. 557-564. This
+is mostly about parallel algorithms, but it is based on similar
+ideas of cutting triangles into pieces; I used it as the source of
+my inspiration for the work here. It cites many other important
+papers on integer linear programming.</li>
+
+<li>Three other papers cited by Shallcross et al. seem particularly
+relevant: R. Kannan, A polynomial algorithm for the two-variable
+integer linear programming problem, <i>J. ACM</i> 27, 1980, pp.
+118-122; R. Kannan, Improved algorithms for integer linear
+programming and related lattice problems, <i>15th ACM Symp. Theory
+of Computing</i>, 1983, pp. 193-206; and H. W. Lenstra, Jr.,
+Integer linear programming with a fixed number of variables, <i>
+Math. Oper. Res.</i> 8, 1983, pp. 538-548.</li>
+
+<li>T. H. Cormen, C. E. Leiserson, and R. Rivest, Introduction to
+Algorithms, MIT Press &amp; McGraw Hill 1990, pp. 808-814 provides
+an accessible analysis of the running time of Euclid's GCD
+algorithm, which is intimately related to the method here. For more
+than you wanted to know about this analysis, see D. E. Knuth, The
+Art of Computer Programming, II: Seminumerical Algorithms,
+Addison-Wesley 1969, pp. 316-338.</li>
+</ul>
+
+<hr>
+<a href="http://www.ics.uci.edu/~eppstein/gene/algs/">Algorithms in
+Gene</a>, <a href="http://www.ics.uci.edu/~eppstein/">David
+Eppstein</a>, <a href="http://www.ics.uci.edu/">ICS</a>, <a href= 
+"http://www.uci.edu/">UC Irvine</a>
+</body>
+</html>
+
+

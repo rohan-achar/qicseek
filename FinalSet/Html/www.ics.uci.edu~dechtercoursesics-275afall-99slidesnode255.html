@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Character I/O Built-ins</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Character I/O Built-ins">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5313 HREF="node256.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5311 HREF="node243.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5305 HREF="node254.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5315 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5314 HREF="node256.html"> Term I/O Built-ins</A>
+<B>Up:</B> <A NAME=tex2html5312 HREF="node243.html"> The Built-in Predicates </A>
+<B> Previous:</B> <A NAME=tex2html5306 HREF="node254.html"> Stream I/O Built-ins</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION0021120000000000000000> Character I/O Built-ins</A></H1>
+<P>
+<A NAME=tex2html1072 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  Character-based I/O built-in.
+<DL ><DT><b> get(+Stream, ?Ascii)</b>
+<DD> <BR> 
+Reads the next character from the input stream  Stream and unifies its ASCII code with  Ascii.
+<A NAME=5313>&#160;</A>
+<DT><b> get(?Ascii)</b>
+<DD> <BR> 
+Reads the next character from the current input stream and unifies its ASCII code with  Ascii.
+<A NAME=5316>&#160;</A>
+<DT><b> get_char(+Stream, ?Char)</b>
+<DD> <BR> 
+Reads the next character from the input stream  Stream and unifies it with a single character string  Char.
+<A NAME=5320>&#160;</A>
+<DT><b> get_char(?Char)</b>
+<DD> <BR> 
+Reads the next character from the current input and unifies it with a single character string  Char.
+<A NAME=5323>&#160;</A>
+<DT><b> put(+Ascii)</b>
+<DD> <BR> 
+The character represented by the ascii integer  Ascii is put onto the buffered current output.
+<A NAME=5326>&#160;</A>
+<DT><b> put(+Stream, +Ascii)</b>
+<DD> <BR> 
+The character represented by the ascii integer code  Ascii is put onto the buffered output stream  Stream.
+<A NAME=5330>&#160;</A>
+<DT><b> put_char(+Char)</b>
+<DD> <BR> 
+Puts the single character string  Char onto the buffered current output.
+<A NAME=5333>&#160;</A>
+<DT><b> put_char(+Stream, +Char)</b>
+<DD> <BR> 
+Puts the single character string  Char onto the buffered output stream  Stream.
+<A NAME=5337>&#160;</A>
+<DT><b> read_string(+DelString, ?Length, ?String)</b>
+<DD> <BR> 
+Reads a string from the  input stream up to a delimiter or up to a specified length.
+<A NAME=5340>&#160;</A>
+<DT><b> read_string(+Stream, +DelString, ?Length, ?String)</b>
+<DD> <BR> 
+Reads a string from the stream  Stream up to a delimiter or up to a specified length.
+<A NAME=5343>&#160;</A>
+<DT><b> tyi(+Stream, ?Ascii)</b>
+<DD> <BR> 
+Succeeds if the ascii code of the next character read in raw mode from the input stream  Stream is successfully unified with  Ascii.
+<A NAME=5347>&#160;</A>
+<DT><b> tyi(?Ascii)</b>
+<DD> <BR> 
+Succeeds if the ascii code of the next character read in raw mode from the current input is successfully unified with  Ascii.
+<A NAME=5350>&#160;</A>
+<DT><b> tyo(+Ascii)</b>
+<DD> <BR> 
+The character represented by the ascii integer  Ascii is put onto the current output in raw mode.
+<A NAME=5353>&#160;</A>
+<DT><b> tyo(+Stream, +Ascii)</b>
+<DD> <BR> 
+The character represented by the ascii integer  Ascii is put onto the output stream  Stream in raw mode.
+<A NAME=5357>&#160;</A>
+<P>
+ </DL><BR> <HR><A NAME=tex2html5313 HREF="node256.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5311 HREF="node243.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5305 HREF="node254.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5315 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5314 HREF="node256.html"> Term I/O Built-ins</A>
+<B>Up:</B> <A NAME=tex2html5312 HREF="node243.html"> The Built-in Predicates </A>
+<B> Previous:</B> <A NAME=tex2html5306 HREF="node254.html"> Stream I/O Built-ins</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

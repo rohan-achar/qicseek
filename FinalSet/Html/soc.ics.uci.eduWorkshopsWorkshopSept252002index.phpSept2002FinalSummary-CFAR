@@ -1,0 +1,299 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Workshops : Comparative
+        Investigation : Final Summary : GLR CFAR</TITLE>
+<!-- #BeginTemplate "/Templates/index.dwt" -->
+<meta name="description" content="A research project investigating the social and technical issues surrounding the success of geographically distributed science and engineering collaborations." />
+<meta name="keywords" content="scientific collaboration, collaboratories, collaboratory, University of Michigan, School of Information, social-technical" />
+<meta name="language" content="English" />
+<meta name="author" content="Dan Cooney" />
+<meta name="programmer" content="Greg Peters" />
+<META content=ALL name=robots>
+<META content="15 days" name=revisit-after>
+<META content=SOC-website@umich.edu name=reply-to>
+<META content="Living Document" name=document-class>
+<META content="Copyrighted Work" name=document-rights>
+<META content="Web Page" name=document-type>
+<META content="Safe for Kids" name=document-rating>
+<META content=Global name=document-distribution>
+<META content=Static name=document-state>
+<META content=no-cache name=cache-control>
+<META http-equiv=Content-Language content=EN-US>
+<META content="Dan Cooney" name=Publisher>
+
+<link REL="ICON" HREF="/soc.ico" TYPE="image/x-icon">
+<link REL="SHORTCUT ICON" HREF="/soc.ico" TYPE="image/x-icon">
+
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1"><!-- #BeginEditable "doctitle" --><!-- #EndEditable -->
+<SCRIPT type=text/javascript>
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</SCRIPT>
+<LINK href="/styles/SOC.css" 
+type=text/css rel=stylesheet><!--Main content begins -->
+<META content="MSHTML 5.50.4913.1100" name=GENERATOR></HEAD>
+<!-- #LOOP-START:header -->
+<BODY text=#000000 vLink=#333399 aLink=#ff9900 link=#333399 bgColor=#ffffff 
+leftMargin=2 topMargin=2 marginheight="2" marginwidth="2">
+<TABLE height=117 cellSpacing=0 cellPadding=0 width="100%" align=center 
+border=0>
+  <TR>
+    <TD vAlign=top align=left>
+      <TABLE cellSpacing=0 cellPadding=0 width=100% align=left 
+      border=0 name="Header">
+        <TR>
+          <TD vAlign=bottom align=left background=""
+          rowSpan=3 height=103 width=145><A 
+            href="/"><IMG 
+            height=103 alt="Science of Collaboratories logo - link" 
+            src="/images/LOGOSMALLER.gif" 
+            width=145 align=bottom border=0 name=SOCLogo></A></TD>
+          <TD height=40 valign="top">
+            <DIV ALIGN="RIGHT" CLASS="admin_login"><A HREF="/index.php?SOCSiteMap">Site Map</A>&nbsp;-&nbsp;<A HREF="/datateam/index.php">Login</A></DIV><BR>
+            <SCRIPT src="/libs/exmplmenu_var.js" type=text/javascript></SCRIPT>
+            <SCRIPT src="/libs/menu_com.js" type=text/javascript></SCRIPT>
+            <NOSCRIPT>Your browser does not support script</NOSCRIPT></TD></TR>
+        <TR>
+          <TD vAlign=top align=left width=100% bgColor=#660033 height=15>
+            &nbsp;
+          </TD></TR>
+        <TR>
+         <TD width=100% bgColor=#660033 height=15>&nbsp;</TD></TR>
+</table>
+      </TD>
+    <TD vAlign=top width=60 height=100>&nbsp;</TD>
+   </TR>
+        <TR>
+          <TD vAlign=top align=left height=20><IMG height=20 
+            alt="An alliance to advance the understanding of collaboratories" 
+            src="/images/SOCATextNew.gif" 
+            width=527 border=0 name=SOCATextNew>
+          </TD>
+         </TR>
+</TABLE>
+<!-- #LOOP-END:header -->
+<TABLE cellSpacing=0 cellPadding=0 width=100% align=left border=0 
+name="Main Body Table">
+  <TR>
+    <TD vAlign=top colspan=4 align=left bgColor=#660033 height=12><IMG 
+      height=12 alt="Science of Collaboratories" 
+      src="/images/RoundedRed.gif" 
+      align=top border=0 name=Header_r9_c1><BR></TD>
+    <TD vAlign=top align=left bgColor=#660033 height=12>&nbsp; </TD>
+    <TD width=60 bgColor=#ffffff>&nbsp;</TD></TR>
+  <TR>
+    <TD width=20 bgColor=#660033></TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD colspan=2 align=left bgColor=#ffffff>
+<!-- This is where we will add the content -->
+
+<table width="100%" border="0">
+  <tr>
+    <td width="1%">&nbsp;</td>
+    <td>
+      <div class="PageTitle">Workshops : Comparative
+        Investigation : Final Summary : GLR CFAR</div>
+      <br><div class="workshop_navbar"><a href="index.php">Workshop Description</a>
+        | <a href="index.php?Sept2002Agenda">Agenda and Presentations</a> | <a href="index.php?Sept2002Participants">Participants</a> | <a href="index.php?Sept2002FinalSummary"><b>Final Summary</b></a></div>
+    </td>
+    <td width="1%">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%" border="0">
+  <tr>
+  <td width="1%">&nbsp;</td>
+  <td>
+<div class="PageSubTitle">Great Lakes Regional Collaboratory for AIDS Research (GLR CFAR)</div>
+<br>
+<p>
+<b>Presenter:</b>  Stephanie Teasley<br>
+<b>Participants:</b>  Dr. Steven Wolinsky, GLR CFAR Director, Jamie Drew, the head administrator of the GLR CFAR<br>
+<b>Discussants:</b>  Jim Herbsleb, Prasun Dewan
+</p>
+<p>The Great Lakes Regional Center for AIDS Research (GLR CFAR) was the first distributed CFAR sponsored by the NIH.  This collaboratory, which built on the successes achieved in the SPARC/UARC project, bridges the geography of the four member institutions, Northwestern University, University of Michigan, University of Minnesota, and University of Wisconsin with off-the-shelf information technologies.  The scientific goal of the GLR CFAR is to provide:<br>
+&nbsp;&nbsp;&nbsp;1) complimentary technological or expert-based services, and<br>
+&nbsp;&nbsp;&nbsp;2) educational opportunities for all members of the participating institutions.<br>
+Membership in the collaboratory is open to any AIDS researcher at the GLR CFAR member institutions.  To date, there are 110 members.
+</p>
+<p>Information was gathered by conducting user interviews and observations to select the appropriate technologies for the collaboratory.  Communication, data access, shared authoring, and distance education were identified as functions the technology needed to support. Microsoft NetMeeting was selected for communication and shared authoring to support activities such as a pathologist and clinician discussing a tissue sample and two clinicians negotiating the final details of a clinical protocol.  PlaceWare, a java-based conferencing tool, was selected for distance education, to support a lab seminar series with national experts presenting pre-published research.  Xerox DocuShare was selected for data access and sharing to support activities such as the distribution of completed developmental award applications to the GLR CFAR Scientific Advisory Board.
+</p>
+<p>Collaboration readiness of the participating scientists was also assessed in the preliminary interviews and augmented with a web-based survey administered to 10 GLR CFAR members, who are referred to as the "founding scientists."  In terms of collaboration technology readiness, all participants had at least one year of email use and none of the participants had prior experience using other computer-mediated communication, i.e., phone and fax were the primary communication methods used for long distance collaborations by these scientists.  In terms of social collaboration readiness, all the participants reported reasonably high levels of trust among other participants and there were 4 pre-existing within-site collaborations, 4 pre-existing cross-site collaborations, 3-5 anticipated new collaborations, one of which is a new cross-site collaboration.
+</p>
+<p>Two cases of use were reported:<br>
+&nbsp;&nbsp;&nbsp;1) a case study of the founding scientists and<br>
+&nbsp;&nbsp;&nbsp;2) a general study of the 110 members of the collaboratory.
+</p>
+<p>The case study of the founding scientists and general study included interviews, observations, citation and grant award analysis, and web-based surveys.  In the case study, focus was on the founding scientists':<br>
+&nbsp;&nbsp;&nbsp;1) satisfaction with the IT tools,<br>
+&nbsp;&nbsp;&nbsp;2) within and cross-site collaborations, and<br>
+&nbsp;&nbsp;&nbsp;3) impact on scholarly work.
+</p>
+<p>The scientists quickly adopted technology, and two scientists began using the technology for other geographically distributed collaborations outside the GLR CFAR.  By year three, there were 8 new grants between the 10 scientists, including five grants across two sites and one grant across three sites.  Two of these eight grants involved scientists who had never collaborated together and three of these grants applied a clinical-bench approach.
+</p>
+<p>In the general study, the focus was on:<br>
+&nbsp;&nbsp;&nbsp;1)	satisfaction with tools and<br>
+&nbsp;&nbsp;&nbsp;2)	impact of the collaboratory on scholarly work.
+</p>
+<p>Seventy-five percent of the total GLR CFAR membership participated in at least one of the collaboratory's educational activities, the virtual seminars.  Members reported having an average of eight GLR CFAR collaborators.  Members also reported having two hundred distinct within-site collaborations and sixty-eight between site collaborations.  Finally, there was a 64% increase in the NIH funded research for the CFAR members.
+</p>
+<p>There were two indicators of success, couched in terms of the overall scientific goals of the collaboratory.  The first was the development of a clinical protocol by two clinicians at two different sites who had never worked together, using MS NetMeeting.  According to the clinicians, NetMeeting enabled this task to be completed faster than their previous attempts at geographically distributed protocol development. The study based on this protocol was subsequently funded and produced two high quality publications.  The second indicator of success was that 8 of 9 developmental awardees went on to secure competitive and prestigious RO1 grants.
+</p>
+<p>Two questions face researchers of distributed centers; What influences participation and how is participation assessed.
+</p>
+<p class="subhead">Comment from the CFAR Participants
+</p>
+<p>The Director and many of his colleagues have integrated the technology into their everyday ways of communicating, i.e., the collaborative technology is no longer considered something novel.
+</p>
+<p class="subhead">Discussants
+</p>
+<p><b>Jim Herbsleb and workshop participants</b><br>
+The GLR CFAR was a noteworthy collaboratory because it was inherently interdisciplinary, bridging clinicians and bench scientists, and appeared to enable scientists to complete tasks more quickly.  In spite of these positive features, there are some fundamental questions that need to be resolved (in no particular order):<br>
+&nbsp;&nbsp;&nbsp;1) Do the founding scientists affect cross-site collaboration?<br>
+&nbsp;&nbsp;&nbsp;2) What is the scientific impact of the collaboratory?<br>
+&nbsp;&nbsp;&nbsp;3) What was collaboration like among scientists before the collaboratory?
+</p>
+<p>There are three hypotheses about time concerning collaboratories:<br>
+&nbsp;&nbsp;&nbsp;1) distance matters less in collaboratories over time,<br>
+&nbsp;&nbsp;&nbsp;2) there are huge impediments to starting,and<br>
+&nbsp;&nbsp;&nbsp;3) different tools are needed to support different phases of a collaboratory.
+</p>
+<p>Tool selection should not be simply based on what the scientists report wanting, but should also include observations of the work.  One of the most important aspects of work is understanding the dependencies of tasks. The three areas of research  that can help understand work:<br>
+&nbsp;&nbsp;&nbsp;1) information processing theory;<br>
+&nbsp;&nbsp;&nbsp;2) stability of environment, and<br>
+&nbsp;&nbsp;&nbsp;3) soft dependencies.
+</p>
+<p><b>Prasun Dewan and workshop participants</b><br>
+Research efforts regarding collaborative tools should be divided not by domain, but by application features.  That is, it should focus less on the content of work of the scientists being supported and more on the application features that support the scientific work.  We should develop a common model of interaction to help system designers build tools to support collaboratories.
+</p>
+<p>Based on the GLR CFAR data presented, off-the-shelf tools e.g., NetMeeting, Timbuktu, and Virtual PC, seem to work fine for application sharing, but collaboration requires more than one tool.  What would the ideal single tool be, especially for also doing "beyond being there" collaboration?  Projects should be defined not by domain but by points in dimension space.
+</p>
+<p class="subhead">Discussion
+</p>
+<p><i>Distance and Organizational Structure</i><br>
+Physical and organizational distances are significant and must be considered in design and evaluation of technology in collaboratories.  Organizations reorganize themselves to become parts of different references groups, which can bridge some of these differences.
+The blue ribbon panel on cyber-infrastructure found that computational capabilities can allow scientists to tackle larger problems, but it requires a larger group of participants. It is not clear how to organize them.
+</p>
+<p><i>Technologies to support collaborative science</i><br>
+Focus on user experiences and work practices in designing or selecting tools to implement.  We should not be chained to off-the-shelf technologies when users are working in ways that are not supported by them.
+</p>
+<p><i>Funding Agencies</i><br>
+It is difficult to show value added of collaboratories to scientific practices.  The problem for funding agencies is how to help scientists make these large-scale projects work and produce high quality science.
+
+</p>
+<p class="backnav">back to the <a href="index.php?Sept2002FinalSummary">Final Summary</a></p>
+
+     </td>
+  <td width="1%">&nbsp;</td>
+  </tr>
+</table>
+
+    </TD>
+    <TD width=60>&nbsp;</TD></TR>
+<TR>
+    <TD vAlign=top align=middle width=20 bgColor=#660033>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="#666699" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top colspan=2 align=right bgColor=#ffffff height=12>&nbsp;</TD>
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=bottom colspan=4 align=left width=145 bgColor=#660033 height=12><IMG 
+      height=12 
+      src="/images/RoundedBottom.gif" 
+      width=145 align=bottom></TD>
+    <TD vAlign=top align=right bgColor=#660033 height=12><FONT 
+      color=#ffffff>
+      &nbsp;</FONT><SPAN class=SmallText><FONT 
+      color=#ffffff>&nbsp; </FONT></SPAN></TD><!-- HERE -->
+    <TD width=60 bgColor=#ffffff height=12>&nbsp;</TD></TR>
+  <TR>
+    <TD vAlign=top align=middle width=20>&nbsp;</TD>
+    <TD colspan=4 vAlign=top align=middle bgColor=#ffffff
+      height=6><SPAN class="footernavbar"><A 
+      href="/">Home</A> | <A 
+      href="/AboutSOC/index.php">About 
+      SOC</A> | <A 
+      href="/Workshops/index.php">Workshops</A> | <A 
+      href="/Resources/index.php?findings">Resources</A> 
+      | <A 
+      href="/NewsEvents/index.php">News 
+      &amp; Events</A></SPAN></TD>
+    <TD width=60 bgColor=#ffffff height=6>&nbsp;</TD></TR>
+<!-- #LOOP-START:footer -->
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <HR align=center width=80%>
+    </TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5></TD></TR>
+  <TR>
+    <TD vAlign=top align=middle colSpan=5>
+      <TABLE cellSpacing=0 cellPadding=0 width="95%" align=left border=0 
+      name="Footer">
+        <TR>
+          <TD vAlign=top align=middle width=172 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.umich.edu/"><IMG height=62 
+            alt="University of Michigan Logo" 
+            src="/images/logo_um.jpg" 
+            width=62 border=0 name=UMICH_Logo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.umich.edu/">University of Michigan<BR></A></P></TD>
+          <TD align=middle>
+            <P class="copyright">This material is based upon work supported by 
+            the <A target=_blank href="http://www.itr.nsf.gov/">National Science 
+            Foundation</A> under Grant No. IIS 0085951. Any opinions, findings, 
+            and conclusions or recommendations expressed in this material are 
+            those of the author(s) and do not necessarily reflect the views of 
+            the National Science Foundation. <BR><A target=_blank 
+            href="http://www.itr.nsf.gov/"><IMG height=42 
+            alt="National Science Foundation Logo" 
+            src="/images/nsf.gif" width=42 
+            border=0 name=NSF_Logo></A></P></TD>
+          <TD vAlign=top align=middle width=127 rowSpan=3>
+            <P class="footertext"><A target=_blank href="http://www.si.umich.edu/"><IMG height=54 
+            alt="School of Information Logo" 
+            src="/images/SISwirl.jpg" 
+            width=62 border=0 name=SILogo></A></P>
+            <P class="footertext"><A target=_blank href="http://www.si.umich.edu/">School of Information</A>
+            <A href="http://www.si.umich.edu/">University of 
+            Michigan</A></P></TD></TR>
+        <TR>
+          <TD align=middle>&nbsp;</TD></TR>
+        <TR>
+          <TD>
+            <P align=center class="copyright">� 2004
+            Regents of the University of 
+            Michigan. Please send questions and comments to <A 
+            href="mailto:asz@umich.edu">SOC 
+        webmaster</A>.</P></TD></TR></TABLE></TD></TR>
+  <TR>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=20>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=10>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0 width=95>&nbsp;</TD>
+    <TD vAlign=top align=left bgColor="white" height=0>&nbsp; </TD>
+    <TD width=60 bgColor="white" height=0>&nbsp;</TD></TR>
+</TABLE>
+<!-- #LOOP-END:footer -->
+<P>&nbsp;</P>
+<P><BR></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><BR></P>
+<P><BR></P>
+<P>&nbsp;</P>
+<P><BR></P></BODY><!-- #EndTemplate --></HTML>
+

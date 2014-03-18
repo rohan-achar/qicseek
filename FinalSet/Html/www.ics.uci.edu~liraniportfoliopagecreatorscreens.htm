@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Portfolio: Page Creator</title>
+<link href="../../style.css" rel="stylesheet" type="text/css" /><script type="text/javascript">
+var fileinfos = new Array();
+fileinfos = [["pagemanager.gif", "Page Manager", "The page manager allowed people to create pages, manage old ones, and quickly see which pages have unpublished changes (yellow). It was designed to be highly approachable to new users while still scaling for users with larger sites. At the time the manager was designed, it was exceedingly unusual for Google interfaces to be so graphical."], 
+             ["pageeditor.gif", "Page Editor", "The page editor provided people with a rich, WYSIWYG experience for editing pages like a word document, including drag and drop image posititioning."]]
+			 
+function writeScreensMenu() {
+	document.write("test");
+}
+
+function generateLinkMenu(currSelected) {
+	menuDiv = document.getElementById("screenMenu");
+	menuDiv.innerHTML = ""; 
+	
+	for (i = 0; i < fileinfos.length; i++) {
+		if (i == currSelected) {
+			menuDiv.innerHTML += "<span class='selected'>" + fileinfos[i][1] + "</span>";
+		} else {
+			menuDiv.innerHTML += "<a href='javascript:goto_screen("+i+");'>"+fileinfos[i][1]+"</a>";
+		}
+		if (i != (fileinfos.length-1)) {
+			menuDiv.innerHTML += " | ";
+		}
+	}
+}
+
+function goto_screen(screenIndex) {
+//	generateCurrImage(screenIndex);
+//	generateLinkMenu(screenIndex);
+//	generateCaption(screenIndex);
+	document.location.href = document.location.href.split("?")[0] + "?si="+screenIndex;
+}
+
+function generateCurrImage(currSelected) {
+	currScreen = document.getElementById("currScreen");
+	
+	nextScreen = (currSelected == (fileinfos.length - 1))? 0 : currSelected + 1;
+	currScreen.innerHTML = "<img src='"+ fileinfos[currSelected][0]+"' onclick='goto_screen("+nextScreen+");' title='Click to see next screen'>";
+}
+
+function generateCaption(currSelected) {
+	document.getElementById("currCaption").innerHTML = fileinfos[currSelected][2];
+}
+
+//gup from http://www.netlobo.com/url_query_string_javascript.html
+function gup( name )
+{
+  name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+  var regexS = "[\\?&]"+name+"=([^&#]*)";
+  var regex = new RegExp( regexS );
+  var results = regex.exec( window.location.href );
+  if( results == null )
+    return "";
+  else
+    return results[1];
+}
+
+function initialize() {
+	urlParam = gup("si");
+	screenIndex = (urlParam != "")? parseFloat(urlParam) : 0; 
+	generateCurrImage(screenIndex); 
+	generateCaption(screenIndex);
+	generateLinkMenu(screenIndex);
+}
+</script>
+</head>
+
+<body onload="initialize();" style="background-image: none;">
+<div class="screensHome">
+<div id="screenMenu"></div>
+<div id="currCaption">
+</div>
+<div id="currScreen" /></div>
+</div>
+</body>
+</html>
+

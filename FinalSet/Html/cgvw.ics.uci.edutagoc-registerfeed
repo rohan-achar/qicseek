@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Center for Computer Games &#38; Virtual Worlds &#187; oc register</title>
+	<atom:link href="http://cgvw.ics.uci.edu/tag/oc-register/feed/" rel="self" type="application/rss+xml" />
+	<link>http://cgvw.ics.uci.edu</link>
+	<description>Bren School of ICS &#124; UC Irvine</description>
+	<lastBuildDate>Fri, 25 Oct 2013 17:28:29 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>UCI students could soon major in video games</title>
+		<link>http://cgvw.ics.uci.edu/uci-students-could-soon-major-in-video-games/</link>
+		<comments>http://cgvw.ics.uci.edu/uci-students-could-soon-major-in-video-games/#comments</comments>
+		<pubDate>Sat, 12 Sep 2009 07:00:53 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[In the News]]></category>
+		<category><![CDATA[oc register]]></category>
+
+		<guid isPermaLink="false">http://cgvw.ics.uci.edu/?p=57</guid>
+		<description><![CDATA[The Orange County Register&#8217;s Ian Hamilton on the new Center for Computer Games and Virtual Worlds: IRVINE Freshmen at UC Irvine could be among the first graduates to earn a degree in computer game science as the university expands its research into gaming and virtual worlds. A new Center for Computer Games and Virtual Worlds [&#8230;]]]></description>
+		<wfw:commentRss>http://cgvw.ics.uci.edu/uci-students-could-soon-major-in-video-games/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

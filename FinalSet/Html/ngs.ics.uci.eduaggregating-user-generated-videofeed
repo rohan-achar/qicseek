@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Aggregating user generated video</title>
+	<atom:link href="http://ngs.ics.uci.edu/aggregating-user-generated-video/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/aggregating-user-generated-video/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Ramesh</title>
+		<link>http://ngs.ics.uci.edu/aggregating-user-generated-video/comment-page-1/#comment-2776</link>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+		<pubDate>Wed, 06 May 2009 04:37:12 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1102#comment-2776</guid>
+		<description><![CDATA[Yes, this may evolve into new way of reporting as well as new way of storytelling.]]></description>
+		<content:encoded><![CDATA[<p>Yes, this may evolve into new way of reporting as well as new way of storytelling.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Okinawa</title>
+		<link>http://ngs.ics.uci.edu/aggregating-user-generated-video/comment-page-1/#comment-2775</link>
+		<dc:creator><![CDATA[Okinawa]]></dc:creator>
+		<pubDate>Wed, 06 May 2009 02:47:13 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1102#comment-2775</guid>
+		<description><![CDATA[Possibly a new way of collaborate reporting?]]></description>
+		<content:encoded><![CDATA[<p>Possibly a new way of collaborate reporting?</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

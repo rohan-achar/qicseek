@@ -1,0 +1,245 @@
+<HTML>
+<HEAD>
+<TITLE>Breakout session on WebDAV Access Control, IETF-43, Dec. 9,
+1998</TITLE>
+</HEAD>
+<BODY>
+
+<H2 ALIGN=CENTER>
+Breakout session on WebDAV Access Control</h2>
+
+<h3 ALIGN=CENTER>IETF-43, Orlando, Florida<BR>Wednesday, December 9, starting at 15:30</h3>
+
+<P>A breakout session on access control for WebDAV was held on
+Wednesday, December 9, 1998.  This was not a official meeting of the
+WebDAV working group.  However, since the discussions are of general
+interest to working group members, these minutes were taken to record
+the discussion.  Jim Whitehead recorded the minutes, and attempted to
+mediate floor control during the session.  In attendance during the
+breakout session were: Jim Amsden, Derek Atkins, Ken Coar, Yaron
+Goland, Paul Hill, Alex Hopmann, Manoj Kasichainula, Rohit Khare, Paul
+Leach, Lisa Lippert, Larry Masinter, Judy Slein, Jim Whitehead.
+
+<P><B>SCOPE OF EFFORT: ACCESS CONTROL FOR WEB OR WEBDAV?</B>
+
+<P>The first discussion concerned the scope of the access control
+effort.  It was noted that the web in general, not just WebDAV, has a
+need for a protocol for access control.  It was recommended that
+WebDAV access control develop a model document, so that WebDAV access
+control can be applied to other domains/protocols more easily.  The
+model document can separate out those aspects of the access control
+protocol which are not specifically tied to WebDAV.
+
+<P>** The attendees agreed that the access control effort should
+attempt HTTP access control, as well as WebDAV access control, unless
+it is proven to be too difficult to do both.  That is, the protocol
+should use WebDAV mechanisms to set and read access control, but
+access control should be applicable to HTTP operations in general, and
+not just limited to WebDAV operations.
+
+<P><B>INTENDED USER OF THE PROTOCOL: ADMINISTRATORS OR AUTHORS?</B>
+
+<P>There was some discussion over who is intended to be the user of
+this protocol.  Is the access control protocol intended for users who
+will be performing authoring, or is it intended for use by system
+administrators, who are interested in access control across an entire
+site.
+
+<P><B>INHERITANCE:</B>
+
+<P>The topic of inheritance was discussed.  It was noted that the
+access control inheritance within WebDAV is WebDAV-specific, since it
+is tied to WebDAV collections.  However, Calendaring and Scheduling
+has a different inheritance model.  A participant raised the question
+of whether we should support multiple kinds of inheritance.  Today,
+servers support multiple kinds of inheritance, and hence it would be
+desirable for the protocol to accomodate these servers.  However, the
+complexity of the user interface on the client is an important issue.
+Supporting multiple inheritance models would make the user interface
+on the client more complex, and, some argued, too complex.
+
+<P>There was a suggestion to examine the Java Web Server for lessons
+which can be learned from its access control model, which is
+object-oriented.
+
+<P><B>WEB-FORM MODEL FOR ACCESS CONTROL:</B>
+
+<P>A short-term solution for access control is to have a property
+recorded on each resource which records a link pointing to a Web page
+which contains an access control form.  By manipulating the form using
+a Web browser, a user can modify the access control for the resource.
+This approach has the benefit that it can accomodate a wide range of
+repositories, and each repository can have an access control user
+interface which is tailored to the repository.  This approach can be
+specified and fielded quickly.
+
+<P>The most significant drawback to this approach its lack of support
+for a programatic interface to access control.  Furthermore, users
+will be required to understand the access control mechanism for each
+server they author against.  If the goal is to provide access control
+for the Web, and not just for WebDAV, the Web-form approach has the
+drawback that it depends on WebDAV properties, which are not
+understood by downlevel Web clients.  However, if these clients
+discover the Web-form page without reading a property, they could
+manipulate the Web-form. Finally, the Web-form approach provides only
+a coarse degree of interoperability.
+
+<P>However, it was noted that once a protocol for access control was
+finished, the access control property might still be useful as an
+"escape hatch" for more sophisticated access control capabilities.
+However, if this were done, it would be necessary to call out which
+functionality can be access via the Web-form interface, and which can
+be accessed programatically.
+
+<P>Yaron Goland volunteered to write up a draft specification for the
+Web-form approach.
+
+<P><B>GROUPS:</B>
+
+<P>Groups were felt to be out of scope, since they are a (LDAP)
+directory concept.  However, the Java Web Server supports a notion of
+realms (HTTP realms).
+
+<P><B>MAPPING OF ACCESS CONTROL PROTOCOL TO REPOSITORY ACCESS CONTROL:</B>
+
+<P>Access control for resources which are accessible via multiple
+protocols, such as via HTTP and FTP, directly leads to this issue.
+For resources which are accessible via multiple protocols, access
+control via only one protocol is not a viable security model.  One way
+to address this problem is to ensure that access control set via one
+protocol actually sets the access control for the underlying
+repository where the data is stored.  In this way, access control set
+via one protocol will apply to all other protocols used to access the
+same resource.
+
+<P>However, it is a difficult problem to map access control rights in
+the protocol into the appropriate rights in the underlying
+repository. The difficulty arises from the case where there is not a
+1:1 mapping of rights from protocol to repository, which either leads
+to unpredictable behavior (rejecting a request), or the inadvertent
+opening of security holes (performing the request has unintended
+side-effects). This concern applies to all network protocols, and is
+not specific to the Web, or WebDAV.
+
+<P>The following "database cell" scenario was discussed during the
+breakout session, and highlights this issue.  Assume there is a
+database which is being accessed via WebDAV.  Each cell in the
+database contains a PUT body and WebDAV properties.  The database has
+a very simple "1 write bit" access control mechanism - when the write
+bit is "1", you can write to the entire cell, and when the write bit
+is "0", you cannot write to any of the cell's contents.  Assume the
+WebDAV access control protocol has separate access rights for "write
+properties" and "write (PUT) body".
+
+<P>The problem arises when trying to map the "write properties" access
+control right into the rights supported by the repository.  If the
+client submits a protocol request to grant it the "write properties"
+right, the repository has two choices:
+
+<OL>
+<LI>It can refuse to set the
+write bit for the database cell, causing the protocol request to fail.
+<LI>It can set the write bit, causing the protocol request to succeed.
+This has the unintended consequence of allowing write access to the
+PUT body as well, thus creating a security risk.
+</OL>
+
+<P>There are two general approaches for handling this issue:
+<OL>
+<LI>Define a normative (generic) set of rights (e.g., the "DAV set" of
+rights), some of which might not apply to a given server.  A client
+then performs access control operations using this set of rights.
+This approach is easiest for clients.
+<LI>Discover the set of rights.  A client must first perform discovery
+on the set of rights supported by the server, and then may perform
+access control operations using these rights.
+</OL>
+
+<P>There was agreement that setting an access control right should not
+result in unintended consequences, that is, consequences which are not
+safe with respect to the underlying semantics of the store.
+
+<P>There was general agreement with the principle: in the event of a
+conflict between the semantics of the underlying repository's access
+control capabilities, and the semantics of a particular access control
+protocol request, the underlying repository semantics should always
+take precedence.  There was general recognition that some access
+control protocol requests might not be mappable into the access
+control operations supported by a given repository.
+
+<P>There was agreement that the mapping issue needs to be recorded -
+these minutes are a start at that, though it should also be explicitly
+discussed in the protocol document, and probably also the goals
+document.
+
+<P>There was agreement that it would help discussion to know the
+access control semantics for several repositories.
+
+<P>Finally, it was noted that IMAP access control should be examined
+for lessons learned.  It's approach is similar to #2 above in that the
+client first performs discovery, which returns sets of methods whose
+access control can be modified as a set.
+
+<P><B>PROBLEMS WITH METHOD-BASED ACCESS CONTROL</B>
+
+<P>There was discussion at the meeting on the use of method-based
+access control, that is, access control where the access rights map
+exactly to HTTP methods.  Several participants at the breakout felt
+this approach is a bad idea.
+
+<P>This approach has the benefit that it maps exactly onto HTTP
+methods, which have specific semantics.  Thus the exact outcome of
+setting a given access control right is well understood by client and
+server.  A protocol which adopts this approach would likely be more
+simple to specify and implement than other alternatives.
+
+<P>The drawbacks to this approach become evident when examining
+resources which are accessible via more than one protocol.  In this
+case, HTTP methods might not map exactly onto operations available in
+other protocols.  Furthermore, HTTP methods might not map exactly onto
+the access control rights provided by the underlying repository.  Due
+to this, clients would need to perform a trial-and-error style of
+interaction when trying to set access control permissions, since
+presumably the underlying store would reject attempts to set access
+control permissions which would result in security risks due to
+unintended side-effects.  The other drawback to method-based access
+control is the difficulty of making a user-interface for the protocol.
+The majority of users are not aware of the methods in the HTTP
+protocol, and hence would be unable to set access control correctly
+using a user interface which exposes the HTTP methods.
+
+<P>Most, but not all, participants at the breakout session felt that
+an approach which defines "semantic" access rights (e.g., "modify",
+"read", etc.) and then maps them into methods (e.g., "modify" -&gt; PUT,
+POST, PROPPATCH) is better than a method-only approach.
+
+<P><B>NEW WORKING GROUP FOR APPLICATION LAYER PROTOCOL ACCESS CONTROL:</B>
+
+<P>There was some discussion on whether it would be better to have a
+group working just on Web and WebDAV access control, or have a group
+which tries to address access control across several application layer
+protocols.  The advantage to addressing access control for several
+protocols simultaneously is that the cross-protocol access control
+issue would be substantively addressed.  This is important, because
+many network resources are accessible via multiple protocols, such as
+HTTP, FTP, news, mail, etc.  This would benefit administrators of
+servers for these protocols.  It would also tend to build critical
+mass for new application layer protocols to use this access control
+protocol.
+
+<P>The disadvantage to having a cross-protocol access control effort
+is its scope.  It may prove to be too complicated to address the
+access control issues of several protocols simultaneously.
+
+<P>A cross-protocol access control effort would be expected to produce
+the following deliverables:
+<UL>
+<LI>a model document which is applicable across protocols
+<LI>a set of transport-independent objects (possibly in XML) which are
+exchanged to perform access control operations
+</UL>
+
+<P>*** End of Breakout Session ***
+
+</BODY>
+</HTML>

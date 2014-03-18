@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html40/loose.dtd">
+<html>
+<head>
+<META http-equiv="Content-Script-Type" content="text/javascript">
+<title>ICS 54: Brief Notes on Chapter 10: Text Editing with vi</title>
+</head>
+
+<body bgcolor="#F8F8F0">
+<i><a href="http://www.ics.uci.edu/"> UC Irvine,
+Information and Computer Science Department</A></I>
+Winter 2000<br>
+<h2><A HREF="http://www.ics.uci.edu/~ics54/">ICS 54</A>:
+Brief Notes on Chapter 10: Text Editing with vi
+</h2>
+
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>Selected References</h2>
+The text's coverage is a very, very good place to start,
+but, inevitably, it will not be enough.
+<dl>
+<dt><a href="http://docs.FreeBSD.org/44doc/usd/12.vi/paper.html">
+  <tt>http://docs.FreeBSD.org/44doc/usd/12.vi/paper.html</tt></a>
+  <dd>Bill Joy's <i>An Introduction to Display Editing with Vi</i>
+  <br>The original tutorial.  Hard to say that this isn't still the best.
+<dt><a href="http://ecn.www.ecn.purdue.edu/ECN/Documents/VI/">
+  <tt>http://ecn.www.ecn.purdue.edu/ECN/Documents/VI/</tt></a>
+  <dd>VI Tutorial from Purdue -- Neither too little nor much too much.
+<dt><a href="http://www.oac.uci.edu/help/manuals/uci.unix.guide/the_vi_editor.html">
+  <tt>http://www.oac.uci.edu/help/manuals/uci.unix.guide/the_vi_editor.html</tt></a>
+  <dd>The vi portion of the UCI UNIX User Guide.
+<dt><a href="http://www.rru.com/~meo/useful/vi/vi.rm.html">
+  <tt>http://www.rru.com/~meo/useful/vi/vi.rm.html</tt></a>
+  <dd>A (too?) short reference manual.
+<dt><a href="http://www.ungerhu.com/jxh/vi.html">
+  <tt>http://www.ungerhu.com/jxh/vi.html</tt></a>
+  <dd>A (too?) long reference manual.
+<dt><a href="http://www.cis.udel.edu/~totten/vi/">
+  <tt>http://www.cis.udel.edu/~totten/vi/</tt></a>
+  <dd>A (maybe just right) mid-size, mid-depth reference manual.
+<dt><a href="http://www.math.fu-berlin.de/~guckes/vi/">
+  <tt>http://www.math.fu-berlin.de/~guckes/vi/</tt></a>
+  <dd>The VI Page -- More than you ever need.
+<dt><a href="http://www.thomer.com/thomer/vi/vi.html">
+  <tt>http://www.thomer.com/thomer/vi/vi.html</tt></a>
+  <dd>vi lovers home page -- Only slightly less encyclopaedic
+</dl>
+
+<p><hr><!--<tt> QQ </tt>--><p>
+<h2>Some Useful (Combinations of) Commands</h2>
+<b>Beware: vi is case sensitive!</b>
+<p>
+<dl>
+<dt><tt>3dd</tt>
+  <dd>Delete 3 lines
+<dt><tt>d3w</tt>
+  <dd>Delete 3 Words
+<dt><tt>d3}</tt>
+  <dd>Delete the rest of this paragraph and the next 2.
+<dt><tt>.</tt>
+  <dd>Repeat last command.
+<dt><tt>u</tt>
+  <dd>Undo last command.  Note: <tt>uu</tt> leaves file unchanged.
+<dt><tt>yyp</tt>
+  <dd>Duplicate this line.
+<dt><tt>ddp</tt>
+  <dd>Transpose this line and the next.
+<dt><tt>xp</tt>
+  <dd>Transpose this letter and the next.
+<dt><tt>:g/^Hello/d</tt>
+  <dd>Delete any line beginning with <tt>Hello</tt>.
+<dt><tt>:v/^Hello/d</tt>
+  <dd>Delete any line not beginning with <tt>Hello</tt>.
+<dt><tt>:g/^Hello/s//HELLO/</tt>
+  <dd>Replace any <tt>Hello</tt> at the start of a line by <tt>HELLO</tt>
+<dt><tt>:.,.+4s=/=\=g</tt>
+  <dd>Replace all <tt>/</tt> by <tt>\</tt> on this line and the next 4.
+<dt><tt>:g+^/+s+$+##+</tt>
+  <dd>Put <tt>##</tt> at the end of any line which begins with <tt>/</tt>
+<dt><tt>:.!date</tt>
+  <dd>Replace this line by (the output of) the <tt>date</tt> command.
+<dt><tt>:.,$!spell</tt>
+  <dd>Replace the rest of this file by the words in it which <tt>spell</tt>
+  says are not spelled correctly.
+<dt><tt>:w</tt>
+  <dd>Save all changes made thus far.
+<dt><tt>:wq</tt>
+  <dd>Exit saving changes.
+<dt><tt>:q!</tt>
+  <dd>Exit without saving changes.
+</dl>
+
+<hr>
+<a href="http://www.oac.uci.edu/indiv/franklin/tools/feedback?ics54@ics.uci.edu">Comments are welcome.</a>
+<noscript><br><b>JavaScript must be enabled in order for this page
+   to be fully functional.</b></noscript>
+<script language="JavaScript" type="text/javascript">
+<!-- Beginning of JavaScript -
+   document.writeln("<br>This document can be found at &nbsp;<tt>"+
+       document.location+"</tt>");
+// document.writeln("<br><i>Current as of " + document.lastModified+"</i>");
+// - End of JavaScript - -->
+</script>
+   <br><i>Current as of 22 January 2000</i>
+<br><a href="http://validator.w3.org/check?uri=&{document.location};&ss=">HTML
+    4.01 Checked.</a>
+<!-- To show source in validation "...?uri=&{document.location};&ss=" -->
+
+</body>
+</html>
+

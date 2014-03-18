@@ -1,0 +1,53 @@
+<HTML><HEAD><TITLE>BibGene</TITLE>
+<META name="Owner" value="eppstein">
+<META name="Reply-To" value="eppstein@ics.uci.edu">
+
+</HEAD><BODY>
+<HR><P>
+<CENTER><H1>BibGene for 680x0-based Macs</H1></CENTER>
+<P><HR>
+<P>
+<A HREF="index.html">BibGene is available as freeware for PowerPC-based Macintosh computers</A>.
+I am not currently supporting 68K-based Macs, because of difficulties
+getting 68K code to link under recent versions of Metrowerks CodeWarrior.
+However, an older version with only a few minor bugs is available:
+
+<H3>
+<CENTER>
+<A HREF="bibgene-1d-68k.hqx">Download 68K version of BibGene</A> (378k)
+</CENTER>
+</H3>
+
+Known bugs and misfeatures in this version include the following:
+<UL>
+<LI>If you open a BibTeX file then use the "save" command, your BibTeX
+source will be overwritten.  Instead, you should use "save as".
+<LI>Name list preference settings are ignored.
+<LI>The "Merge Cards" command can sometimes add spurious characters to
+blank fields.
+<LI>BibGene is unable to import volumes from exported Review cards.
+<LI>BibTeX records from exported review cards have a line feed character
+after the first line (on Macs, lines should instead be terminated by
+carriage return).
+<LI>Imported author and editor lines that are placed in Pub Info cards
+(because of a missing document title or location) have names separated
+by semicolons rather than "and".
+<LI>Opening a BibTeX file that starts with a blank line doesn't work
+(BibGene thinks it's a BibGene-format file and complains about the format).
+Instead, you should use the "import" command.
+<LI>When importing files with conflicting fields (such as multiple
+addresses for a single publisher) many extra Pub Info cards can be created
+(beyond those needed to store the conflicting information).
+<LI>Exported BibTeX files may have extremely long lines,
+which could cause problems for other software that processes such files.
+</UL>
+
+<P><HR><P>
+<CENTER><A HREF="/~eppstein/software.html">Downloadable software</A> by
+<A HREF="/~eppstein/">David Eppstein</A>,
+<A HREF="/">ICS</A>,
+<A HREF="http://www.uci.edu/">UC Irvine</A>.<BR>
+<SMALL>Last update: 23 Oct 2000, 14:53:00 PDT</SMALL>
+</CENTER>
+</BODY></HTML>
+

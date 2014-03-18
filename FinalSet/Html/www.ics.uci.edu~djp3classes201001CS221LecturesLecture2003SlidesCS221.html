@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="description" content="Sourcerer: mining and searching internet-scale software repositories Introduction to Information Retrieval CS 221 Donald J. Patterson Content based on the paper located here: http://dx.doi.org/10.1007/s10618-008-0118-x and slides located http://bit.ly/9CEaaT   Sourcerer: mining and searching internet-scale software repositories  Sourcerer: mining and searching internet-scale software repositories Why mine source code? to understand engineering and development to understand complexity to improve code reuse to identify relationships between humans and their code Code should not be treated as text There is a lot of structure that can be exploited  Sourcerer: mining and searching internet-scale software repositories Sourcerer is  a crawler of software repositories a parser and feature extractor for code a fingerprinter a database a web search interface for Java Source code   Sourcerer: mining and searching internet-scale software repositories Sourcerer architecture    Sourcerer: mining and searching internet-scale software repositories Sourcerer search interface    Sourcerer: mining and searching internet-scale software repositories Parsing Entities  Relations   Sourcerer: mining and searching internet-scale software repositories Keyword Extraction Comments Splits on Case QuickSort -&gt; “Quick” “Sort” Mapped to entities   Sourcerer: mining and searching internet-scale software repositories Fingerprinting Source Code Structure-based search requires a compact representation of code characteristics“Fingerprints” are vectors whose elements denote the occurrence of specific programming constructs Easily lends itself to the vector model of standard information retrievalFingerprints must balance efficiency and expressiveness Feature set must be rich enough to be meaningful Superfluous features add to computational overhead  Sourcerer: mining and searching internet-scale software repositories Fingerprinting types Control Structure PrintsProvides information about concurrency, iteration, and conditional constructsUseful for identifying benchmark datasetsJava Type PrintsCaptures information about object-oriented constructs (classes, methods, fields, constructors, etc)Provides capability for general entity structure search  Sourcerer: mining and searching internet-scale software repositories Fingerprinting types Micro Pattern PrintsBit vector indicating occurrence of simple design patterns in code entitiesAllows for structure-based search based on commonly occurring design practices  Sourcerer: mining and searching internet-scale software repositories Fingerprint Search   Sourcerer: mining and searching internet-scale software repositories Ranking Return code that is keyword relevant structure relevant frequently used robust Determine importance of entities by applying PageRank to source code probabilistic framework for ranking  Sourcerer: mining and searching internet-scale software repositories Ranking CodeRank can be tuned for Project local ranking Project global ranking Relationship-specific Ranking Increasing the weight of relevant edges in dependency graph  Sourcerer: mining and searching internet-scale software repositories Current Sourcerer StatisticsRepositoryTotal number of projects (with source): 1555Total source files: 185,439Total lines of code: 18,804,522Size of repository: 1.17 GB   Sourcerer: mining and searching internet-scale software repositories Current Sourcerer StatisticsDatabaseTotal number of java packages: 47,898Total number of java classes: 254,049Total number of methods: 1,516,212Total number of fields: 732,764Total number of relations: 11,345,077   Sourcerer: mining and searching internet-scale software repositories Keyword frequency (%)    Sourcerer: mining and searching internet-scale software repositories Keyword frequency (%)    Sourcerer: mining and searching internet-scale software repositories Code characteristics  Sourcerer: mining and searching internet-scale software repositories Effectiveness of Search based on various code features"/>
+    <title></title>
+    <script type="text/javascript" language="javascript">
+//      <![CDATA[
+            var images = new Array (20);
+            images[0] = "Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.001.png";
+            images[1] = "Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.002.png";
+            images[2] = "Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.003.png";
+            images[3] = "Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.004.png";
+            images[4] = "Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.005.png";
+            images[5] = "Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.006.png";
+            images[6] = "Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.007.png";
+            images[7] = "Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.008.png";
+            images[8] = "Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.009.png";
+            images[9] = "Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.010.png";
+            images[10] = "Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.011.png";
+            images[11] = "Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.012.png";
+            images[12] = "Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.013.png";
+            images[13] = "Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.014.png";
+            images[14] = "Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.015.png";
+            images[15] = "Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.016.png";
+            images[16] = "Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.017.png";
+            images[17] = "Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.018.png";
+            images[18] = "Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.019.png";
+            images[19] = "Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.020.png";
+            var index = 0;
+            function WindowLoaded(evt)
+            {
+                document.body.onselectstart = function () { return false; };
+            }
+            function Step(i)
+            {
+                GoTo(index + i)
+            }
+            function GoTo(newIndex)
+            {
+                if(newIndex >= 0 && newIndex < images.length)
+                {
+                    index = newIndex;
+                    document.Slideshow.src = images[index];
+                }
+            }
+//      ]]>
+    </script>
+</head>
+<body bgcolor="black" onload='WindowLoaded(event);'>
+    <p align="center">
+        <br/>
+        <br/>
+        <img name="Slideshow" alt="" src="Lecture20_03_Slides_CS221_files/Lecture20_03_Slides_CS221.001.png" onclick="Step(1)"/>
+        <br/>
+        <br/>
+        <input type="image" src="Lecture20_03_Slides_CS221_files/home.png" onclick="GoTo(0)"/>
+        &nbsp;&nbsp;&nbsp;
+        <input type="image" src="Lecture20_03_Slides_CS221_files/prev.png" onclick="Step(-1)"/>
+        <input type="image" src="Lecture20_03_Slides_CS221_files/next.png" onclick="Step(1)"/>
+    </p>
+</body>
+</html>

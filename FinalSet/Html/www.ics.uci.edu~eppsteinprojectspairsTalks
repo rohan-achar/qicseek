@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<title>Closest Pair Talks</title>
+
+</head>
+<body fgcolor="#000000" bgcolor="#FFFFFF">
+<h1><a href="../">Closest Pair Data Structures</a>: Talks</h1>
+
+<ul>
+<li>Dynamic algorithms for half-space reporting, proximity
+problems, and geometric minimum spanning trees, 33rd IEEE Symp.
+Foundations of Computer Science, Pittsburgh, October 25, 1992. I
+don't remember for sure, but I think Pankaj Agarwal presented this
+talk.</li>
+
+<li>Subquadratic algorithms for the straight skeleton, <a href= 
+"http://compgeom.cs.uiuc.edu/~jeffe/">Jeff Erickson</a>, January
+24, 1997.</li>
+
+<li>Raising roofs, crashing cycles, and playing pool, Jeff
+Erickson, Dagstuhl Computational Geometry Seminar, February,
+1997.</li>
+
+<li><a href="ICSResearchSymp.pdf">Raising roofs, crashing cycles,
+and playing pool: applications of a data structure for finding
+pairwise interactions</a>, <a href= 
+"http://www.ics.uci.edu/~jennifer/ResearchSymposium.html">ICS
+Research Symposium</a>, Dept. of Information &amp; Computer
+Science, UC Irvine, February 7, 1997.</li>
+
+<li><a href="VoronoiWorkshop.pdf">A subquadratic algorithm for the
+straight skeleton</a>, Workshop on Voronoi Diagrams,
+Triangulations, and Splines, Tempe, Arizona, February 21,
+1997.</li>
+
+<li>Raising roofs, crashing cycles, and playing pool, Jeff
+Erickson, Johns Hopkins Univ., April, 1997.</li>
+
+<li>Raising roofs, crashing cycles, and playing pool, Jeff
+Erickson, Univ. of Maryland, College Park, April, 1997.</li>
+
+<li><a href="ClusterGroup.pdf">Fast hierarchical clustering via
+dynamic closest pairs</a>, Applied Statistics Seminar Series on
+Cluster Analysis, Center for Statistical Clustering, UC Irvine, May
+7, 1997.</li>
+
+<li>Fast hierarchical clustering and other applications of dynamic
+closest pairs, Worksh. Effiziente Algorithmen, <a href= 
+"http://www.mfo.de/">Oberwolfach</a>, Germany, August 7, 1997.</li>
+
+<li>Raising roofs, crashing cycles, and playing pool, Jeff
+Erickson, <a href="geom-day.html">29th Computational Geometry
+Day</a>, NYU, December 12, 1997.</li>
+
+<li>Fast hierarchical clustering and other applications of dynamic
+closest pairs, 9th ACM-SIAM Symp. Discrete Algorithms, San
+Francisco, January 1998.</li>
+
+<li>Raising roofs, crashing cycles, and playing pool: applications
+of a data structure for finding pairwise interactions, Jeff
+Erickson, 12th ACM Symp. Comp. Geom., Minneapolis, June 1998.</li>
+
+<li><a href="/~eppstein/pubs/Epp-SODA-99-slides.pdf">Incremental
+and decremental maintenance of planar width</a>, 10th ACM-SIAM
+Symp. Discrete Algorithms, Baltimore, January 1999.</li>
+</ul>
+
+<hr>
+<a href="/~eppstein/">David Eppstein, <a href="/">Information &amp;
+Computer Science</a>, <a href="http://www.uci.edu/">UC Irvine</a>, 
+03 Sep 2003, 19:57:12 PDT.</a>
+</body>
+</html>
+

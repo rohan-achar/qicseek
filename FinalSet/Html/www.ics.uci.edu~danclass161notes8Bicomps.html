@@ -1,0 +1,144 @@
+<HTML><HEAD>
+<TITLE> Biconnnected components </TITLE>
+</HEAD><BODY>
+<span style="color:#000000; font:16px Arial, Helvetica, sans-serif;">
+
+<H2>Biconnnected components</H2>
+
+If deleting vertex <I>a</I> from graph G splits the graph
+then <I>a</I> is called an <I>articulation point</I> of G.
+<P>
+This can be formalized by defining: &nbsp;
+<I>a</I> is an articulation point of graph G
+if and only if there exists vertices <I>v,w</I> such that
+<I>v, w, a</I> are distinct and every path from <I>v</I> to <I>w</I>
+contains <I>a</I>.
+<P>
+G is <I>biconnected</I> if and only if there are no articulation
+points. &nbsp; That is, it requires deletion of at least 2 vertices
+to disconnect G.
+<P>
+A maximal subgraph of G that is biconnected is called a
+<I>biconnected component</I> of G.
+<P>
+Note that all the edges in a cycle will be in the same
+biconnected component. &nbsp;
+We can define an equivalence relation on the edges
+<I>e</I><sub>1</sub> is equivalent to <I>e</I><sub>2</sub>
+if either <I>e</I><sub>1</sub> = <I>e</I><sub>2</sub>
+or there exists a cycle including
+both <I>e</I><sub>1</sub> and <I>e</I><sub>2</sub>. &nbsp;
+This equivalence relation partitions the set of edges into
+equivalence classes, where two edges belong to the same equivalence
+class if and only if they are equivalent.
+<P>
+If E is an equivalence class (of edges) and V is the set of
+vertices appearing as endpoints of the edges in E
+then it will be the case that
+the graph (V,E) is a biconnected component of G.
+<P>
+<B>Lemma</B>. &nbsp; For any connected graph G:<BR>
+<OL>
+<LI> Any 2 distinct biconnected components have
+     at most one vertex in common.
+<LI> <I>a</I> is an articulation point of G if and only if
+     <I>a</I> is common to more than one of the biconnected components of G.
+</OL>
+<P>
+We will use DFS to find the biconnected components of a graph. &nbsp;
+A DFS tree has no cross-edges. &nbsp;
+That is, if <I>v</I> is neither an ancestor nor a descendent
+of <I>w</I> then there is no edge (<I>v,w</I>).
+<P>
+If <I>a</I> is an articulation point of graph G then removing <I>a</I>
+will split G into two or more parts. &nbsp;
+One of these parts will consist of a son of <I>a</I>, <I>s</I>,
+together with all of <I>s</I>'s descendents in the DFS tree. &nbsp;
+This is summarized in the next lemma.
+<P>
+<B>Lemma</B>. &nbsp; <I>a</I> is an articulation point of G
+if and only if either<BR>
+1. <I>a</I> is the root and has more than one son, or<BR>
+2. <I>a</I> is not the root, and there exists a son <I>s</I> of <I>a</I>
+such that there is no backedge between any descendent of <I>s</I>
+(including <I>s</I>) and a proper ancestor of <I>a</I>.
+<P>
+Define LOW(<I>v</I>) to be the most remote ancestor of <I>v</I>
+that can be reached from <I>v</I> if we are allowed to go down the
+tree from <I>v</I> and then go up at most one backedge.
+<P>
+By the lemma, if the vertices are numbered by DFS numbers then:<BR>
+if <I>a</I> is not the root then <I>a</I> is an articulation point
+if and only if <I>a</I> has a son <I>s</I> such that
+LOW(<I>s</I>) &ge; DFN[<I>a</I>].
+<P>
+We will embed in the DFS algorithm the calculation of LOW,
+using the following recurrence.
+<P>
+LOW(<I>v</I>) = minimum <I>x</I> such that
+<table>
+<tr><td>either</td>
+    <td>1. <I>x</I> = DFN[<I>v</I>]</td>
+    <td>(no backedge taken)</td>
+<tr><td>or</td>
+    <td>2. <I>x</I> = LOW(<I>s</I>), where <I>s</I> is a son of <I>v</I></td>
+    <td>(backedge from a proper descendent of <I>v</I>)</td>
+<tr><td>or</td>
+    <td>3. <I>x</I> = DFN[<I>w</I>], where (<I>v,w</I>) is a backedge</td>
+    <td>(backedge from <I>v</I>)</td>
+</table>
+
+<H4> Depth first search with LOW computation </H4>
+
+<PRE>
+    <U>Find articulation points <font color=red>and biconnected components</font></U>
+       T := &#216;
+       COUNT := 0
+       <font color=red>STACK := &Lambda;</font>
+       <B>forall</B> vertices v <B>do</B> FLAG[v] := "new"
+       SEARCHB(1)
+
+    <U>SEARCHB</U>(v)
+       FLAG[v] := "old"
+       COUNT := COUNT + 1
+       DFN[v] := COUNT
+1:     LOW[v] := DFN[v]
+       Let L[v] be the list of vertices adjacent to v
+       <B>while</B> L[v] &ne; &Lambda; <B>do</B>
+          w := pop( L[v] )
+          <font color=red><B>if</B> (v,w) is not yet on the stack
+                 /** <I>(v,w) is already on the stack if and only if</I>        **/
+                 /** <I>(v,w) was a backedge w to v, for w descendent of v.</I> **/
+                 /** <I>This can be expressed by:    FATHER[v] = w  <B>or</B></I>      **/
+                 /** <I>       (FLAG[w]="old" <B>and</B> DFN[v] < DFN[w])</I>          **/
+             <B>then</B> put (v,w) on STACK    </font>
+          <B>if</B> FLAG[w] = "new" <B>then</B>
+             T := T union {(v,w)}
+             FATHER[w] := v
+             SEARCHB(w)
+             <B>if</B> LOW[w] &ge; DFN[v] <B>then</B>
+                v is an articulation point
+                <font color=red>and the next biconnected component is
+                the set of edges popped from STACK up to and including (v,w)</font>
+2:           LOW[v] := min{ LOW[v], LOW[w] }
+          <B>else if</B> w &ne; FATHER[v] <B>then</B>
+3:           LOW[v] := min{ LOW[v], DFN[w] }
+</PRE>
+<P>
+The time complexity is <I>O</I>(<I>n</I> + <I>e</I>) because the
+changes from simple DFS are LOW computation and STACK manipulations,
+each of which takes time <I>O</I>(<I>e</I>).
+<P>
+One can prove by induction on the number of biconnected components of G
+that, when SEARCHB(<I>w</I>) is completed,
+if LOW[<I>w</I>] &ge; DFN[<I>v</I>]
+then the set of edges above (<I>v,w</I>) on the stack
+constitutes the biconnected component containing edge (<I>v,w</I>).
+<P>
+</span>
+<HR>
+<A HREF="http://www.ics.uci.edu/~dan">
+Dan Hirschberg </A> <BR>
+Last modified: Mar 4, 2004
+</BODY></HTML>
+

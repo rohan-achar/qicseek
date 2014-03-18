@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Example</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+.style2 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+<p>We provide a sense for the use and effectiveness of XAR by describing the application to a few real extraction tasks. </p>
+<p>The first task is a task of extracting details from reports (news stories) of relief aid having been sent or dispatched during a disaster. For instance from instances such as <em>&quot;
+    
+
+  The United States dispatched disaster teams Monday and prepared a $15 million aid package to the Asian countries hit by a massive earthquake and tsunamis. Eight Americans were killed, and U.S. officials were seeking to contact hundreds of Americans who remain unaccounted for in the region, Secretary of State Colin Powell said. "We will do everything we can to immediately help," Powell said.&quot; </em>we wish to automatically extract the <span class="style2">dispatcher</span> (i.e., the United States),<span class="style2"> the item(s)</span> dispatched (i.e., disaster teams) and <span class="style2">the receiver </span>of aid (i.e., Asian countries). </p>
+<p>Examining other such instances such as <em>&quot;
+
+
+ Western nations dispatched disaster teams and prepared aid packages.&quot;</em> and<em> &quot;
+
+
+ In Indonesia, authorities said they had dispatched senior officials to Aceh to oversee rescue operations, but this effort is hampered by an ongoing war between government forces and separatist rebels.&quot; </em></p>
+<p>we authored some XAR extraction rules. There are 3 rule sets we came up with, a set of <a href="aidrules_shallowonly.txt">shallow rules</a>, a set of <a href="aidrules_deeponly.txt">deep rules</a> and a set that combines both shallow and deep rules. </p>
+<p>The kinds of features made available (automatically by lower level analysis) as predicates for the above text are illustrated <a href="adb.txt">here</a>. </p>
+<p>We provide a  <a href="resmixedall.htm">trace</a> of the actual extraction   results, where for many such instances (records) we display (i) the original text that data is extracted from (ii) the correct result that <em>should</em> be extracted and (iii) the result extracted by XAR. </p>
+<p>We are able to obtain extraction accuracy in the range of 0.75 (F-score) given the extraction rules listed above. </p>
+</body>
+</html>
+

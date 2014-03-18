@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>HW3</title>
+  </head>
+
+  <body>
+    <h1>HW3</h1>
+
+    <h2> Due: 5/4 12:30pm EEE Dropbox</h2>
+
+    <h3> Template-based detection</h3>
+
+    In this assignment, you will implement a face tracker. You will use the "face" images from the project video set. You will explore different strategies for template updating, the effect of searching over scale, and the choice of template scoring functions.
+
+    <p> <b> Overview: </b>   You will be given skeleton code <a href="hw3_skel.zip">here</a>. The high level script "hw3.m" is a wrapper for implementing a basic template tracker. You will need to fill in the referenced functions in order to have the code execute correctly. The questions below involve significant additions to the basic wrapper.
+
+    <p> <b> User interaction: </b> The wrapper script requires a user to draw a rectangle in the first frame using matlab's "getrect" function. I have included a rectangle saved as a matlab matfile. For reference, a rectangle will be encoded as a 4-element array [x1 y1 x2 y2] capturing the topleft and bottom right corner.
+
+      There are three sections to this assignment.
+
+    <h3> Helper functions </h3>
+
+   <ol>
+	<p><li> showBox.m [10 pts]
+	<p> This function will display a image and draw a rectangle at the fiven coordinates. I suggest using "imshow" and "line" matlab functions.
+	<p><li> cropIm.m [10 pts]
+	<p> This function takes an image and a rectangle (with an optional pad region) and crops out the rectangular portion of the image.
+    </ol>
+    <h3> Basic tracker </h3>
+    <ol>
+	<p><li> SSDIm.m [20 pts]
+	<p> This function computes the SSD (sum-of-squared difference) score of a template and and image at all possible locations. 
+	<p><li> NCCIm.m [20 pts]
+	<p> This function computes the NCC (normalized-cross-correlation) score of a template and and image at all possible locations. 
+	<p><li> maxResp.m [20 pts]
+	<p> This function returns the rectangle with the maximum response given an array of response values.
+    </ol>  
+	<p> <b> What to hand in: </b> Hand in all the completed functions above, complete with comments. Also hand in figures illustrating the behaviour of various extensions of the basic tracker, as specified below. For a given strategy, show three illustrative frames -  one frame of sucessful tracking, the frame where the tracker starts to fail, and one frame where the tracker has completely lost track. Also specify the frame at which the tracker lost track - this "time-to-failure" statistic is a common way to evaluate trackers. Note that the following extensions are not trivial, and require significantly more work beyond implementing the basic tracker above.
+	<p><li> Q1. Implement the basic tracker, which requires no modification to the wrapper (beyond pointing to your directory of images). For both SSDIm.m and NCCIm.m, you will be required to use use matlab's "conv2(A,B)" to compute this. I suggest using the "conv(A,B)" interface rather than the "conv2(H1,H2,B)" interface as the latter is buggy. Note that you can still implement a separable filter with the former simply by calling it twice with two one-dimensional arrays.Show results for both SSD + NCC. At what frames do the trackers begin to loose track? Use the time-to-failure to specify which scoring function is better. [10 pts]
+	<p><li> Q2. The tracker will be slow, as the template as quite big. Modify the wrapper to use smaller images and templates using matlab's "imresize" with bilinear interpolation. What is the minimum size for which you still achieve good tracking results? What is the time-to-failure of both algorithms? Use either the SSD or NCC scoring criteria (whichever works better). Again show three frames, and specify the time-to-failure. [10 pts code + 10 pts writeup to question]
+	<p><li> Q3. Multi-scale tracking. Use either the SSD or NCC scoring criteria (whichever works better). Because the face changes scale during the sequence, implement tracker that searches over scale changes by resizing the image and/or the template. This will require you to write a multiScaleSSDIm.m (or equiv. NCC) and a multiScaleMaxResp.m.  [30 pts code + 10 pts writeup to question]
+        <p><li> Q4. In this question, you will examine template update strategies. The default wrapper does not update the template. Use either the SSD or NCC scoring criteria (whichever works better). 
+               <ol>
+		      <li> Implement a tracker that uses the estimated patch from the previous frame as the template. Show three frames and specify the time-to-failure. [10 pts code + 10 pts writeup]
+		      <li> Implement a tracker that computes an average of running average of previous patches. Show three frames and specify the time-to-failure. [10 pts code + 10 pts writeup]
+		      <li>Implement a tracker that computes a weighted average of previous patches using the update formula: Template_new = a*Template_old + (1-a)*Patch_new. What value of a yeilds the best result? Show three frames and specify the time-to-failure. [10 pts code + 10 pts writeup]
+		</ol>
+ <p><li> Q5. Edge-based tracking. Fix an update strategy and multi-scale strategy that performs the best so far. You will now explore a new scoring function based on edge-based templates. Rather than matching pixel intensities, you will match binary edge images. Implement a new function computeEdges.m that takes as input a grayscale image and returns a binary edge image of the same size. Try both SSD and NCC scoring using binary edge features. Show three frames and specify the time-to-failure. [20 pts code + 10 pts writeup]
+ <p><li> Q6. [EXTRA-CREDIT] Implement a Chamfer-score using binary edge-templates. You may use matlab's "bwdist" function to compute a distance transform and "edge" function to perform Canny edge detection. Show three frames and specify the time-to-failure.  [10 pts]
+			
+    </ol>
+   <h3> Hints </h3>
+    <ul>
+	    <p><li> All the functions can be implemented with a few lines of MATLAB code. If you are writing lots of code, there is probably a simpler solution (though you will not be penalized for long code).
+	    <p><li> The writeup requires lots of plots. Use "subplot.m" to generate figures with multiple plots.
+    <hr>
+  </body>
+</html>
+

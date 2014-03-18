@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252"
+      http-equiv="Content-Type">
+    <title>Stats 120B/Math 131B: R Lab 2</title>
+    <meta content="Stacey Hancock" name="author">
+  </head>
+  <body>
+    <table style="width: 100%; background-color: rgb(102, 204, 204);
+      margin-left: auto; margin-right: auto; height: 58px; text-align:
+      left;" border="1" cellpadding="2" cellspacing="2">
+      <tbody>
+        <tr>
+          <td>
+            <div style="text-align: center;"> </div>
+            <h1 style=" text-align: center;">Lab 2: Introduction to
+              Sampling Distributions<br>
+            </h1>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    In this lab, you will be introduced to the concept of <i><b>sampling
+
+        distributions</b></i>, which we will study in Chapter 8 of our
+    textbook. A sampling distribution is just a probability distribution
+    of a statistic. We have already investigated sampling distributions
+    of some statistics, such as the sample mean, just without calling
+    them by name.<br>
+    <h2>Sampling Distribution of the Sample Mean</h2>
+    <p>We have shown previously that if <i>X</i><i><sub>1</sub></i><i>,
+        X</i><i><sub>2</sub></i><i>,..., X</i><i><sub>n</sub></i> are
+      independent and identically distributed random variables with
+      mean&nbsp;<img alt="" src="Lab2image2.png" width="17" height="17">
+      and variance<img alt="" src="Lab2image1.png" width="23"
+        height="18">, then the <i><b>sampling distribution of the
+          sample mean</b></i> is also normal with mean&nbsp;<img alt=""
+        src="Lab2image2.png" width="17" height="17"> and variance <img
+        alt="" src="Lab2image3.png" width="41" height="18">. (Remind
+      yourself how we proved this!) That is,<br>
+    </p>
+    <div align="center"><img alt="" src="Lab2image4.png" width="125"
+        height="65"><br>
+      <div align="left">Standardizing, we can write this result as<br>
+        <div align="center"><img alt="" src="Lab2image5.png" width="127"
+            height="57"><br>
+        </div>
+        <br>
+        Let's try simulating from this distribution and see if we can
+        match the theoretical result. Work through the following R code
+        and make sure you understand what each line of code is doing.
+        What values in the code correspond to the sample size,
+        population mean, and population variance listed above?<br>
+        <pre>means = NULL<br>stdmeans = NULL<br>for(i in 1:10000){<br>	samp = rnorm(35, 15, 2)<br>	means[i] = mean(samp)<br>	stdmeans[i] = (mean(samp) - 15)/(2/sqrt(35))<br>}<br><br>mean(means)<br>mean(stdmeans)<br><br>sd(means)<br>sd(stdmeans)<br><br>par(mfrow=c(1,2)) # Set up plot window to do one row of two plots.<br>hist(means, xlab = "Sample Means (n = 35)", freq=F)<br>lines(density(means))<br>curve(dnorm(x, 15, 2/sqrt(35)),add=T,lty=2)<br>hist(stdmeans, xlab = "Standardized Sample Means (n = 35)", freq=F)<br>lines(density(stdmeans))<br>curve(dnorm(x),add=T)<br><br></pre>
+      </div>
+    </div>
+    <h2>Sampling Distributions of Other Statistics<br>
+    </h2>
+    It is easy to simulate sampling distributions of other statistics as
+    well. A simulated sampling distribution is called an <i><b>empirical
+        sampling distribution</b></i>. For example, let's try simulating
+    the distribution of the sample variance:<br>
+    <div align="center"><img alt="" src="Lab2image6.png" width="174"
+        height="52"><br>
+    </div>
+    still assuming we're sampling from the same normal distribution as
+    above:<br>
+    <pre>vars = NULL<br>for(i in 1:10000){<br>	samp = rnorm(35, 15, 2)<br>	vars[i] = var(samp)<br>}<br><br>mean(vars)<br>sd(vars)<br><br>hist(vars, xlab = "Sample Variances (n = 35)", freq=F)<br>lines(density(vars))<br></pre>
+    Does the probability distribution of the sample variance look
+    normal? What probability distribution does it look like?<br>
+    <br>
+    Let's consider a more involved statistic. We know that the
+    standardized mean has a standard normal distribution when sampling
+    from a normal distribution. But what if we were to substitute the
+    sample variance for the population variance? In other words, what if
+    we were to look at the statistic<br>
+    <br>
+    <div align="center"><img alt="" src="Lab2image8.png" width="91"
+        height="57"><br>
+      <br>
+      <div align="left">Before running the simulation, what do you think
+        the sampling distribution of <i>T</i> will look like?... Ok,
+        let's try it:<br>
+        <pre>ts = NULL<br>for(i in 1:10000){<br>	samp = rnorm(35, 15, 2)<br>	ts[i] = (mean(samp) - 15)/(sd(samp)/sqrt(35))<br>}<br><br>mean(ts)<br>sd(ts)<br><br>hist(ts, xlab = "T-statistics (n = 35)", freq=F)<br>lines(density(ts))<br>curve(dnorm(x),add=T,lty=2)<br></pre>
+        Compare your histogram of simulated T-statistics to the standard
+        normal curve. Do the two distributions seem close? What about
+        simulated probabilities? Let's see...<br>
+        <pre>mean( ts &lt; (-2) ) # Estimated probability that T &lt; -2 (why?)<br># Compare to:<br>pnorm(-2)<br></pre>
+        What if we were to try a different sample size? Re-run the
+        simulation above, but using <i>n</i> = 5 rather than <i>n</i>
+        = 35. What changed?<br>
+        <br>
+      </div>
+    </div>
+    <hr size="2" width="100%"><br>
+    <big style="font-weight: bold;"><a href="Lab2_HW.html">Lab 2
+        Assignment </a><br>
+      Turn in your Lab assignment via our EEE Dropbox.<br>
+      Due Fri., Feb. 7 by 5pm.<br>
+    </big><br>
+    <hr style="width: 100%; height: 2px;">
+    <div style="text-align: center;"><a href="../../index.html">Stat
+        120B/Math 131B Course Webpage</a><br>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Arjun Satish's Homepage</title>
+<link rel="stylesheet" type="text/css" href="web/style.css"> 
+<link rel="icon" href="web/media/favicon.ico">
+</head>
+<body>
+
+<a target='_blank' href="https://github.com/wicknicks">
+<img style="position: absolute; top: 0; right: 0; border: 0;" 
+     src="web/media/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+     
+<div id="contact">
+<h1> Arjun Satish </h1>
+<p><div id="address">
+  3211 Donald Bren Hall, <br> 
+  University of California, <br> 
+  Irvine CA 92697. </div>
+<p><div id="email"> Email: EMAIL@ADDRESS </div>
+<p> <a href='Resume/cv.pdf'>CV</a></p>
+</div>
+
+<div id="main">
+ <p><img src="web/media/me.jpg"></p>
+ <p>
+   Hi, I am a Ph.D. candidate working with <a href = 'http://www.ics.uci.edu/~jain/'>Prof.
+   Ramesh Jain</a> in the <a href = 'http://esl.ics.uci.edu/'> Experiential Systems Laboratory</a>. 
+   We are also part of the <a href = 'http://isg.ics.uci.edu/'>Information Systems Group</a> at 
+   <a href = 'http://ics.uci.edu/'>ICS</a>, <a href = 'http://uci.edu/'>UCI</a>. 
+ </p>
+ <p>
+   I work on a Context Discovery Framework, CueNet. Read about it <a href='#CueNet'>below</a>.
+ </p>
+ <p>
+   My personal website is located <a href='http://wicknicks.com'>here</a>. 
+   <strong>WARNING</strong>: Do not go to my blog <a href='http://wicknicks.com/blog'>here</a>.
+ </p>
+</div>
+
+<h1> News </h1>
+<div id="news">
+  <p>(9/5/13) Successfully <font color="RED"><strong>defended</strong></font>
+      my <a href='docs/arjun-dissertation-final.pdf'>thesis</a>! </p>
+  <p>(5/28/13) Featured on <a href='http://www.ics.uci.edu/grad/profiles/index.php?student=satish'>
+     school website</a>. Thanks, ICS! </p>
+  <p>(2/28/13) Check out our <font color="RED"><strong>new demo video</strong></font>
+      explaining CueNet
+      <a href='http://www.ics.uci.edu/~arjun/cuenet/icmr-demo/'>here</a>.</p>
+  <p>(2/22/13) Got accepted for a demo and a doctoral symposium presentation 
+      at <a href='http://www.icmr2013.org/'>ICMR 2013</a>.</p>
+  <p>(7/30/12) Setup <a href='http://wicknicks.com/'>personal website</a> and 
+            <a href='http://wicknicks.com/blog'>Blog</a>.</p>
+  <p>(7/19/12) Got a <font color="RED"><strong> Google Ph.D. Fellowship</strong></font>! </p>
+  <p>(5/25/12) Completed Topic Proposal for Ph.D.</p>
+
+<h1> Projects </h1>
+<div id="projects">
+ 
+  <a name="CueNet"></a>
+  <h2> CueNet </h2>
+     This project arose from a need to associate context with photos to tell stories. 
+     Stories without context are meaningless. And data without context is gibberish. 
+     In order to combat this lack of context, we started working on CueNet, a framework
+     which would discover event context for personal photos. We invented a technique 
+     called <strong> progressive discovery </strong>, which would navigate from 
+     source to source to find the most relevant event and person information about a given photo.
+     <p><img width="400px" class='center' src='web/media/prog-discovery.png'></p>
+     
+  <a name="Tolkien"></a>
+  <h2> Tolkien </h2>
+     We developed a computational model of <strong> transitions </strong> to generate a 
+     basic linear story skeleton, which consists of a set of media items. The user of the 
+     system is then allowed to add textual descriptions to this story to provide its 
+     readers with appropriate context to interpret the story. Finally, the resulting 
+     story is displayed in a familiar comic like layout, and shared with the intended readers.
+     
+     <br><br>
+     
+     You can find other stories <a target="_blank" href='tp/comics/d1'>here</a>, 
+     <a target="_blank" href='tp/comics/d2'>here</a>, 
+     <a target="_blank" href='tp/comics/d4'>here</a> and 
+     <a target="_blank" href='tp/comics/d5'>here</a>.
+    
+     <p><img width="400px" class='center' src='web/media/sample-presentation.png'></p>
+    
+  <a name='Emme'></a>
+  <h2> Emme </h2>
+     Emme is a research project under the supervision of Prof. Ramesh Jain. 
+     It involved in creating an <strong> event based media organizing </strong> 
+     and visualization tool. Click on the picture below to look at the prototype
+     on YouTube:
+     <p><a target="_blank" href='http://www.youtube.com/watch?v=A5V7AHhcZ5U'>
+           <img width="500px" class='center' src='web/media/emme-youtube-screenshot.png'></a></p>
+     
+  <a name='Wicker'></a>
+  <h2> Wicker </h2>
+     Wicker is an interesting class project which sits with the Firefox browser as a 
+     plugin and displays articles from Wikipedia which 
+     are similar in content to the webpage you are currently browsing. We used Hadoop to 
+     generate our text index, which would in turn be used to compare the webpage content 
+     with the wikipedia article content. Here is the final 
+     <a target="_blank" href='docs/Satish-Behm_SidebarReport.pdf'>report</a>.
+
+<div id="publications">
+
+<div id="papers">
+<h1> Publications </h1>
+
+ 	<font class='authors'> Arjun Satish, </font>
+       <font class='title'>Discovering Real World Context to Tag Personal Photos</font>
+       <font class='journal'>
+             <b><i> PhD Dissertation </i></b> 
+             <a href='docs/arjun-dissertation-final.pdf'> [pdf] </a> </font>
+       <br>
+
+
+       <font class='authors'> Arjun Satish, Ramesh Jain, Amarnath Gupta,  </font>
+       <font class='title'>Context Networks for Annotating Personal Media</font>
+       <font class='journal'>
+             <b><i> Technical Report (ESL.UCI.EDU-TR 2013-May/01) </i></b> 
+             <a href='docs/cuenet-tr.pdf'> [pdf] </a> </font>
+       <br>
+       
+       <font class='authors'> Arjun Satish  </font>
+       <font class='title'>CueNet: A Context Discovery Framework to Tag 
+                            Personal Photos</font>
+       <font class='journal'>
+             <b><i> ICMR 2013 (Doctoral Symposium) </i></b> 
+             <a href='docs/doctoral-icmr13.pdf'> [pdf] </a> </font>
+       <br>
+       
+       <font class='authors'> Arjun Satish, Ramesh Jain, Amarnath Gupta, </font>
+       <font class='title'>Visualizing Progressive Discovery</font>
+       <font class='journal'>
+             <b><i> ICMR 2013 (Demo) </i></b> 
+             <a href='docs/demo-icmr13.pdf'> [pdf] </a> </font>
+       <br>
+       
+       <font class='title'> Tagging Personal Photos Using Contextual Information</font>
+       <font class='journal'> 
+            <b><i> Whitepaper </i></b>
+            <a href='docs/google-research-proposal-full.pdf'> [pdf] </a>
+       </font>
+       <br>
+       <font class='authors'> Arjun Satish, </font>
+       <font class='title'>CueNet: Context Discovery for Personal Photos</font>
+       <font class='journal'> 
+            <b><i> Topic Proposal </i></b>
+            <a href='docs/topic-proposal-report.pdf'> [pdf] </a>
+       </font>
+       <br>
+       <font class='authors'> Arjun Satish, Ramesh Jain, Amarnath Gupta, </font>
+       <font class='title'>Tolkien: Weaving Stories from Personal Media</font>
+       <font class='journal'> 
+            <b><i> Technical Report (ESL.UCI.EDU-TR 2010/04/11) </i></b>
+            <a href='docs/tolkien11.pdf'> [pdf] </a> 
+       </font>
+       <br>
+       <font class='authors'> Arjun Satish, Ramesh Jain, Amarnath Gupta, </font>
+       <font class='title'>Tolkien: An Event Based Storytelling System.</font>
+       <font class='journal'> 
+             <b><i> VLDB 2009 </i></b> 
+             <a href='docs/tolkien09.pdf'> [pdf] </a> </font>
+       <br>
+       <font class='authors'> Ronen Vaisenberg, Arjun Satish, 
+                               Keith A. Mogensen, Ramesh Jain, Sharad Mehrotra, </font>
+       <font class='title'>A new approach for adding browser functionality.</font>
+       <font class='journal'> 
+             <b><i> Hypertext 2008 </i></b>
+             <a href='docs/hypertext08.pdf'> [pdf] </a> </font>
+  </div>
+
+</div>
+
+<div id="teaching">
+  <h1> Teaching </h1>
+  <h2> ICS 32, Spring 2013 </h2>
+       Programming with Software Libraries with <a href='http://www.ics.uci.edu/~thornton/'>Alex Thornton</a>.
+  
+  <h2> ICS 61, Winter 2013 </h2>
+       Game Systems and Design with <a href='http://ngs.ics.uci.edu/'>Prof. Ramesh Jain</a>.
+
+  <h2> CS 23, Summer 2012 </h2>
+       Introduction to Computer Science III with <a href='http://www.ics.uci.edu/~thornton/'>Alex Thornton</a>.
+
+  <h2> CS 122b, Spring 2012 </h2>
+       Projects in Data and Web Apps with <a href='http://www.ics.uci.edu/~chenli/'>Prof Chen Li</a>.
+  <h2> CS 22, Spring 2012 </h2>
+       Introduction to Computer Science II with <a href='http://www.ics.uci.edu/~thornton/'>Alex Thornton</a>.
+
+  <h2> CS 222, Fall 2011 </h2>
+       Principles of Data Management with <a href='http://www.ics.uci.edu/~mjcarey/'>Prof. Mike Carey</a>.
+  
+  <h2> ICS 21, Winter 2011 </h2>
+       <a href="http://www.ics.uci.edu/~jacobson/ics21/ICS21.html">Course Website</a>. 
+       The instructor was <a href='http://www.ics.uci.edu/~jacobson/'>Norm Jacobson</a>.
+
+  <h2> CS 113, Spring 2010 </h2>
+       A course in Computer Game Development with <a href='http://frost.ics.uci.edu/'>Dan Frost</a>.
+       Game science is now a <a href='http://www.ics.uci.edu/ugrad/degrees/degree_cgs.php'>major</a> in UCI.
+
+  <h2> CS 122b, Winter 2010 </h2>
+       After a good teaching experience last quarter, I was reappointed TA for 
+       <a href="http://www.ics.uci.edu/~cs122b/">CS122b</a>.
+       Instructed by <a href='http://www.ics.uci.edu/~chenli/'>Prof. Chen Li</a>.
+
+  <h2> CS 122b, Fall 2009 </h2>
+       I was the TA for the CS 122b course, <a href="http://www.ics.uci.edu/~cs122b/">Projects in Database Management</a>. 
+       Instructed by <a href='http://www.ics.uci.edu/~chenli/'>Prof. Chen Li</a>. 
+
+  <h2> ICS 21, Summer 2009 </h2>
+       The TA for ICS 21, which is an introduction to programming course. The instructor for the course was
+       <a href='http://www.ics.uci.edu/~thornton/'>Alex Thornton</a>.
+
+  <h2> CS 143, Spring 2009 </h2>
+       I was the TA for the CS 143 course, Operating Systems Principles. The instructor for the course was 
+       <a href='http://www.ics.uci.edu/~dillenco/'>Prof. Michael Dillencourt</a>. 
+       
+  <h2> CS 143a, Winter 2009 </h2>
+       I was the Reader for the CS 143 course, Operating Systems Principles. The instructor for the course was 
+       <a href='http://www.ics.uci.edu/~franklin/'>Prof. Steve Franklin</a>. 
+
+  <h2> CS 112, Fall 2008 </h2>
+       Introductory course for Computer Graphics. The instructor for the course was 
+       <a href='http://www.ics.uci.edu/~majumder/'>Prof. Aditi Majumder</a>. 
+
+  <h2> EECS 104, Fall 2007 </h2>
+       Fundamentals of Computer Graphics. The instructor for the course was Dr. Zhihe Zhang. 
+
+  <br> <br>
+</div>
+<script src='http://code.jquery.com/jquery-1.9.1.js'></script>
+<script src = 'web/js/em.js'></script>
+</body>
+</html>
+

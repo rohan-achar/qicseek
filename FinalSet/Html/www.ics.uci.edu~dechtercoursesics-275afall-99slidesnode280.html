@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Bounded Depth-First Search</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Bounded Depth-First Search">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5637 HREF="node281.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5635 HREF="node268.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5629 HREF="node279.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5639 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5638 HREF="node281.html"> Depth-First Iterative Deepening</A>
+<B>Up:</B> <A NAME=tex2html5636 HREF="node268.html"> Libraries</A>
+<B> Previous:</B> <A NAME=tex2html5630 HREF="node279.html"> Checking Files</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION002250000000000000000> Bounded Depth-First Search</A></H1>
+<P>
+<A NAME=6605>&#160;</A>
+<A NAME=6606>&#160;</A>
+<A NAME=libdfid>&#160;</A>
+This library (loaded with <tt> :- lib(dfid)</tt>)defines predicates for bounded depth-first search,
+which can replace the usual depth first search in cases when
+a complete proof procedure is needed.
+By limiting the number of ancestors of each goal infinite paths
+can be cut down and endless loops eliminated, of course assuming
+that the cut branch did not contain a solution.
+<P>
+The library provides two basic ways to use the depth limitations:
+depth-first iterative deepening and plain bounded depth-first search.
+Both require that programs which should be executed with this
+search strategy are compiled with the <b> dfid_compile</b> compiler flag.
+Predicates which are compiled without it can be called as well,
+but their depth will not be taken into account, and they will
+be executed using the standard depth-first rule.
+Since this is more efficient, code which is known not to
+contain any infinite loops can be compiled without the <b> dfid_compile</b>
+flag, and only the potentially non-terminating parts have
+to be compiled using the flag.
+Predicates compiled with and without the flag can be freely
+mixed.
+<P>
+<BR> <HR>
+<UL> 
+<LI> <A NAME=tex2html5640 HREF="node281.html#SECTION002251000000000000000"> Depth-First Iterative Deepening</A>
+<LI> <A NAME=tex2html5641 HREF="node282.html#SECTION002252000000000000000"> Depth-First Search with Limited Depth</A>
+</UL>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

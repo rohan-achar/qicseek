@@ -1,0 +1,423 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Terminology</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Terminology">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html2641 HREF="node34.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html2639 HREF="umsroot.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html2633 HREF="node32.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html2643 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html2642 HREF="node34.html"> Getting started with  </A>
+<B>Up:</B> <A NAME=tex2html2640 HREF="umsroot.html">No Title</A>
+<B> Previous:</B> <A NAME=tex2html2634 HREF="node32.html"> Reporting Problems</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION00300000000000000000> Terminology</A></H1>
+<P>
+<A NAME=terminology>&#160;</A>
+<A NAME=chapterm>&#160;</A>
+<P>
+This chapter defines the terminology which is used throughout the manual and
+in related documentation.
+<P>
+<DL >
+<DT><b> +X</b>
+<DD> <BR>
+<P>
+<A NAME=230>&#160;</A>
+This denotes an input argument. Such an argument must be instantiated before 
+a built-in is called.
+<P>
+
+<DT><b> <b>-</b>X</b>
+<DD> <BR>
+<P>
+<A NAME=232>&#160;</A>
+This denotes an output argument. Such an argument must be not 
+instantiated before a built-in is called.
+<P>
+
+<DT><b> ?X</b>
+<DD> <BR>
+<P>
+<A NAME=234>&#160;</A>
+This denotes an input or an output argument. Such an argument may be either 
+instantiated or not  when a built-in is called.
+<P>
+
+<DT><b> Array</b>
+<DD> <BR>
+<P>
+<A NAME=236>&#160;</A>
+An array specification is a compound term the form Name(Dim_1,...,Dim_n),
+where Name is the array name, the arity denotes the number of dimensions and 
+the arguments are integers indicating the size in each dimension.
+An array element is selected with a similar term.
+<P>
+
+<DT><b> Arity</b>
+<DD> <BR>
+<P>
+<A NAME=238>&#160;</A>
+Arity is the number of arguments to a term.
+Atoms are considered as functors with zero arity.
+The notation <i> Name/Arity</i> is used to specify a functor of name 
+<i> Name</i> with arity <i> Arity</i>.
+<A NAME=242>&#160;</A>
+<P>
+
+<DT><b> Atom</b>
+<DD> <BR>
+<P>
+An arbitrary name chosen by the user to represent objects from the 
+problem domain.
+A Prolog <i> atom</i> corresponds to an identifier in other languages.
+<A NAME=245>&#160;</A>
+<P>
+
+<DT><b> Atomic</b>
+<DD> <BR>
+<P>
+An atom, string or a number. A terms which does not contain other terms.
+<A NAME=247>&#160;</A>
+<P>
+
+<DT><b> Body</b>
+<DD> <BR>
+<P>
+A clause <i> body</i> can either be of the form
+<PRE>Goal_1, Goal_2, ..., Goal_k
+</PRE>
+and the clause is called a <i> regular clause</i>, or only
+<A NAME=251>&#160;</A>
+<PRE>Goal
+</PRE>
+and then the clause is an <i> iterative clause</i>;
+<A NAME=253>&#160;</A>
+each <i> Goal_i</i> must be  a callable term.
+<P>
+
+<DT><b> Built-in Procedures</b>
+<DD> <BR>
+<P>
+<A NAME=256>&#160;</A>
+These are predicates provided for the user by the
+<A NAME=tex2html81 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  system, they are either written in Prolog or in the implementation
+language (usually ``C'').
+<P>
+
+<DT><b> Clause</b>
+<DD> <BR>
+<P>
+<A NAME=258>&#160;</A>
+See program clause or goal.
+<P>
+
+<DT><b> Callable Term</b>
+<DD> <BR>
+<P>
+<A NAME=260>&#160;</A>
+A <i> callable term</i> is either a compound term or an atom.
+<P>
+
+<DT><b> Compound Term</b>
+<DD> <BR>
+<P>
+<A NAME=263>&#160;</A>
+Compound terms are of the form
+<PRE>f(t_1, t_2, ..., t_n)
+</PRE>
+where <i> f</i> is the <i> functor</i> of the compound term
+<A NAME=266>&#160;</A>
+and <i> t_i</i> are terms, n is its arity. Lists and Pairs are also 
+compound terms.
+<P>
+
+<DT><b> DID</b>
+<DD> <BR>
+<P>
+<A NAME=269>&#160;</A>
+Each atom created within <A NAME=tex2html87 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  is assigned a unique
+identifier called the <i> dictionary identifier</i> or <i> DID</i>.
+<P>
+
+<DT><b> Difference List</b>
+<DD> <BR>
+<P>
+<A NAME=273>&#160;</A>
+A difference list is a special kind of a list.
+Instead of being ended by <i> nil</i>, a difference list
+has an uninstantiated tail so that new elements
+can be appended to it in constant time.
+A difference list is written as <i> List - Tail</i>
+where <i> List</i> is the beginning of the list and <i> Tail</i>
+is its uninstantiated tail.
+Programs that use difference lists are usually more efficient
+and always much less readable than programs without them.
+<P>
+
+<DT><b> Dynamic Procedures</b>
+<DD> <BR>
+<P>
+<A NAME=279>&#160;</A>
+These are procedures which can be modified clause-wise, by adding or removing 
+one clause at a time. Note that this class of procedure is equivalent to 
+interpreted procedures in other Prolog systems. See also <i> static 
+procedures</i>.
+<P>
+
+<DT><b> ElemSpec</b>
+<DD> <BR>
+<P>
+<A NAME=282>&#160;</A>
+An <i> ElemSpec</i> specifies a global variable (an atom) or an array
+element (a ground compound term with as much arguments (integers) as
+the number of dimensions of the array).
+<P>
+
+<DT><b> External Procedures</b>
+<DD> <BR>
+<P>
+<A NAME=285>&#160;</A>
+These are procedures which are defined in a language
+other than Prolog, and explicitly connected to Prolog predicates by the user.
+<P>
+
+<DT><b> Fact</b>
+<DD> <BR>
+<P>
+<A NAME=287>&#160;</A>
+<A NAME=288>&#160;</A>
+A fact or <i> unit clause</i> is a term of the form:
+<PRE>Head.
+</PRE>
+<A NAME=290>&#160;</A>
+where <i> Head</i> is a structure or an atom.
+<A NAME=292>&#160;</A>
+A fact may be considered to be a rule whose body is always <i> true</i>.
+<P>
+
+<DT><b> Functor</b>
+<DD> <BR>
+<P>
+<A NAME=295>&#160;</A>
+A functor is characterised by its name which is an atom, and its arity
+which is its number of arguments.
+<P>
+
+<DT><b> Goal Clause</b>
+<DD> <BR>
+<P>
+<A NAME=297>&#160;</A>
+<A NAME=298>&#160;</A>
+See <i> query</i>.
+<P>
+
+<DT><b> Ground</b>
+<DD> <BR>
+<P>
+<A NAME=301>&#160;</A>
+A term is ground when it does not contain any uninstantiated variables.
+<P>
+
+<DT><b> Head</b>
+<DD> <BR>
+<P>
+<A NAME=303>&#160;</A>
+A head is a structure or an atom.
+<P>
+
+<DT><b> Instantiated</b>
+<DD> <BR>
+<P>
+<A NAME=305>&#160;</A>
+A variable is instantiated when it has been bound to an atomic or a 
+compound term as opposed to 
+being <i> uninstantiated</i> or <i> free</i>.  See also <i> ground</i>.
+<P>
+
+<DT><b> List</b>
+<DD> <BR>
+<P>
+<A NAME=310>&#160;</A>
+A list is a special type of term within Prolog. It is a 
+recursive data structure consisting of <i> pairs</i> (whose tails are lists).
+A <tt> list</tt> is either the atom <tt> []</tt> called <tt> nil</tt> as in LISP,
+or a pair whose tail is a list.
+The notation :
+<PRE>[a , b , c]
+</PRE>
+is shorthand for:
+<PRE>[a | [b | [c | []]]]
+</PRE>
+<A NAME=315>&#160;</A>
+<A NAME=316>&#160;</A>
+<P>
+
+<DT><b> Name/Arity</b>
+<DD> <BR>
+<P>
+<A NAME=318>&#160;</A>
+The notation <tt> Name/Arity</tt> is used to specify a functor of name 
+<b> Name</b> with arity <b> Arity</b>.
+<P>
+
+<DT><b> Pair</b>
+<DD> <BR>
+<P>
+<A NAME=323>&#160;</A>
+A pair is a compound term with the functor <tt> ./2</tt> (<tt> dot</tt>)
+which is written as :
+<PRE>[H|T]
+</PRE>
+<tt> H</tt> is the <tt> head</tt> of the pair and <tt> T</tt> its <tt> tail</tt>.
+<A NAME=330>&#160;</A>
+<A NAME=331>&#160;</A>
+<P>
+
+<P>
+<DT><b> Predicate</b>
+<DD> <BR>
+<P>
+<A NAME=333>&#160;</A>
+A predicate is another term for a <i> procedure</i>.
+<P>
+
+<DT><b> PredSpec</b>
+<DD> <BR>
+<P>
+<A NAME=336>&#160;</A>
+This is similar to the notation <tt> Name/Arity</tt>.
+Some built-ins allow the arity to be omitted and to specify
+<tt> Name</tt> only.
+This stands for all (visible) predicates with that name and any arity.
+<P>
+
+<DT><b> Program Clause</b>
+<DD> <BR>
+<P>
+A <i> program clause</i> or <i> clause</i> is either the term
+<A NAME=342>&#160;</A>
+<A NAME=343>&#160;</A>
+<A NAME=344>&#160;</A>
+<PRE>Head :- Body.
+</PRE>
+<A NAME=345>&#160;</A>
+i.e. a compound term with the functor <i> :-/2</i>, or only a fact.
+<P>
+
+<DT><b> Query</b>
+<DD> <BR>
+<P>
+A query  has the same form as <i> Body</i> 	
+and is also called a <i> goal</i>.
+<A NAME=350>&#160;</A>
+Such clauses occur mainly as input to the top level Prolog loop
+and in files being compiled, then they have the form
+<PRE>:- Goal_1, ..., Goal_k.
+</PRE>
+or
+<PRE>?- Goal_1, ..., Goal_k.
+</PRE>
+<P>
+
+<DT><b> Regular Prolog Procedure</b>
+<DD> <BR>
+<P>
+<A NAME=352>&#160;</A>
+A <i> regular (Prolog) procedure</i> is a sequence of user clauses whose heads
+have the same functor, which then identifies the user procedure.
+<P>
+
+<DT><b> Simple Procedures</b>
+<DD> <BR>
+<P>
+<A NAME=355>&#160;</A>
+Apart from regular procedures <A NAME=tex2html118 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  recognises <i> simple procedures</i>
+which are written not in Prolog but in the implementation language, i.e. C
+and which are deterministic.
+There is a functor associated with each
+simple procedure, so that
+any procedure recognisable by <A NAME=tex2html119 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  is identified by a functor,
+<A NAME=357>&#160;</A>
+or a compound term with this functor (or atom).
+<P>
+
+<DT><b> SpecList</b>
+<DD> <BR>
+<P>
+<A NAME=359>&#160;</A>
+The SpecList notation means a sequence of terms of the form:
+<PRE>name_1/a_1, name_2/a_2, ..., name_k/a_k.
+</PRE>
+The SpecList notation is used in many built-ins, for example, 
+to specify a list of procedures in the <b> global/1</b> predicate.
+<P>
+
+<DT><b> Static Procedures</b>
+<DD> <BR>
+<P>
+<A NAME=362>&#160;</A>
+These are procedures which can only be changed as a whole unit, i.e. removed or 
+replaced.
+<P>
+
+<DT><b> Stream</b>
+<DD> <BR>
+<P>
+<A NAME=364>&#160;</A>
+This is an I/O channel identifier and can be a physical stream number, one of 
+the reserved stream identifiers or a user defined stream name (defined using
+<b> set_stream/2</b> or <b> open/3</b>). 
+<A NAME=367>&#160;</A>
+<A NAME=368>&#160;</A> 
+The reserved stream identifiers are:
+<PRE>input, output, error, toplevel_input, toplevel_output, 
+answer_output, debug_input, debug_output, user, null,
+stdin, stdout, stderr.
+</PRE>
+<P>
+
+<DT><b> Structures</b>
+<DD> <BR>
+<P>
+Compound terms which are not pairs are also called <i> structures</i>.
+<A NAME=371>&#160;</A>
+<P>
+
+<DT><b> Term</b>
+<DD> <BR>
+<P>
+A <i> term</i> is the basic data type in Prolog.
+<A NAME=374>&#160;</A>
+It is either a <i> variable</i>, a <i> constant</i>,
+i.e. an <i> atom</i>, a <i> number</i> or a <i> string</i>,
+<A NAME=380>&#160;</A>
+<A NAME=381>&#160;</A>
+or a <i> compound term</i>.
+<P>
+
+<P>
+ </DL>
+<P>
+The notation <b> Pred/N1, N2</b> is often used in this documentation
+as a shorthand for <b> Pred/N1, Pred/N2</b>.
+<P>
+<BR> <HR><A NAME=tex2html2641 HREF="node34.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html2639 HREF="umsroot.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html2633 HREF="node32.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html2643 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html2642 HREF="node34.html"> Getting started with  </A>
+<B>Up:</B> <A NAME=tex2html2640 HREF="umsroot.html">No Title</A>
+<B> Previous:</B> <A NAME=tex2html2634 HREF="node32.html"> Reporting Problems</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

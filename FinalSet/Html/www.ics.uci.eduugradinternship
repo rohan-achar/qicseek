@@ -1,0 +1,426 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+                <title>Summer Undergraduate  Research Internship in Computer Science @ the bren school of information and computer sciences</title>
+                
+                
+                <meta content="Wed, 15 Jan 2014 07:36:45 -0320" name="date"/>
+                
+<link href="../../bin/styles/stylesheet_secondary.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<script type="text/javascript">
+/*<![CDATA[*/
+(function() {
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+sz.src = '//us1.siteimprove.com/js/siteanalyze_28882.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/
+</script>
+
+<!-- before breadcrumb_nav include -->
+ <!-- after breadcrumb_nav include -->
+
+<div id="wrapper">
+<script type="text/javascript">
+
+sfHover = function() {
+    var sfEls = document.getElementById("navcontainer").getElementsByTagName("LI");
+    for (var i=0; i<sfEls.length; i++) {
+        sfEls[i].onmouseover=function() {
+            this.className+=" sfhover";
+        }
+        sfEls[i].onmouseout=function() {
+            this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+        }
+    }
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+</script>
+
+    <div id="header" title="Welcome to the Donald Bren School of Information and Computer Sciences @ UC Irvine">
+
+           <a id="bren_link" href="/"></a>
+
+           <a id="uci_link" href="http://www.uci.edu/"></a>
+
+    </div>
+    
+    
+    <div CLASS="newbar"><p style="line-height: 0px; display: none; "></p></div>
+    
+    
+    <div id="navcontainer">
+
+                
+            <ul>
+                
+                <li>
+                
+                    <a href='/about/' title='about'>&raquo; About</a>              
+
+                    <ul>
+                        <li><a href="/about/">&raquo; About the School</a></li>
+                        <li><a href="/about/about_mission.php">&raquo; Bren ICS Mission</a></li>
+                        <li><a href="/about/about_deanmsg.php">&raquo; Dean's welcome</a></li>
+                        <li><a href="/about/bren/">&raquo; About the Bren gift</a></li>
+                        <li><a href="/about/about_factsfigures.php">&raquo; Facts and figures</a></li>
+                        <li><a href="/about/brenhall/index.php">&raquo; Donald Bren Hall</a></li>
+                        <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                        <li><a href="/about/about_contact.php">&raquo; Contact us</a></li>
+                        <LI><A HREF="/about/equity/">&raquo; Equity & diversity</A></LI>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/dept/' title='departments'>&raquo; Departments</a>
+                    <ul>
+                        <li><a href="http://www.cs.uci.edu">&raquo; Computer Science</a></li>
+                        <li><a href="http://www.informatics.uci.edu">&raquo; Informatics</a></li>
+                        <li><a href="http://www.stat.uci.edu">&raquo; Statistics</a></li>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/faculty/area/' title='research'>&raquo; Research</a>              
+                
+
+                
+                
+                
+                    <ul>
+                        <li><a href="/faculty/area/">&raquo; Research areas</a></li>
+                        <li><a href="/faculty/centers/">&raquo; Research centers</a></li>
+                        <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                    </ul>
+                </li>
+                
+                
+                
+                <li>
+                
+                    <span id=specialborder><a href='#' title='education'>&raquo; Education</a></span>              
+
+                    <ul>
+                        <li><a href="/grad/">&raquo; Graduate</a>
+                        
+                            <ul>                        
+                            <li><a href="/grad/admissions/index.php">&raquo; Apply</a></li>
+                            <li><a href="/grad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="http://www.reg.uci.edu/registrar/soc/fees.html">&raquo; Tuition and costs</a></li>
+                            <li><a href="/grad/courses/index.php">&raquo; Courses</a></li>
+                            <li><a href="/grad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/faculty/area/index.php">&raquo; Research areas</a></li>
+                            <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                            <li><a href="/grad/policies/index.php">&raquo; Policies &amp; forms</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/grad/phddirectory/index.php">&raquo; Recruit graduate student</a></li> -->
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->                            
+                            <li><a href="/grad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="http://www.housing.uci.edu/prospective/graduate/index.asp">&raquo; Graduate housing</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="/ugrad/">&raquo; Undergraduate</a>
+                        
+                            <ul>                        
+                            <!-- <li><a href="/ugrad/admissions/index.php">&raquo; Apply</a></li>                       
+                            <li><a href="/ugrad/events/index.php">&raquo; Campus visits</a></li>
+                            -->
+                            <li><a href="http://www.ics.uci.edu/~lab/">&raquo; Computer lab information</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/ugrad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="/ugrad/courses/index.php">&raquo; Course listings</a></li>                     
+                            <li><a href="/ugrad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="/ugrad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/ugrad/financial/index.php">&raquo; Financial aid</a></li>                         
+                            <li><a href="http://honors.ics.uci.edu/">&raquo; Honors program</a></li>
+                            <li><a href="http://www.housing.uci.edu/">&raquo; Housing</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Internship program</a></li>                         
+                            <li><a href="/ugrad/policies/index.php">&raquo; Policies</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->
+                            <!-- <li><a href="http://www.dos.uci.edu/orientation/">&raquo; Recently admitted</a></li> -->
+                            <li><a href="http://student-council.ics.uci.edu/">&raquo; Student Council</a></li>
+                            <li><a href="/ugrad/life/index.php">&raquo; Student life</a></li>   
+                            <li><a href="/ugrad/resources/index.php">&raquo; Student resources</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Summer internships</a></li>
+                            <li><a href="https://techjobs.uci.edu/">&raquo; Tech Jobs</a></li>
+                            <li><a href="http://www.ofas.uci.edu/content/costs.aspx?nav=1">&raquo; Tuition and costs</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li><a href="http://www.ics.uci.edu/prospective">&raquo; Prospective undergrad</a></li>
+
+
+                        <li><a href="http://www.parents.uci.edu/">&raquo; UCI parents</a></li>
+                        
+                                                    
+                    </ul>               
+                </li>
+
+    
+                <li>
+                    
+                    <a href='#' title='people'>&raquo; People</a>                      
+                    
+                
+                    <ul>
+                        <li><a href="/faculty/">&raquo; Faculty</a></li>
+                        <li><a href="/about/search/index.php">&raquo; Staff</a></li>
+                        <li><a href="/about/search/search_graduate_all.php">&raquo; Graduate students</a></li>
+                    </ul>   
+                </li>
+                                
+                
+                <li> 
+                
+                    <a href='#' title='community'>&raquo; Community</a>                    
+                    <ul>
+                        <li><a href="/community/alumni/">&raquo; Alumni</a></li>
+                        <li><a href="/community/friends/">&raquo; Friends</a></li>
+                        <li><a href="http://www.uadv.uci.edu/parents/">&raquo; Parent programs</a></li>
+                        <li><a href="/community/friends/leadershipcouncil/">&raquo; Leadership Council</a></li>
+                        <li><a href="http://www.uadv.uci.edu/DonaldBrenSchoolOfICSAnnualGiving">&raquo; Make a gift</a></li>
+                        <li><a href="/community/news/">&raquo; News</a></li>
+                    </ul>   
+                </li>
+
+                <li>
+                
+                    <a href='/involved/' title='get involved'>&raquo; Get Involved</a>              
+                
+                
+                    <ul>
+                    
+                            <LI><A HREF="/involved/tech_talk">&raquo; Tech talks</A></LI>
+                            <LI><A HREF="/involved/information_session">&raquo; Information sessions</A></LI>
+                            <!--<LI><A HREF="/involved/">&raquo; Join industry panel</A></LI>-->
+                            <LI><A HREF="/involved/project_class">&raquo; Sponsor projects</A></LI>
+                            <LI><A HREF="/involved/leadership_council">&raquo; Leadership Council</A></LI>
+                            <LI><A HREF="/involved/corporate_partner">&raquo; Corporate Partners</A></LI>
+                            <LI><A HREF="/involved/internship">&raquo; Sponsor interns</A></LI>
+                            <LI><A HREF="https://techjobs.uci.edu/">&raquo; Tech Jobs</A></LI>
+                            <!--<LI><A HREF="">&raquo; Support student groups</A></LI>-->
+                            <LI><A HREF="/community/events/butterworth/">&raquo; Butterworth Competition</A></LI>
+                            
+                    </ul>               
+                </li>
+                
+                    
+
+            </ul>
+
+<style type="text/css">@import url("/bin/icssearchstyle/css/icssearch.css");</style>
+<script src="/bin/icssearchstyle/js/icssearch.js" type="text/javascript"></script>
+<script src="/bin/icssearchstyle/js/icssearchform.js" type="text/javascript"></script>
+
+
+
+    </div>
+<!-- before breadcrumb_nav() print -->
+<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/ugrad/">Undergraduate</a> &gt; <a href="http://www.ics.uci.edu/ugrad/internship/">Summer internship</a>] --><A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/ugrad/">Undergraduate</a> &gt; <a href="http://www.ics.uci.edu/ugrad/internship/">Summer internship</a></div>
+<!-- after breadcrumb_nav() print -->
+
+<div id="content"><a id="startcontent" name="startcontent"></a>  
+<div id="content_title">Internship program</div>
+
+<blockquote>
+<div id="content_text">
+
+<script src="/bin/js/jquery.js" type="text/javascript"></script>
+<script type="text/javascript">                                         
+
+   jQuery(document).ready(function() {
+
+
+      jQuery('.toggler').css('color', '#000099').
+                         css('font-weight', 'bold');
+
+
+      jQuery('#projects').hide();
+
+
+      jQuery('.toggler').click(function()
+      {
+         jQuery('#projects').slideToggle(500);
+      });
+
+
+   });
+
+</script>
+<center>
+<strong>Summer Undergraduate Research Internship <br/> 
+in Computer Science <br/> 
+@ the University of California, Irvine</strong>
+</center>
+<p>
+We welcome applications for a newly launched summer undergraduate research internship program at the UC Irvine Donald Bren School of Information and Computer Sciences. Selected students will get an opportunity to visit UCI during the summer of 2014 and spend roughly 8-10 weeks working with faculty on exciting research projects. Projects are expected to cover a wide variety of topics including artificial intelligence, data management, embedded systems and architecture, machine learning, networking, systems and software, secure computing, and theoretical computer science.</p>
+<p>
+<b>Who should apply?</b> <br/>
+The internships are open to both domestic and international students enrolled in an undergraduate Computer Science program (or related field) who are currently in their junior or senior year. (In exceptional cases, recent graduates also will be considered). The internships are suitable for highly motivated undergraduate students, potentially interested in exploring doctoral studies, who wish to gain valuable research experience. It is especially well suited for students considering UCI as a possible destination for their doctoral study. The internship provides an opportunity for students to visit UCI, discover the charm of Southern California, get to know our faculty, and participate in research projects that are changing the computing landscape. 
+</p>
+<p>
+<b>How many internships are available?</b> <br/>
+We expect to have 8-10 internship positions. The program will cover travel expenses to/from Irvine, and interns will have the opportunity of earning up to $450 a week to cover living expenses. 
+</p>
+<p>
+<b>What types of research projects will I work on?</b> <br/>
+   <span class="toggler">Click here</span> for examples of research projects available through this internship program.
+</p>
+<div id="projects" style="margin-left: 1em;">
+<style>
+   #projects UL LI { margin-top: 1em; }
+</style>
+<ul>
+<li>
+<b>Offered by Bren Eli Bozorgzadeh:</b> <br/>
+Professor Eli Bozorgzadeh is the director of the Adaptive and Reconfigurable Embedded System Research group at UC Irvine. The projects in this lab include design automation for dynamically reconfigurable systems, and adaptive energy management in networked embedded systems with energy harvesting capabilities. Summer internship projects in this group are outlined as follows:
+<p>
+1. Experiments and design tool development for embedded platforms with energy harvesting capabilities
+</p>
+<p>
+2. Energy storage for embedded systems with energy harvesting capabilities
+</p>
+<p>
+3. Reliability-aware system synthesis for reconfigurable Multi-processor system-on-chip (MSoC)
+</p>
+<p>
+The projects are directly led by Professor Bozorgzadeh. She will assign the projects to the participating students according to their research interest, skills and experience. For the first two projects, the students need some experience working with hardware devices such as embedded processors and/or sensors.  The last project requires background on graph algorithms and optimization. 
+      </p>
+</li>
+<li>
+<b>Offered by Bren Professor Michael Carey:</b> <br/>
+<a href="http://asterixdb.ics.uci.edu/">AsterixDB</a> is a new, full-function BDMS (Big Data Management System) with a rich feature set that distinguishes it from the other Big Data platforms in today&#8217;s open source Big Data software ecosystem. This feature set makes it ideally suited to current needs including web data warehousing, social data storage and analysis, and a variety of other use cases related to &#8220;Big Data problems.&#8221; The AsterixDB team is looking for 1 to 2 summer interns who would be interested in contributing to the AsterixDB effort. Specific projects will be determined based on the interns&#8217; skills, interests and experience, but could include such things as building demo applications, comparing AsterixDB to competitive technologies (such as Hadoop/Pig/Hive, MongoDB, or Couchbase), building tools and utilities to improve the usability of AsterixDB, or adding new input/output format support to the AsterixDB platform.
+      </li>
+<li>
+<b>Offered by Professor Michael Franz:</b><br/>
+We are developing a new way to automatically harden computer systems against cyber-attacks. Our techniques fundamentally improve the odds of defenders by equipping all computing systems with unique software. Like biological diversity curbs the spread of diseases, our artificial software diversity makes cyber-attacks costly and ineffective. Concretely, we are building a new compiler (on top of the industry-leading LLVM infrastructure) that does not just try to produce the fastest binary; instead it generates a large number of different binaries from each source file. As a result, the attacker needs a large number of different attacks and cannot easily match attacks to targets. Our work has many implications at the OS and hardware level and is not just theoretical. We can protect open source software simply by recompiling.
+<p>
+Depending on student qualifications, we are looking for 1 to 4 summer interns. We don't expect you to have a lot of prior experience. You'll be working in team of half a dozen graduate students and post docs who offer lots of advice &#8212; all we ask is that you are motivated, disciplined, and know how to code. 
+</p>
+<p>
+<i>Project 1: Next-generation Cyber Defenses</i> <br/>    
+We are working to bring our compiler to new platforms, contribute our work back to the LLVM project, and developing new ways to randomize code. For example, you could help measure the security and performance on ARM systems or implement randomized function parameter shuffling. Specific projects are determined by the intern's particular interests and skill sets.
+</p>
+<p>
+<i>Project 2: Thinking Like an Attacker</i> <br/>
+If you like to learn how to hack, reverse engineer or exploit vulnerabilities, this project is for you. We cannot evaluate the security of our research without trying to attack it &#8212; so we do exactly that. We build same kinds of attacks that are used in the wild today including return-oriented programming, JIT-spraying and side-channel attacks. Don't worry if you haven't developed exploits before, we'll help you find a project that matches your experience.
+</p>
+</li>
+<li>
+<b>Offered by Professor Sharad Mehrotra:</b> <br/>
+With the proliferation of cloud computing, organizations and individuals are increasingly outsourcing their data management needs, leading to the problem of &#8220;loss of control&#8221; over one&#8217;s data. The Radicle project at UCI is taking a novel risk-based approach to secure data management in the cloud. In particular, we are developing revolutionary middleware solutions that selectively expose data based on balancing the benefit of such data exposure with the associated risks. An example of such a middleware is the CloudProtect system that sits between a user and web applications such as Picasa, DropBox, Google Drive, etc. The middleware intercepts the user&#8217;s interactions with the service, appropriately encrypts data when possible to support user&#8217;s security policies, and strikes a balance between service usability and security. The Radicle team is looking for 1 to 2 summer interns who are interested in contributing to the development of solutions for secure data management. This work could include building core component of CloudProtect, extending the nature of policies supported, hardening the software for broader release, incorporating new cloud-based services, conducting user studies using the software, etc. 
+      </li>
+<li>
+<b>Offered by Assistant Professor Harry Xu:</b> <br/>
+Professor Xu leads the program analysis research group at UCI. His recent research interests include development of language-level optimizations for Big Data applications, as well as compiler and systems support for more efficient graph-processing algorithms in distributed shared memory systems (DSM). Summer interns will participate in a research project led by a graduate student. Office space and computers will be provided. 
+      </li>
+</ul>
+</div>
+<p>
+<b>Will the entire internship program focus on research?</b> <br/>
+While the program emphasizes research experience, it will include social activities so interns get to know one another and experience some of what Southern California has to offer. 
+</p>
+<p>
+<b>How do I apply?</b> <br/>
+You may apply online at <a href="http://summerinternship.ics.uci.edu/apply">http://summerinternship.ics.uci.edu/apply</a>; you must create an account to access the application and submit the required information, which includes your transcript(s), two letters of recommendation and a short personal statement. Our first deadline for applications is now over. We, however, seek additional applicants until February 15, 2014. 
+</p>
+<p>
+<b>Will housing be provided?</b> <br/>
+Students must arrange their own housing. Information about off-campus housing options is available <a href="http://www.housing.uci.edu/services/Off-Campus_Housing.html">here</a>.
+</p>
+<p>
+<b>Can you tell me more about UCI?</b> <br/>
+Located in coastal Orange County, near a thriving employment hub in one of the nation&#8217;s safest cities, UC Irvine was founded in 1965. One of only 62 members of the Association of American Universities, it&#8217;s ranked first among U.S. universities under 50 years old by the London-based <i>Times Higher Education</i>. The campus has produced three Nobel laureates and is known for its academic achievement, premier research, innovation and anteater mascot. UC Irvine has more than 28,000 students and 1,100 faculty and offers 192 degree programs. It&#8217;s Orange County&#8217;s second-<br/>largest employer, contributing $4.3 billion annually to the local economy. The university is about 5 miles from the Pacific Ocean, 45 miles from Los Angeles and 80 miles from San Diego. The beach cities of Orange County that neighbor Irvine are among the top tourist destinations in the United States. 
+</p>
+<p>
+<b>Can you tell me more about UCI&#8217;s computer science program?</b> <br/>
+The Donald Bren School of Information and Computer Sciences is the only computing-focused school in the University of California system. UCI holds the No. 28 spot in the most recent <i>U.S. News and World Report</i> ranking of computer science programs, and Microsoft&#8217;s Academic Search website ranks the Bren School faculty as the 21st most
+influential group in the United States. Students graduating with a&#160;Ph.D. from the Bren School at UCI have flourished in positions in industry, industrial research labs, government and academia. For more information about our school and alumni, visit: 
+<a href="http://www.ics.uci.edu/about/about_factsfigures.php">http://www.ics.uci.edu/about/about_factsfigures.php</a>
+</p>
+<p>
+<b>Who do I contact for more information?</b> <br/>
+For questions about the UCI summer undergraduate internship program in computer science, please email <a href="mailto:summerinternships@ics.uci.edu">summerinternships@ics.uci.edu</a>.
+</p>
+
+
+</div>
+</blockquote>
+</div>
+<div id="sidebar"><div id="sidebar_title">More Undergraduate &#187;</div>
+<ul>
+<!--
+<li><a href="/ICS/ics/ugrad/admissions/index">Apply</a></li>
+<li><a href="/ICS/ics/ugrad/events/index">Campus visits</a></li>
+-->
+<li><a href="../../../computing/account/new.php">Computing support</a></li>
+<li><a href="http://www.ics.uci.edu/%7Elab/">Computer lab information</a></li>
+<li><a href="../sao/index.php">Contact a counselor</a></li>
+<li><a href="../courses/index.php">Course listings</a></li>
+<li><a href="../degrees/index.php">Degrees</a></li>
+<li><a href="../qa/index.php">FAQ</a></li>
+<li><a href="../financial/index.php">Financial aid</a></li>
+<li><a href="http://honors.ics.uci.edu/">Honors opportunities</a></li>
+<li><a href="http://www.housing.uci.edu/">Housing</a></li>
+<li><a href="https://techjobs.uci.edu/">Tech Jobs</a></li>
+<!--
+<li><a href="/ICS/ics/ugrad/newly_admitted">Fall 2010 New Arrivals</a></li>
+-->
+<li><a href="../policies/index.php">Policies</a></li>
+<!--
+<li><a href="http://www.ics.uci.edu/hitec">Product competition</a></li>
+-->
+<li><a href="../resources/specialprograms.php">Special Programs</a></li>
+<!--
+<li><a href="/ugrad/admissions/prospective/index.php">Prospective students</a></li>
+-->
+<li><a href="http://student-council.ics.uci.edu/">Student Council</a></li>
+<li><a href="../life/index.php">Student life</a></li>
+<li><a href="../resources/index.php">Student resources</a></li>
+<li><a href="/ugrad/internship/">Summer internships</a></li>
+<li><a href="http://www.ofas.uci.edu/content/costs.aspx?nav=1">Tuition and costs</a></li>
+</ul>
+<br/>
+<div id="sidebar_title">Improving Your Grad School Application &#187;</div>
+<br/>
+<div id="spotlight">
+<img alt="Grad Cap" class="left" height="45" src="../../bin/img/ugrad/gradhat.png" width="57"/>View advice from the faculty members who admit students to the Bren School graduate program on improving your graduate school application. 
+(Link opens iTunes)&#160;&#160;<a href="http://deimos3.apple.com/WebObjects/Core.woa/Browse/uci.edu.1983660442.01983660444" target="_blank">more &#187;</a>&#160;</div>
+<div id="spotlight">
+<p>&#160;</p>
+</div>
+<div id="sidebar_title">iCAMP &#187;</div>
+<br/>
+<div id="spotlight">
+<img alt="iCamp" class="left" height="49" src="../../bin/img/photos/objects/blackboard_math.jpg" width="65"/>
+iCAMP provides an opportunity for undergrads to learn about a topic in computational applied mathematics.  Opportunities available for paid summer research as well.
+<a href="http://www.math.uci.edu/%7eicamp/">more &#187;</a>
+</div></div>
+<div id="footer"><a href="http://www.uci.edu/copyright.php">Copyright Inquiries</a> |
+   <a href="http://www.uci.edu/cgi-bin/phonebook">UCI Directory</a> |
+   <a href="http://intranet.ics.uci.edu/">Intranet</a> |
+   
+   <!-- <a href="http://www.ics.uci.edu/sitemap.php">Site Map</a> | -->
+ 
+  <a href="mailto: i%63%73%77%65%62m%61s%74%65r@%69c%73%2e%75c%69%2eedu">icswebmaster</a> |
+Updated: 
+January 15 2014</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-605898-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

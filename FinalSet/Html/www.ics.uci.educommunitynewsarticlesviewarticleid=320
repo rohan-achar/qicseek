@@ -1,0 +1,319 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+                <title></title>
+                
+                
+                <meta content="Thu, 17 Oct 2013 08:28:02 -0380" name="date"/>
+                
+<link href="../../../bin/styles/stylesheet_secondary.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<!-- before breadcrumb_nav include -->
+ <!-- after breadcrumb_nav include -->
+
+<div id="wrapper">
+<script type="text/javascript">
+
+sfHover = function() {
+    var sfEls = document.getElementById("navcontainer").getElementsByTagName("LI");
+    for (var i=0; i<sfEls.length; i++) {
+        sfEls[i].onmouseover=function() {
+            this.className+=" sfhover";
+        }
+        sfEls[i].onmouseout=function() {
+            this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+        }
+    }
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+</script>
+
+    <div id="header" title="Welcome to the Donald Bren School of Information and Computer Sciences @ UC Irvine">
+
+           <a id="bren_link" href="/"></a>
+
+           <a id="uci_link" href="http://www.uci.edu/"></a>
+
+    </div>
+    
+    
+    <div CLASS="newbar"><p style="line-height: 0px; display: none; "></p></div>
+    
+    
+    <div id="navcontainer">
+
+                
+            <ul>
+                
+                <li>
+                
+                    <a href='/about/' title='about'>&raquo; About</a>              
+
+                    <ul>
+                        <li><a href="/about/">&raquo; About the School</a></li>
+                        <li><a href="/about/about_mission.php">&raquo; Bren ICS Mission</a></li>
+                        <li><a href="/about/about_deanmsg.php">&raquo; Dean's welcome</a></li>
+                        <li><a href="/about/bren/">&raquo; About the Bren gift</a></li>
+                        <li><a href="/about/about_factsfigures.php">&raquo; Facts and figures</a></li>
+                        <li><a href="/about/brenhall/index.php">&raquo; Donald Bren Hall</a></li>
+                        <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                        <li><a href="/about/about_contact.php">&raquo; Contact us</a></li>
+                        <LI><A HREF="/about/equity/">&raquo; Equity & diversity</A></LI>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/dept/' title='departments'>&raquo; Departments</a>
+                    <ul>
+                        <li><a href="http://www.cs.uci.edu">&raquo; Computer Science</a></li>
+                        <li><a href="http://www.informatics.uci.edu">&raquo; Informatics</a></li>
+                        <li><a href="http://www.stat.uci.edu">&raquo; Statistics</a></li>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/faculty/area/' title='research'>&raquo; Research</a>              
+                
+
+                
+                
+                
+                    <ul>
+                        <li><a href="/faculty/area/">&raquo; Research areas</a></li>
+                        <li><a href="/faculty/centers/">&raquo; Research centers</a></li>
+                        <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                    </ul>
+                </li>
+                
+                
+                
+                <li>
+                
+                    <a href='#' title='education'>&raquo; Education</a>              
+
+                    <ul>
+                        <li><a href="/grad/">&raquo; Graduate</a>
+                        
+                            <ul>                        
+                            <li><a href="/grad/admissions/index.php">&raquo; Apply</a></li>
+                            <li><a href="/grad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="http://www.reg.uci.edu/registrar/soc/fees.html">&raquo; Tuition and costs</a></li>
+                            <li><a href="/grad/courses/index.php">&raquo; Courses</a></li>
+                            <li><a href="/grad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/faculty/area/index.php">&raquo; Research areas</a></li>
+                            <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                            <li><a href="/grad/policies/index.php">&raquo; Policies &amp; forms</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/grad/phddirectory/index.php">&raquo; Recruit graduate student</a></li> -->
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->                            
+                            <li><a href="/grad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="http://www.housing.uci.edu/prospective/graduate/index.asp">&raquo; Graduate housing</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="/ugrad/">&raquo; Undergraduate</a>
+                        
+                            <ul>                        
+                            <!-- <li><a href="/ugrad/admissions/index.php">&raquo; Apply</a></li>                       
+                            <li><a href="/ugrad/events/index.php">&raquo; Campus visits</a></li>
+                            -->
+                            <li><a href="http://www.ics.uci.edu/~lab/">&raquo; Computer lab information</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/ugrad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="/ugrad/courses/index.php">&raquo; Course listings</a></li>                     
+                            <li><a href="/ugrad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="/ugrad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/ugrad/financial/index.php">&raquo; Financial aid</a></li>                         
+                            <li><a href="http://honors.ics.uci.edu/">&raquo; Honors program</a></li>
+                            <li><a href="http://www.housing.uci.edu/">&raquo; Housing</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Internship program</a></li>                         
+                            <li><a href="/ugrad/policies/index.php">&raquo; Policies</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->
+                            <!-- <li><a href="http://www.dos.uci.edu/orientation/">&raquo; Recently admitted</a></li> -->
+                            <li><a href="http://student-council.ics.uci.edu/">&raquo; Student Council</a></li>
+                            <li><a href="/ugrad/life/index.php">&raquo; Student life</a></li>   
+                            <li><a href="/ugrad/resources/index.php">&raquo; Student resources</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Summer internships</a></li>
+                            <li><a href="https://techjobs.uci.edu/">&raquo; Tech Jobs</a></li>
+                            <li><a href="http://www.ofas.uci.edu/content/costs.aspx?nav=1">&raquo; Tuition and costs</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li><a href="http://www.ics.uci.edu/prospective">&raquo; Prospective undergrad</a></li>
+
+
+                        <li><a href="http://www.parents.uci.edu/">&raquo; UCI parents</a></li>
+                        
+                                                    
+                    </ul>               
+                </li>
+
+    
+                <li>
+                    
+                    <a href='#' title='people'>&raquo; People</a>                      
+                    
+                
+                    <ul>
+                        <li><a href="/faculty/">&raquo; Faculty</a></li>
+                        <li><a href="/about/search/index.php">&raquo; Staff</a></li>
+                        <li><a href="/about/search/search_graduate_all.php">&raquo; Graduate students</a></li>
+                    </ul>   
+                </li>
+                                
+                
+                <li> 
+                
+                    <span id=specialborder><a href='#' title='community'>&raquo; Community</a></span>                    
+                    <ul>
+                        <li><a href="/community/alumni/">&raquo; Alumni</a></li>
+                        <li><a href="/community/friends/">&raquo; Friends</a></li>
+                        <li><a href="http://www.uadv.uci.edu/parents/">&raquo; Parent programs</a></li>
+                        <li><a href="/community/friends/leadershipcouncil/">&raquo; Leadership Council</a></li>
+                        <li><a href="http://www.uadv.uci.edu/DonaldBrenSchoolOfICSAnnualGiving">&raquo; Make a gift</a></li>
+                        <li><a href="/community/news/">&raquo; News</a></li>
+                    </ul>   
+                </li>
+
+                <li>
+                
+                    <a href='/involved/' title='get involved'>&raquo; Get Involved</a>              
+                
+                
+                    <ul>
+                    
+                            <LI><A HREF="/involved/tech_talk">&raquo; Tech talks</A></LI>
+                            <LI><A HREF="/involved/information_session">&raquo; Information sessions</A></LI>
+                            <!--<LI><A HREF="/involved/">&raquo; Join industry panel</A></LI>-->
+                            <LI><A HREF="/involved/project_class">&raquo; Sponsor projects</A></LI>
+                            <LI><A HREF="/involved/leadership_council">&raquo; Leadership Council</A></LI>
+                            <LI><A HREF="/involved/corporate_partner">&raquo; Corporate Partners</A></LI>
+                            <LI><A HREF="/involved/internship">&raquo; Sponsor interns</A></LI>
+                            <LI><A HREF="https://techjobs.uci.edu/">&raquo; Tech Jobs</A></LI>
+                            <!--<LI><A HREF="">&raquo; Support student groups</A></LI>-->
+                            <LI><A HREF="/community/events/butterworth/">&raquo; Butterworth Competition</A></LI>
+                            
+                    </ul>               
+                </li>
+                
+                    
+
+            </ul>
+
+<style type="text/css">@import url("/bin/icssearchstyle/css/icssearch.css");</style>
+<script src="/bin/icssearchstyle/js/icssearch.js" type="text/javascript"></script>
+<script src="/bin/icssearchstyle/js/icssearchform.js" type="text/javascript"></script>
+
+
+
+    </div>
+<!-- before breadcrumb_nav() print -->
+<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/news/">News</a> &gt; <a href="http://www.ics.uci.edu/community/news/articles/">Articles</a>] --><A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/news/">News</a> &gt; <a href="http://www.ics.uci.edu/community/news/articles/">Articles</a></div>
+<!-- after breadcrumb_nav() print -->
+
+<div id="content"><a id="startcontent" name="startcontent"></a>  
+<div id="content_title"></div>
+
+<blockquote>
+<div id="content_text">
+
+<br/>
+
+<!-- inc publications_db -->
+
+ <strong>December 2,  2013</strong><p><i>National Telemedicine Journal</i><p><strong>2013 Med AppJam at Universtiy of California, Irvine</strong><p><strong>By: Dr. T. Dogar</strong><br><p><P>
+<i>Read the full story below or view it at the <A HREF="http://www.epatienthealthcare.com/2013/12/02/2013-med-app-jam-at-universtiy-of-california-irvine-uci/">Telemedicine </a> website.</i>
+
+
+
+
+
+<p> &ldquo;Simplicity, perspective and motivation&rdquo; were the three terms used by Team Five to describe their diabetes logging application. <b>Berry</b>, as it is called, received first place and a Cash Prize of 1000 Dollar at 2013 Med AppJam by University of California, Irvine (UCI). Over 22 teams comprising of medical students and <span id="more-28603"></span>student app developers competed in a showcase of UCI&rsquo;s ongoing efforts of integrating medicine and technology.</p>
+<p>This is the second year that Med AppJam has been put together by the ICS Student council of the Bren School of Information and Computer Sciences with collaboration from the School of Medicine of University of California, Irvine. Med AppJam is a competition in which a team of ICS students, medical students, and business majors come together to develop a medical app that would facilitate and improve healthcare. The students are given about 2 weeks to understand the iOS language and develop an app according to the theme of the competition. This all being done while managing their normal course load. These apps are then displayed as an exhibit, akin to a science fair, and judged by a qualified panel.</p>
+<p>
+<!--
+<a href="http://www.epatienthealthcare.com/wp-content/App-Jam-5.jpg"><img class="alignleft size-medium wp-image-28607" alt="App Jam 5" src="http://www.epatienthealthcare.com/wp-content/App-Jam-5-300x200.jpg" width="300" height="200" /></a>
+-->
+This year&rsquo;s panel of judges consisted of healthcare professionals, App developing companies and ICS professionals.  Dr. Julie Youm, the research director of Instructional Technologies, Dr. Wiechmann the Associate dean of Instructional Technologies and Dr. Endres the Director of Surgical Education at UCI were amongst those judging.  Companies involved in judging were Local Splash and Visible Health along with Nithin Jilla, an ICS School alumnus.</p>
+<p>The theme for this year&rsquo;s Med AppJam was focused on patient experience. David Kurtis, the project management chair explained the theme: &ldquo;Last year the apps were about Doctors and patients... this year we focused on Patient Experience as the main theme&rdquo; he went on to explain the criteria of judging &ldquo;the major criteria of judging were originality, functionality and implementation. There were many great apps but the winners were those that score most in these 3 criteria.&rdquo; All of the apps developed were outstanding, I discuss some of the apps that impressed me most and I can see having great potential in the industry of medicine, mHealth and telemedicine.</p>
+<p>One app which caught my attention for its application in telemedicine was Team 2&rsquo;s <b>Iapp-nea</b>. Their app addressed OSA , commonly known as sleep apnea. This app helps to screen and manage patients who are at risk for this disease.  The developers of the team cleverly utilized the microphones of a headset to track the time and amount of air the patient breathed out and recorded the incidences of apnea on their apps monitor. They explained to me that this solution offered a cost effective and convenient way for patients to screen and asses themselves in the comfort of their homes. As the aging population and obesity rates are increasing, the incidence of sleep related breathing disorders is as well and iapp-nea has great potential in its application in this developing market. Iapp-nea was able to secure second place at Medapp jam.</p>
+<p>Many of these teams addressed issues that they were somehow personally involved in. Berry was a combination of the most common concern the medical student had seen in his rotations with a combination of addressing a problem that a member of the team&#8217;s father faced.  <b>iMedVideo</b> was created with patient education in mind. It had great application for physicians to prescribe to their patients. This app involved the patient in understanding the different procedures and interventions that they would undergo and to educate the patient in a dynamic and engaging platform. <b>Waiting</b> <b>game</b> also utilized a similar concept but was geared more towards educating an underserved patient population through a comic-fill-in-the-blank concept. The underlying purpose of this app was to educate the patient on their condition while they wait for the physician and the physician having a record of the patient&rsquo;s involvement in their own education. <b>Nimbl</b> was a supplement to rehabilitation of fine movements for patients that had suffered from a stroke. These various apps addressed healthcare diversely and acted as tools to facilitate patients.</p>
+<p>
+<!--
+<a href="http://www.epatienthealthcare.com/wp-content/App-Jam-1.jpg"><img class="size-medium wp-image-28609 alignright" alt="App Jam 1" src="http://www.epatienthealthcare.com/wp-content/App-Jam-1-300x200.jpg" width="300" height="200" /></a>
+-->
+The third place winner took a clever approach in utilizing the phone as a medical emergency device. <b>MyFive(+)</b> is an app that intake important data points that are needed in incidence of emergency. After an individual dials 911 and in the case of unconsciousness or if disconnected from the call, this app turns the phone into an alarm and medical locator. Additionally with the alarm, this app will display pertinent medical information on its screen. Thereby facilitating the responder in identifying the patient, his or her previous conditions and any allergies the patient may have.</p>
+<p>Dr. Julie Youm explained MedApp Jam provided an opportunity for building collaboration amongst Medical Professionals and Program developers. She also encouraged the teams that although their app may not have won the competition it doesn&rsquo;t mean that they cannot continue to grow. Dr. Wiechmann also stated to all the teams to continue with the development of these apps and that these projects are steps in the right direction in improving the healthcare system. Douglas Anchell, Senior Vice President of US Telemedicine was also in attendance, he was very impressed by the innovative minds that UCI is fostering: &ldquo;Fantastic Event. These students inspire tremendous optimism for the future.&rdquo;</p>
+<p>As the mHealth market expands and the Smartphone becomes ubiquitous, healthcare is bound to rely on the use of technologies to supplement the management of patients. There are already over 40,000 medical management applications on the app store and the recent regulations passed by FDA on such applications imply that there is a strong interest in the integration of medicine and technology. The ICSS MedApp Jam is an excellent platform for transitioning into the mHealth space. All the apps were one of a kind and have great potential in revolutionizing the healthcare system through telemedicine.</p>
+<p><i>Thank you to Dr. Youm, Delian Petrov, and the ICS Student Council.</i></p>
+<br><TITLE>2013 Med AppJam at Universtiy of California, Irvine</TITLE>
+
+</div>
+</blockquote>
+</div>
+<div id="sidebar"><div id="sidebar_title">More community &#187;</div>
+<ul>
+<li><a href="../../alumni/index.php">Alumni</a></li>
+<li><a href="../../friends/index.php">Friends</a></li>
+<li><a href="http://www.parents.uci.edu/">Parents</a></li>
+<li><a href="../../friends/leadershipcouncil/index.php">Leadership Council</a></li>
+<li><a href="../index.php">News</a></li>
+<li><a href="https://ua-web.uadv.uci.edu/eGiving/">Give a gift</a></li>
+</ul>
+<div>
+<div id="sidebar_title">More news and events &#187;</div>
+<ul>
+<li><a href="../press/index.php">Press
+ releases</a></li>
+<a href="http://www.ics.uci.edu/community/news/press/index.php">				</a>
+<li><a href="index.php">In the 
+news</a></li>
+<li><a href="../notes/index.php">Noteworthy
+ achievements</a></li>
+<a href="http://www.ics.uci.edu/community/news/notes/index.php">				</a>
+<li><a href="http://www.youtube.com/UCIBrenICS">Video highlights</a></li>
+<li><a href="../spotlight/index.php">Spotlight</a></li>
+<li><a href="http://calendar.ics.uci.edu/calendar.php">Calendar of 
+events</a></li>
+</ul>
+<!-- -->
+<!-- -->
+<!-- -->
+<!--
+<div id="sidebar_title">Noteworthy archive &#187;</div>
+<ul>
+<li><a href="/ICS/ics/community/news/notes/notes_2009">2009</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2008">2008</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2007">2007</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2006">2006</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2005">2005</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2004">2004</a></li>
+</ul>
+</div>
+--></div></div>
+<div id="footer"><a href="http://www.uci.edu/copyright.php">Copyright Inquiries</a> |
+   <a href="http://www.uci.edu/cgi-bin/phonebook">UCI Directory</a> |
+   <a href="http://intranet.ics.uci.edu/">Intranet</a> |
+   
+   <!-- <a href="http://www.ics.uci.edu/sitemap.php">Site Map</a> | -->
+ 
+  <a href="mailto: i%63%73%77%65%62m%61s%74%65r@%69c%73%2e%75c%69%2eedu">icswebmaster</a> |
+Updated: 
+October 17 2013</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-605898-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

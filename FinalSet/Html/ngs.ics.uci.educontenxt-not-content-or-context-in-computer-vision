@@ -1,0 +1,352 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+		<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>
+		Contenxt (Not content or context) in computer vision | Ramesh Jain	</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="http://ngs.ics.uci.edu/xmlrpc.php" />	
+<link rel="alternate" type="application/rss+xml" title="Ramesh Jain &raquo; Feed" href="http://ngs.ics.uci.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ramesh Jain &raquo; Comments Feed" href="http://ngs.ics.uci.edu/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ramesh Jain &raquo; Contenxt (Not content or context) in computer vision Comments Feed" href="http://ngs.ics.uci.edu/contenxt-not-content-or-context-in-computer-vision/feed/" />
+<link rel='stylesheet' id='attitude_style-css'  href='http://ngs.ics.uci.edu/wp-content/themes/attitude/style.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='google_fonts-css'  href='http://fonts.googleapis.com/css?family=PT+Sans%7CPhilosopher&#038;ver=3.8.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://ngs.ics.uci.edu/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://ngs.ics.uci.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://ngs.ics.uci.edu/wp-content/themes/attitude/library/js/tinynav.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://ngs.ics.uci.edu/wp-content/themes/attitude/library/js/backtotop.js?ver=3.8.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://ngs.ics.uci.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://ngs.ics.uci.edu/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Situation Awareness &#8211; emerging approaches' href='http://ngs.ics.uci.edu/situation-awareness-emerging-approaches/' />
+<link rel='next' title='C.K. Prahalad' href='http://ngs.ics.uci.edu/c-k-prahalad/' />
+<link rel='canonical' href='http://ngs.ics.uci.edu/contenxt-not-content-or-context-in-computer-vision/' />
+<link rel='shortlink' href='http://ngs.ics.uci.edu/?p=1247' />
+
+</head>
+
+<body class="single single-post postid-1247 single-format-standard ">
+	
+	<div class="wrapper">
+				<header id="branding" >
+				
+	<div class="container clearfix">
+		<div class="hgroup-wrap clearfix">
+								<section class="hgroup-right">
+													<form action="http://ngs.ics.uci.edu/" class="searchform clearfix" method="get">
+		<label class="assistive-text" for="s">Search</label>
+		<input type="text" placeholder="Search" class="s field" name="s">
+	</form><!-- .searchform -->
+					</section><!-- .hgroup-right -->	
+							<hgroup id="site-logo" class="clearfix">
+												<h1 id="site-title"> 
+								<a href="http://ngs.ics.uci.edu/" title="Ramesh Jain" rel="home">
+									Ramesh Jain								</a>
+							</h1>
+							<h2 id="site-description">Entrepreneur, Researcher, and Teacher</h2>
+											
+				</hgroup><!-- #site-logo -->
+			
+		</div><!-- .hgroup-wrap -->
+	</div><!-- .container -->	
+		
+	<nav id="access" class="clearfix">
+					<div class="container clearfix"><ul class="root"><li id="menu-item-1643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1643"><a href="http://ngs.ics.uci.edu/">About Ramesh</a>
+<ul class="sub-menu">
+	<li id="menu-item-1655" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1655"><a href="http://ngs.ics.uci.edu/about-ramesh/news/">News</a></li>
+	<li id="menu-item-1657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1657"><a href="http://ngs.ics.uci.edu/about-ramesh/events/">Events</a></li>
+</ul>
+</li>
+<li id="menu-item-1644" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-1644"><a href="http://ngs.ics.uci.edu/blog/">Blog</a></li>
+<li id="menu-item-1666" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1666"><a href="http://ngs.ics.uci.edu/research/">Research</a>
+<ul class="sub-menu">
+	<li id="menu-item-1694" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1694"><a href="http://ngs.ics.uci.edu/research/books/">Books</a></li>
+	<li id="menu-item-1707" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1707"><a href="http://ngs.ics.uci.edu/research/patents/">Patents</a></li>
+	<li id="menu-item-1706" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1706"><a href="http://ngs.ics.uci.edu/research/presentations/">Presentations</a></li>
+	<li id="menu-item-1711" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1711"><a href="http://ngs.ics.uci.edu/research/projects/">Projects</a></li>
+	<li id="menu-item-1688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1688"><a href="http://ngs.ics.uci.edu/research/research-papers/">Research Papers</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1689" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1689"><a href="http://ngs.ics.uci.edu/research/research-papers/computer-vision/">Computer Vision</a></li>
+		<li id="menu-item-1686" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1686"><a href="http://ngs.ics.uci.edu/research/research-papers/experiential-computing/">Experiential Computing</a></li>
+		<li id="menu-item-1682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1682"><a href="http://ngs.ics.uci.edu/research/research-papers/multimedia-information-management/">Multimedia Information Management</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-1713" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1713"><a href="http://ngs.ics.uci.edu/teaching/">Teaching</a>
+<ul class="sub-menu">
+	<li id="menu-item-1726" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1726"><a href="http://ngs.ics.uci.edu/teaching/current-courses/">Current Courses</a></li>
+	<li id="menu-item-1725" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1725"><a href="http://ngs.ics.uci.edu/teaching/past-courses/">Past Courses</a></li>
+</ul>
+</li>
+<li id="menu-item-1729" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1729"><a href="http://ngs.ics.uci.edu/entrepreneurship/">Entrepreneurship</a>
+<ul class="sub-menu">
+	<li id="menu-item-1735" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1735"><a href="http://ngs.ics.uci.edu/entrepreneurship/current-companies/">Current Companies</a></li>
+	<li id="menu-item-1732" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732"><a href="http://ngs.ics.uci.edu/entrepreneurship/past-companies/">Past Companies</a></li>
+</ul>
+</li>
+<li id="menu-item-1740" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1740"><a href="http://ngs.ics.uci.edu/partners/">Partners</a>
+<ul class="sub-menu">
+	<li id="menu-item-1743" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1743"><a href="http://ngs.ics.uci.edu/partners/current-students/">Current Students</a></li>
+	<li id="menu-item-1758" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1758"><a href="http://ngs.ics.uci.edu/partners/past-students/">Past Students</a></li>
+	<li id="menu-item-1763" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1763"><a href="http://ngs.ics.uci.edu/partners/collaborators/">Collaborators</a></li>
+</ul>
+</li>
+<li id="menu-item-1765" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1765"><a href="http://ngs.ics.uci.edu/professionalsocial/">Professional/Social</a>
+<ul class="sub-menu">
+	<li id="menu-item-1802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1802"><a href="http://ngs.ics.uci.edu/professionalsocial/services/">Services</a></li>
+	<li id="menu-item-1801" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1801"><a href="http://ngs.ics.uci.edu/professionalsocial/recognitions/">Recognitions</a></li>
+	<li id="menu-item-1800" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1800"><a href="http://ngs.ics.uci.edu/professionalsocial/interviews/">Interviews</a></li>
+</ul>
+</li>
+<li id="menu-item-1774" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1774"><a href="http://ngs.ics.uci.edu/personal/">Personal</a>
+<ul class="sub-menu">
+	<li id="menu-item-1799" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1799"><a href="http://ngs.ics.uci.edu/personal/past-affiliations/">Affiliations</a></li>
+	<li id="menu-item-1798" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1798"><a href="http://ngs.ics.uci.edu/personal/education/">Education</a></li>
+	<li id="menu-item-1793" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1793"><a href="http://ngs.ics.uci.edu/personal/favorite-books/">Favorite Books</a></li>
+	<li id="menu-item-1797" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1797"><a href="http://ngs.ics.uci.edu/personal/favorite-quotes/">Favorite Quotes</a></li>
+</ul>
+</li>
+<li class="default-menu"><a href="http://ngs.ics.uci.edu" title="Navigation">Navigation</a></li></ul></div><!-- .container -->
+					</nav><!-- #access --> 		
+				</header>
+		
+				<div id="main" class="container clearfix">
+
+<div id="container">
+	
+
+<div id="primary" class="no-margin-left">
+   <div id="content">	<section id="post-1247" class="post-1247 post type-post status-publish format-standard hentry category-technical-thoughts">
+		<article>
+
+			
+			<header class="entry-header">
+    			<h2 class="entry-title">
+    				Contenxt (Not content or context) in computer vision    			</h2><!-- .entry-title -->
+  			</header>
+
+  			
+  			
+  			<div class="entry-content clearfix">
+    			<p>University of Central Florida has one of the strongest research groups in computer vision under the leadership of Prof. Mubarak Shah.  I was invited to give a talk there &#8212; which is included <a href="http://www.slideshare.net/jain49/contenxt-100407">here.</a></p>
+<p>Computer vision started with the right idea of using context in understanding as much as possible, but somehow deviated from this path,  maybe due to the influence of David Marr, and became ignoring context.  In fact most researchers, as judged based on the reviews of research papers, were outright hostile to context and even call that &#8216;cheating&#8217;,  Based on all evidence from cognitive science and psychology and successful computer vision systems, context as essential, in fact significantly more, as content or visual data.  But this was lost and computer vision research, with very few exceptions, is all about analyzing pixels.</p>
+<p>In this discussion I vocally emphasized need to give importance to context and look at combining context and content to develop computer vision approaches.  It did appear that students responded very well.  There were good questions and even at the party at Mubarak&#8217;s home in the evening at least 2 students said that they liked the talk and will now change their research thinking.  These words were music to my ear.  I hope that more people take context seriously and start doing contenxtual analysis rather than worry about content alone.</p>
+  			</div>
+
+  			<div class="entry-meta-bar clearfix">	        			
+    			<div class="entry-meta">
+    				<span class="by-author">By <a href="http://ngs.ics.uci.edu/author/ramesh/">Ramesh</a></span> |
+    				<span class="date"><a href="http://ngs.ics.uci.edu/contenxt-not-content-or-context-in-computer-vision/" title="5:04 am">April 11, 2010</a></span> |
+    				             		<span class="category"><a href="http://ngs.ics.uci.edu/category/technical-thoughts/" title="View all posts in Technical Thoughts" rel="category tag">Technical Thoughts</a></span> |
+             	 
+    				             		<span class="comments"><a href="http://ngs.ics.uci.edu/contenxt-not-content-or-context-in-computer-vision/#comments" title="Comment on Contenxt (Not content or context) in computer vision">1 Comment</a></span> |
+             	 		          				
+    			</div><!-- .entry-meta -->
+    		</div>
+
+  						<ul class="default-wp-page clearfix">
+				<li class="previous"><a href="http://ngs.ics.uci.edu/situation-awareness-emerging-approaches/" rel="prev"><span class="meta-nav">&larr;</span> Situation Awareness &#8211; emerging approaches</a></li>
+				<li class="next"><a href="http://ngs.ics.uci.edu/c-k-prahalad/" rel="next">C.K. Prahalad <span class="meta-nav">&rarr;</span></a></li>
+			</ul>
+		
+<div id="comments" class="comments-area">
+
+	
+			<h2 class="comments-title">
+			One thought on &ldquo;<span>Contenxt (Not content or context) in computer vision</span>&rdquo;		</h2>
+
+		<ol class="commentlist">
+				<li class="comment even thread-even depth-1" id="li-comment-3548">
+		<article id="comment-3548" class="comment">
+			<header class="comment-meta comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/c789ab052f13ddd37af520c4dc1dc375?s=44&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&amp;r=G' class='avatar avatar-44 photo' height='44' width='44' /><cite class="fn"><a href='http://www.xyggy.com' rel='external nofollow' class='url'>dinesh vadhia</a> </cite><a href="http://ngs.ics.uci.edu/contenxt-not-content-or-context-in-computer-vision/comment-page-1/#comment-3548"><time pubdate datetime="2010-04-11T14:05:12+00:00">April 11, 2010 at 2:05 pm</time></a>			</header><!-- .comment-meta -->
+
+			
+			<section class="comment-content comment">
+				<p>Ramesh</p>
+<p>You may find this technology article of interest which was published on The Noisy Channel at <a href="http://thenoisychannel.com/2010/04/04/guest-post-information-retrieval-using-a-bayesian-model-of-learning-and-generalization/" rel="nofollow">http://thenoisychannel.com/2010/04/04/guest-post-information-retrieval-using-a-bayesian-model-of-learning-and-generalization/</a>.  </p>
+<p>As you&#8217;ll see from the article, items are defined by feature vectors.  Recently, we built image search prototypes using the Nus-Wide data set and built one with content features and another with content plus context features.  Both worked very well and the one with the addition of context delivering slightly better query results.  There is no reason why the same cannot be achieved with audio too.  Mixing content with context is possible and works.</p>
+<p>Dinesh</p>
+							</section><!-- .comment-content -->
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+		</ol><!-- .commentlist -->
+
+		
+	
+									<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/contenxt-not-content-or-context-in-computer-vision/#respond" style="display:none;">Cancel reply</a></small></h3>
+									<form action="http://ngs.ics.uci.edu/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+																			<p class="comment-notes">Your email address will not be published. Required fields are marked <span class="required">*</span></p>							<p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-required='true' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30" /></p>
+												<p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>						<p class="form-allowed-tags">You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes:  <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></p>						<p class="form-submit">
+							<input name="submit" type="submit" id="submit" value="Post Comment" />
+							<input type='hidden' name='comment_post_ID' value='1247' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+						</p>
+											</form>
+							</div><!-- #respond -->
+			
+</div><!-- #comments .comments-area -->
+		</article>
+	</section>
+</div><!-- #content --></div><!-- #primary -->
+
+
+<div id="secondary">
+	
+
+<aside id="categories-3" class="widget widget_categories"><h3 class="widget-title">Blog Categories</h3>		<ul>
+	<li class="cat-item cat-item-6"><a href="http://ngs.ics.uci.edu/category/entrepreneurism/" title="Articles related to entrepreneurism in IT related areas.">Entrepreneurism</a> (122)
+</li>
+	<li class="cat-item cat-item-4"><a href="http://ngs.ics.uci.edu/category/experiential-computing/" title="View all posts filed under Experiential Computing">Experiential Computing</a> (292)
+</li>
+	<li class="cat-item cat-item-2"><a href="http://ngs.ics.uci.edu/category/general-updates/" title="View all posts filed under General Updates">General Updates</a> (419)
+</li>
+	<li class="cat-item cat-item-5"><a href="http://ngs.ics.uci.edu/category/personal/" title="View all posts filed under Personal">Personal</a> (86)
+</li>
+	<li class="cat-item cat-item-3"><a href="http://ngs.ics.uci.edu/category/prospecting-information/" title="View all posts filed under Prospecting Information">Prospecting Information</a> (72)
+</li>
+	<li class="cat-item cat-item-1"><a href="http://ngs.ics.uci.edu/category/technical-thoughts/" title="View all posts filed under Technical Thoughts">Technical Thoughts</a> (389)
+</li>
+		</ul>
+</aside><aside id="archives-3" class="widget widget_archive"><h3 class="widget-title">Blog Archive</h3>		<select name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'> <option value="">Select Month</option> 	<option value='http://ngs.ics.uci.edu/2013/08/'> August 2013 &nbsp;(1)</option>
+	<option value='http://ngs.ics.uci.edu/2013/07/'> July 2013 &nbsp;(5)</option>
+	<option value='http://ngs.ics.uci.edu/2013/04/'> April 2013 &nbsp;(2)</option>
+	<option value='http://ngs.ics.uci.edu/2013/03/'> March 2013 &nbsp;(4)</option>
+	<option value='http://ngs.ics.uci.edu/2013/02/'> February 2013 &nbsp;(1)</option>
+	<option value='http://ngs.ics.uci.edu/2012/10/'> October 2012 &nbsp;(3)</option>
+	<option value='http://ngs.ics.uci.edu/2012/09/'> September 2012 &nbsp;(1)</option>
+	<option value='http://ngs.ics.uci.edu/2012/08/'> August 2012 &nbsp;(1)</option>
+	<option value='http://ngs.ics.uci.edu/2012/06/'> June 2012 &nbsp;(3)</option>
+	<option value='http://ngs.ics.uci.edu/2012/05/'> May 2012 &nbsp;(1)</option>
+	<option value='http://ngs.ics.uci.edu/2012/04/'> April 2012 &nbsp;(1)</option>
+	<option value='http://ngs.ics.uci.edu/2012/03/'> March 2012 &nbsp;(5)</option>
+	<option value='http://ngs.ics.uci.edu/2012/02/'> February 2012 &nbsp;(5)</option>
+	<option value='http://ngs.ics.uci.edu/2012/01/'> January 2012 &nbsp;(4)</option>
+	<option value='http://ngs.ics.uci.edu/2011/08/'> August 2011 &nbsp;(2)</option>
+	<option value='http://ngs.ics.uci.edu/2011/07/'> July 2011 &nbsp;(6)</option>
+	<option value='http://ngs.ics.uci.edu/2011/06/'> June 2011 &nbsp;(3)</option>
+	<option value='http://ngs.ics.uci.edu/2011/05/'> May 2011 &nbsp;(3)</option>
+	<option value='http://ngs.ics.uci.edu/2011/04/'> April 2011 &nbsp;(1)</option>
+	<option value='http://ngs.ics.uci.edu/2011/03/'> March 2011 &nbsp;(2)</option>
+	<option value='http://ngs.ics.uci.edu/2011/02/'> February 2011 &nbsp;(1)</option>
+	<option value='http://ngs.ics.uci.edu/2011/01/'> January 2011 &nbsp;(2)</option>
+	<option value='http://ngs.ics.uci.edu/2010/12/'> December 2010 &nbsp;(4)</option>
+	<option value='http://ngs.ics.uci.edu/2010/11/'> November 2010 &nbsp;(2)</option>
+	<option value='http://ngs.ics.uci.edu/2010/10/'> October 2010 &nbsp;(1)</option>
+	<option value='http://ngs.ics.uci.edu/2010/09/'> September 2010 &nbsp;(1)</option>
+	<option value='http://ngs.ics.uci.edu/2010/08/'> August 2010 &nbsp;(5)</option>
+	<option value='http://ngs.ics.uci.edu/2010/07/'> July 2010 &nbsp;(3)</option>
+	<option value='http://ngs.ics.uci.edu/2010/06/'> June 2010 &nbsp;(3)</option>
+	<option value='http://ngs.ics.uci.edu/2010/05/'> May 2010 &nbsp;(3)</option>
+	<option value='http://ngs.ics.uci.edu/2010/04/'> April 2010 &nbsp;(7)</option>
+	<option value='http://ngs.ics.uci.edu/2010/03/'> March 2010 &nbsp;(3)</option>
+	<option value='http://ngs.ics.uci.edu/2010/02/'> February 2010 &nbsp;(3)</option>
+	<option value='http://ngs.ics.uci.edu/2010/01/'> January 2010 &nbsp;(4)</option>
+	<option value='http://ngs.ics.uci.edu/2009/12/'> December 2009 &nbsp;(8)</option>
+	<option value='http://ngs.ics.uci.edu/2009/11/'> November 2009 &nbsp;(7)</option>
+	<option value='http://ngs.ics.uci.edu/2009/10/'> October 2009 &nbsp;(9)</option>
+	<option value='http://ngs.ics.uci.edu/2009/09/'> September 2009 &nbsp;(3)</option>
+	<option value='http://ngs.ics.uci.edu/2009/08/'> August 2009 &nbsp;(14)</option>
+	<option value='http://ngs.ics.uci.edu/2009/07/'> July 2009 &nbsp;(5)</option>
+	<option value='http://ngs.ics.uci.edu/2009/06/'> June 2009 &nbsp;(9)</option>
+	<option value='http://ngs.ics.uci.edu/2009/05/'> May 2009 &nbsp;(8)</option>
+	<option value='http://ngs.ics.uci.edu/2009/04/'> April 2009 &nbsp;(9)</option>
+	<option value='http://ngs.ics.uci.edu/2009/03/'> March 2009 &nbsp;(14)</option>
+	<option value='http://ngs.ics.uci.edu/2009/02/'> February 2009 &nbsp;(13)</option>
+	<option value='http://ngs.ics.uci.edu/2009/01/'> January 2009 &nbsp;(16)</option>
+	<option value='http://ngs.ics.uci.edu/2008/12/'> December 2008 &nbsp;(15)</option>
+	<option value='http://ngs.ics.uci.edu/2008/11/'> November 2008 &nbsp;(19)</option>
+	<option value='http://ngs.ics.uci.edu/2008/10/'> October 2008 &nbsp;(12)</option>
+	<option value='http://ngs.ics.uci.edu/2008/09/'> September 2008 &nbsp;(10)</option>
+	<option value='http://ngs.ics.uci.edu/2008/08/'> August 2008 &nbsp;(14)</option>
+	<option value='http://ngs.ics.uci.edu/2008/07/'> July 2008 &nbsp;(8)</option>
+	<option value='http://ngs.ics.uci.edu/2008/06/'> June 2008 &nbsp;(9)</option>
+	<option value='http://ngs.ics.uci.edu/2008/05/'> May 2008 &nbsp;(17)</option>
+	<option value='http://ngs.ics.uci.edu/2008/04/'> April 2008 &nbsp;(12)</option>
+	<option value='http://ngs.ics.uci.edu/2008/03/'> March 2008 &nbsp;(14)</option>
+	<option value='http://ngs.ics.uci.edu/2008/02/'> February 2008 &nbsp;(14)</option>
+	<option value='http://ngs.ics.uci.edu/2008/01/'> January 2008 &nbsp;(16)</option>
+	<option value='http://ngs.ics.uci.edu/2007/12/'> December 2007 &nbsp;(16)</option>
+	<option value='http://ngs.ics.uci.edu/2007/11/'> November 2007 &nbsp;(17)</option>
+	<option value='http://ngs.ics.uci.edu/2007/10/'> October 2007 &nbsp;(19)</option>
+	<option value='http://ngs.ics.uci.edu/2007/09/'> September 2007 &nbsp;(17)</option>
+	<option value='http://ngs.ics.uci.edu/2007/08/'> August 2007 &nbsp;(14)</option>
+	<option value='http://ngs.ics.uci.edu/2007/07/'> July 2007 &nbsp;(12)</option>
+	<option value='http://ngs.ics.uci.edu/2007/06/'> June 2007 &nbsp;(18)</option>
+	<option value='http://ngs.ics.uci.edu/2007/05/'> May 2007 &nbsp;(19)</option>
+	<option value='http://ngs.ics.uci.edu/2007/04/'> April 2007 &nbsp;(15)</option>
+	<option value='http://ngs.ics.uci.edu/2007/03/'> March 2007 &nbsp;(16)</option>
+	<option value='http://ngs.ics.uci.edu/2007/02/'> February 2007 &nbsp;(13)</option>
+	<option value='http://ngs.ics.uci.edu/2007/01/'> January 2007 &nbsp;(18)</option>
+	<option value='http://ngs.ics.uci.edu/2006/12/'> December 2006 &nbsp;(20)</option>
+	<option value='http://ngs.ics.uci.edu/2006/11/'> November 2006 &nbsp;(26)</option>
+	<option value='http://ngs.ics.uci.edu/2006/10/'> October 2006 &nbsp;(24)</option>
+	<option value='http://ngs.ics.uci.edu/2006/09/'> September 2006 &nbsp;(20)</option>
+	<option value='http://ngs.ics.uci.edu/2006/08/'> August 2006 &nbsp;(21)</option>
+	<option value='http://ngs.ics.uci.edu/2006/07/'> July 2006 &nbsp;(25)</option>
+	<option value='http://ngs.ics.uci.edu/2006/06/'> June 2006 &nbsp;(17)</option>
+	<option value='http://ngs.ics.uci.edu/2006/05/'> May 2006 &nbsp;(18)</option>
+	<option value='http://ngs.ics.uci.edu/2006/04/'> April 2006 &nbsp;(19)</option>
+	<option value='http://ngs.ics.uci.edu/2006/03/'> March 2006 &nbsp;(21)</option>
+	<option value='http://ngs.ics.uci.edu/2006/02/'> February 2006 &nbsp;(30)</option>
+	<option value='http://ngs.ics.uci.edu/2006/01/'> January 2006 &nbsp;(28)</option>
+	<option value='http://ngs.ics.uci.edu/2005/12/'> December 2005 &nbsp;(28)</option>
+	<option value='http://ngs.ics.uci.edu/2005/11/'> November 2005 &nbsp;(28)</option>
+	<option value='http://ngs.ics.uci.edu/2005/10/'> October 2005 &nbsp;(46)</option>
+	<option value='http://ngs.ics.uci.edu/2005/09/'> September 2005 &nbsp;(22)</option>
+	<option value='http://ngs.ics.uci.edu/2005/08/'> August 2005 &nbsp;(16)</option>
+	<option value='http://ngs.ics.uci.edu/2005/07/'> July 2005 &nbsp;(12)</option>
+	<option value='http://ngs.ics.uci.edu/2005/06/'> June 2005 &nbsp;(15)</option>
+	<option value='http://ngs.ics.uci.edu/2005/05/'> May 2005 &nbsp;(6)</option>
+	<option value='http://ngs.ics.uci.edu/2005/04/'> April 2005 &nbsp;(5)</option>
+	<option value='http://ngs.ics.uci.edu/2005/03/'> March 2005 &nbsp;(11)</option>
+	<option value='http://ngs.ics.uci.edu/2005/02/'> February 2005 &nbsp;(10)</option>
+	<option value='http://ngs.ics.uci.edu/2005/01/'> January 2005 &nbsp;(9)</option>
+	<option value='http://ngs.ics.uci.edu/2004/12/'> December 2004 &nbsp;(7)</option>
+	<option value='http://ngs.ics.uci.edu/2004/11/'> November 2004 &nbsp;(9)</option>
+	<option value='http://ngs.ics.uci.edu/2004/10/'> October 2004 &nbsp;(9)</option>
+	<option value='http://ngs.ics.uci.edu/2004/09/'> September 2004 &nbsp;(8)</option>
+	<option value='http://ngs.ics.uci.edu/2004/08/'> August 2004 &nbsp;(13)</option>
+	<option value='http://ngs.ics.uci.edu/2004/07/'> July 2004 &nbsp;(25)</option>
+	<option value='http://ngs.ics.uci.edu/2004/06/'> June 2004 &nbsp;(29)</option>
+	<option value='http://ngs.ics.uci.edu/2004/05/'> May 2004 &nbsp;(29)</option>
+	<option value='http://ngs.ics.uci.edu/2004/04/'> April 2004 &nbsp;(26)</option>
+	<option value='http://ngs.ics.uci.edu/2004/03/'> March 2004 &nbsp;(35)</option>
+	<option value='http://ngs.ics.uci.edu/2004/02/'> February 2004 &nbsp;(16)</option>
+ </select>
+</aside>
+</div><!-- #secondary --></div><!-- #container -->
+
+
+	   </div><!-- #main -->
+
+	   
+	   	
+	   
+	   <footer id="colophon" class="clearfix">
+			
+
+
+<div id="site-generator">
+				<div class="container"><div class="copyright">Copyright &copy; 2014 <a href="http://ngs.ics.uci.edu/" title="Ramesh Jain" ><span>Ramesh Jain</span></a> Theme by: <a href="http://themehorse.com" target="_blank" title="Theme Horse" ><span>Theme Horse</span></a> Powered by: <a href="http://wordpress.org" target="_blank" title="WordPress"><span>WordPress</span></a> </div><!-- .copyright --><div style="clear:both;"></div>
+			</div><!-- .container -->
+			</div><!-- #site-generator --><div class="back-to-top"><a href="#branding">Back to Top</a></div>		</footer>
+	   
+			
+
+	</div><!-- .wrapper -->
+
+	 
+
+
+</body>
+</html>

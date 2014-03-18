@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+ 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head> 
+<title>Jenny Lam</title>  
+<link rel="stylesheet" type="text/css" href="green.css"> 
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript"
+    src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</head> 
+
+
+ 
+<body> 
+<div id="Header"> 
+<h1>Jenny Lam</h1> 
+<h2>Graduate student</h2>
+<ul> 
+    <li><a href="http://www.uci.edu/">University of California, Irvine</a></li> 
+    <li><a href="http://www.cs.uci.edu/">Department of Computer Science </a></li> 
+    <li><a href="http://www.ics.uci.edu/~theory/">Center for Algorithms and Theory of Computation</a></li>
+</ul>
+</div>
+
+
+
+<div id="Content"> 
+<p> 
+I am a Ph.D. student of the theory group in Computer Science at UC Irvine. My advisor is Professor <a href="http://www.ics.uci.edu/~irani/">Sandy Irani</a>.
+</p>
+
+<p>
+My research interests are in quantum computation and information, specifically quantum complexity theory.
+</p>
+</div> 
+ 
+ 
+ 
+<div id="Menu"> 
+<h1>Contact</h1>
+<ul>
+<li>jlam2 at uci dot edu</li>
+<li>Office: DBH 4032</li>
+</ul>
+<!-- use section for addtional sections:
+<div class="section">
+</div>
+-->
+</div>
+
+
+
+<div id="Footer">
+<p>Last modified: Oct 12 2012.</p>
+</div>
+</body> 
+</html>
+

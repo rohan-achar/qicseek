@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: SEraja Updates</title>
+	<atom:link href="http://ngs.ics.uci.edu/seraja-updates/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/seraja-updates/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Ramesh</title>
+		<link>http://ngs.ics.uci.edu/seraja-updates/comment-page-1/#comment-467</link>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+		<pubDate>Tue, 04 Jul 2006 18:56:18 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=554#comment-467</guid>
+		<description><![CDATA[Thanks.  Please do write to me -- it is always great to chat with entrepreneurs who have interesting ideas.]]></description>
+		<content:encoded><![CDATA[<p>Thanks.  Please do write to me &#8212; it is always great to chat with entrepreneurs who have interesting ideas.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Vijay</title>
+		<link>http://ngs.ics.uci.edu/seraja-updates/comment-page-1/#comment-466</link>
+		<dc:creator><![CDATA[Vijay]]></dc:creator>
+		<pubDate>Mon, 03 Jul 2006 07:31:35 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=554#comment-466</guid>
+		<description><![CDATA[Hi Ramesh,
+
+Just made a post on the blog in regards to the same stuff. It&#039;s a pleasure to make your acquaintance. I have some stuff that I&#039;d like to talk to you about. I will write to you on that note.
+
+Regards,
+Vijay]]></description>
+		<content:encoded><![CDATA[<p>Hi Ramesh,</p>
+<p>Just made a post on the blog in regards to the same stuff. It&#8217;s a pleasure to make your acquaintance. I have some stuff that I&#8217;d like to talk to you about. I will write to you on that note.</p>
+<p>Regards,<br />
+Vijay</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

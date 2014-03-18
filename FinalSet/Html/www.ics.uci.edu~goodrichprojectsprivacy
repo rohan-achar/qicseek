@@ -1,0 +1,70 @@
+<BASE HREF="http://www.ics.uci.edu/~goodrich/projects/privacy/">
+<title> 
+Privacy Management, Measurement, and Visualization in
+Distributed Environments
+</title>
+<body LINK="#0000FF" VLINK="#800080" bgcolor="#FFFFFF">
+
+<center> 
+<h2>  Privacy Management, Measurement, and Visualization in
+Distributed Environments</h2>
+<p>
+Investigators: 
+<br>
+<a href = "http://www.ics.uci.edu/~goodrich/">
+<b> Michael Goodrich</b></a>, University of California, Irvine
+<br>
+<a href = "http://www.cs.brown.edu/people/rt/">
+<b>Roberto Tamassia</b></a>, Brown University
+
+<p>
+<IMG SRC="priv.jpg" ALT="[image]"> 
+</center> 
+
+<p>
+The aim of this proposal is to develop efficient algorithms for 
+cyber-security and privacy based on paradigms that enable 
+efficient trusted computing in distributed environments.
+Specifically,
+this proposal is directed at developing and applying 
+efficient algorithmic
+techniques to the problems of
+privacy management, measurement, and visualization.
+Deliverables of this project include
+distributed algorithms supporting cyber-security and privacy goals
+that have low latency and storage
+requirements, small communication costs, and fast, real-time
+interaction.
+
+
+<p>
+<h3>Papers </h3>
+
+<ul>
+<li> 
+M. T. Goodrich, R. Tamassia and N. Triandopoulos, "Super-Efficient Verification of Dynamic Outsourced Databases", LNCS: Proc. RSA
+Conference, Cryptographers' Track (CT-RSA), p. 407, vol. 4964, (2008). 
+<li>
+M. T. Goodrich, C. Papamanthou, R. Tamassia, and N. Triandopoulos, "Athos: Efficient Authentication of Outsourced File Systems", LNCS:
+Proc. Information Security Conference, p. , vol. , (2008). Accepted.
+<li>
+D. Eppstein and M. T. Goodrich, "Space-efficient straggler identification in round-trip data streams via Newton's identities and invertible
+Bloom filters", LNCS: Workshop on Algorithms and Data Structures (WADS), p. 638, vol. 4619, (2007). 
+<li>
+M. T. Goodrich and J. Z. Sun, "Checking value-sensitive data structures in sublinear space", LNCS: 18th Int. Symp. on Algorithms and
+Computation (ISAAC), p. 353, vol. 4835, (2007).
+</li>
+</ul>
+
+
+<p>
+<h3>Support</h3>
+
+This project is supported by the National
+Science Foundation under Grant 0713046.
+
+<P>
+
+</BODY>
+</HTML>
+

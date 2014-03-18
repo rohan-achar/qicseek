@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title>Index of /repos/wcsp/iscas89/</title>
+<style type="text/css">
+a, a:active {text-decoration: none; color: blue;}
+a:visited {color: #48468F;}
+a:hover, a:focus {text-decoration: underline; color: red;}
+body {background-color: #F5F5F5;}
+h2 {margin-bottom: 12px;}
+table {margin-left: 12px;}
+th, td { font: 90% monospace; text-align: left;}
+th { font-weight: bold; padding-right: 14px; padding-bottom: 3px;}
+td {padding-right: 14px;}
+td.s, th.s {text-align: right;}
+div.list { background-color: white; border-top: 1px solid #646464; border-bottom: 1px solid #646464; padding-top: 10px; padding-bottom: 14px;}
+div.foot { font: 90% monospace; color: #787878; padding-top: 4px;}
+</style>
+</head>
+<body>
+<h2>Index of /repos/wcsp/iscas89/</h2>
+<div class="list">
+<table summary="Directory Listing" cellpadding="0" cellspacing="0">
+<thead><tr><th class="n">Name</th><th class="m">Last Modified</th><th class="s">Size</th><th class="t">Type</th></tr></thead>
+<tbody>
+<tr><td class="n"><a href="../">Parent Directory</a>/</td><td class="m">&nbsp;</td><td class="s">- &nbsp;</td><td class="t">Directory</td></tr>
+<tr><td class="n"><a href="c432.wcsp.gz">c432.wcsp.gz</a></td><td class="m">2008-Apr-25 10:43:44</td><td class="s">7.0K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="c499.wcsp.gz">c499.wcsp.gz</a></td><td class="m">2008-Apr-25 10:43:44</td><td class="s">3.0K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="c880.wcsp.gz">c880.wcsp.gz</a></td><td class="m">2008-Apr-25 10:43:44</td><td class="s">5.5K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="s1196.wcsp.gz">s1196.wcsp.gz</a></td><td class="m">2008-Apr-25 10:43:44</td><td class="s">4.7K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="s1238.wcsp.gz">s1238.wcsp.gz</a></td><td class="m">2008-Apr-25 10:43:44</td><td class="s">4.7K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="s1423.wcsp.gz">s1423.wcsp.gz</a></td><td class="m">2008-Apr-25 10:43:44</td><td class="s">5.1K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="s1488.wcsp.gz">s1488.wcsp.gz</a></td><td class="m">2008-Apr-25 10:43:44</td><td class="s">5.1K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="s1494.wcsp.gz">s1494.wcsp.gz</a></td><td class="m">2008-Apr-25 10:43:44</td><td class="s">5.4K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="s386.wcsp.gz">s386.wcsp.gz</a></td><td class="m">2008-Apr-25 10:43:44</td><td class="s">1.3K</td><td class="t">application/octet-stream</td></tr>
+<tr><td class="n"><a href="s953.wcsp.gz">s953.wcsp.gz</a></td><td class="m">2008-Apr-25 10:43:44</td><td class="s">3.3K</td><td class="t">application/octet-stream</td></tr>
+</tbody>
+</table>
+</div>
+<div class="foot">lighttpd/1.4.26</div>
+</body>
+</html>
+

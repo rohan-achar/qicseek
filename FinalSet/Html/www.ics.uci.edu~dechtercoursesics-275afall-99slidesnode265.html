@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Lists Library Predicates</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Lists Library Predicates">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5423 HREF="node266.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5421 HREF="node243.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5415 HREF="node264.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5425 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5424 HREF="node266.html"> Sorts Library predicates </A>
+<B>Up:</B> <A NAME=tex2html5422 HREF="node243.html"> The Built-in Predicates </A>
+<B> Previous:</B> <A NAME=tex2html5416 HREF="node264.html"> Operating System Built-Ins</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION0021220000000000000000> Lists Library Predicates</A></H1>
+<P>
+<A NAME=tex2html1254 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  provides a library of list manipulation predicates. These are
+provided in the prolog library file <b> lists.pl</b>. This library is autoloaded
+when one of the predicates is first used. 
+<A NAME=6233>&#160;</A>
+<A NAME=6234>&#160;</A>
+<P>
+<A NAME=tex2html1253 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  Lists Library predicate.
+<DL ><DT><b> append(?List1, ?List2, ?List3)</b>
+<DD> <BR> 
+Succeeds if  List3 is the result of appending  List2 to  List1.
+<A NAME=6322>&#160;</A>
+<DT><b> checklist(+Pred, +List)</b>
+<DD> <BR> 
+Succeeds if  Pred(Elem) succeeds for every element of  List. 
+<A NAME=6326>&#160;</A>
+<DT><b> delete(?Element, ?List1, ?List2)</b>
+<DD> <BR> 
+Succeeds if  List2 is  List1 less an occurence of  Element in  List1.
+<A NAME=6332>&#160;</A>
+<DT><b> flatten(+NestedList, ?FlatList)</b>
+<DD> <BR> 
+Succeeds if  FlatList is the list of all elements in  NestedList, as found in a left-to-right, depth-first traversal of  NestedList.
+<A NAME=6337>&#160;</A>
+<DT><b> intersection(+List1, +List2, ?Common)</b>
+<DD> <BR> 
+Succeeds if  Common unifies with the list which contains the common elements of  List1 and  List2.
+<A NAME=6342>&#160;</A>
+<DT><b> length(?List, ?N)</b>
+<DD> <BR> 
+Succeeds if the length of list  List is  N.
+<A NAME=6346>&#160;</A>
+<DT><b> maplist(+Pred, ?OldList, ?NewList)</b>
+<DD> <BR> 
+Succeeds if  Pred(Old, New) succeeds for corresponding pairs of elements from  OldList and  NewList. 
+<A NAME=6351>&#160;</A>
+<DT><b> member(?Term, ?List)</b>
+<DD> <BR> 
+Succeeds if  Term unifies with a member of the list  List.
+<A NAME=6355>&#160;</A>
+<DT><b> memberchk(+Term, ?List)</b>
+<DD> <BR> 
+Succeeds if  Term is a member of the list  List.
+<A NAME=6359>&#160;</A>
+<DT><b> nonmember(+Element, +List)</b>
+<DD> <BR> 
+Succeeds if  Element is not an element of the list  List.
+<A NAME=6363>&#160;</A>
+<DT><b> subset(?SubList, +List)</b>
+<DD> <BR> 
+Succeeds if  List is the list which contains all elements from  SubList in the same order as in  SubList.
+<A NAME=6368>&#160;</A>
+<DT><b> subtract(+List1, +List2, ?Remainder)</b>
+<DD> <BR> 
+Succeeds if  Remainder is the list which contains those elements of  List1 which are not in  List2.
+<A NAME=6373>&#160;</A>
+<DT><b> union(+List1, +List2, ?Union)</b>
+<DD> <BR> 
+Succeeds if  Union is the list which contains the union of elements in  List1 and those in  List2.
+<A NAME=6378>&#160;</A>
+<P>
+ </DL><BR> <HR><A NAME=tex2html5423 HREF="node266.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5421 HREF="node243.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5415 HREF="node264.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5425 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5424 HREF="node266.html"> Sorts Library predicates </A>
+<B>Up:</B> <A NAME=tex2html5422 HREF="node243.html"> The Built-in Predicates </A>
+<B> Previous:</B> <A NAME=tex2html5416 HREF="node264.html"> Operating System Built-Ins</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

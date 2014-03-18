@@ -1,0 +1,153 @@
+<HR><PRE>
+<B>From:</B>           <A HREF="mailto:elkies@osgood.harvard.edu">elkies@osgood.harvard.edu</A> (Noam Elkies)
+<B>Newsgroups:</B>     sci.math
+<B>Subject:</B>        Is there a five-circle theorem?
+<B>Keywords:</B>       Euclidean geometry, five circles
+<B>Date:</B>           18 Jan 90 22:43:10 GMT
+<B>Organization:</B>   Harvard Math Department
+</PRE><HR><PRE>
+Karl Rubin (<A HREF="mailto:rubin@function.mps.ohio-state.edu">rubin@function.mps.ohio-state.edu</A>) has observed the following
+result experimentally; we could find neither a general proof nor a reference,
+and wondered whether sci.math readers could do any better:
+
+Let L_0,L_1,L_2,L_3,L_4 be five lines in general position on the Euclidean
+plane---think of the subscripts mod 5 and draw L_i as the consecutive lines
+of a (not necessarily regular!) pentagram.  Let C_i be the circle inscribed
+about the triangle formed by L_i, L_{i-2}, and L_{i+2}.  Then C_{i-1} and
+C_{i+1} meet at the intersection of L_{i-1} and L_{i+1}, and again at some
+other point P_i (which we take to be the same point if the two circles are
+tangent there).  Show that these five points P_i are concyclic.
+
+--Noam D. Elkies (<A HREF="mailto:elkies@zariski.harvard.edu">elkies@zariski.harvard.edu</A>)
+  Dept. of Mathematics, Harvard University
+</PRE><HR><PRE>
+<B>From:</B>           <A HREF="mailto:ara@zurich.ai.mit.edu">ara@zurich.ai.mit.edu</A> (Allan Adler)
+<B>Newsgroups:</B>     sci.math,sci.math.symbolic
+<B>Subject:</B>        Re: Elkies-Rubin (was: deciding geometric conjectures)
+<B>Date:</B>           5 Feb 92 05:54:53 GMT
+<B>Organization:</B>   M.I.T. Artificial Intelligence Lab.
+</PRE><HR><PRE>
+I haven't really thought about this, but the statement seems to be very
+much in the spirit of some theorems due to Steiner,Wallace, de Lonchamps,
+Miquel and Bath which are described in an obituary notice of Frederick Bath
+written by W.L.Edge (Proc. Edinburgh Math. Soc (1983) vol.26, pp.279-281.
+I quote from the discussion of Bath's Theorem on p.280:
+
+"One must now speak of Bath's Theorem.  A plane quadrilateral affords,
+by omitting each of its sides in turn, four triangles; their four circumcircles
+have a common point P (Wallace's Theorem) and their four circumcentres are on 
+a circle C (Steiner). Five coplanar lines, no three concurrent, afford, 
+by omitting each in  turn, five quadrilaterals; the five points P are on a
+circle \Gamma (the Miquel circle) and the five circles C have a common 
+point Q (de Longchamps). Bath's theorem is that Q is on \Gamma."
+
+Edge remarks that Bath proved it by projecting from a figure in four 
+dimensional space (F.Bath "On circles determined by five lines in a plane,"
+Proc. Cambridge Phil. Soc. vol.35 (1939) 518-519).
+
+Even if these results do not imply the Elkies-Rubin result, it seems
+natural to look at the techniques used there for a synthetic proof.
+
+Allan Adler
+<A HREF="mailto:ara@altdorf.ai.mit.edu">ara@altdorf.ai.mit.edu</A>
+</PRE><HR><PRE>
+<B>Newsgroups:</B>     sci.math,sci.math.symbolic
+<B>From:</B>           <A HREF="mailto:edgar@function.mps.ohio-state.edu">edgar@function.mps.ohio-state.edu</A> (Gerald Edgar)
+<B>Subject:</B>        Re: Elkies-Rubin (was: deciding geometric conjectures)
+<B>Organization:</B>   The Ohio State University, Dept. of Math.
+<B>Date:</B>           Wed, 5 Feb 1992 15:34:50 GMT
+</PRE><HR><PRE>
+Here is the statement, from sci.math in January, 1990.
+
+&gt;Let L_0,L_1,L_2,L_3,L_4 be five lines in general position on the Euclidean
+&gt;plane---think of the subscripts mod 5 and draw L_i as the consecutive lines
+&gt;of a (not necessarily regular!) pentagram.  Let C_i be the circle inscribed
+&gt;about the triangle formed by L_i, L_{i-2}, and L_{i+2}.  Then C_{i-1} and
+&gt;C_{i+1} meet at the intersection of L_{i-1} and L_{i+1}, and again at some
+&gt;other point P_i (which we take to be the same point if the two circles are
+&gt;tangent there).  Show that these five points P_i are concyclic.
+
+And here is Bath's Theorem, as reported by Allan Adler:
+
+"One must now speak of Bath's Theorem.  A plane quadrilateral affords, by
+"omitting each of its sides in turn, four triangles; their four circumcircles
+"have a common point P (Wallace's Theorem) and their four circumcentres are on 
+"a circle C (Steiner). Five coplanar lines, no three concurrent, afford, 
+"by omitting each in  turn, five quadrilaterals; the five points P are on a
+"circle \Gamma (the Miquel circle) and the five circles C have a common 
+"point Q (de Longchamps). Bath's theorem is that Q is on \Gamma.
+
+A little thought shows (using the fact that no three lines are concurrent)
+that the five points P_i constructed in the first, are the same five points
+P constructed in Bath's theorem, so Bath's theorem does the trick.
+In fact, there is even more information there...
+
+This is a good example showing how useful the network can be.
+--
+  Gerald A. Edgar                Internet:  <A HREF="mailto:edgar@mps.ohio-state.edu">edgar@mps.ohio-state.edu</A>
+  Department of Mathematics      Bitnet:    <A HREF="mailto:EDGAR@OHSTPY">EDGAR@OHSTPY</A>
+  The Ohio State University      telephone: 614-292-0395 (Office)
+  Columbus, OH 43210             -292-4975 (Math. Dept.) -292-1479 (Dept. Fax)
+</PRE><HR><PRE>
+<B>From:</B>           <A HREF="mailto:djoyce@black.clarku.edu">djoyce@black.clarku.edu</A> (David E. Joyce)
+<B>Newsgroups:</B>     sci.math,sci.math.symbolic
+<B>Subject:</B>        Re: Elkies-Rubin (was: deciding geometric conjectures)
+<B>Date:</B>           13 Feb 92 09:13:05 GMT
+<B>Organization:</B>   Clark University (Worcester, MA)
+</PRE><HR><PRE>
+The statement, from sci.math in January, 1990, starting the thread:
+
+&gt;Let L_0,L_1,L_2,L_3,L_4 be five lines in general position on the Euclidean
+&gt;plane---think of the subscripts mod 5 and draw L_i as the consecutive lines
+&gt;of a (not necessarily regular!) pentagram.  Let C_i be the circle inscribed
+&gt;about the triangle formed by L_i, L_{i-2}, and L_{i+2}.  Then C_{i-1} and
+&gt;C_{i+1} meet at the intersection of L_{i-1} and L_{i+1}, and again at some
+&gt;other point P_i (which we take to be the same point if the two circles are
+&gt;tangent there).  Show that these five points P_i are concyclic.
+
+&gt;And here is Bath's Theorem, as reported by Allan Adler:
+&gt;
+&gt;"One must now speak of Bath's Theorem.  A plane quadrilateral affords, by
+&gt;"omitting each of its sides in turn, four triangles; their four circumcircles
+&gt;"have a common point P (Wallace's Theorem) and their four circumcentres are on
+&gt;"a circle C (Steiner). Five coplanar lines, no three concurrent, afford, 
+&gt;"by omitting each in  turn, five quadrilaterals; the five points P are on a
+&gt;"circle \Gamma (the Miquel circle) and the five circles C have a common 
+&gt;"point Q (de Longchamps). Bath's theorem is that Q is on \Gamma.
+
+Gerald Edgar noted:
+&gt;
+&gt;A little thought shows (using the fact that no three lines are concurrent)
+&gt;that the five points P_i constructed in the first, are the same five points
+&gt;P constructed in Bath's theorem, so Bath's theorem does the trick.
+&gt;In fact, there is even more information there...
+
+Frank Morley and F. V. Morley wrote a book _Inversive_Geometry_, Ginn &amp; Co.,
+Boston, 1933, that includes a description of the complete 4-line and Wallace's
+theorem, the 5-line and the Miquel circle, and the 6-line and the Clifford
+point.  They complete their book with a chapter on the n-line which describes
+Clifford's chain:
+
+  The theorem of Clifford is as follows.  Two lines, say 1 and 2, have a
+  common point 12.  Three lines 1, 2, 3 have three common points 12, 23, 31
+  which lie on a circle 123.  Four lines have four circumcircles 123 which are
+  on a point 1234.  Five lines give five such points which lie on a circle
+  12345.  An so on.  We thus get the complete n-line, the lines 1,2,...,n
+    meeting in (n choose 2) points 12,...
+    these lying on (n choose 3) circles 123,...
+    these meeting in (n choose 4) points 1234,...
+  ending with a point or a circle 123...n as n is even or odd.  Regarding the
+  lines as circles on the point infinity, we have the Clifford configuration
+  /Gamma n of 2^(n-1) points and and 2^(n-1) circles, each point on n circles
+  and each circle on n points.
+
+&gt;-- 
+&gt;David E. Joyce				Dept. Math. &amp; Comp. Sci.
+&gt;Internet:  <A HREF="mailto:djoyce@black.clarku.edu">djoyce@black.clarku.edu</A>	Clark University
+&gt;BITnet:    <A HREF="mailto:djoyce@clarku">djoyce@clarku</A>		Worcester, MA 01610-1477
+-- 
+David E. Joyce				Dept. Math. &amp; Comp. Sci.
+Internet:  <A HREF="mailto:djoyce@black.clarku.edu">djoyce@black.clarku.edu</A>	Clark University
+BITnet:    <A HREF="mailto:djoyce@clarku">djoyce@clarku</A>		Worcester, MA 01610-1477
+</PRE>
+

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>AppJam Blog &#187; 2012-winter-Team10</title>
+	<atom:link href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team10/feed/" rel="self" type="application/rss+xml" />
+	<link>http://student-council.ics.uci.edu/appjam/winter2012/blog</link>
+	<description></description>
+	<lastBuildDate>Tue, 06 Mar 2012 19:57:38 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.3.1</generator>
+		<item>
+		<title>Team10: Day 8</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team10-day-8/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team10-day-8/#comments</comments>
+		<pubDate>Tue, 06 Mar 2012 06:24:19 +0000</pubDate>
+		<dc:creator>Team10</dc:creator>
+				<category><![CDATA[2012-winter-Team10]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=875</guid>
+		<description><![CDATA[Current Status of the Project Team 10 is very excited to report that our app is fully tested and functional. All of the major features that we set out to implement have been done! This leaves us with the task of presenting our application at the judging event tomorrow. We are currently making finishing touches [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Current Status of the Project<br />
+</strong>Team 10 is very excited to report that our app is fully tested and functional. All of the major features that we set out to implement have been done! This leaves us with the task of presenting our application at the judging event tomorrow. We are currently making finishing touches to our PowerPoint presentation and dividing/delegating poster design tasks for tomorrow. We wait in anticipation to see all the other teams and their apps tomorrow.</p>
+<p><strong>Progress Today:</strong><br />
+<em>Android (Client Side ):<br />
+</em>Since we had the project at a mostly complete state yesterday, today was focused on ironing out bugs. Our testing consisted of both white box and black box QA where we would emulate standard users. The app was also signed and built to an APK which marked the end of development.</p>
+<p><em>Server/Database:<br />
+</em>Development of the server and database infrastructure is complete and tested.</p>
+<p><em>Design/UI:<br />
+</em>Development of the UI is complete. Today the UI team made minor touches to app to make it shine for the judging event.</p>
+<p><strong>Challenges:<br />
+</strong>The major challenge of today is creativity. It is a common fact that many computer science and engineering majors do not have a creative bone in their body. Given this issue, the design of our PowerPoint presentation and poster board is a difficult task. However, all of us strive for excellence. We are confident that we will have a presentable PowerPoint and poster board for tomorrow&#8217;s judging event.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team10-day-8/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Team10: Day 7</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team10-day-7/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team10-day-7/#comments</comments>
+		<pubDate>Mon, 05 Mar 2012 07:45:57 +0000</pubDate>
+		<dc:creator>Team10</dc:creator>
+				<category><![CDATA[2012-winter-Team10]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=827</guid>
+		<description><![CDATA[Current Status of the Project All of the major features that we proposed in our design  have been implemented. Our app is  now being tested and is looking great. However, this does not mean that implementation and development has stopped, as bug fixes need to be made. While half of the team test to assure [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Current Status of the Project<br />
+</strong>All of the major features that we proposed in our design  have been implemented. Our app is  now being tested and is looking great. However, this does not mean that implementation and development has stopped, as bug fixes need to be made. While half of the team test to assure quality, the other half of the team has started on our presentation materials (i.e. the powerpoint presentation, poster, and report).<strong><strong></strong></strong></p>
+<p><strong>Progress Today:</strong><br />
+<em>Android (Client Side ):</em><br />
+The client team implemented the very last of the features on our functional specifications list today, the major one being the history module of the app. The app now dynamically creates a list of the 10 most recent user feedback submitted to the logged in user. This feature was second to only the chat feature  in difficulty so we were glad to have accomplished this. We uncovered a few bugs today that still need to be fixed but they are minor. Once these bug fixes are complete, we are then going to focus all our attention on polishing up both the app and our presentation.</p>
+<p><em>Server/Database:</em>Development of the server and database infrastructure is complete and tested.</p>
+<p><em>Design/UI:</em>The UI team fixed a major issue with the splash screen size. The problem was it was not scaling for different size screens correctly.</p>
+<p><strong>Challenges:<br />
+</strong>Finishing up the last 10% of the application turned out to be more difficult than we anticipated. Pulling all of our work together and integrating it into a working system was quite a challenge indeed. We were lucky though that we ran into few bugs during testing. It definitely helped that we put in the time to do planning and design of the system architecture before diving into the implementation.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team10-day-7/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Team10: Day 6</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team10-day-6/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team10-day-6/#comments</comments>
+		<pubDate>Sun, 04 Mar 2012 07:59:47 +0000</pubDate>
+		<dc:creator>Team10</dc:creator>
+				<category><![CDATA[2012-winter-Team10]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=782</guid>
+		<description><![CDATA[Current Status of the Project The app is now 90% done with the alpha stage. Of the major features to be implemented, a dynamically created History of user feedback (which is retrieved from the server/database) is the only feature left to implement. After this, the app will be in the beta testing stage. Our team [...]]]></description>
+			<content:encoded><![CDATA[<p><span style="font-weight: 800;"><strong>Current Status of the Project<br />
+</strong></span>The app is now 90% done with the alpha stage. Of the major features to be implemented, a dynamically created History of user feedback (which is retrieved from the server/database) is the only feature left to implement. After this, the app will be in the beta testing stage. Our team will the perform intensive testing. 80% of the UI is in place, we just need to do some polishing and swapping of a few dummy placeholders that we setup throughout the code. A majority of the content is now stored on the database and is retrieved by the phone through a data connection. When implementing this last feature, we are also focusing on handling boundary cases and exceptions.</p>
+<p><strong>Progress Today:</strong><br />
+<em>Android (Client Side ):</em><br />
+We made major progress on the AwkTalk client side today. A talented member of our team was able to implement the chat feature between a pair of phones that were connected by the server. This was a very important feature and was the one implementation task that everyone was worried about, as it was the most complicated. Aside from the usual fixing up of code and polishing between activities, we&#8217;ve also now added a new 13th Activity, our settings screen. With this new activity, a user now can customize certain areas of the app.</p>
+<p><em>Server/Database:<br />
+</em>As stated in yesterdays post, Server and Database is all complete.</p>
+<p><em>Design/UI:</em><br />
+Our team was unable to work on anything today because we are currently out of town. Fortunately, our team was aware of the situation and we planned accordingly. The design team was able to complete all task assigned/needed before the weekend. When we come back, we will be able to concentrate on the PowerPoint presentation and report regarding our app.</p>
+<p><strong>Challenges:</strong><br />
+I think the greatest challenge we are facing as of today is fatigue. All of us have been putting in a lot of time and work to make this app. Since Monday, the team has stayed on campus working together until midnight, on top of their schoolwork and regular jobs. Unfortunately today is the first weekend day we&#8217;ve had but only 3 out of our 5 team members could meet today.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team10-day-6/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Team10: Day 5</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team10-day-5/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team10-day-5/#comments</comments>
+		<pubDate>Sat, 03 Mar 2012 07:59:59 +0000</pubDate>
+		<dc:creator>Team10</dc:creator>
+				<category><![CDATA[2012-winter-Team10]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=747</guid>
+		<description><![CDATA[Current Project Status: The app is near the end of alpha stages. We almost have all features implemented in their basic form. Flows through the various activities, communicating with our server and database, and updating our UI. Of the proposed original 8 activities we have grown our project to 12 Activities. We had started small [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Current Project Status:<br />
+</strong>The app is near the end of alpha stages. We almost have all features implemented in their basic form. Flows through the various activities, communicating with our server and database, and updating our UI. Of the proposed original 8 activities we have grown our project to 12 Activities. We had started small to ensure that we will finish, but now that basic features are implemented we are &#8220;shooting for the moon&#8221;! On a side note, Peter Huynh from ICS communications stop by and take pictures of our group while we worked.</p>
+<p><strong>Progress Today:<br />
+</strong><em>Android (Client Side ):<br />
+</em>Today the client team implemented and included 4 more activities to our project. We have now included a login screen, registration screen, wrapper activity for query the serving, and lastly a nice spinning loader activity for the user to know that the App is trying to pair them up with a partner. In term&#8217;s of knowledge progression, we learned how to implement and use the version control software SubVersive in Eclipse.</p>
+<p><em>Server/Database:<br />
+</em>We had multiple servers setup, one for development and one for live. We ran into some problems with code not working the same in both environments. But the server side of the system is now complete.<em></em></p>
+<p>Design/UI:<br />
+Today, we made major headway with the design of the app. We finished editing our splash screen design and it is ready to be synced with the app. The content regarding the app is finished as well, which is a huge relief. We did run into a lot of problems however, since it was our first time using Photoshop. Utilizing the layer system to its fullest was extremely difficult especially to us newbies.</p>
+<p><strong><br />
+Challenges:<br />
+</strong>We decided to change location to one of our apartments. Most of the time when we refer to environment we mean the development environment. However in mobile development the physical environment can also have an influence on development. The apartment we used unfortunately had network coverage problems. Since we needed a data connection to test different components, a lack of data connection was infuriating and it was difficult to trace this down as being our problem.<br />
+At the project’s inception we made the decision to not use a large version control system since we assumed we didn’t need all the features that came with a standard system. However this decision is now proving detrimental now that we are merging code together into a new Subversion instance.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team10-day-5/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Team 10: Day 4</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team-10-day-4/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team-10-day-4/#comments</comments>
+		<pubDate>Fri, 02 Mar 2012 06:18:40 +0000</pubDate>
+		<dc:creator>Team10</dc:creator>
+				<category><![CDATA[2012-winter-Team10]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=659</guid>
+		<description><![CDATA[Current Project Status: The app is currently still in the alpha stages. Currently, it seems that the client and design sub-teams are progressing the most. While we have basic function from the server and have implemented a crude information gathering and receiving method, there is still much work to be done in that regard. However, [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Current Project Status:<br />
+</strong><br />
+The app is currently still in the alpha stages. Currently, it seems that the client and design sub-teams are progressing the most. While we have basic function from the server and have implemented a crude information gathering and receiving method, there is still much work to be done in that regard. However, we are very confident now that we will be able to implement the more advanced version of the app. As a side note, team camaraderie and morale is high. As team leader, I&#8217;ve yet to see a group of random individuals who have come together with such dedication to the team, and for that, I&#8217;m very thankful. Sub-team progress will be explained in the sections below.</p>
+<p><strong>Progress Today:</strong></p>
+<p><em>Android (Client Side):</em><br />
+We made a huge advance today in the implementation of our history activity. The history activity will dynamically store a list of feedback that the user needs to receive. As this history depends on the data from the server, it needed to be implemented in a way that would dynamically create the list during run-time. Using the ListActivity and adapter for a ListView we were able to accomplish this task. While this implementation may seem basic to others who have little to no Android experience, the client side team is very proud of our work. While we still do not have all the textual content, the app&#8217;s dummy info and buttons are progressively being replaced by our talented design team&#8217;s custom icons and images.</p>
+<p><em>DataBase/Server:</em><br />
+The chat activity now has an expanding list that auto-scrolls to the bottom when messages are appended. A mock server has been setup to help test the client-side code for various networking features. The mock server is able to handle parsing and producing the JSON needed for client-server communication. Transmission of the user&#8217;s geographical location to the server has also been setup.</p>
+<p><em>Design:<br />
+</em>Due to class conflicts and exams, we were not able to meet up with the rest of the team today. We did, however, finish some major design tasks and the rest of the work will simply consist of editing. By the end of the week, all of the designs should be ready to be implemented into the app. The app&#8217;s content is nearly complete. There are only some minor adjustments to be done.<br />
+<strong><br />
+Challenges:</strong></p>
+<p>As this is week 8, a major challenge that we are dealing with is time constraints outside of the project. Two of our five members have midterms and the rest of our team has various projects and labs that they need to finish for their various classes.</p>
+<p>Since we are using the GPS instrument in the android device, the emulator is a bit tricky to use during testing. Using the couple of android phones we have is also problematic due to the finicky nature of GPS when working indoors.</p>
+<p>The server-side processing system encountered a significant bug today that took a few hours to fix.  We originally decided to use an object database for performance reasons. We were also happy that we did not have to bother with object-relational mapping. Unfortunately, however, the free object database that we chose was causing us trouble from the beginning. We finally decided to throw it out and use MySQL. Luckily the object database system was based on the standard Java Persistence API so we were able to switch our underlying implementation to MySQL without needing to change our code! We just had to add the object-relational mapping and the system was back up and bug free!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team-10-day-4/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Team 10: Day 3</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team-10-day-3/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team-10-day-3/#comments</comments>
+		<pubDate>Thu, 01 Mar 2012 07:53:25 +0000</pubDate>
+		<dc:creator>Team10</dc:creator>
+				<category><![CDATA[2012-winter-Team10]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=631</guid>
+		<description><![CDATA[Current Project Status: The app is still in the alpha stages, meaning we have not yet implemented all of the major features to a degree to be tested. The basic layout of the application is set in place, with actions/events allowing us to traverse through the different parts of the app.  The server side of [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Current Project Status:<br />
+</strong><br />
+The app is still in the alpha stages, meaning we have not yet implemented all of the major features to a degree to be tested. The basic layout of the application is set in place, with actions/events allowing us to traverse through the different parts of the app.  The server side of the app is up and running with basic communication features with client application. Overall, the app is still in a crude form and not visually appealing. However we have made vast leaps in progress, while have learned and discovered much about developing an Android app. These steps of progress will be explained in the sections below.</p>
+<p><strong>Progress Today:</strong></p>
+<p><em>Android (Client Side):</em><br />
+As explained above, the basic layout and flow of the application is in placed. Every major path from and Activity screen to another Activity screen is in place, and we are able to traverse through the app as planned. The client side team has learned how to implement many exciting features of Android: Scrollable Views, AlertDialogs, Keyboard/Input. To reiterate, the skeleton of the app is there, the next thing to do is fill it with our with content.</p>
+<p><em>DataBase/Server:<br />
+</em>A software design document was created to fully plan out the data flow specifics of the server and pseudocode was created for all the methods that the server will contain. The database schema was also defined. Implementation of this design is now well underway.</p>
+<p><em>Design:<br />
+</em>We are currently working on the graphic designs for the app to make it as aesthetically pleasing as possible. With a mixture of android graphics and our own illustrations, we hope to create an environment for the app that users will love to use. With the help of the client team, we might even have a few customizable options for users.<br />
+<strong><br />
+Challenges:</strong></p>
+<p>As for the client team, a major challenge was to focus on developing the major features and not concentrate on &#8220;polishing&#8221; the app. As computer science majors, it is hard-wired into our brains to be neat and complete. We are trained to hone in on all the small details and to make every button, view, functionality, etc perfect. However, we should instead be concentrating on finishing the major features of the app, and &#8220;polish&#8221; in the beta stages.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team-10-day-3/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Team10: Day 2</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team10-day-2/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team10-day-2/#comments</comments>
+		<pubDate>Wed, 29 Feb 2012 07:36:45 +0000</pubDate>
+		<dc:creator>Team10</dc:creator>
+				<category><![CDATA[2012-winter-Team10]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=557</guid>
+		<description><![CDATA[Current Project Status: The app is still in alpha stage. Our original idea was realized to be too extravagant and unfeasible, so we decided to first work on implementing a simple version of the app and add the extra features if time allows. We as a group has successfully assessed what our  individuals strengths are and [...]]]></description>
+			<content:encoded><![CDATA[<p><span style="text-decoration: underline">Current Project Status:</span><br />
+The app is still in alpha stage. Our original idea was realized to be too extravagant and unfeasible, so we decided to first work on implementing a simple version of the app and add the extra features if time allows. We as a group has successfully assessed what our  individuals strengths are and have delegated tasks to sub-teams. The basic wire diagram/flow of the app has been agreed upon and we are all working to implement our daily task</p>
+<p><span style="text-decoration: underline">Progress Today:</span></p>
+<p><em>Android (Client Side):</em><br />
+We are in the process of laying out the basic framework/flow of Activities. This sub-team continually has an open channel of conversation with the Design sub-team, receiving updates and discussing design/implementation issues.</p>
+<p>DataBase/Server:<br />
+We decided to use an Apache Tomcat/MySql platform unfortunately the provided webspace didn&#8217;t support that. So to fix this problem we set up the server environment on a Amazon EC2 instance. Our basic objective today was to get an Android client to communicate with an HTTP server.</p>
+<p>Design:</p>
+<p>We were able to finish a rough mockup of what the user will see when accessing the app. The design is somewhat restricted to certain layouts that android provides due to the time restriction and the difficulty of the code, but we were able to work our way around the obstacles by constantly communicating with the android team. We are currently working on the graphics that will eventually be implemented into the app.</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline">Challenges:<br />
+</span>One of challenge that we have faced so far was drawing the line between what we want in the app as opposed to do what is feasible to put in the app. The more features and eye-catching views we want to include equates to us learning more and more about Android, as none of us has ever developed an Android app near this scale.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team10-day-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Team 10: Day 1</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team-10-day-1/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team-10-day-1/#comments</comments>
+		<pubDate>Tue, 28 Feb 2012 07:55:02 +0000</pubDate>
+		<dc:creator>Team10</dc:creator>
+				<category><![CDATA[2012-winter-Team10]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=441</guid>
+		<description><![CDATA[The Team Members’ Names (and indicate who the leader is): Tom Huang Vance Cagle Zaheer Mohiuddin Brian Payne Dustin Tran (Leader) Team Name: Socially Awkward Anteaters The Platform: Android The Advisor Name: Jaskaran Singh (Jazzy)]]></description>
+			<content:encoded><![CDATA[<p>The Team Members’ Names (and indicate who the leader is):<br />
+Tom Huang<br />
+Vance Cagle<br />
+Zaheer Mohiuddin<br />
+Brian Payne<br />
+Dustin Tran (Leader)</p>
+<p>Team Name:<br />
+Socially Awkward Anteaters</p>
+<p>The Platform:<br />
+Android</p>
+<p>The Advisor Name:<br />
+Jaskaran Singh (Jazzy)</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team-10-day-1/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

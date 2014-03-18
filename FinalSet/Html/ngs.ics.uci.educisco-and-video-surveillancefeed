@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Cisco and Video Surveillance</title>
+	<atom:link href="http://ngs.ics.uci.edu/cisco-and-video-surveillance/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/cisco-and-video-surveillance/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: video seuveillance</title>
+		<link>http://ngs.ics.uci.edu/cisco-and-video-surveillance/comment-page-1/#comment-540</link>
+		<dc:creator><![CDATA[video seuveillance]]></dc:creator>
+		<pubDate>Mon, 21 Aug 2006 08:06:56 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=481#comment-540</guid>
+		<description><![CDATA[try &lt;a href=&quot;http://www.shareware123.com/utility/security_encryption/motion_detector_video_surveillance_45891.htm&quot;&gt;this tool&lt;/a&gt; of video seuveillance.
+
+]]></description>
+		<content:encoded><![CDATA[<p>try <a href="http://www.shareware123.com/utility/security_encryption/motion_detector_video_surveillance_45891.htm">this tool</a> of video seuveillance.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

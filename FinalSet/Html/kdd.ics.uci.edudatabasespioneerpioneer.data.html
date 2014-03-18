@@ -1,0 +1,239 @@
+<!------------------------------------------------------------------------
+<!  Time series sensor observations of a Pioneer-1 mobile robot 
+<!----------------------------------------------------------------------->
+<HTML>
+<HEAD>
+<TITLE> Time series sensor observations of a Pioneer-1 mobile robot.  </TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+
+<!------------------------------------------------------------------------
+<!  Title 
+<!----------------------------------------------------------------------->
+<H1> Time series sensor observations of a Pioneer-1 mobile robot.  </H1>
+
+<!------------------------------------------------------------------------
+<!  Data Type 
+<!----------------------------------------------------------------------->
+<H2>Data Type</H2>
+The data is time series, multivariate. Most variables are continuous
+valued, a few are binary coded 0.0 and 1.0. Two categorical variables
+are included to delineate the trials within the datasets.
+
+<!------------------------------------------------------------------------
+<!  Abstract 
+<!----------------------------------------------------------------------->
+<H2>Abstract</H2>
+<p>
+This dataset contains time series sensor readings of the Pioneer-1
+mobile robot. The data is broken into "experiences" in which the robot
+takes action for some period of time and experiences a controlled
+interaction with its environment (i.e. bumping into a garbage can).
+</p>
+
+<!------------------------------------------------------------------------
+<!  Sources
+<!----------------------------------------------------------------------->
+<H2> Sources</H2>
+<H4> Original Owner and Donor</H4>
+<PRE>
+Matthew D. Schmill, Paul R. Cohen
+Experimental Knowledge Systems Laboratory 
+Department of Computer Science 
+Box 34610 
+University of Massachusetts, Amherst 
+Amherst, MA 01003-4610 
+<A HREF="mailto:schmill@cs.umass.edu">schmill@cs.umass.edu</A>, <A HREF="mailto:cohen@cs.umass.edu">cohen@cs.umass.edu</A>
+</PRE>
+<B>Date Donated: </B>January 28, 1999
+
+<!------------------------------------------------------------------------
+<!  Data Characteristics
+<!----------------------------------------------------------------------->
+<H2> Data Characteristics</H2>
+<P>
+The data were collected over a series of specifically designed
+trials. Our hope was to cover most of the types of sensory
+interactions that a Pioneer might be reasonably expected to encounter:
+things like passing by visible objects, pushing visible objects,
+crashing into walls, etc. Many of these interactions are repeated
+throughout the dataset.
+</P>
+<P>
+This data was collected to serve as the basis for work in learning and
+conceptual development. Our first goal was to be able to have the
+robot cluster these experiences by their dynamics on their own into
+clusters of experiences with a common outcome.
+</P>
+<P>
+Each data file contains time series data in which each row of data
+corresponds to a single observation of the sensor array. Included in
+each row are two additional variables, 'id' and 'description', which
+indicate the experience number that the observation belongs to, and a
+description of that experience, respectively. Observations within an
+experience are taken every 100ms.
+</P>
+
+<H4>Variable Descriptions</H4>
+<PRE>
+TRIAL-ID	: categorical, the trial id of the experience that the observation belongs to
+DESCRIPTION	: a symbolic description of the experience design
+TIME-SECS	: a reading of the Pioneer's internal clock, in seconds
+BATTERY-LEVEL	: a reading of battery level, in volts
+SONAR-0		: sonar depth reading, in mm, of the left (90) pointing sonar
+SONAR-1		: sonar depth reading, in mm, of a (15) pointing sonar
+SONAR-2 	: sonar depth reading, in mm, of a (7.5) pointing sonar
+SONAR-3 	: sonar depth reading, in mm, of a forward (0) pointing sonar
+SONAR-4 	: sonar depth reading, in mm, of a (-7.5) pointing sonar
+SONAR-5 	: sonar depth reading, in mm, of a (-15) pointing sonar
+SONAR-6 	: sonar depth reading, in mm, of a right (-90) pointing sonar
+HEADING		: heading reading, in degrees, from the robot's "true north"
+R-WHEEL-VEL	: right wheel velocity, in mm/sec
+L-WHEEL-VEL	: left wheel velocity, in mm/sec
+TRANS-VEL	: translational velocity, mm/sec
+ROT-VEL		: rotational velocity, mm/sec
+R-STALL		: right wheel stall sensor, binary (0/1)
+L-STALL		: left wheel stall sensor, binary (0/1)
+ROBOT-STATUS	: robot status, 2.0 = stationary, 3.0 = moving
+GRIP-STATE	: gripper state
+GRIP-FRONT-BEAM : gripper break beam, binary, 1.0 = broken
+GRIP-REAR-BEAM	: gripper break beam, binary, 1.0 = broken
+GRIP-BUMPER	: gripper bumper, binary, 1.0 = in contact
+VIS-A-AREA	: area of dominant visible object for channel A, in pixels
+VIS-A-X		: X location of object in channel A on image plane, -140 ... 140
+VIS-A-Y		: Y location of channel A on image plane
+VIS-A-H		: height of object in channel A on plane, in pixels
+VIS-A-W		: width of object in A on image plane, in pixels
+VIS-A-DIST	: distance to object in channel A, in mm
+VIS-B-AREA	: area of dominant visible object for channel B, in pixels
+VIS-B-X		: X location of object in channel B on image plane, -140 ... 140
+VIS-B-Y		: Y location of channel B on image plane
+VIS-B-H		: height of object in channel B on plane, in pixels
+VIS-B-W		: width of object in B on image plane, in pixels
+VIS-B-DIST	: distance to object in channel B, in mm
+VIS-C-AREA	: area of dominant visible object for channel C, in pixels
+VIS-C-X		: X location of object in channel C on image plane, -140 ... 140
+VIS-C-Y		: Y location of channel C on image plane
+VIS-C-H		: height of object in C on image plane, in pixels
+VIS-C-W		: width of object in C on image plane, in pixels
+VIS-C-DIST	: distance to object in channel C, in mm
+</PRE>
+<P>
+For the visual variables, when there is no visible object, width = 0,
+height = 0, area = 0, distance = 10000.0, Y = 0, X = 140.0. The sonars
+report 5201.0 as their maximum distance.
+</P>
+
+<!------------------------------------------------------------------------
+<!  Other Relevant Information 
+<!----------------------------------------------------------------------->
+<H2> Other Relevant Information</H2>
+102 move experiences,
+42 turn experiences,
+16 gripper experiences
+
+Channel B was not used in these experiments, although noise was apparent.
+
+<!------------------------------------------------------------------------
+<!  Data Format 
+<!----------------------------------------------------------------------->
+<H2>Data Format</H2>
+<P>
+The data is stored in three text files: one file for experiences in
+which the Pioneer was moving in a straight line, one in which it was
+turning in place, and one in which it was raising or lowering its
+gripper.
+</P>
+<P>
+The description variable is a string of symbols. The string breaks
+down as follows:
+</P>
+<PRE>
+"u" or "o" -  unobstructed or obstructed
+"x.xs"     -  activity lasted x.x seconds
+activity   -  the activity and speed, if applicable, i.e. move100 =
+	      move forward at 100mm/sec
+visual     -  objects in the visual array are listed in
+	      sequence. "cAHEAD" indicates an object visible to
+	      channel c directly AHEAD of the Pioneer.
+[visual.X] -  visual descriptions followed by a '.' and one character
+	      indicate that something special happens with the visible
+	      object. .V means the object Vanishes from sight during
+	      the activity. .D indicates that the object is Discovered
+	      (becomes visible) during the activity. .P indicates that
+	      the object is pushed. 
+
+An example: "u-3.5s-retr-100-aRIGHT.D"
+	An unobstructed retreat (move) at -100 mm/sec for 3.5 seconds
+	with an object being discovered in channel A.
+</PRE>
+<P>
+It should be noted that, particularly with respect to the visual
+channels, the description may not be 100% accurate. Since the visual
+channels respond to colors that they are trained on (visual a=red,
+visual b=yellow, visual c=blue), it was possible, but infrequent, for
+some extraneous object in the environment generated a response in
+visual channels that were not supposed to show activity in a
+particular trial.
+</P>
+<P>
+Rows are seperated by carriage returns, columns by commas.
+</P>
+
+<!------------------------------------------------------------------------
+<!  Past Usage 
+<!----------------------------------------------------------------------->
+<H2>Past Usage</H2>
+
+<p>
+Oates, Tim; Schmill, Matthew D. and Cohen, Paul R. Identifying
+Qualitatively Different Experiences: Experiments with a Mobile
+Robot. Under review.
+</p>
+
+<p>
+Schmill, Matthew D.; Oates, Tim; and Cohen, Paul R. Learned Models for
+Continuous Planning. To appear in Preliminary Papers of the Seventh
+International Workshop on Artificial Intelligence and Statistics.
+</p>
+
+<!------------------------------------------------------------------------
+<!  Acknowledgements
+<!----------------------------------------------------------------------->
+<H2> Acknowledgements, Copyright Information, and Availability</H2>
+<P>
+The work represented here was funded by DARPA contracts
+F49620-97-1-0485 and N66001-96-C-8504.
+</P>
+<P>
+For research use only.
+</P>
+
+<!------------------------------------------------------------------------
+<!  References 
+<!----------------------------------------------------------------------->
+<H2>References and Further Information</H2>
+<P>
+<A HREF="http://www-eksl.cs.umass.edu/">
+The Experimental Knowledge Systems Laboratory</A> at the University of Massachusetts.
+</P>
+
+<P>
+<A HREF="http://robots.activmedia.com/">ActivMedia's Pioneer Software and Technical Support</A>.
+</P>
+
+
+<!------------------------------------------------------------------------
+<!  Signature 
+<!----------------------------------------------------------------------->
+<p>
+<hr>
+<ADDRESS>
+<A href="http://kdd.ics.uci.edu/">The UCI KDD Archive</A><br>
+<a href="http://www.ics.uci.edu/">Information and Computer Science</a><br>
+<a href="http://www.uci.edu/">University of California, Irvine</a><br>
+Irvine, CA 92697-3425 <br>
+</ADDRESS> 
+Last modified: July 12, 1999 </BODY>
+</HTML>
+

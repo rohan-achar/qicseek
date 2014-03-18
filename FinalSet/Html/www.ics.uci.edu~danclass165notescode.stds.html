@@ -1,0 +1,82 @@
+<HTML><HEAD>
+<TITLE> Coding Standards
+</TITLE>
+</HEAD><BODY>
+
+<H2> Coding Standards </H2>
+
+The following coding standards were used for an earlier
+course.&nbsp;
+You are not obligated to use these standards,
+but you should develop and maintain <I>some</I>
+reasonable set of standards and stick with them.
+<P>
+
+<OL>
+<LI> Each source module will contain at most ten procedures
+     of similar function (as indicated by the module name).&nbsp;
+     The procedures within a module must be separated by
+     several blank lines.
+<LI> Each procedure will contain a header comment
+     identifying the procedure by name and function.
+<LI> Each procedure will contain at most 100 lines of executable code,
+     not counting comments or declarations.
+<LI>
+Use variable names which are meaningful.
+<LI> No comment will continue across line boundaries.&nbsp;
+     Close the comment at the end of a line and open it again
+     on the next line.
+<LI> At most one statement will occur on a line.&nbsp;
+     If a statement spans several lines,
+     it will be indented in a consistent fashion
+     (to indicate continuation).
+<LI> Blank lines and extra spaces will be used freely to increase 
+     readability.&nbsp;
+     In particular, the assignment operator (<tt>=</tt>) will
+     <I>always</I> be enclosed in spaces.&nbsp;
+     Use parentheses for clarity.
+<LI> The use of the GOTO statement is very strongly discouraged.
+<LI> No string constant will be split between two lines.
+<LI> No code may succeed a `<tt>{</tt>' nor precede a `<tt>}</tt>'
+     on a line.
+<LI> All programs will be indented in the following manner:
+     <UL>
+       <LI> Each `<tt>}</tt>' will be in the same column as
+            the beginning of the text of the line containing
+            the `<tt>{</tt>' that it closes.
+       <LI> In an <I>if-then-else</I> construct,
+            the <I>else</I> will start in the same column as
+            the <I>if</I>.
+       <LI> Statements immediately contained within a bracketed pair
+            will all start in the same column, and that column will be 
+            indented consistently to the right of the bracketing
+            statement's starting column by two to five spaces.&nbsp;
+            Note that, of course, the contents between the bracketing
+            statements will have to be indented with respect to the
+            outer indentation.&nbsp;  For example,
+<BR>
+<pre>
+	if (x == 5) {
+	     y = 7;
+	     printf("x is five\n");
+	}
+	else {
+	     y = 10;
+	     printf("x is not five\n");
+	}
+</pre>
+     </UL>
+</OL>
+<P>
+
+<HR>
+<ADDRESS>
+<A HREF="http://www.ics.uci.edu/~dan">
+Dan Hirschberg </A> <BR>
+Computer Science Department<BR>
+University of California, Irvine, CA 92697-3435<BR>
+</ADDRESS>
+<tt>dan (at) ics.uci.edu</tt><br>
+Last modified: Mar 22, 1999
+</BODY></HTML>
+

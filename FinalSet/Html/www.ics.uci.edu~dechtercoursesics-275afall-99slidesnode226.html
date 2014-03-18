@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Unification and Binding</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Unification and Binding">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html4969 HREF="node227.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html4967 HREF="node222.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html4961 HREF="node225.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html4971 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html4970 HREF="node227.html"> Creating Compound Terms</A>
+<B>Up:</B> <A NAME=tex2html4968 HREF="node222.html"> Interface to Externals</A>
+<B> Previous:</B> <A NAME=tex2html4962 HREF="node225.html"> Type Testing</A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION001944000000000000000> Unification and Binding</A></H2>
+<P>
+External predicates are either tests, which only take input arguments
+and succeed or fail, or they yield a result
+by unifying one or more arguments with some terms.
+In <A NAME=tex2html779 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  externals, the unification is always performed
+outside of the external predicate, after returning to the system.
+Depending on its result, the external
+predicate either succeeds or fails.
+<P>
+If the external predicate unifies only one pair of terms,
+which is the most common case, the <tt> Return_Unify</tt> macro family 
+<A NAME=3491>&#160;</A>
+is used, e.g. <blockquote> <PRE>Return_Unify_Atom(val, tag, atom)
+</PRE></blockquote>
+which requests that the Prolog term with value <tt> val</tt> and tag <tt> tag</tt>
+is unified with the atom <tt> atom</tt>.
+This macro causes as well the return from the external predicate.
+<P>
+When there are several terms to be unified in the external predicate,
+the <tt> Request_Unify</tt> macro family is to be used,
+<A NAME=3498>&#160;</A>
+e.g. <blockquote> <PRE>Request_Unify_List(val, tag, list_ptr)
+</PRE></blockquote>
+Each of them remembers which term pair has to be unified,
+and after the return to the system using the <tt> Return_Unify</tt> macro,
+all of them are subsequently unified.
+If all these unifications succeed, so does the external predicate,
+otherwise it fails.
+At the beginning of the external predicate, after the declarations,
+the macro <blockquote> <PRE>Prepare_Requests
+</PRE></blockquote> must appear, which sets up
+a variable that counts how many requests there will be.
+It must appear at the beginning of a block since it contains a
+C declaration.
+<P>
+The concepts introduced so far can be illustrated in the following example.
+<blockquote> <PRE>int
+p_sincos(val_arg, tag_arg, val_sin, tag_sin, val_cos, tag_cos)
+value   val_arg, val_sin, val_cos;
+type    tag_arg, tag_sin, tag_cos;
+{
+        extern void sincos();       /* from the math library */
+        double s, c;
+        Prepare_Requests;
+ 
+        Error_If_Ref(tag_arg);
+        Check_Output_Float(tag_sin);
+        Check_Output_Float(tag_cos);
+ 
+        if (IsFloat(tag_arg) || IsDouble(tag_arg))
+            sincos(FloatVal(val_arg), &amp;s, &amp;c);
+        else if (IsInteger(tag_arg))
+            sincos((double) val_arg.nint, &amp;s, &amp;c);
+        else
+        {
+            Error(TYPE_ERROR);
+        }
+        Request_Unify_Float(val_sin, tag_sin, s);
+        Request_Unify_Float(val_cos, tag_cos, c);
+        Return_Unify;
+}
+</PRE>
+</blockquote>
+<P>
+This external implements the Prolog procedure <b> sincos/2</b>, whose
+first argument is an integer or a float and which computes simultaneously
+the sine and cosine of a given number.
+The second and third arguments are the result arguments.
+They may be variables or floating point numbers.
+<P>
+The first argument must be instantiated; hence the first statement is a
+call of <tt> Error_If_Ref</tt>.
+The next two lines check the other arguments for being variables or
+floats.
+Then it must be checked if the argument is an integer or a float, since
+they have different representations. In the integer case, a type conversion
+is necessary before calling the library function <tt> sincos()</tt>.
+If the argument is not a number, the external is exited with a type error.
+The last statements illustrate how unification is done:
+without any further testing of the second argument
+we just request its unification with a given value and the rest
+is done by the system.
+Note that if the <tt> Check_Output_Float()</tt> statements at the beginning are
+omitted, the result unification would just fail when the external is
+called with the second or third argument instantiated to non-floats.
+<P>
+<BR> <HR><A NAME=tex2html4969 HREF="node227.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html4967 HREF="node222.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html4961 HREF="node225.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html4971 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html4970 HREF="node227.html"> Creating Compound Terms</A>
+<B>Up:</B> <A NAME=tex2html4968 HREF="node222.html"> Interface to Externals</A>
+<B> Previous:</B> <A NAME=tex2html4962 HREF="node225.html"> Type Testing</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

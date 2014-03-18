@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>AppJam Blog &#187; GlobalEvent</title>
+	<atom:link href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/globalevent/feed/" rel="self" type="application/rss+xml" />
+	<link>http://student-council.ics.uci.edu/appjam/winter2012/blog</link>
+	<description></description>
+	<lastBuildDate>Tue, 06 Mar 2012 19:57:38 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.3.1</generator>
+		<item>
+		<title>The final countdown</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/the-final-countdown/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/the-final-countdown/#comments</comments>
+		<pubDate>Tue, 06 Mar 2012 09:22:29 +0000</pubDate>
+		<dc:creator>The GBC</dc:creator>
+				<category><![CDATA[2012-winter-Team7]]></category>
+		<category><![CDATA[GlobalEvent]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=909</guid>
+		<description><![CDATA[Everything we set out to do in the beginning now works. We have fully implemented the building finder, tour, augmented reality, and user upload portions of our app. The user can essentially navigate to any portion of our app and be able to do what it says. We were able to finish our last bit [...]]]></description>
+			<content:encoded><![CDATA[<p>Everything we set out to do in the beginning now works. We have fully implemented the building finder, tour, augmented reality, and user upload portions of our app. The user can essentially navigate to any portion of our app and be able to do what it says. We were able to finish our last bit of functionality thanks to the extreme perseverance of Kevin. Our app looks really cool and we really believe that everything is working how we wanted it to. Granted, there were times in the beginning where some things, namely augmented reality and user uploads, that seemed not possible to do in a week, be we managed to power through and Learn UCI (LUCI [lucy, get it?]) is ready for tomorrow!</p>
+<p>&nbsp;</p>
+<p>UPDATE:</p>
+<p>In light of being done, I would personally like to add some memes that helped us get through appjam week:</p>
+<p><a title="scumbag brain" href="http://www.quickmeme.com/meme/36gn00/">http://www.quickmeme.com/meme/36gn00/</a></p>
+<h6><a href="http://www.quickmeme.com/meme/36fjnr/" rel="nofollow nofollow" target="_blank">http://www.quickmeme.com/meme/36fjnr/</a></h6>
+<h6><a href="http://www.quickmeme.com/meme/36fh7z/" rel="nofollow nofollow" target="_blank">http://www.quickmeme.com/meme/36fh7z/</a></h6>
+<p>http://www.quickmeme.com/meme/36egpq/</p>
+<p><strong><a href="http://i.imgur.com/Qt9MV.jpg" rel="nofollow" target="_blank">http://i.imgur.com/Qt9MV.jpg</a></strong></p>
+<p>&nbsp;</p>
+<p>Good luck to everyone tomorrow(Today)!</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/the-final-countdown/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Team 4 : Day 8</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team-4-day-8/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team-4-day-8/#comments</comments>
+		<pubDate>Tue, 06 Mar 2012 07:16:15 +0000</pubDate>
+		<dc:creator>Team4</dc:creator>
+				<category><![CDATA[2012-winter-Team4]]></category>
+		<category><![CDATA[GlobalEvent]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=892</guid>
+		<description><![CDATA[Current Status of the Project I am happy to report that our app is fully functional, seemingly bug free, and has been optimized for speed.  We also implemented some features last minute that we didn&#8217;t believe we would have time to complete.  We are currently thoroughly testing our app to ensure that it is bug [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Current Status of the Project<br />
+</strong>I am happy to report that our app is fully functional, seemingly bug free, and has been optimized for speed.  We also implemented some features last minute that we didn&#8217;t believe we would have time to complete.  We are currently thoroughly testing our app to ensure that it is bug free. Looking forward to presenting our app tomorrow.</p>
+<p><strong>Progress Today:</strong></p>
+<p>We made some major progress today including debugging issues that were left over from last night, adding multiple extra features that were on our &#8220;if we have time&#8221; list.  We had several bugs pop up throughout the day, but they have all seemingly been corrected.  Our app was also taking long periods of time to load data (20-30 seconds initially) and sometimes even cause the app to stop responding.  We spent some time today figuring out how to optimize our apps performance and drastically reduce those loading times.  We also made some last minute changes to our database tables to allow for new functionality to be added.  Overall today was really intense, but also really fun and exciting as we passed our initial expectations and gone above and beyond what we thought possible (I&#8217;m jealous I don&#8217;t have an android to run this app myself).<br />
+We also finished our poster, power point presentation, and app documentation.</p>
+<p>We also enjoyed not one, but TWO visits from Peter the photographer today. He was present during the extremely intense final moments as we scrambled to get our documents together and submitted with 5 minutes to go before midnight. I&#8217;m sure he got some fun pictures.</p>
+<p><strong>Challenges:</strong></p>
+<p>Limitations with the database required changes. Serious loading times presented us with a dilemma, should we spend time optimizing our app for a speedy performance or work on adding additional features? We were fortunately able to accomplish both. We also had some last minutes bugs that sent us into a minor panic, but it looks like we&#8217;ve worked them all out.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/team-4-day-8/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Day 8 Progress</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-8-progress/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-8-progress/#comments</comments>
+		<pubDate>Tue, 06 Mar 2012 07:03:43 +0000</pubDate>
+		<dc:creator>Team9</dc:creator>
+				<category><![CDATA[2012-winter-Team9]]></category>
+		<category><![CDATA[GlobalEvent]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=890</guid>
+		<description><![CDATA[Current Project Status: The app is complete, but git issues are slowing us down. Progress Today: We met late today since we all had class earlier in the day. Half the team rushed to put finishing touches on the app and test as much as possible while the other half worked on the presentation and [...]]]></description>
+			<content:encoded><![CDATA[<div>
+<p>Current Project Status:</p>
+<p>The app is complete, but git issues are slowing us down.</p>
+<p>Progress Today:</p>
+<p>We met late today since we all had class earlier in the day. Half the team rushed to put finishing touches on the app and test as much as possible while the other half worked on the presentation and documentation. As this is being written, we are still racing to fix all the merge conflicts due to git.</p>
+<p>Challenges:</p>
+<p>The competition was definitely not short of challenges and setbacks. The biggest contributor may have very well been git and it&#8217;s errors with Android environment configurations and organization.  Other than that, short hours, inexperience, and lack of availability set us back quite a bit.  We met every afternoon and even stayed overnight during the weekend to work on the app, and we believe it shows in our finished product. Overall, this competition was an incredible learning experience and, win or lose, it was very enjoyable. Winning wouldn&#8217;t hurt though.</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-8-progress/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>First Entry / Information</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/first-entry/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/first-entry/#comments</comments>
+		<pubDate>Mon, 14 Nov 2011 05:51:59 +0000</pubDate>
+		<dc:creator>Adam Brenner</dc:creator>
+				<category><![CDATA[GlobalEvent]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=12</guid>
+		<description><![CDATA[This is a sample post of a blog entry. All teams should have access to the blog. If not, contact your team advisors. When creating a new blog entry, make sure you select your team&#8217;s category. DO NOT POST COMMENTS AS A BLOG ENTRY. READ THE EMAIL AND LOGIN AND MAKE A NEW POST]]></description>
+			<content:encoded><![CDATA[<p>This is a sample post of a blog entry. All teams should have access to the blog. If not, contact your team advisors. <span style="color: #ff0000;"><strong>When creating a new blog entry, make sure you select your team&#8217;s category. DO NOT POST COMMENTS AS A BLOG ENTRY. READ THE EMAIL AND LOGIN AND MAKE A NEW POST</strong></span></p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/first-entry/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

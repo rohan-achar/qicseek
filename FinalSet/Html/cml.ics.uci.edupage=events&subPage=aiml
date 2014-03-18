@@ -1,0 +1,657 @@
+		<!-- Begin DisplayHeader HTML -->
+		<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+		<html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+			<title>CML :: Center for Machine Learning and Intelligent Systems</title>
+
+			<link href="css/igbweb_template2.css" rel="stylesheet" type="text/css" />
+			<link rel="SHORTCUT ICON" href="/favicon.ico" />
+
+			<noscript>
+			Please enable javascript on your browser.
+			</noscript>
+
+			<script type="text/javascript" src="igbjs/milonic_src.js"></script>
+			<script	type="text/javascript">
+			if(ns4)_d.write("<scr"+"ipt type=text/javascript src=igbjs/mmenuns4.js><\/scr"+"ipt>");
+			  else _d.write("<scr"+"ipt type=text/javascript src=igbjs/mmenudom.js><\/scr"+"ipt>");
+			</script>
+			<!--<script type="text/javascript" src="/igbjs/menu_data.js"></script>-->
+
+		</head>
+		<!-- End DisplayHeader HTML -->
+
+			<!-- Begin Left Nav & Content Area -->
+
+		<body>
+		<!--<div class="mainDiv">-->
+		<table align="center">
+		<tr>
+		<td class="mainDiv" align="center" valign="middle">
+
+		<table cellpadding="0" cellspacing="0">
+			<tr align="left">
+			<td align="center" colspan="2" >
+			<a href="?"><img src="media/banners/center_title_banner.jpg" border=0 /></a>
+			<!--<img src="media/banners/cml_banner.jpg" border="0" alt="Center for Machine Learning and Data Mining" align="middle"/>-->
+			</td>
+			</tr>
+			<!--
+			<tr>
+				<td colspan="2" height="1">
+				</td>
+			</tr>
+			-->
+			<tr valign="top">
+				<td background="media/uci_background.gif" width="147.5">
+				&nbsp;
+			    <script type="text/javascript" src="igbjs/menu_data.js"></script>
+
+
+				<br><br><br><br><br><br><br>
+
+				<!--<table cellpadding=4><tr><td bgcolor=WHITE><a href='http://www.ics.uci.edu/~aimlpage/meetings.html'>2007 AI/ML Weekly Seminar</a></tr></td></table>-->
+
+				</td>
+				<td width="723px" >
+				<div class="contentArea">
+					<!-- <table> -->
+						<!-- <tr> -->
+							<!-- <td> -->
+							  <!--<div style="background: white;">-->
+								<!-- Begin Actual content -->
+								
+
+<!-- Below is the html, make changes below, Ian -->
+
+<p class="pageName">AI/ML Weekly Seminar <br> Sponsored by Yahoo! Research</p>
+
+<table>
+<table cellpadding=5 border=1>
+
+  <tr>
+     <td valign=top><b>September 26</b><br>Bren Hall 4011<br>1 pm</td>
+     <td valign=top><a href="http://homepages.inf.ed.ac.uk/vferrari/"><b>Vittorio Ferrari</b></a>
+         <br>Reader
+         <br>Department of Informatics
+         <br>University of Edinburgh
+         <br>
+       <br><a href="#Vittorio_abstract">Searching for objects driven by context</a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>October 7</b><br>Bren Hall 4011<br>1 pm</td>
+     <td valign=top><a href="http://www.ics.uci.edu/~babaks/"><b>Babak Shahbaba</b></a>
+         <br>Assistant Professor
+         <br>Department of Statistics
+         <br>University of California, Irvine
+         <br>
+       <br><a href="#Babak_abstract">Towards Scalable Bayesian Inference</a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>October 14</b><br>Bren Hall 4011<br>1 pm</td>
+     <td valign=top><a href="http://www.ics.uci.edu/~jfoulds/"><b>James Foulds</b></a>
+         <br>PhD Candidate
+         <br>Department of Computer Science
+         <br>University of California, Irvine
+         <br>
+       <br><a href="#James_abstract">Modeling Scientific Impact with Topical Influence Regression</a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>October 21</b><br>Bren Hall 4011<br>1 pm</td>
+     <td valign=top><a href="http://mgazar.net/academic/"><b>Mohammad Azar</b></a>
+         <br>Postdoctoral Fellow
+         <br>School of Computer Science
+         <br>Carnegie Mellon University
+         <br>
+       <br><a href="#Mohammad_abstract">A Spectral Approach to Sequential Transfer in Multi-armed Bandit with Finite Set of Models</a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>October 28</b><br>Bren Hall 4011<br>1 pm</td>
+     <td valign=top><a href="http://sites.google.com/site/bmilch/"><b>Brian Milch</b></a>
+         <br>Software Engineer
+         <br>Google (Los Angeles)
+         <br>
+         <br>
+       <br><a href="#Brian_abstract">From Text to Concepts at Google</a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>November 4</b><br>Bren Hall 4011<br>1 pm</td>
+     <td valign=top><a href="http://www.ics.uci.edu/~ychen/"><b>Yifei Chen</b></a>
+         <br>PhD Candidate
+         <br>Department of Computer Science
+         <br>University of California, Irvine
+         <br>
+       <br><a href="#Yifei_abstract">A gradient boosting algorithm for survival analysis via direct optimization of concordance index</a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>November 11 (no seminar)</b><br><br></td>
+     <td valign=top><a href=""><b>Veterans Day</b></a>
+         <br>
+         <br>
+         <br>
+         <br>
+       <br><a href="#Veterans_abstract"></a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>November 18</b><br>Bren Hall 4011<br>1 pm</td>
+     <td valign=top><a href="http://www.ics.uci.edu/~slan/"><b>Shiwei Lan</b></a>
+         <br>PhD Candidate
+         <br>Department of Statistics
+         <br>University of California, Irvine
+         <br>
+       <br><a href="#Shiwei_abstract">Spherical Hamiltonian Monte Carlo for Constrained Target Distributions</a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>November 25 (no seminar)</b><br><br></td>
+     <td valign=top><a href=""><b>Thanksgiving week</b></a>
+         <br>
+         <br>
+         <br>
+         <br>
+       <br><a href="#Thanksgiving_abstract"></a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>December 2</b><br>Bren Hall 4011<br>1 pm</td>
+     <td valign=top><a href="http://www.ics.uci.edu/~rcammaro/"><b>Rosario Cammarota</b></a>
+         <br>System Security Architect
+         <br>Qualcomm Research
+         <br>
+         <br>
+       <br><a href="#Rosario_abstract">Rescheduled </a><br>
+
+    </td>
+  </tr>
+<tr><td>Winter Quarter</td><td></td></tr>
+  <tr>
+     <td valign=top><b>January 13</b><br>Bren Hall 4011<br>1 pm</td>
+     <td valign=top><a href="http://homepages.cwi.nl/~pdg/"><b>Peter Grunwald </b></a>
+         <br>Coordinator
+         <br>Information-theoretic Learning Group
+         <br>Centrum voor Wiskunde en Informatica (CWI) & Leiden University
+         <br>
+       <br><a href="#Peter_abstract">Learning the learning rate: how to repair Bayes when the model is wrong </a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>January 20 (no seminar)</b><br><br></td>
+     <td valign=top><a href=""><b>Martin Luther King, Jr Day</b></a>
+         <br>
+         <br>
+         <br>
+         <br>
+       <br><a href="#Martin_abstract"></a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>January 27</b><br>Bren Hall 4011<br>1 pm</td>
+     <td valign=top><a href="http://www-bcf.usc.edu/~feisha/"><b>Fei Sha</b></a>
+         <br>Assistant Professor
+         <br>Department of Computer Science
+         <br>University of California, Los Angeles
+         <br>
+       <br><a href="#Fei_abstract">Learning kernels for visual domain adaptation</a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>February 3</b><br>Bren Hall 4011<br>1 pm</td>
+     <td valign=top><a href="http://www.ics.uci.edu/~rcammaro/"><b>Rosario Cammarota</b></a>
+         <br>System Security Architect
+         <br>Qualcomm Research
+         <br>
+         <br>
+       <br><a href="#Rosario2_abstract">Automatic construction of program optimization strategies</a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>February 7</b><br>Bren Hall 4011<br>1pm<p>Co-sponsored with the <a href="http://www.igb.uci.edu/">Institute for Genomics and Bioinformatics</a></td>
+     <td valign=top><a href="http://www.ml.inf.ethz.ch/people/professors/jbuhmann"><b>Joachim M. Buhmann</b></a>
+         <br>Professor
+         <br>Computer Science Department
+         <br>ETH Zurich
+         <br>
+       <br><a href="#Joachim_abstract">What is the information content of an algorithm?</a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>February 10</b><br>Bren Hall 4011<br>1 pm</td>
+     <td valign=top><a href="http://www.ics.uci.edu/~agelfand/"><b>Andrew Gelfand</b></a>
+         <br>PhD Candidate
+         <br>Department of Computer Science
+         <br>University of California, Irvine
+         <br>
+       <br><a href="#Andrew_abstract">On Max-Product BP, MAP inference and Weighted Matchings</a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>February 17 (no seminar)</b><br><br></td>
+     <td valign=top><a href=""><b>President's Day</b></a>
+         <br>
+         <br>
+         <br>
+         <br>
+       <br><a href="#President's_abstract"></a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>February 24</b><br>Bren Hall 4011<br>1 pm</td>
+     <td valign=top><a href="http://www.ics.uci.edu/~mlevorat/"><b>Marco Levorato</b></a>
+         <br>Assistant Professor
+         <br>Department of Computer Science
+         <br>University of California, Irvine
+         <br>
+       <br><a href="#Marco_abstract"> </a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>March 3</b><br>Bren Hall 4011<br>1 pm</td>
+     <td valign=top><a href="http://www.dmi.usherb.ca/~larocheh/index_en.html"><b>Hugo La Rochelle</b></a>
+         <br>Assistant Professor
+         <br>Department of Computer Science
+         <br>Université de Sherbrooke
+         <br>
+       <br><a href="#Hugo_abstract">Deep Learning for Distribution Estimation</a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>March 10</b><br>Bren Hall 4011<br>1 pm</td>
+     <td valign=top><a href="http://www.ics.uci.edu/~jfoulds/"><b>James Foulds</b></a>
+         <br>PhD Candidate
+         <br>Department of Computer Science
+         <br>University of California, Irvine
+         <br>
+       <br><a href="#James2_abstract"> </a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>March 17 (no seminar)</b><br><br></td>
+     <td valign=top><a href=""><b>Finals Week</b></a>
+         <br>
+         <br>
+         <br>
+         <br>
+       <br><a href="#Finals_abstract"></a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>March 31 (no seminar)</b><br><br></td>
+     <td valign=top><a href=""><b>Classes Begin</b></a>
+         <br>
+         <br>
+         <br>
+         <br>
+       <br><a href="#Classes_abstract"></a><br>
+
+    </td>
+  </tr>
+
+  <tr>
+     <td valign=top><b>April 7</b><br>Bren Hall 4011<br>1 pm</td>
+     <td valign=top><a href="http://www.isi.edu/~galstyan"><b>Aram Galstyan</b></a>
+         <br>Research Asst. Professor
+         <br>Department of Computer Science
+         <br>USC/ISI
+         <br>
+       <br><a href="#Aram_abstract">Statistical physics approach to inference in graphical models</a><br>
+
+    </td>
+  </tr>
+
+</table>
+<table cellpadding=5 border=1>
+
+<tr>
+       <td valign=top><b><a name="Vittorio_abstract">Vittorio Ferrari</a></b>
+         <br>Reader
+         <br>Department of Informatics
+         <br>University of Edinburgh
+       <br><br>
+	<i>Searching for objects driven by context</i>
+
+<p>The dominant visual search paradigm for object class detection is sliding windows. Although simple and effective, it is also wasteful, unnatural and rigidly hardwired. We propose strategies to search for objects which intelligently explore the space of windows by making sequential observations at locations decided based on previous observations. Our strategies adapt to the class being searched and to the content of a particular test image, exploiting context as the statistical relation between the appearance of a window and its location relative to the object, as observed in the training set. In addition to being more elegant than sliding windows, we demonstrate experimentally on the PASCAL VOC 2010 dataset that our strategies evaluate two orders of magnitude fewer windows while achieving higher object detection performance.
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="Babak_abstract">Babak Shahbaba</a></b>
+         <br>Assistant Professor
+         <br>Department of Statistics
+         <br>University of California, Irvine
+       <br><br>
+	<i>Towards Scalable Bayesian Inference</i>
+
+<p>Massive datasets have imposed new challenges for the scientific community. Data-intensive problems are especially challenging for Bayesian methods, which typically involve intractable models that rely on Markov Chain Monte Carlo (MCMC) algorithms for their implementation. In this talk, I will discuss our recent attempts to develop a new class of scalable computational methods to facilitate the application of Bayesian statistics in data-intensive scientific problems. One approach uses geometrically motivated methods that explore the parameter space more efficiency by exploiting its geometric properties. Another approach uses techniques that are designed to speed up sampling algorithms through faster exploration of the parameter space. I will also discuss a possible integration of geometric methods with proper computational techniques to improve the overall efficiency of sampling algorithms so that they can be used for Big Data analysis.
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="James_abstract">James Foulds</a></b>
+         <br>PhD Candidate
+         <br>Department of Computer Science
+         <br>University of California, Irvine
+       <br><br>
+	<i>Modeling Scientific Impact with Topical Influence Regression</i>
+
+<p>When reviewing scientiﬁc literature, it would be useful to have automatic tools that identify the most inﬂuential scientiﬁc articles as well as how ideas propagate between articles. In this context, this paper introduces topical inﬂuence, a quantitative measure of the extent to which an article tends to spread its topics to the articles that cite it. Given the text of the articles and their citation graph, we show how to learn a probabilistic model to recover both the degree of topical inﬂuence of each article and the inﬂuence relationships between articles. Experimental results on corpora from two well-known computer science conferences are used to illustrate and validate the proposed approach.
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="Mohammad_abstract">Mohammad Azar</a></b>
+         <br>Postdoctoral Fellow
+         <br>School of Computer Science
+         <br>Carnegie Mellon University
+       <br><br>
+	<i>A Spectral Approach to Sequential Transfer in Multi-armed Bandit with Finite Set of Models</i>
+
+<p>Learning from prior tasks and transferring that experience to improve future performance is critical for building lifelong learning agents. Although results in supervised and reinforcement learning show that transfer may significantly improve the learning performance, most of the literature on transfer is focused on batch learning tasks. In this paper we study the problem of \textit{sequential transfer in online learning}, notably in the multi-armed bandit framework, where the objective is to minimize the cumulative regret over a sequence of tasks by incrementally transferring knowledge from prior tasks. We introduce a novel bandit algorithm based on a method-of-moments approach for the estimation of the possible tasks and derive regret bounds for it.<p><p>Bio:<p>Mohammad Gheshlaghi Azar studied  Electrical Engineering (control theory) at University of Tehran, Iran from 2003 till 2006. He then moved to Netherlands for Ph.d., where he worked with Professor Bert Kappen and Professor Remi Munos on the subject of statistical machine learning and reinforcement learning.  Following finishing his Ph.D. in 2012, he joined the school of computer science at Carnegie Mellon university as a postdoctoral fellow, where he is working with Professor  Brunskill on the subject of transfer of knowledge in sequential decision making problems. His research is focused on developing new machine learning algorithms which apply to  life-long and real-world learning and decision making problems.
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="Brian_abstract">Brian Milch</a></b>
+         <br>Software Engineer
+         <br>Google (Los Angeles)
+         <br>
+       <br><br>
+	<i>From Text to Concepts at Google</i>
+
+<p>This talk will describe Rephil, a system used widely within Google to identify the concepts or topics that underlie a given piece of text.  Rephil determines, for example, that "apple pie" relates to some of the same concepts as "chocolate cake", but has little in common with "apple ipod".  The concepts used by Rephil are not pre-specified; instead, they are derived by an unsupervised learning algorithm running on massive amounts of text.  The result of this learning process is a Rephil model -- a giant Bayesian network with concepts as nodes.  I will discuss the structure of Rephil models, the distributed machine learning algorithm that we use to build these models from terabytes of data, and the Bayesian network inference algorithm that we use to identify concepts in new texts under tight time constraints.  I will also discuss how Rephil relates to ongoing academic research on probabilistic topic models.<p><p>Bio:<p>Brian Milch is a software engineer at Google's Los Angeles office.  He first joined Google in 2000, after completing a B.S. in Symbolic Systems at Stanford University.  A year later, he entered the Computer Science Ph.D. program at U.C. Berkeley.  He received his doctorate in 2006, with a thesis focused on the integration of probabilistic and logical approaches to artificial intelligence.  He then spent two years as a post-doctoral researcher at MIT before returning to Google in 2008.  He has contributed to Google production systems for spelling correction, transliteration, and semantic modeling of text.
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="Yifei_abstract">Yifei Chen</a></b>
+         <br>PhD Candidate
+         <br>Department of Computer Science
+         <br>University of California, Irvine
+       <br><br>
+	<i>A gradient boosting algorithm for survival analysis via direct optimization of concordance index</i>
+
+<p>Survival analysis focuses on modeling and predicting the time to an event of interest. Traditional survival models (e.g., the prevalent proportional hazards model) often impose strong assumptions on hazard functions, which describe how the risk of an event changes over time depending on covariates associated with each individual. In this paper we propose a nonparametric survival model (GBMCI) that does not make explicit assumptions on hazard functions. Our model trains an ensemble of regression trees by the gradient boosting machine to optimize a smoothed approximation of the concordance index, which is one of the most widely used metrics in survival model evaluation. We benchmarked the performance of GBMCI against other popular survival models with a large-scale breast cancer prognosis dataset. Our experiment shows that GBMCI consistently outperforms other methods based on a number of covariate settings.
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="Veterans_abstract">Veterans Day</a></b>
+         <br>
+         <br>
+         <br>
+       <br><br>
+	<i></i>
+
+<p>
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="Shiwei_abstract">Shiwei Lan</a></b>
+         <br>PhD Candidate
+         <br>Department of Statistics
+         <br>University of California, Irvine
+       <br><br>
+	<i>Spherical Hamiltonian Monte Carlo for Constrained Target Distributions</i>
+
+<p>Statistical models with constrained probability distributions are abundant in machine learning. Some examples include regression models with norm constraints (e.g., Lasso), probit models, many copula models, and Latent Dirichlet Allocation (LDA) models. Bayesian inference involving probability distributions confined to constrained domains could be quite challenging for commonly used sampling algorithms. For such problems, we propose a novel Markov Chain Monte Carlo (MCMC) method that provides a general and computationally efficient framework for handling boundary conditions. Our method first maps the $D$-dimensional constrained domain of parameters to the unit ball ${\bf B}_0^D(1)$, then augments it to the $D$-dimensional sphere ${\bf S}^D$ such that the original boundary corresponds to the equator of ${\bf S}^D$. This way, our method handles the constraints implicitly by moving freely on sphere generating proposals that remain within boundaries when mapped back to the original space. To improve the computational efficiency of our algorithm, we divide the dynamics into several parts such that the resulting split dynamics has a partial analytical solution as a geodesic flow on the sphere. We apply our method to several examples including truncated Gaussian, Bayesian Lasso, Bayesian bridge regression, and a copula model for identifying synchrony among multiple neurons. Our results show that the proposed method can provide a natural and efficient framework for handling several types of constraints on target distributions.
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="Thanksgiving_abstract">Thanksgiving week</a></b>
+         <br>
+         <br>
+         <br>
+       <br><br>
+	<i></i>
+
+<p>
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="Rosario_abstract">Rosario Cammarota</a></b>
+         <br>System Security Architect
+         <br>Qualcomm Research
+         <br>
+       <br><br>
+	<i>Rescheduled </i>
+
+<p> 
+       </td>
+  </tr>
+<tr><td><h2>Winter Quarter</h2></td>
+<tr>
+       <td valign=top><b><a name="Peter_abstract">Peter Grunwald </a></b>
+         <br>Coordinator
+         <br>Information-theoretic Learning Group
+         <br>Centrum voor Wiskunde en Informatica (CWI) & Leiden University
+       <br><br>
+	<i>Learning the learning rate: how to repair Bayes when the model is wrong </i>
+
+<p>Bayesian inference can behave badly if the model under consideration is wrong yet useful: the posterior may fail to concentrate even in the large sample limit.  We demonstrate this using a simple linear regression example. We then introduce a test that can tell from the data whether we are heading for such a situation. If we are, we adjust the learning rate (equivalently: make the prior lighter-tailed, or penalize the likelihood more) in a data-dependent way. The resulting "safe-Bayesian" estimator continues to achieve good rates with wrong models. In classification, it learns faster in easy settings, i.e.  when a Tsybakov condition holds. The safe estimator is based on empirical mixability/exp-concavity, which generalizes an idea from worst-case online prediction. Thus, safe estimation connects three paradigms: Bayesian inference, (frequentist) statistical learning theory and (individual sequence) on-line prediction.</p><p>For an informal introduction to the idea, see Larry Wasserman's blog: http://normaldeviate.wordpress.com/2012/06/26/self-repairing-bayesian-inference/ 
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="Martin_abstract">Martin Luther King, Jr Day</a></b>
+         <br>
+         <br>
+         <br>
+       <br><br>
+	<i></i>
+
+<p>
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="Fei_abstract">Fei Sha</a></b>
+         <br>Assistant Professor
+         <br>Department of Computer Science
+         <br>University of California, Los Angeles
+       <br><br>
+	<i>Learning kernels for visual domain adaptation</i>
+
+<p>Statistical machine learning has become an important driving force behind many  application fields.  By large, however, its theoretical underpinning has hinged on the stringent assumption that the learning environment is stationary. In particular, the data distribution on which statistical models are optimized is the same as the distribution to which the models are applied.</p><p> Real-world applications are far more complex than the pristine condition. For instance, computer vision systems for recognizing objects in images often suffer from significant performance degradation if they are evaluated on image datasets that are different from the dataset on which they are designed.</p><p> In this talk, I will describe our efforts in addressing this important challenge of building intelligent systems that are robust to distribution disparity. The central theme is to learn invariant features, cast as learning kernel functions and adapt probabilistic models across different distributions (i.e., domains). To this end, our key insight is to discover and exploit hidden structures in the data. These structures, such as manifolds and discriminative clusters, are intrinsic and thus resilient to distribution changes due to exogenous factors. I will present several learning algorithms we have proposed and demonstrate their effectiveness in pattern recognition tasks from computer vision.</p><p> This talk is based on the joint work with my students (Boqing Gong and Yuan Shi, both from USC) and our collaborator Prof. Kristen Grauman (U. of Texas, Austin). 
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="Rosario2_abstract">Rosario Cammarota</a></b>
+         <br>System Security Architect
+         <br>Qualcomm Research
+         <br>
+       <br><br>
+	<i>Automatic construction of program optimization strategies</i>
+
+<p>An optimization strategy is a mean to improve program performance, e.g., through architectural, execution and development environment enhancements (including new architectural mechanisms/instructions, the use of specialized libraries, new compiler optimizations or compiler optimization sequences, new algorithms). Constructing complex optimization strategies by composition of simpler optimizations has been shown to provide significant performance improvements to programs. However, composing simpler optimizations is non-trivial because (a) the combination of possibilities that are available is large and (b) the fact that the effect of the interplay of basic optimizations to program performance is difficult to predict.  This talk will first briefly survey previous work on the application of machine learning techniques to construct program optimization strategies and second proposes a practical and widely applicable technique to construct program optimization strategies based on recommendation systems. Preliminary results are shown to support that the proposed technique is equally applicable to several compelling performance evaluation studies, including characterization, comparison and tuning of hardware configurations, compilers, run-time environments or any combination thereof.
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="Joachim_abstract">Joachim M. Buhmann</a></b>
+         <br>Professor
+         <br>Computer Science Department
+         <br>ETH Zurich
+       <br><br>
+	<i>What is the information content of an algorithm?</i>
+
+<p>Algorithms are exposed to randomness in the input or noise during the computation. How well can they preserve the information in the data w.r.t. the output space? Algorithms especially in Machine Learning are required to generalize over input fluctuations or randomization during execution.  This talk elaborates a new framework to measure the "informativeness" of algorithmic procedures and their "stability" against noise.  An algorithm is considered to be a noisy channel which is characterized by a generalization capacity (GC). The generalization capacity objectively ranks different algorithms for the same data processing task based on the bit rate of their respective capacities. The problem of grouping data is used to demonstrate this validation principle for clustering algorithms, e.g. k-means, pairwise clustering, normalized cut, adaptive ratio cut and dominant set clustering. Our new validation approach selects the most informative clustering algorithm, which filters out the maximal number of stable, task-related bits relative to the underlying hypothesis class. The concept also enables us to measure how many bit are extracted by sorting, feature selection or minimum spanning tree algorithms when the respective inputs are contaminated by noise.<p><b>Bio:</b>Joachim M. Buhmann leads the Machine Learning Laboratory in the Department of Computer Science at ETH Zurich. He has been a full professor of Information Science and Engineering since October 2003.  He studied physics at the Technical University Munich and obtained his PhD in Theoretical Physics. As postdoc and research assistant professor, he spent 1988-92 at the University of Southern California, Los Angeles, and the Lawrence Livermore National Laboratory. He held a professorship for applied computer science at the University of Bonn, Germany from 1992 to 2003.  His research interests spans the areas of pattern recognition and data analysis, including machine learning, statistical learning theory and information theory. Application areas of his research include image analysis, medical imaging, acoustic processing and bioinformatics. Currently, he serves as president of the German Pattern Recognition Society. 
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="Andrew_abstract">Andrew Gelfand</a></b>
+         <br>PhD Candidate
+         <br>Department of Computer Science
+         <br>University of California, Irvine
+       <br><br>
+	<i>On Max-Product BP, MAP inference and Weighted Matchings</i>
+
+<p>The problem of finding the most probable, or MAP, configuration of a graphical model can also be cast as an integer linear programming (ILP) problem. Formulating the MAP problem as an ILP has led to the development of many approximate inference methods based on linear programming (LP) relaxations, including Tree-Reweighted Belief Propagation, MPLP and Max-Sum Diffusion.  Recent work suggests that going in the opposite direction and posing an ILP as a MAP problem may also prove beneficial. In this talk, I'll focus on a classic combinatorial optimization problem, the weighted matching problem, and show that if it is posed as a MAP inference problem then the Max-Product Belief Propagation (BP) algorithm always converges to the MAP configuration. Remarkably, this is true even though the weighted matching graphical model is loopy and BP is neither guaranteed to converge, nor be correct in such models. I'll then discuss a cutting plane approach to solving the weighted matching problem that utilizes the BP algorithm to iteratively tighten the LP relaxation of the matching ILP. This line of work improves our understanding of the performance of the loopy BP algorithm in general and further strengthens the theoretical link between message passing algorithms and optimization theory.<p>This talk is based on joint work with Misha Chertkov (Los Alamos National Lab) and Jinwoo Shin (KAIST University).
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="President's_abstract">President's Day</a></b>
+         <br>
+         <br>
+         <br>
+       <br><br>
+	<i></i>
+
+<p>
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="Marco_abstract">Marco Levorato</a></b>
+         <br>Assistant Professor
+         <br>Department of Computer Science
+         <br>University of California, Irvine
+       <br><br>
+	<i> </i>
+
+<p> 
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="Hugo_abstract">Hugo La Rochelle</a></b>
+         <br>Assistant Professor
+         <br>Department of Computer Science
+         <br>Université de Sherbrooke
+       <br><br>
+	<i>Deep Learning for Distribution Estimation</i>
+
+<p>Deep learning methods have shown to be powerful approaches for modelling a large variety of data (speech, computer vision, natural language, biological, etc.) and solve a vast range of machine learning tasks (classification, regression, etc.). In this talk, I will present my recent research on using deep neural networks for the task of distribution/density estimation, one of the most fundamental problem in machine learning. Specifically, I will discuss the neural autoregressive distribution estimator (NADE), a state-of-the-art estimator of the probability distribution of data. I will then describe a deep version of NADE, which again illustrates the statistical modelling power of deep models.<p><b>Bio:</b>Hugo Larochelle is Assistant Professor at the Université de Sherbrooke (UdeS). Before joining the Computer Science department of UdeS in 2011, he spent two years in the machine learning group at University of Toronto, as a postdoctoral fellow under the supervision of Geoffrey Hinton. He obtained his Ph.D. at Université de Montréal, under the supervision of Yoshua Bengio. He is the recipient of two Google Faculty Awards, acts as associate editor for the IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) and is a member of the editorial board of the Journal of Artificial Intelligence Research (JAIR).
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="James2_abstract">James Foulds</a></b>
+         <br>PhD Candidate
+         <br>Department of Computer Science
+         <br>University of California, Irvine
+       <br><br>
+	<i> </i>
+
+<p> 
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="Finals_abstract">Finals Week</a></b>
+         <br>
+         <br>
+         <br>
+       <br><br>
+	<i></i>
+
+<p>
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="Classes_abstract">Classes Begin</a></b>
+         <br>
+         <br>
+         <br>
+       <br><br>
+	<i></i>
+
+<p>
+       </td>
+  </tr>
+
+<tr>
+       <td valign=top><b><a name="Aram_abstract">Aram Galstyan</a></b>
+         <br>Research Asst. Professor
+         <br>Department of Computer Science
+         <br>USC/ISI
+       <br><br>
+	<i>Statistical physics approach to inference in graphical models</i>
+
+<p>Probabilistic graphical models describe a potentially large number of random variables coupled with each other through some dependency mechanism. One of the main problems underlying graphical models is to infer the values of certain variables based on observations of other variables. Rigorous analysis of statistical inference algorithms can be very complicated even for relatively simple models. Instead, methods based on statistical physics of disordered systems provide a viable alternative. Here I will demonstrate the application of those methods on two problems, MAP estimation of Hidden Markov Models and Stochastic Block Models. The inference in both problems can become highly unstable due to a critical phase transition in the corresponding statistical physical system. Those instabilities are caused by frustrated (e.g., conflicting) constraints that are imposed on the inference objective. I will also discuss how one can mitigate this undesirable feature by active inference, i.e., by adaptively acquiring information about the (true) states of the hidden variables.
+       </td>
+  </tr>
+
+</table>
+</table>
+
+<!--<p>View last year's AI/ML Seminars <a href="http://cml.ics.uci.edu/?page=events&subPage=aiml_0708">here</a>.</p>-->
+
+<!-- Above is the html -->
+
+
+								<!-- End Actual content -->
+						      <!--</div>-->
+							<!-- </td> -->
+						<!-- </tr> -->
+					<!-- </table> -->
+				<!--</div>  contentArea -->
+			<!--<div class="tagline">-->
+		<p class="footerArea" align="center">&copy; Copyright 2006. <a href="?">Center for Machine Learning and Intelligent Systems</a><br>949.824.9296 tel | 949.824.9813 fax |
+		<a href="mailto:cmlis@ics.uci.edu">cmlis@ics.uci.edu</a></p>		</div> <!-- end content area + footer -->
+		<!-- End Footer -->
+				</td>
+			</tr>
+		</table>
+		<!--</div>--> <!--Whole page main div -->
+		</td>
+		</tr>
+		</table>
+	<!--End body region -->
+	</body>
+	</html>
+	
+

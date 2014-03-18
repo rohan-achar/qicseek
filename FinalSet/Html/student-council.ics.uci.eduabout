@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<!--
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+-->
+    <meta name="format-detection" content="telephone=no">
+    <title>About Us</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+<!--
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+-->
+<!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+<![endif]-->
+
+    
+    <meta name="author" content="ICS Student Council">
+    
+    
+    <meta name="generator" content="jekyll">
+    
+
+  </head>
+  <body class="page">
+    <div id="root">
+      <header>
+        <section>
+          <a href="/">
+            <span class="logo"></span>
+          </a>
+        </section>
+        <nav>
+          <ul>
+            <li><a href="/" class="active">Home</a></li>
+            <li><a href="/about/" class="active">About Us</a></li>
+            <li><a href="/join/" class="active">Join Us</a></li>
+          </ul>
+          <ul>
+            <li><a href="/officers/" class="active">Officers</a></li>
+            <li><a href="/events/" class="active">Events</a></li>
+            <li><a href="/calendar/" class="active">Calendar</a></li>
+          </ul>
+          <ul>
+            <li><a href="/contact/" class="active">Contact Us</a></li>
+          </ul>
+        </nav>
+
+      </header>
+      <main>
+<h1 id="toc_0">About Us</h1>
+
+<h2 id="toc_1">Meetings</h2>
+
+<ul>
+<li>Who: ALL ICS Students</li>
+<li>When: Mondays – 6:00pm-7:00pm</li>
+<li>Where: ICS 432</li>
+<li>Why: We all know the ICS Community is more divided than it should be! It’s hard to figure out what’s going on in ICS. So, to bring us all together and make sure that things like ICS Day and Reverse Career Fair are lasting, we’re changing this group!</li>
+</ul>
+
+<p><strong>Everyone is welcome to participate!</strong></p>
+
+<h2 id="toc_2">Our Mission</h2>
+
+<p>To improve the life of students in the Donald Bren School of Information and Computer Science academically, socially, and professionally.</p>
+
+<h2 id="toc_3">Our Vision</h2>
+
+<p>We believe that through a strong community, we will enhance the quality of student life and ensure great jobs for students of all majors and minors within the Donald Bren School of Information and Computer Science by:</p>
+
+<ul>
+<li>Understanding, disseminating, and contributing to departmental decisions including curriculum, research, and hiring decisions</li>
+<li>Creating a network of alumni which will provide students with opportunities to grow while in school, and opportunities after graduation to leverage that growth</li>
+<li>Provide one another with tools and opportunities to become the most competitive technical experts in the world</li>
+<li>Developing nontechnical skills such as leadership, team building, and advocacy outside of the classroom that will ultimately determine success in the rest of our careers</li>
+<li>Informing students about the immense opportunities that are available on the UC Irvine campus, in the neighboring community, and throughout the world</li>
+<li>Creating partnerships between the academics of our campus and the related industries</li>
+</ul>
+
+<p><img src="/assets/img/photos/icssc_group.jpg" alt="ICSSC"></p>
+
+      </main>
+      <aside>
+
+      </aside>
+      <footer>
+        <span class="logo"></span>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About Us</a></li>
+            <li><a href="/join/">Join Us</a></li>
+            <li><a href="/officers/">Officers</a></li>
+            <li><a href="/calendar/">Calendar</a></li>
+            <li><a href="/contact/">Contact Us</a></li>
+            <li><a href="/events/">Events</a></li>
+          </ul>
+          <ul>
+            <li><a href="/">App Jams</a></li>
+            <li><a href="/">ICS Day</a></li>
+            <li><a href="/">MobileWorld</a></li>
+            <li><a href="/events/">Reverse Career Fair</a></li>
+          </ul>
+        </nav>
+        <section>
+          <p>Copyright © <time datetime="2014-01-28T13:08:53-08:00">2014</time> <a href="https://github.com/ICSSC" rel="author">ICS Student Council</a>. All rights reserved.</p>
+        </section>
+
+      </footer>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <title>Andrei Homescu</title>
+  </head>
+
+  <body>
+    <div style="float:left">
+      <h1> Andrei Homescu </h1>
+      E-mail: ahomescu <i>at</i> uci <i>dot</i> edu
+    </div>
+    <div style="float:left;padding-left:20px;padding-bottom:20px">
+      <img src="picture.jpg" height="100"/>
+    </div>
+
+    <div style="clear:both">
+      <h2> Information </h2>
+      I am a PhD candidate in <a href="http://ics.uci.edu">Computer Science</a>
+      at the <a href="http://www.uci.edu">University of California
+        Irvine</a>.<br>
+      I work in the <a href="http://www.ssllab.org">Secure Systems and Software
+        Laboratory</a>, with my advisor <a
+        href="http://www.ics.uci.edu/~franz">Professor Michael Franz</a>.<br>
+    </div>
+
+    <div style="clear:both">
+      <h2> Publications </h2>
+      <ul>
+        <li>
+        Andrei Homescu, Alex &#350;uhan.
+        <i>HappyJIT: A Tracing JIT Compiler for PHP.</i><br>
+          In <i>Proceedings of the 2011 Symposium on Dynamic Languages</i>, DLS
+          '11, Portland, OR, USA, October 2011.<br>
+         <a href="happyjit_paper.pdf">PDF</a>
+        </li>
+
+        <li>
+        Andrei Homescu, Michael Stewart, Per Larsen, Stefan Brunthaler, Michael
+        Franz.
+        <i>Microgadgets: Size Does Matter in Turing-complete Return-oriented
+          Programming.</i><br>
+        In <i>Proceedings of the 6th USENIX Workshop on Offensive
+          Technologies</i>, WOOT '12, Bellevue, WA, USA, August 2012.<br>
+         <a href="microgadgets_woot12.pdf">PDF</a>
+        </li>
+
+        <li>
+        Andrei Homescu, Steven Neisius, Per Larsen, Stefan Brunthaler, Michael
+        Franz.
+        <i>Profile-guided Automated Software Diversity.</i><br>
+        In <i>Proceedings of the 2013 International Symposium on Code Generation and
+          Optimization</i>, CGO '13, Shenzhen, China, February 2013.<br>
+         <a href="multicompiler_cgo13.pdf">PDF</a>
+        </li>
+
+      </ul>
+    </div>
+  </body>
+</html>
+

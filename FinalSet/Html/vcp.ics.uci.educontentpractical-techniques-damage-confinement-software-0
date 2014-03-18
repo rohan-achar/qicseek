@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+    <title>Practical techniques for damage confinement in software | Virtual Collaboration Portal</title>
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/./sites/vcp.ics.uci.edu/modules/avatar_blocks/avatar_blocks.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/cck/theme/content-module.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/ctools/css/ctools.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/custom/multi_google_cse/multi_google_cse.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/date/date.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/dhtml_menu/dhtml_menu.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/fckeditor/fckeditor.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/filefield/filefield.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/gallery/gallery.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/gallery/gallery_filter.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/og/theme/og.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/tagadelic/tagadelic.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/forum/forum.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/biblio/biblio.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/cck/modules/fieldgroup/fieldgroup.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/views/css/views.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/files/color/garland_newvcp-cb8d0b3a/style.css?p" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/vcp.ics.uci.edu/themes/garland-newvcp/print.css?p" />
+    <script type="text/javascript" src="/misc/jquery.js?p"></script>
+<script type="text/javascript" src="/misc/drupal.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/dhtml_menu/dhtml_menu.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/og/og.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/jquery_media/js/jquery.media.js?p"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","dhtmlMenu":{"slide":"slide","siblings":"siblings","relativity":"relativity","clone":"clone","doubleclick":"doubleclick","children":0}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+if (Drupal.jsEnabled) {
+  $(document).ready(function() {
+    $.fn.media.defaults.flvPlayer = '/sites/vcp/files/player.swf';
+    $.fn.media.defaults.mp3Player = '/sites/vcp/files/player.swf';
+  });  
+}
+
+//--><!]]>
+</script>
+    <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/themes/garland-newvcp/fix-ie.css" />    <![endif]-->
+  </head>
+  <body class="sidebar-left">
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="/" title="Virtual Collaboration Portal"><span>Virtual Collaboration Portal</span></a></h1>        </div>
+
+                  <ul class="links primary-links"><li class="menu-197 first"><a href="/" title="VCP home page">Home</a></li>
+<li class="menu-494"><a href="/og" title="">Groups</a></li>
+<li class="menu-12772 last"><a href="/collaborators">Collaborators</a></li>
+</ul>                                  
+      </div> <!-- /header -->
+
+              <div id="sidebar-left" class="sidebar">
+          <div class="block block-theme"><form action="/content/practical-techniques-damage-confinement-software-0"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-gs9YZUMZENIRNtMcBsZg6lJF_NugtzsjF3rl-9SG9GA" value="form-gs9YZUMZENIRNtMcBsZg6lJF_NugtzsjF3rl-9SG9GA"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+</div>          <div id="block-user-1" class="clear-block block block-user">
+
+  <h2>Navigation</h2>
+
+  <div class="content"><ul class="menu"><li class="expanded first dhtml-menu  collapsed start-collapsed "><a href="/biblio" id="dhtml_menu-5079">Bibliography</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/biblio/authors" id="dhtml_menu-12779">Authors</a></li>
+<li class="leaf last dhtml-menu "><a href="/biblio/keywords" id="dhtml_menu-12792">Keywords</a></li>
+</ul></li>
+<li class="leaf  dhtml-menu "><a href="/readinglist/year" id="dhtml_menu-5761">Reading Lists</a></li>
+<li class="leaf  dhtml-menu "><a href="/weblinks" id="dhtml_menu-3412">Web Links</a></li>
+<li class="leaf  dhtml-menu "><a href="/gallery" title="Visit your embedded Gallery2." id="dhtml_menu-3237">Gallery</a></li>
+<li class="leaf  dhtml-menu "><a href="/tracker" id="dhtml_menu-119">Recent posts</a></li>
+<li class="leaf last dhtml-menu "><a href="/content/acknowledgements" title="Acknowledgements" id="dhtml_menu-11419">Acknowledgements</a></li>
+</ul></div>
+</div>
+<div id="block-user-0" class="clear-block block block-user">
+
+  <h2>User login</h2>
+
+  <div class="content"><form action="/content/practical-techniques-damage-confinement-software-0?destination=node%2F360"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
+<div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-9UUAb8F3zCVp8t-N3SQ987h3snID_NwQpS3ad81WKbs" value="form-9UUAb8F3zCVp8t-N3SQ987h3snID_NwQpS3ad81WKbs"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+</div>
+</div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="/">Home</a> › <a href="/biblio">Bibliography</a></div>                              <h2>Practical techniques for damage confinement in software</h2>                                                  <div class="clear-block">
+            <div id="node-360" class="node">
+
+<div class="picture">
+  </div>
+
+
+      <span class="submitted">Mon, 2009-08-24 14:36 — taylor</span>
+  
+  <div class="content clear-block">
+    <div id="biblio-node"><span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Practical+techniques+for+damage+confinement+in+software&amp;rft.date=1998&amp;rft.spage=132&amp;rft.epage=143&amp;rft.aulast=Taylor&amp;rft.auinit=D+J"></span><table>
+<tbody>
+ <tr class="odd"><td class="biblio-row-title biblio-field-title-title">Title</td><td class="biblio-field-contents-title">Practical techniques for damage confinement in software</td> </tr>
+ <tr class="even"><td class="biblio-row-title biblio-field-title-type">Publication Type</td><td class="biblio-field-contents-type">Conference Proceedings</td> </tr>
+ <tr class="odd"><td class="biblio-row-title biblio-field-title-year">Year of Publication</td><td class="biblio-field-contents-year">1998</td> </tr>
+ <tr class="even"><td class="biblio-row-title biblio-field-title-authors">Authors</td><td class="biblio-field-contents-authors"><a href="/biblio/author/107">Taylor, D. J.</a></td> </tr>
+ <tr class="odd"><td class="biblio-row-title biblio-field-title-secondary-title">Conference Name</td><td class="biblio-field-contents-secondary-title">Computer Security, Dependability and Assurance: From Needs to Solutions</td> </tr>
+ <tr class="even"><td class="biblio-row-title biblio-field-title-pages">Pagination</td><td class="biblio-field-contents-pages">132-143</td> </tr>
+ <tr class="odd"><td class="biblio-row-title biblio-field-title-keywords">Keywords</td><td class="biblio-field-contents-keywords"><a href="/biblio/keyword/64">damage confinement</a>, <a href="/biblio/keyword/65">dependability</a>, <a href="/biblio/keyword/66">fault tolerance</a>, <a href="/biblio/keyword/67">large software system</a>, <a href="/biblio/keyword/62">safety-critical software</a>, <a href="/biblio/keyword/68">safety-critical systems</a>, <a href="/biblio/keyword/63">security of data</a>, <a href="/biblio/keyword/26">Software fault tolerance</a></td> </tr>
+ <tr class="even"><td class="biblio-row-title biblio-field-title-abst-e">Abstract</td><td class="biblio-field-contents-abst-e"><p>In a large software system that is required to be dependable, preventing the spread of damage from one system component to another is important. Damage confinement both allows damage to be assessed in a reasonable way once an error is detected and prevents a fault in a single component from causing sudden collapse of the entire system. This paper examines techniques for constraining the spread of damage, both the kinds of constraints required and the means for enforcing those constraints. Techniques developed primarily or exclusively for uses other than fault tolerance are described and examined for suitability in confining damage. The influence on damage confinement of the level of dependability required, e.g., for safety-critical systems versus other systems, is also discussed</p>
+</td> </tr>
+ <tr class="odd"><td class="biblio-row-title biblio-field-title-url">URL</td><td class="biblio-field-contents-url"><a href="/file%3A/l%3A/security/MobileCode/00798361.pdf">file:/l:/security/MobileCode/00798361.pdf</a></td> </tr>
+</tbody>
+</table>
+</div>  </div>
+
+  <div class="clear-block">
+    <div class="meta">
+        </div>
+
+          <div class="links"><ul class="links inline"><li class="comment_forbidden first last"><span><a href="/user/login?destination=comment%2Freply%2F360%23comment-form">Login</a> to post comments</span></li>
+</ul></div>
+      </div>
+
+</div>
+          </div>
+                    <div id="footer"></div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+  <script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/custom/multi_google_cse/multi_google_cse.js?p"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"en"}});
+//--><!]]>
+</script>
+  </body>
+</html>
+

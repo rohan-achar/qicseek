@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="description" content="Matrix Decomposition and Latent Semantic Indexing (LSI) Introduction to Information Retrieval CS 221 Donald J. Patterson  Mathematically speaking Latent Semantic Indexing - Introduction Latent Semantic Indexing can project on an arbitrary axis, not just a principal axis  Mathematically speaking Latent Semantic Indexing - Introduction Our documents were just points in an N-dimensional term space We can project them also  Mathematically speaking Latent Semantic Indexing - Introduction Latent Semantic Indexing makes the claim that these new axes represent semantics - deeper meaning than just a term  Matrix Decomposition Latent Semantic Indexing - Linear Algebra Refresher Singular Value Decomposition Splits a matrix into three matrices Such that If  then and and also Sigma is almost a diagonal matrix  Matrix Decomposition Latent Semantic Indexing - Linear Algebra Refresher Singular Value Decomposition the columns of V are orthogonal eigenvectors of the columns of U are orthogonal eigenvectors of  V represents our “term space” U represents our “document space” We want to transform our vectors from or original term space into our new term space  Matrix Decomposition Latent Semantic Indexing - Linear Algebra Refresher  Matrix Decomposition Latent Semantic Indexing - Linear Algebra Refresher  Matrix Decomposition Latent Semantic Indexing - Linear Algebra Refresher Singular Value Decomposition next..."/>
+    <title></title>
+    <script type="text/javascript" language="javascript">
+//      <![CDATA[
+            var images = new Array (10);
+            images[0] = "Lecture12_01_Slides_CS221_files/Lecture12_01_Slides_CS221.001.png";
+            images[1] = "Lecture12_01_Slides_CS221_files/Lecture12_01_Slides_CS221.002.png";
+            images[2] = "Lecture12_01_Slides_CS221_files/Lecture12_01_Slides_CS221.003.png";
+            images[3] = "Lecture12_01_Slides_CS221_files/Lecture12_01_Slides_CS221.004.png";
+            images[4] = "Lecture12_01_Slides_CS221_files/Lecture12_01_Slides_CS221.005.png";
+            images[5] = "Lecture12_01_Slides_CS221_files/Lecture12_01_Slides_CS221.006.png";
+            images[6] = "Lecture12_01_Slides_CS221_files/Lecture12_01_Slides_CS221.007.png";
+            images[7] = "Lecture12_01_Slides_CS221_files/Lecture12_01_Slides_CS221.008.png";
+            images[8] = "Lecture12_01_Slides_CS221_files/Lecture12_01_Slides_CS221.009.png";
+            images[9] = "Lecture12_01_Slides_CS221_files/Lecture12_01_Slides_CS221.010.png";
+            var index = 0;
+            function WindowLoaded(evt)
+            {
+                document.body.onselectstart = function () { return false; };
+            }
+            function Step(i)
+            {
+                GoTo(index + i)
+            }
+            function GoTo(newIndex)
+            {
+                if(newIndex >= 0 && newIndex < images.length)
+                {
+                    index = newIndex;
+                    document.Slideshow.src = images[index];
+                }
+            }
+//      ]]>
+    </script>
+</head>
+<body bgcolor="black" onload='WindowLoaded(event);'>
+    <p align="center">
+        <br/>
+        <br/>
+        <img name="Slideshow" alt="" src="Lecture12_01_Slides_CS221_files/Lecture12_01_Slides_CS221.001.png" onclick="Step(1)"/>
+        <br/>
+        <br/>
+        <input type="image" src="Lecture12_01_Slides_CS221_files/home.png" onclick="GoTo(0)"/>
+        &nbsp;&nbsp;&nbsp;
+        <input type="image" src="Lecture12_01_Slides_CS221_files/prev.png" onclick="Step(-1)"/>
+        <input type="image" src="Lecture12_01_Slides_CS221_files/next.png" onclick="Step(1)"/>
+    </p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

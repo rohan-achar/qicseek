@@ -1,0 +1,199 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="robots" content="index,nofollow">
+
+<title>HelpOnInstalling/WikiInstanceCreation - GraphModAlg@UCI</title>
+<script type="text/javascript" src="/moin_static163/common/js/common.js"></script>
+
+<script type="text/javascript">
+<!--
+var search_hint = "Search";
+//-->
+</script>
+
+
+<link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static163/rightsidebar/css/common.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="screen" href="/moin_static163/rightsidebar/css/screen.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="print" href="/moin_static163/rightsidebar/css/print.css">
+<link rel="stylesheet" type="text/css" charset="utf-8" media="projection" href="/moin_static163/rightsidebar/css/projection.css">
+
+<!-- css only for MS IE6/IE7 browsers -->
+<!--[if lt IE 8]>
+   <link rel="stylesheet" type="text/css" charset="utf-8" media="all" href="/moin_static163/rightsidebar/css/msie.css">
+<![endif]-->
+
+
+<link rel="alternate" title="GraphModAlg@UCI: HelpOnInstalling/WikiInstanceCreation" href="/group/action/rss_rc/HelpOnInstalling/WikiInstanceCreation?diffs=1&amp;show_att=1&amp;action=rss_rc&amp;unique=0&amp;page=HelpOnInstalling%2FWikiInstanceCreation&amp;ddiffs=1" type="application/rss+xml">
+
+
+<link rel="Start" href="/group/Main_Page">
+<link rel="Alternate" title="Wiki Markup" href="/group/HelpOnInstalling/WikiInstanceCreation?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/group/HelpOnInstalling/WikiInstanceCreation?action=print">
+<link rel="Up" href="/group/HelpOnInstalling">
+<link rel="Appendix" title="createinstance.sh" href="/group/HelpOnInstalling/WikiInstanceCreation?action=AttachFile&amp;do=view&amp;target=createinstance.sh">
+<link rel="Search" href="/group/FindPage">
+<link rel="Index" href="/group/TitleIndex">
+<link rel="Glossary" href="/group/WordIndex">
+<link rel="Help" href="/group/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+<div id="header">
+
+<form id="searchform" method="get" action="/group/HelpOnInstalling/WikiInstanceCreation">
+<div>
+<input type="hidden" name="action" value="fullsearch">
+<input type="hidden" name="context" value="180">
+<label for="searchinput">Search:</label>
+<input id="searchinput" type="text" name="value" value="" size="20"
+    onfocus="searchFocus(this)" onblur="searchBlur(this)"
+    onkeyup="searchChange(this)" onchange="searchChange(this)" alt="Search">
+<input id="titlesearch" name="titlesearch" type="submit"
+    value="Titles" alt="Search Titles">
+<input id="fullsearch" name="fullsearch" type="submit"
+    value="Text" alt="Search Full Text">
+</div>
+</form>
+<script type="text/javascript">
+<!--// Initialize search form
+var f = document.getElementById('searchform');
+f.getElementsByTagName('label')[0].style.display = 'none';
+var e = document.getElementById('searchinput');
+searchChange(e);
+searchBlur(e);
+//-->
+</script>
+
+<div id="logo"><a href="/group/Main_Page"><img src="/moin_static163/common/moinmoin.png" alt="MoinMoin Logo"></a></div>
+<div id="locationline">
+
+
+<ul id="pagelocation">
+<li><a href="/group/HelpOnInstalling">HelpOnInstalling</a></li><li><a class="backlink" href="/group/action/fullsearch/HelpOnInstalling/WikiInstanceCreation?action=fullsearch&amp;context=180&amp;value=linkto%3A%22HelpOnInstalling%2FWikiInstanceCreation%22" rel="nofollow" title="Click to do a full-text search for this title">WikiInstanceCreation</a></li>
+</ul>
+
+</div>
+
+</div>
+
+<div id="sidebar">
+<div class="sidepanel">
+<h1>Wiki</h1>
+
+<ul id="navibar">
+<li class="wikilink"><a href="/group/Main_Page">Main_Page</a></li><li class="wikilink"><a href="/group/RecentChanges">RecentChanges</a></li><li class="wikilink"><a href="/group/FindPage">FindPage</a></li><li class="wikilink"><a href="/group/HelpContents">HelpContents</a></li><li class="current"><a href="/group/HelpOnInstalling/WikiInstanceCreation">WikiInstanceCreation</a></li>
+</ul>
+
+</div>
+<div class="sidepanel">
+<h1>Page</h1>
+<ul class="editbar"><li><span class="disabled">Immutable Page</span></li><li class="toggleCommentsButton" style="display:none;"><a href="#" class="nbcomment" onClick="toggleComments();return false;">Comments</a></li><li><a class="nbinfo" href="/group/action/info/HelpOnInstalling/WikiInstanceCreation?action=info" rel="nofollow">Info</a></li><li><a class="nbattachments" href="/group/action/AttachFile/HelpOnInstalling/WikiInstanceCreation?action=AttachFile" rel="nofollow">Attachments</a></li><li>
+<form class="actionsmenu" method="GET" action="/group/HelpOnInstalling/WikiInstanceCreation">
+<div>
+    <label>More Actions:</label>
+    <select name="action"
+        onchange="if ((this.selectedIndex != 0) &&
+                      (this.options[this.selectedIndex].disabled == false)) {
+                this.form.submit();
+            }
+            this.selectedIndex = 0;">
+        <option value="raw">Raw Text</option>
+<option value="print">Print View</option>
+<option value="RenderAsDocbook">Render as Docbook</option>
+<option value="refresh">Delete Cache</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="SpellCheck">Check Spelling</option>
+<option value="LikePages">Like Pages</option>
+<option value="LocalSiteMap">Local Site Map</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="RenamePage" disabled class="disabled">Rename Page</option>
+<option value="DeletePage" disabled class="disabled">Delete Page</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Subscribe User</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="show" disabled class="disabled">Remove Spam</option>
+<option value="show" disabled class="disabled">Revert to this revision</option>
+<option value="PackagePages">Package Pages</option>
+<option value="SyncPages">Sync Pages</option>
+<option value="show" disabled class="disabled">------------------------</option>
+<option value="Load">Load</option>
+<option value="Save">Save</option>
+<option value="SlideShow">SlideShow</option>
+    </select>
+    <input type="submit" value="Do">
+    
+</div>
+<script type="text/javascript">
+<!--// Init menu
+actionsMenuInit('More Actions:');
+//-->
+</script>
+</form>
+</li></ul>
+
+</div>
+<div class="sidepanel">
+<h1>User</h1>
+<ul id="username"><li><a href="/group/action/login/HelpOnInstalling/WikiInstanceCreation?action=login" id="login" rel="nofollow">Login</a></li></ul>
+</div>
+</div>
+
+<div id="page" lang="en" dir="ltr">
+<div dir="ltr" id="content" lang="en"><span class="anchor" id="top"></span>
+<span class="anchor" id="line-1"></span><span class="anchor" id="line-2"></span><span class="anchor" id="line-3"></span><span class="anchor" id="line-4"></span><span class="anchor" id="line-5"></span><span class="anchor" id="line-6"></span><span class="anchor" id="line-7"></span><span class="anchor" id="line-8"></span><span class="anchor" id="line-9"></span><p class="line862">After you have downloaded and installed Moin<tt class="backtick"></tt>Moin, you will want to "have a wiki". As explained at the bottom of <a href="/group/HelpOnInstalling/BasicInstallation">../BasicInstallation</a>, you have to copy several directories and files. This way, you can have as many wikis as you want, and you can easily upgrade Moin<tt class="backtick"></tt>Moin: only the original files will be overwritten, not your copies. <span class="anchor" id="line-10"></span><span class="anchor" id="line-11"></span><p class="line862">Every time you copy those files (and modify the configuration of your server accordingly), you create what is called a <em>wiki instance</em>. Each wiki instance is independent from the others, with a different configuration, different pages, different users, etc. <span class="anchor" id="line-12"></span><span class="anchor" id="line-13"></span><p class="line874">Some of the steps you need to take depend on which web server and which operating system you use. They are described on dedicated pages, which you should read (at least the beginning) before reading this one. Some other steps are common to every webserver and operating system (copying files around, setting permissions), and this is what is described here. <span class="anchor" id="line-14"></span><span class="anchor" id="line-15"></span><p class="line862">Linux users can use <a class="attachment" href="/group/HelpOnInstalling/WikiInstanceCreation?action=AttachFile&amp;do=view&amp;target=createinstance.sh" title="">createinstance.sh</a> (a bash script that creates the instance) instead of doing all steps manually: <span class="anchor" id="line-16"></span><ol type="1"><li>If anything is unclear, just read the sections below for more hints. <span class="anchor" id="line-17"></span></li><li>Have a look into the script before running it, if all settings are correct for your setup: <span class="anchor" id="line-18"></span><ul><li>USER and GROUP should be the user and group used by your web-server for running moin. <span class="anchor" id="line-19"></span></li><li><p class="line862">SHARE is where the shared files were copied to, see install.log from the <tt class="backtick">setup.py&nbsp;install</tt> step <span class="anchor" id="line-20"></span></li></ul></li><li>The script takes a single parameter: the location of your wiki instance (see "Choose a location" section below): <span class="anchor" id="line-21"></span><span class="anchor" id="line-22"></span><span class="anchor" id="line-23"></span><pre><span class="anchor" id="HelpOnInstalling.2BAC8-WikiInstanceCreation.line-1"></span># ./createinstance.sh /path/to/mywiki</pre><span class="anchor" id="line-24"></span></li><li>Now continue in section "Tune configuration" <span class="anchor" id="line-25"></span><span class="anchor" id="line-26"></span></li></ol><p class="line867">
+<h1 id="Read_this_first">Read this first</h1>
+<span class="anchor" id="line-27"></span><span class="anchor" id="line-28"></span><p class="line867">
+<h2 id="Security_warnings">Security warnings</h2>
+<span class="anchor" id="line-29"></span><span class="anchor" id="line-30"></span><div><table style="color: red"><tbody><tr>  <td><p class="line862"> <img alt="/!\" height="15" src="/moin_static163/rightsidebar/img/alert.png" title="/!\" width="15" /> <strong>Warning: make sure that your <tt class="backtick">data</tt> directory and your configuration files are not accessible through your web server. Do not put your wiki directory in <tt class="backtick">public_html</tt>, <tt class="backtick">Sites</tt> or any other directory your web server can access. The web server only needs to access the file in the <tt class="backtick">htdocs</tt> directory and the <tt class="backtick">moin.cgi</tt> script! (Or whatever script your server uses to start Moin<tt class="backtick"></tt>Moin.)</strong> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-31"></span><span class="anchor" id="line-32"></span><div><table style="color: red"><tbody><tr>  <td><p class="line862"> <img alt="/!\" height="15" src="/moin_static163/rightsidebar/img/alert.png" title="/!\" width="15" /> <strong>Warning: make sure that the <tt class="backtick">data</tt> directory and its subdirectories are not readable and not writeable by users other than the web server user. If you need to give worldwide read-write permissions to get it working, be aware that you are doing a very unsecure setup, that can be compromised by any other user or program on your computer.</strong> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-33"></span><span class="anchor" id="line-34"></span><p class="line867">
+<h2 id="Note_to_Windows_users">Note to Windows users</h2>
+<span class="anchor" id="line-35"></span><span class="anchor" id="line-36"></span><p class="line874">All the commands below are Linux commands. The text descriptions that introduce them should be enough to help you understand what you need to do. Use the Windows Explorer, or the appropriate text-mode commands. <span class="anchor" id="line-37"></span><span class="anchor" id="line-38"></span><p class="line867">
+<h1 id="Choose_a_wiki_name">Choose a wiki name</h1>
+<span class="anchor" id="line-39"></span><span class="anchor" id="line-40"></span><p class="line874">Choose a unique name for the new wiki instance you want to create. It should be a short word, something that reflects what you intend to use the wiki for, like the name of your organization, of your team, of the project you are working on, etc. <span class="anchor" id="line-41"></span><span class="anchor" id="line-42"></span><p class="line862">The name "<tt class="backtick">mywiki</tt>" is used as an example in the various commands below. <span class="anchor" id="line-43"></span><span class="anchor" id="line-44"></span><p class="line867">
+<h1 id="Choose_a_location">Choose a location</h1>
+<span class="anchor" id="line-45"></span><span class="anchor" id="line-46"></span><p class="line874">Choose a directory on your disk, it will contain all the files needed for your wiki instance. At the beginning, your wiki instance will use approximately 10 MB of disk space. Then of course, it will grow depending on the way your wiki is used. A personal wiki, even with many pages, might only use 30 MB or 40 MB of disk space. A popular wiki, or a wiki with many files attached to the pages, might use much more, of course. <span class="anchor" id="line-47"></span><span class="anchor" id="line-48"></span><p class="line862">If you are the administrator (or root) of the server, you can use anything you like or that makes sense to you, for example <tt class="backtick">/usr/local/var/moin</tt>, <tt class="backtick">/mnt/wikis</tt>, etc. <span class="anchor" id="line-49"></span><span class="anchor" id="line-50"></span><p class="line862">If you are a simple user, you will probably only be allowed to write in your personal, "home" directory. Choose a subdirectory that makes sense to you, for example the <tt class="backtick">share/moin</tt> subdirectory. <span class="anchor" id="line-51"></span><span class="anchor" id="line-52"></span><p class="line867">
+<h1 id="Collect_some_important_information">Collect some important information</h1>
+<span class="anchor" id="line-53"></span><span class="anchor" id="line-54"></span><p class="line874">This is where the instructions differ according to the web server and operating system you use, and whether you are the administrator or a simple user. See the appropriate pages for your web server and operating system combination. <span class="anchor" id="line-55"></span><span class="anchor" id="line-56"></span><p class="line862">On Linux, the <tt class="backtick">export</tt> command will be used to remember the collected information. Windows users should write it down carefully (maybe cutting-and-pasting in a Notepad window), or store it in environment variables if they use the command prompt. <span class="anchor" id="line-57"></span><span class="anchor" id="line-58"></span><ul><li><p class="line891"><tt class="backtick">PREFIX</tt> is the prefix you used during the <a href="/group/HelpOnInstalling/BasicInstallation">../BasicInstallation</a> <span class="anchor" id="line-59"></span></li><li><p class="line891"><tt class="backtick">SHARE</tt> is the name of the <tt class="backtick">share</tt> directory, as discussed at the bottom of <a href="/group/HelpOnInstalling/BasicInstallation">../BasicInstallation</a> <span class="anchor" id="line-60"></span></li><li><p class="line891"><tt class="backtick">WIKILOCATION</tt> is the name of the directory that will contain your wiki instance <span class="anchor" id="line-61"></span></li><li><p class="line891"><tt class="backtick">INSTANCE</tt> is the directory containing the wiki instance. It cannot be an existing directory readable through Apache, otherwise it will fail. <span class="anchor" id="line-62"></span><span class="anchor" id="line-63"></span></li></ul><p class="line874">If you are an administrator, you also need to collect the following: <span class="anchor" id="line-64"></span><span class="anchor" id="line-65"></span><ul><li><p class="line891"><tt class="backtick">USER</tt> is the user name of the web server <span class="anchor" id="line-66"></span></li><li><p class="line891"><tt class="backtick">GROUP</tt> is the name of the group to which the web server belongs <span class="anchor" id="line-67"></span><span class="anchor" id="line-68"></span></li></ul><p class="line874">Now, Linux folks, let's store these settings in memory: <span class="anchor" id="line-69"></span><span class="anchor" id="line-70"></span><span class="anchor" id="line-71"></span><span class="anchor" id="line-72"></span><span class="anchor" id="line-73"></span><span class="anchor" id="line-74"></span><pre><span class="anchor" id="HelpOnInstalling.2BAC8-WikiInstanceCreation.line-1-1"></span>&gt; export PREFIX=/usr                # this might be something else
+<span class="anchor" id="HelpOnInstalling.2BAC8-WikiInstanceCreation.line-2"></span>&gt; export SHARE=$PREFIX/share/moin   # this should be correct for most people
+<span class="anchor" id="HelpOnInstalling.2BAC8-WikiInstanceCreation.line-3"></span>&gt; export WIKILOCATION=$SHARE        # this is just an example
+<span class="anchor" id="HelpOnInstalling.2BAC8-WikiInstanceCreation.line-4"></span>&gt; export INSTANCE=mywiki            # this is just an example</pre><span class="anchor" id="line-75"></span><span class="anchor" id="line-76"></span><p class="line874">Administrators also need the following two lines: <span class="anchor" id="line-77"></span><span class="anchor" id="line-78"></span><p class="line867"><span class="anchor" id="line-79"></span><span class="anchor" id="line-80"></span><span class="anchor" id="line-81"></span><pre><span class="anchor" id="HelpOnInstalling.2BAC8-WikiInstanceCreation.line-1-2"></span>&gt; export USER=www-data              # this is just an example
+<span class="anchor" id="HelpOnInstalling.2BAC8-WikiInstanceCreation.line-2-1"></span>&gt; export GROUP=www-data             # this is just an example</pre><span class="anchor" id="line-82"></span><span class="anchor" id="line-83"></span><p class="line867">
+<h1 id="Copy_the_files">Copy the files</h1>
+<span class="anchor" id="line-84"></span><span class="anchor" id="line-85"></span><p class="line862">To create your new instance, you first need to create a directory named like your instance, inside the <tt class="backtick">WIKILOCATION</tt>. Then you need to copy the <tt class="backtick">data</tt> and <tt class="backtick">underlay</tt> directories from your <tt class="backtick">SHARE</tt> directory into your instance directory. Finally, you need to copy the <tt class="backtick">wikiconfig.py</tt> file from the <tt class="backtick">config</tt> directory into the instance directory. <span class="anchor" id="line-86"></span><span class="anchor" id="line-87"></span><p class="line874">Linux folks need to just type these commands: <span class="anchor" id="line-88"></span><span class="anchor" id="line-89"></span><span class="anchor" id="line-90"></span><span class="anchor" id="line-91"></span><span class="anchor" id="line-92"></span><span class="anchor" id="line-93"></span><span class="anchor" id="line-94"></span><pre><span class="anchor" id="HelpOnInstalling.2BAC8-WikiInstanceCreation.line-1-3"></span>&gt; cd $WIKILOCATION
+<span class="anchor" id="HelpOnInstalling.2BAC8-WikiInstanceCreation.line-2-2"></span>&gt; mkdir $INSTANCE                   # make a directory for this instance
+<span class="anchor" id="HelpOnInstalling.2BAC8-WikiInstanceCreation.line-3-1"></span>&gt; cp -R $SHARE/data $INSTANCE       # copy template data directory
+<span class="anchor" id="HelpOnInstalling.2BAC8-WikiInstanceCreation.line-4-1"></span>&gt; cp -R $SHARE/underlay $INSTANCE   # copy underlay data directory
+<span class="anchor" id="HelpOnInstalling.2BAC8-WikiInstanceCreation.line-5"></span>&gt; cp $SHARE/config/wikiconfig.py $INSTANCE   # copy wiki configuration sample file</pre><span class="anchor" id="line-95"></span><span class="anchor" id="line-96"></span><ul><li style="list-style-type:none"><p class="line891"><img alt="/!\" height="15" src="/moin_static163/rightsidebar/img/alert.png" title="/!\" width="15" /> Note that you just need to keep one underlay directory on your system if you are running multiple wikis (e.g. in a farm.) <span class="anchor" id="line-97"></span><span class="anchor" id="line-98"></span></li></ul><p class="line867">
+<h1 id="Set_permissions">Set permissions</h1>
+<span class="anchor" id="line-99"></span><span class="anchor" id="line-100"></span><p class="line867">
+<h2 id="Administrators">Administrators</h2>
+<span class="anchor" id="line-101"></span><span class="anchor" id="line-102"></span><p class="line874">Administrators need to restrict the permissions of the files, so that only the web server (and the administrator of course) can read and write them. For maximum security, no other user on the machine should be able to read or write anything in the wiki instance directory. Don't forget that this directory contains sensitive information, notably the (encrypted) passwords of the wiki users. <span class="anchor" id="line-103"></span><span class="anchor" id="line-104"></span><p class="line874">On Linux, the following commands should be enough: <span class="anchor" id="line-105"></span><span class="anchor" id="line-106"></span><span class="anchor" id="line-107"></span><span class="anchor" id="line-108"></span><span class="anchor" id="line-109"></span><pre><span class="anchor" id="HelpOnInstalling.2BAC8-WikiInstanceCreation.line-1-4"></span>&gt; chown -R $USER.$GROUP $INSTANCE   # check that USER and GROUP are correct
+<span class="anchor" id="HelpOnInstalling.2BAC8-WikiInstanceCreation.line-2-3"></span>&gt; chmod -R ug+rwX $INSTANCE         # USER.GROUP may read and write
+<span class="anchor" id="HelpOnInstalling.2BAC8-WikiInstanceCreation.line-3-2"></span>&gt; chmod -R o-rwx $INSTANCE          # everybody else is rejected</pre><span class="anchor" id="line-110"></span><span class="anchor" id="line-111"></span><p class="line867">
+<h2 id="Normal_users">Normal users</h2>
+<span class="anchor" id="line-112"></span><span class="anchor" id="line-113"></span><p class="line862">Normal users, on the contrary, need to broaden the permissions of the files, so that the web server can read and write them. On recent Windows versions, and on some versions of Linux and other systems, <em>access control lists</em> can be used to that effect. They are, however, powerful and complicated, much beyond the scope of this document. Ask a knowledgeable person about them. <span class="anchor" id="line-114"></span><span class="anchor" id="line-115"></span><p class="line862">Without them, normal users have to allow <em>everybody</em> to access the instance directory. This is the only way the web server can enter it and do its work. This is, of course, <strong>VERY INSECURE</strong>, since any other user and program on the server can read the directory. You should <strong>not</strong> use such a setup for a wiki open to the public. <span class="anchor" id="line-116"></span><span class="anchor" id="line-117"></span><p class="line874">On Linux, the following commands will open the instance directory to the whole world: <span class="anchor" id="line-118"></span><span class="anchor" id="line-119"></span><span class="anchor" id="line-120"></span><pre><span class="anchor" id="HelpOnInstalling.2BAC8-WikiInstanceCreation.line-1-5"></span>&gt; chmod -R a+rwX $INSTANCE</pre><span class="anchor" id="line-121"></span><span class="anchor" id="line-122"></span><p class="line867"><strong>Note:</strong> <span class="anchor" id="line-123"></span><ul><li><p class="line862">it is also possible to put the web server and the normal user in the same <em>group</em>, and then only open the instance directory to the members of that group. This is a bit more secure (depending on who else is in the group), but you need the cooperation of the server administrator; he is the one setting up groups. <span class="anchor" id="line-124"></span></li><li><p class="line862">the best other possibility is that the server administrator sets up <tt class="backtick">suexec</tt> to execute CGI scripts in user directories under the user id of that user. You don't need to give world permissions that way, so it is a quite secure setup, but you also need cooperation of the administrator. <span class="anchor" id="line-125"></span><span class="anchor" id="line-126"></span><span class="anchor" id="line-127"></span></li></ul><p class="line867">
+<h1 id="Tune_configuration">Tune configuration</h1>
+<span class="anchor" id="line-128"></span><span class="anchor" id="line-129"></span><p class="line874">Now, you need to tune the configuration of your web server and of your wiki instance. Look at the appropriate help page for your web server, then come back here to tune the settings of your wiki instance. <span class="anchor" id="line-130"></span><span class="anchor" id="line-131"></span><p class="line862">Edit <tt class="backtick">wikiconfig.py</tt>. The default settings should work fine in most cases, but there are some things that you will probably want to change, like the name and logo of your wiki! <img alt=":)" height="15" src="/moin_static163/rightsidebar/img/smile.png" title=":)" width="15" /> Read the comments inside <tt class="backtick">wikiconfig.py</tt>, they will guide you through this process. <span class="anchor" id="line-132"></span><span class="anchor" id="line-133"></span><div><table style="color: red"><tbody><tr>  <td><p class="line862"> <img alt="/!\" height="15" src="/moin_static163/rightsidebar/img/alert.png" title="/!\" width="15" /> <strong>Warning: don't forget to restart your web server in order to apply changes in <tt class="backtick">wikiconfig.py</tt></strong> </td>
+</tr>
+</tbody></table></div><span class="anchor" id="line-134"></span><span class="anchor" id="line-135"></span><p class="line867"><a href="/group/HelpOnConfiguration">HelpOnConfiguration</a> contains all the details about all the options, in case the comments in <tt class="backtick">wikiconfig.py</tt> are not enough. <span class="anchor" id="line-136"></span><span class="anchor" id="bottom"></span></div>
+<div id="pagebottom"></div>
+</div>
+
+
+<div id="footer">
+<ul id="credits">
+<li><a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a></li><li><a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a></li><li><a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a></li><li><a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a></li>
+</ul>
+
+
+</div>
+</body>
+</html>
+
+

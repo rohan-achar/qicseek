@@ -1,0 +1,113 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+	<meta HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+        <link REL="icon" HREF="minilogo.png" TYPE="image/png">
+	<title> JuliusC: an Abstract Model - the Type-DAG</title>
+	<meta NAME="GENERATOR" CONTENT="OpenOffice.org 1.0.1  (Linux)">
+	<meta NAME="CREATED" CONTENT="20030530;9241400">
+	<meta NAME="CHANGED" CONTENT="20030530;9423600">
+	<meta NAME="person" CONTENT="Paolo">
+
+	<meta NAME="sortname" CONTENT="D'Alberto Paolo">
+	<!-- Background black, links yellow (unvisited), blue (visited), red (active) -->
+	<style>
+	
+	</STYLE>
+</head>
+<body LANG="en-US" TEXT="#000000" LINK="#ff0000" VLINK="#00ff00"  background="DAG.3.jpg">
+<h1 ALIGN=center> <u> Type-DAG</u> <BR> a Hybrid Computation Model </h1>
+<ol>
+<HR> 
+  <li><h3 ALIGN=LEFT>A Model for Recursive Algorithm - <b>Type-DAG</b> </h3>
+  
+  <P> Consider matrix multiply, for example <i>C+=AB</i>. Consider the
+  simplest recursive algorithm you can think of, where the matrixes
+  are logically composed of four quadrants: 
+  <pre>
+      |C0  C1 |     |A0  A1 |     |B0  B1 |  
+  C = |C2  C3 | A = |A2  A3 | B = |B2  B3 | 
+  </pre> 
+  We may write the algorithms as follows:
+  <pre>
+  C += AB  /* &lt; m,n,p &gt; */ : 
+    if (m<=1 or n<=1 or p<=1) 
+       c += a*b; 
+    else {    
+      C0 += A0*B0; /* &lt; m/2+m%2,n/2+n%2,p/2+p%2 &gt; */
+      C0 += A1*B2;
+      C1 += A0*B1;
+      C1 += A1*B3;
+      C2 += A2*B0;
+      C2 += A3*B2;
+      C3 += A2*B1;
+      C3 += A3*B3; /* &lt; m/2,n/2,p/2 &gt;*/
+   } 
+  </pre>
+
+  We indicate the size of the problem using
+  the notation <i>&lt;m,n,p&gt;</i> where <i>m</i> is the number of
+  rows of matrix <i>A</i>, <i>n</i> is the number of rows of <i>B</i>
+  and <i>p</i> is the number of columns of <i>B</i>.
+  </P>
+ 
+  <P>
+  We may wonder how many different problems we need to divide or to
+  solve for a matrix multiply of size <i>&lt;17,17,17&gt;</i>. Or
+  stated differently, we may wonder whether or not there are function
+  calls that solve the same problem but on different data. We know
+  that there are no more than <i>2*17^3</i> problems, but in practice
+  there are only 34 different problems!
+  </P>
+
+  <P> By showing the unfolding of the recursion calls, and presenting
+  only one node per unique problem, it should be clear why there are
+  only 34 different problems (for a problem <i>&lt;n,n,n&gt;</i>, we
+  have proven that there are <i>O(8log n)</i> different
+  problems).
+
+  <center> <img SRC="DAG.jpg"></center>
+  </P>
+
+  <P> For square matrices of size <i>n x n</i>, the data structure can
+  be built in <i>O(8logn)</i> steps.  This is the <b>Type-DAG</b> of
+  the computation.
+  </P>
+<HR> 
+
+<li><h3>Type-DAG</h3>
+
+
+<P> A <b>call graph</b> is a static description of the relation among
+function calls in an application. Using the call graph, we can
+determine whether or not we may reach from a function <i>f()</i> a
+function <i>g()</i> at run time. If there is a path from <i>f()</i> to
+<i>g()</i>, the execution of the application may reach <i>g()</i> if,
+at any time, it reaches <i>f()</i>. (If there is no path, the
+execution that reaches <i>f()</i> it will not reach <i>g()</i>.) The
+call graph is used for inter-procedural - data dependency -
+analysis. It is an extremely powerful abstraction.
+</P>
+
+<P> <b>Type-DAG</b> is a data structure that captures the information
+of the unfolding of the call graph - which is the information about
+function calls available at run-time.  The
+<b>Type-DAG</b> represents the control flow of an application using a
+<b>Direct Acyclic Graph</b> (DAG). Each node on the DAG represents a
+family of function calls having a particular type. </P>
+
+<P> In fact, the <b>Type-DAG</b> is the result of a hybrid
+approach. Our approach requires a - very - partial execution of the
+application, like a profiler, but it is based on a static analysis
+reducing to a minimum the run-time information required.</P>
+</li>
+
+<hr>
+
+
+
+</ol>
+
+</body>
+</html>
+

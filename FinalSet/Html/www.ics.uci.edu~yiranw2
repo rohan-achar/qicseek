@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/master.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Yiran Wang</title>
+<!-- InstanceEndEditable -->
+<link href="style.css" rel="stylesheet" type="text/css" />
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body background="bg1.jpg">
+<div class="toptrim"></div>
+
+
+<div class="main">
+<h1><!-- InstanceBeginEditable name="Page Title" -->Yiran Wang<!-- InstanceEndEditable --></h1> 
+<!-- InstanceBeginEditable name="Page Content" -->
+<img src="YW_pic.jpg" alt="YW mugshot" width="130" height="157" />
+
+
+<p>PhD Student<br />
+Department of Informatics<br />
+University of California, Irvine<br/>
+yiranw2( at ) uci.edu </p>
+
+<h2>Brief Bio</h2>
+<p> I am second-year PhD student in <a href="http://www.informatics.uci.edu/">Informatics</a> at <a href="http://www.uci.edu/">UC Irvine</a>. I am working with <a href="http://www.ics.uci.edu/~gmark/Home_page/Welcome.html">Prof. Gloria Mark</a>. My research focus lies broadly on Computer Supported Cooperative Work, Social Computing, and Civic Engagement in Social Media. </p>
+<p>Prior to joining in UC Irvine, I earned my B.S. in Computer Science from <a href="http://www.pku.edu.cn/">Peking University</a> (Beijing University), China in 2009. </p>
+<!-- InstanceEndEditable --></div>
+
+<div class="navbar"><!-- InstanceBeginEditable name="Navbar" -->
+<ul>
+
+<li><a href="research.html">Research (Full CV upon request)</a></li> 
+<li><a href="contact.html">Contact</a></li>
+
+
+</ul>
+<!-- InstanceEndEditable -->
+
+<h2>News</h2>
+<ul>
+<li><i>(April 27 - May 2, 2013) Will go to CHI 2013... More to come! (Paris, France)
+</i></li>
+
+<li><i>(Feb 23-27, 2013) I presented a full paper titled "Trust in Online News: Comparing Social Media and Official Media
+Use by Chinese Citizens." in the 2013 ACM Conference on Computer Supported Cooperative Work (San Antonio, TX)
+</i></li>
+
+<li><i>(October 29, 2012) I presented a short paper on Weibo in the 2nd Annual symposium on digital ethics (Chicago, IL):<a href="http://hastac.org/events/2nd-annual-symposium-digital-ethics"> Digital Ethics 2012</a>
+</i></li>
+
+<li><i>(April 13-14, 2012) I attended CRA-W Graduate Cohort Workshop for women in computer science / computer engineering (Bellevue, WA):<a href="http://cra-w.org/ArticleDetails/tabid/77/ArticleID/209/Grad-Cohort-2012-Bellevue-WA.aspx"> CRA-W 2012</a>
+</i></li>
+
+<li><i>(Feb 11-15, 2012) I attended the 2012 ACM Conference on Computer Supported Cooperative Work (Seattle, WA):<a href="http://cscw2012.org/"> CSCW 2012</a>
+</i></li>
+
+<a href="past_events.html"> (Older entries) </a>
+</ul>
+
+<h2>Project</h2>
+<ul>
+<li><i>Questionnaire for 13CSCW News Trustworthiness in China:<a href="China_News_Consumption_Survey.pdf">here(.pdf) </a>
+</li>
+</ul>
+</div>
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-4254808-1";
+urchinTracker();
+</script>
+</body>
+<!-- InstanceEnd --></html>
+
+
+
+
+
+

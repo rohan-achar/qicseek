@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>AppJam Blog &#187; 2012-winter-Team6</title>
+	<atom:link href="http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/category/2012-winter-team6/feed/" rel="self" type="application/rss+xml" />
+	<link>http://student-council.ics.uci.edu/appjam/winter2012/blog</link>
+	<description></description>
+	<lastBuildDate>Tue, 06 Mar 2012 19:57:38 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.3.1</generator>
+		<item>
+		<title>Last Day &#8212; Team 6</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/last-day/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/last-day/#comments</comments>
+		<pubDate>Tue, 06 Mar 2012 04:08:39 +0000</pubDate>
+		<dc:creator>Team6</dc:creator>
+				<category><![CDATA[2012-winter-Team6]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=861</guid>
+		<description><![CDATA[Current Status: Currently, we are working out minor errors in our application and completing the required documents and powerpoint. This last part of the project is fairly simple and straightforward since all we have to do is translate our work into words on paper. Progress today: Today, we met up as a group in the [...]]]></description>
+			<content:encoded><![CDATA[<p>Current Status:</p>
+<p>Currently, we are working out minor errors in our application and completing the required documents and powerpoint. This last part of the project is fairly simple and straightforward since all we have to do is translate our work into words on paper.</p>
+<p>Progress today:</p>
+<p>Today, we met up as a group in the ICS building and discuss the current situation of our app. We have also tested the app on multiple devices and so far the app has worked! It is an awesome experience to see the app actually works like an app that&#8217;s already on the market. We made minor changes to the appearance of the app, such as the background as well as the app logo, and we tried resolving the issue we had with the mapping. I would go into further details but that information will be presented in the powerpoint. Overall, the app is set and ready for presentation. The long hours of work put into this app finally paid off. Now it is a matter of typing up the proper documents.</p>
+<p>&nbsp;</p>
+<p>Challenges:</p>
+<p>Like I said, one of the bugs that we have in our app has to do with the mapping. We have tried many different approaches during our discussion today and finally we got the map function to display the location properly. Now back to the documentation and the powerpoint.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/last-day/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Day 7 &#8211; Team 6</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-7-team-6/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-7-team-6/#comments</comments>
+		<pubDate>Mon, 05 Mar 2012 07:36:45 +0000</pubDate>
+		<dc:creator>Team6</dc:creator>
+				<category><![CDATA[2012-winter-Team6]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=756</guid>
+		<description><![CDATA[Today was a great day for our application. We finally integrated all of our individual parts into one app. Of course this took a long time and it is still not complete but seeing the app come together is a pretty awesome feeling. The user interface is mostly complete we just need a few small [...]]]></description>
+			<content:encoded><![CDATA[<p>Today was a great day for our application. We finally integrated all of our individual parts into one app. Of course this took a long time and it is still not complete but seeing the app come together is a pretty awesome feeling. The user interface is mostly complete we just need a few small details. The main function of the app is also near complete. We have been testing our app on our phones non-stop for the past three days.</p>
+<p>We are all very tired since we have been working on this app from the minute we wake up until we go to sleep (I even had a dream about it). We have run into many issues with our app. One such issue was with customizing a list in the user interface. This issue persisted for the past day and a half. When this issue was finally fixed we were all very happy because now we could continue with other parts of the application. The database seems to be working correctly so far as well as the calculations that our app performs.</p>
+<p>Tomorrow we are finishing up the app and adding some finishing touches. We are going to meet up tomorrow to discuss the presentation of our application as well as anything that needs to be fixed or changed. We are all so excited to complete this application after a week of working hard, not only for the app but for classes as well.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-7-team-6/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Day 6 &#8212; Team 6</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-6/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-6/#comments</comments>
+		<pubDate>Sun, 04 Mar 2012 06:06:57 +0000</pubDate>
+		<dc:creator>Team6</dc:creator>
+				<category><![CDATA[2012-winter-Team6]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=757</guid>
+		<description><![CDATA[Current Status: We have begun testing our app on the android phones and putting the final pieces together. In addition, we are customizing our user interface to make it look as nice as possible. Progress Today: We are still working on the database, and finalizing the User Interface. The algorithm is complete and most of [...]]]></description>
+			<content:encoded><![CDATA[<p>Current Status:</p>
+<p>We have begun testing our app on the android phones and putting the final pieces together. In addition, we are customizing our user interface to make it look as nice as possible.</p>
+<p>Progress Today:</p>
+<p>We are still working on the database, and finalizing the User Interface. The algorithm is complete and most of the components to our app have been connected together. Data is still being collected for the app and this data will be stored in the database. Today was mostly about designing our user interface to make it look nice by making the options easier for the user to use, and by changing the colors to make the app look presentable.</p>
+<p>Challenges:</p>
+<p>We are still collecting the final data, and we have been using this weekend to make the final touches to the app to ensure that the app is ready to be presented and put on the market.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-6/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Day 5: Team 6</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5-team-6/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5-team-6/#comments</comments>
+		<pubDate>Sat, 03 Mar 2012 09:22:37 +0000</pubDate>
+		<dc:creator>Team6</dc:creator>
+				<category><![CDATA[2012-winter-Team6]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=416</guid>
+		<description><![CDATA[Current Status: Team members have almost finished their individual tasks despite the huge workload of assignments and midterm exams. However, we still need to put everything together. Besides, there are some features that have been missed from the first design and we think adding them will make the app more useful and accurate. Progress today: [...]]]></description>
+			<content:encoded><![CDATA[<p>Current Status:</p>
+<p>Team members have almost finished their individual tasks despite the huge workload of assignments and midterm exams. However, we still need to put everything together. Besides, there are some features that have been missed from the first design and we think adding them will make the app more useful and accurate.</p>
+<p>Progress today:</p>
+<p>We had a two-hour meeting today, where we reviewed the features of app, checking which parts need extra work. Based on that new tasks have been assigned to members. We plan to meet on Sunday to integrate the code and try a complete demo of our application.</p>
+<p>Challenges:</p>
+<p>Most of challenges have been resolved. However, we came up with a more accurate algorithm for our app and it is required to spend sometimes researching about the feasibility of its implementation.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-5-team-6/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Day 4 &#8212; Team 6</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-4-2/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-4-2/#comments</comments>
+		<pubDate>Fri, 02 Mar 2012 06:10:42 +0000</pubDate>
+		<dc:creator>Team6</dc:creator>
+				<category><![CDATA[2012-winter-Team6]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=666</guid>
+		<description><![CDATA[Current Status: Thus far we have finished most of the interface and the database but we still need to store the data into the app. We also found someone who is willing to lead his android device for us to test our app. &#160; Progress today: Most of the coding is complete, and we have [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Current Status:</strong></p>
+<p>Thus far we have finished most of the interface and the database but we still need to store the data into the app. We also found someone who is willing to lead his android device for us to test our app.</p>
+<p>&nbsp;</p>
+<p><strong>Progress today:</strong></p>
+<p>Most of the coding is complete, and we have made plans to meet up tomorrow for a status update. In addition, we are still working on the algorithm needed to ensure that the app works properly. Also, since each team member works on certain parts of the code we downloaded a plugin for eclipse to make sure that the project on each team members’ computer is of the same version.</p>
+<p><strong>Challenges:</strong></p>
+<p>So far, the challenges have been in developing the algorithm properly, collecting and transferring the data to the activities, and coming up with the best thresholds.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-4-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Day 3 &#8212; Team 6</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-3-4/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-3-4/#comments</comments>
+		<pubDate>Thu, 01 Mar 2012 06:54:01 +0000</pubDate>
+		<dc:creator>Team6</dc:creator>
+				<category><![CDATA[2012-winter-Team6]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=620</guid>
+		<description><![CDATA[Current Status: Currently, each team member have been assigned a specific task. Someone is writing the code UI, while another team member is working on the database, another is working on the mapping/gps code, and another is working on the algorithm. We plan to have a meeting on Thursday to show what we each of [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Current Status:</strong></p>
+<p>Currently, each team member have been assigned a specific task. Someone is writing the code UI, while another team member is working on the database, another is working on the mapping/gps code, and another is working on the algorithm. We plan to have a meeting on Thursday to show what we each of us have completed.</p>
+<p><strong>Progress Today:</strong></p>
+<p>We have begun coding, with major parts of the code either started on or half-way done. The beta version of the user interface is done, the database and the algorithm is still in progress. For the algorithm, we have to do some research about the field and the audience we are targeting. We have also been working on the framework of the app as well as collecting data for the app.</p>
+<p><strong>Challenge:</strong></p>
+<p>Two main challenges encountered thus far have been, developing an algorithm that encompasses the factors we want to measure, and the other challenge is implementing the mapping code with the user interface.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-3-4/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Day 2 &#8212; Team 6</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-2-5/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-2-5/#comments</comments>
+		<pubDate>Wed, 29 Feb 2012 07:27:12 +0000</pubDate>
+		<dc:creator>Team6</dc:creator>
+				<category><![CDATA[2012-winter-Team6]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=571</guid>
+		<description><![CDATA[Current Project Status: We have developed a solid foundation for our app. We have also begun drawing the layout of the app with a mock up program, and we divided jobs among the group members. For example, parts of the code are divided among the members, and other people had to collect the necessary information [...]]]></description>
+			<content:encoded><![CDATA[<p><strong>Current Project Status:</strong></p>
+<p>We have developed a solid foundation for our app. We have also begun drawing the layout of the app with a mock up program, and we divided jobs among the group members. For example, parts of the code are divided among the members, and other people had to collect the necessary information needed for the app. We are currently in the phase of writing the code and designing the layout.</p>
+<p><strong>Progress Today:</strong></p>
+<p>Today, we met up with each other and solidify our idea(s) for the app. We found sources to aid us in developing this application and we have a vision for the UI. We divided the tasks among group members and each of us has begun our parts of the app project. We know our target audience and we have a general idea of how to pitch this app to that audience.</p>
+<p><strong>Challenges:</strong></p>
+<p>Although we are unable to meet on a daily basis, we utilize facebook group and skype to communicate. But other than meeting up with each other, the only other challenge is time. We have members who have other commitments and we are hoping to design and develop the app by the coming weekend.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-2-5/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Day 1 &#8212; Team 6 Little Green Robots</title>
+		<link>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-1-team-6-little-green-robots/</link>
+		<comments>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-1-team-6-little-green-robots/#comments</comments>
+		<pubDate>Tue, 28 Feb 2012 06:48:03 +0000</pubDate>
+		<dc:creator>Team6</dc:creator>
+				<category><![CDATA[2012-winter-Team6]]></category>
+
+		<guid isPermaLink="false">http://blog.appjam.roboteater.com/?p=413</guid>
+		<description><![CDATA[Team Name: Little Green Robots Members: Mingming Fan Maryam Khademi Fernando Aguilar Derek Vo David Zhang Platform: Andriod Advisor: Jaskaran Singh Progress: Thus far, we are brainstorming ideas for an app and making sure everyone within the group is up to date; with all the programs downloaded, etc. We have not yet decided on who [...]]]></description>
+			<content:encoded><![CDATA[<p>Team Name:</p>
+<p>Little Green Robots</p>
+<p>Members:</p>
+<p>Mingming Fan<br />
+Maryam Khademi<br />
+Fernando Aguilar<br />
+Derek Vo<br />
+David Zhang</p>
+<p>Platform:</p>
+<p>Andriod</p>
+<p>Advisor:</p>
+<p>Jaskaran Singh</p>
+<p>Progress:</p>
+<p>Thus far, we are brainstorming ideas for an app and making sure everyone within the group is up to date; with all the programs downloaded, etc. We have not yet decided on who is to be our team leader.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://student-council.ics.uci.edu/appjam/winter2012/blog/index.php/day-1-team-6-little-green-robots/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

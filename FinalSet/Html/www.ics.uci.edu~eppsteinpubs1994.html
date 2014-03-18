@@ -1,0 +1,393 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html><head>
+<title>David Eppstein - Publications</title>
+</head>
+<body bgcolor="#ffffff" text="#000000">
+<h1>David Eppstein - Publications</h1>
+<hr><p>
+<h2>
+1994
+</h2>
+Note that a paper may appear in listings for multiple years
+due to multiple publication (of tech. report, conference, and journal versions).
+<p>
+<ul>
+<li><b>Visibility with a moving point of view</b>.<br>
+<a href="http://www.parc.xerox.com/csl/members/bern/">M. Bern</a>,
+<a href="http://www.cs.Princeton.EDU/~dpd/">D.P. Dobkin</a>,
+D. Eppstein, and 
+<a href="http://www.lac.uic.edu/NCDM/grossman.html">R. Grossman</a>.<br>
+<a href="http://portal.acm.org/citation.cfm?id=320188">
+<i>1st ACM-SIAM Symp. Discrete Algorithms,</i>
+San Francisco, 1990, pp. 107-118</a>.<br>
+<a href="BerDobEpp-Algo-94.pdf"><i>Algorithmica</i> 11:360-378, 1994</a>.
+<p>
+An investigation of 3d visibility problems in which the viewing
+position moves along a straight flight path, with various
+assumptions on the complexity of the viewed scene.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Visibility with a moving point of view">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Visibility-with-a-moving-point-of-view.html">Citations</a>)
+<p>
+<li><b>Provably good mesh generation</b>.<br>
+<a href="http://www.parc.xerox.com/csl/members/bern/">M. Bern</a>,
+D. Eppstein, and 
+<a href="http://sandbox.parc.xerox.com/gilbert/">
+J. Gilbert</a>.<br>
+<i>31st IEEE Symp. Foundations of Comp. Sci.,</i>
+St. Louis, Missouri, 1990, pp. 231-241.<br>
+<i>J. Comp. Sys. Sci.</i> 48:384-409, 1994 (special issue for 31st FOCS).
+<p>
+In this paper, we construct triangulations of point sets and polygons by
+using quadtrees to add extra vertices to the input. As a result we can
+guarantee that all triangles have angles bounded
+away from zero, using a number of triangles within a constant of
+optimal; this was the first paper to provide simultaneous bounds on mesh
+element quality and mesh complexity of this form, and therefore the
+first to provide finite element mesh generation algorithms that
+guarantee both the robustness of the algorithm against unexpected input
+geometries and the quality of its output.
+<p>
+In the same paper we also use quadtrees to triangulate planar point sets
+so that all angles are non-obtuse, using linearly many triangles, and to
+triangulate higher dimensional point sets with no small solid angles and
+a number of simplices within a constant of optimal.  Also, we can
+augment any higher dimensional point set so the Delaunay triangulation
+has linear complexity.
+<p>
+In later follow-up work, I showed that the same
+technique can also be used to find a triangulation whose edges have <a
+href="p-mwst.html">total length within a constant factor of
+optimal</a>. Bern, Mitchell, and Ruppert
+showed that alternative methods can be used to triangulate any polygon
+without obtuse angles; see "<a href="p-cpack.html">Faster circle packing
+with application to nonobtuse triangulation</a>" for an algorithmic
+improvement to their technique. Additionally, with Bern, Chew, and
+Ruppert, we showed that <a href-"p=dihedral.html">any point set in
+higher dimensions can be triangulated with nonobtuse simplices</a>.
+Bern and I surveyed these and related results in our paper "<a
+href="p-meshgen.html">Mesh generation and optimal triangulation</a>".
+<p>(<a href="/~eppstein/bibs/eppstein.html#Provably good mesh generation">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Provably-good-mesh-generation.html">Citations</a> --
+<a href="BerEppGil-JCSS-94.pdf">Preliminary copy of journal version</a> --
+<a href="http://theory.lcs.mit.edu/~dmjones/FOCS/References/berneg1990:231.html">MIT hypertext bibliography</a> --
+<a href="http://citeseer.ist.psu.edu/bern90provably.html">CiteSeer</a> --
+<a href="http://portal.acm.org/citation.cfm?id=183122">ACM DL (JCSS)</a>)
+<p>
+<li><b>Approximating the minimum weight Steiner triangulation</b>.<br>
+D. Eppstein.<br>
+<a href="Epp-TR-91-55.pdf">Tech. Rep. 91-55</a>, ICS, UCI, 1991.<br>
+<a href="http://portal.acm.org/citation.cfm?id=139415"><i>3rd ACM-SIAM Symp. Discrete Algorithms,</i> Orlando, 1992, pp. 48-57.</a><br>
+<a href="Epp-DCG-94.pdf"><i>Disc. Comp. Geom.</i> 11:163-191, 1994</a>.
+<p>
+<a href="geom-qt.html">Quadtree</a> based
+<a href="geom-tri.html">triangulation</a> gives a large but constant factor
+<a href="geom-approx.html">approximation</a>
+to the minimum weight triangulation of a point set or
+convex polygon, allowing extra Steiner points to be added as vertices.
+Includes proofs of several bounds on triangulation weight relative to
+the <a href="mst.html">minimum spanning tree</a> or non-Steiner
+triangulation, and a conjecture
+that for convex polygons the only points that need to be added are on
+the polygon boundary.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Approximating the minimum weight Steiner triangulation">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Approximating-the-minimum-weight-Steiner-triangulation.html">Citations</a> --
+<a href="http://citeseer.ist.psu.edu/eppstein92approximating.html">CiteSeer</a>)
+<p>
+<li><b>Iterated nearest neighbors and finding minimal polytopes</b>.<br>
+D. Eppstein and 
+<a href="http://compgeom.cs.uiuc.edu/~jeffe/">J. Erickson</a>.<br>
+Tech. Rep. 92-71, ICS, UCI, 1992.<br>
+<a href="http://portal.acm.org/citation.cfm?id=313612">
+<i>4th ACM-SIAM Symp. Discrete Algorithms,</i> Austin, 1993, pp. 64-73</a>.<br>
+<a href="http://compgeom.cs.uiuc.edu/~jeffe/pubs/pdf/small.pdf"><i>Disc. Comp. Geom.</i> 11:321-350, 1994</a>.
+<p>
+Showed that for various optimization criteria, the
+optimal polygon containing <i>k</i> of <i>n</i>
+points must be near one of the points, hence one can transform
+time bounds involving several factors of <i>n</i>
+to bounds linear in <i>n</i> but polynomial in <i>k.</i>
+Used as a subroutine are data structures for finding several
+<a href="geom-nn.html">nearest neighbors</a> in rectilinear metric spaces, and
+algorithms for finding the
+<a href="geom-deep.html">deepest point in an arrangement</a> of cubes or
+spheres.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Iterated nearest neighbors and finding minimal polytopes">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Iterated-nearest-neighbors-and-finding-minimal-polytopes.html">Citations</a> --
+<a href="http://compgeom.cs.uiuc.edu/~jeffe/pubs/small.html">Jeff's pub list entry</a> --
+<a href="http://citeseer.ist.psu.edu/erickson94iterated.html">CiteSeer</a>)
+<p>
+<li><b>Tree-weighted neighbors and geometric <i>k</i> smallest spanning trees</b>.<br>
+D. Eppstein.<br>
+<a href="Epp-TR-92-77.pdf">Tech. Rep. 92-77</a>, ICS, UCI, 1992.<br>
+<i>Int. J. Comp. Geom. &amp; Appl.</i> 4:229-238, 1994.
+<p>
+"<a href="p-kmst.html">Finding the <i>k</i> smallest spanning trees</a>"
+used higher order Voronoi diagrams to reduce the geometric
+<a href="kbest.html"><i>k</i> smallest</a>
+<a href="mst.html">spanning tree</a> problem to the graph problem.
+Here I instead use nearest neighbors for a modified
+distance function where the bottleneck shortest path length
+is subtracted from the true distance between points.
+The result improves the planar time bounds and extends
+more easily to higher dimensions.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Tree-weighted neighbors and geometric $k$ smallest spanning trees">BibTeX</a> --
+<a href="http://citeseer.ist.psu.edu/eppstein92treeweighted.html">CiteSeer</a>)
+
+<p>
+<li><b>On the number of minimal 1-Steiner trees</b>.<br>
+<a href="http://cis.poly.edu/~aronov/">B. Aronov</a>,
+<a href="http://www.parc.xerox.com/csl/members/bern/">M. Bern</a>,
+and D. Eppstein.<br>
+<a href="AroBerEpp-DCG-94.pdf"><i>Disc. &amp; Comp. Geom.</i> 12:29-34, 1994</a>.
+<p>
+Given a <i>d</i>-dimensional set of <i>n</i> points,
+the number of combinatorially different
+<a href="mst.html">minimum spanning trees</a> that can be formed
+by adding one more point is within a polylogarithmic factor of
+<i>n<sup>d</sup>.</i>
+<p>(<a href="/~eppstein/bibs/eppstein.html#On the number of minimal 1-Steiner trees">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/On-the-number-of-minimal-1-Steiner-trees.html">Citations</a> --
+<a href="http://citeseer.ist.psu.edu/aronov94number.html">CiteSeer</a>)
+<p>
+<li><b>Arboricity and bipartite subgraph listing algorithms</b>.<br>
+D. Eppstein.<br>
+<a href="Epp-TR-94-11.pdf">Tech. Rep. 94-11</a>, ICS, UCI, 1994.<br>
+<a href="http://dx.doi.org/10.1016/0020-0190(94)90121-X">
+<i>Inf. Proc. Lett.</i> 51:207-211, 1994</a>.
+<p>
+For any sparse family of graphs,
+one can list in linear time all
+complete bipartite subgraphs of a graph in the family.
+There are O(n) complete bipartite subgraphs of a graph in the family,
+and the sum of the numbers of vertices in these subgraphs is also O(n).
+<p>
+Nowadays these results can also be interpreted as a form of
+<a href="http://en.wikipedia.org/wiki/Formal_concept_analysis">formal
+concept analysis</a>. If a set of objects and attributes is sparse
+(e.g., if it is generated by adding objects and attributes one at a
+time, where each newly-added object is given O(1) attributes and each
+newly-added attribute is held by O(1) objects) then the total size of
+all concepts in its concept lattice is linear, and this lattice may be
+generated in linear time.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Arboricity and bipartite subgraph listing algorithms">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Arboricity-and-bipartite-subgraph-listing-algorithms.html">Citations</a> --
+<a href="http://citeseer.ist.psu.edu/eppstein94arboricity.html">CiteSeer</a> --
+<a href="http://portal.acm.org/citation.cfm?id=190450">ACM DL</a>)
+<p>
+<li><b>Offline algorithms for dynamic minimum spanning tree problems</b>.<br>
+D. Eppstein.<br>
+<i>2nd Worksh. Algorithms and Data Structures,</i> Ottawa, Canada, 1991.<br>
+<i>Lecture Notes in Comp. Sci.</i> 519, 1991, pp. 392-399.<br>
+<a href="Epp-TR-92-04.pdf">Tech. Rep. 92-04</a>, ICS, UCI, 1992.<br>
+<a href="http://dx.doi.org/10.1006/jagm.1994.1033">
+<i>J. Algorithms</i> 17:237-250, 1994</a>.
+<p>
+Given a sequence of edge insertions and deletions in a graph,
+finds the corresponding sequence of minimum spanning tree changes,
+in logarithmic time per update.
+Similarly solves the planar geometric version of the problem
+(using a novel "mixed MST" formulation in which part of the input
+is a graph and part is a point set) in time
+O(log<sup>2</sup> <i>n</i>) for the Euclidean metric and
+O(log <i>n</i> log log <i>n</i>) for the rectilinear metric.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Offline algorithms for dynamic minimum spanning tree problems">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Offline-algorithms-for-dynamic-minimum-spanning-tree-problems.html">Citations</a> --
+<a href="http://citeseer.ist.psu.edu/eppstein94offline.html">CiteSeer</a> --
+<a href="http://portal.acm.org/citation.cfm?id=185278">ACM DL (JA)</a>)
+<p>
+<li><b>Average case analysis of dynamic geometric optimization</b>.<br>
+D. Eppstein.<br>
+<a href="Epp-TR-93-18.pdf">Tech. Rep. 93-18</a>, ICS, UCI, 1993.<br>
+<a href="http://portal.acm.org/citation.cfm?id=314481">
+<i>5th ACM-SIAM Symp. Discrete Algorithms,</i> Arlington, 1994, pp. 77-86.</a><br>
+<a href="http://dx.doi.org/10.1016/0925-7721(95)00018-6">
+<i>Comp. Geom. Theory &amp; Applications</i> 6:45-68, 1996</a>.
+<p>
+The Tech. Report used the more informative title
+"Updating widths and maximum spanning trees using the rotating caliper graph",
+which I also used for the journal submission,
+but the referees made me change it back.
+Dynamic geometry in a model of Mulmuley and Schwarzkopf in which insertions
+and deletions are chosen randomly among a worst-case pool of points.
+This paper introduces several fundamental techniques
+including the <a href="/~eppstein/junkyard/rcg.html">rotating caliper
+graph</a> of a point set and a method for performing
+decomposible range queries in the average case setting.
+It has also since inspired the use of a similar model in dynamic graph
+algorithms.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Average case analysis of dynamic geometric optimization">BibTeX</a> --
+<a href="Epp-SODA-94-dyngeom.pdf">SODA paper</a> --
+<a href="Epp-CGTA-96.pdf">Full paper</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Average-case-analysis-of-dynamic-geometric-optimization.html">Citations</a> --
+<a href="http://citeseer.ist.psu.edu/eppstein96average.html">CiteSeer</a> --
+<a href="http://portal.acm.org/citation.cfm?id=228291">ACM DL</a>)
+<p>
+<li><b>Faster circle packing with application to nonobtuse triangulation</b>.<br>
+D. Eppstein.<br>
+<a href="Epp-TR-94-33.pdf">Tech. Rep. 94-33</a>, ICS, UCI 1994.<br>
+<i>Int. J. Comp. Geom. &amp; Appl.</i> 7(5):485-491, 1997.
+<p>
+Speeds up a triangulation algorithm of Bern et al.
+["<a href="http://www.nas.nasa.gov/Pubs/TechReports/RNRreports/jruppert/RNR-94-003/RNR-94-003.html">Linear-Size
+Nonobtuse Triangulation of Polygons</a>"] by finding a
+collection of disjoint circles
+which connect up the holes in a non-simple polygon.
+The method is to use a
+<a href="mst.html">minimum spanning tree</a> to find a collection of
+overlapping circles, then shrink them one by one to reduce the number of
+overlaps, using Sleator and
+Tarjan's dynamic tree data structure to keep track of the
+connectivity of the shrunken circles.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Faster circle packing with application to nonobtuse triangulation">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Faster-circle-packing-with-application-to-nonobtuse-triangulation.html">Citations</a>)
+<p>
+<li><b>Parallel construction of quadtrees and quality triangulations</b>.<br>
+<a href="http://www.parc.xerox.com/csl/members/bern/">M. Bern</a>,
+D. Eppstein, and 
+<a href="http://www-sal.cs.uiuc.edu/~steng/">S.-H. Teng</a>.<br>
+<a href="BerEppTen-WADS-93.pdf"><i>3rd Worksh. Algorithms and Data
+Structures,</i> Montreal, 1993.</a><br>
+<a href="http://www.springer.de/cgi-bin/bag_generate.pl?ISBN=3-540-57155-8"><i>Lecture Notes in
+Comp. Sci.</i> 709</a>, 1993, pp. 188-199, &copy; Springer-Verlag.<br>
+Tech. Rep. 614, MIT Lab. for Comp. Sci., 1994.<br>
+<a href="BerEppTen-IJCGA-99.pdf"><i>Int. J. Comp. Geom. &amp; Appl.</i>
+9(6):517-532, 1999.</a>
+<p>
+A parallelization of the quadtree constructions in
+"<a href="p-pgood.html">Provably good mesh generation</a>",
+in an integer model of computation, based on a technique of
+sorting the input points using values formed by shuffling the binary
+representations of the coordinates.
+A side-effect is an efficient construction for the "fair split tree"
+hierarchical clustering method used by Callahan and Kosaraju for various
+nearest neighbor problems.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Parallel construction of quadtrees and quality triangulations">BibTeX</a> --
+<a href="http://www.CiteSeer.com/eppstein93parallel.html">CiteSeer</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Parallel-construction-of-quadtrees-and-quality-triangulations.html">Citations</a> --
+<a href="http://portal.acm.org/citation.cfm?id=672684">ACM DL</a>)
+<p>
+<li><b>Clustering for faster network simplex pivots</b>.<br>
+D. Eppstein.<br>
+<a href="Epp-TR-93-19.pdf">Tech. Rep. 93-19</a>, ICS, UCI, 1993.<br>
+<a href="http://portal.acm.org/citation.cfm?id=314490">
+<i>5th ACM-SIAM Symp. Discrete Algorithms,</i>
+Arlington, 1994, pp. 160-166</a>.<br>
+<i>Networks</i> 35(3):173-180, 2000.
+<p>
+Speeds up the worst case time per pivot for various versions of
+the network simplex algorithm for minimum cost flow problems.
+Uses techniques from dynamic graph algorithms as well as some simple
+geometric data structures.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Clustering for faster network simplex pivots">BibTeX</a> --
+<a href="http://citeseer.ist.psu.edu/eppstein93clustering.html">CiteSeer</a>)
+<p>
+<li><b>Finding the <i>k</i> shortest paths</b>.<br>
+D. Eppstein.<br>
+<i>35th IEEE Symp. Foundations of Comp. Sci.,</i> Santa Fe, 1994, pp. 154-165.<br>
+<a href="Epp-TR-94-26.pdf">Tech. Rep. 94-26</a>, ICS, UCI, 1994.<br>
+<a href="http://dx.doi.org/10.1137/S0097539795290477">
+<i>SIAM J. Computing</i> 28(2):652-673, 1998</a>.
+<p>
+This paper presents an algorithm that finds multiple short paths connecting
+two terminals in a graph
+(allowing repeated vertices and edges in the paths)
+in constant time per path after a preprocessing stage
+dominated by a single-source shortest path computation.
+The paths it finds are the <i>k</i> shortest in the graph, where <i>k</i> is a
+parameter given as input to the algorithm.
+<p>
+The <i>k</i> shortest paths problem has many important applications for finding
+alternative solutions to geographic path planning problems, network
+routing, hypothesis generation in computational linguistics, and
+sequence alignment and metabolic pathway finding in
+bioinformatics. Although there have been many papers on the
+<i>k</i> shortest paths problem before and after this one, it has become
+frequently cited in those application areas.
+Additionally, it marks a boundary in the theoretical study of the problem:
+prior theoretical work largely concerned how quickly the problem could
+be solved, a line of research that was closed off by the optimal time
+bounds of this paper. Subsequent work has focused instead
+on devising efficient algorithms for more complex alternative
+formulations of the problem that avoid the repeated
+vertices and other shortcomings of the alternative paths produced by
+this formulation.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Finding the $k$ shortest paths">BibTeX</a> --
+<a href="Epp-SJC-98.pdf">Full paper</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Finding-the-k-shortest-paths.html">Citations</a> --
+<a href="graehl.zip">Graehl implementation</a> --
+<a href="http://terra.act.uji.es/REA/">Jim&eacute;nez-Marzal implementations</a> --
+<a href="Shibuya.tar.gz">Shibuya implementation</a> --
+<a href="http://www.mat.uc.pt/~eqvm/cientificos/research.html">Martins implementation</a> --
+CiteSeer:
+<a href="http://citeseer.ist.psu.edu/eppstein94finding.html">TR '94</a>,
+<a href="http://citeseer.ist.psu.edu/eppstein98finding.html">SJC '98</a> --
+<a href="http://portal.acm.org/citation.cfm?id=299886">ACM DL</a>)
+<p>
+<li><b>Dihedral bounds for mesh generation in high dimensions</b>.<br>
+<a href="http://www.parc.xerox.com/csl/members/bern/">M. Bern</a>,
+<a href="http://www.cs.cornell.edu/Info/People/chew/chew.html">L.P. Chew</a>,
+D. Eppstein, and
+<a href="mailto:ruppert@tetrahedra.com">J. Ruppert</a>.<br>
+<i>892nd Meeting Amer. Math. Soc.,</i> Brooklyn, 1994.<br>
+Abstract in <i>Abs. Amer. Math. Soc.</i> 15, 1994, p. 366.<br>
+<a href="http://portal.acm.org/citation.cfm?id=313694">
+<i>6th ACM-SIAM Symp. Discrete Algorithms,</i>
+San Francisco, 1995, pp. 189-196.</a>
+<p>
+Any <i>d</i>-dimensional point set
+can be triangulated
+with O(<i>n</i><sup>ceil(<i>d</i>/2)</sup>) simplices, none of which has
+an obtuse
+dihedral angle.
+No bound depending only on <i>n</i> is possible 
+if we require the maximum dihedral angle to measure at most 
+90-epsilon degrees or the minimum dihedral to measure
+at least epsilon.  Includes a
+<a href="/~eppstein/junkyard/tetraqual.html">
+classification of simplices</a> in terms of their bad angles.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Dihedral bounds for mesh generation in high dimensions">BibTeX</a> --
+<a href="BerCheEpp-SODA-95.pdf">SODA paper</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Dihedral-bounds-for-mesh-generation-in-high-dimensions.html">Citations</a> --
+<a href="http://citeseer.ist.psu.edu/bern95dihedral.html">CiteSeer</a>)
+<p>
+<li><b>Subgraph isomorphism in planar graphs and related problems</b>.<br>
+D. Eppstein.<br>
+<a href="Epp-TR-94-25.pdf">Tech. Rep. 94-25</a>, ICS, UCI, 1994.<br>
+<a href="http://portal.acm.org/citation.cfm?id=313830">
+<i>6th ACM-SIAM Symp. Discrete Algorithms,</i>
+San Francisco, 1995, pp. 632-640</a>.<br>
+<a href="http://arXiv.org/abs/cs.DS/9911003">arXiv:cs.DS/9911003</a>.<br>
+<a href="http://www.cs.brown.edu/publications/jgaa/accepted/99/Eppstein99.3.3.pdf"><i>J. Graph
+Algorithms and Applications</i> 3(3):1-27, 1999.</a>
+<p>
+Uses an idea of Baker to cover a planar graph with subgraphs
+of low treewidth.  As a consequence, any fixed pattern can
+be found as a subgraph in linear time; the same methods can be used to
+solve other planar graph problems
+including vertex connectivity, diameter, girth, induced subgraph
+isomorphism, and shortest paths.
+A companion paper, "<a href="p-dtwmcgf.html">Diameter and treewidth in
+minor-closed graph families</a>", presents a result announced in the
+conference version of this paper,
+that exactly characterizes the minor-closed graph families for which the
+same techniques apply.
+<p>(<a href="/~eppstein/bibs/eppstein.html#Subgraph isomorphism in planar graphs and related problems">BibTeX</a> --
+<a href="http://fano.ics.uci.edu/cites/Document/Subgraph-isomorphism-in-planar-graphs-and-related-problems.html">Citations</a> --
+<a href="http://theory.lcs.mit.edu/~dmjones/SODA/References/eppstein1995:632.html">Citations from MIT hypertext bibliography</a> --
+<a href="http://citeseer.ist.psu.edu/eppstein95subgraph.html">CiteSeer (SODA)</a> --
+<a href="http://citeseer.ist.psu.edu/eppstein99subgraph.html">CiteSeer (JGAA)</a>)
+<p>
+</ul>
+
+<hr><p>
+<a href="year.html">Years</a> --
+<a href="/~eppstein/pubs/">Publications</a> --
+<a href="/~eppstein/">David Eppstein</a> --
+<a href="/~theory/">Theory Group</a> --
+<a href="/">Inf. &amp; Comp. Sci.</a> --
+<a href="http://www.uci.edu/">UC Irvine</a>
+<p>
+<small>Semi-automatically <a href="filter.html">filtered</a>
+from a common source file.</small>
+</body></html>
+

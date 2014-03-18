@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+<head>
+<title>Gene Macintosh Genealogy Software</title>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+
+<div align="CENTER">
+<h1>Gene Macintosh Genealogy Software<br>
+<img src="images/GeneTree.gif" alt=" "></h1>
+
+<small><font color="green"><i>"The look of this prodigiously
+likable little shareware item should be the envy of designers of
+more expensive software."</i></font><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -- David Pogue, MacWorld
+Magazine</small>
+<p><small><font color="green"><i>Four mice!</i></font>
+&nbsp;&nbsp;&nbsp; -- MacUser Magazine</small></p>
+</div>
+
+<hr>
+<p>Gene is a shareware genealogy database for the Macintosh written
+by David and Diana Eppstein.  You can use
+Gene to store family data and notes, draw and print family trees
+and pedigree charts, create web pages from your database, and
+exchange GEDCOM data with users of other genealogy programs. Gene
+is capable of handling complicated databases with thousands of
+names, multiple marriages and divorces, adoptions, illegitimate
+children, and intermarriage between relatives.</p>
+
+<p><font color=red>OS X NEWS:</font> As of November 2003, coding is in
+progress on a rewrite of BibGene, a simpler bibliographic database that
+shares most of its code with Gene.  Most of the back end database
+processing is in place, we have a tentative UI design, and front end
+implementation is beginning: everything on the File menu works (reading
+and writing multiple file formats including a new XML format and the old
+Classic format) but most other UI features are not yet implemented.  It
+is looking likely that a preliminary version of BibGene will be ready
+for release by the end of the year.  Gene will take some time longer
+than that, because it includes some more complex features (pictures and
+tree drawing) not used in BibGene.  In the meantime, Gene still runs
+well under the Classic environment of OS X, but Gene and BibGene are the
+only classic programs I still use regularly so I am quite interested in
+getting them updated.  Stay tuned...</p>
+
+<div align="CENTER">
+<p><a href="release.html">Download Gene 4.3.4</a></p>
+
+<p></p>
+
+<p><a href="http://order.kagi.com/?DD">Register your copy of
+Gene</a> </p>
+
+<p><a href="docs.html">View Gene's documentation and example web
+page output</a></p>
+
+<p><a href="users.html">See web pages created by other Gene
+users</a></p>
+
+<p><a href="links.html">Link to other network genealogy
+resources</a> </p>
+
+<hr>
+<p><a href="/~eppstein/software.html">Downloadable software</a> by
+<a href="http://www.ics.uci.edu/~eppstein/">David Eppstein</a>, <a
+href="http://www.ics.uci.edu/">ICS</a>, <a href=
+"http://www.uci.edu/">UC Irvine</a>.<br>
+<small>Last update: 
+25 Nov 2003, 21:34:22 PST.</small></p>
+</div>
+</body>
+</html>
+
+

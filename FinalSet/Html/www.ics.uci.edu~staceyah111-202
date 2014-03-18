@@ -1,0 +1,2069 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252"
+      http-equiv="Content-Type">
+    <title>Stats 111/202 - Winter 2014</title>
+    <meta content="Stacey Hancock" name="author">
+  </head>
+  <body alink="#EE0000" bgcolor="azure" text="#000000" vlink="#551A8B"
+    link="#0000EE">
+    <h2 align="center">Stats 111/202: <br>
+    </h2>
+    <h2 align="center">Statistical Methods for Data Analysis II<br>
+    </h2>
+    <h2> </h2>
+    <h2> </h2>
+    <h2> </h2>
+    <h2 align="center">Winter 2014<br>
+    </h2>
+    <h3 align="center"><a href="http://www.stat.uci.edu/">Department of
+        Statistics</a></h3>
+    <h3> </h3>
+    <h3> </h3>
+    <h3> </h3>
+    <h3 align="center">University of California, Irvine</h3>
+    <hr size="2" width="100%">
+    <h3>Jump to...<br>
+    </h3>
+    <ul>
+      <li><a href="#Course_Syllabus">Course Syllabus</a></li>
+      <li><a href="#Class_Locations_and_Times">Class Locations and Times</a><br>
+      </li>
+      <li><a href="#Instructor_and_Teaching_Assistant_Office">Instructor
+          and Teaching Assistant Office Hours <br>
+        </a></li>
+      <li><a href="#R_Resources">R Resources<br>
+        </a></li>
+      <li><a href="#Data_Sets">Data Sets Used in Class and on Homework</a><br>
+      </li>
+      <li><a href="#Class_Calendar">Class Calendar</a>: Material
+        covered, handouts, and homework assignments by day<br>
+      </li>
+    </ul>
+    <h3><font color="#cc0000">ANNOUNCEMENTS</font></h3>
+    <img alt="" src="../images/3797.gif" width="18" height="18"><b><i>Please
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        post any questions about homeworks, course material, lectures,
+        discussions, etc. on our course message board:</i></b> <a
+      href="https://eee.uci.edu/boards/w14/stats111-202">https://eee.uci.edu/boards/w14/stats111-202</a>
+    rather than emailing your instructor or TA. (You will have to log in
+    to EEE to view the message board).
+    <ul>
+    </ul>
+    <hr size="2" width="100%">
+    <h2><a name="Course_Syllabus"></a>Course Syllabus<br>
+    </h2>
+    Download the course syllabus <a href="Stat111-202-W14-Syllabus.pdf">here</a>.<br>
+    <br>
+    <i> Agresti's textbook resources:</i><br>
+    <ul>
+      <li><a href="http://www.stat.ufl.edu/%7Eaa/cda/R_web.pdf">R
+          examples and resources</a>.<br>
+      </li>
+      <li><a
+          href="http://www.stat.ufl.edu/%7Eaa/intro-cda/appendix.html">SAS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          data sets from Appendix A</a>.<br>
+      </li>
+      <li><a href="http://www.stat.ufl.edu/%7Eaa/cda/data.html">Full
+          data sets from the textbook</a>.</li>
+      <li><a
+          href="http://www.stat.ufl.edu/%7Eaa/intro-cda/corrections.pdf">Corrections
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          to the second edition of the textbook</a>.</li>
+    </ul>
+    Along with our required textbook, the following textbooks are on
+    reserve in the Ayala Science Library:<span style="font-style:
+      italic;"><br>
+    </span>
+    <ul>
+      <li>Agresti, A. <i>Categorical Data Analysis</i>.
+        Wiley-Interscience, 2002.</li>
+      <li>McCullagh, P. and Nelder, J. <i>Generalized Linear Models</i>,
+        2nd ed. Chapman &amp; Hall/CRC, 1989.</li>
+    </ul>
+    <p><br>
+    </p>
+    <ul>
+    </ul>
+    <h2><a name="Class_Locations_and_Times"></a>Class Locations and
+      Times</h2>
+    <table border="1" cellpadding="2" cellspacing="2" width="800">
+      <tbody>
+        <tr>
+          <td align="center" valign="top" width="300"><font
+              color="#993300"><b>Lecture A</b></font><br>
+            Tue/Thurs 11:00am-12:20pm<br>
+            <a href="http://www.classrooms.uci.edu/GAC/DBH1500.html">Donald
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              Bren Hall (DBH) 1500</a><br>
+            <a href="http://www.ics.uci.edu/%7Estaceyah/">Prof. Stacey
+              Hancock</a><br>
+            <br>
+          </td>
+          <td valign="top">
+            <table border="1" cellpadding="2" cellspacing="2"
+              width="100%">
+              <tbody>
+                <tr>
+                  <td bgcolor="#00cccc" valign="top" width="250"><b>Lab
+                      Section</b><br>
+                  </td>
+                  <td bgcolor="#00cccc" valign="top"><b>Teaching
+                      Assistant</b><br>
+                  </td>
+                </tr>
+                <tr>
+                  <td valign="top" width="250">1: Wed 11-11:50am, <a
+                      href="http://www.classrooms.uci.edu/GAC/ET204.html">ET
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      204</a><br>
+                  </td>
+                  <td valign="top">Brandon Berman<br>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p><br>
+    </p>
+    <h2><a name="Instructor_and_Teaching_Assistant_Office"></a>Instructor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      and Teaching Assistant Office Hours</h2>
+    <table border="1" cellpadding="2" cellspacing="2" width="950">
+      <tbody>
+        <tr>
+          <td valign="top"><b>Instructor</b><br>
+          </td>
+          <td colspan="1" rowspan="1" align="center" valign="top"><b>Teaching
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              Assistant</b><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top" width="200"><a
+              href="http://www.ics.uci.edu/%7Estaceyah/">Prof. Stacey
+              Hancock</a><br>
+          </td>
+          <td valign="top" width="200">Brandon Berman<br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Office:&nbsp; DBH 2204<br>
+          </td>
+          <td valign="top">Office Hours: DBH 2032<br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Phone:&nbsp; (949) 824-9795 </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">email:&nbsp; staceyah_at_uci.edu<br>
+          </td>
+          <td valign="top">bermanb_at_uci.edu<br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Office Hours:<br>
+            Mon 11am-12pm (Stats 7 given preference)<br>
+            Wed 11am-12pm (Stats 7 given preference)<br>
+            Tue 2-3:30pm (<i><b>Stats 111/202 given preference</b></i>)<br>
+            Thurs 2-3:30pm (Stats 120B given preference)<br>
+            <i>or by appointment</i><br>
+          </td>
+          <td valign="top">Mon 4-5pm<br>
+            Wed 4-5pm<br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <h2><a name="R_Resources"></a>R Resources<br>
+    </h2>
+    <p>
+      <meta http-equiv="content-type" content="text/html;
+        charset=windows-1252">
+    </p>
+    <meta http-equiv="content-type" content="text/html;
+      charset=windows-1252">
+    <big style="font-weight: bold;"><span style="font-style: italic;">ICS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Labs:</span></big><br>
+    <a href="http://www.ics.uci.edu/%7Elab/students/acct_activate.php">How
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      to get an account to use the ICS Labs</a><big style="font-weight:
+      bold;"><span style="font-style: italic;"></span></big><br>
+    <a href="http://www.ics.uci.edu/%7Elab/lab_schedule/index.php">ICS
+      Lab Hours</a><big style="font-weight: bold;"><span
+        style="font-style: italic;"><br>
+        <br>
+        Download and Install R:</span></big><br>
+    <a href="http://www.r-project.org/">The R Project for Statistical
+      Computing</a><br>
+    <a href="http://cran.r-project.org/bin/windows/base/rw-FAQ.html">R
+      for Windows FAQ</a><br>
+    <a href="http://cran.r-project.org/bin/macosx/RMacOSX-FAQ.html">R
+      for Mac FAQ</a><br>
+    <br>
+    <big><span style="font-style: italic; font-weight: bold;">Quick R
+        References:</span></big><br>
+    <a href="http://people.reed.edu/%7Ejones/141/RRef.html">Jones R
+      Reference Page</a><br>
+    <a
+      href="http://www.cran.r-project.org/doc/contrib/Short-refcard.pdf">Short
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      R Reference Card</a><br>
+    <br style="font-style: italic;">
+    <big><span style="font-style: italic; font-weight: bold;">Online R
+        Tutorials and Documentation:</span></big><br>
+    <a href="http://cran.r-project.org/doc/FAQ/R-FAQ.html">R FAQ</a><br>
+    <a href="http://rwiki.sciviews.org/doku.php">R Wiki</a><br>
+    An Introduction to R (<a
+      href="http://cran.r-project.org/doc/manuals/R-intro.pdf">pdf</a>)
+    (<a href="http://cran.r-project.org/doc/manuals/R-intro.html">html</a>)<br>
+    <a
+      href="http://www.cran.r-project.org/doc/contrib/Verzani-SimpleR.pdf">Verzani
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Simple R Notes</a><br>
+    <br>
+    <big><span style="font-style: italic; font-weight: bold;">R Books:</span></big>&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    The following two books are free to download on <a
+      href="http://link.springer.com/">link.springer.com</a> if you're
+    accessing it on UCI campus<span style="font-style: italic;">:</span><br>
+    <ul>
+      <li> <a
+          href="http://link.springer.com/book/10.1007/978-0-387-93837-0/page/1"><span
+            style="font-style: italic;">A Beginner's Guide to R</span></a>
+        by Alain F. Zuur, Elena N. Ieno, and Erik Meesters; Springer,
+        2009.</li>
+      <li> <a
+          href="http://link.springer.com/book/10.1007/978-0-387-79054-1/page/1"><span
+            style="font-style: italic;">Introductory Statistics with R</span></a>
+        by Peter Dalgaard; Springer, 2008.</li>
+    </ul>
+    <p>There are many other books written on R, and a simple search will
+      produce many results. In particular, Springer has a book series of
+      "Use R" books which you can explore <a
+        href="http://link.springer.com/bookseries/6991">here</a>.</p>
+    <ul>
+    </ul>
+    <big><b><i> R Studio</i></b></big><i><b>:</b></i><br>
+    RStudio is a nice user interface for R, and many of my previous
+    students prefer using RStudio over the basic R. It is still command
+    based, but has some nice features like, e.g., keeps track of your
+    plots, easily shows command history, lists objects in the workspace,
+    etc. You can download RStudio <a
+      href="http://www.rstudio.com/ide/download/">here</a>. You must
+    already have R downloaded and installed on your computer.<br>
+    <br>
+    <h2><a name="Data_Sets"></a>Data Sets</h2>
+    <a href="http://www.macalester.edu/%7Ekaplan/ism/datasets/cps.csv">Current
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Population Survey (1985)</a><br>
+    <a href="data/World_Bank_2009.csv">World Bank Data (1990)</a><br>
+    <a href="data/horseshoe.txt">Agresti Horseshoe Crab Data</a><br>
+    <a href="data/Framingham.txt">Framingham Data Set</a> (<a
+      href="data/framingham.html">Description</a>)<br>
+    <a href="data/o-ring.data.txt">O-ring Data Set</a><br>
+    <a href="data/Crysdale.txt">Crysdale Data for Problem 2.27</a> (<a
+      href="data/CrysdaleDescription.txt">Description</a>)<br>
+    <a href="data/admissions%20data.csv">Admissions Data</a><br>
+    <br>
+    <h2><a name="Class_Calendar"></a>Class Calendar</h2>
+    <p>This calendar will be updated after each class. Check back
+      periodically for required reading, additional handouts and
+      references, homework assignments, and lecture notes.<br>
+    </p>
+    <table border="1" cellpadding="2" cellspacing="2" width="100%">
+      <tbody>
+        <tr>
+          <td bgcolor="#00cccc" valign="top" width="100"><b>Date</b><b><br>
+            </b></td>
+          <td bgcolor="#00cccc" valign="top" width="400"><b>Material
+              Covered</b><b><br>
+              (Tentative schedule; may be updated after each class)<br>
+            </b></td>
+          <td bgcolor="#00cccc" valign="top" width="100"><b>Date HW Due</b><b><br>
+            </b></td>
+          <td bgcolor="#00cccc" valign="top" width="200"><b>Assignment</b><b><br>
+            </b></td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Week 1:</b><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Tue. Jan. 7<br>
+          </td>
+          <td valign="top"><a href="lectures/111-202-Lecture1-Jan8.pdf"></a>Chapter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            1 Sections 1.1-1.3 (Skip 1.4 for now)<br>
+            <a href="lectures/Stat111-202-W14-Lecture1-PPT.pdf">Lecture
+              1 Slides</a><br>
+            <a href="lectures/Stat111-202-W14-Lecture1-Jan7.pdf">Lecture
+              1 Notes</a><br>
+            <a href="R/R-Lec1-Jan7.history">R code history from lecture</a><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion 1<br>
+          </td>
+          <td valign="top"><a href="discussion/Discussion%201.R">Introduction/review
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              of R software</a>.<br>
+            <a href="discussion/R%20Console%20week%201.txt">R code
+              history from discussion</a><br>
+            <br>
+            <i>Additional links</i>:<br>
+            <ul>
+              <li><a href="discussion/Rintro.html">Getting started with
+                  R</a></li>
+              <li><a href="discussion/BasicR.html">Basic R functions</a></li>
+              <li><a href="discussion/Prob_Distns.html">Probability
+                  distributions in R</a><br>
+              </li>
+            </ul>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Thurs. Jan. 9<br>
+          </td>
+          <td valign="top"><a href="lectures/111-202-Lecture2-Jan10.pdf"></a>Chapter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            2 Sections 2.1-2.3<br>
+            <a href="lectures/Stat111-202-W14-Lecture2-Jan9.pdf">Lecture
+              2 Notes</a><br>
+            <ul>
+              <li><a href="handouts/Jan9-ContingencyExamples.pdf">Contingency
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  Table Examples</a> (<a
+                  href="handouts/Jan9-ContingencyExamples-Answers.pdf">with
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  answers</a>)<br>
+              </li>
+            </ul>
+          </td>
+          <td valign="top">Thurs. Jan. 16<br>
+          </td>
+          <td valign="top"><a href="homework/Stat111-202-W14-HW1.pdf">Homework
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              #1</a><br>
+            <br>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Week 2:</b><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Tue. Jan. 14<br>
+          </td>
+          <td valign="top"><a href="lectures/111-202-Lecture3-Jan15.pdf"></a>Finish
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Lecture 2 notes.<br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion 2<br>
+          </td>
+          <td valign="top">Question and answer discussion of material.<br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Thurs. Jan. 16<br>
+          </td>
+          <td valign="top">Chapter 2 Sections 2.4 and 2.6.<br>
+            <a href="lectures/Stat111-202-W14-Lecture3-Jan16.pdf">Lecture
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              3 Notes</a><br>
+            <ul>
+              <li><a href="R/R-Lec3-Jan16-ContTables.R">R code for
+                  contingency table examples</a><br>
+              </li>
+            </ul>
+          </td>
+          <td valign="top">Tue. Jan. 28<br>
+          </td>
+          <td valign="top"><a href="homework/Stat111-202-W14-HW2.pdf">Homework
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              #2</a><br>
+            (Updated Jan. 21 12:30am)<br>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Week 3:</b><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Tue. Jan. 21<br>
+          </td>
+          <td valign="top"><a href="lectures/111-202-Lecture4-Jan22.pdf"></a>Chapter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            2 Sections 2.5 and 2.7.<br>
+            <a href="lectures/Stat111-202-W14-Lecture4-Jan21.pdf">Lecture
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              4 Notes</a><br>
+            <a href="lectures/Stat111-202-W14-Lecture4-PPT.pdf">Lecture
+              4 Slides</a><br>
+            <ul>
+              <li><a href="R/R-Lec4-Jan21-Trend.R">R code for trend test
+                  example with Framingham data</a> (Updated Jan. 23
+                10:30am)</li>
+              <li><a href="R/R-Lec4-Jan21.history">R code history from
+                  lecture</a><br>
+              </li>
+            </ul>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion 3<br>
+          </td>
+          <td valign="top">Tables and data frames in R; review of linear
+            models. <br>
+            <a href="discussion/R%20Console%20Discussion%203.txt">R code
+              history from discussion</a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Thurs. Jan. 23<br>
+          </td>
+          <td valign="top"><a href="lectures/111-202-Lecture5-Jan24.pdf"></a>Start
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Chapter 3.<br>
+            Finish Lecture 4 notes; <a
+              href="lectures/Stat111-202-W14-Lecture5-Jan23.pdf">Lecture
+              5 Notes</a><br>
+            <a href="R/R-Lec4-Jan23.history">R code history from lecture</a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Week 4:</b><b><br>
+            </b></td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Tue. Jan. 28<br>
+          </td>
+          <td valign="top">Chapter 3 Sections 3.1-3.2.<br>
+            <a href="lectures/Stat111-202-W14-Lecture6-Jan28.pdf">Lecture
+
+
+
+
+
+
+
+
+
+              6 Notes</a><br>
+            <ul>
+              <li><a href="handouts/ReviewLogarithms.pdf">Logarithm
+                  review (Gillen)</a></li>
+              <li><a href="R/R-Lec6-Jan28-GLMIntro.R">R code for GLMs
+                  with Framingham data</a> (Updated Jan. 28 at 1:30pm)</li>
+              <li><a href="R/R-Lec6-Jan28.history">R code history from
+                  lecture</a><br>
+              </li>
+            </ul>
+          </td>
+          <td valign="top">Tue. Feb. 4<br>
+          </td>
+          <td valign="top"><a href="homework/Stat111-202-W14-HW3.pdf">Homework
+
+
+
+
+
+
+
+
+
+              #3</a><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion 4<br>
+          </td>
+          <td valign="top">Finish review of linear models and
+            interpreting coefficients; fitting GLMs in R.<br>
+            <ul>
+              <li><a href="discussion/Linear%20Regression%20review.R">Linear
+
+
+
+
+
+
+
+                  regression review in R</a></li>
+              <li><a
+                  href="discussion/Logisitic%20Regression%20tutorial.R">Logistic
+
+
+
+
+
+
+
+                  regression tutorial in R</a><br>
+              </li>
+            </ul>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Thurs. Jan. 30<br>
+          </td>
+          <td valign="top">Chapter 3 Sections 3.3-3.5.<br>
+            <a href="lectures/Stat111-202-W14-Lecture7-Jan30.pdf">Lecture
+
+
+
+
+
+
+              7 Notes</a><br>
+            <ul>
+              <li><a href="R/R-Lec7-Jan30-Horseshoe_Crabs.R">R code for
+                  Poisson regression with horseshoe crab data</a></li>
+              <li><a href="R/R-Lec7-Jan30.history">R code history from
+                  lecture</a><br>
+              </li>
+            </ul>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Week 5:</b><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Tue. Feb. 4<br>
+          </td>
+          <td valign="top">Finish Chapter 3; review for midterm exam.
+            Start Chapter 4.<br>
+            <a href="lectures/Stat111-202-W14-Lecture8-Feb4.pdf">Lecture
+              8 Notes</a><br>
+            <ul>
+              <li> <a href="R/R-Lec8-Feb4-MultLogitReg.R">Multiple
+                  logistic regression in R with Framingham and Berkeley
+                  data</a></li>
+              <li><a href="R/R-Lec8-Feb4.history">R code history from
+                  lecture</a><br>
+              </li>
+            </ul>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion 5<br>
+          </td>
+          <td valign="top">Review for Midterm Exam.<br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Thurs. Feb. 6<br>
+          </td>
+          <td bgcolor="#ffff66" valign="top"><b>MIDTERM EXAM: Chapters
+              1-3<br>
+            </b>
+            <ul>
+              <li><a href="Mid_Review.pdf">Important midterm information
+                  and practice problems</a></li>
+              <li><a href="Mid_Review-Solns.pdf">Solutions to practice
+                  problems</a><b><br>
+                </b></li>
+            </ul>
+            <b> </b> <b> </b></td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Week 6:</b><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Tue. Feb. 11<br>
+          </td>
+          <td valign="top"><a href="lectures/111-202-Lecture9-Feb12.pdf"></a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion 6<br>
+          </td>
+          <td valign="top"><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Thurs. Feb. 13<br>
+          </td>
+          <td valign="top"><a
+              href="lectures/111-202-Lecture10-Feb14.pdf"></a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Week 7:</b><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Tue. Feb. 18<br>
+          </td>
+          <td valign="top"><a
+              href="lectures/111-202-Lecture11-Feb19.pdf"></a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion 7<br>
+          </td>
+          <td valign="top"><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Thurs. Feb. 20<br>
+          </td>
+          <td valign="top"><a
+              href="lectures/111-202-Lecture12-Feb21.pdf"></a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Week 8:</b><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Tue. Feb. 25<br>
+          </td>
+          <td valign="top"><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion 8<br>
+          </td>
+          <td valign="top"><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Thurs. Feb. 27<br>
+          </td>
+          <td valign="top"><a
+              href="lectures/111-202-Lecture13-Feb28.pdf"></a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Week 9:</b><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Tue. Mar. 4<br>
+            <br>
+          </td>
+          <td valign="top"><a href="lectures/111-202-Lecture14-Mar5.pdf"></a><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion 9<br>
+          </td>
+          <td valign="top"><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Thurs. Mar. 6<br>
+          </td>
+          <td valign="top"><a href="lectures/111-202-Lecture15-Mar7.pdf"></a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Week 10:</b><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Tue. Mar. 11<br>
+          </td>
+          <td valign="top"><a
+              href="lectures/111-202-Lecture16-Mar12.pdf"></a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top">Take-home final exam handed out at the end of
+            lecture. </td>
+        </tr>
+        <tr>
+          <td valign="top">Discussion 10<br>
+          </td>
+          <td valign="top"><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">Thurs. Mar. 13<br>
+          </td>
+          <td valign="top"><a
+              href="lectures/111-202-Lecture17-Mar14.pdf"></a><br>
+            <br>
+          </td>
+          <td valign="top"><br>
+          </td>
+          <td valign="top"><br>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#00cccc" valign="top"><b>Final Exam:</b><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top">Take-home final exam due by
+            5pm on Tuesday, March 18.<br>
+            Turn in via EEE Dropbox folder.<br>
+            <br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+          <td bgcolor="#00cccc" valign="top"><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p><br>
+    </p>
+    <br>
+    <p> </p>
+    <p> </p>
+  </body>
+</html>
+

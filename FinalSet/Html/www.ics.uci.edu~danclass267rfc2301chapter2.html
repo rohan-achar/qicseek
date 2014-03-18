@@ -1,0 +1,631 @@
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   
+      <title>Zvon - RFC 2301 - TIFF and Fax</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body>
+      <table width="100%" class="hangingMenu">
+         <tr>
+            <td style="text-align:right"><a class="naviBlack" target="_top" href="http://www.zvon.org">ZVON</a> &gt; <a class="naviBlack" target="_top" href="http://zvon.org/tmRFC/RFC_share/Output/index.html">RFC Repository</a> &gt; <b>RFC 2301</b></td>
+         </tr>
+      </table>
+      <table class="bar" width="750px" border="0" cellpadding="0" cellspacing="0">
+         <tr>
+            <td class="naviBlue"><a class="naviWhite" target="_top" href="index.html"> Frontpage </a> / <a class="naviWhite" href="longContents.html"> Contents </a></td>
+         </tr>
+      </table>
+      <table class="hangingMenu" border="0" cellpadding="1" cellspacing="0" width="100%">
+         <tr>
+            <td><a class="naviBlack" href="chapter1.html">Prev</a> | <a class="naviBlack" href="chapter3.html">Next</a> | <a class="naviBlack" target="_top" href="http://zvon.org/tmRFC/RFC_share/Output/index.html">RFC index</a> | <a class="naviBlack" target="mainWindow" href="http://zvon.org/tmRFC/RFC_share/PHP/titleSearch.php">RFC search</a></td>
+            <td><a class="naviBlack" target="mainWindow" href="http://zvon.org/tmRFC/RFC_share/PHP/download.php?rfc=2301">Download as zip/tar.gz</a></td>
+         </tr>
+      </table>
+      <h2>2. TIFF and Fax</h2><a name="sub1"></a><h3>2.1. TIFF Overview</h3>
+      
+      
+      <p>
+            TIFF provides a means for describing, storing and interchanging
+            raster image data. A primary goal of TIFF is to provide a rich
+            environment within which applications can exchange image data. The
+            current TIFF specification [<a title="Tag Image File Format, Revision 6.0, Adobe Developers Association, June 3, 1992, ftp://ftp.adobe.com/pub/adobe/devrelations/ devtechnotes/pdffiles/tiff6.pdf The TIFF 6.0 specification dated June 3, 1" href="chapter11.html#TIFF">TIFF</a>] defines a commonly used, core set
+            of TIFF fields known as Baseline TIFF. The current specification and
+            TIFF Technical Notes 1 and 2 [<a title="Adobe PageMaker 6.0 TIFF Technical Notes, Sept. 14, 1995, http://www.adobe.com/supportservice/devrelations/PDFS/TN/TIFFPM6.pdf" href="chapter11.html#TTN1">TTN1</a>, <a title="Draft TIFF Technical Note 2, Replacement TIFF/JPEG specification, March 17, 1995, ftp://ftp.sgi.com/graphics/tiff/TTN2.draft.txt" href="chapter11.html#TTN2">TTN2</a>] define several TIFF
+            extensions. The TIFF- based specification for fax applications uses a
+            subset of Baseline TIFF fields, with selected extensions, as
+            described in this document. In a few cases, this document defines new
+            TIFF fields specifically for fax applications.
+         
+      </p>
+      <a name="sub1sub1"></a><h3>2.1.1. File Structure</h3>
+      
+      
+      <p>
+            TIFF is designed for raster images, which makes it a good match for
+            facsimile documents, which are multi-page raster images. Each raster
+            image consists of a number of rows or scanlines, each of which has
+            the same number of pixels, the unit of sampling. Each pixel has at
+            least one sample or component (exactly one for black-and-white
+            images).
+         
+      </p>
+      <p>
+            A TIFF file begins with an 8-byte image file header. The first two
+            bytes describe the byte order used within the file. Legal values are
+            "II" (0x4949) when bytes are ordered from least to most significant
+            (little- endian), and "MM" (0x4D4D), when bytes are ordered from most
+            to least significant (big-endian) within a 16- or 32-bit integer.
+            Either byte order can be used, except in the case of the minimal
+            black-and-white mode, which SHALL use value "II". The next two bytes
+            contain the value 42 that identifies the file as a TIFF file and is
+            ordered according to the value in the first two bytes of the header.
+            The last four bytes give the offset that points to the first image
+            file directory (IFD). This and all other offsets in a TIFF file are
+            with respect to the beginning of the TIFF file. An IFD can be at any
+            location in the file after the header but must begin on a word
+            boundary.
+         
+      </p>
+      <p>
+            An IFD is a sequence of tagged fields, sorted in ascending order by
+            tag value. An IFD consists of a 2-byte count of the number of fields,
+            a sequence of field entries and a 4-byte offset to the next IFD. The
+            fields contain information about the image and pointers to the image
+            data. Each separate raster image in the file is represented by an
+            IFD.
+         
+      </p>
+      <p>
+            Each field entry in an IFD has 12 bytes and consists of a 2-byte Tag,
+            2 bytes identifying the field type (e.g. short, long, rational,
+            ASCII), 4 bytes giving the count (number of values or offsets), and 4
+            bytes that either contain the offset to a field value stored outside
+            the IFD, or, based on the type and count, the field value itself.
+            Resolution and metadata such as dates, names and descriptions are
+            examples of "long" field values that do not fit in 4 bytes and
+            therefore use offsets in the field entry. Details are given in the
+            TIFF specification [<a title="Tag Image File Format, Revision 6.0, Adobe Developers Association, June 3, 1992, ftp://ftp.adobe.com/pub/adobe/devrelations/ devtechnotes/pdffiles/tiff6.pdf The TIFF 6.0 specification dated June 3, 1" href="chapter11.html#TIFF">TIFF</a>].
+         
+      </p>
+      <p>
+            A TIFF file can contain more than one IFD, where each IFD is a
+            subfile whose type is given in the NewSubfileType field. Multiple
+            IFDs can be organized either as a linked list, with the last entry in
+            each IFD pointing to the next IFD (the pointer in the last IFD is 0),
+            or as a tree, using the SubIFDs field in the primary IFD [<a title="Adobe PageMaker 6.0 TIFF Technical Notes, Sept. 14, 1995, http://www.adobe.com/supportservice/devrelations/PDFS/TN/TIFFPM6.pdf" href="chapter11.html#TTN1">TTN1</a>]. The
+            SubIFDs field contains an array of pointers to child IFDs of the
+            primary IFD.
+         
+      </p>
+      <p>
+            Child IFDs describe related images, such as reduced resolution
+            versions of the primary IFD image. The same IFD can point both to a
+            next IFD and to child IFDs, and child IFDs can themselves point to
+            other IFDs.
+         
+      </p>
+      <p>
+            All fax modes represent a multi-page fax image as a linked list of
+            IFDs, with a NewSubfileType field containing a bit that identifies
+            the IFD as one page of a multi-page document. Each IFD has a
+            PageNumber field, identifying the page number in ascending order,
+            starting at 0 for the first page. While a Baseline TIFF reader is not
+            required to read any IFDs beyond the first, an implementation that
+            reads the files that comply with this specification SHALL read
+            multiple IFDs. Only the Mixed Raster Content fax mode, described in
+            Section 8, requires the use of child IFDs.
+         
+      </p>
+      <p>
+            The following figure illustrates the structure of a multi-page TIFF
+            file.
+         
+      </p>
+      <pre>
+                   +-----------------------+
+                   |         Header        |------------+
+                   +-----------------------+            | First IFD
+                   |      IFD (page 0)     |&lt;-----------+ Offset
+               +---|                       |------------+
+         Value |   +-----------------------+            |
+        Offset +--&gt;|      Long Values      |--+         |
+                   +-----------------------|  | Strip   |
+                   |       Image Data      |&lt;-+ Offset  |
+                   |     strip 1 page 0    |  |         |
+                   +-----------------------+  |         |
+                   |           :           |  :         |
+                                                        |
+                   +-----------------------+            | Next IFD
+                   |      IFD (page 1)     |&lt;-----------+ Offset
+               +---|                       |------------+
+         Value |   +-----------------------+            |
+        Offset +--&gt;|      Long Values      |--+         |
+                   +-----------------------|  | Strip   |
+                   |       Image Data      |&lt;-+ Offset  |
+                   |     strip 1 page 1    |  |         |
+                   +-----------------------+  |         |
+                   |     strip 2 page 1    |&lt;-+         |
+                   +-----------------------+  |         |
+                   |          :            |  :         |
+                                                        |
+                   +-----------------------+            | Next IFD
+                   |      IFD (page 2)     |&lt;-----------+ Offset
+                   |          :            |
+</pre>
+      
+      <a name="sub1sub2"></a><h3>2.1.2. Image Structure</h3>
+      
+      
+      <p>
+            An IFD stores an image as one or more strips, as shown in the
+            preceding figure. A strip consists of 1 or more scanlines (rows) of
+            raster image data in compressed form. An image may be stored in a
+            single strip or may be divided into several strips, which would
+            require less memory to buffer. (Baseline TIFF recommends about 8k
+            bytes per strip, but existing fax usage is typically one strip per
+            image.)
+         
+      </p>
+      <p>
+            Each IFD requires three strip-related fields: StripOffsets,
+            RowsPerStrip and StripByteCounts. The StripOffsets field is an array
+            of pointers to the strip or strips that contain the actual image
+            data. The StripByteCounts field gives the number of bytes in each
+            strip after compression. TIFF requires that each strip, except the
+            last, contain the same number of scanlines, which is given in the
+            RowsPerStrip field. This document introduces the new StripRowCounts
+            field that allows a variable number of scanlines per strip, which is
+            required by the Mixed Raster Content fax mode (Section 8).
+         
+      </p>
+      <p>
+            Image data is stored as uninterpreted, compressed image data streams
+            within a strip. The formats of these streams follow the ITU-T
+            Recommendations. The Compression field in the IFD indicates the type
+            of compression, and other TIFF fields in the IFD describe image
+            attributes, such as color encoding and spatial resolution.
+            Compression parameters are stored in the compressed data stream,
+            rather than in TIFF fields. This makes the TIFF representation and
+            compressed data format specification independent of each another.
+            This approach, modeled on [<a title="Draft TIFF Technical Note 2, Replacement TIFF/JPEG specification, March 17, 1995, ftp://ftp.sgi.com/graphics/tiff/TTN2.draft.txt" href="chapter11.html#TTN2">TTN2</a>], allows TIFF to gracefully add new
+            compression schemes as they become available.
+         
+      </p>
+      <p>
+            Some attributes can be specified both in the compressed data stream
+            and within a TIFF field. It is possible that the two values will
+            differ. When this happens for values required to interpret the data
+            stream, then the values in the data stream take precedence. For
+            informational values that are not required to interpret the data
+            stream, such as author name, then the TIFF field value takes
+            precedence.
+         
+      </p>
+      
+      <a name="sub1sub3"></a><h3>2.1.3. TIFF File Structure for Fax Applications</h3>
+      
+      
+      <p>
+            The TIFF specification has a very flexible file structure, which does
+            not specify the ordering of IFDs, field values and image data in a
+            file. Individual applications may require or recommend an ordering.
+         
+      </p>
+      <p>
+            This specification recommends that when using a TIFF file for
+            facsimile, A multi-page fax document SHOULD be represented as a
+            linked list of IFDs. It also recommends that a TIFF file for
+            facsimile SHOULD order pages in a TIFF file in the same way that they
+            are ordered in a fax data stream. In a TIFF file, a page consists of
+            several elements: one or more IFDs (including subIFDs), long field
+            values that are stored outside the IFDs, and image data (in one or
+            more strips).
+         
+      </p>
+      <p>
+            The minimal black-and-white mode (Profile S) specifies a required
+            ordering of pages and elements within a page (Section 3.5). The
+            extended black-and-white mode (Profile F) provides guidelines for
+            ordering pages and page elements (Section 4.4.6). Other profiles
+         
+      </p>
+      <p>
+            SHOULD follow these guidelines. This recommendation is intended to
+            simplify the implementation of TIFF writers and readers in fax
+            applications and the conversion between TIFF file and fax data stream
+            representations. However, for interchange robustness, readers SHOULD
+            be prepared to read TIFF files whose structure is consistent with
+            [<a title="Tag Image File Format, Revision 6.0, Adobe Developers Association, June 3, 1992, ftp://ftp.adobe.com/pub/adobe/devrelations/ devtechnotes/pdffiles/tiff6.pdf The TIFF 6.0 specification dated June 3, 1" href="chapter11.html#TIFF">TIFF</a>], which supports a more flexible file structure than is
+            recommended here.
+         
+      </p>
+      <p>
+            This specification introduces an optional new GlobalParametersIFD
+            field, defined in Section 2.2.4. This field has type IFD and
+            indicates parameters describing the fax session. While it is often
+            possible to obtain these parameters by scanning the file, it is
+            convenient to make them available together in one place for fast and
+            easy access. If the GlobalParametersIFD occurs in a TIFF file, it
+            SHOULD be located in the first IFD, immediately following the 8-byte
+            image file header.
+         
+      </p>
+      
+      <a name="sub2"></a><h3>2.2. TIFF Fields for All Fax Applications</h3>
+      
+      
+      <p>
+            The TIFF specification [<a title="Tag Image File Format, Revision 6.0, Adobe Developers Association, June 3, 1992, ftp://ftp.adobe.com/pub/adobe/devrelations/ devtechnotes/pdffiles/tiff6.pdf The TIFF 6.0 specification dated June 3, 1" href="chapter11.html#TIFF">TIFF</a>] is organized as a baseline set and
+            several extensions, including technical notes [<a title="Adobe PageMaker 6.0 TIFF Technical Notes, Sept. 14, 1995, http://www.adobe.com/supportservice/devrelations/PDFS/TN/TIFFPM6.pdf" href="chapter11.html#TTN1">TTN1</a>, <a title="Draft TIFF Technical Note 2, Replacement TIFF/JPEG specification, March 17, 1995, ftp://ftp.sgi.com/graphics/tiff/TTN2.draft.txt" href="chapter11.html#TTN2">TTN2</a>] that will
+            be incorporated in the next release of TIFF. The baseline and
+            extensions have required and optional fields.
+         
+      </p>
+      <p>
+            Facsimile applications require (and recommend) a mixture of baseline
+            and extensions fields, as well as some new fields that are not part
+            of the TIFF specification and that are defined in this document. This
+            sub- section lists the fields that are required or recommended for
+            all modes. In particular, Section 2.2.1 lists the fields that are
+            required by all modes and that have values that do not depend on the
+            mode. Section 2.2.2 lists the fields that are required by all modes
+            and that have values which do depend on the mode. Section 2.2.3 lists
+            the fields that are recommended for all modes. Fields that are
+            required or recommended by some but not all modes are given in the
+            section (Section 3-8) that describes that mode. The sections for each
+            fax mode have sub-sections for required and recommended fields; each
+            sub-section organizes the fields according to whether they are
+            baseline, extension or new.
+         
+      </p>
+      <p>
+            The fields required for facsimile have only a few legal values,
+            specified in the ITU-T Recommendations. Of these legal values, some
+            are required and some are optional, just as they are required
+            (mandatory) or optional in fax implementations that conform to the
+            ITU-T Recommendations. The required and optional values are noted in
+            the sections on the different fax modes.
+         
+      </p>
+      <p>
+            This section describes the fields required or recommended by all fax
+            modes. The pattern for the description of TIFF fields in this draft
+            is:
+         
+      </p>
+      <pre>
+FieldName(TagValueInDecimal) = allowable values.                    TYPE
+    WhetherRequiredByTIFForTIFFforFAX
+    Count = (omitted if =1) = (if not in current spec but available)
+    Explanation of the field, how it's used, and the values it can have.
+    Default value, if any, as specified in [<a title="Tag Image File Format, Revision 6.0, Adobe Developers Association, June 3, 1992, ftp://ftp.adobe.com/pub/adobe/devrelations/ devtechnotes/pdffiles/tiff6.pdf The TIFF 6.0 specification dated June 3, 1" href="chapter11.html#TIFF">TIFF</a>]
+</pre>
+      <p>
+            When a field's default value is the desired value, that field may be
+            omitted from the relevant IFD unless specifically required by the
+            text of this specification.
+         
+      </p>
+      <a name="sub2sub1"></a><h3>2.2.1. TIFF fields required for all fax modes</h3>
+      
+      
+      
+      <p>
+            The TIFF fields listed in this section SHALL be used by all fax
+            modes, but have field values that are not specified by the ITU
+            standards, i.e. the fields do not depend on the mode. The next sub-
+            section lists the fields that SHALL be used by all fax modes, but
+            which do have values specified by the ITU-specified or mode-specific
+            values. Fields that SHALL be used by some but not all modes are given
+            in the sections (3-8) which describe the modes that uses them.
+         
+      </p>
+      <pre>
+ImageLength(257)                                           SHORT or LONG
+    RequiredByTIFFBaseline
+    Total number of scanlines in image.
+    No default, must be specified.
+
+PageNumber(297)                                                    SHORT
+    RequiredByTIFFforFAX, TIFFExtension
+    Count = 2
+    The first number represents the page number (0 for the first page);
+    the second number is the total number of pages in the document. If
+    the second value is 0, then the total page count is not available.
+    No default, must be specified
+
+RowsPerStrip(278)                                          SHORT or LONG
+    RequiredByTIFFBaseline
+    The number of scanlines per TIFF strip, except for the last strip.
+    For a single strip image, this is the same as the value of the
+    ImageLength field.
+    Default = 2**32 - 1 (meaning all scanlines in one strip)
+
+StripByteCounts(279)                                       SHORT or LONG
+    RequiredByTIFFBaseline
+    Count = number of strips
+    For each strip, the number of bytes in that strip after compression.
+
+    No default, must be specified.
+
+StripOffsets(273)                                          SHORT or LONG
+    RequiredByTIFFBaseline
+    Count = number of strips
+    For each strip, the byte offset from the beginning of the file to
+    the start of that strip.
+    No default, must be specified.
+</pre>
+      
+      <a name="sub2sub2"></a><h3>2.2.2. Additional TIFF fields required for all fax modes</h3>
+      
+      
+      
+      <p>
+            The TIFF fields listed in this section SHALL be used by all fax
+            modes, but the values associated with them depend on the mode being
+            described and the associated ITU Recommendations. Therefore, only the
+            fields are defined here; the values applicable to a particular fax
+            mode are described in Sections 3-8. Fields that SHALL be used by some
+            but not all modes are given in the section (3-8) describing the mode
+            that uses them.
+         
+      </p>
+      <pre>
+BitsPerSample(258)                                                 SHORT
+    RequiredByTIFFBaseline
+    Number of bits per image sample
+    Default = 1 (field may be omitted if this is the value)
+
+Compression(259)                                                   SHORT
+    RequiredByTIFFBaseline
+    Compression method used for image data
+    Default = 1 (no compression, so may not be omitted for FAX)
+
+FillOrder(266)                                                     SHORT
+    RequiredByTIFFforFax
+    The default bit order in Baseline TIFF per [<a title="Tag Image File Format, Revision 6.0, Adobe Developers Association, June 3, 1992, ftp://ftp.adobe.com/pub/adobe/devrelations/ devtechnotes/pdffiles/tiff6.pdf The TIFF 6.0 specification dated June 3, 1" href="chapter11.html#TIFF">TIFF</a>] is indicated by
+    FillOrder=1, where bits are not reversed before being stored.
+    However, TIFF for Fax typically utilizes the setting of FillOrder=2,
+    where the bit order within bytes is reversed before storage (i.e.,
+    bits are stored with the Least Significant Bit first).
+    Default = 1 (field may be omitted if this is the value)
+    Facsimile data appears on the phone line in bit-reversed order
+    relative to its description in the relevant ITU compression
+    Recommendation. Therefore, a wide majority of facsimile
+    implementations choose this natural order for storage. Nevertheless,
+    all readers conforming to this specification must be able to read
+    data in both bit orders.
+
+ImageWidth(256)                                            SHORT or LONG
+    RequiredByTIFFBaseline
+    The number of pixels (columns) per scanline (row) of the image
+    No default, must be specified.
+
+NewSubFileType(254)                                                 LONG
+    RequiredByTIFFforFAX
+    A general indication of the kind of data contained in this IFD
+    Bit 1 is 1 if the image is a single page of a multi-page document.
+    Default = 0 (no subfile bits on, so may not be omitted for FAX)
+
+PhotometricInterpretation(262)                                     SHORT
+    RequiredByTIFFBaseline
+    The color space of the image data
+    No default, must be specified
+
+ResolutionUnit(296)                                                SHORT
+    RequiredByTIFFBaseline
+    The unit of measure for resolution. 2 = inch, 3 = centimeter;
+    Default = 2 (field may be omitted if this is the value)
+
+SamplesPerPixel(277)                                               SHORT
+    RequiredByTIFFBaseline
+    The number of color components per pixel; SamplesPerPixel is 1 for a
+    black-and-white, grayscale or indexed (palette) image.
+    Default =1 (field may be omitted if this is the value)
+
+XResolution(282)                                                RATIONAL
+    RequiredByTIFFBaseline
+    The horizontal resolution of the image in pixels per resolution
+    unit. The ITU-T Recommendations for facsimile specify a small number
+    of horizontal resolutions: 100, 200, 300, 400 pixels per inch, and
+    80, 160 pixels per centimeter (or 204, 408 pixels per inch). The
+    allowed XResolution values for each mode are given in the section
+    defining that mode. Per [<a title="ITU-T Recommendation T.4, Standardization of group 3 facsimile apparatus for document transmission, October 1997" href="chapter11.html#T.4">T.4</a>], it is permissible for applications to
+    treat the following XResolution values as being equivalent: &lt;204,
+    200&gt; and &lt;400,408&gt; in pixels/inch. These equivalencies were allowed
+    by [<a title="ITU-T Recommendation T.4, Standardization of group 3 facsimile apparatus for document transmission, October 1997" href="chapter11.html#T.4">T.4</a>] to permit conversions between inch and metric based
+    facsimile terminals.
+    TIFF for Facsimile Writers SHOULD express XResolution in inch based
+    units, for consistency with historical practice and to maximize
+    interoperability. See the table below for information on how to
+    convert from an ITU-T metric value to its inch based equivalent
+    resolution.
+    No default, must be specified
+
+YResolution(283)                                                RATIONAL
+    RequiredByTIFFBaseline
+    The vertical resolution of the image in pixels per resolution unit.
+    The ITU-T Recommendations for facsimile specify a small number of
+    vertical resolutions: 100, 200, 300, 400 pixels per inch, and 38.5,
+    77, 154 pixels per centimeter (or 98, 196, 391 pixels per inch). The
+    allowed YResolution values for each mode are given in the section
+    defining that mode. Per [<a title="ITU-T Recommendation T.4, Standardization of group 3 facsimile apparatus for document transmission, October 1997" href="chapter11.html#T.4">T.4</a>], it is permissible for applications to
+    treat the following YResolution values as being equivalent: &lt;98,
+    100&gt;, &lt;196, 200&gt;, and &lt;391, 400&gt; in pixels/inch. These equivalencies
+    were allowed by [<a title="ITU-T Recommendation T.4, Standardization of group 3 facsimile apparatus for document transmission, October 1997" href="chapter11.html#T.4">T.4</a>] to permit conversions between inch and metric
+    based facsimile terminals. TIFF for Facsimile Writers SHOULD express
+    YResolution in inch based units, for consistency with historical
+    practice and to maximize interoperability. See the table below for
+    information on how to convert from an ITU-T metric value to its inch
+    based equivalent resolution. No default, must be specified
+
+      +-----------------------------+-----------------------------+
+      |         XResolution         |         YResolution         |
+      +--------------+--------------+--------------+--------------+
+      |ResolutionUnit|ResolutionUnit|ResolutionUnit|ResolutionUnit|
+      |  =2 (inch)   |   =3 (cm)    |  =2 (inch)   |   =3 (cm)    |
+      +--------------+--------------+--------------+--------------+
+      |     100      |              |     100      |              |
+      +--------------+--------------+--------------+--------------+
+      |     204      |      80      |      98      |     38.5     |
+      |     200      |              |     100      |              |
+      +--------------+--------------+--------------+--------------+
+      |     204      |      80      |     196      |      77      |
+      |     200      |              |     200      |              |
+      +--------------+--------------+--------------+--------------+
+      |     204      |      80      |     391      |     154      |
+      +--------------+--------------+--------------+--------------+
+      |     300      |              |     300      |              |
+      +--------------+--------------+--------------+--------------+
+      |     408      |     160      |     391      |     154      |
+      |     400      |              |     400      |              |
+      +--------------+--------------+--------------+--------------+
+</pre>
+      
+      <a name="sub2sub3"></a><h3>2.2.3. TIFF fields recommended for all fax modes</h3>
+      
+      
+      <p>
+            The TIFF fields listed in this section MAY be used by all fax modes.
+            However, Profile S writers (the minimal fax mode described in Section
+            3) SHOULD NOT use these fields. Recommended fields that are mode-
+            specific are described in Sections 3-8.
+         
+      </p>
+      <pre>
+DateTime(306)                                                      ASCII
+    OptionalInTIFFBaseline
+    Date/time of image creation in 24-hour format "YYYY:MM:DD HH:MM:SS".
+    No default.
+
+DocumentName(269)                                                  ASCII
+    OptionalInTIFFExtension(DocumentStorageAndRetrieval)
+    The name of the scanned document. This is a TIFF extension field,
+    not a Baseline TIFF field.
+
+    No default.
+
+ImageDescription(270)                                              ASCII
+    OptionalInTIFFBaseline
+    A string describing the contents of the image.
+    No default.
+
+Orientation(274) = 1-8.                                            SHORT
+    OptionalinTIFFBaseline
+    1: 0th row represents the visual top of the image; the 0th column
+    represents the visual left side of the image. See the current TIFF
+    spec [<a title="Tag Image File Format, Revision 6.0, Adobe Developers Association, June 3, 1992, ftp://ftp.adobe.com/pub/adobe/devrelations/ devtechnotes/pdffiles/tiff6.pdf The TIFF 6.0 specification dated June 3, 1" href="chapter11.html#TIFF">TIFF</a>] for further values; Baseline TIFF only requires value=1.
+    Default = 1.
+    Note: It is recommended that a writer that is aware of the
+    orientation will include this field to give a positive indication of
+    the orientation, even if the value is the default. If the
+    Orientation field is omitted, the reader SHALL assume a value of 1.
+
+Software(305)                                                      ASCII
+    OptionalInTIFFBaseline
+    The optional name and release number of the software package that
+    created the image.
+    No default.
+</pre>
+      
+      <a name="sub2sub4"></a><h3>2.2.4. New TIFF fields recommended for fax modes</h3>
+      
+      
+      <p>
+            The new TIFF fields listed in this section MAY be used by all fax
+            modes, but their support is not expected for the minimal fax mode
+            described in Section 3. In addition, support for these new TIFF
+            fields has not been included in historical TIFF-F readers described
+            in Section 4 and [<a title="Parsons, G. and J. Rafferty, &#34;Tag Image File Format (TIFF) - F Profile for Facsimile&#34;, RFC 2306, March 1998." href="chapter11.html#TIFF-FY">TIFF-FY</a>]. These fields describe "global" parameters
+            of the fax session that created the image data. They are optional,
+            not part of the current TIFF specification, and are defined in this
+            document.
+         
+      </p>
+      <p>
+            The first new field, GlobalParametersIFD, is an IFD that contains
+            global parameters and is located in a Primary IFD.
+         
+      </p>
+      <pre>
+GlobalParametersIFD (400)                                            IFD
+    An IFD containing global parameters. It is recommended that a TIFF
+    writer place this field in the first IFD, where a TIFF reader would
+    find it quickly.
+
+   Each field in the GlobalParametersIFD is a TIFF field that is legal
+   in any IFD. Required baseline fields should not be located in the
+   GlobalParametersIFD, but should be in each image IFD. If a conflict
+   exists between fields in the GlobalParametersIFD and in the image
+   IFDs, then the data in the image IFD shall prevail.
+
+   Among the GlobalParametersIFD entries is a new ProfileType field
+   which generally describes information in this IFD and in the TIFF
+   file.
+
+ProfileType(401)                                                    LONG
+    The type of image data stored in this IFD.
+    0 = Unspecified
+    1 = Group 3 fax
+    No default
+
+   The following new global fields are defined in this document as IFD
+   entries for use with fax applications.
+
+FaxProfile(402) = 0 - 6.                                            BYTE
+    The profile that applies to this file; a profile is subset of the
+    full set of permitted fields and field values of TIFF for facsimile.
+    The currently defined values are:
+    0: does not conform to a profile defined for TIFF for facsimile
+    1: minimal black &amp; white lossless, Profile S
+    2: extended black &amp; white lossless, Profile F
+    3: lossless JBIG black &amp; white, Profile J
+    4: lossy color and grayscale, Profile C
+    5: lossless color and grayscale, Profile L
+    6: Mixed Raster Content, Profile M
+
+CodingMethods(403)                                                  LONG
+    This field indicates which coding methods are used in the file. A
+    bit value of 1 indicates which of the following coding methods is
+    used:
+    Bit 0: unspecified compression,
+    Bit 1: 1-dimensional coding, ITU-T Rec. T.4 (MH - Modified Huffman),
+    Bit 2: 2-dimensional coding, ITU-T Rec. T.4 (MR - Modified Read),
+    Bit 3: 2-dimensional coding, ITU-T Rec. T.6 (MMR - Modified MR),
+    Bit 4: ITU-T Rec. T.82 coding, using ITU-T Rec. T.85 (JBIG),
+    Bit 5: ITU-T Rec. T.81 (Baseline JPEG),
+    Bit 6: ITU-T Rec. T.82 coding, using ITU-T Rec. T.43 (JBIG color),
+    Bits 7-31: reserved for future use
+    Note: There is a limit of 32 compression types to identify standard
+    compression methods.
+
+VersionYear(404)                                                    BYTE
+    Count: 4
+    The year of the standard specified by the FaxProfile field, given as
+    4 characters, e.g. '1997'; used in lossy and lossless color modes.
+
+ModeNumber (405)                                                    BYTE
+    The mode of the standard specified by the FaxProfile field. A
+    value of 0 indicates Mode 1.0; used in Mixed Raster Content mode.
+</pre>
+      
+      <p></p>
+      <table width="100%" class="hangingMenu">
+         <tr>
+            <td style="text-align:right"><a class="naviBlack" target="_top" href="http://www.zvon.org">ZVON</a> &gt; <a class="naviBlack" target="_top" href="http://zvon.org/tmRFC/RFC_share/Output/index.html">RFC Repository</a> &gt; <b>RFC 2301</b></td>
+         </tr>
+      </table>
+      <table class="bar" width="750px" border="0" cellpadding="0" cellspacing="0">
+         <tr>
+            <td class="naviBlue"><a class="naviWhite" target="_top" href="index.html"> Frontpage </a> / <a class="naviWhite" href="longContents.html"> Contents </a></td>
+         </tr>
+      </table>
+      <table class="hangingMenu" border="0" cellpadding="1" cellspacing="0" width="100%">
+         <tr>
+            <td><a class="naviBlack" href="chapter1.html">Prev</a> | <a class="naviBlack" href="chapter3.html">Next</a> | <a class="naviBlack" target="_top" href="http://zvon.org/tmRFC/RFC_share/Output/index.html">RFC index</a> | <a class="naviBlack" target="mainWindow" href="http://zvon.org/tmRFC/RFC_share/PHP/titleSearch.php">RFC search</a></td>
+            <td><a class="naviBlack" target="mainWindow" href="http://zvon.org/tmRFC/RFC_share/PHP/download.php?rfc=2301">Download as zip/tar.gz</a></td>
+         </tr>
+      </table>
+   </body>
+</html>

@@ -1,0 +1,18 @@
+<HTML><HEAD>
+<META NAME="description" content="ACM SIGPLAN Principles and Practice of Paralle Computing home page">
+<META NAME="keywords" content="parallel computing conference ACM algorithms software applications ppopp">
+<TITLE>PPoPP 2013 Home Page</TITLE>
+</HEAD>
+
+<FRAMESET cols="15%,85%">
+  <FRAME SRC="menu.html" NAME="menu" NORESIZE FRAMEBORDER="no">
+  <FRAME src="ppopp13.html" name="text" FRAMEBORDER="no" marginwidth="25">
+</FRAMESET>
+
+<NOFRAMES>
+PPoPP 2013 Home Page
+<P>
+<DIV ALIGN="CENTER"><A HREF="http://www.ece.lsu.edu/ppopp-2012/">http://ppopp.org/</A></DIV>
+</NOFRAMES>
+</HTML>
+

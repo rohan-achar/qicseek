@@ -1,0 +1,295 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+                <title></title>
+                
+                
+                <meta content="Thu, 17 Oct 2013 08:28:02 -0380" name="date"/>
+                
+<link href="../../../bin/styles/stylesheet_secondary.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<!-- before breadcrumb_nav include -->
+ <!-- after breadcrumb_nav include -->
+
+<div id="wrapper">
+<script type="text/javascript">
+
+sfHover = function() {
+    var sfEls = document.getElementById("navcontainer").getElementsByTagName("LI");
+    for (var i=0; i<sfEls.length; i++) {
+        sfEls[i].onmouseover=function() {
+            this.className+=" sfhover";
+        }
+        sfEls[i].onmouseout=function() {
+            this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+        }
+    }
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+</script>
+
+    <div id="header" title="Welcome to the Donald Bren School of Information and Computer Sciences @ UC Irvine">
+
+           <a id="bren_link" href="/"></a>
+
+           <a id="uci_link" href="http://www.uci.edu/"></a>
+
+    </div>
+    
+    
+    <div CLASS="newbar"><p style="line-height: 0px; display: none; "></p></div>
+    
+    
+    <div id="navcontainer">
+
+                
+            <ul>
+                
+                <li>
+                
+                    <a href='/about/' title='about'>&raquo; About</a>              
+
+                    <ul>
+                        <li><a href="/about/">&raquo; About the School</a></li>
+                        <li><a href="/about/about_mission.php">&raquo; Bren ICS Mission</a></li>
+                        <li><a href="/about/about_deanmsg.php">&raquo; Dean's welcome</a></li>
+                        <li><a href="/about/bren/">&raquo; About the Bren gift</a></li>
+                        <li><a href="/about/about_factsfigures.php">&raquo; Facts and figures</a></li>
+                        <li><a href="/about/brenhall/index.php">&raquo; Donald Bren Hall</a></li>
+                        <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                        <li><a href="/about/about_contact.php">&raquo; Contact us</a></li>
+                        <LI><A HREF="/about/equity/">&raquo; Equity & diversity</A></LI>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/dept/' title='departments'>&raquo; Departments</a>
+                    <ul>
+                        <li><a href="http://www.cs.uci.edu">&raquo; Computer Science</a></li>
+                        <li><a href="http://www.informatics.uci.edu">&raquo; Informatics</a></li>
+                        <li><a href="http://www.stat.uci.edu">&raquo; Statistics</a></li>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/faculty/area/' title='research'>&raquo; Research</a>              
+                
+
+                
+                
+                
+                    <ul>
+                        <li><a href="/faculty/area/">&raquo; Research areas</a></li>
+                        <li><a href="/faculty/centers/">&raquo; Research centers</a></li>
+                        <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                    </ul>
+                </li>
+                
+                
+                
+                <li>
+                
+                    <a href='#' title='education'>&raquo; Education</a>              
+
+                    <ul>
+                        <li><a href="/grad/">&raquo; Graduate</a>
+                        
+                            <ul>                        
+                            <li><a href="/grad/admissions/index.php">&raquo; Apply</a></li>
+                            <li><a href="/grad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="http://www.reg.uci.edu/registrar/soc/fees.html">&raquo; Tuition and costs</a></li>
+                            <li><a href="/grad/courses/index.php">&raquo; Courses</a></li>
+                            <li><a href="/grad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/faculty/area/index.php">&raquo; Research areas</a></li>
+                            <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                            <li><a href="/grad/policies/index.php">&raquo; Policies &amp; forms</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/grad/phddirectory/index.php">&raquo; Recruit graduate student</a></li> -->
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->                            
+                            <li><a href="/grad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="http://www.housing.uci.edu/prospective/graduate/index.asp">&raquo; Graduate housing</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="/ugrad/">&raquo; Undergraduate</a>
+                        
+                            <ul>                        
+                            <!-- <li><a href="/ugrad/admissions/index.php">&raquo; Apply</a></li>                       
+                            <li><a href="/ugrad/events/index.php">&raquo; Campus visits</a></li>
+                            -->
+                            <li><a href="http://www.ics.uci.edu/~lab/">&raquo; Computer lab information</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/ugrad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="/ugrad/courses/index.php">&raquo; Course listings</a></li>                     
+                            <li><a href="/ugrad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="/ugrad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/ugrad/financial/index.php">&raquo; Financial aid</a></li>                         
+                            <li><a href="http://honors.ics.uci.edu/">&raquo; Honors program</a></li>
+                            <li><a href="http://www.housing.uci.edu/">&raquo; Housing</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Internship program</a></li>                         
+                            <li><a href="/ugrad/policies/index.php">&raquo; Policies</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->
+                            <!-- <li><a href="http://www.dos.uci.edu/orientation/">&raquo; Recently admitted</a></li> -->
+                            <li><a href="http://student-council.ics.uci.edu/">&raquo; Student Council</a></li>
+                            <li><a href="/ugrad/life/index.php">&raquo; Student life</a></li>   
+                            <li><a href="/ugrad/resources/index.php">&raquo; Student resources</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Summer internships</a></li>
+                            <li><a href="https://techjobs.uci.edu/">&raquo; Tech Jobs</a></li>
+                            <li><a href="http://www.ofas.uci.edu/content/costs.aspx?nav=1">&raquo; Tuition and costs</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li><a href="http://www.ics.uci.edu/prospective">&raquo; Prospective undergrad</a></li>
+
+
+                        <li><a href="http://www.parents.uci.edu/">&raquo; UCI parents</a></li>
+                        
+                                                    
+                    </ul>               
+                </li>
+
+    
+                <li>
+                    
+                    <a href='#' title='people'>&raquo; People</a>                      
+                    
+                
+                    <ul>
+                        <li><a href="/faculty/">&raquo; Faculty</a></li>
+                        <li><a href="/about/search/index.php">&raquo; Staff</a></li>
+                        <li><a href="/about/search/search_graduate_all.php">&raquo; Graduate students</a></li>
+                    </ul>   
+                </li>
+                                
+                
+                <li> 
+                
+                    <span id=specialborder><a href='#' title='community'>&raquo; Community</a></span>                    
+                    <ul>
+                        <li><a href="/community/alumni/">&raquo; Alumni</a></li>
+                        <li><a href="/community/friends/">&raquo; Friends</a></li>
+                        <li><a href="http://www.uadv.uci.edu/parents/">&raquo; Parent programs</a></li>
+                        <li><a href="/community/friends/leadershipcouncil/">&raquo; Leadership Council</a></li>
+                        <li><a href="http://www.uadv.uci.edu/DonaldBrenSchoolOfICSAnnualGiving">&raquo; Make a gift</a></li>
+                        <li><a href="/community/news/">&raquo; News</a></li>
+                    </ul>   
+                </li>
+
+                <li>
+                
+                    <a href='/involved/' title='get involved'>&raquo; Get Involved</a>              
+                
+                
+                    <ul>
+                    
+                            <LI><A HREF="/involved/tech_talk">&raquo; Tech talks</A></LI>
+                            <LI><A HREF="/involved/information_session">&raquo; Information sessions</A></LI>
+                            <!--<LI><A HREF="/involved/">&raquo; Join industry panel</A></LI>-->
+                            <LI><A HREF="/involved/project_class">&raquo; Sponsor projects</A></LI>
+                            <LI><A HREF="/involved/leadership_council">&raquo; Leadership Council</A></LI>
+                            <LI><A HREF="/involved/corporate_partner">&raquo; Corporate Partners</A></LI>
+                            <LI><A HREF="/involved/internship">&raquo; Sponsor interns</A></LI>
+                            <LI><A HREF="https://techjobs.uci.edu/">&raquo; Tech Jobs</A></LI>
+                            <!--<LI><A HREF="">&raquo; Support student groups</A></LI>-->
+                            <LI><A HREF="/community/events/butterworth/">&raquo; Butterworth Competition</A></LI>
+                            
+                    </ul>               
+                </li>
+                
+                    
+
+            </ul>
+
+<style type="text/css">@import url("/bin/icssearchstyle/css/icssearch.css");</style>
+<script src="/bin/icssearchstyle/js/icssearch.js" type="text/javascript"></script>
+<script src="/bin/icssearchstyle/js/icssearchform.js" type="text/javascript"></script>
+
+
+
+    </div>
+<!-- before breadcrumb_nav() print -->
+<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/news/">News</a> &gt; <a href="http://www.ics.uci.edu/community/news/articles/">Articles</a>] --><A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/news/">News</a> &gt; <a href="http://www.ics.uci.edu/community/news/articles/">Articles</a></div>
+<!-- after breadcrumb_nav() print -->
+
+<div id="content"><a id="startcontent" name="startcontent"></a>  
+<div id="content_title"></div>
+
+<blockquote>
+<div id="content_text">
+
+<br/>
+
+<!-- inc publications_db -->
+
+ <strong>July 9,  2007</strong><p><i>Calit2.net</i><p><strong>Calit2 Looks into the Games People Play</strong><p><strong>By: Anna Lynn Spitzer</strong><br><p>Ongoing research in game play theory and practice indicates that computer games affect children and adults &ndash; helping them to learn, socialize, surmount cultural differences, conduct business and, believe it or not, make the world a better place.<p>This is not news to researchers and professors at Calit2 and UC Irvine, where studies of computer games and their vast potential have been underway for several years. In fact, UCI&rsquo;s Game Culture and Technology Lab, established in 2000 in the Claire Trevor School of the Arts and affiliated with Calit2 since 2002, was the first in the University of California system. With nearly 20 affiliated researchers spanning fields from anthropology to education; from studio art to history, it has become a UC hub for computer game research.  <p>Since their debut nearly 60 years ago, video games and their progeny &ndash; computer- console- and web-based versions, and online virtual worlds &ndash; have made contributions to society in surprising ways.<p><b>Social Value</b><p>While millions of consumers spend billions of hours just playing &ndash; Microsoft Xbox Live has more than 6 million members worldwide &ndash; millions more are turning to games for more than entertainment.<p>Take the U.S. military. As many as 100 video games currently are used in military training programs and in 2006, the Department of Defense reportedly allocated $120 million for the development of new versions. Computer simulations and immersive virtual reality games effectively create combat or terrorist scenarios for soldiers to hone their skills in a near real-life setting.<p>Computer games also have the capability  to manipulate   time and space in a way that is not possible in reality, a characteristic that intrigues Calit2 researcher Bill Tomlinson. The assistant professor of informatics studies human-computer interaction and computer-assisted learning. He teamed up with Lynn Carpenter, professor of ecology and evolutionary biology, to design EcoRaft, a computer game for teaching restoration ecology to children.<p>&ldquo;In the real world, it would be impractical and immoral to wipe out a species to see how the rest of the species react, but you can do that in a virtual world,&rdquo; says Tomlinson.<p><b>Ideal Instructors</b><p>For children, the interesting sounds and colorful graphics make computer games perfect teachers. They &ldquo;possess infinite patience and increasingly, can be modified to match the learner&rsquo;s interest,&rdquo; says Kimberly Burge, senior lecturer in UCI&rsquo;s Department of Education.<p>Burge is an ardent advocate of using computer games in teaching; she requires her master&rsquo;s degree students to build their own. &ldquo;That way, they will be much more likely to integrate the technology in their own classrooms,&rdquo; she says.<p>Her students utilize a game platform called &ldquo;Imagination,&rdquo; which lets the teachers-to-be design games that address relevant issues and include problem-solving scenarios. They can easily incorporate pertinent news stories, pictures, maps or characters. The first group of students developed a game around saving the Hetch Hetchy Valley in Yosemite National Park.<p>&ldquo;This is a prototype that future teachers might employ � to achieve their own learning goals,&rdquo; says Burge.<p>ICS researcher Hadar Ziv&rsquo;s software engineering students in a UCI informatics class helped design the game platform. &ldquo;People learn through communication, collaboration and interaction,&rdquo; Ziv notes. &ldquo;Games can be played across users, across nations, across boundaries; this seems to have a very profound effect on the learning experience.&rdquo;<p>Adds Tomlinson: &ldquo;Games can be very engaging. When designers understand the elements that contribute to their appeal, they can make games that connect people with many different bodies of content.&rdquo;<p>The John D. and Catherine T. MacArthur Foundation announced plans last year to commit $50 million over five years to building the emerging field of digital media and learning. The Foundation will fund research and innovative projects focused on understanding the impact of the widespread use of digital media on youth and how they learn. <p><b>From the Mouths of Babes</b><p>UCI professor Patricia Seed first realized the potential of computer games when she saw her then 8-year-old son engrossed in a game set in the Middle Ages.<p>&ldquo;His vocabulary included words like &lsquo;arquebus&rsquo; and &lsquo;paladin.&rsquo; Watching him and seeing how much he was learning, I thought, &lsquo;this is clearly working. He&rsquo;s learning and I&rsquo;m not forcing it down. He thinks it is great fun to learn all these interesting things.&rsquo;&rdquo;<p>She began incorporating the computer games &ldquo;Civilization&rdquo; and &ldquo;Age of Empires&rdquo; to teach her undergraduate history classes, &ldquo;They really fit into the syllabus because students get a broad sweep of history,&rdquo; she says. &ldquo;And you don&rsquo;t have to worry about student engagement or the desire to learn about the past.&rdquo;<p>Seed currently teaches World History through Games, a class in which students choose an historical period, research it and design their own game. Everyone &ndash; even the non-history majors who comprise the majority of the class &ndash; is engaged and motivated, she says. &ldquo;I have had very few slackers or people who don&rsquo;t take interest.&rdquo;<p><b>Socializing through Gaming</b><p>Critics have labeled computer games isolating and anti-social. To the contrary, some researchers credit the genre with improving socialization skills by rewarding collaboration and connecting people from different cultures.<p>UCI professor Bonnie Nardi is interested in theory in human-computer interaction and computer-supported collaborative work. She studies World of Warcraft, a massively multiplayer online game (MMOG) with more than 8.5 million subscribers.<p>Players create online personas that move through the role-playing game. They explore, develop skills, make money and socialize, advancing through 70 levels by mastering certain tasks called quests. The game is complex, and players learn from and support each other.<p>Nardi says that social spaces like WoW prepare players to form relationships, bond and collaborate with people they don&rsquo;t know. &ldquo;These are people we may never see, but we form common ground quickly. It&rsquo;s actually the opposite of what traditional culture does, which is cut us off from people who are different from us.&rdquo;  <p>WoW, which was launched by Irvine-based Blizzard Entertainment in November 2004, incorporates live chat into its format, allowing even more interaction than other sites. &ldquo;When you&rsquo;re online and listening to voice chat, you hear different accents. I believe that has the potential to carry over into real life and break down cultural barriers,&rdquo; Nardi says.<p><b>Brave New World</b><p>Some critics also condemn the violence inherent in a number of games. But UCI&rsquo;s Peter Krapp, who studies media history and theory, disagrees that violent computer games desensitize players.<p>&ldquo;I see no academically respectable way to maintain that they do,&rdquo; he says. &ldquo;Humans have had violent games for thousands of years. If players are able to fully digest and comprehend the role of force, violence and brutality in these games, then there is no worry about it translating into violence in society.&rdquo;<p>Many games are even socially redeeming, addressing society&rsquo;s ills. Presenters at Living Game Worlds III, a recent conference in Atlanta , shared their development work on specific games built around difficult topics like Darfur and Columbine. Tomlinson presented the EcoRaft project at the conference.<p>&ldquo;One wonderful possibility for games is the ways in which they can be used to change the world,&rdquo; says Tomlinson. &ldquo;They can help bring communities together, and help people learn about new concepts and engage with new topics in new fields.&rdquo;<p><b>A New Reality</b><p>Virtual worlds, a first cousin to computer games, offer other surprising opportunities.
+UCI Students and Second Life<p>The most popular virtual world on the Internet is Second Life with 5.6 million residents. It differentiates itself from competitors by facilitating the transfer of currency into and out of the game. Players purchase Linden dollars with U.S. or foreign currency to buy and sell property and consumer goods, and purchase services from other citizens.<p>In March 2007, more than 31,000 residents experienced a positive monthly cash flow. And some players have traded in the day-to-day drudgery of real-world jobs, making a living by designing, buying and selling goods in Second Life.<p>A welcome message on Second Life&rsquo;s site states:<p>&ldquo;We are a global community working together to build a new online space for creativity, collaboration, commerce and entertainment. We strive to bridge cultures and welcome diversity. We believe in free expression, compassion and tolerance as the foundation for community in this new world.&rdquo;<p>Entertainment, media, apparel and automotive brands, including General Motors, Reebok, Toyota and Adidas, have bought in. They make their products available to purchasers with Linden dollars and some utilize cross-promotional tactics, giving players who buy an item in the virtual world a discount on real-world purchases.<p>In addition, blue-chip companies like IBM, Intel and Hewlett-Packard are experimenting to determine how virtual worlds can help them interact with distant customers and employees.  <p>They are conducting meetings in the virtual space, as well as using it for training, private collaboration and outreach. News bureau Reuters has an office in Second Life where its journalists interact with each other, and the Swedish embassy has an office there where actual business transactions occur.<p>Bonnie Nardi sees this as just the beginning. &ldquo;Absolutely, without question, in the future I think more businesses will participate this way,&rdquo; she states.<p>The UCI Library recently purchased a Second Life island, and Tomlinson, along with colleagues Peter Krapp and Dan Frost, are using it to teach an undergraduate course called Computer Games as Art, Culture and Technology. Students are required to build a game on Anteater Island as a way to understand different elements of technology and how people interact with it. <p>"They learn about programming, geometric modeling, animation and game design. In addition, it lets them explore the social aspects of the creation of interactive experiences in a massively multi-player virtual world," says Tomlinson.<p><b>A New Medium Emerges</b><p>Love &lsquo;em or hate &rsquo;em, video/computer games have made their mark on society. In fact, Walt Scacchi, co-director of the Calit2 Game Lab, compares the genre to radio, television, cinema, print media and the Internet in its cultural pervasiveness.<p>&ldquo;These games represent the first new medium of the 21st century,&rdquo; he says. &ldquo;They can be seen as a cultural medium, a technology, a system of commerce, a literary form &ndash; they have the potential to be all these things.&rdquo;<p>Tomlinson concurs. &ldquo;I think games are in the same spot films were in 100 years ago,&rdquo; he says. &ldquo;Just as films have become the medium for more interesting human expression, games have the potential to flower into something much more interesting.&rdquo;<p>Gaming&rsquo;s popularity is influenced by its fluidity. &ldquo;Part of what people like is the interaction, the immersion, the play. What you played yesterday is different from what you will play tomorrow,&rdquo; Scacchi says.<p>Games are still evolving, he adds, but one thing &ndash; a fact that game researchers and developers know firsthand &ndash; will never change. &ldquo;The key to a successful game is fun, and fun is really hard work.&rdquo;<p><b>Interesting Computer Game Facts:</b><p>>> The current size of the game industry &ndash; including hardware, consoles, software, networking, telecommunication and online services &ndash; is estimated to be $11-$11.5 billion annually.<p>>> The figure is forecast to grow to $30 billion annually within the next five years.<p>>> Research shows the average player is 33 years old and has been playing games for 12 years.<p>>> Forty-four percent of gamers are age 18 to 49.<p>>> Thirty-eight percent of all game players are women.<p>>> Twenty-five percent of gamers are 50 years old or older.<br><TITLE>Calit2 Looks into the Games People Play</TITLE>
+
+</div>
+</blockquote>
+</div>
+<div id="sidebar"><div id="sidebar_title">More community &#187;</div>
+<ul>
+<li><a href="../../alumni/index.php">Alumni</a></li>
+<li><a href="../../friends/index.php">Friends</a></li>
+<li><a href="http://www.parents.uci.edu/">Parents</a></li>
+<li><a href="../../friends/leadershipcouncil/index.php">Leadership Council</a></li>
+<li><a href="../index.php">News</a></li>
+<li><a href="https://ua-web.uadv.uci.edu/eGiving/">Give a gift</a></li>
+</ul>
+<div>
+<div id="sidebar_title">More news and events &#187;</div>
+<ul>
+<li><a href="../press/index.php">Press
+ releases</a></li>
+<a href="http://www.ics.uci.edu/community/news/press/index.php">				</a>
+<li><a href="index.php">In the 
+news</a></li>
+<li><a href="../notes/index.php">Noteworthy
+ achievements</a></li>
+<a href="http://www.ics.uci.edu/community/news/notes/index.php">				</a>
+<li><a href="http://www.youtube.com/UCIBrenICS">Video highlights</a></li>
+<li><a href="../spotlight/index.php">Spotlight</a></li>
+<li><a href="http://calendar.ics.uci.edu/calendar.php">Calendar of 
+events</a></li>
+</ul>
+<!-- -->
+<!-- -->
+<!-- -->
+<!--
+<div id="sidebar_title">Noteworthy archive &#187;</div>
+<ul>
+<li><a href="/ICS/ics/community/news/notes/notes_2009">2009</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2008">2008</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2007">2007</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2006">2006</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2005">2005</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2004">2004</a></li>
+</ul>
+</div>
+--></div></div>
+<div id="footer"><a href="http://www.uci.edu/copyright.php">Copyright Inquiries</a> |
+   <a href="http://www.uci.edu/cgi-bin/phonebook">UCI Directory</a> |
+   <a href="http://intranet.ics.uci.edu/">Intranet</a> |
+   
+   <!-- <a href="http://www.ics.uci.edu/sitemap.php">Site Map</a> | -->
+ 
+  <a href="mailto: i%63%73%77%65%62m%61s%74%65r@%69c%73%2e%75c%69%2eedu">icswebmaster</a> |
+Updated: 
+October 17 2013</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-605898-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

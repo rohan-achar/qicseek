@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Informatics 141: Computer Science 121: Information Retrieval</title>
+    <meta name="description" content="The online syllabus for INF 141 / CS 121">
+    <meta name="author" content="Donald J. Patterson">
+
+	<!--Bootswatch Flatly -->
+	<link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+	<link href="../assets/css/djp3.css" rel="stylesheet">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-15170336-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+	</script>
+	
+  </head>
+
+  <body>
+
+	<header class="navbar navbar-default navbar-fixed-top" role="banner">
+		<div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand">Information Retrieval</a>
+			</div>
+			<nav class="collapse navbar-collapse" role="navigation">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="../structure.html">Structure</a>
+					</li>
+					<li>
+						<a href="../admin.html">Policies</a>
+					</li>
+					<li>
+						<a href="../calendar.html">Calendar</a>
+					</li>
+      			</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="http://luci.ics.uci.edu">LUCI</a>
+					</li>
+					<li>
+						<a href="http://www.informatics.uci.edu">Informatics</a>
+					</li>
+					<li>
+						<a href="http://www.cs.uci.edu">CS</a>
+					</li>
+					<li>
+						<a href="http://www.ics.uci.edu">ICS</a>
+					</li>
+					<li>
+						<a href="http://www.uci.edu">UCI</a>
+					</li>
+   				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div style="padding:10px">
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+
+				<div class="row">
+					<div class="col-md-5">
+						<hr/>
+					</div>
+					<div class="col-md-2 text-center">
+						<a class="btn btn-primary btn-sm" href="#">Task 22</a>
+					</div>
+					<div class="col-md-5">
+						<hr/>
+					</div>
+				</div> <!--/row-->
+
+				<div class="row">
+					<div class="col-md-12">
+          				<h2>Crawling the Web</h2>
+						<ul>
+							<li><strong>Goals</strong>:
+								<ol>
+									<li>To teach you how difficult crawling the
+									web is in terms of scale and temporal
+									requirements. The software itself is not the
+									hard part of this assignment, it is managing
+									all the data that comes back. This is only
+									one web domain (project gutenberg-ish) after all.</li>
+									<li>To teach you how difficult it is to
+									process text that is not written for
+									computers to consume. Again this is a very
+									structured domain as far as text goes.</li>
+									<li> To make the point that web-scale
+									web-centric activities do not lend
+									themselves to "completeness". In some sense
+									you are never done. So thinking about web
+									algorithms in terms of "finishing" doesn't
+									make sense. You have to change your mindset
+									to "best possible" given resources.</li>
+								</ol>
+							</li>
+							<li><strong>Groups:</strong> This assignment may be done in groups of 1, 2 or 3. </li>
+							<li><strong>Reusing code:</strong> You can use text
+							processing code written by you or any other
+							classmate for the previous assignment.  You cannot
+							use crawler code written by non-group members. Use code found over the Internet at your own peril -- it may not do exactly what the assignment requests. If you do end up using code you find on the Internet, you must disclose the origin of the code.  Concealing the origin of a piece of code is plagiarism.  </li>
+
+							<li><strong>Discussion:</strong> Use the Message Board for general questions whose answers can benefit you and everyone.</li>
+
+							<li><strong>Write a program to crawl <a href="http://www.flatricidepulgamitudepedia.org/">flatricidepulgamitudepedia.org</a></strong>:
+								<ul>
+									<li>The provided, but not required, resources for this are the openlab machines, and the /extra/ugrad_space file folder</li>
+									<li>Use <a
+									href="https://code.google.com/p/crawler4j/">crawler4j</a>
+									as your crawler engine.</li>
+									<li>Follow the instructions at
+									http://code.google.com/p/crawler4j/ and
+									create your MyCrawler and Controller
+									classes.</li>
+									<li> Remember to set the maximum heap of
+									java to an acceptable value. For example, if
+									your machine has 2GB RAM. You may want to
+									assign 1GB RAM to your crawlers. You can add
+									-Xmx1024M to your java command line
+									parameters.</li>
+									<li>Make sure that you dump your partial
+									results in a permanent storage as you crawl.
+									For example, you can write palindromes
+									longer than 20 characters in a file and
+									after finishing the crawl, report the 10 longest
+									ones. It is always possible that your crawl
+									crashes in the middle. So, it's a good practice to have your partial results in a file. Also make sure to flush the file whenever you write in it.
+									</li>
+									<li>If you're crawling on a remote linux
+									machine like openlab machines, make sure to
+									use the nohup or screen command. Otherwise your crawling, which may take several days, will be stopped if your connection is disconnected for even a second. Search the web for how to use this command.</li>
+									<li><strong>Input:</strong> Start your crawl at <a href="http://www.flatricidepulgamitudepedia.org/">http://www.flatricidepulgamitudepedia.org/</a></li>
+									<li><strong>Specifications:</strong>
+										<ul>
+											<li>VERY IMPORTANT: Set the name of
+											your crawler’s User Agent to “UCI IR
+											student_IDs Team &lt;something&gt;”
+											with one (individual project) or
+											two/three (group project) student
+											IDs.  We will be parsing your user
+											agent to verify you did this right
+											so get this correct.  Including
+											capitals.</li>
+											<li>VERY IMPORTANT: wait 100ms
+											between sending page requests.  Violating this
+											policy may get your crawler
+											banned for 60 seconds.</li>
+											<li>You should only crawl pages on the http://www.flatricidepulgamitudepedia.org/ domain</li>
+											<li>We will verify the execution of
+											your crawler in the web servers’
+											logs.  If we don’t find log entries
+											for your student ID, that means your
+													crawler didn’t perform as it
+													should or you didn’t set its
+													name correctly; in the
+													latter case we can’t verify
+													whether it ran successfully
+													or not, so we’ll assume it
+													didn’t.</li>
+										</ul>
+									</li>
+									<li><strong>Guides</strong>
+										<ul>
+											<li><a href="task_22/project.html">Setting up Eclipse</a></li>
+											<li><a href="task_22/openlab.html">Running on Openlab</a></li>
+										</ul>
+									<li><strong>Output:</strong> Submit a
+									document with the following information.
+										<ol>
+											<li>How much time did it take to crawl the entire domain? </li>
+											<li> How many unique pages did you find in the entire domain?  (Uniqueness is established by the URL)</li>
+											<li> How many links did you find in the content of the pages that you crawled?</li>
+											<li> What is the longest page in terms of number of words? (HTML markup doesn’t count as words) </li>
+											<li> What are the 25 most common words in this domain? (Ignore these <a href="http://www.ranks.nl/resources/stopwords.html">English stop words</a> Submit the list of common words ordered by frequency. </li>
+											<li> What are the 25 most common 2-grams? (again ignore English stop
+											words) A 2-gram, in this case, is a
+											sequence of 2 words in which neither
+											are stop words. Submit the list of
+											25 2-grams ordered by frequency.</li>
+											<li> What are the 10 longest
+											palindromes that: 1) don't contain
+											3 or more of the same letter in a
+											row? 2) Don't occur on a page about
+											Palindromes. What pages do they
+											occur on? Submit your list.</li>
+											<li>Extra credit: On which pages
+											does the 2-gram "flatricide
+											pulgamitude" show up? </li>
+										</ol>
+									</li>
+								</ul>
+							</li>
+							<li><strong>Submitting your assignment </strong>
+								<ol>
+									<li>We are going to use <a href="http://checkmate.ics.uci.edu">checkmate.ics.uci.edu</a> to submit this assignment.</li>
+									<li>Make the file name &lt;StudentID&gt;-&lt;StudentID&gt;-&lt;StudentID&gt;-Task22.pdf</li>
+									<li>Your submission should be a single pdf
+									file submitted. Include your group member's
+									names, answers to the questions above and
+									any additional information that you deem
+									pertinent.</li>
+								</ol>
+							</li>
+							<li><strong>Evaluation</strong>:
+								<ol> Correctness:
+									<li>Did you crawl the domain correctly?  Verified in server logs.</li>
+									<li>Are your answers reasonable?
+										<ol>
+											<li>Correct answers without evidence of correct crawling are not valid</li>
+											<li>Answers will vary from crawler to crawler based on various factors.  "Correctness" will be based on reasonableness.</li>
+										</ol>
+									</li>
+									<li>Due date: 02/06</li>
+									<li>This is an assigment grade</li>
+								</ol>
+							</li>
+						</ol>
+					</div>
+				</div> <!--/row-->
+			</div>
+		</div>
+	</div>
+	<footer>
+		<p>&copy; Donald J. Patterson 2014</p>
+	</footer>
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
+

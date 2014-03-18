@@ -1,0 +1,1785 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<link rel=File-List href="index_files/filelist.xml">
+<link rel=Edit-Time-Data href="index_files/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>ICS 51</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Information and Computer Sciences</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>Bren School of Information and Computers Science</o:LastAuthor>
+  <o:Revision>38</o:Revision>
+  <o:TotalTime>15590</o:TotalTime>
+  <o:LastPrinted>2013-01-02T20:37:00Z</o:LastPrinted>
+  <o:Created>2011-11-27T22:12:00Z</o:Created>
+  <o:LastSaved>2013-02-19T23:19:00Z</o:LastSaved>
+  <o:Pages>3</o:Pages>
+  <o:Words>683</o:Words>
+  <o:Characters>11091</o:Characters>
+  <o:Company>University of California, Irvine</o:Company>
+  <o:Lines>92</o:Lines>
+  <o:Paragraphs>23</o:Paragraphs>
+  <o:CharactersWithSpaces>11751</o:CharactersWithSpaces>
+  <o:Version>14.00</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<link rel=themeData href="index_files/themedata.thmx">
+<link rel=colorSchemeMapping href="index_files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:Zoom>109</w:Zoom>
+  <w:HideSpellingErrors/>
+  <w:HideGrammaticalErrors/>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves/>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" LatentStyleCount="267">
+  <w:LsdException Locked="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="99" Name="No List"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
+   Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520092929 1073786111 9 0 415 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-520081665 -1073717157 41 0 66047 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+h1
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 1 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:1;
+	font-size:24.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	font-weight:bold;}
+h2
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 2 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:2;
+	font-size:18.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	font-weight:bold;}
+h3
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-link:"Heading 3 Char";
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	mso-outline-level:3;
+	font-size:13.5pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{mso-style-unhide:no;
+	color:#3366FF;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-unhide:no;
+	color:#9900FF;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-unhide:no;
+	mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 1";
+	mso-ansi-font-size:14.0pt;
+	mso-bidi-font-size:14.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#365F91;
+	mso-themecolor:accent1;
+	mso-themeshade:191;
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 2";
+	mso-ansi-font-size:13.0pt;
+	mso-bidi-font-size:13.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	font-weight:bold;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Heading 3";
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Cambria","serif";
+	mso-ascii-font-family:Cambria;
+	mso-ascii-theme-font:major-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:major-fareast;
+	mso-hansi-font-family:Cambria;
+	mso-hansi-theme-font:major-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:major-bidi;
+	color:#4F81BD;
+	mso-themecolor:accent1;
+	font-weight:bold;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Balloon Text";
+	mso-ansi-font-size:8.0pt;
+	mso-bidi-font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";
+	mso-ascii-font-family:Tahoma;
+	mso-hansi-font-family:Tahoma;
+	mso-bidi-font-family:Tahoma;}
+span.go
+	{mso-style-name:go;
+	mso-style-unhide:no;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.25in 1.0in 1.25in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:526407272;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1173246220 -1204245742 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:image;
+	list-style-image:url("PicExportError");
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;
+	color:windowtext;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:869026601;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1173246220 -1204245742 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:image;
+	list-style-image:url("PicExportError");
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;
+	color:windowtext;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+table.MsoTableGrid
+	{mso-style-name:"Table Grid";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-unhide:no;
+	border:solid windowtext 1.0pt;
+	mso-border-alt:solid windowtext .5pt;
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-border-insideh:.5pt solid windowtext;
+	mso-border-insidev:.5pt solid windowtext;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=white background="file:///C:\Users\bic\Desktop\blutextb.gif"
+lang=EN-US link="#3366FF" vlink="#9900FF" style='tab-interval:.5in'
+alink="#000066">
+
+<div class=WordSection1>
+
+<h1 align=center style='margin:0in;margin-bottom:.0001pt;text-align:center'><span
+style='mso-fareast-font-family:"Times New Roman"'>ICS 51 -- WQ 2013 &nbsp; <o:p></o:p></span></h1>
+
+<h1 align=center style='margin:0in;margin-bottom:.0001pt;text-align:center'><span
+style='mso-fareast-font-family:"Times New Roman";color:#003399'>
+
+<hr size=2 width="100%" align=center>
+
+</span></h1>
+
+<h1 align=center style='margin:0in;margin-bottom:.0001pt;text-align:center'><span
+style='mso-fareast-font-family:"Times New Roman";color:#003399'>
+
+<hr size=2 width="100%" align=center>
+
+</span></h1>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><a
+href="Misc/syllabus%202013.pdf">Syllabus</a><span class=MsoHyperlink><o:p></o:p></span></b></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><a
+href="Misc/dropbox_primer.pdf">How to use drop boxes</a></b> (for submitting
+homework and labs)</p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><a
+href="Misc/messageboard_primer.pdf">How to use <span class=SpellE>MessageBoard</span></a></b>
+(forums)</p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><o:p>&nbsp;</o:p></b></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Office Hours:<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-indent:.5in'><b>-- Instructor</b>: <span
+class=SpellE>Lubomir</span> <span class=SpellE>Bic</span>, <a
+href="mailto:bic@ics.uci.edu">bic@ics.uci.edu</a></p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;mso-add-space:auto;
+text-indent:-.25in;mso-list:l0 level2 lfo2'><![if !supportLists]><span
+style='font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Office Hours: Mon after class, other times by
+appointment in DBH 3224 </p>
+
+<p class=MsoNormal style='margin-left:.25in;text-indent:.25in'><b>-- Teaching
+Assistant</b>: Abbas <span class=SpellE>Banaiyanmofrad</span>, <a
+href="mailto:abanaiya@ics.uci.edu" target="_blank"><span style='color:blue'>abanaiya@ics.uci.edu</span></a></p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;mso-add-space:auto;
+text-indent:-.25in;mso-list:l0 level2 lfo2'><![if !supportLists]><span
+style='font-family:"Courier New";mso-fareast-font-family:"Courier New"'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]>Office Hours: Mon 9:00-12:00, Wed 1:00-3:00, in
+ICS 192 (other times by appointment)</p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><o:p>&nbsp;</o:p></b></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Meeting Times:<o:p></o:p></b></p>
+
+<p class=MsoNormal style='margin-left:.5in'>Monday, 5:00-7:50, ELH 100,
+Discussion of HW and Lecture Topics</p>
+
+<p class=MsoNormal style='margin-left:.5in'>Friday, 3:00-3:50, EH 1200, Exam
+(every other week) </p>
+
+<p class=MsoNormal style='margin-left:.5in'>Monday/Wednesday TA is available in
+ICS 192 to help with labs as necessary (see table below)</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'>Due Dates:<o:p></o:p></b></p>
+
+<p class=MsoNormal style='text-indent:.5in'>Each HW assignment is due on Friday
+and discussed the following Monday or Friday (see table below)</p>
+
+<p class=MsoNormal style='text-indent:.5in'>Each Lab assignment is due on
+Friday every other week (see table below)</p>
+
+<p class=MsoNormal style='text-indent:.5in'><o:p>&nbsp;</o:p></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='margin-left:39.35pt;border-collapse:collapse;border:none;mso-border-alt:
+ double windowtext 1.5pt;mso-yfti-tbllook:1184;mso-padding-alt:0in 5.4pt 0in 5.4pt;
+ mso-border-insideh:1.5pt double windowtext;mso-border-insidev:1.5pt double windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td valign=top style='border:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='color:#C00000'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
+  <td colspan=3 valign=top style='border:double windowtext 1.5pt;border-left:
+  none;mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='color:#0070C0'>Activities<o:p></o:p></span></b></p>
+  </td>
+  <td valign=top style='border:double windowtext 1.5pt;border-left:none;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='color:#C00000'>Due Dates<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td valign=top style='border:double windowtext 1.5pt;border-top:none;
+  mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b
+  style='mso-bidi-font-weight:normal'><span style='color:black;mso-themecolor:
+  text1'>Week</span><span style='color:#C00000'><o:p></o:p></span></b></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='color:#0070C0'>Monday <o:p></o:p></span></b></p>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='color:#0070C0'>5:00-7:50 <o:p></o:p></span></b></p>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='color:#0070C0'>ELH 100<o:p></o:p></span></b></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='color:#0070C0'>Monday 9:00-12:00<o:p></o:p></span></b></p>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='color:#0070C0'>Wed 1:00-3:00 <o:p></o:p></span></b></p>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='color:#0070C0'>ICS 192<o:p></o:p></span></b></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='color:#0070C0'>Friday 3:00-3:50 <o:p></o:p></span></b></p>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='color:#0070C0'>EH1200<o:p></o:p></span></b></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='color:#C00000'>Friday (11:00pm)<o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td valign=top style='border:double windowtext 1.5pt;border-top:none;
+  mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>1</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Introduction</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Lab assistance</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>HW1</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td valign=top style='border:double windowtext 1.5pt;border-top:none;
+  mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>2</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Discuss HW1</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Lab assistance</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Discuss HW2*</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>HW2 (before 3:00), Lab1</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td valign=top style='border:double windowtext 1.5pt;border-top:none;
+  mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>3</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>*</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Lab assistance</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Exam 1</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>HW3</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td valign=top style='border:double windowtext 1.5pt;border-top:none;
+  mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>4</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Discuss HW3</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Lab assistance</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>HW4, Lab2</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td valign=top style='border:double windowtext 1.5pt;border-top:none;
+  mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>5</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Discuss HW4</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Lab assistance</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Exam 2</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>HW5</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7'>
+  <td valign=top style='border:double windowtext 1.5pt;border-top:none;
+  mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>6</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Discuss HW5</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Lab assistance</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Discuss HW6*</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>HW6 (before 3:00), Lab3</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:8'>
+  <td valign=top style='border:double windowtext 1.5pt;border-top:none;
+  mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>7</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>*</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Lab assistance</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Exam 3</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>HW7</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:9'>
+  <td valign=top style='border:double windowtext 1.5pt;border-top:none;
+  mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>8</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Discuss HW7</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Lab assistance</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>HW8, Lab4</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:10'>
+  <td valign=top style='border:double windowtext 1.5pt;border-top:none;
+  mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>9</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Discuss HW8</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Lab assistance</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Exam 4</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>HW9</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:11'>
+  <td valign=top style='border:double windowtext 1.5pt;border-top:none;
+  mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>10</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Discuss HW9</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Lab assistance</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Discuss HW10</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>HW10 (before 3:00), Lab5</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:12'>
+  <td valign=top style='border:double windowtext 1.5pt;border-top:none;
+  mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><o:p>&nbsp;</o:p></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><span style='font-size:10.0pt'><o:p>&nbsp;</o:p></span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:13;mso-yfti-lastrow:yes'>
+  <td valign=top style='border:double windowtext 1.5pt;border-top:none;
+  mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'>Finals</p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'></td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal>Exam 5 </p>
+  <p class=MsoNormal><span style='color:red'>(Wed, Mar 20, 10:30-11:20)</span></p>
+  </td>
+  <td valign=top style='border-top:none;border-left:none;border-bottom:double windowtext 1.5pt;
+  border-right:double windowtext 1.5pt;mso-border-top-alt:double windowtext 1.5pt;
+  mso-border-left-alt:double windowtext 1.5pt;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-left:.5in'>* Official UCI holiday so HW will
+be discussed on Friday</p>
+
+<h1 align=center style='text-align:center'><span style='mso-fareast-font-family:
+"Times New Roman";color:#003399'>
+
+<hr size=2 width="100%" align=center>
+
+</span></h1>
+
+<h1><span style='mso-fareast-font-family:"Times New Roman"'>Lecture Course<o:p></o:p></span></h1>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:double windowtext 1.5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.75pt 0in 5.75pt;mso-border-insideh:
+ 1.5pt double windowtext;mso-border-insidev:1.5pt double windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=448 valign=top style='width:336.35pt;border:double windowtext 1.5pt;
+  padding:0in 5.75pt 0in 5.75pt'>
+  <h2 style='margin:0in;margin-bottom:.0001pt'><span style='font-size:16.0pt;
+  mso-bidi-font-size:18.0pt;mso-fareast-font-family:"Times New Roman";
+  color:#C00000'>Week 1:</span><span style='color:#C00000'> Number Systems</span><span
+  style='mso-fareast-font-family:"Times New Roman";color:#003399'><o:p></o:p></span></h2>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:71.25pt'>
+  <td width=448 valign=top style='width:336.35pt;border:double windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.75pt 0in 5.75pt;
+  height:71.25pt'>
+  <p class=MsoNormal style='margin-left:.25in'><a
+  href="Lectures/Number%20Systems.pdf">Lecture notes (lectures NS1--NS3) </a><span
+  class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#009900'>Reading:
+  Appendix A (<a
+  href="http://www.ics.uci.edu/~bic/courses/51/Misc/appendix%20A%20scan.pdf">scanned
+  copy</a>)</span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS52-numbers1_-_Web_%281024x768%29_-_20100406_03.03.53PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315"><span
+  style='color:#7030A0;text-decoration:none;text-underline:none'>Lecture NS1
+  (27 <span class=SpellE>mins</span>)</span></a><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-numbers2_-_Web_%281024x768%29_-_20100408_01.24.33PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315"><span
+  style='color:#7030A0;text-decoration:none;text-underline:none'>Lecture NS2
+  (14 <span class=SpellE>mins</span>)</span></a><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'>HW 1: problems 1, 2, 7, 8, 9c
+  from Appendix A</p>
+  <p class=MsoNormal style='margin-left:.25in'><a
+  href="HW/Solutions/Solutions%20hw1.pdf">Solutions</a></p>
+  </td>
+ </tr>
+</table>
+
+<h2 style='margin:0in;margin-bottom:.0001pt'><span style='font-size:14.0pt;
+mso-bidi-font-size:18.0pt;mso-fareast-font-family:"Times New Roman";color:#003399'><o:p>&nbsp;</o:p></span></h2>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:double windowtext 1.5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.75pt 0in 5.75pt;mso-border-insideh:
+ 1.5pt double windowtext;mso-border-insidev:1.5pt double windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=448 valign=top style='width:336.35pt;border:double windowtext 1.5pt;
+  padding:0in 5.75pt 0in 5.75pt'>
+  <h2 style='margin:0in;margin-bottom:.0001pt'><span style='font-size:16.0pt;
+  mso-bidi-font-size:18.0pt;mso-fareast-font-family:"Times New Roman";
+  color:#C00000'>Week 2:</span><span style='color:#C00000'> Number Systems
+  (cont.)</span><span style='mso-fareast-font-family:"Times New Roman";
+  color:#003399'><o:p></o:p></span></h2>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:57.75pt'>
+  <td width=448 valign=top style='width:336.35pt;border:double windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.75pt 0in 5.75pt;
+  height:57.75pt'>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#009900'>Reading:
+  Appendix B (<a
+  href="http://www.ics.uci.edu/~bic/courses/51/Misc/appendix%20B%20scan.pdf">scanned
+  copy</a>)<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.5in'><a
+  href="Misc/Note%20about%20App%20B.pdf">Note about reading App B</a></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-numbers3_-_Web_%281024x768%29_-_20100411_01.04.53PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315"><span
+  style='color:#7030A0;text-decoration:none;text-underline:none'>Lecture NS3
+  (22 <span class=SpellE>mins</span>)</span></a></span></p>
+  <p class=MsoNormal style='margin-left:.25in'>HW 2: problems 1 and 2 from
+  Appendix B</p>
+  <p class=MsoNormal style='margin-left:.25in'><a
+  href="HW/Solutions/Solutions%20hw2.pdf">Solutions</a></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:double windowtext 1.5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.75pt 0in 5.75pt;mso-border-insideh:
+ 1.5pt double windowtext;mso-border-insidev:1.5pt double windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=448 valign=top style='width:336.35pt;border:double windowtext 1.5pt;
+  padding:0in 5.75pt 0in 5.75pt'>
+  <h2 style='margin:0in;margin-bottom:.0001pt'><span style='font-size:16.0pt;
+  mso-bidi-font-size:18.0pt;mso-fareast-font-family:"Times New Roman";
+  color:#C00000'>Week 3:</span><span style='color:#C00000'> Digital Logic Level</span><span
+  style='mso-fareast-font-family:"Times New Roman";color:#003399'><o:p></o:p></span></h2>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:57.75pt'>
+  <td width=448 valign=top style='width:336.35pt;border:double windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.75pt 0in 5.75pt;
+  height:57.75pt'>
+  <p class=MsoNormal style='margin-left:.25in'><a href="Lectures/ch3-all.pdf">Lecture
+  notes (Chapter 3) </a><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#009900'>Reading:
+  3.1</span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-3a_-_Web_%281024x768%29_-_20100226_06.14.13PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  Ch3a (20 <span class=SpellE>mins</span>)</a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS52-3b_-_Web_%281024x768%29_-_20100302_07.04.36PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  Ch3b (12 <span class=SpellE>mins</span>)</a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-3b2_-_Web_%281024x768%29_-_20100302_07.44.47PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  Ch3c (16 <span class=SpellE>mins</span>)</a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'>HW 3: problems 1-4 from <a
+  href="HW/HW-ch3.docx">this document</a></p>
+  <p class=MsoNormal style='margin-left:.25in'><a
+  href="HW/Solutions/Solutions%20hw3.pdf">Solutions</a></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:double windowtext 1.5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.75pt 0in 5.75pt;mso-border-insideh:
+ 1.5pt double windowtext;mso-border-insidev:1.5pt double windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=448 valign=top style='width:336.35pt;border:double windowtext 1.5pt;
+  padding:0in 5.75pt 0in 5.75pt'>
+  <h2 style='margin:0in;margin-bottom:.0001pt'><span style='font-size:16.0pt;
+  mso-bidi-font-size:18.0pt;mso-fareast-font-family:"Times New Roman";
+  color:#C00000'>Week 4:</span><span style='color:#C00000'> Digital Logic Level
+  (cont.)</span><span style='mso-fareast-font-family:"Times New Roman";
+  color:#003399'><o:p></o:p></span></h2>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:57.75pt'>
+  <td width=448 valign=top style='width:336.35pt;border:double windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.75pt 0in 5.75pt;
+  height:57.75pt'>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#009900'>Reading:
+  3.2, <a href="Misc/PLAs.pdf"><span class=SpellE>PLAa</span></a><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-3-2_-_Web_%281024x768%29_-_20100307_11.42.58AM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  Ch3d (21 <span class=SpellE>mins</span>)</a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-3-2-3_-_Web_%281024x768%29_-_20100327_10.46.35AM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315"><span
+  style='color:#7030A0;text-decoration:none;text-underline:none'>Lecture Ch3e
+  (23 <span class=SpellE>mins</span>)</span></a></span> </p>
+  <p class=MsoNormal style='margin-left:.25in'>HW 4: problems 5, 8, 10, 11, 12,
+  13, 16 from <a href="HW/HW-ch3.docx">this document</a></p>
+  <p class=MsoNormal style='margin-left:.25in'><a
+  href="HW/Solutions/Solutions%20hw4.pdf">Solutions</a></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:double windowtext 1.5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.75pt 0in 5.75pt;mso-border-insideh:
+ 1.5pt double windowtext;mso-border-insidev:1.5pt double windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=448 valign=top style='width:336.35pt;border:double windowtext 1.5pt;
+  padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal style='mso-outline-level:2'><b><span style='font-size:
+  16.0pt;mso-bidi-font-size:18.0pt;color:#C00000'>Week 5:</span></b><b><span
+  style='font-size:18.0pt;mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:
+  minor-fareast;color:#C00000'> Digital Logic Level (cont.)</span></b><b><span
+  style='font-size:18.0pt;color:#003399'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:57.75pt'>
+  <td width=448 valign=top style='width:336.35pt;border:double windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.75pt 0in 5.75pt;
+  height:57.75pt'>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#009900'>Reading:
+  3.3-3.4</span><span style='color:#7030A0'><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-3-3_-_Web_%281024x768%29_-_20100330_01.28.22PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  Ch3f (25 <span class=SpellE>mins</span>)</a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/public/winter2013/ISC51-3-4a_-_Flash_%28Large%29_-_20130111_01.09.41PM.html">Lecture
+  Ch3g (16 <span class=SpellE>mins</span>)</a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/public/winter2013/ICS51-3-4b_-_Flash_%28Large%29_-_20130111_01.24.14PM.html">Lecture
+  Ch3h (9 <span class=SpellE>mins</span>)</a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'>HW 5: problems 19-23 from <a
+  href="HW/HW-ch3.docx"><span style='mso-fareast-font-family:"Times New Roman";
+  mso-fareast-theme-font:minor-fareast'>this document</span></a> </p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='mso-fareast-font-family:
+  "Times New Roman";mso-fareast-theme-font:minor-fareast'><a
+  href="HW/Solutions/Solutions%20hw5.pdf">Solutions</a></span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:double windowtext 1.5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.75pt 0in 5.75pt;mso-border-insideh:
+ 1.5pt double windowtext;mso-border-insidev:1.5pt double windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=448 valign=top style='width:336.35pt;border:double windowtext 1.5pt;
+  padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:16.0pt;mso-bidi-font-size:12.0pt;color:#C00000'>Week 6:</span><span
+  style='color:#C00000'> </span></b><b><span style='font-size:18.0pt;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  color:#C00000'>Microarchitecture Level</span></b><span style='color:#003399'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:57.75pt'>
+  <td width=448 valign=top style='width:336.35pt;border:double windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.75pt 0in 5.75pt;
+  height:57.75pt'>
+  <p class=MsoNormal style='margin-left:.25in'><a href="Lectures/ch4-all.pdf"><span
+  style='mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast'>Lecture
+  notes (Chapter 4) </span></a><u><span style='mso-fareast-font-family:"Times New Roman";
+  mso-fareast-theme-font:minor-fareast;color:#3366FF'><o:p></o:p></span></u></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#009900'>Reading:
+  4.1.1-4.1.3<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><u><span style='mso-fareast-font-family:
+  "Times New Roman";mso-fareast-theme-font:minor-fareast;color:#3366FF'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-4-1_-_Web_%281024x768%29_-_20100404_06.12.28PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  Ch4a (19 <span class=SpellE>mins</span>)</a><span class=MsoHyperlink><o:p></o:p></span></span></u></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-4b_-_Web_%281024x768%29_-_20100420_11.59.51AM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  Ch4b (12 <span class=SpellE>mins</span>)</a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-4c_-_Web_%281024x768%29_-_20100420_12.26.53PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  Ch4c (11 <span class=SpellE>mins</span>)</a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'>HW 6: problems 1-4 from <a
+  href="HW/HW-ch4.docx"><span style='mso-fareast-font-family:"Times New Roman";
+  mso-fareast-theme-font:minor-fareast'>this document</span></a></p>
+  <p class=MsoNormal style='margin-left:.25in'><a
+  href="HW/Solutions/Solutions%20hw6.pdf">Solutions</a></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:double windowtext 1.5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.75pt 0in 5.75pt;mso-border-insideh:
+ 1.5pt double windowtext;mso-border-insidev:1.5pt double windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=448 valign=top style='width:336.35pt;border:double windowtext 1.5pt;
+  padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:16.0pt;mso-bidi-font-size:12.0pt;color:#C00000'>Week 7:</span><span
+  style='color:#C00000'> </span></b><b><span style='font-size:18.0pt;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  color:#C00000'>Microarchitecture Level (cont.)</span></b><span
+  style='color:#003399'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:57.75pt'>
+  <td width=448 valign=top style='width:336.35pt;border:double windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.75pt 0in 5.75pt;
+  height:57.75pt'>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#009900'>Reading:
+  4.2-4.3<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-4d_-_Web_%281024x768%29_-_20100420_03.19.42PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  Ch4d (9 <span class=SpellE>mins</span>)</a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-4e_-_Web_%281024x768%29_-_20100420_03.45.44PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  Ch4e (8 <span class=SpellE>mins</span>)</a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-4f_-_Web_%281024x768%29_-_20100421_12.12.11PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  Ch4f (23 <span class=SpellE>mins</span>)</a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'>HW 7: problems 5-6 from <a
+  href="HW/HW-ch4.docx"><span style='mso-fareast-font-family:"Times New Roman";
+  mso-fareast-theme-font:minor-fareast'>this document</span></a></p>
+  <p class=MsoNormal style='margin-left:.25in'><a
+  href="HW/Solutions/Solutions%20hw7.pdf">Solutions</a></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:double windowtext 1.5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.75pt 0in 5.75pt;mso-border-insideh:
+ 1.5pt double windowtext;mso-border-insidev:1.5pt double windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=448 valign=top style='width:336.35pt;border:double windowtext 1.5pt;
+  padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span
+  style='font-size:16.0pt;mso-bidi-font-size:12.0pt;color:#C00000'>Week 8:</span><span
+  style='color:#C00000'> </span></b><b><span style='font-size:18.0pt;
+  mso-fareast-font-family:"Times New Roman";mso-fareast-theme-font:minor-fareast;
+  color:#C00000'>Microarchitecture Level (cont.)</span></b><span
+  style='color:#003399'><o:p></o:p></span></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:57.75pt'>
+  <td width=448 valign=top style='width:336.35pt;border:double windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.75pt 0in 5.75pt;
+  height:57.75pt'>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#009900'>Reading:
+  4.4.1-4.4.2, 4.4.4, 4.5.1<o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-4-2_-_Web_%281024x768%29_-_20100422_10.19.32AM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  Ch4g (16 <span class=SpellE>mins</span>)</a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-4-3_-_Web_%281024x768%29_-_20100612_02.22.27PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  Ch4h (14 <span class=SpellE>mins</span>)</a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'>HW 8: problems 7, 9, 10 from <a
+  href="HW/HW-ch4.docx"><span style='mso-fareast-font-family:"Times New Roman";
+  mso-fareast-theme-font:minor-fareast'>this document</span></a></p>
+  <p class=MsoNormal style='margin-left:.25in'><a
+  href="HW/Solutions/Solutions%20hw8.pdf">Solutions</a></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:double windowtext 1.5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.75pt 0in 5.75pt;mso-border-insideh:
+ 1.5pt double windowtext;mso-border-insidev:1.5pt double windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=448 valign=top style='width:336.35pt;border:double windowtext 1.5pt;
+  padding:0in 5.75pt 0in 5.75pt'>
+  <h2 style='margin:0in;margin-bottom:.0001pt'><span style='font-size:16.0pt;
+  mso-bidi-font-size:18.0pt;mso-fareast-font-family:"Times New Roman";
+  color:#C00000'>Week 9:</span><span style='color:#C00000'> The ISA Level</span><span
+  style='mso-fareast-font-family:"Times New Roman";color:#003399'><o:p></o:p></span></h2>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:57.75pt'>
+  <td width=448 valign=top style='width:336.35pt;border:double windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.75pt 0in 5.75pt;
+  height:57.75pt'>
+  <p class=MsoNormal style='margin-left:.25in'><a href="Lectures/5-1.pdf">Lecture
+  notes (Chapter 5) </a><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#009900'>Reading:
+  5.3.1, 5.3.2</span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-5a_-_Web_%281024x768%29_-_20100611_12.40.30PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  Ch5a (11 <span class=SpellE>mins</span>)</a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-5b_-_Web_%281024x768%29_-_20100611_01.00.26PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  Ch5b (7 <span class=SpellE>mins</span>)</a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-5c_-_Web_%281024x768%29_-_20100612_12.49.08PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  Ch5c (19 <span class=SpellE>mins</span>)</a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'>HW 9: all problems from <a
+  href="HW/HW-ch5.docx">this document</a><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><a
+  href="HW/Solutions/Solutions%20hw9.pdf">Solutions</a></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:double windowtext 1.5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.75pt 0in 5.75pt;mso-border-insideh:
+ 1.5pt double windowtext;mso-border-insidev:1.5pt double windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=448 valign=top style='width:336.35pt;border:double windowtext 1.5pt;
+  padding:0in 5.75pt 0in 5.75pt'>
+  <h2 style='margin:0in;margin-bottom:.0001pt'><span style='font-size:16.0pt;
+  mso-bidi-font-size:18.0pt;mso-fareast-font-family:"Times New Roman";
+  color:#C00000'>Week 10:</span><span style='color:#C00000'> The Operating
+  System Level</span><span style='mso-fareast-font-family:"Times New Roman";
+  color:#003399'><o:p></o:p></span></h2>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:57.75pt'>
+  <td width=448 valign=top style='width:336.35pt;border:double windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.75pt 0in 5.75pt;
+  height:57.75pt'>
+  <p class=MsoNormal style='margin-left:.25in'><a href="Lectures/6-1.pdf">Lecture
+  notes (Chapter 6) </a><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#009900'>Reading:
+  6.1.1-6.1.7</span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-6a_-_Web_%281024x768%29_-_20100614_10.41.10AM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  Ch6a (15 <span class=SpellE>mins</span>)</a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-6b_-_Web_%281024x768%29_-_20100614_10.51.29AM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  Ch6b (8 <span class=SpellE>mins</span>)</a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'>HW 10: all problems from <a
+  href="HW/HW-ch6.docx">this document</a><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><a
+  href="HW/Solutions/Solutions%20hw10.pdf">Solutions</a></p>
+  </td>
+ </tr>
+</table>
+
+<h1 align=center style='text-align:center'><span style='mso-fareast-font-family:
+"Times New Roman";color:#003399'>
+
+<hr size=2 width="100%" align=center>
+
+</span></h1>
+
+<h1><span style='mso-fareast-font-family:"Times New Roman"'>Programming Labs<o:p></o:p></span></h1>
+
+<p class=MsoNormal>Follow these instructions to install the simulator (tracer)
+that will be used for all labs.</p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<p class=MsoNormal style='margin-left:.5in'>If you don<span style='font-family:
+"Calibri","sans-serif";mso-ascii-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-theme-font:minor-latin'>`</span>t know which version of
+Windows you are running then go to the following link:</p>
+
+<p class=MsoNormal style='margin-left:.5in'><a
+href="http://windows.microsoft.com/en-US/windows7/find-out-32-or-64-bit"><span
+style='color:blue'>http://windows.microsoft.com/en-US/windows7/find-out-32-or-64-bit</span></a></p>
+
+<p class=MsoNormal style='margin-left:.5in'><br>
+Instructions for <a href="Misc/tracer-install-instructions-window-32bit.pdf"><span
+style='color:blue'>Windows-32 bit version</span></a><br>
+Instructions for <a href="Misc/tracer-install-instructions-window7-64bit.pdf"><span
+style='color:blue'>Windows7-64 bit version</span></a></p>
+
+<p class=MsoNormal style='margin-left:.5in'>SW for windows: <a
+href="Misc/tracer.zip">tracer.zip</a></p>
+
+<p class=MsoNormal style='margin-left:.5in'><br>
+Instructions for <a href="Misc/tracer-install-instructions-mac.pdf"><span
+style='color:blue'>Mac</span></a></p>
+
+<p class=MsoNormal style='margin-left:.5in'>SW for <a href="Misc/linux.zip">linux.zip</a>
+(supposedly works for Mac -- try it)<br style='mso-special-character:line-break'>
+<![if !supportLineBreakNewLine]><br style='mso-special-character:line-break'>
+<![endif]></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:double windowtext 1.5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.75pt 0in 5.75pt;mso-border-insideh:
+ 1.5pt double windowtext;mso-border-insidev:1.5pt double windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=371 valign=top style='width:278.6pt;border:double windowtext 1.5pt;
+  padding:0in 5.75pt 0in 5.75pt'>
+  <h2 style='margin:0in;margin-bottom:.0001pt'><span style='font-size:16.0pt;
+  mso-bidi-font-size:18.0pt;mso-fareast-font-family:"Times New Roman";
+  color:#C00000'>Week 1-2</span><span style='mso-fareast-font-family:"Times New Roman";
+  color:#003399'><o:p></o:p></span></h2>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:104.25pt'>
+  <td width=371 valign=top style='width:278.6pt;border:double windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.75pt 0in 5.75pt;
+  height:104.25pt'>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#0070C0'><a
+  href="Lectures/ch7-all.pdf">Lecture notes (all labs)</a></span><span
+  class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#339900'>Reading
+  (for all labs): 7.1, Appendix C </span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-7-1_-_Web_(1024x768)_-_20100422_11.48.52AM.html"><span
+  style='color:#7030A0;text-decoration:none;text-underline:none'>Lecture L1 (10
+  <span class=SpellE>mins</span>)</span></a> </span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-tracer1_-_Web_(1024x768)_-_20100422_12.17.41PM.html">Tracer
+  Demo 1 (9 <span class=SpellE>mins</span>) </a></span><span
+  class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-7-2_-_Web_%281024x768%29_-_20100426_12.17.31PM.html">Lecture
+  L2 (24 <span class=SpellE>mins</span>)</a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0;
+  mso-no-proof:yes'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-tracer2_-_Web_(1024x768)_-_20100423_04.21.03PM.html">T<span
+  style='mso-no-proof:no'>racer Demo 2 (7 <span class=SpellE>mins</span>) </span></a></span><span
+  class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><a href="LABS/LAB1.pdf">Lab1
+  Assignment</a></p>
+  <p class=MsoNormal style='margin-left:.25in'><a
+  href="LABS/Solutions/Solutions%20LAB1.pdf">Solutions</a></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:double windowtext 1.5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.75pt 0in 5.75pt;mso-border-insideh:
+ 1.5pt double windowtext;mso-border-insidev:1.5pt double windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=371 valign=top style='width:278.6pt;border:double windowtext 1.5pt;
+  padding:0in 5.75pt 0in 5.75pt'>
+  <h2 style='margin:0in;margin-bottom:.0001pt'><span style='font-size:16.0pt;
+  mso-bidi-font-size:18.0pt;mso-fareast-font-family:"Times New Roman";
+  color:#C00000'>Week 3-4</span><span style='mso-fareast-font-family:"Times New Roman";
+  color:#003399'><o:p></o:p></span></h2>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:36.75pt'>
+  <td width=371 valign=top style='width:278.6pt;border:double windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.75pt 0in 5.75pt;
+  height:36.75pt'>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-7-3_-_Web_%281024x768%29_-_20100427_03.13.23PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  L3 (10 <span class=SpellE>mins</span>) </a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><a href="LABS/LAB2.pdf">Lab2
+  Assignment</a></p>
+  <p class=MsoNormal style='margin-left:.25in'><a
+  href="LABS/Solutions/Solutions%20LAB2.pdf">Solutions</a></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:double windowtext 1.5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.75pt 0in 5.75pt;mso-border-insideh:
+ 1.5pt double windowtext;mso-border-insidev:1.5pt double windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=371 valign=top style='width:278.6pt;border:double windowtext 1.5pt;
+  padding:0in 5.75pt 0in 5.75pt'>
+  <h2 style='margin:0in;margin-bottom:.0001pt'><span style='font-size:16.0pt;
+  mso-bidi-font-size:18.0pt;mso-fareast-font-family:"Times New Roman";
+  color:#C00000'>Week 5-6</span><span style='mso-fareast-font-family:"Times New Roman";
+  color:#003399'><o:p></o:p></span></h2>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:21.0pt'>
+  <td width=371 valign=top style='width:278.6pt;border:double windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.75pt 0in 5.75pt;
+  height:21.0pt'>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-7-3b_-_Web_%281024x768%29_-_20100616_12.29.46PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  L4 (10 <span class=SpellE>mins</span>) </a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-7-3c_-_Web_%281024x768%29_-_20100616_12.48.19PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  L5 (13 <span class=SpellE>mins</span>) </a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><a href="LABS/LAB3.pdf">Lab3
+  Assignment</a> </p>
+  <p class=MsoNormal style='margin-left:.25in'><a
+  href="LABS/Solutions/Solutions%20LAB3.pdf">Solutions</a></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:double windowtext 1.5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.75pt 0in 5.75pt;mso-border-insideh:
+ 1.5pt double windowtext;mso-border-insidev:1.5pt double windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=371 valign=top style='width:278.6pt;border:double windowtext 1.5pt;
+  padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal style='mso-outline-level:2'><b><span style='font-size:
+  16.0pt;mso-bidi-font-size:18.0pt;color:#C00000'>Week 7-8</span></b><b><span
+  style='font-size:18.0pt;color:#003399'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:21.0pt'>
+  <td width=371 valign=top style='width:278.6pt;border:double windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.75pt 0in 5.75pt;
+  height:21.0pt'>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-7-3d_-_Web_%281024x768%29_-_20100616_01.22.33PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  L6 (14 <span class=SpellE>mins</span>) </a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><u><span style='mso-fareast-font-family:
+  "Times New Roman";mso-fareast-theme-font:minor-fareast;color:#3366FF'><a
+  href="LABS/LAB4.pdf">Lab4 Assignment</a></span></u> </p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none;mso-border-alt:double windowtext 1.5pt;
+ mso-yfti-tbllook:1184;mso-padding-alt:0in 5.75pt 0in 5.75pt;mso-border-insideh:
+ 1.5pt double windowtext;mso-border-insidev:1.5pt double windowtext'>
+ <tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+  <td width=371 valign=top style='width:278.6pt;border:double windowtext 1.5pt;
+  padding:0in 5.75pt 0in 5.75pt'>
+  <p class=MsoNormal style='mso-outline-level:2'><b><span style='font-size:
+  16.0pt;mso-bidi-font-size:18.0pt;color:#C00000'>Week 9-10</span></b><b><span
+  style='font-size:18.0pt;color:#003399'><o:p></o:p></span></b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:21.0pt'>
+  <td width=371 valign=top style='width:278.6pt;border:double windowtext 1.5pt;
+  border-top:none;mso-border-top-alt:double windowtext 1.5pt;padding:0in 5.75pt 0in 5.75pt;
+  height:21.0pt'>
+  <p class=MsoNormal style='margin-left:.25in'><span style='color:#7030A0'><a
+  href="http://replay.uci.edu/media/public/summer2010/ICS51-7-3e_-_Web_%281024x768%29_-_20100616_01.42.09PM.html?extern_usr=lubomirbic&amp;extern_id=22211&amp;course_id=6315">Lecture
+  L7 (8 <span class=SpellE>mins</span>) </a></span><span class=MsoHyperlink><o:p></o:p></span></p>
+  <p class=MsoNormal style='margin-left:.25in'><u><span style='mso-fareast-font-family:
+  "Times New Roman";mso-fareast-theme-font:minor-fareast;color:#3366FF'><a
+  href="LABS/LAB5.pdf">Lab5 Assignment</a></span></u> </p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+<h2><span style='color:#003399'><o:p>&nbsp;</o:p></span></h2>
+
+<h2><span style='color:#003399'><o:p>&nbsp;</o:p></span></h2>
+
+<h3 style='margin-left:.25in'><a href="Lectures/Number%20Systems.pptx">NS1--NS3</a><span
+style='color:#003399'><o:p></o:p></span></h3>
+
+<h3 style='margin-left:.25in'><span style='color:#003399'><o:p>&nbsp;</o:p></span></h3>
+
+</div>
+
+</body>
+
+</html>
+

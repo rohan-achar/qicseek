@@ -1,0 +1,150 @@
+<!------------------------------------------------------------------------
+<!  NSF Research Awards Abstracts 1990-2003
+<!----------------------------------------------------------------------->
+<HTML>
+<HEAD>
+<TITLE>NSF Research Awards Abstracts 1990-2003</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+
+<!------------------------------------------------------------------------
+<!  Title
+<!----------------------------------------------------------------------->
+<H1>NSF Research Awards Abstracts 1990-2003</H1>
+
+<!------------------------------------------------------------------------
+<!  Data Type
+<!----------------------------------------------------------------------->
+<H2>Data Type</H2>
+text and tabular
+
+<!------------------------------------------------------------------------
+<!  Abstract
+<!----------------------------------------------------------------------->
+<H2>Abstract</H2>
+<p>
+This data set consists of (a) 129,000 abstracts describing NSF awards for basic research, (b) bag-of-word data files extracted from the abstracts, (c) a list of words for indexing the bag-of-word data.
+</p>
+
+<!------------------------------------------------------------------------
+<!  Sources
+<!----------------------------------------------------------------------->
+<H2> Sources</H2>
+<H4> Original Owner and Donor</H4>
+<PRE>
+Abstracts provided by
+Michael J. Pazzani
+ICS Department, School of Computer Science, UCI, Irvine CA, 92697, USA
+<A HREF="mailto:pazzani@ics.uci.edu">pazzani@ics.uci.edu</A>
+
+Bag-of-word data provided by
+Amnon Meyers
+ICS Department, School of Computer Science, UCI, Irvine CA, 92697, USA
+<A HREF="mailto:ameyers@ics.uci.edu">ameyers@ics.uci.edu</A>
+</PRE>
+<B>Date Donated: </B>November 18, 2003
+
+<!------------------------------------------------------------------------
+<!  Data Characteristics
+<!----------------------------------------------------------------------->
+<H2> Data Characteristics</H2>
+<P>
+The abstracts, one per file, were furnished by the NSF (National Science Foundation).  A sample abstract is shown in the next section.
+<P>
+The bag-of-word data was produced by automatically processing the abstracts with a text analyzer called NSFAbst, built using VisualText.  While most fields of the output are very accurate, the authors were not extracted from the Investigator: field with 100% accuracy, due to wide variability in that field.
+<P>
+The word list came from a separate process, and may not include all the words of interest in the abstracts.
+<P>
+
+<!------------------------------------------------------------------------
+<!  Data Format 
+<!----------------------------------------------------------------------->
+<H2>Data Format</H2>
+
+<H3>Abstracts</H3>
+A sample abstract is shown below:
+
+<PRE>
+==================================================================
+Title       : CAREER: Markov Chain Monte Carlo Methods
+Type: Award
+NSF Org     : CCR
+Latest
+Amendment
+Date        : May 5, 2003
+File        : a0237834
+
+Award Number: 0237834
+Award Instr.: Continuing grant
+Prgm Manager: Ding-Zhu Du
+          CCR  DIV OF COMPUTER-COMMUNICATIONS RESEARCH
+          CSE  DIRECT FOR COMPUTER & INFO SCIE & ENGINR
+Start Date  : August 1,  2003
+Expires     : May 31,  2008 (Estimated)
+Expected
+Total Amt.  : $400000             (Estimated)
+Investigator: Eric Vigoda vigoda@cs.uchicago.edu  (Principal Investigator current)
+Sponsor     : University of Chicago
+          5801 South Ellis Avenue
+          Chicago, IL  606371404    773/702-8602
+
+NSF Program : 2860      THEORY OF COMPUTING
+Fld Applictn:
+Program Ref : 1045,1187,9216,HPCC,
+Abstract    :
+
+     Markov chain Monte Carlo (MCMC) methods are an important algorithmic
+     device in a variety of fields.  This project studies techniques for rigorous
+     analysis of the convergence properties of Markov chains.   The emphasis is on
+     refining probabilistic, analytic and combinatorial tools (such as coupling,
+     log-Sobolev, and canonical paths) to improve existing algorithms and develop
+     efficient algorithms for important open problems.
+
+     Problems arising in
+     computer science, discrete mathematics, and physics are of particular interest,
+     e.g., generating random colorings and independent sets of bounded-degree
+     graphs, approximating the permanent, estimating the volume of a convex body,
+     and sampling contingency tables.  The project also studies inherent connections
+     between phase transitions in statistical physics models and convergence
+     properties of associated Markov chains.
+
+     The investigator is developing a
+     new graduate course on MCMC methods.
+==================================================================
+</PRE>
+<P>
+<H3>Bag-of-Word Data</H3>
+
+The bag-of-word data consists of 2-column and 3-column files, as follows.
+<PRE>
+idnsfid.txt    = docid  NSF_doc_id     (e.g., 1 a9000006)
+docauths.txt   = docid  Author_string  (e.g., 7 Brian Fiedler)
+doctitles.txt  = docid  Title_string   (e.g., 9 Ship Operations)
+docwords.txt   = docid  wordid freq    (e.g., 1 9792 1)
+
+Definitions:
+
+docid         = a counter generated for each document as it was processed.
+wordid        = the id for a word, as obtained from the word.txt file.
+freq          = the number of times that the word (wordid) appears in the file (docid).
+NSF_doc_id    = the value taken from the File: field of an NSF awards file.
+Title_String  = the value of the Title: field of an NSF awards file.
+Author_String = derived from the Investigator: field when feasible.
+</PRE>
+
+
+<!------------------------------------------------------------------------
+<!  Signature
+<!----------------------------------------------------------------------->
+<p>
+<hr>
+<ADDRESS>
+<A href="http://kdd.ics.uci.edu/">The UCI KDD Archive</A><br>
+<a href="http://www.ics.uci.edu/">Information and Computer Science</a><br>
+<a href="http://www.uci.edu/">University of California, Irvine</a><br>
+Irvine, CA 92697-3425 <br>
+</ADDRESS> 
+Last modified: November 18, 2003 </BODY>
+</HTML>
+
+

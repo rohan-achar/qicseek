@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Parsing other Data Structures</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Parsing other Data Structures">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html4102 HREF="node156.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html4100 HREF="node152.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html4096 HREF="node154.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html4104 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html4103 HREF="node156.html"> Exceptions</A>
+<B>Up:</B> <A NAME=tex2html4101 HREF="node152.html"> Definite Clause Grammars </A>
+<B> Previous:</B> <A NAME=tex2html4097 HREF="node154.html"> Mapping to Prolog </A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION001233000000000000000> Parsing other Data Structures</A></H2>
+<P>
+DCGs are in principle not limited to the parsing of lists.
+The predicate 'C'/3 is responsible for reading resp. generating
+the input tokens. The default definition is
+<A NAME=2447>&#160;</A>
+<blockquote> <PRE>'C'([Token|Rest], Token, Rest).
+</PRE></blockquote>
+The first argument represents the parsing input before consuming
+Token and Rest is the input after consuming Token.
+By redefining 'C'/3, it is possible to apply a DCG to other
+input sources than a list, e.g. to parse directly from an I/O stream:
+<blockquote> <PRE>'C'(Stream-Pos0, Token, Stream-Pos1) :-
+        seek(Stream, Pos0),
+        read_string(Stream, &quot; &quot;, _, TokenString),
+        atom_string(Token, TokenString),
+        at(Stream, Pos1).
+
+ sentence --&gt; noun, [is], adjective.
+ noun --&gt; [prolog] ; [lisp].
+ adjective --&gt; [boring] ; [great].
+</PRE></blockquote>
+This can then be applied to a string as follows:
+<blockquote> <PRE>[eclipse 1]: String = &quot;prolog is great&quot;, open(String, string, S),
+             phrase(sentence, S-0, S-End).
+..
+End = 15
+yes.
+</PRE></blockquote>
+Unlike the default definition, this definition of 'C'/3 is not bi-directional.
+Consequently, the grammar rules using it can only be used for parsing,
+not for generating sentences.
+<P>
+Note that every grammar rule uses the definition of 'C'/3 which is visible in
+the module where the grammar rule itself is defined.
+<P>
+
+<P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

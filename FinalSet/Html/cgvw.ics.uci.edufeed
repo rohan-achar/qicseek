@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Center for Computer Games &#38; Virtual Worlds</title>
+	<atom:link href="http://cgvw.ics.uci.edu/feed/" rel="self" type="application/rss+xml" />
+	<link>http://cgvw.ics.uci.edu</link>
+	<description>Bren School of ICS &#124; UC Irvine</description>
+	<lastBuildDate>Fri, 25 Oct 2013 17:28:29 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>San Francisco MOMA: Video Games as Art and Interaction Design</title>
+		<link>http://cgvw.ics.uci.edu/san-francisco-moma-video-games-as-art-and-interaction-design/</link>
+		<comments>http://cgvw.ics.uci.edu/san-francisco-moma-video-games-as-art-and-interaction-design/#comments</comments>
+		<pubDate>Thu, 29 Nov 2012 20:06:37 +0000</pubDate>
+		<dc:creator><![CDATA[staff]]></dc:creator>
+				<category><![CDATA[In the News]]></category>
+
+		<guid isPermaLink="false">http://cgvw.ics.uci.edu/?p=890</guid>
+		<description><![CDATA[The San Francisco Museum of Modern Art has acquired a collection of 14 video games of significant historical importance. This move is a recognition of video games as both Art and Interaction Design, and establishes the need to preserve these historical artifacts. Read MOMA&#8217;s full article for insightful remarks about its initiative.]]></description>
+		<wfw:commentRss>http://cgvw.ics.uci.edu/san-francisco-moma-video-games-as-art-and-interaction-design/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>OC Video Game Companies Raise Millions on Kickstarter</title>
+		<link>http://cgvw.ics.uci.edu/oc-video-game-companies-raise-millions-on-kickstarter/</link>
+		<comments>http://cgvw.ics.uci.edu/oc-video-game-companies-raise-millions-on-kickstarter/#comments</comments>
+		<pubDate>Tue, 30 Oct 2012 15:12:20 +0000</pubDate>
+		<dc:creator><![CDATA[staff]]></dc:creator>
+				<category><![CDATA[In the News]]></category>
+
+		<guid isPermaLink="false">http://cgvw.ics.uci.edu/?p=877</guid>
+		<description><![CDATA[From KPCC, a story on how OC video game entrepreneurs are raising money on the popular crowdsourcing site Kickstarter.]]></description>
+		<wfw:commentRss>http://cgvw.ics.uci.edu/oc-video-game-companies-raise-millions-on-kickstarter/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>MMVE 2012</title>
+		<link>http://cgvw.ics.uci.edu/mmve-2012/</link>
+		<comments>http://cgvw.ics.uci.edu/mmve-2012/#comments</comments>
+		<pubDate>Fri, 12 Oct 2012 01:05:36 +0000</pubDate>
+		<dc:creator><![CDATA[staff]]></dc:creator>
+				<category><![CDATA[In the News]]></category>
+		<category><![CDATA[MMVE]]></category>
+		<category><![CDATA[virtual conferences]]></category>
+
+		<guid isPermaLink="false">http://cgvw.ics.uci.edu/?p=862</guid>
+		<description><![CDATA[Twenty researchers from all over the world participated in the virtual poster session of the 5th Workshop on Massive Multiuser Virtual Environments (MMVE 2012). The workshop was held in Munich, Germany, on October 9. The virtual session was hosted by the Center for Computer Games and Virtual Worlds using an OpenSimulator server featuring Vivox for [&#8230;]]]></description>
+		<wfw:commentRss>http://cgvw.ics.uci.edu/mmve-2012/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>The Future of Research in Computer Games and Virtual Worlds</title>
+		<link>http://cgvw.ics.uci.edu/the-future-of-research-in-computer-games-and-virtual-worlds/</link>
+		<comments>http://cgvw.ics.uci.edu/the-future-of-research-in-computer-games-and-virtual-worlds/#comments</comments>
+		<pubDate>Tue, 02 Oct 2012 21:18:41 +0000</pubDate>
+		<dc:creator><![CDATA[staff]]></dc:creator>
+				<category><![CDATA[In the News]]></category>
+		<category><![CDATA[computer games]]></category>
+		<category><![CDATA[Research]]></category>
+		<category><![CDATA[virtual worlds]]></category>
+
+		<guid isPermaLink="false">http://cgvw.ics.uci.edu/?p=844</guid>
+		<description><![CDATA[In November of 2010, more than 30 scholars engaged in research on topics related to Computer Games and Virtual Worlds (CGVWs) participated in a workshop at UC Irvine to identify future research problems and opportunities in this arena. During the past year and a half the workshop continued online, culminating in the production of an extensive report [&#8230;]]]></description>
+		<wfw:commentRss>http://cgvw.ics.uci.edu/the-future-of-research-in-computer-games-and-virtual-worlds/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>UCI Law Review Issue on Regulation of Virtual Worlds</title>
+		<link>http://cgvw.ics.uci.edu/uci-law-review-issue-on-regulation-of-virtual-worlds/</link>
+		<comments>http://cgvw.ics.uci.edu/uci-law-review-issue-on-regulation-of-virtual-worlds/#comments</comments>
+		<pubDate>Mon, 01 Oct 2012 13:58:06 +0000</pubDate>
+		<dc:creator><![CDATA[staff]]></dc:creator>
+				<category><![CDATA[In the News]]></category>
+		<category><![CDATA[Law]]></category>
+		<category><![CDATA[Online Games]]></category>
+		<category><![CDATA[virtual worlds]]></category>
+
+		<guid isPermaLink="false">http://cgvw.ics.uci.edu/?p=834</guid>
+		<description><![CDATA[The June 2012 of the UC Irvine Law Review, entitled &#8220;Governing the Magic Circle: Regulation of Virtual Worlds&#8220;, features articles of several prominent professors regarding issues of governance in online games and virtual worlds. All articles are available online.]]></description>
+		<wfw:commentRss>http://cgvw.ics.uci.edu/uci-law-review-issue-on-regulation-of-virtual-worlds/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>CGVW to Host MMVE 2012</title>
+		<link>http://cgvw.ics.uci.edu/cgvw-to-host-mmve-2012/</link>
+		<comments>http://cgvw.ics.uci.edu/cgvw-to-host-mmve-2012/#comments</comments>
+		<pubDate>Fri, 28 Sep 2012 16:31:04 +0000</pubDate>
+		<dc:creator><![CDATA[staff]]></dc:creator>
+				<category><![CDATA[In the News]]></category>
+		<category><![CDATA[MMVE]]></category>
+		<category><![CDATA[OpenSim]]></category>
+
+		<guid isPermaLink="false">http://cgvw.ics.uci.edu/?p=824</guid>
+		<description><![CDATA[The Center is proud to be hosting the virtual conference for the 5th International Workshop on Massively Multiuser Virtual Environments (MMVE 2012), which will take place in real life in Munich, October 9. The virtual conference center, based on the Universal Campus, will host the Poster session, as well as the Town Hall meeting that [&#8230;]]]></description>
+		<wfw:commentRss>http://cgvw.ics.uci.edu/cgvw-to-host-mmve-2012/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Ethnography and Virtual Worlds</title>
+		<link>http://cgvw.ics.uci.edu/ethnography-and-virtual-worlds/</link>
+		<comments>http://cgvw.ics.uci.edu/ethnography-and-virtual-worlds/#comments</comments>
+		<pubDate>Mon, 17 Sep 2012 20:54:58 +0000</pubDate>
+		<dc:creator><![CDATA[staff]]></dc:creator>
+				<category><![CDATA[In the News]]></category>
+		<category><![CDATA[ethnography]]></category>
+		<category><![CDATA[virtual worlds]]></category>
+
+		<guid isPermaLink="false">http://cgvw.ics.uci.edu/?p=784</guid>
+		<description><![CDATA[Tom Boellstorff, Bonnie Nardi and two other colleagues have published the book &#8220;Ethnography and Virtual Worlds: A Handbook of Method&#8220;. A great read for students, teachers, designers, and scholars interested in using ethnographic methods to study online virtual worlds.]]></description>
+		<wfw:commentRss>http://cgvw.ics.uci.edu/ethnography-and-virtual-worlds/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>The Universal Campus</title>
+		<link>http://cgvw.ics.uci.edu/the-universal-campus/</link>
+		<comments>http://cgvw.ics.uci.edu/the-universal-campus/#comments</comments>
+		<pubDate>Sun, 27 May 2012 20:55:47 +0000</pubDate>
+		<dc:creator><![CDATA[staff]]></dc:creator>
+				<category><![CDATA[In the News]]></category>
+		<category><![CDATA[3D collaboration environments]]></category>
+		<category><![CDATA[OpenSim]]></category>
+
+		<guid isPermaLink="false">http://cgvw.ics.uci.edu/?p=786</guid>
+		<description><![CDATA[Pierre Baldi and Cristina Videira Lopes have developed an infrastructure called the Universal Campuswhich allows, among other things, the organization and deployment of scientific meeting, conferences, classes, etc in a 3D virtual world. 2011. The work has been published in the ACM ELearn magazine.]]></description>
+		<wfw:commentRss>http://cgvw.ics.uci.edu/the-universal-campus/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Make: Technology on your time (Volume 26)</title>
+		<link>http://cgvw.ics.uci.edu/make-technology-on-your-time-volume-26/</link>
+		<comments>http://cgvw.ics.uci.edu/make-technology-on-your-time-volume-26/#comments</comments>
+		<pubDate>Wed, 27 Apr 2011 19:08:09 +0000</pubDate>
+		<dc:creator><![CDATA[venita]]></dc:creator>
+				<category><![CDATA[In the News]]></category>
+
+		<guid isPermaLink="false">http://cgvw.ics.uci.edu/?p=476</guid>
+		<description><![CDATA[OUTRUN Building the Un-simulation of a driving video game &#8211; by Garnet Hertz]]></description>
+		<wfw:commentRss>http://cgvw.ics.uci.edu/make-technology-on-your-time-volume-26/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>UCI students build games in a week</title>
+		<link>http://cgvw.ics.uci.edu/uci-students-build-games-in-a-week/</link>
+		<comments>http://cgvw.ics.uci.edu/uci-students-build-games-in-a-week/#comments</comments>
+		<pubDate>Thu, 21 Apr 2011 20:29:33 +0000</pubDate>
+		<dc:creator><![CDATA[venita]]></dc:creator>
+				<category><![CDATA[In the News]]></category>
+
+		<guid isPermaLink="false">http://cgvw.ics.uci.edu/?p=457</guid>
+		<description><![CDATA[April 13th, 2011, 7:41 am · 8 Comments · posted by Ian Hamilton Share157 After a week spent building a computer game from scratch, Justin Britch is sitting behind a laptop Monday night just five hours from an 11 p.m. deadline. “We couldn’t get our levels to work for a very long time,” Britch tells [&#8230;]]]></description>
+		<wfw:commentRss>http://cgvw.ics.uci.edu/uci-students-build-games-in-a-week/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

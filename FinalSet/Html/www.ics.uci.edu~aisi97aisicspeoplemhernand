@@ -1,0 +1,50 @@
+<HTML>
+<HEAD>
+  <TITLE>Miguel Hernandez</TITLE>
+  <base href="http://www.ics.uci.edu/~aisi/97_aisics/people/mhernand/">
+</HEAD>
+
+<BODY Background="images/mez1.gif" TEXT="#000000" LINK="#0000CC" VLINK="#660066" ALINK="#660066">
+
+
+<H1 ALIGN=CENTER>Miguel Hernandez</H1>
+
+<CENTER><P><IMG SRC="images/rule01.gif" ></P></CENTER>
+<center><P>This is my first Web Page.</P></center>
+
+
+<H3 ALIGN=CENTER>Hot Links</H3>
+<DL>
+<DD><IMG SRC="images/bullet1.gif" > <A HREF="mailto:klashner@ics.uci.edu">ROBB ( With
+2 B's)<BR></A> 
+<IMG SRC="images/bullet1.gif" ><A HREF="mailto:jacobson@ics.uci.edu">Norman<BR>
+ </A></DD>
+</DL>
+<H3 ALIGN=CENTER>Homework</H3>
+
+<CENTER>
+homework 3 - 
+  <A HREF="resume.html">Resume,</A>
+  <A HREF="home.html">Counseling Simulation Home Page</A><br>
+homework 4 -
+  <A href="index2.html">Name tag</A><br>
+homework 5 -
+<A href="days.ps">Luiseno History</A><br>
+homework 6 -
+<A HREF="resume3.html">resume</A><p>
+
+<A HREF="home.html">Business</A><br>
+<p><IMG SRC="images/rule01.gif" ></P></CENTER> 
+
+<P>Well it's Thursday June 26,1997,Im 27 years old and this is my first
+real time leaving PAUMA RES. Im having a good time,but I miss my kids!
+The classes have a lot of homework, but im learning a lot. Going to school
+will better my kids, my people and myself's future in the long run.</P>
+
+<hr>
+<P>If you have comments or suggestions, email me at <I><A HREF="mailto:mhernand@ics.uci.edu">mhernand@ics.uci.edu</A></I>
+
+</P>
+</BODY>
+</HTML>
+

@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Compiler Pragmas</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Compiler Pragmas">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html3104 HREF="node72.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html3102 HREF="node63.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html3096 HREF="node70.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html3106 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html3105 HREF="node72.html"> Writing Efficient Code</A>
+<B>Up:</B> <A NAME=tex2html3103 HREF="node63.html"> The Compiler</A>
+<B> Previous:</B> <A NAME=tex2html3097 HREF="node70.html"> Mode Declarations</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION00680000000000000000> Compiler Pragmas</A></H1>
+<P>
+<A NAME=1012>&#160;</A>
+Compiler pragmas are compiler directives which instruct the compiler
+to emit a particular code type.
+Their syntax is similar to directives:
+<blockquote> <PRE>:- pragma(Option).
+</PRE>
+</blockquote>
+It is not possible to have several pragmas grouped together and separated
+by commas like goals, every pragma must be specified separately.
+<i> Option</i> can be one of the following:
+<UL><LI> <b> debug</b> - generate code which can be inspected with the
+debugger, similarly to setting the global flag <tt> debug_compile</tt> to <tt> on</tt>.
+It also implies the <b> noexpand</b> pragma.
+<P>
+<LI> <b> nodebug</b> - generate optimized code with no debugger support,
+similarly to setting the global flag <tt> debug_compile</tt> to <tt> off</tt>.
+It also implies the <b> expand</b> pragma.
+<P>
+<LI> <b> silent_debug</b> - generate code which cannot be inspected
+by the debugger, but which allows to debug predicates called
+by it.
+This is similar to setting the <tt> leash</tt> flag
+of all subgoals in the following clauses
+to <tt> notrace</tt>.
+This option is useful e.g. for library predicates which call other
+Prolog predicates: the user wants to see in the debugger the
+call to the library predicate and to the invoked predicate,
+but no internal calls in the library predicates.
+<P>
+<LI> <b> expand</b> - do in-line expansion of some subgoals,
+like <b>=</b>/2, <b> is/2</b> and others.
+This code can still be inspected with the debugger but the expanded
+subgoals look differently than in the normal debugged code,
+or their arguments cannot be seen.
+In-line expansion is also done when the global flag <b> debug_compile</b>
+is <tt> off</tt>, or when the pragma <b> nodebug</b> is specified.
+<P>
+<LI> <b> noexpand</b> - inhibit the in-line goal expansion.
+This is also done in the pragma <b> debug</b>.
+<P>
+<LI> <b> skip</b> - set the <tt> skip</tt> flag of all following
+predicates to <tt> on</tt>.
+<P>
+<LI> <b> noskip</b> - set the <tt> skip</tt> flag of all following
+predicates to <tt> off</tt>.
+<P>
+<LI> <b> system</b> - set the <tt> type</tt> flag of all following
+predicates to <tt> built_in</tt>.
+Moreover, all following predicates will have unspecified
+<tt> source_file</tt> and <tt> source_line</tt> flags.
+</UL>
+By default, the compiler works as if the pragmas <b> debug</b>, <b> noexpand</b>
+and <b> noskip</b> were specified.
+<P>
+The pragma is active from its specification in the file
+until the file end or until it is disabled by another pragma.
+Recursive compilations or calls to other compiling predicates
+are not affected by the pragma.
+Pragmas which have the same effect as global flags override
+the global flags if they specify more optimized code.
+For instance, the pragma <b> debug</b> has no effect if the
+global flag <tt> debug_compile</tt> is <tt> off</tt>,
+but the pragma <b> nodebug</b> overrides the global
+flag <tt> debug_compile</tt> being <tt> on</tt>.
+<P>
+The pragmas are  useful mainly for libraries and other programs
+that should be always compiled in a particular mode
+independently of the global flags setting.
+<P>
+<BR> <HR><A NAME=tex2html3104 HREF="node72.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html3102 HREF="node63.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html3096 HREF="node70.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html3106 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html3105 HREF="node72.html"> Writing Efficient Code</A>
+<B>Up:</B> <A NAME=tex2html3103 HREF="node63.html"> The Compiler</A>
+<B> Previous:</B> <A NAME=tex2html3097 HREF="node70.html"> Mode Declarations</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

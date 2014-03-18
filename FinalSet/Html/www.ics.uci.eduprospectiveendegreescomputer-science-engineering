@@ -1,0 +1,513 @@
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    
+    <title>Computer Science &amp; Engineering &laquo; Degrees &laquo; Bren School of Information and Computer Sciences &laquo; University of California Irvine</title>
+
+    <link rel="stylesheet" href="/prospective/css/style.css" media="screen" />
+    
+    <script type='text/javascript' src='/prospective/scripts/jquery.js'></script>
+    <script type='text/javascript' src='/prospective/scripts/init.js'></script>
+    
+</head>
+
+<body>
+
+
+   <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-605898-15']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>   ?>
+   
+   
+    <div id="wrapper">
+
+        <div id="header">
+        
+            <div class="nav nav-left">
+
+                <ul>
+                    <li class="start"><a href="/prospective/en/degrees/overview/" class="">Degrees</a></li>
+                    <li><a href="/prospective/en/opportunities/applied-learning/" class="">Opportunities</a></li>
+                    <li class="end"><a href="/prospective/en/careers/breadth/" class="">Careers</a></li>
+                </ul>
+
+            </div>
+        
+            <div id="logo">
+                <a href="/prospective/en/" class="image-text home-link"></a>
+                <a href="/prospective/en/uci/campus/" class="image-text campus-link"></a>
+            </div>
+        
+            <div class="nav nav-right">
+
+                <ul>
+                    <li class="start"><a href="/prospective/en/student-life/diversity/" class="">Student Life</a></li>
+                    <li><a href="/prospective/en/admissions/freshmen/" class="">Admissions</a></li>
+                    <li class="end"><a href="/prospective/en/contact/student-affairs/" class="">Contact</a></li>
+                </ul>
+
+            </div>
+        
+        </div>
+
+        <div id="content-container">
+        
+            <div id="page-heading">
+
+                <h1>Degrees</h1>
+<p>Our broad selection of majors lets you be as specialized or general as you like</p>            
+            </div>
+
+            <div id="col1">
+
+                <ul class="side-nav">
+    <li><a href="/prospective/en/degrees/overview/" class="">Overview</a></li>
+
+    <li><a href="/prospective/en/degrees/business-information-management/" class="">Business Information Management</a></li>
+    <li><a href="/prospective/en/degrees/computer-game-science/" class="">Computer Game Science</a></li>
+    <li><a href="/prospective/en/degrees/computer-science/" class="">Computer Science</a></li>
+    <li><a href="/prospective/en/degrees/computer-science-engineering/" class="active">Computer Science & Engineering</a></li>
+    <li><a href="/prospective/en/degrees/informatics/" class="">Informatics</a></li>
+    <li><a href="/prospective/en/degrees/software-engineering/" class="">Software Engineering</a></li>
+    <li><a href="/prospective/en/degrees/ics-undeclared-pre-major/" class="">ICS Undeclared Pre-Major</a></li>
+    <li><a href="/prospective/en/degrees/minors/" class="">Minors</a></li> 
+</ul>                    
+            </div>
+                    
+            <div id="col2">
+     <h2>Computer Science &amp; Engineering</h2>
+
+
+   <SCRIPT TYPE='text/javascript' SRC='/prospective/scripts/degree_info_expand.js'></SCRIPT>
+   <LINK REL="stylesheet" HREF="/prospective/css/degree_info_expand.css" MEDIA="screen" />
+
+
+                
+<P>
+Offered jointly with 
+<A HREF="http://www.eng.uci.edu/">The Henry Samueli School of Engineering</A>, 
+the Computer Science and Engineering (CSE) major provides a unique educational opportunity for students interested in 
+learning about both the hardware and software aspects of computers, and the application of computers to real-world 
+problems. CSE includes methods of organizing and manipulating information (computer science), as 
+well as the design of computers and their components (computer engineering). As such, CSE integrates 
+interesting topics in computing devices, networks, software and systems engineering.
+<P>
+CSE graduates are well-positioned for career opportunities in both academia and industry. Our alumni are employed at 
+leading companies or continue their studies toward M.S. or Ph.D. degrees at prestigious 
+universities.
+
+
+
+
+
+
+
+
+<div id="expandable" STYLE="margin-top: 2em; ">
+
+
+
+
+
+
+
+
+<P CLASS="section_heading"><A HREF="#">IS COMPUTER SCIENCE AND ENGINEERING FOR ME?</A> <span></span> </P>
+<DIV CLASS="section_content">
+<P>
+Embedded devices increasingly drive innovation in consumer goods and products, and often are used in large quantities 
+to form sensor networks that monitor the weather, environment, or physical structures. Students interested in 
+learning how such devices are designed and constructed are encouraged to explore the CSE major.
+<P>
+Graduates of the program will:
+<ul class="content-list-large">
+   <LI>demonstrate broad knowledge of computer science and engineering;
+   <LI>design, describe and use state-of-the-art hardware/software systems;
+   <LI>maintain awareness of contemporary issues in computer science and engineering in a global and societal context, 
+       and an understanding of the professional and ethical responsibilities of their profession;
+   <LI>demonstrate effective oral and written communication.
+</UL>
+<DIV CLASS="clear"></DIV>
+</DIV>
+
+
+
+
+
+
+<P CLASS="section_heading"><a href="#">WHAT COURSES DO I TAKE?</A> <span></span> </P>
+<DIV CLASS="section_content">
+<P>
+A suggested four-year academic plan for CSE majors is available below. This is just one example; students may complete these courses in any order that is consistent with the prerequisites and the actual offerings each year.
+
+
+
+<P>
+<strong>Sample Program of Study for CSE Majors</strong> <BR>
+
+<style>
+   #sample_program_table TH,TD { font-size: 0.7em; padding: 2px; }
+</style>
+
+<table id="sample_program_table" width="100%" align="CENTER" border="1">
+
+
+   <tbody><tr>
+      <th width="30%">Fall</th><th width="30%">Winter</th><th width="30%">Spring</th><th width="%10">Units</th>
+   </tr>
+
+
+
+   <tr valign="TOP">
+
+      <td>
+         CSE 21: Intro to Computer Science I <BR>
+         Math 2A Calculus 1 <BR>
+         Writing 39A
+      </td>
+
+      <td>
+         CSE 22 Intro to Computer Science II <BR>
+         Math 2B: Calculus 2 <BR>
+         Physics 7B/LB or Physics 7C/LC <BR>
+      </td>
+
+      <td>
+         CSE 23 Fundamental Data Structures <BR>
+         Math 2D <BR>
+         Physics 7D/LD <BR>
+         GE
+      </td>
+
+      <td>
+         Freshman <br> 48
+      </td>
+
+   </tr>
+
+
+   <tr valign="TOP">
+
+      <td>
+         CSE 31 Intro to Digital Systems <BR>
+         ICS 6D <BR>
+         Math 2J <BR>
+         Science Elective <BR>
+      </td>
+
+      <td>
+         CSE 25 Computing Tools for CSE <BR>
+         CSE 31L Intro to Digital Logic Lab <BR>
+         CSE 90 Systems Engineering & Technical Communications <BR>
+         ICS 6B Boolean Algebra & Logic <BR>
+         GE <BR>
+      </td>
+
+      <td>
+         CSE 70A Network Analysis <BR>
+         Math 6G or 3A <BR>
+         Science Elective <BR>
+         GE <BR>
+      </td>
+
+      <td>
+         Sophomore<br> 49
+      </td>
+
+   </tr>
+
+
+   <tr valign="TOP">
+
+      <td>
+         CSE 112 Electron Devices & Circuits <BR>
+         CSE 121 Software Tools & Methods <BR>
+         CSE 161 Design & Analysis of Algorithms <BR>
+         GE <BR>
+      </td>
+
+      <td>
+         CSE 104 Principles of Operating Systems <BR>
+         CSE 132 Organization of Digital Computers <BR>
+         Stats 67 <BR>
+         GE <BR>
+      </td>
+
+      <td>
+         EECS 148 or CS 132 Computer Networks <BR>
+         CSE 120A <BR>
+         CS 145AB or EECS 112L, 113 <BR>
+      </td>
+
+      <td>
+         Junior<br> 46
+      </td>
+
+
+   <tr valign="TOP">
+
+      <td>
+         Senior Design Project <BR>
+         CSE 135A Digital Signal Processing <BR>
+         CSE 151 Intro to VLSI <BR>
+         Track <BR>
+         GE <BR>
+      </td>
+
+      <td>
+         Senior Design Project <BR>
+         CSE 141 Concepts in Programming Languages <BR>
+         CSE 135B Digital Signal Processing Design & Lab <BR>
+         Track <BR>
+         GE <BR>
+      </td>
+
+      <td>
+         Senior Design Project <BR>
+         CSE 142 Compilers & Interpreters <BR>
+         GE <BR>
+      </td>
+
+      <td>
+         Senior<br> 41 + Track
+         
+         <P>
+         184 TOTAL
+                  
+      </td>
+
+   </tr>
+</TABLE>
+
+
+
+<P>
+<STRONG>Approved Science Elective Courses</STRONG> <BR>
+To better help students plan their upcoming quarters, following is a list of approved science elective courses for satisfying the CSE major's science elective requirement:
+   <ul class="content-list-large" STYLE="margin-bottom: 2em; ">
+      <LI>Biological Sciences. All Biological Sciences courses except those numbered 1-93, 142 and 189-199 are pre-approved science electives.
+      <LI>Chemistry. All Chemistry courses except those numbered 1P, 5, H90 and 190-199 are pre-approved science electives.
+      <LI>Earth System Science. All Earth System Science courses except those numbered 1, H90 and 190-199 are pre-approved science electives. 
+      <LI>Physics. All Physics courses except those numbered 3A-B-C, 15-21, 50, 53, H90, 120, 125A-B, 129 and 190-199 are pre-approved science electives.
+   </UL>
+
+<P>   
+Students may petition for alternate courses, and individual and group study (198, 199) will be reviewed on a case-by-case basis with the submission of an Individual Study Proposal. 
+<P>
+Faculty and advisors are encouraged to report suspect courses to the CSE Steering Committee, as content changes and course introductions may affect the list above. 
+<P>
+Please note the following restrictions regarding science electives:
+   <ul class="content-list-large" STYLE="margin-bottom: 2em; ">
+      <LI>The science elective must be taken at UCI if the student is currently enrolled at UCI. 
+      <LI>The material covered in the course cannot substantially repeat the material covered in the Computer Science and Engineering core courses (e.g., a computing for physics majors course from the Department of Physics and Astronomy would not be approved.)
+      <LI>Courses should primarily focus on understanding or applying scientific principles (e.g., a writing course offered by the School of Biological Sciences that mainly focuses on writing would not be approved.) 
+   </UL>
+
+<P>
+<STRONG>CSE Track Courses</STRONG><BR>
+Students also must complete one of the following tracks with the approval of a faculty advisor:
+   <ul class="content-list-large" STYLE="margin-bottom: 2em; ">
+      <LI>Algorithms [complete two of the following courses] <BR>
+          CompSci 162, 163, 164, 165, 167 or 168
+      <LI>Artificial Intelligence [complete two of the following courses] <BR>
+          CompSci 116, 171, 175, 177 or 178
+      <LI>Graphics/Vision [complete two of the following courses] <BR>
+          CompSci 112 or EECS 104 <BR>
+          CompSci 116 or EECS 101
+      <LI>Parallel and Distributed Computing [complete two of the following courses] <BR>
+          EECS 117, EECS 123, CompSci 131
+   </UL>
+
+
+
+<DIV CLASS="clear"></DIV>
+
+</DIV>
+
+
+
+
+
+
+
+
+
+<P CLASS="section_heading"><a href="#">WHAT CAN I DO WITH A DEGREE IN CSE?</A> <span></span> </P>
+<DIV CLASS="section_content">
+<p>
+Computer Science and Engineering majors are involved in building hardware infrastructure — computers, networks and embedded devices — as well as operating systems, compilers and networking software. The focus is on cooperation between hardware and software to yield the highest performance. 
+<P>
+Graduates of the CSE program at UCI can pursue careers that involve traffic management, flight control, earthquake monitoring, automotive control and building smart homes. Many students also go on to graduate school, continuing their studies, conducting research and earning advanced degrees in computer engineering, computer science, information science, management or law. 
+<DIV CLASS="clear"></DIV>
+</DIV>
+
+
+
+
+
+
+
+<P CLASS="section_heading"><a href="#">SPECIAL PROGRAMS</A> <span></span> </P>
+<DIV CLASS="section_content">
+
+<P>
+UC Irvine offers several ways to add depth scope, and experiential learning to your academic program of study. An academic counselor will help you determine the most efficient way to add another major, a minor or concentration to your academic plan, and will refer you to other campus programs and resources that support your interests and future goals. All Bren School majors in good standing may propose an academic plan that demonstrates the ability to complete the concentration and other requirements for graduation in a reasonable timeframe.
+
+<UL class="content-list-large">
+   
+   <LI><STRONG>CONCENTRATION: Engineering and Computer Science in the Global Context. </STRONG>
+       The globalization of the marketplace for information technology services and products makes it likely that Bren School graduates will work in multicultural settings or be employed by companies with extensive international operations or customer bases. The goal of the concentration is to help students develop and integrate knowledge of the history, language and culture of a country or geographic region outside the United States, through coursework both at UCI and an international host campus, followed by a technology related internship in the host country. 
+       <P CLASS="sub-indent">
+          <P><STRONG>Application:</STRONG><BR>
+             Each student’s proposed program of study, specifying coursework and a guided internship experience in a region outside the U.S. must be approved in advance by the Bren School’s Associate Dean for Student Affairs. It is expected that each student’s proposal will reflect a high degree of planning that includes the guidance of academic counselors and those at the UCI Center for International Education regarding course selection, as well as considerations related to internship opportunities, housing and financial aid. The academic counselors and the Associate Dean will be available to assist qualified students with the development of a satisfactory academic plan, as needed.
+      <P><STRONG>Requirements:</STRONG> <BR>
+             <UL CLASS="sub-indent">
+             <LI>A minimum of eight courses at UCI or at the international campus with an emphasis on the culture, language (if applicable and necessary), history, literature of the country that corresponds to the international portion of the program, international law, international labor policy, global issues, global institutions, global conflict and negotiation, and global economics;  </LI>
+             <LI>A one- or two-semester sequence of technical courses related to the major and, possibly, cultural, history and literature courses taken at an international university; </LI>
+             <LI>A two-month or longer technical internship experience in the same country as the international educational experience. </LI>
+              </UL>
+       </P>
+   </LI>
+    
+   <LI><STRONG>Bren School Honors Program.</STRONG>       Allows juniors and seniors enrolled in Bren School major (Biomedical Computing, Business Information Management, 
+      Computer Game Science, Computer Science, Computer Science and Engineering, Informatics, Information and Computer 
+      Science, or Software Engineering) to pursue advanced work in one of many research areas. Students who join the 
+      program participate in an honors seminar, conduct independent research under the guidance of a faculty member, 
+      and write a research paper. 
+      <A HREF="http://honors.ics.uci.edu/">Click here</A> 
+      for more information about eligibility criteria and benefits of
+      successful completion of the honors program.
+   </LI>
+   <LI><STRONG>Independent Research Opportunities.</STRONG>The Bren School encourages all majors to take advantage of this valuable experience, and faculty advertise many research opportunities every year. Students also are encouraged to participate in the campus 
+       <A HREF="http://www.urop.uci.edu/">Undergraduate Research Opportunities Program</A>, which offers guidance and grant funding for student-proposed independent research, and sponsors programs that provide summer stipends for students working on faculty-guided research. </LI>
+   <LI><STRONG>Campuswide Honors Program.</STRONG> Available to selected high-achieving students from all academic majors, from their freshman through senior years. For more information see the 
+       <A HREF="http://www.honors.uci.edu/">CHP</A> website. </LI>
+   <LI><STRONG>Education Abroad Program.</STRONG> Upper-division students have the opportunity to experience different cultures while making progress toward degree objectives through the 
+       <A HREF="http://eap.ucop.edu/">EAP</A>, an overseas study program that operates in cooperation with host universities and colleges throughout the world. </LI>
+   <LI><STRONG>Other Programs of Interest.</STRONG> The following programs offer additional learning opportunities for Bren School students:
+       <P CLASS="sub-indent" STYLE="margin-top: 0.5em; ">
+          <A HREF="http://www.sagescholars.uci.edu/">UCI SAGE (Student Achievement Guided by Experience) Scholars Program</A> </BR>
+          <A HREF="http://www.gse.uci.edu/calteach/">UCI California Teach Initiative</A> </BR>
+          <A HREF="http://www.dccenter.uci.edu/">UCI Washington Academic Internship Program</A> </BR> 
+          <A HREF="http://www.ucdc.uci.edu/about_ucdc.php">UC/DC Internship Program</A> </BR>
+          <A HREF="http://www.dos.uci.edu/leadership/aip/index.php">UCI Administrative Intern Program</A> </BR>
+       </P>
+   </LI>
+</UL>
+
+<DIV CLASS="clear"></DIV>
+
+</DIV>
+
+
+
+
+
+
+<P CLASS="section_heading"><a href="#">STILL NOT SURE?</A> <span></span> </P>
+<DIV CLASS="section_content">
+<P>
+Prospective and current UCI students interested in learning more about the Bren School’s degree 
+options are encouraged to meet with the school’s associate dean of student affairs, counselors and 
+student ambassadors. They will help you determine which of our majors and minors best support your 
+academic strengths and interests. Call our Student Affairs Office at 949-824-5156 to make an 
+appointment or to inquire about campus visit opportunities.  
+<P>
+(Note: Appointments are made by phone only, not by email request.)
+<P>
+CONTACT: <BR>
+Bren School Student Affairs Office <BR>
+Information and Computer Science Building I, Suite 352 <BR>
+Irvine, CA 92697-3430 <BR>
+949-824-5156 <BR>
+<A HREF="mailto:ucounsel@uci.edu">ucounsel@uci.edu</A>
+<DIV CLASS="clear"></DIV>
+
+</DIV>
+
+
+
+
+
+
+
+</DIV>  <!-- #expandable -->
+
+
+
+
+
+   <p class="image-fig">
+      <img src="/prospective/img/degrees-cse-img.jpg" alt="CSE senior design project students" />
+      <cite STYLE="display: block; width: 434px; ">CSE students Niraj Desai, Patrick Murtha, Christopher Escobedo and Michael Sevilla with their senior design project, the Automated Labyrinth. </cite>
+   </p>
+
+
+
+
+
+				<div class="addthis_toolbox addthis_default_style ">
+					<a href="http://www.addthis.com/bookmark.php?v=250&amp;pubid=xa-4d7e35ad5fb0fe07" class="addthis_button_compact">Share</a>
+					<span class="addthis_separator">|</span>
+					<a class="addthis_button_preferred_1"></a>
+					<a class="addthis_button_preferred_2"></a>
+					<a class="addthis_button_preferred_3"></a>
+					<a class="addthis_button_preferred_4"></a>
+				</div>
+				<script type="text/javascript">var addthis_config = { ui_language: 'en' };</script>
+				<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4d7e35ad5fb0fe07"></script>
+			</div>
+
+            <div class="spacer"></div>
+
+	    </div>
+		
+		<div id="footer">
+		
+			<div class="lang-selector">
+			
+				<strong>Language: </strong>
+				<a href="/prospective/en/degrees/computer-science-engineering/" class="active">English</a> |
+				<a href="/prospective/zh-tw/degrees/computer-science-engineering/" class="">Chinese (Traditional)</a> |
+				<a href="/prospective/ko/degrees/computer-science-engineering/" class="">Korean</a> |
+				<a href="/prospective/vi/degrees/computer-science-engineering/" class="">Vietnamese</a>			
+			</div>
+		
+			<div class="footer-left">
+			
+			    <p>University of California, Irvine - Irvine, CA 92697 : 949-824-5011</p>
+
+                <div class="links">
+                    <a href="http://www.uci.edu/comments.php" target="_blank">Comments & Questions</a> |
+                    <a href="http://www.uci.edu/privacy.php" target="_blank">Privacy & Legal Notice</a> |
+                    <a href="http://www.uci.edu/copyright.php" target="_blank">Copyright Inquiries</a> |
+                    &copy; 2014 UC Regents
+                </div>
+
+			</div>
+			
+			<div class="footer-right">
+			
+				<a href="http://www.crispbrandagency.com/" class="crisp image-text" target="_blank">Site By Crisp</a>
+
+			</div>
+		
+		</div>
+
+	</div>
+	
+</body>
+</html>

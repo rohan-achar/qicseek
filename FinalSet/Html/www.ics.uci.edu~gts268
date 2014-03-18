@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+    
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    
+  <meta name="GENERATOR" content="Mozilla/4.7 [en]C-CCK-MCD {Sony}  (Win98; U) [Netscape]">
+  <title>ICS 268 Class Page</title>
+     <!-- Created by: Gene Tsudik, 10-Jan-2001-->
+</head>
+ <body bgcolor="#ffff00" text="#000000" link="#0000ee" vlink="#551a8b" alink="#0000ee">
+  
+<div align="Center">
+<center> </center>
+<center>
+<h1><font color="#800040">ICS 268</font></h1>
+<h1><font color="#800040">Introduction to Cryptography: FALL &nbsp; 2001</font></h1>
+</center>
+</div>
+<center><b><font face="Arial,Helvetica"><font color="#3333ff"><font size="+1">
+Instructor: <a href="http://www.ics.uci.edu/%7Egts">Gene Tsudik</a>
+</font></font></font></b></center>
+  
+<p><br>
+ 
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+ <tbody>
+    <tr>
+ <td align="Center" valign="Top" width="7%" bgcolor="#000080"> 
+      <blockquote>&nbsp;</blockquote>
+ </td>
+  <td width="5%"><br>
+        </td>
+  <td> 
+        <h2> <u><font face="Arial,Helvetica"><font color="#800040">Administrative</font></font></u></h2>
+  
+        <blockquote><a href="http://www.ics.uci.edu/%7Egts/268/268.txt">Course
+overview (informal)</a>
+          </blockquote>
+  
+          <h3> <b><u><font face="Arial,Helvetica"><font color="#800040">Lectures:</font></font></u></b></h3>
+  
+          <blockquote><font color="#400040">Mondays 9:30-10:50, ELH 110</font></blockquote>
+  
+            <h3> <b><u><font face="Arial,Helvetica"><font color="#800040">
+Office Hours:</font></font></u></b></h3>
+  
+            <blockquote>
+              <ul>
+                <li><font color="#400040">Tu: 10-11am</font></li>
+                <li><font color="#400040">Fr: 10-11am<br>
+                  <br>
+                  </font></li>
+              </ul>
+              </blockquote>
+  
+              <h3> <b><u><font face="Arial,Helvetica"><font color="#800040">
+Lecture Material:</font></font></u></b></h3>
+  
+              <blockquote> 
+                <ul>
+ 
+                  <li> <font color="#400040">09/24 <a href="http://www.ics.uci.edu/%7Egts/268/lec1.ps.gz">
+[compressed postscript]</a>
+&nbsp;</font></li>
+                  <li> <font color="#400040">09/26 <a href="http://www.ics.uci.edu/%7Egts/268/lec2.pdf">
+[PDF]</a>
+&nbsp;</font></li>
+                  <ul>
+                    <li> <font color="#400040">Vigenere<a href="http://www.ics.uci.edu/%7Egts/268/vig.ps.gz">
+[compressed postscript]</a>
+                      </font></li>
+                  </ul>
+                  <li> <font color="#400040">10/01 <a href="http://www.ics.uci.edu/%7Egts/268/lec3.pdf">
+[PDF]</a>
+&nbsp;</font></li>
+                  <li> <font color="#400040">10/03 <a href="http://www.ics.uci.edu/%7Egts/268/lec4.pdf">
+[PDF]</a>
+&nbsp;</font></li>
+                  <li> <font color="#400040">10/08 <a href="http://www.ics.uci.edu/%7Egts/268/lec5.pdf">
+[PDF]</a>
+&nbsp;</font></li>
+                  <li> <font color="#400040">10/10 <a href="http://www.ics.uci.edu/%7Egts/268/lec6.pdf">
+[PDF]</a>
+&nbsp;</font></li>
+                  <li> <font color="#400040">10/15 <a href="http://www.ics.uci.edu/%7Egts/268/lec7.pdf">
+[PDF]</a>
+&nbsp;</font></li>
+                  <ul>
+                    <li> <font color="#400040">Homework 1<a href="http://www.ics.uci.edu/%7Egts/268/hw1.pdf">
+[PDF]</a>
+                      </font></li>
+                  </ul>
+                  <li> <font color="#400040">10/17 <a href="http://www.ics.uci.edu/%7Egts/268/lec8.pdf">
+[PDF]</a>
+&nbsp;</font></li>
+                  <li> <font color="#400040">10/22 <a href="http://www.ics.uci.edu/%7Egts/268/lec9.pdf">
+[PDF]</a>
+&nbsp;</font></li>
+                  <li> <font color="#400040">10/24 <a href="http://www.ics.uci.edu/%7Egts/268/midterm.pdf">
+[PDF]</a>
+&nbsp;</font></li>
+                  <li> <font color="#400040">10/29 <a href="http://www.ics.uci.edu/%7Egts/268/lec10.pdf">
+[PDF]</a>
+&nbsp;</font></li>
+                  <li> <font color="#400040">10/31 <a href="http://www.ics.uci.edu/%7Egts/268/lec11.pdf">
+[PDF]</a>
+&nbsp;</font></li>
+                  <li> <font color="#400040">11/05 <a href="http://www.ics.uci.edu/%7Egts/268/lec12.pdf">
+[PDF]</a>
+&nbsp;</font></li>
+                  <li> <font color="#400040">11/07 <a href="http://www.ics.uci.edu/%7Egts/268/lec13.pdf">
+[PDF]</a>
+&nbsp;</font></li>
+                  <li> <font color="#400040">11/12 NO CLASS: University Holiday!!! 
+&nbsp;</font></li>
+                  <li> <font color="#400040">11/14 <a href="http://www.ics.uci.edu/%7Egts/268/lec14.pdf">
+[PDF]</a>
+&nbsp;</font></li>
+                  <ul>
+                    <li> <font color="#400040">Homework 2<a href="http://www.ics.uci.edu/%7Egts/268/hw2.pdf">
+[PDF]</a>
+                      </font></li>
+                  </ul>
+                  <li> <font color="#400040">11/19 <a href="http://www.ics.uci.edu/%7Egts/268/lec15.pdf">
+[PDF]</a>
+&nbsp;</font></li>
+                  <li> <font color="#400040">11/21 <a href="http://www.ics.uci.edu/%7Egts/268/lec16.pdf">
+[PDF]</a>
+&nbsp;</font></li>
+                </ul>
+ </blockquote>
+  
+                <h3> <b><u><font face="Arial,Helvetica"><font color="#800040">
+Handouts:</font></font></u></b></h3>
+  
+                <blockquote> 
+                  <li> <font color="#400040"><a href="http://www.ics.uci.edu/%7Egts/268/caesar.html">
+Caesar's cipher example</a>
+&nbsp;</font></li>
+  
+                  <li> <font color="#400040"><a href="http://www.ics.uci.edu/%7Egts/268/tableau.html">
+Vigenere cipher and relatives</a>
+&nbsp;</font></li>
+  
+                  <li> <font color="#400040"><a href="http://www.ics.uci.edu/%7Egts/268/vigenere.html">
+Breaking Vigenere</a>
+                    </font></li>
+  
+                  <li> <font color="#400040"><a href="http://www.ics.uci.edu/%7Egts/268/numtheo.ps">
+Number Theory Fact-sheet (from Stanford)</a>
+&nbsp;</font></li>
+  
+                  <li> <font color="#400040"><a href="http://www.ics.uci.edu/%7Egts/268/block-stream.ps">
+Block/Stream Cipher Overview (from MIT)</a>
+                    </font></li>
+ </blockquote>
+  
+                  <h3> <b><u><font face="Arial,Helvetica"><font color="#800040">
+Related Links</font></font></u></b></h3>
+  
+                  <blockquote> 
+                    <li> <font color="#400040"><a href="http://www.math.umn.edu/%7Egarrett/crypto/Interactive.html">
+Some neat interactive ciphers</a>
+                      </font></li>
+  
+                    <li> <font color="#400040"><a href="http://theory.lcs.mit.edu/%7Erivest/crypto-security.html">
+Ron Rivest's security links</a>
+                      </font></li>
+  
+                    <li> <font color="#400040"><a href="http://www.cs.nyu.edu/%7Erubin/courses.html">
+Crypto on-line courses</a>
+                      </font></li>
+  
+                    <li> <font color="#400040"><a href="http://www.brics.dk/%7Ecamenisch/cryptographers/">
+Home Pages of Some Cryptographers</a>
+                      </font></li>
+  
+                    <li> <font color="#400040"><a href="http://www.semper.org/sirene/pointers_complete.html">
+Sirene Collection&nbsp;</a>
+                      </font></li>
+ </blockquote>
+ </td>
+ </tr>
+  <tr>
+ <td><br>
+                    </td>
+  <td><br>
+                    </td>
+  <td><br>
+                    </td>
+ </tr>
+ 
+                </tbody>
+              </table>
+  </p>
+              <hr> 
+              </body>
+              </html>
+

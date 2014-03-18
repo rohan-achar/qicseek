@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Informatics 141: Computer Science 121: Information Retrieval</title>
+    <meta name="description" content="The online syllabus for INF 141 / CS 121">
+    <meta name="author" content="Donald J. Patterson">
+
+	<!--Bootswatch Flatly -->
+	<link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+	<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+	<link href="../../assets/css/djp3.css" rel="stylesheet">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+	<style>
+	img { border:1px solid blue;}
+	</style>
+
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-15170336-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+	</script>
+	
+  </head>
+
+  <body>
+
+	<header class="navbar navbar-default navbar-fixed-top" role="banner">
+		<div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="#" class="navbar-brand">Information Retrieval</a>
+			</div>
+			<nav class="collapse navbar-collapse" role="navigation">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="../structure.html">Structure</a>
+					</li>
+					<li>
+						<a href="../admin.html">Policies</a>
+					</li>
+					<li>
+						<a href="../calendar.html">Calendar</a>
+					</li>
+      			</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="http://luci.ics.uci.edu">LUCI</a>
+					</li>
+					<li>
+						<a href="http://www.informatics.uci.edu">Informatics</a>
+					</li>
+					<li>
+						<a href="http://www.cs.uci.edu">CS</a>
+					</li>
+					<li>
+						<a href="http://www.ics.uci.edu">ICS</a>
+					</li>
+					<li>
+						<a href="http://www.uci.edu">UCI</a>
+					</li>
+   				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div style="padding:10px">
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+
+				<div class="row">
+					<div class="col-md-5">
+						<hr/>
+					</div>
+					<div class="col-md-2 text-center">
+						<a class="btn btn-primary btn-sm" href="#">Task 22</a>
+					</div>
+					<div class="col-md-5">
+						<hr/>
+					</div>
+				</div> <!--/row-->
+
+				<div class="row">
+					<div class="col-md-12">
+          				<h2>Running your jar on openlab</h2>
+						<ul>
+							<li>Once you have tested your crawler on your local
+							machine in Eclipse, export your project as a
+							"Runnable Jar".  A runnable jar packages all the
+							required libraries into one big .jar file so you
+							don't have to deal with moving them separately.
+							That's convenient, but it probably violates
+							licensing agreements.  Don't do that with code you
+							plan on distributing.  The launch configuration
+							is asking what "main" you want the runnable jar to
+							start from.  If you tested your program in Eclipse,
+							you should have an option in the dropdown</li>
+							<li>Make sure you update any file paths in your
+							program for the openlab file hierarchy.  It's
+							different than your local machine</li>
+							<img src="openlab_ScreenShot_01.png" alt="Screenshot of openlab setup"/>
+							<img src="openlab_ScreenShot_02.png" alt="Screenshot of openlab setup"/>
+							<img src="openlab_ScreenShot_03.png" alt="Screenshot of openlab setup"/>
+							<li>Now you have to move the jar you just made to
+							openlab</li>
+							<li>On a mac you can do that with "sftp" from a Terminal.  On windows use WinSCP</li>
+							<img src="openlab_ScreenShot_04.png" alt="Screenshot of openlab setup"/>
+							<li>Now you need to open a terminal window on the
+							openlab cluster of machines.</li>
+							<li>I use "ssh" to login to the remote machine. If
+							you are on Windows you will need to use PuTTY</li>
+							<img src="openlab_ScreenShot_05.png" alt="Screenshot of openlab setup"/>
+							<li>Once there use "ls" to see if your jar made it okay</li>
+							<li>Then make sure you are using the right version
+							of java.  If you aren't then use the module command
+							to switch to java 1.7</li>
+							<li>Note the name of the actual machine you
+							connected to using "hostname"</li>
+							<li>Then run the "screen" command to start a
+							long-running process</li>
+							<img src="openlab_ScreenShot_06.png" alt="Screenshot of openlab setup"/>
+							<li>"screen" will open up a virtual terminal that
+							you can leave running after you log out</li>
+							<li>Then use the command "java -Xmx1024M -jar
+							crawler4openlab.jar" to start your crawler.  The
+							-Xmx command tells java how much memory to use while
+							crawling.  You shouldn't need too much because the
+							frontier is kept on disk.</li>
+							<li>Update: ICS supports is telling me that we
+							should be using "nice -n 19 java -Xmx1024M -jar
+							crawler4openlab.jar"  That additional bit at the
+							beginning makes our long-running processes defer to
+							other short-running processes when there isn't
+							enough CPUs to go around</li>
+							<img src="openlab_ScreenShot_07.png" alt="Screenshot of openlab setup"/>
+							<li>Once you are happy everything is going okay,
+							detach from the screen with Ctrl-A then "d"</li>
+							<li>This will send you back to the real
+							terminal</li>
+							<li>If you logout with the "exit" command then your
+							crawler is still running away.  You need to make
+							sure you are monitoring it.</li>
+							<li>To go back to it, log directly into the host
+							that you were using:</li>
+							<img src="openlab_ScreenShot_08.png" alt="Screenshot of openlab setup"/>
+							<li>Once on the same host, type "screen -r" and you
+							will reattach to the virtual screen that your
+							crawler is running in.  If you hit Ctrl-C it will
+							kill your process, or you can just look at any
+							output that you are generating.  Hit Ctrl-A then "d"
+							to detach again, as often as you like</li>
+
+
+						</ul>
+
+					</div>
+				</div> <!--/row-->
+			</div>
+		</div>
+	</div>
+	<footer>
+		<p>&copy; Donald J. Patterson 2014</p>
+	</footer>
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
+

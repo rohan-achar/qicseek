@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>
+        Jianfeng's website
+    </title>
+    <META name="person" content="Jianfeng Jia">
+    <META name="sortname" content="Jia, Jianfeng">
+    <link rel="stylesheet" href="http://www.phpied.com/wp-content/themes/phpied2/style.css" type="text/css" media="screen">
+
+</head>
+
+<body>
+    <div id="page">
+        <div id="header"> 
+            <div>
+                <a href="#about">About</a>
+                <a href="#news">Recent News</a>
+                <a href="#project">Current Projects</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#past">Past Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    <h1>Jianfeng Jia (&#x8D3E;&#x5251;&#x5CF0;)</h1>
+
+    <p><img src="images/lajolla.jpg" alt="Avatar" style="float: center; width: 400px">
+    </p>
+
+    <p>
+        <a href="http://www.ics.uci.edu/">Department of Computer Science</a><br>
+        <a href="http://goo.gl/maps/cVLCl">Donald Bren Hall, Room 2062</a><br>
+        <a href="http://www.uci.edu/">University of California, Irvine</a><br>
+        <a href="&#x6D;&#97;&#105;&#108;&#116;&#x6F;:&#x6A;&#x69;&#97;&#x6E;&#x66;&#101;&#110;&#x67;.&#106;&#105;&#x61;&#64;&#117;&#x63;&#105;&#46;&#101;&#100;&#117;">&#x6A;&#x69;&#97;&#x6E;&#x66;&#101;&#110;&#x67;.&#106;&#105;&#x61;&#64;&#117;&#x63;&#105;&#46;&#101;&#100;&#117;</a>
+    </p>
+
+    <hr>
+
+    <div id="content">
+    <a name="about"></a>
+    <h2>About Me</h2>
+
+
+    <p>I am a PhD student at Computer Science of University of California, Irvine since September 2012.<br>
+        I have wide interests in Database, Natural Language Processing, Large scale data processing.<br><br>
+    Currently I am doing research in <a href="http://isg.ics.uci.edu/">ISG</a>, my advisor is Professor <a href="http://www.ics.uci.edu/~chenli/">Chen Li</a>.</p>
+
+
+    <a name="news"></a>
+    <h2>Recent News</h2>
+
+
+    <ul>
+        <li>(01,2014) This quarter(Winter,2014), I am the TA of <a href="http://www.ics.uci.edu/~pattis/ICS-46/index.html">ICS 46:Data Structure Implementation</a> </li>
+        <li>(09,2013) This quarter(Fall 2013), I am the TA of <a href="http://www.ics.uci.edu/~thornton/ics45c/">ICS 45C:Programming in C++ as a Second Language</a> </li>
+        <li>(09,2013) Jun 2013 - Sept 2013, I was doing my internship at <a href="http://www.srch2.com/">SRCH2</a>, a lot of fun!</li>
+    </ul>
+
+    <a name="project"></a>
+    <h2>Current Projects</h2>
+
+
+    <ul>
+        <li>Checkout our gene assembling project: <a href="https://github.com/uci-cbcl/genomix">Genomix</a> !</li>
+    </ul>
+
+
+    <a name="education"></a>
+    <h2>Education</h2>
+
+
+    <ul>
+        <li>M.S. of Computer Science, <a href="http://www.xmu.edu.cn/">Xiamen University</a>, China</li>
+
+
+        <li>B.S. of Computer Science, <a href="http://www.xmu.edu.cn/">Xiamen University</a>, China</li>
+    </ul>
+
+
+    <a name="experience"></a>
+    <h2>Industry Experience</h2>
+
+
+    <ul>
+        <li>Researcher Associate at <a href="http://pinyin.sogou.com/">IME Department</a> of <a href="http://www.sogou.com/">Sogou.com</a></li>
+    </ul>
+
+
+    <a name="past"></a>
+    <h2>Past Projects</h2>
+
+
+    <ul>
+        <li>Feedback Data flow System of IME using HBase and Pig at Sogou</li>
+
+
+        <li>Large-scale Language Model for <a href="http://pinyin.sogou.com/cloud/">Cloud IME</a> at Sogou</li>
+
+
+        <li>Automatic New Word Detection at Sogou</li>
+
+
+        <li><a href="http://dl.acm.org/citation.cfm?id=1533180#!">Dependency Treelet Based Chinese-to-English SMT System</a> at XMU</li>
+
+
+        <li>Shift-Reduced Dependency Parser at XMU</li>
+    </ul>
+
+
+    <a name="contact"></a>
+    <h2>Contact</h2>
+
+
+
+    <p>Welcome to check my social accounts:</p>
+
+
+    <p><a href="https://github.com/JavierJia"><img src="images/icon-github.jpg" alt="GitHub" style="width:40px"></a> <a href="http://www.linkedin.com/pub/jianfeng-jia/49/538/748"><img src="images/icon-linkedin.jpg" alt="Linkedin" style="width:40px"></a> <a href="https://www.facebook.com/jianfeng.jia"><img src="images/icon-facebook.png" alt="Facebook" style="width:40px"></a> <a href="http://www.weibo.com/jianfengjia"><img src="images/icon-weibo.png" alt="Weibo" style="width:40px"></a></p>
+</div>
+    <div id="footer" align="right"> 
+        Last updated: 
+Wed Oct 23 15:57:42 PDT 2013
+    <div>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-44329614-1', 'uci.edu');
+            ga('send', 'pageview');
+
+    </script>
+</div>
+</body>
+</html>
+

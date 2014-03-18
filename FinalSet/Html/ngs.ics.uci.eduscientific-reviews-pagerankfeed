@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Scientific Reviews: PageRank</title>
+	<atom:link href="http://ngs.ics.uci.edu/scientific-reviews-pagerank/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/scientific-reviews-pagerank/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: ITIL Training</title>
+		<link>http://ngs.ics.uci.edu/scientific-reviews-pagerank/comment-page-1/#comment-2494</link>
+		<dc:creator><![CDATA[ITIL Training]]></dc:creator>
+		<pubDate>Thu, 20 Nov 2008 10:00:12 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=973#comment-2494</guid>
+		<description><![CDATA[It is obvious, that like the Page Rank calculation, Google is not going to release the details of the formula that they use to rank the papers. But it would indeed be interesting to see their rankings of â€œjournalâ€™s prominenceâ€ in different fields. 
+
+Well, we can always use GOOGLE as a good way of measuring the impact of a particular scientific paper and it might also be used to replace traditional citation indices, according to a new statistical analysis. It has been found by researchers that the Google PageRank algorithm, which captures the relative significance of web pages can also provide a systematic way to find important papers.]]></description>
+		<content:encoded><![CDATA[<p>It is obvious, that like the Page Rank calculation, Google is not going to release the details of the formula that they use to rank the papers. But it would indeed be interesting to see their rankings of â€œjournalâ€™s prominenceâ€ in different fields. </p>
+<p>Well, we can always use GOOGLE as a good way of measuring the impact of a particular scientific paper and it might also be used to replace traditional citation indices, according to a new statistical analysis. It has been found by researchers that the Google PageRank algorithm, which captures the relative significance of web pages can also provide a systematic way to find important papers.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Justin</title>
+		<link>http://ngs.ics.uci.edu/scientific-reviews-pagerank/comment-page-1/#comment-2324</link>
+		<dc:creator><![CDATA[Justin]]></dc:creator>
+		<pubDate>Thu, 31 Jul 2008 05:29:38 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=973#comment-2324</guid>
+		<description><![CDATA[Thanks for insightful story about the Page Rank paper submission. Its hard to keep up with the ever changing culture of page rank online, and it sounds like the culture on research reviews is just as much of a moving target. While there may not be any one perfect answer, I&#039;d have to think there would be yearly conferences in which the process applied to reviewing research is evaluated and proposals for modification are made.
+
+Justin]]></description>
+		<content:encoded><![CDATA[<p>Thanks for insightful story about the Page Rank paper submission. Its hard to keep up with the ever changing culture of page rank online, and it sounds like the culture on research reviews is just as much of a moving target. While there may not be any one perfect answer, I&#8217;d have to think there would be yearly conferences in which the process applied to reviewing research is evaluated and proposals for modification are made.</p>
+<p>Justin</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: MBA Programs</title>
+		<link>http://ngs.ics.uci.edu/scientific-reviews-pagerank/comment-page-1/#comment-2319</link>
+		<dc:creator><![CDATA[MBA Programs]]></dc:creator>
+		<pubDate>Thu, 24 Jul 2008 11:35:54 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=973#comment-2319</guid>
+		<description><![CDATA[The Citation network&#039;s situation is also not different form that in the World Wide Web, where hyper-links contained in popular websites and pointing to your web page would bring more Internet traffic to you and it might be possible that it will be essential in increasing popularity of your own web page. Scientists commonly adopt the way of following chains of citation links from other papers to discover relevant publications. Thus it is not a bad idea to assume that the popularity or â€œcitabilityâ€ of papers may be well approximated by the random surfer model that underlies the Page Rank algorithm. 
+
+One very important difference between the world wide web and citation networks is we can not update the citation links after publication, however world wide web hyperlinks keep evolving together with the web page containing them. One such solution could solve this issue by by explicitly incorporating the effects of aging into the Page Rank algorithm.]]></description>
+		<content:encoded><![CDATA[<p>The Citation network&#8217;s situation is also not different form that in the World Wide Web, where hyper-links contained in popular websites and pointing to your web page would bring more Internet traffic to you and it might be possible that it will be essential in increasing popularity of your own web page. Scientists commonly adopt the way of following chains of citation links from other papers to discover relevant publications. Thus it is not a bad idea to assume that the popularity or â€œcitabilityâ€ of papers may be well approximated by the random surfer model that underlies the Page Rank algorithm. </p>
+<p>One very important difference between the world wide web and citation networks is we can not update the citation links after publication, however world wide web hyperlinks keep evolving together with the web page containing them. One such solution could solve this issue by by explicitly incorporating the effects of aging into the Page Rank algorithm.</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

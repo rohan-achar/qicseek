@@ -1,0 +1,63 @@
+<html>
+
+<head>
+<title>ICS 247 - Security Algorithms Homework 4</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<center>
+
+<h2>ICS 247 - Security Algorithms Homework 4, 50 Points
+<br>
+Due: Friday, February 27, 2004</h2>
+
+</center>
+
+<p>
+Consider an SDR solution where users are associated with the leaves
+of a complete binary tree T.  Every node v in T has a secret key
+K(v), which is known to each of v's descendents.
+The root node of T also has a secret key X, and each non-root node
+has a key that is derived from X, such that, for each
+node v, if X(v) is the key for v, then L(X(v)) is the key for v's
+left child and R(X(v)) is the key for v's right child, where L and R
+are (different) one-way hash functions.
+For each leaf node v, we store at v the X(u) key values for each
+sibling u of the path from v to the root.
+We then define set differences the same as in the SDR method, where
+S[v,w] is the set that is rooted at node v but excludes the subtree
+rooted at node w.  The difference between this scheme and SDR,
+however, is that the way we assign a key for S[v,w] is to use
+f(K(v),X(v)), where f is a one-way function.
+
+<ol>
+<li><i>10 points.</i>
+Rigorously
+show that for any set of r revoked leaves, there are O(r) S[v,w] sets 
+that cover all the non-revoked users.
+
+<li><i>10 points.</i>
+Show that each user need store only O(log n) keys, where n is the
+number of users, using the above scheme (as opposed to the regular
+SDR method that requires O(log^2 n) keys per user).
+
+<li><i>10 points.</i>
+Show that, for any revoked leaf x in the above scheme,
+x is unable to decrypt any message from the leader using only the
+keys stored at x.
+
+<li><i>10 points.</i>
+Show that two revoked users in the above scheme can collude so that
+one of them can read one of the messages sent by the leader.
+
+<li><i>10 points.</i>
+Show that in the SDR approach defined in class (using the paper by
+Naor et al.), no two revoked users can collude to decrypt a message
+sent by the leader.
+</ol>
+
+</body>
+
+</html>
+

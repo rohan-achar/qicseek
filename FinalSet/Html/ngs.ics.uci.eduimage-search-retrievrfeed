@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Image Search &#8212; Retrievr</title>
+	<atom:link href="http://ngs.ics.uci.edu/image-search-retrievr/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/image-search-retrievr/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Marco Bertini</title>
+		<link>http://ngs.ics.uci.edu/image-search-retrievr/comment-page-1/#comment-392</link>
+		<dc:creator><![CDATA[Marco Bertini]]></dc:creator>
+		<pubDate>Tue, 17 Jan 2006 15:30:23 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=432#comment-392</guid>
+		<description><![CDATA[Apparently Retrievr uses Fast Multiresolution Image Querying (http://grail.cs.washington.edu/projects/query/), as pointed by one of the author (hris langreiter) in a comment on this post: http://battellemedia.com/archives/002179.php]]></description>
+		<content:encoded><![CDATA[<p>Apparently Retrievr uses Fast Multiresolution Image Querying (<a href="http://grail.cs.washington.edu/projects/query/" rel="nofollow">http://grail.cs.washington.edu/projects/query/</a>), as pointed by one of the author (hris langreiter) in a comment on this post: <a href="http://battellemedia.com/archives/002179.php" rel="nofollow">http://battellemedia.com/archives/002179.php</a></p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

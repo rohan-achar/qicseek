@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: Connections among Events</title>
+	<atom:link href="http://ngs.ics.uci.edu/connection-among-events/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/connection-among-events/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Communication Skills</title>
+		<link>http://ngs.ics.uci.edu/connection-among-events/comment-page-1/#comment-3265</link>
+		<dc:creator><![CDATA[Communication Skills]]></dc:creator>
+		<pubDate>Thu, 17 Dec 2009 23:25:50 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1099#comment-3265</guid>
+		<description><![CDATA[Could this perhaps be because the whole planet is a system with systems within systems and subsystems? The wikipedia states that systems theory includes the thinking that everything in a system is interrelated. It is not surprising,then, that when something happens at one end of the system, the whole of the system is affected and even changed. An interesting thought...]]></description>
+		<content:encoded><![CDATA[<p>Could this perhaps be because the whole planet is a system with systems within systems and subsystems? The wikipedia states that systems theory includes the thinking that everything in a system is interrelated. It is not surprising,then, that when something happens at one end of the system, the whole of the system is affected and even changed. An interesting thought&#8230;</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: paolo</title>
+		<link>http://ngs.ics.uci.edu/connection-among-events/comment-page-1/#comment-2785</link>
+		<dc:creator><![CDATA[paolo]]></dc:creator>
+		<pubDate>Mon, 11 May 2009 15:09:49 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1099#comment-2785</guid>
+		<description><![CDATA[Sending this comment while speaking with you during the LiveMemories strategy meeting ;)
+
+From our internalwiki, just copying and pasting the Event part ;)
+
+https://livememorieswiki.fbk.eu/index.php/Core_Data_Structure#Event
+
+
+ Event
+
+See the definition of Event in the Glossary.
+
+Event
+  {{Thing attributes}, ...}
+
+Metadata for an event provides descriptive information that is the basis for discovery of the purpose, location, duration, and responsible agents associated with an event. Examples include an exhibition, webcast, conference, workshop, open day, performance, battle, trial, wedding, tea party, conflagration.
+
+References
+
+    * Dublin Core event 
+
+[edit] The Event Model
+
+What follows is inspired by the framework described in â€œToward Common Event Model for Multimedia Applicationsâ€
+
+In this framework, a common event model is proposed in order to allow integration and syndication of events and media from largely isolated multimedia applications and data sources, making possible novel cross-application and crossdata source multimedia services.
+
+The Event:
+
+- Is a significant occurrence that takes place in point in time.
+
+- Is a first-class entity that is independent on the media documenting it, that is, an event is not considered as a metadata describing a medium; instead, media are considered metadata documenting the course of an event.
+
+- Its model should provide means for global (that is, media-independent) unique identification. The event modelâ€™s identification system permits the unique identification of events in a uniform fashion, regardless of the eventsâ€™ sources.
+
+- Has 6 basic aspects: spatial, temporal, informational, experiential, structural, causal
+
+The aspects of an event description are shortly described below. As an example, a &quot;soccer match&quot; event is considered.
+
+Temporal Aspect
+
+This aspect concerns the temporal awareness contained in an event description. There are different ways of capturing the temporal aspect:
+
+- Physical time: the instant or time interval when the event happens. It can be measured as a global time (e.g., date, time), a relative time (e.g., minutes of game) or a media-related time (e.g., frame numbers of a video documenting an event). The global and relative time can be modeled by the TimeInterval e-type previously described.
+
+- Logical time: application domainâ€™s abstract temporal concept which describes the event (e.g., the last match of the season)
+
+Spatial Aspect
+
+This aspect concerns the location awareness contained in an event description. There are different ways of capturing the spatial aspect:
+
+- Physical Location: the geographical place where the event takes place. A physical location is characterized by GPS coordinates, city and country specifications, etc. For example, the soccer match takes place at the Olimpic Stadium of Rome.
+
+- Logical Location: refers to a spatial domain concept (e.g., the match takes place in a stadium)
+
+Informational Aspect
+
+This aspect concerns information about the event. They can include the event type (e.g., soccer match), the event description (e.g., the Inter-Juve soccer match of the Champions League), the entities (agent and artifacts) involved (e.g., players and ball), the role of such entities (e.g., forward, goalkeeper, ball), other parameters (e.g., current score, number of players, etc.), the event &quot;mode&quot;, that is, how the event takes place: it coulbe an online event or a physical event.
+
+Experiential Aspect
+
+To augment the exploration and experience of an event, a media-aware component should be associated to it. A set of media (e.g., images, videos, audios, etc.) should thus documents how a (past) event evolved.
+
+Structural Aspect
+
+This aspect concerns the decomposition of high-level events into low-level events. Sub-events can be aggregated so to form more composite events (e.g., a set of matches forms a season). Knowledge on subevents can give useful hints on the composite event.
+
+Causal Aspect
+
+This aspect concerns the discovering of a chain of events which led to the event in question. Given an event, there should be an explicit representation of such cause-events chain.
+
+Event Relationships
+
+The last two aspects (Structural and Causal) put in relation more events. Here comes the issue of devising relationship between events. Some types of relationship are listed below:
+
+1) Structural
+
+Connect two events by expliciting a &quot;part-of&quot; relationship
+
+2) Causal
+
+Connect two events by expliciting a sort of &quot;caused-by&quot; relationship
+
+3) Temporal
+
+Connect two events by expliciting a temporal relationship (e.g., event A occurred during event B)
+
+4) Spatial
+
+Connect two events by expliciting a topological relation (e.g., event A takes place in the same place of event B)
+[edit] Event Metadata
+
+In view of what has been said before, some metadata are proposed for the Event e-type. The string &quot;//&quot; represents a comment.
+
+Event
+  {{Thing attributes},
+   period TimeInterval, //Temporal Aspect
+   logicalTime String,  
+   location Location,   //Spatial Aspect
+   abstract String,   //Informational Aspect
+   mode String,  
+   participant {Things},  
+   role {String},
+   resources {Media}, //Experiential Aspect
+   ...
+   }
+
+The above event metadata are possibily not complete.
+
+In LM:
+
+- The relationships between events are represented as attributes of an event type (SWEB technique is adopted)
+
+- there is no an explicit distinction between an &quot;abstract&quot; and a &quot;physical&quot; location in the event structure;
+[edit] EXAMPLES
+
+In the following examples, the data structure instances are represented in XML style.
+[edit] Industry Injury
+
+
+ EVE-01
+  
+  
+   2009:01:13:14:30
+   2009:01:13:15:00
+  
+ 
+ 
+  
+   riva del garda
+  
+ 
+  
+ real
+ Carlo Proietti
+ colleague
+ killed 
+ death-dealing
+
+
+[edit] Thesis Defence
+
+
+ EVE-02
+  
+  
+   2008:04:18:16:00
+   2008:04:18:19:00
+  
+ 
+ 
+  
+   conference hall, university of Bath, UK
+  
+ 
+  
+ real
+ John Wegg
+ professors
+ relatives
+ friends
+ speaker 
+ commission
+ audience
+ audience
+
+
+[edit] Graduation Party
+
+
+ EVE-03
+  
+  
+   2008:04:20:19:00F
+   2008:04:21:06:00F
+  
+ 
+ 
+  
+   Bradford on Avon, UK
+  
+ 
+  
+ real
+ John Wegg
+ relatives
+ friends
+ guest-honor 
+ guest
+ guest
+
+
+[edit] Presentation Preparation
+
+
+ EVE-04
+  
+  
+   2008:04:14:10:00F
+   2008:04:17:20:00F
+  
+ 
+ 
+  
+   home, Bath, UK
+  
+ 
+  
+ real
+ John Wegg
+ family
+ cat
+
+
+[edit] Story
+
+Story 
+  {{Thing attributes}, ...}
+
+We refer to the definition of Story in the Glossary
+
+The following is a possible structure for a story. It represents an extended version of the story template Glossary
+
+Story
+ {{Thing attributes},
+  creator String, 
+  creation-date Date, 
+  title String, 
+  subject String, 
+  abstract String, 
+  location Location,   
+  time TimeInterval, 
+  event {Event},
+  tags {String},
+  related-story {Story},
+  contributor {User},
+  resource {Media},
+  microStoryFlag Boolean, 
+  comments {Comment},
+  ...
+ }
+
+[edit] Story Structure - Example 1
+
+This is an example of the story structure relative to the story NÂ°1 described in the STORY EXAMPLES section of the glossary
+
+
+ STO-01
+ ANMIL 
+ 16-01-2009
+ Carlo Proietti accident
+ industrial injury
+ 
+  
+  2009:01:13::
+  
+ 
+ 
+ 
+  riva del Garda, trentino alto adige
+  Riva del Garda
+  Trentino Alto Adige
+  Italy
+ 
+
+ Carlo Proietti was unloading some material from its lorry, when he was run 
+           over by the  wagon elevator driven by another worker in a paper factory.
+ EVE-01    
+ STO-02
+ false
+ 
+   Yet another story of lack of safety on the job
+   US-1
+   2009:01:14:22:00
+  
+
+
+[edit] Story Structure - Example 2
+
+This is an example of the story structure relative to the story NÂ°2 described in the STORY EXAMPLES section of the glossary
+
+
+ STO-02
+ Anna Rossi 
+ 03-02-2009
+ My husband death
+ pain
+ 
+ 
+ 2009:01:13::
+ 
+ 
+
+
+ riva del garda
+
+ it was an ordinary morningâ€¦in that day, Carlo went to work after its usual breakfast. 
+           Its job consisted mainly in unloading heavy material from trucksâ€¦although it was a 
+           tuff job, he always did it with devotion and professionalism. In that awful day, he was
+           squashed flat by the wagon elevator of its colleague.
+  EVE-01    
+ STO-01
+ false
+ 
+
+[edit] Story Structure - Example 3
+
+This is an example of the story structure relative to the story NÂ°3 described in the STORY EXAMPLES section of the glossary
+
+
+ STO-02
+ John Wegg 
+ 03-02-2009
+ My graduation adventure
+ graduation
+ Bath, UK
+ 
+  
+  2008:04:::
+  
+ 
+ 
+  
+  Bath, UK
+  Bath
+  Somerset
+  United Kingdom
+  
+ 
+ my graduation adventure started when...
+  ...
+  ...
+  My graduation was a memorable experience!
+ 
+ EVE-04   
+ EVE-02   
+ EVE-03   
+
+
+]]></description>
+		<content:encoded><![CDATA[<p>Sending this comment while speaking with you during the LiveMemories strategy meeting <img src="http://ngs.ics.uci.edu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+<p>From our internalwiki, just copying and pasting the Event part <img src="http://ngs.ics.uci.edu/wp-includes/images/smilies/icon_wink.gif" alt=";)" class="wp-smiley" /> </p>
+<p><a href="https://livememorieswiki.fbk.eu/index.php/Core_Data_Structure#Event" rel="nofollow">https://livememorieswiki.fbk.eu/index.php/Core_Data_Structure#Event</a></p>
+<p> Event</p>
+<p>See the definition of Event in the Glossary.</p>
+<p>Event<br />
+  {{Thing attributes}, &#8230;}</p>
+<p>Metadata for an event provides descriptive information that is the basis for discovery of the purpose, location, duration, and responsible agents associated with an event. Examples include an exhibition, webcast, conference, workshop, open day, performance, battle, trial, wedding, tea party, conflagration.</p>
+<p>References</p>
+<p>    * Dublin Core event </p>
+<p>[edit] The Event Model</p>
+<p>What follows is inspired by the framework described in â€œToward Common Event Model for Multimedia Applicationsâ€</p>
+<p>In this framework, a common event model is proposed in order to allow integration and syndication of events and media from largely isolated multimedia applications and data sources, making possible novel cross-application and crossdata source multimedia services.</p>
+<p>The Event:</p>
+<p>- Is a significant occurrence that takes place in point in time.</p>
+<p>- Is a first-class entity that is independent on the media documenting it, that is, an event is not considered as a metadata describing a medium; instead, media are considered metadata documenting the course of an event.</p>
+<p>- Its model should provide means for global (that is, media-independent) unique identification. The event modelâ€™s identification system permits the unique identification of events in a uniform fashion, regardless of the eventsâ€™ sources.</p>
+<p>- Has 6 basic aspects: spatial, temporal, informational, experiential, structural, causal</p>
+<p>The aspects of an event description are shortly described below. As an example, a &#8220;soccer match&#8221; event is considered.</p>
+<p>Temporal Aspect</p>
+<p>This aspect concerns the temporal awareness contained in an event description. There are different ways of capturing the temporal aspect:</p>
+<p>- Physical time: the instant or time interval when the event happens. It can be measured as a global time (e.g., date, time), a relative time (e.g., minutes of game) or a media-related time (e.g., frame numbers of a video documenting an event). The global and relative time can be modeled by the TimeInterval e-type previously described.</p>
+<p>- Logical time: application domainâ€™s abstract temporal concept which describes the event (e.g., the last match of the season)</p>
+<p>Spatial Aspect</p>
+<p>This aspect concerns the location awareness contained in an event description. There are different ways of capturing the spatial aspect:</p>
+<p>- Physical Location: the geographical place where the event takes place. A physical location is characterized by GPS coordinates, city and country specifications, etc. For example, the soccer match takes place at the Olimpic Stadium of Rome.</p>
+<p>- Logical Location: refers to a spatial domain concept (e.g., the match takes place in a stadium)</p>
+<p>Informational Aspect</p>
+<p>This aspect concerns information about the event. They can include the event type (e.g., soccer match), the event description (e.g., the Inter-Juve soccer match of the Champions League), the entities (agent and artifacts) involved (e.g., players and ball), the role of such entities (e.g., forward, goalkeeper, ball), other parameters (e.g., current score, number of players, etc.), the event &#8220;mode&#8221;, that is, how the event takes place: it coulbe an online event or a physical event.</p>
+<p>Experiential Aspect</p>
+<p>To augment the exploration and experience of an event, a media-aware component should be associated to it. A set of media (e.g., images, videos, audios, etc.) should thus documents how a (past) event evolved.</p>
+<p>Structural Aspect</p>
+<p>This aspect concerns the decomposition of high-level events into low-level events. Sub-events can be aggregated so to form more composite events (e.g., a set of matches forms a season). Knowledge on subevents can give useful hints on the composite event.</p>
+<p>Causal Aspect</p>
+<p>This aspect concerns the discovering of a chain of events which led to the event in question. Given an event, there should be an explicit representation of such cause-events chain.</p>
+<p>Event Relationships</p>
+<p>The last two aspects (Structural and Causal) put in relation more events. Here comes the issue of devising relationship between events. Some types of relationship are listed below:</p>
+<p>1) Structural</p>
+<p>Connect two events by expliciting a &#8220;part-of&#8221; relationship</p>
+<p>2) Causal</p>
+<p>Connect two events by expliciting a sort of &#8220;caused-by&#8221; relationship</p>
+<p>3) Temporal</p>
+<p>Connect two events by expliciting a temporal relationship (e.g., event A occurred during event B)</p>
+<p>4) Spatial</p>
+<p>Connect two events by expliciting a topological relation (e.g., event A takes place in the same place of event B)<br />
+[edit] Event Metadata</p>
+<p>In view of what has been said before, some metadata are proposed for the Event e-type. The string &#8220;//&#8221; represents a comment.</p>
+<p>Event<br />
+  {{Thing attributes},<br />
+   period TimeInterval, //Temporal Aspect<br />
+   logicalTime String,<br />
+   location Location,   //Spatial Aspect<br />
+   abstract String,   //Informational Aspect<br />
+   mode String,<br />
+   participant {Things},<br />
+   role {String},<br />
+   resources {Media}, //Experiential Aspect<br />
+   &#8230;<br />
+   }</p>
+<p>The above event metadata are possibily not complete.</p>
+<p>In LM:</p>
+<p>- The relationships between events are represented as attributes of an event type (SWEB technique is adopted)</p>
+<p>- there is no an explicit distinction between an &#8220;abstract&#8221; and a &#8220;physical&#8221; location in the event structure;<br />
+[edit] EXAMPLES</p>
+<p>In the following examples, the data structure instances are represented in XML style.<br />
+[edit] Industry Injury</p>
+<p> EVE-01</p>
+<p>   2009:01:13:14:30<br />
+   2009:01:13:15:00</p>
+<p>   riva del garda</p>
+<p> real<br />
+ Carlo Proietti<br />
+ colleague<br />
+ killed<br />
+ death-dealing</p>
+<p>[edit] Thesis Defence</p>
+<p> EVE-02</p>
+<p>   2008:04:18:16:00<br />
+   2008:04:18:19:00</p>
+<p>   conference hall, university of Bath, UK</p>
+<p> real<br />
+ John Wegg<br />
+ professors<br />
+ relatives<br />
+ friends<br />
+ speaker<br />
+ commission<br />
+ audience<br />
+ audience</p>
+<p>[edit] Graduation Party</p>
+<p> EVE-03</p>
+<p>   2008:04:20:19:00F<br />
+   2008:04:21:06:00F</p>
+<p>   Bradford on Avon, UK</p>
+<p> real<br />
+ John Wegg<br />
+ relatives<br />
+ friends<br />
+ guest-honor<br />
+ guest<br />
+ guest</p>
+<p>[edit] Presentation Preparation</p>
+<p> EVE-04</p>
+<p>   2008:04:14:10:00F<br />
+   2008:04:17:20:00F</p>
+<p>   home, Bath, UK</p>
+<p> real<br />
+ John Wegg<br />
+ family<br />
+ cat</p>
+<p>[edit] Story</p>
+<p>Story<br />
+  {{Thing attributes}, &#8230;}</p>
+<p>We refer to the definition of Story in the Glossary</p>
+<p>The following is a possible structure for a story. It represents an extended version of the story template Glossary</p>
+<p>Story<br />
+ {{Thing attributes},<br />
+  creator String,<br />
+  creation-date Date,<br />
+  title String,<br />
+  subject String,<br />
+  abstract String,<br />
+  location Location,<br />
+  time TimeInterval,<br />
+  event {Event},<br />
+  tags {String},<br />
+  related-story {Story},<br />
+  contributor {User},<br />
+  resource {Media},<br />
+  microStoryFlag Boolean,<br />
+  comments {Comment},<br />
+  &#8230;<br />
+ }</p>
+<p>[edit] Story Structure &#8211; Example 1</p>
+<p>This is an example of the story structure relative to the story NÂ°1 described in the STORY EXAMPLES section of the glossary</p>
+<p> STO-01<br />
+ ANMIL<br />
+ 16-01-2009<br />
+ Carlo Proietti accident<br />
+ industrial injury</p>
+<p>  2009:01:13::</p>
+<p>  riva del Garda, trentino alto adige<br />
+  Riva del Garda<br />
+  Trentino Alto Adige<br />
+  Italy</p>
+<p> Carlo Proietti was unloading some material from its lorry, when he was run<br />
+           over by the  wagon elevator driven by another worker in a paper factory.<br />
+ EVE-01<br />
+ STO-02<br />
+ false</p>
+<p>   Yet another story of lack of safety on the job<br />
+   US-1<br />
+   2009:01:14:22:00</p>
+<p>[edit] Story Structure &#8211; Example 2</p>
+<p>This is an example of the story structure relative to the story NÂ°2 described in the STORY EXAMPLES section of the glossary</p>
+<p> STO-02<br />
+ Anna Rossi<br />
+ 03-02-2009<br />
+ My husband death<br />
+ pain</p>
+<p> 2009:01:13::</p>
+<p> riva del garda</p>
+<p> it was an ordinary morningâ€¦in that day, Carlo went to work after its usual breakfast.<br />
+           Its job consisted mainly in unloading heavy material from trucksâ€¦although it was a<br />
+           tuff job, he always did it with devotion and professionalism. In that awful day, he was<br />
+           squashed flat by the wagon elevator of its colleague.<br />
+  EVE-01<br />
+ STO-01<br />
+ false</p>
+<p>[edit] Story Structure &#8211; Example 3</p>
+<p>This is an example of the story structure relative to the story NÂ°3 described in the STORY EXAMPLES section of the glossary</p>
+<p> STO-02<br />
+ John Wegg<br />
+ 03-02-2009<br />
+ My graduation adventure<br />
+ graduation<br />
+ Bath, UK</p>
+<p>  2008:04:::</p>
+<p>  Bath, UK<br />
+  Bath<br />
+  Somerset<br />
+  United Kingdom</p>
+<p> my graduation adventure started when&#8230;<br />
+  &#8230;<br />
+  &#8230;<br />
+  My graduation was a memorable experience!</p>
+<p> EVE-04<br />
+ EVE-02<br />
+ EVE-03   </p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

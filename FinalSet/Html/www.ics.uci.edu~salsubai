@@ -1,0 +1,71 @@
+<HTML><HEAD>
+<TITLE>Sattam Alsubaiee's Homepage</TITLE>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24204348-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</HEAD><BODY>
+<H2>Sattam Alsubaiee</H2>
+<a href="Sattam_Alsubaiee.JPG" title="Sattam Alsubaiee"><img src="./imgs/Sattam_Alsubaiee.JPG"></a>
+<hr>
+
+
+PhD Candidate
+<br>
+E-mail: salsubai AT ics DOT uci DOT edu
+<br>
+<a href="./resume.pdf">Resume</a>
+<br>
+Advisor: <a href="http://www.ics.uci.edu/~chenli">Prof. Chen Li</a>
+<br><br>
+<a href="http://www.ics.uci.edu">Department of Computer Science</a>
+<br>
+<a href="http://isg.ics.uci.edu">Information Systems Group</a> 
+<br>
+<a href="http://www.ics.uci.edu/about/brenhall/index.php">Donald Bren Hall, Room 2099</a>
+<br>
+<a href="http://www.uci.edu">University of California, Irvine</a>
+<br>
+Irvine, CA 92697-3435
+
+<H3>Research Area</H3>
+Information Management, Fuzzy Search, Data Cleaning, Spatial Databases
+
+
+<H3>Education</H3>
+<UL> 
+<LI>PhD student, Computer Science Department, University of California, Irvine, USA.
+<LI>M.S. of Computer Science, University of Southern California, USA.
+<LI>B.S. of Computer Science, King Saud University, Saudi Arabia.
+</UL> 
+
+<H3>Projects</H3>
+<UL> 
+<LI><a href='http://asterix.ics.uci.edu/'>ASTERIX</a>
+<LI><a href='http://code.google.com/p/hyracks/'>Hyracks</a>
+<LI><a href='http://flamingo.ics.uci.edu/'>Flamingo</a>
+</UL> 
+
+<H3>Publications</H3>
+<UL>
+<LI>ASTERIX: An Open Source System for &quot;Big Data&quot; Management and Analysis, Sattam Alsubaiee, Yasser Altowim, Hotham Altwaijry, Alexander Behm, Vinayak R. Borkar, Yingyi Bu, Michael J. Carey, Raman Grover, Zachary Heilbron, Young-Seok Kim, Chen Li, Nicola Onose, Pouria Pirzadeh, Rares Vernica, Jian Wen, PVLDB 2012 (demo).
+<LI>ASTERIX: Scalable Warehouse-Style Web Data Integration, Sattam Alsubaiee, Alexander Behm, Raman Grover, Rares Vernica, Vinayak Borkar, Michael J. Carey, Chen Li, IIWeb 2012 (co-located with SIGMOD 2012).
+<LI>Supporting Location-Based Approximate-Keyword Queries, Sattam Alsubaiee, Alexander Behm, and Chen Li, ACM SIGSPATIAL GIS 2010. <a href="./pub/gis2010-LBAKTree.pdf">[PDF]</a> <a href="./pub/Alsubaiee_GIS2010_LBAK-Tree.pptx"/>[PPT]</a> <a href="http://flamingo.ics.uci.edu/releases/latest/">[Source Code]</a>
+<LI><a href='http://jujube.ics.uci.edu/localsearch/fuzzysearch/'><b>Fuzzy Keyword Search on Spatial Data</b></a>, Sattam Alsubaiee, Chen Li, DASFAA 2010 (demo) <FONT color=#ff0000>(Excellent Demo Award)</FONT>
+</UL>
+
+<H3>Misc</H3>
+<UL>
+<LI><a href="./rstartree.html">Efficient and lightweight in-memory implementation of R*-tree</a>
+</UL>
+</BODY></HTML>
+

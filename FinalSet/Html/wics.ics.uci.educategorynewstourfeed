@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Women in Information and Computer Sciences &#187; Tour</title>
+	<atom:link href="http://wics.ics.uci.edu/category/news/tour/feed/" rel="self" type="application/rss+xml" />
+	<link>http://wics.ics.uci.edu</link>
+	<description>A student organization at UCI dedicated to helping women succeed in the technological world</description>
+	<lastBuildDate>Thu, 06 Feb 2014 12:38:18 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Western Digital Tour &amp; Luncheon with Female Engineers</title>
+		<link>http://wics.ics.uci.edu/western-digital-tour-luncheon-with-female-engineers/</link>
+		<comments>http://wics.ics.uci.edu/western-digital-tour-luncheon-with-female-engineers/#comments</comments>
+		<pubDate>Sun, 05 May 2013 09:30:57 +0000</pubDate>
+		<dc:creator><![CDATA[Angela Liu]]></dc:creator>
+				<category><![CDATA[Tour]]></category>
+
+		<guid isPermaLink="false">http://wics.ics.uci.edu/?p=505</guid>
+		<description><![CDATA[Friday, May 3rd, WICS went to Western Digital for a luncheon with their female engineers and a tour of their work space. 14 female students were able to attend and have the opportunity to interact with and learn from many &#8230; <a href="http://wics.ics.uci.edu/western-digital-tour-luncheon-with-female-engineers/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://wics.ics.uci.edu/western-digital-tour-luncheon-with-female-engineers/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>WICS Goes to Blizzard!</title>
+		<link>http://wics.ics.uci.edu/wics-goes-to-blizzard/</link>
+		<comments>http://wics.ics.uci.edu/wics-goes-to-blizzard/#comments</comments>
+		<pubDate>Wed, 20 Feb 2013 05:55:13 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+				<category><![CDATA[Tour]]></category>
+
+		<guid isPermaLink="false">http://wics.ics.uci.edu/?p=347</guid>
+		<description><![CDATA[Thursday, January 23rd WICS took a trip to Blizzard for a tour of their campus! We had the privilege of seeing the World of Warcraft developer space and were able to see the kind of work Blizzard developers do first &#8230; <a href="http://wics.ics.uci.edu/wics-goes-to-blizzard/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://wics.ics.uci.edu/wics-goes-to-blizzard/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

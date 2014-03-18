@@ -1,0 +1,375 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+                <title></title>
+                
+                
+                <meta content="Thu, 17 Oct 2013 08:28:02 -0380" name="date"/>
+                
+<link href="../../../bin/styles/stylesheet_secondary.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<!-- before breadcrumb_nav include -->
+ <!-- after breadcrumb_nav include -->
+
+<div id="wrapper">
+<script type="text/javascript">
+
+sfHover = function() {
+    var sfEls = document.getElementById("navcontainer").getElementsByTagName("LI");
+    for (var i=0; i<sfEls.length; i++) {
+        sfEls[i].onmouseover=function() {
+            this.className+=" sfhover";
+        }
+        sfEls[i].onmouseout=function() {
+            this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+        }
+    }
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+</script>
+
+    <div id="header" title="Welcome to the Donald Bren School of Information and Computer Sciences @ UC Irvine">
+
+           <a id="bren_link" href="/"></a>
+
+           <a id="uci_link" href="http://www.uci.edu/"></a>
+
+    </div>
+    
+    
+    <div CLASS="newbar"><p style="line-height: 0px; display: none; "></p></div>
+    
+    
+    <div id="navcontainer">
+
+                
+            <ul>
+                
+                <li>
+                
+                    <a href='/about/' title='about'>&raquo; About</a>              
+
+                    <ul>
+                        <li><a href="/about/">&raquo; About the School</a></li>
+                        <li><a href="/about/about_mission.php">&raquo; Bren ICS Mission</a></li>
+                        <li><a href="/about/about_deanmsg.php">&raquo; Dean's welcome</a></li>
+                        <li><a href="/about/bren/">&raquo; About the Bren gift</a></li>
+                        <li><a href="/about/about_factsfigures.php">&raquo; Facts and figures</a></li>
+                        <li><a href="/about/brenhall/index.php">&raquo; Donald Bren Hall</a></li>
+                        <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                        <li><a href="/about/about_contact.php">&raquo; Contact us</a></li>
+                        <LI><A HREF="/about/equity/">&raquo; Equity & diversity</A></LI>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/dept/' title='departments'>&raquo; Departments</a>
+                    <ul>
+                        <li><a href="http://www.cs.uci.edu">&raquo; Computer Science</a></li>
+                        <li><a href="http://www.informatics.uci.edu">&raquo; Informatics</a></li>
+                        <li><a href="http://www.stat.uci.edu">&raquo; Statistics</a></li>
+                    </ul>               
+                </li>
+                
+                <li>
+                
+                    <a href='/faculty/area/' title='research'>&raquo; Research</a>              
+                
+
+                
+                
+                
+                    <ul>
+                        <li><a href="/faculty/area/">&raquo; Research areas</a></li>
+                        <li><a href="/faculty/centers/">&raquo; Research centers</a></li>
+                        <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                    </ul>
+                </li>
+                
+                
+                
+                <li>
+                
+                    <a href='#' title='education'>&raquo; Education</a>              
+
+                    <ul>
+                        <li><a href="/grad/">&raquo; Graduate</a>
+                        
+                            <ul>                        
+                            <li><a href="/grad/admissions/index.php">&raquo; Apply</a></li>
+                            <li><a href="/grad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="http://www.reg.uci.edu/registrar/soc/fees.html">&raquo; Tuition and costs</a></li>
+                            <li><a href="/grad/courses/index.php">&raquo; Courses</a></li>
+                            <li><a href="/grad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/faculty/area/index.php">&raquo; Research areas</a></li>
+                            <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
+                            <li><a href="/grad/policies/index.php">&raquo; Policies &amp; forms</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/grad/phddirectory/index.php">&raquo; Recruit graduate student</a></li> -->
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->                            
+                            <li><a href="/grad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="http://www.housing.uci.edu/prospective/graduate/index.asp">&raquo; Graduate housing</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="/ugrad/">&raquo; Undergraduate</a>
+                        
+                            <ul>                        
+                            <!-- <li><a href="/ugrad/admissions/index.php">&raquo; Apply</a></li>                       
+                            <li><a href="/ugrad/events/index.php">&raquo; Campus visits</a></li>
+                            -->
+                            <li><a href="http://www.ics.uci.edu/~lab/">&raquo; Computer lab information</a></li>
+                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
+                            <li><a href="/ugrad/sao/index.php">&raquo; Contact a counselor</a></li>
+                            <li><a href="/ugrad/courses/index.php">&raquo; Course listings</a></li>                     
+                            <li><a href="/ugrad/degrees/index.php">&raquo; Degrees</a></li>
+                            <li><a href="/ugrad/qa/index.php">&raquo; FAQ</a></li>
+                            <li><a href="/ugrad/financial/index.php">&raquo; Financial aid</a></li>                         
+                            <li><a href="http://honors.ics.uci.edu/">&raquo; Honors program</a></li>
+                            <li><a href="http://www.housing.uci.edu/">&raquo; Housing</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Internship program</a></li>                         
+                            <li><a href="/ugrad/policies/index.php">&raquo; Policies</a></li>
+                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->
+                            <!-- <li><a href="http://www.dos.uci.edu/orientation/">&raquo; Recently admitted</a></li> -->
+                            <li><a href="http://student-council.ics.uci.edu/">&raquo; Student Council</a></li>
+                            <li><a href="/ugrad/life/index.php">&raquo; Student life</a></li>   
+                            <li><a href="/ugrad/resources/index.php">&raquo; Student resources</a></li>
+                            <li><a href="/ugrad/internship/">&raquo; Summer internships</a></li>
+                            <li><a href="https://techjobs.uci.edu/">&raquo; Tech Jobs</a></li>
+                            <li><a href="http://www.ofas.uci.edu/content/costs.aspx?nav=1">&raquo; Tuition and costs</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                        <li><a href="http://www.ics.uci.edu/prospective">&raquo; Prospective undergrad</a></li>
+
+
+                        <li><a href="http://www.parents.uci.edu/">&raquo; UCI parents</a></li>
+                        
+                                                    
+                    </ul>               
+                </li>
+
+    
+                <li>
+                    
+                    <a href='#' title='people'>&raquo; People</a>                      
+                    
+                
+                    <ul>
+                        <li><a href="/faculty/">&raquo; Faculty</a></li>
+                        <li><a href="/about/search/index.php">&raquo; Staff</a></li>
+                        <li><a href="/about/search/search_graduate_all.php">&raquo; Graduate students</a></li>
+                    </ul>   
+                </li>
+                                
+                
+                <li> 
+                
+                    <span id=specialborder><a href='#' title='community'>&raquo; Community</a></span>                    
+                    <ul>
+                        <li><a href="/community/alumni/">&raquo; Alumni</a></li>
+                        <li><a href="/community/friends/">&raquo; Friends</a></li>
+                        <li><a href="http://www.uadv.uci.edu/parents/">&raquo; Parent programs</a></li>
+                        <li><a href="/community/friends/leadershipcouncil/">&raquo; Leadership Council</a></li>
+                        <li><a href="http://www.uadv.uci.edu/DonaldBrenSchoolOfICSAnnualGiving">&raquo; Make a gift</a></li>
+                        <li><a href="/community/news/">&raquo; News</a></li>
+                    </ul>   
+                </li>
+
+                <li>
+                
+                    <a href='/involved/' title='get involved'>&raquo; Get Involved</a>              
+                
+                
+                    <ul>
+                    
+                            <LI><A HREF="/involved/tech_talk">&raquo; Tech talks</A></LI>
+                            <LI><A HREF="/involved/information_session">&raquo; Information sessions</A></LI>
+                            <!--<LI><A HREF="/involved/">&raquo; Join industry panel</A></LI>-->
+                            <LI><A HREF="/involved/project_class">&raquo; Sponsor projects</A></LI>
+                            <LI><A HREF="/involved/leadership_council">&raquo; Leadership Council</A></LI>
+                            <LI><A HREF="/involved/corporate_partner">&raquo; Corporate Partners</A></LI>
+                            <LI><A HREF="/involved/internship">&raquo; Sponsor interns</A></LI>
+                            <LI><A HREF="https://techjobs.uci.edu/">&raquo; Tech Jobs</A></LI>
+                            <!--<LI><A HREF="">&raquo; Support student groups</A></LI>-->
+                            <LI><A HREF="/community/events/butterworth/">&raquo; Butterworth Competition</A></LI>
+                            
+                    </ul>               
+                </li>
+                
+                    
+
+            </ul>
+
+<style type="text/css">@import url("/bin/icssearchstyle/css/icssearch.css");</style>
+<script src="/bin/icssearchstyle/js/icssearch.js" type="text/javascript"></script>
+<script src="/bin/icssearchstyle/js/icssearchform.js" type="text/javascript"></script>
+
+
+
+    </div>
+<!-- before breadcrumb_nav() print -->
+<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/news/">News</a> &gt; <a href="http://www.ics.uci.edu/community/news/articles/">Articles</a>] --><A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/news/">News</a> &gt; <a href="http://www.ics.uci.edu/community/news/articles/">Articles</a></div>
+<!-- after breadcrumb_nav() print -->
+
+<div id="content"><a id="startcontent" name="startcontent"></a>  
+<div id="content_title"></div>
+
+<blockquote>
+<div id="content_text">
+
+<br/>
+
+<!-- inc publications_db -->
+
+ <strong>April 17,  2013</strong><p><i>UC Irvine Feature</i><p><strong>Focused on the big picture</strong><p><strong>By: Janet Wilson</strong><br><p>
+
+
+
+<P>
+<I>Read the full story below or view it on the <A HREF="http://news.uci.edu/features/focused-on-the-big-picture/">UCI website</A>.</I>
+
+
+<IMG SRC="/bin/img/frontpage/RameshJain_cropped.jpg"
+     STYLE='width: 100%; margin: 1em 0; '>
+
+
+<P><I>Computer scientist aims to integrate health data and make it globally available &ndash; by phone</I>
+
+
+<P>
+<STRONG>Ramesh Jain</STRONG> is wired for health. The courtly UC Irvine computer science professor has a black NikeFuel wristband that flashes blue numbers, an oblong black amulet dubbed Fitbit around his neck, and a special app on his iPhone. All let him know &ndash; waking or sleeping, walking to class or waving his arms &ndash; exactly the amount of energy he&rsquo;s burning and other key health indicators. As someone who has conquered cancer, that&rsquo;s important to him.
+
+<P>
+Soon, thanks to work he and his team are doing, his doctors and many others should be able to download data from multiple sources and have it processed into a complete picture of a patient&rsquo;s health. They could then recommend behavioral changes, customized treatments and other lifesaving measures.
+
+<P>
+Jain wants everyone in the world, rich or poor, to have access to such mobile health aids, via an innovative process he and his students call &ldquo;social life networks.&rdquo; Three to four billion people globally have no access to computers but do possess so-called &ldquo;feature phones&rdquo; which have wireless Internet access and limited images. Jain thinks mobile networks could be a godsend in rapidly growing economies where food, water, healthcare, transportation and education are still often substandard.
+
+<P>
+&ldquo;Individuals rely on myths, intermediaries or outdated information to try to meet their basic needs &ndash; information limited to what&rsquo;s available in the local village or neighborhood. This lack of current, factual information creates corruption, nepotism, wasted aid and poor healthcare practices,&rdquo; he wrote in an abstract for the American Association for the Advancement of Science&rsquo;s 2013 annual meeting in Boston, at which he spoke.
+
+<P>
+Open-government initiatives that aim to combat these problems are emerging in Bangladesh, the Cayman Islands, Colombia, Ecuador, India, Macedonia, Mexico and the Ukraine, Jain says. However, they focus on static information and reports obtained after the fact.
+
+<P>
+Via the social life networks, which parents of a feverish child could connect via mobile phone with a nurse or doctor who could determine whether the child has malaria or something less threatening and identify where to go for treatment, via immediate, automatically integrated information.
+
+<P>
+Jain, who was born and raised in India and has traveled extensively to poorer parts of the world, feels strongly that even rudimentary mobile medical systems would be an improvement over &ldquo;witch doctors&rdquo; or local officials. He says they often tell people that an evil spirit has invaded the body and enormous sums of money must be paid for &ldquo;treatments&rdquo; that don&rsquo;t work.
+
+<P>
+A key aspect of mobile systems is information assimilation, or combining many pieces of data to create an understandable picture. People who are illiterate, for instance, could obtain critical help on their phones via images similar to those used in video games.
+
+<P>
+Information assimilation has fascinated Jain since he was a young electrical engineer in India, exploring artificial intelligence with one of the original IBM computers &ndash; a machine the size of four rooms. Now he and his research team are working hard to perfect computing processes on handheld phones that best combine input from multiple sources to create a whole picture.
+
+<P>
+&ldquo;Currently, you get text, videos, all kinds of things, but there is nothing that contains the real, complete aspect of what you are seeing, what you are hearing, and how it all goes together,&rdquo; he says.
+
+<P>
+Getting full, accurate data is important in his personal as well as professional life. A few years ago, he battled gastro-esophageal cancer, undergoing chemotherapy, radiation and extensive surgery. Today he is healthy and eager to stay that way. He&rsquo;s also human, not a machine.
+
+<P>
+Jain drew hearty laughs at the AAAS conference when he compared his and his spouse&rsquo;s differing recollections of his health habits:
+
+<P>
+&ldquo;Because of the cancer, many times my wife wants to be with me when I go to the doctor. And the doctor asks me, &lsquo;So, are you doing good exercise?&rsquo; And, naturally, I will answer, &lsquo;Yes, I do half an hour every day at least four days a week!&rsquo; And my wife will say, &lsquo;He&rsquo;s lying! He does only five or 10 minutes twice a week!&rsquo;&rdquo;
+
+<P>
+Soon, his own phone and other devices will settle the matter.  &ldquo;This thing can tell me I&rsquo;ve been walking for two minutes, I&rsquo;ve been in the car for four minutes, every single thing I do,&rdquo; he says, gesturing to his smartphone.
+
+<P>
+Jain, who joined UC Irvine in 2005 as the first Donald Bren Professor of Information & Computer Sciences, has had a long career developing another kind of network: bright acolytes who go on to do great things. He recently won an ICS Dean&rsquo;s Award for Graduate Student Mentoring, which cited his fostering of &ldquo;a large and strong research group developing next-generation social networks.&rdquo;
+
+<P>
+Previous students include Thomas Knoll, co-inventor of Photoshop; Tony Fadell, co-creator of the iPod and founder of Nest; and Bradley Horowitz, vice president of product management at Google +. All worked with Jain at the University of Michigan, Ann Arbor more than a decade ago, and he predicts that his UC Irvine students will be just as innovative.
+
+<P>
+&ldquo;I love interacting with young people; they are full of energy. They have lots of interesting ideas... Listen to them and encourage them. Then wonderful things happen,&rdquo; he says quietly.
+
+<P>
+His pupils repay the compliment.
+
+<P>
+&ldquo;I have learned lots of things from Ramesh, not only related to science but also valuable life lessons,&rdquo; says Laleh Jalali, who&rsquo;s pursuing a doctorate. &ldquo;He taught me to be myself, live my dreams and enjoy my life, even as a grad student! I&rsquo;m so glad I have a chance to work with him.&rdquo;
+
+
+<div style="float: right; margin: 1em 0;"> 
+ &#8212; Photo by Steve Zylius / University Communications  <br/>
+</div>
+
+
+
+
+
+<br><TITLE>Focused on the big picture</TITLE>
+
+</div>
+</blockquote>
+</div>
+<div id="sidebar"><div id="sidebar_title">More community &#187;</div>
+<ul>
+<li><a href="../../alumni/index.php">Alumni</a></li>
+<li><a href="../../friends/index.php">Friends</a></li>
+<li><a href="http://www.parents.uci.edu/">Parents</a></li>
+<li><a href="../../friends/leadershipcouncil/index.php">Leadership Council</a></li>
+<li><a href="../index.php">News</a></li>
+<li><a href="https://ua-web.uadv.uci.edu/eGiving/">Give a gift</a></li>
+</ul>
+<div>
+<div id="sidebar_title">More news and events &#187;</div>
+<ul>
+<li><a href="../press/index.php">Press
+ releases</a></li>
+<a href="http://www.ics.uci.edu/community/news/press/index.php">				</a>
+<li><a href="index.php">In the 
+news</a></li>
+<li><a href="../notes/index.php">Noteworthy
+ achievements</a></li>
+<a href="http://www.ics.uci.edu/community/news/notes/index.php">				</a>
+<li><a href="http://www.youtube.com/UCIBrenICS">Video highlights</a></li>
+<li><a href="../spotlight/index.php">Spotlight</a></li>
+<li><a href="http://calendar.ics.uci.edu/calendar.php">Calendar of 
+events</a></li>
+</ul>
+<!-- -->
+<!-- -->
+<!-- -->
+<!--
+<div id="sidebar_title">Noteworthy archive &#187;</div>
+<ul>
+<li><a href="/ICS/ics/community/news/notes/notes_2009">2009</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2008">2008</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2007">2007</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2006">2006</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2005">2005</a></li>
+<li><a href="/ICS/ics/community/news/notes/notes_2004">2004</a></li>
+</ul>
+</div>
+--></div></div>
+<div id="footer"><a href="http://www.uci.edu/copyright.php">Copyright Inquiries</a> |
+   <a href="http://www.uci.edu/cgi-bin/phonebook">UCI Directory</a> |
+   <a href="http://intranet.ics.uci.edu/">Intranet</a> |
+   
+   <!-- <a href="http://www.ics.uci.edu/sitemap.php">Site Map</a> | -->
+ 
+  <a href="mailto: i%63%73%77%65%62m%61s%74%65r@%69c%73%2e%75c%69%2eedu">icswebmaster</a> |
+Updated: 
+October 17 2013</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-605898-1");
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+  <meta name="GENERATOR"
+ content="Mozilla/4.76 [en] (WinNT; U) [Netscape]">
+  <title>ICS 175: Project in Artificial Intelligence</title>
+</head>
+<body alink="#ff3300" bgcolor="#f3f9fe" link="#cc0000" text="#000000"
+ vlink="#330099">
+<center>
+<h1>Guidelines for Final Project Reports</h1>
+</center>
+<center>
+<h1><font size="+2">CS 175: Project in Artificial Intelligence</font></h1>
+</center>
+<center>
+<h2>&nbsp;Deadline is 12 noon Wednesday December 12th 2007<br>
+</h2>
+</center>
+<hr>
+<h3>Instructions for Final Project Reports</h3>
+<ul>
+  <li>Please submit your final project report to EEE, plus supporting
+code</li>
+  <li> Reports should be a minimum of 5 pages and a maximum of 10 pages
+in length in Word or PDF format, called<span style="font-weight: bold;">
+finalreport.doc </span>or <span style="font-weight: bold;">finalreport.pdf</span>.</li>
+  <li>Please also upload all of the code you developed for
+the final project (as a Zip file called <span
+ style="font-weight: bold;">code.zip</span>), including a <span
+ style="font-weight: bold;">README</span> file that briefly explains
+the functionality of each function that you wrote or use. Your code
+should be clearly documented, to the extent that
+someone
+such as the TA or a professor can understand from the documentation how
+to run your code, e.g., what types of input images to provide, what
+output
+to expect, etc. Include any MATLAB functions are not part of the basic
+MATLAB toolbox, but that are called by your project functions, e.g.,
+function
+modules that you developed for earlier assignments.</li>
+  <li>Your code should also include a single MATLAB file called <span
+ style="font-weight: bold;">demoscript.m </span>that provides an
+example of how your code runs, e.g., reads in a test image, extracts
+features in real-time, and uses a classification model or face
+detection algorithm, etc) that was already learned by your algorithm
+"offline" to classify or process this test image, and then displays the
+results. IMPORTANT: <br>
+  </li>
+  <ul>
+    <li>your script should run without requiring any input - so define
+some variables at the top of the script that define your classifier
+(e.g., stored in a .mat file to be read in) and your test data. <br>
+    </li>
+    <li>Also, your demo_script should not take any longer than 1 minute
+to run!</li>
+  </ul>
+  <li>If you are using the "default" data sets, you do not need to
+upload any data. If you are using a non-standard data set, please
+upload your data (in MATLAB format if possible) in an additional Zip
+file called <span style="font-weight: bold;">data.zip</span>.&nbsp; If
+youe data file is too large to upload, please make the data available
+somewhere on a Web page and upload a text file called "<span
+ style="font-weight: bold;">README_data</span>" that points to the
+location of the data.</li>
+  <li>The total size of whatever you upload in total (after compression with Zip) can be as large as 50Mbytes (but no larger). </li>
+</ul>
+<br>
+<h4><font size="+1">What your Project Report must contain:</font></h4>
+Your proposal must contain the following sections.<br>
+<ol>
+  <li><b>Task Description</b>: A brief description of the specific
+classification
+or recognition task you addressed.<br>
+  </li>
+  <li><span style="font-weight: bold;">Data Sets:&nbsp;</span> A brief
+description of what data sets you used in your project. Clearly
+indicate number of images, resolution, and any other relevant aspects.<br>
+  </li>
+  <li><b>Feature Calculation:</b> The specific image representation
+(features)
+you investigated for solving this problem, e.g., provide descriptions
+of
+how the features were calculated (if its complicated, you can put
+pseudocode
+in an Appendix, for example) and provide examples (e.g., sample images,
+graphs, etc) if possible.. It should be clear from your description how
+your features are defined and how they were used for in classification
+(e.g., if you use templates as features, be very clear on how the
+template
+results are used as features for classification).</li>
+  <li><b>Classification Algorithms</b>: Describe briefly the
+classification
+algorithms you used, and in particular any settings that you used
+(e.g.,
+how was k chosen for kNN?) or any modifications you made to the basic
+algorithm.</li>
+  <li><b>Experimental&nbsp; Setup:</b> A description of how your
+experiments
+were conducted. Clearly describe how you ran your experiments so that a
+reader could repeat the general method you used if they wanted to..<br>
+  </li>
+  <li><b>Experimental Results: </b>Tables, graphs, figures, that
+present your
+experimental results. Again there should be enough detail here that a
+reader
+can evaluate your project, but avoid having pages and pages of numbers,
+i.e., the reader should be able to easily see your main results. <br>
+  </li>
+  <li><b>Assessment and Evaluation: </b>Provide a discussion
+on your
+evaluation and assessment of the results, e.g., having completed the
+project
+do you think the task was difficult or easy for a computer algorithm to
+try to solve? what were the limitations of your approach? what were the
+successes? how might you build a better system if you had more time?
+what
+aspects of the data set limited your results? And so forth. Be honest
+in
+your assessment of your results, e.g., if your accuracies were low you
+should honestly and objectively discuss why the accuracy may be low.
+Similarly
+if the accuracy is high, you should explain why if possible. You can
+full
+points if you write a well-written comprehensive report, even if your
+results
+are not very accurate: conversely you will get a low score if you write
+a poor report, even if you have very accurate results.</li>
+  <li><span style="font-weight: bold;">Appendix: Software.</span>&nbsp;
+List the main MATLAB functions (plus code in any other languages) that
+you wrote for the project. Clearly indicate whether each function is
+either</li>
+  <ul>
+    <li>written entirely from "scratch" by you for the project</li>
+    <li>a modified version of a function you wrote earlier for an
+assignment</li>
+    <li>a copy of a function provided by the instructor (or a modified
+version of the instructor's code)</li>
+    <li>code obtained from the Web or some other similar source.</li>
+  </ul>
+</ol>
+<br>
+<h3>Grading of the Final Report<br>
+</h3>
+<ul>
+  <li>The final project report is worth 35% of
+your
+total grade. So please
+make
+sure to allow enough time to write a good final project report!&nbsp;
+You should write this with a general reader in mind, e.g., another
+computer scientist who did not take this class - so the report should
+be fully self-contained and clearly explain where the data came from,
+what functions you used (whether you wrote them or someone else) and so
+forth.</li>
+  <li>Reports will be graded on</li>
+  <ul>
+    <li>clear writing style: is the report clear and easy to follow?</li>
+    <li>is the report systematic and thorough?<br>
+    </li>
+    <li>use of figures, graphs, tables, etc, to illustrate the results.
+Feel free to use color in your figures if it helps explain or clarify a
+particular point.<br>
+    </li>
+    <li>technical correctness - e.g., is it clear that you understand
+the techniques you are using, and are you able to draw appropriate
+conclusions from your results.<br>
+    </li>
+    <li>degree of difficulty of the project attempted</li>
+    <li>Note: it is most important that you write a clear report and
+document objectively what methods you implemented and
+the experimental results you obtained. How well the method worked is
+not nearly as important as clearly documenting what you did and what
+you learned from your project.<br>
+    </li>
+  </ul>
+&nbsp;
+</ul>
+<ul>
+</ul>
+</body>
+</html>
+

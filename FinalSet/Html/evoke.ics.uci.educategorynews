@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<link href='http://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'>
+
+<meta charset="UTF-8">
+
+<title>  News</title>
+
+
+<!-- wp_header -->
+<link rel="alternate" type="application/rss+xml" title="EVOKE Lab &raquo; Feed" href="http://evoke.ics.uci.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="EVOKE Lab &raquo; Comments Feed" href="http://evoke.ics.uci.edu/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="EVOKE Lab &raquo; News Category Feed" href="http://evoke.ics.uci.edu/category/news/feed/" />
+<link rel='stylesheet' id='themify-shortcodes-css'  href='http://evoke.ics.uci.edu/wp-content/themes/suco/themify/css/shortcodes.css?ver=1.2.8' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-style-css'  href='http://evoke.ics.uci.edu/wp-content/themes/suco/style.css?ver=1.2.8' type='text/css' media='all' />
+<link rel='stylesheet' id='themify-media-queries-css'  href='http://evoke.ics.uci.edu/wp-content/themes/suco/media-queries.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='pretty-photo-css'  href='http://evoke.ics.uci.edu/wp-content/themes/suco/prettyPhoto.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-css'  href='http://fonts.googleapis.com/css?family=Rokkitt&#038;v1&#038;ver=3.8.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-content/themes/suco/js/audio-player.js?ver=3.8.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://evoke.ics.uci.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://evoke.ics.uci.edu/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.8.1" />
+
+<!-- Open Graph Tags -->
+<meta property="og:site_name" content="EVOKE Lab" />
+<meta property="og:type" content="article" />
+<meta property="og:description" content="" />
+<meta property="og:url" content="http://evoke.ics.uci.edu/evoke-members-western-humanities-alliance-2013/" />
+<!-- End Open Graph Tags -->
+<!-- RSS Feed -->
+<link rel="alternate" type="application/rss+xml" title="EVOKE Lab RSS Feed" href="http://evoke.ics.uci.edu/feed/" />
+
+
+<link href="http://evoke.ics.uci.edu/wp-content/themes/suco/skins/gray/style.css" rel="stylesheet" type="text/css" />
+<!-- modules styling -->
+<style type='text/css'>
+#site-logo {
+position: absolute;
+top: 0px;
+left: 0px;
+}
+
+.post-title {
+font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+</style>
+
+
+<!-- media-queries.js -->
+<!--[if lt IE 9]>
+	<script src="http://evoke.ics.uci.edu/wp-content/themes/suco/js/respond.js"></script>
+<![endif]-->
+
+<!-- html5.js -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<meta name="viewport" content="width=100%, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+<!--[if lt IE 9]>
+	<script src="http://s3.amazonaws.com/nwapi/nwmatcher/nwmatcher-1.2.5-min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+	<![endif]-->
+
+<script type="text/javascript">
+	AudioPlayer.setup("http://evoke.ics.uci.edu/wp-content/themes/suco/player.swf", {
+		width: '90%',
+		transparentpagebg: 'yes'
+	});
+</script>
+
+</head>
+
+<body class="archive category category-news category-13 skin-gray sidebar1 list-post">
+
+<div id="pagewrap">
+
+	<div id="headerwrap">
+
+				<header id="header" class="pagewidth">
+        	        
+			<hgroup>
+									<div id="site-logo"><a href="http://evoke.ics.uci.edu" title="EVOKE Lab"><img src='http://evoke.ics.uci.edu/wp-content/themes/suco/themify/img.php?src=http://evoke.ics.uci.edu/wp-content/uploads/2013/02/evokelogo_color.png&amp;w=200&amp;h=' alt='EVOKE Lab'   width='200'  /></a></div>					
+				<h2 id="site-description"></h2>
+			</hgroup>
+	
+            <div id="main-nav-wrap">
+                <div id="menu-icon" class="mobile-button"></div>
+                <nav>
+                    <ul id="main-nav" class="main-nav"><li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="http://evoke.ics.uci.edu/">Home</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://evoke.ics.uci.edu/people/">People</a></li>
+<li id="menu-item-450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-450"><a href="http://evoke.ics.uci.edu/research/">Research</a>
+<ul class="sub-menu">
+	<li id="menu-item-454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-454"><a href="http://evoke.ics.uci.edu/research/knowledge-infrastructures/">Knowledge Infrastructures</a></li>
+	<li id="menu-item-453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-453"><a href="http://evoke.ics.uci.edu/research/values-in-design/">Values in Design</a></li>
+	<li id="menu-item-451" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-451"><a href="http://evoke.ics.uci.edu/research/design-by-youth/">Design by Youth</a></li>
+	<li id="menu-item-452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-452"><a href="http://evoke.ics.uci.edu/research/emerging-configurations/">Emerging Configurations</a></li>
+</ul>
+</li>
+<li id="menu-item-304" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-304"><a href="http://evoke.ics.uci.edu/events/">Events</a></li>
+<li id="menu-item-303" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-303"><a href="http://evoke.ics.uci.edu/blog/">Blog</a></li>
+<li id="menu-item-606" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-606"><a href="http://evoke.ics.uci.edu/contact/">Contact</a></li>
+</ul>                    <!-- /#main-nav --> 
+                </nav>
+			</div>
+            <!-- /#main-nav-wrap -->
+	
+					<div id="searchform-wrap">
+				<div id="search-icon" class="mobile-button"></div>
+				<form method="get" id="searchform" action="http://evoke.ics.uci.edu/">
+	<input type="text" name="s" id="s"  placeholder="Search">
+</form>
+			</div>
+			<!-- /#searchform-wrap -->
+		
+        
+			<div class="social-widget">
+					
+							</div>
+			<!-- /.social-widget -->
+			
+			<div class="header-widget">
+							</div>
+			<!-- /.header-widget -->
+
+					</header>
+		<!-- /#header -->
+        		
+		<div id="nav-bar">
+		</div>
+		<!-- /#nav-bar -->
+		
+	</div>
+	<!-- /.headerwrap -->
+	
+	<div id="body" class="clearfix"> 
+	
+
+
+<div id="upperwrap">
+		
+				
+	
+		
+				<div class="pagewidth">
+			<h1 class="page-title">News</h1>
+					</div>
+	
+</div>
+<!-- /#upperwrap -->
+
+		
+
+<!-- layout -->
+<div id="layout" class="clearfix">
+
+	<div class="pagewidth clearfix">
+
+				<!-- content -->
+		<div id="content" class="clearfix">
+        				
+								
+										
+								
+				<!-- loops-wrapper -->
+				<div class="loops-wrapper">
+	
+								
+													
+<!-- post -->
+<article id="post-695" class="post-695 post type-post status-publish format-standard hentry category-news post clearfix cat-13">
+		
+	<span class="post-icon"></span><!-- /post-icon -->
+
+	<!-- post-title -->
+								<h1 class="post-title"><a href="http://evoke.ics.uci.edu/evoke-members-western-humanities-alliance-2013/">Evoke members @ Western Humanities Alliance 2013</a></h1>
+						<!-- /post-title -->
+
+	<!-- post-meta -->
+	<p class="post-meta"> 
+					<time datetime="2013-10-31" class="post-date" pubdate>Oct 31, 2013</time>
+		
+						<span class="post-author"><a href="http://evoke.ics.uci.edu/author/jseberger/" title="Posts by John Seberger" rel="author">John Seberger</a></span>
+				<span class="post-category"><a href="http://evoke.ics.uci.edu/category/news/" title="View all posts in News" rel="category tag">News</a></span>
+									<span class="post-comment"><a href="http://evoke.ics.uci.edu/evoke-members-western-humanities-alliance-2013/#respond" title="Comment on Evoke members @ Western Humanities Alliance 2013">No Comments</a></span>
+										    
+	</p>
+	<!-- /post-meta -->
+	
+	
+<!-- post-image -->
+<!-- /post-image -->
+
+<!-- post-content -->
+
+	<p>Geoffrey C. Bowker, Cory Knobel, and John S. Seberger will be presenting on &#8216;Emerging Modes of Knowledge Expression&#8217; at the annual meeting of the Western Humanities Alliance at University of California, San Diego on November 1, 2013. The conference is hosted by the UCSD Center for the Humanities. The theme of the conference is New(&#8230;)</p>
+
+<!-- /post-content -->	
+		
+    </article>
+<!-- /post -->
+									
+								
+													
+<!-- post -->
+<article id="post-625" class="post-625 post type-post status-publish format-standard hentry category-news tag-genomics tag-qs tag-quantified-self tag-workshop post clearfix cat-13">
+		
+	<span class="post-icon"></span><!-- /post-icon -->
+
+	<!-- post-title -->
+								<h1 class="post-title"><a href="http://evoke.ics.uci.edu/bietz-and-gregory-speak-at-moving-genomics-from-bench-to-bedside-workshop/">Bietz and Gregory speak at &#8220;Moving Genomics from Bench to Bedside&#8221; workshop</a></h1>
+						<!-- /post-title -->
+
+	<!-- post-meta -->
+	<p class="post-meta"> 
+					<time datetime="2013-05-31" class="post-date" pubdate>May 31, 2013</time>
+		
+						<span class="post-author"><a href="http://evoke.ics.uci.edu/author/mbietz/" title="Posts by Matthew Bietz" rel="author">Matthew Bietz</a></span>
+				<span class="post-category"><a href="http://evoke.ics.uci.edu/category/news/" title="View all posts in News" rel="category tag">News</a></span>
+									<span class="post-comment"><a href="http://evoke.ics.uci.edu/bietz-and-gregory-speak-at-moving-genomics-from-bench-to-bedside-workshop/#respond" title="Comment on Bietz and Gregory speak at &#8220;Moving Genomics from Bench to Bedside&#8221; workshop">No Comments</a></span>
+								<span class="post-tag"><a href="http://evoke.ics.uci.edu/tag/genomics/" rel="tag">genomics</a>, <a href="http://evoke.ics.uci.edu/tag/qs/" rel="tag">QS</a>, <a href="http://evoke.ics.uci.edu/tag/quantified-self/" rel="tag">quantified self</a>, <a href="http://evoke.ics.uci.edu/tag/workshop/" rel="tag">workshop</a></span>		    
+	</p>
+	<!-- /post-meta -->
+	
+	
+<!-- post-image -->
+<!-- /post-image -->
+
+<!-- post-content -->
+
+	<p>EVOKE members Matthew Bietz and Judith Gregory were recently invited to speak at the Moving Genomics Research from Bench to Bedside: Science, Technology &amp; Society Perspectives workshop on May 24, 2013. The workshop was hosted by Ellen Balka in the School of Communication at Simon Fraser University, with additional support from the Michael Smith Foundation(&#8230;)</p>
+
+<!-- /post-content -->	
+		
+    </article>
+<!-- /post -->
+									
+								
+													
+<!-- post -->
+<article id="post-616" class="post-616 post type-post status-publish format-standard hentry category-news tag-conferences tag-values-in-design post clearfix cat-13">
+		
+	<span class="post-icon"></span><!-- /post-icon -->
+
+	<!-- post-title -->
+								<h1 class="post-title"><a href="http://evoke.ics.uci.edu/values-in-design-for-collaborative-systems-at-cts-2013/">Values in Design for Collaborative Systems at CTS 2013</a></h1>
+						<!-- /post-title -->
+
+	<!-- post-meta -->
+	<p class="post-meta"> 
+					<time datetime="2013-05-31" class="post-date" pubdate>May 31, 2013</time>
+		
+						<span class="post-author"><a href="http://evoke.ics.uci.edu/author/mbietz/" title="Posts by Matthew Bietz" rel="author">Matthew Bietz</a></span>
+				<span class="post-category"><a href="http://evoke.ics.uci.edu/category/news/" title="View all posts in News" rel="category tag">News</a></span>
+									<span class="post-comment"><a href="http://evoke.ics.uci.edu/values-in-design-for-collaborative-systems-at-cts-2013/#respond" title="Comment on Values in Design for Collaborative Systems at CTS 2013">No Comments</a></span>
+								<span class="post-tag"><a href="http://evoke.ics.uci.edu/tag/conferences/" rel="tag">Conferences</a>, <a href="http://evoke.ics.uci.edu/tag/values-in-design/" rel="tag">Values in Design</a></span>		    
+	</p>
+	<!-- /post-meta -->
+	
+	
+<!-- post-image -->
+<!-- /post-image -->
+
+<!-- post-content -->
+
+	<p>Lab members Matthew Bietz, Cory Knobel, and Katie Pine presented a tutorial on Values in Design for Collaborative Systems at the 2013 International Conference on Collaboration Technologies and Systems in San Diego. In the tutorial we provided an introduction to human-centered computing, explored the Values in Design concept, and then worked through a series of(&#8230;)</p>
+
+<!-- /post-content -->	
+		
+    </article>
+<!-- /post -->
+									
+								
+													
+<!-- post -->
+<article id="post-580" class="post-580 post type-post status-publish format-standard hentry category-news post clearfix cat-13">
+		
+	<span class="post-icon"></span><!-- /post-icon -->
+
+	<!-- post-title -->
+								<h1 class="post-title"><a href="http://evoke.ics.uci.edu/geof-bowker-speaks-at-nyu/">Geof Bowker Speaks at NYU</a></h1>
+						<!-- /post-title -->
+
+	<!-- post-meta -->
+	<p class="post-meta"> 
+					<time datetime="2013-04-09" class="post-date" pubdate>Apr 9, 2013</time>
+		
+						<span class="post-author"><a href="http://evoke.ics.uci.edu/author/cloder/" title="Posts by Courtney Loder" rel="author">Courtney Loder</a></span>
+				<span class="post-category"><a href="http://evoke.ics.uci.edu/category/news/" title="View all posts in News" rel="category tag">News</a></span>
+										    
+	</p>
+	<!-- /post-meta -->
+	
+	
+<!-- post-image -->
+				<figure class="post-image ">
+							<a href="http://evoke.ics.uci.edu/geof-bowker-speaks-at-nyu/"><img src='http://evoke.ics.uci.edu/wp-content/themes/suco/themify/img.php?src=http://evoke.ics.uci.edu/wp-content/uploads/2013/04/VIDatNYU_web_final.jpg&amp;w=670&amp;h=' alt='Geof Bowker Speaks at NYU'   width='670'  /></a>
+					</figure>
+			<!-- /post-image -->
+
+<!-- post-content -->
+
+	<p>Along with Sara Hendren (Harvard), Geof will be a speaker in the PROGRAM series at NYU organized by the departments of Media, Culture and Communication, English, and Comparative Literature. More event details can be found here. Values in Technological Design Abstract: The goal for many designers of technology is to produce objects that are useful,(&#8230;)</p>
+
+<!-- /post-content -->	
+		
+    </article>
+<!-- /post -->
+									
+								
+													
+<!-- post -->
+<article id="post-567" class="post-567 post type-post status-publish format-standard hentry category-news post clearfix cat-13">
+		
+	<span class="post-icon"></span><!-- /post-icon -->
+
+	<!-- post-title -->
+								<h1 class="post-title"><a href="http://evoke.ics.uci.edu/geof-bowker-speaks-at-michigan/">Geof Bowker Speaks at Michigan</a></h1>
+						<!-- /post-title -->
+
+	<!-- post-meta -->
+	<p class="post-meta"> 
+					<time datetime="2013-04-09" class="post-date" pubdate>Apr 9, 2013</time>
+		
+						<span class="post-author"><a href="http://evoke.ics.uci.edu/author/cloder/" title="Posts by Courtney Loder" rel="author">Courtney Loder</a></span>
+				<span class="post-category"><a href="http://evoke.ics.uci.edu/category/news/" title="View all posts in News" rel="category tag">News</a></span>
+										    
+	</p>
+	<!-- /post-meta -->
+	
+	
+<!-- post-image -->
+				<figure class="post-image ">
+							<a href="http://evoke.ics.uci.edu/geof-bowker-speaks-at-michigan/"><img src='http://evoke.ics.uci.edu/wp-content/themes/suco/themify/img.php?src=http://evoke.ics.uci.edu/wp-content/uploads/2013/04/bowker_michigan1.jpg&amp;w=670&amp;h=' alt='Geof Bowker Speaks at Michigan'   width='670'  /></a>
+					</figure>
+			<!-- /post-image -->
+
+<!-- post-content -->
+
+	<p>Geof will be speaking as part of the Yahoo! Lecture Series at the University of Michigan&#8217;s School of Information on April 10, 2013. The End of the Article Abstract: In this talk, I analyze the development of the scientific article as the coin of the realm for the transmission of knowledge. I argue that the(&#8230;)</p>
+
+<!-- /post-content -->	
+		
+    </article>
+<!-- /post -->
+									
+								
+													
+<!-- post -->
+<article id="post-530" class="post-530 post type-post status-publish format-standard hentry category-news post clearfix cat-13">
+		
+	<span class="post-icon"></span><!-- /post-icon -->
+
+	<!-- post-title -->
+								<h1 class="post-title"><a href="http://evoke.ics.uci.edu/vid-fellows-honored-iconference-2013/">Values in Design Fellows honored at iConference 2013</a></h1>
+						<!-- /post-title -->
+
+	<!-- post-meta -->
+	<p class="post-meta"> 
+					<time datetime="2013-03-03" class="post-date" pubdate>Mar 3, 2013</time>
+		
+						<span class="post-author"><a href="http://evoke.ics.uci.edu/author/cloder/" title="Posts by Courtney Loder" rel="author">Courtney Loder</a></span>
+				<span class="post-category"><a href="http://evoke.ics.uci.edu/category/news/" title="View all posts in News" rel="category tag">News</a></span>
+									<span class="post-comment"><a href="http://evoke.ics.uci.edu/vid-fellows-honored-iconference-2013/#respond" title="Comment on Values in Design Fellows honored at iConference 2013">No Comments</a></span>
+										    
+	</p>
+	<!-- /post-meta -->
+	
+	
+<!-- post-image -->
+<!-- /post-image -->
+
+<!-- post-content -->
+
+	<p>The 2013 iConference, held in Fort Worth, TX in mid-February, saw a number of entries from the Values in Design community. In the conference awards ceremony, two entries from VID-related work garnered top awards. 2012 VID Fellow Jaime Synder of Syracuse University shared the award for best dissertation, entitled “Image-Enabled Discourse; Investigating the Creation of(&#8230;)</p>
+
+<!-- /post-content -->	
+		
+    </article>
+<!-- /post -->
+									
+								
+													
+<!-- post -->
+<article id="post-515" class="post-515 post type-post status-publish format-standard hentry category-blog category-news post clearfix cat-10 cat-13">
+		
+	<span class="post-icon"></span><!-- /post-icon -->
+
+	<!-- post-title -->
+								<h1 class="post-title"><a href="http://evoke.ics.uci.edu/improving-outcomes-and-program-sustainability-for-women-veterans-and-hiv-screening/">Improving Outcomes and Program Sustainability for Women Veterans and HIV Screening</a></h1>
+						<!-- /post-title -->
+
+	<!-- post-meta -->
+	<p class="post-meta"> 
+					<time datetime="2013-03-02" class="post-date" pubdate>Mar 2, 2013</time>
+		
+						<span class="post-author"><a href="http://evoke.ics.uci.edu/author/jgregory/" title="Posts by Judith Gregory" rel="author">Judith Gregory</a></span>
+				<span class="post-category"><a href="http://evoke.ics.uci.edu/category/blog/" title="View all posts in Blog" rel="category tag">Blog</a>, <a href="http://evoke.ics.uci.edu/category/news/" title="View all posts in News" rel="category tag">News</a></span>
+									<span class="post-comment"><a href="http://evoke.ics.uci.edu/improving-outcomes-and-program-sustainability-for-women-veterans-and-hiv-screening/#respond" title="Comment on Improving Outcomes and Program Sustainability for Women Veterans and HIV Screening">No Comments</a></span>
+										    
+	</p>
+	<!-- /post-meta -->
+	
+	
+<!-- post-image -->
+				<figure class="post-image ">
+							<a href="http://evoke.ics.uci.edu/improving-outcomes-and-program-sustainability-for-women-veterans-and-hiv-screening/"><img src='http://evoke.ics.uci.edu/wp-content/themes/suco/themify/img.php?src=http://evoke.ics.uci.edu/wp-content/uploads/2013/03/designthinkingandmedicine.png&amp;w=670&amp;h=' alt='Improving Outcomes and Program Sustainability for Women Veterans and HIV Screening'   width='670'  /></a>
+					</figure>
+			<!-- /post-image -->
+
+<!-- post-content -->
+
+	<p>Hot off the press: an article from the Re-Imaging Health Workshop collaboration between VA Women&#8217;s Health &amp; Institute of Design/IIT Improving Outcomes and Program Sustainability for Women Veterans and HIV Screening Kayt Havens, MD / Cornelia Bailey, MDM / Amanda Geppert, MPH, MDM / Judith Gregory, PhD See the full issue of Insights here, or download(&#8230;)</p>
+
+<!-- /post-content -->	
+		
+    </article>
+<!-- /post -->
+									
+								
+													
+<!-- post -->
+<article id="post-317" class="post-317 post type-post status-publish format-standard hentry category-blog category-news post clearfix cat-10 cat-13">
+		
+	<span class="post-icon"></span><!-- /post-icon -->
+
+	<!-- post-title -->
+								<h1 class="post-title"><a href="http://evoke.ics.uci.edu/vid-fellows-present-at-iconference/">VID Fellows to present work at iConference in Fort Worth</a></h1>
+						<!-- /post-title -->
+
+	<!-- post-meta -->
+	<p class="post-meta"> 
+					<time datetime="2013-01-16" class="post-date" pubdate>Jan 16, 2013</time>
+		
+						<span class="post-author"><a href="http://evoke.ics.uci.edu/author/cloder/" title="Posts by Courtney Loder" rel="author">Courtney Loder</a></span>
+				<span class="post-category"><a href="http://evoke.ics.uci.edu/category/blog/" title="View all posts in Blog" rel="category tag">Blog</a>, <a href="http://evoke.ics.uci.edu/category/news/" title="View all posts in News" rel="category tag">News</a></span>
+										    
+	</p>
+	<!-- /post-meta -->
+	
+	
+<!-- post-image -->
+<!-- /post-image -->
+
+<!-- post-content -->
+
+	<p>Several EVOKE Lab and VID Doctoral Workshop Fellows will be presenting successful research submissions at the 2013 iSchools Conference in Fort Worth, Texas on February 11-15. We are excited to see such exciting work at the intersection of social research, technology design, and creative computing represented at the principal gathering of the informatics and iSchool(&#8230;)</p>
+
+<!-- /post-content -->	
+		
+    </article>
+<!-- /post -->
+									
+								
+													
+<!-- post -->
+<article id="post-281" class="post-281 post type-post status-publish format-standard hentry category-events category-news post clearfix cat-12 cat-13">
+		
+	<span class="post-icon"></span><!-- /post-icon -->
+
+	<!-- post-title -->
+								<h1 class="post-title"><a href="http://evoke.ics.uci.edu/sts-socal-winter-retreat/">STS Southern California Winter Retreat</a></h1>
+						<!-- /post-title -->
+
+	<!-- post-meta -->
+	<p class="post-meta"> 
+					<time datetime="2012-12-03" class="post-date" pubdate>Dec 3, 2012</time>
+		
+						<span class="post-author"><a href="http://evoke.ics.uci.edu/author/cloder/" title="Posts by Courtney Loder" rel="author">Courtney Loder</a></span>
+				<span class="post-category"><a href="http://evoke.ics.uci.edu/category/events/" title="View all posts in Events" rel="category tag">Events</a>, <a href="http://evoke.ics.uci.edu/category/news/" title="View all posts in News" rel="category tag">News</a></span>
+										    
+	</p>
+	<!-- /post-meta -->
+	
+	
+<!-- post-image -->
+<!-- /post-image -->
+
+<!-- post-content -->
+
+	<p>Friday February 22 &#8211; Sunday February 24 Location: Borrego Springs, Anza-Borrego Desert, exact location TBA Doctoral students, postdoctoral fellows, and faculty from across California are invited to the inaugural Southern California Winter STS retreat. This retreat is being organized under the auspices of the UC Irvine STS Initiative, funded by the Office of Research, and(&#8230;)</p>
+
+<!-- /post-content -->	
+		
+    </article>
+<!-- /post -->
+									
+													
+				</div>
+				<!-- /loops-wrapper -->
+
+					 
+			
+					
+						
+			
+            		</div>
+		<!-- /#content -->
+        	
+		<aside id="sidebar">
+	
+	
+	</aside>
+<!-- /#sidebar -->
+	
+	</div>
+	<!-- /.pagewidth --> 
+
+</div>
+<!-- /#layout -->
+
+
+		</div>
+	<!-- /body -->
+	
+	<div class="footer-widgetswrap clearfix">
+		<div class="footer-widgets pagewidth clearfix">
+	
+				
+	<div class="footer-widgets clearfix">
+
+								<div class="col3-1 first">
+							</div>
+								<div class="col3-1 ">
+							</div>
+								<div class="col3-1 ">
+							</div>
+		
+	</div>
+	<!-- /.footer-widgets -->
+
+			
+		</div>
+		<!-- /.footer-widgets -->
+	</div>
+	<!-- /.footer-widgetswrap -->
+
+	<div id="footerwrap">
+    
+    			<footer id="footer" class="pagewidth clearfix">
+        				
+			<div id="footer-logo">
+									 <a href="http://evoke.ics.uci.edu/">EVOKE Lab</a>
+							</div>
+			<!-- /footer-logo -->
+	
+				
+			<div class="footer-text clearfix">
+				<div class="one"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</div>
+				<div class="two">Powered by <a href="http://wordpress.org">WordPress</a>  &bull; <a href="http://themify.me">Themify WordPress Themes</a></div>
+			</div>
+			<!-- /.footer-text --> 
+
+					</footer>
+		<!-- /#footer -->
+                
+	</div>
+	<!-- /#footerwrap -->
+	
+</div>
+<!-- /#pagewrap -->
+
+
+<!-- wp_footer -->
+
+
+				
+		<!-- slider -->
+		<script>
+		/////////////////////////////////////////////
+		// Slider	 							
+		/////////////////////////////////////////////
+		jQuery(document).ready(function($){
+			$('#slider').flexslider({
+				animation: "slide",
+				slideshow: true,
+				slideshowSpeed: 4000,
+				animationSpeed: 3000,
+				animationLoop: true, 
+				directionNav: true,
+				prevText: "&laquo;",
+				nextText: "&raquo;",
+				pauseOnHover: true
+			});
+		});
+		</script>
+        <script type='text/javascript' src='http://evoke.ics.uci.edu/wp-content/themes/suco/js/jquery.prettyPhoto.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-content/themes/suco/js/jquery.slider.js?ver=3.8.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var themifyScript = {"overlayTheme":"pp_default"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://evoke.ics.uci.edu/wp-content/themes/suco/js/themify.script.js?ver=3.8.1'></script>
+
+</body>
+</html>

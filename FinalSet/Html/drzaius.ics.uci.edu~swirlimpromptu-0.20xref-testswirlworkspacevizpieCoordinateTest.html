@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" /><title>CoordinateTest xref</title>
+<link type="text/css" rel="stylesheet" href="../../../../stylesheet.css" />
+</head>
+<body>
+<pre>
+
+<a name="1" href="#1">1</a>   <strong>package</strong> <a href="../../../../swirl/workspace/viz/pie/package-summary.html">swirl.workspace.viz.pie</a>;
+<a name="2" href="#2">2</a>   
+<a name="3" href="#3">3</a>   <strong>import</strong> java.awt.Point;
+<a name="4" href="#4">4</a>   
+<a name="5" href="#5">5</a>   <strong>import</strong> junit.framework.TestCase;
+<a name="6" href="#6">6</a>   
+<a name="7" href="#7">7</a>   <strong>public</strong> <strong>class</strong> <a href="../../../../swirl/workspace/viz/pie/CoordinateTest.html">CoordinateTest</a> <strong>extends</strong> TestCase
+<a name="8" href="#8">8</a>   {
+<a name="9" href="#9">9</a>   	<strong>public</strong> <a href="../../../../swirl/workspace/viz/pie/CoordinateTest.html">CoordinateTest</a>(String arg0)
+<a name="10" href="#10">10</a>  	{
+<a name="11" href="#11">11</a>  		<strong>super</strong>(arg0);
+<a name="12" href="#12">12</a>  	}
+<a name="13" href="#13">13</a>  
+<a name="14" href="#14">14</a>  	<em class="comment">//these are just guesses, they should be replaced with actual numbers</em>
+<a name="15" href="#15">15</a>  	<strong>public</strong> <strong>static</strong> <strong>final</strong> <strong>double</strong>[] X =      {1.0, -1.0, -1.0, 1.0, 0.0,  0.0, -1.0, 1.0};
+<a name="16" href="#16">16</a>  	<strong>public</strong> <strong>static</strong> <strong>final</strong> <strong>double</strong>[] Y =      {1.0,  1.0, -1.0, 0.0, 1.0, -1.0,  0.0, -1.0};
+<a name="17" href="#17">17</a>  	<strong>public</strong> <strong>static</strong> <strong>final</strong> <strong>double</strong>[] RADIUS = {Math.sqrt(2), Math.sqrt(2), Math.sqrt(2), 1.0, 1.0, 1.0, 1.0, Math.sqrt(2)};
+<a name="18" href="#18">18</a>  	<strong>public</strong> <strong>static</strong> <strong>final</strong> <strong>double</strong>[] REL_ANGLE = {45.0/180, 135.0/180, 45.0/180, 0, 0.50, 0.50, 1.0, 0.50};
+<a name="19" href="#19">19</a>  	<strong>public</strong> <strong>static</strong> <strong>final</strong> <strong>int</strong>[]     USERS = {2, 2, 2, 2, 2, 2, 2, 4};
+<a name="20" href="#20">20</a>  	<strong>public</strong> <strong>static</strong> <strong>final</strong> <strong>int</strong>[] THIS_USER = {1, 1, 2, 1, 1, 2, 1, 4};
+<a name="21" href="#21">21</a>  	<strong>public</strong> <strong>static</strong> <strong>final</strong> <strong>double</strong>[]  THETA = {45.0, 135.0, 225.0, 0.0, 90.0, 270.0, 180.0, 315.0};
+<a name="22" href="#22">22</a>  
+<a name="23" href="#23">23</a>  	<strong>public</strong> <strong>static</strong> <strong>final</strong> <strong>double</strong> DELTA = .3;	<em class="comment">//margin for error in conversions.  Seems like .1 or .01 should be good</em>
+<a name="24" href="#24">24</a>  	
+<a name="25" href="#25">25</a>  	<strong>public</strong> <strong>void</strong> testCoordinate()
+<a name="26" href="#26">26</a>  	{
+<a name="27" href="#27">27</a>  		<strong>for</strong>(<strong>int</strong> i = 0; i &lt; X.length; ++i)
+<a name="28" href="#28">28</a>  		{
+<a name="29" href="#29">29</a>  			<em class="comment">//one way</em>
+<a name="30" href="#30">30</a>  			Coordinate c = <strong>new</strong> Coordinate(RADIUS[i], REL_ANGLE[i], USERS[i], THIS_USER[i]);
+<a name="31" href="#31">31</a>  			String prefix = <span class="string">"Test #"</span> + (i+1) + <span class="string">" For radius "</span> + RADIUS[i] + <span class="string">" and relativeAngle "</span> 
+<a name="32" href="#32">32</a>  			+ REL_ANGLE[i] + <span class="string">" and userCount "</span> + USERS[i] + <span class="string">" and user num "</span> + THIS_USER[i] +
+<a name="33" href="#33">33</a>  			<span class="string">" coordinate thinks "</span>;
+<a name="34" href="#34">34</a>  
+<a name="35" href="#35">35</a>  			Point p = c.getPoint();
+<a name="36" href="#36">36</a>  			assertEquals(prefix + <span class="string">"x is "</span> + p.getX() + <span class="string">" but it should be "</span> + X[i], X[i], p.getX(), DELTA);
+<a name="37" href="#37">37</a>  			assertEquals(prefix + <span class="string">"y is "</span> + p.getY() + <span class="string">" but it should be "</span> + Y[i], Y[i], p.getY(), DELTA);
+<a name="38" href="#38">38</a>  			assertEquals(prefix + <span class="string">"theta is "</span> + c.getTheta() + <span class="string">" but it should be "</span> + THETA[i], THETA[i], c.getTheta(), DELTA);
+<a name="39" href="#39">39</a>  			
+<a name="40" href="#40">40</a>  			<em class="comment">//the other way</em>
+<a name="41" href="#41">41</a>  			Coordinate c2 = <strong>new</strong> Coordinate(<strong>new</strong> Po<strong>int</strong>((<strong>int</strong>)X[i], (<strong>int</strong>)Y[i]), USERS[i], THIS_USER[i]);
+<a name="42" href="#42">42</a>  			prefix = <span class="string">"Test #"</span> + (i+1) + <span class="string">" For point ("</span> + (<strong>int</strong>)X[i] + <span class="string">", "</span> + (<strong>int</strong>)Y[i] + <span class="string">") and userCount "</span> + USERS[i] + <span class="string">" and user num "</span> + THIS_USER[i] +
+<a name="43" href="#43">43</a>  			<span class="string">" coordinate thinks "</span>;
+<a name="44" href="#44">44</a>  			assertEquals(prefix + <span class="string">"radius is "</span> + c2.getRadius() + <span class="string">" but it should be "</span> + RADIUS[i], RADIUS[i], c2.getRadius(), DELTA);
+<a name="45" href="#45">45</a>  			assertEquals(prefix + <span class="string">"relativeAngle is "</span> + c2.getRelativeAngle() + <span class="string">" but it should be "</span> + REL_ANGLE[i], REL_ANGLE[i], c2.getRelativeAngle(), DELTA);
+<a name="46" href="#46">46</a>  			assertEquals(prefix + <span class="string">"theta is "</span> + c2.getTheta() + <span class="string">" but it should be "</span> + THETA[i], THETA[i], c2.getTheta(), DELTA);
+<a name="47" href="#47">47</a>  		}
+<a name="48" href="#48">48</a>  	}
+<a name="49" href="#49">49</a>  }
+</pre>
+<hr/><div id="footer">This page was automatically generated by <a href="http://maven.apache.org/">Maven</a></div></body>
+</html>
+
+

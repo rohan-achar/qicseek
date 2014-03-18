@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: CAV indexing</title>
+	<atom:link href="http://ngs.ics.uci.edu/cav-indexing/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu/cav-indexing/</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Mon, 26 Aug 2013 05:55:50 +0000</lastBuildDate>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>By: Mahfouz</title>
+		<link>http://ngs.ics.uci.edu/cav-indexing/comment-page-1/#comment-1398</link>
+		<dc:creator><![CDATA[Mahfouz]]></dc:creator>
+		<pubDate>Mon, 04 Feb 2008 21:18:22 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=882#comment-1398</guid>
+		<description><![CDATA[thank you
+
+good information
+
+http://www.al3malka.com/vb]]></description>
+		<content:encoded><![CDATA[<p>thank you</p>
+<p>good information</p>
+<p><a href="http://www.al3malka.com/vb" rel="nofollow">http://www.al3malka.com/vb</a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Avi</title>
+		<link>http://ngs.ics.uci.edu/cav-indexing/comment-page-1/#comment-1318</link>
+		<dc:creator><![CDATA[Avi]]></dc:creator>
+		<pubDate>Mon, 24 Dec 2007 04:10:49 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=882#comment-1318</guid>
+		<description><![CDATA[this surely sounds interesting! I also think this might not just be restricted to audio-visual media. Why not text? I wrote down my thoughts here: http://jodhpuriguy.com/2007/12/23/contexts-everywhere/
+
+Avi]]></description>
+		<content:encoded><![CDATA[<p>this surely sounds interesting! I also think this might not just be restricted to audio-visual media. Why not text? I wrote down my thoughts here: <a href="http://jodhpuriguy.com/2007/12/23/contexts-everywhere/" rel="nofollow">http://jodhpuriguy.com/2007/12/23/contexts-everywhere/</a></p>
+<p>Avi</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Contexts everywhere&#8230;</title>
+		<link>http://ngs.ics.uci.edu/cav-indexing/comment-page-1/#comment-1317</link>
+		<dc:creator><![CDATA[Contexts everywhere&#8230;]]></dc:creator>
+		<pubDate>Mon, 24 Dec 2007 03:56:17 +0000</pubDate>
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=882#comment-1317</guid>
+		<description><![CDATA[[...] Oh! I just meant it in the technical sense :). I was reading a blog and while reading it, I pondered on various things. The first thing that I thought of was &#8220;Why just Audio-Visual?&#8221;. Surely, the kind of meta-data talked about in the post is relevant only to audio, images and videos. But is that the limit? Is it not relevant to text - the form in which we have most of our data? I, for one can list things like when, where and by whom and in which meaning that can be associated to text(knol). The knol can be take from internet, from a book, or from notes. Surely that can help us find a lot about its content. Given the time-period when a person came to know about the knol, We can know about the complexity of the content(is it something deep or just introductory). Many of us have heard of semantic &lt;insert keyword here&gt; so does using that information to index also help? I think it does. In fact, We had done something very similar in last year&#8217;s Imagine cup with recog. [...]]]></description>
+		<content:encoded><![CDATA[<p>[...] Oh! I just meant it in the technical sense :). I was reading a blog and while reading it, I pondered on various things. The first thing that I thought of was &#8220;Why just Audio-Visual?&#8221;. Surely, the kind of meta-data talked about in the post is relevant only to audio, images and videos. But is that the limit? Is it not relevant to text &#8211; the form in which we have most of our data? I, for one can list things like when, where and by whom and in which meaning that can be associated to text(knol). The knol can be take from internet, from a book, or from notes. Surely that can help us find a lot about its content. Given the time-period when a person came to know about the knol, We can know about the complexity of the content(is it something deep or just introductory). Many of us have heard of semantic &lt;insert keyword here&gt; so does using that information to index also help? I think it does. In fact, We had done something very similar in last year&#8217;s Imagine cup with recog. [...]</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>
+

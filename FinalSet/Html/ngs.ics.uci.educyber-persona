@@ -1,0 +1,457 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+		<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>
+		Cyber Persona | Ramesh Jain	</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="http://ngs.ics.uci.edu/xmlrpc.php" />	
+<link rel="alternate" type="application/rss+xml" title="Ramesh Jain &raquo; Feed" href="http://ngs.ics.uci.edu/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ramesh Jain &raquo; Comments Feed" href="http://ngs.ics.uci.edu/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Ramesh Jain &raquo; Cyber Persona Comments Feed" href="http://ngs.ics.uci.edu/cyber-persona/feed/" />
+<link rel='stylesheet' id='attitude_style-css'  href='http://ngs.ics.uci.edu/wp-content/themes/attitude/style.css?ver=3.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='google_fonts-css'  href='http://fonts.googleapis.com/css?family=PT+Sans%7CPhilosopher&#038;ver=3.8.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://ngs.ics.uci.edu/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://ngs.ics.uci.edu/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://ngs.ics.uci.edu/wp-content/themes/attitude/library/js/tinynav.js?ver=3.8.1'></script>
+<script type='text/javascript' src='http://ngs.ics.uci.edu/wp-content/themes/attitude/library/js/backtotop.js?ver=3.8.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://ngs.ics.uci.edu/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://ngs.ics.uci.edu/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='Real Virtuality' href='http://ngs.ics.uci.edu/real-virtuality/' />
+<link rel='next' title='British Grand Challenges' href='http://ngs.ics.uci.edu/british-grand-challenges/' />
+<link rel='canonical' href='http://ngs.ics.uci.edu/cyber-persona/' />
+<link rel='shortlink' href='http://ngs.ics.uci.edu/?p=1081' />
+
+</head>
+
+<body class="single single-post postid-1081 single-format-standard ">
+	
+	<div class="wrapper">
+				<header id="branding" >
+				
+	<div class="container clearfix">
+		<div class="hgroup-wrap clearfix">
+								<section class="hgroup-right">
+													<form action="http://ngs.ics.uci.edu/" class="searchform clearfix" method="get">
+		<label class="assistive-text" for="s">Search</label>
+		<input type="text" placeholder="Search" class="s field" name="s">
+	</form><!-- .searchform -->
+					</section><!-- .hgroup-right -->	
+							<hgroup id="site-logo" class="clearfix">
+												<h1 id="site-title"> 
+								<a href="http://ngs.ics.uci.edu/" title="Ramesh Jain" rel="home">
+									Ramesh Jain								</a>
+							</h1>
+							<h2 id="site-description">Entrepreneur, Researcher, and Teacher</h2>
+											
+				</hgroup><!-- #site-logo -->
+			
+		</div><!-- .hgroup-wrap -->
+	</div><!-- .container -->	
+		
+	<nav id="access" class="clearfix">
+					<div class="container clearfix"><ul class="root"><li id="menu-item-1643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1643"><a href="http://ngs.ics.uci.edu/">About Ramesh</a>
+<ul class="sub-menu">
+	<li id="menu-item-1655" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1655"><a href="http://ngs.ics.uci.edu/about-ramesh/news/">News</a></li>
+	<li id="menu-item-1657" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1657"><a href="http://ngs.ics.uci.edu/about-ramesh/events/">Events</a></li>
+</ul>
+</li>
+<li id="menu-item-1644" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-1644"><a href="http://ngs.ics.uci.edu/blog/">Blog</a></li>
+<li id="menu-item-1666" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1666"><a href="http://ngs.ics.uci.edu/research/">Research</a>
+<ul class="sub-menu">
+	<li id="menu-item-1694" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1694"><a href="http://ngs.ics.uci.edu/research/books/">Books</a></li>
+	<li id="menu-item-1707" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1707"><a href="http://ngs.ics.uci.edu/research/patents/">Patents</a></li>
+	<li id="menu-item-1706" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1706"><a href="http://ngs.ics.uci.edu/research/presentations/">Presentations</a></li>
+	<li id="menu-item-1711" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1711"><a href="http://ngs.ics.uci.edu/research/projects/">Projects</a></li>
+	<li id="menu-item-1688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1688"><a href="http://ngs.ics.uci.edu/research/research-papers/">Research Papers</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1689" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1689"><a href="http://ngs.ics.uci.edu/research/research-papers/computer-vision/">Computer Vision</a></li>
+		<li id="menu-item-1686" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1686"><a href="http://ngs.ics.uci.edu/research/research-papers/experiential-computing/">Experiential Computing</a></li>
+		<li id="menu-item-1682" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1682"><a href="http://ngs.ics.uci.edu/research/research-papers/multimedia-information-management/">Multimedia Information Management</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-1713" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1713"><a href="http://ngs.ics.uci.edu/teaching/">Teaching</a>
+<ul class="sub-menu">
+	<li id="menu-item-1726" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1726"><a href="http://ngs.ics.uci.edu/teaching/current-courses/">Current Courses</a></li>
+	<li id="menu-item-1725" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1725"><a href="http://ngs.ics.uci.edu/teaching/past-courses/">Past Courses</a></li>
+</ul>
+</li>
+<li id="menu-item-1729" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1729"><a href="http://ngs.ics.uci.edu/entrepreneurship/">Entrepreneurship</a>
+<ul class="sub-menu">
+	<li id="menu-item-1735" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1735"><a href="http://ngs.ics.uci.edu/entrepreneurship/current-companies/">Current Companies</a></li>
+	<li id="menu-item-1732" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1732"><a href="http://ngs.ics.uci.edu/entrepreneurship/past-companies/">Past Companies</a></li>
+</ul>
+</li>
+<li id="menu-item-1740" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1740"><a href="http://ngs.ics.uci.edu/partners/">Partners</a>
+<ul class="sub-menu">
+	<li id="menu-item-1743" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1743"><a href="http://ngs.ics.uci.edu/partners/current-students/">Current Students</a></li>
+	<li id="menu-item-1758" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1758"><a href="http://ngs.ics.uci.edu/partners/past-students/">Past Students</a></li>
+	<li id="menu-item-1763" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1763"><a href="http://ngs.ics.uci.edu/partners/collaborators/">Collaborators</a></li>
+</ul>
+</li>
+<li id="menu-item-1765" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1765"><a href="http://ngs.ics.uci.edu/professionalsocial/">Professional/Social</a>
+<ul class="sub-menu">
+	<li id="menu-item-1802" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1802"><a href="http://ngs.ics.uci.edu/professionalsocial/services/">Services</a></li>
+	<li id="menu-item-1801" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1801"><a href="http://ngs.ics.uci.edu/professionalsocial/recognitions/">Recognitions</a></li>
+	<li id="menu-item-1800" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1800"><a href="http://ngs.ics.uci.edu/professionalsocial/interviews/">Interviews</a></li>
+</ul>
+</li>
+<li id="menu-item-1774" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1774"><a href="http://ngs.ics.uci.edu/personal/">Personal</a>
+<ul class="sub-menu">
+	<li id="menu-item-1799" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1799"><a href="http://ngs.ics.uci.edu/personal/past-affiliations/">Affiliations</a></li>
+	<li id="menu-item-1798" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1798"><a href="http://ngs.ics.uci.edu/personal/education/">Education</a></li>
+	<li id="menu-item-1793" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1793"><a href="http://ngs.ics.uci.edu/personal/favorite-books/">Favorite Books</a></li>
+	<li id="menu-item-1797" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1797"><a href="http://ngs.ics.uci.edu/personal/favorite-quotes/">Favorite Quotes</a></li>
+</ul>
+</li>
+<li class="default-menu"><a href="http://ngs.ics.uci.edu" title="Navigation">Navigation</a></li></ul></div><!-- .container -->
+					</nav><!-- #access --> 		
+				</header>
+		
+				<div id="main" class="container clearfix">
+
+<div id="container">
+	
+
+<div id="primary" class="no-margin-left">
+   <div id="content">	<section id="post-1081" class="post-1081 post type-post status-publish format-standard hentry category-experiential-computing">
+		<article>
+
+			
+			<header class="entry-header">
+    			<h2 class="entry-title">
+    				Cyber Persona    			</h2><!-- .entry-title -->
+  			</header>
+
+  			
+  			
+  			<div class="entry-content clearfix">
+    			<p>Increasingly many people spend a significant amount of their life in cyberspace.  We participate in professional and social activities through many disfferent mechanisms.  We search for information, we buy things, we communicate, we socialize, we participate in entertainment, we now participate even in political activities.  Of course many people particpate in activities in cyberspace that they normally would not like to talk.  Cyber presence for many of us has become a significant part of our life.  Wil mobile internet increasing its reach, many more will start spending more time in cyberspace.</p>
+<p>It is well known that search engine companies have recruited lots of data mining related researchers and experts to help them in &#8216;profiling&#8217; users so they can understand their visitors better and provide them better information &#8212; but more importantly more targeted advertisements.  The goal of all research in data mining is to analyze what you do to understand you.  In a true sense they are trying create a persona for you.  On surface some people may react negatively to this and call it invasion of privacy, but for a moment, lets ignore the negative aspect of creating a persona in cyber space for a person in real space.  So lets say for each John Doe (JD), we want to create a cyber persona for this John Doe (cJD).  </p>
+<p>What are the key aspects of JD that we should capture in cJD?  I think there are four important dimensions that could represent a cyber persona:</p>
+<blockquote><p><strong>General Info:</strong>  Under this you could store all general things like name, current address, any ID numbers that are allowed, marital status, and so forth.<br />
+<strong>Personal Networks:</strong> This may include information about family members, personal friends, social friends, professional friends, and so on.  This will include other humans that this person may be connected to in some way.<br />
+<strong>Preferences:</strong> What does this person like?  And this should be stored in all apects ranging from music to clothes, food to electronics, books to people.<br />
+<strong>Important Events:</strong> Starting from birth to schooling to all other events that may be considered significant for the person.</p>
+</blockquote>
+<p>These four facets represent a person &#8212; so a cyber persona should include these factors.  Now suppose that if you have cJD at required level of details then you could really use it to help cJD in many different ways, starting from searching for information to shopping or to make new friends in cyber space.  Effectively cJD can be used as a personal Butler (or say personal assistant) for JD in all his activities in cyber space.</p>
+<p>Some activity has started in this direction.  I feel that this could be very useful, but there are serious issues related to privacy also here.  So to make this successful, one will have to develop methods that will help in creating cJD in a way that privacy issues are not violated.</p>
+  			</div>
+
+  			<div class="entry-meta-bar clearfix">	        			
+    			<div class="entry-meta">
+    				<span class="by-author">By <a href="http://ngs.ics.uci.edu/author/ramesh/">Ramesh</a></span> |
+    				<span class="date"><a href="http://ngs.ics.uci.edu/cyber-persona/" title="8:24 pm">March 8, 2009</a></span> |
+    				             		<span class="category"><a href="http://ngs.ics.uci.edu/category/experiential-computing/" title="View all posts in Experiential Computing" rel="category tag">Experiential Computing</a></span> |
+             	 
+    				             		<span class="comments"><a href="http://ngs.ics.uci.edu/cyber-persona/#comments" title="Comment on Cyber Persona">8 Comments</a></span> |
+             	 		          				
+    			</div><!-- .entry-meta -->
+    		</div>
+
+  						<ul class="default-wp-page clearfix">
+				<li class="previous"><a href="http://ngs.ics.uci.edu/real-virtuality/" rel="prev"><span class="meta-nav">&larr;</span> Real Virtuality</a></li>
+				<li class="next"><a href="http://ngs.ics.uci.edu/british-grand-challenges/" rel="next">British Grand Challenges <span class="meta-nav">&rarr;</span></a></li>
+			</ul>
+		
+<div id="comments" class="comments-area">
+
+	
+			<h2 class="comments-title">
+			8 thoughts on &ldquo;<span>Cyber Persona</span>&rdquo;		</h2>
+
+		<ol class="commentlist">
+				<li class="pingback even thread-even depth-1" id="comment-2688">
+		<p>Pingback: <a href='http://www.imhocorp.com/?p=271' rel='external nofollow' class='url'>Posts about Mobile Internet as of March 9, 2009 | IMHO Conferences &amp; Consulting</a> </p>
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-2689">
+		<article id="comment-2689" class="comment">
+			<header class="comment-meta comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/473dfd30d9d7e83d89ad1e6edbfd3684?s=44&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&amp;r=G' class='avatar avatar-44 photo' height='44' width='44' /><cite class="fn"><a href='http://ankitjain.info/' rel='external nofollow' class='url'>Ankit Jain</a> </cite><a href="http://ngs.ics.uci.edu/cyber-persona/comment-page-1/#comment-2689"><time pubdate datetime="2009-03-09T13:17:51+00:00">March 9, 2009 at 1:17 pm</time></a>			</header><!-- .comment-meta -->
+
+			
+			<section class="comment-content comment">
+				<p>Well, that&#8217;s the age of personalization and personalized agents.  Privacy is most important issue an cannot be neglected in such &#8216;cyber persona&#8217;. Keep it at first priority. (I&#8217;d like to extend your idea.)</p>
+<p>Privacy issues can be handled by giving each user his personalized software agent, that interacts with real world and remains in the limits of user&#8217;s consent.</p>
+<p>A lot of research has been going on in &#8216;software agents&#8217; and their interop alternatives. Certainly, I think it will take at least 5 years down the lane to have various (Internet) agents communicate with each other. The day when you have a software installed on your machine (NLP capable), you dictate &#8216;what&#8217;s weather out there?&#8217;, it searches for available weather agents in the &#8216;directory&#8217;, downloads and installs one, and start communication with it&#8230; giving u update within seconds. Or say you want to book ticket, then u have railway-booking agent out there <img src="http://ngs.ics.uci.edu/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" />  .</p>
+<p>- ankit</p>
+							</section><!-- .comment-content -->
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="li-comment-2692">
+		<article id="comment-2692" class="comment">
+			<header class="comment-meta comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/6e808adf27ac8e70f489a5c140a7bb8a?s=44&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&amp;r=G' class='avatar avatar-44 photo' height='44' width='44' /><cite class="fn"><a href='http://www.bharatstudent.com/study-zone/knowledgebase.php' rel='external nofollow' class='url'>Knowledgebase</a> </cite><a href="http://ngs.ics.uci.edu/cyber-persona/comment-page-1/#comment-2692"><time pubdate datetime="2009-03-11T00:40:49+00:00">March 11, 2009 at 12:40 am</time></a>			</header><!-- .comment-meta -->
+
+			
+			<section class="comment-content comment">
+				<p>Fantastic , really good explanationnnnnnnn&#8230;&#8230;</p>
+<p> As per you view , even i think that those data mining may violate the security problems . So they should take necessary steps so that customer privacy is the main concept &#8230;&#8230;&#8230;&#8230;&#8230;</p>
+							</section><!-- .comment-content -->
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-2693">
+		<article id="comment-2693" class="comment">
+			<header class="comment-meta comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/b4743816853b2f8a3a622c1c0a111f82?s=44&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&amp;r=G' class='avatar avatar-44 photo' height='44' width='44' /><cite class="fn"><a href='http://www.ordermedsonline.ca/soma.html' rel='external nofollow' class='url'>Fris Arvz</a> </cite><a href="http://ngs.ics.uci.edu/cyber-persona/comment-page-1/#comment-2693"><time pubdate datetime="2009-03-12T02:47:26+00:00">March 12, 2009 at 2:47 am</time></a>			</header><!-- .comment-meta -->
+
+			
+			<section class="comment-content comment">
+				<p>As for me&#8230; When i create a cyber persona, its not a complete mirror of what really I am&#8230; It has a little bit difference&#8230; Of course, I have different approach in cyberspace and in real world.</p>
+							</section><!-- .comment-content -->
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="li-comment-2695">
+		<article id="comment-2695" class="comment">
+			<header class="comment-meta comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/d1a24dfea6b2707283e3a665c8d44415?s=44&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&amp;r=G' class='avatar avatar-44 photo' height='44' width='44' /><cite class="fn"><a href='http://marketingconsultants.uk.com' rel='external nofollow' class='url'>MarkM</a> </cite><a href="http://ngs.ics.uci.edu/cyber-persona/comment-page-1/#comment-2695"><time pubdate datetime="2009-03-12T04:54:01+00:00">March 12, 2009 at 4:54 am</time></a>			</header><!-- .comment-meta -->
+
+			
+			<section class="comment-content comment">
+				<p>In marketing segmentation, data crunchers look at macro data about you and infer things about how you behave or your propensity to spend. They can do this based on your postal address, for example. It does not have any privacy implications if it is done at this level. </p>
+<p>There are two things we need to do to build the persona that you mention IMO. </p>
+<p> 1 Recognise and seperate business and personal behavior online &#8211; the same person could do different things in different contexts.</p>
+<p>2 Focus on behaviors and demographics, rather than events &#8211; who can tell if you are buying a wedding dress for yourself, for your daughter, or for your best friend.</p>
+							</section><!-- .comment-content -->
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment byuser comment-author-ramesh bypostauthor odd alt thread-odd thread-alt depth-1" id="li-comment-2699">
+		<article id="comment-2699" class="comment">
+			<header class="comment-meta comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/4c7e700ac9901c23d82d2720e3664dbd?s=44&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&amp;r=G' class='avatar avatar-44 photo' height='44' width='44' /><cite class="fn">Ramesh <span> Post author</span></cite><a href="http://ngs.ics.uci.edu/cyber-persona/comment-page-1/#comment-2699"><time pubdate datetime="2009-03-13T20:06:29+00:00">March 13, 2009 at 8:06 pm</time></a>			</header><!-- .comment-meta -->
+
+			
+			<section class="comment-content comment">
+				<p>And that will be true for many people.  Of course then the response in cyber world will depending on the cyber persona.</p>
+							</section><!-- .comment-content -->
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment even thread-even depth-1" id="li-comment-2700">
+		<article id="comment-2700" class="comment">
+			<header class="comment-meta comment-author vcard">
+				<img alt='' src='http://1.gravatar.com/avatar/71f0ab7ed46bd7c3d6b469a0dd58c035?s=44&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&amp;r=G' class='avatar avatar-44 photo' height='44' width='44' /><cite class="fn"><a href='http://www.sojones.com/urban-clothing/pelle-pelle/' rel='external nofollow' class='url'>Pelle Pelle</a> </cite><a href="http://ngs.ics.uci.edu/cyber-persona/comment-page-1/#comment-2700"><time pubdate datetime="2009-03-13T20:25:33+00:00">March 13, 2009 at 8:25 pm</time></a>			</header><!-- .comment-meta -->
+
+			
+			<section class="comment-content comment">
+				<p>There are bits of software to help you do this today.  For example wallet or one password type applications that let you keep your information handy for easy/secure online shopping.  Then you have facebook, linkedin, myspace, etc which allow you to control how much of your cJD is public and how much is private or only shared to a trusted group (aka friends and family).</p>
+<p>So many services today already are starting down the path of creating, storing and managing cJD but I agree it would be great to:<br />
+ a) standardize<br />
+b) ensure privacy levels<br />
+and<br />
+c) centralize that data</p>
+<p>The question is who do you trust to hold this data for you?  Yahoo, Google, Microsoft?  Facebook, MySpace?  Or a new service just for this purpose not tied to a particular company or application.</p>
+							</section><!-- .comment-content -->
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+	<li class="comment odd alt thread-odd thread-alt depth-1" id="li-comment-2790">
+		<article id="comment-2790" class="comment">
+			<header class="comment-meta comment-author vcard">
+				<img alt='' src='http://0.gravatar.com/avatar/ab522dce4a02829c92b742f753b9f9ec?s=44&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&amp;r=G' class='avatar avatar-44 photo' height='44' width='44' /><cite class="fn"><a href='http://www.goodorient.com/' rel='external nofollow' class='url'>Chinese Dress</a> </cite><a href="http://ngs.ics.uci.edu/cyber-persona/comment-page-1/#comment-2790"><time pubdate datetime="2009-05-17T21:40:52+00:00">May 17, 2009 at 9:40 pm</time></a>			</header><!-- .comment-meta -->
+
+			
+			<section class="comment-content comment">
+				<p>For me, that is one of the best thing to do in cyberspace in order for us to be safe from any harm that existed now over the web. Through cyberspace persona we can easily determine who are the responsible for doing such crime. </p>
+<p>We all know that web nowadays is very famous, even a one year old kids know about it.. So need need to have an identification.</p>
+							</section><!-- .comment-content -->
+
+			<div class="reply">
+							</div><!-- .reply -->
+		</article><!-- #comment-## -->
+	</li><!-- #comment-## -->
+		</ol><!-- .commentlist -->
+
+		
+	
+									<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">Leave a Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="/cyber-persona/#respond" style="display:none;">Cancel reply</a></small></h3>
+									<form action="http://ngs.ics.uci.edu/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+																			<p class="comment-notes">Your email address will not be published. Required fields are marked <span class="required">*</span></p>							<p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' /></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-required='true' /></p>
+<p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="text" value="" size="30" /></p>
+												<p class="comment-form-comment"><label for="comment">Comment</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>						<p class="form-allowed-tags">You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes:  <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></p>						<p class="form-submit">
+							<input name="submit" type="submit" id="submit" value="Post Comment" />
+							<input type='hidden' name='comment_post_ID' value='1081' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+						</p>
+											</form>
+							</div><!-- #respond -->
+			
+</div><!-- #comments .comments-area -->
+		</article>
+	</section>
+</div><!-- #content --></div><!-- #primary -->
+
+
+<div id="secondary">
+	
+
+<aside id="categories-3" class="widget widget_categories"><h3 class="widget-title">Blog Categories</h3>		<ul>
+	<li class="cat-item cat-item-6"><a href="http://ngs.ics.uci.edu/category/entrepreneurism/" title="Articles related to entrepreneurism in IT related areas.">Entrepreneurism</a> (122)
+</li>
+	<li class="cat-item cat-item-4"><a href="http://ngs.ics.uci.edu/category/experiential-computing/" title="View all posts filed under Experiential Computing">Experiential Computing</a> (292)
+</li>
+	<li class="cat-item cat-item-2"><a href="http://ngs.ics.uci.edu/category/general-updates/" title="View all posts filed under General Updates">General Updates</a> (419)
+</li>
+	<li class="cat-item cat-item-5"><a href="http://ngs.ics.uci.edu/category/personal/" title="View all posts filed under Personal">Personal</a> (86)
+</li>
+	<li class="cat-item cat-item-3"><a href="http://ngs.ics.uci.edu/category/prospecting-information/" title="View all posts filed under Prospecting Information">Prospecting Information</a> (72)
+</li>
+	<li class="cat-item cat-item-1"><a href="http://ngs.ics.uci.edu/category/technical-thoughts/" title="View all posts filed under Technical Thoughts">Technical Thoughts</a> (389)
+</li>
+		</ul>
+</aside><aside id="archives-3" class="widget widget_archive"><h3 class="widget-title">Blog Archive</h3>		<select name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'> <option value="">Select Month</option> 	<option value='http://ngs.ics.uci.edu/2013/08/'> August 2013 &nbsp;(1)</option>
+	<option value='http://ngs.ics.uci.edu/2013/07/'> July 2013 &nbsp;(5)</option>
+	<option value='http://ngs.ics.uci.edu/2013/04/'> April 2013 &nbsp;(2)</option>
+	<option value='http://ngs.ics.uci.edu/2013/03/'> March 2013 &nbsp;(4)</option>
+	<option value='http://ngs.ics.uci.edu/2013/02/'> February 2013 &nbsp;(1)</option>
+	<option value='http://ngs.ics.uci.edu/2012/10/'> October 2012 &nbsp;(3)</option>
+	<option value='http://ngs.ics.uci.edu/2012/09/'> September 2012 &nbsp;(1)</option>
+	<option value='http://ngs.ics.uci.edu/2012/08/'> August 2012 &nbsp;(1)</option>
+	<option value='http://ngs.ics.uci.edu/2012/06/'> June 2012 &nbsp;(3)</option>
+	<option value='http://ngs.ics.uci.edu/2012/05/'> May 2012 &nbsp;(1)</option>
+	<option value='http://ngs.ics.uci.edu/2012/04/'> April 2012 &nbsp;(1)</option>
+	<option value='http://ngs.ics.uci.edu/2012/03/'> March 2012 &nbsp;(5)</option>
+	<option value='http://ngs.ics.uci.edu/2012/02/'> February 2012 &nbsp;(5)</option>
+	<option value='http://ngs.ics.uci.edu/2012/01/'> January 2012 &nbsp;(4)</option>
+	<option value='http://ngs.ics.uci.edu/2011/08/'> August 2011 &nbsp;(2)</option>
+	<option value='http://ngs.ics.uci.edu/2011/07/'> July 2011 &nbsp;(6)</option>
+	<option value='http://ngs.ics.uci.edu/2011/06/'> June 2011 &nbsp;(3)</option>
+	<option value='http://ngs.ics.uci.edu/2011/05/'> May 2011 &nbsp;(3)</option>
+	<option value='http://ngs.ics.uci.edu/2011/04/'> April 2011 &nbsp;(1)</option>
+	<option value='http://ngs.ics.uci.edu/2011/03/'> March 2011 &nbsp;(2)</option>
+	<option value='http://ngs.ics.uci.edu/2011/02/'> February 2011 &nbsp;(1)</option>
+	<option value='http://ngs.ics.uci.edu/2011/01/'> January 2011 &nbsp;(2)</option>
+	<option value='http://ngs.ics.uci.edu/2010/12/'> December 2010 &nbsp;(4)</option>
+	<option value='http://ngs.ics.uci.edu/2010/11/'> November 2010 &nbsp;(2)</option>
+	<option value='http://ngs.ics.uci.edu/2010/10/'> October 2010 &nbsp;(1)</option>
+	<option value='http://ngs.ics.uci.edu/2010/09/'> September 2010 &nbsp;(1)</option>
+	<option value='http://ngs.ics.uci.edu/2010/08/'> August 2010 &nbsp;(5)</option>
+	<option value='http://ngs.ics.uci.edu/2010/07/'> July 2010 &nbsp;(3)</option>
+	<option value='http://ngs.ics.uci.edu/2010/06/'> June 2010 &nbsp;(3)</option>
+	<option value='http://ngs.ics.uci.edu/2010/05/'> May 2010 &nbsp;(3)</option>
+	<option value='http://ngs.ics.uci.edu/2010/04/'> April 2010 &nbsp;(7)</option>
+	<option value='http://ngs.ics.uci.edu/2010/03/'> March 2010 &nbsp;(3)</option>
+	<option value='http://ngs.ics.uci.edu/2010/02/'> February 2010 &nbsp;(3)</option>
+	<option value='http://ngs.ics.uci.edu/2010/01/'> January 2010 &nbsp;(4)</option>
+	<option value='http://ngs.ics.uci.edu/2009/12/'> December 2009 &nbsp;(8)</option>
+	<option value='http://ngs.ics.uci.edu/2009/11/'> November 2009 &nbsp;(7)</option>
+	<option value='http://ngs.ics.uci.edu/2009/10/'> October 2009 &nbsp;(9)</option>
+	<option value='http://ngs.ics.uci.edu/2009/09/'> September 2009 &nbsp;(3)</option>
+	<option value='http://ngs.ics.uci.edu/2009/08/'> August 2009 &nbsp;(14)</option>
+	<option value='http://ngs.ics.uci.edu/2009/07/'> July 2009 &nbsp;(5)</option>
+	<option value='http://ngs.ics.uci.edu/2009/06/'> June 2009 &nbsp;(9)</option>
+	<option value='http://ngs.ics.uci.edu/2009/05/'> May 2009 &nbsp;(8)</option>
+	<option value='http://ngs.ics.uci.edu/2009/04/'> April 2009 &nbsp;(9)</option>
+	<option value='http://ngs.ics.uci.edu/2009/03/'> March 2009 &nbsp;(14)</option>
+	<option value='http://ngs.ics.uci.edu/2009/02/'> February 2009 &nbsp;(13)</option>
+	<option value='http://ngs.ics.uci.edu/2009/01/'> January 2009 &nbsp;(16)</option>
+	<option value='http://ngs.ics.uci.edu/2008/12/'> December 2008 &nbsp;(15)</option>
+	<option value='http://ngs.ics.uci.edu/2008/11/'> November 2008 &nbsp;(19)</option>
+	<option value='http://ngs.ics.uci.edu/2008/10/'> October 2008 &nbsp;(12)</option>
+	<option value='http://ngs.ics.uci.edu/2008/09/'> September 2008 &nbsp;(10)</option>
+	<option value='http://ngs.ics.uci.edu/2008/08/'> August 2008 &nbsp;(14)</option>
+	<option value='http://ngs.ics.uci.edu/2008/07/'> July 2008 &nbsp;(8)</option>
+	<option value='http://ngs.ics.uci.edu/2008/06/'> June 2008 &nbsp;(9)</option>
+	<option value='http://ngs.ics.uci.edu/2008/05/'> May 2008 &nbsp;(17)</option>
+	<option value='http://ngs.ics.uci.edu/2008/04/'> April 2008 &nbsp;(12)</option>
+	<option value='http://ngs.ics.uci.edu/2008/03/'> March 2008 &nbsp;(14)</option>
+	<option value='http://ngs.ics.uci.edu/2008/02/'> February 2008 &nbsp;(14)</option>
+	<option value='http://ngs.ics.uci.edu/2008/01/'> January 2008 &nbsp;(16)</option>
+	<option value='http://ngs.ics.uci.edu/2007/12/'> December 2007 &nbsp;(16)</option>
+	<option value='http://ngs.ics.uci.edu/2007/11/'> November 2007 &nbsp;(17)</option>
+	<option value='http://ngs.ics.uci.edu/2007/10/'> October 2007 &nbsp;(19)</option>
+	<option value='http://ngs.ics.uci.edu/2007/09/'> September 2007 &nbsp;(17)</option>
+	<option value='http://ngs.ics.uci.edu/2007/08/'> August 2007 &nbsp;(14)</option>
+	<option value='http://ngs.ics.uci.edu/2007/07/'> July 2007 &nbsp;(12)</option>
+	<option value='http://ngs.ics.uci.edu/2007/06/'> June 2007 &nbsp;(18)</option>
+	<option value='http://ngs.ics.uci.edu/2007/05/'> May 2007 &nbsp;(19)</option>
+	<option value='http://ngs.ics.uci.edu/2007/04/'> April 2007 &nbsp;(15)</option>
+	<option value='http://ngs.ics.uci.edu/2007/03/'> March 2007 &nbsp;(16)</option>
+	<option value='http://ngs.ics.uci.edu/2007/02/'> February 2007 &nbsp;(13)</option>
+	<option value='http://ngs.ics.uci.edu/2007/01/'> January 2007 &nbsp;(18)</option>
+	<option value='http://ngs.ics.uci.edu/2006/12/'> December 2006 &nbsp;(20)</option>
+	<option value='http://ngs.ics.uci.edu/2006/11/'> November 2006 &nbsp;(26)</option>
+	<option value='http://ngs.ics.uci.edu/2006/10/'> October 2006 &nbsp;(24)</option>
+	<option value='http://ngs.ics.uci.edu/2006/09/'> September 2006 &nbsp;(20)</option>
+	<option value='http://ngs.ics.uci.edu/2006/08/'> August 2006 &nbsp;(21)</option>
+	<option value='http://ngs.ics.uci.edu/2006/07/'> July 2006 &nbsp;(25)</option>
+	<option value='http://ngs.ics.uci.edu/2006/06/'> June 2006 &nbsp;(17)</option>
+	<option value='http://ngs.ics.uci.edu/2006/05/'> May 2006 &nbsp;(18)</option>
+	<option value='http://ngs.ics.uci.edu/2006/04/'> April 2006 &nbsp;(19)</option>
+	<option value='http://ngs.ics.uci.edu/2006/03/'> March 2006 &nbsp;(21)</option>
+	<option value='http://ngs.ics.uci.edu/2006/02/'> February 2006 &nbsp;(30)</option>
+	<option value='http://ngs.ics.uci.edu/2006/01/'> January 2006 &nbsp;(28)</option>
+	<option value='http://ngs.ics.uci.edu/2005/12/'> December 2005 &nbsp;(28)</option>
+	<option value='http://ngs.ics.uci.edu/2005/11/'> November 2005 &nbsp;(28)</option>
+	<option value='http://ngs.ics.uci.edu/2005/10/'> October 2005 &nbsp;(46)</option>
+	<option value='http://ngs.ics.uci.edu/2005/09/'> September 2005 &nbsp;(22)</option>
+	<option value='http://ngs.ics.uci.edu/2005/08/'> August 2005 &nbsp;(16)</option>
+	<option value='http://ngs.ics.uci.edu/2005/07/'> July 2005 &nbsp;(12)</option>
+	<option value='http://ngs.ics.uci.edu/2005/06/'> June 2005 &nbsp;(15)</option>
+	<option value='http://ngs.ics.uci.edu/2005/05/'> May 2005 &nbsp;(6)</option>
+	<option value='http://ngs.ics.uci.edu/2005/04/'> April 2005 &nbsp;(5)</option>
+	<option value='http://ngs.ics.uci.edu/2005/03/'> March 2005 &nbsp;(11)</option>
+	<option value='http://ngs.ics.uci.edu/2005/02/'> February 2005 &nbsp;(10)</option>
+	<option value='http://ngs.ics.uci.edu/2005/01/'> January 2005 &nbsp;(9)</option>
+	<option value='http://ngs.ics.uci.edu/2004/12/'> December 2004 &nbsp;(7)</option>
+	<option value='http://ngs.ics.uci.edu/2004/11/'> November 2004 &nbsp;(9)</option>
+	<option value='http://ngs.ics.uci.edu/2004/10/'> October 2004 &nbsp;(9)</option>
+	<option value='http://ngs.ics.uci.edu/2004/09/'> September 2004 &nbsp;(8)</option>
+	<option value='http://ngs.ics.uci.edu/2004/08/'> August 2004 &nbsp;(13)</option>
+	<option value='http://ngs.ics.uci.edu/2004/07/'> July 2004 &nbsp;(25)</option>
+	<option value='http://ngs.ics.uci.edu/2004/06/'> June 2004 &nbsp;(29)</option>
+	<option value='http://ngs.ics.uci.edu/2004/05/'> May 2004 &nbsp;(29)</option>
+	<option value='http://ngs.ics.uci.edu/2004/04/'> April 2004 &nbsp;(26)</option>
+	<option value='http://ngs.ics.uci.edu/2004/03/'> March 2004 &nbsp;(35)</option>
+	<option value='http://ngs.ics.uci.edu/2004/02/'> February 2004 &nbsp;(16)</option>
+ </select>
+</aside>
+</div><!-- #secondary --></div><!-- #container -->
+
+
+	   </div><!-- #main -->
+
+	   
+	   	
+	   
+	   <footer id="colophon" class="clearfix">
+			
+
+
+<div id="site-generator">
+				<div class="container"><div class="copyright">Copyright &copy; 2014 <a href="http://ngs.ics.uci.edu/" title="Ramesh Jain" ><span>Ramesh Jain</span></a> Theme by: <a href="http://themehorse.com" target="_blank" title="Theme Horse" ><span>Theme Horse</span></a> Powered by: <a href="http://wordpress.org" target="_blank" title="WordPress"><span>WordPress</span></a> </div><!-- .copyright --><div style="clear:both;"></div>
+			</div><!-- .container -->
+			</div><!-- #site-generator --><div class="back-to-top"><a href="#branding">Back to Top</a></div>		</footer>
+	   
+			
+
+	</div><!-- .wrapper -->
+
+	 
+
+
+</body>
+</html>

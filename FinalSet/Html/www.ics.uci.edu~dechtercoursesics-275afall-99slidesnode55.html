@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Using Libraries</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Using Libraries">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html2914 HREF="node56.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html2912 HREF="node34.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html2906 HREF="node54.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html2916 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html2915 HREF="node56.html"> Redefining Built In </A>
+<B>Up:</B> <A NAME=tex2html2913 HREF="node34.html"> Getting started with  </A>
+<B> Previous:</B> <A NAME=tex2html2907 HREF="node54.html"> Altering Programs</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION00460000000000000000> Using Libraries</A></H1>
+<P>
+<A NAME=675>&#160;</A>
+A number of files containing library predicates are issued with the <A NAME=tex2html208 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+<P>
+system. These predicates provide utility functions for general use.
+They are usually installed in a <A NAME=tex2html209 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  library directory (or directories).
+These predicates are either loaded automatically by <A NAME=tex2html210 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  or may be loaded 
+``by hand''.
+<P>
+During the execution of an <A NAME=tex2html211 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  program, the system may dynamically
+load files containing library predicates. When this happens, the user is
+informed by a compilation or loading message.
+It is possible to explicitly force this loading to occur by use of the
+lib/1 or use_module/1 predicates. E.g. to load the library
+called <tt> lists</tt>, use one of the following directives
+<blockquote> <PRE>:- lib(lists)
+:- use_module(library(lists))
+</PRE> 
+</blockquote>
+will load the library file unless it has been already loaded.
+The library file is found by searching the library path and by appending
+a suffix to the library name.
+<P>
+<A NAME=681>&#160;</A>
+<A NAME=682>&#160;</A>
+The search path used when loading libraries is specified by the
+global flag <b> library_path</b> using the get_flag/2 and set_flag/2
+predicates. This flag contains a list of strings containing the pathnames
+of the directories
+to be searched when loading a library file. User libraries may be be added
+to the system simply by copying the desired file into the <A NAME=tex2html214 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  library 
+directory. Alternatively the <b> library_path</b> flag may be updated to point
+at a number of user specific directories. The following example illustrates
+how a directive may be added to a file to add a user-defined library in front
+of any existing system libraries. 
+<blockquote> <PRE>?- get_flag(library_path,Path),
+   set_flag(library_path, [&quot;/home/myuser/mylibs&quot; | Path]).
+</PRE>
+</blockquote>
+The UNIX environment variable ECLIPSELIBRARYPATH may also be used to specify
+<A NAME=689>&#160;</A>
+the initial setting of the library path. The syntax is similar to the syntax
+of the UNIX PATH variable, i.e. a list of directory names separated by
+colons. The directories will be prepended to the standard library path in the
+given order.
+<P>
+<BR> <HR><A NAME=tex2html2914 HREF="node56.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html2912 HREF="node34.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html2906 HREF="node54.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html2916 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html2915 HREF="node56.html"> Redefining Built In </A>
+<B>Up:</B> <A NAME=tex2html2913 HREF="node34.html"> Getting started with  </A>
+<B> Previous:</B> <A NAME=tex2html2907 HREF="node54.html"> Altering Programs</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

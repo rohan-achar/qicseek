@@ -1,0 +1,331 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+    <title>Bibliography | Virtual Collaboration Portal</title>
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/./sites/vcp.ics.uci.edu/modules/avatar_blocks/avatar_blocks.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/cck/theme/content-module.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/ctools/css/ctools.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/custom/multi_google_cse/multi_google_cse.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/date/date.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/dhtml_menu/dhtml_menu.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/fckeditor/fckeditor.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/filefield/filefield.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/gallery/gallery.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/gallery/gallery_filter.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/og/theme/og.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/tagadelic/tagadelic.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/forum/forum.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/biblio/biblio.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/cck/modules/fieldgroup/fieldgroup.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/views/css/views.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/files/color/garland_newvcp-cb8d0b3a/style.css?p" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/vcp.ics.uci.edu/themes/garland-newvcp/print.css?p" />
+    <script type="text/javascript" src="/misc/jquery.js?p"></script>
+<script type="text/javascript" src="/misc/drupal.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/dhtml_menu/dhtml_menu.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/og/og.js?p"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","dhtmlMenu":{"slide":"slide","siblings":"siblings","relativity":"relativity","clone":"clone","doubleclick":"doubleclick","children":0}});
+//--><!]]>
+</script>
+    <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/themes/garland-newvcp/fix-ie.css" />    <![endif]-->
+  </head>
+  <body class="sidebar-left">
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="/" title="Virtual Collaboration Portal"><span>Virtual Collaboration Portal</span></a></h1>        </div>
+
+                  <ul class="links primary-links"><li class="menu-197 first"><a href="/" title="VCP home page">Home</a></li>
+<li class="menu-494"><a href="/og" title="">Groups</a></li>
+<li class="menu-12772 last"><a href="/collaborators">Collaborators</a></li>
+</ul>                                  
+      </div> <!-- /header -->
+
+              <div id="sidebar-left" class="sidebar">
+          <div class="block block-theme"><form action="/biblio?page=8"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-hrd_cWKmn1jSHFyPumnorHPCgCsYRw9uTLwifq0j9tk" value="form-hrd_cWKmn1jSHFyPumnorHPCgCsYRw9uTLwifq0j9tk"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+</div>          <div id="block-user-1" class="clear-block block block-user">
+
+  <h2>Navigation</h2>
+
+  <div class="content"><ul class="menu"><li class="expanded first dhtml-menu  active-trail"><a href="/biblio" id="dhtml_menu-5079" class="active">Bibliography</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/biblio/authors" id="dhtml_menu-12779">Authors</a></li>
+<li class="leaf last dhtml-menu "><a href="/biblio/keywords" id="dhtml_menu-12792">Keywords</a></li>
+</ul></li>
+<li class="leaf  dhtml-menu "><a href="/readinglist/year" id="dhtml_menu-5761">Reading Lists</a></li>
+<li class="leaf  dhtml-menu "><a href="/weblinks" id="dhtml_menu-3412">Web Links</a></li>
+<li class="leaf  dhtml-menu "><a href="/gallery" title="Visit your embedded Gallery2." id="dhtml_menu-3237">Gallery</a></li>
+<li class="leaf  dhtml-menu "><a href="/tracker" id="dhtml_menu-119">Recent posts</a></li>
+<li class="leaf last dhtml-menu "><a href="/content/acknowledgements" title="Acknowledgements" id="dhtml_menu-11419">Acknowledgements</a></li>
+</ul></div>
+</div>
+<div id="block-user-0" class="clear-block block block-user">
+
+  <h2>User login</h2>
+
+  <div class="content"><form action="/biblio?destination=biblio%3Fpage%3D8"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
+<div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-2tkO88veaZqE9HnR1S1Yznf1oE36w7KVoV8lum9mTrk" value="form-2tkO88veaZqE9HnR1S1Yznf1oE36w7KVoV8lum9mTrk"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+</div>
+</div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="/">Home</a></div>                              <h2>Bibliography</h2>                                                  <div class="clear-block">
+            <div id="biblio-header" class="clear-block"><div class="biblio-export">Found 375 results</div><br /></div>
+<div class="biblio-separator-bar">2006</div>
+
+<div class ="biblio-category-section">
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/269">Good, N.</a>, <a href="/biblio/author/270">J. Grossklags</a>, <a href="/biblio/author/248">J. A. Konstan</a>, <a href="/biblio/author/271">D. Mulligan</a>, <a href="/biblio/author/305">A. Perzanowski</a>, and <a href="/biblio/author/306">D. Thaw</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/user-choices-and-regret-understanding-users-decision-process-bout-consensually-acquired-spyw">User Choices and Regret: Understanding Users' Decision Process bout Consensually Acquired Spyware</a>&quot;, </span> 
+<i>I/S: A Journal of Law and Policy for the Information Society</i>, vol. 2, no. 2, 01/2006.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.atitle=User+Choices+and+Regret%3A+Understanding+Users%26%23039%3B+Decision+Process+bout+Consensually+Acquired+Spyware&amp;rft.title=I%2FS%3A+A+Journal+of+Law+and+Policy+for+the+Information+Society&amp;rft.date=2006&amp;rft.volume=2&amp;rft.aulast=Good&amp;rft.auinit=N"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/147">Jensen, C.</a>, and <a href="/biblio/author/125" class="biblio-local-author">W. Scacchi</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/discovering-modeling-and-reenacting-open-source-software-development-processes">Discovering, Modeling, and Reenacting Open Source Software Development Processes</a>&quot;, </span> 
+<i>New Trends in Software Process Modeling</i>, vol. 18, pp. 1-20, 2006.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.atitle=Discovering%2C+Modeling%2C+and+Reenacting+Open+Source+Software+Development+Processes&amp;rft.title=New+Trends+in+Software+Process+Modeling&amp;rft.btitle=New+Trends+in+Software+Process+Modeling&amp;rft.series=Series+in+Software+Engineering+and+Knowledge+Engineering&amp;rft.date=2006&amp;rft.volume=18&amp;rft.spage=1&amp;rft.epage=20&amp;rft.aulast=Jensen&amp;rft.aufirst=Chris"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/125" class="biblio-local-author">Scacchi, W.</a>, and <a href="/biblio/author/147">C. Jensen</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/experiences-discovering-modeling-and-reenacting-open-source-software-development-processes-2">Experiences in Discovering, Modeling, and Reenacting Open Source Software Development Processes</a>&quot;, </span> 
+<i>Software Process Workshop, Unifying the Software Process Spectrum</i>, Beijing, China, Springer-Verlag, pp. 442-469, 2006.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Experiences+in+Discovering%2C+Modeling%2C+and+Reenacting+Open+Source+Software+Development+Processes&amp;rft.date=2006&amp;rft.spage=442&amp;rft.epage=469&amp;rft.aulast=Scacchi&amp;rft.auinit=W&amp;rft.pub=Springer-Verlag&amp;rft.place=Beijing%2C+China"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/125" class="biblio-local-author">Scacchi, W.</a>, <a href="/biblio/author/147">C. Jensen</a>, <a href="/biblio/author/127">J. Noll</a>, and <a href="/biblio/author/154">M. Elliott</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/multi-modal-modeling-analysis-and-validation-open-source-software-development-processes-0">Multi-Modal Modeling, Analysis and Validation of Open Source Software Development Processes</a>&quot;, </span> 
+<i>Intern. J. Internet Technology and Web Engineering</i>, vol. 1, no. 3, pp. 49-63, 2006.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.atitle=Multi-Modal+Modeling%2C+Analysis+and+Validation+of+Open+Source+Software+Development+Processes&amp;rft.title=Intern.+J.+Internet+Technology+and+Web+Engineering&amp;rft.date=2006&amp;rft.volume=1&amp;rft.spage=49&amp;rft.epage=63&amp;rft.aulast=Scacchi&amp;rft.auinit=W"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/125" class="biblio-local-author">Scacchi, W.</a>, <a href="/biblio/author/147">C. Jensen</a>, <a href="/biblio/author/127">J. Noll</a>, and <a href="/biblio/author/260">M. Elliott</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/multi-modal-modeling-analysis-and-validation-open-source-software-development-processes-1">Multi-Modal Modeling, Analysis and Validation of Open Source Software Development Processes</a>&quot;, </span> 
+<i>Intern. J. Internet Technology and Web Engineering</i>, vol. 1, no. 3, pp. 49-63, 2006.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.atitle=Multi-Modal+Modeling%2C+Analysis+and+Validation+of+Open+Source+Software+Development+Processes&amp;rft.title=Intern.+J.+Internet+Technology+and+Web+Engineering&amp;rft.date=2006&amp;rft.volume=1&amp;rft.spage=49&amp;rft.epage=63&amp;rft.aulast=Scacchi&amp;rft.aufirst=Walt"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/168">Damiani, E.</a>, <a href="/biblio/author/134">B. Fitzgerald</a>, <a href="/biblio/author/125" class="biblio-local-author">W. Scacchi</a>, <a href="/biblio/author/166">M. Scotto</a>, and <a href="/biblio/author/167">G. Succi</a>, </span> 
+<span class="biblio-title"><i><a href="/content/open-source-systems-0">Open Source Systems</a>, </i></span> 
+: Springer, 2006.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Open+Source+Systems&amp;rft.date=2006&amp;rft.aulast=Damiani&amp;rft.aufirst=Ernesto&amp;rft.pub=Springer"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/95">Churches, D.</a>, <a href="/biblio/author/96">G. Gombas</a>, <a href="/biblio/author/97">A. Harrison</a>, <a href="/biblio/author/98">J. Maassen</a>, <a href="/biblio/author/99">C. Robinson</a>, <a href="/biblio/author/100">M. Shields</a>, <a href="/biblio/author/101">I. Taylor</a>, and <a href="/biblio/author/102">I. Wang</a>, </span> 
+<span class="biblio-title"><i><a href="/content/programming-scientific-and-distributed-workflow-triana-services-0">Programming scientific and distributed workflow with Triana services</a>, </i></span> 
+, vol. 18, no. 10: John Wiley and Sons Ltd., pp. 1021-1037, 2006.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Programming+scientific+and+distributed+workflow+with+Triana+services&amp;rft.isbn=1532-0626&amp;rft.date=2006&amp;rft.volume=18&amp;rft.spage=1021&amp;rft.epage=1037&amp;rft.aulast=Churches&amp;rft.aufirst=David&amp;rft.pub=John+Wiley+and+Sons+Ltd."></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/125" class="biblio-local-author">Scacchi, W.</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/understanding-freeopen-source-software-evolution">Understanding Free/Open Source Software Evolution</a>&quot;, </span> 
+<i>Software Evolution and Feedback: Theory and Practice</i>, New York, John Wiley and Sons Inc., pp. 181-206, 2006.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.atitle=Understanding+Free%2FOpen+Source+Software+Evolution&amp;rft.title=Software+Evolution+and+Feedback%3A+Theory+and+Practice&amp;rft.btitle=Software+Evolution+and+Feedback%3A+Theory+and+Practice&amp;rft.date=2006&amp;rft.spage=181&amp;rft.epage=206&amp;rft.aulast=Scacchi&amp;rft.aufirst=Walt&amp;rft.pub=John+Wiley+and+Sons+Inc.&amp;rft.place=New+York"></span>
+</div></div>
+</div><!-- end category-section -->
+<div class="biblio-separator-bar">2005</div>
+
+<div class ="biblio-category-section">
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/41">Suryanarayana, G.</a>, <a href="/biblio/author/75">J. R. Erenkrantz</a>, and <a href="/biblio/author/28" class="biblio-local-author">R. N. Taylor</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/architectural-approach-decentralized-trust-management-0">An Architectural Approach for Decentralized Trust Management</a>&quot;, </span> 
+<i>IEEE Internet Computing</i>, vol. 9, no. 6, pp. 16-23, November/Decembe, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=An+Architectural+Approach+for+Decentralized+Trust+Management&amp;rft.date=2005&amp;rft.volume=9&amp;rft.spage=16&amp;rft.epage=23&amp;rft.aulast=Suryanarayana&amp;rft.aufirst=Girish"></span><span class="biblio-abstract-link"><a href="/content/architectural-approach-decentralized-trust-management-0"> Abstract</a>
+</span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/36">Kammer, P.</a>, and <a href="/biblio/author/28" class="biblio-local-author">R. N. Taylor</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/architectural-style-supporting-work-practice-coping-complex-structure-coordination-0">An Architectural Style for Supporting Work Practice: Coping with the Complex Structure of Coordination</a>&quot;, </span> 
+<i>International Symposium on Collaborative Technologies and Systems (CTS&#039;05)</i>, St. Louis, MO, May 15-19, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=An+Architectural+Style+for+Supporting+Work+Practice%3A+Coping+with+the+Complex+Structure+of+Coordination&amp;rft.date=2005&amp;rft.aulast=Kammer&amp;rft.aufirst=Peter&amp;rft.place=St.+Louis%2C+MO"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/54">Hendrickson, S. A.</a>, <a href="/biblio/author/39">E. M. Dashofy</a>, and <a href="/biblio/author/28" class="biblio-local-author">R. N. Taylor</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/architecture-centric-approach-tracing-organizing-and-understanding-events-event-based-softw-0">An (Architecture-Centric) Approach for Tracing, Organizing, and Understanding Events in Event-Based Software Architectures</a>&quot;, </span> 
+<i>13th International Workshop on  Program Comprehension, in conjunction with ICSE 2005</i>, St. Louis, MO, pp. 227-236, May 15-16, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=An+%28Architecture-Centric%29+Approach+for+Tracing%2C+Organizing%2C+and+Understanding+Events+in+Event-Based+Software+Architectures&amp;rft.date=2005&amp;rft.spage=227&amp;rft.epage=236&amp;rft.aulast=Hendrickson&amp;rft.aufirst=Scott&amp;rft.place=St.+Louis%2C+MO"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/147">Jensen, C.</a>, and <a href="/biblio/author/125" class="biblio-local-author">W. Scacchi</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/modeling-recruitment-and-role-migration-processes-ossd-projects-1">Modeling Recruitment and Role Migration Processes in OSSD Projects</a>&quot;, </span> 
+<i>Fifth Workshop on Software Process Simulation and Modeling (ProSim), held in conjunction with ICSE 2005</i>, St. Louis, May 14-15, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Modeling+Recruitment+and+Role+Migration+Processes+in+OSSD+Projects&amp;rft.date=2005&amp;rft.aulast=Jensen&amp;rft.aufirst=Chris&amp;rft.place=St.+Louis"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/147">Jensen, C.</a>, and <a href="/biblio/author/125" class="biblio-local-author">W. Scacchi</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/experiences-discovering-modeling-and-reenacting-open-source-software-development-processes-1">Experiences in Discovering, Modeling, and Reenacting Open Source Software Development Processes</a>&quot;, </span> 
+<i>Software Process Workshop (SPW05): Unifying the Software Process Spectrum</i>, Beijing, China, Springer-Verlag, May, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Experiences+in+Discovering%2C+Modeling%2C+and+Reenacting+Open+Source+Software+Development+Processes&amp;rft.date=2005&amp;rft.aulast=Jensen&amp;rft.aufirst=Chris&amp;rft.pub=Springer-Verlag&amp;rft.place=Beijing%2C+China"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/147">Jensen, C.</a>, and <a href="/biblio/author/125" class="biblio-local-author">W. Scacchi</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/experiences-discovering-modeling-and-reenacting-open-source-software-development-processes-3">Experiences in Discovering, Modeling, and Reenacting Open Source Software Development Processes</a>&quot;, </span> 
+<i>Software Process Workshop (SPW05): Unifying the Software Process Spectrum</i>, Beijing, China, Springer-Verlag, May, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Experiences+in+Discovering%2C+Modeling%2C+and+Reenacting+Open+Source+Software+Development+Processes&amp;rft.date=2005&amp;rft.aulast=Jensen&amp;rft.aufirst=Chris&amp;rft.pub=Springer-Verlag&amp;rft.place=Beijing%2C+China"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/125" class="biblio-local-author">Scacchi, W.</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/open-ecb-electronic-commerce-and-freeopen-source-software-development-1">Open EC/B: Electronic Commerce and Free/Open Source Software Development</a>&quot;, </span> 
+<i>5th Workshop on Open Source Software Engineering</i>, St. Louis, MO, pp. 57-61, May, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Open+EC%2FB%3A+Electronic+Commerce+and+Free%2FOpen+Source+Software+Development&amp;rft.date=2005&amp;rft.spage=57&amp;rft.epage=61&amp;rft.aulast=Scacchi&amp;rft.auinit=W&amp;rft.place=St.+Louis%2C+MO"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/87">Georgas, J. C.</a>, <a href="/biblio/author/90">M. Gorlick</a>, and <a href="/biblio/author/28" class="biblio-local-author">R. N. Taylor</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/raging-incrementalism-harnessing-change-open-source-software-0">Raging Incrementalism: Harnessing Change with Open Source Software</a>&quot;, </span> 
+<i>5th Workshop on Open Source Software Engineering, in conjunction with ICSE 2005</i>, St. Louis, MO, May, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Raging+Incrementalism%3A+Harnessing+Change+with+Open+Source+Software&amp;rft.date=2005&amp;rft.aulast=Georgas&amp;rft.aufirst=John&amp;rft.place=St.+Louis%2C+MO"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/76">Ren, J.</a>, <a href="/biblio/author/28" class="biblio-local-author">R. N. Taylor</a>, <a href="/biblio/author/88">P. Dourish</a>, and <a href="/biblio/author/423" class="biblio-local-author">D. Redmiles</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/towards-architectural-treatment-software-security-connector-centric-approach-0">Towards An Architectural Treatment of Software Security: A Connector-Centric Approach</a>&quot;, </span> 
+<i>Workshop on Software Engineering for Secure Systems (SESS 05), in conjunction with ICSE 2005</i>, St. Louis, MO, May, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Towards+An+Architectural+Treatment+of+Software+Security%3A+A+Connector-Centric+Approach&amp;rft.date=2005&amp;rft.aulast=Ren&amp;rft.aufirst=Jie&amp;rft.place=St.+Louis%2C+MO"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/125" class="biblio-local-author">Scacchi, W.</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/emerging-patterns-intersection-and-segmentation-when-computerization-movements-interact-1">Emerging Patterns of Intersection and Segmentation when Computerization Movements Interact</a>&quot;, </span> 
+<i>Working paper presented at the CRITO Social Informatics Workshop</i>, March, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Emerging+Patterns+of+Intersection+and+Segmentation+when+Computerization+Movements+Interact&amp;rft.date=2005&amp;rft.aulast=Scacchi&amp;rft.auinit=W"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/147">Jensen, C.</a>, and <a href="/biblio/author/125" class="biblio-local-author">W. Scacchi</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/process-modeling-across-web-information-infrastructure-2">Process Modeling Across the Web Information Infrastructure</a>&quot;, </span> 
+<i>Software Process--Improvement and Practice</i>, vol. 10, no. 3, pp. 255-272, July-September, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.atitle=Process+Modeling+Across+the+Web+Information+Infrastructure&amp;rft.title=Software+Process--Improvement+and+Practice&amp;rft.date=2005&amp;rft.volume=10&amp;rft.spage=255&amp;rft.epage=272&amp;rft.aulast=Jensen&amp;rft.aufirst=Chris"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/147">Jensen, C.</a>, and <a href="/biblio/author/125" class="biblio-local-author">W. Scacchi</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/process-modeling-across-web-information-infrastructure-3">Process Modeling Across the Web Information Infrastructure</a>&quot;, </span> 
+<i>Software Process--Improvement and Practice</i>, vol. 10, no. 3, pp. 255-272, July-September, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.atitle=Process+Modeling+Across+the+Web+Information+Infrastructure&amp;rft.title=Software+Process--Improvement+and+Practice&amp;rft.date=2005&amp;rft.volume=10&amp;rft.spage=255&amp;rft.epage=272&amp;rft.aulast=Jensen&amp;rft.aufirst=Chris"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/125" class="biblio-local-author">Scacchi, W.</a>, <a href="/biblio/author/147">C. Jensen</a>, <a href="/biblio/author/127">J. Noll</a>, and <a href="/biblio/author/154">M. Elliott</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/multi-modal-modeling-analysis-and-validation-open-source-software-requirements-processes-0">Multi-Modal Modeling, Analysis and Validation of Open Source Software Requirements Processes</a>&quot;, </span> 
+<i>First International Conference on Open Source Systems (OSS2005)</i>, Genova, Italy, pp. 1-8, July,11-15, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Multi-Modal+Modeling%2C+Analysis+and+Validation+of+Open+Source+Software+Requirements+Processes&amp;rft.date=2005&amp;rft.spage=1&amp;rft.epage=8&amp;rft.aulast=Scacchi&amp;rft.auinit=W&amp;rft.place=Genova%2C+Italy"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/185">De Paula, R.</a>, <a href="/biblio/author/186">X. Ding</a>, <a href="/biblio/author/88">P. Dourish</a>, <a href="/biblio/author/13" class="biblio-local-author">K. A. Nies</a>, <a href="/biblio/author/187">B. Pillet</a>, <a href="/biblio/author/423" class="biblio-local-author">D. Redmiles</a>, <a href="/biblio/author/76">J. Ren</a>, <a href="/biblio/author/188">J. Rode</a>, and <a href="/biblio/author/189">R. S. Silva Filho</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/two-experiences-designing-effective-security-0">Two Experiences Designing for Effective Security</a>&quot;, </span> 
+<i>Symposium On Usable Privacy and Security (SOUPS 2005)</i>, Pittsburgh, PA, July 6-8, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Two+Experiences+Designing+for+Effective+Security&amp;rft.date=2005&amp;rft.aulast=De+Paula&amp;rft.aufirst=Rogerio&amp;rft.place=Pittsburgh%2C+PA"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/185">De Paula, R.</a>, <a href="/biblio/author/186">X. Ding</a>, <a href="/biblio/author/88">P. Dourish</a>, <a href="/biblio/author/13" class="biblio-local-author">K. A. Nies</a>, <a href="/biblio/author/187">B. Pillet</a>, <a href="/biblio/author/423" class="biblio-local-author">D. Redmiles</a>, <a href="/biblio/author/76">J. Ren</a>, <a href="/biblio/author/188">J. Rode</a>, and <a href="/biblio/author/189">R. S. Silva Filho</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/eye-beholder-visualization-based-approach-information-system-security-0">In the Eye of the Beholder: A Visualization-based Approach to Information System Security</a>&quot;, </span> 
+<i>International Journal of Human-Computer Studies</i>, vol. 64, no. 1-2, pp. 5-24, July 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.atitle=In+the+Eye+of+the+Beholder%3A+A+Visualization-based+Approach+to+Information+System+Security&amp;rft.title=International+Journal+of+Human-Computer+Studies&amp;rft.date=2005&amp;rft.volume=64&amp;rft.spage=5&amp;rft.epage=24&amp;rft.aulast=DePaula&amp;rft.aufirst=Rogerio"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/147">Jensen, C.</a>, and <a href="/biblio/author/125" class="biblio-local-author">W. Scacchi</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/collaboration-leadership-control-and-conflict-negotiation-netbeansorg-software-development--0">Collaboration, Leadership, Control, and Conflict Negotiation in the NetBeans.org Software Development Community</a>&quot;, </span> 
+<i>Thirty Eighth Hawaii International, Conference Systems Science (HICSS38-OSSD)</i>, Waikola Village, Kona, HI, January, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Collaboration%2C+Leadership%2C+Control%2C+and+Conflict+Negotiation+in+the+NetBeans.org+Software+Development+Community&amp;rft.date=2005&amp;rft.aulast=Jensen&amp;rft.aufirst=Chris&amp;rft.place=Waikola+Village%2C+Kona%2C+HI"></span>
+</div></div>
+<div class="biblio-entry">
+<div class="biblio-style-ieee">
+<span class="biblio-authors"><a href="/biblio/author/39">Dashofy, E. M.</a>, <a href="/biblio/author/40">A. van der Hoek</a>, and <a href="/biblio/author/28" class="biblio-local-author">R. N. Taylor</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/comprehensive-approach-development-xml-based-software-architecture-description-languages-0">A Comprehensive Approach for the Development of XML-Based Software Architecture Description Languages</a>&quot;, </span> 
+<i>ACM Transactions on Software Engineering and Methodology (TOSEM)</i>, vol. 14, no. 2, pp. 199-245, April, 2005.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.atitle=A+Comprehensive+Approach+for+the+Development+of+XML-Based+Software+Architecture+Description+Languages&amp;rft.title=ACM+Transactions+on+Software+Engineering+and+Methodology+%28TOSEM%29&amp;rft.date=2005&amp;rft.volume=14&amp;rft.spage=199&amp;rft.epage=245&amp;rft.aulast=Dashofy&amp;rft.aufirst=Eric"></span>
+</div></div></div><!-- end category-section --><div class="item-list"><ul class="pager"><li class="pager-first first"><a href="/biblio" title="Go to first page" class="active">« first</a></li>
+<li class="pager-previous"><a href="/biblio?page=7" title="Go to previous page" class="active">‹ previous</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-item"><a href="/biblio?page=4" title="Go to page 5" class="active">5</a></li>
+<li class="pager-item"><a href="/biblio?page=5" title="Go to page 6" class="active">6</a></li>
+<li class="pager-item"><a href="/biblio?page=6" title="Go to page 7" class="active">7</a></li>
+<li class="pager-item"><a href="/biblio?page=7" title="Go to page 8" class="active">8</a></li>
+<li class="pager-current">9</li>
+<li class="pager-item"><a href="/biblio?page=9" title="Go to page 10" class="active">10</a></li>
+<li class="pager-item"><a href="/biblio?page=10" title="Go to page 11" class="active">11</a></li>
+<li class="pager-item"><a href="/biblio?page=11" title="Go to page 12" class="active">12</a></li>
+<li class="pager-item"><a href="/biblio?page=12" title="Go to page 13" class="active">13</a></li>
+<li class="pager-ellipsis">…</li>
+<li class="pager-next"><a href="/biblio?page=9" title="Go to next page" class="active">next ›</a></li>
+<li class="pager-last last"><a href="/biblio?page=14" title="Go to last page" class="active">last »</a></li>
+</ul></div>          </div>
+                    <div id="footer"></div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+  <script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/custom/multi_google_cse/multi_google_cse.js?p"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"en"}});
+//--><!]]>
+</script>
+  </body>
+</html>
+

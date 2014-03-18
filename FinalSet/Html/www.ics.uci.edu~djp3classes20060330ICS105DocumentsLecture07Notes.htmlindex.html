@@ -1,0 +1,964 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<style type="text/css">
+			
+			
+			th {
+			vertical-align: bottom;
+			
+			}
+			
+			td {
+			vertical-align: top;
+			}
+			
+			td,th {
+			
+			empty-cells: show;
+			}
+			
+			.top-right-border {
+			
+			}
+			
+			.no-border {
+			border-bottom: 0px;
+			border-left: 0px;
+			}
+			
+			
+			
+			
+			table {
+			
+			font-family: Helvetica, sans-serif;
+			font-size: 12px;
+						
+			
+			}
+
+			
+			
+			.wholeDocument {
+			
+	
+			}
+		
+			
+			td.subcell {
+			border: none;
+			}
+			
+			td.content {
+			padding-left: 4px;
+			padding-bottom: 2px;
+			padding-top: 1px;
+			padding-right: 3px;
+			}
+			
+			.full {
+			height: 100%;
+			}
+			
+			.heighthack {
+			height: 8px;
+			}
+			
+			div.titlepadding { 
+			padding-right:3px;
+			padding-left:6px;
+			padding-bottom:3px;
+			padding-top: 2px;
+			}
+			
+			
+					.summary_node {
+						background: lightgray;
+						margin-bottom: 1px;
+					}
+				
+			
+			div.column {   
+			padding-right: 3px;
+			padding-left: 4px;
+			padding-top: 1px;
+			padding-bottom: 2px;
+			margin-right: 1px;
+			}
+			
+			.labelpadding {
+			padding-right: 3px;
+			padding-top: 1px;
+			padding-left: 2px;
+			}
+			
+			.indicator {
+			white-space: nowrap;
+			text-align:right;
+			margin-right: 0px;
+			vertical-align: top;
+			padding-top: 1px;
+			padding-left: 0px;
+			}
+			
+			.wholedocgutter {
+			
+			}
+			
+			div.row {
+			}
+			
+			div.headerRow {
+			}
+			
+			.expanded {
+			display: inline;
+			}
+			.collapsed {
+			display: none;
+			}
+			
+            div.palette-hit-zone {
+                position: fixed;
+                bottom: 0px;
+				height: 33%;
+                left:50%;
+                width: 66%;
+                margin-left: -33%;
+            }
+
+			div.floating-palette {
+                -webkit-border-radius: 5px;
+                -webkit-transition: opacity is fade-in-out;
+                -webkit-transition-duration: 1s;
+				background-color: rgb(64, 64, 64);
+                opacity:0.7;
+				width: 88px;
+				height: 44px;
+                position: fixed;
+                bottom: 20px;
+                left: 50%;
+                margin-left: -44px;
+			}
+            
+            div.palette-cell {
+                opacity:1;
+                margin-top: 6px;
+                margin-bottom: 6px;
+                position: absolute;
+                height: 32px;
+                width: 32px;
+            }
+            
+            div.cell-divider {
+                position: absolute;
+                margin-top: 6px;
+                margin-bottom: 6px;
+                margin-left: 44px;
+                height: 32px;
+                width:0px;
+                position:absolute;
+                left:0px;
+                border-right:rgb(207, 207, 207) 2px solid;
+            }
+
+			
+			
+			
+			.note { 
+			padding-left: 5px;
+			padding-right: 3px; 
+			border: none; 
+			color:rgb(84,84,84) ;  font-style: italic;font-size: 11px;font-style: italic;font-size: 11px;
+			}
+			
+			/* Total table width is 699
+			Adjusted table width is 803 */
+			
+			.wholething {
+				width: auto;
+			}
+			
+			
+			table.row {
+				
+						width: 699px;
+						
+			
+			}
+			
+			
+    .col_width1 { 
+        width: 699px;  /* Actual width is 699 */
+    }
+
+    .col1 { 
+        
+    }
+
+    .colbackground1 { 
+        
+    }
+
+			
+			/* Level Styles */
+			
+			
+    .columntitle { 
+        text-decoration:  underline;font-weight: 900;  
+    }
+</style>
+</head>
+<body class="wholeDocument"><table cellspacing="0" cellpadding="0" class="heighthack top-right-border">
+<!--Column Titles--><tr><td class=" colbackground1 col_width1"><div class="columntitle titlepadding">Topic<br>
+</div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor1"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level1 levelguttercolor1" style="width: 9px;"></td>
+<td class=" subcell wholedocgutter indicator level1 levelguttercolor1" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level1 subcell">Admin<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor2"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level2 levelguttercolor2" style="width: 25px;"></td>
+<td class=" subcell wholedocgutter indicator level2 levelguttercolor2" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level2 subcell">Assignments<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Assignment #3 is turned in<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Only one person needed to turn it in<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Quiz #3 did not fit all circumstances<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">If you did not do quiz #3 that's okay as long as your group is coherent<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor1"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level1 levelguttercolor1" style="width: 9px;"></td>
+<td class=" subcell wholedocgutter indicator level1 levelguttercolor1" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level1 subcell">Big Picture Recap:<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor2"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level2 levelguttercolor2" style="width: 25px;"></td>
+<td class=" subcell wholedocgutter indicator level2 levelguttercolor2" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level2 subcell">What are we doing in this class?<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">HCI evaluation<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Our focus in this class is not on design of the system, it is on the design of the user experience<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">It is on usage scenarios and HCI evaluation<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor2"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level2 levelguttercolor2" style="width: 25px;"></td>
+<td class=" subcell wholedocgutter indicator level2 levelguttercolor2" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level2 subcell">How are we accomplishing this?<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Two part User Study preparation<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">Required for all federally funded User Studies<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor5"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level5 levelguttercolor5" style="width: 73px;"></td>
+<td class=" subcell wholedocgutter indicator level5 levelguttercolor5" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level5 subcell">Human Subjects Training<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor5"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level5 levelguttercolor5" style="width: 73px;"></td>
+<td class=" subcell wholedocgutter indicator level5 levelguttercolor5" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level5 subcell">IRB<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">We are technically exempt because we are in a class, but we are doing it anyway<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Iterative Design<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">Sketch (Assignment #3)<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">Feedback<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">Change <br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">Present (Anteater Idol)<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">Feedback<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">Present (Anteater Idol callbacks)<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">Evaluate (User Evaluations)<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">New Design (Final Report Turn In)<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Evaluation<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">Quantitative Evaluation<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">Cognitive Walkthrough<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">User Evaluation<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">Success Metrics<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor1"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level1 levelguttercolor1" style="width: 9px;"></td>
+<td class=" subcell wholedocgutter indicator level1 levelguttercolor1" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level1 subcell">Google Maps<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor2"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level2 levelguttercolor2" style="width: 25px;"></td>
+<td class=" subcell wholedocgutter indicator level2 levelguttercolor2" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level2 subcell">Motivating Scenario<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Invisible Children<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell"> <span><a href="http://video.google.com/videoplay?docid=3166797753930210643&amp;q=invisible+children&amp;pl=true">videoplay</a></span> This is the whole movie<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">Show Trailer<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor5"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level5 levelguttercolor5" style="width: 73px;"></td>
+<td class=" subcell wholedocgutter indicator level5 levelguttercolor5" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level5 subcell"> <span><a href="http://www.invisiblechildren.com/theMovie/trailers/">www.invisiblechildren.com—trailers</a></span><br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">Show Global Night Commute<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor5"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level5 levelguttercolor5" style="width: 73px;"></td>
+<td class=" subcell wholedocgutter indicator level5 levelguttercolor5" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level5 subcell"> <span><a href="http://www.youtube.com/watch_fullscreen?video_id=sTpo62KxH-8&amp;l=90&amp;fs=1&amp;title=Were%20not%20takin%20this%20lying%20down">www.youtube.com—watch_fullscreen</a></span><br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">Show motivating application<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor5"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level5 levelguttercolor5" style="width: 73px;"></td>
+<td class=" subcell wholedocgutter indicator level5 levelguttercolor5" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level5 subcell"> <span><a href="http://www.ics.uci.edu/~djp3/map/globalNightCommute.html">www.ics.uci.edu—globalNightCommute.html</a></span><br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor5"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level5 levelguttercolor5" style="width: 73px;"></td>
+<td class=" subcell wholedocgutter indicator level5 levelguttercolor5" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level5 subcell">This is what we want the skills to be able to build<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor2"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level2 levelguttercolor2" style="width: 25px;"></td>
+<td class=" subcell wholedocgutter indicator level2 levelguttercolor2" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level2 subcell">API reference<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell"> <span><a href="http://www.google.com/apis/maps/">www.google.com—maps</a></span><br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor2"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level2 levelguttercolor2" style="width: 25px;"></td>
+<td class=" subcell wholedocgutter indicator level2 levelguttercolor2" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level2 subcell">Version 2.0<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Changed the API interface<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Sped up code downloads<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">new API documentation isn't perfect<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Added a few features<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">Map overview for example<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Google maps does not have geocoding<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">Yahoo maps does<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor5"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level5 levelguttercolor5" style="width: 73px;"></td>
+<td class=" subcell wholedocgutter indicator level5 levelguttercolor5" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level5 subcell">Combine the two using "REST" services<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor5"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level5 levelguttercolor5" style="width: 73px;"></td>
+<td class=" subcell wholedocgutter indicator level5 levelguttercolor5" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level5 subcell">query is a URL<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor5"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level5 levelguttercolor5" style="width: 73px;"></td>
+<td class=" subcell wholedocgutter indicator level5 levelguttercolor5" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level5 subcell">response is XML<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor2"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level2 levelguttercolor2" style="width: 25px;"></td>
+<td class=" subcell wholedocgutter indicator level2 levelguttercolor2" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level2 subcell">Debugging<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Use Firefox!<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">Javascript Console<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">Venkman Javascript Debugger<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell"> <span><a href="http://www.mozilla.org/projects/venkman/">www.mozilla.org—venkman</a></span><br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor2"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level2 levelguttercolor2" style="width: 25px;"></td>
+<td class=" subcell wholedocgutter indicator level2 levelguttercolor2" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level2 subcell">Get started<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Apply for a particular website key<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor2"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level2 levelguttercolor2" style="width: 25px;"></td>
+<td class=" subcell wholedocgutter indicator level2 levelguttercolor2" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level2 subcell">The Google Map GMap2 obect<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Assigns a location for your map<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Adopts shape and size of the web object into which you place it<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">DOM object<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Must be followed by a positioning command<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">or you get wierd behavior<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">You can have lots of maps on your web page<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">multiple insantiations of the GMap2 object<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Example_00<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor4"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level4 levelguttercolor4" style="width: 57px;"></td>
+<td class=" subcell wholedocgutter indicator level4 levelguttercolor4" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level4 subcell">Dead link<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor1"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level1 levelguttercolor1" style="width: 9px;"></td>
+<td class=" subcell wholedocgutter indicator level1 levelguttercolor1" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level1 subcell">Google Map Controls<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor2"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level2 levelguttercolor2" style="width: 25px;"></td>
+<td class=" subcell wholedocgutter indicator level2 levelguttercolor2" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level2 subcell">Large Map Control (example 01)<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Dead link was ~djp3/map/ICS105/example_01.html<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor2"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level2 levelguttercolor2" style="width: 25px;"></td>
+<td class=" subcell wholedocgutter indicator level2 levelguttercolor2" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level2 subcell">Small Map Control (example 02)<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Dead link<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor2"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level2 levelguttercolor2" style="width: 25px;"></td>
+<td class=" subcell wholedocgutter indicator level2 levelguttercolor2" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level2 subcell">Small Zoom control (example 03)<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Dead link<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor2"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level2 levelguttercolor2" style="width: 25px;"></td>
+<td class=" subcell wholedocgutter indicator level2 levelguttercolor2" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level2 subcell">Scale Control (example 04)<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Dead link<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor2"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level2 levelguttercolor2" style="width: 25px;"></td>
+<td class=" subcell wholedocgutter indicator level2 levelguttercolor2" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level2 subcell">MapType Control (example 05)<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Dead link<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor2"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level2 levelguttercolor2" style="width: 25px;"></td>
+<td class=" subcell wholedocgutter indicator level2 levelguttercolor2" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level2 subcell">Overview Map Control (example 06)<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Dead link<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor2"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level2 levelguttercolor2" style="width: 25px;"></td>
+<td class=" subcell wholedocgutter indicator level2 levelguttercolor2" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level2 subcell">You can reposition the elements around the canvas using GControlPosition Object<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor1"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level1 levelguttercolor1" style="width: 9px;"></td>
+<td class=" subcell wholedocgutter indicator level1 levelguttercolor1" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level1 subcell">Google Markers<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor2"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level2 levelguttercolor2" style="width: 25px;"></td>
+<td class=" subcell wholedocgutter indicator level2 levelguttercolor2" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level2 subcell">example_08<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor3"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level3 levelguttercolor3" style="width: 41px;"></td>
+<td class=" subcell wholedocgutter indicator level3 levelguttercolor3" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level3 subcell">Dead link<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor1"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level1 levelguttercolor1" style="width: 9px;"></td>
+<td class=" subcell wholedocgutter indicator level1 levelguttercolor1" style="width: 28px;">
+<img style="margin-left: 3px; margin-right:3px; margin-top: 3px;" border="0" alt="V" src="Expanded.png" title="expanded"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level1 subcell">Quick overview of latitude and longitude<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor2"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level2 levelguttercolor2" style="width: 25px;"></td>
+<td class=" subcell wholedocgutter indicator level2 levelguttercolor2" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level2 subcell">lat is fat<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" altRow full"><div class=" full levelcolor2"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level2 levelguttercolor2" style="width: 25px;"></td>
+<td class=" subcell wholedocgutter indicator level2 levelguttercolor2" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level2 subcell">scale varies at different latitudes<br>
+</td>
+</tr></table></div></div></td></tr>
+<tr><td class=" col1 colbackground1 col_width1" style=""><div class=" full"><div class=" full levelcolor2"><table border="0" cellspacing="0" cellpadding="0" style="height:100%" class=" col_width1 col1"><tr>
+<td class=" subcell wholedocgutter level2 levelguttercolor2" style="width: 25px;"></td>
+<td class=" subcell wholedocgutter indicator level2 levelguttercolor2" style="width: 28px;">
+<img border="0" style="margin-left: 3px; margin-right:3px; margin-top: 3px;" alt="*" src="LeafRowHandle.png"><img border="0" style="margin-left: 2px; margin-right: 2px; margin-top: 3px;" alt=" " src="Unchecked.png">
+</td>
+<td class=" content level2 subcell">Google Map scale example<br>
+</td>
+</tr></table></div></div></td></tr>
+</table></body>
+</html>
+

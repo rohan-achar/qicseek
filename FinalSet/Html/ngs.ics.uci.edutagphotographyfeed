@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/photography/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>VisR is in Android Marketplace</title>
+		<link>http://ngs.ics.uci.edu/visr-is-in-android-marketplace/</link>
+		<comments>http://ngs.ics.uci.edu/visr-is-in-android-marketplace/#comments</comments>
+		<pubDate>Wed, 01 Jun 2011 12:47:37 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Entrepreneurism]]></category>
+		<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[General Updates]]></category>
+		<category><![CDATA[Mobile Photos]]></category>
+		<category><![CDATA[photo management]]></category>
+		<category><![CDATA[Photography]]></category>
+		<category><![CDATA[Sharing photos]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1337</guid>
+		<description><![CDATA[I have been working with a team of entrepreneurs in designing a Visual Sharing and Reflection system based primarily on mobile phones. It is nice to see that this application, called VisR, is now released on Android. From the description&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>I have been working with a team of entrepreneurs in designing a Visual Sharing and Reflection system based primarily on mobile phones.    It is nice to see that this application, called VisR, is now released on Android. From the description of the application,</p>
+<blockquote><p>
+VisR:</p>
+<p>VisR helps you spontaneously capture, share, organize, and reflect on moments effortlessly.  Seize the moments and relive with friends and family. Never again spend countless tedious hours searching for and organizing pictures on your phone.  </p>
+<p>Do you love sharing  experiences, but find it aggravating to locate the perfect picture to describe it?  VisR removes this issue. VisR automagically classifies and organizes photos utilizing information readily available on your mobile phone in a what, when, where, and who form that is specific to you. You can find the photo of interest and with a few taps post it to your favorite place such as Facebook or Twitter.
+</p></blockquote>
+<p>iPhone application is coming soon.</p>
+<p>Currently VisR is free and is also supported by a website where you can see all photos shared by you and others.  As usual, what you see is a very early functionality of this system.  The team wants to move fast and make an application that allows you to share your moments (may be using special effects and special lenses) spontaneously, but also effortlessly organize all the photos that you take in a form natural for you to access and share.  It uses events to organize photos but these events, unlike many current systems, and not just the date, but use multiple sources to identify them.</p>
+<p>I am very happy to share this News with you.  I do intend to use all the feedback and work with the team in refining the system so my almost 20 year old dream of organizing and accessing photos and other visual media may become reality soon.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/visr-is-in-android-marketplace/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+	</channel>
+</rss>
+

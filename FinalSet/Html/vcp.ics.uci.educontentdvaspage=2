@@ -1,0 +1,800 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="up" href="/content/dvas-project-notes" />
+<link rel="alternate" type="application/rss+xml" title="DVAS" href="/content/dvas/feed" />
+<link rel="shortcut icon" href="/misc/favicon.ico" type="image/x-icon" />
+    <title>DVAS | Virtual Collaboration Portal</title>
+    <link type="text/css" rel="stylesheet" media="all" href="/modules/aggregator/aggregator.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/book/book.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/./sites/vcp.ics.uci.edu/modules/avatar_blocks/avatar_blocks.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/cck/theme/content-module.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/ctools/css/ctools.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/custom/multi_google_cse/multi_google_cse.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/date/date.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/dhtml_menu/dhtml_menu.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/fckeditor/fckeditor.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/filefield/filefield.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/gallery/gallery.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/gallery/gallery_filter.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/og/theme/og.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/tagadelic/tagadelic.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/forum/forum.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/biblio/biblio.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/cck/modules/fieldgroup/fieldgroup.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/modules/views/css/views.css?p" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/files/color/garland_newvcp-cb8d0b3a/style.css?p" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/vcp.ics.uci.edu/themes/garland-newvcp/print.css?p" />
+    <script type="text/javascript" src="/misc/jquery.js?p"></script>
+<script type="text/javascript" src="/misc/drupal.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/dhtml_menu/dhtml_menu.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/og/og.js?p"></script>
+<script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/jquery_media/js/jquery.media.js?p"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","dhtmlMenu":{"slide":"slide","siblings":"siblings","relativity":"relativity","clone":"clone","doubleclick":"doubleclick","children":0},"og":{"group_context":{"nid":"28","title":"DVAS","type":"groupnode"}}});
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+if (Drupal.jsEnabled) {
+  $(document).ready(function() {
+    $.fn.media.defaults.flvPlayer = '/sites/vcp/files/player.swf';
+    $.fn.media.defaults.mp3Player = '/sites/vcp/files/player.swf';
+  });  
+}
+
+//--><!]]>
+</script>
+    <!--[if lt IE 7]>
+      <link type="text/css" rel="stylesheet" media="all" href="/sites/vcp.ics.uci.edu/themes/garland-newvcp/fix-ie.css" />    <![endif]-->
+  </head>
+  <body class="sidebars">
+
+<!-- Layout -->
+  <div id="header-region" class="clear-block"></div>
+
+    <div id="wrapper">
+    <div id="container" class="clear-block">
+
+      <div id="header">
+        <div id="logo-floater">
+        <h1><a href="/" title="Virtual Collaboration Portal"><span>Virtual Collaboration Portal</span></a></h1>        </div>
+
+                  <ul class="links primary-links"><li class="menu-197 first"><a href="/" title="VCP home page">Home</a></li>
+<li class="menu-494"><a href="/og" title="">Groups</a></li>
+<li class="menu-12772 last"><a href="/collaborators">Collaborators</a></li>
+</ul>                                  
+      </div> <!-- /header -->
+
+              <div id="sidebar-left" class="sidebar">
+          <div class="block block-theme"><form action="/content/dvas?page=2"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit-1" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-2SpfhHJn2walsFgbD1QJy-kC40FPcqosTjGoML8ZEW4" value="form-2SpfhHJn2walsFgbD1QJy-kC40FPcqosTjGoML8ZEW4"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+</div>          <div id="block-og_vcp-1" class="clear-block block block-og_vcp">
+
+  <h2><a href="/content/dvas" class="active">DVAS</a></h2>
+
+  <div class="content"><div class="item-list"><ul><li class="first last">You must <a href="/user/login?destination=node%2F28%3Fpage%3D2">login</a> in order to post into this group.</li>
+</ul></div></div>
+</div>
+<div id="block-user-1" class="clear-block block block-user">
+
+  <h2>Navigation</h2>
+
+  <div class="content"><ul class="menu"><li class="expanded first dhtml-menu  collapsed start-collapsed "><a href="/biblio" id="dhtml_menu-5079">Bibliography</a><ul class="menu"><li class="leaf first dhtml-menu "><a href="/biblio/authors" id="dhtml_menu-12779">Authors</a></li>
+<li class="leaf last dhtml-menu "><a href="/biblio/keywords" id="dhtml_menu-12792">Keywords</a></li>
+</ul></li>
+<li class="leaf  dhtml-menu "><a href="/readinglist/year" id="dhtml_menu-5761">Reading Lists</a></li>
+<li class="leaf  dhtml-menu "><a href="/weblinks" id="dhtml_menu-3412">Web Links</a></li>
+<li class="leaf  dhtml-menu "><a href="/gallery" title="Visit your embedded Gallery2." id="dhtml_menu-3237">Gallery</a></li>
+<li class="leaf  dhtml-menu "><a href="/tracker" id="dhtml_menu-119">Recent posts</a></li>
+<li class="leaf last dhtml-menu "><a href="/content/acknowledgements" title="Acknowledgements" id="dhtml_menu-11419">Acknowledgements</a></li>
+</ul></div>
+</div>
+<div id="block-user-0" class="clear-block block block-user">
+
+  <h2>User login</h2>
+
+  <div class="content"><form action="/content/dvas?destination=node%2F28%3Fpage%3D2"  accept-charset="UTF-8" method="post" id="user-login-form">
+<div><div class="form-item" id="edit-name-wrapper">
+ <label for="edit-name">Username: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="text" maxlength="60" name="name" id="edit-name" size="15" value="" class="form-text required" />
+</div>
+<div class="form-item" id="edit-pass-wrapper">
+ <label for="edit-pass">Password: <span class="form-required" title="This field is required.">*</span></label>
+ <input type="password" name="pass" id="edit-pass"  maxlength="60"  size="15"  class="form-text required" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Log in"  class="form-submit" />
+<div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div><input type="hidden" name="form_build_id" id="form-e8SNMAX197nBlkCyDRlBSCfOqFrzyW06Bkf5ATcaspk" value="form-e8SNMAX197nBlkCyDRlBSCfOqFrzyW06Bkf5ATcaspk"  />
+<input type="hidden" name="form_id" id="edit-user-login-block" value="user_login_block"  />
+
+</div></form>
+</div>
+</div>
+        </div>
+      
+      <div id="center"><div id="squeeze"><div class="right-corner"><div class="left-corner">
+          <div class="breadcrumb"><a href="/">Home</a> › <a href="/og">Groups</a></div>                    <div id="tabs-wrapper" class="clear-block">          <h2 class="with-tabs">DVAS</h2>          <ul class="tabs primary"><li class="active" ><a href="/content/dvas" class="active">View</a></li>
+<li ><a href="/node/28/by_subject">By term</a></li>
+</ul></div>                                        <div class="clear-block">
+            <div id="node-28" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-3.png" alt="walt&#039;s picture" title="walt&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+
+  <div class="meta">
+  
+      <div class="terms terms-inline"><ul class="links inline"><li class="taxonomy_term_11 first last"><a href="/category/tags/decentralized-virtual-activity-systems" rel="tag" title="">Decentralized Virtual Activity Systems</a></li>
+</ul></div>
+    </div>
+
+  <div class="content">
+      <div id="mission" class="og-mission"><p>Our goal is to to empirically investigate and comparatively analyze the development and use of decentralized virtual activities systems (DVAS) within a sample of multiple diverse organizational settings using a research approach that foregournds a balanced socio-technical perspecitve.</p>
+</div>
+<div class="view view-og-ghp-ron view-id-og_ghp_ron view-display-id-default view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <div id="node-761" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-10.png" alt="taylor&#039;s picture" title="taylor&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/analyzing-runtime-adaptability-collaboration-patterns" title="Analyzing Runtime Adaptability of Collaboration Patterns">Analyzing Runtime Adaptability of Collaboration Patterns</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Tue, 2012-10-02 11:17 — taylor</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/486">Dorn, C.</a>, and <a href="/biblio/author/322">R. N. Taylor</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/analyzing-runtime-adaptability-collaboration-patterns">Analyzing Runtime Adaptability of Collaboration Patterns</a>&quot;, </span> 
+<i>International Conference on Collaboration Technologies and Systems (CTS 2012) </i>, Denver, CO, May 21-25 , 2012.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Analyzing+Runtime+Adaptability+of+Collaboration+Patterns&amp;rft.date=2012&amp;rft.aulast=Dorn&amp;rft.aufirst=Christoph&amp;rft.place=Denver%2C+CO"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <div id="node-760" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-10.png" alt="taylor&#039;s picture" title="taylor&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/automated-techniques-capturing-custom-traceability-links-across-heterogeneous-artefacts-0" title="Automated Techniques for Capturing Custom Traceability Links across Heterogeneous Artefacts">Automated Techniques for Capturing Custom Traceability Links across Heterogeneous Artefacts</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Tue, 2012-10-02 11:17 — taylor</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/482">Asuncion, H. U.</a>, and <a href="/biblio/author/322">R. N. Taylor</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/automated-techniques-capturing-custom-traceability-links-across-heterogeneous-artefacts-0">Automated Techniques for Capturing Custom Traceability Links across Heterogeneous Artefacts</a>&quot;, </span> 
+<i>Software and Systems Traceability</i>: Springer-Verlag, January, pp. 129-146, 2012.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.atitle=Automated+Techniques+for+Capturing+Custom+Traceability+Links+across+Heterogeneous+Artefacts&amp;rft.title=Software+and+Systems+Traceability&amp;rft.btitle=Software+and+Systems+Traceability&amp;rft.date=2012&amp;rft.spage=129&amp;rft.epage=146&amp;rft.aulast=Asuncion&amp;rft.aufirst=Hazelin&amp;rft.pub=Springer-Verlag%2C+January"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+    <div id="node-759" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-29.jpg" alt="bonnie&#039;s picture" title="bonnie&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/mit-press-series-acting-technology" title="The MIT Press Series - Acting with Technology">The MIT Press Series - Acting with Technology</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Mon, 2012-10-01 13:00 — bonnie</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/401">Nardi, B.</a>, <a href="/biblio/author/480">V. Kaptelinin</a>, and <a href="/biblio/author/481">K. Foot</a>, </span> 
+<span class="biblio-title"><i><a href="/content/mit-press-series-acting-technology">The MIT Press Series - Acting with Technology</a>, </i></span> 
+, 2012.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=The+MIT+Press+Series+-+Acting+with+Technology&amp;rft.date=2012&amp;rft.aulast=Nardi&amp;rft.aufirst=Bonnie"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+    <div id="node-756" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-5.jpg" alt="kari&#039;s picture" title="kari&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/asthma-world" title="Asthma World">Asthma World</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Thu, 2011-10-27 14:15 — kari</span>
+  
+    </div>
+
+  <div class="content">
+    <div class="field field-type-emvideo field-field-video-video">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <div class="emvideo emvideo-preview emvideo-youtube"><div id="media-youtube-1" class="media-youtube">
+  <div id="media-youtube-default-external-1">
+  <object type="application/x-shockwave-flash" height="197" width="325" data="http://www.youtube.com/v/NxYYDO1Q_kk&amp;amp;rel=0&amp;amp;enablejsapi=1&amp;amp;playerapiid=ytplayer&amp;amp;fs=1" id="media-youtube-default-external-object-1">
+    <param name="movie" value="http://www.youtube.com/v/NxYYDO1Q_kk&amp;amp;rel=0&amp;amp;enablejsapi=1&amp;amp;playerapiid=ytplayer&amp;amp;fs=1" />
+    <param name="allowScriptAccess" value="sameDomain"/>
+    <param name="quality" value="best"/>
+    <param name="allowFullScreen" value="true"/>
+    <param name="bgcolor" value="#FFFFFF"/>
+    <param name="scale" value="noScale"/>
+    <param name="salign" value="TL"/>
+    <param name="FlashVars" value="playerMode=embedded" />
+    <param name="wmode" value="transparent" />
+    <!-- Fallback content -->
+      <a href="http://www.youtube.com/watch?v=NxYYDO1Q_kk"><img src="/sites/vcp.ics.uci.edu/files/emvideo-youtube-NxYYDO1Q_kk.jpg" alt="See video" title="See video"  width="325" height="197" /></a>  </object>
+</div>
+</div>
+</div>        </div>
+        </div>
+</div>
+<p>Most recent updates to Asthma World simulation.</p>
+  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+    <div id="node-690" class="node clear-block">
+
+<div class="picture">
+  </div>
+
+  <h2><a href="/content/dvas-publications-search" title="DVAS Publications Search">DVAS Publications Search</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Wed, 2010-06-30 12:00 — admin</span>
+  
+    </div>
+
+  <div class="content">
+    <p>Performs Google custom search for DVAS publications.</p>
+  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-6 views-row-even">
+    <div id="node-689" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-20.jpg" alt="Garnet Hertz&#039;s picture" title="Garnet Hertz&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/design-algorithms-skeuomorphs-spandrels-and-de-simulations" title="Design Algorithms: Skeuomorphs, Spandrels, and De-Simulations">Design Algorithms: Skeuomorphs, Spandrels, and De-Simulations</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Wed, 2010-06-23 11:27 — Garnet Hertz</span>
+  
+    </div>
+
+  <div class="content">
+    <div class="field field-type-text field-field-presloc">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Location/Venue:&nbsp;</div>
+                    University of North Texas, Dallas        </div>
+        </div>
+</div>
+<div class="field field-type-date field-field-presdate">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Date of Presentation:&nbsp;</div>
+                    <span class="date-display-single">2010-03-05</span>        </div>
+        </div>
+</div>
+<p>Guest Lecture,  Initiative for Advanced Research in Technology<br />
+and the Arts</p>
+  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+    <div id="node-688" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-20.jpg" alt="Garnet Hertz&#039;s picture" title="Garnet Hertz&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/contexts-contemporary-3d-practice-arts-technology-and-diy-culture" title="Contexts for Contemporary 3D Practice: Arts, Technology and D.I.Y. Culture">Contexts for Contemporary 3D Practice: Arts, Technology and D.I.Y. Culture</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Wed, 2010-06-23 11:23 — Garnet Hertz</span>
+  
+    </div>
+
+  <div class="content">
+    <div class="field field-type-text field-field-presloc">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Location/Venue:&nbsp;</div>
+                    Penn State University/ School of Visual Arts        </div>
+        </div>
+</div>
+<div class="field field-type-date field-field-presdate">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Date of Presentation:&nbsp;</div>
+                    <span class="date-display-single">2010-03-20</span>        </div>
+        </div>
+</div>
+<p>Guest Lecture</p>
+  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-8 views-row-even">
+    <div id="node-687" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-20.jpg" alt="Garnet Hertz&#039;s picture" title="Garnet Hertz&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/design-algorithms-and-methodologies-reuse-media-arts" title="Design Algorithms and Methodologies of Reuse in the Media Arts">Design Algorithms and Methodologies of Reuse in the Media Arts</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Wed, 2010-06-23 11:22 — Garnet Hertz</span>
+  
+    </div>
+
+  <div class="content">
+    <div class="field field-type-text field-field-presloc">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Location/Venue:&nbsp;</div>
+                    Art Center College of Design, Pasadena, California        </div>
+        </div>
+</div>
+<div class="field field-type-date field-field-presdate">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Date of Presentation:&nbsp;</div>
+                    <span class="date-display-single">2010-03-19</span>        </div>
+        </div>
+</div>
+<p>Design Dialogues Speaker Series, Media Design Program</p>
+  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-9 views-row-odd">
+    <div id="node-686" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-20.jpg" alt="Garnet Hertz&#039;s picture" title="Garnet Hertz&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/algorithms-skeuomorphs-spandrels-and-de-simulations" title="Algorithms: Skeuomorphs, Spandrels, and De-Simulations">Algorithms: Skeuomorphs, Spandrels, and De-Simulations</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Wed, 2010-06-23 11:20 — Garnet Hertz</span>
+  
+    </div>
+
+  <div class="content">
+    <div class="field field-type-text field-field-presloc">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Location/Venue:&nbsp;</div>
+                    University of California Irvine/ Department of Film and Media Studies        </div>
+        </div>
+</div>
+<div class="field field-type-date field-field-presdate">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Date of Presentation:&nbsp;</div>
+                    <span class="date-display-single">2010-05-12</span>        </div>
+        </div>
+</div>
+<p>Guest Lecture</p>
+  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-10 views-row-even">
+    <div id="node-685" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-20.jpg" alt="Garnet Hertz&#039;s picture" title="Garnet Hertz&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/outrun-perversive-games-designing-de-simulation-8-bit-driving" title="OutRun: Perversive Games &amp; Designing the De-Simulation of 8-bit Driving">OutRun: Perversive Games &amp; Designing the De-Simulation of 8-bit Driving</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Wed, 2010-06-23 11:19 — Garnet Hertz</span>
+  
+    </div>
+
+  <div class="content">
+    <div class="field field-type-text field-field-presloc">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Location/Venue:&nbsp;</div>
+                    Asilomar Conference Grounds, California        </div>
+        </div>
+</div>
+<div class="field field-type-date field-field-presdate">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Date of Presentation:&nbsp;</div>
+                    <span class="date-display-single">2010-06-19</span>        </div>
+        </div>
+</div>
+<p>Presented paper at the 5th International Conference on the Foundations of Digital Games.</p>
+  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-11 views-row-odd">
+    <div id="node-684" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-30.jpg" alt="kobsa&#039;s picture" title="kobsa&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/annual-general-assembly-austrian-computer-society" title="Annual General Assembly of the Austrian Computer Society">Annual General Assembly of the Austrian Computer Society</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Mon, 2010-06-21 12:12 — kobsa</span>
+  
+    </div>
+
+  <div class="content">
+    <div class="field field-type-text field-field-presloc">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Location/Venue:&nbsp;</div>
+                    Vienna, Austria        </div>
+        </div>
+</div>
+<div class="field field-type-date field-field-presdate">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Date of Presentation:&nbsp;</div>
+                    <span class="date-display-single">2009-03-31</span>        </div>
+        </div>
+</div>
+<p>Keynote speaker.</p>
+  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-12 views-row-even">
+    <div id="node-683" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-30.jpg" alt="kobsa&#039;s picture" title="kobsa&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/adaptive-interface-techniques-and-their-use-people-special-needs" title="Adaptive Interface Techniques and Their Use for People with Special Needs">Adaptive Interface Techniques and Their Use for People with Special Needs</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Mon, 2010-06-21 12:11 — kobsa</span>
+  
+    </div>
+
+  <div class="content">
+    <div class="field field-type-text field-field-presloc">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Location/Venue:&nbsp;</div>
+                    INREDIS, Madrid, Spain        </div>
+        </div>
+</div>
+<div class="field field-type-date field-field-presdate">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Date of Presentation:&nbsp;</div>
+                    <span class="date-display-single">2009-06-15</span>        </div>
+        </div>
+</div>
+<p><a href="http://www.inredis.es">INREDIS </a>presentor.</p>
+  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-13 views-row-odd">
+    <div id="node-682" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-30.jpg" alt="kobsa&#039;s picture" title="kobsa&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/adaptive-interfaces-and-privacy-people-special-needs" title="Adaptive Interfaces and Privacy for People with Special Needs">Adaptive Interfaces and Privacy for People with Special Needs</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Mon, 2010-06-21 12:04 — kobsa</span>
+  
+    </div>
+
+  <div class="content">
+    <div class="field field-type-text field-field-presloc">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Location/Venue:&nbsp;</div>
+                    Industry Park, San Sebastian, Spain        </div>
+        </div>
+</div>
+<div class="field field-type-date field-field-presdate">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Date of Presentation:&nbsp;</div>
+                    <span class="date-display-single">2009-06-18</span>        </div>
+        </div>
+</div>
+<p>Featured speaker.</p>
+  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-14 views-row-even">
+    <div id="node-681" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-30.jpg" alt="kobsa&#039;s picture" title="kobsa&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/users-vote-their-wallets" title="Users Vote with their Wallets">Users Vote with their Wallets</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Mon, 2010-06-21 12:02 — kobsa</span>
+  
+    </div>
+
+  <div class="content">
+    <div class="field field-type-text field-field-presloc">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Location/Venue:&nbsp;</div>
+                    UMAP 2010, Big Island, HI        </div>
+        </div>
+</div>
+<div class="field field-type-date field-field-presdate">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Date of Presentation:&nbsp;</div>
+                    <span class="date-display-single">2010-06-24</span>        </div>
+        </div>
+</div>
+<p>University-Industry Panel.&nbsp; 18th International Conference on  User Modeling, Adaptation and Personalization</p>
+  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-15 views-row-odd">
+    <div id="node-680" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-30.jpg" alt="kobsa&#039;s picture" title="kobsa&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/privacy-enhanced-personalization" title="Privacy-Enhanced Personalization">Privacy-Enhanced Personalization</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Mon, 2010-06-21 11:56 — kobsa</span>
+  
+    </div>
+
+  <div class="content">
+    <div class="field field-type-text field-field-presloc">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Location/Venue:&nbsp;</div>
+                    University of the Basque Country, San Sebastian, Spain        </div>
+        </div>
+</div>
+<div class="field field-type-date field-field-presdate">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Date of Presentation:&nbsp;</div>
+                    <span class="date-display-single">2009-06-19</span>        </div>
+        </div>
+</div>
+<p>Invited presentation, featured speaker.</p>
+  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-16 views-row-even">
+    <div id="node-678" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-20.jpg" alt="Garnet Hertz&#039;s picture" title="Garnet Hertz&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/outrun-perversive-games-and-designing-de-simulation-eight-bit-driving" title="OutRun: Perversive Games and Designing the De-Simulation of Eight-Bit Driving">OutRun: Perversive Games and Designing the De-Simulation of Eight-Bit Driving</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Fri, 2010-06-18 13:01 — Garnet Hertz</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/445">Hertz, G.</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/outrun-perversive-games-and-designing-de-simulation-eight-bit-driving">OutRun: Perversive Games and Designing the De-Simulation of Eight-Bit Driving</a>&quot;, </span> 
+<i>The 5th International Conference on the Foundations of Digital Games (FDG 2010)</i>, Monterey, CA, 06/2010.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=OutRun%3A+Perversive+Games+and+Designing+the+De-Simulation+of+Eight-Bit+Driving&amp;rft.date=2010&amp;rft.aulast=Hertz&amp;rft.aufirst=Garnet&amp;rft.place=Monterey%2C+CA"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-17 views-row-odd">
+    <div id="node-675" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-29.jpg" alt="bonnie&#039;s picture" title="bonnie&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/culture-and-creativity-world-warcraft-modding-china-and-us" title="Culture and Creativity: World of Warcraft Modding in China and the US">Culture and Creativity: World of Warcraft Modding in China and the US</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Fri, 2010-06-18 12:31 — bonnie</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/416">Kow, Y. M.</a>, and <a href="/biblio/author/401">B. Nardi</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/culture-and-creativity-world-warcraft-modding-china-and-us">Culture and Creativity: World of Warcraft Modding in China and the US</a>&quot;, </span> 
+<i>Online Worlds:Convergence of the Real and the Virtual</i>, London, Springer London, pp. 21 - 41, 2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.atitle=Culture+and+Creativity%3A+World+of+Warcraft+Modding+in+China+and+the+US&amp;rft.title=Online+Worlds%3AConvergence+of+the+Real+and+the+Virtual&amp;rft.btitle=Online+Worlds%3AConvergence+of+the+Real+and+the+Virtual&amp;rft.series=Human-Computer+Interaction+Series&amp;rft.issn=978-1-84882-824-7&amp;rft.date=2009&amp;rft.spage=21&amp;rft.epage=41&amp;rft.aulast=Kow&amp;rft.aufirst=Yong+Ming&amp;rft.pub=Springer+London&amp;rft.place=London&amp;rft_id=info%3Adoi%2F10.1007%2F978-1-84882-825-4_3"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-18 views-row-even">
+    <div id="node-674" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-29.jpg" alt="bonnie&#039;s picture" title="bonnie&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/digital-habitat-rethinking-experience-and-social-practice" title="The Digital Habitat: Rethinking Experience and Social Practice">The Digital Habitat: Rethinking Experience and Social Practice</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Fri, 2010-06-18 12:07 — bonnie</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/409">Kallinikos, J.</a>, <a href="/biblio/author/442">G. Lanzara</a>, and <a href="/biblio/author/401">B. Nardi</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/digital-habitat-rethinking-experience-and-social-practice">The Digital Habitat: Rethinking Experience and Social Practice</a>&quot;, </span> 
+<i>First Monday</i>, Editor, special issue, vol. 15, issue 6, 06/2010.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.atitle=The+Digital+Habitat%3A+Rethinking+Experience+and+Social+Practice&amp;rft.title=First+Monday&amp;rft.date=2010&amp;rft.volume=15&amp;rft.issue=6&amp;rft.aulast=Kallinikos&amp;rft.aufirst=Jannis"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-19 views-row-odd">
+    <div id="node-672" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-31.jpg" alt="gloria&#039;s picture" title="gloria&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/temporal-task-footprinting-identifying-routine-tasks-their-temporal-patterns" title="Temporal Task Footprinting: Identifying Routine Tasks by Their Temporal Patterns">Temporal Task Footprinting: Identifying Routine Tasks by Their Temporal Patterns</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Wed, 2010-06-16 20:16 — gloria</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/435">Brdiczka, O.</a>, <a href="/biblio/author/399">N. M. Su</a>, and <a href="/biblio/author/436">J. B. Begole</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/temporal-task-footprinting-identifying-routine-tasks-their-temporal-patterns">Temporal Task Footprinting: Identifying Routine Tasks by Their Temporal Patterns</a>&quot;, </span> 
+<i>In proceedings of the 14th International Conference on Intelligent User Interfaces (IUI 2010)</i>, Hong Kong, China, ACM Press, pp. 281-284, 02/2010.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Temporal+Task+Footprinting%3A+Identifying+Routine+Tasks+by+Their+Temporal+Patterns&amp;rft.date=2010&amp;rft.spage=281&amp;rft.epage=284&amp;rft.aulast=Brdiczka&amp;rft.aufirst=Oliver&amp;rft.pub=ACM+Press&amp;rft.place=Hong+Kong%2C+China&amp;rft_id=info%3Adoi%2F10.1145%2F1719970.1720011"></span>  </div>
+  
+  
+  </div>  </div>
+  <div class="views-row views-row-20 views-row-even views-row-last">
+    <div id="node-671" class="node clear-block">
+
+<div class="picture">
+  <img src="http://vcp.ics.uci.edu/sites/vcp.ics.uci.edu/files/imagecache/user_image_default/pictures/picture-31.jpg" alt="gloria&#039;s picture" title="gloria&#039;s picture" width="50" height="50" class="imagecache imagecache-user_image_default"/></div>
+
+  <h2><a href="/content/temporal-patterns-communication" title="Temporal Patterns of Communication">Temporal Patterns of Communication</a></h2>
+
+  <div class="meta">
+      <span class="submitted">Wed, 2010-06-16 20:10 — gloria</span>
+  
+    </div>
+
+  <div class="content">
+    <span class="biblio-authors"><a href="/biblio/author/399">Su, N. M.</a>, </span> 
+<span class="biblio-title">&quot;<a href="/content/temporal-patterns-communication">Temporal Patterns of Communication</a>&quot;, </span> 
+<i>In proceedings of the ACM 2009 International Conference on Supporting Group Work (GROUP 2009)</i>, Sanibel Island, Florida, ACM Press, pp. 387-388, 05/2009.
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.title=Temporal+Patterns+of+Communication&amp;rft.stitle=GROUP+%26%23039%3B09&amp;rft.isbn=9781605585000&amp;rft.date=2009&amp;rft.spage=387&amp;rft.epage=388&amp;rft.aulast=Su&amp;rft.aufirst=Norman+Makoto&amp;rft.pub=ACM+Press&amp;rft.place=Sanibel+Island%2C+Florida&amp;rft_id=info%3Adoi%2F10.1145%2F1531674.1531737"></span>  </div>
+  
+  
+  </div>  </div>
+    </div>
+  
+      <div class="item-list"><ul class="pager"><li class="pager-first first"><a href="/content/dvas" title="Go to first page" class="active">« first</a></li>
+<li class="pager-previous"><a href="/content/dvas?page=1" title="Go to previous page" class="active">‹ previous</a></li>
+<li class="pager-item"><a href="/content/dvas" title="Go to page 1" class="active">1</a></li>
+<li class="pager-item"><a href="/content/dvas?page=1" title="Go to page 2" class="active">2</a></li>
+<li class="pager-current">3</li>
+<li class="pager-item"><a href="/content/dvas?page=3" title="Go to page 4" class="active">4</a></li>
+<li class="pager-item"><a href="/content/dvas?page=4" title="Go to page 5" class="active">5</a></li>
+<li class="pager-item"><a href="/content/dvas?page=5" title="Go to page 6" class="active">6</a></li>
+<li class="pager-item"><a href="/content/dvas?page=6" title="Go to page 7" class="active">7</a></li>
+<li class="pager-next"><a href="/content/dvas?page=3" title="Go to next page" class="active">next ›</a></li>
+<li class="pager-last last"><a href="/content/dvas?page=6" title="Go to last page" class="active">last »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>   <div id="book-navigation-58" class="book-navigation">
+    
+        <div class="page-links clear-block">
+                    <a href="/content/dvas-project-notes" class="page-up" title="Go to parent page">up</a>
+                </div>
+    
+  </div>
+  </div>
+
+  </div>          </div>
+          <a href="/content/dvas/feed" class="feed-icon"><img src="/misc/feed.png" alt="Syndicate content" title="DVAS" width="16" height="16" /></a>          <div id="footer"></div>
+      </div></div></div></div> <!-- /.left-corner, /.right-corner, /#squeeze, /#center -->
+
+              <div id="sidebar-right" class="sidebar">
+                    <div id="block-og_vcp-0" class="clear-block block block-og_vcp">
+
+  <h2><a href="/content/dvas" class="active">DVAS</a> Content</h2>
+
+  <div class="content"><div class="item-list"></div></div>
+</div>
+<div id="block-og_views-1" class="clear-block block block-og_views">
+
+  <h2>Group notifications</h2>
+
+  <div class="content">This group offers an <a href="/content/dvas/feed">RSS feed</a>. Or subscribe to these personalized, sitewide feeds:<div class="item-list"><ul><li class="first last">All posts: <ul class="links inline"><li class="0 first"><a href="/group/tracker/feed">Feed</a></li>
+<li class="1 last"><a href="/group/tracker">Page</a></li>
+</ul></li>
+</ul></div></div>
+</div>
+        </div>
+      
+    </div> <!-- /container -->
+  </div>
+<!-- /layout -->
+
+  <script type="text/javascript" src="/sites/vcp.ics.uci.edu/modules/custom/multi_google_cse/multi_google_cse.js?p"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"googleCSE":{"language":"en"}});
+//--><!]]>
+</script>
+  </body>
+</html>
+

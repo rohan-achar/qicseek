@@ -1,0 +1,207 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Nondeterministic Externals</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Nondeterministic Externals">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5055 HREF="node235.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5053 HREF="node215.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5047 HREF="node233.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5057 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5056 HREF="node235.html"> Suspending with External </A>
+<B>Up:</B> <A NAME=tex2html5054 HREF="node215.html"> External Language Interface</A>
+<B> Previous:</B> <A NAME=tex2html5048 HREF="node233.html"> Calling Prolog from </A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION001950000000000000000> Nondeterministic Externals</A></H1>
+<P>
+The previous sections covered the creation of deterministic
+external predicates.
+The nondeterministic predicates can of course use the same macros
+as the deterministic ones, however their functionality
+is larger in that they are sensitive to the backtracking process.
+<P>
+A non deterministic Prolog procedure has potentially more than one
+solution. When it is first called, a solution is found if possible, and
+execution proceeds. If a subsequent goal fails, backtracking occurs,
+and an attempt is made to find another solution to the
+call of the procedure. To
+make this action possible in the procedural language C, <A NAME=tex2html813 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+<P>
+provides a macro which will take note of the values to be given to the
+arguments of an external procedure if an attempt is made  to resatisfy
+it. This macro is <tt> Remember()</tt>.
+<P>
+To illustrate its use, consider the next example,
+it shows a C implementation of the Prolog predicate <b> member/2</b>.
+As opposed to the well-known Prolog definition this one does not work
+backwards, i.e. it will not construct lists when called with the
+second argument uninstantiated:
+<blockquote> <PRE>int
+p_member(velt, telt, vlist, tlist)
+value velt, vlist;
+type telt, tlist;
+{
+        pword *p;
+
+        /* we require a list or nil */
+        Check_List(tlist);
+        /* if the list is empty, we fail */
+        if(IsNil(tlist))
+        {
+                Cut_External;
+                Fail;
+        }
+        /* the tail of the list */
+        p = vlist.ptr + 1;
+        /* must be dereferenced! */
+        Dereference(p);
+        /*
+        * on backtracking we will get the tail of the list
+        * instead of the list itself
+        */
+        Remember(2, p-&gt;val, p-&gt;tag);
+        /*
+        * and we behave as the unification
+        * of the element and the head
+        */
+        Return_Unify_Pw(velt, telt,
+                vlist.ptr-&gt;val, vlist.ptr-&gt;tag);
+}
+</PRE>
+</blockquote>
+To link this C function to a Prolog predicate use b_external/2 as 
+follows:
+<blockquote> <PRE>b_external(member/2, p_member)
+</PRE></blockquote>
+In a Prolog program the call 
+<blockquote> <PRE>member(X, List)
+</PRE></blockquote> 
+will succeed if X is
+a member of the list List. This is clearly resatisfiable - for example
+in the call
+<blockquote> <PRE>member(X, [1, 2, 3, 4])
+</PRE></blockquote> where X is an uninstantiated variable,
+X will first be instantiated to 1, and on resatisfaction of the goal it
+will successively be instantiated to 2, 3, and 4 before it finally
+fails.
+A solution to the call <blockquote> <PRE>member(X, List)
+</PRE></blockquote> is found when
+X is unified with the head of <i> List</i>
+by the <tt> Return_Unify_Pw()</tt> statement in the last line of the
+function. When an attempt is made to resatisfy the above clause,
+X must be instantiated to another element of <i> List</i>. This will
+be done if the procedure is called again with a new instantiation of
+its arguments, namely that when the second argument has the value of
+the tail of the list which it was given on the previous call.
+<P>
+The use of the macro <tt> Remember()</tt> makes this new instantiation of the
+<A NAME=3655>&#160;</A>
+procedure's arguments possible. In an external procedure, the call of
+the macro
+<blockquote> <PRE>Remember(n, val, tag);
+</PRE></blockquote> has the effect that if an attempt is
+made to resatisfy the procedure, the value given in argument <tt> n</tt>
+<i> of the Prolog procedure</i> will be the Prolog term represented by the
+<i> value</i> val and the <i> tag</i> tag. The type of  val must be <tt> value</tt>
+and the type of tag must be <tt> type</tt>.
+<P>
+Thus in the above example, it is required that the procedure be
+called with the second argument instantiated to the tail of the list
+which was its previous value. So a pointer is taken to the tail
+by the assignment of the pointer <tt> p</tt> in the fourth statement,
+and the call <blockquote> <PRE>Remember(2, p-&gt;val, p-&gt;tag);
+</PRE></blockquote> informs <A NAME=tex2html815 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+<P>
+that to resatisfy the goal
+a call of the Prolog procedure must be made again, with the second argument
+instantiated to the object pointed to by <tt> p</tt>.
+<P>
+Note the use of the <tt> Dereference</tt> macro in the previous
+<A NAME=3669>&#160;</A>
+example.
+<tt> p</tt> is the tail of the list and so to access its value,
+it must be dereferenced, even though it will become
+<A NAME=3671>&#160;</A>
+predicate argument in the next invocation of <tt> p_member</tt> - only
+the terms which are arguments of the normal (not after backtracking)
+invocation are dereferenced by the system.
+<P>
+A nondeterministic external predicate is resatisfiable until
+it explicitly cuts all following alternatives using
+the macro <tt> Cut_External</tt>, i.e.
+<A NAME=3674>&#160;</A>
+if it uses <tt> Return_Unify</tt> and this unification fails
+or if it uses the macro <tt> Fail</tt>, it will be
+called immediately again with the newly remembered value, if any.
+If it is known that the current solution is the last one,
+the macro <tt> Succeed_Last</tt> can be used for a deterministic exit
+<A NAME=3678>&#160;</A>
+from this external predicate, i.e. the predicate succeeds
+and is no longer resatisfiable.
+<P>
+To perform the backtracking operation, some information must be stored
+between one attempt at satisfaction of the goal and an attempt to
+resatisfy it.
+By this mechanism,
+the backtracking of Prolog can be imitated by  the facilities in
+C. It is not always possible (and seldom desirable)
+to map directly from the  definition of
+the procedure in Prolog to an implementation in C. Some ingenuity may
+be required. A very simple example is the procedure <b> p/1</b> defined in Prolog
+as
+<blockquote> <PRE>p(a).
+p(b).
+p(c).
+</PRE>
+</blockquote>
+This is implemented as a C external by defining the Prolog code
+<blockquote> <PRE>p(X) :- p(X, 1).
+</PRE></blockquote>
+The C external is then written for the procedure <b> p/2</b>, whose
+auxiliary second argument serves to count its invocations.
+<blockquote> <PRE>int
+p_p2(v1, t1, v2, t2)
+value v1, v2;
+type  t1, t2;
+{
+        char        *result;
+        pword       new;
+
+        /* first check the arguments */
+        Check_Integer(t2);
+        Check_Output_Atom(t1);
+        /* take note of new resatisfaction */
+        Make_Integer(&amp;new, v2.nint + 1);
+        Remember(2, new.val, new.tag);
+        /* get the string that corresponds to the value of v2 */
+        switch(v2.nint)
+        {
+                case 1:
+                        result = &quot;a&quot;;
+                        break;
+                case 2:
+                        result = &quot;b&quot;;
+                        break;
+                case 3:
+                        result = &quot;c&quot;;
+                        break;
+                default:
+                        Fail;
+        }
+        Return_Unify_Atom(v1, t1, Did(result, 0));
+}
+</PRE>
+</blockquote><BR> <HR><A NAME=tex2html5055 HREF="node235.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5053 HREF="node215.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5047 HREF="node233.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5057 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5056 HREF="node235.html"> Suspending with External </A>
+<B>Up:</B> <A NAME=tex2html5054 HREF="node215.html"> External Language Interface</A>
+<B> Previous:</B> <A NAME=tex2html5048 HREF="node233.html"> Calling Prolog from </A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

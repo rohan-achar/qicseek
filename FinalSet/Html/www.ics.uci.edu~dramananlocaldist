@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Local Distance Functions: A Taxonomy, New Algorithms, and an Evaluation</title>
+</head>
+<style type="text/css">
+A:link {text-decoration: none}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+A:hover {text-decoration: underline}
+tr {border:0px}
+img.pub {height:200px;border:0px}
+p.link {font-weight:bold;font-size:small;text-align:center;white-space:pre}
+table.pub {width: 800px; border=0;cellpadding: 5}
+td.pic {text-align: right; vertical-align:top}
+td.pub {width: 600px; vertical-align:bottom}
+p.abs {font-size:small}
+span.h2 {font-size:x-large; font-weight:bold}
+span.h3 {font-size:large; font-weight:bold}
+span.h3red {font-size:large; color:red}
+span.h4 {font-style:italic; font-weight:bold} 
+</style>
+
+<body bgcolor=white>
+<div align=center>
+<h1 align="center"> "Local Distance Functions: A Taxonomy, New Aglorithms, and an Evaluation</h1>
+
+<table class="pub">
+
+<tr>
+<td class="pic"><a href="../papers/localdist.pdf"><img class="pub" alt="paper" src="cover.gif"></a>
+
+<td class="pub"> <p class="abs"> We present a taxonomy for local distance functions where most existing algorithms can be regarded as approximations of the geodesic distance defined by a metric tensor. We categorize existing algorithms by <b>how</b>, <b>where</b>, and <b>when</b> they estimate the metric tensor. We also extend the taxonomy along each axis. <b>How</b>: We introduce hybrid algorithms that use a combination of techniques to ameliorate over-fitting. <b>Where</b>: We present an exact polynomial time algorithm to integrate the metric tensor along the lines between the test and training points under the assumption that the metric tensor is piecewise constant. <b>When</b>: We propose an interpolation algorithm where the metric tensor is sampled at a number of references points during the offline phase. The reference points are then interpolated during the online classification phase. We also present a comprehensive evaluation on tasks in face recognition, object recognition, and digit recognition. </p>
+<br>
+<p> D. Ramanan, S. Baker. <b>"Local Distance Functions: A Taxonomy, New Algorithms, and an Evaluation"</b> <i> International Conference on Computer Vision </i>(ICCV) Kyoto, Japan, Sept. 2009.
+</table>
+<p class="link"> <a href="../papers/localdist.pdf">PDF</a>    <a href="supp/main.html">Supplementary Results</a></p>
+
+<br>
+
+<h3> References for datasets and feature vector construction </h3>
+
+
+<img height=200px alt="Datasets" src="db_shadow.jpg">
+<p class="link"><a href="multipie.mat">MultiPIE Data</a>       <a href="caltech.mat">Caltech 101 Data</a>       <a href="mnist.mat">MNIST Data</a>       <a href="README.txt">Readme</a> </p>
+
+<br>
+
+<table width=700px>
+<tr> <td> <br> To allow comparisons with our work, we are making computed feature vectors, class membership data, and training-test partitions of our experimental evaluation available in the above links. We gladly acknowledge the original authors of the above datasets  -  <a href="http://www.ralphgross.com/">Gross et al.</a>, <a href="http://www.vision.caltech.edu/Image_Datasets/Caltech101/">Fei-Fei at al.</a>, and <a href="http://yann.lecun.com/exdb/mnist/">Lecun and Cortes</a>. We also gladly acknowledge Killian Weibgerger for providing code for Large Margin Nearest Neighbors <a href="http://www.weinbergerweb.net/Downloads/LMNN.html">(LMNN)</a> and Svetlana Lazebnik for providing code for  <a href="http://www.cs.unc.edu/~lazebnik/research/spatial_pyramid_code.zip">spatial pyramid kernels</a>. 
+</table>
+
+</div>
+</body>
+</html>
+

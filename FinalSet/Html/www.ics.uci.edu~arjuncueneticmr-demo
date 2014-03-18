@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ICMR Demo Video</title>
+<link rel="stylesheet" type="text/css" href="../../web/style.css"> 
+<link rel="icon" href="../../web/media/favicon.ico">
+</head>
+<body>
+<a name="CueNet"></a>
+  <h2> CueNet Demo: Visualizing Progressive Discovery <a href='demo.pdf'>[PDF]</a> </h2>
+  
+     <p>
+     <strong>Abstract</strong>: 
+     We address the problem of tagging faces in personal photos. People capture 
+     photos in a variety of different events like parties, trips, weddings or even conferences. 
+     We have been building the CueNet framework, a context discovery framework to use EXIF 
+     metadata of personal photos, and information about the owner of the photos, to discover 
+     who might be participating in this event, and therefore can be present in the photo. In 
+     this demonstration, we present Picatrix: an event based photo browsing web interface. 
+     Users can select a photo, and see a live visualization of how our context discovery 
+     algorithm, seeded with the initial information, discovers context from different data 
+     sources, and uses it to tag the faces in the given photo.
+     </p>
+     
+     <h3> Visualize Discovery of Candidates for Sample Photos: </h3>
+     <table align=center cellpadding="10">
+     <tr align=center>
+       <td>
+         <a href='simple/' target="_blank">
+         <img src='simple/images/data/icmr-keynote-2-show.jpg' width=370px>
+         </a>
+       </td>
+       <td>
+         <a href='complex/' target="_blank">
+         <img src='complex/images/data/vldb-show-all.jpg'>
+         </a>
+       </td>
+     </tr>
+     <tr align=center>
+       <td>
+         Click <a href='simple/' target="_blank">here</a>
+         to see a simple scenario (1 data source).
+       </td>
+       <td>
+         Click <a href='complex/' target="_blank">here</a> 
+         to see a complex scenario, requiring more <br> than one data source (2-5 sources).
+       </td>
+     </tr>
+     </table>
+     
+     <p>
+     <h3>Video explaining the visulizations</h3>
+     Please click on the youtube video below to see the demo of our system (please play the video 
+     at 720p resolution for best performance). You can also 
+     download the original video <a href='icmr-demo.mp4'>here</a> (playable in VLC 2.0+).</p>
+
+     <iframe width="560" height="315" src='http://www.youtube.com/embed/dsBGCfRG0d8' 
+           frameborder="0" allowfullscreen></iframe>
+     
+     <p><strong>Demo Paper</strong>: <a href='demo.pdf'>[PDF]</a></p>
+     
+     <!--
+     <p> Please click on the play button to watch the video of our demo. Playback requires an 
+     HTML 5 compliant browser. If it doesn't work, try using the latest version of Chrome or
+     Firefox. Or simply <a href = 'video.ogv'>click here</a> to download the raw video 
+     (playable in VLC 2.0+). </p>
+     
+     <video width="854" height="480" controls>
+       <source src='video.ogv' type='video/ogg'>
+        <p><a href='video.ogv'><img class='center' src='screenshot.png'></a></p>
+     </video> 
+     -->
+
+</body>
+</html>
+

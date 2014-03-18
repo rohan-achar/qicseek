@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN"> <html> <head>
+<title>Algorithms</title> </head> <body>
+<h1>CS/CSE 161, Fall 2013:<br> Design and Analysis of Algorithms</h1>
+
+<hr>
+
+<h2>Instructors and office hours</h2>
+<p>The course will be taught by <a href="/~eppstein/">David
+Eppstein</a>, eppstein@uci.edu (office hours Mondays 1:30 - 2:30 and
+Thursdays 2:00 - 3:00 in Bren Hall 4214). The teaching
+assistant is <a href="http://www.ics.uci.edu/~mbannist/">Michael
+Bannister</a>, mbannist@uci.edu (office hours Mondays 5:00 - 6:00 in
+Bren Hall 4219); in addition there are two readers.
+
+<h2>Lectures and discussions</h2>
+<p>The course meets for lectures Mondays, Wednesdays, and
+Fridays, from 3:00 - 3:50, in Bren Hall, room 1100. In addition there
+are two discussion sections, Wednesdays and Fridays 5:00 - 5:50 in the
+same room. Students are required to be signed up for one of these
+sections, and are expected to attend discussions regularly, but are not
+required to attend the section they signed up for. At the discussion
+sections, the teaching assistant will go over homework and midterm
+solutions, give additional examples of topics covered in the lecture,
+and be available to answer questions.</p>
+
+<h2>Textbook</h2>
+<p>The course text will be "Algorithm Design" by Goodrich and Tamassia. 
+Students are expected to own a copy and to read the relevant chapters
+and sections. The official version of the textbook is the one sold in
+the bookstore. Most homework problems will be assigned from this text.
+If you are using a different version (e.g., the
+international version), then it is your responsibility to make sure you
+are doing the correct homework problems.</p>
+
+<h2>Homework and grading policy</h2>
+<p>Coursework will consist of weekly homeworks (typically posted on this
+web page on Mondays)
+as well as twp midterms and a comprehensive final exam. The overall
+grade will be determined 10% from homework, 25% from each midterm, and
+40% from the final.</p>
+
+<p>Group work on homeworks is permitted; each student
+should turn in his or her own copy of the homeworks. Each week's
+homework assignment will be given on this web page. Homework is due by
+11:59pm on <s>Fridays</s> Sundays and must be turned in through dropbox
+on eee. No late
+homework will be accepted. Homework must be typed, and formatted as a
+pdf file. Handwritten homework or homeworks in other formats will not be
+graded. Students who add the class after the start of quarter will be
+responsible for turning in all earlier homeworks by the following
+Friday. The lowest homework score of the quarter will be dropped from
+the course average.</p>
+
+<p>Homework solutions will be posted
+at <a href="http://www.ics.uci.edu/~mbannist/solutions/">http://www.ics.uci.edu/~mbannist/solutions/</a> some time after the homework deadline has passed.</p>
+
+<h2>Tentative Schedule</h2>
+
+<ul>
+<li>Sep 27: Intro/review [Goodrich &amp; Tamassia, chapter 1]<br>
+Homework 1, due Oct. 4: Exercises <a href="http://www.ics.uci.edu/~goodrich/teach/cs161/hw/hw.pdf ">R-1.2, R-1.3, R-1.6, R-1.7</a>.</li>
+<li>Sep 30, Oct 2-4: Merge sort; quick sort; comparison sorting lower bounds
+[2.4,4.1,4.3,4.4]<br>
+<a href="f13-hw2.txt">Homework 2, due Oct. 13</a>.</li>
+<li>Oct 7-9-11: Integer sorting, selection
+[4.5,4.6,4.7]<br>
+<a href="f13-hw3.txt">Homework 3, due Oct. 20</a>.</li>
+<li>Oct 14-16: Divide and conquer, master theorem,
+integer arithmetic [5.2,10.1]<br>
+Homework 4, due Oct. 27: R-5.4, R-5.5, C-5.10, R-10.9</li>
+<li>Oct 18-21-23: Dynamic programming
+[5.3,9.4]<br>
+Homework 5, due Nov. 3: R-5.11, C-5.9, R-9.14, C-9.18</li>
+<li>Oct 25: MIDTERM I</li>
+<li>Oct 28-30: String algorithms [9]<br>
+Homework 6, due Nov. 10: R-9.4, R-9.10, C-9.3, C-9.4</li>
+<li>Nov 1-4-6-8: Graph representation, traversal, topological ordering,
+strong connectivity [6]<br>
+Homework 7, due Nov. 17: R-6.2, R-6.4, R-6.6, C-6.12</li>
+<li>Nov 11: VETERAN'S DAY HOLIDAY</li>
+<li>Nov 13-15-18-20: Shortest paths, minimum spanning trees
+[7]<br>
+<a href="f13-hw8.pdf">Homework 8, due Nov. 24</a>.</li>
+<li>Nov 22-25-27: Computational geometry [12]; <a href="http://rjlipton.wordpress.com/2009/03/01/rabin-flips-a-coin/">additional reading</a><br>
+Problems for study (not due as homework): C-12.12, C-12.16, C-12.19, C-12.20</li>
+<li>Nov 28-29: THANKSGIVING DAY</li>
+<li>Dec 2: MIDTERM II</li>
+<li>Dec 4-6: NP-completeness and approximation [13]</li>
+<li>Dec 9: FINAL EXAM, 4:00 - 6:00</li>
+</ul>
+
+<h2>Other Course-Related Information</h2>
+
+The following material is from previous years' offerings of ICS 161.
+Some of these offerings were based on different texts (Baase and
+Cormen-Leiserson-Rivest), and covered a somewhat different range of
+topics.  You may find this material useful, but it is not required
+reading.</li>
+
+<ul><li><a href="syl.html">Lecture notes from Winter 1996</a></li>
+<li><a href="exams/">Sample exams from Winter 1998 and Spring
+2005</a></li>
+<li><a href="python/">Python
+implementations of various algorithms</a>, <a
+href="/~eppstein/PADS/">more Python algorithm implementations</a>, and
+<a
+href="http://aspn.activestate.com/ASPN/Cookbook/Python?kwd=Algorithms">
+still more Python algorithms</a>.</li>
+</ul>
+

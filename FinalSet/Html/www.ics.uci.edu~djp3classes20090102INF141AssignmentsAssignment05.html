@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Winter 2009: Informatics 141 : Information Retrieval : Assignment 05</title>
+<link href="../styleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="container">
+  <table>
+    <tr>
+      <td width="30%"><p class=" style7 ">Informatics   141: Information Retrieval: </p>
+        <p class=" style7 ">Assignment 05 </p>
+        <p>Winter 2009 </p>
+        <p class="style6"><a href="http://www.ics.uci.edu/informatics">Department of Informatics</a></p>
+        <p class="style6"><a href="http://www.ics.uci.edu">Donald Bren School of Information and Computer Sciences </a></p>
+        <p class="style6"><a href="http://www.uci.edu">University of California, Irvine </a></p></td>
+      <td><div id="gsfn_list_widget"> <a href="http://getsatisfaction.com/luci" class="widget_title"> Discussions about this class</a>
+  <div id="gsfn_content"><center><img src="../ajax-loader.gif"/></center></div>
+        </div>
+        <script src="http://getsatisfaction.com/luci/widgets/javascripts/db439d8/widgets.js" type="text/javascript"></script>
+        <script src="http://getsatisfaction.com/luci/topics.widget?callback=gsfnTopicsCallback&amp;length=120&amp;limit=10&amp;product=luci_winter_2009_inf_141cs_141&amp;sort=recently_active" type="text/javascript"></script>
+      </td>
+    </tr>
+  </table>
+</div>
+<div class="container"><a href="../index.html">Home</a> | <a href="../admin.html">Administrative Policies </a> | <a href="../structure.html">Course Structure</a> |<a href="../materials.html"> Resources &amp; Materials</a> | <a href="../calendar.html#CurrentWeek">Calendar </a></div>
+<div class="container">
+  <p class="somethingDue">Due 2/13/2009</p>
+</div>
+<div class="container">
+  <ol>
+    <li><span class="style5"><strong>Goals</strong></span><strong>:
+      </strong>
+      <ol>
+        <li>This assignment is
+          designed to:
+          <ol>
+            <li>To teach you how to make a postings list with a MapReduce architecture. </li>
+            <li>To teach you how to use Hadoop before trying it on a Wikipedia scale assignment. </li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><span class="style5"><strong>Administration:</strong></span>
+      <ol>
+        <li>You may work in teams of 1, 2 or 3, but it cannot be the same group as a previous assignment. </li>
+      </ol>
+    </li>
+    <li><span class="style5"><strong>Write a Java Program To Be Executed by Hadoop </strong></span>
+      <ol>
+        <li><span class="style5">The input to the system will be a list of &lt;key,value&gt; pairs in a file. </span>
+          <ol>
+            <li>The &quot;key&quot; will be a URL</li>
+            <li>The &quot;value&quot; will be the document ID of that URL</li>
+            <li><a href="Assignment05/input.txt">Here</a> is the input file. </li>
+          </ol>
+        </li>
+        <li>The output of the system will be a posting list ordered by terms found in the input URLS
+          <ol>
+            <li>A text file with the term on the start of the line and a list of all document URLs on which that term appears.   </li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><strong>Write a Java Program To Be Post Process the results</strong>
+      (optional for this assignment)
+        <ol>
+        <li>This program will calculate the statistics required for the document that you turn in. </li>
+      </ol>
+    </li>
+    <li><strong>How to do this:</strong>
+      <ol>
+        <li>Refer to the notes from the discussion section on 2/9/09 for additional info.</li>
+        <li>Look at this class <a href="https://eee.uci.edu/wiki/index.php/Assignment_05_procedures">wiki</a> for help (feel free to edit) </li>
+        <li>Here are some tutorials 
+          <ol>
+            <li>Follow the instructions here (&quot;<a href="http://getsatisfaction.com/luci/topics/picking_your_java_version_on_openlab">Picking your java version on openlab</a>&quot;) to get the right version of java.</li>
+            <li>&quot;<a href="http://hadoop.apache.org/core/docs/current/mapred_tutorial.html">Hadoop Map/Reduce Tutorial</a>&quot; </li>
+            <li>&quot;<a href="http://www.michael-noll.com/wiki/Running_Hadoop_On_Ubuntu_Linux_(Single-Node_Cluster)">Running Hadoop On Ubuntu Linux (Single-Node Cluster)</a>&quot;</li>
+          </ol>
+        </li>
+        <li>Hints:
+          <ol>
+            <li>The lines of input.txt file are passed to your mapper function one by one.</li>
+            <li>It should download the page of that URL, make all the text lower cased, and generate &lt;term, docid&gt; pairs. (Check <a href="Assignment05/Downloader.java">Downloader.java</a> as a sample of how to use crawler4j lib to download a single page). Here is an example for <a href="Assignment05/WordCount.java">WordCount</a>. </li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><strong>Test</strong>
+      <ol>
+        <li>With this <a href="Assignment05/inputTest.txt">input</a>.</li>
+        <li>Don got this <a href="Assignment05/outputTest.txt">output</a>.  </li>
+      </ol>
+    </li>
+    <li><span class="style5"><strong>What to turn in: </strong></span>    
+      <ol>
+        <li>Outputs:
+          <ol>
+            <li>Submit a postings.txt file in which each line contains postings of a term: &lt;term, docid1, docid2, ...&gt;. Before uploading this file, truncate it and only keep the first 500 lines.</li>
+            <li>Submit a report.txt file with this content:
+              <ol>
+                <li>Total number of distinct terms: ....</li>
+                <li>Number of documents containing term 'is': ...</li>
+                <li>Number of documents containing term 'Satellite': ...</li>
+                <li>First Name of member 1 of your team: ...</li>
+                <li>List of URLs containing first name of member 1 of your team: ... </li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><strong>Submitting your assignment </strong>              
+      <ol>
+        <li>We are going to use <a href="http://checkmate.ics.uci.edu">checkmate.ics.uci.edu</a> to submit this assignment.        </li>
+        <li>Make the file name &lt;StudentID&gt;-&lt;StudentIID&gt;-&lt;StudentID&gt;-Assignment05.pdf</li>
+      </ol>
+    </li>
+  </ol>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

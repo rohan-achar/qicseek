@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Women in Information and Computer Sciences &#187; init (together)</title>
+	<atom:link href="http://wics.ics.uci.edu/category/init-together/feed/" rel="self" type="application/rss+xml" />
+	<link>http://wics.ics.uci.edu</link>
+	<description>A student organization at UCI dedicated to helping women succeed in the technological world</description>
+	<lastBuildDate>Thu, 06 Feb 2014 12:38:18 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Init (Together) 2013</title>
+		<link>http://wics.ics.uci.edu/inittogether/</link>
+		<comments>http://wics.ics.uci.edu/inittogether/#comments</comments>
+		<pubDate>Sat, 20 Apr 2013 07:55:08 +0000</pubDate>
+		<dc:creator><![CDATA[Angela Liu]]></dc:creator>
+				<category><![CDATA[init (together)]]></category>
+
+		<guid isPermaLink="false">http://wics.ics.uci.edu/?p=728</guid>
+		<description><![CDATA[Sunday, April 14th, 2013, WICS started the first init(together) Southern California Conference for Women in Computing with the Donald Bren School of Information and Computer Sciences. This conference was created with the vision of bringing together a community of the &#8230; <a href="http://wics.ics.uci.edu/inittogether/">Continue reading <span class="meta-nav">&#8594;</span></a>]]></description>
+		<wfw:commentRss>http://wics.ics.uci.edu/inittogether/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

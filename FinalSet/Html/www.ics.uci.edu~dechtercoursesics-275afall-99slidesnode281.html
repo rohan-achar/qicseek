@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Depth-First Iterative Deepening</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Depth-First Iterative Deepening">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5650 HREF="node282.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5648 HREF="node280.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5642 HREF="node280.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5652 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5651 HREF="node282.html"> Depth-First Search with </A>
+<B>Up:</B> <A NAME=tex2html5649 HREF="node280.html"> Bounded Depth-First Search</A>
+<B> Previous:</B> <A NAME=tex2html5643 HREF="node280.html"> Bounded Depth-First Search</A>
+<BR> <HR> <P>
+<H2><A NAME=SECTION002251000000000000000> Depth-First Iterative Deepening</A></H2>
+<P>
+When this strategy is used, first all goals are expanded
+only up to a given depth.
+If no solution is found, the depth limit is incremented and the whole
+goal is repeated.
+This is executed until a (or all) solution is found, or until
+a given limiting depth is encountered.
+Although it might seem that this approach is very inefficient
+because all higher levels are repeated for the deeper ones,
+it has been shown that is performs only about <i> b/(b - 1)</i>
+times as many operations than the corresponding breadth-first search,
+where <i> b</i> is the branching factor of the proof tree.
+<P>
+The available predicates are
+<P>
+<blockquote> <b> dfid(Goal, StartDepth, MaxDepth, Increment)
+</blockquote>
+which calls <i> Goal</i> using the dfid rule, starting at the
+depth <i> StartDepth</i>, up to the depth <i> MaxDepth</i>,
+with depth being incremented by <i> Increment</i>.
+<P>
+and
+<blockquote> <b> dfid(Goal)
+</blockquote>
+which is equivalent to <b> dfid(Goal, 0, maxint, 1)</b>.
+<P>
+</b></b><BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

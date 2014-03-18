@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Using the Profiling Tool</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Using the Profiling Tool">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5103 HREF="node239.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5101 HREF="node236.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5095 HREF="node237.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5105 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5104 HREF="node239.html"> Using the Statistics </A>
+<B>Up:</B> <A NAME=tex2html5102 HREF="node236.html"> Profiling Prolog Execution</A>
+<B> Previous:</B> <A NAME=tex2html5096 HREF="node237.html"> Introduction</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION002020000000000000000> Using the Profiling Tool</A></H1>
+<P>
+The profiling tool can be used any time with any compiled Prolog code,
+it is not necessary to use a special compilation mode or set
+any flags.
+When
+<blockquote> :- profile(Goal).
+</blockquote>
+is called, the profiler executes the <i> Goal</i> in the profiling mode,
+which means that every 0.01s the execution is interrupted
+and the profiler remembers the currently executing procedure.
+When the goal succeeds or fails, the profiler prints so
+and then it prints the statistics about the time spent
+in every encountered procedure:
+<P>
+<blockquote> <PRE>[eclipse 5]: profile(boyer).
+rewriting...
+proving...
+goal succeeded
+
+                PROFILING STATISTICS
+                --------------------
+
+Goal:             boyer
+Total user time:  10.65s
+
+Predicate             Module         %Time  Time
+-------------------------------------------------
+rewrite           /2  eclipse        52.3%  5.57s
+garbage_collect   /0  sepia_kernel   23.1%  2.46s
+rewrite_args      /2  eclipse        16.6%  1.77s
+equal             /2  eclipse         4.7%  0.50s
+remainder         /3  eclipse         1.5%  0.16s
+..
+plus              /3  eclipse         0.1%  0.01s
+
+yes.
+</PRE>
+</blockquote>
+<P>
+The profiler prints the predicate name and arity, its definition module,
+percentage of total time spent in this predicate and the absolute time.
+Some of auxiliary system predicates are printed under a
+common name without arity, e.g. <i> arithmetic</i> or <i> all_solutions</i>.
+Predicates which are local to locked modules are printed
+together on on eline that contains only the module name.
+By default only predicates written in Prolog are profiled, i.e.
+if a Prolog predicate calls an external or built-in predicate
+written in C, the time will be assigned to the Prolog predicate.
+<P>
+The predicate <b> profile(Goal, Flags)</b> can be used to change
+the way profiling is made, <i> Flags</i> is a list of flags.
+Currently only the flag <tt> simple</tt> is accepted and it
+causes separate profiling of simple predicates, i.e.
+those written in C:
+<P>
+<blockquote> <PRE>[eclipse 6]: profile(boyer, [simple]).
+rewriting...
+proving...
+goal succeeded
+
+                PROFILING STATISTICS
+                --------------------
+
+Goal:             boyer
+Total user time:  10.55s
+
+Predicate             Module         %Time  Time
+-------------------------------------------------
+=..               /2  sepia_kernel   31.1%  3.28s
+garbage_collect   /0  sepia_kernel   23.5%  2.48s
+rewrite           /2  eclipse        21.6%  2.28s
+rewrite_args      /2  eclipse        17.2%  1.82s
+equal             /2  eclipse         4.1%  0.43s
+remainder         /3  eclipse         0.9%  0.10s
+..
+plus              /3  eclipse         0.1%  0.01s
+
+yes.
+</PRE>
+</blockquote><BR> <HR><A NAME=tex2html5103 HREF="node239.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5101 HREF="node236.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5095 HREF="node237.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5105 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5104 HREF="node239.html"> Using the Statistics </A>
+<B>Up:</B> <A NAME=tex2html5102 HREF="node236.html"> Profiling Prolog Execution</A>
+<B> Previous:</B> <A NAME=tex2html5096 HREF="node237.html"> Introduction</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

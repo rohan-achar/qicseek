@@ -1,0 +1,130 @@
+<HTML><HEAD>
+<TITLE>Dan's bridge hand evaluator</TITLE>
+<style>
+<!--
+body { color:#000000; font:14px Arial, helvetica, sans-serif; >
+-->
+</style>
+</HEAD><BODY>
+
+<CENTER>
+<IMG SRC="eval.gif">
+</CENTER>
+
+This software evaluates double-dummy bridge hands.
+I have made some attempts to make the system
+not overly user-hostile.
+<P>
+This software is tricky to write correctly,
+and it is hard to verify
+<A HREF="http://www.ics.uci.edu/~dan/bridge/correctness.html">
+correctness</a>.
+
+<UL>
+   <LI> EVAL:
+        evaluates a bridge hand and, optionally, produces a playing tree
+<BR>
+        This program determines whether one side
+        can take the specified number of tricks against
+        perfect defense and, if so, exactly how it can be done.
+        Newer versions have dramatically improved
+        <a href="http://www.ics.uci.edu/~dan/bridge/performance.html">
+        performance</a>.
+
+   <LI> PLAY:
+        uses the playing tree to play optimally
+<BR>
+        You get to play defense against the program's perfect offense.
+        In this manner, you will observe how any possible defense
+        can be overcome.
+<P>
+   <LI> The Version 1 system uses
+        <A href="http://www.ics.uci.edu/~dan/bridge/alpha.html">
+        alpha-beta search</A>, including some
+        <A href="http://www.ics.uci.edu/~dan/bridge/amenities.html">
+        amenities</A>:
+        dynamic rank equivalence, suit ordering,
+        and dynamic rank ordering.
+        A brief discussion of some
+        <a href="http://www.ics.uci.edu/~dan/bridge/implement.html">
+        implementation</a> details is available.
+<P>
+   <LI> The Version 2 system uses
+        <A href="http://www.ics.uci.edu/~dan/bridge/isomorphism.html">
+        node isomorphism</a> and is an order
+        of magnitude faster than Version 1.
+        It also allows the user to configure memory usage.
+        This version was a bit trickier to code since now there is a DAG
+        (directed acyclic graph) rather than merely a tree.
+<P>
+   <LI> The Version 3 system uses
+        <A href="http://www.ics.uci.edu/~dan/bridge/isomorphism.html">
+        node equivalence</a>.
+        For difficult problems it is an order of magnitude faster than
+        Version 2.  Version 3 files are fundamentally different from
+        and incompatible with earlier versions.
+<!--
+        A convenient file containing executables
+        and also some sketchy documentation is available for
+     <UL>
+        <LI> Sparc SunOS --
+           <A HREF="http://www.ics.uci.edu/~dan/bridge/EVAL33a.zip">
+           zip</A> or
+           <a href="http://www.ics.uci.edu/~dan/bridge/EVAL33a.tar.gz">
+           tar+gzip</a> file (Version 3.3a)
+        <LI> PC DOS --
+           <A HREF="http://www.ics.uci.edu/~dan/bridge/bridg33a.zip">
+           zip</a> file (Version 3.3a)
+        <LI> PC -- updated (and hopefully fixes bug)
+           <a HREF="http://www.ics.uci.edu/~dan/bridge/play35.zip">PLAY 3.5 zipped</a>
+     </UL>
+-->
+<P>
+   <LI> The Version 4 system uses dynamic backtracking, some dynamic
+        heuristics that are enhanced by learning techniques utilizing
+        <A HREF="http://www.ics.uci.edu/~dan/pubs/searchsurv.ps.gz">
+        self-organizing lists</a>, and some code tuning.
+        Version 4 appears to be about twice as fast as Version 3.
+        (For some hard hands, it is an order of magnitude faster
+        than Version 3 for tree construction.)
+        Optionally, the program determines the maximum number
+        of tricks that are guaranteed makable, as opposed to just
+        deciding the question for a specified number of tricks.
+<!--
+<P>
+   <LI> The Version 5 system, under development,
+        will use a modified partition search and is hoped to be
+        an order of magnitude faster than Version 4.
+ -->
+<P>
+   <LI>  Can you solve this
+         <a href="http://www.ics.uci.edu/~dan/bridge/devilish.txt">
+         devilish hand</a>, which was described in rec.games.bridge?
+         If not, EVAL can solve it for you.
+   <LI>  <a href="http://www.ics.uci.edu/~dan/bridge/hand7h.txt">
+         Here</a> is another hand.
+   <LI>  This <a href="slam.txt">slam hand</a> was presented
+         as the Bridge Plaza Deal of the Week in April 1997.
+</UL>
+
+NOTE ADDED March 2008:
+<BR>
+&nbsp; &nbsp; &nbsp;
+The old EVAL software will not run on newer architectures.
+&nbsp; &nbsp;
+Some year, when I have a chance, I will recompile it.
+
+<P>
+<A HREF="http://www.ics.uci.edu/~dan/"><IMG SRC="prev.gif"></A>
+<A HREF="http://www.ics.uci.edu/~dan/">Back to my home page</a>.
+<HR>
+<ADDRESS>
+Dan Hirschberg<BR>
+Computer Science Department<BR>
+University of California, Irvine, CA 92697-3435<BR>
+</ADDRESS>
+<tt>dan at ics.uci.edu</tt><br>
+Previous modified: Nov 24, 2000
+Last modified: Mar 17, 2008
+</BODY></HTML>
+

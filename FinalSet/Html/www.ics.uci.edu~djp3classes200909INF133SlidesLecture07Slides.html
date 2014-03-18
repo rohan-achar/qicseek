@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="description" content="User Interaction: XML and JSON Asst. Professor Donald J. Patterson INF 133 Fall 2009  XML and JSONStructured Data Formats that evolved with the web Text with a syntax applied They can represent a huge variety of information They enable data transport Different systems and technologies and programming languages can depend on the syntax being standardized  XML w3schools.com  What is XML?XML stands for “eXtensible Markup Language” XML was designed to in the context of separating data from display XML tags are not predefined You define your own tags XML is designed to be self-descriptive XML w3schools.com  The Difference Between XML and HTMLXMLdesigned to transport and store data It looks like HTML The focus is on what the data is HTML designed to display data it typically is “broken-XML” XHTML is HTML that conforms to XML standard The focus is on how data looks XML w3schools.com  What is XML?XML stands for “eXtensible Markup Language” XML was designed to in the context of separating data from display XML is data, HTML/CSS is display XML tags are not predefined You define your own tags XML is designed to be self-descriptive XML w3schools.com  XML Does not DO AnythingIt is a data format A program must be written to manipulate the data To search the data To display the data To change the data Even though the data seems to be associated with a task it is still just data. XML w3schools.com  XML is Just Plain TextThere is nothing fancy about the storage A program that can read and write text can read and write XML an XML-aware application Expects a valid tag structure Interprets the tags in a particular way XML w3schools.com  With XML You Invent Your Own Tags&lt;from&gt; and &lt;to&gt; are not defined anywhere official they are invented by the author There are no predefined tags In contrast, HTML has predefined tags &lt;p&gt; &lt;href&gt; etc., In XML the author defines the tags and the structure within the bounds of a “valid XML document” XML w3schools.com  XML is Not a Replacement for HTMLXML complements HTMLXHTML is an XML syntax compliant version of HTML It has tags defined by a standards body XML w3schools.com  XML Separates Data from HTMLXML Simplifies Data SharingXML Simplifies Data TransportXML Simplifies Platform Changes XML Makes Your Data More Available XML w3schools.com  XML is Used to Create New Internet LanguagesXHTML the latest version of HTML WSDL for describing available web servicesWAP and WML as markup languages for handheld devicesRSS languages for news feedsRDF and OWL for describing resources and ontologySMIL for describing multimedia for the web  XML w3schools.com  XML uses a tree structurewith a root element and child elements tags indicate the start and end of an element opening tag looks like this: &lt;tag&gt; a closing tag looks like this: &lt;/tag&gt; A valid XML document has exactly one closing tag for every opening tag XML w3schools.com  XML w3schools.com  XML w3schools.com  DetailsAll XML Elements Must Have a Closing Tag HTML &lt;p&gt;This is a paragraph&lt;p&gt;This is another paragraph XML &lt;p&gt;This is a paragraph&lt;/p&gt;&lt;p&gt;This is another paragraph&lt;/p&gt; XML w3schools.com  DetailsXML Tags are Case Sensitive &lt;Message&gt;This is incorrect&lt;/message&gt;&lt;message&gt;This is correct&lt;/message&gt; &lt;Message&gt;This is correct&lt;/Message&gt; XML w3schools.com  DetailsXML Elements Must be Properly NestedHTML might have this &lt;b&gt;&lt;i&gt;This text is bold and italic&lt;/b&gt;&lt;/i&gt; Valid XML requires this: &lt;b&gt;&lt;i&gt;This text is bold and italic&lt;/i&gt;&lt;/b&gt; XML w3schools.com  DetailsXML Documents Must Have a Root ElementThis is the top-level tag&lt;root&gt;  &lt;child&gt;    &lt;subchild&gt;.....&lt;/subchild&gt;  &lt;/child&gt;&lt;/root&gt; XML w3schools.com  DetailsXML Nodes may have attributes Which describe the tag XML Attribute Values Must be QuotedInvalid:   Valid: XML w3schools.com  DetailsSpecial characters: If you put a “&lt;“ in your data it will mess up XML parsing &lt;message&gt;if salary &lt; 1000 then&lt;/message&gt; So 5 characters are special &lt;, &gt;, &amp;, ‘ , “ &amp;lt; , &amp;gt; , &amp;amp; , &amp;apos; , &amp;quot; &lt;message&gt;if salary &amp;lt; 1000 then&lt;/message&gt; XML w3schools.com  DetailsComments in XML&lt;!-- This is a comment --&gt; White-space is preserved &lt;message&gt;There is      a     lot of space&lt;/message&gt; XML w3schools.com  XML w3schools.com  Attributes and Elements are pretty interchangeable XML w3schools.com  XML w3schools.com  On beyond XML XML validationSchemas like XML - DTD Namespaces XSLT transforms XML to HTML for viewing XML w3schools.com"/>
+    <title></title>
+    <script type="text/javascript" language="javascript">
+//      <![CDATA[
+            var images = new Array (27);
+            images[0] = "Lecture07Slides_files/Lecture07Slides.001.png";
+            images[1] = "Lecture07Slides_files/Lecture07Slides.002.png";
+            images[2] = "Lecture07Slides_files/Lecture07Slides.003.png";
+            images[3] = "Lecture07Slides_files/Lecture07Slides.004.png";
+            images[4] = "Lecture07Slides_files/Lecture07Slides.005.png";
+            images[5] = "Lecture07Slides_files/Lecture07Slides.006.png";
+            images[6] = "Lecture07Slides_files/Lecture07Slides.007.png";
+            images[7] = "Lecture07Slides_files/Lecture07Slides.008.png";
+            images[8] = "Lecture07Slides_files/Lecture07Slides.009.png";
+            images[9] = "Lecture07Slides_files/Lecture07Slides.010.png";
+            images[10] = "Lecture07Slides_files/Lecture07Slides.011.png";
+            images[11] = "Lecture07Slides_files/Lecture07Slides.012.png";
+            images[12] = "Lecture07Slides_files/Lecture07Slides.013.png";
+            images[13] = "Lecture07Slides_files/Lecture07Slides.014.png";
+            images[14] = "Lecture07Slides_files/Lecture07Slides.015.png";
+            images[15] = "Lecture07Slides_files/Lecture07Slides.016.png";
+            images[16] = "Lecture07Slides_files/Lecture07Slides.017.png";
+            images[17] = "Lecture07Slides_files/Lecture07Slides.018.png";
+            images[18] = "Lecture07Slides_files/Lecture07Slides.019.png";
+            images[19] = "Lecture07Slides_files/Lecture07Slides.020.png";
+            images[20] = "Lecture07Slides_files/Lecture07Slides.021.png";
+            images[21] = "Lecture07Slides_files/Lecture07Slides.022.png";
+            images[22] = "Lecture07Slides_files/Lecture07Slides.023.png";
+            images[23] = "Lecture07Slides_files/Lecture07Slides.024.png";
+            images[24] = "Lecture07Slides_files/Lecture07Slides.025.png";
+            images[25] = "Lecture07Slides_files/Lecture07Slides.026.png";
+            images[26] = "Lecture07Slides_files/Lecture07Slides.027.png";
+            var index = 0;
+            function WindowLoaded(evt)
+            {
+                document.body.onselectstart = function () { return false; };
+            }
+            function Step(i)
+            {
+                GoTo(index + i)
+            }
+            function GoTo(newIndex)
+            {
+                if(newIndex >= 0 && newIndex < images.length)
+                {
+                    index = newIndex;
+                    document.Slideshow.src = images[index];
+                }
+            }
+//      ]]>
+    </script>
+</head>
+<body bgcolor="black" onload='WindowLoaded(event);'>
+    <p align="center">
+        <br/>
+        <br/>
+        <img name="Slideshow" alt="" src="Lecture07Slides_files/Lecture07Slides.001.png" onclick="Step(1)"/>
+        <br/>
+        <br/>
+        <input type="image" src="Lecture07Slides_files/home.png" onclick="GoTo(0)"/>
+        &nbsp;&nbsp;&nbsp;
+        <input type="image" src="Lecture07Slides_files/prev.png" onclick="Step(-1)"/>
+        <input type="image" src="Lecture07Slides_files/next.png" onclick="Step(1)"/>
+    </p>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15170336-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+</html>
+

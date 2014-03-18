@@ -1,0 +1,78 @@
+<HTML>
+<HEAD>
+<TITLE>Greedy matching in R^20</TITLE>
+</HEAD>
+
+<BODY>
+<H1><A HREF="../">Test of Closest Pair Data Structures</A></H1>
+<H2>Greedy matching in R<sup>20</sup></H2>
+
+<TABLE BORDER=1>
+<TR ALIGN=RIGHT><TD></TD>
+    <TD>Brute&nbsp;Force</TD>
+    <TD>Neighbors</TD>
+    <TD>Quadtree</TD>
+    <TD>Conga&nbsp;Line</TD>
+    <TD>MultiConga</TD>
+    <TD>FastPair</TD></TR>
+<TR ALIGN=RIGHT><TD><I>n</I>&nbsp;=&nbsp;250</TD>
+    <TD><A HREF="b250">3.08s</A></TD>
+    <TD><A HREF="n250">0.24s</A></TD>
+    <TD><A HREF="q250">0.20s</A></TD>
+    <TD><A HREF="c250">0.31s</A></TD>
+    <TD><A HREF="m250">0.16s</A></TD>
+    <TD><A HREF="f250"><B>0.15s</B></A></TD></TR>
+<TR ALIGN=RIGHT><TD>500</TD>
+    <TD><A HREF="b500">27.12s</A></TD>
+    <TD><A HREF="n500">1.04s</A></TD>
+    <TD><A HREF="q500">1.01s</A></TD>
+    <TD><A HREF="c500">1.67s</A></TD>
+    <TD><A HREF="m500">0.68s</A></TD>
+    <TD><A HREF="f500"><B>0.63s</B></A></TD></TR>
+<TR ALIGN=RIGHT><TD>1000</TD>
+    <TD><A HREF="b1000">241.97s</A></TD>
+    <TD><A HREF="n1000">4.40s</A></TD>
+    <TD><A HREF="q1000">4.56s</A></TD>
+    <TD><A HREF="c1000">8.45s</A></TD>
+    <TD><A HREF="m1000">2.93s</A></TD>
+    <TD><A HREF="f1000"><B>2.76s</B></A></TD></TR>
+<TR ALIGN=RIGHT><TD>2000</TD>
+    <TD><A HREF="b2000">2087.87s</A></TD>
+    <TD><A HREF="n2000">20.13s</A></TD>
+    <TD>&nbsp;</TD>
+    <TD><A HREF="c2000">47.53s</A></TD>
+    <TD><A HREF="m2000">14.38s</A></TD>
+    <TD><A HREF="f2000"><B>12.93s</B></A></TD></TR>
+<TR ALIGN=RIGHT><TD>4000</TD>
+    <TD>&nbsp;</TD>
+    <TD><A HREF="n4000">94.73s</A></TD>
+    <TD>&nbsp;</TD>
+    <TD><A HREF="c4000">243.21s</A></TD>
+    <TD><A HREF="m4000">66.59s</A></TD>
+    <TD><A HREF="f4000"><B>61.39s</B></A></TD></TR>
+<TR ALIGN=RIGHT><TD>8000</TD>
+    <TD>&nbsp;</TD>
+    <TD><A HREF="n8000">376.15s</A></TD>
+    <TD>&nbsp;</TD>
+    <TD><A HREF="c8000">1136.30s</A></TD>
+    <TD><A HREF="m8000">282.53s</A></TD>
+    <TD><A HREF="f8000"><B>256.44s</B></A></TD></TR>
+<TR ALIGN=RIGHT><TD>16000</TD>
+    <TD>&nbsp;</TD>
+    <TD><A HREF="n16000">1524.35s</A></TD>
+    <TD>&nbsp;</TD>
+    <TD>&nbsp;</TD>
+    <TD><A HREF="m16000">1171.30s</A></TD>
+    <TD><A HREF="f16000"><B>1072.35s</B></A></TD></TR>
+</TABLE>
+
+<P>Greedy matching was performed on points placed uniformly at random in 
+the unit hypercube. Times include only the
+construction of the closest pair data structure and algorithm execution 
+(not the initial point placement) and are averages over ten runs.  The 
+quadtree data structure was only run on data sets of 1000 or fewer points 
+due to its high storage requirements.  Code was written in C++, compiled 
+and optimized by Metrowerks Codewarrior 10, and run on a 200MHz PowerPC 
+603e processor (Apple Powerbook 3400c).
+</BODY>
+</HTML>

@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>HW1</title>
+  </head>
+
+  <body>
+    <h1>HW1</h1>
+
+    <h2> Due: 4/8 12:30pm EEE Dropbox</h2>
+
+    <h3> Using Matlab [70 points]</h3>
+
+    <p> The goal of this problem set is to become familiar with basic Matlab commands, practice manipulating vectors and matrices, and try out basic image display and plotting functions. If you are unsure what a Matlab function does, check the reference manual (at the command line, type "help" and then the command name).
+
+    <p> <b> What to hand in. </b> 
+    <ol>
+	<p><li> Include a script for questions 3 and 4 (titled <tt> hw1_q3.m</tt> and <tt>hw1_q4.m</tt>) that the grader can run to generate all the given figures. Most of the following can be done in a matlab script, but feel free to call other scripts, functions (but include them in the homework zip file). When instructed to write a function, your script must call that function.
+	<p><li> Make sure each question is answered in your project writeup, including either a figure, plot, and/or an example snippet of the interactive commands and output used to compute the question. 
+    </ol>
+    
+    <hr>
+
+    <ol>
+      <p><li> Read over the provided the Matlab <a href="http://www.ics.uci.edu/~dramanan/teaching/cs216_fall09/MatlabTutorialCode.html">tutorial</a>. [0 pts]
+	<p> Open an interactive session in Matlab and test the commands by typing them at the
+prompt. (Skip this step if you are already familiar with Matlab.)
+      <p><li> Describe (in words where appropriate) the result of each of the following Matlab commands. Use the help command as needed, but try to determine the output without entering the commands into Matlab. For this part of the assignment, do not submit a screenshot of the result of typing these command. [10 pts]
+	<ol type=a>
+	    <p><li>  >> x = randperm(5);
+	    <p><li> >> a = [1:10];
+	    <br> >> b = a([1:3:end]);
+	    <p><li> >> f = [1501:2000];
+	    <br> >> g = find(f > 1850);
+	    <br> >> h = f(g);
+	    <p><li> >> x = 22.*ones(1,10);
+	    <br> >> y = sum(x);
+	    <p><li> >> a = [1:1000];
+	    <br> >> b = a([end:-1:1]);
+	</ol>
+	<p><li> Given a uint8 matrix A representing a grayscale image (hint - use "imread"), write a few lines of code to do each of the following. Try to avoid using loops. Select any image you want, or use one extracted from one of the videos on the project data page. You are free to use matlab scripts and/or functions (unless you are specifically asked to write a function). [15 pts]
+	<ol type = a>
+            <p><li> Resize <I>A</I> to be 100x100.
+	    <p><li> Sort all the intensities in <I>A</I>, put the result in a single 10,000-dimensional vector <I>x</I>,
+	    and plot the values in <I>x</I>.
+	    <p><li> Display a figure showing a histogram of <I>A</I>'s intensities with 32 bins.
+	    <p><li> Create and display a new binary image the same size as <I>A</I>, which is white
+	    wherever the intensity in A is greater than a threshold <I>t</I>, and black everywhere
+	    else.
+	    <p><li> Display the bottom right quadrant of <I>A</I>.
+	    <p><li> Generate a new image (matrix), which is the same as <I>A</I>, but with <I>A</I>'s mean
+	    intensity value subtracted from each pixel. Set any negative values to 0.
+	    <p><li> Use rand to write a function that returns the roll of a six-sided die.
+	    <p><li> Let <I>y</I> be the vector: y = [1:6]. Use the reshape command to form a new matrix <I>z</I>
+	    whose first column is [1, 2, 3]', and whose second column is [4, 5, 6]'.
+	    <p><li> Use the <I>min</I> and <I>find</I> functions to set <I>x</I> to the single minimum value that occurs
+	    in <I>A</I>, and set <I>r</I> to the row it occurs in and <I>c</I> to the column it occurs in.
+	    <p><li> Let <I>v</I> be the vector: v = [1 8 8 2 1 3 9 8]. Use the <I>unique</I> function to
+	    compute the total number of unique values that occur in <I>v</I>.
+	</ol>
+	<!--    </ol>
+
+    <h3> Programming: background subtraction </h3>
+      
+   <p> Download the video frames bg.zip from the page of example videos.-->
+   <p><li> Download the video frames bg.zip from the page of example videos.
+       <ol>
+	<p><li> Write a function that will compute the average image of all images in the current directory. Show this color image, and show a grayscale version of it (computed by averaging the R, G, and B channels together).
+        <p><li> Pick 3 random frames with people in them. Show these three images. Below, you experiment with different background subtraction algorithms, and show results for these three images. [5 pts]
+        <p><li> <b> Average background image:</b> Let av(x,y) be the [R G B]' vector of the average image at position (x,y). Let I(x,y) by the RGB value of one of the above frames at the same position. Define b(x,y) = ||av(x,y) - I(x,y)||^2 > t. Experiment with different thresholds t. Show results for two different t, providing explanations for where the algorithm fails and succeeds. [10 pts]
+	<p><li> <b> Frame differencing:</b> Implement the frame differencing algorithm, where one thresholds the difference between two pixels from neighboring frames T frames apart. Using the best threshold t found above, experiment with different frame distances T. Show results for two different T, providing explanations for where the algorithm fails and succeeds. [10 pts]
+	<p><li> <b> 3-frame differencing:</b> Implement the 3-frame differencing algorithm, where one computes the intersection of two binary  masks obtained by frame-differencing. Experiment with different values of T. Show results for two T, providing an explanation for where it fails and succeeds. [10 pts]
+        <p><li> <b> Adapative background modeling:</b> Implement adaptive background subtraction, where one adaptively updates a background image by taking a weighted average of the background image used in the previous frame and the current image. Experiment with different weighted averages. Show results for two averaging ratios, providing an explanation for where the approach fails and succeeds. [10 pts]
+
+	<p><li> (Extra-credit) Extract frames from an additional video clip (say, from a webcam) and show the above results. [5 pts]
+   </ol>
+   <h3> Hints </h3>
+    <ul>
+    <p><li> Be sure to do the necessary typecasting (uint8 and double) when working with or
+    displaying the images. Some useful functions: title, subplot, imagesc, imshow, std,
+    mean, imread, rgb2gray, dir.
+    <p><li> This code fragment can be used to loop through all the image files in one directory (here
+      assuming your images are in a sub-directory named images, with .jpg extension):
+    <pre>
+      filelist = dir('images/*.jpg');
+      for i=1:length(filelist)
+               imname = ['images/' filelist(i).name];
+               nextim = imread(imname);
+      . . .
+      end
+    </pre>
+    <p><li>Read in <a href="../../submission.html">instructions</a> for submitting homeworks. In particular, follow the advice on printing images 
+    </ul>
+
+    <h3> Acknowledgements</h3>
+    <p> This assignment was originally prepared by Kristen Grauman.
+      
+    <hr>
+  </body>
+</html>
+

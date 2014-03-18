@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/multiple-media/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>Extreme Stories: 6</title>
+		<link>http://ngs.ics.uci.edu/extreme-stories-6/</link>
+		<comments>http://ngs.ics.uci.edu/extreme-stories-6/#comments</comments>
+		<pubDate>Sun, 19 Feb 2012 15:56:56 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Technical Thoughts]]></category>
+		<category><![CDATA[emerging stories]]></category>
+		<category><![CDATA[multiple media]]></category>
+		<category><![CDATA[Storytelling]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1395</guid>
+		<description><![CDATA[So how do people tell stories when they have lots of events that are seemingly related to the what needs to be told but telling everything in gory details makes a story boring and may be counterproductive to the goal&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>So how do people tell stories when they have lots of events that are seemingly related to the what needs to be told but telling everything in gory details makes a story boring and may be counterproductive to the goal of the storyteller.  Another common constraint is the time or space available.  Thus, a storyteller must â€˜coverâ€™ all important events that make for a compelling story under given constraints and for each of those events it must use the experience of the event to maximize the interestingness of the story.  This is not a easy problem to solve.  It requires two important â€˜selection decisionsâ€™ and a rendering challenge.  The first decision is to select n events out of m where m may be much larger than n and the second decision is which experience associated with the event are best for the goal.  Another challenge is related to threading or rendering these experiences using multiple media in a proper sequence to make the most impact.<br />
+In good old days, life was simple.  Stories either had only text, or audio, or video.  In most cases, the experience was not even concretely collected, it was more based on the memory of the storyteller or was created based on the imagination â€“ which in turn could be based on some memories &#8212;  and had to be rendered using only one medium.<br />
+Advances in capture mechanisms as well as ease in rendering multiple media easily means that people collect more and diverse experiential event data and they collect more events.  That has a very interesting effect on society.  More people are interested in storytelling using real event data collected for events.  More stories are being told using real data collected by more people.  Also, more people are becoming storytellers.  In a sense, applications like Path, tiny reviews, Instagram, Foursquare, and FitBits are encouraging more people to tell more data-driven stories.  At this stage, many of these applications seem to be in early stage and are very exciting.  But we have a tendency to get used to the initial excitement and then want more either from the same or develop new applications that will take us farther.  Todays exciting technology becomes tomorrows routine and becomes unsatisfactory day-after-tomorrow.<br />
+Current popular applications are related to predominantly one medium related to an event.  More sophisticated applications like making videos or creating albums or creating scrapbooks are way too tedious and time consuming and are based on last centuryâ€™s technology.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/extreme-stories-6/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
+

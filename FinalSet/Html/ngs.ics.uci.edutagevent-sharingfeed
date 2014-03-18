@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Ramesh Jain</title>
+	<atom:link href="http://ngs.ics.uci.edu/tag/event-sharing/feed/" rel="self" type="application/rss+xml" />
+	<link>http://ngs.ics.uci.edu</link>
+	<description>Entrepreneur, Researcher, and Teacher</description>
+	<lastBuildDate>Tue, 24 Sep 2013 20:56:05 +0000</lastBuildDate>
+	<language>en-US</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>VisR: Silent helper to Organize Visual memories of Events</title>
+		<link>http://ngs.ics.uci.edu/visr-silent-helper-to-organize-visual-memories-of-events/</link>
+		<comments>http://ngs.ics.uci.edu/visr-silent-helper-to-organize-visual-memories-of-events/#comments</comments>
+		<pubDate>Sun, 21 Aug 2011 14:46:54 +0000</pubDate>
+		<dc:creator><![CDATA[Ramesh]]></dc:creator>
+				<category><![CDATA[Entrepreneurism]]></category>
+		<category><![CDATA[Experiential Computing]]></category>
+		<category><![CDATA[event sharing]]></category>
+		<category><![CDATA[photo management]]></category>
+		<category><![CDATA[photo sharing]]></category>
+
+		<guid isPermaLink="false">http://ngs.ics.uci.edu/blog/?p=1370</guid>
+		<description><![CDATA[VisR has new version available on Android phones. The new version works effortlessly on your android mobile phones. Even if you don&#8217;t take photos using VisR, but other cameras &#8212; including the native camera &#8212; that put photos in the&#8230; ]]></description>
+				<content:encoded><![CDATA[<p>VisR has new version available on Android phones.  The new version works effortlessly on your android mobile phones.  Even if you don&#8217;t take photos using VisR, but other cameras &#8212; including the native camera &#8212; that put photos in the gallery of the phone, VisR will organize them in events, will allow you to search them based on type of events, people, places, and dates.  You can also edit events and annotate them.  The system helps you even when you did not use it to take and organize photos explicitly.  It acts like your personal butler &#8212; always working for you.  You can also share events (all or some photos) on facebook, twitter, or using email.  VisR is for sharing Visual Events, not just photos.</p>
+<p>This system is also supported by the back end where all your shared photos are collected and you can share them with any body.  Photos from all users will also be available there and you could visualize them based on multiple search criteria.  </p>
+<p>And the system is currently in its very early version.  All capabilities will be refined soon and new powerful introduced.  So if you have an android, download it from marketplace and enjoy.   For iPhone users, please wait for a bit more.</p>
+<p>(Disclaimer:  I am a co-founder of mChron, whis is behind VisR.)</p>
+]]></content:encoded>
+			<wfw:commentRss>http://ngs.ics.uci.edu/visr-silent-helper-to-organize-visual-memories-of-events/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+	</channel>
+</rss>
+

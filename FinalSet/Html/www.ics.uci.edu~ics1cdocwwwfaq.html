@@ -1,0 +1,2476 @@
+<HTML>
+<HEAD>
+<TITLE>World Wide Web FAQ</TITLE>
+</HEAD>
+<BODY>
+<H1>World Wide Web Frequently Asked Questions</H1>
+<p> This copy at UC Irvine is for use in 
+<a HREF="/~ics1c/">ICS 1C, Winter 1995.</A> </p>
+<P><em>This document resides on the World Wide Web on Sunsite
+<A HREF="http://sunsite.unc.edu/boutell/faq/www_faq.html">
+(URL is <code>http://sunsite.unc.edu/boutell/faq/www_faq.html </code>)</A></EM>.
+</P>
+<P>
+If you are unfamiliar with the term "URL", read on and learn!
+</P>
+<P>
+<strong>
+Last update: 1/23/95
+</strong>
+</P>
+<A NAME="contents">
+<H2>Contents</H2>
+</A>
+<UL>
+<LI> <A HREF="#changes">1: Recent changes to the FAQ</A>
+<LI> <A HREF="#meta-info">2: Information about this document</A>
+<LI>3: Elementary Questions
+<UL>
+<LI> <A HREF="#www-hypertext">3.1: What are WWW, hypertext and hypermedia?</A>
+<LI> <A HREF="#url">3.2: What is a URL?</A>
+<LI> <A HREF="#sgmlhtml">3.3: What are SGML and HTML?</A>
+<LI> <A HREF="#compare">3.4: How does WWW compare to gopher and WAIS?</A>
+<LI> <A HREF="#books">3.5: Are there books about the web?</A>
+</UL>
+<LI>4: Accessing the Web (User Questions)
+<UL>
+<LI><A HREF="#introuser">4.1: Introduction: How can I access the web? (Even by email!)</A>
+<LI> <A HREF="#browsers">4.2: Browsers Accessible by Telnet</A>
+<LI> <A HREF="#obtaining">4.3: Obtaining browsers</A>
+<UL>
+<LI> <A HREF="#obtainingwin">4.3.1: MS Windows, IBM OS/2 and MS Windows NT browsers</A>
+<LI> <A HREF="#obtainingdos">4.3.2: MSDOS browsers</A>
+<LI> <A HREF="#obtainingmac">4.3.3: Macintosh browsers</A>
+<LI> <A HREF="#obtainingamiga">4.3.4: Amiga browsers</A>
+<LI> <A HREF="#obtainingnext">4.3.5: NeXTStep browsers</A>
+<LI> <A HREF="#obtainingx">
+4.3.6: X/DecWindows (graphical UNIX, VMS) browsers</A>
+<LI> <A HREF="#obtainingunix">4.3.7: Text-based Unix and VMS browsers</A>
+<LI> <A HREF="#obtainingvmcms">4.3.8: VM/CMS browsers</A>
+<LI> <A HREF="#obtainingbatch">4.3.9: Batch-mode "browsers"</A>
+</UL>
+<LI> <A HREF="#firewall">4.4: How can I access the web through a firewall?</A>
+<LI> <A HREF="#out-there">4.5: What is on the web?</A>
+<UL>
+<LI> <A HREF="#newspapers">4.5.1: How do I find out what's new on the web?</A>
+<LI> <A HREF="#catalogs">4.5.2: Where is the subject catalog of the web?</A>
+<LI> <A HREF="#websearch">4.5.3: How can I search through ALL web sites?</A>
+</UL>
+<LI> <A HREF="#getimage">4.6: How can I save an inline image to disk?</A>
+<LI> <A HREF="#winsound">
+4.7: How can I get sound from the PC speaker with WinMosaic?</A>
+<LI> <A HREF="#nowais">
+4.8: I have a Windows PC (or a Macintosh). Why can't I open WAIS URLs?</A>
+<LI> <A HREF="#noviewers">
+4.9: I'm running XMosaic. Why can't I get external viewers working?</A>
+<LI> <A HREF="#robots">
+4.10: Hey, I know, I'll write a WWW-exploring robot! Why not?</A>
+<LI> <A HREF="#newshtml">
+4.11: How do I send newsgroup posts in HTML to my web client?</A>
+<LI> <A HREF="#tia">
+4.12: I can't get SLIP. I want Mosaic. Is there a way? (YES!)</A>
+</UL>
+<LI>5: Providing Information to the Web (Provider Questions)
+<UL>
+<LI><A HREF="#provide">5.1: How can I provide information to the web?</A>
+<LI><A HREF="#obtainsrv">5.2: Obtaining Servers</A>
+<UL>
+<LI><A HREF="#obtainsrvunix">5.2.1: Unix Servers</A>
+<LI><A HREF="#obtainsrvmac">5.2.2: Macintosh Servers</A>
+<LI><A HREF="#obtainsrvwin">5.2.3: MS Windows, IBM OS/2 and MS Windows NT Servers</A>
+<LI><A HREF="#obtainsrvdos">5.2.4: MSDOS and Novell Netware Servers</A>
+<LI><A HREF="#obtainsrvvms">5.2.5: VMS Servers</A>
+<LI><A HREF="#obtainsrvamiga">5.2.6: Amiga Servers</A>
+<LI><A HREF="#obtainsrvvmcms">5.2.7: VM/CMS Servers</A>
+<LI><A HREF="#srvchart">5.2.8: Yeah, but which is best?</A>
+</UL>
+<LI> <A HREF="#prodhtml">5.3: Producing HTML documents</A>
+<UL>
+<LI> <A HREF="#writehtml">5.3.1: Writing HTML directly</A>
+<LI> <A HREF="#edithtml">5.3.2: HTML editors</A>
+<LI> <A HREF="#converthtml">5.3.3: Converting other formats to HTML</A>
+<LI> <A HREF="#validation">5.3.4: Checking your HTML for errors</A>
+</UL>
+<LI> <A HREF="#announcing">5.4: How do I publicize my work?</A>
+<LI> <A HREF="#leasing">5.5: Can I buy space on an existing server?</A>
+<LI> <A HREF="#speed">5.6: How fast does my net connection have to be?</A>
+<LI>5.7: Advanced Provider Questions
+<UL>
+<LI> <A HREF="#imagemap">5.7.1: How do I set up a clickable image map?</A>
+<LI> <A HREF="#quiet">5.7.2: How do I make a "link" that doesn't load a new page?</A>
+<LI> <A HREF="#forms">5.7.3: Where can I learn how to create fill-out forms?</A>
+<UL>
+<LI> <A HREF="#hidden">5.7.3.1: How can I create hidden fields in forms (keeping state)?</A>
+<LI> <A HREF="#emailform">5.7.3.2: How can users email me through their browsers?</A>
+</UL>
+<LI> <A HREF="#htmlcomments">
+5.7.4: How do I comment an HTML document?</A> 
+<LI> <A HREF="#htmltables">
+5.7.5: How can I create decent-looking tables and stop using 
+&lt;PRE>...&lt;/PRE>?</A>
+<LI> <A HREF="#htmlplus">
+5.7.6: What is HTML Level 3 and where can I learn more about it?</A>
+<LI> <A HREF="#transparent">
+5.7.7: How can I make interlaced and transparent GIFs? And what are they?</A>
+
+<LI> <A HREF="#nomailto">
+5.7.8: How come mailto: URLs don't work?</A>
+<LI> <A HREF="#security">
+5.7.9: How can I restrict and control access to my server?</A>
+<LI> <A HREF="#jpeg">
+5.7.10: Which format is better for WWW images, JPEG or GIF?</A>
+<LI> <A HREF="#mirror">
+5.7.11: How can I mirror part of another server?</A>
+<LI> <A HREF="#serverrobots">
+5.7.12: How can I keep robots off my server?</A>
+<LI> <A HREF="#stats">
+5.7.13: How can I keep statistics about my web site?</A>
+<LI> <A HREF="#owncode">
+5.7.14: How can I generate web pages on the fly from a program?</A>
+<UL>
+<LI> <A HREF="#gd">
+5.7.14.1: How can I generate GIF images on the fly from my CGI programs?</A>
+</UL>
+</UL>
+</UL>
+<LI>6: Where can I discuss the Web?
+<UL>
+<LI> <A HREF="#newsgroups">6.1: USENET Newsgroups</A>
+<LI> <A HREF="#mailing">6.2: Mailing Lists</A>
+</UL>
+<LI> <A HREF="#more">7: I want to know more.</A>
+<LI> <A HREF="#credits">8: Credits</A>
+</UL>
+<H1><A NAME="changes">1: Recent additions and changes to the FAQ</A></H1>
+<UL>
+<LI><A HREF="#validation">Added htmlchek to validation section</A>
+<LI><A HREF="#transparent">Added information on interlaced GIFs</A>
+<LI><A HREF="#wnserver">Added information on the WN Server</A>
+<LI><A HREF="#owncode">Added information on CGI script authoring</A>
+<LI><A HREF="#gd">Added information on the gd GIF-generating library</A>
+<LI><A HREF="#emailform">Updated email links section</A>
+<LI><A HREF="#books">More books!</A>
+<LI><A HREF="#slipknot">Slipknot section updated</A>
+<LI><A HREF="#netware">GLACI-HTTPD, a WWW server for Novell Netware</A>
+<LI><A HREF="#mailing">WWW mailing lists section</A>
+<LI><A HREF="#gwhite">Updated URL for Gabriel White's HTML editor reviews</A>
+<LI><A HREF="#webexplorer">IBM OS/2 WebExplorer</A>
+<LI><A HREF="#mapmaker">MapMaker: From xv's Visual Schnauzer to an imagemap</A>
+<LI><A HREF="#newsgroups">Added comp.infosystems.www.announce</A>
+<LI><A HREF="#browsersarena">Added the Arena browser</A>
+</UL>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H1><A NAME="meta-info">2: Information about this document</A></H1>
+
+This is an introduction to the World Wide Web project, describing the
+concepts, software and access methods.  It is aimed at people who know
+a little about navigating the Internet, but want to know more about
+WWW specifically.  If you don't think you are up to this level, try an
+introductory Internet book such as Ed Krol's "The Whole Internet"
+or "EFF's Guide to the Internet". The latter is available
+electronically by anonymous FTP from 
+<A HREF="ftp://ftp.eff.org/pub/Net_info/EFF_Net_Guide">ftp.eff.org</A>
+in the directory
+pub/Net_info/EFF_Net_Guide.
+<P>
+
+This informational document is posted to <A
+HREF="news:news.answers">news.answers</A>, <A
+HREF="news:comp.infosystems.www.users">comp.infosystems.www.users</A>, <A
+HREF="news:comp.infosystems.www.providers">comp.infosystems.www.providers</A>, <A
+HREF="news:comp.infosystems.www.announce">comp.infosystems.www.announce</A>, <A
+HREF="news:comp.infosystems.www.misc">comp.infosystems.www.misc</A>, <A
+HREF="news:comp.infosystems.gopher">comp.infosystems.gopher</A>, <A
+HREF="news:comp.infosystems.wais">comp.infosystems.wais</A> and <A
+HREF="news:alt.hypertext">alt.hypertext</A> every four days
+(please allow a day or two for it to propagate to your
+site).  The latest and best version is always available on the web as 
+<A HREF="http://sunsite.unc.edu/boutell/faq/www_faq.html"> 
+http://sunsite.unc.edu/boutell/faq/www_faq.html </A>, and
+is mirrored in Japan (URL is
+<A HREF="http://www.glocom.ac.jp/mirror/sunsite.unc.edu/boutell/faq/www_faq.html">
+http://www.glocom.ac.jp/mirror/sunsite.unc.edu/boutell/faq/www_faq.html 
+</A>).
+<A HREF="#url">(see section 3.2, "What is a URL?"</A> to
+understand what this term means.) If you run a mirror site which
+automatically mirrors this document, please submit the URL
+for inclusion in the list of mirrors. Thanks to both
+Sunsite and Glocom.<P>
+This document is also available by anonymous FTP from
+ftp.netcom.com in the directory pub/bo/boutell/faq.
+<P>
+In addition, the most recently posted version of this document is kept on the <A
+HREF="file://rtfm.mit.edu/pub/usenet/news.answers">news.answers
+archive on rtfm.mit.edu</A> in <A
+HREF="file://rtfm.mit.edu/pub/usenet/news.answers/www/faq">/pub/usenet/news.answers/www/faq</A>.
+For information on FTP, send e-mail to
+<em>mail-server@rtfm.mit.edu</em> with:
+<PRE>
+send usenet/news.answers/finding-sources
+</PRE>
+in the body (not subject line) of your message, instead of asking me.<P>
+<P>
+If you want the HTML version but are located behind a firewall,
+you can acquire it from <A HREF="#webbymail">CERN's WWW email server</A>. Send mail
+to listproc@www0.cern.ch with the following single line
+in the body (leave the subject blank):
+<P>
+<code>
+source http://sunsite.unc.edu/boutell/faq/www_faq.html 
+</code>
+<P>
+<A HREF="http://sunsite.unc.edu/boutell/index.html">Thomas Boutell</A>
+maintains this document.  Feedback about it is to be
+sent via e-mail to boutell@netcom.com.<P>
+
+In all cases, regard this document as out of date.  Definitive
+information should be on the web, and static versions such as this
+should be considered unreliable at best.  The most up-to-date
+version of the FAQ is the version maintained on the web.
+Please excuse any formatting
+inconsistencies in the posted version of this document, as it is
+automatically generated from the on-line version.<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+
+<H1>3: Elementary questions</H1>
+<H2><A NAME="www-hypertext">3.1: What are WWW, hypertext and hypermedia?</A></H2>
+
+WWW stands for "World Wide Web".  The WWW project, started by <A
+HREF="http://info.cern.ch/">CERN</A> (the European Laboratory for
+Particle Physics), seeks to build a distributed hypermedia system.<P>
+<P>
+The advantage of hypertext is that in a hypertext document, if you
+want more information about a particular subject mentioned,
+you can usually "just click on it" to read further detail. In fact,
+documents can be and often are linked to other documents by completely
+different authors -- much like footnoting, but you can get the
+referenced document instantly!
+<P>
+To access the web, you run a <A
+HREF="#introuser">browser
+program</A>.  The browser reads documents, and can fetch documents
+from other sources.  Information providers set up <A
+HREF="http://info.cern.ch/hypertext/WWW/Daemon/Overview.html">hypermedia
+servers</A> which browsers can get documents from.<P>
+
+The browsers can, in addition, access files by <A
+HREF="http://hoohoo.ncsa.uiuc.edu:80/ftp-interface.html">FTP</A>, <A
+HREF="news:*">NNTP (the Internet news protocol)</A>, <A
+HREF="gopher://gopher.micro.umn.edu:70/11/Information%20About%20Gopher">gopher</A>
+and <A
+HREF="http://info.cern.ch/hypertext/DataSources/ByAccess.html">an
+ever-increasing range of other methods</A>.  On top of these, if the
+server has search capabilities, the browsers will permit <A
+HREF="http://info.cern.ch/hypertext/Products/WAIS/Overview.html">searches
+of documents and databases</A>.<P>
+
+The documents that the browsers display are hypertext documents.
+Hypertext is text with pointers to other text.  The browsers let you
+deal with the pointers in a transparent way -- select the pointer, and
+you are presented with the text that is pointed to. <P>
+
+Hypermedia is a superset of hypertext -- it is any medium with
+pointers to other media.  This means that browsers might not display a
+text file, but might display images or sound or animations.  <P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+
+<H2><A NAME="url">3.2: What is a URL?</A></H2>
+
+URL stands for "Uniform Resource Locator".  It is a draft standard for
+<A
+HREF="http://info.cern.ch/hypertext/WWW/Addressing/Addressing.html">specifying
+an object on the Internet</A>, such as a file or newsgroup.  <P>
+
+URLs look like this: (file: and ftp: URLs are synonymous.) 
+<UL>
+<LI> file://wuarchive.wustl.edu/mirrors/msdos/graphics/gifkit.zip
+<LI> ftp://wuarchive.wustl.edu/mirrors
+<LI> http://info.cern.ch:80/default.html 
+<LI> news:alt.hypertext
+<LI> telnet://dra.com
+</UL><P>
+
+The first part of the URL, before the colon, specifies the access
+method.  The part of the URL after the colon is interpreted specific
+to the access method.  In general, two slashes after the colon
+indicate a machine name (machine:port is also valid).  
+<P>
+When you are told to "check out this URL", what to do next
+depends on your browser; please check the help for your
+particular browser. For the line-mode browser at CERN,
+which you will quite possibly use first via telnet,
+the command to try a URL is "GO URL" (substitute the
+actual URL of course). In Lynx you just select the
+"GO" link on the first page you see; in graphical
+browsers, there's usually an "Open URL" option in the menus.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H2><A NAME="sgmlhtml">3.3: What are SGML and HTML?</A></H2>
+Documents on the World Wide Web are written in a simple
+"markup language" called HTML, which stands for
+Hypertext Markup Language. See <A HREF="#prodhtml">
+section 5.3</A> for more information about creating
+HTML documents for use on the web.
+<P>
+SGML is a much broader language which is used to define
+particular markup languages for particular purposes.
+HTML is just a specific application of SGML.
+You can learn more about SGML, and the rationale behind
+HTML, by reading A Gentle Introduction to SGML (URL is
+<A HREF="http://etext.virginia.edu/bin/tei-tocs?div=DIV1%26id=SG">
+ http://etext.virginia.edu/bin/tei-tocs?div=DIV1%26id=SG </A>),
+a document provided by the Text Encoding Initiative. 
+(<em>Note:</em> Some browsers apparently crash on this URL.
+There's nothing wrong with the document; try another browser
+if you have problems.)
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H2><A NAME="compare">3.4: How does WWW compare to gopher and WAIS?</A></H2>
+
+While all three of these information presentation systems are
+client-server based, they differ in terms of their model of data.  In
+gopher, data is either a menu, a document, an index or a telnet
+connection.  In WAIS, everything is an index and everything that is
+returned from the index is a document.  In WWW, everything is a
+(possibly) hypertext document which may be searchable.<P>
+
+In practice, this means that WWW can represent the gopher (a menu is a
+list of links, a gopher document is a hypertext document without
+links, searches are the same, telnet sessions are the same) and WAIS
+(a WAIS index is a searchable page, returning a document with no
+links) data models as well as providing extra functionality.<P>
+
+World Wide Web usage grew far beyond Gopher usage in the
+last few months, according to the statistics-keepers of the Internet backbone.
+(Of course, World Wide Web browsers can also access Gopher
+servers, which inflates the numbers for the latter.)
+WWW has long since reached critical mass, with new
+commercial and noncommercial sites appearing daily.<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H2><A NAME="books">3.5: Are there books about the web?</A></H2>
+<P>
+Yes, quite a few. A brief list follows. <em>New entries are solicited.</em>
+Please include ISBN numbers and/or ordering information.
+<P>
+<DL>
+<DT>The Mosaic Handbook (Mac, Windows and X editions)
+<DD>
+From O'Reilly. A short, sweet guide to the World Wide Web from a
+Mosaic user's perspective. Mac and Windows versions Include Enhanced NCSA 
+Mosaic on floppy disk; the X Window System version includes NCSA Mosaic
+on CD-ROM. Telnet or gopher to gopher.ora.com (log in as gopher) or
+find details on the web (URL is 
+<A HREF="http://gnn.com/ora/">http://gnn.com/ora/ </A>). Wherever
+fine X Window System books and Nutshell Guides are sold.
+<DT>The World Wide Web Unleashed
+<DD>
+From Sams Publishing. By John December and Neil Randall. Additional
+chapters contributed by others; I wrote the chapter on HTML editors and
+filters. Covers both user and provider issues in detail. 
+Supporting pages available on the web
+(URL is <A HREF="http://www.rpi.edu/~decemj/works/wwwu.html">
+http://www.rpi.edu/~decemj/works/wwwu.html </A>). 1057 pages.
+ISBN: 0-672-30617-4. Call 1-800-428-5331 or +1-317-581-3500
+for ordering information.
+<DT>Spinning the Web: How to Provide Information on the Internet
+<DD>
+From Van Nostrand Reinhold. By Andrew Ford. Oriented toward
+those with an interest in putting their data on the web.
+ISBN: 1-850-32141-8 (New York), 0-442-01962-9 (London).
+Available in December 1994.
+<DT>Teach Yourself Web Publishing with HTML in a Week
+<DD>
+From Sams Publishing. By Laura Lemay. Also oriented toward
+those who plan to publish materials on the web.
+ISBN: 0-672-30667-0. 400 pages. Includes information on
+setting up servers and handling forms results as well as
+HTML writing and editing.
+<A HREF="http://slack.lne.com/lemay/theBook/index.html">(URL is:
+http://slack.lne.com/lemay/theBook/index.html )</A>
+Available December 22nd, 1994. Call 1-800-428-5331 or
++1-317-581-3500 for
+ordering information.
+<DT>The HTML Manual of Style
+<DD>
+From Ziff-Davis Press. By Larry Aronson. Chapters: introduction
+to the WWW, the HTML language, writing HTML documents, and
+HTML examples. 120 pages. Available in December 1994. 
+<DT>The Internet via Mosaic and World-Wide Web
+<DD>
+From Ziff-Davis Press. By Steve Browne.
+Details on obtaining Mosaic and Trumpet Winsock, getting it all set up, 
+and what to do with it once it works.
+A chapter of interesting sites on the Web as well.
+ISBN: 1-56276-259-1. 
+<DT>MOSAIC Quick Tour
+<DD>
+From Ventana Press. By Gareth Branwyn. A good guide to installing
+and using NCSA Mosaic under Windows. Includes basic HTML and
+trouble-shooting chapters. "More hand-holding than the
+FAQ and gives lots of details." - Mari J. Stoddard
+<DT>Managing Internet Information Services
+<DD>From O'Reilly and Associates. By Cricket Liu, 
+Jerry Peek, Russ Jones, Bryan Buus &amp; Adrian Nye.
+A good choice for those who will be installing
+and maintaining WWW servers; also includes documentation
+on HTML, imagemaps and the like. Also covers other types
+of Internet services.
+<DT>Hands-On Mosaic: A Guide for Window Users                                       
+<DD>From Prentice Hall. By Dr. David Sachs & Henry Stair.
+ISBN: 0-13-172321-9.
+<DT>HTML Authoring for Fun &amp; Profit
+<DD>From Prentice Hall. By Mary Morris.
+Jan 1995. ISBN: 0-13-359290-1.
+<DT> 
+NCSA Mosaic Handbook
+<DD>From Prentice Hall. By Amy K. Kreiling &amp; Frank Baker.
+Jan 1995. ISBN: 0-13-196692-8.
+<DT>Plug-n-Play Mosaic for Windows
+<DD>From Sams. By Angela Gunn. ISBN 0-672-30627-1. 300         
+pages. Disks include a special version of Enhanced NCSA Mosaic
+for Windows with built-in TCP/IP Winsock and dialer, and an automated
+configuration program (hence "plug-n-play"). The book is an introduction
+to Mosaic and the Web with some coverage of creating a home page and HTML
+and, of course, the obligatory directory of Web sites. 
+<DT>Using Mosaic                                                                    
+<DD>From Que. Ed. by Que Development Group. ISBN: 0-7897-0021-2.
+Covers NCSA Mosaic for Windows and the Macintosh.
+<DT>Using the World Wide Web
+<DD>From Que. Ed. by Que Development Group. ISBN: 0-7897-0016-6.                
+<DT>Mosaic User's Guide
+<DD>From MIS Press. By Bryan Pfaffenberger. ISBN: 1-55828-409-5.
+<DT>Using Mosaic for Windows
+<DD>From Electric Avenue Press. By Stephen Gauer. ISBN: 0-969-8853-0-X.
+</DL>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H2><A NAME="introuser">4.1: Introduction: how can I access the web?</A></H2>
+
+You have three options: use a browser on your own machine
+(the best option), use a browser that can be telnetted to
+(not as good), or access the web by email (the least
+attractive, but for some it's the only way).
+It is always best to run a browser
+on your own machine, unless you absolutely cannot do so; but feel
+free to telnet to a browser for your first look at the web, or
+use email if the telnet command does not work on your system
+(<em>try it first!</em>). Note that "your machine" can be
+defined as a system you dial into from home, such as netcom or
+another account provider. Running a text-based browser on such a
+system is still preferable to telnetting to a faraway site.
+<P>
+<A NAME="webbymail">
+The following sections cover telnetting to a browser and
+obtaining your own browser; if neither of these are possible
+for you (because you have only an email-and-news connection
+to the Internet), here is how to access a web page by email:
+</A>
+<P>
+Send email to <code>server@mail.w3.org</code> (preferred) or to 
+<code>listserv@info.cern.ch</code> (older address if the first fails) 
+containing the following single line. (What you put on the subject line
+doesn't matter; blank is OK. This line should go in the text
+of the message.) You will receive as a reply a simple page intended 
+to help you learn more about the Web.
+<PRE>
+send http://www.earn.net/gnrt/www.html 
+</PRE>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H2><A NAME="browsers">4.2: Browsers accessible by telnet</A></H2>
+
+An up-to-date list of these is available on the Web as <A
+HREF="http://info.cern.ch/hypertext/WWW/FAQ/Bootstrap.html">http://info.cern.ch/hypertext/WWW/FAQ/Bootstrap.html </A>
+and should be regarded as an authoritative list.
+
+<DL>
+<DT>telnet.w3.org<DD>
+A telnettable browser provided
+by the W3 coalition.
+<DT>www.cc.ukans.edu<DD>              
+   Offers Lynx, a full screen browser which requires a vt100 terminal.
+   Log in as www. Does not allow users to "go" to arbitrary
+   URLs, so <A HREF="#lynx">GET YOUR OWN COPY</A> of Lynx and
+   install it on your system if your administrator has not
+   done so already. The best plain-text browser, so move mountains 
+   if necessary to get your own copy of Lynx! 
+<DT>www.njit.edu<DD>
+   (or telnet 128.235.163.2) Log in as www. A full-screen browser
+   in New Jersey Institute of Technology. USA.
+<DT>www.huji.ac.il<DD>
+   A dual-language Hebrew/English
+   database, with links to the rest of the world. The line mode
+   browser, plus extra features. Log in as www. Hebrew
+   University of Jerusalem, Israel.
+<DT>sun.uakom.cs<DD>
+   Slovakia. Has a slow link, only use from nearby.
+<DT>info.funet.fi<DD>
+   (or telnet 128.214.6.102).  Log in as www.  Offers several
+   browsers, including Lynx (goto option is disabled there also).
+<DT>fserv.kfki.hu<DD>
+  Hungary. Has slow link, use from nearby. Login is as www.
+
+</DL>
+
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H2><A NAME="obtaining">4.3: Obtaining browsers</A></H2>
+
+The preferred method of access of the Web is to run a browser
+yourself.  Browsers are available for many platforms, both in source
+and executable forms.  Here is a list generated from the authoritative
+list, <A HREF="http://info.cern.ch/hypertext/WWW/Clients.html">http://info.cern.ch/hypertext/WWW/Clients.html </A>.<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+
+<H3><A NAME="obtainingwin">4.3.1: Microsoft Windows browsers</A></H3>
+<P>NOTE: Most of these browsers require that you have SLIP, PPP 
+or other TCP/IP networking on your PC. The sole exception
+is <A HREF="#slipknot">SlipKnot</A>, which has 
+limited features but operates well without a proper Internet
+connection. SLIP or PPP can be accomplished 
+over phone lines. You can do this one of two ways: using a
+proper SLIP account, which requires the active cooperation of your 
+network provider or educational institution, or using 
+<A HREF="#tia">The Internet Adapter (section 4.12)</A>, a product
+which simulates SLIP through your dialup Unix shell account. If you 
+only have non-Unix based dialup shell access, or have no PC
+at home, your best option at this time is to run 
+<A HREF="#lynx">Lynx</A> on the VMS (or Unix, or...) system you call, 
+or <A HREF="#browsers">telnet to a browser</A> if you cannot do so.
+<DL>
+<DT><A
+HREF="http://info.cern.ch/hypertext/WWW/Windows/Status.html">Cello</A>
+<DD> Browser from Cornell LII. Available by anonymous FTP from
+<A HREF="ftp://ftp.law.cornell.edu/pub/LII/cello">
+ftp.law.cornell.edu</A> in the directory /pub/LII/cello. 
+<DT><A
+HREF="http://info.cern.ch/hypertext/WWW/MosaicForWindows/Status.html">Mosaic for Windows</A>
+<DD> From NCSA. Available by anonymous FTP from
+<A HREF="ftp://ftp.ncsa.uiuc.edu/PC/Windows/Mosaic">
+ftp.ncsa.uiuc.edu</A> in the directory PC/Windows/Mosaic.
+<DT><A
+NAME="winweb" HREF="http://www.einet.net/EINet/WinWeb/WinWebHome.html">
+WinWeb</A>
+<DD> From EINet. Available by anonymous FTP from
+<A HREF="ftp://ftp.einet.net/einet/pc/winweb/">
+ftp.einet.net</A> in the directory /einet/pc/winweb as
+the file winweb.zip.
+<DT>
+<A HREF="http://home.mcom.com/info/index.html">
+Netscape</A>
+<DD>From Netscape Communications Corp 
+(URL is: http://home.mcom.com/info/index.html ). 
+Downloads and displays images incrementally while you read pages, 
+which also display incrementally, making it the best browser at
+the time of this writing for those who connect to the
+web via modems. Also supports many extensions to
+HTML, although not all conform to the
+<A HREF="#htmlplus">proposed standard</A>. Netscape 
+is a commercial product but can be evaluated free of charge for an unlimited
+period of time by individuals. 
+Netscape supports some of the official extended HTML tags as well
+as its own variations.
+The 16-bit version works under both OS/2 and Windows.
+Available by anonymous FTP from the following
+sites (use the mirror closest to you; see the URL above
+for the latest list):
+<UL>
+<LI><A HREF="ftp://ftp.mcom.com/netscape/">ftp://ftp.mcom.com/netscape/</A>
+<LI><A HREF="ftp://ftp.uu.net/networking/info-service/www/mcc/">ftp://ftp.uu.net/networking/info-service/www/mcc/</A>
+<LI><A HREF="ftp://ftp.digital.com/pub/net/infosys/Netscape/">ftp://ftp.digital.com/pub/net/infosys/Netscape/</A> 
+<LI><A HREF="ftp://ftp.icsi.net/pub/packages/netscape/">ftp://ftp.icsi.net/pub/packages/netscape/</A>
+<LI><A HREF="ftp://www.sandia.gov/Netscape/">ftp://www.sandia.gov/Netscape/</A> 
+<LI><A HREF="ftp://lark.cc.ukans.edu/Netscape/">ftp://lark.cc.ukans.edu/Netscape/</A> 
+<LI><A HREF="ftp://www.jsc.nasa.gov/pub/netscape/">ftp://www.jsc.nasa.gov/pub/netscape/</A> 
+<LI><A HREF="ftp://ftp.meer.net/pub/Netscape/">ftp://ftp.meer.net/pub/Netscape/</A> 
+<LI><A HREF="ftp://src.doc.ic.ac.uk/packages/Netscape/">ftp://src.doc.ic.ac.uk/packages/Netscape/</A> 
+</UL>
+<DT>
+<A NAME="spry" HREF="http://www.spry.com/airmos.html">
+Spry Mosaic</A>
+<DD> From Spry. Available by anonymous FTP from
+<A HREF="ftp://ftp.spry.com/AirMosaicDemo">
+ftp.spry.com</A> in the directory AirMosaicDemo as the file
+AMOSDEMO.EXE. Spry Mosaic is a 
+commercial product but a demonstration version is available and can be
+registered inexpensively. Works under Windows and OS/2. Supports
+the mailto: URL, transparent GIFs, ALT tags, 
+hierarchical hotlists, etc.
+<DT>
+<A NAME="booklink" HREF="ftp://ftp.booklink.com/lite">
+Booklink</A>
+<DD> From Booklink. Available by anonymous FTP
+from <A HREF="ftp://ftp.booklink.com/lite">
+ftp.booklink.com</A> in the directory
+<code>lite</code>; this is a demonstration version
+of the full browser, which costs $99. Booklink
+can open many simultaneous connections in
+different windows and display images and
+pages progressively; at the time of this
+writing it is the only browser to equal
+Netscape in this area. The "lite" version can
+only open two simultaneous connections, however.
+<DT>
+<A NAME="slipknot" HREF="http://www.interport.net/slipknot/slipknot.html">
+SlipKnot</A>
+<DD>
+SlipKnot is the only graphical WWW browser that operates
+entirely without SLIP, PPP, an Ethernet connection, or
+special server-side software
+(but consider <A HREF="#tia">TIA, section 4.12</a> for another
+workaround). SlipKnot supports multiple fonts, inline
+images, and review of documents you have already received
+while new documents arrive, and it operates entirely
+through your regular Unix shell account. SlipKnot does
+<strong>not</strong> require that you install any new
+software on your Unix shell account. (However, it is lacking
+certain important features as a result, such as forms
+and validation; this will keep you from accessing some web pages.
+SlipKnot does support the &lt;ISINDEX> tag, which many sites
+support as a simpler alternative to forms.)
+You can obtain SlipKnot by anonymous FTP from ftp.netcom.com
+in the directory <A HREF="ftp://ftp.netcom.com/pub/pbrooks/slipknot/slnot100.zip">
+pub/pbrooks/slipknot</A> or from
+oak.oakland.edu in the directory 
+<A HREF="ftp://oak.oakland.edu/SimTel/win3/internet/slnot100.zip">SimTel/win3/internet</A>.
+For more information,
+see the SlipKnot information page
+(URL is <A HREF="http://www.interport.net/slipknot/slipknot.html">
+http://www.interport.net/slipknot/slipknot.html </A>) or send
+a blank email message to slipknot@micromind.com.
+<DT><A NAME="webexplorer" HREF="ftp://ftp01.ny.us.ibm.net/pub/WebExplorer/">IBM OS/2 WebExplorer</A>
+<DD>A native IBM OS/2 web browser. WebExplorer is a multithreaded application
+and replaces the usual "back" and "forward" buttons with a visual map of your
+exploration of the web. IBM WebExplorer can be acquired by anonymous
+FTP from ftp01.ny.us.ibm.net in the directory pub/WebExplorer/ .
+</DL>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="obtainingdos">4.3.2: MSDOS browsers</A></H3>
+<P>NOTE: These browsers require that you have SLIP, PPP 
+or other TCP/IP networking on your PC. SLIP or PPP can be accomplished 
+over phone lines. You can do this one of two ways: using a
+proper SLIP account, which requires the active cooperation of your 
+network provider or educational institution, or using 
+<A HREF="#tia">The Internet Adapter (section 4.12)</A>, a product
+which simulates SLIP through your dialup Unix shell account. If you 
+only have non-Unix based dialup shell access, or have no PC
+at home, your best option at this time is to run 
+<A HREF="#lynx">Lynx</A> on the VMS (or Unix, or...) system you call, 
+or <A HREF="#browsers">telnet to a browser</A> if you cannot do so.
+<DL>
+<DT>
+<A HREF="ftp://ftp2.cc.ukans.edu/pub/WWW/DosLynx/">
+DosLynx</A>
+<DD>DosLynx is an excellent text-based browser for use on
+DOS systems. You must have a level 1 packet driver, or
+an emulation thereof, or you will only be able to browse
+local files; essentially, if your PC has an Ethernet
+connection, or you have SLIP, you should be able to use it. 
+DosLynx can view GIF images, but not when they are inline
+images (as of this writing).
+See the README.HTM file at the DosLynx site for details.
+You can obtain DosLynx by anonymous FTP from ftp2.cc.ukans.edu in the
+directory pub/WWW/DosLynx; the URL is
+<A HREF="ftp://ftp2.cc.ukans.edu/pub/WWW/DosLynx/">
+ftp://ftp2.cc.ukans.edu/pub/WWW/DosLynx/</A>.
+</DL>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="obtainingmac">4.3.3: Macintosh browsers</A></H3>
+<P>NOTE: These browsers require that you have SLIP, PPP 
+or other TCP/IP networking on your PC. SLIP or PPP can be accomplished 
+over phone lines. You can do this one of two ways: using a
+proper SLIP account, which requires the active cooperation of your 
+network provider or educational institution, or using 
+<A HREF="#tia">The Internet Adapter (section 4.12)</A>, a product
+which simulates SLIP through your dialup Unix shell account. If you 
+only have non-Unix based dialup shell access, or have no PC
+at home, your best option at this time is to run 
+<A HREF="#lynx">Lynx</A> on the VMS (or Unix, or...) system you call, 
+or <A HREF="#browsers">telnet to a browser</A> if you cannot do so.
+<DL>
+<DT><A
+HREF="http://www.ncsa.uiuc.edu/SDG/Software/MacMosaic/MacMosaicHome.html">
+Mosaic for Macintosh</A>
+<DD> From NCSA. Full
+featured. Available by anonymous FTP from
+<A HREF="ftp://ftp.ncsa.uiuc.edu/Mac/Mosaic">
+ftp.ncsa.uiuc.edu</A> in the directory Mac/Mosaic.
+<DT>
+<A HREF="http://home.mcom.com/info/index.html">
+Netscape</A>
+<DD>From Netscape Communications Corp 
+(URL is: http://home.mcom.com/info/index.html ). 
+Downloads and displays images incrementally while you read pages, 
+which also display incrementally, making it the best browser at
+the time of this writing for those who connect to the
+web via modems. Also supports many extensions to
+HTML, although not all conform to the
+<A HREF="#htmlplus">proposed standard</A>. Netscape 
+is a commercial product but can be evaluated free of charge for an unlimited
+period of time by individuals. 
+Available by anonymous FTP from the following
+sites (use the mirror closest to you; see the URL above
+for the latest list):
+<UL>
+<LI><A HREF="ftp://ftp.mcom.com/netscape/ ">ftp://ftp.mcom.com/netscape/</A>
+<LI><A HREF="ftp://ftp.uu.net/networking/info-service/www/mcc/">ftp://ftp.uu.net/networking/info-service/www/mcc/</A>
+<LI><A HREF="ftp://ftp.digital.com/pub/net/infosys/Mosaic_Comm/Netscape/">ftp://ftp.digital.com/pub/net/infosys/Mosaic_Comm/Netscape/</A> 
+<LI><A HREF="ftp://ftp.icsi.net/pub/packages/netscape/">ftp://ftp.icsi.net/pub/packages/netscape/</A>
+<LI><A HREF="ftp://www.sandia.gov/Netscape/">ftp://www.sandia.gov/Netscape/</A> 
+<LI><A HREF="ftp://lark.cc.ukans.edu/Netscape/">ftp://lark.cc.ukans.edu/Netscape/</A> 
+<LI><A HREF="ftp://www.jsc.nasa.gov/pub/netscape/">ftp://www.jsc.nasa.gov/pub/netscape/</A> 
+<LI><A HREF="ftp://ftp.meer.net/pub/Netscape/">ftp://ftp.meer.net/pub/Netscape/</A> 
+<LI><A HREF="ftp://src.doc.ic.ac.uk/packages/Netscape/">ftp://src.doc.ic.ac.uk/packages/Netscape/</A> 
+</UL>
+<DT><A
+HREF="http://info.cern.ch/hypertext/WWW/Macintosh/Status.html">Samba</A>
+<DD> From CERN.  Basic.
+Available by anonymous FTP from 
+<A HREF="ftp://info.cern.ch/pub/www/bin/mac">
+info.cern.ch</A> in the directory /ftp/pub/www/bin as the file mac.
+
+<DT><A HREF="http://galaxy.einet.net/EINet/MacWeb/MacWebHome.html">MacWeb</A>
+<DD> From <A HREF="http://galaxy.einet.net/EINet/EINet.html">EINet</A>.
+Has features that Mosaic lacks; lacks some features that Mosaic has.
+Available by anonymous FTP from <A
+HREF="ftp://ftp.einet.net/einet/mac/macweb/">ftp.einet.net</A> in the
+directory einet/mac/macweb.
+</DL>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3> <A NAME="obtainingamiga">4.3.4: Amiga browsers</A></H3>
+<DL>
+<DT>
+<A HREF="http://insti.physics.sunysb.edu/AMosaic/home.html">
+AMosaic</A>
+<DD>Browser for AmigaOS, based on NCSA's Mosaic. 
+Supports older Amigas as well as the newer machines in the latest
+versions; available for anonymous ftp from max.physics.sunysb.edu 
+in the directory /pub/amosaic, or from aminet sites in /pub/aminet/comm/net.
+see the site for details. See the URL
+<A HREF="http://insti.physics.sunysb.edu/AMosaic/home.html">
+http://insti.physics.sunysb.edu/AMosaic/home.html </A>.
+<DT>
+<A HREF="#emacsw3">
+Emacs-W3</A>
+<DD>
+The Emacs-W3 browser works under Gnu Emacs on the Amiga
+(see section 4.3.7).
+</DL>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="obtainingnext">4.3.5: NeXTStep browsers</A></H3>
+<P>
+Note: NeXTStep systems can also run <A HREF="#obtainingx">X-based browsers
+</A> using one of the widely used X server products for the NeXT. 
+The browsers listed here, by contrast, are native NeXTStep applications.
+<DL>
+<DT>SpiderWoman
+<DD>A brand-new (as of 12/94), multithreaded, graphical browser for NeXTStep.
+Available by anonymous FTP from
+sente.epfl.ch in the directory <A HREF="ftp://sente.epfl.ch/pub/software">
+pub/software</A>. 
+<DT><A HREF="http://www.omnigroup.com/">OmniWeb</A>
+<DD>A World Wide Web browser for NeXTStep. The URL for more information is
+<A HREF="http://www.omnigroup.com/">http://www.omnigroup.com/</A>; 
+you can ftp the package from
+ftp.omnigroup.com in the /pub/software/ directory.
+<DT><A HREF="http://info.cern.ch/hypertext/WWW/NeXT/Status.html">
+WorldWideWeb, CERN's NeXT Browser-Editor</A>
+<DD> A browser/editor
+for NeXTStep. <strong>Currently out of date; editor not operational.</strong>
+Allows wysiwyg hypertext
+editing.  Requires NeXTStep 3.0. Available for
+anonymous FTP from <A HREF="ftp://info.cern.ch/pub/www/bin/next">
+info.cern.ch</A> in the directory /pub/www/src. 
+</DL>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="obtainingx">
+4.3.6: X/DecWindows (graphical UNIX, VMS) browsers</A></H3>
+<DL>
+<DT><A
+HREF="http://www.ncsa.uiuc.edu/SDG/Software/Mosaic/NCSAMosaicHome.html">
+NCSA Mosaic for X</A>
+<DD> Unix browser using X11/Motif.
+The original multimedia browser. Full http 1.0 support including PUT-method forms,
+image maps, etc. Recent beta versions have limited support for tables.
+Available by anonymous FTP from
+<A HREF="ftp://ftp.ncsa.uiuc.edu/Mosaic">
+ftp.ncsa.uiuc.edu</A> in the directory Mosaic.
+<DT><A
+HREF="http://www.ncsa.uiuc.edu/SDG/Software/Mosaic/NCSAMosaicHome.html">
+NCSA Mosaic for VMS</A> 
+<DD> Browser using X11/DecWindows/Motif. For the VMS operating system.
+Full http 1.0 support including PUT-method forms,
+image maps, etc. Probably the best browser available for VMS. Available by
+anonymous FTP from
+<A HREF="ftp://ftp.ncsa.uiuc.edu/Mosaic">
+ftp.ncsa.uiuc.edu</A> in the directory Mosaic.
+<DT>
+<A HREF="http://home.mcom.com/info/index.html">
+Netscape</A>
+<DD>From Netscape Communications Corp 
+(URL is: http://home.mcom.com/info/index.html ). 
+Downloads and displays images incrementally while you read pages, 
+which also display incrementally, making it the best browser at
+the time of this writing for those who connect to the
+web via modems. Also supports many extensions to
+HTML, although not all conform to the
+<A HREF="#htmlplus">proposed standard</A>. Netscape 
+is a commercial product but can be evaluated free for
+an indefinite period of time by individuals.
+use by individuals. Version 0.9 (available to the
+Available by anonymous FTP from the following
+sites (use the mirror closest to you; see the URL above
+for the latest list):
+<UL>
+<LI><A HREF="ftp://ftp.mcom.com/netscape/ ">ftp://ftp.mcom.com/netscape/</A>
+<LI><A HREF="ftp://ftp.uu.net/networking/info-service/www/mcc/">ftp://ftp.uu.net/networking/info-service/www/mcc/</A>
+<LI><A HREF="ftp://ftp.digital.com/pub/net/infosys/Mosaic_Comm/Netscape/">ftp://ftp.digital.com/pub/net/infosys/Mosaic_Comm/Netscape/</A> 
+<LI><A HREF="ftp://ftp.icsi.net/pub/packages/netscape/">ftp://ftp.icsi.net/pub/packages/netscape/</A>
+<LI><A HREF="ftp://www.sandia.gov/Netscape/">ftp://www.sandia.gov/Netscape/</A> 
+<LI><A HREF="ftp://lark.cc.ukans.edu/Netscape/">ftp://lark.cc.ukans.edu/Netscape/</A> 
+<LI><A HREF="ftp://www.jsc.nasa.gov/pub/netscape/">ftp://www.jsc.nasa.gov/pub/netscape/</A> 
+<LI><A HREF="ftp://ftp.meer.net/pub/Netscape/">ftp://ftp.meer.net/pub/Netscape/</A> 
+<LI><A HREF="ftp://src.doc.ic.ac.uk/packages/Netscape/">ftp://src.doc.ic.ac.uk/packages/Netscape/</A> 
+</UL>
+<DT><A NAME="browsersquadralay"
+HREF="http://www.quadralay.com/products/products.html#gwhis">
+Quadralay GWHIS Viewer (Commercial Mosaic)</A>
+<DD>
+Quadralay offers a commercial-grade (not free!) version of Mosaic for
+Unix systems, with Windows and Macintosh versions expected
+in the future. <A HREF="http://www.quadralay.com/products/products.html#gwhis">
+(URL is: <code>http://www.quadralay.com/products/products.html#gwhis</code>)
+</A>
+<DT><A NAME="browserstkwww"
+HREF="http://info.cern.ch/hypertext/WWW/TkWWW/Status.html">
+tkWWW Browser/Editor for X11</A>
+<DD> Unix Browser/Editor
+for X11. (Beta test version.) Available for anonymous
+ftp from
+<A HREF="ftp://harbor.ecn.purdue.edu/pub/tcl/extensions/">
+harbor.ecn.purdue.edu</A> in the directory tkwww[extension] (followed
+by an extension possibly dependent on the current version).
+Please ftp to the site and look for the latest version (or use
+the link above). 
+Supports WSYIWYG HTML editing.
+<DT><A
+HREF="http://info.cern.ch/hypertext/WWW/MidasWWW/Status.html">
+MidasWWW</A> Browser
+<DD> A Unix/X browser from Tony Johnson.
+(Beta, works well.)
+<DT>
+<A NAME="viola" HREF="http://xcf.berkeley.edu/ht/projects/viola/README">
+Viola for X (Beta)</A>
+<DD>Viola has two versions for Unix/X: one using Motif, one using 
+Xlib (no Motif). Handles HTML Level 3 forms and tables. Has 
+extensions for multiple 
+columning, collapsible/expandable list, client-side document
+include. Available by anonymous FTP from ora.com in /pub/www/viola.
+More information available at the URL
+<A HREF="http://xcf.berkeley.edu/ht/projects/viola/README">
+http://xcf.berkeley.edu/ht/projects/viola/README</A>.
+<DT>
+<A HREF="http://www.unlv.edu/chimera/">Chimera</A>
+<DD> Unix/X Browser using Athena (doesn't require Motif). Supports 
+forms, inline images, etc.; closest to Mosaic in feel of the non-Motif
+X11 browsers.
+Available for anonymous FTP from <A HREF="ftp://ftp.cs.unlv.edu/pub/chimera">
+ftp.cs.unlv.edu</A> in the directory /pub/chimera.
+<DT> Emacs w3 mode
+<DD>
+The Emacs w3 mode supports multiple fonts, color, inline images,
+movies, and the whole nine yards when run under a graphical
+version of emacs; see <A HREF="#emacsw3">section 4.3.7</A>.
+<DT><A NAME="browsersarena" HREF="http://www.w3.org/hypertext/WWW/Arena/">Arena</A>
+<DD>
+Arena's primary purpose is to be a testbed for <A HREF="#htmlplus">HTML Level 3</A> 
+documents. As a result, Arena supports many of the new and interesting features of
+HTML Level 3. As of this writing it is still in prerelease and expectations
+should be set accordingly! Available by anonymous FTP from
+ftp.w3.org in the directory pub/www/arena/ .
+</DL>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H4><A NAME="obtainingunix">4.3.7: Text-mode Unix and VMS browsers</A></H4>
+<P>These are text-based browsers for Unix (and in some cases
+also VMS) systems. In many cases your system administrator
+will have already installed one or more of these packages;
+check before compiling your own copy.
+<DL>
+<DT><A
+HREF="http://info.cern.ch/hypertext/WWW/LineMode/Status.html">
+Line Mode Browser</A>
+<DD> This program gives
+W3 readership to anyone with a dumb
+terminal. A general purpose information
+retrieval tool. Available by anonymous ftp from
+<A HREF="ftp://info.cern.ch/pub/www/src">info.cern.ch</A>
+ in the directory /pub/www/src.
+<DT><A NAME="lynx"
+HREF="http://info.cern.ch/hypertext/WWW/Lynx/Status.html">
+The "Lynx" full screen browser</A>
+<DD> This is
+a hypertext browser for vt100s using
+full screen, arrow keys, highlighting,
+etc. Available by anonymous FTP from
+<A HREF="ftp://ftp2.cc.ukans.edu">ftp2.cc.ukans.edu</A>.
+<DT><A
+HREF="http://info.cern.ch/hypertext/WWW/FineWWW/Status.html">
+Tom Fine's perlWWW</A>
+<DD> A tty-based browser
+written in perl. Available by anonymous FTP from
+<A HREF="ftp://archive.cis.ohio-state.edu/pub/w3browser">
+archive.cis.ohio-state.edu</A> in the directory
+pub/w3browser as the file w3browser-0.1.shar.
+<DT><A
+HREF="http://info.cern.ch/hypertext/WWW/RashtyClient/Status.html">For VMS</A>
+<DD> Dudu Rashty's full screen
+client based on VMS's SMG screen
+management routines. Available by anonymous FTP
+from <A HREF="ftp://vms.huji.ac.il">vms.huji.ac.il</A>
+in the directory www/www_client. 
+<DT><A NAME="emacsw3">Emacs w3-mode</A>
+<DD>
+A WWW browser for emacs.  Runs under Xwindows, NeXTstep, VMS,
+OS/2, Windows NT, Windows 3.1, AmigaDOS, or just about any
+Unix system.  Also has fonts, color, inline images, and mouse
+support if using Lemacs, Epoch, or Emacs 19.  Also works in
+local mode under DOS and on the Macintosh.
+Available by anonymous ftp from 
+<a href="ftp://ftp.cs.indiana.edu/pub/elisp/w3">
+ftp.cs.indiana.edu</a> in the directory pub/elisp/w3.
+</DL>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="obtainingvmcms">4.3.8: VM/CMS Browsers</A></H3>
+<DL>
+<DT><A HREF="ftp://gopher.ufl.edu/pub/vm/www/">Albert</A>
+<DD>
+A WWW browser for the VM/CMS operating system. Available
+by anonymous FTP from 
+<A HREF="ftp://gopher.ufl.edu/pub/vm/www/">gopher.ufl.edu</A> 
+in the directory pub/vm/www/. 
+</DL>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="obtainingbatch">4.3.9: Batch-Mode "Browsers"</A></H3>
+<DL>
+<DT>
+<A HREF="http://wwwhost.cc.utexas.edu/test/zippy/url_get.html">
+Batch mode browser</A>
+<DD>
+A batch-mode "browser", url_get, which is available through the
+URL 
+<A HREF="http://www.utexas.edu/~zippy/url_get.html">
+http://www.utexas.edu/~zippy/url_get.html </A>. It can
+be retrieved via anonymous FTP to ftp.cc.utexas.edu, as
+the file /pub/zippy/url_get.tar.Z.
+This package is intended for use in cron jobs and other
+settings in which fetching a page in a command-line fashion is
+useful.
+</DL>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H2> <A NAME="firewall">4.4: How can I access the web through a firewall?
+</A>
+</H2>
+A "proxy server" is a specialized HTTP server which (typically) runs on a firewall 
+machine, providing access to the outside world for people inside the
+firewall.  <A HREF="http://info.cern.ch/httpd">The CERN httpd</A> can be
+configured to run as a proxy.  Furthermore, it is able to perform
+caching of documents, resulting in faster response times. <P>
+<P>
+If you cannot arrange to run a proxy server (definitely the 
+recommended approach), read on:
+<P>
+For information on using NCSA Mosaic from behind a firewall, please
+read the following. In general, browsers can be made useful behind
+firewalls through the use of a package called "SOCKS"; the source
+must be modified slightly and rebuilt to accommodate this. Whenever
+possible, work <em>with</em> your network administrators
+to solve the problem, not against them.
+<P>
+An excerpt from the NCSA Mosaic FAQ:
+<P>
+   NCSA Mosaic requires a direct internet connection to work, but some
+   folks have put together a package that works behind firewalls. This is
+   <em>completely unsupported</em> by NCSA, but here is the latest announcement:
+<BLOCKQUOTE>
+     <em>November 15, 1993:</em> C&amp;C Software Technology Center (CSTC) of NEC
+     Systems Lab has made available a version of SOCKS, a package for
+     running Internet clients from behind firewalls without breaching
+     security requirements, that includes a suitably modified version of
+     Mosaic for X 2.0. <em>Beware: such a version is not supported by NCSA;
+     we can't help with questions or problems arising from the
+     modifications made by others.</em> But, we encourage you to check it out
+     if it's interesting to you. Questions and problem notifications can
+     be sent to Ying-Da Lee (<em>ylee@syl.dl.nec.com</em>).
+</BLOCKQUOTE>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H2><A NAME="out-there">4.5: What is on the web?</A></H2>
+
+Currently accessible through the web:
+<UL>
+<LI> anything served through gopher
+<LI> anything served through WAIS
+<LI> anything on an FTP site
+<LI> anything on Usenet
+<LI> anything accessible through telnet
+<LI> anything in hytelnet
+<LI> anything in hyper-g
+<LI> anything in techinfo
+<LI> anything in texinfo
+<LI> anything in the form of man pages
+<LI> sundry hypertext documents
+</UL>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="newspapers">4.5.1: How do I find out what's new on the web?</A></H3>
+<DL>
+<DT>comp.infosystems.www.announce
+<DD>The newsgroup <A HREF="news:comp.infosystems.www.announce">
+comp.infosystems.www.announce</A> carries announcements of new resources
+on the World Wide Web. Since newsgroups are distributed, it can be accessed
+reliably even when the net is very busy. 
+<DT>What's New With NCSA Mosaic
+<DD>The unofficial newspaper of the World Wide Web is
+<A HREF="http://www.ncsa.uiuc.edu/SDG/Software/Mosaic/Docs/whats-new.html">
+What's New With NCSA Mosaic</A>
+(URL is http://www.ncsa.uiuc.edu/SDG/Software/Mosaic/Docs/whats-new.html ),
+which carries announcements of new servers on the web and also of
+new web-related tools. This should be in your hot list if you're
+not using Mosaic (which can access it directly through the help menu).
+<DT>comp.internet.net-happinings
+<DD>You can also check out the newsgroup <A HREF="news:comp.internet.net-happenings">
+comp.internet.net-happenings</A>, which carries WWW announcements and many
+other Internet-related announcements.
+</DL>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="catalogs">4.5.2: Where is the subject catalog of the web?
+</A></H3>
+There are several. There is no mechanism inherent in the web which
+forces the creation of a single catalog (although there is work
+underway on automatic mechanisms to catalog web sites). The
+best-known catalog, and the first, is 
+<A HREF="http://info.cern.ch/hypertext/DataSources/bySubject/Overview.html">
+The WWW Virtual Library</A>
+(URL is http://info.cern.ch/hypertext/DataSources/bySubject/Overview.html ),
+maintained by CERN. The Virtual Library is a good place to find resources 
+on a particular subject, and has separate maintainers for many
+subject areas.
+<P>
+There is also a newer cataloging system called
+<A HREF="http://web.nexor.co.uk/aliweb/doc/aliweb.html">ALIWEB</A>
+that requires very little effort to maintain and is growing
+rapidly (URL is http://web.nexor.co.uk/aliweb/doc/aliweb.html ).
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="websearch">4.5.3: How can I search through ALL web sites?
+</A></H3>
+Several people have written robots which create indexes of web sites --
+including sites which have not arranged to be mentioned in the
+newspapers and catalogs above. (Before writing your own robot,
+please <A HREF="#robots">read the section on robots.</A>)
+<P>
+Here are a few such automatic indexes you can search:
+<UL>
+<LI><A HREF="http://webcrawler.cs.washington.edu/WebCrawler/WebQuery.html">
+WebCrawler</A> 
+(URL is http://webcrawler.cs.washington.edu/WebCrawler/WebQuery.html ) 
+builds an impressively complete index; on the other
+hand, since it indexes the content of documents, it may find many
+links that aren't exactly what you had in mind. However, it does a good
+job of sorting the documents it finds according to how closely they
+match your search.
+<LI><A HREF="http://www.cs.colorado.edu/home/mcbryan/WWWW.html">
+World Wide Web Worm (URL is http://www.cs.colorado.edu/home/mcbryan/WWWW.html )
+</A> builds its index based on page titles and URL contents only.
+This is somewhat less inclusive, but pages it finds are more likely
+to be an exact match with your needs.
+<LI><A HREF="http://fuzine.mt.cs.cmu.edu/mlm/lycos-home.html">
+Lycos</A> (URL is http://fuzine.mt.cs.cmu.edu/mlm/lycos-home.html ) is another
+web-indexing robot, which includes the ability to submit the URLs of
+your own documents by hand, ensuring that they are available for
+searching.
+</UL>
+You can read about other robots in the <A HREF="#robots">
+robots section</A>.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H2><A NAME="getimage">4.6: How can I save an inline image to disk?</A></H2>
+
+<P>Here are two ways:
+
+<P>1. Turn on "load to local disk" in your browser, if it has such an
+option; then reload images. You'll be prompted for filenames
+instead of seeing them on the screen. Be sure to shut it off
+when you're done with it.
+
+<P>2. Choose "view source" and browse through the HTML source; find
+the URL for the inline image of interest to you; copy and paste it
+into the "Open URL" window. This should load it into your
+image viewer instead, where you can save it and otherwise
+muck about with it.
+
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H2><A NAME="winsound">
+4.7: How can I get sound from the PC speaker with WinMosaic?</A></H2>
+<P>
+This piece of wisdom donated by Hunter Monroe:
+
+<P>
+This section explains how to install sound on a PC which already has
+a working version of Mosaic for Microsoft Windows.  Be warned in
+advance that the results may be poor.
+<P>
+To get Mosaic to produce sound out of the PC speaker, first, you
+need a driver for the speaker.  You can <A HREF="ftp://ftp.microsoft.com/Softlib/MSLFILES/SPEAK.EXE">get the Microsoft speaker driver</A>
+from the URL ftp://ftp.microsoft.com/Softlib/MSLFILES/SPEAK.EXE
+or by doing an Archie search to find it somewhere else. 
+SPEAK.EXE is a self-extracting file.  Copy the speak.exe file to
+a new directory, and then type "SPEAK" at the DOS prompt.  Do not
+put the file SPEAKER.DRV in a separate directory from OEMSETUP.INF.
+<P>
+Now, you need to install the driver.  In Windows, from the
+Program Manager choose successively Main/Control
+Panel/Drivers/Add/Unlisted or updated drivers/(enter path of
+SPEAK.EXE)/PC Speaker.  At this point some strange sounds
+come out as the driver is initialized.  Change the settings to
+improve the sound quality on the various sounds: tada, chimes,
+etc.  Click OK when you are finished and choose the Restart
+windows option.
+<P>
+Having installed the speaker driver, you will now get sounds
+whenever you start Windows, make a mistake, or exit Windows.  If
+you do not want this, from the Main/Control
+Panel/Sounds menu, make sure there is no X next to "Enable System
+Sounds."
+<P>
+Now, you need a sound viewer program that Mosaic can call to
+display sounds.  NCSA unfortunately recommend WHAM, which does
+not work well with a PC speaker.  Get the program WPLANY instead.
+You can find a copy nearby with an Archie search on the string
+"wplny"; the current version is WPLNY09B.ZIP. For details on
+archie and other basic issues related to FTP, please read
+the Usenet newsgroup <A HREF="news:news.announce.newusers">
+news.announce.newusers</A>.
+<P>
+Move the zip file to a new directory, and use an unzip program
+like pkunzip to unzip it, producing the files WPLANY.EXE and
+WPLANY.DOC.  Then edit the MOSAIC.INI file to remove the "REM"
+before the line "TYPE9=audio/basic".  Then, you need lines in the
+section below that read something like:
+audio/basic="c:\wplany\wplany.exe %ls"
+audio/wav="c:\wplany\wplany.exe %ls"
+where you have filled in the correct path for wplany.exe.  The
+MOSAIC.INI file delivered with Mosaic may have NOTEPAD.EXE on the
+audio/basic line, but this will not work.  Now, restart Mosaic,
+and you should now be able to produce sounds.  To check this,
+with Mosaic choose File/Local File/\WINDOWS\*.WAV and then try
+to play TADA.WAV.  Then, you might try the Mosaic Demo document
+for some .AU sounds, but you are lucky if your speaker produces
+something you can understand.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H2><A NAME="nowais">4.8: I have a Windows PC or Macintosh. Why can't
+I access WAIS URLs?</A></H2>
+<P>
+This answer provided by Michael Grady (m-grady@uiuc.edu):
+<P>
+   The version of Mosaic for X has "wais client" code built-in to it. This
+   was relatively easy for the developers to do, because there was already
+   a set of library routines for talking to WAIS available for Unix as
+   "public domain" (freeWAIS). I don't think there is such a library of
+   routines for PC/Windows or Mac, which would make it much more difficult
+   for the Mosaic versions for Windows and the Mac to add "wais client"
+   capability. Therefore, at least for now, neither the Windows or Mac
+   versions of Mosaic support direct query of a WAIS server (i.e. can act
+   as wais clients themselves).
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H2><A NAME="noviewers">
+4.9: I'm running XMosaic. Why can't I get external viewers working...</A></H2>
+... No matter what no matter what I do to my
+.mailcap and .mime.types files?
+<P>
+Answer provided by Ronald E. Daniel (rdaniel@acl.lanl.gov):
+<blockquote>
+<P>
+Mosaic only looks at the .mime.types file if it has no idea what the
+document's type is. This is actually a very rare situation. Essentially
+all servers now use the HTTP/1.0 protocol, which means that they tell
+Mosaic (or other browsers) what the document's MIME Content-type is. The
+servers use a file very much like Mosaic's .mime.types file to infer the
+Content-type from the filename's extension.
+<P>
+It is pretty simple to find out if this really is the problem. Use telnet to
+talk to the server and find out if it is assigning a MIME type to the
+document in question. Here's an example, looking at the home page for my
+server. (idaknow: is my shell prompt)
+<pre>
+  idaknow: telnet www.acl.lanl.gov 80  // Connect to the httpd server
+  Trying 128.165.148.3 ...
+  Connected to www.acl.lanl.gov.
+  Escape character is '^]'.
+  HEAD /Home.html  HTTP/1.0             // replace Home.html  with your document
+                                       // you supply the blank line
+  HTTP/1.0 200 OK                      // the rest of this comes from the server  Date: Wednesday, 25-May-94 19:18:11 GMT
+  Server: NCSA/1.1
+  MIME-version: 1.0
+  Content-type: text/html              // Here's the MIME Content-type
+  Last-modified: Monday, 16-May-94 16:21:58 GMT
+  Content-length: 1727
+
+  Connection closed by foreign host.
+  idaknow: 
+</pre>
+In the example above, /Home.html  will get http://www.acl.lanl.gov/Home.html .
+<P>
+
+Normally servers will be configured to supply a Content-type of text/plain
+if they don't know what else to do. If this is the problem you are having,
+take a look at the 
+<A HREF="http://hoohoo.ncsa.uiuc.edu/docs/setup/httpd/TypesConfig.html"> 
+TypesConfig documentation</A> for
+<A HREF="http://hoohoo.ncsa.uiuc.edu/docs/Overview.html"> 
+NCSA's httpd</A>.
+You can have the server look at the filename extension, supply the
+correct Content-type, then use your local .mailcap file to tell Mosaic
+what viewer to use to look at the document.
+</blockquote>
+Russ Segal adds:
+<blockquote>
+The answer from Ronald Daniel is essentially correct, but it needs a
+small addendum.
+<P>
+When starting Moasic, you can specify a "fileProxy" which will fetch
+files for you:
+<P>
+    <code>"*fileProxy: http://socks/"</code>
+<P>
+If you do this, file: URLs are no longer strictly local accesses.  So
+even if the URL is not fttp:, the proxy server must be upgraded as Mr.
+Daniel suggests.
+</blockquote>       
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H2><A NAME="robots">
+4.10: Hey, I know, I'll write a WWW-exploring robot! Why not?</A></H2>
+Programs that automatically traverse the web can be quite useful,
+but have the potential to make a serious mess of things. Robots
+have been written which do a "breadth-first" search of the web,
+exploring many sites in a gradual fashion instead of aggressively 
+"rooting out" the pages of one site at a time. Some of these
+robots now produce excellent indexes of information available
+on the web.
+<P>
+But others have written simple depth-first searches which,
+at the worst, can bring servers to their knees in minutes
+by recursively downloading information from CGI script-based
+pages that contain an infinite number of possible links.
+(Often robots can't realize this!) Imagine what happens
+when a robot decides to "index" the CONTENTS of several
+hundred mpeg movies. Shudder.
+<P>
+The moral: a robot that does what you want may already exist;
+if it doesn't, please study the document
+<A HREF="http://web.nexor.co.uk/mak/doc/robots/robots.html">
+World Wide Web Robots, Wanderers and Spiders
+(URL is: http://web.nexor.co.uk/mak/doc/robots/robots.html )</A>
+and learn about the emerging standards for exclusion of robots
+from areas in which they are not wanted. You can also read
+about existing robots there.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H2><A NAME="newshtml">
+4.11: How do I send newsgroup posts in HTML to my web client?</A></H2>
+How to do this depends greatly on your system; if you have a Mac
+or Windows system, the answer is completely different. But, as
+food for thought, here is a simple shell script I use on my Unix
+account to send posts from rn and related newsreaders to 
+<A HREF="#lynx">Lynx</A>. Put this text in the file
+"readwebpost" and use the "chmod" command to make it executable,
+then put it somewhere in your path (such as your personal
+bin directory):
+<PRE>
+#!/bin/sh
+echo \&lt;PRE\> > .article.html 
+cat >> .article.html 
+echo \&lt;/PRE\> >> .article.html 
+lynx .article.html  &lt; /dev/tty
+rm .article.html 
+</PRE>
+Then add the following line to your .rnmac file (create it if you
+don't already have one):
+<PRE>
+W     |readwebpost %C
+</PRE>
+Now, when you press "W" while reading a post in rn, a message will be sent to 
+Lynx, and the links enclosed in it will be live. 
+<P>
+Larry W. Virden provides the following version which invokes Mosaic
+instead, and is also capable of communicating with an already-running
+copy of Mosaic instead of launching another. (You can use the same
+rn macro as above, invoking "goto-xm" instead of "readwebpost".)
+Read the comments for details on the assumptions made by the script.
+<PRE>
+#! /bin/sh
+# goto-xm, by Joseph T. Buck &lt;jbuck@eecs.berkeley.edu>
+# Modified heavily by Larry W. Virden &lt;lvirden@cas.org>
+# Script for use with newsreaders such as trn.  Piping the article
+# through this command causes xmosaic to pop up, pointing to the
+# article.  If an existing xmosaic (version 1.1 or later) exists,
+# the USR1 method will be used to cause it to point to the correct
+# article, otherwise a new one will be started.
+
+# assumptions: ps command works as is on SunOS 4.1.x, may need changes
+# on other platforms.
+
+URL=`/bin/grep '^Message-ID:' | /bin/sed -e 's/.*&lt;/news:/' -e 's/>.*//'`
+if [ "X$URL" = "X" ]; then
+        echo "USAGE: $0 [goto] [once] &lt; USENET_msg" >&amp;2
+        exit 1
+fi
+
+pid=`ps -xc | egrep '[Mm]osaic' | awk 'NR == 1 {print $1}'`
+p=`which Mosaic`
+gfile=/tmp/Mosaic.$pid
+
+$p "$URL" &amp;
+
+if      [ "$#" -gt 0 ] ; then
+  if    [ "$1" = "goto" -o "$1" = "same" ] ; then
+        shift
+        echo "goto"   > $gfile
+  else
+        echo "newwin" > $gfile
+  fi
+else
+        echo "newwin" > $gfile
+fi
+/bin/awk 'END { printf "'"$URL"'" }' &lt;/dev/null >> $gfile
+
+trap "echo signal encountered" 30
+kill -USR1 $pid
+
+exit 0
+</PRE>
+<P>
+See also 
+<A HREF="http://www.oac.uci.edu/indiv/ehood/mhonarc.doc.html">
+MosaicMail</A> (URL is http://www.oac.uci.edu/indiv/ehood/mhonarc.doc.html ),
+a Perl script which pipes email and/or news to your current Mosaic session.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H2><A NAME="tia">
+4.12: I can't get SLIP. I want Mosaic. Is there a way?</A></H2>
+YES! If you have a plain old Unix shell account on a Unix system, such 
+as a SunOS or Ultrix system, you can do one of two things:
+you can run <A HREF="#slipknot">SlipKnot</A>, a special browser
+which operates using programs that may already be installed
+on your shell account (see section 4.3.1), or you can
+run The Internet Adapter
+(TIA), a program which provides a pseudo-SLIP connection.
+The remainder of this section focuses on TIA.
+<P>
+TIA is <em>not</em> free software, but there is a free two-week
+trial period and it is very cheap to register.
+<P>
+"So what do I run on my machine at home?"
+<P>
+Exactly the same software you would use for real SLIP; as far
+as your PC is concerned, it <em>is</em> a SLIP connection.
+If you're unfamiliar with SLIP please check out a newsgroup
+relevant to your particular type of PC (Windows, Mac, etc).
+(This isn't restricted to common systems; because all the
+emulation happens on your Unix shell account, your client
+machine can run anything that supports SLIP.)
+<P>
+"Details, please! I'm confused."
+<P>
+Check out the TIA home page (URL is
+<A HREF="http://marketplace.com/tia/tiahome.html">
+http://marketplace.com/tia/tiahome.html </A>), or send email to info@marketplace.com
+and request details about TIA. 
+<P>
+If you have a Macintosh, check out the
+<A HREF="ftp://ftp.netcom.com/pub/bi/billa/tia/faq.html">
+Macintosh TIA Users' FAQ</A> (URL is: 
+ftp://ftp.netcom.com/pub/bi/billa/tia/faq.html ) for 
+additional help.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H1><A NAME="provide">5.1: How can I provide information to the web?</A></H1>
+<P>
+Information providers run programs that the browsers can obtain
+hypertext from.  These programs can either be WWW servers that
+understand the HyperText Transfer Protocol HTTP (best if you are
+creating your information database from scratch), "gateway" programs
+that convert an existing information format to hypertext, or a
+non-HTTP server that WWW browsers can access -- anonymous FTP or
+gopher, for example.<P>
+
+To learn more about World Wide Web servers, you can consult
+a 
+<A HREF="http://www.vuw.ac.nz/who/Nathan.Torkington/ideas/www-servers.html">
+www server primer by Nathan Torkington</A>, available at the URL
+http://www.vuw.ac.nz/who/Nathan.Torkington/ideas/www-servers.html .
+<P>
+If you only want to provide information to local users, placing your
+information in local files is also an option.  This means,
+however,  that there can be no off-machine access.<P>
+
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+
+<H2><A NAME="obtainsrv">5.2: Obtaining Servers</A></H2>
+Servers are available for Unix, Macintosh, MS Windows, Windows NT,
+OS/2, and VMS systems.
+If you know of a server for another operating system,
+please contact me.
+<P>
+See <A HREF="http://info.cern.ch/hypertext/WWW/Daemon/Overview.html">
+http://info.cern.ch/hypertext/WWW/Daemon/Overview.html </A> for more
+information on writing servers and gateways in general. 
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="obtainsrvunix">5.2.1: Unix Servers</A></H3>
+<DL>
+<DT>NCSA httpd
+<DD>NCSA has released a server, known as the NCSA httpd;
+it is available at the URL
+<A HREF="ftp://ftp.ncsa.uiuc.edu/Web/ncsa_httpd">
+ftp://ftp.ncsa.uiuc.edu/Web/ncsa_httpd </A>. 
+<DT>EIT httpd
+<DD>EIT has created the Webmaster's Starter Kit, which installs
+their WWW server on your system via the web through a painless
+forms interface. Recommended for those unfamiliar with
+server installation.  You can learn more about the starter
+kit and the EIT httpd at the <A HREF="http://wsk.eit.com/wsk/doc/">
+starter kit site</A> (URL is
+http://wsk.eit.com/wsk/doc/ ). 
+<DT>CERN httpd
+<DD>CERN's server is available for anonymous FTP from info.cern.ch 
+(URL is <A HREF="http://info.cern.ch/hypertext/WWW/Daemon/Status.html">
+<code>http://info.cern.ch/hypertext/WWW/Daemon/Status.html </code></A>) and 
+many other places. Use your local copy of archie to search for
+"www" in order to find a nearby site.
+<DT>GN Gopher/HTTP server
+<DD>The GN server is unique in that it can serve both WWW and
+Gopher clients (in their native modes). This is a good server for
+those migrating from Gopher to WWW, although it does not have the
+server-side-script capabilities of the NCSA and CERN servers.
+See the URL <A
+HREF="http://hopf.math.nwu.edu/">http://hopf.math.nwu.edu/. </A>
+<DT>Perl server
+<DD>There is also a server written in the Perl scripting language,
+called <A HREF="http://bsdi.com/server/doc/plexus.html">Plexus</A>,
+for which documentation is available at the URL 
+http://bsdi.com/server/doc/plexus.html .
+<DT><A NAME="wnserver">WN Server</A>
+<DD>The <A HREF="http://hopf.math.nwu.edu/docs/manual.html">WN Server</A>,
+available at the URL http://hopf.math.nwu.edu/docs/manual.html , is designed
+with an emphasis on security and flexibility, and takes a different
+approach from the NCSA and CERN servers. It provides text searching
+facilities as a standard feature.
+</DL>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="obtainsrvmac">5.2.2: Macintosh Servers</A></H3>
+There is a server for the Macintosh,
+<A HREF="http://www.uth.tmc.edu/mac_info/machttp_info.html">MacHTTP</A>,
+available at the URL http://www.uth.tmc.edu/mac_info/machttp_info.html .
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="obtainsrvwin">5.2.3: MS Windows, IBM OS/2 and MS Windows NT Servers</A></H3>
+<DL>
+<DT>HTTPS (Windows NT)
+<DD>HTTPS is a server for Windows NT systems, both Intel and Alpha -- based.
+It is available via anonymous FTP from emwac.ed.ac.uk in the
+directory pub/https (URL is <A HREF="ftp://emwac.ed.ac.uk/pub/https">
+ftp://emwac.ed.ac.uk/pub/https</A>).
+(Be sure to download the version appropriate to your processor.)
+You can read a detailed announcement at the FTP site, or by
+using the URL <A HREF="ftp://emwac.ed.ac.uk/pub/https/https.txt">
+ftp://emwac.ed.ac.uk/pub/https/https.txt</A>. 
+<P>
+A professional version is also available
+<A HREF="http://emwac.ed.ac.uk/html/internet_toolchest/https/prof.htm">
+(URL is http://emwac.ed.ac.uk/html/internet_toolchest/https/prof.htm )</A>.
+<DT>NCSA httpd for Windows
+<DD>The NCSA httpd for Windows has most of the features of
+the Unix version, including scripts (which generate pages on the
+fly based on user input). It is available by anonymous FTP
+from the ftp site ftp.alisa.com in the directory pub/win-httpd,
+and documentation can be found at the URL
+<A HREF="http://www.alisa.com/win-httpd/index.html">
+http://www.alisa.com/win-httpd/index.html </A>.
+<DT>SerWeb
+<DD>A simple, effective server for Windows writtten by Gustavo
+Estrella. Available by anonymous ftp from winftp.cica.indiana.edu
+(or one of its mirror sites, such as nic.switch.ch),
+as the file serweb03.zip, in the directory /pub/pc/win3/winsock.
+<P>
+There is also a Windows NT version of SerWeb, available by
+<A HREF="ftp://emwac.ed.ac.uk/pub/serweb/serweb_i.zip">
+anonymous FTP from emwac.ed.ac.uk as /pub/serweb/serweb_i.zip</A>.
+<DT>WEB4HAM
+<DD>Another Windows-based server, available by anonymous FTP from
+<A HREF="ftp://ftp.informatik.uni-hamburg.de/pub/net/winsock/web4ham.zip">
+ftp.informatik.uni-hamburg.de as /pub/net/winsock/web4ham.zip</A>.
+<DT><A NAME="os2httpd">OS2HTTPD</a>
+<DD>An OS/2 server, written by Frankie Fan. See the home
+page (URL is <A HREF="ftp://ftp.netcom.com/pub/kf/kfan/overview.html">
+ftp://ftp.netcom.com/pub/kf/kfan/overview.html </A>) for details, or
+fetch the package by anonymous FTP from ftp.netcom.com in the
+directory pub/kf/kfan.
+</DL>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="obtainsrvdos">5.2.4: MSDOS and Novell Netware Servers</A></H3>
+<DL>
+<DT>KA9Q
+<DD>
+KA9Q NOS (nos11c.exe) is a internet server package for DOS that includes HTTP 
+and Gopher servers. It can be obtained via anonymous FTP
+from one of the following sites:
+<PRE>
+inorganic5.chem.ufl.edu
+biochemistry.cwru.edu
+</PRE>
+<DT><A NAME="netware">GLACI-HTTPD</A>
+<DD>
+GLACI-HTTPD is a Netware Loadable Module which allows a Novell NetWare server to 
+become a World Wide Web server
+(URL is <A HREF="http://www.glaci.com/info/glaci-httpd.html">
+http://www.glaci.com/info/glaci-httpd.html</A> ).
+</DL>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="obtainsrvvms">5.2.5: VMS Servers</A></H3>
+<DL>
+<DT>CERN HTTP for VMS
+<DD>A port of the CERN server to VMS. Available 
+<A HREF="http://delonline.cern.ch/disk$user/duns/doc/vms/distribution.html">
+at the URL
+http://delonline.cern.ch/disk$user/duns/doc/vms/distribution.html </A>.
+<DT>Region 6 Threaded HTTP Server
+<DD>A native VMS server which uses DECthreads(tm). This is a potentially
+major performance advantage because VMS has a high overhead for each
+process, which is a problem for the frequently-forking NCSA and CERN
+servers that began life under Unix. A multithreaded server avoids
+this overhead. Available at the URL
+<A HREF="http://kcgl1.eng.ohio-state.edu/www/doc/serverinfo.html">
+http://kcgl1.eng.ohio-state.edu/www/doc/serverinfo.html .</A>
+</DL>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="obtainsrvamiga">5.2.6: Amiga Servers</A></H3>
+NCSA's Unix server has been ported to the Amiga, and is bundled
+with the AMosaic browser. See the URL
+<A HREF="http://insti.physics.sunysb.edu/AMosaic/home.html">
+http://insti.physics.sunysb.edu/AMosaic/home.html </A> for
+details.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="obtainsrvvmcms">5.2.7: VM/CMS Servers</A></H3>
+A VM/CMS web server is available; see the URL
+<A HREF="http://ua1vm.ua.edu/~troth/rickvmsw/rickvmsw.html">
+http://ua1vm.ua.edu/~troth/rickvmsw/rickvmsw.html </A> for more
+information. If you don't yet have a web browser to try this
+URL with, check out the <A HREF="#obtainingvmcms">VM/CMS Browsers</A> 
+section.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="srvchart">5.2.8: Yeah, but which is best?</A></H3>
+<P>
+To find out which server is best for your needs, you will want
+to consult <A HREF="http://sunsite.unc.edu/boutell/faq/chart.html">
+Paul Hoffman's Server Comparison Chart</A> 
+(URL is http://sunsite.unc.edu/boutell/faq/chart.html ).
+That document is also available by anonymous FTP from
+ftp.netcom.com in the directory pub/bo/boutell/faq.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H2><A NAME="prodhtml">5.3: Producing HTML documents</A></H2>
+HTML is the simple markup system used to create hypertext
+documents. There are three ways to produce HTML documents:
+writing them yourself, which is not a very difficult
+skill to acquire, using an HTML editor, which assists
+in doing the above, and converting documents in other
+formats to HTML. The following three sections cover these
+possibilities in sequence.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="writehtml">5.3.1: Writing HTML documents yourself</A></H3>
+You can write an HTML document with any text editor. Try the "source" 
+button of your browser (or "save as" HTML) to look at the HTML for a page 
+you find particularly interesting. The odds are that it will be
+a great deal simpler than you would expect. If you're used to
+marking up text in any way (even red-pencilling it), HTML
+should be rather intuitive. 
+<P>
+<A HREF="http://www.ncsa.uiuc.edu/General/Internet/WWW/HTMLPrimer.html">
+A beginner's guide to HTML</A> is available at
+the URL http://www.ncsa.uiuc.edu/General/Internet/WWW/HTMLPrimer.html .
+You can also find a plain text version (at
+the URL <A HREF="ftp://ftp.ncsa.uiuc.edu/ncsapubs/WWW/HTMLPrimer.txt">
+ftp://ftp.ncsa.uiuc.edu/ncsapubs/WWW/HTMLPrimer.txt</A>) and
+a compressed Postscript version (at the URL
+<A HREF="ftp://ftp.ncsa.uiuc.edu/ncsapubs/WWW/HTMLPrimer.ps.Z">
+ftp://ftp.ncsa.uiuc.edu/ncsapubs/WWW/HTMLPrimer.ps.Z</A>).
+(Since the latter two are FTP URLs, you can fetch them by
+hand using FTP if you do not yet have a web browser.)
+<P>
+There is also an
+<A HREF="http://www.vuw.ac.nz/who/Nathan.Torkington/ideas/www-html.html">
+HTML primer by Nathan Torkington</A>
+at the URL 
+http://www.vuw.ac.nz/who/Nathan.Torkington/ideas/www-html.html .
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="edithtml">5.3.2: HTML editors</A></H3>
+Of course, most folks would still prefer to use a friendlier,
+graphical editor. Some editors are WYSIWYG (What You See Is What
+You Get), or close to it; others simply assist you in writing
+HTML by plugging in the desired markup tags for you from a menu.
+<P>
+Fans of the EMACS editor can use EMACS and 
+<A HREF="http://www.santafe.edu/~nelson/tools/">
+html-helper-mode </A>, an EMACS "mode" for HTML editing (URL is
+http://www.reed.edu/~nelson/tools/). 
+<P>
+There is also another Emacs HTML mode,
+<A HREF="ftp://ftp.ncsa.uiuc.edu/Web/html/elisp/html-mode.el">
+html-mode.el </A> (URL is
+ftp://ftp.ncsa.uiuc.edu/Web/html/elisp/html-mode.el).
+<P>
+For Microsoft Windows users, there is an editor
+called HTML Assistant with features to assist in the creation
+of HTML documents. It can be had by anonymous FTP from
+<code>ftp.cs.dal.ca</code> in the directory 
+<code>/htmlasst/</code>. Read the README.1ST file in this
+directory for information on which files to download.
+<P>
+<A HREF="ftp://ftp.einet.net/einet/pc">ANT_HTML.DOT</A> is a Word for
+Windows 6.0 template designed to convert Word documents into HTML documents
+in a WYSIWYG environment.  It includes a demo version of the ANT_PLUS
+utility, which converts HTML files to WYSIWYG. ANT_PLUS also converts
+HTML files to ASCII, RTF, or any other format possible in Word 6.0.
+Contact jswift@freenet.fsu.edu if you need more information.
+<P>
+A WYSIWYG editor for the Web, SoftQuad HoTMetaL,
+is available for downloading at NCSA and numerous other sites.
+Many mirror sites exist; if you can't get through to one, try
+another, don't give up! That's what mirror sites are for.
+(Also be sure to use the copy closest to you geographically
+if possible.) Hotmetal is available for both Sun Sparc
+systems and Windows systems; note that Windows users need
+at least 6 megabytes of free memory. (A 2-megabyte swap
+file should just barely do the trick on a 4MB machine.)
+<P>
+Known mirrors:
+<UL>
+<LI><A HREF="ftp://ftp.ncsa.uiuc.edu/Web/html/hotmetal/">
+ftp://ftp.ncsa.uiuc.edu/Web/html/hotmetal/</A></LI>
+<LI><A HREF="ftp://ftp.ifi.uio.no/pub/SGML/HoTMetaL">
+ftp://ftp.ifi.uio.no/pub/SGML/HoTMetaL</A></LI>
+<LI><A HREF="ftp://sgml1.ex.ac.uk/SoftQuad">
+ftp://sgml1.ex.ac.uk/SoftQuad</A></LI>
+<LI><A HREF="ftp://src.doc.ic.ac.uk/packages/WWW/ncsa/html/hotmetal/">
+ftp://src.doc.ic.ac.uk/packages/WWW/ncsa/html/hotmetal/</A></LI>
+<LI><A HREF="ftp://askhp.ask.uni-karlsruhe.de/pub/infosystems/mosaic/contrib/SoftQuad">
+ftp://askhp.ask.uni-karlsruhe.de/pub/infosystems/mosaic/contrib/SoftQuad</A></LI>
+<LI><A HREF="ftp://ftp.cs.concordia.ca/pub/www">
+ftp://ftp.cs.concordia.ca/pub/www</A><LI>
+</UL>
+You need a Sun SPARC or Microsoft Windows system and 6MB of disk
+(6MB of RAM minimum for MS Windows; swap files count). Other
+Unix systems may be supported by the time you read this;
+have a look on one of the sites above.
+<P>
+Because it is context-sensitive, HoTMetaL guides users in
+creating new HTML documents and in cleaning up old
+ones.   A Publish command changes appropriate SRC and HREF
+attributes from local paths to http locations.
+For more information,  
+<A HREF="ftp://ftp.ncsa.uiuc.edu/Mosaic/contrib/SoftQuad/README">
+FTP the README file</A> from the same directory, or
+send email to hotmetal@sq.com. A HoTMetaL Pro commercially
+supported version is available for purchase from SoftQuad and its resellers.
+<P>
+<A NAME="gwhite" HREF="http://werple.mira.net.au/%7Egabriel/web/html/editors/">
+Also see Gabriel White's reviews of MS Windows HTML editors</A>
+(URL is http://werple.mira.net.au/%7Egabriel/web/html/editors/ ).
+Another option, if you have an SGML editor, is to use it with the <A
+HREF="http://info.cern.ch/hypertext/WWW/MarkUp/DTDHeading.html">HTML
+DTD</A> (URL is
+http://info.cern.ch/hypertext/WWW/MarkUp/DTDHeading.html  ).
+<P>
+An editor for all X users: 
+<A HREF="#browserstkwww">TkWWW</A> (listed above under 
+X browsers) supports WYSIWYG HTML editing; and since it's
+a browser, you can try out links immediately after creating them.
+<P>
+Another editor for X users:
+<A HREF="http://www.bsd.uchicago.edu/ftp/pub/phoenix/README.html">
+Phoenix</A> (URL is http://www.bsd.uchicago.edu/ftp/pub/phoenix/README.html )
+is a fully WYSIWYG HTML editor which insulates 
+the user from direct control of the HTML tags. Available by
+anonymous FTP from www.bsd.uchicago.edu in the
+pub/phoenix subdirectory.
+<P>
+Also for X users, there is a package called
+htmltext which supports WYSIWYG HTML editing. More information
+is available at the URL 
+<A HREF="http://web.cs.city.ac.uk/homes/njw/htmltext/htmltext.html">
+http://web.cs.city.ac.uk/homes/njw/htmltext/htmltext.html </A>.
+<P>
+For Macintosh users, there is a near-WYSIWYG
+package called <A HREF="http://dragon.acadiau.ca:1667/~giles/HTML_Editor">
+HTML Editor (URL is http://dragon.acadiau.ca:1667/~giles/HTML_Editor)</A>.
+<P>
+ANT_HTML is a Word for
+the Macintosh template designed to convert Word documents into HTML documents
+in a WYSIWYG environment. It includes a demo version of the ANT_PLUS
+utility, which converts HTML files to WYSIWYG. ANT_PLUS also converts
+HTML files to ASCII, RTF, or any other format possible in Word.
+At the time of this writing it was scheduled to have been released on the
+Macintosh (it has long been available for Windows).
+Contact jswift@freenet.fsu.edu for more information.
+
+Also for Macintosh users, 
+<A NAME="bbedit" HREF="http://www.uji.es/bbedit-html-extensions.html">
+the BBEdit HTML extensions</A> allow the BBEdit and BBEdit Lite text
+editors for the Macintosh to conveniently edit HTML documents.
+(URL is http://www.uji.es/bbedit-html-extensions.html .) You can
+also obtain the extensions package by anonymous ftp from
+sumex-aim.stanford.edu as info-mac/bbedit-html-ext-b3.hqx.
+<P>
+There is an <A HREF="http://www.york.ac.uk/~ld11/BBEditTools.html">
+alternative BBEdit extension package</A> available as well
+<A HREF="http://www.york.ac.uk/~ld11/BBEditTools.html">
+(URL is <code>http://www.york.ac.uk/~ld11/BBEditTools.html </code>)</A>.
+it is available by FTP from ftp.york.ac.uk in the directory
+<code>/pub/users/ld11/BBEdit_HTML_Tools.sea.hqx</code>.
+<P>
+<A HREF="http://www.ncsa.uiuc.edu/SDG/Software/Mosaic/Docs/faq-software.html#editors">
+NCSA's List of Filters and Editors</A>, for which the URL is
+http://www.ncsa.uiuc.edu/SDG/Software/Mosaic/Docs/faq-software.html#editors,
+mentions several editors, including two for MS Windows. In some cases,
+the "editor" amounts to a set of macros for an existing word processor,
+which can provide a near-WYSIWYG environment.
+<P>
+Note that this
+URL contains uppercase and lowercase letters; certain 
+operating systems won't allow mixed case on the command line,
+or will only allow it if it is quoted (VMS), so if you are launching
+Lynx or another client and specifying a URL at the command line, 
+try quoting the URL in double-quotes ("URL").
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="converthtml">5.3.3: Converting other formats to HTML</A></H3>
+There is a collection of filters for converting
+your existing documents (in TeX and other non-HTML formats)
+into HTML automatically, including filters that can allow
+more or less WYSIWYG editing using various word processors:
+<P>
+<A HREF="http://info.cern.ch/hypertext/WWW/Tools/Filters.html">
+Rich Brandwein and Mike Sendall's List at CERN</A> (URL is 
+http://info.cern.ch/hypertext/WWW/Tools/Filters.html  ).
+<P>
+(Note that this
+URL contains uppercase and lowercase letters; certain 
+operating systems such as VMS require you to quote 
+mixed-case URLs when launching a borwser from the command line. 
+This is NOT a bug in the browser.)
+<P>
+There is also a Word for Windows template for writing HTML documents,
+available at the URL <A HREF="http://www.gatech.edu/word_html/release.htm">
+<code>http://www.gatech.edu/word_html/release.htm </code></A>.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="validation">5.3.4: Checking your HTML for errors</A></H3>
+Tools to validate your HTML documents (check them for errors) are
+available. There is a form at the URL 
+<A HREF="http://www.hal.com/%7Econnolly/html-test/service/validation-form.html">
+http://www.hal.com/%7Econnolly/html-test/service/validation-form.html </A>
+which will check HTML documents for errors according to the latest
+specification; note that you are encouraged to set up the program
+on your own system if you make heavy use of the form. There is also
+a tool which will check the links in your documents for links to
+nonexistent resources, such as pages that have moved
+(URL is <A HREF="http://wsk.eit.com/wsk/dist/doc/admin/webtest/verify_links.html">
+http://wsk.eit.com/wsk/dist/doc/admin/webtest/verify_links.html </A>). 
+<P>
+Also try
+<A HREF="http://www.khoros.unm.edu/staff/neilb/weblint.html">weblint</A>
+(URL is http://www.khoros.unm.edu/staff/neilb/weblint.html ), a Perl
+script that checks your HTML for errors; you can even try it out
+over the web through an HTML form. The script is available
+by anonymous FTP from ftp.khoros.unm.edu in the directory
+pub/perl/www.
+<P>
+Another such tool is
+<A HREF="http://uts.cc.utexas.edu/~churchh/htmlchek.html">htmlchek</A>
+(URL is: http://uts.cc.utexas.edu/~churchh/htmlchek.html ),
+which checks HTML documents for errors, creates a cross-reference,
+automatically expands entities (such as European characters) to their proper
+HTML form, and performs other useful services. htmlchek is available
+by anonymous FTP from ftp.cs.buffalo.edu in the directory
+pub/htmlchek.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H2><A NAME="announcing">5.4: How do I publicize my work?</A></H2>
+There are several things you can do to publicize your new HTML server
+or other offering:
+<UL>
+<LI>Post to
+<A HREF="news:comp.infosystems.www.announce">comp.infosystems.www.announce</A>.
+PLEASE READ THE CHARTER POSTING FIRST. In general, always read a newsgroup
+first to familiarize yourself before posting to it.
+<LI>Submit it to the 
+<A HREF="http://www.ncsa.uiuc.edu/SDG/Software/Mosaic/Docs/whats-new.html">
+NCSA What's New Page</A> at the URL
+http://www.ncsa.uiuc.edu/SDG/Software/Mosaic/Docs/whats-new.html 
+(see the page for details on how to submit your listing!).
+<LI>Post it to the newsgroup comp.infosystems.announce. Please read the
+group first to get a feel for the contents. You should not post
+to comp.infosystems.www.users,.misc,.providers, etc., but if
+you feel compelled to do so, please choose .misc as announcements
+are of interest to both providers and users (and those who wear
+both hats).
+<LI>Submit it to the maintainers of various catalogs, such as the
+<A HREF="http://info.cern.ch/hypertext/DataSources/bySubject/Overview.html">
+WWW Virtual Library</A>
+(at the URL 
+http://info.cern.ch/hypertext/DataSources/bySubject/Overview.html )
+and the <A HREF="http://web.nexor.co.uk/aliweb/doc/aliweb.html">
+ALIWEB</A> index (at the URL
+http://web.nexor.co.uk/aliweb/doc/aliweb.html ).
+<LI>Read Gareth Rees' guide to publishing on the World Wide Web.
+(URL is <A HREF="http://www.cl.cam.ac.uk/users/gdr11/publish.html">
+http://www.cl.cam.ac.uk/users/gdr11/publish.html </A>). 
+</UL>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H2> <A NAME="leasing">5.5: Can I buy space on an existing server?</A></H2>
+Yes, you can. A list of sites offering WWW space for lease
+is available 
+<A HREF="http://union.ncsa.uiuc.edu/www/leasing.shtml">
+(at the URL 
+<code>
+http://union.ncsa.uiuc.edu/www/leasing.shtml
+</code>
+)</A>.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H2> <A NAME="speed">5.6: How fast does my net connection need to be?</A></H2>
+The following response to this very-frequently-asked-question was provided
+by Mike Meyer (mwm@contessa.phone.net).
+<blockquote>
+The answer is "It depends." What it depends on is what kind of things
+you want to provide on your server. Here are some rules of thumb to
+use when deciding what kind of connection you need for your server.
+<P>
+The first rule of thumb is:
+<P>
+<strong>Don't worry about simultaneous access.</strong>
+<P>
+Unless you have a very large site, simultaneous access is not a
+problem. If you have a very large site, you need as much bandwidth as
+you can afford. There is a bit more about this below.
+<P>
+The second rule of thumb is:
+<P>
+<strong>It should take at most 5 seconds to send a page.</strong>
+<P>
+The five second rule dates from command line days, when that was about
+how long people would wait before getting impatient with the system.
+It seems like a reasonable number to use now.
+<P>
+Since external images/audio/etc. are somewhat exceptional, allow more
+time for them. If you think they should have the same restrictions as
+above, buy the bandwidth your site will need to do so. However, the
+rule of thumb for external images/audio/etc is:
+<P>
+<strong>It should take at most 30 seconds to send an external file.</strong>
+<P>
+Given these rules, it's pretty straightforward to work out how large
+an HTML page and external files can be. At least, it's easy after you
+simplify things by ignoring IP overhead on the line, compression on
+modem lines, and anything that's less than 10% of the total (or even a
+little bit more than 10%).
+<P>
+The one simplification not to ignore is the multiple packet
+round-trips it takes to get data flowing through an HTTP channel. For
+modem lines, this is nearly a second for each HTTP connection, which
+is significant. For leased lines, it's more like .1 or .2 seconds,
+which is not significant.
+<P>
+On a 14.4 line assumed to be sending 1.4K bytes of data/second, with a
+1 second startup, you get 4 * 1.4 or 5.6K of HTML. If you want to
+include a single inline image, that's 2 seconds of startup, so you're
+down to 3 * 1.4 or 4.2K of HTML + image. This means smallish HTML
+pages, and simple inline images. For external files, you get 29 * 1.4
+or 40K, which is still a small image. If you have a 28.8 line, you get
+to double those figures; for a 9600 line, figure 2/3rds of that size.
+<P>
+On a 56K leased line assumed to be sending 5K/second, you get 25K of
+HTML, or mixed HTML/data. For external images, it's 150K. That should
+cover any reasonable HTML document, and small to medium external
+files. An MPEG movie might be a bit much.
+<P>
+With a T1 line assumed to be sending 150K/second, you get 750K of
+HTML, or 4.5 megabytes in an external file. Barring very large
+animations, this should be sufficient for anything you want to serve.
+More would be faster, but it also gets drastically more expensive.
+<P>
+Given the above guidelines, let's look at simultaneous access again.
+Under the worst case conditions, you're using all of your line for
+HTML pages, each of which takes 5 seconds to send, so your server is
+sending 12 pages a minute, or 720 pages an hour, or 17,000 pages a day
+(pages, not accesses; each inline image in a page generates an access,
+unless the client cached it). This makes you one of the busier sites
+on the web. While you'll have contention problems before you get to
+this point, anything but a modem connection will be sending most pages
+in a small fraction of five seconds, which should leave plenty of
+bandwidth with no contention.  If you have this kind of access rates
+on a modem line, you should seriously consider upgrading your
+connection.
+<P>
+The bottom line on simultaneous access is that the WWW server is more
+likely to have contention with other uses of the line than with
+itself. Since I don't know what else you use your line for, I can't factor 
+it in. You'll have to consider that issue yourself.
+</blockquote>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="imagemap">5.7.1: How do I set up a clickable image map?</A></H3>
+<P>
+There are really two issues here: how to indicate in HTML that
+you want an image to be clickable, and how to configure your
+server to do something with the clicks returned by Mosaic,
+Chimera, and other clients capable of delivering them.
+<P>
+You can read about <A HREF="
+http://hoohoo.ncsa.uiuc.edu/docs/setup/admin/Imagemap.html">
+image maps and the NCSA server at the URL
+http://hoohoo.ncsa.uiuc.edu/docs/setup/admin/Imagemap.html .</A>
+<P>
+Using imagemaps requires that you create a map file; you can do
+this by hand or with a WYSIWYG tool. 
+<P>
+<strong>VERY IMPORTANT:</strong> Creating imagemaps requires a real
+web server (not an FTP server) and a cooperative web server administrator. 
+It is not usually as simple
+as wrapping a link around an IMG SRC tag and adding the ISMAP directive;
+the server must also be told about the map file, and the way to accomplish
+this varies from server to server. So read your server documentation,
+and don't waste time making maps before making 
+sure you have the necessary tools to deliver them.
+<DL>
+<DT><A HREF="http://sunsite.unc.edu/boutell/mapedit/mapedit.html">Mapedit</A>
+<DD> 
+Mapedit (URL is: <code>http://sunsite.unc.edu/boutell/mapedit/mapedit.html 
+</code>) is a WYSIWYG imagemap editing tool for Microsoft Windows and
+the X Window System.
+<DT><A NAME="mapmaker" HREF="http://icg.stwing.upenn.edu:80/~mengwong/mapmaker.html">MapMaker</A>
+<DD>
+For users of John Bradley's <strong>xv</strong> image display
+software for the X Window System, Mapmaker
+can turn the miniature images created by
+xv's Visual Schnauzer into an imagemap. This is useful if you
+would like to make an entire directory of images available (but note
+that you should also make textual links to allow those with text-
+based browsers to download the images for external viewing).
+(URL is: http://icg.stwing.upenn.edu:80/~mengwong/mapmaker.html )
+<DT>WebMap
+<DD>On the Macintosh, you may want to use WebMap (URL is
+<A HREF="ftp://ftp.uwtc.washington.edu/pub/Mac/Network/WWW">
+ftp://ftp.uwtc.washington.edu/pub/Mac/Network/WWW ).
+</A>.  It produces both NCSA and CERN-compatible maps, which can 
+also be used with MacImagemap and a Macintosh-based server
+(MacImagemap is found in the same directory). Alternatively,
+you may want to use MacMapMaker, also available from
+<A HREF="ftp://ftp.uwtc.washington.edu/pub/Mac/Network/WWW">
+ftp://ftp.uwtc.washington.edu/pub/Mac/Network/WWW </A> (the same directory).
+<DT>Tkmapedit
+<DD>For Unix systems and other systems on which the Tk/Tcl language
+toolkit has been installed, Tkmapedit provides a WYSIWYG imagemap
+editor which is capable of directly testing links if the 
+<A HREF="#browserstkwww">tkWWW</A> web browser is available. Available
+by anonymous FTP from the TCL archive on ftp.aud.alcatel.com.
+</DL>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3>
+<A NAME="quiet">5.7.2: How do I make a "link" that doesn't load a new page?</A>
+</H3>
+<P>
+Such links are useful when a form is intended to perform
+some action on the server machine without sending new information to
+the client, or when a user has clicked in an undefined area in
+an image map; these are just two possibilities.
+<P>
+<A HREF="http://hoohoo.ncsa.uiuc.edu/~robm/sg.html">Rob McCool</A>
+of NCSA provided the following wisdom on the subject:
+<PRE>
+Yechezkal-Shimon Gutfreund (sg04@gte.com) wrote:
+: Ok, here is another bizzare request from me:
+
+: I am currently running scripts which I "DO NOT" want to return
+: any visible result. That is, not text/plain, not text/HTML, not
+: image/gif. The entire results are the side effects of the
+: script and nothing should be returned to the viewer.
+
+: It would be nice to have an internally supported null viewer
+: so that I could do this, more "cleanly" (ok, ok, I hear your groans).
+</PRE>
+<P>
+HTTP now supports a response code of 204, which is no operation. Some
+browsers such as Mosaic/X 2.* support it. To use it, make your script a nph
+script and output an HTTP/1.0 204 header. Something like:
+<P>
+<CODE>
+HTTP/1.0 204 No response
+Server: Myscript/NCSA httpd 1.1
+</CODE>
+<P>
+(You can learn more about nph scripts from the 
+<A HREF="http://hoohoo.ncsa.uiuc.edu/docs">NCSA server documentation</A>
+at the URL http://hoohoo.ncsa.uiuc.edu/docs.) Essentially they
+are scripts that handle their own HTTP response codes.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+
+<H3><A NAME="forms">5.7.3: Where can I learn how to create fill-out forms?
+</A></H3>
+Writing an HTML form is easy, but the form doesn't accomplish anything
+until you write a CGI program to interpret the results on the
+server side! For more information, see 
+<A HREF="#owncode">section 5.7.14</A>.
+<P>
+See the section on <A HREF="#emailform">email forms</A> for a
+simple solution to the most commonly desired form.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H4><A NAME="hidden">5.7.3.1: How can I create hidden fields in forms (keeping state)?</A></H4>
+Use <code>INPUT TYPE=hidden</code>. An example:
+<PRE>
+&lt;INPUT TYPE=hidden NAME=state VALUE="hidden info to be returned with form">
+</PRE>
+By now, most browsers can handle the hidden type, but understand
+that some browsers will fail to hide the field (and probably
+confuse the user). Note that "hidden" doesn't mean "secret"; the user can 
+always click on "view source".
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H4><A NAME="emailform">
+5.7.3.2: How can users send me email through their browsers?</A></H4>
+There are two ways:
+<DL>
+<DT>Using a mailto: URL
+<DD>
+You can simply create a link which looks like this:
+<P>
+&lt;A HREF="mailto:me@my.address">Send Me Mail&lt;/A>
+<P>
+This works great for browsers that support the mailto: URL. Perhaps
+80% of web users will be able to use such a link. But not
+all browsers support it.
+<P>
+<DT>Installing an email form
+<DD>
+If you have access to the server's configuration files, or if your
+server administrator permits users to create their own CGI scripts,
+you can create a form which sends mail to you from any browser
+that supports forms. I've written a simple 
+<A HREF="http://siva.cshl.org/email/index.html">email forms package
+(URL is: http://siva.cshl.org/email/index.html )</A>,
+which does it in ANSI C. There is also a package written
+in Perl, known as the <a href="http://www.mps.ohio-state.edu/mailto/mailto_info.html">
+WWW Mailto Gateway</A> (URL is http://www.mps.ohio-state.edu/mailto/mailto_info.html ).
+<A HREF="http://everest.cs.ucdavis.edu/~hoagland/getcomments.html">
+GetComments</A> (URL is: http://everest.cs.ucdavis.edu/~hoagland/getcomments.html) 
+is a more general package, also written in Perl, which can
+handle many different types of comment forms.
+<P>
+If you want to learn how these forms actually work, see
+<A HREF="#owncode">section 5.7.14</A>.
+</DL>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="htmlcomments">
+5.7.4: How do I comment an HTML document?</A></H3>
+<P>
+Use the &lt;!-- tag at the beginning of EACH line commented out;
+close this for EACH line with the --> tag. Note that comments
+do not nest, and the sequence "--" may not appear inside a
+comment except as part of the closing --> tag. (It's officially
+allowed, but some browsers won't handle it properly.) 
+<P>
+You should <strong>not</strong> try to use this to "comment out"
+HTML that would otherwise be shown to the user, since some
+browsers (notably Mosaic) will still pay attention to tags
+inside the comment and close it prematurely.
+<P>
+<em>Thanks to Joe English for clearing up this issue.</em>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="htmltables">
+5.7.5: How can I create decent-looking tables and stop using &lt;PRE>...
+&lt;/PRE>?</A></H3>
+Tables are a standard feature in <A HREF="#htmlplus">HTML Level 3</A>, a 
+new version of HTML. Unfortunately, they are at present 
+implemented only
+by the latest NCSA Mosaic versions and the <A HREF="#viola">Viola</A> and 
+<A HREF="#emacsw3">Emacs-W3</A>
+browsers, to my knowledge. In addition, most implementations are
+incomplete. In some implementations, at the time of this writing, text in 
+tables cannot be selected and/or cannot be a link.
+<P>
+<em>However</em>, there is a way to use HTML Level 3 tables now and
+convert them automatically to HTML, allowing you to design
+proper tables and install those pages directly when 
+table support arrives in the majority of clients.
+You can do this using the <A HREF="
+ftp://sunsite.unc.edu/pub/packages/infosystems/WWW/tools/html+tables.shar">
+html+tables package</A>, by Brooks Cutter (bcutter@paradyne.com),
+which is available for anonymous ftp from sunsite.unc.edu in
+the directory pub/packages/infosystems/WWW/tools/html+tables.shar.
+This package requires the shell language Perl, which is primarily
+used on Unix systems but is also available for other systems
+(such as MSDOS machines). html+tables accepts HTML Level 3 and outputs
+html using the &lt;PRE>...&lt;/PRE> construct to represent tables,
+allowing you to write HTML Level 3 now, knowing that it will look
+better when clients are ready for it.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="htmlplus">
+5.7.6: What is HTML Level 3 and where can I learn more about it?</A></H3>
+HTML Level 3, also known as HTML+, is an enhanced version of 
+HTML designed to address some of the limitations of HTML. HTML Level 3 
+supports true <A HREF="#htmltables">tables</A>, right-justified text, 
+centered text, line breaks that do not double space, and many other 
+desired features.
+<P>
+However, most clients support only a handful of HTML Level 3 features
+(such as the partial implementation of tables in Mosaic) at the time
+of this writing. If you have access to a Unix system with the
+X Window System installed, you can try out many features of
+HTML Level 3 using the experimental <A HREF="#browsersarena">
+Arena</A> browser.
+<P>
+You can access information about new developments
+in HTML at the CERN server 
+<A HREF="http://info.cern.ch/hypertext/WWW/MarkUp/MarkUp.html">
+(at the URL 
+<code>
+http://info.cern.ch/hypertext/WWW/MarkUp/MarkUp.html 
+</code>)</A>.
+<P>
+(HTML Level 1 is the original version. HTML Level 2 is essentially
+the same, but with the addition of forms.) 
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="transparent">5.7.7: How can I make transparent and interlaced GIFs? And what are they?</A></H3>
+Transparent GIFs are useful because they appear to blend in smoothly
+with the user's display, even if the user has set a background
+color that differs from that the developer expected. They do this
+by assigning one color to be transparent -- if the web browser
+supports transparency, that color will be replaced by the browser's
+background color, whatever it may be.
+<P>
+Interlaced GIFs appear first with poor resolution and then improve
+in resolution until the entire image has arrived, as opposed to
+arriving linearly from the top row to the bottom row. This is great
+to get a quick idea of what the entire image will look like while
+waiting for the rest. This doesn't do much for you if your web
+browser doesn't support progressive display as the image is downloaded,
+but non-progressive-display web browsers will still display
+interlaced GIFs once they have arrived in their entirety.
+<P>
+To create transparent and interlaced GIFs, check out
+David Koblas' <A HREF="http://www.homepages.com/tools/">giftool</A>,
+a program which can manipulate those options and many more
+aspects of your GIF file.
+<P>
+In addition, there is a document explaining transparent GIFs available
+at the URL <A HREF="http://melmac.corp.harris.com/transparent_images.html">
+http://melmac.corp.harris.com/transparent_images.html </A>. You can
+<A HREF="ftp://ftp.rz.uni-karlsruhe.de/pub/net/www/tools/giftrans.c">
+fetch the program 
+giftrans</A> by anonymous ftp from ftp.rz.uni-karlsruhe.de at
+the path /pub/net/www/tools/giftrans.c.
+<P>
+There is also a 
+<A HREF="http://www.omron.co.jp:80/~jfriedl/perl/">
+Perl Script</A> (URL is: http://www.omron.co.jp:80/~jfriedl/perl/ )
+which makes transparent GIFs.
+<P>
+There is also a utility for the Macintosh,
+<A HREF="http://www.med.cornell.edu/~giles/projects.html#transparency">
+Transparency (URL is: 
+<code>http://www.med.cornell.edu/~giles/projects.html#transparency</code>).
+</A>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="nomailto">
+5.7.8: How come mailto: URLs don't work?</A></H3>
+The <code>mailto:</code> URL is a feature found in Lynx,
+Netscape, Spry Mosaic, the latest NCSA Mosaics, Emacs w3 mode and
+many other browsers. In general, about 80% of web browsers
+support mailto: at the time of this writing. However, it is not in numerous 
+older browsers. 
+In the meantime, you can set up forms which send mail
+to you; see <A HREF="#emailform">Section 5.7.3.2</A>.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="security">
+5.7.9: How can I restrict and control access to my server?</A></H3>
+All major servers have features that allow you to limit access
+to particular sites, and many clients have authentication features
+that allow you to identify specific users. There is a
+<A HREF="http://wintermute.ncsa.uiuc.edu:8080/auth-tutorial/tutorial.html">
+tutorial on security and user authentication</A> with the NCSA
+server and Mosaic available, written by Marc Andreessen
+(URL is http://wintermute.ncsa.uiuc.edu:8080/auth-tutorial/tutorial.html ).
+See your server documentation for further information.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="jpeg">
+5.7.10: Which format is better for WWW image purposes, JPEG or GIF?</A></H3>
+<P>
+JPEG does a better job with realistic images such as scanned
+photographs. Most browsers cannot handle inline JPEGs, however,
+so you must link to them as external images (using a regular
+&lt;A HREF...> instead of &lt;IMG SRC...>). 
+<P>
+GIF does a better job with crisp, sharp images, such as those
+typically used to construct buttons, graphs and the like.
+All browsers that can display graphics at all can display
+GIFs inline.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3> <A NAME="mirror">5.7.11: How can I mirror part of another server?</A></H3>
+Scripts are available to do this, but at this time they are not very
+friendly to the server you are attempting to mirror; their behavior
+resembles that of the more poorly written <A HREF="#robots">WWW robots</A>.
+If you are trying to improve access times to a distant server, you
+will likely find the "proxy" capabilities of 
+<A HREF="http://info.cern.ch/hypertext/WWW/Daemon/Status.html">
+CERN's WWW server</A> to be a more
+effective and general solution to your problem.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="serverrobots">
+5.7.12: How can I keep robots off my server?</A></H3>
+Programs that automatically traverse the web can be quite useful,
+but have the potential to make a serious mess of things. Every so
+often someone will write a "depth-first" searching robot that
+brings servers to their knees. See the section on
+<A HREF="#robots">writing robots (4.10)</A> for details.  
+<P>
+Fortunately, most robots on the web follow
+a simple protocol by which you can keep them off your server
+if you wish, or keep them out of portions of your server
+which are robot traps (ie, they contain an infinite number
+of possible links).
+Read the document
+<A HREF="http://web.nexor.co.uk/mak/doc/robots/robots.html">
+World Wide Web Robots, Wanderers and Spiders
+(URL is: http://web.nexor.co.uk/mak/doc/robots/robots.html )</A>
+and learn about the emerging standards for exclusion of robots
+from areas in which they are not wanted. You can also read
+about existing robots there, including useful cataloging robots
+you probably do <em>not</em> want to keep off your server.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="stats">
+5.7.13: How can I keep statistics about my web server?</A></H3>
+There are several tools which can generate statistics about
+your web server:
+<DL>
+<DT>
+<A HREF="http://www.eit.com/software/getstats/getstats.html">
+getstats</A>
+<DD>
+getstats is a versatile log analyzer, also written in C,
+which provides reports for various time periods with a high
+degree of flexibility. Add-on packages have been written to
+generate reports in HTML and also to generate graphs. You
+can access the getstats home page for more information
+(URL is <A HREF="http://www.eit.com/software/getstats/getstats.html">
+http://www.eit.com/software/getstats/getstats.html </A>), or obtain
+the package by anonymous FTP from ftp.eit.com in the directory
+/pub/web.software/getstats.
+<DT>
+<A HREF="http://www.pegasus.esprit.ec.org/people/sijben/statistics/advertisment.html">
+WebStat</A>
+<DD>WebStat is a package written in the language Python which
+supplies statistics on usage by domain, country, etc., with daily,
+weekly, monthly and annual reports available. You will need
+Python in order to use it. See the WebStat home page
+(URL is 
+<A HREF="http://www.pegasus.esprit.ec.org/people/sijben/statistics/advertisment.html">
+http://www.pegasus.esprit.ec.org/people/sijben/statistics/advertisment.html 
+</A>) for details, or obtain Python from ftp.cwi.nl in the directory
+/pub/python and WebStat from ftp.pegasus.esprit.ec.org in the 
+directory /pub/misc.
+<DT>
+<A HREF="http://siva.cshl.org/wusage.html">
+Wusage</A>
+<DD>Wusage, which I wrote, is a C program which generates
+simple weekly reports in HTML, with inline image graphs displaying
+server growth and the distribution of accesses by continent.
+You can also exclude irrelevant accesses
+(inline images, local machines, etc.) from the results.
+Read the Wusage home page (URL is <A HREF="http://siva.cshl.org/wusage.html">
+http://siva.cshl.org/wusage.html </A>) for more information, or
+obtain Wusage by anonymous FTP from isis.cshl.org in the
+directory pub/wusage.
+<DT>
+<A HREF="http://www.ics.uci.edu/WebSoft/wwwstat/">
+wwwstat</A>
+<DD>wwwstat is a full-featured log analyzer written in the
+language Perl. (See the newsgroup comp.lang.perl for more
+information about the language.) See the
+wwwstat home page (URL is
+<A HREF="http://www.ics.uci.edu/WebSoft/wwwstat/">
+http://www.ics.uci.edu/WebSoft/wwwstat/</A>) for more
+information, or obtain the package by anonymous FTP from
+liege.ics.uci.edu in the directory /pub/arcadia/wwwstat.
+See also <A HREF="http://dis.cs.umass.edu/stats/gwstat.html">
+gwstat</A> (URL is http://dis.cs.umass.edu/stats/gwstat.html ),
+a package which produces GIF graphs from the output of
+wwwstat.
+</DL>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H3><A NAME="owncode">
+5.7.14: I want to generate web pages from a program. 
+Do I have to write a custom server?</A></H3>
+No, you will not need to write a custom server. Most web
+servers support one variation or another of a standard for
+adding your own programs to the web server. The standard
+is called CGI (Common Gateway Interface).
+<P>
+Marc Hedlund has written a FAQ on CGI programming 
+<A HREF="http://www.halcyon.com/hedlund/cgi-faq/">
+(URL is: http://www.halcyon.com/hedlund/cgi-faq/ )
+</A>
+which makes a good introduction to the subject. The standard
+itself can be found at NCSA <A HREF="http://hoohoo.ncsa.uiuc.edu/">
+(URL is: http://hoohoo.ncsa.uiuc.edu/ )</A>.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H4><A NAME="gd">
+5.7.14.1: How can I generate GIFs on the fly from my CGI scripts?</A></H4>
+
+If you want to generate GIF images on the fly as part of your application,
+examine the gd library <A HREF="http://siva.cshl.org/gd/gd.html">
+(URL is: http://siva.cshl.org/gd/gd.html )</A>. <em>Hint:</em>
+your HTML page and your inline images are separate documents
+with separate URLs. Generate them in response to
+separate requests! (Yes, there are tricks to speed this
+up, but be careful not to break inline images on HTML
+pages you didn't write that refer to your gd-generated image.)
+<P>
+It's also possible to use gnuplot and the pbmplus utilities.
+This is slower, but can require less programming if gnuplot
+is sufficient for your purposes. (See archie for both tools.)
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>           
+<H1>6: Where can I discuss the World Wide Web?</H1>
+<H2><A NAME="newsgroups">6.1: What newsgroups discuss the Web?</A></H2>
+You can find discussion of World Wide Web topics in
+three newsgroups, and one newsgroup which will soon be removed:
+<DL>
+<DT><A HREF="news:comp.infosystems.www.users">comp.infosystems.www.users</A>
+<DD>A forum for
+the discussion of WWW client software and its use in contacting
+various Internet information sources. New user questions, client setup
+questions, client bug reports, resource-discovery questions
+on how to locate information on the web that can't be found
+by the means detailed in the FAQ and comparison between various
+client packages are among the acceptable topics for this group.
+Please specify what browser and what system type (Windows, Mac,
+Unix, etc.) your post is about if you are asking questions
+about a specific program.
+<DT><A HREF="news:comp.infosystems.www.providers">
+comp.infosystems.www.providers</A>
+<DD>A forum for
+the discussion of WWW server software and the use of said software
+to present information to users. General server design, setup questions,
+server bug reports, security issues, HTML page design and other concerns
+of information providers are among the likely topics for this group.
+<DT><A HREF="news:comp.infosystems.www.misc">comp.infosystems.www.misc</A>
+<DD>A forum for general
+discussion of WWW (World Wide Web)- related topics that are NOT covered
+by the other newsgroups in the hierarchy. This will likely include
+discussions of the Web's future, politicking regarding changes in the
+structure and protocols of the web that affect both clients and servers,
+et cetera. 
+<DT><A HREF="news:comp.infosystems.www.announce">comp.infosystems.www.announce</A>
+<DD>A moderated forum for the announcement of new and updated World Wide Web
+resources and software. 
+<DT>comp.infosystems.www (DEFUNCT)
+<DD>The old catch-all newsgroup, which may still exist on your system
+but was officially removed on September 7th, 1994, according to 
+David Lawrence, moderator of news.announce.newgroups. If your
+system still carries this group, ask your administrator
+to remove it.
+</DL>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H2><A NAME="mailing">6.2: What mailing lists discuss the Web?</A></H2>
+<DL>
+<DT>www-talk@info.cern.ch                                                        
+<DD>
+Address: www-talk@info.cern.ch for CONTRIBUTIONS ONLY.
+Administration: listserv@info.cern.ch (robot) www-talk-request@info.cern.ch
+(human). Description: Technical discussion, W3 related. Experts to experts. General
+questions to
+the newsgroups, please. Archive: Not currently served, but kept.
+<DT>www-announce@info.cern.ch
+<DD>
+Address: www-announce@info.cern.ch. NOT FOR GENERAL USE - serious low-volume   
+announcements only.                                                             
+Administration: listserv@info.cern.ch (robot), www-announce-request@info.cern.ch (human).
+Description: Low volume summary announcemements of product releases, etc.
+Archive: Not currently public.                     
+</DL>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H1><A NAME="more">7: I want to know more</A></H1>
+<P>
+To find out more, use the web. This FAQ hopefully provides
+enough information for you to locate and install a browser
+on your system. If you have system specific questions regarding
+FTP, networking and the like, please consult newsgroups
+relevant to your particular hardware and operating
+system!
+<P>
+Once you're up and running, you may wish to consult the
+<A HREF="http://www.vuw.ac.nz/who/Nathan.Torkington/ideas/www-primer.html">
+World Wide Web Primer by Nathan Torkington</A>. It is available
+at the URL 
+http://www.vuw.ac.nz/who/Nathan.Torkington/ideas/www-primer.html .
+<P>
+Later you may return to this FAQ for answers to some of the
+more advanced questions. I encourage you to check out the
+changes listed early in the document each time the FAQ
+appears.
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+<H1><A NAME="credits">8: Credits</A></H1>
+Maintainer (11/93 to present): 
+<A HREF="http://sunsite.unc.edu/boutell/index.html">Thomas Boutell</A>,
+ <em>boutell@netcom.com</em>
+<P>
+Former Maintainer (until 11/93): Nathan Torkington, <em>Nathan.Torkington@vuw.ac.nz</em>
+<P>
+<A HREF="#contents"><em>(Up to Table of Contents)</em></A>
+</BODY>
+</HTML>
+

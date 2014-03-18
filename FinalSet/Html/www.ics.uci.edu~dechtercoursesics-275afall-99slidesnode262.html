@@ -1,0 +1,182 @@
+<!DOCTYPE HTML PUBLIC "-//W3O//DTD W3 HTML 2.0//EN">
+<!Converted with LaTeX2HTML 95.1 (Fri Jan 20 1995) by Nikos Drakos (nikos@cbl.leeds.ac.uk), CBLU, University of Leeds >
+<HEAD>
+<TITLE> Prolog Environment Built-ins</TITLE>
+</HEAD>
+<BODY>
+<meta name="description" value=" Prolog Environment Built-ins">
+<meta name="keywords" value="umsroot">
+<meta name="resource-type" value="document">
+<meta name="distribution" value="global">
+<P>
+ <BR> <HR><A NAME=tex2html5390 HREF="node263.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5388 HREF="node243.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5382 HREF="node261.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5392 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5391 HREF="node263.html"> Compiler Directives</A>
+<B>Up:</B> <A NAME=tex2html5389 HREF="node243.html"> The Built-in Predicates </A>
+<B> Previous:</B> <A NAME=tex2html5383 HREF="node261.html"> External Interface Built-ins</A>
+<BR> <HR> <P>
+<H1><A NAME=SECTION0021190000000000000000> Prolog Environment Built-ins</A></H1>
+<P>
+The following predicates control the Prolog environment.
+<P>
+<A NAME=tex2html1172 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  Prolog Environment built-in.
+<DL ><DT><b> abolish_op(+Name, +Associativity)</b>
+<DD> <BR> 
+Remove the declaration of the visible operator +Name of associativity  Associativity.
+<A NAME=5895>&#160;</A>
+<DT><b> abort</b>
+<DD> <BR> 
+The current computation is aborted and control is returned to the top level.
+<A NAME=5898>&#160;</A>
+<DT><b> break</b>
+<DD> <BR> 
+A new invocation of the top level loop is called as a subgoal.
+<A NAME=5901>&#160;</A>
+<DT><b> current_atom(?Atom)</b>
+<DD> <BR> 
+Succeeds if  Atom is an atom in the system.
+<A NAME=5904>&#160;</A>
+<DT><b> current_compiled_file(?File, ?Time, ?Module)</b>
+<DD> <BR> 
+Succeeds if  File is a file that has been compiled into the system.
+<A NAME=5907>&#160;</A>
+<DT><b> current_functor(?PredSpec)</b>
+<DD> <BR> 
+Succeeds if  PredSpec is a functor known to the system.
+<A NAME=5910>&#160;</A>
+<DT><b> current_macro(?TermClass, ?TransPred, ?Options, ?Module)</b>
+<DD> <BR> 
+Succeeds if  TermClass is a macro with the transformation predicate  TransPred defined in module  Module and flags  Options.
+<A NAME=5916>&#160;</A>
+<DT><b> current_op(?Precedence, ?Associativity, ?Name)</b>
+<DD> <BR> 
+Succeeds if  Name is a visible operator with precedence  Precedence and associativity  Associativity.
+<A NAME=5921>&#160;</A>
+<DT><b> define_macro(+TermClass, +TransPred, +Options)</b>
+<DD> <BR> 
+Defines a macro transformation for the functor or type specified by  TermClass. The transformation predicate is  TransPred and  Options is a list of options.
+<A NAME=5926>&#160;</A>
+<DT><b> demo</b>
+<DD> <BR> 
+Starts the <A NAME=tex2html1173 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  demonstration programs.
+<A NAME=5929>&#160;</A>
+<DT><b> env</b>
+<DD> <BR> 
+Prints information about the current <A NAME=tex2html1174 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  environment on the current output.
+<A NAME=5932>&#160;</A>
+<DT><b> erase_macro(+TransTerm)</b>
+<DD> <BR> 
+Erases the macro definition for  TransTerm done in the current module
+<A NAME=5935>&#160;</A>
+<DT><b> garbage_collect</b>
+<DD> <BR> 
+Request an immediate garbage collection.
+<A NAME=5938>&#160;</A>
+<DT><b> get_chtab(+Char, ?Class)</b>
+<DD> <BR> 
+Succeeds if the lexical class of character  Char is  Class.
+<A NAME=5942>&#160;</A>
+<DT><b> get_flag(?Flag, ?Value)</b>
+<DD> <BR> 
+Succeeds if the flag  Flag has the value  Value.
+<A NAME=5946>&#160;</A>
+<DT><b> get_statistics(+PredSpec, ?Counters)</b>
+<DD> <BR> 
+Retrieve the statistics counters of the predicate  PredSpec into the list  Counters.
+<A NAME=5950>&#160;</A>
+<DT><b> global_op(+Precedence, +Associativity, +Name)</b>
+<DD> <BR> 
+Defines the global operator(s) in  Name to have precedence  Precedence and associativity  Associativity. If  Precedence is 0 then the operator definition is removed. 
+<A NAME=5956>&#160;</A>
+<DT><b> help(+PredSpec)</b>
+<DD> <BR> 
+Prints help information on the specified built-ins in  PredSpec on the current output.
+<A NAME=5959>&#160;</A>
+<DT><b> help</b>
+<DD> <BR> 
+Prints general help information on the current output.
+<A NAME=5962>&#160;</A>
+<DT><b> make</b>
+<DD> <BR> 
+Recompile all files that have been modified since their last compilation.
+<A NAME=5965>&#160;</A>
+<DT><b> op(+Precedence, +Associativity, +Name)</b>
+<DD> <BR> 
+Defines the operator(s)  Name with precedence  Precedence and associativity  Associativity locally in the current module. Defining a local operator of precedence 0 hides a global operator of the same associativity group (postfix, infix or prefix).
+<A NAME=5970>&#160;</A>
+<DT><b> phrase(+Grammar, ?List)</b>
+<DD> <BR> 
+Succeeds if  List unifies with a list from the specified grammar  Grammar.
+<A NAME=5974>&#160;</A>
+<DT><b> phrase(+Grammar, ?Tokens, ?Remainder)</b>
+<DD> <BR> 
+Succeeds if  Tokens can be parsed as part of the grammar defined in  Grammar and  Remainder contains any remaining terms in  Tokens. 
+<A NAME=5980>&#160;</A>
+<DT><b> pred(+PredSpec)</b>
+<DD> <BR> 
+The flags of the predicate described by  PredSpec are printed out on the current output.
+<A NAME=5983>&#160;</A>
+<DT><b> print_modes</b>
+<DD> <BR> 
+Prints the results of the mode statistics as a mode declaration.
+<A NAME=5986>&#160;</A>
+<DT><b> print_statistics</b>
+<DD> <BR> 
+Prints the results of the profiling execution.
+<A NAME=5989>&#160;</A>
+<DT><b> profile(+Goal)</b>
+<DD> <BR> 
+Profile the goal and print the times spent in each predicate.
+<A NAME=5992>&#160;</A>
+<DT><b> profile(+Goal, +Flags)</b>
+<DD> <BR> 
+Profile the goal and print the times spent in each predicate.
+<A NAME=5995>&#160;</A>
+<DT><b> restore(+File)</b>
+<DD> <BR> 
+Restores the execution state or program state saved in the file  File into memory
+<A NAME=5998>&#160;</A>
+<DT><b> save(+File)</b>
+<DD> <BR> 
+Saves the state of the current execution state in  File
+<A NAME=6001>&#160;</A>
+<DT><b> save_program(+File)</b>
+<DD> <BR> 
+Saves the state of the current program (code and global data) in  File
+<A NAME=6004>&#160;</A>
+<DT><b> set_chtab(+Char, +Class)</b>
+<DD> <BR> 
+Sets the lexical class of character  Char to class  Class, this provides an interface to <A NAME=tex2html1175 HREF="http://www.ecrc.de/eclipse/eclipse.html"><b> ECLiPSe</b></A>
+  's lexical analyser.
+<A NAME=6008>&#160;</A>
+<DT><b> set_flag(+Flag, +Value)</b>
+<DD> <BR> 
+Succeeds if the flag  Flag is successfully set to the value  Value.
+<A NAME=6012>&#160;</A>
+<DT><b> set_statistics(+PredSpec, +Counters)</b>
+<DD> <BR> 
+Initialise the statistics counters of the predicate  PredSpec with the values from the list  Counters.
+<A NAME=6016>&#160;</A>
+<DT><b> statistics(?Keyword, ?Value)</b>
+<DD> <BR> 
+Succeeds if the statistics item  Keyword has value  Value.
+<A NAME=6020>&#160;</A>
+<DT><b> statistics</b>
+<DD> <BR> 
+Prints information about resource usage and garbage collection.
+<A NAME=6023>&#160;</A>
+<P>
+ </DL><BR> <HR><A NAME=tex2html5390 HREF="node263.html"><IMG ALIGN=BOTTOM ALT="next" SRC="http://www.ecrc.de/eclipse/new_icons//next_motif.gif"></A>   <A NAME=tex2html5388 HREF="node243.html"><IMG ALIGN=BOTTOM ALT="up" SRC="http://www.ecrc.de/eclipse/new_icons//up_motif.gif"></A>   <A NAME=tex2html5382 HREF="node261.html"><IMG ALIGN=BOTTOM ALT="previous" SRC="http://www.ecrc.de/eclipse/new_icons//previous_motif.gif"></A>      <A NAME=tex2html5392 HREF="node321.html"><IMG ALIGN=BOTTOM ALT="index" SRC="http://www.ecrc.de/eclipse/new_icons//index_motif.gif"></A>   <BR>
+<B> Next:</B> <A NAME=tex2html5391 HREF="node263.html"> Compiler Directives</A>
+<B>Up:</B> <A NAME=tex2html5389 HREF="node243.html"> The Built-in Predicates </A>
+<B> Previous:</B> <A NAME=tex2html5383 HREF="node261.html"> External Interface Built-ins</A>
+<BR> <HR> <P>
+<BR> <HR>
+<P><ADDRESS>
+<I>Micha Meier <BR>
+Mon Mar  4 12:11:45 MET 1996</I>
+</ADDRESS>
+</BODY>
+

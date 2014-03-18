@@ -1,0 +1,51 @@
+<html><head>
+<title>Euler's Formula</title>
+</head><body>
+<h1><a href="http://www.ics.uci.edu/~eppstein/junkyard/"><img src="../junkyard.gif" align=center width="545" height="45" alt="The Geometry Junkyard" border=0></a></h1>
+<hr>
+<h1>Euler's Formula,
+Proof 8: Sum of Angles
+</H1>
+
+This proof uses the fact that the planar graph formed by the polyhedron
+can be embedded so all edges form straight line segments.
+
+<BLOCKQUOTE>
+Sum up the angles in each face of a straight line drawing of the graph
+(including the outer face); the sum of angles in a <I>k</I>-gon is
+(<I>k</I>-2)pi, and each edge contributes to two faces, so the total sum
+is (2E-2F)pi.
+<P>
+Now let's count the same angles the other way.
+Each interior vertex is surrounded by triangles and contributes a total
+angle of 2 pi to the sum.
+The vertices on the outside face contribute 2(pi - theta(v)).
+where theta denotes the exterior angle of the polygon.
+The total exterior angle of any polygon is 2 pi,
+so the total angle is 2 pi V - 4 pi.
+<P>
+Combining these two formulas and dividing through by 2 pi,
+we see that V - 2 = E - F, or equivalently V-E+F=2.
+</BLOCKQUOTE>
+
+This is the method used by Descartes in 1630.
+<a href="refs.html#Som">Sommerville</a> attributes this proof to
+<a href="refs.html#Lhu">Lhuilier</a> and
+<a href="refs.html#Ste">Steiner</a>.
+<a href="refs.html#HilPed">Hilton and Pederson</a> use angles in a similar way
+to relate the Euler characteristic of a polyhedral surface
+to its <I>total angular defect</I>.
+<P><HR><P>
+<a href="/~eppstein/junkyard/euler/">Proofs of Euler's Formula</a>.<BR>
+From the <a href="/~eppstein/junkyard/">Geometry Junkyard</a>,
+computational
+and recreational geometry pointers.<BR>
+<a href="http://www.ics.uci.edu/~eppstein/">David Eppstein</a>,
+<a href="http://www.ics.uci.edu/~theory/">Theory Group</a>,
+<a href="http://www.ics.uci.edu/">ICS</a>,
+<a href="http://www.uci.edu/">UC Irvine</a>.<P>
+<SMALL>Semi-automatically
+<a href="http://www.ics.uci.edu/~eppstein/pubs/filter.html">filtered</a>
+from a common source file.
+Last update: Sunday, 27-Jan-2013 12:07:01 PST.</SMALL>
+

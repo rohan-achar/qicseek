@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+ <head>
+  <title>Index of /toolkit/src/udf</title>
+ </head>
+ <body>
+
+<!-- $Id: apache.header.html 4061 2008-10-13 04:58:05Z rares $ -->
+
+<!-- START of HEADER -->
+
+<link rel="stylesheet" type="text/css" href="/white.css">
+
+<table width="100%"><tr>
+<td>
+<a href="http://flamingo.ics.uci.edu/"><img src="/images/flamingo_middle.jpg"></a>
+<td align="center">
+<h1>FLAMINGO Toolkit</h1>
+<h3>Department of Computer Science, UC Irvine</h3>
+</table>
+
+<br><br>
+
+<h2>Contributors</h2>
+<ul>
+<li><a href="http://www.ics.uci.edu/~chenli">Chen Li</a> (Faculty)
+<li><a href="http://www.ics.uci.edu/~rares">Rares Vernica</a> (Ph.D. Student)
+</ul>
+
+<br>
+
+<!-- END of HEADER -->
+<table><tr><th><img src="/icons/blank.gif" alt="[ICO]"></th><th><a href="?C=N;O=D">Name</a></th><th><a href="?C=M;O=A">Last modified</a></th><th><a href="?C=S;O=A">Size</a></th><th><a href="?C=D;O=A">Description</a></th></tr><tr><th colspan="5"><hr></th></tr>
+<tr><td valign="top"><img src="/icons/back.gif" alt="[DIR]"></td><td><a href="/toolkit/src/">Parent Directory</a></td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><td valign="top"><img src="/icons/folder.gif" alt="[DIR]"></td><td><a href="mysql/">mysql/</a></td><td align="right">16-Apr-2013 18:54  </td><td align="right">  - </td><td>&nbsp;</td></tr>
+<tr><th colspan="5"><hr></th></tr>
+</table>
+<address>Apache/2.2.15 (CentOS) Server at flamingo.ics.uci.edu Port 80</address>
+</body></html>
+
