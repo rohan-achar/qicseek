@@ -1,7 +1,14 @@
 #############################
 qicseek - v1.0
 
-* Updated backend to support snippets and titles.
+* full support for snippets, ironed out all bugs.
+
+-- Rohan Achar - Mar 19, 2014 - 10:55
+
+#############################
+qicseek - v1.0
+
+* Updated backend to support snippets and titles. (have to extend to give full support)
 
 -- Rohan Achar - Mar 19, 2014 - 10:00
 

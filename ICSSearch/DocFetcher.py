@@ -107,7 +107,12 @@ def LoadTrie():
 
 def conflatedDocids(result,rankingType): # Ranking based on TF-IDF
     if (len(result) == 1):
-            return [(i[0], docdict[i[0]][2], int(i[2])) for i in result[0][1]]
+            snippetDict[result[0][0]] = {}
+            postingslist = []
+            for i in result[0][1]:
+                snippetDict[result[0][0]][i[0]] = {result[0][0]: i[3]}
+                postingslist.append((i[0], docdict[i[0]][2], int(i[2])))
+            return postingslist
     interset = 0
     docidtfsum = {}
     for item in result:
@@ -328,14 +333,14 @@ def resultsList(result):
             break
     return urls
 
-def addPageSnippets(queryTermSet,urlObjects):
+def addPageSnippets(queryTermSet,urlObjects, hashtokens):
     ## 
     newresults = []
     for urlObj in urlObjects["results"]:
         tempHtml = open(htmlPath + docdict[urlObj["docid"]][1], "r").read()
         htmlfile = nltk.util.clean_html(tempHtml)
         tokens = nltk.word_tokenize(htmlfile)
-        positions = snippetDict["".join(queryTermSet)]
+        positions = snippetDict[hashtokens]
         list_of_pos = []
         if urlObj["docid"] in positions:
             [list_of_pos.extend(positions[urlObj["docid"]][j]) for j in positions[urlObj["docid"]]]
@@ -380,23 +385,29 @@ def GetResult(query,rankingType):
     start = time.clock()
     query = query.strip().lower()
     tokens = nltk.word_tokenize(query)
+    tokens = [wnl.lemmatize(token) for token in tokens]
     tokenSet = Set(tokens)
+    
     result = []
+
     global snippetDict
-    snippetDict["".join(tokenSet)] = {}
+    finaltoken = []
+    
     for i in range(len(tokens)):
-        word = wnl.lemmatize(tokens[i])
+        word = tokens[i]
         data = Trie.GetNearestMatchFromTrie(word)
         if (data[0]):
             result.append((word, data[1][1], i))
-
+            finaltoken.append(word)
+    hashtoken = "".join(finaltoken)
+    snippetDict[hashtoken] = {}
     if result != []:
         finalresult = resultsList(rankResults(normalize(conflatedDocids(result,rankingType)))) # Ranking based on TF-IDF/Cosine similarity
         timetaken = time.clock() - start
         if(query in ndcgDict):
             finalresult = getResultsWithNDCG(finalresult,query)
-        if(len(snippetDict["".join(tokenSet)]) > 0):
-            finalresult = addPageSnippets(tokenSet,finalresult)
+        if(len(snippetDict[hashtoken]) > 0):
+            finalresult = addPageSnippets(tokenSet,finalresult,hashtoken)
         print("Fetched in ", timetaken, " secs")
         return(finalresult)
         
