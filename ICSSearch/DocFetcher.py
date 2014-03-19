@@ -337,7 +337,7 @@ def addPageSnippets(queryTermSet,urlObjects, hashtokens):
     ## 
     newresults = []
     for urlObj in urlObjects["results"]:
-        tempHtml = open(htmlPath + docdict[urlObj["docid"]][1], "r").read()
+        tempHtml = open(htmlPath + docdict[urlObj["docid"]][1], "r", encoding = "utf-8").read()
         htmlfile = nltk.util.clean_html(tempHtml)
         tokens = nltk.word_tokenize(htmlfile)
         positions = snippetDict[hashtokens]
