@@ -222,6 +222,8 @@ def calculateCosineSimilarity(vector1, vector2):
     return round(dotProduct/euclideanDist,2)
 
 def normalize(result):
+    if len(result) == 0:
+        return result
     mean = [0]*(len(result[0])-1)
     sd = [0]*(len(result[0])-1)
     for i in range(1,len(result[0])):
