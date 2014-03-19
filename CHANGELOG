@@ -3,6 +3,9 @@ qicseek - v0.9
 
 * Updated formula for awesome NDCG
 * secretingredient.txt for realtime ranking formula modification
+TODO:
+> index.[html|php] remover from results
+> Have DocId.tsv in memory
 
 -- Sivabalan Thirunavukkarasu - Mar 16, 2014 - 00:15
 

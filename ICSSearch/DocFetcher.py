@@ -12,6 +12,7 @@ from math import log10
 from sets import Set
 
 src = "../FinalSet/"
+htmlPath = src + "Html/"
 list_of_bad_files = []
 picklefile = src + "IndexPickle.json"
 docidfile = src + "DocId.tsv"
@@ -23,6 +24,7 @@ formulafile = src + "secretingredient.txt"
 docdict = {}
 stops = {}
 ndcgDict = {}
+snippetDict = {}
 MAX_NUM_RESULTS = 10
 RELEVANCE_SPREAD = 2.0 # For 10 terms => google relevance scores = [5,5,4,4,3,3,2,2,1,1]
 SIZE_TO_CHECK = 30
@@ -135,13 +137,16 @@ def conflatedDocids(result,rankingType): # Ranking based on TF-IDF
         return cosineSimilarDocs(result, docidtfsum, len(result[0][1][0]) == 4)
 
 def cosineSimilarDocs(indexPostingList, docidtfsum, usePositions = False):
+    global snippetDict
     queryVector = {}
     docVectors = {}
+    docTermPosMap = {} 
     queryTermTfDict = {}
         
     docTermPos = {}
     shouldCheck = True and usePositions
     docLeastDiff = {}
+    termList = []
     for term,posting,position in indexPostingList:
         if(term in queryTermTfDict):
             queryTermTfDict[term][0] += 1
@@ -152,12 +157,17 @@ def cosineSimilarDocs(indexPostingList, docidtfsum, usePositions = False):
             if shouldCheck:
                 if doc[0] not in docTermPos:
                     docTermPos[doc[0]] = []
+                    docTermPosMap[doc[0]] = {}
                 docTermPos[doc[0]] += [(i, position) for i in doc[3]]
+                docTermPosMap[doc[0]][term] = doc[3]
             queryTermTfDict[term][1] += 1
             if(doc[0] in docVectors):
                 docVectors[doc[0]][term] = doc[2]
             else:
                 docVectors[doc[0]] = {term: doc[2]}
+        termList.append(term)
+    snippetDict[Set(termList)] = docTermPosMap
+
     if shouldCheck:
         for doc in docTermPos:
             docLeastDiff[doc] = 0
@@ -165,7 +175,7 @@ def cosineSimilarDocs(indexPostingList, docidtfsum, usePositions = False):
             prevTPos = docTermPos[doc][0]
             for i in xrange(1, len(docTermPos[doc])):
                 if abs(docTermPos[doc][i][1] - prevTPos[1]) == 1:
-                    diff = docTermPos[doc][i][0] - prevTPos[1]
+                    diff = docTermPos[doc][i][0] - prevTPos[0]
                     if docLeastDiff[doc] == 0 or diff < docLeastDiff[doc]:
                         docLeastDiff[doc] = diff
                 prevTPos = docTermPos[doc][i]
@@ -305,6 +315,7 @@ def resultsList(result):
             d["docid"] = item[0]
             d["title"] = ""
             d["url"] = docdict[item[0]][0]
+            d["snippet"] = ""
             d["score"] = item[2]
             d["pagerank"] = item[1]
             d["sortscore"] = list(item)
@@ -314,12 +325,22 @@ def resultsList(result):
             break
     return urls
 
+def addPageSnippets(queryTermSet,urlObjects) {
+    ## 
+    for urlObj in urlObjects:
+        tempHtml = open(htmlPath + docdict[urlObj[docid]][2]).read()
+        
+}
+
 
 def GetResult(query,rankingType):
     start = time.clock()
     query = query.strip().lower()
     tokens = nltk.word_tokenize(query)
+    tokenSet = Set(tokens)
     result = []
+    global snippetDict
+    snippetDict[tokenSet] = {}
     for i in range(len(tokens)):
         word = wnl.lemmatize(tokens[i])
         data = Trie.GetNearestMatchFromTrie(word)
@@ -331,6 +352,8 @@ def GetResult(query,rankingType):
         timetaken = time.clock() - start
         if(query in ndcgDict):
             finalresult = getResultsWithNDCG(finalresult,query)
+        if(len(snippetDict[tokenSet]) > 0):
+            finalresult = addPageSnippets(tokenSet,finalresult)
         print("Fetched in ", timetaken, " secs")
         return(finalresult)
         
