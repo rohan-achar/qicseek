@@ -1,0 +1,111 @@
+{
+    "results": [{
+        "docid": "43869",
+        "score": 10001.466666666667,
+        "title": "Exponential Family Harmoniums with an Application",
+        "url": "http://ngs.ics.uci.edu/category/prospecting-information/page/11/",
+        "sortscore": ["43869", 9999.580100914327, 10001.466666666667, 9999.432987137017, 10001.053324602024],
+        "snippet": [
+            ["with an Application to <b>Information</b> Retrieval. Max Welling & Michal Rosen-Zvi. <b>Information</b> and Computer Science. University of California. Irvine CA 92697-3425 "],
+            ["An introduction to <b>information</b> including indexing, retrieval, classifying, and clustering text and retrieval multimedia documents"]
+        ],
+        "pagerank": 9999.580100914327
+    }, {
+        "docid": "11472",
+        "score": 10002.2,
+        "title": "CS 221 - <b>Information</b> Retrieval",
+        "url": "http://soc.ics.uci.edu/Resources/collab.php?216",
+        "sortscore": ["11472", 9999.752971391454, 10002.2, 9999.462541861536, 9999.641421412078],
+        "snippet": [
+            ["Geographic <b>Information</b> <b>Retrieval</b> (GIR) Sys- tems. An example GIR system that we address in this paper is a search engine built on top of hundreds"],
+            [" Goal: Retrieve <b>information</b> content relevant to <b>information</b> need. Classic Retrieval"]
+        ],
+        "pagerank": 9999.752971391454
+    }, {
+        "docid": "3674",
+        "score": 10002.533333333333,
+        "title": "Winter 2009: Informatics 141 : <b>Information</b> <b>Retrieval</b> : Home",
+        "url": "http://www.ics.uci.edu/~djp3/classes/2010_01_CS221/assignmentSchedule.html",
+        "sortscore": ["3674", 9999.547817207804, 10002.533333333333, 9999.660667977752, 9999.170787015428],
+        "snippet": [],
+        "pagerank": 9999.547817207804
+    }, {
+        "docid": "10098",
+        "score": 9999.4,
+        "title": "Crista Lopes Home Page at UCI - Donald Bren School of Informa",
+        "url": "http://ngs.ics.uci.edu/ever-widening-web/",
+        "sortscore": ["10098", 9999.788339625162, 9999.4, 9999.570909184771, 10001.053324602024],
+        "snippet": [
+            ["a"],
+            ["b"]
+        ],
+        "pagerank": 9999.788339625162
+    }, {
+        "docid": "5132",
+        "score": 9999.4,
+        "title": "",
+        "url": "http://ngs.ics.uci.edu/ever-widening-web/comment-page-1/",
+        "sortscore": ["5132", 9999.547817207804, 9999.4, 9999.570909184771, 10001.053324602024],
+        "snippet": [
+            ["Geographic <b>Information</b> <b>Retrieval</b> (GIR) Sys- tems. An example GIR system that we address in this paper is a search engine built on top of hundreds"],
+            [" Goal: Retrieve <b>information</b> content relevant to <b>information</b> need. Classic Retrieval"]
+        ],
+        "pagerank": 9999.547817207804
+    }, {
+        "docid": "31702",
+        "score": 9999.333333333334,
+        "title": "Informatics 141: Computer Science 121: <b>Information</b> Retrieval",
+        "url": "http://soc.ics.uci.edu/Workshops/WorkshopJuly192001/index.php?TechFinalSummary-Capabilities",
+        "sortscore": ["31702", 10001.473538250702, 9999.333333333334, 9999.746048293027, 10001.053324602024],
+        "snippet": [
+            ["a"],
+            ["b"]
+        ],
+        "pagerank": 10001.473538250702
+    }, {
+        "docid": "31638",
+        "score": 9999.333333333334,
+        "title": "",
+        "url": "http://www.ics.uci.edu/~ics1c/hw4/04.html",
+        "sortscore": ["31638", 9999.626187685093, 9999.333333333334, 9999.8806864825, 10001.053324602024],
+        "snippet": [
+            ["a"],
+            ["b"]
+        ],
+        "pagerank": 9999.626187685093
+    }, {
+        "docid": "34544",
+        "score": 9999.333333333334,
+        "title": "",
+        "url": "http://ngs.ics.uci.edu/structured-and-unstructured-data-1/",
+        "sortscore": ["34544", 9999.739511867052, 9999.333333333334, 10000.440037009495, 10001.053324602024],
+        "snippet": [
+            ["Geographic <b>Information</b> <b>Retrieval</b> (GIR) Sys- tems. An example GIR system that we address in this paper is a search engine built on top of hundreds"],
+            [" Goal: Retrieve <b>information</b> content relevant to <b>information</b> need. Classic Retrieval"]
+        ],
+        "pagerank": 9999.739511867052
+    }, {
+        "docid": "39950",
+        "score": 10001.866666666667,
+        "title": "CS 221, <b>Information</b> Retrieval, Winter 2009-2010 Departme",
+        "url": "http://www.ics.uci.edu/~djp3/classes/2008_01_01_INF141/calendar.html",
+        "sortscore": ["39950", 9999.547817207804, 10001.866666666667, 9999.432987137017, 9999.288445614591],
+        "snippet": [
+            ["a"],
+            ["b"]
+        ],
+        "pagerank": 9999.547817207804
+    }, {
+        "docid": "10100",
+        "score": 9999.466666666667,
+        "title": "",
+        "url": "http://www.ics.uci.edu/~djp3/classes/2009_01_02_INF141/Lectures/Lecture16Notes.html/index.html",
+        "sortscore": ["10100", 9999.567052662325, 9999.466666666667, 9999.439554853578, 10000.818007403699],
+        "snippet": [
+            ["Geographic <b>Information</b> <b>Retrieval</b> (GIR) Sys- tems. An example GIR system that we address in this paper is a search engine built on top of hundreds"],
+            [" Goal: Retrieve <b>information</b> content relevant to <b>information</b> need. Classic Retrieval"]
+        ],
+        "pagerank": 9999.567052662325
+    }],
+    "ndcg_values": []
+}

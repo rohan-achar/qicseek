@@ -111,15 +111,16 @@ select:-moz-focusring {
 
 #searchResults label {
 	font-size: 1.2em;
-	margin: 10px 0 5px 0;
+	margin: 10px 0 0 0;
 }
 
 #searchMetrics {
 	padding-right: 0px;
 }
 
-#searchMetrics h3 {
+#searchMetrics h3, #searchMetrics h4 {
 	margin: 0;
+	font-weight: bold;
 }
 
 #searchMetrics div {
@@ -128,4 +129,18 @@ select:-moz-focusring {
 	background-color: #cdcdcd;
 	margin-top: 20px;
 	border-radius: 20px;
+}
+
+.result-title {
+	width: 70%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.result-snippet {
+	font-size: 0.9em;
+	margin-bottom: 5px;
+	margin-top: -5px;
+	width: 80%;
 }

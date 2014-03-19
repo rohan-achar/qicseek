@@ -134,23 +134,23 @@ function autoSuggest(inputObj,asWordObj) {
 		data: {'q': asWordObj.word, 'as': 'true'},
 		success: function(data) {
 			
-			searchResults = data;
-			
-			//console.log(data);
-			if(data[0] != asWordObj.word)
+			console.log(data);
+			if(data.length > 0)
 			{
-				cleanPartialWord = asWordObj.partial_word.replace(/\W+/g,'');
-				if(data[0].indexOf(cleanPartialWord) != -1)
+				if(data[0] != asWordObj.word)
 				{
-					$asObj.html('&nbsp;'+cleanPartialWord+'<b>'+data[0].replace(cleanPartialWord,'')+'</b>'+'&nbsp;')
+					cleanPartialWord = asWordObj.partial_word.replace(/\W+/g,'');
+					if(data[0].indexOf(cleanPartialWord) != -1)
+					{
+						$asObj.html('&nbsp;'+cleanPartialWord+'<b>'+data[0].replace(cleanPartialWord,'')+'</b>'+'&nbsp;')
+					}
+					else
+					{
+						$asObj.html('&nbsp;'+data[0]+'&nbsp;')
+					}
+					$asObj.show();
 				}
-				else
-				{
-					$asObj.html('&nbsp;'+data[0]+'&nbsp;')
-				}
-				$asObj.show();
 			}
-			
 		}
 	})
 }
@@ -179,8 +179,8 @@ function sendSearchRequest() {
 		url: URL,
 		data: {'q': queryText, 'rt': $('#rankTypeSelect').val()},
 		success: function(data) {
-			console.log(data);
-			//searchResults = data;
+			console.log(JSON.stringify(data));
+			gVar = data;
 			if(data){
 			    try{
 			        searchResults = data["results"];
@@ -212,13 +212,28 @@ function sendSearchRequest() {
 			for(var i = 0; i < searchResults.length; i++) {
 				
 				url = searchResults[i]['url'];
-				urlTitle =  searchResults[i]['title'].length == 0 ? url : searchResults[i]['title'];
+				urlTitle =  searchResults[i]['title'].length == 0 ? url.replace('http://','') : searchResults[i]['title'];
 				
 				var resultRow = $('<div/>').append(
-											$('<label/>').append(
-												$('<a/>').html(urlTitle).attr('href',url).addClass('')
-											)
-								);
+											$('<label/>')
+												.append($('<a/>').html(urlTitle).attr('href',url).addClass(''))
+												.addClass('result-title')
+								),
+					snippetText = '',
+					snippetRow = $('<p/>').addClass('result-snippet');
+
+				if(searchResults[i]["snippet"].length > 0)
+				{
+					for(var j=0; j < searchResults[i]["snippet"].length; j++)
+					{
+						snippetText += searchResults[i]["snippet"][j] + '...';
+					}
+					snippetText = snippetText.slice(0,250)+'...';
+					snippetRow.html(snippetText);
+
+					resultRow.append(snippetRow)
+				}
+
 				$(resultRow).hide().appendTo(resultsContainer).fadeIn(i*100);
 				//resultsContainer.append(resultRow);
 			}
