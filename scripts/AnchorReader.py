@@ -1,7 +1,7 @@
 from lxml import html
 # use ElementSoup to deal with really broken pages
 # use UnicodeDammit for encoding detection
-import re,json
+import re,json, io
 
 def htmlFileGetTags(htmlFileName, base_url):
 
@@ -48,7 +48,7 @@ docIdUrlMapDict = {}
 for line in docIdMapList:
 	lineSplits = line.strip('\n').split()
 	if(len(lineSplits) > 0):
-		docIdUrlMapDict[lineSplits[1]] = (lineSplits[0],HTML_FOLDER+lineSplits[2]) # {url : (doc_id, file_name)}
+		docIdUrlMapDict[lineSplits[1].strip()] = (lineSplits[0],HTML_FOLDER+lineSplits[2].strip()) # {url : (doc_id, file_name)}
 
 linkinkMap = []
 externalLinks = []
@@ -94,6 +94,24 @@ for url in docIdUrlMapDict:
 
 docidtitles = open(PROJ_FOLDER + "docidtitle.json", "w")
 json.dump(docIdTitle, docidtitles, indent=4, separators=(',', ': '))
+
+newdocidfile = io.open("../FinalSet/DocIdNew.tsv", "w", encoding="utf-8")
+titlecount = 0
+nontitlecount = 0
+for url in docIdUrlMapDict:
+	docid = docIdUrlMapDict[url][0]
+	page = docIdUrlMapDict[url][1].replace("\n", " ")
+	if ("\n" in page):
+		print(page)
+	if docid in docIdTitle and 'title' in docIdTitle[docid] and len(docIdTitle[docid]['title']) > 0:
+		title = docIdTitle[docid]['title'][0]
+		titlecount += 1
+	else:
+		title = url
+		nontitlecount += 1
+	newdocidfile.write(((docid + u"#123#" + url + u"#123#" + page[len(HTML_FOLDER):].strip() + u"#123#" + title.replace(u'\n', u' ')).replace(u'\n',u' ') + u"#456#"))
+newdocidfile.close()
+print(titlecount, nontitlecount)
 	#print(outLinks[0].xpath('//a', smart_strings = False))
 	# if count%1000 == 0:
 	# 	print(count)

@@ -15,7 +15,7 @@ src = "../FinalSet/"
 htmlPath = src + "Html/"
 list_of_bad_files = []
 picklefile = src + "IndexPickle.json"
-docidfile = src + "DocId.tsv"
+docidfile = src + "DocIdNew.tsv"
 pagerankfile = src + "pagerank.tsv"
 docidjson = src + "docIdLoaded.json"
 hashfile = src + "HashFile.json"
@@ -166,7 +166,7 @@ def cosineSimilarDocs(indexPostingList, docidtfsum, usePositions = False):
             else:
                 docVectors[doc[0]] = {term: doc[2]}
         termList.append(term)
-    snippetDict[Set(termList)] = docTermPosMap
+    snippetDict["".join(termList)] = docTermPosMap
 
     if shouldCheck:
         for doc in docTermPos:
@@ -271,12 +271,15 @@ def docidLoader():
     for pg in pagerankreader:
         pgparts = pg.split()
         pgrank[pgparts[0]] = float(pgparts[1])
-    for line in open(docidfile, "r"):
-        parts = line.split("\t")
+    for line in open(docidfile, "r").read().split("#456#"):
+        parts = line.split("#123#")
         p = 0.0
         if parts[0] in pgrank:
             p = pgrank[parts[0]]
-        docdict[parts[0]] = (parts[1], parts[2], p)
+        try:
+            docdict[parts[0]] = (parts[1], parts[2], p, " ".join(parts[3:]).strip())
+        except IndexError:
+            print(parts)
     json.dump(docdict, open(docidjson, "wb"))
     print(len(docdict))
 
@@ -313,9 +316,9 @@ def resultsList(result):
         if item[0] in docdict and "http://vcp.ics.uci.edu" not in docdict[item[0]][0]:
             d = {}
             d["docid"] = item[0]
-            d["title"] = ""
+            d["title"] = docdict[item[0]][3]
             d["url"] = docdict[item[0]][0]
-            d["snippet"] = ""
+            d["snippet"] = []
             d["score"] = item[2]
             d["pagerank"] = item[1]
             d["sortscore"] = list(item)
@@ -325,12 +328,52 @@ def resultsList(result):
             break
     return urls
 
-def addPageSnippets(queryTermSet,urlObjects) {
+def addPageSnippets(queryTermSet,urlObjects):
     ## 
-    for urlObj in urlObjects:
-        tempHtml = open(htmlPath + docdict[urlObj[docid]][2]).read()
-        
-}
+    newresults = []
+    for urlObj in urlObjects["results"]:
+        tempHtml = open(htmlPath + docdict[urlObj["docid"]][1], "r").read()
+        htmlfile = nltk.util.clean_html(tempHtml)
+        tokens = nltk.word_tokenize(htmlfile)
+        positions = snippetDict["".join(queryTermSet)]
+        list_of_pos = []
+        if urlObj["docid"] in positions:
+            [list_of_pos.extend(positions[urlObj["docid"]][j]) for j in positions[urlObj["docid"]]]
+            list_of_pos.sort()
+            prevStart = -1
+            prevEnd = -1
+            sentcount = 0
+            sentences = []
+            for k in list_of_pos:
+                if sentcount == 5:
+                    break
+                if k >= len(tokens):
+                    continue
+                if k >len(tokens) - 5:
+                    upper = len(tokens)
+                else:
+                    upper = k + 5
+                if k < 5:
+                    lower = 0
+                else:
+                    lower = k - 5
+
+                sentence = " ".join(tokens[lower:upper])
+                for j in positions[urlObj["docid"]]:
+                    sentence = sentence.lower().replace(j, u"<b>" + j + u"</b>")
+                if lower >= prevStart and lower <= prevEnd:
+                    sentences[sentcount-1] = sentence
+                else:
+                    sentences.append(sentence)
+                    sentcount += 1 
+                    prevStart = lower
+                    prevEnd = upper   
+        urlObj["snippet"] = sentences
+        newresults.append(urlObj)
+    urlObjects["results"] = newresults
+    return urlObjects
+    
+
 
 
 def GetResult(query,rankingType):
@@ -340,7 +383,7 @@ def GetResult(query,rankingType):
     tokenSet = Set(tokens)
     result = []
     global snippetDict
-    snippetDict[tokenSet] = {}
+    snippetDict["".join(tokenSet)] = {}
     for i in range(len(tokens)):
         word = wnl.lemmatize(tokens[i])
         data = Trie.GetNearestMatchFromTrie(word)
@@ -352,7 +395,7 @@ def GetResult(query,rankingType):
         timetaken = time.clock() - start
         if(query in ndcgDict):
             finalresult = getResultsWithNDCG(finalresult,query)
-        if(len(snippetDict[tokenSet]) > 0):
+        if(len(snippetDict["".join(tokenSet)]) > 0):
             finalresult = addPageSnippets(tokenSet,finalresult)
         print("Fetched in ", timetaken, " secs")
         return(finalresult)
