@@ -173,6 +173,7 @@ function sendSearchRequest() {
 		return;
 
 	var startTime = new Date().getTime();
+	$('.search-option img').show();
 
 	$.ajax({
 		type: "GET",
@@ -181,6 +182,7 @@ function sendSearchRequest() {
 		success: function(data) {
 			console.log(JSON.stringify(data));
 			gVar = data;
+			$('.search-option img').hide();
 			if(data){
 			    try{
 			        searchResults = data["results"];

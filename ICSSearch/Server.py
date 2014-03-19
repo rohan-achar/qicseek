@@ -48,6 +48,9 @@ class QueryHandler(BaseHTTPRequestHandler):
                     elif(".png" in parsed.path):
                         contenttype = "image/png"
                         path = "../FinalSet/Webpage" + parsed.path
+                    elif(".gif" in parsed.path):
+                        contenttype = "image/gif"
+                        path = "../FinalSet/Webpage" + parsed.path
                     elif(".ico" in parsed.path):
                         contenttype = "image/x-icon"
                         path = "../FinalSet/Webpage" + parsed.path

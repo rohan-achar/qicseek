@@ -29,6 +29,8 @@ vr {
 
 .search-option label {
 	color: #A8A8A8;
+	float: left;
+	margin-top: 4px;
 }
 
 select:-moz-focusring {
@@ -43,6 +45,13 @@ select:-moz-focusring {
 	outline: 0;
 	border: none;
 	outline-style: none;
+	float: left;
+}
+
+.search-option img {
+	margin-top: 5px;
+	margin-left: 30px;
+	display: none;
 }
 
 .navbar {
