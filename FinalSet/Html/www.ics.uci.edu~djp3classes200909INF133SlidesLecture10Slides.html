@@ -1,73 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-<head>
-    <meta name="description" content="User Interaction: AJAX Assignment Asst. Professor Donald J. Patterson INF 133 Fall 2009  AJAX Server delivers data not content AJAX in action:Crane  AJAX User interaction with the application can be fluid and continuous  AJAX in action:Crane Typically when a page is submitting data, the user is in limboUse the shopping cart exampleGoogle Suggest Sovereign versus Transient Applications  AJAX This is real coding personal contact: Dave Stewart jQuery (http://jquery.com)Prototype (http://www.prototypejs.org/)ExtJS (http://www.extjs.com/) very good for prebuilt themes and controls, but not very customizableYUI (http://developer.yahoo.com/yui/)MooTools (http://mootools.net/) - very compact, much smaller than the othersDojo (http://dojotoolkit.org/)  AJAX Some good resources personal contact: Dave Stewart http://www.ibm.com/developerworks/views/xml/libraryview.jsp?search_by=XML+processing+in+Ajax  AJAX Some good resources AJAX in action:Crane http://www.ibm.com/developerworks/views/xml/libraryview.jsp?search_by=XML+processing+in+Ajax  Assignment 1 The goal is a web page which has issued an AJAX request parsed the data and displayed it in a new way  Assignment 1  Assignment 1 get a Hello World running This eliminates errors related to your hosting provider and web set up It ensures that you have resources necessary on a web host   Assignment 1 Find some geo-data in XML or JSON format (Hint: RSS is a specific type of XML) What is geo-data? Anything that relates data to a spot on the earth Data with a latitude and longitude Data with an address Data with a zip code Data with a county For example: Photos taken in Los Angeles http://www.flickr.com/places//United+States/California/Los+Angeles  Assignment 1 Pick a library for development jQuery (http://jquery.com)Prototype (http://www.prototypejs.org/)ExtJS (http://www.extjs.com/) very good for prebuilt themes and controls, but not very customizableYUI (http://developer.yahoo.com/yui/)MooTools (http://mootools.net/) - very compact, much smaller than the othersDojo (http://dojotoolkit.org/)  Assignment 1 Pick a way to avoid cross-domain security What is this problem?Javascript does not allow you to make an XMLHttpRequest from an external domain XMLHttpRequest is the javascript function which retrieves data asynchronously Not just XML, but any data For security reasons it was restricted  Assignment 1 ✓ ✓ ✗ ✗  Assignment 1 Solutions to the cross-domain security restriction Run a proxy a php proxy You request http://mydomain.com/proxy.php?http://yourdomain.com/data.xml Javascript thinks its coming from local server  Assignment 1 Solutions to the cross-domain security restriction Use JSONP Requires server support Yahoo APIs support this Leverages Javascript loophole XMLHttpRequests are restricted Remote Javascript is not   Assignment 1 JSONP adds a &lt;script src=&gt; element to your web page with the external URL as the src target Serving JSON looks like this: Request: http://yourdomain.com/data.json Return: {“hello”:”world”} Serving JSONP looks like this: Request http://yourdomain.com/data.jsonp?callback=myCallback Return: myCallback(“{\”hello\”:\”world\”}”) Your webpage writes a function called myCallback to deal with the data jQuery shortcut  Security issues You are running server generated code on your machine $.getJSON(&quot;http://yourdomain.com/index.html?format=json&amp;amp;callback=?&quot;,	function(data){ alert(data) });  Assignment 1 Solutions to the cross-domain security restriction Yahoo! Pipes A web based system that enables converting data from RSS to JSONP on the fly."/>
-    <title></title>
-    <script type="text/javascript" language="javascript">
-//      <![CDATA[
-            var images = new Array (18);
-            images[0] = "Lecture10Slides_files/Lecture10Slides.001.png";
-            images[1] = "Lecture10Slides_files/Lecture10Slides.002.png";
-            images[2] = "Lecture10Slides_files/Lecture10Slides.003.png";
-            images[3] = "Lecture10Slides_files/Lecture10Slides.004.png";
-            images[4] = "Lecture10Slides_files/Lecture10Slides.005.png";
-            images[5] = "Lecture10Slides_files/Lecture10Slides.006.png";
-            images[6] = "Lecture10Slides_files/Lecture10Slides.007.png";
-            images[7] = "Lecture10Slides_files/Lecture10Slides.008.png";
-            images[8] = "Lecture10Slides_files/Lecture10Slides.009.png";
-            images[9] = "Lecture10Slides_files/Lecture10Slides.010.png";
-            images[10] = "Lecture10Slides_files/Lecture10Slides.011.png";
-            images[11] = "Lecture10Slides_files/Lecture10Slides.012.png";
-            images[12] = "Lecture10Slides_files/Lecture10Slides.013.png";
-            images[13] = "Lecture10Slides_files/Lecture10Slides.014.png";
-            images[14] = "Lecture10Slides_files/Lecture10Slides.015.png";
-            images[15] = "Lecture10Slides_files/Lecture10Slides.016.png";
-            images[16] = "Lecture10Slides_files/Lecture10Slides.017.png";
-            images[17] = "Lecture10Slides_files/Lecture10Slides.018.png";
-            var index = 0;
-            function WindowLoaded(evt)
-            {
-                document.body.onselectstart = function () { return false; };
-            }
-            function Step(i)
-            {
-                GoTo(index + i)
-            }
-            function GoTo(newIndex)
-            {
-                if(newIndex >= 0 && newIndex < images.length)
-                {
-                    index = newIndex;
-                    document.Slideshow.src = images[index];
-                }
-            }
-//      ]]>
-    </script>
-</head>
-<body bgcolor="black" onload='WindowLoaded(event);'>
-    <p align="center">
-        <br/>
-        <br/>
-        <img name="Slideshow" alt="" src="Lecture10Slides_files/Lecture10Slides.001.png" onclick="Step(1)"/>
-        <br/>
-        <br/>
-        <input type="image" src="Lecture10Slides_files/home.png" onclick="GoTo(0)"/>
-        &nbsp;&nbsp;&nbsp;
-        <input type="image" src="Lecture10Slides_files/prev.png" onclick="Step(-1)"/>
-        <input type="image" src="Lecture10Slides_files/next.png" onclick="Step(1)"/>
-    </p>
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-15170336-1");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-
-</body>
-</html>
-

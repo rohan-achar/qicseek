@@ -15,12 +15,12 @@ hr {
 }
 
 vr {
-    height: 40px;
+    height: 30px;
 	background-color: #ACACAC;
 	width: 1px;
 	float: left;
 	position: relative;
-	margin: -2% 30px 0px 30px;
+	margin: 0px 30px 0px 30px;
 }
 
 .search-option {
@@ -46,6 +46,7 @@ select:-moz-focusring {
 	border: none;
 	outline-style: none;
 	float: left;
+	border-radius: 6px;
 }
 
 .search-option img {
@@ -75,7 +76,7 @@ select:-moz-focusring {
 .navbar .container .navbar-header .navbar-brand {
 	padding: 5px 5px 5px 0px;
 	font-size: 28px;
-	color: #2EBB2E;
+	color: #20BBB5;
 	margin: 0px;
 	height: auto;
 }
@@ -89,6 +90,8 @@ select:-moz-focusring {
 .search-button {
 	width: 150px;
 	font-weight: bold;
+	background-color: #20BBB5;
+	border-color: #20BBB5;
 }
 
 #autoSuggestDiv {

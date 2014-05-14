@@ -1,23 +1,0 @@
-<html><head><title>dr. zaius</title><LINK REL="stylesheet" HREF="style.css" TYPE="text/css"><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
-
-<body>
-<span class="main">
-<p>welcome to the experimental web server of paul dourish's research groupin the information and computer science school at uc irvine.</p><p>problems should be addressed to [jpd or johannab] at ics.uci.edu.complaints unwelcome.</p>
-</span>
-
-<span class="services">
-<ul>
-<li><a
-href="http://drzaius.ics.uci.edu/bugzilla/">bugzilla</a></li><li><a href="http://drzaius.ics.uci.edu/cgi-bin/cvsweb.cgi">cvs</a></li><li><a href="http://drzaius.ics.uci.edu/mt/mt.cgi">movabletype</a></li><li><a href="http://drzaius.ics.uci.edu/wiki/index.php/Main_Page">wiki</a></li>
-</ul>
-</span>
-
-<span class="misc">
-<ul>
-<li><a href="http://drzaius.ics.uci.edu/webcam/index.shtml">paul's webcam</a></li>
-</ul>
-</span>
-
-</body>
-</html>
-

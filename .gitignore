@@ -117,6 +117,12 @@ ClientBin/
 *.[Pp]ublish.xml
 *.pfx
 *.publishsettings
+*.pfq
+metadata.json
+libs.json
+description.txt
+allPythonContent.py
+
 
 # RIA/Silverlight projects
 Generated_Code/

@@ -20,9 +20,9 @@ class QueryHandler(BaseHTTPRequestHandler):
                     jsonResp = json.dumps(DocFetcher.GetASResult(queries["q"][0]))
                     hasResp = True
             elif "q" in queries:
-                rankingType = 'cosine'
-                if "rt" in queries:
-                    rankingType = queries["rt"][0] 
+                rankingType = 'all'
+                if "os" in queries:
+                    rankingType = queries["os"][0] 
                 print(rankingType) 
                 #normal query part
                 jsonResp = json.dumps(DocFetcher.GetResult(queries["q"][0],rankingType))
@@ -74,8 +74,6 @@ class QueryHandler(BaseHTTPRequestHandler):
 
 def DataLoader():
     DocFetcher.LoadTrie()
-    DocFetcher.docidLoader()
-    DocFetcher.ndcgLoader()
     print("Done")
 
 def main(port):

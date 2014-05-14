@@ -12,7 +12,7 @@ function init() {
 			asQueryObj = getWordAtPosition(searchQuery,e.target.selectionStart);
 
 		$asObj.hide();
-		resetResults('Press Enter or click Search to find pages from within ICS!');
+		resetResults('Your software libraries search results will appear here!');
 
 		if (e.target.value.slice(-1) != ' ' && $.trim(e.target.value) != '' && $.trim($asObj.text()) != asQueryObj.word)
 		{	
@@ -178,7 +178,7 @@ function sendSearchRequest() {
 	$.ajax({
 		type: "GET",
 		url: URL,
-		data: {'q': queryText, 'rt': $('#rankTypeSelect').val()},
+		data: {'q': queryText, 'os': $('#targetOSSelect').val(), 'lang': $('#languageSelect').val()}, 
 		success: function(data) {
 			console.log(JSON.stringify(data));
 			gVar = data;

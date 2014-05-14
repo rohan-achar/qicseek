@@ -1,74 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-<head>
-    <meta name="description" content="User Interaction: AJAX Basics Asst. Professor Donald J. Patterson INF 133 Fall 2009  Follow up from last class  AJAX“Asynchronous Javascript and XML” although XML can be replaced with any data format Developed to support  “rich clients” One of the big enablers of Web 2.0  AJAX Consider a spreadsheet, once canEdit data in place Changes are updated in real-time Dependencies across the document Feedback from the mouse and cursor Cells highlight Overall a pretty rich user interface experience  AJAX “Rich Client” Rich  In the U/I sense “Spread-sheet” like Client Lives in a networked world AJAX in action:Crane  AJAX Desktop World  AJAX in action:Crane  AJAX Cloud Computing World  AJAX in action:Crane  AJAX Asynchronousness  AJAX in action:Crane  AJAX Network induces variable delays, always worse than local  AJAX in action:Crane Local Model Serialization App Protocol Physical Transport App protocol Serialization Remote Model  AJAX Defining principles of AJAX  AJAX in action:Crane Browser hosts an application, not contentServer delivers data not contentUser interaction with the application can be fluid and continuous This is real coding  AJAX Browser hosts an application, not content AJAX in action:Crane every page is new content vs. request for data server functionality is moved to browser example, the shopping basket is in the client draw picture of login logout web pages model include browser, server, login, pages draw picture of client application picture include client application and data model  AJAX Browser hosts an application, not content AJAX in action:Crane  AJAX Browser hosts an application, not content AJAX in action:Crane  AJAX Server delivers data not content AJAX in action:Crane Draw a graph of network resources classic web app (data, presentation, content) AJAX web app (logic, presentation, data) bandwidth usage over time  AJAX Server delivers data not content AJAX in action:Crane  AJAX User interaction with the application can be fluid and continuous  AJAX in action:Crane Typically when a page is submitting data, the user is in limboUse the shopping cart exampleGoogle Suggest Sovereign versus Transient Applications  AJAX This is real coding AJAX in action:Crane jQuery (http://jquery.com)Prototype (http://www.prototypejs.org/)ExtJS (http://www.extjs.com/) very good for prebuilt themes and controls, but not very customizableYUI (http://developer.yahoo.com/yui/)MooTools (http://mootools.net/) - very compact, much smaller than the othersDojo (http://dojotoolkit.org/)  AJAX Some good resources AJAX in action:Crane http://www.ibm.com/developerworks/views/xml/libraryview.jsp?search_by=XML+processing+in+Ajax"/>
-    <title></title>
-    <script type="text/javascript" language="javascript">
-//      <![CDATA[
-            var images = new Array (19);
-            images[0] = "Lecture09Slides_files/Lecture09Slides.001.png";
-            images[1] = "Lecture09Slides_files/Lecture09Slides.002.png";
-            images[2] = "Lecture09Slides_files/Lecture09Slides.003.png";
-            images[3] = "Lecture09Slides_files/Lecture09Slides.004.png";
-            images[4] = "Lecture09Slides_files/Lecture09Slides.005.png";
-            images[5] = "Lecture09Slides_files/Lecture09Slides.006.png";
-            images[6] = "Lecture09Slides_files/Lecture09Slides.007.png";
-            images[7] = "Lecture09Slides_files/Lecture09Slides.008.png";
-            images[8] = "Lecture09Slides_files/Lecture09Slides.009.png";
-            images[9] = "Lecture09Slides_files/Lecture09Slides.010.png";
-            images[10] = "Lecture09Slides_files/Lecture09Slides.011.png";
-            images[11] = "Lecture09Slides_files/Lecture09Slides.012.png";
-            images[12] = "Lecture09Slides_files/Lecture09Slides.013.png";
-            images[13] = "Lecture09Slides_files/Lecture09Slides.014.png";
-            images[14] = "Lecture09Slides_files/Lecture09Slides.015.png";
-            images[15] = "Lecture09Slides_files/Lecture09Slides.016.png";
-            images[16] = "Lecture09Slides_files/Lecture09Slides.017.png";
-            images[17] = "Lecture09Slides_files/Lecture09Slides.018.png";
-            images[18] = "Lecture09Slides_files/Lecture09Slides.019.png";
-            var index = 0;
-            function WindowLoaded(evt)
-            {
-                document.body.onselectstart = function () { return false; };
-            }
-            function Step(i)
-            {
-                GoTo(index + i)
-            }
-            function GoTo(newIndex)
-            {
-                if(newIndex >= 0 && newIndex < images.length)
-                {
-                    index = newIndex;
-                    document.Slideshow.src = images[index];
-                }
-            }
-//      ]]>
-    </script>
-</head>
-<body bgcolor="black" onload='WindowLoaded(event);'>
-    <p align="center">
-        <br/>
-        <br/>
-        <img name="Slideshow" alt="" src="Lecture09Slides_files/Lecture09Slides.001.png" onclick="Step(1)"/>
-        <br/>
-        <br/>
-        <input type="image" src="Lecture09Slides_files/home.png" onclick="GoTo(0)"/>
-        &nbsp;&nbsp;&nbsp;
-        <input type="image" src="Lecture09Slides_files/prev.png" onclick="Step(-1)"/>
-        <input type="image" src="Lecture09Slides_files/next.png" onclick="Step(1)"/>
-    </p>
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-15170336-1");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-
-</body>
-</html>
-

@@ -1,71 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-<head>
-    <meta name="description" content="User Interaction: Intro to Multi-Touch Asst. Professor Donald J. Patterson INF 133 Fall 2009  Traditional Mouse Input  Java uses a “MouseListener” model The user asks the virtual machine to tell it when mouse events occur Mouse movements Mouse button press, release, click button 1,2,3 Mouse wheel movements Traditional Mouse Input  Java uses a “MouseListener” Traditional Mouse Input “Observer” design pattern  Example:  http://java.sun.com/docs/books/tutorialJWS/uiswing/events/ex6/MouseEventDemo.jnlp  Traditional Mouse Input http://java.sun.com/docs/books/tutorial/uiswing/events/mouselistener.html  Traditional Mouse Input http://java.sun.com/docs/books/tutorial/uiswing/events/mouselistener.html  Mouse Event When your program is told that something happened, you get extra info Single or double click? (X,Y) of event global and local coordinates which button was pushed (1,2,3) Modifier keys “Shift” click Traditional Mouse Input  Input Event When your program is told that something happened, you get extra info Which UI component is reporting timestamp and a few more things Traditional Mouse Input  Different types of input devices What about trackpads? What about tablets? What about rollerballs? Traditional Mouse Input flickr: goodrob12,viagallery.com, somewhereinAK  Different types of input devices As long as the OS can translate the hardware interaction into the same events then programs are compatible. A tablet can “click” A rollerball “enters” and “exits” A finger on a trackpad has an (X,Y) Traditional Mouse Input flickr: goodrob12,viagallery.com, somewhereinAK  Multi-touch creates new interactions This breaks old programs unless the OS makes the multi-touch look like a mouse to the program Multi-touch flickr:desertzarzamora  Multi-touch creates new interactions But multi-touch is really computer vision Multi-touch Community Core Vision Where is the mouse clicking?  Multi-touch creates new interactions Software has to be rewritten to be “multi-touch” aware The OS can give some support exposing new events like “pinch” (tell me when a pinch occurs) “rotate” (tell me when a rotate occurs) “two finger swipe” “three finger swipe” Multi-touch  Multi-touch terminology Multi-touch – An interactive technique that allows single or multiple users to control graphical displays with more than one simultaneous finger.Multi-point – An interactive technique that makes use of points of contact rather than movement. A multi-point kiosk with buttons would be an example.Multi-user – A multi-touch device that accepts more than one user. Larger multi-touch devices are said to be inherently multi-user.Multi-modal – A form of interaction using multiple modes of interfacing with a system. Multi-touch  Multi-touch terminology Tabletop Computing – Interactive computer displays that take place in the form of tabletops.Direct Manipulation – The ability to use the body itself (hands, fingers, etc) to directly manage digital workspaces.Blob tracking - Assigning each blob an ID (identifier). Each frame we try to determine which blob is which by comparing each with the previous frame.Blob detection - Process of picking out bright areas of a camera image and somehow relaying them to a computer as a touch. Multi-touch"/>
-    <title></title>
-    <script type="text/javascript" language="javascript">
-//      <![CDATA[
-            var images = new Array (16);
-            images[0] = "Lecture16Slides_files/Lecture16Slides.001.png";
-            images[1] = "Lecture16Slides_files/Lecture16Slides.002.png";
-            images[2] = "Lecture16Slides_files/Lecture16Slides.003.png";
-            images[3] = "Lecture16Slides_files/Lecture16Slides.004.png";
-            images[4] = "Lecture16Slides_files/Lecture16Slides.005.png";
-            images[5] = "Lecture16Slides_files/Lecture16Slides.006.png";
-            images[6] = "Lecture16Slides_files/Lecture16Slides.007.png";
-            images[7] = "Lecture16Slides_files/Lecture16Slides.008.png";
-            images[8] = "Lecture16Slides_files/Lecture16Slides.009.png";
-            images[9] = "Lecture16Slides_files/Lecture16Slides.010.png";
-            images[10] = "Lecture16Slides_files/Lecture16Slides.011.png";
-            images[11] = "Lecture16Slides_files/Lecture16Slides.012.png";
-            images[12] = "Lecture16Slides_files/Lecture16Slides.013.png";
-            images[13] = "Lecture16Slides_files/Lecture16Slides.014.png";
-            images[14] = "Lecture16Slides_files/Lecture16Slides.015.png";
-            images[15] = "Lecture16Slides_files/Lecture16Slides.016.png";
-            var index = 0;
-            function WindowLoaded(evt)
-            {
-                document.body.onselectstart = function () { return false; };
-            }
-            function Step(i)
-            {
-                GoTo(index + i)
-            }
-            function GoTo(newIndex)
-            {
-                if(newIndex >= 0 && newIndex < images.length)
-                {
-                    index = newIndex;
-                    document.Slideshow.src = images[index];
-                }
-            }
-//      ]]>
-    </script>
-</head>
-<body bgcolor="black" onload='WindowLoaded(event);'>
-    <p align="center">
-        <br/>
-        <br/>
-        <img name="Slideshow" alt="" src="Lecture16Slides_files/Lecture16Slides.001.png" onclick="Step(1)"/>
-        <br/>
-        <br/>
-        <input type="image" src="Lecture16Slides_files/home.png" onclick="GoTo(0)"/>
-        &nbsp;&nbsp;&nbsp;
-        <input type="image" src="Lecture16Slides_files/prev.png" onclick="Step(-1)"/>
-        <input type="image" src="Lecture16Slides_files/next.png" onclick="Step(1)"/>
-    </p>
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-15170336-1");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-
-</body>
-</html>
-

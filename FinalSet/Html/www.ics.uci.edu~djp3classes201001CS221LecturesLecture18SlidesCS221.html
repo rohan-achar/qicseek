@@ -1,74 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-<head>
-    <meta name="description" content="Comparing PubSubHubbub and Twitter Introduction to Information Retrieval CS 221 Donald J. Patterson  PubSubHubbub Basic idea is to eliminate polling sites for changes = eliminate crawling web sites blindly   PubSubHubbub A feed declares its PuSH server in it’s header A feed is a URL A feed is an Atom or RSS XML file A PuSH server is a “hub”  &lt;link rel=&quot;hub&quot; href=&quot;http://myhub.example.com/endpoint&quot; /&gt; A PuSH server is a “hub”       PubSubHubbub A subscriber first gets the RSS feed as always        PubSubHubbub A subscriber then subscribes to the “hub” The hub then tells the subscriber when there is an update This avoids endless polling by the subscriber for changes        PubSubHubbub When there is an update, the publisher tells the hub         PubSubHubbub The hub gets the feed and sends it to the subscribers         PubSubHubbub  PubSubHubbub http://www.youtube.com/watch?v=B5kHx0rGkec http://docs.google.com/present/view?id=ajd8t6gk4mh2_34dvbpchfs  Twitter API In contrast to PuSH Twitter takes control of both publish and subscribe Twitter becomes a black box for multicast PuSH decouples publication from subscription PuSH is much more scalable Not as popular         Twitter API There are actually three APIsREST interaction REST search Stream-based The Streaming API provides low-latency high-volume access to Tweets.  Twitter API You cannot make unlimited calls, follow requests, updates or direct messageAPI usage is rate limited.  There are limits on the number of follow requests, updates and direct messages you can make in a single day.   Twitter API The API is entirely HTTP-basedMethods to retrieve data from the Twitter API require a GET request.   Methods that submit, change, or destroy data require a POST.   API Methods that require a particular HTTP method will return an error if you do not make your request with the correct method  Twitter API The API is a RESTful resourceSimply change the format extension a request to get results in the format of your choice.   The API presently supports the following data formats: XML, JSON, and the RSS and Atom syndication formats, with some methods only accepting a subset of these formats.  Twitter API Parameters have certain expectationsSome API methods take optional or requisite parameters.  Parameter values should be converted to UTF-8 and URL encoded. The page parameter begins at 1, not 0.  Twitter API There are many libraries available  Twitter API Examples: Get the public timeline in RSS format, unauthenticated curl http://api.twitter.com/1/statuses/public_timeline.rss Get updates from users you follow in XML, authenticated curl -u username:password http://api.twitter.com/1/statuses/friends_timeline.xml Post a status update and get the resulting status back as JSON  curl -u username:password -d status=&quot;your message here&quot; http://api.twitter.com/1/statuses/update.json  Twitter API Examples: Streaming API  curl -d @locations http://stream.twitter.com/1/statuses/filter.json -u username:password -s   Discussion Discussion  "/>
-    <title></title>
-    <script type="text/javascript" language="javascript">
-//      <![CDATA[
-            var images = new Array (19);
-            images[0] = "Lecture18_Slides_CS221_files/Lecture18_Slides_CS221.001.png";
-            images[1] = "Lecture18_Slides_CS221_files/Lecture18_Slides_CS221.002.png";
-            images[2] = "Lecture18_Slides_CS221_files/Lecture18_Slides_CS221.003.png";
-            images[3] = "Lecture18_Slides_CS221_files/Lecture18_Slides_CS221.004.png";
-            images[4] = "Lecture18_Slides_CS221_files/Lecture18_Slides_CS221.005.png";
-            images[5] = "Lecture18_Slides_CS221_files/Lecture18_Slides_CS221.006.png";
-            images[6] = "Lecture18_Slides_CS221_files/Lecture18_Slides_CS221.007.png";
-            images[7] = "Lecture18_Slides_CS221_files/Lecture18_Slides_CS221.008.png";
-            images[8] = "Lecture18_Slides_CS221_files/Lecture18_Slides_CS221.009.png";
-            images[9] = "Lecture18_Slides_CS221_files/Lecture18_Slides_CS221.010.png";
-            images[10] = "Lecture18_Slides_CS221_files/Lecture18_Slides_CS221.011.png";
-            images[11] = "Lecture18_Slides_CS221_files/Lecture18_Slides_CS221.012.png";
-            images[12] = "Lecture18_Slides_CS221_files/Lecture18_Slides_CS221.013.png";
-            images[13] = "Lecture18_Slides_CS221_files/Lecture18_Slides_CS221.014.png";
-            images[14] = "Lecture18_Slides_CS221_files/Lecture18_Slides_CS221.015.png";
-            images[15] = "Lecture18_Slides_CS221_files/Lecture18_Slides_CS221.016.png";
-            images[16] = "Lecture18_Slides_CS221_files/Lecture18_Slides_CS221.017.png";
-            images[17] = "Lecture18_Slides_CS221_files/Lecture18_Slides_CS221.018.png";
-            images[18] = "Lecture18_Slides_CS221_files/Lecture18_Slides_CS221.019.png";
-            var index = 0;
-            function WindowLoaded(evt)
-            {
-                document.body.onselectstart = function () { return false; };
-            }
-            function Step(i)
-            {
-                GoTo(index + i)
-            }
-            function GoTo(newIndex)
-            {
-                if(newIndex >= 0 && newIndex < images.length)
-                {
-                    index = newIndex;
-                    document.Slideshow.src = images[index];
-                }
-            }
-//      ]]>
-    </script>
-</head>
-<body bgcolor="black" onload='WindowLoaded(event);'>
-    <p align="center">
-        <br/>
-        <br/>
-        <img name="Slideshow" alt="" src="Lecture18_Slides_CS221_files/Lecture18_Slides_CS221.001.png" onclick="Step(1)"/>
-        <br/>
-        <br/>
-        <input type="image" src="Lecture18_Slides_CS221_files/home.png" onclick="GoTo(0)"/>
-        &nbsp;&nbsp;&nbsp;
-        <input type="image" src="Lecture18_Slides_CS221_files/prev.png" onclick="Step(-1)"/>
-        <input type="image" src="Lecture18_Slides_CS221_files/next.png" onclick="Step(1)"/>
-    </p>
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-15170336-1");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-
-</body>
-</html>
-

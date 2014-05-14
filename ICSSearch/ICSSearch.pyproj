@@ -29,7 +29,6 @@
     <Compile Include="DocFetcher.py" />
     <Compile Include="Filterexisting.py" />
     <Compile Include="PageRank.py" />
-    <Compile Include="pfqgen.py" />
     <Compile Include="Server.py" />
     <Compile Include="Trie.py" />
     <Compile Include="usefulterms.py" />

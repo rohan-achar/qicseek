@@ -1,297 +1,0 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-                <title></title>
-                
-                
-                <meta content="Thu, 17 Oct 2013 08:28:02 -0380" name="date"/>
-                
-<link href="../../../bin/styles/stylesheet_secondary.css" rel="stylesheet" type="text/css"/>
-</head>
-<body>
-
-<!-- before breadcrumb_nav include -->
- <!-- after breadcrumb_nav include -->
-
-<div id="wrapper">
-<script type="text/javascript">
-
-sfHover = function() {
-    var sfEls = document.getElementById("navcontainer").getElementsByTagName("LI");
-    for (var i=0; i<sfEls.length; i++) {
-        sfEls[i].onmouseover=function() {
-            this.className+=" sfhover";
-        }
-        sfEls[i].onmouseout=function() {
-            this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
-        }
-    }
-}
-if (window.attachEvent) window.attachEvent("onload", sfHover);
-
-</script>
-
-    <div id="header" title="Welcome to the Donald Bren School of Information and Computer Sciences @ UC Irvine">
-
-           <a id="bren_link" href="/"></a>
-
-           <a id="uci_link" href="http://www.uci.edu/"></a>
-
-    </div>
-    
-    
-    <div CLASS="newbar"><p style="line-height: 0px; display: none; "></p></div>
-    
-    
-    <div id="navcontainer">
-
-                
-            <ul>
-                
-                <li>
-                
-                    <a href='/about/' title='about'>&raquo; About</a>              
-
-                    <ul>
-                        <li><a href="/about/">&raquo; About the School</a></li>
-                        <li><a href="/about/about_mission.php">&raquo; Bren ICS Mission</a></li>
-                        <li><a href="/about/about_deanmsg.php">&raquo; Dean's welcome</a></li>
-                        <li><a href="/about/bren/">&raquo; About the Bren gift</a></li>
-                        <li><a href="/about/about_factsfigures.php">&raquo; Facts and figures</a></li>
-                        <li><a href="/about/brenhall/index.php">&raquo; Donald Bren Hall</a></li>
-                        <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
-                        <li><a href="/about/about_contact.php">&raquo; Contact us</a></li>
-                        <LI><A HREF="/about/equity/">&raquo; Equity & diversity</A></LI>
-                    </ul>               
-                </li>
-                
-                <li>
-                
-                    <a href='/dept/' title='departments'>&raquo; Departments</a>
-                    <ul>
-                        <li><a href="http://www.cs.uci.edu">&raquo; Computer Science</a></li>
-                        <li><a href="http://www.informatics.uci.edu">&raquo; Informatics</a></li>
-                        <li><a href="http://www.stat.uci.edu">&raquo; Statistics</a></li>
-                    </ul>               
-                </li>
-                
-                <li>
-                
-                    <a href='/faculty/area/' title='research'>&raquo; Research</a>              
-                
-
-                
-                
-                
-                    <ul>
-                        <li><a href="/faculty/area/">&raquo; Research areas</a></li>
-                        <li><a href="/faculty/centers/">&raquo; Research centers</a></li>
-                        <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
-                    </ul>
-                </li>
-                
-                
-                
-                <li>
-                
-                    <a href='#' title='education'>&raquo; Education</a>              
-
-                    <ul>
-                        <li><a href="/grad/">&raquo; Graduate</a>
-                        
-                            <ul>                        
-                            <li><a href="/grad/admissions/index.php">&raquo; Apply</a></li>
-                            <li><a href="/grad/degrees/index.php">&raquo; Degrees</a></li>
-                            <li><a href="http://www.reg.uci.edu/registrar/soc/fees.html">&raquo; Tuition and costs</a></li>
-                            <li><a href="/grad/courses/index.php">&raquo; Courses</a></li>
-                            <li><a href="/grad/qa/index.php">&raquo; FAQ</a></li>
-                            <li><a href="/faculty/area/index.php">&raquo; Research areas</a></li>
-                            <li><a href="/faculty/highlights/">&raquo; Research highlights</a></li>
-                            <li><a href="/grad/policies/index.php">&raquo; Policies &amp; forms</a></li>
-                            <!-- <li><a href="http://www.ics.uci.edu/grad/phddirectory/index.php">&raquo; Recruit graduate student</a></li> -->
-                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->                            
-                            <li><a href="/grad/sao/index.php">&raquo; Contact a counselor</a></li>
-                            <li><a href="http://www.housing.uci.edu/prospective/graduate/index.asp">&raquo; Graduate housing</a></li>
-                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
-                            <li><a href="/about/visit/index.php">&raquo; Visit the Bren School</a></li>
-                            </ul>
-                        </li>
-                        
-                        <li><a href="/ugrad/">&raquo; Undergraduate</a>
-                        
-                            <ul>                        
-                            <!-- <li><a href="/ugrad/admissions/index.php">&raquo; Apply</a></li>                       
-                            <li><a href="/ugrad/events/index.php">&raquo; Campus visits</a></li>
-                            -->
-                            <li><a href="http://www.ics.uci.edu/~lab/">&raquo; Computer lab information</a></li>
-                            <li><a href="/computing/account/new.php">&raquo; Computing support</a></li>
-                            <li><a href="/ugrad/sao/index.php">&raquo; Contact a counselor</a></li>
-                            <li><a href="/ugrad/courses/index.php">&raquo; Course listings</a></li>                     
-                            <li><a href="/ugrad/degrees/index.php">&raquo; Degrees</a></li>
-                            <li><a href="/ugrad/qa/index.php">&raquo; FAQ</a></li>
-                            <li><a href="/ugrad/financial/index.php">&raquo; Financial aid</a></li>                         
-                            <li><a href="http://honors.ics.uci.edu/">&raquo; Honors program</a></li>
-                            <li><a href="http://www.housing.uci.edu/">&raquo; Housing</a></li>
-                            <li><a href="/ugrad/internship/">&raquo; Internship program</a></li>                         
-                            <li><a href="/ugrad/policies/index.php">&raquo; Policies</a></li>
-                            <!-- <li><a href="http://www.ics.uci.edu/hitec">&raquo; Product competition</a></li> -->
-                            <!-- <li><a href="http://www.dos.uci.edu/orientation/">&raquo; Recently admitted</a></li> -->
-                            <li><a href="http://student-council.ics.uci.edu/">&raquo; Student Council</a></li>
-                            <li><a href="/ugrad/life/index.php">&raquo; Student life</a></li>   
-                            <li><a href="/ugrad/resources/index.php">&raquo; Student resources</a></li>
-                            <li><a href="/ugrad/internship/">&raquo; Summer internships</a></li>
-                            <li><a href="https://techjobs.uci.edu/">&raquo; Tech Jobs</a></li>
-                            <li><a href="http://www.ofas.uci.edu/content/costs.aspx?nav=1">&raquo; Tuition and costs</a></li>
-                            </ul>
-                        </li>
-                        
-                        
-                        <li><a href="http://www.ics.uci.edu/prospective">&raquo; Prospective undergrad</a></li>
-
-
-                        <li><a href="http://www.parents.uci.edu/">&raquo; UCI parents</a></li>
-                        
-                                                    
-                    </ul>               
-                </li>
-
-    
-                <li>
-                    
-                    <a href='#' title='people'>&raquo; People</a>                      
-                    
-                
-                    <ul>
-                        <li><a href="/faculty/">&raquo; Faculty</a></li>
-                        <li><a href="/about/search/index.php">&raquo; Staff</a></li>
-                        <li><a href="/about/search/search_graduate_all.php">&raquo; Graduate students</a></li>
-                    </ul>   
-                </li>
-                                
-                
-                <li> 
-                
-                    <span id=specialborder><a href='#' title='community'>&raquo; Community</a></span>                    
-                    <ul>
-                        <li><a href="/community/alumni/">&raquo; Alumni</a></li>
-                        <li><a href="/community/friends/">&raquo; Friends</a></li>
-                        <li><a href="http://www.uadv.uci.edu/parents/">&raquo; Parent programs</a></li>
-                        <li><a href="/community/friends/leadershipcouncil/">&raquo; Leadership Council</a></li>
-                        <li><a href="http://www.uadv.uci.edu/DonaldBrenSchoolOfICSAnnualGiving">&raquo; Make a gift</a></li>
-                        <li><a href="/community/news/">&raquo; News</a></li>
-                    </ul>   
-                </li>
-
-                <li>
-                
-                    <a href='/involved/' title='get involved'>&raquo; Get Involved</a>              
-                
-                
-                    <ul>
-                    
-                            <LI><A HREF="/involved/tech_talk">&raquo; Tech talks</A></LI>
-                            <LI><A HREF="/involved/information_session">&raquo; Information sessions</A></LI>
-                            <!--<LI><A HREF="/involved/">&raquo; Join industry panel</A></LI>-->
-                            <LI><A HREF="/involved/project_class">&raquo; Sponsor projects</A></LI>
-                            <LI><A HREF="/involved/leadership_council">&raquo; Leadership Council</A></LI>
-                            <LI><A HREF="/involved/corporate_partner">&raquo; Corporate Partners</A></LI>
-                            <LI><A HREF="/involved/internship">&raquo; Sponsor interns</A></LI>
-                            <LI><A HREF="https://techjobs.uci.edu/">&raquo; Tech Jobs</A></LI>
-                            <!--<LI><A HREF="">&raquo; Support student groups</A></LI>-->
-                            <LI><A HREF="/community/events/butterworth/">&raquo; Butterworth Competition</A></LI>
-                            
-                    </ul>               
-                </li>
-                
-                    
-
-            </ul>
-
-<style type="text/css">@import url("/bin/icssearchstyle/css/icssearch.css");</style>
-<script src="/bin/icssearchstyle/js/icssearch.js" type="text/javascript"></script>
-<script src="/bin/icssearchstyle/js/icssearchform.js" type="text/javascript"></script>
-
-
-
-    </div>
-<!-- before breadcrumb_nav() print -->
-<div class="bread" id="breadcrumbs"><!-- starting function breadcrumb_nav --><!-- done with function breadcrumb_nav, going to return [<A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/news/">News</a> &gt; <a href="http://www.ics.uci.edu/community/news/articles/">Articles</a>] --><A HREF="/">Bren school home</A> &gt; <a href="http://www.ics.uci.edu/community/">Community</a> &gt; <a href="http://www.ics.uci.edu/community/news/">News</a> &gt; <a href="http://www.ics.uci.edu/community/news/articles/">Articles</a></div>
-<!-- after breadcrumb_nav() print -->
-
-<div id="content"><a id="startcontent" name="startcontent"></a>  
-<div id="content_title"></div>
-
-<blockquote>
-<div id="content_text">
-
-<br/>
-
-<!-- inc publications_db -->
-
- <strong>April 20,  2006</strong><p><i>The Orange County Register</i><p><strong>UCI students bring female perspective to gaming</strong><p><strong>By: Greg Hardesty</strong><br><p><i>UCI students bring female perspective to gaming
-Computer students bring female perspective to male-dominated field.</i><p><i>Bam! Splat! Kaboom!</i><p>Four young women are sitting around a 19-inch computer monitor in their apartment at UC Irvine, taking a figurative axe to the male-dominated, blood-and-guts world of computers and gaming.<p>"I've been told that girls can't do computer science," says Tam Dang "Tammy" Phan, 20. "I want to prove them wrong."<p><i>Ooof!</i><p>"A lot of (girls) think computer science is voodoo - some kind of magic that only guys can understand," says Phan's friend, Lu Qian "Lucy" Zheng, 20.<p><i>Pow!</i><p>In a couple of days, Phan, Zheng and two other juniors in UCI's Donald Bren School of Information and Computer Sciences will find out if they've won a national competition as challenging as any online adventure.<p>The four friends spent three months, between regular classes, designing a computer role-playing game meant to be fun and appealing for middle- and high-school girls - a task that mirrors a broad effort at UCI to blast misconceptions that computer science is a stagnant career and best suited for guys.<p>Wrong and wrong, scholars say.<p>"It's not as scary as it looks," Zheng says as Phan, Ray Ray Shen, 20, and Elizabeth "Lizzy" Kim, 21, watched their entry in the Games 4 Girls competition load on the computer.<p>Their text-based "Eterative (a made-up word from the word iterative) Tale" centers on a "determined and sentimental young lady" named Biyuka whose goal is to achieve the highest rank of scholar as a conflict between a queen and an anti-queen alliance brews.<p>Players take a personality quiz, answer multiple-choice questions and perform tasks that determine which events and characters Biyuka faces.<p><i>Rat-a-tat-tat!</i><p>No bloodshed and loud special effects here - just lots of decision-making to the strains of pretty instrumental music.<p>High-school girls will play "Eterative Tale" and seven other final entries and help choose a winner Saturday at the University of Illinois, Urbana-Champaign. Each member of the winning team will get $1,000.<p>The money would be nice, the UCI students say. But so would having more intelligent and fun options for female gamers.<p>"We didn't want 'Barbie Goes Shopping' or 'Barbie Goes Scuba Diving,'" says Shen, the main artist on the team, dubbed AssemblyLine. "We went for something deeper and more meaningful."<p><b>MISCONCEPTIONS</b><br>
-Go ahead, the professor practically dares the visitor. Call me a geek.<p>Andre van der Hoek, an associate professor of informatics in UCI's School of ICS, does not say this. But he's tired of the image of ICS being a guy hunched over a keyboard.<p>"That's what they're hearing in high schools," he said. "But that's not the reality."<p>Computer science is much more than programming, van der Hoek said, with emerging specialties such as human-computer interaction and game culture.<p>Three years ago, van der Hoek and ICS Dean Debra Richardson created the "informatics" major within ICS, a discipline where students learn how to design and develop software applications for use in the real world.<p>The glamour days of the dot-com boom are gone, van der Hoek says, but it's still a good time to get a college degree in computer science.<p>"There will be 1.5 million new jobs in information technology and computer sciences over the next 10 years," he says, citing the U.S. Bureau of Labor Statistics. Salaries range from about $44,000 to $100,000.<p>What about women in ICS?<p>Van der Hoek says his female students tend to be less confident about their abilities - even the ones getting straight As.<p>Female role models help. Compared to other universities, UCI has a lot of them. In the school's computer sciences and informatics departments, one-quarter of the professors are women - double the national average.<p>What's more, the dean of the Bren School of ICS is a woman, as is one of the three department chairs.<p>Still, the quest to get more females interested in computer sciences continues. Enter competitions such as Games 4 Girls.<p><b>NOT 'NUTS'</b><br>
-Kim, Phan, Shen and Zheng met in the dorm their first year at UCI.<p>Female ICS students quickly get to know each other, since they stand out among the roughly 1,000 undergraduates. Organizations like Women in Information and Computer Science help foster a sense of community.<p>The apartment three of the four share is girl-zone central. Stuffed animals line shelves and a couch.<p>Zheng and Shen recruited Kim and Phan to help design the game after hearing about the competition.<p>"We thought, 'Why not give it a shot?'" says Zheng, who attended Arcadia High School.<p>Zheng was the main programmer.<p>Phan, from Fountain Valley, primarily handled music editing. Kim, from Hacienda Heights, was the script editor.<p>The personalities of the four women were models for some of the characters: Zheng is the knowledgeable, independent and introspective one; Phan is the bear-loving "girly girl," cute and bubbly; Kim is innocent and pure; and Shen, who grew up in Rowland Heights, is quiet, mysterious and independent.<p>The students each spent about 500 hours working on the game. As the deadline to turn it in approached, sleep time was greatly affected, and some classes were cut.<p>"It was much harder to do than we expected," Zheng said.<p>The women applied a lot of what they're learning in class to creating the game, which was developed using the GameMaker platform for PCs. Phan, Kim, Zheng and Shen hop on a plane Friday to Illinois - with tickets paid for by UCI's Undergraduate Research Opportunities Program and the ICS department.<p>Judges will look at originality, creativity, technical achievement and whether the game is fun.<p>Whether they win or not, the members of AssemblyLine said they're happy to be ICS majors.<p>"What, are you nuts?" Shen recalled people saying when she announced she was going to UCI to study computer science - the only girl in her graduating high-school class of 500 to pick that major, she said.<p>Kim always has been passionate about computer games.<p>Phan, who went to Mater Dei High School in Santa Ana, loves computer graphics and Zheng's father works in the computer industry.<p>"You learn problem-solving skills as an ICS major," Shen said. "Failure is normalcy.<p>"These are lessons that apply throughout life: Keep trying. Be determined. Never give up."<br><TITLE>UCI students bring female perspective to gaming</TITLE>
-
-</div>
-</blockquote>
-</div>
-<div id="sidebar"><div id="sidebar_title">More community &#187;</div>
-<ul>
-<li><a href="../../alumni/index.php">Alumni</a></li>
-<li><a href="../../friends/index.php">Friends</a></li>
-<li><a href="http://www.parents.uci.edu/">Parents</a></li>
-<li><a href="../../friends/leadershipcouncil/index.php">Leadership Council</a></li>
-<li><a href="../index.php">News</a></li>
-<li><a href="https://ua-web.uadv.uci.edu/eGiving/">Give a gift</a></li>
-</ul>
-<div>
-<div id="sidebar_title">More news and events &#187;</div>
-<ul>
-<li><a href="../press/index.php">Press
- releases</a></li>
-<a href="http://www.ics.uci.edu/community/news/press/index.php">				</a>
-<li><a href="index.php">In the 
-news</a></li>
-<li><a href="../notes/index.php">Noteworthy
- achievements</a></li>
-<a href="http://www.ics.uci.edu/community/news/notes/index.php">				</a>
-<li><a href="http://www.youtube.com/UCIBrenICS">Video highlights</a></li>
-<li><a href="../spotlight/index.php">Spotlight</a></li>
-<li><a href="http://calendar.ics.uci.edu/calendar.php">Calendar of 
-events</a></li>
-</ul>
-<!-- -->
-<!-- -->
-<!-- -->
-<!--
-<div id="sidebar_title">Noteworthy archive &#187;</div>
-<ul>
-<li><a href="/ICS/ics/community/news/notes/notes_2009">2009</a></li>
-<li><a href="/ICS/ics/community/news/notes/notes_2008">2008</a></li>
-<li><a href="/ICS/ics/community/news/notes/notes_2007">2007</a></li>
-<li><a href="/ICS/ics/community/news/notes/notes_2006">2006</a></li>
-<li><a href="/ICS/ics/community/news/notes/notes_2005">2005</a></li>
-<li><a href="/ICS/ics/community/news/notes/notes_2004">2004</a></li>
-</ul>
-</div>
---></div></div>
-<div id="footer"><a href="http://www.uci.edu/copyright.php">Copyright Inquiries</a> |
-   <a href="http://www.uci.edu/cgi-bin/phonebook">UCI Directory</a> |
-   <a href="http://intranet.ics.uci.edu/">Intranet</a> |
-   
-   <!-- <a href="http://www.ics.uci.edu/sitemap.php">Site Map</a> | -->
- 
-  <a href="mailto: i%63%73%77%65%62m%61s%74%65r@%69c%73%2e%75c%69%2eedu">icswebmaster</a> |
-Updated: 
-October 17 2013</div>
-</div>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-605898-1");
-pageTracker._trackPageview();
-</script>
-</body>
-</html>

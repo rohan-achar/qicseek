@@ -9,7 +9,7 @@
     <meta name="author" content="">
    
 
-    <title>qICSeek</title>
+    <title>libSeek</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -27,15 +27,22 @@
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand">qICSeek</a>
+          <a class="navbar-brand">libSeek</a>
           <div class='search-option'>
             <vr></vr>
-            <label>Ranking :&nbsp;</label>
-            <select id="rankTypeSelect">
-              <option value='cosine-position-pg-tf-idf'>Secret sauce</option>
-              <option value='cosine-pg-tf-idf'>Cosine, tf-idf * PageRank</option>
-              <option value='cosine'>Cosine similarity</option>
-              <option value='tf-idf'>TF-IDF</option>
+            <label>Target OS :&nbsp;</label>
+            <select id="targetOSSelect">
+              <option value='all'>All</option>
+              <option value='Windows'>Windows</option>
+              <option value='Linux'>Linux</option>
+              <option value='Android'>Android</option>
+            </select>
+            <vr></vr>
+            <label>Language :&nbsp;</label>
+            <select id="languageSelect">
+              <option value='all'>All</option>
+              <option value='python'>Python</option>
+              <option value='java'>Java</option>
             </select>
           </div>
           <div class='search-option'>
@@ -64,7 +71,7 @@
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-          <div id='searchResults' class="col-md-9"><h2>Your ICS search results will appear here!</h2></div>
+          <div id='searchResults' class="col-md-9"><h2>Your software libraries search results will appear here!</h2></div>
           <div id='searchMetrics' class="col-md-3"></div>      
       </div>
 

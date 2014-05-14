@@ -12,25 +12,23 @@ from math import log10
 from sets import Set
 
 src = "../FinalSet/"
-htmlPath = src + "Html/"
 list_of_bad_files = []
 picklefile = src + "IndexPickle.json"
-docidfile = src + "DocIdNew.tsv"
-pagerankfile = src + "pagerank.tsv"
-docidjson = src + "docIdLoaded.json"
-hashfile = src + "HashFile.json"
-oraclefile = src + "google-oracle-filtered.json"
 formulafile = src + "secretingredient.txt"
-docdict = {}
+hashfile = src + "hashfile.pickle"
+repodict = {}
 stops = {}
-ndcgDict = {}
-snippetDict = {}
 MAX_NUM_RESULTS = 10
 RELEVANCE_SPREAD = 2.0 # For 10 terms => google relevance scores = [5,5,4,4,3,3,2,2,1,1]
 SIZE_TO_CHECK = 30
 wnl = nltk.WordNetLemmatizer()
 
 def LoadTrie():
+    global repodict
+    f = open(src + "AllLibs.json", "r")
+    repodict = json.load(f)
+    f.close()
+
     stops = dict([(i , 1) for i in "a a's   able    about   above   according accordingly   across  actually    after   afterwards again    against ain't   all allow allows    almost  alone   along   already also    although    always  am  among amongst   an  and another any anybody anyhow  anyone  anything    anyway anyways  anywhere    apart   appear  appreciate appropriate  are aren't  around  as aside    ask asking  associated  at available    away    awfully be  became because  become  becomes becoming    been before beforehand  behind  being   believe below   beside  besides best    better between  beyond  both    brief   but by  c'mon   c's came    can can't   cannot  cant    cause   causes certain  certainly   changes clearly co com  come    comes   concerning  consequently consider   considering contain containing  contains corresponding  could   couldn't    course  currently definitely    described   despite did didn't different    do  does    doesn't doing don't done    down    downwards   during each edu eg  eight   either else elsewhere   enough  entirely    especially et   etc even    ever    every everybody everyone    everything  everywhere  ex exactly  example except  far few fifth   first   five    followed    following follows   for former  formerly    forth four  from    further furthermore get gets    getting given   gives   go goes going   gone    got gotten greetings    had hadn't  happens hardly has  hasn't  have    haven't having he   he's    hello   help    hence her   here    here's  hereafter   hereby herein   hereupon    hers    herself hi him  himself his hither  hopefully how   howbeit however i'd i'll i'm    i've    ie  if  ignored immediate   in  inasmuch    inc indeed indicate indicated   indicates   inner   insofar instead into    inward  is  isn't it    it'd    it'll   it's    its itself  just    keep    keeps   kept know   known   knows   last    lately later    latter  latterly    least   less lest   let let's   like    liked likely    little  look    looking looks ltd   mainly  many    may maybe me    mean    meanwhile   merely  might more  moreover    most    mostly  much must   my  myself  name    namely nd   near    nearly  necessary   need needs  neither never   nevertheless    new next    nine    no  nobody  non none    noone   nor normally    not nothing novel   now nowhere obviously of    off often   oh  ok okay old on  once    one ones    only    onto    or  other others    otherwise   ought   our ours ourselves  out outside over    overall own particular  particularly    per perhaps placed  please  plus    possible    presumably probably provides    que quite   qv rather   rd  re  really  reasonably regarding    regardless  regards relatively  respectively right  said    same    saw say saying  says    second  secondly    see seeing  seem    seemed  seeming seems seen  self    selves  sensible    sent serious    seriously   seven   several shall she   should  shouldn't   since   six so  some    somebody    somehow someone something   sometime    sometimes   somewhat    somewhere soon  sorry   specified   specify specifying still    sub such    sup sure t's    take    taken   tell    tends th    than    thank   thanks  thanx that  that's  thats   the their theirs    them    themselves  then    thence there    there's thereafter  thereby therefore therein   theres  thereupon   these   they they'd they'll they're they've think third this    thorough    thoroughly  those though    three   through throughout  thru thus   to  together    too took toward towards tried   tries   truly try   trying  twice   two un under    unfortunately   unless  unlikely    until unto  up  upon    us  use used    useful  uses    using   usually value   various very    via viz vs  want    wants   was wasn't way  we  we'd    we'll   we're we've welcome well    went    were weren't    what    what's  whatever    when whence whenever    where   where's whereafter whereas  whereby wherein whereupon   wherever whether    which   while   whither who who's   whoever whole   whom    whose why   will    willing wish    with within without won't   wonder  would wouldn't  yes yet you you'd you'll    you're  you've  your    yours yourself  yourselves  zero".split()])
     print(len(stops))    
     start = time.clock()
@@ -105,13 +103,11 @@ def LoadTrie():
         print("Best lookup: ", timing[-1][1], " ", timing[-1][0], " secs")
         print("Avg lookup: ", avg, " secs")
 
-def conflatedDocids(result,rankingType): # Ranking based on TF-IDF
+def conflatedDocids(result,rankingType): # Ranking based on TF-IDF result [(word, repodatalist, position)]
     if (len(result) == 1):
-            snippetDict[result[0][0]] = {}
             postingslist = []
             for i in result[0][1]:
-                snippetDict[result[0][0]][i[0]] = {result[0][0]: i[3]}
-                postingslist.append((i[0], docdict[i[0]][2], int(i[2])))
+                postingslist.append((i[0], 1, int(i[2]))) #[(name, 1, wtfidf)]
             return postingslist
     interset = 0
     docidtfsum = {}
@@ -120,7 +116,7 @@ def conflatedDocids(result,rankingType): # Ranking based on TF-IDF
             if i[0] not in docidtfsum:
                 docidtfsum[i[0]] = 0
             docidtfsum[i[0]] += int(i[2])
-
+    '''
     if(rankingType == 'tf-idf'):
         starting = True
         for item in result:
@@ -133,16 +129,17 @@ def conflatedDocids(result,rankingType): # Ranking based on TF-IDF
             else:
                 #interset = interset.intersection(sets.Set(setlist))
                 interset = interset.union(sets.Set(setlist))
-        return [(i, docdict[i][2], docidtfsum[i]) for i in list(interset)]
+        return [(i, 1, docidtfsum[i]) for i in list(interset)]
     elif(rankingType == 'cosine'):
         return cosineSimilarDocs(result, {})
     elif(rankingType == 'cosine-pg-tf-idf'):
         return cosineSimilarDocs(result, docidtfsum)
     elif(rankingType == 'cosine-position-pg-tf-idf'):
         return cosineSimilarDocs(result, docidtfsum, len(result[0][1][0]) == 4)
+    '''
+    return cosineSimilarDocs(result, docidtfsum, False)
 
 def cosineSimilarDocs(indexPostingList, docidtfsum, usePositions = False):
-    global snippetDict
     queryVector = {}
     docVectors = {}
     docTermPosMap = {} 
@@ -171,7 +168,6 @@ def cosineSimilarDocs(indexPostingList, docidtfsum, usePositions = False):
             else:
                 docVectors[doc[0]] = {term: doc[2]}
         termList.append(term)
-    snippetDict["".join(termList)] = docTermPosMap
 
     if shouldCheck:
         for doc in docTermPos:
@@ -198,7 +194,7 @@ def cosineSimilarDocs(indexPostingList, docidtfsum, usePositions = False):
 
 
     for term in queryTermTfDict:
-        queryVector[term] = round((1+math.log(queryTermTfDict[term][0],10)) * math.log(len(docdict)/queryTermTfDict[term][1],10),1)
+        queryVector[term] = round((1+math.log(queryTermTfDict[term][0],10)) * math.log(len(repodict)/queryTermTfDict[term][1],10),1)
 
     # Sample vectors
     # queryVector = {'sivabalan': 4.0, 'rohan': 3.7}
@@ -206,8 +202,8 @@ def cosineSimilarDocs(indexPostingList, docidtfsum, usePositions = False):
     # u'41475': {'sivabalan': 5.9, 'rohan': 5.4}, u'41449': {'rohan': 5.4}, u'41464': {'sivabalan': 5.9, 'rohan': 5.4}, u'20464': {'sivabalan': 4.5, 'rohan': 5.4}}
 
     if docidtfsum == {}:
-        return [(i, docdict[i][2], docLeastDiff[i], calculateCosineSimilarity(queryVector, docVectors[i])) for i in docVectors if len(docVectors[i]) == len(queryVector)]
-    return [(i, docdict[i][2], docidtfsum[i], docLeastDiff[i], calculateCosineSimilarity(queryVector, docVectors[i])) for i in docVectors if len(docVectors[i]) == len(queryVector)]
+        return [(i, 1, docLeastDiff[i], calculateCosineSimilarity(queryVector, docVectors[i])) for i in docVectors if len(docVectors[i]) == len(queryVector)]
+    return [(i, 1, docidtfsum[i], docLeastDiff[i], calculateCosineSimilarity(queryVector, docVectors[i])) for i in docVectors if len(docVectors[i]) == len(queryVector)]
 
 def calculateCosineSimilarity(vector1, vector2):
     dotProduct = 0
@@ -268,119 +264,37 @@ def rankResults(result):
     #return sorted(sorted(result, key = lambda x:x[1], reverse = True), key = lambda x:x[2], reverse = True)
     #return result
 
-def docidLoader():
-    global docdict
-    if os.access(docidjson, os.F_OK):
-        docdict = json.load(open(docidjson, "rb"))
-        return
-    pagerankreader = open(pagerankfile, "r")
-    pgrank = {}
-    for pg in pagerankreader:
-        pgparts = pg.split()
-        pgrank[pgparts[0]] = float(pgparts[1])
-    for line in open(docidfile, "r").read().split("#456#"):
-        parts = line.split("#123#")
-        p = 0.0
-        if parts[0] in pgrank:
-            p = pgrank[parts[0]]
-        try:
-            docdict[parts[0]] = (parts[1], parts[2], p, " ".join(parts[3:]).strip())
-        except IndexError:
-            print(parts)
-    json.dump(docdict, open(docidjson, "wb"))
-    print(len(docdict))
-
-def ndcgLoader():
-    global ndcgDict
-    if os.access(oraclefile, os.F_OK):
-        ndcgDict = json.load(open(oraclefile, "rb"))
-        return
-    return False
-
-def getResultsWithNDCG(result,qText): # Assumption: qText is present in NDCG Dict
-    dcgValue = -1
-    idealDCGValue = 0
-    
-    for i in range(MAX_NUM_RESULTS):
-        relevance = 0
-        rank = i+1
-        if(result["results"][i]["url"] in ndcgDict[qText]):
-            relevance = math.ceil((MAX_NUM_RESULTS - ndcgDict[qText].index(result["results"][i]["url"]))/RELEVANCE_SPREAD) 
-        if rank == 1:
-            dcgValue = relevance
-        else:
-            dcgValue += relevance/math.log(rank,2)
-        idealDCGValue += math.ceil((MAX_NUM_RESULTS - i)/RELEVANCE_SPREAD)
-        result["ndcg_values"].append(round(dcgValue/idealDCGValue,2))
-    
-    return result
-
-
 def resultsList(result):
     urls = {"results":[],"ndcg_values":[]}
     count = 0
     for item in result:
-        if item[0] in docdict and "http://vcp.ics.uci.edu" not in docdict[item[0]][0]:
-            d = {}
-            d["docid"] = item[0]
-            d["title"] = docdict[item[0]][3]
-            d["url"] = docdict[item[0]][0]
-            d["snippet"] = []
-            d["score"] = item[2]
-            d["pagerank"] = item[1]
-            d["sortscore"] = list(item)
-            urls["results"].append(d)
-            count +=1
+        d = {}
+        d["lib_name"] = item[0]
+        d["repo_count"] = item[1]
+        urls["results"].append(d)
+        count +=1
         if count == MAX_NUM_RESULTS: # Limit number of results to return
             break
     return urls
 
-def addPageSnippets(queryTermSet,urlObjects, hashtokens):
-    ## 
-    newresults = []
-    for urlObj in urlObjects["results"]:
-        tempHtml = open(htmlPath + docdict[urlObj["docid"]][1], "r", encoding = "utf-8").read()
-        htmlfile = nltk.util.clean_html(tempHtml)
-        tokens = nltk.word_tokenize(htmlfile)
-        positions = snippetDict[hashtokens]
-        list_of_pos = []
-        if urlObj["docid"] in positions:
-            [list_of_pos.extend(positions[urlObj["docid"]][j]) for j in positions[urlObj["docid"]]]
-            list_of_pos.sort()
-            prevStart = -1
-            prevEnd = -1
-            sentcount = 0
-            sentences = []
-            for k in list_of_pos:
-                if sentcount == 5:
-                    break
-                if k >= len(tokens):
-                    continue
-                if k >len(tokens) - 5:
-                    upper = len(tokens)
-                else:
-                    upper = k + 5
-                if k < 5:
-                    lower = 0
-                else:
-                    lower = k - 5
+def GetTopLibraries(results):
+    libdict = {}
+    for item in results:
+        f = open(src + "repoData/" + item[0] + "/libs-new.json", "r")
+        libdata = json.load(f)["libs"]
+        for lib in libdata:
+            if lib not in libdict:
+                libdict[lib] = 0
+            libdict[lib] += 1
+        f.close()
 
-                sentence = " ".join(tokens[lower:upper])
-                for j in positions[urlObj["docid"]]:
-                    sentence = sentence.lower().replace(j, u"<b>" + j + u"</b>")
-                if lower >= prevStart and lower <= prevEnd:
-                    sentences[sentcount-1] = sentence
-                else:
-                    sentences.append(sentence)
-                    sentcount += 1 
-                    prevStart = lower
-                    prevEnd = upper   
-        urlObj["snippet"] = sentences
-        newresults.append(urlObj)
-    urlObjects["results"] = newresults
-    return urlObjects
-    
+    liblist = []
+    for key in libdict:
+        liblist.append((key, libdict[key]))
 
+    liblist.sort(key = lambda x: x[1]*x[1]/repodict[x[0]], reverse = True)
+    return liblist
+        
 
 
 def GetResult(query,rankingType):
@@ -392,24 +306,23 @@ def GetResult(query,rankingType):
     
     result = []
 
-    global snippetDict
     finaltoken = []
     
     for i in range(len(tokens)):
         word = tokens[i]
         data = Trie.GetNearestMatchFromTrie(word)
+        # data[0] -> bool result
+        # data[1][0] -> number of repositories found in.
+        # data[1][1] -> list of repositories
+        #               x -> repo
+        #                   name, freq, wtfidf
         if (data[0]):
-            result.append((word, data[1][1], i))
+            result.append((word, data[1][1], i)) 
             finaltoken.append(word)
-    hashtoken = "".join(finaltoken)
-    snippetDict[hashtoken] = {}
     if result != []:
-        finalresult = resultsList(rankResults(normalize(conflatedDocids(result,rankingType)))) # Ranking based on TF-IDF/Cosine similarity
+        finalresult = resultsList(GetTopLibraries(rankResults(normalize(conflatedDocids(result, rankingType))))) # Ranking based on TF-IDF/Cosine similarity
+
         timetaken = time.clock() - start
-        if(query in ndcgDict):
-            finalresult = getResultsWithNDCG(finalresult,query)
-        if(len(snippetDict[hashtoken]) > 0):
-            finalresult = addPageSnippets(tokenSet,finalresult,hashtoken)
         print("Fetched in ", timetaken, " secs")
         return(finalresult)
         
